@@ -1,0 +1,3 @@
+document_number,question,ground_truth,llm_response,level
+217,Where is KELTIC FINANCIAL PARTNERS II LP located?,580 White Plains Road Suite 610 Tarrytown NY 10591,"The text does not explicitly state the location of KELTIC FINANCIAL PARTNERS II LP, but it mentions that the Loan and Security Agreement was negotiated in the State of New York and made by Lender and accepted by Borrower in the State of New York. This suggests that KELTIC FINANCIAL PARTNERS II LP is located in New York.",1
+217,Which organization is located at 580 White Plains Road Suite 610 Tarrytown NY 10591?,KELTIC FINANCIAL PARTNERS II LP,"Keltic Financial Partners II, LP",1

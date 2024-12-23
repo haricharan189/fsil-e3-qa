@@ -1,0 +1,312 @@
+@prefix loc: <http://example.org/location/> .
+@prefix org1: <http://example.org/organization/> .
+@prefix person: <http://example.org/person/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+loc:CAYMAN_ISLANDS_BRANCH a rdfs:Class ;
+    rdfs:subClassOf loc:Location .
+
+loc:Global_Trade_Operations a rdfs:Class ;
+    rdfs:subClassOf loc:Location .
+
+loc:LOS_ANGELES%5Cn%5CnBRANCH a rdfs:Class ;
+    rdfs:subClassOf loc:Location .
+
+loc:LOS_ANGELES_BRANCH a rdfs:Class ;
+    rdfs:subClassOf loc:Location .
+
+loc:LOS_ANGELES_BRANCH%2C a rdfs:Class ;
+    rdfs:subClassOf loc:Location .
+
+loc:Location a rdfs:Class .
+
+loc:Los_Angeles_Branch a rdfs:Class ;
+    rdfs:subClassOf loc:Location .
+
+loc:Los_Angeles_Branch%2C a rdfs:Class ;
+    rdfs:subClassOf loc:Location .
+
+loc:NEW_YORK_BRANCH%5Cn a rdfs:Class ;
+    rdfs:subClassOf loc:Location .
+
+loc:New_York_Agency%2C a rdfs:Class ;
+    rdfs:subClassOf loc:Location .
+
+loc:STAMFORD_BRANCH a rdfs:Class ;
+    rdfs:subClassOf loc:Location .
+
+org1:Administrative a rdfs:Class ;
+    rdfs:subClassOf org1:Agent,
+        org1:Agent%2C .
+
+org1:Agent a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+org1:Agent%2C a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+org1:Agents a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+org1:Arrangers a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+org1:BORROWER a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+org1:Bank a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+org1:Book a rdfs:Class ;
+    rdfs:subClassOf org1:Managers .
+
+org1:Book_Manager a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+org1:Bookrunners a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+org1:Borrower a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+org1:Cayman_Borrower a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+org1:Co-Documentation a rdfs:Class ;
+    rdfs:subClassOf org1:Agent .
+
+org1:Co-Syndication a rdfs:Class ;
+    rdfs:subClassOf org1:Agent,
+        org1:Agents .
+
+org1:Documentation a rdfs:Class ;
+    rdfs:subClassOf org1:Agent .
+
+<http://example.org/organization/Finnish_counsel_for_the_Initial_Finnish_Borrower.> a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+org1:GUARANTOR a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+org1:Guarantor a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+org1:Holdings a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+org1:Issuing a rdfs:Class ;
+    rdfs:subClassOf org1:Bank,
+        org1:Lender%2C .
+
+org1:L%2FC_Issuer a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+org1:LC_Issuer a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+org1:LENDER a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+org1:Lead a rdfs:Class ;
+    rdfs:subClassOf org1:Arrangers .
+
+org1:Lender a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+org1:Lender%2C a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+org1:Lenders a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+org1:Managers a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+org1:Organization a rdfs:Class .
+
+org1:Revolving a rdfs:Class ;
+    rdfs:subClassOf org1:Lender .
+
+org1:Subsidiary a rdfs:Class ;
+    rdfs:subClassOf org1:Borrower .
+
+org1:Swing_Line a rdfs:Class ;
+    rdfs:subClassOf org1:Lender .
+
+org1:Swingline a rdfs:Class ;
+    rdfs:subClassOf org1:Lender,
+        org1:Lender%2C .
+
+org1:Syndication a rdfs:Class ;
+    rdfs:subClassOf org1:Agents .
+
+org1:Term_Loan a rdfs:Class ;
+    rdfs:subClassOf org1:Lender .
+
+org1:U.S._counsel_for_the_initial_Borrowers.%5Cn a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+org1:US_Borrower a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+org1:counsel_to_the_Borrower a rdfs:Class ;
+    rdfs:subClassOf org1:Organization .
+
+<http://example.org/person/%5CnAuthorized_Signatory> a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+<http://example.org/person/%5CnSenior_Vice_President> a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+<http://example.org/person/%5CnVice_President> a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Account_Representative a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Assistant_Secretary a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Assistant_Vice_President a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Assistant_Vice_President%5Cn a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Associate a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Associate_Director a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Attorney-in-Fact a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Authorized_Signatory a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Authorized_Signatory%5Cn a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Chairman a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Chairman_of_the_Board a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Chief_Executive%5Cn%C2%A0%5Cn%C2%A0%5CnOfficer a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Chief_Executive_Officer a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Chief_Financial_Officer a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Corporate_Banking%2C_Directo a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Credit_Documentation_Manager a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Credit_Executive a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Director a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Director_and_Senior_Relationship_Manager a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:EVP_%C2%96_Corporate_%26_Commercial_Banking%5Cn a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Executive_Director a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Executive_Vice_President a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:General_Counsel a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:General_Manager a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:General_Manager%5Cn a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Manager a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Managing_Director a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Managing_Director%5Cn a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Officer a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Person a rdfs:Class .
+
+person:President a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:S.V.P._%26_General_Manager a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:SVP a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:SVP_%26_Branch_Manager a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:SVP_%26_COO a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:SVP_%26_General_Manager a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:SVP_and_Branch_Manager a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Secretary a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Senior_Vice_President a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Servicing_Officer a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Sr._VP a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Treasurer a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:VP a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:VP_%26_Deputy_General_Manager a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:VP_%26_General_Manager a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:VP_%26_General_Manager%5Cn a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:VP_Credit_and_Documentation a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Vice_President a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Vice_President%5Cn a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+
+person:Vice_President_%26_General_Manager a rdfs:Class ;
+    rdfs:subClassOf person:Person .
+

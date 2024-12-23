@@ -1,0 +1,391 @@
+@prefix loc: <http://example.org/location/> .
+@prefix org1: <http://example.org/organization/> .
+@prefix person: <http://example.org/person/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+person:Assistant_Vice_President%5Cn a rdfs:Class .
+
+person:Associate_Director a rdfs:Class .
+
+person:Authorized_Signatory a rdfs:Class .
+
+person:Chief_Financial_Officer a rdfs:Class .
+
+person:Corporate_Banking%2C_Directo a rdfs:Class .
+
+person:Credit_Documentation_Manager a rdfs:Class .
+
+person:Credit_Executive a rdfs:Class .
+
+person:Director a rdfs:Class .
+
+person:Director_and_Senior_Relationship_Manager a rdfs:Class .
+
+person:EVP_%C2%96_Corporate_%26_Commercial_Banking%5Cn a rdfs:Class .
+
+person:General_Counsel a rdfs:Class .
+
+person:General_Manager a rdfs:Class .
+
+person:Managing_Director a rdfs:Class .
+
+person:S.V.P._%26_General_Manager a rdfs:Class .
+
+person:SVP a rdfs:Class .
+
+person:SVP_%26_Branch_Manager a rdfs:Class .
+
+person:SVP_%26_COO a rdfs:Class .
+
+person:SVP_%26_General_Manager a rdfs:Class .
+
+person:SVP_and_Branch_Manager a rdfs:Class .
+
+person:Secretary a rdfs:Class .
+
+person:Senior_Vice_President a rdfs:Class .
+
+person:VP_%26_Deputy_General_Manager a rdfs:Class .
+
+person:VP_%26_General_Manager a rdfs:Class .
+
+person:VP_%26_General_Manager%5Cn a rdfs:Class .
+
+person:VP_Credit_and_Documentation a rdfs:Class .
+
+person:Vice_President a rdfs:Class .
+
+person:Vice_President_%26_General_Manager a rdfs:Class .
+
+<http://example.org/organization/AMERICAN_SAVINGS_BANK%2C_F.S.B.> a org1:Lender,
+        org1:Organization .
+
+org1:BANK_OF_AMERICA a org1:Lender,
+        org1:Organization .
+
+org1:BANNER_BANK a org1:Lender,
+        org1:Organization .
+
+org1:CHANG_HWA_COMMERCIAL_BANK%2C_LTD a org1:Lender,
+        org1:Organization .
+
+org1:COMERICA_BANK a org1:Lender,
+        org1:Organization .
+
+org1:COMPASS_BANK a org1:Lender,
+        org1:Organization .
+
+org1:FIFTH_THIRD_BANK a org1:Lender,
+        org1:Organization .
+
+org1:FIRST_HAWAIIAN_BANK a org1:Lender,
+        org1:Organization .
+
+org1:HSBC_BANK_PLC a org1:Lender,
+        org1:Organization .
+
+org1:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION a org1:Lender,
+        org1:Organization .
+
+org1:HUA_NAN_COMMERCIAL_BANK a org1:Lender,
+        org1:Organization .
+
+org1:KEYBANK_NATIONAL_ASSOCIATION a org1:Lender,
+        org1:Organization .
+
+org1:MANUFACTURERS_BANK a org1:Lender,
+        org1:Organization .
+
+org1:SUNTRUST_BANK a org1:Lender,
+        org1:Organization .
+
+org1:TD_BANK a org1:Lender,
+        org1:Organization .
+
+org1:THE%C2%A0BANK%C2%A0OF%C2%A0TOKYO-MITSUBISHI%C2%A0UFJ%2C%C2%A0LTD a org1:Lender,
+        org1:Organization .
+
+org1:THE_BANK_OF_NOVA_SCOTIA a org1:Lender,
+        org1:Organization .
+
+org1:THE_NORTHERN_TRUST_COMPANY a org1:Lender,
+        org1:Organization .
+
+org1:U.S._BANK_NATIONAL_ASSOCIATION a org1:Lender,
+        org1:Organization .
+
+org1:WELLS_FARGO_BANK%2C%5CnNATIONAL_ASSOCIATION a org1:Lender,
+        org1:Organization .
+
+person:Charles_De_Clapiers a person:Person .
+
+person:Eric_Chen a person:Person .
+
+person:Eugene_Dempsey a person:Person .
+
+person:Jeannette_Lu a person:Person .
+
+person:Johnetta_Bush a person:Person .
+
+person:Kang_Yang a person:Person .
+
+person:Lacy_Houstoun a person:Person .
+
+person:Mark_C._Skrzynski a person:Person .
+
+person:Maureen_P._Maroney a person:Person .
+
+person:Michael_Dixon a person:Person .
+
+person:Michael_Miller a person:Person .
+
+person:Michael_Ray a person:Person .
+
+person:Rian_DuBach a person:Person .
+
+<http://example.org/person/Richard_J._Ameny_Jr.> a person:Person .
+
+person:Richard_Ong_Pho a person:Person .
+
+person:Rita_E._Dillon a person:Person .
+
+person:Sandy_Lee a person:Person .
+
+person:Shibani_Faehnle a person:Person .
+
+person:Steve_Levi a person:Person .
+
+person:Steve_Ryan a person:Person .
+
+person:Susan_Takeda a person:Person .
+
+person:Suzanne_M._Rode a person:Person .
+
+person:Teresita_Siao a person:Person .
+
+person:Tim_Leyden a person:Person .
+
+loc:10_South_Dearborn_Street%2C_Floor_7%5Cn%5CnChicago%2C_IL_60603 a loc:Location ;
+    rel:isLocationOf <http://example.org/organization/%5CnJPMORGAN_CHASE_BANK> .
+
+loc:3355_Michelson_Drive%5Cn%5CnSuite_100%5Cn%5CnIrvine%2C_CA_92612 a loc:Location ;
+    rel:isLocationOf org1:WESTERN_DIGITAL_IRELAND%2C_LTD .
+
+<http://example.org/organization/%5CnBNP_PARIBAS> a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Todd_Rodgers .
+
+<http://example.org/organization/%5CnHUA_NAN_COMMERCIAL_BANK%2C_LTD> a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Shu-Fei_%28Sophia%29_Lin .
+
+<http://example.org/organization/%5CnTAIPEI_FUBON_COMMERCIAL_BANK_CO.%2C_LTD> a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Robin_S._Wu .
+
+org1:BANK_OF_CHINA a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Haiyong_Yang .
+
+org1:BANK_OF_TAIWAN a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Jane_Chang .
+
+org1:BANK_OF_THE_WEST a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Cecile_Segovia .
+
+org1:BRANCH_BANKING_AND_TRUST_COMPANY a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Elizabeth_Willi .
+
+org1:CITIBANK a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Joseph_Carrillo .
+
+org1:CTBC_BANK_CO.%2C_LTD a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Ralph_Wu .
+
+org1:DBS_BANK_LTD a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:James_McWalters .
+
+org1:LAND_BANK_OF_TAIWAN a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Henry_C._R._Leu .
+
+org1:MEGA_INTERNATIONAL_COMMERCIAL_BANK_CO.%2C_LTD a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Hsiao-Ho_Huang .
+
+org1:MIZUHO_BANK%2C_LTD a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Bertram_H._Tang .
+
+org1:PNC_BANK_NATIONAL_ASSOCIATION a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Matthew_D._Meister .
+
+org1:ROYAL_BANK_OF_CANADA a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Sheldon_Pinto .
+
+org1:SABADELL_UNITED_BANK a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Maurici_Llad%C3%B3 .
+
+org1:SUMITOMO_MITSUI_BANKING_CORP a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Shuji_Yabe .
+
+org1:TAIWAN_COOPERATIVE_BANK%2C_LTD a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Li-Hua_Huang .
+
+org1:WESTERN_DIGITAL_CORPORATION a org1:Guarantor,
+        org1:Holdings,
+        org1:Organization ;
+    rel:hasEmployee person:Timothy_Leyden .
+
+org1:WESTERN_DIGITAL_IRELAND%2C_LTD a org1:Cayman_Borrower,
+        org1:Organization ;
+    rel:hasLocationAt loc:3355_Michelson_Drive%5Cn%5CnSuite_100%5Cn%5CnIrvine%2C_CA_92612 .
+
+person:Andrew_Hietala a person:Person,
+        person:Senior_Vice_President ;
+    rel:isEmployedBy org1:WESTERN_DIGITAL_TECHNOLOGIES%2C_INC .
+
+person:Bertram_H._Tang a person:Authorized_Signatory,
+        person:Person ;
+    rel:isEmployedBy org1:MIZUHO_BANK%2C_LTD .
+
+person:Cecile_Segovia a person:Director_and_Senior_Relationship_Manager,
+        person:Person ;
+    rel:isEmployedBy org1:BANK_OF_THE_WEST .
+
+person:Danny_Leung a person:Person,
+        person:SVP_%26_COO ;
+    rel:isEmployedBy org1:THE_BANK_OF_EAST_ASIA%2C_LTD .
+
+person:Elizabeth_Willi a person:Person,
+        person:Vice_President ;
+    rel:isEmployedBy org1:BRANCH_BANKING_AND_TRUST_COMPANY .
+
+person:Haiyong_Yang a person:Person,
+        person:SVP_and_Branch_Manager ;
+    rel:isEmployedBy org1:BANK_OF_CHINA .
+
+person:Henry_C._R._Leu a person:Person,
+        person:S.V.P._%26_General_Manager ;
+    rel:isEmployedBy org1:LAND_BANK_OF_TAIWAN .
+
+person:Hsiao-Ho_Huang a person:Person,
+        person:SVP_%26_General_Manager ;
+    rel:isEmployedBy org1:MEGA_INTERNATIONAL_COMMERCIAL_BANK_CO.%2C_LTD .
+
+person:Ivan_Vera a person:Person,
+        person:VP_Credit_and_Documentation ;
+    rel:isEmployedBy org1:BANCO_DE_CREDITO_E_INVERSIONES .
+
+person:James_Hua a person:Person,
+        person:SVP ;
+    rel:isEmployedBy org1:THE_BANK_OF_EAST_ASIA%2C_LTD .
+
+person:James_McWalters a person:General_Manager,
+        person:Person ;
+    rel:isEmployedBy org1:DBS_BANK_LTD .
+
+person:Jane_Chang a person:Person,
+        person:VP_%26_General_Manager ;
+    rel:isEmployedBy org1:BANK_OF_TAIWAN .
+
+person:Johanna_Minaya a person:Associate_Director,
+        person:Person ;
+    rel:isEmployedBy org1:STANDARD_CHARTERED_BANK .
+
+person:Joseph_Carrillo a person:Person,
+        person:Vice_President ;
+    rel:isEmployedBy org1:CITIBANK .
+
+person:Juan_Segundo a person:Corporate_Banking%2C_Directo,
+        person:Person ;
+    rel:isEmployedBy org1:BANCO_DE_CREDITO_E_INVERSIONES .
+
+person:Keith_Winzenried a person:Credit_Executive,
+        person:Person ;
+    rel:isEmployedBy <http://example.org/organization/%5CnJPMORGAN_CHASE_BANK> .
+
+person:Li-Hua_Huang a person:Person,
+        person:VP_%26_General_Manager%5Cn ;
+    rel:isEmployedBy org1:TAIWAN_COOPERATIVE_BANK%2C_LTD .
+
+person:Matthew_D._Meister a person:Assistant_Vice_President%5Cn,
+        person:Person ;
+    rel:isEmployedBy org1:PNC_BANK_NATIONAL_ASSOCIATION .
+
+person:Maurici_Llad%C3%B3 a person:EVP_%C2%96_Corporate_%26_Commercial_Banking%5Cn,
+        person:Person ;
+    rel:isEmployedBy org1:SABADELL_UNITED_BANK .
+
+person:Ralph_Wu a person:Person,
+        person:SVP_%26_Branch_Manager ;
+    rel:isEmployedBy org1:CTBC_BANK_CO.%2C_LTD .
+
+person:Robert_K._Reddington a person:Credit_Documentation_Manager,
+        person:Person ;
+    rel:isEmployedBy org1:STANDARD_CHARTERED_BANK .
+
+person:Robin_S._Wu a person:Person,
+        person:VP_%26_Deputy_General_Manager ;
+    rel:isEmployedBy <http://example.org/organization/%5CnTAIPEI_FUBON_COMMERCIAL_BANK_CO.%2C_LTD> .
+
+person:Sheldon_Pinto a person:Authorized_Signatory,
+        person:Person ;
+    rel:isEmployedBy org1:ROYAL_BANK_OF_CANADA .
+
+person:Shu-Fei_%28Sophia%29_Lin a person:Person,
+        person:Vice_President_%26_General_Manager ;
+    rel:isEmployedBy <http://example.org/organization/%5CnHUA_NAN_COMMERCIAL_BANK%2C_LTD> .
+
+person:Shuji_Yabe a person:Managing_Director,
+        person:Person ;
+    rel:isEmployedBy org1:SUMITOMO_MITSUI_BANKING_CORP .
+
+person:Todd_Rodgers a person:Director,
+        person:Person ;
+    rel:isEmployedBy <http://example.org/organization/%5CnBNP_PARIBAS> .
+
+<http://example.org/organization/%5CnJPMORGAN_CHASE_BANK> a org1:Agent,
+        org1:L%2FC_Issuer,
+        org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Keith_Winzenried ;
+    rel:hasLocationAt loc:10_South_Dearborn_Street%2C_Floor_7%5Cn%5CnChicago%2C_IL_60603 .
+
+org1:BANCO_DE_CREDITO_E_INVERSIONES a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Ivan_Vera,
+        person:Juan_Segundo .
+
+org1:STANDARD_CHARTERED_BANK a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Johanna_Minaya,
+        person:Robert_K._Reddington .
+
+org1:THE_BANK_OF_EAST_ASIA%2C_LTD a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Danny_Leung,
+        person:James_Hua .
+
+org1:WESTERN_DIGITAL_TECHNOLOGIES%2C_INC a org1:Organization,
+        org1:US_Borrower ;
+    rel:hasEmployee person:Andrew_Hietala,
+        person:Timothy_Leyden .
+
+person:Timothy_Leyden a person:Chief_Financial_Officer,
+        person:Person ;
+    rel:isEmployedBy org1:WESTERN_DIGITAL_CORPORATION,
+        org1:WESTERN_DIGITAL_TECHNOLOGIES%2C_INC .
+

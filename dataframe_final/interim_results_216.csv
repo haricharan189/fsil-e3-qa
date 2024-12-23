@@ -1,0 +1,4 @@
+document_number,question,ground_truth,llm_response,level
+216,Richard C. Brown holds what position in the organization that is the lender?,Senior Vice President,Senior Vice President,2
+216,What is the role of the organization in which Richard C. Brown is senior vice president?,Lender,"PNC Bank, National Association.",2
+216,Charles M. Swoboda holds what position in the organization that is the guarantor?,Chairman,"Chairman, President, and Chief Executive Officer",2
