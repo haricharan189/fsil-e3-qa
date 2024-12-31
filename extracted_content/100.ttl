@@ -1,0 +1,56 @@
+@prefix loc: <http://example.org/location/> .
+@prefix org1: <http://example.org/organization/> .
+@prefix person: <http://example.org/person/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+person:General_Counsel a rdfs:Class .
+
+loc:401_B_Street%2C_Suite_1100%5CnSan_Diego%2C_California_92101 a loc:Location .
+
+loc:600_La_Terraza_Blvd.%5CnEscondido%2C_California_92025 a loc:Location .
+
+loc:608_Second_Avenue_South%2C_11th_Floor%5CnMinneapolis%2C_MN_55402 a loc:Location .
+
+org1:ARC_Real_Estate_Partners%2C_LLC a org1:Guarantor,
+        org1:Organization .
+
+org1:FENNER%C2%A0%26_SMITH_INCORPORATED a org1:Arrangers,
+        org1:Bookrunners,
+        org1:Organization .
+
+org1:MERRILL_LYNCH a org1:Arrangers,
+        org1:Bookrunners,
+        org1:Organization .
+
+org1:MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED a org1:Arranger,
+        org1:Organization .
+
+org1:PIERCE a org1:Arrangers,
+        org1:Bookrunners,
+        org1:Organization .
+
+org1:TAU_OPERATING_PARTNERSHIP%2C_L.P a org1:Borrower,
+        org1:Organization .
+
+<http://example.org/organization/Tau%C2%A0Operating%C2%A0Partnership%2C%C2%A0L.P.> a org1:Borrower,
+        org1:Organization .
+
+org1:WELLS%C2%A0FARGO%C2%A0BANK%2C%C2%A0NATIONAL%C2%A0ASSOCIATION a org1:Lender,
+        org1:Organization .
+
+org1:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a org1:Agent,
+        org1:Organization .
+
+org1:WELLS_FARGO_SECURITIES%2C_LLC a org1:Arranger,
+        org1:Arrangers,
+        org1:Bookrunner,
+        org1:Bookrunners,
+        org1:Organization .
+
+org1:Wells_Fargo_Bank%2C_National_Association a org1:Agent,
+        org1:Organization .
+
+person:Dale_Northup a person:Person .
+
+person:Mark_Nardi a person:Person .
+

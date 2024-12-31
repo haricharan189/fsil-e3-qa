@@ -1,0 +1,149 @@
+@prefix loc: <http://example.org/location/> .
+@prefix org1: <http://example.org/organization/> .
+@prefix person: <http://example.org/person/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+person:Assistant_Vice_President a rdfs:Class .
+
+person:Chief_Financial_Officer a rdfs:Class .
+
+person:Director a rdfs:Class .
+
+person:Executive_Vice_President a rdfs:Class .
+
+person:Secretary a rdfs:Class .
+
+person:Treasurer a rdfs:Class .
+
+person:Vice_President a rdfs:Class .
+
+loc:1100_Abernathy_Rd_NE%5CnBldg_%23_500%2C_Suite_%23_1250%5CnAtlanta%2C_Georgia_30328 a loc:Location .
+
+loc:222_S._Riverside_Plaza%5CnChicago%2C_IL_60606 a loc:Location .
+
+loc:225_Franklin_18th_FL%5CnBoston%2C_MA_02110 a loc:Location .
+
+loc:PNC_Firstside_Center%2C_4th_Floor%5Cn%5Cn500_First_Avenue%5Cn%5CnPittsburgh%2C_PA_15219 a loc:Location .
+
+org1:1600_Market_Street%2C_30th_Floor%5Cn%C2%A0%5Cn%C2%A0%5Cn%C2%A0%5Cn%C2%A0%5Cn%C2%A0%5Cn%C2%A0%5Cn%C2%A0%5Cn%C2%A0%5CnPhiladelphia%2C_Pennsylvania_19103 a org1:Organization .
+
+org1:3949_Lindell_LLC a org1:Borrower,
+        org1:Organization .
+
+org1:CV_East_Lansing_MI_LLC a org1:Borrower,
+        org1:Organization .
+
+org1:Carrollton_Place%2C_LLC a org1:Borrower,
+        org1:Organization .
+
+org1:Cottages_W._Lafayette_IN_LL a org1:Borrower,
+        org1:Organization .
+
+org1:Deloitte_%26_Touche%2C_LLP a org1:Organization,
+        org1:accountants .
+
+org1:District_on_5th_Tuscon_AZ_LLC a org1:Borrower,
+        org1:Organization .
+
+org1:EDR_Austin_LLC a org1:Borrower,
+        org1:Organization .
+
+org1:EDR_Berkeley_LP a org1:Borrower,
+        org1:Organization .
+
+org1:EDR_Carbondale%2C_LLC a org1:Borrower,
+        org1:Organization .
+
+org1:EDR_Charlottesville_Jefferson_LLC a org1:Borrower,
+        org1:Organization .
+
+org1:EDR_Charlottesville_LLC a org1:Borrower,
+        org1:Organization .
+
+org1:EDR_Charlottesville_Wertland_LLC a org1:Borrower,
+        org1:Organization .
+
+org1:EDR_Gainesville_Limited_Partnership a org1:Borrower,
+        org1:Organization .
+
+org1:EDR_Lawrence_Limited_Partnership a org1:Borrower,
+        org1:Organization .
+
+org1:EDR_Lexington_I_LLC a org1:Borrower,
+        org1:Organization .
+
+org1:EDR_Orlando_Limited_Partnership a org1:Borrower,
+        org1:Organization .
+
+org1:EDR_Oxford%2C_LLC a org1:Borrower,
+        org1:Organization .
+
+org1:EDR_Statesboro%2C_LLC a org1:Borrower,
+        org1:Organization .
+
+org1:EDR_Syracuse%2C_LL a org1:Borrower,
+        org1:Organization .
+
+org1:EDR_Syracuse_Campus_West_LLC a org1:Borrower,
+        org1:Organization .
+
+org1:EDR_Tallahassee_I%2C_LLC a org1:Borrower,
+        org1:Organization .
+
+org1:EDR_Tallahassee_Limited_Partnership a org1:Borrower,
+        org1:Organization .
+
+org1:EDR_Tampa_Limited_Partnership a org1:Borrower,
+        org1:Organization .
+
+org1:East_Edge_Tuscaloosa_LLC a org1:Borrower,
+        org1:Organization .
+
+org1:Education_Realty_Operating_Partnership%2C_LP a org1:Borrower,
+        org1:Organization .
+
+org1:FIFTH_THIRD_BANK%2C_an_Ohio_banking_corporation a org1:Organization .
+
+org1:KEYBANK_NATIONAL_ASSOCIATION a org1:Organization .
+
+org1:KeyBank_National_Association a org1:Organization,
+        org1:agent .
+
+org1:PNC_Bank%2C_National_Association a org1:Agent,
+        org1:Organization .
+
+org1:PNC_CAPITAL_MARKETS_LLC a org1:Bookrunners,
+        org1:Organization .
+
+org1:Province_Kent_OH_LLC a org1:Borrower,
+        org1:Organization .
+
+org1:REGIONS_BANK a org1:Agent,
+        org1:Organization .
+
+org1:REGIONS_CAPITAL_MARKETS a org1:Arrangers,
+        org1:Organization .
+
+org1:Retreat_at_State_College%2C_LLC a org1:Borrower,
+        org1:Organization .
+
+org1:The_Province_Greenville_NC_LP a org1:Borrower,
+        org1:Organization .
+
+org1:U.S._BANK_NATIONAL_ASSOCIATION%5Cn a org1:Organization .
+
+org1:University_Village_Towers_LP a org1:Borrower,
+        org1:Organization .
+
+person:Andrew_White a person:Person .
+
+person:Gregory_W._Lane a person:Person .
+
+person:Lee_Surtees a person:Person .
+
+person:Lori_Y._Jensen a person:Person .
+
+person:Michael_P._Perillo a person:Person .
+
+person:Randall_H._Brown a person:Person .
+

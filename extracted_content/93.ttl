@@ -1,0 +1,137 @@
+@prefix loc: <http://example.org/location/> .
+@prefix org1: <http://example.org/organization/> .
+@prefix person: <http://example.org/person/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+person:Authorized_Signatory a rdfs:Class .
+
+person:Chief_Financial_Officer a rdfs:Class .
+
+person:Director a rdfs:Class .
+
+person:Duly_Authorized_Signatory a rdfs:Class .
+
+person:Executive_Vice_President a rdfs:Class .
+
+person:Managing_Director%2C_SVP a rdfs:Class .
+
+person:Senior_Vice_President a rdfs:Class .
+
+person:Vice_President a rdfs:Class .
+
+org1:BANK_OF_AMERICA%2C_N.A a org1:Lender,
+        org1:Organization .
+
+<http://example.org/organization/BOFA_SECURITIES%2C_INC.> a org1:Arrangers,
+        org1:Bookrunners,
+        org1:Organization .
+
+<http://example.org/organization/BofA_Securities%2C_Inc.> a org1:Arranger,
+        org1:Organization,
+        org1:Syndication_Agent .
+
+<http://example.org/organization/CITIZENS_BANK%2C_N.A.> a org1:Lender,
+        org1:Organization .
+
+<http://example.org/organization/DICK%C2%92S_SPORTING_GOODS%2C_INC.> a org1:Borrower,
+        org1:Organization .
+
+org1:National_Association a org1:Organization,
+        org1:co-documentation_agent .
+
+org1:PNC_Bank a org1:Organization .
+
+org1:TD_Securities_%28USA%29_LLC a org1:Organization,
+        org1:co-documentation_agent .
+
+org1:U.S._Bank_National_Association a org1:Organization,
+        org1:co-documentation_agent .
+
+org1:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a org1:Administrative_Agent,
+        org1:Lender,
+        org1:Organization .
+
+org1:WELLS_FARGO_SECURITIES%2C_LLC a org1:Arrangers,
+        org1:Bookrunners,
+        org1:Organization .
+
+org1:Wells_Fargo_Securities%2C_LLC a org1:Arranger,
+        org1:Organization .
+
+person:Anthony_Hoye a person:Person .
+
+person:Carl_Hinrichs a person:Person .
+
+person:Carl_S._Tabacjar%2C_Jr a person:Person .
+
+person:Navdeep_Gupta a person:Person .
+
+loc:NEW%5Cn%5CnYORK a loc:Location ;
+    rel:isLocationOf <http://example.org/organization/%5CnTHE_TORONTO-DOMINION_BANK> .
+
+<http://example.org/organization/%5CnTHE_HUNTINGTON_NATIONAL_BANK> a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Phil_Andresen .
+
+<http://example.org/organization/%5CnTRUIST_BANK> a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Alysa_Trakas .
+
+<http://example.org/organization/CAPITAL_ONE%2C_N.A.> a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Paul_Isaac .
+
+org1:FIFTH_THIRD_BANK%2C_NATIONAL_ASSOCIATION a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Mary_Ramsey .
+
+<http://example.org/organization/HSBC_BANK_USA%2C_N.A.> a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Jaime_Mariano .
+
+org1:PNC_BANK%2C_NATIONAL_ASSOCIATION a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Mary_F._Molnar .
+
+org1:U._S._BANK_NATIONAL_ASSOCIATION a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Adam_J._Kultgen .
+
+person:Adam_J._Kultgen a person:Person,
+        person:Vice_President ;
+    rel:isEmployedBy org1:U._S._BANK_NATIONAL_ASSOCIATION .
+
+person:Alysa_Trakas a person:Director,
+        person:Person ;
+    rel:isEmployedBy <http://example.org/organization/%5CnTRUIST_BANK> .
+
+person:Jaime_Mariano a person:Person,
+        person:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/organization/HSBC_BANK_USA%2C_N.A.> .
+
+person:Mary_F._Molnar a person:Person,
+        person:Senior_Vice_President ;
+    rel:isEmployedBy org1:PNC_BANK%2C_NATIONAL_ASSOCIATION .
+
+person:Mary_Ramsey a person:Managing_Director%2C_SVP,
+        person:Person ;
+    rel:isEmployedBy org1:FIFTH_THIRD_BANK%2C_NATIONAL_ASSOCIATION .
+
+person:Michael_Borowiecki a person:Authorized_Signatory,
+        person:Person ;
+    rel:isEmployedBy <http://example.org/organization/%5CnTHE_TORONTO-DOMINION_BANK> .
+
+person:Paul_Isaac a person:Duly_Authorized_Signatory,
+        person:Person ;
+    rel:isEmployedBy <http://example.org/organization/CAPITAL_ONE%2C_N.A.> .
+
+person:Phil_Andresen a person:Person,
+        person:Vice_President ;
+    rel:isEmployedBy <http://example.org/organization/%5CnTHE_HUNTINGTON_NATIONAL_BANK> .
+
+<http://example.org/organization/%5CnTHE_TORONTO-DOMINION_BANK> a org1:Lender,
+        org1:Organization ;
+    rel:hasEmployee person:Michael_Borowiecki ;
+    rel:hasLocationAt loc:NEW%5Cn%5CnYORK .
+

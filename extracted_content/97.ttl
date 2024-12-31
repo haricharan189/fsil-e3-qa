@@ -1,0 +1,44 @@
+@prefix loc: <http://example.org/location/> .
+@prefix org1: <http://example.org/organization/> .
+@prefix person: <http://example.org/person/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+person:Authorized_Agent a rdfs:Class .
+
+person:Deputy_Branch_Manager a rdfs:Class .
+
+person:Vice_President a rdfs:Class .
+
+loc:2001_Ross_Avenue%2C_Suite_600%5Cn%5CnDallas%2C_Texas_75201%5Cn a loc:Location .
+
+loc:2800_Post_Oak_Boulevard%2C_Suite_4800%5Cn%5CnHouston%2C_Texas_77056%5Cn a loc:Location .
+
+loc:333_S._Hope_Street%2C_39th_Floor%5Cn%5CnLos_Angeles%2C_California_90071%5Cn a loc:Location .
+
+loc:444_S._Flower_Street%2C_39th_Floor%5Cn%5CnLos_Angeles%2C_California_90071%5Cn a loc:Location .
+
+loc:LOS_ANGELES a loc:Location .
+
+org1:BANK_OF_CHINA a org1:Lender,
+        org1:Organization .
+
+org1:Baker_Botts_LLP a org1:Organization .
+
+org1:HINES_REIT_ONE_WILSHIRE_LP a org1:Borrower,
+        org1:Organization .
+
+org1:Hines_REIT_One_Wilshire_LP a org1:Organization .
+
+org1:Seyfarth_Shaw_LLP a org1:Organization .
+
+person:J._Shea_Morgenroth a person:Person .
+
+person:Ying_Chen a person:Person .
+
+loc:444_S._Flower_Street%2C_39th_Floor%5Cn%5CnLos_Angeles%2C_California_90071 a loc:Location ;
+    rel:isLocationOf org1:Bank_of_China .
+
+org1:Bank_of_China a org1:Organization ;
+    rel:hasLocationAt loc:444_S._Flower_Street%2C_39th_Floor%5Cn%5CnLos_Angeles%2C_California_90071 .
+
