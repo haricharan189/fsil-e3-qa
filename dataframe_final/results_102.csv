@@ -1,0 +1,5 @@
+document_number,question,ground_truth,llm_response,level
+102,Who is the chief administrative officer of GXS Group Inc?,Paul McFeeters,There is no information in the provided snippet about the chief administrative officer of GXS Group Inc.,1
+102,Where does Paul McFeeters work as chief administrative officer?,GXS Group Inc,"Based on the provided text, it appears that Paul McFeeters works as the Chief Financial Officer and Chief Administrative Officer at Open Text Corporation.",1
+102,Where is Cordys Nederland B.V. located?,Netherlands,Cordys Nederland B.V. is located in the Netherlands.,1
+102,Where is Cordys R 26D B.V. located?,Netherlands,Netherlands,1

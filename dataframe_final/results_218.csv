@@ -1,5 +1,0 @@
-document_number,question,ground_truth,llm_response,level
-218,What is the position of Charles R. Davis in THE NORTHERN TRUST COMPANY?,Officer,Officer,1
-218,Where is PERKINELMER INC located?,04-2052042,"940 Winter Street, Waltham, Massachusetts 02451.",1
-218,Who is the secretary of WALLAC OY?,John L. Healy,There is no information in the provided text that specifies the secretary of WALLAC OY.,1
-218,Who is the attorney-in-fact of WALLAC OY?,John L. Healy,John L. Healy,1

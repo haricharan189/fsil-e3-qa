@@ -1,0 +1,5 @@
+document_number,question,ground_truth,llm_response,level
+101,Mark E. Newman holds what position in the organization that is the borrower?,Chief Financial Officer,"Mark E. Newman is the Senior Vice President and Chief Financial Officer of SunCoke Energy Partners, L.P.",2
+101,Who is the chief financial officer of the organization that is the borrower?,Mark E. Newman,"Mark E. Newman is the senior vice president and chief financial officer of the borrower, SunCoke Energy Partners, L.P.",2
+101,What is the role of the organization in which Mark E. Newman is chief financial officer?,Borrower,"The role of SunCoke Energy Partners GP LLC, the organization in which Mark E. Newman is chief financial officer, is that of the general partner of SunCoke Energy Partners, L.P.",2
+101,Who is the chief financial officer of MIDDLETOWN COGENERATION COMPANY LLC?,Mark E. Newman,Mark E. Newman,1

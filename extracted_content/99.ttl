@@ -1,0 +1,265 @@
+@prefix loc: <http://example.org/location/> .
+@prefix org1: <http://example.org/organization/> .
+@prefix person: <http://example.org/person/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/person/%5CnExecutive_Vice_President> a rdfs:Class .
+
+person:Associate_Director a rdfs:Class .
+
+person:Authorized_Signatory a rdfs:Class .
+
+person:Chief_Financial_Officer a rdfs:Class .
+
+person:Director a rdfs:Class .
+
+person:Executive_Vice_President a rdfs:Class .
+
+person:General_Counsel a rdfs:Class .
+
+person:Manager%2C_Agency a rdfs:Class .
+
+person:Manager%2C_Agency_Services_Group a rdfs:Class .
+
+person:Vice_President a rdfs:Class .
+
+loc:4th_Floor%2C_20_King_Street_West%5Cn%5CnToronto%2C_Ontario_M5H_1C4 a loc:Location .
+
+loc:601_Travis_Street%2C_14th%C2%A0Floor%5CnHouston%2C_Texas_77002-5050 a loc:Location .
+
+<http://example.org/organization/%5CnBARCLAYS_BANK_PLC> a org1:Lender,
+        org1:Organization .
+
+<http://example.org/organization/%5CnCITIBANK%2C_N.A.> a org1:Lender,
+        org1:Organization .
+
+<http://example.org/organization/%5CnDEUTSCHE_BANK_TRUST_COMPANY%5Cn%5Cn%C2%A0%5Cn%5CnAMERICAS> a org1:Lender,
+        org1:Organization .
+
+<http://example.org/organization/%5CnDYNEGY_POWER%2C_LLC> a org1:Borrower,
+        org1:Organization .
+
+<http://example.org/organization/%5CnSithe%2FIndependence_LLC> a org1:LENDERS,
+        org1:Organization .
+
+<http://example.org/organization/%5CnUBS_AG%2C_STAMFORD_BRANCH> a org1:Lender,
+        org1:Organization .
+
+org1:BARCLAYS_BANK_PLC a org1:Arranger,
+        org1:Arrangers,
+        org1:Bookrunner,
+        org1:Bookrunners,
+        org1:Organization .
+
+<http://example.org/organization/Black_Mountain_CoGen%2C%C2%A0Inc.> a org1:BORROWERS,
+        org1:LENDERS,
+        org1:Organization .
+
+org1:Blue_Ridge_Generation_LLC a org1:BORROWERS,
+        org1:LENDERS,
+        org1:Organization .
+
+<http://example.org/organization/CITIGROUP_GLOBAL_MARKETS%2C%C2%A0INC.> a org1:Arranger,
+        org1:Bookrunner,
+        org1:Bookrunners,
+        org1:Organization .
+
+org1:Credit_Suisse_AG%2C_Cayman_Islands_Branch a org1:Organization,
+        org1:Trustee .
+
+<http://example.org/organization/DEUTSCHE_BANK_SECURITIES_INC.> a org1:Arranger,
+        org1:Arrangers,
+        org1:Bookrunner,
+        org1:Bookrunners,
+        org1:Organization .
+
+org1:DYNEGY_GAS_INVESTMENTS_HOLDINGS%2C_LLC a org1:Holdings,
+        org1:Intermediate_Holdings,
+        org1:Organization .
+
+org1:DYNEGY_POWER%2C_LLC a org1:Borrower,
+        org1:Organization .
+
+org1:Dynegy_Equipment%2C_LLC a org1:BORROWERS,
+        org1:LENDERS,
+        org1:Organization .
+
+<http://example.org/organization/Dynegy_Inc.> a org1:Organization .
+
+org1:Dynegy_Marketing_and_Trade%2C_LLC a org1:BORROWERS,
+        org1:LENDERS,
+        org1:Organization .
+
+org1:Dynegy_Power%2C_LLC a org1:BORROWERS,
+        org1:LENDERS,
+        org1:Organization .
+
+<http://example.org/organization/Dynegy_Power_Generation_Inc.> a org1:BORROWERS,
+        org1:LENDERS,
+        org1:Organization .
+
+org1:Dynegy_South_Bay%2C_LLC a org1:BORROWERS,
+        org1:LENDERS,
+        org1:Organization .
+
+org1:GOLDMAN_SACHS_BANK_USA a org1:Arranger,
+        org1:Arrangers,
+        org1:Bookrunner,
+        org1:Bookrunners,
+        org1:Lender,
+        org1:Organization .
+
+org1:RBC_CAPITAL_MARKETS a org1:Arranger,
+        org1:Arrangers,
+        org1:Bookrunner,
+        org1:Bookrunners,
+        org1:Organization .
+
+org1:ROYAL_BANK_OF_CANADA a org1:Agent,
+        org1:Lender,
+        org1:Organization .
+
+org1:Royal_Bank_of_Canada a org1:Agent,
+        org1:Organization,
+        org1:Trustee .
+
+org1:Sithe%2FIndependence_LLC a org1:BORROWERS,
+        org1:Organization .
+
+<http://example.org/organization/Sithe%2FIndependence_Power_Partners%2C_L.P.> a org1:BORROWERS,
+        org1:LENDERS,
+        org1:Organization .
+
+<http://example.org/organization/Sithe_Energies%2C%C2%A0Inc.> a org1:BORROWERS,
+        org1:LENDERS,
+        org1:Organization .
+
+org1:UBS_SECURITIES_LLC a org1:Arrangers,
+        org1:Bookrunners,
+        org1:Organization .
+
+org1:UBS_SECURITIES_LLC%2C a org1:Arranger,
+        org1:Bookrunner,
+        org1:Organization .
+
+person:Ann_Hurley a person:Person .
+
+person:Clint_C._Freeland a person:Person .
+
+person:Joselin_Fernandes a person:Person .
+
+person:Kirkwood_Roland a person:Person .
+
+person:Lana_Gifas a person:Person .
+
+person:Marcus_M._Tarkington a person:Person .
+
+person:Michael_Getz a person:Person .
+
+person:Robert_Ehudin a person:Person .
+
+person:Thomas_Casey a person:Person .
+
+person:Vanessa_A._Kurbatskiy a person:Person .
+
+<http://example.org/location/%5Cn%5CnCASCO_BAY%5Cn%5Cn125_Shore_Road%5Cn%5CnVeazie%2C_ME%2C_04401%5Cn%5Cn%C2%A0%5Cn%5CnPenobscot_County%2C_Maine> a loc:Location ;
+    rel:isLocationOf org1:Casco_Bay_Energy_Company%2C_LLC .
+
+<http://example.org/location/%5Cn%5CnMORRO_BAY%5Cn%5Cn1290_Embarcadero%5Cn%5CnMorro_Bay%2C_CA_93442%5Cn%5Cn%C2%A0%5Cn%5CnSan_Luis_Obispo_County%2C_California> a loc:Location ;
+    rel:isLocationOf org1:Dynegy_Morro_Bay%2C_LLC .
+
+<http://example.org/location/%5Cn%5CnOAKLAND%5Cn%5Cn50_Martin_Luther_King_Way%5Cn%5CnOakland%2C_CA_94607%5Cn%5Cn%C2%A0%5Cn%5CnAlameda_County%2C_California> a loc:Location ;
+    rel:isLocationOf org1:Dynegy_Oakland%2C_LLC .
+
+<http://example.org/location/%5Cn%5CnSITHE%281%29%5Cn%5Cn76_Independence_Way%5Cn%5CnScriba%2C_NY_13126%5Cn%5Cn%C2%A0%5Cn%5CnOswego_County%2C_New_York> a loc:Location ;
+    rel:isLocationOf <http://example.org/organization/Sithe%2FIndependence_Power_Parters%2C_L.P.> .
+
+loc:101Barclay_Street%2C_FL8W%5Cn%5CnNew_York%2C_New_York_10286 a loc:Location ;
+    rel:isLocationOf org1:BNY_Mellon .
+
+loc:200_Park_Avenue%5Cn%5CnNew_York%2C_New_York_10166 a loc:Location ;
+    rel:isLocationOf org1:Barclays_Bank .
+
+loc:420_W._Van_Buren_Street%2C_9th%C2%A0Floor%5Cn%5CnSuite%C2%A0IL_1-0199%5Cn%5CnChicago%2C%C2%A0IL_60606-3534 a loc:Location ;
+    rel:isLocationOf <http://example.org/organization/JPMorgan_Chase_Bank%2C_N.A.> .
+
+loc:CALIFORNIA a loc:Location ;
+    rel:isLocationOf org1:Akin%2C_Gump%2C_Strauss%2C_Hauer%C2%A0%26_Feld_LLP .
+
+loc:ILLINOIS a loc:Location ;
+    rel:isLocationOf org1:Vedder%2C_Price%2C_Kaufman%C2%A0%26_Kammholz .
+
+loc:KENDALL%5Cn%5Cn1401_County_Line_Road%5Cn%5CnMinooka%2C%C2%A0IL_60447%5Cn%5Cn%C2%A0%5Cn%5CnKendall_and_Grundy_Counties%2C%C2%A0Illinois a loc:Location ;
+    rel:isLocationOf org1:Dynegy_Kendall_Energy%2C_LLC .
+
+loc:MAINE a loc:Location ;
+    rel:isLocationOf org1:Pierce_Atwood_LLP .
+
+loc:MOSS_LANDING%5Cn%5CnHWY_1%C2%A0%26_Dolan_Road%5Cn%5CnMoss_Landing%2C_CA_95039%5Cn%5Cn%C2%A0%5Cn%5CnMonterey_County%2C_California a loc:Location ;
+    rel:isLocationOf org1:Dynegy_Moss_Landing%2C_LLC .
+
+loc:ONTELAUNEE%5Cn%5Cn5115_Pottsville_Pike%5Cn%5CnReading%2C_PA_19605%5Cn%5Cn%C2%A0%5Cn%5CnBerks_County%2C_Pennsylvania a loc:Location ;
+    rel:isLocationOf org1:Ontelaunee_Power_Operating_Company%2C_LLC .
+
+loc:PENNSYLVANIA a loc:Location ;
+    rel:isLocationOf <http://example.org/organization/Stevens%C2%A0%26_Lee_P.C.> .
+
+org1:Akin%2C_Gump%2C_Strauss%2C_Hauer%C2%A0%26_Feld_LLP a org1:COUNSEL,
+        org1:Organization ;
+    rel:hasLocationAt loc:CALIFORNIA .
+
+org1:BNY_Mellon a org1:Organization ;
+    rel:hasLocationAt loc:101Barclay_Street%2C_FL8W%5Cn%5CnNew_York%2C_New_York_10286 .
+
+org1:Barclays_Bank a org1:Organization ;
+    rel:hasLocationAt loc:200_Park_Avenue%5Cn%5CnNew_York%2C_New_York_10166 .
+
+org1:Casco_Bay_Energy_Company%2C_LLC a org1:BORROWERS,
+        org1:LENDERS,
+        org1:Organization ;
+    rel:hasLocationAt <http://example.org/location/%5Cn%5CnCASCO_BAY%5Cn%5Cn125_Shore_Road%5Cn%5CnVeazie%2C_ME%2C_04401%5Cn%5Cn%C2%A0%5Cn%5CnPenobscot_County%2C_Maine> .
+
+org1:Dynegy_Kendall_Energy%2C_LLC a org1:BORROWERS,
+        org1:LENDERS,
+        org1:Organization ;
+    rel:hasLocationAt loc:KENDALL%5Cn%5Cn1401_County_Line_Road%5Cn%5CnMinooka%2C%C2%A0IL_60447%5Cn%5Cn%C2%A0%5Cn%5CnKendall_and_Grundy_Counties%2C%C2%A0Illinois .
+
+org1:Dynegy_Morro_Bay%2C_LLC a org1:BORROWERS,
+        org1:LENDERS,
+        org1:Organization ;
+    rel:hasLocationAt <http://example.org/location/%5Cn%5CnMORRO_BAY%5Cn%5Cn1290_Embarcadero%5Cn%5CnMorro_Bay%2C_CA_93442%5Cn%5Cn%C2%A0%5Cn%5CnSan_Luis_Obispo_County%2C_California> .
+
+org1:Dynegy_Moss_Landing%2C_LLC a org1:BORROWERS,
+        org1:LENDERS,
+        org1:Organization ;
+    rel:hasLocationAt loc:MOSS_LANDING%5Cn%5CnHWY_1%C2%A0%26_Dolan_Road%5Cn%5CnMoss_Landing%2C_CA_95039%5Cn%5Cn%C2%A0%5Cn%5CnMonterey_County%2C_California .
+
+org1:Dynegy_Oakland%2C_LLC a org1:BORROWERS,
+        org1:LENDERS,
+        org1:Organization ;
+    rel:hasLocationAt <http://example.org/location/%5Cn%5CnOAKLAND%5Cn%5Cn50_Martin_Luther_King_Way%5Cn%5CnOakland%2C_CA_94607%5Cn%5Cn%C2%A0%5Cn%5CnAlameda_County%2C_California> .
+
+<http://example.org/organization/JPMorgan_Chase_Bank%2C_N.A.> a org1:Organization ;
+    rel:hasLocationAt loc:420_W._Van_Buren_Street%2C_9th%C2%A0Floor%5Cn%5CnSuite%C2%A0IL_1-0199%5Cn%5CnChicago%2C%C2%A0IL_60606-3534 .
+
+org1:Ontelaunee_Power_Operating_Company%2C_LLC a org1:BORROWERS,
+        org1:LENDERS,
+        org1:Organization ;
+    rel:hasLocationAt loc:ONTELAUNEE%5Cn%5Cn5115_Pottsville_Pike%5Cn%5CnReading%2C_PA_19605%5Cn%5Cn%C2%A0%5Cn%5CnBerks_County%2C_Pennsylvania .
+
+org1:Pierce_Atwood_LLP a org1:COUNSEL,
+        org1:Organization ;
+    rel:hasLocationAt loc:MAINE .
+
+<http://example.org/organization/Sithe%2FIndependence_Power_Parters%2C_L.P.> a org1:Organization ;
+    rel:hasLocationAt <http://example.org/location/%5Cn%5CnSITHE%281%29%5Cn%5Cn76_Independence_Way%5Cn%5CnScriba%2C_NY_13126%5Cn%5Cn%C2%A0%5Cn%5CnOswego_County%2C_New_York> .
+
+<http://example.org/organization/Stevens%C2%A0%26_Lee_P.C.> a org1:COUNSEL,
+        org1:Organization ;
+    rel:hasLocationAt loc:PENNSYLVANIA .
+
+org1:Vedder%2C_Price%2C_Kaufman%C2%A0%26_Kammholz a org1:COUNSEL,
+        org1:Organization ;
+    rel:hasLocationAt loc:ILLINOIS .
+

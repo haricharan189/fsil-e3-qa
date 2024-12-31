@@ -1,0 +1,156 @@
+@prefix loc: <http://example.org/location/> .
+@prefix org1: <http://example.org/organization/> .
+@prefix person: <http://example.org/person/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+person:Associate a rdfs:Class .
+
+person:Authorised_Signatory a rdfs:Class .
+
+person:Authorized_Signatory a rdfs:Class .
+
+person:Chief_Financial_Officer a rdfs:Class .
+
+person:Director a rdfs:Class .
+
+person:Executive_Director a rdfs:Class .
+
+person:Senior_Vice_President a rdfs:Class .
+
+person:Treasurer a rdfs:Class .
+
+person:Vice_President a rdfs:Class .
+
+loc:383_Madison_Avenue%2C_FL_24%09%C2%A0%C2%A0%09%5Cn%C2%A0%C2%A0%09New_York%2C_NY_10179 a loc:Location .
+
+<http://example.org/organization/%5CnCREDIT_SUISSE_AG%2C_CAYMAN_ISLANDS_BRANCH> a org1:Lender,
+        org1:Organization .
+
+<http://example.org/organization/%5CnJPMORGAN_CHASE_BANK%2C_N.A.> a org1:Agent,
+        org1:Lender,
+        org1:Organization .
+
+<http://example.org/organization/%5CnROYAL_BANK_OF_CANADA> a org1:Lender,
+        org1:Organization .
+
+org1:BANK_OF_AMERICA%2C_N.A a org1:Agent,
+        org1:Organization .
+
+<http://example.org/organization/BANK_OF_AMERICA%2C_N.A.> a org1:Lender,
+        org1:Organization .
+
+org1:BARCLAYS_BANK_PLC a org1:Agent,
+        org1:Arranger,
+        org1:Bookrunner,
+        org1:Lender,
+        org1:Organization .
+
+org1:BRANCH_BANKING_AND_TRUST_COMPANY a org1:Lender,
+        org1:Organization .
+
+<http://example.org/organization/Bank_of_America%2C_N.A.> a org1:Agents,
+        org1:Organization .
+
+org1:Barclays_Bank_PLC a org1:Agent,
+        org1:Arrangers,
+        org1:Organization .
+
+org1:CITIBANK%2C_N.A a org1:Agent,
+        org1:Organization .
+
+<http://example.org/organization/CITIBANK%2C_N.A.> a org1:Lender,
+        org1:Organization .
+
+<http://example.org/organization/Citibank%2C_N.A.> a org1:Agents,
+        org1:Organization .
+
+org1:GOLDMAN_SACHS_BANK_USA a org1:Lender,
+        org1:Organization .
+
+org1:HAVERHILL_COGENERATION_COMPANY_LLC a org1:Borrower,
+        org1:Organization .
+
+org1:HAVERHILL_COKE_COMPANY_LLC a org1:Borrower,
+        org1:Organization .
+
+org1:HAVERHILL_COKE_COMPANY_LLC%5Cn a org1:Organization .
+
+org1:J.P._MORGAN_SECURITIES_LLC a org1:Arranger,
+        org1:Bookrunner,
+        org1:Organization .
+
+org1:J.P._Morgan_Securities_LLC a org1:Arrangers,
+        org1:Organization .
+
+org1:JPMORGAN_CHASE_BANK a org1:Agent,
+        org1:Organization .
+
+<http://example.org/organization/JPMorgan_Chase_Bank%2C_N.A.> a org1:Lender,
+        org1:Organization .
+
+org1:MIDDLETOWN_COKE_COMPANY%2C_LLC a org1:Borrower,
+        org1:Organization .
+
+org1:MIDDLETOWN_COKE_COMPANY%2C_LLC%5Cn a org1:Organization .
+
+org1:RBS_SECURITIES_INC a org1:Arranger,
+        org1:Bookrunner,
+        org1:Organization .
+
+org1:RBS_Securities_Inc a org1:Arrangers,
+        org1:Organization .
+
+org1:THE_ROYAL_BANK_OF_SCOTLAND a org1:Agent,
+        org1:Organization .
+
+org1:THE_ROYAL_BANK_OF_SCOTLAND_plc a org1:Lender,
+        org1:Organization .
+
+org1:The_Royal_Bank_of_Scotland_plc a org1:Agents,
+        org1:Organization .
+
+person:Ann_E._Sutton a person:Person .
+
+person:Brian_D._Williams a person:Person .
+
+person:Denise_R._Cade a person:Person .
+
+person:Eric_Searls a person:Person .
+
+person:Ido_Yehuda a person:Person .
+
+person:James_Disher a person:Person .
+
+person:Jonathan_M._Phillips a person:Person .
+
+person:Mark_Walton a person:Person .
+
+person:Mikhail_Faybusovich a person:Person .
+
+person:Peter_Predun a person:Person .
+
+person:Raymond_G._Dunning a person:Person .
+
+person:Wei-Jen_Yuan a person:Person .
+
+loc:1011_Warrenville_Road%09%C2%A0%C2%A0%09%5Cn%C2%A0%C2%A0%09Suite_600%09%C2%A0%C2%A0%09%5Cn%C2%A0%C2%A0%09Lisle%2C_IL_60532 a loc:Location ;
+    rel:isLocationOf <http://example.org/organization/SUNCOKE_ENERGY_PARTNERS%2C_L.P.> .
+
+loc:500_Stanton_Christiana_Road%2C_Ops_2%2C_Floor_3%09%C2%A0%C2%A0%09%5Cn%C2%A0%C2%A0%09Newark%2C_Delaware_19713-2107 a loc:Location ;
+    rel:isLocationOf <http://example.org/organization/SUNCOKE_ENERGY_PARTNERS%2C_L.P.> .
+
+org1:MIDDLETOWN_COGENERATION_COMPANY_LLC a org1:Borrower,
+        org1:Organization ;
+    rel:hasEmployee person:Mark_E._Newman .
+
+person:Mark_E._Newman a person:Chief_Financial_Officer,
+        person:Person,
+        person:Treasurer ;
+    rel:isEmployedBy org1:MIDDLETOWN_COGENERATION_COMPANY_LLC .
+
+<http://example.org/organization/SUNCOKE_ENERGY_PARTNERS%2C_L.P.> a org1:Borrower,
+        org1:Organization ;
+    rel:hasLocationAt loc:1011_Warrenville_Road%09%C2%A0%C2%A0%09%5Cn%C2%A0%C2%A0%09Suite_600%09%C2%A0%C2%A0%09%5Cn%C2%A0%C2%A0%09Lisle%2C_IL_60532,
+        loc:500_Stanton_Christiana_Road%2C_Ops_2%2C_Floor_3%09%C2%A0%C2%A0%09%5Cn%C2%A0%C2%A0%09Newark%2C_Delaware_19713-2107 .
+
