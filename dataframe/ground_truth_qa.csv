@@ -1,884 +1,383 @@
 document_number,question,answer,level
-93,Who is the senior vice president of the organization that is the lender?,Jaime Mariano,2
-93,Jaime Mariano holds what position in the organization that is the lender?,Senior Vice President,2
-93,What is the role of the organization in which Jaime Mariano is senior vice president?,Lender,2
-93,Who is the authorized signatory of the organization that is the lender?,Michael Borowiecki,2
-93,Mary F. Molnar holds what position in the organization that is the lender?,Senior Vice President,2
-93,What is the role of the organization in which Adam J. Kultgen is vice president?,Lender,2
 93,Adam J. Kultgen holds what position in the organization that is the lender?,Vice President,2
 93,What is the role of the organization in which Mary F. Molnar is senior vice president?,Lender,2
-93,What is the role of the organization in which Paul Isaac is duly authorized signatory?,Lender,2
-93,Who is the managing director svp of the organization that is the lender?,Mary Ramsey,2
-93,Mary Ramsey holds what position in the organization that is the lender?,Managing Director SVP,2
+93,Mary F. Molnar holds what position in the organization that is the lender?,Senior Vice President,2
+93,What is the role of the organization in which Jaime Mariano is senior vice president?,Lender,2
+93,Jaime Mariano holds what position in the organization that is the lender?,Senior Vice President,2
+93,Who is the senior vice president of the organization that is the lender?,Jaime Mariano,2
 93,What is the role of the organization in which Mary Ramsey is managing director svp?,Lender,2
+93,Mary Ramsey holds what position in the organization that is the lender?,Managing Director SVP,2
+93,What is the role of CAPITAL ONE N.A.?,Lender,1
+93,What is the role of FIFTH THIRD BANK NATIONAL ASSOCIATION?,Lender,1
+93,What is the role of HSBC BANK USA N.A.?,Lender,1
+93,What is the role of PNC BANK NATIONAL ASSOCIATION?,Lender,1
+93,What is the role of the organization in which Michael Borowiecki is authorized signatory?,Lender,2
+93,Michael Borowiecki holds what position in the organization that is the lender?,Authorized Signatory,2
+93,Who is the authorized signatory of the organization that is the lender?,Michael Borowiecki,2
+93,What is the role of the organization in which Adam J. Kultgen is vice president?,Lender,2
+93,What is the role of U. S. BANK NATIONAL ASSOCIATION?,Lender,1
+93,What is the role of THE TORONTO-DOMINION BANK?,Lender,1
+93,Who is the vice president of the organization that is the lender?,Phil Andresen,2
+93,Phil Andresen holds what position in the organization that is the lender?,Vice President,2
+93,What is the position of Michael Borowiecki in THE TORONTO-DOMINION BANK?,Authorized Signatory,1
+93,Where does Mary Ramsey work as managing director svp?,FIFTH THIRD BANK NATIONAL ASSOCIATION,1
+93,Who is the managing director svp of FIFTH THIRD BANK NATIONAL ASSOCIATION?,Mary Ramsey,1
+93,What is the position of Mary Ramsey in FIFTH THIRD BANK NATIONAL ASSOCIATION?,Managing Director SVP,1
+93,Who is the managing director svp of the organization that is the lender?,Mary Ramsey,2
+93,What is the role of the organization in which Paul Isaac is duly authorized signatory?,Lender,2
 93,Paul Isaac holds what position in the organization that is the lender?,Duly Authorized Signatory,2
 93,Who is the duly authorized signatory of the organization that is the lender?,Paul Isaac,2
 93,What is the role of the organization in which Alysa Trakas is director?,Lender,2
-93,Where does Mary Ramsey work as managing director svp?,FIFTH THIRD BANK NATIONAL ASSOCIATION,1
 93,Alysa Trakas holds what position in the organization that is the lender?,Director,2
 93,Who is the director of the organization that is the lender?,Alysa Trakas,2
-93,Phil Andresen holds what position in the organization that is the lender?,Vice President,2
 93,What is the role of the organization in which Phil Andresen is vice president?,Lender,2
-93,What is the role of THE TORONTO-DOMINION BANK?,Lender,1
-93,What is the role of U. S. BANK NATIONAL ASSOCIATION?,Lender,1
-93,What is the role of PNC BANK NATIONAL ASSOCIATION?,Lender,1
-93,Who is the vice president of the organization that is the lender?,Phil Andresen,2
-93,What is the role of HSBC BANK USA N.A.?,Lender,1
-93,What is the role of FIFTH THIRD BANK NATIONAL ASSOCIATION?,Lender,1
-93,What is the role of TRUIST BANK?,Lender,1
-93,What is the role of CAPITAL ONE N.A.?,Lender,1
-93,What is the role of THE HUNTINGTON NATIONAL BANK?,Lender,1
-93,Which organization is located at NEW YORK?,THE TORONTO-DOMINION BANK,1
-93,What is the role of the organization in which Michael Borowiecki is authorized signatory?,Lender,2
-93,Michael Borowiecki holds what position in the organization that is the lender?,Authorized Signatory,2
-93,What is the position of Paul Isaac in CAPITAL ONE N.A.?,Duly Authorized Signatory,1
-93,What is the position of Michael Borowiecki in THE TORONTO-DOMINION BANK?,Authorized Signatory,1
-93,Who is the authorized signatory of THE TORONTO-DOMINION BANK?,Michael Borowiecki,1
-93,What is the position of Mary F. Molnar in PNC BANK NATIONAL ASSOCIATION?,Senior Vice President,1
-93,Who is the senior vice president of PNC BANK NATIONAL ASSOCIATION?,Mary F. Molnar,1
-93,Where does Mary F. Molnar work as senior vice president?,PNC BANK NATIONAL ASSOCIATION,1
-93,What is the position of Mary Ramsey in FIFTH THIRD BANK NATIONAL ASSOCIATION?,Managing Director SVP,1
-93,Who is the managing director svp of FIFTH THIRD BANK NATIONAL ASSOCIATION?,Mary Ramsey,1
 93,Where does Paul Isaac work as duly authorized signatory?,CAPITAL ONE N.A.,1
-93,Who is the duly authorized signatory of CAPITAL ONE N.A.?,Paul Isaac,1
 93,What is the position of Phil Andresen in THE HUNTINGTON NATIONAL BANK?,Vice President,1
-93,Where does Michael Borowiecki work as authorized signatory?,THE TORONTO-DOMINION BANK,1
-93,Who is the director of TRUIST BANK?,Alysa Trakas,1
-93,Where is THE TORONTO-DOMINION BANK located?,NEW YORK,1
-93,Where does Phil Andresen work as vice president?,THE HUNTINGTON NATIONAL BANK,1
 93,Who is the vice president of THE HUNTINGTON NATIONAL BANK?,Phil Andresen,1
-93,Who is the vice president of U. S. BANK NATIONAL ASSOCIATION?,Adam J. Kultgen,1
-93,What is the position of Adam J. Kultgen in U. S. BANK NATIONAL ASSOCIATION?,Vice President,1
+93,Where does Phil Andresen work as vice president?,THE HUNTINGTON NATIONAL BANK,1
+93,Where is THE TORONTO-DOMINION BANK located?,NEW YORK,1
+93,Which organization is located at NEW YORK?,THE TORONTO-DOMINION BANK,1
+93,What is the role of THE HUNTINGTON NATIONAL BANK?,Lender,1
+93,What is the role of TRUIST BANK?,Lender,1
 93,What is the position of Alysa Trakas in TRUIST BANK?,Director,1
 93,Where does Adam J. Kultgen work as vice president?,U. S. BANK NATIONAL ASSOCIATION,1
-93,What is the position of Jaime Mariano in HSBC BANK USA N.A.?,Senior Vice President,1
-93,Who is the senior vice president of HSBC BANK USA N.A.?,Jaime Mariano,1
+93,Who is the vice president of U. S. BANK NATIONAL ASSOCIATION?,Adam J. Kultgen,1
+93,What is the position of Adam J. Kultgen in U. S. BANK NATIONAL ASSOCIATION?,Vice President,1
+93,Who is the authorized signatory of THE TORONTO-DOMINION BANK?,Michael Borowiecki,1
+93,Where does Michael Borowiecki work as authorized signatory?,THE TORONTO-DOMINION BANK,1
+93,What is the position of Paul Isaac in CAPITAL ONE N.A.?,Duly Authorized Signatory,1
+93,Who is the duly authorized signatory of CAPITAL ONE N.A.?,Paul Isaac,1
+93,Where does Mary F. Molnar work as senior vice president?,PNC BANK NATIONAL ASSOCIATION,1
+93,Who is the senior vice president of PNC BANK NATIONAL ASSOCIATION?,Mary F. Molnar,1
+93,What is the position of Mary F. Molnar in PNC BANK NATIONAL ASSOCIATION?,Senior Vice President,1
 93,Where does Jaime Mariano work as senior vice president?,HSBC BANK USA N.A.,1
+93,Who is the senior vice president of HSBC BANK USA N.A.?,Jaime Mariano,1
+93,What is the position of Jaime Mariano in HSBC BANK USA N.A.?,Senior Vice President,1
 93,Where does Alysa Trakas work as director?,TRUIST BANK,1
-94,Who is the vice president of the organization that is the lender?,Kyle Pearson,2
-94,Kyle Pearson holds what position in the organization that is the lender?,Vice President,2
-94,Who is the managing director of the organization that is the lender?,Anand J. Jobanputra,2
-94,Anand J. Jobanputra holds what position in the organization that is the lender?,Managing Director,2
-94,Cindy Jordan holds what position in the organization that is the administrative agent?,AVP,2
-94,What is the role of the organization in which Cindy Jordan is avp?,Administrative Agent,2
-94,Who is the avp of the organization that is the administrative agent?,Cindy Jordan,2
-94,What is the role of the organization in which Kyle Pearson is vice president?,Administrative Agent,2
-94,Where does Cindy Jordan work as avp?,BANK OF AMERICA N.A.,1
-94,Who is the avp of BANK OF AMERICA N.A.?,Cindy Jordan,1
-94,Where does Anand J. Jobanputra work as managing director?,WELLS FARGO BANK NATIONAL ASSOCIATION,1
-94,Who is the secretary of SUMMIT NCI JV BR 163-164 LLC?,Christopher Eng,1
-94,What is the role of BANK OF AMERICA N.A.?,Administrative Agent,1
-94,Anand J. Jobanputra holds what position in the organization that is the syndication agent?,Managing Director,2
-94,Who is the managing director of the organization that is the syndication agent?,Anand J. Jobanputra,2
-94,What is the role of the organization in which Anand J. Jobanputra is managing director?,Lender,2
-94,Who is the avp of the organization that is the lender?,Cindy Jordan,2
+93,Who is the director of TRUIST BANK?,Alysa Trakas,1
 94,Kyle Pearson holds what position in the organization that is the administrative agent?,Vice President,2
-94,Who is the vice president of the organization that is the administrative agent?,Kyle Pearson,2
+94,Who is the avp of the organization that is the lender?,Cindy Jordan,2
 94,Cindy Jordan holds what position in the organization that is the lender?,AVP,2
-94,What is the position of Kyle Pearson in BANK OF AMERICA N.A.?,Vice President,1
-94,What is the role of WELLS FARGO BANK NATIONAL ASSOCIATION?,Lender,1
-94,Who is the managing director of WELLS FARGO BANK NATIONAL ASSOCIATION?,Anand J. Jobanputra,1
-94,What is the position of Anand J. Jobanputra in WELLS FARGO BANK NATIONAL ASSOCIATION?,Managing Director,1
+94,Who is the vice president of the organization that is the administrative agent?,Kyle Pearson,2
+94,Kyle Pearson holds what position in the organization that is the lender?,Vice President,2
+94,Who is the vice president of the organization that is the lender?,Kyle Pearson,2
+94,What is the role of the organization in which Kyle Pearson is vice president?,Administrative Agent,2
 94,What is the position of Cindy Jordan in BANK OF AMERICA N.A.?,AVP,1
 94,Where does Christopher Eng work as secretary?,SUMMIT NCI JV BR 163-164 LLC,1
 94,What is the position of Christopher Eng in SUMMIT NCI JV BR 177 LLC?,Secretary,1
 94,Who is the secretary of SUMMIT NCI JV BR 177 LLC?,Christopher Eng,1
+94,What is the role of WELLS FARGO BANK NATIONAL ASSOCIATION?,Lender,1
+94,What is the role of BANK OF AMERICA N.A.?,Administrative Agent,1
+94,Where does Anand J. Jobanputra work as managing director?,WELLS FARGO BANK NATIONAL ASSOCIATION,1
+94,Who is the managing director of WELLS FARGO BANK NATIONAL ASSOCIATION?,Anand J. Jobanputra,1
+94,What is the position of Anand J. Jobanputra in WELLS FARGO BANK NATIONAL ASSOCIATION?,Managing Director,1
+94,Who is the vice president of BANK OF AMERICA N.A.?,Kyle Pearson,1
+94,Who is the avp of BANK OF AMERICA N.A.?,Cindy Jordan,1
+94,Where does Cindy Jordan work as avp?,BANK OF AMERICA N.A.,1
+94,Anand J. Jobanputra holds what position in the organization that is the syndication agent?,Managing Director,2
+94,Who is the managing director of the organization that is the lender?,Anand J. Jobanputra,2
+94,Who is the managing director of the organization that is the syndication agent?,Anand J. Jobanputra,2
+94,What is the role of the organization in which Anand J. Jobanputra is managing director?,Lender,2
+94,Anand J. Jobanputra holds what position in the organization that is the lender?,Managing Director,2
+94,Who is the secretary of SUMMIT NCI JV BR 163-164 LLC?,Christopher Eng,1
 94,Where does Kyle Pearson work as vice president?,BANK OF AMERICA N.A.,1
 94,What is the position of Christopher Eng in SUMMIT NCI JV BR 163-164 LLC?,Secretary,1
-94,Who is the vice president of BANK OF AMERICA N.A.?,Kyle Pearson,1
+94,What is the position of Kyle Pearson in BANK OF AMERICA N.A.?,Vice President,1
+94,Cindy Jordan holds what position in the organization that is the administrative agent?,AVP,2
+94,What is the role of the organization in which Cindy Jordan is avp?,Administrative Agent,2
+94,Who is the avp of the organization that is the administrative agent?,Cindy Jordan,2
 97,Which organization is located at 444 S. Flower Street 39th Floor Los Angeles California 90071?,Bank of China,1
 97,Where is Bank of China located?,444 S. Flower Street 39th Floor Los Angeles California 90071,1
-99,Which organization is located at ILLINOIS?,Vedder Price Kaufman 26 Kammholz,1
-99,Which organization is located at CALIFORNIA?,Akin Gump Strauss Hauer 26 Feld LLP,1
 99,Which organization is located at PENNSYLVANIA?,Stevens 26 Lee P.C.,1
-99,Which organization is located at MAINE?,Pierce Atwood LLP,1
-99,Where is Vedder Price Kaufman 26 Kammholz located?,ILLINOIS,1
 99,Which organization is located at 420 W. Van Buren Street 9th Floor Suite IL 1-0199 Chicago IL 60606-3534?,JPMorgan Chase Bank N.A.,1
-99,Where is Akin Gump Strauss Hauer 26 Feld LLP located?,CALIFORNIA,1
-99,Where is Dynegy Oakland LLC located?,OAKLAND 50 Martin Luther King Way Oakland CA 94607 Alameda County California,1
-99,Which organization is located at MORRO BAY 1290 Embarcadero Morro Bay CA 93442 San Luis Obispo County California?,Dynegy Morro Bay LLC,1
-99,Where is Dynegy Morro Bay LLC located?,MORRO BAY 1290 Embarcadero Morro Bay CA 93442 San Luis Obispo County California,1
-99,Which organization is located at CASCO BAY 125 Shore Road Veazie ME 04401 Penobscot County Maine?,Casco Bay Energy Company LLC,1
-99,Where is Casco Bay Energy Company LLC located?,CASCO BAY 125 Shore Road Veazie ME 04401 Penobscot County Maine,1
 99,Where is JPMorgan Chase Bank N.A. located?,420 W. Van Buren Street 9th Floor Suite IL 1-0199 Chicago IL 60606-3534,1
 99,Which organization is located at 200 Park Avenue New York New York 10166?,Barclays Bank,1
+99,Where is Akin Gump Strauss Hauer 26 Feld LLP located?,CALIFORNIA,1
+99,Which organization is located at CALIFORNIA?,Akin Gump Strauss Hauer 26 Feld LLP,1
+99,Which organization is located at ONTELAUNEE 5115 Pottsville Pike Reading PA 19605 Berks County Pennsylvania?,Ontelaunee Power Operating Company LLC,1
+99,Where is Casco Bay Energy Company LLC located?,CASCO BAY 125 Shore Road Veazie ME 04401 Penobscot County Maine,1
+99,Which organization is located at CASCO BAY 125 Shore Road Veazie ME 04401 Penobscot County Maine?,Casco Bay Energy Company LLC,1
+99,Where is Dynegy Morro Bay LLC located?,MORRO BAY 1290 Embarcadero Morro Bay CA 93442 San Luis Obispo County California,1
+99,Which organization is located at MORRO BAY 1290 Embarcadero Morro Bay CA 93442 San Luis Obispo County California?,Dynegy Morro Bay LLC,1
+99,Where is Dynegy Oakland LLC located?,OAKLAND 50 Martin Luther King Way Oakland CA 94607 Alameda County California,1
 99,Where is Barclays Bank located?,200 Park Avenue New York New York 10166,1
 99,Which organization is located at 101Barclay Street FL8W New York New York 10286?,BNY Mellon,1
-99,Where is BNY Mellon located?,101Barclay Street FL8W New York New York 10286,1
 99,Which organization is located at SITHE 281 29 76 Independence Way Scriba NY 13126 Oswego County New York?,Sithe 2FIndependence Power Parters L.P.,1
-99,Where is Sithe 2FIndependence Power Parters L.P. located?,SITHE 281 29 76 Independence Way Scriba NY 13126 Oswego County New York,1
-99,Which organization is located at OAKLAND 50 Martin Luther King Way Oakland CA 94607 Alameda County California?,Dynegy Oakland LLC,1
-99,Where is Ontelaunee Power Operating Company LLC located?,ONTELAUNEE 5115 Pottsville Pike Reading PA 19605 Berks County Pennsylvania,1
-99,Where is Stevens 26 Lee P.C. located?,PENNSYLVANIA,1
-99,Where is Dynegy Kendall Energy LLC located?,KENDALL 1401 County Line Road Minooka IL 60447 Kendall and Grundy Counties Illinois,1
-99,Which organization is located at KENDALL 1401 County Line Road Minooka IL 60447 Kendall and Grundy Counties Illinois?,Dynegy Kendall Energy LLC,1
-99,Where is Pierce Atwood LLP located?,MAINE,1
 99,Which organization is located at MOSS LANDING HWY 1 26 Dolan Road Moss Landing CA 95039 Monterey County California?,Dynegy Moss Landing LLC,1
 99,Where is Dynegy Moss Landing LLC located?,MOSS LANDING HWY 1 26 Dolan Road Moss Landing CA 95039 Monterey County California,1
-99,Which organization is located at ONTELAUNEE 5115 Pottsville Pike Reading PA 19605 Berks County Pennsylvania?,Ontelaunee Power Operating Company LLC,1
-101,Mark E. Newman holds what position in the organization that is the borrower?,Chief Financial Officer,2
+99,Which organization is located at MAINE?,Pierce Atwood LLP,1
+99,Where is Pierce Atwood LLP located?,MAINE,1
+99,Which organization is located at KENDALL 1401 County Line Road Minooka IL 60447 Kendall and Grundy Counties Illinois?,Dynegy Kendall Energy LLC,1
+99,Where is Dynegy Kendall Energy LLC located?,KENDALL 1401 County Line Road Minooka IL 60447 Kendall and Grundy Counties Illinois,1
+99,Which organization is located at ILLINOIS?,Vedder Price Kaufman 26 Kammholz,1
+99,Where is Vedder Price Kaufman 26 Kammholz located?,ILLINOIS,1
+99,Where is Sithe 2FIndependence Power Parters L.P. located?,SITHE 281 29 76 Independence Way Scriba NY 13126 Oswego County New York,1
+99,Which organization is located at OAKLAND 50 Martin Luther King Way Oakland CA 94607 Alameda County California?,Dynegy Oakland LLC,1
+99,Where is Stevens 26 Lee P.C. located?,PENNSYLVANIA,1
+99,Where is BNY Mellon located?,101Barclay Street FL8W New York New York 10286,1
+99,Where is Ontelaunee Power Operating Company LLC located?,ONTELAUNEE 5115 Pottsville Pike Reading PA 19605 Berks County Pennsylvania,1
 101,Who is the chief financial officer of the organization that is the borrower?,Mark E. Newman,2
-101,What is the role of the organization in which Mark E. Newman is chief financial officer?,Borrower,2
-101,Who is the chief financial officer of MIDDLETOWN COGENERATION COMPANY LLC?,Mark E. Newman,1
-101,What is the position of Mark E. Newman in MIDDLETOWN COGENERATION COMPANY LLC?,Chief Financial Officer,1
+101,Who is the treasurer of the organization that is the borrower?,Mark E. Newman,2
+101,What is the role of the organization in which Mark E. Newman is treasurer?,Borrower,2
 101,What is the role of MIDDLETOWN COGENERATION COMPANY LLC?,Borrower,1
 101,Which organization is located at 500 Stanton Christiana Road Ops 2 Floor 3 09 09 09Newark Delaware 19713-2107?,SUNCOKE ENERGY PARTNERS L.P.,1
 101,Which organization is located at 1011 Warrenville Road 09 09 09Suite 600 09 09 09Lisle IL 60532?,SUNCOKE ENERGY PARTNERS L.P.,1
-101,Who is the treasurer of the organization that is the borrower?,Mark E. Newman,2
-101,What is the role of the organization in which Mark E. Newman is treasurer?,Borrower,2
-101,Who is the treasurer of MIDDLETOWN COGENERATION COMPANY LLC?,Mark E. Newman,1
-101,Where does Mark E. Newman work as chief financial officer?,MIDDLETOWN COGENERATION COMPANY LLC,1
-101,Where does Mark E. Newman work as treasurer?,MIDDLETOWN COGENERATION COMPANY LLC,1
 101,Where is SUNCOKE ENERGY PARTNERS L.P. located?,1011 Warrenville Road 09 09 09Suite 600 09 09 09Lisle IL 60532,1
-102,Who is the chief administrative officer of GXS Group Inc?,Paul McFeeters,1
-102,Where does Paul McFeeters work as chief administrative officer?,GXS Group Inc,1
-102,Where is Cordys Nederland B.V. located?,Netherlands,1
-102,Where is Cordys R 26D B.V. located?,Netherlands,1
-102,Where is Cordys Software B.V located?,Netherlands,1
-102,Where is GXS B.V. located?,Netherlands,1
-102,Where is Open Text Co B6peratief U.A. located?,Netherlands,1
-102,Where is bizzApps B.V. located?,Netherlands,1
-102,Where is Acquisition UK Limited located?,United Kingdom,1
-102,Which organization is located at United Kingdom?,Acquisition UK Limited,1
-102,Where is Freeway Commerce Limited 28in liquidation 29 located?,United Kingdom,1
-102,Where is GXS Limited located?,United Kingdom,1
-102,Where is GXS Product Data Quality Limited 28in liquidation 29 located?,United Kingdom,1
-102,Where is GXS UK Holding Limited located?,United Kingdom,1
-102,Where is Inovis UK Limited 28in liquidation 29 located?,United Kingdom,1
-102,Where is Open Text UK Limited located?,United Kingdom,1
-102,Where is UDEX Holdings Limited 28in liquidation 29 located?,United Kingdom,1
-102,Where is Cordys UK Ltd. located?,Wales,1
-102,Which organization is located at Wales?,Cordys UK Ltd.,1
-102,Where is Easylink Services International Limited located?,Wales,1
-102,Where is Global 360 UK Limited located?,Wales,1
-102,Where is ICCM Professional Services Ltd located?,Wales,1
-102,Where is Metastorm Limited located?,Wales,1
-102,Where is Resonate KT Ltd. located?,Wales,1
-102,Where is StreamServe Limited located?,Wales,1
-102,Where is Sysgenics Limited located?,Wales,1
-102,Where is Xpedite Systems 28UK 29 Limited located?,Wales,1
-102,Which organization is located at England?,Cordys UK Ltd.,1
-102,Where is Metastorm UK Limited located?,England,1
-102,Where is EasyLink Services USA Inc. located?,Delaware USA,1
-102,Which organization is located at Delaware USA?,EasyLink Services USA Inc.,1
-102,Where is Easylink Services International Corporation located?,Delaware USA,1
-102,Where is Easylink Services Latin America Inc. located?,Delaware USA,1
-102,Where is Federation Inc. located?,Delaware USA,1
-102,Where is Federation Web Inc. located?,Delaware USA,1
-102,Where is GXS Inc. located?,Delaware USA,1
-102,Where is GXS Investments Inc. located?,Delaware USA,1
-102,Where is GXS Group Inc. located?,Delaware USA,1
-102,Where is GXS Holdings Inc. located?,Delaware USA,1
-102,Where is GXS International Inc. located?,Delaware USA,1
-102,Where is GXS Worldwide Inc. located?,Delaware USA,1
-102,Where is HAHT Commerce Inc. located?,Delaware USA,1
-102,Where is Ocelot Merger Sub Inc located?,Delaware USA,1
-102,Where is Open Text Holdings Inc. located?,Delaware USA,1
-102,Where is Open Text Inc. located?,Delaware USA,1
-102,Where is Open Text USA Inc. located?,Delaware USA,1
-102,Where is Vignette Partnership LP located?,Delaware USA,1
-102,Where is Xpedite Systems LLC located?,Delaware USA,1
-102,Which organization is located at France?,Cordys France S.a.r.l.,1
-102,Where is Easylink Services 28France 29 S.A.R.L. located?,France,1
-102,Where is GXS SAS located?,France,1
-102,Where is Nstein Technologies France S.A.S.U. located?,France,1
-102,Where is Open Text SARL located?,France,1
-102,Where is Xpedite Systems Participations E.U.R.L. located?,France,1
-102,Where is Xpedite Systems SA located?,France,1
-102,Where is Cordys Deutschland AG located?,Germany,1
-102,Which organization is located at Germany?,Cordys Deutschland AG,1
-102,Where is Cordys Deutschland Service GmbH located?,Germany,1
-102,Where is Easylink Services 28Deutschland 29 GMBH located?,Germany,1
-102,Where is GXS GmbH located?,Germany,1
-102,Where is Global 360 Germany GmbH located?,Germany,1
-102,Where is Open Text Document Technologies GmbH located?,Germany,1
-102,Where is Xpedite Systems GmbH located?,Germany,1
-102,Where is Cordys Holding B.V. located?,Netherlands,1
-102,Where is Xpedite Systems Holdings Inc. located?,Delaware USA,1
-102,Where is Xpedite Systems Worldwide Inc located?,Delaware USA,1
-102,What is the role of GXS Group Inc?,Borrower,1
-102,What is the role of OPEN TEXT CORPORATION?,Grantor,1
-102,What is the role of OPEN TEXT INC.?,Grantor,1
-102,What is the role of OPEN TEXT ULC?,Grantor,1
+101,Where does Mark E. Newman work as treasurer?,MIDDLETOWN COGENERATION COMPANY LLC,1
+101,What is the role of the organization in which Mark E. Newman is chief financial officer?,Borrower,2
+101,Mark E. Newman holds what position in the organization that is the borrower?,Chief Financial Officer,2
+101,Who is the chief financial officer of MIDDLETOWN COGENERATION COMPANY LLC?,Mark E. Newman,1
+101,What is the position of Mark E. Newman in MIDDLETOWN COGENERATION COMPANY LLC?,Chief Financial Officer,1
+101,Where does Mark E. Newman work as chief financial officer?,MIDDLETOWN COGENERATION COMPANY LLC,1
+101,Who is the treasurer of MIDDLETOWN COGENERATION COMPANY LLC?,Mark E. Newman,1
+102,Who is the treasurer of the organization that is the guarantor?,Paul McFeeters,2
+102,Who is the president of the organization that is the guarantor?,Paul McFeeters,2
+102,Who is the chief financial officer of the organization that is the guarantor?,Paul McFeeters,2
+102,Who is the chief executive officer of the organization that is the guarantor?,Paul McFeeters,2
+102,Paul McFeeters holds what position in the organization that is the guarantor?,Chief Administrative Officer,2
+102,Who is the chief administrative officer of the organization that is the guarantor?,Paul McFeeters,2
+102,Who is the treasurer of the organization that is the grantor?,Paul McFeeters,2
+102,Who is the president of the organization that is the grantor?,Paul McFeeters,2
+102,Who is the treasurer of OPEN TEXT INC.?,Paul McFeeters,1
+102,Who is the president of OPEN TEXT INC.?,Paul McFeeters,1
+102,Who is the chief financial officer of OPEN TEXT INC.?,Paul McFeeters,1
+102,Who is the chief executive officer of OPEN TEXT INC.?,Paul McFeeters,1
+102,Who is the chief administrative officer of OPEN TEXT INC.?,Paul McFeeters,1
+102,What is the position of Paul McFeeters in OPEN TEXT INC.?,Chief Administrative Officer,1
 102,Who is the treasurer of OPEN TEXT CORPORATION?,Paul McFeeters,1
 102,Who is the president of OPEN TEXT CORPORATION?,Paul McFeeters,1
-102,Which organization is located at Austria?,Open Text Software Austria GmbH,1
-102,Where is Open Text s.r.o. located?,Czech Republic,1
-102,Which organization is located at Czech Republic?,Open Text s.r.o.,1
-102,Where is Open Text A 2FS located?,Denmark,1
-102,Which organization is located at Denmark?,Open Text A 2FS,1
-102,Where is Open Text OY located?,Finland,1
-102,Which organization is located at Finland?,Open Text OY,1
-102,Where is Cordys Israel Ltd. located?,Israel,1
-102,Which organization is located at Israel?,Cordys Israel Ltd.,1
-102,Where is GXS Inc. located?,Korea,1
-102,Which organization is located at Korea?,GXS Inc.,1
-102,Where is Cordys Inc located?,Michigan,1
-102,Which organization is located at Michigan?,Cordys Inc,1
-102,Which organization is located at Hong Kong?,Cordys Hong Kong Ltd.,1
-102,Where is Easylink Services 28Hong Kong 29 Limited located?,Hong Kong,1
-102,Where is GXS 28HK 29 Limited located?,Hong Kong,1
-102,Where is Global 360 China Limited located?,Hong Kong,1
-102,Where is Open Text 28Hong Kong 29 Limited located?,Hong Kong,1
-102,Where is Cordys Software India Pvt. Ltd located?,India,1
-102,Which organization is located at India?,Cordys Software India Pvt. Ltd,1
-102,Where is Easylink Services Corporation India Private Limited located?,India,1
-102,Where is GXS India Technology Centre Private Limited located?,India,1
-102,Where is Open Text Corporation India Private Limited located?,India,1
-102,Where is Open Text Technologies India Private Limited located?,India,1
-102,Where is Global 360 China Limited - China Branch located?,China,1
-102,Where is Open Text Software Technology 28Shanghai 29 Co. Limited located?,China,1
-102,Where is Cordys Hong Kong Ltd. located?,Hong Kong,1
-102,Where is Vignette India Private Limited located?,India,1
-102,Where is Cordys France S.a.r.l. located?,France,1
-102,Which organization is located at Australia?,Cordys Australia Pty. Ltd.,1
-102,Where is Easylink Services Australia Pty Limited located?,Australia,1
-102,Where is GXS 28ANZ 29 Pty Limited located?,Australia,1
-102,Where is Global 360 28Australia 29 Pty Limited located?,Australia,1
-102,Where is Open Text Pty Limited located?,Australia,1
-102,Where is Xpedite Systems Pty Limited located?,Australia,1
-102,Where is Cordys 28Beijing 29 Co. Ltd located?,China,1
-102,Which organization is located at China?,Cordys 28Beijing 29 Co. Ltd,1
-102,Where is Cordys Nederland B.V. - China Representation Office located?,China,1
-102,Where is Cordys Shanghai Co. Ltd. located?,China,1
-102,Where is GXS 28Shanghai 29 Software Development Ltd. located?,China,1
-102,Where is Open Text Canada Ltd. located?,Canada,1
-102,Where is Open Text Conseil Inc. located?,Canada,1
-102,Where is Open Text Corporation located?,Canada,1
-102,Where is Cordys Japan Co. Ltd. located?,Japan,1
-102,Which organization is located at Japan?,Cordys Japan Co. Ltd.,1
-102,Where is Easylink Services K.K. located?,Japan,1
-102,Where is GXS Co. Ltd. located?,Japan,1
-102,Where is Open Text K.K located?,Japan,1
-102,Where is Xpedite Inc. located?,Japan,1
-102,Where is Cordys Singapore Pte. Ltd. located?,Singapore,1
-102,Which organization is located at Singapore?,Cordys Singapore Pte. Ltd.,1
-102,Where is E Pte Ltd located?,Singapore,1
-102,Where is Easylink Services Corp. Pte Ltd located?,Singapore,1
-102,Where is Open Text 28Asia 29 Pte Limited located?,Singapore,1
-102,Where is Xpedite Systems Pte Ltd located?,Singapore,1
-102,Where is Cordys Australia Pty. Ltd. located?,Australia,1
-102,Paul McFeeters holds what position in the organization that is the grantor?,Chief Administrative Officer,2
-102,Who is the chief executive officer of the organization that is the grantor?,Paul McFeeters,2
-102,Who is the chief financial officer of the organization that is the grantor?,Paul McFeeters,2
-102,Who is the president of the organization that is the grantor?,Paul McFeeters,2
-102,Who is the treasurer of the organization that is the grantor?,Paul McFeeters,2
-102,Who is the chief administrative officer of the organization that is the guarantor?,Paul McFeeters,2
-102,Paul McFeeters holds what position in the organization that is the guarantor?,Chief Administrative Officer,2
-102,Who is the chief executive officer of the organization that is the guarantor?,Paul McFeeters,2
-102,Who is the chief financial officer of the organization that is the guarantor?,Paul McFeeters,2
-102,Who is the president of the organization that is the guarantor?,Paul McFeeters,2
-102,Who is the treasurer of the organization that is the guarantor?,Paul McFeeters,2
-102,Who is the chief administrative officer of the organization that is the borrower?,Paul McFeeters,2
-102,Paul McFeeters holds what position in the organization that is the borrower?,Chief Administrative Officer,2
-102,What is the role of the organization in which Paul McFeeters is chief administrative officer?,Borrower,2
-102,Who is the chief executive officer of the organization that is the borrower?,Paul McFeeters,2
-102,What is the role of the organization in which Paul McFeeters is chief executive officer?,Borrower,2
-102,Who is the chief financial officer of the organization that is the borrower?,Paul McFeeters,2
-102,What is the role of the organization in which Paul McFeeters is chief financial officer?,Borrower,2
-102,Who is the president of the organization that is the borrower?,Paul McFeeters,2
-102,What is the role of the organization in which Paul McFeeters is president?,Borrower,2
-102,Who is the treasurer of the organization that is the borrower?,Paul McFeeters,2
-102,What is the role of the organization in which Paul McFeeters is treasurer?,Borrower,2
-102,Who is the chief administrative officer of the organization that is the grantor?,Paul McFeeters,2
-102,Which organization is located at Nova Scotia Canada?,Open Text ULC,1
-102,Where is Open Text Sp.z.o.o located?,Poland,1
-102,Which organization is located at Poland?,Open Text Sp.z.o.o,1
-102,Where is Open Text Software S.L.U. - Portugal Branch located?,Portugal,1
-102,Which organization is located at Portugal?,Open Text Software S.L.U. - Portugal Branch,1
-102,Where is Nstein Technologies Inc. located?,Quebec,1
-102,Which organization is located at Quebec?,Nstein Technologies Inc.,1
-102,Where is Open Text South Africa Pty Limited located?,South Africa,1
-102,Which organization is located at South Africa?,Open Text South Africa Pty Limited,1
-102,Where is GXS Ltd. located?,Thailand,1
-102,Which organization is located at Thailand?,GXS Ltd.,1
-102,Where is Open Text Middle East 28Open Text Inc. - United Arab Emirates Branch 29 located?,United Arab Emirates,1
-102,Which organization is located at United Arab Emirates?,Open Text Middle East 28Open Text Inc. - United Arab Emirates Branch 29,1
-102,Where is Open Text Public Sector Solutions Inc located?,Virginia,1
-102,Which organization is located at Virginia?,Open Text Public Sector Solutions Inc,1
-102,Where is GXS S.A. located?,Belgium,1
-102,Which organization is located at Belgium?,GXS S.A.,1
-102,Where is Open Text Co B6peratief U.A. E2 80 93 BELGIUM Branch located?,Belgium,1
-102,Where is Open Text Finance Sarl located?,Luxembourg,1
-102,Which organization is located at Luxembourg?,Open Text Finance Sarl,1
-102,Where is Open Text SA located?,Luxembourg,1
-102,Where is The Easylink Services Corporation SDN. BHD located?,Malaysia,1
-102,Which organization is located at Malaysia?,The Easylink Services Corporation SDN. BHD,1
-102,Where is Xpedite Systems Incorporated 28Malaysia 29 SDN. BHD located?,Malaysia,1
-102,Where is Open Text New Zealand Limited located?,New Zealand,1
-102,Which organization is located at New Zealand?,Open Text New Zealand Limited,1
-102,Where is Xpedite Systems Limited located?,New Zealand,1
-102,Where is GXS Philippines Inc located?,Philippines,1
-102,Which organization is located at Philippines?,GXS Philippines Inc,1
-102,Where is InterCommerce Gateway Inc. located?,Philippines,1
-102,Where is Easylink Services Korea Corporation located?,Republic of Korea,1
-102,Which organization is located at Republic of Korea?,Easylink Services Korea Corporation,1
-102,Where is Xpedite Ltd located?,Republic of Korea,1
-102,Where is Easylink Do Brasil Comunicacoes Ltd located?,Brazil,1
-102,Which organization is located at Brazil?,Easylink Do Brasil Comunicacoes Ltd,1
-102,Where is GXS Tecnologia da Informaco 28Brasil 29 Ltd located?,Brazil,1
-102,Where is Open Text Brasil Comercio De Software LTDA located?,Brazil,1
-102,Where is GXS SpA located?,Italy,1
-102,Which organization is located at Italy?,GXS SpA,1
-102,Where is Open Text S.r.l. located?,Italy,1
-102,Where is Xpedite Systems S.r.l. located?,Italy,1
-102,Where is GXS Mexico S de R.L. de C.V. located?,Mexico,1
-102,Which organization is located at Mexico?,GXS Mexico S de R.L. de C.V.,1
-102,Where is Harbinger de Mexico S. de C.V. de R.L. located?,Mexico,1
-102,Where is Open Text S. de R.L. de C.V. located?,Mexico,1
-102,Where is 2016090 Ontario Inc. located?,Ontario,1
-102,Which organization is located at Ontario?,2016090 Ontario Inc.,1
-102,Where is 2016091 Ontario Inc. located?,Ontario,1
-102,Where is Open Text Venture Capital Investment Limited Partnership located?,Ontario,1
-102,Where is Global 360 Spain S.L.U. located?,Spain,1
-102,Which organization is located at Spain?,Global 360 Spain S.L.U.,1
-102,Where is Open Text Software S.L.U. located?,Spain,1
-102,Where is Xpedite Systems Spain SA located?,Spain,1
-102,Where is Cordys Nordics AB 2A located?,Sweden,1
-102,Which organization is located at Sweden?,Cordys Nordics AB 2A,1
-102,Where is Open Text AB located?,Sweden,1
-102,Where is StreamServe Development AB located?,Sweden,1
-102,Where is GXS AG located?,Switzerland,1
-102,Which organization is located at Switzerland?,GXS AG,1
-102,Where is Open Text AG located?,Switzerland,1
-102,Where is Xpedite Systems AG located?,Switzerland,1
-102,Where is Easylink Services International Limited - Ireland Branch located?,Ireland,1
-102,Which organization is located at Ireland?,Easylink Services International Limited - Ireland Branch,1
-102,Where is Open Text Finance SARL - IRELAND Place of Business located?,Ireland,1
-102,Where is Open Text Ireland Limited located?,Ireland,1
-102,Where is Open Text SA - IRELAND place of business located?,Ireland,1
-102,Where is 8493642 Canada Inc. located?,Canada,1
-102,Which organization is located at Canada?,8493642 Canada Inc.,1
-102,Where is GXS Canada Inc. located?,Canada,1
-102,Who is the chief executive officer of GXS Group Inc?,Paul McFeeters,1
-102,Where does Paul McFeeters work as chief executive officer?,GXS Group Inc,1
-102,Who is the chief financial officer of GXS Group Inc?,Paul McFeeters,1
-102,Where does Paul McFeeters work as chief financial officer?,GXS Group Inc,1
-102,Who is the president of GXS Group Inc?,Paul McFeeters,1
-102,Where does Paul McFeeters work as president?,GXS Group Inc,1
-102,Who is the treasurer of GXS Group Inc?,Paul McFeeters,1
-102,Where does Paul McFeeters work as treasurer?,GXS Group Inc,1
-102,What is the position of Paul McFeeters in OPEN TEXT CORPORATION?,Chief Administrative Officer,1
-102,Who is the chief administrative officer of OPEN TEXT CORPORATION?,Paul McFeeters,1
-102,Who is the chief executive officer of OPEN TEXT CORPORATION?,Paul McFeeters,1
-102,Where is StreamServe S.a.r.l. B.V. located?,Netherlands E2 80 93 Luxembourg,1
-102,Which organization is located at Netherlands E2 80 93 Luxembourg?,StreamServe S.a.r.l. B.V.,1
-102,Where is Open Text ULC located?,Nova Scotia Canada,1
-102,Which organization is located at Netherlands?,Cordys Holding B.V.,1
-102,Where is Cordys Investments B.V. located?,Netherlands,1
 102,Who is the chief financial officer of OPEN TEXT CORPORATION?,Paul McFeeters,1
-102,What is the position of Paul McFeeters in GXS Group Inc?,Chief Administrative Officer,1
-102,What is the position of Paul McFeeters in OPEN TEXT INC.?,Chief Administrative Officer,1
-102,Who is the chief administrative officer of OPEN TEXT INC.?,Paul McFeeters,1
-102,Who is the chief executive officer of OPEN TEXT INC.?,Paul McFeeters,1
-102,Who is the chief financial officer of OPEN TEXT INC.?,Paul McFeeters,1
-102,Who is the president of OPEN TEXT INC.?,Paul McFeeters,1
-102,Who is the treasurer of OPEN TEXT INC.?,Paul McFeeters,1
-102,What is the position of Paul McFeeters in OPEN TEXT ULC?,Chief Administrative Officer,1
-102,Who is the chief administrative officer of OPEN TEXT ULC?,Paul McFeeters,1
-102,Who is the chief executive officer of OPEN TEXT ULC?,Paul McFeeters,1
-102,Who is the chief financial officer of OPEN TEXT ULC?,Paul McFeeters,1
-102,Who is the president of OPEN TEXT ULC?,Paul McFeeters,1
-102,Who is the treasurer of OPEN TEXT ULC?,Paul McFeeters,1
+102,Who is the chief executive officer of OPEN TEXT CORPORATION?,Paul McFeeters,1
+102,Who is the chief administrative officer of OPEN TEXT CORPORATION?,Paul McFeeters,1
+102,What is the position of Paul McFeeters in OPEN TEXT CORPORATION?,Chief Administrative Officer,1
+102,Where does Paul McFeeters work as treasurer?,GXS Group Inc,1
+102,Who is the treasurer of GXS Group Inc?,Paul McFeeters,1
+102,Where does Paul McFeeters work as president?,GXS Group Inc,1
+102,Who is the president of GXS Group Inc?,Paul McFeeters,1
+102,Which organization is located at Germany?,Cordys Deutschland AG,1
+102,Where is Cordys Deutschland AG located?,Germany,1
+102,Where is Xpedite Systems SA located?,France,1
+102,Where is Xpedite Systems Participations E.U.R.L. located?,France,1
+102,Where is Open Text SARL located?,France,1
+102,Where is Nstein Technologies France S.A.S.U. located?,France,1
+102,Where is GXS SAS located?,France,1
+102,Where is Easylink Services 28France 29 S.A.R.L. located?,France,1
+102,Which organization is located at France?,Cordys France S.a.r.l.,1
+102,Where is Cordys France S.a.r.l. located?,France,1
+102,Where is Vignette India Private Limited located?,India,1
+102,Where is Open Text Technologies India Private Limited located?,India,1
+102,Where is Open Text Corporation India Private Limited located?,India,1
+102,Where is GXS India Technology Centre Private Limited located?,India,1
+102,Where is Easylink Services Corporation India Private Limited located?,India,1
+102,Which organization is located at India?,Cordys Software India Pvt. Ltd,1
+102,Where is Acquisition UK Limited located?,United Kingdom,1
+102,Where is bizzApps B.V. located?,Netherlands,1
+102,Where is Open Text Co B6peratief U.A. located?,Netherlands,1
+102,Where is GXS B.V. located?,Netherlands,1
+102,Where is Cordys Software B.V located?,Netherlands,1
+102,Where is Cordys R 26D B.V. located?,Netherlands,1
+102,Where is Cordys Nederland B.V. located?,Netherlands,1
+102,Where is Cordys Investments B.V. located?,Netherlands,1
+102,Which organization is located at Netherlands?,Cordys Holding B.V.,1
+102,Where is Cordys Holding B.V. located?,Netherlands,1
+102,Where is Xpedite Systems GmbH located?,Germany,1
+102,Where is Open Text Document Technologies GmbH located?,Germany,1
+102,Where is Global 360 Germany GmbH located?,Germany,1
+102,Where is GXS GmbH located?,Germany,1
+102,Where is Easylink Services 28Deutschland 29 GMBH located?,Germany,1
+102,Where is Cordys Deutschland Service GmbH located?,Germany,1
+102,Where is StreamServe Limited located?,Wales,1
+102,Where is Resonate KT Ltd. located?,Wales,1
+102,Where is Metastorm Limited located?,Wales,1
+102,Where is ICCM Professional Services Ltd located?,Wales,1
+102,Where is Global 360 UK Limited located?,Wales,1
+102,Where is Easylink Services International Limited located?,Wales,1
+102,Which organization is located at Wales?,Cordys UK Ltd.,1
+102,Where is Cordys UK Ltd. located?,Wales,1
+102,Where is UDEX Holdings Limited 28in liquidation 29 located?,United Kingdom,1
+102,Where is Open Text UK Limited located?,United Kingdom,1
+102,Where is Inovis UK Limited 28in liquidation 29 located?,United Kingdom,1
+102,Where is GXS UK Holding Limited located?,United Kingdom,1
+102,Where is GXS Product Data Quality Limited 28in liquidation 29 located?,United Kingdom,1
+102,Where is GXS Limited located?,United Kingdom,1
+102,Where is Freeway Commerce Limited 28in liquidation 29 located?,United Kingdom,1
+102,Which organization is located at United Kingdom?,Acquisition UK Limited,1
+102,Where is GXS Worldwide Inc. located?,Delaware USA,1
+102,Where is GXS International Inc. located?,Delaware USA,1
+102,Where is GXS Holdings Inc. located?,Delaware USA,1
+102,Where is GXS Group Inc. located?,Delaware USA,1
+102,Where is GXS Investments Inc. located?,Delaware USA,1
+102,Where is GXS Inc. located?,Delaware USA,1
+102,Where is Federation Web Inc. located?,Delaware USA,1
+102,Where is Federation Inc. located?,Delaware USA,1
+102,Where is Easylink Services Latin America Inc. located?,Delaware USA,1
+102,Where is Easylink Services International Corporation located?,Delaware USA,1
+102,Which organization is located at Delaware USA?,EasyLink Services USA Inc.,1
+102,Where is EasyLink Services USA Inc. located?,Delaware USA,1
+102,Where is Metastorm UK Limited located?,England,1
+102,Which organization is located at England?,Cordys UK Ltd.,1
+102,Where is Xpedite Systems 28UK 29 Limited located?,Wales,1
+102,Where is Sysgenics Limited located?,Wales,1
+102,What is the role of OPEN TEXT ULC?,Grantor,1
+102,What is the role of OPEN TEXT INC.?,Grantor,1
+102,What is the role of OPEN TEXT CORPORATION?,Grantor,1
+102,What is the role of GXS Group Inc?,Borrower,1
+102,Where is Xpedite Systems Worldwide Inc located?,Delaware USA,1
+102,Where is Xpedite Systems Holdings Inc. located?,Delaware USA,1
+102,Where is Xpedite Systems LLC located?,Delaware USA,1
+102,Where is Vignette Partnership LP located?,Delaware USA,1
+102,Where is Open Text USA Inc. located?,Delaware USA,1
+102,Where is Open Text Inc. located?,Delaware USA,1
+102,Where is Open Text Holdings Inc. located?,Delaware USA,1
+102,Where is Ocelot Merger Sub Inc located?,Delaware USA,1
+102,Where is HAHT Commerce Inc. located?,Delaware USA,1
+102,Where is Cordys Software India Pvt. Ltd located?,India,1
+102,Where is Open Text 28Hong Kong 29 Limited located?,Hong Kong,1
+102,Where is Global 360 China Limited located?,Hong Kong,1
+102,Where is GXS 28HK 29 Limited located?,Hong Kong,1
+102,Where is Easylink Services 28Hong Kong 29 Limited located?,Hong Kong,1
+102,Which organization is located at Hong Kong?,Cordys Hong Kong Ltd.,1
+102,Where is Cordys Hong Kong Ltd. located?,Hong Kong,1
+102,Where is Open Text Software Technology 28Shanghai 29 Co. Limited located?,China,1
+102,Where is Global 360 China Limited - China Branch located?,China,1
+102,Where is GXS 28Shanghai 29 Software Development Ltd. located?,China,1
+102,Where is Cordys Shanghai Co. Ltd. located?,China,1
+102,Where is Cordys Nederland B.V. - China Representation Office located?,China,1
+102,Which organization is located at China?,Cordys 28Beijing 29 Co. Ltd,1
+102,Where is Cordys 28Beijing 29 Co. Ltd located?,China,1
+102,Where is Xpedite Systems Pty Limited located?,Australia,1
+102,Where is Open Text Pty Limited located?,Australia,1
+102,Where is Global 360 28Australia 29 Pty Limited located?,Australia,1
+102,Where is GXS 28ANZ 29 Pty Limited located?,Australia,1
+102,Where is Easylink Services Australia Pty Limited located?,Australia,1
+102,Which organization is located at Australia?,Cordys Australia Pty. Ltd.,1
+102,Where is Cordys Australia Pty. Ltd. located?,Australia,1
+102,Where is Xpedite Systems Pte Ltd located?,Singapore,1
+102,Where is Open Text 28Asia 29 Pte Limited located?,Singapore,1
+102,Where is Easylink Services Corp. Pte Ltd located?,Singapore,1
+102,Where is E Pte Ltd located?,Singapore,1
+102,Which organization is located at Singapore?,Cordys Singapore Pte. Ltd.,1
+102,Where is Cordys Singapore Pte. Ltd. located?,Singapore,1
+102,Where is Xpedite Inc. located?,Japan,1
+102,Where is Open Text K.K located?,Japan,1
+102,Where is GXS Co. Ltd. located?,Japan,1
+102,Where is Easylink Services K.K. located?,Japan,1
+102,Which organization is located at Japan?,Cordys Japan Co. Ltd.,1
+102,Where is Cordys Japan Co. Ltd. located?,Japan,1
+102,Where is Open Text Corporation located?,Canada,1
+102,Where is Open Text Conseil Inc. located?,Canada,1
+102,Where is Open Text Canada Ltd. located?,Canada,1
+102,Where is GXS Canada Inc. located?,Canada,1
+102,Which organization is located at Canada?,8493642 Canada Inc.,1
+102,Where is 8493642 Canada Inc. located?,Canada,1
+102,Where is Open Text SA - IRELAND place of business located?,Ireland,1
+102,Where is Open Text Ireland Limited located?,Ireland,1
+102,Where is Open Text Finance SARL - IRELAND Place of Business located?,Ireland,1
+102,Which organization is located at Ireland?,Easylink Services International Limited - Ireland Branch,1
+102,Where is Easylink Services International Limited - Ireland Branch located?,Ireland,1
+102,Where is Xpedite Systems AG located?,Switzerland,1
+102,Where is Open Text AG located?,Switzerland,1
+102,Which organization is located at Switzerland?,GXS AG,1
+102,Where is GXS AG located?,Switzerland,1
+102,Where is StreamServe Development AB located?,Sweden,1
+102,Where is Open Text AB located?,Sweden,1
+102,Which organization is located at Sweden?,Cordys Nordics AB 2A,1
+102,Where is Cordys Nordics AB 2A located?,Sweden,1
+102,Where is Xpedite Systems Spain SA located?,Spain,1
+102,Where is Open Text Software S.L.U. located?,Spain,1
+102,Which organization is located at Spain?,Global 360 Spain S.L.U.,1
+102,Where is Global 360 Spain S.L.U. located?,Spain,1
+102,Where is Open Text Venture Capital Investment Limited Partnership located?,Ontario,1
+102,Where is 2016091 Ontario Inc. located?,Ontario,1
+102,Which organization is located at Ontario?,2016090 Ontario Inc.,1
+102,Where is 2016090 Ontario Inc. located?,Ontario,1
+102,Where is Open Text S. de R.L. de C.V. located?,Mexico,1
+102,Where is Harbinger de Mexico S. de C.V. de R.L. located?,Mexico,1
+102,Which organization is located at Mexico?,GXS Mexico S de R.L. de C.V.,1
+102,Where is GXS Mexico S de R.L. de C.V. located?,Mexico,1
+102,Where is Xpedite Systems S.r.l. located?,Italy,1
+102,Where is Open Text S.r.l. located?,Italy,1
+102,Which organization is located at Italy?,GXS SpA,1
+102,Where is GXS SpA located?,Italy,1
+102,Where is Open Text Brasil Comercio De Software LTDA located?,Brazil,1
+102,Where is GXS Tecnologia da Informaco 28Brasil 29 Ltd located?,Brazil,1
+102,Which organization is located at Brazil?,Easylink Do Brasil Comunicacoes Ltd,1
+102,Where is Easylink Do Brasil Comunicacoes Ltd located?,Brazil,1
+102,Where is Xpedite Ltd located?,Republic of Korea,1
+102,Which organization is located at Republic of Korea?,Easylink Services Korea Corporation,1
+102,Where is Easylink Services Korea Corporation located?,Republic of Korea,1
+102,Where is InterCommerce Gateway Inc. located?,Philippines,1
+102,Which organization is located at Philippines?,GXS Philippines Inc,1
+102,Where is GXS Philippines Inc located?,Philippines,1
+102,Where is Xpedite Systems Limited located?,New Zealand,1
+102,Which organization is located at New Zealand?,Open Text New Zealand Limited,1
+102,Where is Open Text New Zealand Limited located?,New Zealand,1
+102,Where is Xpedite Systems Incorporated 28Malaysia 29 SDN. BHD located?,Malaysia,1
+102,Which organization is located at Malaysia?,The Easylink Services Corporation SDN. BHD,1
+102,Where is The Easylink Services Corporation SDN. BHD located?,Malaysia,1
+102,Where is Open Text SA located?,Luxembourg,1
+102,Which organization is located at Luxembourg?,Open Text Finance Sarl,1
+102,Where is Open Text Finance Sarl located?,Luxembourg,1
+102,Where is Open Text Co B6peratief U.A. E2 80 93 BELGIUM Branch located?,Belgium,1
+102,Which organization is located at Belgium?,GXS S.A.,1
+102,Where is GXS S.A. located?,Belgium,1
+102,Which organization is located at Virginia?,Open Text Public Sector Solutions Inc,1
+102,Where is Open Text Public Sector Solutions Inc located?,Virginia,1
+102,Which organization is located at United Arab Emirates?,Open Text Middle East 28Open Text Inc. - United Arab Emirates Branch 29,1
+102,Where is Open Text Middle East 28Open Text Inc. - United Arab Emirates Branch 29 located?,United Arab Emirates,1
+102,Which organization is located at Thailand?,GXS Ltd.,1
+102,Where is GXS Ltd. located?,Thailand,1
+102,Which organization is located at South Africa?,Open Text South Africa Pty Limited,1
+102,Where is Open Text South Africa Pty Limited located?,South Africa,1
+102,Which organization is located at Quebec?,Nstein Technologies Inc.,1
+102,Where is Nstein Technologies Inc. located?,Quebec,1
+102,Which organization is located at Portugal?,Open Text Software S.L.U. - Portugal Branch,1
+102,Where is Open Text Software S.L.U. - Portugal Branch located?,Portugal,1
+102,Which organization is located at Poland?,Open Text Sp.z.o.o,1
+102,Where is Open Text Sp.z.o.o located?,Poland,1
+102,Which organization is located at Nova Scotia Canada?,Open Text ULC,1
+102,Where is Open Text ULC located?,Nova Scotia Canada,1
+102,Which organization is located at Netherlands E2 80 93 Luxembourg?,StreamServe S.a.r.l. B.V.,1
+102,Where is StreamServe S.a.r.l. B.V. located?,Netherlands E2 80 93 Luxembourg,1
+102,Which organization is located at Michigan?,Cordys Inc,1
+102,Where is Cordys Inc located?,Michigan,1
+102,Which organization is located at Korea?,GXS Inc.,1
+102,Where is GXS Inc. located?,Korea,1
+102,Who is the chief financial officer of the organization that is the grantor?,Paul McFeeters,2
+102,Who is the chief executive officer of the organization that is the grantor?,Paul McFeeters,2
+102,Paul McFeeters holds what position in the organization that is the grantor?,Chief Administrative Officer,2
+102,Who is the chief administrative officer of the organization that is the grantor?,Paul McFeeters,2
+102,What is the role of the organization in which Paul McFeeters is treasurer?,Borrower,2
+102,Who is the treasurer of the organization that is the borrower?,Paul McFeeters,2
+102,What is the role of the organization in which Paul McFeeters is president?,Borrower,2
+102,Who is the president of the organization that is the borrower?,Paul McFeeters,2
+102,What is the role of the organization in which Paul McFeeters is chief financial officer?,Borrower,2
+102,Who is the chief financial officer of the organization that is the borrower?,Paul McFeeters,2
+102,What is the role of the organization in which Paul McFeeters is chief executive officer?,Borrower,2
+102,Who is the chief executive officer of the organization that is the borrower?,Paul McFeeters,2
+102,What is the role of the organization in which Paul McFeeters is chief administrative officer?,Borrower,2
+102,Paul McFeeters holds what position in the organization that is the borrower?,Chief Administrative Officer,2
+102,Who is the chief administrative officer of the organization that is the borrower?,Paul McFeeters,2
+102,Which organization is located at Israel?,Cordys Israel Ltd.,1
+102,Where is Cordys Israel Ltd. located?,Israel,1
+102,Which organization is located at Finland?,Open Text OY,1
+102,Where is Open Text OY located?,Finland,1
+102,Which organization is located at Denmark?,Open Text A 2FS,1
+102,Where is Open Text A 2FS located?,Denmark,1
+102,Which organization is located at Czech Republic?,Open Text s.r.o.,1
+102,Where is Open Text s.r.o. located?,Czech Republic,1
+102,Which organization is located at Austria?,Open Text Software Austria GmbH,1
 102,Where is Open Text Software Austria GmbH located?,Austria,1
-215,Who is the assistant secretary of the organization that is the borrower?,John C. Popeo,2
-215,Cheryl Snoor holds what position in the organization that is the bookrunners?,Vice President,2
-215,Who is the vice president of the organization that is the bookrunners?,Cheryl Snoor,2
-215,What is the role of the organization in which Cheryl Snoor is vice president?,Arrangers,2
-215,Where is ROYAL BANK OF CANADA located?,200 Vesey St. 5th Floor New York NY 10281-8098,1
-215,Which organization is located at 200 Vesey St. 5th Floor New York NY 10281-8098?,ROYAL BANK OF CANADA,1
-215,Where is Citibank N.A. located?,1615 Brett Road Ops III New Castle DE 19720,1
-215,Which organization is located at 1615 Brett Road Ops III New Castle DE 19720?,CITIGROUP GLOBAL MARKETS INC,1
-215,What is the position of Noel Purcell in MORGAN STANLEY BANK?,Authorized Signatory,1
-215,Where is CITIGROUP GLOBAL MARKETS INC located?,1615 Brett Road Ops III New Castle DE 19720,1
-215,Where does Noel Purcell work as authorized signatory?,MORGAN STANLEY BANK,1
-215,Who is the authorized signatory of MORGAN STANLEY BANK?,Noel Purcell,1
-215,Who is the senior vice president of BRANCH BANKING AND TRUST COMPANY?,Mark Edwards,1
-215,Where does Mark Edwards work as senior vice president?,BRANCH BANKING AND TRUST COMPANY,1
-215,What is the position of Mark Edwards in BRANCH BANKING AND TRUST COMPANY?,Senior Vice President,1
-215,Where does John C. Popeo work as treasurer?,SELECT INCOME REIT,1
-215,Which organization is located at Minneapolis Loan Center MAC N9303-110 608 Second Avenue South 11th Floor Minneapolis Minnesota 55402-1916?,WELLS FARGO BANK NATIONAL ASSOCIATION,1
-215,Who is the treasurer of SELECT INCOME REIT?,John C. Popeo,1
-215,Where does John C. Popeo work as chief financial officer?,SELECT INCOME REIT,1
-215,Who is the chief financial officer of SELECT INCOME REIT?,John C. Popeo,1
-215,What is the role of WELLS FARGO BANK NATIONAL ASSOCIATION?,Agent,1
-215,What is the role of SELECT INCOME REIT?,Borrower,1
-215,What is the role of CITIGROUP GLOBAL MARKETS INC?,Arrangers,1
-215,Where is WELLS FARGO SECURITIES LLC located?,Minneapolis Loan Center MAC N9303-110 608 Second Avenue South 11th Floor Minneapolis Minnesota 55402-1916,1
-215,What is the position of David Heller in U.S. BANK NATIONAL ASSOCIATION?,Senior Vice President,1
-215,Where is Royal Bank of Canada located?,200 Vesey St. 5th Floor New York NY 10281-8098,1
-215,Where does David Heller work as senior vice president?,U.S. BANK NATIONAL ASSOCIATION,1
-215,Who is the senior vice president of U.S. BANK NATIONAL ASSOCIATION?,David Heller,1
-215,Who is the authorized signatory of ROYAL BANK OF CANADA?,Dan LePage,1
-215,Where does Dan LePage work as authorized signatory?,ROYAL BANK OF CANADA,1
-215,What is the position of Dan LePage in ROYAL BANK OF CANADA?,Authorized Signatory,1
-215,Where does D. Bryan Gregory work as director?,WELLS FARGO BANK NATIONAL ASSOCIATION,1
-215,Who is the director of the organization that is the lender?,D. Bryan Gregory,2
-215,Who is the director of WELLS FARGO BANK NATIONAL ASSOCIATION?,D. Bryan Gregory,1
-215,What is the position of D. Bryan Gregory in WELLS FARGO BANK NATIONAL ASSOCIATION?,Director,1
-215,Where does Craig Pearson work as associate director?,UBS AG STAMFORD BRANCH,1
-215,Which organization is located at Two Newton Place 255 Washington Street Suite Newton Massachusetts 02458-1634?,SELECT INCOME REIT,1
-215,Where is SELECT INCOME REIT located?,Two Newton Place 255 Washington Street Suite Newton Massachusetts 02458-1634,1
-215,Which organization is located at One Fleet Way 2nd Floor Mail Code P-580-02-30 Scranton PA 18507?,BANK OF AMERICA,1
-215,Where is BANK OF AMERICA located?,One Fleet Way 2nd Floor Mail Code P-580-02-30 Scranton PA 18507,1
-215,Which organization is located at 550 South Tryon Street 6th Floor Charlotte North Carolina 28202?,WELLS FARGO BANK NATIONAL ASSOCIATION,1
-215,Where is WELLS FARGO BANK NATIONAL ASSOCIATION located?,550 South Tryon Street 6th Floor Charlotte North Carolina 28202,1
-215,What is the position of Gregory A. Conner in ASSOCIATED BANK NATIONAL ASSOCIATION?,Vice President,1
-215,Who is the vice president of ASSOCIATED BANK NATIONAL ASSOCIATION?,Gregory A. Conner,1
-215,What is the position of John C. Popeo in SELECT INCOME REIT?,Assistant Secretary,1
-215,Where does Gregory A. Conner work as vice president?,ASSOCIATED BANK NATIONAL ASSOCIATION,1
-215,Where does John C. Popeo work as assistant secretary?,SELECT INCOME REIT,1
-215,Who is the assistant secretary of SELECT INCOME REIT?,John C. Popeo,1
-215,D. Bryan Gregory holds what position in the organization that is the bank?,Director,2
-215,D. Bryan Gregory holds what position in the organization that is the lender?,Director,2
-215,D. Bryan Gregory holds what position in the organization that is the lenders?,Director,2
-215,Who is the director of the organization that is the lenders?,D. Bryan Gregory,2
-215,Who is the vice president of the organization that is the arrangers?,Cheryl Snoor,2
-215,Cheryl Snoor holds what position in the organization that is the arrangers?,Vice President,2
-215,Where does Cheryl Snoor work as vice president?,CITIGROUP GLOBAL MARKETS INC,1
-215,What is the position of Craig Pearson in UBS AG STAMFORD BRANCH?,Associate Director,1
-215,Who is the chief financial officer of the organization that is the borrower?,John C. Popeo,2
-215,What is the role of the organization in which John C. Popeo is chief financial officer?,Borrower,2
-215,Who is the treasurer of the organization that is the borrower?,John C. Popeo,2
-215,What is the role of the organization in which John C. Popeo is treasurer?,Borrower,2
-215,Who is the director of the organization that is the agent ?,D. Bryan Gregory,2
-215,D. Bryan Gregory holds what position in the organization that is the agent ?,Director,2
-215,What is the role of the organization in which D. Bryan Gregory is director?,Agent,2
-215,Who is the director of the organization that is the bank?,D. Bryan Gregory,2
-215,John C. Popeo holds what position in the organization that is the borrower?,Assistant Secretary,2
-215,What is the role of the organization in which John C. Popeo is assistant secretary?,Borrower,2
-215,Who is the associate director of UBS AG STAMFORD BRANCH?,Craig Pearson,1
-215,What is the position of S. Kent Gorman in COMPASS BANK?,Sr. VP,1
-215,Who is the sr. vp of COMPASS BANK?,S. Kent Gorman,1
-215,Where does S. Kent Gorman work as sr. vp?,COMPASS BANK,1
-215,What is the position of Cheryl Snoor in CITIGROUP GLOBAL MARKETS INC?,Vice President,1
-215,Who is the vice president of CITIGROUP GLOBAL MARKETS INC?,Cheryl Snoor,1
-216,What is the role of PNC Bank National Association?,Lender,1
-216,What is the role of U.S. Bank National Association?,Lender,1
-216,What is the role of CREE INC?,BORROWER,1
-216,Where does Thomas M. Paulk work as senior vice president?,Bank of America,1
-216,What is the role of GOLDMAN SACHS BANK USA?,Lender,1
-216,What is the role of E-CONOLIGHT LLC?,GUARANTOR,1
-216,What is the role of Bank of America?,Lender,1
-216,What is the role of HSBC Bank USA National Association?,Lender,1
-216,Who is the senior vice president of Bank of America?,Thomas M. Paulk,1
-216,Who is the chief financial officer of the organization that is the borrower?,Michael E. McDevitt,2
-216,What is the position of Chris Burns in HSBC Bank USA National Association?,Vice President,1
-216,What is the position of Michael E. McDevitt in CREE INC?,Chief Financial Officer,1
-216,Who is the chief financial officer of CREE INC?,Michael E. McDevitt,1
-216,Where does Charles M. Swoboda work as president?,E-CONOLIGHT LLC,1
-216,Where does Chris Burns work as vice president?,HSBC Bank USA National Association,1
-216,Who is the vice president of HSBC Bank USA National Association?,Chris Burns,1
-216,Who is the chief executive officer of E-CONOLIGHT LLC?,Charles M. Swoboda,1
-216,Where does Charles M. Swoboda work as chairman?,E-CONOLIGHT LLC,1
-216,Who is the chairman of E-CONOLIGHT LLC?,Charles M. Swoboda,1
-216,What is the position of Charles M. Swoboda in E-CONOLIGHT LLC?,Chairman,1
-216,Where does Brian Seipke work as vice president?,U.S. Bank National Association,1
-216,Who is the vice president of U.S. Bank National Association?,Brian Seipke,1
-216,Who is the president of E-CONOLIGHT LLC?,Charles M. Swoboda,1
-216,Where does Charles M. Swoboda work as chief executive officer?,E-CONOLIGHT LLC,1
-216,Charles M. Swoboda holds what position in the organization that is the guarantor?,Chairman,2
-216,What is the position of Brian Seipke in U.S. Bank National Association?,Vice President,1
-216,What is the position of Thomas M. Paulk in Bank of America?,Senior Vice President,1
-216,Where does Richard C. Brown work as senior vice president?,PNC Bank National Association,1
-216,Where does Nicole Ferry Lacchia work as authorized signatory?,GOLDMAN SACHS BANK USA,1
-216,Who is the authorized signatory of GOLDMAN SACHS BANK USA?,Nicole Ferry Lacchia,1
-216,Who is the senior vice president of PNC Bank National Association?,Richard C. Brown,1
-216,What is the position of Richard C. Brown in PNC Bank National Association?,Senior Vice President,1
-216,Where does Michael E. McDevitt work as executive vice president?,CREE INC,1
-216,What is the position of Nicole Ferry Lacchia in GOLDMAN SACHS BANK USA?,Authorized Signatory,1
-216,Where does Michael E. McDevitt work as chief financial officer?,CREE INC,1
-216,Who is the executive vice president of CREE INC?,Michael E. McDevitt,1
-216,Who is the president of the organization that is the guarantor?,Charles M. Swoboda,2
-216,What is the role of the organization in which Charles M. Swoboda is chief executive officer?,GUARANTOR,2
-216,Who is the chief executive officer of the organization that is the guarantor?,Charles M. Swoboda,2
-216,What is the role of the organization in which Charles M. Swoboda is chairman?,GUARANTOR,2
-216,What is the role of the organization in which Michael E. McDevitt is executive vice president?,BORROWER,2
-216,Who is the chairman of the organization that is the guarantor?,Charles M. Swoboda,2
-216,What is the role of the organization in which Thomas M. Paulk is senior vice president?,Lender,2
-216,Thomas M. Paulk holds what position in the organization that is the lender?,Senior Vice President,2
-216,Who is the senior vice president of the organization that is the lender?,Thomas M. Paulk,2
-216,What is the role of the organization in which Brian Seipke is vice president?,Lender,2
-216,Brian Seipke holds what position in the organization that is the lender?,Vice President,2
-216,Who is the vice president of the organization that is the lender?,Brian Seipke,2
-216,Richard C. Brown holds what position in the organization that is the lender?,Senior Vice President,2
-216,Who is the executive vice president of the organization that is the borrower?,Michael E. McDevitt,2
-216,What is the role of the organization in which Michael E. McDevitt is chief financial officer?,BORROWER,2
-216,Michael E. McDevitt holds what position in the organization that is the borrower?,Chief Financial Officer,2
-216,Who is the senior vice president of the organization that is the lender?,Richard C. Brown,2
-216,What is the role of the organization in which Richard C. Brown is senior vice president?,Lender,2
-216,Chris Burns holds what position in the organization that is the lender?,Vice President,2
-216,What is the role of the organization in which Chris Burns is vice president?,Lender,2
-216,Nicole Ferry Lacchia holds what position in the organization that is the lender?,Authorized Signatory,2
-216,Who is the authorized signatory of the organization that is the lender?,Nicole Ferry Lacchia,2
-216,Who is the vice president of the organization that is the lender?,Chris Burns,2
-216,What is the role of the organization in which Nicole Ferry Lacchia is authorized signatory?,Lender,2
-216,What is the role of the organization in which Charles M. Swoboda is president?,GUARANTOR,2
-217,Which organization is located at 580 White Plains Road Suite 610 Tarrytown NY 10591?,KELTIC FINANCIAL PARTNERS II LP,1
-217,Where is KELTIC FINANCIAL PARTNERS II LP located?,580 White Plains Road Suite 610 Tarrytown NY 10591,1
-218,What is the role of WELLS FARGO BANK NATIONAL ASSOCIATION?,Lender,1
-218,What is the role of PNC BANK NATIONAL ASSOCIATION?,Lender,1
-218,What is the role of PERKINELMER HEALTH SCIENCES INC?,Borrower,1
-218,What is the role of THE NORTHERN TRUST COMPANY?,Lender,1
-218,What is the role of THE BANK OF TOKYO-MITSUBISHI UFJ LTD?,Lender,1
-218,Which organization is located at 10 South Dearborn Street 5D 5BChicago Illinois 60603?,JPMORGAN CHASE BANK,1
-218,Where is JPMORGAN CHASE BANK located?,10 South Dearborn Street 5D 5BChicago Illinois 60603,1
-218,Which organization is located at 04-2436772?,WALLAC OY,1
-218,Where is WALLAC OY located?,04-2436772,1
-218,Which organization is located at 04-2052042?,PERKINELMER INC,1
-218,Where is PERKINELMER INC located?,04-2052042,1
-218,What is the role of WALLAC OY?,Borrower,1
-218,What is the role of PERKINELMER INC?,Borrower,1
-218,What is the position of John L. Healy in WALLAC OY?,Attorney-in-Fact,1
-218,Where does John L. Healy work as secretary?,PERKINELMER HEALTH SCIENCES INC,1
-218,Who is the secretary of PERKINELMER HEALTH SCIENCES INC?,John L. Healy,1
-218,Where does John L. Healy work as attorney-in-fact?,PERKINELMER HEALTH SCIENCES INC,1
-218,Who is the attorney-in-fact of PERKINELMER HEALTH SCIENCES INC?,John L. Healy,1
-218,What is the position of John L. Healy in PERKINELMER HEALTH SCIENCES INC?,Attorney-in-Fact,1
-218,Where does Scott O onnell work as director?,THE BANK OF TOKYO-MITSUBISHI UFJ LTD,1
-218,Who is the director of THE BANK OF TOKYO-MITSUBISHI UFJ LTD?,Scott O onnell,1
-218,What is the position of Scott O onnell in THE BANK OF TOKYO-MITSUBISHI UFJ LTD?,Director,1
-218,Where does Michael Richards work as senior vice president?,PNC BANK NATIONAL ASSOCIATION,1
-218,Who is the senior vice president of PNC BANK NATIONAL ASSOCIATION?,Michael Richards,1
-218,What is the position of Michael Richards in PNC BANK NATIONAL ASSOCIATION?,Senior Vice President,1
-218,Where does David M. Crane work as vice president?,WELLS FARGO BANK NATIONAL ASSOCIATION,1
-218,Who is the vice president of WELLS FARGO BANK NATIONAL ASSOCIATION?,David M. Crane,1
-218,Who is the treasurer of PERKINELMER INC?,David C. Francisco,1
-218,What is the position of David C. Francisco in PERKINELMER INC?,Treasurer,1
-218,Where does Charles R. Davis work as officer?,THE NORTHERN TRUST COMPANY,1
-218,Who is the officer of THE NORTHERN TRUST COMPANY?,Charles R. Davis,1
-218,What is the position of Charles R. Davis in THE NORTHERN TRUST COMPANY?,Officer,1
-218,Who is the attorney-in-fact of WALLAC OY?,John L. Healy,1
-218,Who is the secretary of WALLAC OY?,John L. Healy,1
-218,What is the position of David M. Crane in WELLS FARGO BANK NATIONAL ASSOCIATION?,Vice President,1
-218,Where does David C. Francisco work as treasurer?,PERKINELMER INC,1
-218,What is the role of the organization in which Scott O onnell is director?,Lender,2
-218,Who is the senior vice president of the organization that is the lender?,Michael Richards,2
-218,What is the role of the organization in which John L. Healy is secretary?,Borrower,2
-218,Who is the secretary of the organization that is the borrower?,John L. Healy,2
-218,What is the role of the organization in which John L. Healy is attorney-in-fact?,Borrower,2
-218,John L. Healy holds what position in the organization that is the borrower?,Attorney-in-Fact,2
-218,Who is the attorney-in-fact of the organization that is the borrower?,John L. Healy,2
-218,What is the role of the organization in which Michael Richards is senior vice president?,Lender,2
-218,Charles R. Davis holds what position in the organization that is the lender?,Officer,2
-218,Who is the officer of the organization that is the lender?,Charles R. Davis,2
-218,What is the role of the organization in which Charles R. Davis is officer?,Lender,2
-218,Scott O onnell holds what position in the organization that is the lender?,Director,2
-218,Michael Richards holds what position in the organization that is the lender?,Senior Vice President,2
-218,What is the role of the organization in which David M. Crane is vice president?,Lender,2
-218,Who is the vice president of the organization that is the lender?,David M. Crane,2
-218,David M. Crane holds what position in the organization that is the lender?,Vice President,2
-218,David C. Francisco holds what position in the organization that is the borrower?,Treasurer,2
-218,Who is the treasurer of the organization that is the borrower?,David C. Francisco,2
-218,What is the role of the organization in which David C. Francisco is treasurer?,Borrower,2
-218,Who is the director of the organization that is the lender?,Scott O onnell,2
-219,Jane Chang holds what position in the organization that is the lender?,VP 26 General Manager,2
-219,What is the role of the organization in which Jane Chang is vp 26 general manager?,Lender,2
-219,Who is the vp 26 general manager of the organization that is the lender?,Jane Chang,2
-219,Who is the svp and branch manager of the organization that is the lender?,Haiyong Yang,2
-219,Cecile Segovia holds what position in the organization that is the lender?,Director and Senior Relationship Manager,2
-219,Who is the director and senior relationship manager of the organization that is the lender?,Cecile Segovia,2
-219,What is the role of the organization in which Elizabeth Willi is vice president?,Lender,2
-219,Elizabeth Willi holds what position in the organization that is the lender?,Vice President,2
-219,Who is the chief financial officer of the organization that is the guarantor?,Timothy Leyden,2
-219,What is the role of the organization in which Li-Hua Huang is vp 26 general manager ?,Lender,2
-219,Li-Hua Huang holds what position in the organization that is the lender?,VP 26 General Manager,2
-219,Who is the vp 26 general manager of the organization that is the lender?,Li-Hua Huang,2
-219,What is the role of the organization in which Shuji Yabe is managing director?,Lender,2
-219,Shuji Yabe holds what position in the organization that is the lender?,Managing Director,2
-219,Who is the managing director of the organization that is the lender?,Shuji Yabe,2
-219,What is the role of the organization in which Maurici Llad B3 is evp 96 corporate 26 commercial banking ?,Lender,2
-219,Maurici Llad B3 holds what position in the organization that is the lender?,EVP 96 Corporate 26 Commercial Banking,2
-219,What is the role of the organization in which Haiyong Yang is svp and branch manager?,Lender,2
-219,Haiyong Yang holds what position in the organization that is the lender?,SVP and Branch Manager,2
-219,Sheldon Pinto holds what position in the organization that is the lender?,Authorized Signatory,2
-219,What is the role of the organization in which Matthew D. Meister is assistant vice president ?,Lender,2
-219,Matthew D. Meister holds what position in the organization that is the lender?,Assistant Vice President,2
-219,Who is the assistant vice president of the organization that is the lender?,Matthew D. Meister,2
-219,What is the role of the organization in which Bertram H. Tang is authorized signatory?,Lender,2
-219,Juan Segundo holds what position in the organization that is the lender?,Corporate Banking Directo,2
-219,Who is the corporate banking directo of the organization that is the lender?,Juan Segundo,2
-219,What is the role of the organization in which Ivan Vera is vp credit and documentation?,Lender,2
-219,Ivan Vera holds what position in the organization that is the lender?,VP Credit and Documentation,2
-219,Who is the vp credit and documentation of the organization that is the lender?,Ivan Vera,2
-219,Keith Winzenried holds what position in the organization that is the lender?,Credit Executive,2
-219,Who is the credit executive of the organization that is the lender?,Keith Winzenried,2
-219,Keith Winzenried holds what position in the organization that is the l 2fc issuer?,Credit Executive,2
-219,Who is the credit executive of the organization that is the l 2fc issuer?,Keith Winzenried,2
-219,James McWalters holds what position in the organization that is the lender?,General Manager,2
-219,Who is the general manager of the organization that is the lender?,James McWalters,2
-219,Who is the credit executive of the organization that is the agent?,Keith Winzenried,2
-219,Timothy Leyden holds what position in the organization that is the holdings?,Chief Financial Officer,2
-219,Who is the chief financial officer of the organization that is the holdings?,Timothy Leyden,2
-219,What is the role of the organization in which Timothy Leyden is chief financial officer?,Guarantor,2
-219,Timothy Leyden holds what position in the organization that is the guarantor?,Chief Financial Officer,2
-219,What is the role of the organization in which Andrew Hietala is senior vice president?,US Borrower,2
-219,Andrew Hietala holds what position in the organization that is the us borrower?,Senior Vice President,2
-219,Who is the senior vice president of the organization that is the us borrower?,Andrew Hietala,2
-219,What is the role of the organization in which James Hua is svp?,Lender,2
-219,James Hua holds what position in the organization that is the lender?,SVP,2
-219,Who is the svp of the organization that is the lender?,James Hua,2
-219,What is the role of the organization in which Danny Leung is svp 26 coo?,Lender,2
-219,Danny Leung holds what position in the organization that is the lender?,SVP 26 COO,2
-219,Who is the svp 26 coo of the organization that is the lender?,Danny Leung,2
-219,Who is the evp 96 corporate 26 commercial banking of the organization that is the lender?,Maurici Llad B3,2
-219,What is the role of the organization in which Sheldon Pinto is authorized signatory?,Lender,2
-219,Who is the credit documentation manager of the organization that is the lender?,Robert K. Reddington,2
-219,What is the role of the organization in which Robin S. Wu is vp 26 deputy general manager?,Lender,2
-219,Robin S. Wu holds what position in the organization that is the lender?,VP 26 Deputy General Manager,2
-219,Who is the vice president of the organization that is the lender?,Elizabeth Willi,2
-219,What is the role of the organization in which Cecile Segovia is director and senior relationship manager?,Lender,2
-219,What is the role of the organization in which Shu-Fei 28Sophia 29 Lin is vice president 26 general manager?,Lender,2
-219,Who is the vp 26 deputy general manager of the organization that is the lender?,Robin S. Wu,2
-219,Bertram H. Tang holds what position in the organization that is the lender?,Authorized Signatory,2
-219,Who is the authorized signatory of the organization that is the lender?,Bertram H. Tang,2
-219,Who is the svp 26 general manager of the organization that is the lender?,Hsiao-Ho Huang,2
-219,What is the role of the organization in which Henry C. R. Leu is s.v.p. 26 general manager?,Lender,2
-219,What is the role of the organization in which Hsiao-Ho Huang is svp 26 general manager?,Lender,2
-219,Hsiao-Ho Huang holds what position in the organization that is the lender?,SVP 26 General Manager,2
-219,Who is the s.v.p. 26 general manager of the organization that is the lender?,Henry C. R. Leu,2
-219,Henry C. R. Leu holds what position in the organization that is the lender?,S.V.P. 26 General Manager,2
-219,What is the role of the organization in which James McWalters is general manager?,Lender,2
-219,What is the role of the organization in which Ralph Wu is svp 26 branch manager?,Lender,2
-219,Ralph Wu holds what position in the organization that is the lender?,SVP 26 Branch Manager,2
-219,Who is the svp 26 branch manager of the organization that is the lender?,Ralph Wu,2
-219,What is the role of the organization in which Joseph Carrillo is vice president?,Lender,2
-219,Joseph Carrillo holds what position in the organization that is the lender?,Vice President,2
-219,What is the role of LAND BANK OF TAIWAN?,Lender,1
-219,What is the role of MEGA INTERNATIONAL COMMERCIAL BANK CO. LTD?,Lender,1
-219,What is the role of MIZUHO BANK LTD?,Lender,1
-219,What is the role of PNC BANK NATIONAL ASSOCIATION?,Lender,1
-219,What is the role of ROYAL BANK OF CANADA?,Lender,1
-219,Keith Winzenried holds what position in the organization that is the agent?,Credit Executive,2
-219,What is the role of the organization in which Keith Winzenried is credit executive?,Agent,2
-219,What is the role of TAIWAN COOPERATIVE BANK LTD?,Lender,1
-219,What is the role of WESTERN DIGITAL CORPORATION?,Guarantor,1
-219,What is the role of JPMORGAN CHASE BANK?,Agent,1
-219,What is the role of BANCO DE CREDITO E INVERSIONES?,Lender,1
-219,What is the role of STANDARD CHARTERED BANK?,Lender,1
-219,What is the role of THE BANK OF EAST ASIA LTD?,Lender,1
-219,What is the role of WESTERN DIGITAL TECHNOLOGIES INC?,US Borrower,1
-219,Who is the chief financial officer of the organization that is the us borrower?,Timothy Leyden,2
-219,Timothy Leyden holds what position in the organization that is the us borrower?,Chief Financial Officer,2
-219,What is the role of the organization in which Juan Segundo is corporate banking directo?,Lender,2
-219,Who is the associate director of the organization that is the lender?,Johanna Minaya,2
-219,Johanna Minaya holds what position in the organization that is the lender?,Associate Director,2
-219,What is the role of the organization in which Johanna Minaya is associate director?,Lender,2
-219,What is the role of DBS BANK LTD?,Lender,1
-219,What is the role of CTBC BANK CO. LTD?,Lender,1
-219,What is the role of CITIBANK?,Lender,1
-219,What is the role of BRANCH BANKING AND TRUST COMPANY?,Lender,1
-219,What is the role of HUA NAN COMMERCIAL BANK LTD?,Lender,1
-219,What is the role of the organization in which Robert K. Reddington is credit documentation manager?,Lender,2
-219,Robert K. Reddington holds what position in the organization that is the lender?,Credit Documentation Manager,2
-219,Where is WESTERN DIGITAL IRELAND LTD located?,3355 Michelson Drive Suite 100 Irvine CA 92612,1
-219,What is the role of BANK OF THE WEST?,Lender,1
-219,What is the role of BANK OF TAIWAN?,Lender,1
-219,What is the role of BANK OF CHINA?,Lender,1
-219,What is the role of TAIPEI FUBON COMMERCIAL BANK CO. LTD?,Lender,1
-219,Who is the vp 26 deputy general manager of TAIPEI FUBON COMMERCIAL BANK CO. LTD?,Robin S. Wu,1
-219,What is the position of Robin S. Wu in TAIPEI FUBON COMMERCIAL BANK CO. LTD?,VP 26 Deputy General Manager,1
-219,Where does Robert K. Reddington work as credit documentation manager?,STANDARD CHARTERED BANK,1
-219,Who is the credit documentation manager of STANDARD CHARTERED BANK?,Robert K. Reddington,1
-219,What is the position of Robert K. Reddington in STANDARD CHARTERED BANK?,Credit Documentation Manager,1
-219,Where does Ralph Wu work as svp 26 branch manager?,CTBC BANK CO. LTD,1
-219,Who is the svp 26 branch manager of CTBC BANK CO. LTD?,Ralph Wu,1
-219,What is the position of Ralph Wu in CTBC BANK CO. LTD?,SVP 26 Branch Manager,1
-219,Where does Maurici Llad B3 work as evp 96 corporate 26 commercial banking ?,SABADELL UNITED BANK,1
-219,What is the role of BNP PARIBAS?,Lender,1
-219,Which organization is located at 3355 Michelson Drive Suite 100 Irvine CA 92612?,WESTERN DIGITAL IRELAND LTD,1
-219,Where does Matthew D. Meister work as assistant vice president ?,PNC BANK NATIONAL ASSOCIATION,1
-219,Which organization is located at 10 South Dearborn Street Floor 7 Chicago IL 60603?,JPMORGAN CHASE BANK,1
-219,Where is JPMORGAN CHASE BANK located?,10 South Dearborn Street Floor 7 Chicago IL 60603,1
-219,Who is the chief financial officer of WESTERN DIGITAL TECHNOLOGIES INC?,Timothy Leyden,1
-219,What is the position of Timothy Leyden in WESTERN DIGITAL TECHNOLOGIES INC?,Chief Financial Officer,1
-219,Where does Timothy Leyden work as chief financial officer?,WESTERN DIGITAL CORPORATION,1
-219,Who is the chief financial officer of WESTERN DIGITAL CORPORATION?,Timothy Leyden,1
-219,What is the position of Timothy Leyden in WESTERN DIGITAL CORPORATION?,Chief Financial Officer,1
-219,Where does Todd Rodgers work as director?,BNP PARIBAS,1
-219,Who is the director of BNP PARIBAS?,Todd Rodgers,1
-219,What is the position of Todd Rodgers in BNP PARIBAS?,Director,1
-219,Where does Shuji Yabe work as managing director?,SUMITOMO MITSUI BANKING CORP,1
-219,Who is the managing director of SUMITOMO MITSUI BANKING CORP?,Shuji Yabe,1
-219,What is the position of Shuji Yabe in SUMITOMO MITSUI BANKING CORP?,Managing Director,1
-219,What is the role of SUMITOMO MITSUI BANKING CORP?,Lender,1
-219,What is the role of SABADELL UNITED BANK?,Lender,1
-219,What is the position of Shu-Fei 28Sophia 29 Lin in HUA NAN COMMERCIAL BANK LTD?,Vice President 26 General Manager,1
-219,Where does Sheldon Pinto work as authorized signatory?,ROYAL BANK OF CANADA,1
-219,Who is the authorized signatory of ROYAL BANK OF CANADA?,Sheldon Pinto,1
-219,What is the position of Sheldon Pinto in ROYAL BANK OF CANADA?,Authorized Signatory,1
-219,Where does Robin S. Wu work as vp 26 deputy general manager?,TAIPEI FUBON COMMERCIAL BANK CO. LTD,1
-219,What is the position of Jane Chang in BANK OF TAIWAN?,VP 26 General Manager,1
-219,Who is the vp 26 general manager of BANK OF TAIWAN?,Jane Chang,1
-219,Where does Jane Chang work as vp 26 general manager?,BANK OF TAIWAN,1
-219,What is the position of Johanna Minaya in STANDARD CHARTERED BANK?,Associate Director,1
-219,Who is the associate director of STANDARD CHARTERED BANK?,Johanna Minaya,1
-219,Who is the vice president 26 general manager of HUA NAN COMMERCIAL BANK LTD?,Shu-Fei 28Sophia 29 Lin,1
-219,Where does Shu-Fei 28Sophia 29 Lin work as vice president 26 general manager?,HUA NAN COMMERCIAL BANK LTD,1
-219,Who is the vice president of CITIBANK?,Joseph Carrillo,1
-219,Where does Joseph Carrillo work as vice president?,CITIBANK,1
-219,What is the position of Juan Segundo in BANCO DE CREDITO E INVERSIONES?,Corporate Banking Directo,1
-219,Who is the corporate banking directo of BANCO DE CREDITO E INVERSIONES?,Juan Segundo,1
-219,Where does Juan Segundo work as corporate banking directo?,BANCO DE CREDITO E INVERSIONES,1
-219,What is the position of Keith Winzenried in JPMORGAN CHASE BANK?,Credit Executive,1
-219,Who is the credit executive of JPMORGAN CHASE BANK?,Keith Winzenried,1
-219,Where does Keith Winzenried work as credit executive?,JPMORGAN CHASE BANK,1
-219,What is the position of Li-Hua Huang in TAIWAN COOPERATIVE BANK LTD?,VP 26 General Manager,1
-219,Who is the vp 26 general manager of TAIWAN COOPERATIVE BANK LTD?,Li-Hua Huang,1
-219,Where does Li-Hua Huang work as vp 26 general manager ?,TAIWAN COOPERATIVE BANK LTD,1
-219,What is the position of Matthew D. Meister in PNC BANK NATIONAL ASSOCIATION?,Assistant Vice President,1
-219,Who is the assistant vice president of PNC BANK NATIONAL ASSOCIATION?,Matthew D. Meister,1
-219,Where does Henry C. R. Leu work as s.v.p. 26 general manager?,LAND BANK OF TAIWAN,1
-219,Who is the general manager of DBS BANK LTD?,James McWalters,1
-219,Who is the svp of THE BANK OF EAST ASIA LTD?,James Hua,1
-219,Where does James McWalters work as general manager?,DBS BANK LTD,1
-219,Who is the vp credit and documentation of BANCO DE CREDITO E INVERSIONES?,Ivan Vera,1
-219,Where does Ivan Vera work as vp credit and documentation?,BANCO DE CREDITO E INVERSIONES,1
-219,What is the position of James Hua in THE BANK OF EAST ASIA LTD?,SVP,1
-219,What is the position of Ivan Vera in BANCO DE CREDITO E INVERSIONES?,VP Credit and Documentation,1
-219,What is the position of Maurici Llad B3 in SABADELL UNITED BANK?,EVP 96 Corporate 26 Commercial Banking,1
-219,Who is the evp 96 corporate 26 commercial banking of SABADELL UNITED BANK?,Maurici Llad B3,1
-219,What is the position of James McWalters in DBS BANK LTD?,General Manager,1
-219,Where does James Hua work as svp?,THE BANK OF EAST ASIA LTD,1
-219,What is the position of Joseph Carrillo in CITIBANK?,Vice President,1
-219,Where does Johanna Minaya work as associate director?,STANDARD CHARTERED BANK,1
-219,What is the position of Danny Leung in THE BANK OF EAST ASIA LTD?,SVP 26 COO,1
-219,Where does Cecile Segovia work as director and senior relationship manager?,BANK OF THE WEST,1
-219,Who is the svp 26 coo of THE BANK OF EAST ASIA LTD?,Danny Leung,1
-219,Where does Danny Leung work as svp 26 coo?,THE BANK OF EAST ASIA LTD,1
-219,Who is the vice president of BRANCH BANKING AND TRUST COMPANY?,Elizabeth Willi,1
-219,What is the position of Elizabeth Willi in BRANCH BANKING AND TRUST COMPANY?,Vice President,1
-219,Who is the svp and branch manager of BANK OF CHINA?,Haiyong Yang,1
-219,Where does Haiyong Yang work as svp and branch manager?,BANK OF CHINA,1
-219,Where does Elizabeth Willi work as vice president?,BRANCH BANKING AND TRUST COMPANY,1
-219,What is the position of Haiyong Yang in BANK OF CHINA?,SVP and Branch Manager,1
-219,What is the position of Henry C. R. Leu in LAND BANK OF TAIWAN?,S.V.P. 26 General Manager,1
-219,Who is the s.v.p. 26 general manager of LAND BANK OF TAIWAN?,Henry C. R. Leu,1
-219,What is the position of Hsiao-Ho Huang in MEGA INTERNATIONAL COMMERCIAL BANK CO. LTD?,SVP 26 General Manager,1
-219,Who is the director and senior relationship manager of BANK OF THE WEST?,Cecile Segovia,1
-219,Where does Hsiao-Ho Huang work as svp 26 general manager?,MEGA INTERNATIONAL COMMERCIAL BANK CO. LTD,1
-219,Who is the svp 26 general manager of MEGA INTERNATIONAL COMMERCIAL BANK CO. LTD?,Hsiao-Ho Huang,1
-219,Who is the senior vice president of WESTERN DIGITAL TECHNOLOGIES INC?,Andrew Hietala,1
-219,What is the position of Andrew Hietala in WESTERN DIGITAL TECHNOLOGIES INC?,Senior Vice President,1
-219,Where does Andrew Hietala work as senior vice president?,WESTERN DIGITAL TECHNOLOGIES INC,1
-219,What is the position of Bertram H. Tang in MIZUHO BANK LTD?,Authorized Signatory,1
-219,Where does Bertram H. Tang work as authorized signatory?,MIZUHO BANK LTD,1
-219,Who is the authorized signatory of MIZUHO BANK LTD?,Bertram H. Tang,1
-219,Who is the director of the organization that is the lender?,Todd Rodgers,2
-219,Todd Rodgers holds what position in the organization that is the lender?,Director,2
-219,What is the position of Cecile Segovia in BANK OF THE WEST?,Director and Senior Relationship Manager,1
-219,Shu-Fei 28Sophia 29 Lin holds what position in the organization that is the lender?,Vice President 26 General Manager,2
-219,Who is the vice president 26 general manager of the organization that is the lender?,Shu-Fei 28Sophia 29 Lin,2
-219,What is the role of the organization in which Todd Rodgers is director?,Lender,2
-220,Laura Conway holds what position in the organization that is the lender?,Vice President,2
-220,Who is the vice president of the organization that is the lender?,Laura Conway,2
-220,Laura Conway holds what position in the organization that is the lc issuer?,Vice President,2
-220,Who is the vice president of the organization that is the lc issuer?,Laura Conway,2
-220,What is the role of the organization in which Laura Conway is vice president?,Agent,2
-220,Laura Conway holds what position in the organization that is the agent ?,Vice President,2
-220,Who is the vice president of the organization that is the agent ?,Laura Conway,2
-220,Elsa O 92Brien holds what position in the organization that is the lender?,Manager,2
-220,Who is the manager of the organization that is the lender?,Elsa O 92Brien,2
-220,Elsa O 92Brien holds what position in the organization that is the lc issuer?,Manager,2
-220,Who is the manager of the organization that is the lc issuer?,Elsa O 92Brien,2
-220,What is the role of the organization in which Elsa O 92Brien is manager?,Agent,2
-220,Elsa O 92Brien holds what position in the organization that is the agent ?,Manager,2
-220,Who is the manager of the organization that is the agent ?,Elsa O 92Brien,2
-220,Audrey Pishnery holds what position in the organization that is the lender?,Servicing Officer,2
-220,Who is the servicing officer of the organization that is the lender?,Audrey Pishnery,2
-220,What is the role of KEYBANK NATIONAL ASSOCIATION?,Agent,1
-220,What is the role of JPMORGAN CHASE BANK?,Agents,1
-220,What is the role of Bank of America?,Agents,1
-220,What is the role of Taiwan Cooperative Bank?,Lender,1
-220,Which organization is located at North Courthouse Square 1000 Jackson Street Toledo Ohio 43604-5573?,Shumaker Loop 26 Kendrick LLP,1
-220,Where is Shumaker Loop 26 Kendrick LLP located?,North Courthouse Square 1000 Jackson Street Toledo Ohio 43604-5573,1
-220,Which organization is located at 4910 Tiedeman Rd. Mail Code 3A OH-01-51-0311 Brooklyn Ohio 44144?,KEYBANK NATIONAL ASSOCIATION,1
-220,Where is KEYBANK NATIONAL ASSOCIATION located?,4910 Tiedeman Rd. Mail Code 3A OH-01-51-0311 Brooklyn Ohio 44144,1
-220,Which organization is located at 4500 Dorr Street Toledo Ohio 43615-4040?,HEALTH CARE REIT INC.,1
-220,Where is HEALTH CARE REIT INC. located?,4500 Dorr Street Toledo Ohio 43615-4040,1
-220,Where does Tanya Crossley work as managing director ?,Credit Agricole Corporate and Investment Bank,1
-220,Who is the managing director of Credit Agricole Corporate and Investment Bank?,Tanya Crossley,1
-220,What is the position of Tanya Crossley in Credit Agricole Corporate and Investment Bank?,Managing Director,1
-220,Where does Noam Azachi work as authorized signatory ?,BARCLAYS BANK PLC,1
-220,Who is the authorized signatory of BARCLAYS BANK PLC?,Noam Azachi,1
-220,What is the position of Noam Azachi in BARCLAYS BANK PLC?,Authorized Signatory,1
-220,Where does Mr. George L. Chapman work as chief executive officer?,HEALTH CARE REIT INC.,1
-220,Who is the chief executive officer of HEALTH CARE REIT INC.?,Mr. George L. Chapman,1
-220,Where does Mr. George L. Chapman work as chairman of the board?,HEALTH CARE REIT INC.,1
-220,Who is the chairman of the board of HEALTH CARE REIT INC.?,Mr. George L. Chapman,1
-220,What is the position of Mr. George L. Chapman in HEALTH CARE REIT INC.?,Chairman of the Board,1
-220,Where does Ming K. Chu work as vice president ?,DEUTSCHE BANK AG,1
-220,Who is the vice president of DEUTSCHE BANK AG?,Ming K. Chu,1
-220,What is the position of Ming K. Chu in DEUTSCHE BANK AG?,Vice President,1
-220,Where does Michael D 92Onofrio work as associate?,CREDIT SUISSE AG,1
-220,Who is the associate of CREDIT SUISSE AG?,Michael D 92Onofrio,1
-220,What is the position of Michael D 92Onofrio in CREDIT SUISSE AG?,Associate,1
-220,Where does Michael A. Crabtree work as treasurer?,HEALTH CARE REIT INC.,1
-220,Who is the treasurer of HEALTH CARE REIT INC.?,Michael A. Crabtree,1
-220,Where does Michael A. Crabtree work as senior vice president?,HEALTH CARE REIT INC.,1
-220,Who is the senior vice president of HEALTH CARE REIT INC.?,Michael A. Crabtree,1
-220,What is the position of Michael A. Crabtree in HEALTH CARE REIT INC.?,Senior Vice President,1
-220,Where does Megan R. Brearey work as assistant vice president ?,Fifth Third Bank,1
-220,Who is the assistant vice president of Fifth Third Bank?,Megan R. Brearey,1
-220,What is the position of Megan R. Brearey in Fifth Third Bank?,Assistant Vice President,1
-220,Where does Mark Costantino work as executive director?,JPMORGAN CHASE BANK,1
-220,Who is the executive director of JPMORGAN CHASE BANK?,Mark Costantino,1
-220,What is the position of Mark Costantino in JPMORGAN CHASE BANK?,Executive Director,1
-220,Where does Li Hua Huang work as general manager ?,Taiwan Cooperative Bank,1
-220,Who is the general manager of Taiwan Cooperative Bank?,Li Hua Huang,1
-220,What is the position of Li Hua Huang in Taiwan Cooperative Bank?,General Manager,1
-220,Where does Laura Conway work as vice president?,KEYBANK NATIONAL ASSOCIATION,1
-220,Who is the vice president of KEYBANK NATIONAL ASSOCIATION?,Laura Conway,1
-220,What is the position of Laura Conway in KEYBANK NATIONAL ASSOCIATION?,Vice President,1
-220,Where does Kyle B. O 92Neill work as account representative?,Comerica Bank,1
-220,Who is the account representative of Comerica Bank?,Kyle B. O 92Neill,1
-220,What is the position of Kyle B. O 92Neill in Comerica Bank?,Account Representative,1
-220,Where does Joshua Freedman work as authorized signatory?,ROYAL BANK OF CANADA,1
-220,Who is the authorized signatory of ROYAL BANK OF CANADA?,Joshua Freedman,1
-220,What is the position of Joshua Freedman in ROYAL BANK OF CANADA?,Authorized Signatory,1
-220,Where does Joselin Fernandes work as associate director?,UBS AG,1
-220,Who is the associate director of UBS AG?,Joselin Fernandes,1
-220,What is the position of Joselin Fernandes in UBS AG?,Associate Director,1
-220,Where does Elsa O 92Brien work as manager?,KEYBANK NATIONAL ASSOCIATION,1
-220,Who is the manager of KEYBANK NATIONAL ASSOCIATION?,Elsa O 92Brien,1
-220,What is the position of Elsa O 92Brien in KEYBANK NATIONAL ASSOCIATION?,Manager,1
-220,Where does Edward Chen work as general manager ?,E.SUN COMMERCIAL BANK,1
-220,Who is the general manager of E.SUN COMMERCIAL BANK?,Edward Chen,1
-220,What is the position of Edward Chen in E.SUN COMMERCIAL BANK?,General Manager,1
-220,Where does Chwan-Ming Ho work as vp?,BANK OF TAIWAN,1
-220,Who is the vp of BANK OF TAIWAN?,Chwan-Ming Ho,1
-220,Where does Chwan-Ming Ho work as general manager?,BANK OF TAIWAN,1
-220,Who is the general manager of BANK OF TAIWAN?,Chwan-Ming Ho,1
-220,What is the position of Chwan-Ming Ho in BANK OF TAIWAN?,General Manager,1
-220,Where does Brian Tuerff work as senior vice president?,COMPASS BANK,1
-220,Who is the senior vice president of COMPASS BANK?,Brian Tuerff,1
-220,What is the position of Brian Tuerff in COMPASS BANK?,Senior Vice President,1
-220,Where does Audrey Pishnery work as servicing officer?,KEYBANK NATIONAL ASSOCIATION,1
-220,Who is the servicing officer of KEYBANK NATIONAL ASSOCIATION?,Audrey Pishnery,1
-220,What is the position of Audrey Pishnery in KEYBANK NATIONAL ASSOCIATION?,Servicing Officer,1
-220,Audrey Pishnery holds what position in the organization that is the lc issuer?,Servicing Officer,2
-220,Who is the servicing officer of the organization that is the lc issuer?,Audrey Pishnery,2
-220,What is the role of the organization in which Audrey Pishnery is servicing officer?,Agent,2
-220,Audrey Pishnery holds what position in the organization that is the agent ?,Servicing Officer,2
-220,Who is the servicing officer of the organization that is the agent ?,Audrey Pishnery,2
-220,What is the role of the organization in which Mark Costantino is executive director?,Agents,2
-220,Mark Costantino holds what position in the organization that is the agents?,Executive Director,2
-220,Who is the executive director of the organization that is the agents?,Mark Costantino,2
-220,What is the role of the organization in which Amie L. Edwards is director?,Agents,2
-220,Amie L. Edwards holds what position in the organization that is the agents?,Director,2
-220,Who is the director of the organization that is the agents?,Amie L. Edwards,2
-220,What is the role of the organization in which Li Hua Huang is general manager ?,Lender,2
-220,Li Hua Huang holds what position in the organization that is the lender?,General Manager,2
-220,Who is the general manager of the organization that is the lender?,Li Hua Huang,2
-220,Where does Amy Trapp work as managing director?,Credit Agricole Corporate and Investment Bank,1
-220,Who is the managing director of Credit Agricole Corporate and Investment Bank?,Amy Trapp,1
-220,What is the position of Amy Trapp in Credit Agricole Corporate and Investment Bank?,Managing Director,1
-220,Where does Amie L. Edwards work as director?,Bank of America,1
-220,Who is the director of Bank of America?,Amie L. Edwards,1
-220,What is the position of Amie L. Edwards in Bank of America?,Director,1
-220,Where does Alexander Wu work as svp?,CATHAY UNITED BANK,1
-220,Who is the svp of CATHAY UNITED BANK?,Alexander Wu,1
-220,What is the position of Alexander Wu in CATHAY UNITED BANK?,SVP,1
-220,Where does Ahaz Armstrong work as assistant vice president?,BRANCH BANKING AND TRUST COMPANY,1
-220,Who is the assistant vice president of BRANCH BANKING AND TRUST COMPANY?,Ahaz Armstrong,1
-220,What is the position of Ahaz Armstrong in BRANCH BANKING AND TRUST COMPANY?,Assistant Vice President,1
+102,Who is the treasurer of OPEN TEXT ULC?,Paul McFeeters,1
+102,Who is the president of OPEN TEXT ULC?,Paul McFeeters,1
+102,Who is the chief financial officer of OPEN TEXT ULC?,Paul McFeeters,1
+102,Who is the chief executive officer of OPEN TEXT ULC?,Paul McFeeters,1
+102,Who is the chief administrative officer of OPEN TEXT ULC?,Paul McFeeters,1
+102,What is the position of Paul McFeeters in OPEN TEXT ULC?,Chief Administrative Officer,1
+102,Where does Paul McFeeters work as chief financial officer?,GXS Group Inc,1
+102,Who is the chief financial officer of GXS Group Inc?,Paul McFeeters,1
+102,Where does Paul McFeeters work as chief executive officer?,GXS Group Inc,1
+102,Who is the chief executive officer of GXS Group Inc?,Paul McFeeters,1
+102,Where does Paul McFeeters work as chief administrative officer?,GXS Group Inc,1
+102,Who is the chief administrative officer of GXS Group Inc?,Paul McFeeters,1
+102,What is the position of Paul McFeeters in GXS Group Inc?,Chief Administrative Officer,1

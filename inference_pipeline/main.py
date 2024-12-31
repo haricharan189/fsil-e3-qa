@@ -33,48 +33,48 @@ class Pipeline:
         6) Benchmark
         """
         try:
-            # 1. Build Knowledge Graph
-            self.logger.info("Building Knowledge Graphs...")
-            graph_builder_main()  # uses config inside
-            self.logger.info("Knowledge Graph built.")
+            # # 1. Build Knowledge Graph
+            # self.logger.info("Building Knowledge Graphs...")
+            # graph_builder_main()  # uses config inside
+            # self.logger.info("Knowledge Graph built.")
 
-            # 2. Generate Queries
-            self.logger.info("Generating Queries...")
-            ontology_file = os.path.join(config.EXTRACTED_CONTENT_DIR, "ontology.ttl")
-            qg = QueryGenerator(ontology_file_path=ontology_file, data_directory=config.EXTRACTED_CONTENT_DIR)
-            for data_file_path in qg.data_files:
-                data_graph = qg.load_graph(data_file_path)
-                doc_name   = os.path.basename(data_file_path).replace('.ttl', '')
-                qg.L1_person(data_graph, doc_name)
-                qg.Level_1_location(data_graph, doc_name)
-                qg.Level_1_Roles(data_graph, doc_name)
-                qg.L2_person_org(data_graph, doc_name)
-            self.logger.info("Queries generated.")
+            # # 2. Generate Queries
+            # self.logger.info("Generating Queries...")
+            # ontology_file = os.path.join(config.EXTRACTED_CONTENT_DIR, "ontology.ttl")
+            # qg = QueryGenerator(ontology_file_path=ontology_file, data_directory=config.EXTRACTED_CONTENT_DIR)
+            # for data_file_path in qg.data_files:
+            #     data_graph = qg.load_graph(data_file_path)
+            #     doc_name   = os.path.basename(data_file_path).replace('.ttl', '')
+            #     qg.L1_person(data_graph, doc_name)
+            #     qg.Level_1_location(data_graph, doc_name)
+            #     qg.Level_1_Roles(data_graph, doc_name)
+            #     qg.L2_person_org(data_graph, doc_name)
+            # self.logger.info("Queries generated.")
 
-            # 3. Ground Truth
-            self.logger.info("Extracting Ground Truth from TTL files...")
-            gte = GroundTruthExtractor(ontology_file, config.EXTRACTED_CONTENT_DIR)
-            for data_file_path in gte.data_files:
-                data_graph = gte.load_graph(data_file_path)
-                doc_name   = os.path.basename(data_file_path).replace('.ttl', '')
-                gte.Level_1_person_answers(data_graph, doc_name)
-                gte.Level_1_location_answers(data_graph, doc_name)
-                gte.Level_1_Roles_answers(data_graph, doc_name)
-                gte.L2_person_org_answers(data_graph, doc_name)
-            self.logger.info("Ground Truth extracted.")
+            # # 3. Ground Truth
+            # self.logger.info("Extracting Ground Truth from TTL files...")
+            # gte = GroundTruthExtractor(ontology_file, config.EXTRACTED_CONTENT_DIR)
+            # for data_file_path in gte.data_files:
+            #     data_graph = gte.load_graph(data_file_path)
+            #     doc_name   = os.path.basename(data_file_path).replace('.ttl', '')
+            #     gte.Level_1_person_answers(data_graph, doc_name)
+            #     gte.Level_1_location_answers(data_graph, doc_name)
+            #     gte.Level_1_Roles_answers(data_graph, doc_name)
+            #     gte.L2_person_org_answers(data_graph, doc_name)
+            # self.logger.info("Ground Truth extracted.")
 
-            # 4. Process into a DataFrame
-            self.logger.info("Processing Ground Truth into DataFrame...")
-            processor = GroundTruthProcessor()
-            processor.process_ground_truth_files()
-            self.logger.info("Ground Truth DataFrame ready.")
+            # # 4. Process into a DataFrame
+            # self.logger.info("Processing Ground Truth into DataFrame...")
+            # processor = GroundTruthProcessor()
+            # processor.process_ground_truth_files()
+            # self.logger.info("Ground Truth DataFrame ready.")
 
-            # 5. Inference
-            self.logger.info("Running Inference...")
-            inference = InferencePipeline()
-            for doc_num in config.DOCUMENT_NUMBERS:
-                inference.process_document(doc_num, num_questions=config.QUESTIONS_PER_DOCUMENT)
-            self.logger.info("Inference completed.")
+            # # 5. Inference
+            # self.logger.info("Running Inference...")
+            # inference = InferencePipeline()
+            # for doc_num in config.DOCUMENT_NUMBERS:
+            #     inference.process_document(doc_num, num_questions=config.QUESTIONS_PER_DOCUMENT)
+            # self.logger.info("Inference completed.")
 
             # 6. Benchmark
             self.logger.info("Starting Benchmark Evaluation...")
