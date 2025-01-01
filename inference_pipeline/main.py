@@ -10,6 +10,9 @@ Changes:
 # todo: figureing out how to adap this code for different llms/ checking what changes needed for openai
 #..... fixing the content that is being sent for each question in inference.py 
 # print llm output
+# fixing the bug of correctness_rate
+# need clean up file whcih cleans up stuff after each iterations
+# parallise sending to llms
 import os
 import logging
 import pandas as pd
