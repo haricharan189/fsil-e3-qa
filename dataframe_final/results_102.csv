@@ -2,4 +2,3 @@ document_number,question,ground_truth,llm_response,level
 102,Who is the treasurer of the organization that is the guarantor?,Paul McFeeters,Paul McFeeters,2
 102,Who is the president of the organization that is the guarantor?,Paul McFeeters,Paul McFeeters,2
 102,Who is the chief financial officer of the organization that is the guarantor?,Paul McFeeters,Paul McFeeters,2
-102,Who is the chief executive officer of the organization that is the guarantor?,Paul McFeeters,The chief executive officer of the organization that is the guarantor is Paul McFeeters.,2

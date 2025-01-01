@@ -1,5 +1,4 @@
 document_number,question,ground_truth,llm_response,level
 99,Which organization is located at PENNSYLVANIA?,Stevens 26 Lee P.C.,"Ontelaunee Power Operating Company, LLC",1
-99,Which organization is located at 420 W. Van Buren Street 9th Floor Suite IL 1-0199 Chicago IL 60606-3534?,JPMorgan Chase Bank N.A.,"JPMorgan Chase Bank, N.A.",1
-99,Where is JPMorgan Chase Bank N.A. located?,420 W. Van Buren Street 9th Floor Suite IL 1-0199 Chicago IL 60606-3534,"Chicago, IL (420 W Van Buren Street, 9th floor Suite IL1-0199)",1
-99,Which organization is located at 200 Park Avenue New York New York 10166?,Barclays Bank,Barclays Bank.,1
+99,Which organization is located at 420 W. Van Buren Street 9th Floor Suite IL 1-0199 Chicago IL 60606-3534?,JPMorgan Chase Bank N.A.,"JPMorgan Chase Bank, N.A. Global TS Contract & Documentation",1
+99,Where is JPMorgan Chase Bank N.A. located?,420 W. Van Buren Street 9th Floor Suite IL 1-0199 Chicago IL 60606-3534,"Chicago, IL",1

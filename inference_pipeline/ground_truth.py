@@ -1,7 +1,10 @@
 """
+ground_truth.py
+
 Changes:
-  - Paths from config.
-  - Writes L1_answers_..., L2_answers_... to ground_truth/
+ - Paths from config
+ - Writes L1_answers_..., L2_answers_... to ground_truth/
+ - Additional comments for clarity
 """
 
 from rdflib import Graph
@@ -22,6 +25,9 @@ class GroundTruthExtractor:
         return g
 
     def Level_1_person_answers(self, data_graph, document_name):
+        """
+        Extract ground truth answers for Person
+        """
         answers = []
         query = """
         PREFIX person: <http://example.org/person/>
@@ -52,6 +58,9 @@ class GroundTruthExtractor:
         return answers
 
     def Level_1_location_answers(self, data_graph, document_name):
+        """
+        Extract ground truth answers for Location
+        """
         answers = []
         query = """
         PREFIX loc: <http://example.org/location/>
@@ -77,6 +86,9 @@ class GroundTruthExtractor:
         return answers
 
     def Level_1_Roles_answers(self, data_graph, document_name):
+        """
+        Extract ground truth answers for Organization roles
+        """
         answers = []
         query = """
         PREFIX org: <http://example.org/organization/>
@@ -103,6 +115,9 @@ class GroundTruthExtractor:
         return answers
 
     def L2_person_org_answers(self, data_graph, document_name):
+        """
+        Extract ground truth answers for Person-Organization relationship
+        """
         answers = []
         query = """
         PREFIX person: <http://example.org/person/>
@@ -139,6 +154,9 @@ class GroundTruthExtractor:
         return answers
 
     def save_answers(self, answers, document_name, append=False, level=1):
+        """
+        Writes Q/A pairs to L{level}_answers_{document_name}.txt
+        """
         os.makedirs(config.GROUND_TRUTH_DIR, exist_ok=True)
         file_path = os.path.join(config.GROUND_TRUTH_DIR, f"L{level}_answers_{document_name}.txt")
         mode = 'a' if append else 'w'
@@ -152,7 +170,6 @@ class GroundTruthExtractor:
             question_text = question.lower().strip()
             last_word     = question_text.split()[-1].rstrip('?') if question_text else ""
 
-            # skip duplicates or those ending with 'Person' / 'Organization'
             if (answer 
                 and not answer.strip().endswith("Person") 
                 and not answer.strip().endswith("Organization")
@@ -176,6 +193,9 @@ class GroundTruthExtractor:
         return cleaned_text.strip()
 
 def main():
+    """
+    If you want to run ground truth extraction standalone.
+    """
     gte = GroundTruthExtractor(
         ontology_file_path=os.path.join(config.EXTRACTED_CONTENT_DIR, "ontology.ttl"),
         data_directory=config.EXTRACTED_CONTENT_DIR

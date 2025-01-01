@@ -1,7 +1,10 @@
 """
+processor.py
+
 Changes:
-  - Writes output CSV to dataframe/ground_truth_qa.csv
-  - Reads ground_truth files from ground_truth/.
+ - Writes output CSV to dataframe/ground_truth_qa.csv
+ - Reads ground_truth files from ground_truth/.
+ - Added clarifying comments.
 """
 
 import pandas as pd
@@ -18,6 +21,9 @@ class GroundTruthProcessor:
         os.makedirs(self.dataframe_dir, exist_ok=True)
 
     def extract_document_number(self, filename):
+        """
+        Example: 'L1_answers_215.txt' => returns '215'
+        """
         base_name = os.path.basename(filename)
         match = re.search(r'answers_(\d+)\.txt$', base_name)
         if match:
@@ -25,6 +31,10 @@ class GroundTruthProcessor:
         return None
 
     def process_ground_truth_files(self):
+        """
+        Reads all L1_answers_*.txt and L2_answers_*.txt from ground_truth_dir,
+        merges them into a single CSV => dataframe/ground_truth_qa.csv
+        """
         data = []
         
         l1_files = glob.glob(os.path.join(self.ground_truth_dir, "L1_answers_*.txt"))
@@ -46,10 +56,12 @@ class GroundTruthProcessor:
         
         output_path = os.path.join(self.dataframe_dir, "ground_truth_qa.csv")
         df.to_csv(output_path, index=False)
-        
         return df
 
     def process_file(self, file_path, doc_num, level):
+        """
+        Expects pairs of lines: Q: something, A: something
+        """
         data = []
         with open(file_path, 'r') as f:
             lines = f.readlines()
@@ -63,10 +75,12 @@ class GroundTruthProcessor:
                 if answer.startswith('A:'):
                     answer = answer[2:].strip()
                 data.append((doc_num, question, answer, level))
-                
         return data
 
 def main():
+    """
+    Run the processor standalone if needed.
+    """
     processor = GroundTruthProcessor()
     df = processor.process_ground_truth_files()
     print(f"Created DataFrame with {len(df)} rows.")

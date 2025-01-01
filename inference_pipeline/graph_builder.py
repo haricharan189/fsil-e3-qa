@@ -1,7 +1,10 @@
 """
+graph_builder.py
+
 Changes:
-  - Reads config for JSON_FILE_PATH and EXTRACTED_CONTENT_DIR.
-  - Writes TTL files to extracted_content.
+ - Reads config for JSON_FILE_PATH and EXTRACTED_CONTENT_DIR
+ - Writes TTL files to extracted_content
+ - Comments for clarity
 """
 
 from rdflib import Graph, Namespace, URIRef
@@ -77,7 +80,10 @@ class KnowledgeGraphBuilder:
         relations_with_labels = []
 
         for item in data:
-            for result in item.get('annotations', [])[0].get('result', []):
+            # If no annotations in an item, skip safely
+            if "annotations" not in item or not item["annotations"]:
+                continue
+            for result in item["annotations"][0].get('result', []):
                 if result['type'] == 'hypertextlabels':
                     entity_id = result['id']
                     label     = result['value']['hypertextlabels'][0]
@@ -90,7 +96,9 @@ class KnowledgeGraphBuilder:
                     entities[entity_id] = {'label': label, 'text': text, 'uri': uri}
 
         for item in data:
-            for result in item.get('annotations', [])[0].get('result', []):
+            if "annotations" not in item or not item["annotations"]:
+                continue
+            for result in item["annotations"][0].get('result', []):
                 if result['type'] == 'relation':
                     from_id = result['from_id']
                     to_id   = result['to_id']
@@ -108,6 +116,7 @@ class KnowledgeGraphBuilder:
                 and relation['to']['label'] == "Organization Sub-Role"):
                 sub_role_uri = relation['to']['uri']
                 role_uri     = relation['from']['uri']
+                # Remove default subClassOf org:Organization, replace with the new role
                 g.remove((sub_role_uri, RDFS.subClassOf, self.org.Organization))
                 g.add((sub_role_uri, RDFS.subClassOf, role_uri))
             
@@ -120,6 +129,9 @@ class KnowledgeGraphBuilder:
         return g
      
     def create_data_layer(self, doc: Dict) -> Graph:
+        """
+        For each doc in the JSON, create a data-layer graph.
+        """
         g = Graph()
         g.bind("org", self.org)
         g.bind("person", self.person)
@@ -133,7 +145,6 @@ class KnowledgeGraphBuilder:
         position_to_person: Dict[str, URIRef] = {}
         org_roles: Dict[URIRef, List[URIRef]] = {}
 
-        # Pass 1: parse entities
         for annotation in doc.get("annotations", []):
             for result in annotation.get('result', []):
                 if result["type"] == "hypertextlabels":
@@ -159,7 +170,6 @@ class KnowledgeGraphBuilder:
                     if uri:
                         entities[result["id"]] = {"uri": uri, "label": label, "text": text}
         
-        # Pass 2: parse relations
         for annotation in doc.get("annotations", []):
             for result in annotation.get('result', []):
                 if result["type"] == "relation":
@@ -193,7 +203,7 @@ class KnowledgeGraphBuilder:
                         position_text = from_entity["text"]
                         position_to_person[position_text] = to_uri
     
-        # Pass 3: link persons to orgs via positions
+        # Link Persons to Orgs
         for position_text, org_uri in position_to_org.items():
             person_uri = position_to_person.get(position_text)
             if person_uri:
@@ -203,7 +213,7 @@ class KnowledgeGraphBuilder:
                 g.add((person_uri, self.rel.isEmployedBy, org_uri))
                 g.add((org_uri, self.rel.hasEmployee, person_uri))
         
-        # Pass 4: add roles to org
+        # Add roles to org
         for org_uri, roles in org_roles.items():
             for role_uri in roles:
                 g.add((org_uri, RDF.type, role_uri))
@@ -217,10 +227,7 @@ class KnowledgeGraphBuilder:
         graph.serialize(destination=filepath, format="turtle")
 
 def main():
-    # Create extracted_content if it doesn't exist
     Path(config.EXTRACTED_CONTENT_DIR).mkdir(parents=True, exist_ok=True)
-    
-    # Load JSON
     with open(config.JSON_FILE_PATH, "r", encoding="utf-8") as f:
         data = json.load(f)
     
@@ -231,7 +238,7 @@ def main():
     ontology_ttl   = os.path.join(config.EXTRACTED_CONTENT_DIR, "ontology.ttl")
     builder.save_graph(ontology_graph, ontology_ttl)
     
-    # 2) Data layer per doc
+    # 2) Data layer
     for doc in data:
         data_graph = builder.create_data_layer(doc)
         doc_id     = doc.get("id", "unknown_id")

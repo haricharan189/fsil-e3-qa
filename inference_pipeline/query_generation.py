@@ -1,7 +1,11 @@
 """
+query_generation.py
+
 Changes:
-  - Paths come from config, so it writes queries to queries/ 
-  - Loads ontology from extracted_content/ontology.ttl
+ - Paths come from config
+ - Writes queries to queries/ 
+ - Loads ontology from extracted_content/ontology.ttl
+ - Additional comments
 """
 
 import os
@@ -18,11 +22,14 @@ class QueryGenerator:
         self.data_files     = glob.glob(os.path.join(data_directory, "*.ttl"))  
 
     def load_graph(self, ttl_file_path):
-        graph = Graph()
-        graph.parse(ttl_file_path, format="ttl")
-        return graph
+        g = Graph()
+        g.parse(ttl_file_path, format="ttl")
+        return g
 
     def L1_person(self, data_graph, document_name):
+        """
+        Generate queries for Person
+        """
         query_subclasses = """
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         PREFIX person: <http://example.org/person/>
@@ -57,20 +64,23 @@ class QueryGenerator:
         nlqs = []
         for row in results:
             try:
-                name, position, organization = row
+                name, position, org = row
                 position_name = position.split("/")[-1]
                 if position_name in subclasses:
-                    nlqs.append(f"What is the position of {name} in {organization}?")
-                    nlqs.append(f"Who is the {position_name.lower()} of {organization}?")
+                    nlqs.append(f"What is the position of {name} in {org}?")
+                    nlqs.append(f"Who is the {position_name.lower()} of {org}?")
                     nlqs.append(f"Where does {name} work as {position_name.lower()}?")
             except Exception as e:
                 print(f"Error processing row {row}: {e}")
 
-        cleaned_queries = [self.clean_query(q) for q in nlqs]
-        self.save_queries(cleaned_queries, document_name, append=True, prefix="L1")
+        cleaned = [self.clean_query(q) for q in nlqs]
+        self.save_queries(cleaned, document_name, append=True, prefix="L1")
         return nlqs
 
     def Level_1_location(self, data_graph, document_name):
+        """
+        Generate queries for Location
+        """
         nlqs = []
         location_query = """
         PREFIX loc: <http://example.org/location/>
@@ -84,15 +94,18 @@ class QueryGenerator:
         """
         results = data_graph.query(location_query)
         for row in results:
-            location      = row[0].split("/")[-1]
-            organization  = row[1].split("/")[-1].replace("%5Cn", "").replace("%2C", ",")
-            nlqs.append(f"Where is {organization} located?")
+            location = row[0].split("/")[-1]
+            org = row[1].split("/")[-1].replace("%5Cn", "").replace("%2C", ",")
+            nlqs.append(f"Where is {org} located?")
             nlqs.append(f"Which organization is located at {location}?")
         
         cleaned = [self.clean_query(q) for q in set(nlqs)]
         self.save_queries(cleaned, document_name, append=True, prefix="L1")
 
     def Level_1_Roles(self, data_graph, document_name):
+        """
+        Generate queries for Organization roles
+        """
         query = """
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         PREFIX org: <http://example.org/organization/>
@@ -127,10 +140,10 @@ class QueryGenerator:
         """
         results = data_graph.query(org_query)
         for row in results:
-            organization, role, employee = row
+            org, role, employee = row
             role_name = role.split("/")[-1]
             sub_roles = roles_and_sub_roles.get(role_name, set())
-            nlqs.append(f"What is the role of {organization}?")
+            nlqs.append(f"What is the role of {org}?")
             for sr in sub_roles:
                 nlqs.append(f"Who is the {sr.lower()} {role_name.lower()} in the agreement?")
 
@@ -138,6 +151,9 @@ class QueryGenerator:
         self.save_queries(cleaned, document_name, append=True, prefix="L1")
 
     def L2_person_org(self, data_graph, document_name):
+        """
+        Generate queries for advanced Person-Organization relationships
+        """
         query = """
         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
         PREFIX org: <http://example.org/organization/>
@@ -174,7 +190,6 @@ class QueryGenerator:
             position_name = str(position).split("/")[-1]
             organization_name = str(organization).split("/")[-1]
             role_name = str(role).split("/")[-1]
-
             sub_role = combined_roles.get(role_name, None)
             role_with_sub_role = f"{sub_role} {role_name}" if sub_role else role_name
 
@@ -190,8 +205,8 @@ class QueryGenerator:
         file_path = os.path.join(config.QUERIES_DIR, f"{prefix}_queries_{document_name}.txt")
         mode = 'a' if append else 'w'
         with open(file_path, mode) as f:
-            for query in queries:
-                f.write(query + "\n")
+            for q in queries:
+                f.write(q + "\n")
 
     def clean_query(self, query):
         cleaned_query = re.sub(r'[\d]+Cn|[\d]+C|C[0-9]+|A[0-9]+|5Cn|C2|A0+26', '', query, flags=re.IGNORECASE)
@@ -201,7 +216,9 @@ class QueryGenerator:
         return cleaned_query.strip()
 
 def main():
-    # Example usage
+    """
+    Example usage if run standalone.
+    """
     ontology_path = os.path.join(config.EXTRACTED_CONTENT_DIR, "ontology.ttl")
     qg = QueryGenerator(ontology_file_path=ontology_path, data_directory=config.EXTRACTED_CONTENT_DIR)
     for data_file_path in qg.data_files:

@@ -1,10 +1,15 @@
 """
-Changes:
-  - Calls each step in sequence.
-  - Respects your directory structure.
-  - Allows toggling specific steps if desired.
-"""
+main.py
 
+Changes:
+- Correctly unpacks 5 values returned from BenchmarkEvaluator (doc_scores, overall_bleu, overall_cosine, overall_bert, overall_correctness).
+- Added comments indicating pipeline steps.
+- The 'too many values to unpack' error is fixed by matching the return signature from benchmarking.py.
+- Also, you can add or remove calls to toggles if you want to skip certain steps entirely.
+"""
+# todo: figureing out how to adap this code for different llms/ checking what changes needed for openai
+#..... fixing the content that is being sent for each question in inference.py 
+# print llm output
 import os
 import logging
 import pandas as pd
@@ -25,12 +30,12 @@ class Pipeline:
     def run_pipeline(self):
         """
         Executes:
-        1) Graph Building
-        2) Query Generation
-        3) Ground Truth Extraction
-        4) Ground Truth Processing
-        5) Inference
-        6) Benchmark
+          1) Graph Building
+          2) Query Generation
+          3) Ground Truth Extraction
+          4) Ground Truth Processing
+          5) Inference
+          6) Benchmark
         """
         try:
             # 1. Build Knowledge Graph
@@ -78,13 +83,17 @@ class Pipeline:
 
             # 6. Benchmark
             self.logger.info("Starting Benchmark Evaluation...")
-            evaluator = BenchmarkEvaluator()
-            doc_scores, overall_bleu, overall_correctness = evaluator.evaluate_documents()
-            
+            # Now we get 5 return values from the updated benchmarking:
+            # doc_scores, overall_bleu, overall_cosine, overall_bert, overall_correctness
+            doc_scores, overall_bleu, overall_cosine, overall_bert, overall_correctness = \
+                BenchmarkEvaluator().evaluate_documents()
+
             # Build final results DataFrame
             results_df = pd.DataFrame.from_dict(doc_scores, orient='index')
             results_df['document_number']     = results_df.index
             results_df['overall_bleu']        = overall_bleu
+            results_df['overall_cosine']      = overall_cosine
+            results_df['overall_bert']        = overall_bert
             results_df['overall_correctness'] = overall_correctness
 
             # Save
