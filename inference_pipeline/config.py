@@ -56,7 +56,7 @@ MAX_RETRIES         = 3
 EVAL_LLM_API_KEY = "your api key"  
 EVAL_LLM_MODEL   = "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"
 EVAL_LLM_API_URL = "https://api.together.xyz/v1/chat/completions"
-EVAL_TEMPERATURE = 0.0  # No randomness for correctness checking
+EVAL_TEMPERATURE = 0.7  # No randomness for correctness checking
 
 ################################
 # Evaluation Toggles
