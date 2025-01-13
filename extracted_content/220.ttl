@@ -1,297 +1,309 @@
+@prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
-@prefix org1: <http://example.org/organization/> .
-@prefix person: <http://example.org/person/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
 @prefix rel: <http://example.org/relation/> .
 
-person:Account_Representative a rdfs:Class .
+<http://example.org/org_name/%5CnRBS_Citizens> a base:Organization .
 
-person:Assistant_Vice_President a rdfs:Class .
+<http://example.org/org_name/%5CnTHE_HUNTINGTON_NATIONAL_BANK%5Cn> a base:Organization .
 
-person:Assistant_Vice_President%5Cn a rdfs:Class .
+<http://example.org/org_name/%5CnTaiwan_Cooperative_Bank> a base:Organization,
+        org_role:Lender .
 
-person:Associate a rdfs:Class .
+org_name:BOKF a base:Organization .
 
-person:Associate_Director a rdfs:Class .
+org_name:CATHAY_UNITED_BANK a base:Organization .
 
-person:Authorized_Signatory a rdfs:Class .
+org_name:CITIBANK a base:Organization .
 
-person:Authorized_Signatory%5Cn a rdfs:Class .
+org_name:CITY_NATIONAL_BANK a base:Organization .
 
-person:Chairman_of_the_Board a rdfs:Class .
+org_name:COMPASS_BANK a base:Organization .
 
-person:Chief_Executive_Officer a rdfs:Class .
+<http://example.org/org_name/DEUTSCHE_BANK_SECURITIES_INC.> a base:Organization,
+        org_role:Agent .
 
-person:Director a rdfs:Class .
+org_name:J.P._MORGAN_SECURITIES_LLC a base:Organization,
+        org_role:Arrangers,
+        org_role:Managers .
 
-person:Executive_Director a rdfs:Class .
+<http://example.org/org_name/KEYBANC_CAPITAL_MARKETS_INC.> a base:Organization,
+        org_role:Arrangers .
 
-person:General_Manager a rdfs:Class .
+org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED a base:Organization,
+        org_role:Arrangers,
+        org_role:Managers .
 
-person:General_Manager%5Cn a rdfs:Class .
+org_name:MORGAN_STANLEY_BANK a base:Organization .
 
-person:Manager a rdfs:Class .
+org_name:PNC_BANK a base:Organization .
 
-person:Managing_Director a rdfs:Class .
+org_name:RAYMOND_JAMES_BANK a base:Organization .
 
-person:Managing_Director%5Cn a rdfs:Class .
+org_name:SUNTRUST_BANK a base:Organization .
 
-person:SVP a rdfs:Class .
+org_name:THE_BANK_OF_NEW_YORK_MELLON%5Cn a base:Organization .
 
-person:Senior_Vice_President a rdfs:Class .
+org_name:THE_SUMITOMO_MITSUI_BANKING_CORPORATION a base:Organization .
 
-person:Servicing_Officer a rdfs:Class .
+org_name:The_Bank_of_Tokyo-Mitsubishi_UFJ a base:Organization .
 
-person:Treasurer a rdfs:Class .
+org_name:WELLS_FARGO_BANK a base:Organization .
 
-person:VP a rdfs:Class .
+loc:4500_Dorr_Street%5Cn%5CnToledo%2C_Ohio_43615-4040 a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/HEALTH_CARE_REIT%2C_INC.> .
 
-person:Vice_President a rdfs:Class .
+loc:4910_Tiedeman_Rd.%5Cn%5CnMail_Code%3A_OH-01-51-0311%5Cn%5CnBrooklyn%2C_Ohio_44144 a base:Location ;
+    rel:isLocationOf org_name:KEYBANK_NATIONAL_ASSOCIATION .
 
-person:Vice_President%5Cn a rdfs:Class .
+loc:North_Courthouse_Square%5Cn%5Cn1000_Jackson_Street%5Cn%5CnToledo%2C_Ohio_43604-5573 a base:Location ;
+    rel:isLocationOf org_name:Shumaker%2C_Loop%C2%A0%26_Kendrick%2C_LLP .
 
-<http://example.org/organization/%5CnRBS_Citizens> a org1:Organization .
+<http://example.org/org_name/%5CnComerica_Bank> a base:Organization ;
+    rel:hasEmployee person_name:Kyle_B._O%C2%92Neill .
 
-<http://example.org/organization/%5CnTHE_HUNTINGTON_NATIONAL_BANK%5Cn> a org1:Organization .
+<http://example.org/org_name/%5CnFifth_Third_Bank> a base:Organization ;
+    rel:hasEmployee person_name:Megan_R._Brearey .
 
-org1:BOKF a org1:Organization .
+<http://example.org/org_name/%5CnUBS_AG> a base:Organization ;
+    rel:hasEmployee person_name:Joselin_Fernandes .
 
-org1:CITIBANK a org1:Organization .
+org_name:BARCLAYS_BANK_PLC a base:Organization ;
+    rel:hasEmployee person_name:Noam_Azachi .
 
-org1:CITY_NATIONAL_BANK a org1:Organization .
+org_name:BRANCH_BANKING_AND_TRUST_COMPANY a base:Organization ;
+    rel:hasEmployee person_name:Ahaz_Armstrong .
 
-<http://example.org/organization/DEUTSCHE_BANK_SECURITIES_INC.> a org1:Agent,
-        org1:Organization .
+org_name:CREDIT_SUISSE_AG a base:Organization ;
+    rel:hasEmployee person_name:Michael_D%C2%92Onofrio .
 
-org1:J.P._MORGAN_SECURITIES_LLC a org1:Arrangers,
-        org1:Managers,
-        org1:Organization .
+org_name:JPMORGAN_CHASE_BANK a base:Organization,
+        org_role:Agents ;
+    rel:hasEmployee person_name:Mark_Costantino .
 
-<http://example.org/organization/KEYBANC_CAPITAL_MARKETS_INC.> a org1:Arrangers,
-        org1:Organization .
+person_name:Ahaz_Armstrong a base:Person ;
+    rel:hasPosition person_position:Assistant_Vice_President ;
+    rel:isEmployedBy org_name:BRANCH_BANKING_AND_TRUST_COMPANY .
 
-org1:MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED a org1:Arrangers,
-        org1:Managers,
-        org1:Organization .
+person_name:Alexander_Wu a base:Person ;
+    rel:hasPosition person_position:General_Manager,
+        person_position:SVP ;
+    rel:isEmployedBy org_name:BANK_OF_TAIWAN .
 
-org1:MORGAN_STANLEY_BANK a org1:Organization .
+person_name:Amie_L._Edwards a base:Person ;
+    rel:hasPosition person_position:Director ;
+    rel:isEmployedBy org_name:Bank_of_America .
 
-org1:PNC_BANK a org1:Organization .
+person_name:Amy_Trapp a base:Person ;
+    rel:hasPosition person_position:Managing_Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnCredit_Agricole_Corporate_and_Investment_Bank> .
 
-org1:RAYMOND_JAMES_BANK a org1:Organization .
+person_name:Andrea_S._Chen a base:Person ;
+    rel:hasPosition person_position:Director ;
+    rel:isEmployedBy org_name:Bank_of_America .
 
-org1:SUNTRUST_BANK a org1:Organization .
-
-org1:THE_BANK_OF_NEW_YORK_MELLON%5Cn a org1:Organization .
-
-org1:THE_SUMITOMO_MITSUI_BANKING_CORPORATION a org1:Organization .
-
-org1:The_Bank_of_Tokyo-Mitsubishi_UFJ a org1:Organization .
-
-org1:WELLS_FARGO_BANK a org1:Organization .
-
-person:Andrea_S._Chen a person:Person .
-
-person:Bershunda_J._Taylor a person:Person .
-
-person:Bill_O%C2%92Daly a person:Person .
-
-person:Christina_P._Blackwell a person:Person .
-
-person:Helga_Blum a person:Person .
-
-person:James_M._Armstrong a person:Person .
-
-person:John_C._Rowland a person:Person .
-
-person:Joshua_Turner a person:Person .
-
-person:Kazuhisa_Matsuda a person:Person .
-
-person:Kirby_R._Holman a person:Person .
-
-person:Kristy_Ahee a person:Person .
-
-person:Lana_Gifas a person:Person .
-
-person:Laura_Conway%5Cn a person:Person .
-
-person:Mary_Ellen_Pisanelli a person:Person .
-
-person:Michael_King a person:Person .
-
-person:Samuel_A._Bluso a person:Person .
-
-person:Scott_O%C2%92Connell a person:Person .
-
-person:Virginia_Cosenza a person:Person .
-
-loc:4500_Dorr_Street%5Cn%5CnToledo%2C_Ohio_43615-4040 a loc:Location ;
-    rel:isLocationOf <http://example.org/organization/HEALTH_CARE_REIT%2C_INC.> .
-
-loc:4910_Tiedeman_Rd.%5Cn%5CnMail_Code%3A_OH-01-51-0311%5Cn%5CnBrooklyn%2C_Ohio_44144 a loc:Location ;
-    rel:isLocationOf org1:KEYBANK_NATIONAL_ASSOCIATION .
-
-loc:North_Courthouse_Square%5Cn%5Cn1000_Jackson_Street%5Cn%5CnToledo%2C_Ohio_43604-5573 a loc:Location ;
-    rel:isLocationOf org1:Shumaker%2C_Loop%C2%A0%26_Kendrick%2C_LLP .
-
-<http://example.org/organization/%5CnComerica_Bank> a org1:Organization ;
-    rel:hasEmployee person:Kyle_B._O%C2%92Neill .
-
-<http://example.org/organization/%5CnDEUTSCHE_BANK_AG> a org1:Organization ;
-    rel:hasEmployee person:Ming_K._Chu .
-
-<http://example.org/organization/%5CnFifth_Third_Bank> a org1:Organization ;
-    rel:hasEmployee person:Megan_R._Brearey .
-
-<http://example.org/organization/%5CnROYAL_BANK_OF_CANADA> a org1:Organization ;
-    rel:hasEmployee person:Joshua_Freedman .
-
-<http://example.org/organization/%5CnTaiwan_Cooperative_Bank> a org1:Lender,
-        org1:Organization ;
-    rel:hasEmployee person:Li_Hua_Huang .
-
-<http://example.org/organization/%5CnUBS_AG> a org1:Organization ;
-    rel:hasEmployee person:Joselin_Fernandes .
-
-org1:BANK_OF_TAIWAN a org1:Organization ;
-    rel:hasEmployee person:Chwan-Ming_Ho .
-
-org1:BARCLAYS_BANK_PLC a org1:Organization ;
-    rel:hasEmployee person:Noam_Azachi .
-
-org1:BRANCH_BANKING_AND_TRUST_COMPANY a org1:Organization ;
-    rel:hasEmployee person:Ahaz_Armstrong .
-
-org1:Bank_of_America a org1:Agents,
-        org1:Organization ;
-    rel:hasEmployee person:Amie_L._Edwards .
-
-org1:CATHAY_UNITED_BANK a org1:Organization ;
-    rel:hasEmployee person:Alexander_Wu .
-
-org1:COMPASS_BANK a org1:Organization ;
-    rel:hasEmployee person:Brian_Tuerff .
-
-org1:CREDIT_SUISSE_AG a org1:Organization ;
-    rel:hasEmployee person:Michael_D%C2%92Onofrio .
-
-org1:E.SUN_COMMERCIAL_BANK a org1:Organization ;
-    rel:hasEmployee person:Edward_Chen .
-
-org1:JPMORGAN_CHASE_BANK a org1:Agents,
-        org1:Organization ;
-    rel:hasEmployee person:Mark_Costantino .
-
-org1:Shumaker%2C_Loop%C2%A0%26_Kendrick%2C_LLP a org1:Organization ;
+person_name:Audrey_Pishnery a base:Person ;
+    rel:hasPosition person_position:Servicing_Officer ;
+    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
+
+person_name:Bershunda_J._Taylor a base:Person ;
+    rel:hasPosition person_position:Vice_President ;
+    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
+
+person_name:Bill_O%C2%92Daly a base:Person ;
+    rel:hasPosition person_position:Director ;
+    rel:isEmployedBy org_name:Bank_of_America .
+
+person_name:Brian_Tuerff a base:Person ;
+    rel:hasPosition person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/HEALTH_CARE_REIT%2C_INC.> .
+
+person_name:Christina_P._Blackwell a base:Person ;
+    rel:hasPosition person_position:Vice_President ;
+    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
+
+person_name:Chwan-Ming_Ho a base:Person ;
+    rel:hasPosition person_position:General_Manager,
+        person_position:VP ;
+    rel:isEmployedBy org_name:BANK_OF_TAIWAN .
+
+person_name:Edward_Chen a base:Person ;
+    rel:hasPosition person_position:General_Manager%5Cn,
+        person_position:VP ;
+    rel:isEmployedBy org_name:E.SUN_COMMERCIAL_BANK .
+
+person_name:Elsa_O%C2%92Brien a base:Person ;
+    rel:hasPosition person_position:Manager ;
+    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
+
+person_name:Helga_Blum a base:Person ;
+    rel:hasPosition person_position:Managing_Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnCredit_Agricole_Corporate_and_Investment_Bank> .
+
+person_name:James_M._Armstrong a base:Person ;
+    rel:hasPosition person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/HEALTH_CARE_REIT%2C_INC.> .
+
+person_name:John_C._Rowland a base:Person ;
+    rel:hasPosition person_position:Vice_President ;
+    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
+
+person_name:Joselin_Fernandes a base:Person ;
+    rel:hasPosition person_position:Associate_Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnUBS_AG> .
+
+person_name:Joshua_Freedman a base:Person ;
+    rel:hasPosition person_position:Authorized_Signatory ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA> .
+
+person_name:Joshua_Turner a base:Person ;
+    rel:hasPosition person_position:Vice_President%5Cn ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG> .
+
+person_name:Kazuhisa_Matsuda a base:Person ;
+    rel:hasPosition person_position:Managing_Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnCredit_Agricole_Corporate_and_Investment_Bank> .
+
+person_name:Kirby_R._Holman a base:Person ;
+    rel:hasPosition person_position:Vice_President ;
+    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
+
+person_name:Kristy_Ahee a base:Person ;
+    rel:hasPosition person_position:Vice_President ;
+    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
+
+person_name:Kyle_B._O%C2%92Neill a base:Person ;
+    rel:hasPosition person_position:Account_Representative ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnComerica_Bank> .
+
+person_name:Lana_Gifas a base:Person ;
+    rel:hasPosition person_position:Director ;
+    rel:isEmployedBy org_name:Bank_of_America .
+
+person_name:Laura_Conway a base:Person ;
+    rel:hasPosition person_position:Vice_President ;
+    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
+
+person_name:Laura_Conway%5Cn a base:Person ;
+    rel:hasPosition person_position:Vice_President ;
+    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
+
+person_name:Li_Hua_Huang a base:Person ;
+    rel:hasPosition person_position:General_Manager%5Cn,
+        person_position:VP ;
+    rel:isEmployedBy org_name:E.SUN_COMMERCIAL_BANK .
+
+person_name:Mark_Costantino a base:Person ;
+    rel:hasPosition person_position:Executive_Director ;
+    rel:isEmployedBy org_name:JPMORGAN_CHASE_BANK .
+
+person_name:Mary_Ellen_Pisanelli a base:Person ;
+    rel:isEmployedBy org_name:Shumaker%2C_Loop%C2%A0%26_Kendrick%2C_LLP .
+
+person_name:Megan_R._Brearey a base:Person ;
+    rel:hasPosition person_position:Assistant_Vice_President%5Cn ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnFifth_Third_Bank> .
+
+person_name:Michael_A._Crabtree a base:Person ;
+    rel:hasPosition person_position:Senior_Vice_President,
+        person_position:Treasurer ;
+    rel:isEmployedBy <http://example.org/org_name/HEALTH_CARE_REIT%2C_INC.> .
+
+person_name:Michael_D%C2%92Onofrio a base:Person ;
+    rel:hasPosition person_position:Associate ;
+    rel:isEmployedBy org_name:CREDIT_SUISSE_AG .
+
+person_name:Michael_King a base:Person ;
+    rel:hasPosition person_position:Authorized_Signatory ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA> .
+
+person_name:Ming_K._Chu a base:Person ;
+    rel:hasPosition person_position:Vice_President%5Cn ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG> .
+
+person_name:Mr.%C2%A0George%C2%A0L._Chapman a base:Person ;
+    rel:hasPosition person_position:Chairman_of_the_Board,
+        person_position:Chief_Executive_Officer ;
+    rel:isEmployedBy <http://example.org/org_name/HEALTH_CARE_REIT%2C_INC.> .
+
+person_name:Noam_Azachi a base:Person ;
+    rel:hasPosition person_position:Authorized_Signatory%5Cn ;
+    rel:isEmployedBy org_name:BARCLAYS_BANK_PLC .
+
+person_name:Samuel_A._Bluso a base:Person ;
+    rel:hasPosition person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/HEALTH_CARE_REIT%2C_INC.> .
+
+person_name:Scott_O%C2%92Connell a base:Person ;
+    rel:hasPosition person_position:Vice_President ;
+    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
+
+person_name:Tanya_Crossley a base:Person ;
+    rel:hasPosition person_position:Managing_Director%5Cn ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnCredit_Agricole_Corporate_and_Investment_Bank> .
+
+person_name:Virginia_Cosenza a base:Person ;
+    rel:hasPosition person_position:Vice_President%5Cn ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG> .
+
+<http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA> a base:Organization ;
+    rel:hasEmployee person_name:Joshua_Freedman,
+        person_name:Michael_King .
+
+org_name:BANK_OF_TAIWAN a base:Organization ;
+    rel:hasEmployee person_name:Alexander_Wu,
+        person_name:Chwan-Ming_Ho .
+
+org_name:E.SUN_COMMERCIAL_BANK a base:Organization ;
+    rel:hasEmployee person_name:Edward_Chen,
+        person_name:Li_Hua_Huang .
+
+org_name:Shumaker%2C_Loop%C2%A0%26_Kendrick%2C_LLP a base:Organization ;
+    rel:hasEmployee person_name:Mary_Ellen_Pisanelli ;
     rel:hasLocationAt loc:North_Courthouse_Square%5Cn%5Cn1000_Jackson_Street%5Cn%5CnToledo%2C_Ohio_43604-5573 .
 
-person:Ahaz_Armstrong a person:Assistant_Vice_President,
-        person:Person ;
-    rel:isEmployedBy org1:BRANCH_BANKING_AND_TRUST_COMPANY .
+<http://example.org/org_name/%5CnDEUTSCHE_BANK_AG> a base:Organization ;
+    rel:hasEmployee person_name:Joshua_Turner,
+        person_name:Ming_K._Chu,
+        person_name:Virginia_Cosenza .
 
-person:Alexander_Wu a person:Person,
-        person:SVP ;
-    rel:isEmployedBy org1:CATHAY_UNITED_BANK .
+<http://example.org/org_name/%5CnCredit_Agricole_Corporate_and_Investment_Bank> a base:Organization ;
+    rel:hasEmployee person_name:Amy_Trapp,
+        person_name:Helga_Blum,
+        person_name:Kazuhisa_Matsuda,
+        person_name:Tanya_Crossley .
 
-person:Amie_L._Edwards a person:Director,
-        person:Person ;
-    rel:isEmployedBy org1:Bank_of_America .
+org_name:Bank_of_America a base:Organization,
+        org_role:Agents ;
+    rel:hasEmployee person_name:Amie_L._Edwards,
+        person_name:Andrea_S._Chen,
+        person_name:Bill_O%C2%92Daly,
+        person_name:Lana_Gifas .
 
-person:Amy_Trapp a person:Managing_Director,
-        person:Person ;
-    rel:isEmployedBy <http://example.org/organization/%5CnCredit_Agricole_Corporate_and_Investment_Bank> .
-
-person:Audrey_Pishnery a person:Person,
-        person:Servicing_Officer ;
-    rel:isEmployedBy org1:KEYBANK_NATIONAL_ASSOCIATION .
-
-person:Brian_Tuerff a person:Person,
-        person:Senior_Vice_President ;
-    rel:isEmployedBy org1:COMPASS_BANK .
-
-person:Chwan-Ming_Ho a person:General_Manager,
-        person:Person,
-        person:VP ;
-    rel:isEmployedBy org1:BANK_OF_TAIWAN .
-
-person:Edward_Chen a person:General_Manager%5Cn,
-        person:Person ;
-    rel:isEmployedBy org1:E.SUN_COMMERCIAL_BANK .
-
-person:Elsa_O%C2%92Brien a person:Manager,
-        person:Person ;
-    rel:isEmployedBy org1:KEYBANK_NATIONAL_ASSOCIATION .
-
-person:Joselin_Fernandes a person:Associate_Director,
-        person:Person ;
-    rel:isEmployedBy <http://example.org/organization/%5CnUBS_AG> .
-
-person:Joshua_Freedman a person:Authorized_Signatory,
-        person:Person ;
-    rel:isEmployedBy <http://example.org/organization/%5CnROYAL_BANK_OF_CANADA> .
-
-person:Kyle_B._O%C2%92Neill a person:Account_Representative,
-        person:Person ;
-    rel:isEmployedBy <http://example.org/organization/%5CnComerica_Bank> .
-
-person:Laura_Conway a person:Person,
-        person:Vice_President ;
-    rel:isEmployedBy org1:KEYBANK_NATIONAL_ASSOCIATION .
-
-person:Li_Hua_Huang a person:General_Manager%5Cn,
-        person:Person ;
-    rel:isEmployedBy <http://example.org/organization/%5CnTaiwan_Cooperative_Bank> .
-
-person:Mark_Costantino a person:Executive_Director,
-        person:Person ;
-    rel:isEmployedBy org1:JPMORGAN_CHASE_BANK .
-
-person:Megan_R._Brearey a person:Assistant_Vice_President%5Cn,
-        person:Person ;
-    rel:isEmployedBy <http://example.org/organization/%5CnFifth_Third_Bank> .
-
-person:Michael_A._Crabtree a person:Person,
-        person:Senior_Vice_President,
-        person:Treasurer ;
-    rel:isEmployedBy <http://example.org/organization/HEALTH_CARE_REIT%2C_INC.> .
-
-person:Michael_D%C2%92Onofrio a person:Associate,
-        person:Person ;
-    rel:isEmployedBy org1:CREDIT_SUISSE_AG .
-
-person:Ming_K._Chu a person:Person,
-        person:Vice_President%5Cn ;
-    rel:isEmployedBy <http://example.org/organization/%5CnDEUTSCHE_BANK_AG> .
-
-person:Mr.%C2%A0George%C2%A0L._Chapman a person:Chairman_of_the_Board,
-        person:Chief_Executive_Officer,
-        person:Person ;
-    rel:isEmployedBy <http://example.org/organization/HEALTH_CARE_REIT%2C_INC.> .
-
-person:Noam_Azachi a person:Authorized_Signatory%5Cn,
-        person:Person ;
-    rel:isEmployedBy org1:BARCLAYS_BANK_PLC .
-
-person:Tanya_Crossley a person:Managing_Director%5Cn,
-        person:Person ;
-    rel:isEmployedBy <http://example.org/organization/%5CnCredit_Agricole_Corporate_and_Investment_Bank> .
-
-<http://example.org/organization/%5CnCredit_Agricole_Corporate_and_Investment_Bank> a org1:Organization ;
-    rel:hasEmployee person:Amy_Trapp,
-        person:Tanya_Crossley .
-
-<http://example.org/organization/HEALTH_CARE_REIT%2C_INC.> a org1:Organization ;
-    rel:hasEmployee person:Michael_A._Crabtree,
-        person:Mr.%C2%A0George%C2%A0L._Chapman ;
+<http://example.org/org_name/HEALTH_CARE_REIT%2C_INC.> a base:Organization ;
+    rel:hasEmployee person_name:Brian_Tuerff,
+        person_name:James_M._Armstrong,
+        person_name:Michael_A._Crabtree,
+        person_name:Mr.%C2%A0George%C2%A0L._Chapman,
+        person_name:Samuel_A._Bluso ;
     rel:hasLocationAt loc:4500_Dorr_Street%5Cn%5CnToledo%2C_Ohio_43615-4040 .
 
-org1:KEYBANK_NATIONAL_ASSOCIATION a org1:Agent%2C,
-        org1:LC_Issuer,
-        org1:Lender,
-        org1:Organization ;
-    rel:hasEmployee person:Audrey_Pishnery,
-        person:Elsa_O%C2%92Brien,
-        person:Laura_Conway ;
+org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization,
+        org_role:Agent%2C,
+        org_role:LC_Issuer,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Audrey_Pishnery,
+        person_name:Bershunda_J._Taylor,
+        person_name:Christina_P._Blackwell,
+        person_name:Elsa_O%C2%92Brien,
+        person_name:John_C._Rowland,
+        person_name:Kirby_R._Holman,
+        person_name:Kristy_Ahee,
+        person_name:Laura_Conway,
+        person_name:Laura_Conway%5Cn,
+        person_name:Scott_O%C2%92Connell ;
     rel:hasLocationAt loc:4910_Tiedeman_Rd.%5Cn%5CnMail_Code%3A_OH-01-51-0311%5Cn%5CnBrooklyn%2C_Ohio_44144 .
 

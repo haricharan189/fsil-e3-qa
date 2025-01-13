@@ -1,31 +1,33 @@
+@prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
-@prefix org1: <http://example.org/organization/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
 @prefix rel: <http://example.org/relation/> .
 
-<http://example.org/organization/%5CnBMCHPA%2C_INC> a org1:BORROWER,
-        org1:Organization .
+<http://example.org/org_name/%5CnBMCHPA%2C_INC> a base:Organization,
+        org_role:BORROWER .
 
-<http://example.org/organization/%5CnTRIAD_PERSONNEL_SERVICES%2C_INC> a org1:BORROWER,
-        org1:Organization .
+<http://example.org/org_name/%5CnTRIAD_PERSONNEL_SERVICES%2C_INC> a base:Organization,
+        org_role:BORROWER .
 
-org1:BMCH%2C_INC a org1:BORROWER,
-        org1:Organization .
+org_name:BMCH%2C_INC a base:Organization,
+        org_role:BORROWER .
 
-org1:BMPS%2C_INC a org1:BORROWER,
-        org1:Organization .
+org_name:BMPS%2C_INC a base:Organization,
+        org_role:BORROWER .
 
-org1:BUSINESS_MANAGEMENT_PERSONNEL%2C_INC a org1:BORROWER,
-        org1:Organization .
+org_name:BUSINESS_MANAGEMENT_PERSONNEL%2C_INC a base:Organization,
+        org_role:BORROWER .
 
-org1:GENERAL_EMPLOYMENT_ENTERPRISES%2C_INC a org1:BORROWER,
-        org1:Organization .
+org_name:GENERAL_EMPLOYMENT_ENTERPRISES%2C_INC a base:Organization,
+        org_role:BORROWER .
 
-org1:TRIAD_LOGISTICS%2C_INC a org1:Organization .
+org_name:TRIAD_LOGISTICS%2C_INC a base:Organization .
 
-loc:580_White_Plains_Road%5CnSuite_610%5CnTarrytown%2C_NY_10591 a loc:Location ;
-    rel:isLocationOf <http://example.org/organization/%5CnKELTIC_FINANCIAL_PARTNERS_II%2C_LP> .
+loc:580_White_Plains_Road%5CnSuite_610%5CnTarrytown%2C_NY_10591 a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%5CnKELTIC_FINANCIAL_PARTNERS_II%2C_LP> .
 
-<http://example.org/organization/%5CnKELTIC_FINANCIAL_PARTNERS_II%2C_LP> a org1:LENDER,
-        org1:Organization ;
+<http://example.org/org_name/%5CnKELTIC_FINANCIAL_PARTNERS_II%2C_LP> a base:Organization,
+        org_role:LENDER ;
     rel:hasLocationAt loc:580_White_Plains_Road%5CnSuite_610%5CnTarrytown%2C_NY_10591 .
 

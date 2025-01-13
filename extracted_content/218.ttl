@@ -1,151 +1,163 @@
+@prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
-@prefix org1: <http://example.org/organization/> .
-@prefix person: <http://example.org/person/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
 @prefix rel: <http://example.org/relation/> .
 
-person:Attorney-in-Fact a rdfs:Class .
+<http://example.org/location/%5CnMustionkatu_6%5Cn%5Cn20750_Turku%2C_Finland> a base:Location .
 
-person:Director a rdfs:Class .
+loc:940_Winter_Street a base:Location .
 
-person:Officer a rdfs:Class .
+loc:Finland a base:Location .
 
-person:Secretary a rdfs:Class .
+loc:Massachusetts a base:Location .
 
-person:Senior_Vice_President a rdfs:Class .
+loc:Mustionkatu_6 a base:Location .
 
-person:Treasurer a rdfs:Class .
+loc:Waltham%2C_MA_02451 a base:Location .
 
-person:Vice_President a rdfs:Class .
+<http://example.org/org_name/%5CnBANK_OF_AMERICA> a base:Organization,
+        org_role:Agent,
+        org_role:Lender .
 
-<http://example.org/location/%5CnMustionkatu_6%5Cn%5Cn20750_Turku%2C_Finland> a loc:Location .
+<http://example.org/org_name/%5CnCITIBANK> a base:Organization,
+        org_role:Agent,
+        org_role:Lender .
 
-loc:940_Winter_Street a loc:Location .
+<http://example.org/org_name/%5CnU.S._BANK_NATIONAL_ASSOCIATION> a base:Organization,
+        org_role:Lender .
 
-loc:Finland a loc:Location .
+<http://example.org/org_name/B%C3%BCtzow_Attorneys_Ltd.> a base:Organization,
+        <http://example.org/org_role/Finnish_counsel_for_the_Initial_Finnish_Borrower.> .
 
-loc:Massachusetts a loc:Location .
+org_name:BARCLAYS_BANK_PLC a base:Organization,
+        org_role:Agent,
+        org_role:Lender .
 
-loc:Mustionkatu_6 a loc:Location .
+org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION a base:Organization,
+        org_role:Agent,
+        org_role:Lender .
 
-loc:Waltham%2C_MA_02451 a loc:Location .
+org_name:TD_BANK a base:Organization,
+        org_role:Lender .
 
-<http://example.org/organization/%5CnBANK_OF_AMERICA> a org1:Agent,
-        org1:Lender,
-        org1:Organization .
+org_name:THE_ROYAL_BANK_OF_SCOTLAND_PLC a base:Organization,
+        org_role:Agent,
+        org_role:Lender .
 
-<http://example.org/organization/%5CnCITIBANK> a org1:Agent,
-        org1:Lender,
-        org1:Organization .
+org_name:Wilmer_Cutler_Pickering_Hale_and_Dorr_LLP%2C a base:Organization,
+        org_role:U.S._counsel_for_the_initial_Borrowers.%5Cn .
 
-<http://example.org/organization/%5CnU.S._BANK_NATIONAL_ASSOCIATION> a org1:Lender,
-        org1:Organization .
+loc:04-2052042 a base:Location ;
+    rel:isLocationOf org_name:PERKINELMER%2C_INC .
 
-<http://example.org/organization/B%C3%BCtzow_Attorneys_Ltd.> a <http://example.org/organization/Finnish_counsel_for_the_Initial_Finnish_Borrower.>,
-        org1:Organization .
+loc:04-2436772 a base:Location ;
+    rel:isLocationOf org_name:WALLAC_OY .
 
-org1:BARCLAYS_BANK_PLC a org1:Agent,
-        org1:Lender,
-        org1:Organization .
+loc:10_South_Dearborn_Street%5D%5Cn%5Cn%5BChicago%2C_Illinois_60603 a base:Location ;
+    rel:isLocationOf org_name:JPMORGAN_CHASE_BANK .
 
-org1:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION a org1:Agent,
-        org1:Lender,
-        org1:Organization .
+<http://example.org/org_name/%5CnTHE_NORTHERN_TRUST_COMPANY> a base:Organization,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Charles_R._Davis .
 
-org1:TD_BANK a org1:Lender,
-        org1:Organization .
-
-org1:THE_ROYAL_BANK_OF_SCOTLAND_PLC a org1:Agent,
-        org1:Lender,
-        org1:Organization .
-
-org1:Wilmer_Cutler_Pickering_Hale_and_Dorr_LLP%2C a org1:Organization,
-        org1:U.S._counsel_for_the_initial_Borrowers.%5Cn .
-
-person:Anthony_Pantina a person:Person .
-
-person:D._Scott_Farquhar a person:Person .
-
-person:David_A._Carroll a person:Person .
-
-person:Jennifer_Hwang a person:Person .
-
-person:Shreya_Shah a person:Person .
-
-person:Vanessa_A._Kurbatskiy a person:Person .
-
-person:William_McGinty a person:Person .
-
-person:Zubin_R._Shroff a person:Person .
-
-loc:04-2052042 a loc:Location ;
-    rel:isLocationOf org1:PERKINELMER%2C_INC .
-
-loc:04-2436772 a loc:Location ;
-    rel:isLocationOf org1:WALLAC_OY .
-
-loc:10_South_Dearborn_Street%5D%5Cn%5Cn%5BChicago%2C_Illinois_60603 a loc:Location ;
-    rel:isLocationOf org1:JPMORGAN_CHASE_BANK .
-
-<http://example.org/organization/%5CnTHE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD> a org1:Lender,
-        org1:Organization ;
-    rel:hasEmployee person:Scott_O%C2%92Connell .
-
-<http://example.org/organization/%5CnTHE_NORTHERN_TRUST_COMPANY> a org1:Lender,
-        org1:Organization ;
-    rel:hasEmployee person:Charles_R._Davis .
-
-org1:JPMORGAN_CHASE_BANK a org1:Agent,
-        org1:Lender,
-        org1:Lender%2C,
-        org1:Organization ;
+org_name:JPMORGAN_CHASE_BANK a base:Organization,
+        org_role:Agent,
+        org_role:Lender,
+        org_role:Lender%2C ;
     rel:hasLocationAt loc:10_South_Dearborn_Street%5D%5Cn%5Cn%5BChicago%2C_Illinois_60603 .
 
-org1:PERKINELMER_HEALTH_SCIENCES%2C_INC a org1:Borrower,
-        org1:Organization ;
-    rel:hasEmployee person:John_L._Healy .
+org_name:PERKINELMER_HEALTH_SCIENCES%2C_INC a base:Organization,
+        org_role:Borrower ;
+    rel:hasEmployee person_name:John_L._Healy .
 
-org1:PNC_BANK%2C_NATIONAL_ASSOCIATION a org1:Lender,
-        org1:Organization ;
-    rel:hasEmployee person:Michael_Richards .
-
-org1:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a org1:Lender,
-        org1:Organization ;
-    rel:hasEmployee person:David_M._Crane .
-
-person:Charles_R._Davis a person:Officer,
-        person:Person ;
-    rel:isEmployedBy <http://example.org/organization/%5CnTHE_NORTHERN_TRUST_COMPANY> .
-
-person:David_C._Francisco a person:Person,
-        person:Treasurer ;
-    rel:isEmployedBy org1:PERKINELMER%2C_INC .
-
-person:David_M._Crane a person:Person,
-        person:Vice_President ;
-    rel:isEmployedBy org1:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
-
-person:Michael_Richards a person:Person,
-        person:Senior_Vice_President ;
-    rel:isEmployedBy org1:PNC_BANK%2C_NATIONAL_ASSOCIATION .
-
-person:Scott_O%C2%92Connell a person:Director,
-        person:Person ;
-    rel:isEmployedBy <http://example.org/organization/%5CnTHE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD> .
-
-org1:PERKINELMER%2C_INC a org1:Borrower,
-        org1:Organization ;
-    rel:hasEmployee person:David_C._Francisco ;
-    rel:hasLocationAt loc:04-2052042 .
-
-org1:WALLAC_OY a org1:Borrower,
-        org1:Organization ;
-    rel:hasEmployee person:John_L._Healy ;
+org_name:WALLAC_OY a base:Organization,
+        org_role:Borrower ;
     rel:hasLocationAt loc:04-2436772 .
 
-person:John_L._Healy a person:Attorney-in-Fact,
-        person:Person,
-        person:Secretary ;
-    rel:isEmployedBy org1:PERKINELMER_HEALTH_SCIENCES%2C_INC,
-        org1:WALLAC_OY .
+person_name:Anthony_Pantina a base:Person ;
+    rel:hasPosition person_position:Vice_President ;
+    rel:isEmployedBy org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:Charles_R._Davis a base:Person ;
+    rel:hasPosition person_position:Officer ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnTHE_NORTHERN_TRUST_COMPANY> .
+
+person_name:D._Scott_Farquhar a base:Person ;
+    rel:hasPosition person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:David_A._Carroll a base:Person ;
+    rel:hasPosition person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:David_C._Francisco a base:Person ;
+    rel:hasPosition person_position:Treasurer,
+        person_position:Vice_President ;
+    rel:isEmployedBy org_name:PERKINELMER%2C_INC .
+
+person_name:David_M._Crane a base:Person ;
+    rel:hasPosition person_position:Vice_President ;
+    rel:isEmployedBy org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:Jennifer_Hwang a base:Person ;
+    rel:hasPosition person_position:Vice_President ;
+    rel:isEmployedBy org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:John_L._Healy a base:Person ;
+    rel:hasPosition person_position:Attorney-in-Fact,
+        person_position:Secretary,
+        person_position:Vice_President ;
+    rel:isEmployedBy org_name:PERKINELMER_HEALTH_SCIENCES%2C_INC .
+
+person_name:Michael_Richards a base:Person ;
+    rel:hasPosition person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:Scott_O%C2%92Connell a base:Person ;
+    rel:hasPosition person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnTHE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD> .
+
+person_name:Shreya_Shah a base:Person ;
+    rel:hasPosition person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:Vanessa_A._Kurbatskiy a base:Person ;
+    rel:hasPosition person_position:Vice_President ;
+    rel:isEmployedBy org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:William_McGinty a base:Person ;
+    rel:hasPosition person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnTHE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD> .
+
+person_name:Zubin_R._Shroff a base:Person ;
+    rel:hasPosition person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnTHE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD> .
+
+org_name:PERKINELMER%2C_INC a base:Organization,
+        org_role:Borrower ;
+    rel:hasEmployee person_name:David_C._Francisco ;
+    rel:hasLocationAt loc:04-2052042 .
+
+<http://example.org/org_name/%5CnTHE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD> a base:Organization,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Scott_O%C2%92Connell,
+        person_name:William_McGinty,
+        person_name:Zubin_R._Shroff .
+
+org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION a base:Organization,
+        org_role:Lender ;
+    rel:hasEmployee person_name:D._Scott_Farquhar,
+        person_name:David_A._Carroll,
+        person_name:Michael_Richards,
+        person_name:Shreya_Shah .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Anthony_Pantina,
+        person_name:David_M._Crane,
+        person_name:Jennifer_Hwang,
+        person_name:Vanessa_A._Kurbatskiy .
 
