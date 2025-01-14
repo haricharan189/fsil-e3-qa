@@ -207,7 +207,7 @@ class KnowledgeGraphBuilder:
                         person_positions[person_uri] = position_uri
                         # Add position relationship without duplicate type
                         g.add((person_uri, RDF.type, self.base.Person))
-                        g.add((person_uri, self.rel.hasPosition, position_uri))
+                        # g.add((person_uri, self.rel.hasPosition, position_uri))
                     
                     # Organization - Person relationship
                     elif (from_label == "Organization Name" and to_label == "Person Name") or \
@@ -228,8 +228,8 @@ class KnowledgeGraphBuilder:
                         role_ns = self.org_role if to_label == "Organization Role" else self.org_sub_role
                         role_uri = role_ns[self._clean_uri(to_entity["text"])]
                         g.add((org_uri, RDF.type, self.base.Organization))
-                        g.add((org_uri, RDF.type, role_uri))
-                        org_roles[org_uri].add(role_uri)
+                        # g.add((org_uri, RDF.type, role_uri))
+                        # org_roles[org_uri].add(role_uri)
                     
                     # Organization - Sub-Role relationship
                     elif from_label == "Organization Name" and to_label == "Organization Sub-Role":
@@ -241,7 +241,7 @@ class KnowledgeGraphBuilder:
                     elif from_label == "Location" and to_label == "Location Type":
                         loc_uri = from_entity["uri"]
                         type_uri = self.location_type[self._clean_uri(to_entity["text"])]
-                        g.add((loc_uri, RDF.type, type_uri))
+                        # g.add((loc_uri, RDF.type, type_uri))
                     
                     # Organization - Location relationship
                     elif from_label == "Organization Name" and to_label == "Location":
@@ -269,8 +269,8 @@ class KnowledgeGraphBuilder:
         for person_uri, position_uri in person_positions.items():
             if position_uri and person_uri not in [s for s,p,o in g.triples((None, self.rel.hasPosition, position_uri))]:
                 g.add((person_uri, RDF.type, self.base.Person))
-                g.add((person_uri, RDF.type, position_uri))
-                g.add((person_uri, self.rel.hasPosition, position_uri))
+                # g.add((person_uri, RDF.type, position_uri))
+                # g.add((person_uri, self.rel.hasPosition, position_uri))
 
         for person_uri, employer_uri in person_employers.items():
             if employer_uri and person_uri not in [s for s,p,o in g.triples((None, self.rel.isEmployedBy, employer_uri))]:

@@ -1,114 +1,79 @@
 @prefix base: <http://example.org/base/> .
 @prefix org_name: <http://example.org/org_name/> .
-@prefix org_role: <http://example.org/org_role/> .
 @prefix person_name: <http://example.org/person_name/> .
-@prefix person_position: <http://example.org/person_position/> .
 @prefix rel: <http://example.org/relation/> .
 
-org_name:Citibank a base:Organization,
-        org_role:Lender .
+org_name:Citibank a base:Organization .
 
-org_name:HSBC_SECURITIES_%28USA%29_INC a base:Organization,
-        org_role:Arrangers .
+org_name:HSBC_SECURITIES_%28USA%29_INC a base:Organization .
 
-org_name:JP_Morgan_Chase_Bank a base:Organization,
-        org_role:Lender .
+org_name:JP_Morgan_Chase_Bank a base:Organization .
 
-org_name:PNC_CAPITAL_MARKETS_LLC a base:Organization,
-        org_role:Arrangers .
+org_name:PNC_CAPITAL_MARKETS_LLC a base:Organization .
 
-org_name:SUNTRUST_ROBINSON_HUMPHREY%2C_INC a base:Organization,
-        org_role:Arrangers .
+org_name:SUNTRUST_ROBINSON_HUMPHREY%2C_INC a base:Organization .
 
-org_name:SunTrust_Bank a base:Organization,
-        org_role:Lender .
+org_name:SunTrust_Bank a base:Organization .
 
-org_name:U.S._BANCORP_INVESTMENTS%2C_INC a base:Organization,
-        org_role:Arrangers .
+org_name:U.S._BANCORP_INVESTMENTS%2C_INC a base:Organization .
 
-org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization,
-        org_role:Agent,
-        org_role:Lender,
-        org_role:Lender%2C .
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization .
 
-org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization,
-        org_role:Arrangers,
-        org_role:Book_Manager .
+org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization .
 
-<http://example.org/org_name/%5CnCREE%2C_INC> a base:Organization,
-        org_role:BORROWER ;
+<http://example.org/org_name/%5CnCREE%2C_INC> a base:Organization ;
     rel:hasEmployee person_name:Michael_E._McDevitt .
 
-<http://example.org/org_name/%5CnU.S._Bank_National_Association> a base:Organization,
-        org_role:Lender ;
+<http://example.org/org_name/%5CnU.S._Bank_National_Association> a base:Organization ;
     rel:hasEmployee <http://example.org/person_name/%5CnBrian_Seipke> .
 
-org_name:Bank_of_America a base:Organization,
-        org_role:Lender ;
+org_name:Bank_of_America a base:Organization ;
     rel:hasEmployee person_name:Thomas_M._Paulk .
 
-org_name:E-CONOLIGHT_LLC a base:Organization,
-        org_role:GUARANTOR ;
+org_name:E-CONOLIGHT_LLC a base:Organization ;
     rel:hasEmployee person_name:Charles_M._Swoboda .
 
-org_name:GOLDMAN_SACHS_BANK_USA a base:Organization,
-        org_role:Lender ;
+org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
     rel:hasEmployee person_name:Nicole_Ferry_Lacchia .
 
 <http://example.org/person_name/%5CnBrian_Seipke> a base:Person ;
-    rel:hasPosition <http://example.org/person_position/%5CnVice_President> ;
     rel:isEmployedBy <http://example.org/org_name/%5CnU.S._Bank_National_Association> .
 
 <http://example.org/person_name/%5CnMichael_Pugsley> a base:Person ;
-    rel:hasPosition person_position:Senior_Vice_President ;
     rel:isEmployedBy org_name:PNC_Bank%2C_National_Association .
 
 person_name:Blake_Gronich a base:Person ;
-    rel:hasPosition person_position:Vice_President ;
     rel:isEmployedBy org_name:HSBC_Bank_USA%2C_National_Association .
 
 person_name:Charles_M._Swoboda a base:Person ;
-    rel:hasPosition person_position:Chairman,
-        person_position:Chief_Executive%5Cn%C2%A0%5Cn%C2%A0%5CnOfficer,
-        person_position:President ;
     rel:isEmployedBy org_name:E-CONOLIGHT_LLC .
 
 person_name:Chris_Burns a base:Person ;
-    rel:hasPosition person_position:Vice_President ;
     rel:isEmployedBy org_name:HSBC_Bank_USA%2C_National_Association .
 
 person_name:Daglas_P_Panchal a base:Person ;
-    rel:hasPosition person_position:Vice_President ;
     rel:isEmployedBy org_name:HSBC_Bank_USA%2C_National_Association .
 
 person_name:Mary_K_Lundin a base:Person ;
-    rel:hasPosition person_position:Vice_President ;
     rel:isEmployedBy org_name:HSBC_Bank_USA%2C_National_Association .
 
 person_name:Michael_E._McDevitt a base:Person ;
-    rel:hasPosition person_position:Chief_Financial_Officer,
-        person_position:Executive_Vice_President ;
     rel:isEmployedBy <http://example.org/org_name/%5CnCREE%2C_INC> .
 
 person_name:Nicole_Ferry_Lacchia a base:Person ;
-    rel:hasPosition person_position:Authorized_Signatory ;
     rel:isEmployedBy org_name:GOLDMAN_SACHS_BANK_USA .
 
 person_name:Richard_C._Brown a base:Person ;
-    rel:hasPosition person_position:Senior_Vice_President ;
     rel:isEmployedBy org_name:PNC_Bank%2C_National_Association .
 
 person_name:Thomas_M._Paulk a base:Person ;
-    rel:hasPosition <http://example.org/person_position/%5CnSenior_Vice_President> ;
     rel:isEmployedBy org_name:Bank_of_America .
 
-org_name:PNC_Bank%2C_National_Association a base:Organization,
-        org_role:Lender ;
+org_name:PNC_Bank%2C_National_Association a base:Organization ;
     rel:hasEmployee <http://example.org/person_name/%5CnMichael_Pugsley>,
         person_name:Richard_C._Brown .
 
-org_name:HSBC_Bank_USA%2C_National_Association a base:Organization,
-        org_role:Lender ;
+org_name:HSBC_Bank_USA%2C_National_Association a base:Organization ;
     rel:hasEmployee person_name:Blake_Gronich,
         person_name:Chris_Burns,
         person_name:Daglas_P_Panchal,

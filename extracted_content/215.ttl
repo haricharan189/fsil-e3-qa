@@ -1,10 +1,7 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
-@prefix location_type: <http://example.org/location_type/> .
 @prefix org_name: <http://example.org/org_name/> .
-@prefix org_role: <http://example.org/org_role/> .
 @prefix person_name: <http://example.org/person_name/> .
-@prefix person_position: <http://example.org/person_position/> .
 @prefix rel: <http://example.org/relation/> .
 
 <http://example.org/org_name/%5CnBANK_HAPOALIM_B.M.> a base:Organization .
@@ -19,27 +16,20 @@
 
 org_name:FIFTH_THIRD_BANK a base:Organization .
 
-org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED a base:Organization,
-        org_role:Arrangers,
-        org_role:Bookrunners .
+org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED a base:Organization .
 
 org_name:MIZUHO_BANK%2C%C2%A0LTD a base:Organization .
 
-org_name:RBC_CAPITAL_MARKETS%2C_LLC a base:Organization,
-        org_role:Arrangers,
-        org_role:Bookrunners .
+org_name:RBC_CAPITAL_MARKETS%2C_LLC a base:Organization .
 
-org_name:Saul_Ewing_LLP a base:Organization,
-        org_role:counsel_to_the_Borrower .
+org_name:Saul_Ewing_LLP a base:Organization .
 
-org_name:Sullivan%C2%A0%26_Worcester_LLP a base:Organization,
-        org_role:counsel_to_the_Borrower .
+org_name:Sullivan%C2%A0%26_Worcester_LLP a base:Organization .
 
 loc:550_South_Tryon_Street%2C_6th%C2%A0Floor%5Cn%5CnCharlotte%2C_North_Carolina_28202 a base:Location ;
     rel:isLocationOf <http://example.org/org_name/%5Cn%C2%A0%5Cn%5CnWELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> .
 
-loc:One_Fleet_Way%2C_2nd_Floor%5Cn%5CnMail_Code_PA6-580-02-30%5Cn%5CnScranton%2C_PA_18507 a base:Location,
-        location_type:Global_Trade_Operations ;
+loc:One_Fleet_Way%2C_2nd_Floor%5Cn%5CnMail_Code_PA6-580-02-30%5Cn%5CnScranton%2C_PA_18507 a base:Location ;
     rel:isLocationOf org_name:BANK_OF_AMERICA .
 
 loc:Two_Newton_Place%5Cn%5Cn255_Washington_Street%2C_Suite%C2%A0300%5Cn%5CnNewton%2C_Massachusetts%C2%A0_02458-1634 a base:Location ;
@@ -63,94 +53,70 @@ org_name:Royal_Bank_of_Canada a base:Organization ;
 org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
     rel:hasEmployee person_name:David_Heller .
 
-org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization,
-        org_role:Arrangers,
-        org_role:Bookrunners ;
+org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
     rel:hasLocationAt loc:Minneapolis_Loan_Center%5Cn%5CnMAC_N9303-110%5Cn%5Cn608_Second_Avenue_South%2C_11th%C2%A0Floor%5Cn%5CnMinneapolis%2C_Minnesota_55402-1916 .
 
 <http://example.org/person_name/%5CnDarlene_Arias> a base:Person ;
-    rel:hasPosition person_position:Director ;
     rel:isEmployedBy <http://example.org/org_name/%5Cn%C2%A0%5Cn%5CnWELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> .
 
 <http://example.org/person_name/%5CnDerek_Chang> a base:Person ;
-    rel:hasPosition person_position:Vice_President ;
     rel:isEmployedBy org_name:CITIGROUP_GLOBAL_MARKETS_INC .
 
 <http://example.org/person_name/%5CnHelen_H._Gateson> a base:Person ;
-    rel:hasPosition person_position:Vice_President ;
     rel:isEmployedBy org_name:CITIGROUP_GLOBAL_MARKETS_INC .
 
 <http://example.org/person_name/%5CnJohn_R._Roach%2C_Jr.> a base:Person ;
-    rel:hasPosition person_position:Vice_President ;
     rel:isEmployedBy org_name:CITIGROUP_GLOBAL_MARKETS_INC .
 
 <http://example.org/person_name/%5CnS._Kent_Gorman> a base:Person ;
-    rel:hasPosition person_position:Sr._VP ;
     rel:isEmployedBy org_name:COMPASS_BANK .
 
 person_name:Casey_Gehrig a base:Person ;
-    rel:hasPosition person_position:Vice_President ;
     rel:isEmployedBy org_name:CITIGROUP_GLOBAL_MARKETS_INC .
 
 person_name:Charles_McLaughlin a base:Person ;
-    rel:hasPosition person_position:Senior_Vice_President ;
     rel:isEmployedBy org_name:BRANCH_BANKING_AND_TRUST_COMPANY .
 
 person_name:Cheryl_Snoor a base:Person ;
-    rel:hasPosition person_position:Vice_President ;
     rel:isEmployedBy org_name:CITIGROUP_GLOBAL_MARKETS_INC .
 
 person_name:Craig_Pearson a base:Person ;
-    rel:hasPosition person_position:Associate_Director ;
     rel:isEmployedBy <http://example.org/org_name/%5CnUBS_AG%2C_STAMFORD_BRANCH> .
 
 person_name:D._Bryan_Gregory a base:Person ;
-    rel:hasPosition person_position:Director ;
     rel:isEmployedBy <http://example.org/org_name/%5Cn%C2%A0%5Cn%5CnWELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> .
 
 person_name:Dan_LePage a base:Person ;
-    rel:hasPosition <http://example.org/person_position/%5CnAuthorized_Signatory> ;
     rel:isEmployedBy org_name:ROYAL_BANK_OF_CANADA .
 
 person_name:David_Heller a base:Person ;
-    rel:hasPosition <http://example.org/person_position/%5CnSenior_Vice_President> ;
     rel:isEmployedBy org_name:U.S._BANK_NATIONAL_ASSOCIATION .
 
 person_name:Dinesh_Kumar a base:Person ;
     rel:isEmployedBy <http://example.org/org_name/Citibank%2C_N.A.> .
 
 person_name:Gregory_A._Conner a base:Person ;
-    rel:hasPosition <http://example.org/person_position/%5CnVice_President> ;
     rel:isEmployedBy org_name:ASSOCIATED_BANK%2C_NATIONAL_ASSOCIATION .
 
 person_name:Jean_M._Brennan a base:Person ;
-    rel:hasPosition person_position:Senior_Vice_President ;
     rel:isEmployedBy org_name:BRANCH_BANKING_AND_TRUST_COMPANY .
 
 person_name:John_C._Popeo a base:Person ;
-    rel:hasPosition person_position:Assistant_Secretary,
-        person_position:Chief_Financial_Officer,
-        person_position:Treasurer ;
     rel:isEmployedBy org_name:SELECT_INCOME_REIT .
 
 person_name:John_C._Rowland a base:Person ;
-    rel:hasPosition person_position:Vice_President ;
     rel:isEmployedBy org_name:CITIGROUP_GLOBAL_MARKETS_INC .
 
 person_name:Mark_Edwards a base:Person ;
-    rel:hasPosition person_position:Senior_Vice_President ;
     rel:isEmployedBy org_name:BRANCH_BANKING_AND_TRUST_COMPANY .
 
 person_name:Michael_King a base:Person ;
-    rel:hasPosition person_position:Authorized_Signatory ;
     rel:isEmployedBy org_name:MORGAN_STANLEY_BANK .
 
 person_name:Michael_R_Mellott a base:Person ;
-    rel:hasPosition person_position:Director ;
     rel:isEmployedBy <http://example.org/org_name/%5Cn%C2%A0%5Cn%5CnWELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> .
 
 person_name:Noel_Purcell a base:Person ;
-    rel:hasPosition person_position:Authorized_Signatory ;
     rel:isEmployedBy org_name:MORGAN_STANLEY_BANK .
 
 person_name:Tari_Mock a base:Person ;
@@ -183,8 +149,7 @@ org_name:ROYAL_BANK_OF_CANADA a base:Organization ;
     rel:hasEmployee person_name:Dan_LePage ;
     rel:hasLocationAt loc:200_Vesey_St.%2C_5th%C2%A0Floor%5Cn%5CnNew_York%2C_NY_10281-8098 .
 
-org_name:SELECT_INCOME_REIT a base:Organization,
-        org_role:Borrower ;
+org_name:SELECT_INCOME_REIT a base:Organization ;
     rel:hasEmployee person_name:John_C._Popeo ;
     rel:hasLocationAt loc:Two_Newton_Place%5Cn%5Cn255_Washington_Street%2C_Suite%C2%A0300%5Cn%5CnNewton%2C_Massachusetts%C2%A0_02458-1634 .
 
@@ -193,11 +158,7 @@ org_name:BRANCH_BANKING_AND_TRUST_COMPANY a base:Organization ;
         person_name:Jean_M._Brennan,
         person_name:Mark_Edwards .
 
-<http://example.org/org_name/%5Cn%C2%A0%5Cn%5CnWELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> a base:Organization,
-        org_role:Agent%2C,
-        org_role:Bank,
-        org_role:Lender,
-        org_role:Lenders ;
+<http://example.org/org_name/%5Cn%C2%A0%5Cn%5CnWELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> a base:Organization ;
     rel:hasEmployee <http://example.org/person_name/%5CnDarlene_Arias>,
         person_name:D._Bryan_Gregory,
         person_name:Michael_R_Mellott,
@@ -206,9 +167,7 @@ org_name:BRANCH_BANKING_AND_TRUST_COMPANY a base:Organization ;
     rel:hasLocationAt loc:550_South_Tryon_Street%2C_6th%C2%A0Floor%5Cn%5CnCharlotte%2C_North_Carolina_28202,
         loc:Minneapolis_Loan_Center%5Cn%5CnMAC_N9303-110%5Cn%5Cn608_Second_Avenue_South%2C_11th%C2%A0Floor%5Cn%5CnMinneapolis%2C_Minnesota_55402-1916 .
 
-org_name:CITIGROUP_GLOBAL_MARKETS_INC a base:Organization,
-        org_role:Arrangers,
-        org_role:Bookrunners ;
+org_name:CITIGROUP_GLOBAL_MARKETS_INC a base:Organization ;
     rel:hasEmployee <http://example.org/person_name/%5CnDerek_Chang>,
         <http://example.org/person_name/%5CnHelen_H._Gateson>,
         <http://example.org/person_name/%5CnJohn_R._Roach%2C_Jr.>,
