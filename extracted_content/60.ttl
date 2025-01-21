@@ -1,4 +1,3 @@
-@prefix IsinstanceOf: <http://example.org/isInstanceOf> .
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
@@ -398,78 +397,87 @@ person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
 loc:111_South_Wacker_Drive%5Cn%5CnChicago%2C%C2%A0Illinois_60606 a base:Location ;
-    IsinstanceOf: base:Location ;
-    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
+    rdfs:label "111 South Wacker Drive\\n\\nChicago, Illinois 60606" ;
+    <http://example.org/is_instance_of/> location_type:Loan_and_Agency_Services_Group ;
+    rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
 
 loc:230_Park_Avenue%5Cn%5CnNew_York%2C_New_York_10169 a base:Location ;
-    IsinstanceOf: base:Location ;
-    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
+    rdfs:label "230 Park Avenue\\n\\nNew York, New York 10169" ;
+    <http://example.org/is_instance_of/> location_type:Loan_and_Agency_Services_Group ;
+    rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
 
 loc:287_Bowman_Ave_%23_241%5Cn%5CnPurchase%2C_NY_10577 a base:Location ;
-    IsinstanceOf: base:Location ;
-    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
+    rdfs:label "287 Bowman Ave # 241\\n\\nPurchase, NY 10577" ;
+    <http://example.org/is_instance_of/> location_type:Loan_and_Agency_Services_Group ;
+    rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
 
 loc:55_East_Monroe%5Cn%5CnSuite%C2%A03300_Chicago%2C%C2%A0IL_60603 a base:Location ;
-    IsinstanceOf: base:Location ;
-    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
+    rdfs:label "55 East Monroe\\n\\nSuite 3300 Chicago, IL 60603" ;
+    <http://example.org/is_instance_of/> location_type:Loan_and_Agency_Services_Group ;
+    rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
 
 loc:830_Morris_Turnpike%2C_3rd%C2%A0Floor%5Cn%5CnShort_Hills%2C_NJ_07078 a base:Location ;
-    IsinstanceOf: base:Location ;
-    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
+    rdfs:label "830 Morris Turnpike, 3rd Floor\\n\\nShort Hills, NJ 07078" ;
+    <http://example.org/is_instance_of/> location_type:Loan_and_Agency_Services_Group ;
+    rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
 
 loc:at_Wintrust_Bank%5Cn%5Cn231_S._LaSalle_Street%5Cn%5Cn2nd%C2%A0Floor%5Cn%5CnChicago%2C%C2%A0IL_60604 a base:Location ;
-    IsinstanceOf: base:Location ;
-    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
+    rdfs:label "at Wintrust Bank\\n\\n231 S. LaSalle Street\\n\\n2nd Floor\\n\\nChicago, IL 60604" ;
+    <http://example.org/is_instance_of/> location_type:Loan_and_Agency_Services_Group ;
+    rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
 
 <http://example.org/org_name/%5CnMVC_GP_II%2C_LLC> a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnMVC_PARTNERS_LLC> a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnSANTANDER_BANK%2C_N.A.%2C> a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnWintrust_Bank%2C> a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/Goldberg_Kohn_LTD.> a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Locke_Lord_LLP a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/MVC_CAPITAL%2C%C2%A0INC.> a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:MVC_CAYMAN a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/MVC_FINANCIAL_SERVICES%2C%C2%A0INC.> a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/Otterbourg_P.C.> a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 person_name:Gregory_R._Russano a base:Person ;
     rdfs:label "Gregory R. Russano" ;
-    IsinstanceOf: base:Person .
+    <http://example.org/is_instance_of/> person_position:VP ;
+    rel:IsEmployeeOf org_name:Wells_Fargo .
 
 person_name:James_Pinto a base:Person ;
     rdfs:label "James Pinto" ;
-    IsinstanceOf: base:Person .
+    <http://example.org/is_instance_of/> person_position:VP ;
+    rel:IsEmployeeOf org_name:Wells_Fargo .
 
 person_name:John_Paul_Hills a base:Person ;
     rdfs:label "John Paul Hills" ;
-    IsinstanceOf: base:Person .
+    <http://example.org/is_instance_of/> person_position:VP ;
+    rel:IsEmployeeOf org_name:Wells_Fargo .
 

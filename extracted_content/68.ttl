@@ -1,4 +1,3 @@
-@prefix IsinstanceOf: <http://example.org/isInstanceOf> .
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
@@ -398,107 +397,110 @@ person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
 loc:245_Park_Avenue%5Cn%5CnNew_York%2C_New_York_10167 a base:Location ;
-    IsinstanceOf: base:Location ;
-    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
+    rdfs:label "245 Park Avenue\\n\\nNew York, New York 10167" ;
+    <http://example.org/is_instance_of/> location_type:Loan_and_Agency_Services_Group ;
+    rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
 
 org_name:AG_ENERGY_FUNDING%2C_LLC a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:ANGELO%2C_GORDON_ENERGY_SERVICER%2C%5CnLLC%2C a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:PACIFIC_DRILLING_S.A.%2C a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/Pacific_Bora_Ltd.> a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/Pacific_Drilling%2C_Inc.> a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Pacific_Drilling%2C_LLC a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Pacific_Drilling_%28Gibraltar%29_Limited a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/Pacific_Drilling_Finance_S.%C3%A0_r.l.> a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Pacific_Drilling_Holding_%28Gibraltar%29_Limited a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Pacific_Drilling_Limited a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Pacific_Drilling_Operations%2C_Inc.%5Cn%5Cn a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Pacific_Drilling_Operations_Limited a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Pacific_Drilling_VII_Limited a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Pacific_Drilling_V_Limited a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Pacific_Drillship_%28Gibraltar%29_Limited a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Pacific_Drillship_Nigeria_Limited a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/Pacific_Drillship_S.%C3%A0_r.l.> a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/Pacific_Mistral_Ltd.> a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Pacific_Santa_Ana_%28Gibraltar%29_Limited a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Pacific_Santa_Ana_Limited a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/Pacific_Scirocco_Ltd.> a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Pacific_Sharav_Korl%C3%A1tolt_Felel%C3%B6ss%C3%A9g%C5%A9_T%C3%A1rsas%C3%A1g a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Pacific_Sharav_S.%C3%A0_r.l.%5Cn%5Cn a base:Organization ;
-    IsinstanceOf: base:Organization ;
+    <http://example.org/is_instance_of/> base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 person_name:James_Harris a base:Person ;
     rdfs:label "James Harris" ;
-    IsinstanceOf: base:Person .
+    <http://example.org/is_instance_of/> person_position:VP ;
+    rel:IsEmployeeOf org_name:Wells_Fargo .
 
 person_name:Todd_Dittmann a base:Person ;
     rdfs:label "Todd Dittmann",
         " Todd Dittmann" ;
-    IsinstanceOf: base:Person .
+    <http://example.org/is_instance_of/> person_position:VP ;
+    rel:IsEmployeeOf org_name:Wells_Fargo .
 
