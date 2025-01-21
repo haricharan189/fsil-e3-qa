@@ -5,6 +5,7 @@ from typing import Set, Dict, List
 from pathlib import Path
 import urllib.parse
 import os
+
 class KnowledgeGraphBuilder:
     def __init__(self):
         # Define namespaces for ontology classes
@@ -23,11 +24,13 @@ class KnowledgeGraphBuilder:
         self.base = Namespace("http://example.org/base/")
         
         # Add these relation types explicitly
-        g = Graph()
-        g.add((self.rel.hasPosition, RDF.type, RDF.Property))
-        g.add((self.rel.isEmployedBy, RDF.type, RDF.Property))
-        g.add((self.rel.hasEmployee, RDF.type, RDF.Property))
-        
+        self.g = Graph()
+        self.g.add((self.rel.hasPosition, RDF.type, RDF.Property))
+        self.g.add((self.rel.isEmployedBy, RDF.type, RDF.Property))
+        self.g.add((self.rel.hasEmployee, RDF.type, RDF.Property))
+        self.g.add((self.rel.hasLocationAt, RDF.type, RDF.Property))
+        self.g.add((self.rel.isLocationOf, RDF.type, RDF.Property))
+
     def extract_ontology_classes(self, data: List[Dict]) -> Graph:
         """
         Extract ontology classes from annotations and create TTL file
@@ -51,8 +54,7 @@ class KnowledgeGraphBuilder:
                         elif label == "Organization Role":
                             org_roles.add(text)
                         elif label == "Organization Sub-Role":
-                            # Store sub-role temporarily
-                            org_sub_roles[text] = None
+                            org_sub_roles[text] = None  # Temporarily store sub-role
                         elif label == "Location Type":
                             loc_types.add(text)
         
@@ -83,29 +85,7 @@ class KnowledgeGraphBuilder:
             g.add((role_uri, RDF.type, RDFS.Class))
             g.add((role_uri, RDFS.subClassOf, self.base.Organization))
         
-        # Process relations to find sub-role relationships
-        for item in data:
-            for result in item.get('annotations', [])[0].get('result', []):
-                if result['type'] == 'relation':
-                    from_id = result['from_id']
-                    to_id = result['to_id']
-                    
-                    # Get the corresponding annotations
-                    from_entity = next((r for r in item['annotations'][0]['result'] 
-                                    if r['id'] == from_id and r['type'] == 'hypertextlabels'), None)
-                    to_entity = next((r for r in item['annotations'][0]['result'] 
-                                    if r['id'] == to_id and r['type'] == 'hypertextlabels'), None)
-                    
-                    if from_entity and to_entity:
-                        from_label = from_entity['value']['hypertextlabels'][0]
-                        to_label = to_entity['value']['hypertextlabels'][0]
-                        
-                        if from_label == "Organization Role" and to_label == "Organization Sub-Role":
-                            parent_role = from_entity['value']['text']
-                            sub_role = to_entity['value']['text']
-                            org_sub_roles[sub_role] = parent_role
-        
-        # Add organization sub-role subclasses with proper parent relationships
+        # Add organization sub-role subclasses
         for sub_role, parent_role in org_sub_roles.items():
             sub_role_uri = self.org_sub_role[self._clean_uri(sub_role)]
             g.add((sub_role_uri, RDF.type, RDFS.Class))
@@ -114,7 +94,6 @@ class KnowledgeGraphBuilder:
                 parent_role_uri = self.org_role[self._clean_uri(parent_role)]
                 g.add((sub_role_uri, RDFS.subClassOf, parent_role_uri))
             else:
-                # If no parent role is found, make it a subclass of Organization
                 g.add((sub_role_uri, RDFS.subClassOf, self.base.Organization))
         
         # Add location type subclasses
@@ -124,14 +103,13 @@ class KnowledgeGraphBuilder:
             g.add((loc_type_uri, RDFS.subClassOf, self.base.Location))
         
         return g
-     
-
+    
     def create_data_layer(self, doc: Dict, ontology_graph: Graph) -> Graph:
         """
         Create data layer graph for a single document using ontology classes
         """
         g = Graph()
-        
+
         # Bind namespaces
         g.bind("person_name", self.person_name)
         g.bind("org_name", self.org_name)
@@ -145,14 +123,13 @@ class KnowledgeGraphBuilder:
 
         # Merge the ontology into the data layer graph
         g += ontology_graph
-        
+
         entities = {}
         org_roles: Dict[URIRef, Set[URIRef]] = {}  # Store organization roles
         person_positions: Dict[URIRef, URIRef] = {}  # Store person positions
-        position_orgs: Dict[URIRef, URIRef] = {}    # New: Store position -> organization mapping
         person_employers: Dict[URIRef, URIRef] = {}  # Store person employers
         location_types: Dict[URIRef, URIRef] = {}  # Store location types
-        
+
         # First pass: Parse all entities
         for annotation in doc.get("annotations", []):
             for result in annotation.get('result', []):
@@ -161,18 +138,16 @@ class KnowledgeGraphBuilder:
                     text = result["value"].get("text", "")
                     
                     # Create entity URI
+                    uri = None
                     if label == "Person Name":
                         uri = self.person_name[self._clean_uri(text)]
                         g.add((uri, RDF.type, self.base.Person))  # Link entity to Person class
                         entities[result["id"]] = {"uri": uri, "label": label}
-                        person_positions[uri] = None  # Initialize position
-                        person_employers[uri] = None  # Initialize employer
                     
                     elif label == "Organization Name":
                         uri = self.org_name[self._clean_uri(text)]
                         g.add((uri, RDF.type, self.base.Organization))  # Link entity to Organization class
                         entities[result["id"]] = {"uri": uri, "label": label}
-                        org_roles[uri] = set()  # Initialize empty set for roles
                     
                     elif label == "Location":
                         uri = self.loc[self._clean_uri(text)]
@@ -196,100 +171,54 @@ class KnowledgeGraphBuilder:
                     from_entity = entities.get(from_id)
                     to_entity = entities.get(to_id)
                     
+                    # Ensure that the entity has a 'uri' key
                     if not from_entity or not to_entity:
+                        continue
+
+                    from_uri = from_entity.get("uri")
+                    to_uri = to_entity.get("uri")
+
+                    # If either entity doesn't have a URI, skip processing
+                    if not from_uri or not to_uri:
                         continue
                     
                     from_label = from_entity.get("label")
                     to_label = to_entity.get("label")
-                    
-                    # Person - Position relationship
+
+                    # Define relationships for Person - Position
                     if (from_label == "Person Name" and to_label == "Person Position") or \
                     (from_label == "Person Position" and to_label == "Person Name"):
-                        person_uri = from_entity["uri"] if from_label == "Person Name" else to_entity["uri"]
+                        person_uri = from_uri if from_label == "Person Name" else to_uri
                         position_text = to_entity["text"] if from_label == "Person Name" else from_entity["text"]
                         position_uri = self.person_position[self._clean_uri(position_text)]
                         person_positions[person_uri] = position_uri
-                        # Add position relationship without duplicate type
-                        g.add((person_uri, RDF.type, self.base.Person))
+                        g.add((person_uri, self.rel.hasPosition, position_uri))
                     
-                    # Organization - Person relationship
-                    elif (from_label == "Organization Name" and to_label == "Person Name") or \
-                        (from_label == "Person Name" and to_label == "Organization Name"):
-                        org_uri = from_entity["uri"] if from_label == "Organization Name" else to_entity["uri"]
-                        person_uri = to_entity["uri"] if from_label == "Organization Name" else from_entity["uri"]
-                        
-                        # Add employment relationships
-                        g.add((person_uri, RDF.type, self.base.Person))
-                        g.add((org_uri, RDF.type, self.base.Organization))
-                        g.add((person_uri, self.rel.isEmployedBy, org_uri))
-                        g.add((org_uri, self.rel.hasEmployee, person_uri))
-                        person_employers[person_uri] = org_uri
-                    
-                    # Organization - Role relationship
-                    elif (from_label == "Organization Name" and to_label in ["Organization Role", "Organization Sub-Role"]):
-                        org_uri = from_entity["uri"]
-                        role_ns = self.org_role if to_label == "Organization Role" else self.org_sub_role
-                        role_uri = role_ns[self._clean_uri(to_entity["text"])]
-                        g.add((org_uri, RDF.type, self.base.Organization))
-                    
-                    # Organization - Sub-Role relationship
-                    elif from_label == "Organization Name" and to_label == "Organization Sub-Role":
-                        org_uri = from_entity["uri"]
-                        sub_role_uri = self.org_sub_role[self._clean_uri(to_entity["text"])]
-                        org_roles[org_uri].add(sub_role_uri)
-                    
-                    # Location - Type relationship
-                    elif from_label == "Location" and to_label == "Location Type":
-                        loc_uri = from_entity["uri"]
-                        type_uri = self.location_type[self._clean_uri(to_entity["text"])]
-                    
-                    # Organization - Location relationship
+                    # Define Organization - Location
                     elif from_label == "Organization Name" and to_label == "Location":
-                        org_uri = from_entity["uri"]
-                        loc_uri = to_entity["uri"]
+                        org_uri = from_uri
+                        loc_uri = to_uri
                         g.add((org_uri, self.rel.hasLocationAt, loc_uri))
                         g.add((loc_uri, self.rel.isLocationOf, org_uri))
                     
-                    # Add Position -> Organization relationship handling
+                    # Add Position -> Organization relationship
                     if (from_label == "Person Position" and to_label == "Organization Name") or \
                     (from_label == "Organization Name" and to_label == "Person Position"):
-                        org_uri = from_entity["uri"] if from_label == "Organization Name" else to_entity["uri"]
-                        position_text = to_entity["text"] if from_label == "Organization Name" else from_entity["text"]
-                        position_uri = self.person_position[self._clean_uri(position_text)]
-                        position_orgs[position_uri] = org_uri
-        
-        # After processing all relationships, connect Person to Organization through Position
-        for person_uri, position_uri in person_positions.items():
-            if position_uri in position_orgs:
-                org_uri = position_orgs[position_uri]
-                g.add((person_uri, self.rel.isEmployedBy, org_uri))
-                g.add((org_uri, self.rel.hasEmployee, person_uri))
-        
-        # Add any missing relationships
-        for person_uri, position_uri in person_positions.items():
-            if position_uri and person_uri not in [s for s,p,o in g.triples((None, self.rel.hasPosition, position_uri))]:
-                g.add((person_uri, RDF.type, self.base.Person))
-        
-        for person_uri, employer_uri in person_employers.items():
-            if employer_uri and person_uri not in [s for s,p,o in g.triples((None, self.rel.isEmployedBy, employer_uri))]:
-                g.add((person_uri, self.rel.isEmployedBy, employer_uri))
-                g.add((employer_uri, self.rel.hasEmployee, person_uri))
-        
-        # Add all organization roles
-        for org_uri, roles in org_roles.items():
-            for role_uri in roles:
-                g.add((org_uri, RDF.type, role_uri))
-        
+                        org_uri = from_uri if from_label == "Organization Name" else to_uri
+                        position_uri = from_uri if from_label == "Person Position" else to_uri
+                        g.add((position_uri, self.rel.isEmployedBy, org_uri))
+                        g.add((org_uri, self.rel.hasEmployee, position_uri))
+
         return g
 
+    
+    def _clean_uri(self, text: str) -> str:
+        """Clean up the text to be a valid URI fragment, including special characters."""
+        cleaned_text = text.replace(" ", "_")  # Replace spaces with underscores
+        cleaned_text = urllib.parse.quote(cleaned_text, safe="")  # URL encode the rest
+        return cleaned_text
 
     
-   
-    def _clean_uri(self, text: str) -> str:
-        """
-        Clean text for use in URIs
-        """
-        return urllib.parse.quote(text.strip().replace("\n", "").replace(" ", "_"), safe="_")
     
     def save_graph(self, graph: Graph, filepath: str):
         """
@@ -314,7 +243,7 @@ def main(json_file_path: str, output_dir: str):
     
     # Create and save data layers
     for doc in data:
-        data_graph = builder.create_data_layer(doc)
+        data_graph = builder.create_data_layer(doc, ontology_graph)
         # Use the document ID for naming
         doc_id = doc.get("id", "unknown_id")  # Default to "unknown_id" if not found
         builder.save_graph(data_graph, f"{output_dir}/{doc_id}.ttl")
@@ -322,4 +251,4 @@ def main(json_file_path: str, output_dir: str):
 
 if __name__ == "__main__":
     # Replace with your actual JSON file path and desired output directory
-    main("48 to 53_hari.json", "./extracted_content")    
+    main("/Users/vidhyakshayakannan/Downloads/96 to 107_Vidhyakshaya.json", "./extracted_content")    
