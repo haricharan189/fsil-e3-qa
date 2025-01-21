@@ -30,7 +30,7 @@ class KnowledgeGraphBuilder:
         self.g.add((self.rel.hasEmployee, RDF.type, RDF.Property))
         self.g.add((self.rel.hasLocationAt, RDF.type, RDF.Property))
         self.g.add((self.rel.isLocationOf, RDF.type, RDF.Property))
-
+    
     def extract_ontology_classes(self, data: List[Dict]) -> Graph:
         """
         Extract ontology classes from annotations and create TTL file
@@ -147,11 +147,13 @@ class KnowledgeGraphBuilder:
                     elif label == "Organization Name":
                         uri = self.org_name[self._clean_uri(text)]
                         g.add((uri, RDF.type, self.base.Organization))  # Link entity to Organization class
+                        g.add((uri, RDF.type, self.base.Organization))  # Add IsInstanceOf relationship
                         entities[result["id"]] = {"uri": uri, "label": label}
                     
                     elif label == "Location":
                         uri = self.loc[self._clean_uri(text)]
                         g.add((uri, RDF.type, self.base.Location))  # Link entity to Location class
+                        g.add((uri, RDF.type, self.base.Location))  # Add IsInstanceOf relationship for Location
                         entities[result["id"]] = {"uri": uri, "label": label}
                     
                     # Store these for relationship processing
@@ -193,7 +195,7 @@ class KnowledgeGraphBuilder:
                         position_uri = self.person_position[self._clean_uri(position_text)]
                         person_positions[person_uri] = position_uri
                         g.add((person_uri, self.rel.hasPosition, position_uri))
-                    
+
                     # Define Organization - Location
                     elif from_label == "Organization Name" and to_label == "Location":
                         org_uri = from_uri
@@ -201,7 +203,7 @@ class KnowledgeGraphBuilder:
                         g.add((org_uri, self.rel.hasLocationAt, loc_uri))
                         g.add((loc_uri, self.rel.isLocationOf, org_uri))
                     
-                    # Add Position -> Organization relationship
+                    # Add Position -> Organization relationship (Is Employed By)
                     if (from_label == "Person Position" and to_label == "Organization Name") or \
                     (from_label == "Organization Name" and to_label == "Person Position"):
                         org_uri = from_uri if from_label == "Organization Name" else to_uri
@@ -209,16 +211,26 @@ class KnowledgeGraphBuilder:
                         g.add((position_uri, self.rel.isEmployedBy, org_uri))
                         g.add((org_uri, self.rel.hasEmployee, position_uri))
 
+                    # Define "IsInstanceOf" relationships for Person Position
+                    if from_label == "Person Position" and to_label == "Person Name":
+                        g.add((from_uri, self.rel.IsinstanceOf, self.person_position.VP))  # Adjust position accordingly
+
+                    # Define "IsInstanceOf" for Organization and Location
+                    if from_label == "Organization Name":
+                        g.add((from_uri, self.rel.IsinstanceOf, self.base.Organization))  # Add IsInstanceOf for Organization
+                        
+                    if from_label == "Location":
+                        g.add((from_uri, self.rel.IsinstanceOf, self.base.Location))  # Add IsInstanceOf for Location
+
         return g
+
 
     
     def _clean_uri(self, text: str) -> str:
-        """Clean up the text to be a valid URI fragment, including special characters."""
-        cleaned_text = text.replace(" ", "_")  # Replace spaces with underscores
-        cleaned_text = urllib.parse.quote(cleaned_text, safe="")  # URL encode the rest
-        return cleaned_text
-
-    
+        """
+        Clean text for use in URIs
+        """
+        return urllib.parse.quote(text.strip().replace("\n", "").replace(" ", "_"), safe="_")
     
     def save_graph(self, graph: Graph, filepath: str):
         """
@@ -251,4 +263,4 @@ def main(json_file_path: str, output_dir: str):
 
 if __name__ == "__main__":
     # Replace with your actual JSON file path and desired output directory
-    main("/Users/vidhyakshayakannan/Downloads/96 to 107_Vidhyakshaya.json", "./extracted_content")    
+    main("/Users/vidhyakshayakannan/Documents/vidhyakshaya_corrected_modified.json", "./extracted_content")    
