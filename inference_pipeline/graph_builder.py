@@ -185,7 +185,7 @@ class KnowledgeGraphBuilder:
                             "text": text,
                             "label": label
                         }
-        
+
         # Second pass: Process relationships
         for annotation in doc.get("annotations", []):
             for result in annotation.get('result', []):
@@ -281,6 +281,7 @@ class KnowledgeGraphBuilder:
                 g.add((org_uri, RDF.type, role_uri))
         
         return g
+
 
     
    
