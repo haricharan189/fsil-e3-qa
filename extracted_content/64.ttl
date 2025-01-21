@@ -1,3 +1,4 @@
+@prefix IsinstanceOf: <http://example.org/isInstanceOf> .
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
@@ -7,6 +8,7 @@
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -396,53 +398,70 @@ person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
 loc:200_Vesey_Street%5Cn%5CnNew_York%2C_New_York_10281 a base:Location ;
-    base:IsinstanceOf base:Location .
+    IsinstanceOf: base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
 
 loc:4900_Tiedeman_Road_4th_Floor%5Cn%5CnBrooklyn%2C_OH_44144 a base:Location ;
-    base:IsinstanceOf base:Location .
+    IsinstanceOf: base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
 
 loc:Royal_Bank_Plaza%2C_200_Bay_Street%2C%5Cn%5Cn12th_Floor_South_Tower%5Cn%5CnToronto%2C_Ontario_M5J_2W7%5Cn%5CnCanada a base:Location ;
-    base:IsinstanceOf base:Location .
+    IsinstanceOf: base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
 
 <http://example.org/org_name/%5CnBANK_OF_AMERICA%2C_N.A.> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnJPMorgan_Chase_Bank%2C_N.A.%2C> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA%2C> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnVICTORY_CAPITAL_HOLDINGS%2C%C2%A0INC.%2C> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:MORGAN_STANLEY_SENIOR_FUNDING%2C%C2%A0INC.%2C a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:ROYAL_BANK_OF_CANADA%2C a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/person_name/%5CnKenise_Henry_Larmond> a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "	\\nKenise Henry Larmond" ;
+    IsinstanceOf: base:Person .
 
 <http://example.org/person_name/%5CnMichael_King> a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "	\\nMichael King" ;
+    IsinstanceOf: base:Person .
 
 <http://example.org/person_name/%5CnRodney_Beeks> a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "	\\nRodney Beeks" ;
+    IsinstanceOf: base:Person .
 
 <http://example.org/person_name/%5CnShane_M._Leary> a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "	\\nShane M. Leary" ;
+    IsinstanceOf: base:Person .
 
 <http://example.org/person_name/%5CnSusan_Khokher> a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "	\\nSusan Khokher" ;
+    IsinstanceOf: base:Person .
 
 <http://example.org/person_name/%5CnTerence_F._Sullivan> a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "	\\nTerence F. Sullivan" ;
+    IsinstanceOf: base:Person .
 
 person_name:Alex_Figueroa a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Alex Figueroa" ;
+    IsinstanceOf: base:Person .
 

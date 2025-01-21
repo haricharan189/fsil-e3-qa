@@ -1,3 +1,4 @@
+@prefix IsinstanceOf: <http://example.org/isInstanceOf> .
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
@@ -7,6 +8,7 @@
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -396,32 +398,42 @@ person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
 loc:1100_Louisiana%2C_Suite_3300%5Cn%5CnHouston%2C_TX_77002-5217 a base:Location ;
-    base:IsinstanceOf base:Location .
+    IsinstanceOf: base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
 
 loc:1100_Louisiana%2C_Suite_3300%5CnHouston%2C_TX_77002-5217 a base:Location ;
-    base:IsinstanceOf base:Location .
+    IsinstanceOf: base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
 
 <http://example.org/location/C/O_Enbridge_Inc.%5Cn%5Cn3000%2C_425-1st%5Cn%5CnCalgary%2C_Alberta%2C_Canada> a base:Location ;
-    base:IsinstanceOf base:Location .
+    IsinstanceOf: base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
 
 <http://example.org/location/C/O_Enbridge_Inc.%5Cn3000%2C_425-1st%5CnCalgary%2C_Alberta%2C_Canada> a base:Location ;
-    base:IsinstanceOf base:Location .
+    IsinstanceOf: base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
 
 <http://example.org/org_name/ENBRIDGE_%28U.S.%29_INC.> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/ENBRIDGE_ENERGY_MANAGEMENT%2C_L.L.C.> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:ENBRIDGE_ENERGY_PARTNERS%2C_L.P.%2C a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 person_name:Chris_Kaitson a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Chris Kaitson" ;
+    IsinstanceOf: base:Person .
 
 person_name:Jonathan_Rose a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Jonathan Rose" ;
+    IsinstanceOf: base:Person .
 
 person_name:Stephen_J._Neyland a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Stephen J. Neyland" ;
+    IsinstanceOf: base:Person .
 

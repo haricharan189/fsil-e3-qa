@@ -1,3 +1,4 @@
+@prefix IsinstanceOf: <http://example.org/isInstanceOf> .
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
@@ -7,6 +8,7 @@
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -396,53 +398,70 @@ person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
 loc:Director a base:Location ;
-    base:IsinstanceOf base:Location .
+    IsinstanceOf: base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
 
 loc:Floor_3%2C_Ops_2%5Cn%5Cn500_Stanton_Christiana_Rd.%5Cn%5CnNewark%2C_DE_19713 a base:Location ;
-    base:IsinstanceOf base:Location .
+    IsinstanceOf: base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
 
 <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:BARCLAYS_BANK_PLC a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:DEUTSCHE_BANK_AG_NEW_YORK_BRANCH%2C a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/HONEYWELL_INTERNATIONAL_INC.> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:JPMORGAN_CHASE_BANK%2C_N.A a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 person_name:Carolyn_Kee a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Carolyn Kee" ;
+    IsinstanceOf: base:Person .
 
 person_name:Craig_Malloy a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label " Craig Malloy" ;
+    IsinstanceOf: base:Person .
 
 person_name:Gene_Riego_de_Dios a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Gene Riego de Dios" ;
+    IsinstanceOf: base:Person .
 
 person_name:John_J._Tus a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "John J. Tus" ;
+    IsinstanceOf: base:Person .
 
 person_name:Ming_K._Chu a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Ming K. Chu" ;
+    IsinstanceOf: base:Person .
 
 person_name:Mukesh_Singh a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Mukesh Singh" ;
+    IsinstanceOf: base:Person .
 
 person_name:Robert_Ehudin a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Robert Ehudin" ;
+    IsinstanceOf: base:Person .
 
 person_name:Virginia_Cosenza a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Virginia Cosenza" ;
+    IsinstanceOf: base:Person .
 

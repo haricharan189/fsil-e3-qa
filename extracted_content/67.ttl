@@ -1,3 +1,4 @@
+@prefix IsinstanceOf: <http://example.org/isInstanceOf> .
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
@@ -7,6 +8,7 @@
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -396,20 +398,26 @@ person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
 loc:520_Madison_Avenue%5Cn%5CnNew_York%2C_New_York_10022 a base:Location ;
-    base:IsinstanceOf base:Location .
+    IsinstanceOf: base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
 
 loc:Managing_Director a base:Location ;
-    base:IsinstanceOf base:Location .
+    IsinstanceOf: base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
 
 <http://example.org/org_name/%5CnJEFFERIES_FINANCE_LLC> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:CVR_ENERGY%2C%C2%A0INC a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 person_name:John_Koehler a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "John Koehler" ;
+    IsinstanceOf: base:Person .
 
 person_name:Tracy_D._Jackson a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Tracy D. Jackson" ;
+    IsinstanceOf: base:Person .
 

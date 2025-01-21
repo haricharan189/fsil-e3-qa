@@ -1,3 +1,4 @@
+@prefix IsinstanceOf: <http://example.org/isInstanceOf> .
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
@@ -7,6 +8,7 @@
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -396,26 +398,34 @@ person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
 loc:1000_Stanley_Drive%5Cn%5CnNew_Britain%2C_Connecticut_06053 a base:Location ;
-    base:IsinstanceOf base:Location .
+    IsinstanceOf: base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
 
 loc:Building_Ops_II%2C_One_Penns_Way%5Cn%5CnNew_Castle%2C_DE_19720 a base:Location ;
-    base:IsinstanceOf base:Location .
+    IsinstanceOf: base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
 
 <http://example.org/org_name/%5CnSTANLEY_BLACK%C2%A0%26_DECKER%2C_INC.> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:BOFA_SECURITIES%2C_INC.%2C a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:CITIBANK%2C_N.A.%2C a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 person_name:Carolyn_A._Kee a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label " Carolyn A. Kee" ;
+    IsinstanceOf: base:Person .
 
 person_name:Michael_Contreras a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Michael Contreras" ;
+    IsinstanceOf: base:Person .
 
 person_name:Robert_T._Paternostro a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Robert T. Paternostro" ;
+    IsinstanceOf: base:Person .
 

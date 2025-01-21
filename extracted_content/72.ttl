@@ -1,3 +1,4 @@
+@prefix IsinstanceOf: <http://example.org/isInstanceOf> .
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
@@ -7,6 +8,7 @@
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -396,110 +398,147 @@ person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
 loc:Arranger a base:Location ;
-    base:IsinstanceOf base:Location .
+    IsinstanceOf: base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
 
 <http://example.org/org_name/%5CnBANK_OF_AMERICA%2C_N.A.> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnCLEAN_ENERGY_EXPERTS_LLC> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnCREDIT_AGRICOLE_CORPORATE_AND_INVESTMENT_BANK> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnCREDIT_SUISSE_AG%2C_CAYMAN_ISLANDS_BRANCH> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG%2C_NEW_YORK_BRANCH%2C> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnKEYBANK_NATIONAL_ASSOCIATION> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnMORGAN_STANLEY_SENIOR_FUNDING%2C_INC> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnMUFG_BANK%2C_LTD> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA%2C> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnSILICON_VALLEY_BANK> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnVIVINT_SOLAR%2C_INC> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnVIVINT_SOLAR_DEVELOPER%2C_LLC%2C> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnVIVINT_SOLAR_HOLDINGS%2C_INC> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnVIVINT_SOLAR_OPERATIONS%2C_LLC> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:AEE_SOLAR_INC a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:KEYBANC_CAPITAL_MARKETS_INC.%2C a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:MUFG_BANK%2C_LTD.%2C a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:SUNRUN_INC a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:SUNRUN_INSTALLATION_SERVICES_INC a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:SUNRUN_SOUTH_LLC a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 person_name:Andrew_Sidford a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Andrew Sidford" ;
+    IsinstanceOf: base:Person .
 
 person_name:Holli_Balzar a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Holli Balzar" ;
+    IsinstanceOf: base:Person .
 
 person_name:Jeanna_Steele a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Jeanna Steele" ;
+    IsinstanceOf: base:Person .
 
 person_name:Jeremy_Eisman a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Jeremy Eisman" ;
+    IsinstanceOf: base:Person .
 
 person_name:Jonathan_M._Bouvet a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label " Jonathan M. Bouvet" ;
+    IsinstanceOf: base:Person .
 
 person_name:Jordan_Kanis a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Jordan Kanis" ;
+    IsinstanceOf: base:Person .
 
 person_name:Komal_Shah a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Komal Shah" ;
+    IsinstanceOf: base:Person .
 
 person_name:Kyle_Hatze a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Kyle Hatze" ;
+    IsinstanceOf: base:Person .
 
 person_name:Mark_W._Condon a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label " 	Mark W. Condon" ;
+    IsinstanceOf: base:Person .
 
 person_name:Michael_Agrimis a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Michael Agrimis" ;
+    IsinstanceOf: base:Person .
 
 person_name:Michael_King a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "	Michael King" ;
+    IsinstanceOf: base:Person .
 
 person_name:Myra_Martinez a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Myra Martinez" ;
+    IsinstanceOf: base:Person .
 
 person_name:Nawshaer_Safi a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Nawshaer Safi" ;
+    IsinstanceOf: base:Person .
 
 person_name:Paul_Dickson a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label " Paul Dickson" ;
+    IsinstanceOf: base:Person .
 
 person_name:Tom_vonReichbauer a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label " Tom vonReichbauer",
+        "Tom vonReichbauer" ;
+    IsinstanceOf: base:Person .
 

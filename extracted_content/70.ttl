@@ -1,3 +1,4 @@
+@prefix IsinstanceOf: <http://example.org/isInstanceOf> .
 @prefix base: <http://example.org/base/> .
 @prefix location_type: <http://example.org/location_type/> .
 @prefix org_name: <http://example.org/org_name/> .
@@ -6,6 +7,7 @@
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -395,71 +397,94 @@ person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
 <http://example.org/org_name/%5CnALLY_BANK> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:BGSL_BIG_SKY_FUNDING_LLC a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:BGSL_BRECKENRIDGE_FUNDING_LLC%2C a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:BGSL_JACKSON_HOLE_FUNDING_LLC%2C a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/BLACKSTONE_HOLDINGS_FINANCE_CO._L.L.C.> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:BLACKSTONE_PRIVATE_CREDIT_FUND a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:BLACKSTONE_SECURED_LENDING_FUND a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:EMERALD_DIRECT_LENDING_1_LIMITED_PARTNERSHIP a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:EMERALD_MURRAY_STREET_LP a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:EMERALD_SPRING_STREET_LP a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:GN_LOAN_FUND_LP a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/LD_INTERMEDIATE_HOLDINGS%2C_INC.> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/LD_LOWER_HOLDINGS%2C_INC.> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/LD_TOPCO%2C_INC.> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:WILMINGTON_TRUST%2C_NATIONAL_ASSOCIATION a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/WVLD_ACQUISITION_CORP.> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 person_name:Danielle_Spar a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Danielle Spar" ;
+    IsinstanceOf: base:Person .
 
 person_name:Dawn_M._Wilson a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Dawn M. Wilson" ;
+    IsinstanceOf: base:Person .
 
 person_name:Eric_Liaw a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Eric Liaw" ;
+    IsinstanceOf: base:Person .
 
 person_name:Marisa_Beeney a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Marisa Beeney" ;
+    IsinstanceOf: base:Person .
 
 person_name:Nicole_Kroll a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Nicole Kroll" ;
+    IsinstanceOf: base:Person .
 
 person_name:Robert_J._Shusterman a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Robert J. Shusterman" ;
+    IsinstanceOf: base:Person .
 

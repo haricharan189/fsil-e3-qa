@@ -1,3 +1,4 @@
+@prefix IsinstanceOf: <http://example.org/isInstanceOf> .
 @prefix base: <http://example.org/base/> .
 @prefix location_type: <http://example.org/location_type/> .
 @prefix org_name: <http://example.org/org_name/> .
@@ -6,6 +7,7 @@
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -395,29 +397,38 @@ person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
 <http://example.org/org_name/%5CnPOWELL_INDUSTRIES_INTERNATIONAL%2C_INC.> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnTRANSDYN%2C_INC.> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:BANK_OF_AMERICA%2C_N.A.%2C a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:BANK_OF_AMERICA_MERRILL_LYNCH a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/POWELL_ELECTRICAL_SYSTEMS%2C_INC.> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/POWELL_INDUSTRIES%2C_INC.> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/person_name/%5CnShelley_A._McGregor> a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "	\\nShelley A. McGregor" ;
+    IsinstanceOf: base:Person .
 
 person_name:Don_R._Madison a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Don R. Madison" ;
+    IsinstanceOf: base:Person .
 
 person_name:Shelley_A._McGregor a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Shelley A. McGregor" ;
+    IsinstanceOf: base:Person .
 

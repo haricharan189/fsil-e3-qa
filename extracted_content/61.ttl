@@ -1,3 +1,4 @@
+@prefix IsinstanceOf: <http://example.org/isInstanceOf> .
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
@@ -7,6 +8,7 @@
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -396,149 +398,198 @@ person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
 loc:1040_Spring_Street%5Cn%5CnSilver_Spring%2C_Maryland_20910 a base:Location ;
-    base:IsinstanceOf base:Location .
+    IsinstanceOf: base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
 
 loc:1735_Connecticut_Avenue%2C_N.W.%5Cn%5CnWashington%2C_District_of_Columbia_20009 a base:Location ;
-    base:IsinstanceOf base:Location .
+    IsinstanceOf: base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
 
 loc:301_South_College_Street%2C_14th_Floor%5Cn%5CnCharlotte%2C_NC_28202 a base:Location ;
-    base:IsinstanceOf base:Location .
+    IsinstanceOf: base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
 
 loc:MAC_D1109-019%5Cn%5Cn1525_West_W.T._Harris_Blvd.%5Cn%5CnCharlotte%2C_NC_28262 a base:Location ;
-    base:IsinstanceOf base:Location .
+    IsinstanceOf: base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
 
 <http://example.org/org_name/%5CnBANK_OF_AMERICA%2C_N.A.> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnBARCLAYS_BANK_PLC> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnCITIBANK%2C_N.A.> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG_NEW_YORK_BRANCH> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnDNB_CAPITAL_LLC> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnHSBC_BANK_USA%2C_N.A> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnLUNG_BIOTECHNOLOGY_PBC> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnPNC_BANK%2C_NATIONAL_ASSOCIATION> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/%5CnTHE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C%C2%A0LTD.> a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:1109_Spring_Holdings%2C_LLC%2C_a_Delaware_Limited_Liability_Company a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:1109_Spring_Managing_Member%2C_LLC%2C_a_Delaware_Limited_Liability_Company a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:EvoLung_Inc.%2C_a_Delaware_Corporation a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Lung_Biotechnology_%28Nanjing%29_Co.%2C_Ltd.%2C_a_Chinese_Wholly_Foreign-Owned_Entity a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Lung_Biotechnology_Hong_Kong_Limited%2C_a_Hong_Kong_Company a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Lung_Biotechnology_PBC%2C_a_Delaware_Public_Benefit_Corporation a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Lung_Rx_Limited%2C_a_United_Kingdom_Company a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED%2C a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:PNC_CAPITAL_MARKETS_LLC%2C a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Revivicor%2C_Inc.%2C_a_Delaware_Corporation a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:UNITED_THERAPEUTICS_CORPORATION a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:UTASIA_Inc.%2C_a_Delaware_Corporation a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:UTASIA_Inc._Shanghai_Representative_Office%2C_a_Chinese_Representative_Office a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:United_Therapeutics_Europe%2C_Ltd.%2C_a_United_Kingdom_Company a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Unither.com%2C_Inc.%2C_a_Delaware_Corporation a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Unither_Biotech_Inc.%2C_a_Canadian_Corporation a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Unither_Pharma%2C_LLC%2C_a_Delaware_Limited_Liability_Company a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Unither_Pharmaceuticals%2C_LLC%2C_a_Delaware_Limited_Liability_Company a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Unither_Telmed%2C_Ltd.%2C_a_Delaware_Corporation a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Unither_Therapeutik_GmbH%2C_a_German_Company a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 org_name:WELLS_FARGO_SECURITIES%2C_LLC%2C a base:Organization ;
-    base:IsinstanceOf base:Organization .
+    IsinstanceOf: base:Organization ;
+    rel:hasOrgRole org_role:Finance_Department .
 
 person_name:Anthony_Galea a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Anthony Galea" ;
+    IsinstanceOf: base:Person .
 
 person_name:Bremmer_Kneib a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Bremmer Kneib" ;
+    IsinstanceOf: base:Person .
 
 person_name:Brian_McNany a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Brian McNany" ;
+    IsinstanceOf: base:Person .
 
 person_name:James_Edgemond a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "James Edgemond" ;
+    IsinstanceOf: base:Person .
 
 <http://example.org/person_name/John_P._Treadwell_Jr.> a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label " John P. Treadwell Jr." ;
+    IsinstanceOf: base:Person .
 
 person_name:Kirk_Tesch a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Kirk Tesch" ;
+    IsinstanceOf: base:Person .
 
 person_name:Kristie_Li a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Kristie Li" ;
+    IsinstanceOf: base:Person .
 
 person_name:Marni_McManus a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Marni McManus" ;
+    IsinstanceOf: base:Person .
 
 person_name:Ming_K._Chu a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Ming K. Chu" ;
+    IsinstanceOf: base:Person .
 
 person_name:Philip_F._Kurpiewski a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Philip F. Kurpiewski" ;
+    IsinstanceOf: base:Person .
 
 person_name:Robert_LaPorte a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Robert LaPorte" ;
+    IsinstanceOf: base:Person .
 
 person_name:SAMUEL_COWARD a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "SAMUEL COWARD" ;
+    IsinstanceOf: base:Person .
 
 person_name:Virginia_Cosenza a base:Person ;
-    base:IsinstanceOf base:Person .
+    rdfs:label "Virginia Cosenza" ;
+    IsinstanceOf: base:Person .
 
