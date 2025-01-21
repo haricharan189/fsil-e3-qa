@@ -18,115 +18,6 @@ class KnowledgeGraphBuilder:
         self.person_name = Namespace("http://example.org/person_name/")
         self.org_name = Namespace("http://example.org/org_name/")
         self.loc = Namespace("http://example.org/location/")
-        self.rel = Namespace("http://example.org/relation/")
-        self.is_instance_of = Namespace("http://example.org/instance_of/")
-        
-        # Base classes namespace
-        self.base = Namespace("http://example.org/base/")
-        
-        # Add these relation types explicitly
-        self.g = Graph()
-        self.g.add((self.rel.hasPosition, RDF.type, RDF.Property))
-        self.g.add((self.rel.isEmployedBy, RDF.type, RDF.Property))
-        self.g.add((self.rel.hasEmployee, RDF.type, RDF.Property))
-        self.g.add((self.rel.hasLocationAt, RDF.type, RDF.Property))
-        self.g.add((self.rel.isLocationOf, RDF.type, RDF.Property))
-    
-    def extract_ontology_classes(self, data: List[Dict]) -> Graph:
-        """
-        Extract ontology classes from annotations and create TTL file
-        """
-        positions: Set[str] = set()
-        org_roles: Set[str] = set()
-        org_sub_roles: Dict[str, str] = {}  # sub_role -> parent_role mapping
-        loc_types: Set[str] = set()
-        
-        # Extract all classes from annotations
-        for doc in data:
-            for annotation in doc["annotations"]:
-                for result in annotation.get('result', []):
-                    if 'value' in result:
-                        value = result['value']
-                        label = value["hypertextlabels"][0]
-                        text = value["text"]
-                    
-                        if label == "Person Position":
-                            positions.add(text)
-                        elif label == "Organization Role":
-                            org_roles.add(text)
-                        elif label == "Organization Sub-Role":
-                            org_sub_roles[text] = None  # Temporarily store sub-role
-                        elif label == "Location Type":
-                            loc_types.add(text)
-        
-        # Create ontology graph
-        g = Graph()
-        
-        # Add namespace prefixes
-        g.bind("org_role", self.org_role)
-        g.bind("org_sub_role", self.org_sub_role)
-        g.bind("person_position", self.person_position)
-        g.bind("location_type", self.location_type)
-        g.bind("base", self.base)
-        
-        # Define base classes
-        g.add((self.base.Person, RDF.type, RDFS.Class))
-        g.add((self.base.Organization, RDF.type, RDFS.Class))
-        g.add((self.base.Location, RDF.type, RDFS.Class))
-        
-        # Add position subclasses
-        for position in positions:
-            position_uri = self.person_position[self._clean_uri(position)]
-            g.add((position_uri, RDF.type, RDFS.Class))
-            g.add((position_uri, RDFS.subClassOf, self.base.Person))
-        
-        # Add organization role subclasses
-        for role in org_roles:
-            role_uri = self.org_role[self._clean_uri(role)]
-            g.add((role_uri, RDF.type, RDFS.Class))
-            g.add((role_uri, RDFS.subClassOf, self.base.Organization))
-        
-        # Add organization sub-role subclasses
-        for sub_role, parent_role in org_sub_roles.items():
-            sub_role_uri = self.org_sub_role[self._clean_uri(sub_role)]
-            g.add((sub_role_uri, RDF.type, RDFS.Class))
-            
-            if parent_role:
-                parent_role_uri = self.org_role[self._clean_uri(parent_role)]
-                g.add((sub_role_uri, RDFS.subClassOf, parent_role_uri))
-            else:
-                g.add((sub_role_uri, RDFS.subClassOf, self.base.Organization))
-        
-        # Add location type subclasses
-        for loc_type in loc_types:
-            loc_type_uri = self.location_type[self._clean_uri(loc_type)]
-            g.add((loc_type_uri, RDF.type, RDFS.Class))
-            g.add((loc_type_uri, RDFS.subClassOf, self.base.Location))
-        
-        return g
-    
-from rdflib import URIRef
-
-from rdflib import Graph, Namespace, Literal, URIRef
-from rdflib.namespace import RDF, RDFS
-import json
-from typing import Set, Dict, List
-from pathlib import Path
-import urllib.parse
-import os
-
-class KnowledgeGraphBuilder:
-    def __init__(self):
-        # Define namespaces for ontology classes
-        self.org_role = Namespace("http://example.org/org_role/")
-        self.org_sub_role = Namespace("http://example.org/org_sub_role/")
-        self.person_position = Namespace("http://example.org/person_position/")
-        self.location_type = Namespace("http://example.org/location_type/")
-        
-        # Define namespaces for data instances
-        self.person_name = Namespace("http://example.org/person_name/")
-        self.org_name = Namespace("http://example.org/org_name/")
-        self.loc = Namespace("http://example.org/location/")
         self.is_instance_of = URIRef("http://example.org/is_instance_of/")
         self.rel = Namespace("http://example.org/relation/")
         
@@ -178,6 +69,7 @@ class KnowledgeGraphBuilder:
         g.bind("location_type", self.location_type)
         g.bind("base", self.base)
         g.bind("is_instance_of", self.is_instance_of)
+
         # Define base classes
         g.add((self.base.Person, RDF.type, RDFS.Class))
         g.add((self.base.Organization, RDF.type, RDFS.Class))
