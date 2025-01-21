@@ -126,7 +126,7 @@ class KnowledgeGraphBuilder:
         return g
      
 
-    def create_data_layer(self, doc: Dict) -> Graph:
+    def create_data_layer(self, doc: Dict, ontology_graph: Graph) -> Graph:
         """
         Create data layer graph for a single document using ontology classes
         """
@@ -142,6 +142,9 @@ class KnowledgeGraphBuilder:
         g.bind("org_role", self.org_role)
         g.bind("org_sub_role", self.org_sub_role)
         g.bind("location_type", self.location_type)
+
+        # Merge the ontology into the data layer graph
+        g += ontology_graph
         
         entities = {}
         org_roles: Dict[URIRef, Set[URIRef]] = {}  # Store organization roles
@@ -157,22 +160,23 @@ class KnowledgeGraphBuilder:
                     label = result["value"].get("hypertextlabels", [])[0]
                     text = result["value"].get("text", "")
                     
+                    # Create entity URI
                     if label == "Person Name":
                         uri = self.person_name[self._clean_uri(text)]
-                        g.add((uri, RDF.type, self.base.Person))
+                        g.add((uri, RDF.type, self.base.Person))  # Link entity to Person class
                         entities[result["id"]] = {"uri": uri, "label": label}
                         person_positions[uri] = None  # Initialize position
                         person_employers[uri] = None  # Initialize employer
                     
                     elif label == "Organization Name":
                         uri = self.org_name[self._clean_uri(text)]
-                        g.add((uri, RDF.type, self.base.Organization))
-                        org_roles[uri] = set()  # Initialize empty set for roles
+                        g.add((uri, RDF.type, self.base.Organization))  # Link entity to Organization class
                         entities[result["id"]] = {"uri": uri, "label": label}
+                        org_roles[uri] = set()  # Initialize empty set for roles
                     
                     elif label == "Location":
                         uri = self.loc[self._clean_uri(text)]
-                        g.add((uri, RDF.type, self.base.Location))
+                        g.add((uri, RDF.type, self.base.Location))  # Link entity to Location class
                         entities[result["id"]] = {"uri": uri, "label": label}
                     
                     # Store these for relationship processing
@@ -200,18 +204,17 @@ class KnowledgeGraphBuilder:
                     
                     # Person - Position relationship
                     if (from_label == "Person Name" and to_label == "Person Position") or \
-                       (from_label == "Person Position" and to_label == "Person Name"):
+                    (from_label == "Person Position" and to_label == "Person Name"):
                         person_uri = from_entity["uri"] if from_label == "Person Name" else to_entity["uri"]
                         position_text = to_entity["text"] if from_label == "Person Name" else from_entity["text"]
                         position_uri = self.person_position[self._clean_uri(position_text)]
                         person_positions[person_uri] = position_uri
                         # Add position relationship without duplicate type
                         g.add((person_uri, RDF.type, self.base.Person))
-                        # g.add((person_uri, self.rel.hasPosition, position_uri))
                     
                     # Organization - Person relationship
                     elif (from_label == "Organization Name" and to_label == "Person Name") or \
-                         (from_label == "Person Name" and to_label == "Organization Name"):
+                        (from_label == "Person Name" and to_label == "Organization Name"):
                         org_uri = from_entity["uri"] if from_label == "Organization Name" else to_entity["uri"]
                         person_uri = to_entity["uri"] if from_label == "Organization Name" else from_entity["uri"]
                         
@@ -228,8 +231,6 @@ class KnowledgeGraphBuilder:
                         role_ns = self.org_role if to_label == "Organization Role" else self.org_sub_role
                         role_uri = role_ns[self._clean_uri(to_entity["text"])]
                         g.add((org_uri, RDF.type, self.base.Organization))
-                        # g.add((org_uri, RDF.type, role_uri))
-                        # org_roles[org_uri].add(role_uri)
                     
                     # Organization - Sub-Role relationship
                     elif from_label == "Organization Name" and to_label == "Organization Sub-Role":
@@ -241,7 +242,6 @@ class KnowledgeGraphBuilder:
                     elif from_label == "Location" and to_label == "Location Type":
                         loc_uri = from_entity["uri"]
                         type_uri = self.location_type[self._clean_uri(to_entity["text"])]
-                        # g.add((loc_uri, RDF.type, type_uri))
                     
                     # Organization - Location relationship
                     elif from_label == "Organization Name" and to_label == "Location":
@@ -252,7 +252,7 @@ class KnowledgeGraphBuilder:
                     
                     # Add Position -> Organization relationship handling
                     if (from_label == "Person Position" and to_label == "Organization Name") or \
-                       (from_label == "Organization Name" and to_label == "Person Position"):
+                    (from_label == "Organization Name" and to_label == "Person Position"):
                         org_uri = from_entity["uri"] if from_label == "Organization Name" else to_entity["uri"]
                         position_text = to_entity["text"] if from_label == "Organization Name" else from_entity["text"]
                         position_uri = self.person_position[self._clean_uri(position_text)]
@@ -269,9 +269,7 @@ class KnowledgeGraphBuilder:
         for person_uri, position_uri in person_positions.items():
             if position_uri and person_uri not in [s for s,p,o in g.triples((None, self.rel.hasPosition, position_uri))]:
                 g.add((person_uri, RDF.type, self.base.Person))
-                # g.add((person_uri, RDF.type, position_uri))
-                # g.add((person_uri, self.rel.hasPosition, position_uri))
-
+        
         for person_uri, employer_uri in person_employers.items():
             if employer_uri and person_uri not in [s for s,p,o in g.triples((None, self.rel.isEmployedBy, employer_uri))]:
                 g.add((person_uri, self.rel.isEmployedBy, employer_uri))
@@ -283,6 +281,7 @@ class KnowledgeGraphBuilder:
                 g.add((org_uri, RDF.type, role_uri))
         
         return g
+
     
    
     def _clean_uri(self, text: str) -> str:
