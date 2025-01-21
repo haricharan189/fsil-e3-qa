@@ -1,7 +1,6 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
-@prefix ns1: <http://example.org/relation/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
@@ -396,69 +395,90 @@ person_position:treasurer a rdfs:Class ;
 person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<http://example.org/org_name/%22RABOBANK_NEDERLAND%22%2C_NEW_YORK_BRANCH> a base:Organization .
-
-<http://example.org/org_name/%5Cn> a base:Organization .
-
-<http://example.org/org_name/%5CnBARCLAYS_BANK_PLC> a base:Organization .
-
-org_name:BC_SYSTEMS%2C_INC.%2C a base:Organization .
-
-org_name:CB_CONTAINERS%2C_INC.%2C a base:Organization .
-
-org_name:CHIQUITA_BRANDS_L.L.C.%2C a base:Organization .
-
-org_name:CHIQUITA_FRESH_NORTH_AMERICA_L.L.C.%2C a base:Organization .
-
-org_name:CO%C3%96PERATIEVE_CENTRALE_RAIFFEISEN_%E2%80%93_BOERENLEENBANK_B.A.%2C a base:Organization .
-
-org_name:FRESH_INTERNATIONAL_CORP.%2C a base:Organization .
-
-org_name:GOLDMAN_SACHS_BANK_USA a base:Organization .
-
-org_name:SPORTATION%2C_LLC a base:Organization .
-
-org_name:TRANSFRESH_CORPORATION%2C a base:Organization .
-
-org_name:V.F._TRAN a base:Organization .
-
-org_name:VERDELLI_FARMS%2C_INC.%2C a base:Organization .
-
-person_name:Anwar_S._Young a base:Person .
-
-person_name:Jeff_Bliss a base:Person .
-
-person_name:John_M._Olsen a base:Person .
-
-person_name:Joseph_B._Johnson a base:Person .
-
-person_name:Mark_Walton a base:Person .
-
-person_name:Noam_S._Azachi a base:Person .
-
-person_name:Timothy_J._Devane a base:Person .
-
 loc:150_South_Wacker_Drive%2C_Suite_2200%5CnChicago%2C_Illinois_60606 a base:Location ;
-    ns1:isLocationOf org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
+    base:IsinstanceOf base:Location .
 
 loc:425_Walnut_Street%2C_Suite_1800%5CnCincinnati%2C_Ohio_45202 a base:Location ;
-    ns1:isLocationOf org_name:TAFT_STETTINIUS_%26_HOLLISTER_LLP .
+    base:IsinstanceOf base:Location .
 
 loc:550_South_Caldwell_Street%5CnCharlotte%2C_North_Carolina_28202 a base:Location ;
-    ns1:isLocationOf <http://example.org/org_name/CHIQUITA_BRANDS_INTERNATIONAL%2C_INC.> .
+    base:IsinstanceOf base:Location .
 
 loc:55_East_Monroe_Street%2C_Suite_3300%5CnChicago%2C_Illinois_60603 a base:Location ;
-    ns1:isLocationOf <http://example.org/org_name/GOLDBERG_KOHN_LTD.> .
+    base:IsinstanceOf base:Location .
+
+<http://example.org/org_name/%22RABOBANK_NEDERLAND%22%2C_NEW_YORK_BRANCH> a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+<http://example.org/org_name/%5Cn> a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+<http://example.org/org_name/%5CnBARCLAYS_BANK_PLC> a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:BC_SYSTEMS%2C_INC.%2C a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:CB_CONTAINERS%2C_INC.%2C a base:Organization ;
+    base:IsinstanceOf base:Organization .
 
 <http://example.org/org_name/CHIQUITA_BRANDS_INTERNATIONAL%2C_INC.> a base:Organization ;
-    ns1:hasLocationAt loc:550_South_Caldwell_Street%5CnCharlotte%2C_North_Carolina_28202 .
+    base:IsinstanceOf base:Organization .
+
+org_name:CHIQUITA_BRANDS_L.L.C.%2C a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:CHIQUITA_FRESH_NORTH_AMERICA_L.L.C.%2C a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:CO%C3%96PERATIEVE_CENTRALE_RAIFFEISEN_%E2%80%93_BOERENLEENBANK_B.A.%2C a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:FRESH_INTERNATIONAL_CORP.%2C a base:Organization ;
+    base:IsinstanceOf base:Organization .
 
 <http://example.org/org_name/GOLDBERG_KOHN_LTD.> a base:Organization ;
-    ns1:hasLocationAt loc:55_East_Monroe_Street%2C_Suite_3300%5CnChicago%2C_Illinois_60603 .
+    base:IsinstanceOf base:Organization .
+
+org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:SPORTATION%2C_LLC a base:Organization ;
+    base:IsinstanceOf base:Organization .
 
 org_name:TAFT_STETTINIUS_%26_HOLLISTER_LLP a base:Organization ;
-    ns1:hasLocationAt loc:425_Walnut_Street%2C_Suite_1800%5CnCincinnati%2C_Ohio_45202 .
+    base:IsinstanceOf base:Organization .
+
+org_name:TRANSFRESH_CORPORATION%2C a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:V.F._TRAN a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:VERDELLI_FARMS%2C_INC.%2C a base:Organization ;
+    base:IsinstanceOf base:Organization .
 
 org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
-    ns1:hasLocationAt loc:150_South_Wacker_Drive%2C_Suite_2200%5CnChicago%2C_Illinois_60606 .
+    base:IsinstanceOf base:Organization .
+
+person_name:Anwar_S._Young a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Jeff_Bliss a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:John_M._Olsen a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Joseph_B._Johnson a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Mark_Walton a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Noam_S._Azachi a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Timothy_J._Devane a base:Person ;
+    base:IsinstanceOf base:Person .
 

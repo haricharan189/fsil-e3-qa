@@ -1,7 +1,6 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
-@prefix ns1: <http://example.org/relation/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
@@ -15,8 +14,7 @@ base:Organization a rdfs:Class .
 
 base:Person a rdfs:Class .
 
-location_type:Agency_Management a base:LocationType,
-        rdfs:Class ;
+location_type:Agency_Management a rdfs:Class ;
     rdfs:subClassOf base:Location .
 
 location_type:Loan_and_Agency_Services_Group%2C a rdfs:Class ;
@@ -397,85 +395,117 @@ person_position:treasurer a rdfs:Class ;
 person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-loc:Agency_Management ns1:isLocationOf location_type:Agency_Management .
-
-loc:Bank_of_America%2C_N.A.%5Cn%5CnBank_of_America_Plaza%5Cn%5Cn901_Main_St%5Cn%5CnMail_Code%3A_TX1-492-14-11%5Cn%5CnDallas%2C_TX%2C_75202-3714 a base:Location .
-
-loc:Mail_Code%3A_CA5-705-04-09%5Cn%5Cn555_California_Street%2C_4th_Floor%5Cn%5CnSan_Francisco%2C_CA_94104 a base:Location .
-
-loc:Mail_Code%3A_PA6-580-02-30%5Cn%5Cn1_Fleet_Way%5Cn%5CnScranton%2C_PA_18507 a base:Location .
-
-org_name:BANK_OF_AMERICA%2C_N.A a base:Organization .
-
-org_name:BANK_OF_THE_WEST a base:Organization .
-
-org_name:BARCLAYS_BANK_PLC a base:Organization .
-
-org_name:COOPERATIEVE_RABOBANK_U.A.%2C_NEW_YORK_BRANCH a base:Organization .
-
-org_name:GOLDMAN_SACHS_BANK_USA a base:Organization .
-
-org_name:HSBC_BANK_USA%2C_N.A a base:Organization .
-
-org_name:JPMORGAN_CHASE_BANK%2C_N.A a base:Organization .
-
-org_name:ROYAL_BANK_OF_CANADA a base:Organization .
-
-org_name:SUNTRUST_BANK a base:Organization .
-
-org_name:THE_BANK_OF_NOVA_SCOTIA a base:Organization .
-
-org_name:THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD a base:Organization .
-
-org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization .
-
-org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization .
-
-person_name:Annie_Carr a base:Person .
-
-person_name:Bridgett_J._Manduk_Mowry a base:Person .
-
-person_name:Brigitte_M._Sinclair a base:Person .
-
-person_name:Charles_Shaw a base:Person .
-
-person_name:Christopher_Aitkin a base:Person .
-
-person_name:Colleen_Batcheler a base:Person .
-
-person_name:Fik_Durmus a base:Person .
-
-person_name:Gordon_MacArthur a base:Person .
-
-person_name:J._Casey_Cosgrove a base:Person .
-
-person_name:Johan_Nystedt a base:Person .
-
-person_name:Ole_Koppang a base:Person .
-
-person_name:Pacella_Lehane a base:Person .
-
-person_name:Peter_Duncan a base:Person .
-
-person_name:Ryan_Zimmerman a base:Person .
-
-person_name:Sangeeta_Shah a base:Person .
-
-person_name:Tesha_Winslow a base:Person .
-
-person_name:Tony_Young a base:Person .
-
-person_name:Tracy_Rahn a base:Person .
-
 loc:222_Merchandise_Mart_Plaza%2C_Suite_1300%5Cn%5CnChicago%2C_IL_60654 a base:Location ;
-    ns1:isLocationOf org_name:CONAGRA_BRANDS%2C_INC .
+    base:IsinstanceOf base:Location .
+
+loc:Bank_of_America%2C_N.A.%5Cn%5CnBank_of_America_Plaza%5Cn%5Cn901_Main_St%5Cn%5CnMail_Code%3A_TX1-492-14-11%5Cn%5CnDallas%2C_TX%2C_75202-3714 a base:Location ;
+    base:IsinstanceOf base:Location .
+
+loc:Mail_Code%3A_CA5-705-04-09%5Cn%5Cn555_California_Street%2C_4th_Floor%5Cn%5CnSan_Francisco%2C_CA_94104 a base:Location ;
+    base:IsinstanceOf base:Location .
+
+loc:Mail_Code%3A_PA6-580-02-30%5Cn%5Cn1_Fleet_Way%5Cn%5CnScranton%2C_PA_18507 a base:Location ;
+    base:IsinstanceOf base:Location .
 
 loc:Mizuho_Bank%2C_Ltd.%5Cn%5Cn1800_Plaza_Ten%5Cn%5CnHarborside_Financial_Center%5Cn%5CnJersey_City_State%3A_NJ_07311 a base:Location ;
-    ns1:isLocationOf <http://example.org/org_name/MIZUHO_BANK%2C_LTD.> .
+    base:IsinstanceOf base:Location .
+
+org_name:BANK_OF_AMERICA%2C_N.A a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:BANK_OF_THE_WEST a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:BARCLAYS_BANK_PLC a base:Organization ;
+    base:IsinstanceOf base:Organization .
 
 org_name:CONAGRA_BRANDS%2C_INC a base:Organization ;
-    ns1:hasLocationAt loc:222_Merchandise_Mart_Plaza%2C_Suite_1300%5Cn%5CnChicago%2C_IL_60654 .
+    base:IsinstanceOf base:Organization .
+
+org_name:COOPERATIEVE_RABOBANK_U.A.%2C_NEW_YORK_BRANCH a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:HSBC_BANK_USA%2C_N.A a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:JPMORGAN_CHASE_BANK%2C_N.A a base:Organization ;
+    base:IsinstanceOf base:Organization .
 
 <http://example.org/org_name/MIZUHO_BANK%2C_LTD.> a base:Organization ;
-    ns1:hasLocationAt loc:Mizuho_Bank%2C_Ltd.%5Cn%5Cn1800_Plaza_Ten%5Cn%5CnHarborside_Financial_Center%5Cn%5CnJersey_City_State%3A_NJ_07311 .
+    base:IsinstanceOf base:Organization .
+
+org_name:ROYAL_BANK_OF_CANADA a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:SUNTRUST_BANK a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:THE_BANK_OF_NOVA_SCOTIA a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+person_name:Annie_Carr a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Bridgett_J._Manduk_Mowry a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Brigitte_M._Sinclair a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Charles_Shaw a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Christopher_Aitkin a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Colleen_Batcheler a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Fik_Durmus a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Gordon_MacArthur a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:J._Casey_Cosgrove a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Johan_Nystedt a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Ole_Koppang a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Pacella_Lehane a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Peter_Duncan a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Ryan_Zimmerman a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Sangeeta_Shah a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Tesha_Winslow a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Tony_Young a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Tracy_Rahn a base:Person ;
+    base:IsinstanceOf base:Person .
 

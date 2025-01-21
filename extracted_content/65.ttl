@@ -1,7 +1,6 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
-@prefix ns1: <http://example.org/relation/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
@@ -18,8 +17,7 @@ base:Person a rdfs:Class .
 location_type:Agency_Management a rdfs:Class ;
     rdfs:subClassOf base:Location .
 
-location_type:Loan_and_Agency_Services_Group%2C a base:LocationType,
-        rdfs:Class ;
+location_type:Loan_and_Agency_Services_Group%2C a rdfs:Class ;
     rdfs:subClassOf base:Location .
 
 location_type:Trade_Finance a rdfs:Class ;
@@ -397,43 +395,54 @@ person_position:treasurer a rdfs:Class ;
 person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-loc:Loan_and_Agency_Services_Group%2C ns1:isLocationOf location_type:Loan_and_Agency_Services_Group%2C .
-
-<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization .
-
-org_name:BARCLAYS_BANK_PLC a base:Organization .
-
-<http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization .
-
-org_name:GOLDMAN_SACHS_BANK_USA a base:Organization .
-
-<http://example.org/org_name/HONEYWELL_INTERNATIONAL_INC.> a base:Organization .
-
-person_name:Carolyn_Kee a base:Person .
-
-person_name:Craig_Malloy a base:Person .
-
-person_name:Gene_Riego_de_Dios a base:Person .
-
-person_name:John_J._Tus a base:Person .
-
-person_name:Ming_K._Chu a base:Person .
-
-person_name:Mukesh_Singh a base:Person .
-
-person_name:Robert_Ehudin a base:Person .
-
-person_name:Virginia_Cosenza a base:Person .
-
 loc:Director a base:Location ;
-    ns1:isLocationOf org_name:DEUTSCHE_BANK_AG_NEW_YORK_BRANCH%2C .
+    base:IsinstanceOf base:Location .
 
 loc:Floor_3%2C_Ops_2%5Cn%5Cn500_Stanton_Christiana_Rd.%5Cn%5CnNewark%2C_DE_19713 a base:Location ;
-    ns1:isLocationOf org_name:JPMORGAN_CHASE_BANK%2C_N.A .
+    base:IsinstanceOf base:Location .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:BARCLAYS_BANK_PLC a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+<http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization ;
+    base:IsinstanceOf base:Organization .
 
 org_name:DEUTSCHE_BANK_AG_NEW_YORK_BRANCH%2C a base:Organization ;
-    ns1:hasLocationAt loc:Director .
+    base:IsinstanceOf base:Organization .
+
+org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+<http://example.org/org_name/HONEYWELL_INTERNATIONAL_INC.> a base:Organization ;
+    base:IsinstanceOf base:Organization .
 
 org_name:JPMORGAN_CHASE_BANK%2C_N.A a base:Organization ;
-    ns1:hasLocationAt loc:Floor_3%2C_Ops_2%5Cn%5Cn500_Stanton_Christiana_Rd.%5Cn%5CnNewark%2C_DE_19713 .
+    base:IsinstanceOf base:Organization .
+
+person_name:Carolyn_Kee a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Craig_Malloy a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Gene_Riego_de_Dios a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:John_J._Tus a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Ming_K._Chu a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Mukesh_Singh a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Robert_Ehudin a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Virginia_Cosenza a base:Person ;
+    base:IsinstanceOf base:Person .
 

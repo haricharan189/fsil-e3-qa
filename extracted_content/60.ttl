@@ -1,7 +1,6 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
-@prefix ns1: <http://example.org/relation/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
@@ -396,53 +395,60 @@ person_position:treasurer a rdfs:Class ;
 person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<http://example.org/org_name/%5CnMVC_GP_II%2C_LLC> a base:Organization .
-
-<http://example.org/org_name/%5CnMVC_PARTNERS_LLC> a base:Organization .
-
-org_name:MVC_CAYMAN a base:Organization .
-
-<http://example.org/org_name/MVC_FINANCIAL_SERVICES%2C%C2%A0INC.> a base:Organization .
-
-person_name:Gregory_R._Russano a base:Person .
-
-person_name:James_Pinto a base:Person .
-
-person_name:John_Paul_Hills a base:Person .
-
 loc:111_South_Wacker_Drive%5Cn%5CnChicago%2C%C2%A0Illinois_60606 a base:Location ;
-    ns1:isLocationOf org_name:Locke_Lord_LLP .
+    base:IsinstanceOf base:Location .
 
 loc:230_Park_Avenue%5Cn%5CnNew_York%2C_New_York_10169 a base:Location ;
-    ns1:isLocationOf <http://example.org/org_name/Otterbourg_P.C.> .
+    base:IsinstanceOf base:Location .
 
 loc:287_Bowman_Ave_%23_241%5Cn%5CnPurchase%2C_NY_10577 a base:Location ;
-    ns1:isLocationOf <http://example.org/org_name/MVC_CAPITAL%2C%C2%A0INC.> .
+    base:IsinstanceOf base:Location .
 
 loc:55_East_Monroe%5Cn%5CnSuite%C2%A03300_Chicago%2C%C2%A0IL_60603 a base:Location ;
-    ns1:isLocationOf <http://example.org/org_name/Goldberg_Kohn_LTD.> .
+    base:IsinstanceOf base:Location .
 
 loc:830_Morris_Turnpike%2C_3rd%C2%A0Floor%5Cn%5CnShort_Hills%2C_NJ_07078 a base:Location ;
-    ns1:isLocationOf <http://example.org/org_name/%5CnSANTANDER_BANK%2C_N.A.%2C> .
+    base:IsinstanceOf base:Location .
 
 loc:at_Wintrust_Bank%5Cn%5Cn231_S._LaSalle_Street%5Cn%5Cn2nd%C2%A0Floor%5Cn%5CnChicago%2C%C2%A0IL_60604 a base:Location ;
-    ns1:isLocationOf <http://example.org/org_name/%5CnWintrust_Bank%2C> .
+    base:IsinstanceOf base:Location .
+
+<http://example.org/org_name/%5CnMVC_GP_II%2C_LLC> a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+<http://example.org/org_name/%5CnMVC_PARTNERS_LLC> a base:Organization ;
+    base:IsinstanceOf base:Organization .
 
 <http://example.org/org_name/%5CnSANTANDER_BANK%2C_N.A.%2C> a base:Organization ;
-    ns1:hasLocationAt loc:830_Morris_Turnpike%2C_3rd%C2%A0Floor%5Cn%5CnShort_Hills%2C_NJ_07078 .
+    base:IsinstanceOf base:Organization .
 
 <http://example.org/org_name/%5CnWintrust_Bank%2C> a base:Organization ;
-    ns1:hasLocationAt loc:at_Wintrust_Bank%5Cn%5Cn231_S._LaSalle_Street%5Cn%5Cn2nd%C2%A0Floor%5Cn%5CnChicago%2C%C2%A0IL_60604 .
+    base:IsinstanceOf base:Organization .
 
 <http://example.org/org_name/Goldberg_Kohn_LTD.> a base:Organization ;
-    ns1:hasLocationAt loc:55_East_Monroe%5Cn%5CnSuite%C2%A03300_Chicago%2C%C2%A0IL_60603 .
+    base:IsinstanceOf base:Organization .
 
 org_name:Locke_Lord_LLP a base:Organization ;
-    ns1:hasLocationAt loc:111_South_Wacker_Drive%5Cn%5CnChicago%2C%C2%A0Illinois_60606 .
+    base:IsinstanceOf base:Organization .
 
 <http://example.org/org_name/MVC_CAPITAL%2C%C2%A0INC.> a base:Organization ;
-    ns1:hasLocationAt loc:287_Bowman_Ave_%23_241%5Cn%5CnPurchase%2C_NY_10577 .
+    base:IsinstanceOf base:Organization .
+
+org_name:MVC_CAYMAN a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+<http://example.org/org_name/MVC_FINANCIAL_SERVICES%2C%C2%A0INC.> a base:Organization ;
+    base:IsinstanceOf base:Organization .
 
 <http://example.org/org_name/Otterbourg_P.C.> a base:Organization ;
-    ns1:hasLocationAt loc:230_Park_Avenue%5Cn%5CnNew_York%2C_New_York_10169 .
+    base:IsinstanceOf base:Organization .
+
+person_name:Gregory_R._Russano a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:James_Pinto a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:John_Paul_Hills a base:Person ;
+    base:IsinstanceOf base:Person .
 

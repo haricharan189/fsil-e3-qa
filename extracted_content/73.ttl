@@ -1,7 +1,6 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
-@prefix ns1: <http://example.org/relation/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
@@ -396,23 +395,27 @@ person_position:treasurer a rdfs:Class ;
 person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-org_name:BOFA_SECURITIES%2C_INC.%2C a base:Organization .
-
-person_name:Carolyn_A._Kee a base:Person .
-
-person_name:Michael_Contreras a base:Person .
-
-person_name:Robert_T._Paternostro a base:Person .
-
 loc:1000_Stanley_Drive%5Cn%5CnNew_Britain%2C_Connecticut_06053 a base:Location ;
-    ns1:isLocationOf <http://example.org/org_name/%5CnSTANLEY_BLACK%C2%A0%26_DECKER%2C_INC.> .
+    base:IsinstanceOf base:Location .
 
 loc:Building_Ops_II%2C_One_Penns_Way%5Cn%5CnNew_Castle%2C_DE_19720 a base:Location ;
-    ns1:isLocationOf org_name:CITIBANK%2C_N.A.%2C .
+    base:IsinstanceOf base:Location .
 
 <http://example.org/org_name/%5CnSTANLEY_BLACK%C2%A0%26_DECKER%2C_INC.> a base:Organization ;
-    ns1:hasLocationAt loc:1000_Stanley_Drive%5Cn%5CnNew_Britain%2C_Connecticut_06053 .
+    base:IsinstanceOf base:Organization .
+
+org_name:BOFA_SECURITIES%2C_INC.%2C a base:Organization ;
+    base:IsinstanceOf base:Organization .
 
 org_name:CITIBANK%2C_N.A.%2C a base:Organization ;
-    ns1:hasLocationAt loc:Building_Ops_II%2C_One_Penns_Way%5Cn%5CnNew_Castle%2C_DE_19720 .
+    base:IsinstanceOf base:Organization .
+
+person_name:Carolyn_A._Kee a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Michael_Contreras a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Robert_T._Paternostro a base:Person ;
+    base:IsinstanceOf base:Person .
 

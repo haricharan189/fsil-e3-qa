@@ -1,7 +1,6 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
-@prefix ns1: <http://example.org/relation/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
@@ -396,43 +395,54 @@ person_position:treasurer a rdfs:Class ;
 person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<http://example.org/org_name/%5CnBANK_OF_AMERICA%2C_N.A.> a base:Organization .
-
-<http://example.org/org_name/%5CnJPMorgan_Chase_Bank%2C_N.A.%2C> a base:Organization .
-
-org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization .
-
-org_name:MORGAN_STANLEY_SENIOR_FUNDING%2C%C2%A0INC.%2C a base:Organization .
-
-<http://example.org/person_name/%5CnKenise_Henry_Larmond> a base:Person .
-
-<http://example.org/person_name/%5CnMichael_King> a base:Person .
-
-<http://example.org/person_name/%5CnRodney_Beeks> a base:Person .
-
-<http://example.org/person_name/%5CnShane_M._Leary> a base:Person .
-
-<http://example.org/person_name/%5CnSusan_Khokher> a base:Person .
-
-<http://example.org/person_name/%5CnTerence_F._Sullivan> a base:Person .
-
-person_name:Alex_Figueroa a base:Person .
-
 loc:200_Vesey_Street%5Cn%5CnNew_York%2C_New_York_10281 a base:Location ;
-    ns1:isLocationOf org_name:ROYAL_BANK_OF_CANADA%2C .
+    base:IsinstanceOf base:Location .
 
 loc:4900_Tiedeman_Road_4th_Floor%5Cn%5CnBrooklyn%2C_OH_44144 a base:Location ;
-    ns1:isLocationOf <http://example.org/org_name/%5CnVICTORY_CAPITAL_HOLDINGS%2C%C2%A0INC.%2C> .
+    base:IsinstanceOf base:Location .
 
 loc:Royal_Bank_Plaza%2C_200_Bay_Street%2C%5Cn%5Cn12th_Floor_South_Tower%5Cn%5CnToronto%2C_Ontario_M5J_2W7%5Cn%5CnCanada a base:Location ;
-    ns1:isLocationOf <http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA%2C> .
+    base:IsinstanceOf base:Location .
+
+<http://example.org/org_name/%5CnBANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+<http://example.org/org_name/%5CnJPMorgan_Chase_Bank%2C_N.A.%2C> a base:Organization ;
+    base:IsinstanceOf base:Organization .
 
 <http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA%2C> a base:Organization ;
-    ns1:hasLocationAt loc:Royal_Bank_Plaza%2C_200_Bay_Street%2C%5Cn%5Cn12th_Floor_South_Tower%5Cn%5CnToronto%2C_Ontario_M5J_2W7%5Cn%5CnCanada .
+    base:IsinstanceOf base:Organization .
 
 <http://example.org/org_name/%5CnVICTORY_CAPITAL_HOLDINGS%2C%C2%A0INC.%2C> a base:Organization ;
-    ns1:hasLocationAt loc:4900_Tiedeman_Road_4th_Floor%5Cn%5CnBrooklyn%2C_OH_44144 .
+    base:IsinstanceOf base:Organization .
+
+org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:MORGAN_STANLEY_SENIOR_FUNDING%2C%C2%A0INC.%2C a base:Organization ;
+    base:IsinstanceOf base:Organization .
 
 org_name:ROYAL_BANK_OF_CANADA%2C a base:Organization ;
-    ns1:hasLocationAt loc:200_Vesey_Street%5Cn%5CnNew_York%2C_New_York_10281 .
+    base:IsinstanceOf base:Organization .
+
+<http://example.org/person_name/%5CnKenise_Henry_Larmond> a base:Person ;
+    base:IsinstanceOf base:Person .
+
+<http://example.org/person_name/%5CnMichael_King> a base:Person ;
+    base:IsinstanceOf base:Person .
+
+<http://example.org/person_name/%5CnRodney_Beeks> a base:Person ;
+    base:IsinstanceOf base:Person .
+
+<http://example.org/person_name/%5CnShane_M._Leary> a base:Person ;
+    base:IsinstanceOf base:Person .
+
+<http://example.org/person_name/%5CnSusan_Khokher> a base:Person ;
+    base:IsinstanceOf base:Person .
+
+<http://example.org/person_name/%5CnTerence_F._Sullivan> a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Alex_Figueroa a base:Person ;
+    base:IsinstanceOf base:Person .
 

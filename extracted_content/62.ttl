@@ -1,7 +1,6 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
-@prefix ns1: <http://example.org/relation/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
@@ -396,31 +395,33 @@ person_position:treasurer a rdfs:Class ;
 person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<http://example.org/org_name/ENBRIDGE_ENERGY_MANAGEMENT%2C_L.L.C.> a base:Organization .
-
-person_name:Chris_Kaitson a base:Person .
-
-person_name:Jonathan_Rose a base:Person .
-
-person_name:Stephen_J._Neyland a base:Person .
-
 loc:1100_Louisiana%2C_Suite_3300%5Cn%5CnHouston%2C_TX_77002-5217 a base:Location ;
-    ns1:isLocationOf <http://example.org/org_name/ENBRIDGE_%28U.S.%29_INC.> .
+    base:IsinstanceOf base:Location .
 
 loc:1100_Louisiana%2C_Suite_3300%5CnHouston%2C_TX_77002-5217 a base:Location ;
-    ns1:isLocationOf org_name:ENBRIDGE_ENERGY_PARTNERS%2C_L.P.%2C .
+    base:IsinstanceOf base:Location .
 
 <http://example.org/location/C/O_Enbridge_Inc.%5Cn%5Cn3000%2C_425-1st%5Cn%5CnCalgary%2C_Alberta%2C_Canada> a base:Location ;
-    ns1:isLocationOf <http://example.org/org_name/ENBRIDGE_%28U.S.%29_INC.> .
+    base:IsinstanceOf base:Location .
 
 <http://example.org/location/C/O_Enbridge_Inc.%5Cn3000%2C_425-1st%5CnCalgary%2C_Alberta%2C_Canada> a base:Location ;
-    ns1:isLocationOf org_name:ENBRIDGE_ENERGY_PARTNERS%2C_L.P.%2C .
+    base:IsinstanceOf base:Location .
 
 <http://example.org/org_name/ENBRIDGE_%28U.S.%29_INC.> a base:Organization ;
-    ns1:hasLocationAt loc:1100_Louisiana%2C_Suite_3300%5Cn%5CnHouston%2C_TX_77002-5217,
-        <http://example.org/location/C/O_Enbridge_Inc.%5Cn%5Cn3000%2C_425-1st%5Cn%5CnCalgary%2C_Alberta%2C_Canada> .
+    base:IsinstanceOf base:Organization .
+
+<http://example.org/org_name/ENBRIDGE_ENERGY_MANAGEMENT%2C_L.L.C.> a base:Organization ;
+    base:IsinstanceOf base:Organization .
 
 org_name:ENBRIDGE_ENERGY_PARTNERS%2C_L.P.%2C a base:Organization ;
-    ns1:hasLocationAt loc:1100_Louisiana%2C_Suite_3300%5CnHouston%2C_TX_77002-5217,
-        <http://example.org/location/C/O_Enbridge_Inc.%5Cn3000%2C_425-1st%5CnCalgary%2C_Alberta%2C_Canada> .
+    base:IsinstanceOf base:Organization .
+
+person_name:Chris_Kaitson a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Jonathan_Rose a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Stephen_J._Neyland a base:Person ;
+    base:IsinstanceOf base:Person .
 

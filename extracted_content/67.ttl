@@ -1,7 +1,6 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
-@prefix ns1: <http://example.org/relation/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
@@ -396,19 +395,21 @@ person_position:treasurer a rdfs:Class ;
 person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-org_name:CVR_ENERGY%2C%C2%A0INC a base:Organization .
-
-person_name:John_Koehler a base:Person .
-
-person_name:Tracy_D._Jackson a base:Person .
-
 loc:520_Madison_Avenue%5Cn%5CnNew_York%2C_New_York_10022 a base:Location ;
-    ns1:isLocationOf <http://example.org/org_name/%5CnJEFFERIES_FINANCE_LLC> .
+    base:IsinstanceOf base:Location .
 
 loc:Managing_Director a base:Location ;
-    ns1:isLocationOf <http://example.org/org_name/%5CnJEFFERIES_FINANCE_LLC> .
+    base:IsinstanceOf base:Location .
 
 <http://example.org/org_name/%5CnJEFFERIES_FINANCE_LLC> a base:Organization ;
-    ns1:hasLocationAt loc:520_Madison_Avenue%5Cn%5CnNew_York%2C_New_York_10022,
-        loc:Managing_Director .
+    base:IsinstanceOf base:Organization .
+
+org_name:CVR_ENERGY%2C%C2%A0INC a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+person_name:John_Koehler a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Tracy_D._Jackson a base:Person ;
+    base:IsinstanceOf base:Person .
 

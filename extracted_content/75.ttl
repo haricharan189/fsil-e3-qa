@@ -1,7 +1,6 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
-@prefix ns1: <http://example.org/relation/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
@@ -15,8 +14,7 @@ base:Organization a rdfs:Class .
 
 base:Person a rdfs:Class .
 
-location_type:Agency_Management a base:LocationType,
-        rdfs:Class ;
+location_type:Agency_Management a rdfs:Class ;
     rdfs:subClassOf base:Location .
 
 location_type:Loan_and_Agency_Services_Group%2C a rdfs:Class ;
@@ -25,8 +23,7 @@ location_type:Loan_and_Agency_Services_Group%2C a rdfs:Class ;
 location_type:Trade_Finance a rdfs:Class ;
     rdfs:subClassOf base:Location .
 
-location_type:Trade_Operations a base:LocationType,
-        rdfs:Class ;
+location_type:Trade_Operations a rdfs:Class ;
     rdfs:subClassOf base:Location .
 
 location_type:corporate_headquarters a rdfs:Class ;
@@ -398,81 +395,102 @@ person_position:treasurer a rdfs:Class ;
 person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-loc:Agency_Management ns1:isLocationOf location_type:Agency_Management .
-
-loc:Trade_Operations ns1:isLocationOf location_type:Trade_Operations .
-
-<http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization .
-
-org_name:CITIGROUP_GLOBAL_MARKETS_INC a base:Organization .
-
-org_name:COOPERATIEVE_CENTRALE_RAIFFEISEN-BOERENLEENBANK_B.A.%2C_%E2%80%9CRABOBANK_NEDERLAND%E2%80%9D_NEW_YORK_BRANCH%5Cn a base:Organization .
-
-org_name:GOLDMAN_SACHS_BANK_USA%2C a base:Organization .
-
-org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION a base:Organization .
-
-org_name:JPMORGAN_CHASE_BANK%2C_N.A.%2C a base:Organization .
-
-org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER_%26_SMITH_INCORPORATED%2C a base:Organization .
-
-org_name:MORGAN_STANLEY_MUFG_LOAN_PARTNERS%2C_LLC%2C a base:Organization .
-
-org_name:THE_BANK_OF_NOVA_SCOTIA%2C a base:Organization .
-
-org_name:THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD.%5Cn a base:Organization .
-
-org_name:U.S._BANK_NATIONAL_ASSOCIATION%2C a base:Organization .
-
-<http://example.org/org_name/WELLS_FARGO_BANK%2C_N.A.> a base:Organization .
-
-org_name:WELLS_FARGO_SECURITIES%2C_LLC%2C a base:Organization .
-
-person_name:Christine_Howatt a base:Person .
-
-person_name:Diane_Emanuel a base:Person .
-
-person_name:Gillian_Dickson a base:Person .
-
-person_name:Jason_Fuqua a base:Person .
-
-person_name:Kelly_Chin a base:Person .
-
-person_name:Mark_D._Rodgers a base:Person .
-
-person_name:Mark_Walton a base:Person .
-
-person_name:Matthew_Gregg a base:Person .
-
-person_name:Michael_Vondriska a base:Person .
-
-person_name:Richard_Lautch a base:Person .
-
-person_name:Ronaldo_Naval a base:Person .
-
-person_name:Sabrina_Hassan a base:Person .
-
-person_name:Susan_T._Gallagher a base:Person .
-
-person_name:Tony_Wong a base:Person .
-
 loc:101_North_Tryon_Street%5CnMail_Code%3A_NC1-001-05-46%5CnCharlotte%2C_North_Carolina_28255-0001 a base:Location ;
-    ns1:isLocationOf <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+    base:IsinstanceOf base:Location .
 
 loc:1_Fleet_Way%5CnMail_Code%3A_PA6-580-02-30%5CnScranton%2C_Pennsylvania_18507 a base:Location ;
-    ns1:isLocationOf <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+    base:IsinstanceOf base:Location .
 
 loc:2401_Utah_Avenue%2C_South%5CnSeattle%2C_Washington_98134 a base:Location ;
-    ns1:isLocationOf org_name:STARBUCKS_CORPORATION%2C .
+    base:IsinstanceOf base:Location .
 
 loc:Bank_of_America_Plaza%5Cn901_Main_Street%5CnMail_Code%3A_TX1-492-14-11%5CnDallas%2C_Texas_75202 a base:Location ;
-    ns1:isLocationOf <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
-
-org_name:STARBUCKS_CORPORATION%2C a base:Organization ;
-    ns1:hasLocationAt loc:2401_Utah_Avenue%2C_South%5CnSeattle%2C_Washington_98134 .
+    base:IsinstanceOf base:Location .
 
 <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
-    ns1:hasLocationAt loc:101_North_Tryon_Street%5CnMail_Code%3A_NC1-001-05-46%5CnCharlotte%2C_North_Carolina_28255-0001,
-        loc:1_Fleet_Way%5CnMail_Code%3A_PA6-580-02-30%5CnScranton%2C_Pennsylvania_18507,
-        loc:Bank_of_America_Plaza%5Cn901_Main_Street%5CnMail_Code%3A_TX1-492-14-11%5CnDallas%2C_Texas_75202 .
+    base:IsinstanceOf base:Organization .
+
+<http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:CITIGROUP_GLOBAL_MARKETS_INC a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:COOPERATIEVE_CENTRALE_RAIFFEISEN-BOERENLEENBANK_B.A.%2C_%E2%80%9CRABOBANK_NEDERLAND%E2%80%9D_NEW_YORK_BRANCH%5Cn a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:GOLDMAN_SACHS_BANK_USA%2C a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:JPMORGAN_CHASE_BANK%2C_N.A.%2C a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER_%26_SMITH_INCORPORATED%2C a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:MORGAN_STANLEY_MUFG_LOAN_PARTNERS%2C_LLC%2C a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:STARBUCKS_CORPORATION%2C a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:THE_BANK_OF_NOVA_SCOTIA%2C a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD.%5Cn a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:U.S._BANK_NATIONAL_ASSOCIATION%2C a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+<http://example.org/org_name/WELLS_FARGO_BANK%2C_N.A.> a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:WELLS_FARGO_SECURITIES%2C_LLC%2C a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+person_name:Christine_Howatt a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Diane_Emanuel a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Gillian_Dickson a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Jason_Fuqua a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Kelly_Chin a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Mark_D._Rodgers a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Mark_Walton a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Matthew_Gregg a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Michael_Vondriska a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Richard_Lautch a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Ronaldo_Naval a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Sabrina_Hassan a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Susan_T._Gallagher a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Tony_Wong a base:Person ;
+    base:IsinstanceOf base:Person .
 

@@ -1,7 +1,6 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
-@prefix ns1: <http://example.org/relation/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
@@ -27,8 +26,7 @@ location_type:Trade_Finance a rdfs:Class ;
 location_type:Trade_Operations a rdfs:Class ;
     rdfs:subClassOf base:Location .
 
-location_type:corporate_headquarters a base:LocationType,
-        rdfs:Class ;
+location_type:corporate_headquarters a rdfs:Class ;
     rdfs:subClassOf base:Location .
 
 <http://example.org/org_role/%5CnBORROWER> a rdfs:Class ;
@@ -397,21 +395,24 @@ person_position:treasurer a rdfs:Class ;
 person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-loc:corporate_headquarters ns1:isLocationOf location_type:corporate_headquarters .
-
-org_name:BANK_OF_MONTREAL%2C_CHICAGO_BRANCH a base:Organization .
-
-<http://example.org/org_name/BMO_Capital_Markets_Corp.> a base:Organization .
-
-org_name:Borrower%2C a base:Organization .
-
-person_name:Benjamin_Mlot a base:Person .
-
-person_name:Mark_A._Wilcox a base:Person .
-
 loc:40_Wantage_Avenue%2C_Branchville%2C_New_Jersey_07890 a base:Location ;
-    ns1:isLocationOf <http://example.org/org_name/SELECTIVE_INSURANCE_GROUP%2C_INC.> .
+    base:IsinstanceOf base:Location .
+
+org_name:BANK_OF_MONTREAL%2C_CHICAGO_BRANCH a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+<http://example.org/org_name/BMO_Capital_Markets_Corp.> a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:Borrower%2C a base:Organization ;
+    base:IsinstanceOf base:Organization .
 
 <http://example.org/org_name/SELECTIVE_INSURANCE_GROUP%2C_INC.> a base:Organization ;
-    ns1:hasLocationAt loc:40_Wantage_Avenue%2C_Branchville%2C_New_Jersey_07890 .
+    base:IsinstanceOf base:Organization .
+
+person_name:Benjamin_Mlot a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Mark_A._Wilcox a base:Person ;
+    base:IsinstanceOf base:Person .
 

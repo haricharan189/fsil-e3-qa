@@ -394,21 +394,30 @@ person_position:treasurer a rdfs:Class ;
 person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<http://example.org/org_name/%5CnPOWELL_INDUSTRIES_INTERNATIONAL%2C_INC.> a base:Organization .
+<http://example.org/org_name/%5CnPOWELL_INDUSTRIES_INTERNATIONAL%2C_INC.> a base:Organization ;
+    base:IsinstanceOf base:Organization .
 
-<http://example.org/org_name/%5CnTRANSDYN%2C_INC.> a base:Organization .
+<http://example.org/org_name/%5CnTRANSDYN%2C_INC.> a base:Organization ;
+    base:IsinstanceOf base:Organization .
 
-org_name:BANK_OF_AMERICA%2C_N.A.%2C a base:Organization .
+org_name:BANK_OF_AMERICA%2C_N.A.%2C a base:Organization ;
+    base:IsinstanceOf base:Organization .
 
-org_name:BANK_OF_AMERICA_MERRILL_LYNCH a base:Organization .
+org_name:BANK_OF_AMERICA_MERRILL_LYNCH a base:Organization ;
+    base:IsinstanceOf base:Organization .
 
-<http://example.org/org_name/POWELL_ELECTRICAL_SYSTEMS%2C_INC.> a base:Organization .
+<http://example.org/org_name/POWELL_ELECTRICAL_SYSTEMS%2C_INC.> a base:Organization ;
+    base:IsinstanceOf base:Organization .
 
-<http://example.org/org_name/POWELL_INDUSTRIES%2C_INC.> a base:Organization .
+<http://example.org/org_name/POWELL_INDUSTRIES%2C_INC.> a base:Organization ;
+    base:IsinstanceOf base:Organization .
 
-<http://example.org/person_name/%5CnShelley_A._McGregor> a base:Person .
+<http://example.org/person_name/%5CnShelley_A._McGregor> a base:Person ;
+    base:IsinstanceOf base:Person .
 
-person_name:Don_R._Madison a base:Person .
+person_name:Don_R._Madison a base:Person ;
+    base:IsinstanceOf base:Person .
 
-person_name:Shelley_A._McGregor a base:Person .
+person_name:Shelley_A._McGregor a base:Person ;
+    base:IsinstanceOf base:Person .
 

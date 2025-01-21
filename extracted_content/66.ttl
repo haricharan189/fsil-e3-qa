@@ -1,7 +1,6 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
-@prefix ns1: <http://example.org/relation/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
@@ -396,67 +395,93 @@ person_position:treasurer a rdfs:Class ;
 person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<http://example.org/org_name/%5CnHSBC_BANK_USA%2C_N.A.%2C> a base:Organization .
-
-<http://example.org/org_name/%5CnINTESA_SANPAOLO_S.P.A.%2C_NEW_YORK_BRANCH%2C> a base:Organization .
-
-<http://example.org/org_name/%5CnTHE_TORONTO-DOMINION_BANK%2C_NEW_YORK_BRANCH%2C> a base:Organization .
-
-org_name:BANK_OF_AMERICA%2C_N.A.%2C a base:Organization .
-
-<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization .
-
-org_name:MUFG_BANK%2C_LTD.%2C a base:Organization .
-
-org_name:NATIONAL_WESTMINSTER_BANK_PLC a base:Organization .
-
-org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization .
-
-org_name:UNICREDIT_BANK_AG%2C_NEW_YORK_BRANCH%2C a base:Organization .
-
-person_name:Aidan_Clare a base:Person .
-
-person_name:Conan_Schleicher a base:Person .
-
-person_name:Dawn_Lee_Lum a base:Person .
-
-person_name:Francesco_Di_Mario a base:Person .
-
-person_name:Gr%C3%A1inne_Kelly a base:Person .
-
-person_name:Graham_Gibson a base:Person .
-
-person_name:J._Casey_Cosgrove a base:Person .
-
-person_name:Jack_Lonker a base:Person .
-
-person_name:John_Devlin a base:Person .
-
-person_name:Linh_Dang a base:Person .
-
-person_name:Lorenzo_Rodino a base:Person .
-
-person_name:Luca_Balestra a base:Person .
-
-person_name:Marco_Pagni%3B a base:Person .
-
-person_name:Sara_La_Berg a base:Person .
-
-person_name:Thilo_Huber a base:Person .
-
-person_name:Thomas_Foley a base:Person .
-
-person_name:Tracy_Rahn a base:Person .
-
 loc:108_Wilmot_Road%5Cn%5CnDeerfield%2C_IL_60015 a base:Location ;
-    ns1:isLocationOf <http://example.org/org_name/%5CnWALGREENS_BOOTS_ALLIANCE%2C_INC.> .
+    base:IsinstanceOf base:Location .
 
 loc:Mizuho_Bank%2C_Ltd.%5Cn%5CnHarborside_Financial_Ctr%5Cn%5Cn1800_Plaza_Ten%5Cn%5CnJersey_City%2C_NJ_07311 a base:Location ;
-    ns1:isLocationOf org_name:MIZUHO_BANK%2C_LTD.%2C .
+    base:IsinstanceOf base:Location .
+
+<http://example.org/org_name/%5CnHSBC_BANK_USA%2C_N.A.%2C> a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+<http://example.org/org_name/%5CnINTESA_SANPAOLO_S.P.A.%2C_NEW_YORK_BRANCH%2C> a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+<http://example.org/org_name/%5CnTHE_TORONTO-DOMINION_BANK%2C_NEW_YORK_BRANCH%2C> a base:Organization ;
+    base:IsinstanceOf base:Organization .
 
 <http://example.org/org_name/%5CnWALGREENS_BOOTS_ALLIANCE%2C_INC.> a base:Organization ;
-    ns1:hasLocationAt loc:108_Wilmot_Road%5Cn%5CnDeerfield%2C_IL_60015 .
+    base:IsinstanceOf base:Organization .
+
+org_name:BANK_OF_AMERICA%2C_N.A.%2C a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    base:IsinstanceOf base:Organization .
 
 org_name:MIZUHO_BANK%2C_LTD.%2C a base:Organization ;
-    ns1:hasLocationAt loc:Mizuho_Bank%2C_Ltd.%5Cn%5CnHarborside_Financial_Ctr%5Cn%5Cn1800_Plaza_Ten%5Cn%5CnJersey_City%2C_NJ_07311 .
+    base:IsinstanceOf base:Organization .
+
+org_name:MUFG_BANK%2C_LTD.%2C a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:NATIONAL_WESTMINSTER_BANK_PLC a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+org_name:UNICREDIT_BANK_AG%2C_NEW_YORK_BRANCH%2C a base:Organization ;
+    base:IsinstanceOf base:Organization .
+
+person_name:Aidan_Clare a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Conan_Schleicher a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Dawn_Lee_Lum a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Francesco_Di_Mario a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Gr%C3%A1inne_Kelly a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Graham_Gibson a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:J._Casey_Cosgrove a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Jack_Lonker a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:John_Devlin a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Linh_Dang a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Lorenzo_Rodino a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Luca_Balestra a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Marco_Pagni%3B a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Sara_La_Berg a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Thilo_Huber a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Thomas_Foley a base:Person ;
+    base:IsinstanceOf base:Person .
+
+person_name:Tracy_Rahn a base:Person ;
+    base:IsinstanceOf base:Person .
 
