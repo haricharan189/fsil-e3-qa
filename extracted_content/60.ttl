@@ -27,16 +27,16 @@ location_type:Trade_Finance a rdfs:Class ;
 location_type:Trade_Operations a rdfs:Class ;
     rdfs:subClassOf base:Location .
 
-location_type:corporate_headquarters_ a rdfs:Class ;
+location_type:corporate_headquarters a rdfs:Class ;
     rdfs:subClassOf base:Location .
-
-<http://example.org/org_role/%09%5CnGUARANTORS%3A> a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
 
 <http://example.org/org_role/%5CnBORROWER> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 <http://example.org/org_role/%5CnGUARANTORS> a rdfs:Class ;
+    rdfs:subClassOf base:Organization .
+
+<http://example.org/org_role/%5CnGUARANTORS%3A> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 <http://example.org/org_role/%5CnLENDER> a rdfs:Class ;
@@ -72,6 +72,9 @@ org_role:BORROWER a rdfs:Class ;
 org_role:BORROWER%3A a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
+org_role:Book_Manager a rdfs:Class ;
+    rdfs:subClassOf base:Organization .
+
 org_role:Book_Runner a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
@@ -85,6 +88,9 @@ org_role:Borrower%2C a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_role:Co-Documentation_Agents%2C a rdfs:Class ;
+    rdfs:subClassOf base:Organization .
+
+org_role:Co-Syndication_Agents%2C a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_role:Collateral_Agent a rdfs:Class ;
@@ -114,6 +120,9 @@ org_role:Issuing_Bank a rdfs:Class ;
 org_role:Joint_Book_Runner a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
+org_role:Joint_Book_Runner%2C a rdfs:Class ;
+    rdfs:subClassOf base:Organization .
+
 org_role:Joint_Bookrunners a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
@@ -121,6 +130,9 @@ org_role:Joint_Lead_Arranger a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_role:Joint_Lead_Arranger%2C a rdfs:Class ;
+    rdfs:subClassOf base:Organization .
+
+org_role:Joint_Lead_Arrangers a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_role:L%2FC_Issuer a rdfs:Class ;
@@ -153,30 +165,6 @@ org_role:Sole_Lead_Arranger a rdfs:Class ;
 org_role:Syndication_Agent a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:_Book_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:_Borrower a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:_Co-Syndication_Agents%2C a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:_Initial_Lender a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:_Joint_Book_Runner%2C a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:_Joint_Lead_Arrangers a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:_L%2FC_Issuer a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:_Lender a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
 org_role:co-Syndication_Agents a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
@@ -193,6 +181,9 @@ org_sub_role:Coordinating_Lead_Arranger a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_sub_role:General_Partner a rdfs:Class ;
+    rdfs:subClassOf base:Organization .
+
+org_sub_role:Joint_Book_Manager a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_sub_role:Joint_Book_Runner a rdfs:Class ;
@@ -216,7 +207,7 @@ org_sub_role:Lender a rdfs:Class ;
 org_sub_role:Parent a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_sub_role:Sole_Lead_Arranger_ a rdfs:Class ;
+org_sub_role:Sole_Lead_Arranger a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_sub_role:Subsidiaries a rdfs:Class ;
@@ -231,9 +222,6 @@ org_sub_role:Swing_Line_Lender a rdfs:Class ;
 org_sub_role:Swingline_Lender a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_sub_role:_Joint_Book_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
 org_sub_role:counsel a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
@@ -246,7 +234,7 @@ org_sub_role:counsel_to_Lender a rdfs:Class ;
 org_sub_role:counsel_to_any_Lender a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_sub_role:delegate_ a rdfs:Class ;
+org_sub_role:delegate a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_sub_role:legal_counsel a rdfs:Class ;
@@ -258,31 +246,19 @@ org_sub_role:oint_Lead_Arranger a rdfs:Class ;
 org_sub_role:subsidiary a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-<http://example.org/person_position/%09%5CnAssociate> a rdfs:Class ;
+<http://example.org/person_position/%5CnAssociate> a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<http://example.org/person_position/%09%5CnAuthorized_Signatory> a rdfs:Class ;
+<http://example.org/person_position/%5CnAuthorized_Signatory> a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<http://example.org/person_position/%09%5CnManager%2C_Agency> a rdfs:Class ;
+<http://example.org/person_position/%5CnManager%2C_Agency> a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<http://example.org/person_position/%09%5CnVice_President> a rdfs:Class ;
+<http://example.org/person_position/%5CnVice_President> a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<http://example.org/person_position/%09%5CnVice_President%2C> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/%09Authorized_Signatory> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/%09Managing_Director> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/%09Vice_President> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/%C2%A0Executive_Director> a rdfs:Class ;
+<http://example.org/person_position/%5CnVice_President%2C> a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
 person_position:Assistant_Vice_President a rdfs:Class ;
@@ -315,7 +291,7 @@ person_position:Chief_Financial_Officer_and_Treasurer a rdfs:Class ;
 person_position:Client_Services_Representative a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Controller%2C_Chief_Accounting_Officer_ a rdfs:Class ;
+person_position:Controller%2C_Chief_Accounting_Officer a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
 person_position:Corporate_Secretary a rdfs:Class ;
@@ -333,16 +309,19 @@ person_position:Executive_Vice_President a rdfs:Class ;
 person_position:Executive_Vice_President%2C a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Executive_Vice_President_ a rdfs:Class ;
+person_position:FVP_%C2%96_Head_of_Credit a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
 person_position:General_Counsel a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Global_Chief_Administrative_Officer_ a rdfs:Class ;
+person_position:Global_Chief_Administrative_Officer a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
 person_position:Global_Treasurer a rdfs:Class ;
+    rdfs:subClassOf base:Person .
+
+person_position:Investor_Relations_Officer a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
 person_position:Manager a rdfs:Class ;
@@ -366,16 +345,13 @@ person_position:Secretary a rdfs:Class ;
 person_position:Senior_Director a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
+person_position:Senior_Manager%2C%C2%A0Global_Treasury a rdfs:Class ;
+    rdfs:subClassOf base:Person .
+
 person_position:Senior_Vice_President a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Senior_Vice_President_ a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
 person_position:Treasurer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Treasurer_ a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
 person_position:Treasuruer a rdfs:Class ;
@@ -402,7 +378,7 @@ person_position:Vice_President%5Cn a rdfs:Class ;
 person_position:Vice_President%5Cn%5Cn a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Vice_President%C2%A0%5Cn%C2%A0 a rdfs:Class ;
+person_position:Vice_President%C2%A0%5Cn a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
 person_position:Vice_President-Finance a rdfs:Class ;
@@ -414,33 +390,15 @@ person_position:Vice_President_%E2%80%93_Law_%26_Assistant a rdfs:Class ;
 person_position:Vice_President_%E2%80%93_US_Law a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:_Chief_Financial_Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:_Executive_Vice_President a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:_FVP_%C2%96_Head_of_Credit a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:_Investor_Relations_Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:_Senior_Manager%2C%C2%A0Global_Treasury a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:_Vice_President a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:_vice_president_ a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
 person_position:treasurer a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<http://example.org/org_name/%09%5CnMVC_GP_II%2C_LLC> a base:Organization .
+person_position:vice_president a rdfs:Class ;
+    rdfs:subClassOf base:Person .
 
-<http://example.org/org_name/%09%5CnMVC_PARTNERS_LLC> a base:Organization .
+<http://example.org/org_name/%5CnMVC_GP_II%2C_LLC> a base:Organization .
+
+<http://example.org/org_name/%5CnMVC_PARTNERS_LLC> a base:Organization .
 
 org_name:MVC_CAYMAN a base:Organization .
 
@@ -465,26 +423,32 @@ loc:55_East_Monroe%5Cn%5CnSuite%C2%A03300_Chicago%2C%C2%A0IL_60603 a base:Locati
     rel:isLocationOf <http://example.org/org_name/Goldberg_Kohn_LTD.> .
 
 loc:830_Morris_Turnpike%2C_3rd%C2%A0Floor%5Cn%5CnShort_Hills%2C_NJ_07078 a base:Location ;
-    rel:isLocationOf <http://example.org/org_name/%09%5CnSANTANDER_BANK%2C_N.A.%2C> .
+    rel:isLocationOf <http://example.org/org_name/%5CnSANTANDER_BANK%2C_N.A.%2C> .
 
 loc:at_Wintrust_Bank%5Cn%5Cn231_S._LaSalle_Street%5Cn%5Cn2nd%C2%A0Floor%5Cn%5CnChicago%2C%C2%A0IL_60604 a base:Location ;
-    rel:isLocationOf <http://example.org/org_name/%09%5CnWintrust_Bank%2C> .
+    rel:isLocationOf <http://example.org/org_name/%5CnWintrust_Bank%2C> .
 
-<http://example.org/org_name/%09%5CnSANTANDER_BANK%2C_N.A.%2C> a base:Organization ;
+<http://example.org/org_name/%5CnSANTANDER_BANK%2C_N.A.%2C> a base:Organization ;
+    rel:IsinstanceOf base:Organization ;
     rel:hasLocationAt loc:830_Morris_Turnpike%2C_3rd%C2%A0Floor%5Cn%5CnShort_Hills%2C_NJ_07078 .
 
-<http://example.org/org_name/%09%5CnWintrust_Bank%2C> a base:Organization ;
+<http://example.org/org_name/%5CnWintrust_Bank%2C> a base:Organization ;
+    rel:IsinstanceOf base:Organization ;
     rel:hasLocationAt loc:at_Wintrust_Bank%5Cn%5Cn231_S._LaSalle_Street%5Cn%5Cn2nd%C2%A0Floor%5Cn%5CnChicago%2C%C2%A0IL_60604 .
 
 <http://example.org/org_name/Goldberg_Kohn_LTD.> a base:Organization ;
+    rel:IsinstanceOf base:Organization ;
     rel:hasLocationAt loc:55_East_Monroe%5Cn%5CnSuite%C2%A03300_Chicago%2C%C2%A0IL_60603 .
 
 org_name:Locke_Lord_LLP a base:Organization ;
+    rel:IsinstanceOf base:Organization ;
     rel:hasLocationAt loc:111_South_Wacker_Drive%5Cn%5CnChicago%2C%C2%A0Illinois_60606 .
 
 <http://example.org/org_name/MVC_CAPITAL%2C%C2%A0INC.> a base:Organization ;
+    rel:IsinstanceOf base:Organization ;
     rel:hasLocationAt loc:287_Bowman_Ave_%23_241%5Cn%5CnPurchase%2C_NY_10577 .
 
 <http://example.org/org_name/Otterbourg_P.C.> a base:Organization ;
+    rel:IsinstanceOf base:Organization ;
     rel:hasLocationAt loc:230_Park_Avenue%5Cn%5CnNew_York%2C_New_York_10169 .
 
