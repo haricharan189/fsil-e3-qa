@@ -8,7 +8,6 @@
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -280,7 +279,9 @@ person_position:Chief_Executive_Officer a rdfs:Class ;
 person_position:Chief_Financial%5CnOfficer a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Chief_Financial_Officer a rdfs:Class ;
+person_position:Chief_Financial_Officer a base:Position,
+        rdfs:Class ;
+    rdfs:label "Chief Financial Officer" ;
     rdfs:subClassOf base:Person .
 
 person_position:Chief_Financial_Officer%5Cn a rdfs:Class ;
@@ -298,13 +299,17 @@ person_position:Controller%2C_Chief_Accounting_Officer a rdfs:Class ;
 person_position:Corporate_Secretary a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Director a rdfs:Class ;
+person_position:Director a base:Position,
+        rdfs:Class ;
+    rdfs:label "Director" ;
     rdfs:subClassOf base:Person .
 
 person_position:Executive_Director a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Executive_Vice_President a rdfs:Class ;
+person_position:Executive_Vice_President a base:Position,
+        rdfs:Class ;
+    rdfs:label "Executive Vice President" ;
     rdfs:subClassOf base:Person .
 
 person_position:Executive_Vice_President%2C a rdfs:Class ;
@@ -397,34 +402,28 @@ person_position:treasurer a rdfs:Class ;
 person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-loc:40_Wantage_Avenue%2C_Branchville%2C_New_Jersey_07890 a base:Location ;
-    rdfs:label " 40 Wantage Avenue, Branchville, New Jersey 07890" ;
-    isInstanceOf: location_type:Loan_and_Agency_Services_Group ;
-    rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
+loc:corporate_headquarters_Location a base:Location ;
+    rdfs:label "corporate headquarters" ;
+    isInstanceOf: location_type:corporate_headquarters .
 
 org_name:BANK_OF_MONTREAL%2C_CHICAGO_BRANCH a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 <http://example.org/org_name/BMO_Capital_Markets_Corp.> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:Borrower%2C a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 <http://example.org/org_name/SELECTIVE_INSURANCE_GROUP%2C_INC.> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 person_name:Benjamin_Mlot a base:Person ;
     rdfs:label "Benjamin Mlot" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    isInstanceOf: base:Person,
+        person_position:Executive_Vice_President .
 
 person_name:Mark_A._Wilcox a base:Person ;
     rdfs:label "Mark A. Wilcox" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    isInstanceOf: base:Person .
 

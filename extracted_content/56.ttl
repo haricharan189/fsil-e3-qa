@@ -6,7 +6,6 @@
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -396,42 +395,32 @@ person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
 <http://example.org/org_name/%5CnK12_CALIFORNIA_L.L.C> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 <http://example.org/org_name/%5CnK12_VIRTUAL_SCHOOLS_L.L.C.> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 <http://example.org/org_name/%5CnK12_WASHINGTON_L.L.C.> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 <http://example.org/org_name/%5CnPOWER-GLIDE_LANGUAGE_COURSES%2C%C2%A0INC> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:FUEL_EDUCATION_LLC%2C a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:K12_CLASSROOM_L.L.C a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:K12_FLORIDA_L.L.C.%2C a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:K12_INC a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 <http://example.org/org_name/K12_MANAGEMENT_INC.> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 <http://example.org/org_name/K12_SERVICES_INC.> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 

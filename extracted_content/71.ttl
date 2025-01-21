@@ -1,6 +1,5 @@
 @prefix base: <http://example.org/base/> .
 @prefix isInstanceOf: <http://example.org/is_instance_of/> .
-@prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
@@ -8,7 +7,6 @@
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -265,19 +263,25 @@ org_sub_role:subsidiary a rdfs:Class ;
 person_position:Assistant_Vice_President a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Authorized_Officer a rdfs:Class ;
+person_position:Authorized_Officer a base:Position,
+        rdfs:Class ;
+    rdfs:label "Authorized Officer" ;
     rdfs:subClassOf base:Person .
 
 person_position:Authorized_Person a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Authorized_Signatory a rdfs:Class ;
+person_position:Authorized_Signatory a base:Position,
+        rdfs:Class ;
+    rdfs:label "Authorized Signatory" ;
     rdfs:subClassOf base:Person .
 
 person_position:Chief_Executive_Officer a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Chief_Financial%5CnOfficer a rdfs:Class ;
+person_position:Chief_Financial%5CnOfficer a base:Position,
+        rdfs:Class ;
+    rdfs:label "Chief Financial\\nOfficer" ;
     rdfs:subClassOf base:Person .
 
 person_position:Chief_Financial_Officer a rdfs:Class ;
@@ -304,7 +308,9 @@ person_position:Director a rdfs:Class ;
 person_position:Executive_Director a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Executive_Vice_President a rdfs:Class ;
+person_position:Executive_Vice_President a base:Position,
+        rdfs:Class ;
+    rdfs:label "Executive Vice President" ;
     rdfs:subClassOf base:Person .
 
 person_position:Executive_Vice_President%2C a rdfs:Class ;
@@ -352,7 +358,9 @@ person_position:Senior_Manager%2C%C2%A0Global_Treasury a rdfs:Class ;
 person_position:Senior_Vice_President a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Treasurer a rdfs:Class ;
+person_position:Treasurer a base:Position,
+        rdfs:Class ;
+    rdfs:label "Treasurer" ;
     rdfs:subClassOf base:Person .
 
 person_position:Treasuruer a rdfs:Class ;
@@ -364,7 +372,9 @@ person_position:VICE_PRESIDENT a rdfs:Class ;
 person_position:VP a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Vice_President a rdfs:Class ;
+person_position:Vice_President a base:Position,
+        rdfs:Class ;
+    rdfs:label "Vice President" ;
     rdfs:subClassOf base:Person .
 
 person_position:Vice_President%2C a rdfs:Class ;
@@ -397,67 +407,42 @@ person_position:treasurer a rdfs:Class ;
 person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<http://example.org/location/3333_Piedmont_Road%2C_Suite_2500%5CnAtlanta%2C_Georgia_30305%5CnAttn%3A_Timothy_W._Bratcher%2C_Esq.> a base:Location ;
-    rdfs:label "3333 Piedmont Road, Suite 2500\\nAtlanta, Georgia 30305\\nAttn: Timothy W. Bratcher, Esq." ;
-    isInstanceOf: location_type:Loan_and_Agency_Services_Group ;
-    rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
-
-loc:600_Travis_Street%5CnSuite_5400%5CnHouston%2C_Texas_77002 a base:Location ;
-    rdfs:label "600 Travis Street\\nSuite 5400\\nHouston, Texas 77002" ;
-    isInstanceOf: location_type:Loan_and_Agency_Services_Group ;
-    rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
-
-loc:Three_Allen_Center%5Cn333_Clay_Street%5CnSuite_4620%5CnHouston%2C_Texas_77002 a base:Location ;
-    rdfs:label "Three Allen Center\\n333 Clay Street\\nSuite 4620\\nHouston, Texas 77002" ;
-    isInstanceOf: location_type:Loan_and_Agency_Services_Group ;
-    rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
-
 org_name:GREENBERG_TRAURIG%2C_LLP a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:OIL_STATES_INTERNATIONAL%2C_INC.%2C a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:ROYAL_BANK_OF_CANADA a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:SIMPSON_THACHER_%26_BARTLETT_LLP a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 person_name:Ajay_Jagsi a base:Person ;
     rdfs:label "Ajay Jagsi" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    isInstanceOf: base:Person .
 
 person_name:Alexandre_Camerlain a base:Person ;
     rdfs:label "Alexandre Camerlain" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    isInstanceOf: base:Person .
 
 person_name:Anca_Loghin a base:Person ;
     rdfs:label "Anca Loghin" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    isInstanceOf: base:Person .
 
 person_name:Heath_Israel a base:Person ;
-    rdfs:label " Heath Israel" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    rdfs:label "Heath Israel" ;
+    isInstanceOf: base:Person .
 
 person_name:Lloyd_A._Hajdik a base:Person ;
-    rdfs:label " Lloyd A. Hajdik" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    rdfs:label "Lloyd A. Hajdik" ;
+    isInstanceOf: base:Person,
+        person_position:Vice_President .
 

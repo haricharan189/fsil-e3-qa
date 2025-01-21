@@ -1,6 +1,5 @@
 @prefix base: <http://example.org/base/> .
 @prefix isInstanceOf: <http://example.org/is_instance_of/> .
-@prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
@@ -8,7 +7,6 @@
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -295,7 +293,9 @@ person_position:Client_Services_Representative a rdfs:Class ;
 person_position:Controller%2C_Chief_Accounting_Officer a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Corporate_Secretary a rdfs:Class ;
+person_position:Corporate_Secretary a base:Position,
+        rdfs:Class ;
+    rdfs:label "Corporate Secretary" ;
     rdfs:subClassOf base:Person .
 
 person_position:Director a rdfs:Class ;
@@ -352,7 +352,9 @@ person_position:Senior_Manager%2C%C2%A0Global_Treasury a rdfs:Class ;
 person_position:Senior_Vice_President a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Treasurer a rdfs:Class ;
+person_position:Treasurer a base:Position,
+        rdfs:Class ;
+    rdfs:label "Treasurer" ;
     rdfs:subClassOf base:Person .
 
 person_position:Treasuruer a rdfs:Class ;
@@ -382,13 +384,19 @@ person_position:Vice_President%5Cn%5Cn a rdfs:Class ;
 person_position:Vice_President%C2%A0%5Cn a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Vice_President-Finance a rdfs:Class ;
+person_position:Vice_President-Finance a base:Position,
+        rdfs:Class ;
+    rdfs:label "Vice President-Finance" ;
     rdfs:subClassOf base:Person .
 
-person_position:Vice_President_%E2%80%93_Law_%26_Assistant a rdfs:Class ;
+person_position:Vice_President_%E2%80%93_Law_%26_Assistant a base:Position,
+        rdfs:Class ;
+    rdfs:label "Vice President – Law & Assistant" ;
     rdfs:subClassOf base:Person .
 
-person_position:Vice_President_%E2%80%93_US_Law a rdfs:Class ;
+person_position:Vice_President_%E2%80%93_US_Law a base:Position,
+        rdfs:Class ;
+    rdfs:label "Vice President – US Law" ;
     rdfs:subClassOf base:Person .
 
 person_position:treasurer a rdfs:Class ;
@@ -397,50 +405,25 @@ person_position:treasurer a rdfs:Class ;
 person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-loc:1100_Louisiana%2C_Suite_3300%5Cn%5CnHouston%2C_TX_77002-5217 a base:Location ;
-    rdfs:label "1100 Louisiana, Suite 3300\\n\\nHouston, TX 77002-5217" ;
-    isInstanceOf: location_type:Loan_and_Agency_Services_Group ;
-    rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
-
-loc:1100_Louisiana%2C_Suite_3300%5CnHouston%2C_TX_77002-5217 a base:Location ;
-    rdfs:label "1100 Louisiana, Suite 3300\\nHouston, TX 77002-5217" ;
-    isInstanceOf: location_type:Loan_and_Agency_Services_Group ;
-    rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
-
-<http://example.org/location/C/O_Enbridge_Inc.%5Cn%5Cn3000%2C_425-1st%5Cn%5CnCalgary%2C_Alberta%2C_Canada> a base:Location ;
-    rdfs:label "C/O Enbridge Inc.\\n\\n3000, 425-1st\\n\\nCalgary, Alberta, Canada" ;
-    isInstanceOf: location_type:Loan_and_Agency_Services_Group ;
-    rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
-
-<http://example.org/location/C/O_Enbridge_Inc.%5Cn3000%2C_425-1st%5CnCalgary%2C_Alberta%2C_Canada> a base:Location ;
-    rdfs:label "C/O Enbridge Inc.\\n3000, 425-1st\\nCalgary, Alberta, Canada" ;
-    isInstanceOf: location_type:Loan_and_Agency_Services_Group ;
-    rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
-
 <http://example.org/org_name/ENBRIDGE_%28U.S.%29_INC.> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 <http://example.org/org_name/ENBRIDGE_ENERGY_MANAGEMENT%2C_L.L.C.> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:ENBRIDGE_ENERGY_PARTNERS%2C_L.P.%2C a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 person_name:Chris_Kaitson a base:Person ;
     rdfs:label "Chris Kaitson" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    isInstanceOf: base:Person .
 
 person_name:Jonathan_Rose a base:Person ;
     rdfs:label "Jonathan Rose" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    isInstanceOf: base:Person,
+        person_position:Treasurer .
 
 person_name:Stephen_J._Neyland a base:Person ;
     rdfs:label "Stephen J. Neyland" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    isInstanceOf: base:Person .
 

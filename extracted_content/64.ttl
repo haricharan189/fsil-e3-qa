@@ -1,6 +1,5 @@
 @prefix base: <http://example.org/base/> .
 @prefix isInstanceOf: <http://example.org/is_instance_of/> .
-@prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
@@ -8,7 +7,6 @@
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -247,16 +245,24 @@ org_sub_role:oint_Lead_Arranger a rdfs:Class ;
 org_sub_role:subsidiary a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-<http://example.org/person_position/%5CnAssociate> a rdfs:Class ;
+<http://example.org/person_position/%5CnAssociate> a base:Position,
+        rdfs:Class ;
+    rdfs:label "\\nAssociate" ;
     rdfs:subClassOf base:Person .
 
-<http://example.org/person_position/%5CnAuthorized_Signatory> a rdfs:Class ;
+<http://example.org/person_position/%5CnAuthorized_Signatory> a base:Position,
+        rdfs:Class ;
+    rdfs:label "\\nAuthorized Signatory" ;
     rdfs:subClassOf base:Person .
 
-<http://example.org/person_position/%5CnManager%2C_Agency> a rdfs:Class ;
+<http://example.org/person_position/%5CnManager%2C_Agency> a base:Position,
+        rdfs:Class ;
+    rdfs:label "\\nManager, Agency" ;
     rdfs:subClassOf base:Person .
 
-<http://example.org/person_position/%5CnVice_President> a rdfs:Class ;
+<http://example.org/person_position/%5CnVice_President> a base:Position,
+        rdfs:Class ;
+    rdfs:label "\\nVice President" ;
     rdfs:subClassOf base:Person .
 
 <http://example.org/person_position/%5CnVice_President%2C> a rdfs:Class ;
@@ -280,7 +286,9 @@ person_position:Chief_Executive_Officer a rdfs:Class ;
 person_position:Chief_Financial%5CnOfficer a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Chief_Financial_Officer a rdfs:Class ;
+person_position:Chief_Financial_Officer a base:Position,
+        rdfs:Class ;
+    rdfs:label "Chief Financial Officer" ;
     rdfs:subClassOf base:Person .
 
 person_position:Chief_Financial_Officer%5Cn a rdfs:Class ;
@@ -355,7 +363,9 @@ person_position:Senior_Vice_President a rdfs:Class ;
 person_position:Treasurer a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Treasuruer a rdfs:Class ;
+person_position:Treasuruer a base:Position,
+        rdfs:Class ;
+    rdfs:label "Treasuruer" ;
     rdfs:subClassOf base:Person .
 
 person_position:VICE_PRESIDENT a rdfs:Class ;
@@ -397,81 +407,53 @@ person_position:treasurer a rdfs:Class ;
 person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-loc:200_Vesey_Street%5Cn%5CnNew_York%2C_New_York_10281 a base:Location ;
-    rdfs:label "200 Vesey Street\\n\\nNew York, New York 10281" ;
-    isInstanceOf: location_type:Loan_and_Agency_Services_Group ;
-    rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
-
-loc:4900_Tiedeman_Road_4th_Floor%5Cn%5CnBrooklyn%2C_OH_44144 a base:Location ;
-    rdfs:label "4900 Tiedeman Road 4th Floor\\n\\nBrooklyn, OH 44144" ;
-    isInstanceOf: location_type:Loan_and_Agency_Services_Group ;
-    rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
-
-loc:Royal_Bank_Plaza%2C_200_Bay_Street%2C%5Cn%5Cn12th_Floor_South_Tower%5Cn%5CnToronto%2C_Ontario_M5J_2W7%5Cn%5CnCanada a base:Location ;
-    rdfs:label "Royal Bank Plaza, 200 Bay Street,\\n\\n12th Floor South Tower\\n\\nToronto, Ontario M5J 2W7\\n\\nCanada" ;
-    isInstanceOf: location_type:Loan_and_Agency_Services_Group ;
-    rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
-
 <http://example.org/org_name/%5CnBANK_OF_AMERICA%2C_N.A.> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 <http://example.org/org_name/%5CnJPMorgan_Chase_Bank%2C_N.A.%2C> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 <http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA%2C> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 <http://example.org/org_name/%5CnVICTORY_CAPITAL_HOLDINGS%2C%C2%A0INC.%2C> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:MORGAN_STANLEY_SENIOR_FUNDING%2C%C2%A0INC.%2C a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:ROYAL_BANK_OF_CANADA%2C a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 <http://example.org/person_name/%5CnKenise_Henry_Larmond> a base:Person ;
-    rdfs:label "	\\nKenise Henry Larmond" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    rdfs:label "\\nKenise Henry Larmond" ;
+    isInstanceOf: base:Person .
 
 <http://example.org/person_name/%5CnMichael_King> a base:Person ;
-    rdfs:label "	\\nMichael King" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    rdfs:label "\\nMichael King" ;
+    isInstanceOf: base:Person .
 
 <http://example.org/person_name/%5CnRodney_Beeks> a base:Person ;
-    rdfs:label "	\\nRodney Beeks" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    rdfs:label "\\nRodney Beeks" ;
+    isInstanceOf: base:Person .
 
 <http://example.org/person_name/%5CnShane_M._Leary> a base:Person ;
-    rdfs:label "	\\nShane M. Leary" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    rdfs:label "\\nShane M. Leary" ;
+    isInstanceOf: base:Person .
 
 <http://example.org/person_name/%5CnSusan_Khokher> a base:Person ;
-    rdfs:label "	\\nSusan Khokher" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    rdfs:label "\\nSusan Khokher" ;
+    isInstanceOf: base:Person .
 
 <http://example.org/person_name/%5CnTerence_F._Sullivan> a base:Person ;
-    rdfs:label "	\\nTerence F. Sullivan" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    rdfs:label "\\nTerence F. Sullivan" ;
+    isInstanceOf: base:Person,
+        <http://example.org/person_position/%5CnVice_President> .
 
 person_name:Alex_Figueroa a base:Person ;
     rdfs:label "Alex Figueroa" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    isInstanceOf: base:Person .
 

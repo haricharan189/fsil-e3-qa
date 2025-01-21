@@ -1,6 +1,5 @@
 @prefix base: <http://example.org/base/> .
 @prefix isInstanceOf: <http://example.org/is_instance_of/> .
-@prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
@@ -8,7 +7,6 @@
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -298,7 +296,9 @@ person_position:Controller%2C_Chief_Accounting_Officer a rdfs:Class ;
 person_position:Corporate_Secretary a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Director a rdfs:Class ;
+person_position:Director a base:Position,
+        rdfs:Class ;
+    rdfs:label "Director" ;
     rdfs:subClassOf base:Person .
 
 person_position:Executive_Director a rdfs:Class ;
@@ -352,7 +352,9 @@ person_position:Senior_Manager%2C%C2%A0Global_Treasury a rdfs:Class ;
 person_position:Senior_Vice_President a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Treasurer a rdfs:Class ;
+person_position:Treasurer a base:Position,
+        rdfs:Class ;
+    rdfs:label "Treasurer" ;
     rdfs:subClassOf base:Person .
 
 person_position:Treasuruer a rdfs:Class ;
@@ -364,7 +366,9 @@ person_position:VICE_PRESIDENT a rdfs:Class ;
 person_position:VP a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Vice_President a rdfs:Class ;
+person_position:Vice_President a base:Position,
+        rdfs:Class ;
+    rdfs:label "Vice President" ;
     rdfs:subClassOf base:Person .
 
 person_position:Vice_President%2C a rdfs:Class ;
@@ -397,40 +401,25 @@ person_position:treasurer a rdfs:Class ;
 person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-loc:1000_Stanley_Drive%5Cn%5CnNew_Britain%2C_Connecticut_06053 a base:Location ;
-    rdfs:label "1000 Stanley Drive\\n\\nNew Britain, Connecticut 06053" ;
-    isInstanceOf: location_type:Loan_and_Agency_Services_Group ;
-    rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
-
-loc:Building_Ops_II%2C_One_Penns_Way%5Cn%5CnNew_Castle%2C_DE_19720 a base:Location ;
-    rdfs:label "Building Ops II, One Penns Way\\n\\nNew Castle, DE 19720" ;
-    isInstanceOf: location_type:Loan_and_Agency_Services_Group ;
-    rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
-
 <http://example.org/org_name/%5CnSTANLEY_BLACK%C2%A0%26_DECKER%2C_INC.> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:BOFA_SECURITIES%2C_INC.%2C a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:CITIBANK%2C_N.A.%2C a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 person_name:Carolyn_A._Kee a base:Person ;
-    rdfs:label " Carolyn A. Kee" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    rdfs:label "Carolyn A. Kee" ;
+    isInstanceOf: base:Person .
 
 person_name:Michael_Contreras a base:Person ;
     rdfs:label "Michael Contreras" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    isInstanceOf: base:Person,
+        person_position:Director .
 
 person_name:Robert_T._Paternostro a base:Person ;
     rdfs:label "Robert T. Paternostro" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    isInstanceOf: base:Person .
 

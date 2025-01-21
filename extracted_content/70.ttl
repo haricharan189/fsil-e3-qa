@@ -7,7 +7,6 @@
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -261,16 +260,22 @@ org_sub_role:subsidiary a rdfs:Class ;
 <http://example.org/person_position/%5CnVice_President%2C> a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Assistant_Vice_President a rdfs:Class ;
+person_position:Assistant_Vice_President a base:Position,
+        rdfs:Class ;
+    rdfs:label "Assistant Vice President" ;
     rdfs:subClassOf base:Person .
 
 person_position:Authorized_Officer a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Authorized_Person a rdfs:Class ;
+person_position:Authorized_Person a base:Position,
+        rdfs:Class ;
+    rdfs:label "Authorized Person" ;
     rdfs:subClassOf base:Person .
 
-person_position:Authorized_Signatory a rdfs:Class ;
+person_position:Authorized_Signatory a base:Position,
+        rdfs:Class ;
+    rdfs:label "Authorized Signatory" ;
     rdfs:subClassOf base:Person .
 
 person_position:Chief_Executive_Officer a rdfs:Class ;
@@ -339,7 +344,9 @@ person_position:President a rdfs:Class ;
 person_position:Relationship_Manager a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Secretary a rdfs:Class ;
+person_position:Secretary a base:Position,
+        rdfs:Class ;
+    rdfs:label "Secretary" ;
     rdfs:subClassOf base:Person .
 
 person_position:Senior_Director a rdfs:Class ;
@@ -351,7 +358,9 @@ person_position:Senior_Manager%2C%C2%A0Global_Treasury a rdfs:Class ;
 person_position:Senior_Vice_President a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Treasurer a rdfs:Class ;
+person_position:Treasurer a base:Position,
+        rdfs:Class ;
+    rdfs:label "Treasurer" ;
     rdfs:subClassOf base:Person .
 
 person_position:Treasuruer a rdfs:Class ;
@@ -397,100 +406,78 @@ person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
 <http://example.org/org_name/%5CnALLY_BANK> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:BGSL_BIG_SKY_FUNDING_LLC a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:BGSL_BRECKENRIDGE_FUNDING_LLC%2C a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:BGSL_JACKSON_HOLE_FUNDING_LLC%2C a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 <http://example.org/org_name/BLACKSTONE_HOLDINGS_FINANCE_CO._L.L.C.> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:BLACKSTONE_PRIVATE_CREDIT_FUND a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:BLACKSTONE_SECURED_LENDING_FUND a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:EMERALD_DIRECT_LENDING_1_LIMITED_PARTNERSHIP a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:EMERALD_MURRAY_STREET_LP a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:EMERALD_SPRING_STREET_LP a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:GN_LOAN_FUND_LP a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 <http://example.org/org_name/LD_INTERMEDIATE_HOLDINGS%2C_INC.> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 <http://example.org/org_name/LD_LOWER_HOLDINGS%2C_INC.> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 <http://example.org/org_name/LD_TOPCO%2C_INC.> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:WILMINGTON_TRUST%2C_NATIONAL_ASSOCIATION a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 <http://example.org/org_name/WVLD_ACQUISITION_CORP.> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 person_name:Danielle_Spar a base:Person ;
     rdfs:label "Danielle Spar" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    isInstanceOf: base:Person .
 
 person_name:Dawn_M._Wilson a base:Person ;
     rdfs:label "Dawn M. Wilson" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    isInstanceOf: base:Person,
+        person_position:Authorized_Signatory .
 
 person_name:Eric_Liaw a base:Person ;
     rdfs:label "Eric Liaw" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    isInstanceOf: base:Person .
 
 person_name:Marisa_Beeney a base:Person ;
     rdfs:label "Marisa Beeney" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    isInstanceOf: base:Person .
 
 person_name:Nicole_Kroll a base:Person ;
     rdfs:label "Nicole Kroll" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    isInstanceOf: base:Person .
 
 person_name:Robert_J._Shusterman a base:Person ;
     rdfs:label "Robert J. Shusterman" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    isInstanceOf: base:Person .
 

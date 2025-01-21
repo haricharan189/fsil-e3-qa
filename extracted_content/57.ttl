@@ -7,7 +7,6 @@
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -255,10 +254,14 @@ org_sub_role:subsidiary a rdfs:Class ;
 <http://example.org/person_position/%5CnManager%2C_Agency> a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<http://example.org/person_position/%5CnVice_President> a rdfs:Class ;
+<http://example.org/person_position/%5CnVice_President> a base:Position,
+        rdfs:Class ;
+    rdfs:label "\\nVice President" ;
     rdfs:subClassOf base:Person .
 
-<http://example.org/person_position/%5CnVice_President%2C> a rdfs:Class ;
+<http://example.org/person_position/%5CnVice_President%2C> a base:Position,
+        rdfs:Class ;
+    rdfs:label "\\nVice President," ;
     rdfs:subClassOf base:Person .
 
 person_position:Assistant_Vice_President a rdfs:Class ;
@@ -339,7 +342,9 @@ person_position:President a rdfs:Class ;
 person_position:Relationship_Manager a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Secretary a rdfs:Class ;
+person_position:Secretary a base:Position,
+        rdfs:Class ;
+    rdfs:label "Secretary" ;
     rdfs:subClassOf base:Person .
 
 person_position:Senior_Director a rdfs:Class ;
@@ -348,10 +353,14 @@ person_position:Senior_Director a rdfs:Class ;
 person_position:Senior_Manager%2C%C2%A0Global_Treasury a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Senior_Vice_President a rdfs:Class ;
+person_position:Senior_Vice_President a base:Position,
+        rdfs:Class ;
+    rdfs:label "Senior Vice President" ;
     rdfs:subClassOf base:Person .
 
-person_position:Treasurer a rdfs:Class ;
+person_position:Treasurer a base:Position,
+        rdfs:Class ;
+    rdfs:label "Treasurer" ;
     rdfs:subClassOf base:Person .
 
 person_position:Treasuruer a rdfs:Class ;
@@ -363,10 +372,14 @@ person_position:VICE_PRESIDENT a rdfs:Class ;
 person_position:VP a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-person_position:Vice_President a rdfs:Class ;
+person_position:Vice_President a base:Position,
+        rdfs:Class ;
+    rdfs:label "Vice President" ;
     rdfs:subClassOf base:Person .
 
-person_position:Vice_President%2C a rdfs:Class ;
+person_position:Vice_President%2C a base:Position,
+        rdfs:Class ;
+    rdfs:label "Vice President," ;
     rdfs:subClassOf base:Person .
 
 person_position:Vice_President%2C_Global_Treasury a rdfs:Class ;
@@ -397,41 +410,33 @@ person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
 <http://example.org/org_name/%5CnPOWELL_INDUSTRIES_INTERNATIONAL%2C_INC.> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 <http://example.org/org_name/%5CnTRANSDYN%2C_INC.> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:BANK_OF_AMERICA%2C_N.A.%2C a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 org_name:BANK_OF_AMERICA_MERRILL_LYNCH a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 <http://example.org/org_name/POWELL_ELECTRICAL_SYSTEMS%2C_INC.> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 <http://example.org/org_name/POWELL_INDUSTRIES%2C_INC.> a base:Organization ;
-    isInstanceOf: base:Organization ;
-    rel:hasOrgRole org_role:Finance_Department .
+    isInstanceOf: base:Organization .
 
 <http://example.org/person_name/%5CnShelley_A._McGregor> a base:Person ;
-    rdfs:label "	\\nShelley A. McGregor" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    rdfs:label "\\nShelley A. McGregor" ;
+    isInstanceOf: base:Person,
+        <http://example.org/person_position/%5CnVice_President%2C> .
 
 person_name:Don_R._Madison a base:Person ;
     rdfs:label "Don R. Madison" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    isInstanceOf: base:Person .
 
 person_name:Shelley_A._McGregor a base:Person ;
     rdfs:label "Shelley A. McGregor" ;
-    isInstanceOf: person_position:VP ;
-    rel:IsEmployeeOf org_name:Wells_Fargo .
+    isInstanceOf: base:Person .
 
