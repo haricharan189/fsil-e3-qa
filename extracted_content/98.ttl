@@ -1,6 +1,8 @@
 @prefix base: <http://example.org/base/> .
+@prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
+@prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
@@ -342,4 +344,66 @@ person_position:_Assistant_Vice_President a rdfs:Class ;
 
 person_position:_Authorized_Signer a rdfs:Class ;
     rdfs:subClassOf base:Person .
+
+<http://example.org/org_name/Bank_of_America%2C_N.A.> a base:Organization .
+
+org_name:CITIBANK%2C_N.A a base:Organization .
+
+org_name:CITIGROUP_GLOBAL_MARKETS_INC a base:Organization .
+
+org_name:Credit_Suisse_AG a base:Organization .
+
+org_name:GOLDMAN_SACHS_BANK_USA a base:Organization .
+
+org_name:ING_Bank_N.V a base:Organization .
+
+org_name:J.P._MORGAN_SECURITIES_LLC a base:Organization .
+
+org_name:JPMORGAN_CHASE_BANK%2C_N.A a base:Organization .
+
+org_name:NEWELL_RUBBERMAID_INC a base:Organization .
+
+org_name:PNC_Bank a base:Organization .
+
+org_name:RBC_CAPITAL_MARKETS a base:Organization .
+
+org_name:ROYAL_BANK_OF_CANADA a base:Organization .
+
+org_name:THE_NORTHERN_TRUST_COMPANY a base:Organization .
+
+org_name:The_Bank_of_Tokyo-Mitsubishi_UFJ%2C_Ltd a base:Organization .
+
+org_name:US_Bank_National_Association a base:Organization .
+
+org_name:WELLS_FARGO_BANK a base:Organization .
+
+person_name:Andrew_Payne a base:Person .
+
+person_name:Bill_O%C2%92Daly a base:Person .
+
+person_name:Brandon_K._Fiddler a base:Person .
+
+person_name:Gene_R._Riego_De_Dios a base:Person .
+
+person_name:John_B._Ellis a base:Person .
+
+person_name:Julia_Ivanova a base:Person .
+
+person_name:Kelly_Heimrich a base:Person .
+
+person_name:Kimberly_A._Crotty a base:Person .
+
+person_name:Kyle_Lewis a base:Person .
+
+person_name:Lisa_Huang a base:Person .
+
+person_name:Ravneet_Mumick a base:Person .
+
+person_name:Robert_Ehudin a base:Person .
+
+person_name:Sean_Hassett a base:Person .
+
+person_name:Shaun_Hawley a base:Person .
+
+person_name:Steven_L._Sawyer a base:Person .
 

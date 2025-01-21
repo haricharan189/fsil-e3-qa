@@ -1,8 +1,12 @@
 @prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
+@prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -342,4 +346,120 @@ person_position:_Assistant_Vice_President a rdfs:Class ;
 
 person_position:_Authorized_Signer a rdfs:Class ;
     rdfs:subClassOf base:Person .
+
+loc:1615_Brett_Road%2C_Building_%233%5Cn%5CnNew_Castle%2C_Delaware_19720 a base:Location .
+
+org_name:BANCO_SANTANDER%2C_S.A.%2C_NEW_YORK_BRANCH a base:Organization .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization .
+
+org_name:BANK_OF_CHINA%2C_NEW_YORK_BRANCH a base:Organization .
+
+org_name:BNP_PARIBAS a base:Organization .
+
+<http://example.org/org_name/BNP_PARIBAS_SECURITIES_CORP.> a base:Organization .
+
+<http://example.org/org_name/BOFA_SECURITIES%2C_INC.> a base:Organization .
+
+<http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization .
+
+org_name:CREDIT_AGRICOLE_CORPORATE_AND_INVESTMENT_BANK a base:Organization .
+
+org_name:DBS_BANK_LTD a base:Organization .
+
+org_name:Ernst%C2%A0%26_Young_LLP a base:Organization .
+
+org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION a base:Organization .
+
+org_name:INDUSTRIAL_AND_COMMERCIAL_BANK_OF_CHINA_LIMITED%2C_NEW_YORK_BRANCH a base:Organization .
+
+org_name:Latham%C2%A0%26_Watkins_LLP%2C a base:Organization .
+
+<http://example.org/org_name/MIZUHO_BANK%2C_LTD.> a base:Organization .
+
+<http://example.org/org_name/MUFG_BANK%2C_LTD.> a base:Organization .
+
+org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION a base:Organization .
+
+org_name:STANDARD_CHARTERED_BANK%5Cn a base:Organization .
+
+org_name:SUMITOMO_MITSUI_BANKING_CORPORATION a base:Organization .
+
+org_name:Shearman%C2%A0%26_Sterling_LLP a base:Organization .
+
+org_name:THE_BANK_OF_NOVA_SCOTIA a base:Organization .
+
+org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION%5Cn a base:Organization .
+
+person_name:Andrew_Sidford a base:Person .
+
+person_name:Brendan_Heneghan a base:Person .
+
+person_name:Brett_Bonet a base:Person .
+
+person_name:Dan_Beckwith a base:Person .
+
+person_name:Dayi_Liu a base:Person .
+
+person_name:Derek_Jensen a base:Person .
+
+person_name:Gordon_Yip a base:Person .
+
+person_name:James_Beck a base:Person .
+
+person_name:Juliana_Fong a base:Person .
+
+person_name:Karim_Remtoula a base:Person .
+
+person_name:Michael_Maguire a base:Person .
+
+person_name:Michelle_C._Phillips a base:Person .
+
+person_name:Min_Park a base:Person .
+
+person_name:Puneet_Lakhotia a base:Person .
+
+person_name:Raymond_Qiao a base:Person .
+
+<http://example.org/person_name/Richard_J._Ameny%2C_Jr.> a base:Person .
+
+person_name:Rita_Walz-Cuccioli a base:Person .
+
+person_name:Sergio_A._Cadavid a base:Person .
+
+person_name:Susan_M._Olsen a base:Person .
+
+person_name:Tony_Huang a base:Person .
+
+person_name:Tracy_Rahn a base:Person .
+
+person_name:Xavier_Ruiz_Sena a base:Person .
+
+person_name:_Lillian_Kim a base:Person .
+
+loc:10560_Dr.%C2%A0Martin_Luther_King%2C_Jr_St._North%5Cn%5CnSt._Petersburg%2C_FL_33716 a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JABIL_INC.> .
+
+loc:10560_Ninth_Street%5Cn%5CnSt._Petersburg%2C_FL_33716 a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Jabil_Circuit%2C_Inc.> .
+
+loc:10_S._Dearborn%5Cn%5CnChicago%2C_IL_60670 a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
+
+loc:11333_McCormick_Road%5Cn%5CnMailcode%3A_MD5-032-07-05%5Cn%5CnHunt_Valley%2C_MD_21031 a base:Location ;
+    rel:isLocationOf org_name:BA_Leasing_BSC%2C_LLC .
+
+org_name:BA_Leasing_BSC%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:11333_McCormick_Road%5Cn%5CnMailcode%3A_MD5-032-07-05%5Cn%5CnHunt_Valley%2C_MD_21031 .
+
+<http://example.org/org_name/JABIL_INC.> a base:Organization ;
+    rel:hasLocationAt loc:10560_Dr.%C2%A0Martin_Luther_King%2C_Jr_St._North%5Cn%5CnSt._Petersburg%2C_FL_33716 .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    rel:hasLocationAt loc:10_S._Dearborn%5Cn%5CnChicago%2C_IL_60670 .
+
+<http://example.org/org_name/Jabil_Circuit%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:10560_Ninth_Street%5Cn%5CnSt._Petersburg%2C_FL_33716 .
 

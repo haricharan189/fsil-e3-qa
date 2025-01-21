@@ -1,6 +1,8 @@
 @prefix base: <http://example.org/base/> .
+@prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
+@prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
@@ -342,4 +344,144 @@ person_position:_Assistant_Vice_President a rdfs:Class ;
 
 person_position:_Authorized_Signer a rdfs:Class ;
     rdfs:subClassOf base:Person .
+
+<http://example.org/org_name/%09%5CnBank_of_the_West> a base:Organization .
+
+<http://example.org/org_name/%09%5CnRegions_Bank> a base:Organization .
+
+<http://example.org/org_name/%09%5CnSANTANDER_BANK%2C_N.A.> a base:Organization .
+
+<http://example.org/org_name/%09%5CnTHE_NORTHERN_TRUST_COMPANY> a base:Organization .
+
+<http://example.org/org_name/%09%5CnU.S._BANK_NATIONAL_ASSOCIATION> a base:Organization .
+
+<http://example.org/org_name/%5Cn%C2%A0%5Cn%5Cn%C2%A0%5Cn%5CnMizuho_Bank%2C%C2%A0Ltd> a base:Organization .
+
+<http://example.org/org_name/%5Cn%C2%A0%5Cn%5Cn%C2%A0%5Cn%5CnWELLS_FARGO_BANK%2C_N.A> a base:Organization .
+
+<http://example.org/org_name/%5Cn%C2%A0%5Cn%5CnBRANCH_BANKING_AND_TRUST_COMPANY> a base:Organization .
+
+<http://example.org/org_name/%5Cn%C2%A0%5Cn%5CnTD_Bank%2C_N.A.> a base:Organization .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization .
+
+org_name:BANK_OF_CHINA a base:Organization .
+
+org_name:BANK_OF_EAST_ASIA%2C_LIMITED a base:Organization .
+
+<http://example.org/org_name/BMO_HARRIS_BANK%2C_N.A.> a base:Organization .
+
+org_name:BMO_Harris_Bank%2C_N.A a base:Organization .
+
+org_name:Bank_of_Taiwan a base:Organization .
+
+org_name:Citizens_Bank%2C_National_Association a base:Organization .
+
+org_name:Compass_Bank a base:Organization .
+
+org_name:FIFTH_THIRD_BANK a base:Organization .
+
+org_name:FIRST_TENNESSEE_BANK_NATIONAL_ASSOCIATION a base:Organization .
+
+org_name:First_Hawaiian_Bank a base:Organization .
+
+org_name:HSBC_Bank_USA a base:Organization .
+
+org_name:J.P._MORGAN_SECURITIES_LLC a base:Organization .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization .
+
+org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER_%26_SMITH_INCORPORATED a base:Organization .
+
+org_name:MUFG_UNION_BANK%2C_N.A a base:Organization .
+
+org_name:Mega_International_Commercial_Bank a base:Organization .
+
+org_name:MetLife_Reinsurance_Company a base:Organization .
+
+org_name:PNC_Bank a base:Organization .
+
+org_name:REGAL-BELOIT_CORPORATION a base:Organization .
+
+org_name:REGIONS_BANK a base:Organization .
+
+org_name:Sumitomo_Mitsui_Banking_Corporation a base:Organization .
+
+org_name:SunTrust_Bank a base:Organization .
+
+org_name:TAIWAN_COOPERATIVE_BANK_LTD a base:Organization .
+
+<http://example.org/org_name/THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C%C2%A0LTD.> a base:Organization .
+
+org_name:Taiwan_Business_Bank a base:Organization .
+
+org_name:The_Metropolitan_Life_Insurance_Company a base:Organization .
+
+org_name:United_Bank a base:Organization .
+
+org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization .
+
+<http://example.org/person_name/%09%5CnChristopher_R._Hermann> a base:Person .
+
+person_name:Andrey_Rudnitsky a base:Person .
+
+person_name:Angela_Chen a base:Person .
+
+person_name:Brian_Grossman a base:Person .
+
+person_name:Carla_Balesano a base:Person .
+
+person_name:Chris_Hursey a base:Person .
+
+person_name:Corey_J._Davis a base:Person .
+
+person_name:Daniel_Vilarelle a base:Person .
+
+person_name:Darran_Wee a base:Person .
+
+person_name:Derek_Chang a base:Person .
+
+person_name:Donna_DeMagistris a base:Person .
+
+person_name:Eric_Harvey a base:Person .
+
+person_name:James_Hua a base:Person .
+
+person_name:Jane_Chang a base:Person .
+
+person_name:Jason_Jean a base:Person .
+
+person_name:Joseph_Philbin a base:Person .
+
+person_name:Joshua_R._Pirozzolo a base:Person .
+
+person_name:Kefel_Xu a base:Person .
+
+person_name:Kitty_Sin a base:Person .
+
+person_name:Li_Yin_Wang a base:Person .
+
+person_name:Mary_R._Wright a base:Person .
+
+person_name:Michael_Dixon a base:Person .
+
+person_name:Michele_Dragonetti a base:Person .
+
+person_name:Murtuza_Ziauddin a base:Person .
+
+person_name:Paul_Hultgren a base:Person .
+
+person_name:Peter_C._Underwood a base:Person .
+
+person_name:S._Bradley_McDougall a base:Person .
+
+person_name:Shirley_Shipley a base:Person .
+
+person_name:Shuji_Yabe a base:Person .
+
+person_name:Steven_K._Kessler a base:Person .
+
+person_name:Steven_R._Bruno a base:Person .
+
+person_name:Victor_Pierzchalski a base:Person .
 

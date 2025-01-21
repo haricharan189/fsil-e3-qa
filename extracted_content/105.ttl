@@ -1,8 +1,12 @@
 @prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
+@prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -342,4 +346,162 @@ person_position:_Assistant_Vice_President a rdfs:Class ;
 
 person_position:_Authorized_Signer a rdfs:Class ;
     rdfs:subClassOf base:Person .
+
+<http://example.org/location/%09New_Jersey%09100%25%09Y%09Y%5Cn%C2%A0%5Cn%5Cn%C2%A0%5Cn> a base:Location .
+
+org_name:BANCORPSOUTH_BANK a base:Organization .
+
+org_name:BOFA_SECURITIES%2C_INC.%2C a base:Organization .
+
+org_name:FIFTH_THIRD_BANK%2C_NATIONAL_ASSOCIATION a base:Organization .
+
+org_name:HANCOCK_WHITNEY_BANK a base:Organization .
+
+<http://example.org/org_name/HANCOCK_WHITNEY_INVESTMENT_SERVICES%2C_INC.> a base:Organization .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization .
+
+org_name:KPMG_LLP a base:Organization .
+
+<http://example.org/org_name/MURPHY_OIL_USA%2C_INC.> a base:Organization .
+
+org_name:Murphy_USA a base:Organization .
+
+org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION a base:Organization .
+
+org_name:PNC_CAPITAL_MARKETS_LLC a base:Organization .
+
+org_name:RBC_CAPITAL_MARKETS a base:Organization .
+
+org_name:REGIONS_BANK a base:Organization .
+
+org_name:REGIONS_CAPITAL_MARKETS a base:Organization .
+
+org_name:TRUIST_BANK a base:Organization .
+
+org_name:TRUIST_SECURITIES%2C_INC a base:Organization .
+
+<http://example.org/org_name/UMB_BANK%2C_N.A.> a base:Organization .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization .
+
+org_name:WELLS_FARGO_SECURITIES%2C_LLC%2C a base:Organization .
+
+org_name:_BANK_OF_AMERICA%2C_N.A a base:Organization .
+
+<http://example.org/person_name/%09Kevin_Couch> a base:Person .
+
+<http://example.org/person_name/%09Michael_L._Monninger> a base:Person .
+
+<http://example.org/person_name/%09Mike_Ross> a base:Person .
+
+<http://example.org/person_name/%09Yvonne_Brazier> a base:Person .
+
+person_name:Aaron_Wade a base:Person .
+
+person_name:Cory_Miller a base:Person .
+
+person_name:J._Carlos_Navarrete a base:Person .
+
+person_name:Jacob_McGee a base:Person .
+
+person_name:John_Flores a base:Person .
+
+person_name:Jon_Eckhouse a base:Person .
+
+person_name:Mark_Holm a base:Person .
+
+person_name:Mindy_K._West a base:Person .
+
+person_name:Nancy_G._Moragas a base:Person .
+
+person_name:Stephanie_Balette a base:Person .
+
+loc:200_Peach_Street%2C_El_Dorado%2C_Arkansas_71730 a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%09MURPHY_USA_INC.> .
+
+loc:20_King_Street_W%2C_4th_Floor%2C_Toronto%2C_Ontario%2C_M5H%2C_1C4 a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%09ROYAL_BANK_OF_CANADA> .
+
+loc:2200_Ross_Avenue%2C_9th_Floor%5Cn%5CnDallas%2C_TX_75201 a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%09JPMORGAN_CHASE_BANK%2C_N.A> .
+
+loc:Mailcode%3A_IL1_1190%2C_10_S._Dearborn%2C_22nd_Floor%2C%C2%A0%5Cn%5CnChicago%2C_IL_60603 a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%09JPMORGAN_CHASE_BANK%2C_N.A> .
+
+loc:Mailcode%3A_IL1_1190%2C_10_S._Dearborn%2C_22nd_Floor%2C_Chicago%2C_IL_60603 a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%09JPMORGAN_CHASE_BANK%2C_N.A> .
+
+loc:Nebraska a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/591_Beverage%2C_Inc.> .
+
+loc:Texas a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/864_Beverage%2C_Inc.> .
+
+<http://example.org/org_name/%09MURPHY_USA_INC.> a base:Organization ;
+    rel:hasLocationAt loc:200_Peach_Street%2C_El_Dorado%2C_Arkansas_71730 .
+
+<http://example.org/org_name/%09ROYAL_BANK_OF_CANADA> a base:Organization ;
+    rel:hasLocationAt loc:20_King_Street_W%2C_4th_Floor%2C_Toronto%2C_Ontario%2C_M5H%2C_1C4 .
+
+<http://example.org/org_name/591_Beverage%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Nebraska .
+
+<http://example.org/org_name/864_Beverage%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Texas .
+
+<http://example.org/org_name/864_Holdings%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:El_Dorado_Properties_LLC a base:Organization ;
+    rel:hasLocationAt loc:Arkansas .
+
+org_name:Hankinson_Holding%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:Murphy_Oil_Trading%5Cn%5CnCompany%5Cn%5Cn%28Eastern%29 a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+<http://example.org/org_name/Murphy_USA_NJ%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:New_Jersey .
+
+<http://example.org/org_name/QuickChek_Realty%2C_L.L.C.> a base:Organization ;
+    rel:hasLocationAt loc:New_Jersey .
+
+org_name:QuickChek_Realty_Urban_Renewal_LLC a base:Organization ;
+    rel:hasLocationAt loc:New_Jersey .
+
+org_name:Quick_Chek_Corporation a base:Organization ;
+    rel:hasLocationAt loc:New_Jersey .
+
+org_name:Spur_Oil_Corporation a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:Superior_Crude_Trading_Company a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:The_Griffin_LLC_Arkansas a base:Organization ;
+    rel:hasLocationAt loc:Arkansas .
+
+loc:Arkansas a base:Location ;
+    rel:isLocationOf org_name:El_Dorado_Properties_LLC,
+        org_name:The_Griffin_LLC_Arkansas .
+
+<http://example.org/org_name/%09JPMORGAN_CHASE_BANK%2C_N.A> a base:Organization ;
+    rel:hasLocationAt loc:2200_Ross_Avenue%2C_9th_Floor%5Cn%5CnDallas%2C_TX_75201,
+        loc:Mailcode%3A_IL1_1190%2C_10_S._Dearborn%2C_22nd_Floor%2C%C2%A0%5Cn%5CnChicago%2C_IL_60603,
+        loc:Mailcode%3A_IL1_1190%2C_10_S._Dearborn%2C_22nd_Floor%2C_Chicago%2C_IL_60603 .
+
+loc:New_Jersey a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Murphy_USA_NJ%2C_Inc.>,
+        <http://example.org/org_name/QuickChek_Realty%2C_L.L.C.>,
+        org_name:QuickChek_Realty_Urban_Renewal_LLC,
+        org_name:Quick_Chek_Corporation .
+
+loc:Delaware a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/864_Holdings%2C_Inc.>,
+        org_name:Hankinson_Holding%2C_LLC,
+        org_name:Murphy_Oil_Trading%5Cn%5CnCompany%5Cn%5Cn%28Eastern%29,
+        org_name:Spur_Oil_Corporation,
+        org_name:Superior_Crude_Trading_Company .
 

@@ -1,6 +1,8 @@
 @prefix base: <http://example.org/base/> .
+@prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
+@prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
@@ -342,4 +344,58 @@ person_position:_Assistant_Vice_President a rdfs:Class ;
 
 person_position:_Authorized_Signer a rdfs:Class ;
     rdfs:subClassOf base:Person .
+
+<http://example.org/org_name/%5CnDEUTSCHE_BANK_AG> a base:Organization .
+
+<http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK%2C_N.A> a base:Organization .
+
+<http://example.org/org_name/%5CnWELLS%C2%A0FARGO%C2%A0BANK%2C%C2%A0NATIONAL%C2%A0ASSOCIATION> a base:Organization .
+
+org_name:BANK_OF_AMERICA%2C_N.A a base:Organization .
+
+org_name:BANK_OF_CHINA%2C_NEW_YORK_BRANCH a base:Organization .
+
+<http://example.org/org_name/BIOGEN_INC.> a base:Organization .
+
+<http://example.org/org_name/BOFA_SECURITIES%2C_INC.> a base:Organization .
+
+<http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization .
+
+org_name:GOLDMAN_SACHS_BANK a base:Organization .
+
+org_name:MIZUHO_BANK a base:Organization .
+
+<http://example.org/org_name/MORGAN_STANLEY_BANK%2C_N.A.> a base:Organization .
+
+org_name:Standard%C2%A0%26_Poor%C2%92s_Financial_Services_LLC a base:Organization .
+
+org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization .
+
+org_name:_Foley_Hoag_LLP a base:Organization .
+
+person_name:Annie_Carr a base:Person .
+
+person_name:Annie_Chung a base:Person .
+
+person_name:Darren_Merten a base:Person .
+
+person_name:Eugene_Yermash a base:Person .
+
+person_name:Heather_E._Hoopingarner a base:Person .
+
+person_name:Julie_Lilienfeld a base:Person .
+
+person_name:Michael_Dambach a base:Person .
+
+person_name:Ming_K._Chu a base:Person .
+
+person_name:Raymond_Qiao a base:Person .
+
+person_name:Ryan_M._Black a base:Person .
+
+person_name:Taelitha_Bonds-Harris a base:Person .
+
+person_name:Teddy_Koch a base:Person .
+
+person_name:Tracy_Rahn a base:Person .
 

@@ -1,8 +1,12 @@
 @prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
+@prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -342,4 +346,44 @@ person_position:_Assistant_Vice_President a rdfs:Class ;
 
 person_position:_Authorized_Signer a rdfs:Class ;
     rdfs:subClassOf base:Person .
+
+org_name:Daniel_Kinel%2C_Esq a base:Organization .
+
+org_name:Deloitte_%26_Touche_LLP a base:Organization .
+
+<http://example.org/org_name/GHM_Acquisition_Corp.> a base:Organization .
+
+org_name:J.P._MORGAN_SECURITIES_LLC a base:Organization .
+
+<http://example.org/person_name/%09%5CnJeffrey_Glajch> a base:Person .
+
+person_name:Elizabeth_A._Jordan a base:Person .
+
+person_name:Jeffrey_Glajch a base:Person .
+
+person_name:Nancy_O%E2%80%99Brien a base:Person .
+
+loc:1600_Bausch_%26_Lomb_Place%5Cn%5CnRochester%2C_New_York_14606 a base:Location ;
+    rel:isLocationOf org_name:Harter_Secrest_%26_Emery_LLP .
+
+loc:1_South_Clinton_Avenue%2C_Floor_7%5Cn%5CnRochester%2C_NY_14604 a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK%2C_N.A.> .
+
+loc:20_Florence_Avenue%5Cn%5CnBatavia%2C_New_York_14020 a base:Location ;
+    rel:isLocationOf org_name:GRAHAM_CORPORATION .
+
+loc:United_States_of_America a base:Location ;
+    rel:isLocationOf org_name:Federal_Reserve_System .
+
+<http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    rel:hasLocationAt loc:1_South_Clinton_Avenue%2C_Floor_7%5Cn%5CnRochester%2C_NY_14604 .
+
+org_name:Federal_Reserve_System a base:Organization ;
+    rel:hasLocationAt loc:United_States_of_America .
+
+org_name:GRAHAM_CORPORATION a base:Organization ;
+    rel:hasLocationAt loc:20_Florence_Avenue%5Cn%5CnBatavia%2C_New_York_14020 .
+
+org_name:Harter_Secrest_%26_Emery_LLP a base:Organization ;
+    rel:hasLocationAt loc:1600_Bausch_%26_Lomb_Place%5Cn%5CnRochester%2C_New_York_14606 .
 

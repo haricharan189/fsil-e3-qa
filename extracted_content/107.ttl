@@ -1,8 +1,12 @@
 @prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
+@prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -342,4 +346,104 @@ person_position:_Assistant_Vice_President a rdfs:Class ;
 
 person_position:_Authorized_Signer a rdfs:Class ;
     rdfs:subClassOf base:Person .
+
+org_name:BANK_OF_MONTREAL a base:Organization .
+
+<http://example.org/org_name/BMO_Capital_Markets_Corp.> a base:Organization .
+
+org_name:CREDIT_SUISSE_AG%2C_NEW_YORK_BRANCH a base:Organization .
+
+org_name:GOLDMAN_SACHS_BANK_USA a base:Organization .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization .
+
+org_name:KPMG_LLP a base:Organization .
+
+org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization .
+
+<http://example.org/org_name/WELLS_FARGO_BANK%2C_N.A.> a base:Organization .
+
+org_name:Wells_Fargo_Securities%2C_LLC a base:Organization .
+
+<http://example.org/person_name/%09%5CnDoreen_Barr> a base:Person .
+
+<http://example.org/person_name/%09%5CnGary_G._Zyla> a base:Person .
+
+<http://example.org/person_name/%09%5CnJennifer_M._Dunneback> a base:Person .
+
+<http://example.org/person_name/%09%5CnRyan_Durkin> a base:Person .
+
+person_name:Amy_Prager a base:Person .
+
+person_name:Andrew_Griffin a base:Person .
+
+person_name:Gary_G._Zyla a base:Person .
+
+person_name:James_Mastroianna a base:Person .
+
+person_name:Mark_R._Cousineau a base:Person .
+
+loc:115_South_LaSalle_Street%5Cn%5CnChicago%2C_Illinois_60603 a base:Location ;
+    rel:isLocationOf org_name:Bank_of_Montreal .
+
+loc:1655_Grant_Street%2C_10th_Floor%5Cn%5CnConcord%2C_CA_94520 a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/ASSETMARK_FINANCIAL_HOLDINGS%2C_INC.> .
+
+loc:California a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/ASSETMARK%2C_INC.> .
+
+loc:Florida a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/GLOBAL_FINANCIAL_PRIVATE_CAPITAL%2C_INC.> .
+
+loc:Pennsylvania a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/ASSETMARK_RETIREMENT_SERVICES%2C_INC.> .
+
+<http://example.org/org_name/ASSETMARK%2C_INC.> a base:Organization ;
+    rel:hasLocationAt loc:California .
+
+<http://example.org/org_name/ASSETMARK_FINANCIAL%2C_INC.> a base:Organization ;
+    rel:hasLocationAt loc:Arizona .
+
+<http://example.org/org_name/ASSETMARK_FINANCIAL_HOLDINGS%2C_INC.> a base:Organization ;
+    rel:hasLocationAt loc:1655_Grant_Street%2C_10th_Floor%5Cn%5CnConcord%2C_CA_94520 .
+
+<http://example.org/org_name/ASSETMARK_RETIREMENT_SERVICES%2C_INC.> a base:Organization ;
+    rel:hasLocationAt loc:Pennsylvania .
+
+org_name:AssetMark%5Cn%5CnBrokerage%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:AssetMark_Trust%5Cn%5CnCompany a base:Organization ;
+    rel:hasLocationAt loc:Arizona .
+
+org_name:Bank_of_Montreal a base:Organization ;
+    rel:hasLocationAt loc:115_South_LaSalle_Street%5Cn%5CnChicago%2C_Illinois_60603 .
+
+org_name:GLOBAL_FINANCIAL_ADVISORY%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+<http://example.org/org_name/GLOBAL_FINANCIAL_PRIVATE_CAPITAL%2C_INC.> a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/OBS_FINANCIAL_SERVICES%2C_INC.> a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+<http://example.org/org_name/OBS_HOLDINGS%2C_INC.> a base:Organization ;
+    rel:hasLocationAt loc:Ohio .
+
+<http://example.org/org_name/WBI_OBS_FINANCIAL%2C_INC.> a base:Organization ;
+    rel:hasLocationAt loc:Ohio .
+
+loc:Arizona a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/ASSETMARK_FINANCIAL%2C_INC.>,
+        org_name:AssetMark_Trust%5Cn%5CnCompany .
+
+loc:Ohio a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/OBS_HOLDINGS%2C_INC.>,
+        <http://example.org/org_name/WBI_OBS_FINANCIAL%2C_INC.> .
+
+loc:Delaware a base:Location ;
+    rel:isLocationOf org_name:AssetMark%5Cn%5CnBrokerage%2C_LLC,
+        org_name:GLOBAL_FINANCIAL_ADVISORY%2C_LLC,
+        <http://example.org/org_name/OBS_FINANCIAL_SERVICES%2C_INC.> .
 

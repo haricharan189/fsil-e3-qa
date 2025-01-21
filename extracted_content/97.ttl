@@ -1,8 +1,12 @@
 @prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
+@prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -342,4 +346,110 @@ person_position:_Assistant_Vice_President a rdfs:Class ;
 
 person_position:_Authorized_Signer a rdfs:Class ;
     rdfs:subClassOf base:Person .
+
+<http://example.org/org_name/%5Cn%C2%A0%5Cn%5CnAON_CORPORATION> a base:Organization .
+
+<http://example.org/org_name/%C2%A0%5Cn%5Cn%C2%A0%5Cn%5CnWELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> a base:Organization .
+
+org_name:AON_PLC a base:Organization .
+
+org_name:AON_UK_LIMITED a base:Organization .
+
+org_name:AUSTRALIA_AND_NEW_ZEALAND_BANK_GROUP_LIMITED a base:Organization .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization .
+
+org_name:BANK_OF_MONTREAL a base:Organization .
+
+org_name:BANK_OF_MONTREAL%2C_LONDON_BRANCH a base:Organization .
+
+org_name:BARCLAYS_BANK_PLC a base:Organization .
+
+<http://example.org/org_name/CITIGROUP_GLOBAL_MARKETS_INC.> a base:Organization .
+
+org_name:CREDIT_SUISSE_AG a base:Organization .
+
+org_name:DEUTSCHE_BANK_AG a base:Organization .
+
+<http://example.org/org_name/HSBC_BANK_USA%2C_N.A.> a base:Organization .
+
+org_name:ING_BANK_N.V.%2C a base:Organization .
+
+org_name:JPMORGAN_CHASE_BANK%2C_N.A a base:Organization .
+
+org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED a base:Organization .
+
+<http://example.org/org_name/MORGAN_STANLEY_BANK%2C_N.A.> a base:Organization .
+
+<http://example.org/org_name/MORGAN_STANLEY_SENIOR_FUNDING%2C%C2%A0INC.> a base:Organization .
+
+org_name:NATIONAL_AUSTRALIA_BANK_LIMITED a base:Organization .
+
+org_name:THE_BANK_OF_NEW_YORK_MELLON a base:Organization .
+
+org_name:THE_BANK_OF_NOVA_SCOTIA a base:Organization .
+
+<http://example.org/org_name/UNICREDIT_BANK_A.G.> a base:Organization .
+
+person_name:Andres_Neumeier a base:Person .
+
+person_name:Andy_McClinton a base:Person .
+
+person_name:Anna_Smith a base:Person .
+
+person_name:Arti_Sugunan a base:Person .
+
+person_name:Bill_Seabrook a base:Person .
+
+person_name:Christopher_Choi a base:Person .
+
+person_name:Craig_M._Pinsly%2C_CFA a base:Person .
+
+person_name:Diederik_Sluijs a base:Person .
+
+person_name:Doreen_Barr a base:Person .
+
+person_name:Jody_Feldman a base:Person .
+
+<http://example.org/person_name/Kenneth_P._Sneider%2C%C2%A0Jr.> a base:Person .
+
+person_name:Kristen_M._Murphy a base:Person .
+
+person_name:Lingzi_Huang a base:Person .
+
+person_name:Maria_Lago a base:Person .
+
+person_name:Maureen_Maroney a base:Person .
+
+person_name:Michael_King a base:Person .
+
+person_name:Michelle_S._Dagenhart a base:Person .
+
+person_name:N._J._Hardman a base:Person .
+
+person_name:P._A._Hogwood a base:Person .
+
+person_name:Paul_Hagy a base:Person .
+
+person_name:Robert_Grillo a base:Person .
+
+person_name:Ross_Levitsky a base:Person .
+
+person_name:Thane_Rattew a base:Person .
+
+person_name:Tony_Gordon a base:Person .
+
+person_name:Zhao_Caiyan a base:Person .
+
+loc:1615_Brett_Road%2C_Building_%233%5CnNew_Castle%2C_Delaware_19720%5Cn%5Cn a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/CITIBANK%2C_N.A.> .
+
+loc:S.A._ROTTERDAM_ a base:Location ;
+    rel:isLocationOf org_name:BANK_OF_CHINA_%28LUXEMBOURG%29 .
+
+org_name:BANK_OF_CHINA_%28LUXEMBOURG%29 a base:Organization ;
+    rel:hasLocationAt loc:S.A._ROTTERDAM_ .
+
+<http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization ;
+    rel:hasLocationAt loc:1615_Brett_Road%2C_Building_%233%5CnNew_Castle%2C_Delaware_19720%5Cn%5Cn .
 

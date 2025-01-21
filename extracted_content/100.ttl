@@ -1,8 +1,12 @@
 @prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
+@prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -342,4 +346,42 @@ person_position:_Assistant_Vice_President a rdfs:Class ;
 
 person_position:_Authorized_Signer a rdfs:Class ;
     rdfs:subClassOf base:Person .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization .
+
+org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization .
+
+person_name:David_R._Barney%C2%A0 a base:Person .
+
+person_name:Eric_J._Cosgrove a base:Person .
+
+person_name:Joseph_D._Tarry a base:Person .
+
+person_name:Joseph_D._Tarry%C2%A0 a base:Person .
+
+person_name:_Joe_Horrigan a base:Person .
+
+loc:1420_5th_Avenue%2C_9th_Floor%5CnSeattle%2C_WA_98101 a base:Location ;
+    rel:isLocationOf org_name:US_Bank_Agency_Services .
+
+loc:414_Silver_Ave._SW%2C_MS0905%5CnAlbuquerque%2C_New_Mexico_87102-3289 a base:Location ;
+    rel:isLocationOf org_name:Public_Service_Company_of_New_Mexico .
+
+loc:New_Mexico a base:Location ;
+    rel:isLocationOf org_name:PUBLIC_SERVICE_COMPANY_OF_NEW_MEXICO .
+
+loc:US_Bank_Utilities_Division%5Cn461_Fifth_Avenue%2C_8th_Floor%5CnNew_York%2C_NY_10017 a base:Location ;
+    rel:isLocationOf org_name:U.S._Bank_National_Association .
+
+org_name:PUBLIC_SERVICE_COMPANY_OF_NEW_MEXICO a base:Organization ;
+    rel:hasLocationAt loc:New_Mexico .
+
+org_name:Public_Service_Company_of_New_Mexico a base:Organization ;
+    rel:hasLocationAt loc:414_Silver_Ave._SW%2C_MS0905%5CnAlbuquerque%2C_New_Mexico_87102-3289 .
+
+org_name:U.S._Bank_National_Association a base:Organization ;
+    rel:hasLocationAt loc:US_Bank_Utilities_Division%5Cn461_Fifth_Avenue%2C_8th_Floor%5CnNew_York%2C_NY_10017 .
+
+org_name:US_Bank_Agency_Services a base:Organization ;
+    rel:hasLocationAt loc:1420_5th_Avenue%2C_9th_Floor%5CnSeattle%2C_WA_98101 .
 

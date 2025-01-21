@@ -1,8 +1,12 @@
 @prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
+@prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -342,4 +346,52 @@ person_position:_Assistant_Vice_President a rdfs:Class ;
 
 person_position:_Authorized_Signer a rdfs:Class ;
     rdfs:subClassOf base:Person .
+
+org_name:BCRED_MAROON_PEAK_FUNDING_LLC a base:Organization .
+
+org_name:Dechert_LLP a base:Organization .
+
+org_name:MORGAN_STANLEY_SENIOR_FUNDING%2C_INC a base:Organization .
+
+person_name:Angelina_Perkovic a base:Person .
+
+person_name:John_Bumgarner a base:Person .
+
+person_name:Marisa_J._Beeney a base:Person .
+
+person_name:Matthieu_Milgrom a base:Person .
+
+<http://example.org/person_name/Ralph_J._Creasia%2C_Jr.> a base:Person .
+
+loc:1300_Thames_Street%5Cn%5CnThames_Street_Wharf%5Cn%5CnBaltimore%2C_Maryland_21231 a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/MORGAN_STANLEY_BANK%2C_N.A.> .
+
+loc:201_South_Main_Street%5Cn%5CnSalt_Lake_City%2C_Utah_84111-2215 a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/MORGAN_STANLEY_BANK%2C_N.A.> .
+
+loc:345_Park_Avenue%2C_31st_Floor%5Cn%5CnNew_York%2C_New_York_10154 a base:Location ;
+    rel:isLocationOf org_name:BLACKSTONE_PRIVATE_CREDIT_FUND .
+
+loc:One_Federal_Street%2C_Third_Floor%5Cn%5CnBoston%2C_Massachusetts_02110 a base:Location ;
+    rel:isLocationOf org_name:U.S._BANK_NATIONAL_ASSOCIATION .
+
+org_name:BLACKSTONE_PRIVATE_CREDIT_FUND a base:Organization ;
+    rel:hasLocationAt loc:345_Park_Avenue%2C_31st_Floor%5Cn%5CnNew_York%2C_New_York_10154 .
+
+org_name:Morgan_Stanley%C2%A0%26_Co._LLC a base:Organization ;
+    rel:hasLocationAt loc:1585_Broadway%5Cn%5CnNew%C2%A0York%2C_New%C2%A0York_10036 .
+
+<http://example.org/org_name/Morgan_Stanley_Senior_Funding%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:1585_Broadway%5Cn%5CnNew%C2%A0York%2C_New%C2%A0York_10036 .
+
+org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
+    rel:hasLocationAt loc:One_Federal_Street%2C_Third_Floor%5Cn%5CnBoston%2C_Massachusetts_02110 .
+
+loc:1585_Broadway%5Cn%5CnNew%C2%A0York%2C_New%C2%A0York_10036 a base:Location ;
+    rel:isLocationOf org_name:Morgan_Stanley%C2%A0%26_Co._LLC,
+        <http://example.org/org_name/Morgan_Stanley_Senior_Funding%2C_Inc.> .
+
+<http://example.org/org_name/MORGAN_STANLEY_BANK%2C_N.A.> a base:Organization ;
+    rel:hasLocationAt loc:1300_Thames_Street%5Cn%5CnThames_Street_Wharf%5Cn%5CnBaltimore%2C_Maryland_21231,
+        loc:201_South_Main_Street%5Cn%5CnSalt_Lake_City%2C_Utah_84111-2215 .
 

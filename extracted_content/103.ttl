@@ -1,8 +1,12 @@
 @prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
+@prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -342,4 +346,56 @@ person_position:_Assistant_Vice_President a rdfs:Class ;
 
 person_position:_Authorized_Signer a rdfs:Class ;
     rdfs:subClassOf base:Person .
+
+org_name:BANK_OF_THE_WEST a base:Organization .
+
+org_name:BOFA_SECURITIES%2C_INC a base:Organization .
+
+<http://example.org/org_name/Bank_of_America%2C_N.A.> a base:Organization .
+
+org_name:Barclays_Bank_PLC a base:Organization .
+
+org_name:Perkins_Coie_LLP a base:Organization .
+
+org_name:PricewaterhouseCoopers_LLP a base:Organization .
+
+org_name:Royal_Bank_of_Canada a base:Organization .
+
+org_name:Shape_Security_and_Shareholder_Representative_Services_LLC a base:Organization .
+
+<http://example.org/org_name/Silhouette_Merger_Sub%2C_Inc.> a base:Organization .
+
+org_name:Silicon_Valley_Bank a base:Organization .
+
+org_name:Skadden%2C_Arps%2C_Slate%2C_Meagher_%26_Flom_LLP a base:Organization .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization .
+
+person_name:Derek_Jensen a base:Person .
+
+person_name:Frank_Pelzer a base:Person .
+
+person_name:Gill_Skala a base:Person .
+
+person_name:Leni_Preciado a base:Person .
+
+person_name:Mario_De_Luca a base:Person .
+
+person_name:Nicholas_Heslip a base:Person .
+
+person_name:Ryan_Zimmerman a base:Person .
+
+person_name:Timothy_G._Holsapple a base:Person .
+
+loc:801_5th_Avenue%2C_Seattle%2C_Washington_98104 a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/F5_NETWORKS%2C_INC.> .
+
+loc:JPMorgan_Loan_Services%2C_500_Stanton_Christiana_Road%2C_NCC5%2C_Floor_1%2C_Newark%2C_DE_19713 a base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
+
+<http://example.org/org_name/F5_NETWORKS%2C_INC.> a base:Organization ;
+    rel:hasLocationAt loc:801_5th_Avenue%2C_Seattle%2C_Washington_98104 .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    rel:hasLocationAt loc:JPMorgan_Loan_Services%2C_500_Stanton_Christiana_Road%2C_NCC5%2C_Floor_1%2C_Newark%2C_DE_19713 .
 
