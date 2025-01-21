@@ -1,4 +1,5 @@
 @prefix base: <http://example.org/base/> .
+@prefix isInstanceOf: <http://example.org/is_instance_of/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
 @prefix org_name: <http://example.org/org_name/> .
@@ -398,38 +399,38 @@ person_position:vice_president a rdfs:Class ;
 
 loc:1000_Stanley_Drive%5Cn%5CnNew_Britain%2C_Connecticut_06053 a base:Location ;
     rdfs:label "1000 Stanley Drive\\n\\nNew Britain, Connecticut 06053" ;
-    <http://example.org/is_instance_of/> location_type:Loan_and_Agency_Services_Group ;
+    isInstanceOf: location_type:Loan_and_Agency_Services_Group ;
     rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
 
 loc:Building_Ops_II%2C_One_Penns_Way%5Cn%5CnNew_Castle%2C_DE_19720 a base:Location ;
     rdfs:label "Building Ops II, One Penns Way\\n\\nNew Castle, DE 19720" ;
-    <http://example.org/is_instance_of/> location_type:Loan_and_Agency_Services_Group ;
+    isInstanceOf: location_type:Loan_and_Agency_Services_Group ;
     rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
 
 <http://example.org/org_name/%5CnSTANLEY_BLACK%C2%A0%26_DECKER%2C_INC.> a base:Organization ;
-    <http://example.org/is_instance_of/> base:Organization ;
+    isInstanceOf: base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:BOFA_SECURITIES%2C_INC.%2C a base:Organization ;
-    <http://example.org/is_instance_of/> base:Organization ;
+    isInstanceOf: base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:CITIBANK%2C_N.A.%2C a base:Organization ;
-    <http://example.org/is_instance_of/> base:Organization ;
+    isInstanceOf: base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 person_name:Carolyn_A._Kee a base:Person ;
     rdfs:label " Carolyn A. Kee" ;
-    <http://example.org/is_instance_of/> person_position:VP ;
+    isInstanceOf: person_position:VP ;
     rel:IsEmployeeOf org_name:Wells_Fargo .
 
 person_name:Michael_Contreras a base:Person ;
     rdfs:label "Michael Contreras" ;
-    <http://example.org/is_instance_of/> person_position:VP ;
+    isInstanceOf: person_position:VP ;
     rel:IsEmployeeOf org_name:Wells_Fargo .
 
 person_name:Robert_T._Paternostro a base:Person ;
     rdfs:label "Robert T. Paternostro" ;
-    <http://example.org/is_instance_of/> person_position:VP ;
+    isInstanceOf: person_position:VP ;
     rel:IsEmployeeOf org_name:Wells_Fargo .
 

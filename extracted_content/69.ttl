@@ -1,4 +1,5 @@
 @prefix base: <http://example.org/base/> .
+@prefix isInstanceOf: <http://example.org/is_instance_of/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
 @prefix org_name: <http://example.org/org_name/> .
@@ -398,32 +399,32 @@ person_position:vice_president a rdfs:Class ;
 
 loc:40_Wantage_Avenue%2C_Branchville%2C_New_Jersey_07890 a base:Location ;
     rdfs:label " 40 Wantage Avenue, Branchville, New Jersey 07890" ;
-    <http://example.org/is_instance_of/> location_type:Loan_and_Agency_Services_Group ;
+    isInstanceOf: location_type:Loan_and_Agency_Services_Group ;
     rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
 
 org_name:BANK_OF_MONTREAL%2C_CHICAGO_BRANCH a base:Organization ;
-    <http://example.org/is_instance_of/> base:Organization ;
+    isInstanceOf: base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/BMO_Capital_Markets_Corp.> a base:Organization ;
-    <http://example.org/is_instance_of/> base:Organization ;
+    isInstanceOf: base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:Borrower%2C a base:Organization ;
-    <http://example.org/is_instance_of/> base:Organization ;
+    isInstanceOf: base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/SELECTIVE_INSURANCE_GROUP%2C_INC.> a base:Organization ;
-    <http://example.org/is_instance_of/> base:Organization ;
+    isInstanceOf: base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 person_name:Benjamin_Mlot a base:Person ;
     rdfs:label "Benjamin Mlot" ;
-    <http://example.org/is_instance_of/> person_position:VP ;
+    isInstanceOf: person_position:VP ;
     rel:IsEmployeeOf org_name:Wells_Fargo .
 
 person_name:Mark_A._Wilcox a base:Person ;
     rdfs:label "Mark A. Wilcox" ;
-    <http://example.org/is_instance_of/> person_position:VP ;
+    isInstanceOf: person_position:VP ;
     rel:IsEmployeeOf org_name:Wells_Fargo .
 

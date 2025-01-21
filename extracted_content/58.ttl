@@ -1,4 +1,5 @@
 @prefix base: <http://example.org/base/> .
+@prefix isInstanceOf: <http://example.org/is_instance_of/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
 @prefix org_name: <http://example.org/org_name/> .
@@ -398,98 +399,98 @@ person_position:vice_president a rdfs:Class ;
 
 loc:430_Airport_Road%5CnGreeneville%2C_Tennessee_37745 a base:Location ;
     rdfs:label "430 Airport Road\\nGreeneville, Tennessee 37745" ;
-    <http://example.org/is_instance_of/> location_type:Loan_and_Agency_Services_Group ;
+    isInstanceOf: location_type:Loan_and_Agency_Services_Group ;
     rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
 
 loc:NC1-026-06-03%5Cn900_W._Trade_St.%5CnCharlotte%2C_NC_28255 a base:Location ;
     rdfs:label "NC1-026-06-03\\n900 W. Trade St.\\nCharlotte, NC 28255" ;
-    <http://example.org/is_instance_of/> location_type:Loan_and_Agency_Services_Group ;
+    isInstanceOf: location_type:Loan_and_Agency_Services_Group ;
     rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
 
 loc:One_Independence_Center%5CnMail_Code%3A_NC1-001-05-46%5CnCharlotte%2C_NC_28255-0001 a base:Location ;
     rdfs:label "One Independence Center\\nMail Code: NC1-001-05-46\\nCharlotte, NC 28255-0001" ;
-    <http://example.org/is_instance_of/> location_type:Loan_and_Agency_Services_Group ;
+    isInstanceOf: location_type:Loan_and_Agency_Services_Group ;
     rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
 
 <http://example.org/location/PA6-580-02-30%5Cn1_Fleet_Way%5CnScranton%2C_PA_18507%5CnAttention%3A_Alfonso_Malave_Jr.> a base:Location ;
     rdfs:label "PA6-580-02-30\\n1 Fleet Way\\nScranton, PA 18507\\nAttention: Alfonso Malave Jr.    " ;
-    <http://example.org/is_instance_of/> location_type:Loan_and_Agency_Services_Group ;
+    isInstanceOf: location_type:Loan_and_Agency_Services_Group ;
     rel:isLocationOf org_name:JPMORGAN_CHASE_BANK_N_A .
 
 org_name:BANK_OF_AMERICA a base:Organization ;
-    <http://example.org/is_instance_of/> base:Organization ;
+    isInstanceOf: base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:CENTRAL_STATES_LOGISTICS%2C_INC a base:Organization ;
-    <http://example.org/is_instance_of/> base:Organization ;
+    isInstanceOf: base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:CENTRAL_STATES_TRUCKING_CO.%2C a base:Organization ;
-    <http://example.org/is_instance_of/> base:Organization ;
+    isInstanceOf: base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:FAF%2C_INC a base:Organization ;
-    <http://example.org/is_instance_of/> base:Organization ;
+    isInstanceOf: base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:FIRST_TENNESSEE_BANK a base:Organization ;
-    <http://example.org/is_instance_of/> base:Organization ;
+    isInstanceOf: base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/FORWARD_AIR%2C_INC.> a base:Organization ;
-    <http://example.org/is_instance_of/> base:Organization ;
+    isInstanceOf: base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:FORWARD_AIR_CORPORATION a base:Organization ;
-    <http://example.org/is_instance_of/> base:Organization ;
+    isInstanceOf: base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:FORWARD_AIR_ROYALTY%2C_LLC%2C a base:Organization ;
-    <http://example.org/is_instance_of/> base:Organization ;
+    isInstanceOf: base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/FORWARD_AIR_SOLUTIONS%2C_INC.> a base:Organization ;
-    <http://example.org/is_instance_of/> base:Organization ;
+    isInstanceOf: base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:FORWARD_AIR_TECHNOLOGY_AND_LOGISTICS_SERVICES%2C_INC.%2C a base:Organization ;
-    <http://example.org/is_instance_of/> base:Organization ;
+    isInstanceOf: base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 org_name:TOTAL_QUALITY%2C_INC.%2C a base:Organization ;
-    <http://example.org/is_instance_of/> base:Organization ;
+    isInstanceOf: base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/TQI_HOLDINGS%2C_INC.> a base:Organization ;
-    <http://example.org/is_instance_of/> base:Organization ;
+    isInstanceOf: base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 <http://example.org/org_name/TQI_INC.> a base:Organization ;
-    <http://example.org/is_instance_of/> base:Organization ;
+    isInstanceOf: base:Organization ;
     rel:hasOrgRole org_role:Finance_Department .
 
 person_name:John_M._Hall a base:Person ;
     rdfs:label "John M. Hall" ;
-    <http://example.org/is_instance_of/> person_position:VP ;
+    isInstanceOf: person_position:VP ;
     rel:IsEmployeeOf org_name:Wells_Fargo .
 
 person_name:Maria_A._McClain a base:Person ;
     rdfs:label "Maria A. McClain" ;
-    <http://example.org/is_instance_of/> person_position:VP ;
+    isInstanceOf: person_position:VP ;
     rel:IsEmployeeOf org_name:Wells_Fargo .
 
 person_name:Matthew_J._Jewell a base:Person ;
     rdfs:label "Matthew J. Jewell" ;
-    <http://example.org/is_instance_of/> person_position:VP ;
+    isInstanceOf: person_position:VP ;
     rel:IsEmployeeOf org_name:Wells_Fargo .
 
 person_name:Rodney_L._Bell a base:Person ;
     rdfs:label "Rodney L. Bell" ;
-    <http://example.org/is_instance_of/> person_position:VP ;
+    isInstanceOf: person_position:VP ;
     rel:IsEmployeeOf org_name:Wells_Fargo .
 
 person_name:Tiffany_E._Gardner a base:Person ;
     rdfs:label "Tiffany E. Gardner" ;
-    <http://example.org/is_instance_of/> person_position:VP ;
+    isInstanceOf: person_position:VP ;
     rel:IsEmployeeOf org_name:Wells_Fargo .
 
