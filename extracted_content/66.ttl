@@ -1,13 +1,13 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
+@prefix ns1: <http://example.org/relation/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -135,10 +135,10 @@ org_role:Joint_Lead_Arranger%2C a rdfs:Class ;
 org_role:Joint_Lead_Arrangers a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:L%2FC_Issuer a rdfs:Class ;
+<http://example.org/org_role/L/C_Issuer> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:L%2FC_Issuer%2C a rdfs:Class ;
+<http://example.org/org_role/L/C_Issuer%2C> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_role:LENDER a rdfs:Class ;
@@ -198,7 +198,7 @@ org_sub_role:Joint_Lead_Arrangers a rdfs:Class ;
 org_sub_role:Joint_Lead_Arrangers%2C a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_sub_role:L%2FC_Issuer a rdfs:Class ;
+<http://example.org/org_sub_role/L/C_Issuer> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_sub_role:Lender a rdfs:Class ;
@@ -400,8 +400,7 @@ person_position:vice_president a rdfs:Class ;
 
 <http://example.org/org_name/%5CnINTESA_SANPAOLO_S.P.A.%2C_NEW_YORK_BRANCH%2C> a base:Organization .
 
-<http://example.org/org_name/%5CnTHE_TORONTO-DOMINION_BANK%2C_NEW_YORK_BRANCH%2C> a base:Organization ;
-    rel:IsinstanceOf base:Organization .
+<http://example.org/org_name/%5CnTHE_TORONTO-DOMINION_BANK%2C_NEW_YORK_BRANCH%2C> a base:Organization .
 
 org_name:BANK_OF_AMERICA%2C_N.A.%2C a base:Organization .
 
@@ -450,16 +449,14 @@ person_name:Thomas_Foley a base:Person .
 person_name:Tracy_Rahn a base:Person .
 
 loc:108_Wilmot_Road%5Cn%5CnDeerfield%2C_IL_60015 a base:Location ;
-    rel:isLocationOf <http://example.org/org_name/%5CnWALGREENS_BOOTS_ALLIANCE%2C_INC.> .
+    ns1:isLocationOf <http://example.org/org_name/%5CnWALGREENS_BOOTS_ALLIANCE%2C_INC.> .
 
 loc:Mizuho_Bank%2C_Ltd.%5Cn%5CnHarborside_Financial_Ctr%5Cn%5Cn1800_Plaza_Ten%5Cn%5CnJersey_City%2C_NJ_07311 a base:Location ;
-    rel:isLocationOf org_name:MIZUHO_BANK%2C_LTD.%2C .
+    ns1:isLocationOf org_name:MIZUHO_BANK%2C_LTD.%2C .
 
 <http://example.org/org_name/%5CnWALGREENS_BOOTS_ALLIANCE%2C_INC.> a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:108_Wilmot_Road%5Cn%5CnDeerfield%2C_IL_60015 .
+    ns1:hasLocationAt loc:108_Wilmot_Road%5Cn%5CnDeerfield%2C_IL_60015 .
 
 org_name:MIZUHO_BANK%2C_LTD.%2C a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:Mizuho_Bank%2C_Ltd.%5Cn%5CnHarborside_Financial_Ctr%5Cn%5Cn1800_Plaza_Ten%5Cn%5CnJersey_City%2C_NJ_07311 .
+    ns1:hasLocationAt loc:Mizuho_Bank%2C_Ltd.%5Cn%5CnHarborside_Financial_Ctr%5Cn%5Cn1800_Plaza_Ten%5Cn%5CnJersey_City%2C_NJ_07311 .
 

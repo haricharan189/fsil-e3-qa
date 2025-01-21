@@ -1,13 +1,13 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
+@prefix ns1: <http://example.org/relation/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -135,10 +135,10 @@ org_role:Joint_Lead_Arranger%2C a rdfs:Class ;
 org_role:Joint_Lead_Arrangers a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:L%2FC_Issuer a rdfs:Class ;
+<http://example.org/org_role/L/C_Issuer> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:L%2FC_Issuer%2C a rdfs:Class ;
+<http://example.org/org_role/L/C_Issuer%2C> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_role:LENDER a rdfs:Class ;
@@ -198,7 +198,7 @@ org_sub_role:Joint_Lead_Arrangers a rdfs:Class ;
 org_sub_role:Joint_Lead_Arrangers%2C a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_sub_role:L%2FC_Issuer a rdfs:Class ;
+<http://example.org/org_sub_role/L/C_Issuer> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_sub_role:Lender a rdfs:Class ;
@@ -403,13 +403,12 @@ person_name:John_Koehler a base:Person .
 person_name:Tracy_D._Jackson a base:Person .
 
 loc:520_Madison_Avenue%5Cn%5CnNew_York%2C_New_York_10022 a base:Location ;
-    rel:isLocationOf <http://example.org/org_name/%5CnJEFFERIES_FINANCE_LLC> .
+    ns1:isLocationOf <http://example.org/org_name/%5CnJEFFERIES_FINANCE_LLC> .
 
 loc:Managing_Director a base:Location ;
-    rel:isLocationOf <http://example.org/org_name/%5CnJEFFERIES_FINANCE_LLC> .
+    ns1:isLocationOf <http://example.org/org_name/%5CnJEFFERIES_FINANCE_LLC> .
 
 <http://example.org/org_name/%5CnJEFFERIES_FINANCE_LLC> a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:520_Madison_Avenue%5Cn%5CnNew_York%2C_New_York_10022,
+    ns1:hasLocationAt loc:520_Madison_Avenue%5Cn%5CnNew_York%2C_New_York_10022,
         loc:Managing_Director .
 

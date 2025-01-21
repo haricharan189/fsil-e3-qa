@@ -1,13 +1,13 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
+@prefix ns1: <http://example.org/relation/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -27,7 +27,8 @@ location_type:Trade_Finance a rdfs:Class ;
 location_type:Trade_Operations a rdfs:Class ;
     rdfs:subClassOf base:Location .
 
-location_type:corporate_headquarters a rdfs:Class ;
+location_type:corporate_headquarters a base:LocationType,
+        rdfs:Class ;
     rdfs:subClassOf base:Location .
 
 <http://example.org/org_role/%5CnBORROWER> a rdfs:Class ;
@@ -135,10 +136,10 @@ org_role:Joint_Lead_Arranger%2C a rdfs:Class ;
 org_role:Joint_Lead_Arrangers a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:L%2FC_Issuer a rdfs:Class ;
+<http://example.org/org_role/L/C_Issuer> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:L%2FC_Issuer%2C a rdfs:Class ;
+<http://example.org/org_role/L/C_Issuer%2C> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_role:LENDER a rdfs:Class ;
@@ -198,7 +199,7 @@ org_sub_role:Joint_Lead_Arrangers a rdfs:Class ;
 org_sub_role:Joint_Lead_Arrangers%2C a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_sub_role:L%2FC_Issuer a rdfs:Class ;
+<http://example.org/org_sub_role/L/C_Issuer> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_sub_role:Lender a rdfs:Class ;
@@ -396,6 +397,8 @@ person_position:treasurer a rdfs:Class ;
 person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
+loc:corporate_headquarters ns1:isLocationOf location_type:corporate_headquarters .
+
 org_name:BANK_OF_MONTREAL%2C_CHICAGO_BRANCH a base:Organization .
 
 <http://example.org/org_name/BMO_Capital_Markets_Corp.> a base:Organization .
@@ -407,9 +410,8 @@ person_name:Benjamin_Mlot a base:Person .
 person_name:Mark_A._Wilcox a base:Person .
 
 loc:40_Wantage_Avenue%2C_Branchville%2C_New_Jersey_07890 a base:Location ;
-    rel:isLocationOf <http://example.org/org_name/SELECTIVE_INSURANCE_GROUP%2C_INC.> .
+    ns1:isLocationOf <http://example.org/org_name/SELECTIVE_INSURANCE_GROUP%2C_INC.> .
 
 <http://example.org/org_name/SELECTIVE_INSURANCE_GROUP%2C_INC.> a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:40_Wantage_Avenue%2C_Branchville%2C_New_Jersey_07890 .
+    ns1:hasLocationAt loc:40_Wantage_Avenue%2C_Branchville%2C_New_Jersey_07890 .
 

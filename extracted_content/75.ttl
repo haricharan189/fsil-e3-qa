@@ -1,13 +1,13 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
+@prefix ns1: <http://example.org/relation/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -15,7 +15,8 @@ base:Organization a rdfs:Class .
 
 base:Person a rdfs:Class .
 
-location_type:Agency_Management a rdfs:Class ;
+location_type:Agency_Management a base:LocationType,
+        rdfs:Class ;
     rdfs:subClassOf base:Location .
 
 location_type:Loan_and_Agency_Services_Group%2C a rdfs:Class ;
@@ -24,7 +25,8 @@ location_type:Loan_and_Agency_Services_Group%2C a rdfs:Class ;
 location_type:Trade_Finance a rdfs:Class ;
     rdfs:subClassOf base:Location .
 
-location_type:Trade_Operations a rdfs:Class ;
+location_type:Trade_Operations a base:LocationType,
+        rdfs:Class ;
     rdfs:subClassOf base:Location .
 
 location_type:corporate_headquarters a rdfs:Class ;
@@ -135,10 +137,10 @@ org_role:Joint_Lead_Arranger%2C a rdfs:Class ;
 org_role:Joint_Lead_Arrangers a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:L%2FC_Issuer a rdfs:Class ;
+<http://example.org/org_role/L/C_Issuer> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:L%2FC_Issuer%2C a rdfs:Class ;
+<http://example.org/org_role/L/C_Issuer%2C> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_role:LENDER a rdfs:Class ;
@@ -198,7 +200,7 @@ org_sub_role:Joint_Lead_Arrangers a rdfs:Class ;
 org_sub_role:Joint_Lead_Arrangers%2C a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_sub_role:L%2FC_Issuer a rdfs:Class ;
+<http://example.org/org_sub_role/L/C_Issuer> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_sub_role:Lender a rdfs:Class ;
@@ -396,6 +398,10 @@ person_position:treasurer a rdfs:Class ;
 person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
+loc:Agency_Management ns1:isLocationOf location_type:Agency_Management .
+
+loc:Trade_Operations ns1:isLocationOf location_type:Trade_Operations .
+
 <http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization .
 
 org_name:CITIGROUP_GLOBAL_MARKETS_INC a base:Organization .
@@ -451,24 +457,22 @@ person_name:Susan_T._Gallagher a base:Person .
 person_name:Tony_Wong a base:Person .
 
 loc:101_North_Tryon_Street%5CnMail_Code%3A_NC1-001-05-46%5CnCharlotte%2C_North_Carolina_28255-0001 a base:Location ;
-    rel:isLocationOf <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+    ns1:isLocationOf <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
 
 loc:1_Fleet_Way%5CnMail_Code%3A_PA6-580-02-30%5CnScranton%2C_Pennsylvania_18507 a base:Location ;
-    rel:isLocationOf <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+    ns1:isLocationOf <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
 
 loc:2401_Utah_Avenue%2C_South%5CnSeattle%2C_Washington_98134 a base:Location ;
-    rel:isLocationOf org_name:STARBUCKS_CORPORATION%2C .
+    ns1:isLocationOf org_name:STARBUCKS_CORPORATION%2C .
 
 loc:Bank_of_America_Plaza%5Cn901_Main_Street%5CnMail_Code%3A_TX1-492-14-11%5CnDallas%2C_Texas_75202 a base:Location ;
-    rel:isLocationOf <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+    ns1:isLocationOf <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
 
 org_name:STARBUCKS_CORPORATION%2C a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:2401_Utah_Avenue%2C_South%5CnSeattle%2C_Washington_98134 .
+    ns1:hasLocationAt loc:2401_Utah_Avenue%2C_South%5CnSeattle%2C_Washington_98134 .
 
 <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:101_North_Tryon_Street%5CnMail_Code%3A_NC1-001-05-46%5CnCharlotte%2C_North_Carolina_28255-0001,
+    ns1:hasLocationAt loc:101_North_Tryon_Street%5CnMail_Code%3A_NC1-001-05-46%5CnCharlotte%2C_North_Carolina_28255-0001,
         loc:1_Fleet_Way%5CnMail_Code%3A_PA6-580-02-30%5CnScranton%2C_Pennsylvania_18507,
         loc:Bank_of_America_Plaza%5Cn901_Main_Street%5CnMail_Code%3A_TX1-492-14-11%5CnDallas%2C_Texas_75202 .
 

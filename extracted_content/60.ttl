@@ -1,13 +1,13 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
+@prefix ns1: <http://example.org/relation/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -135,10 +135,10 @@ org_role:Joint_Lead_Arranger%2C a rdfs:Class ;
 org_role:Joint_Lead_Arrangers a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:L%2FC_Issuer a rdfs:Class ;
+<http://example.org/org_role/L/C_Issuer> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:L%2FC_Issuer%2C a rdfs:Class ;
+<http://example.org/org_role/L/C_Issuer%2C> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_role:LENDER a rdfs:Class ;
@@ -198,7 +198,7 @@ org_sub_role:Joint_Lead_Arrangers a rdfs:Class ;
 org_sub_role:Joint_Lead_Arrangers%2C a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_sub_role:L%2FC_Issuer a rdfs:Class ;
+<http://example.org/org_sub_role/L/C_Issuer> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_sub_role:Lender a rdfs:Class ;
@@ -411,44 +411,38 @@ person_name:James_Pinto a base:Person .
 person_name:John_Paul_Hills a base:Person .
 
 loc:111_South_Wacker_Drive%5Cn%5CnChicago%2C%C2%A0Illinois_60606 a base:Location ;
-    rel:isLocationOf org_name:Locke_Lord_LLP .
+    ns1:isLocationOf org_name:Locke_Lord_LLP .
 
 loc:230_Park_Avenue%5Cn%5CnNew_York%2C_New_York_10169 a base:Location ;
-    rel:isLocationOf <http://example.org/org_name/Otterbourg_P.C.> .
+    ns1:isLocationOf <http://example.org/org_name/Otterbourg_P.C.> .
 
 loc:287_Bowman_Ave_%23_241%5Cn%5CnPurchase%2C_NY_10577 a base:Location ;
-    rel:isLocationOf <http://example.org/org_name/MVC_CAPITAL%2C%C2%A0INC.> .
+    ns1:isLocationOf <http://example.org/org_name/MVC_CAPITAL%2C%C2%A0INC.> .
 
 loc:55_East_Monroe%5Cn%5CnSuite%C2%A03300_Chicago%2C%C2%A0IL_60603 a base:Location ;
-    rel:isLocationOf <http://example.org/org_name/Goldberg_Kohn_LTD.> .
+    ns1:isLocationOf <http://example.org/org_name/Goldberg_Kohn_LTD.> .
 
 loc:830_Morris_Turnpike%2C_3rd%C2%A0Floor%5Cn%5CnShort_Hills%2C_NJ_07078 a base:Location ;
-    rel:isLocationOf <http://example.org/org_name/%5CnSANTANDER_BANK%2C_N.A.%2C> .
+    ns1:isLocationOf <http://example.org/org_name/%5CnSANTANDER_BANK%2C_N.A.%2C> .
 
 loc:at_Wintrust_Bank%5Cn%5Cn231_S._LaSalle_Street%5Cn%5Cn2nd%C2%A0Floor%5Cn%5CnChicago%2C%C2%A0IL_60604 a base:Location ;
-    rel:isLocationOf <http://example.org/org_name/%5CnWintrust_Bank%2C> .
+    ns1:isLocationOf <http://example.org/org_name/%5CnWintrust_Bank%2C> .
 
 <http://example.org/org_name/%5CnSANTANDER_BANK%2C_N.A.%2C> a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:830_Morris_Turnpike%2C_3rd%C2%A0Floor%5Cn%5CnShort_Hills%2C_NJ_07078 .
+    ns1:hasLocationAt loc:830_Morris_Turnpike%2C_3rd%C2%A0Floor%5Cn%5CnShort_Hills%2C_NJ_07078 .
 
 <http://example.org/org_name/%5CnWintrust_Bank%2C> a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:at_Wintrust_Bank%5Cn%5Cn231_S._LaSalle_Street%5Cn%5Cn2nd%C2%A0Floor%5Cn%5CnChicago%2C%C2%A0IL_60604 .
+    ns1:hasLocationAt loc:at_Wintrust_Bank%5Cn%5Cn231_S._LaSalle_Street%5Cn%5Cn2nd%C2%A0Floor%5Cn%5CnChicago%2C%C2%A0IL_60604 .
 
 <http://example.org/org_name/Goldberg_Kohn_LTD.> a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:55_East_Monroe%5Cn%5CnSuite%C2%A03300_Chicago%2C%C2%A0IL_60603 .
+    ns1:hasLocationAt loc:55_East_Monroe%5Cn%5CnSuite%C2%A03300_Chicago%2C%C2%A0IL_60603 .
 
 org_name:Locke_Lord_LLP a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:111_South_Wacker_Drive%5Cn%5CnChicago%2C%C2%A0Illinois_60606 .
+    ns1:hasLocationAt loc:111_South_Wacker_Drive%5Cn%5CnChicago%2C%C2%A0Illinois_60606 .
 
 <http://example.org/org_name/MVC_CAPITAL%2C%C2%A0INC.> a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:287_Bowman_Ave_%23_241%5Cn%5CnPurchase%2C_NY_10577 .
+    ns1:hasLocationAt loc:287_Bowman_Ave_%23_241%5Cn%5CnPurchase%2C_NY_10577 .
 
 <http://example.org/org_name/Otterbourg_P.C.> a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:230_Park_Avenue%5Cn%5CnNew_York%2C_New_York_10169 .
+    ns1:hasLocationAt loc:230_Park_Avenue%5Cn%5CnNew_York%2C_New_York_10169 .
 

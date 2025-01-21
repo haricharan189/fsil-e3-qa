@@ -1,13 +1,13 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
+@prefix ns1: <http://example.org/relation/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -135,10 +135,10 @@ org_role:Joint_Lead_Arranger%2C a rdfs:Class ;
 org_role:Joint_Lead_Arrangers a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:L%2FC_Issuer a rdfs:Class ;
+<http://example.org/org_role/L/C_Issuer> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:L%2FC_Issuer%2C a rdfs:Class ;
+<http://example.org/org_role/L/C_Issuer%2C> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_role:LENDER a rdfs:Class ;
@@ -198,7 +198,7 @@ org_sub_role:Joint_Lead_Arrangers a rdfs:Class ;
 org_sub_role:Joint_Lead_Arrangers%2C a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_sub_role:L%2FC_Issuer a rdfs:Class ;
+<http://example.org/org_sub_role/L/C_Issuer> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_sub_role:Lender a rdfs:Class ;
@@ -405,24 +405,22 @@ person_name:Jonathan_Rose a base:Person .
 person_name:Stephen_J._Neyland a base:Person .
 
 loc:1100_Louisiana%2C_Suite_3300%5Cn%5CnHouston%2C_TX_77002-5217 a base:Location ;
-    rel:isLocationOf <http://example.org/org_name/ENBRIDGE_%28U.S.%29_INC.> .
+    ns1:isLocationOf <http://example.org/org_name/ENBRIDGE_%28U.S.%29_INC.> .
 
 loc:1100_Louisiana%2C_Suite_3300%5CnHouston%2C_TX_77002-5217 a base:Location ;
-    rel:isLocationOf org_name:ENBRIDGE_ENERGY_PARTNERS%2C_L.P.%2C .
+    ns1:isLocationOf org_name:ENBRIDGE_ENERGY_PARTNERS%2C_L.P.%2C .
 
-loc:C%2FO_Enbridge_Inc.%5Cn%5Cn3000%2C_425-1st%5Cn%5CnCalgary%2C_Alberta%2C_Canada a base:Location ;
-    rel:isLocationOf <http://example.org/org_name/ENBRIDGE_%28U.S.%29_INC.> .
+<http://example.org/location/C/O_Enbridge_Inc.%5Cn%5Cn3000%2C_425-1st%5Cn%5CnCalgary%2C_Alberta%2C_Canada> a base:Location ;
+    ns1:isLocationOf <http://example.org/org_name/ENBRIDGE_%28U.S.%29_INC.> .
 
-loc:C%2FO_Enbridge_Inc.%5Cn3000%2C_425-1st%5CnCalgary%2C_Alberta%2C_Canada a base:Location ;
-    rel:isLocationOf org_name:ENBRIDGE_ENERGY_PARTNERS%2C_L.P.%2C .
+<http://example.org/location/C/O_Enbridge_Inc.%5Cn3000%2C_425-1st%5CnCalgary%2C_Alberta%2C_Canada> a base:Location ;
+    ns1:isLocationOf org_name:ENBRIDGE_ENERGY_PARTNERS%2C_L.P.%2C .
 
 <http://example.org/org_name/ENBRIDGE_%28U.S.%29_INC.> a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:1100_Louisiana%2C_Suite_3300%5Cn%5CnHouston%2C_TX_77002-5217,
-        loc:C%2FO_Enbridge_Inc.%5Cn%5Cn3000%2C_425-1st%5Cn%5CnCalgary%2C_Alberta%2C_Canada .
+    ns1:hasLocationAt loc:1100_Louisiana%2C_Suite_3300%5Cn%5CnHouston%2C_TX_77002-5217,
+        <http://example.org/location/C/O_Enbridge_Inc.%5Cn%5Cn3000%2C_425-1st%5Cn%5CnCalgary%2C_Alberta%2C_Canada> .
 
 org_name:ENBRIDGE_ENERGY_PARTNERS%2C_L.P.%2C a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:1100_Louisiana%2C_Suite_3300%5CnHouston%2C_TX_77002-5217,
-        loc:C%2FO_Enbridge_Inc.%5Cn3000%2C_425-1st%5CnCalgary%2C_Alberta%2C_Canada .
+    ns1:hasLocationAt loc:1100_Louisiana%2C_Suite_3300%5CnHouston%2C_TX_77002-5217,
+        <http://example.org/location/C/O_Enbridge_Inc.%5Cn3000%2C_425-1st%5CnCalgary%2C_Alberta%2C_Canada> .
 

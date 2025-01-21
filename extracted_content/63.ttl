@@ -1,13 +1,13 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
+@prefix ns1: <http://example.org/relation/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -15,7 +15,8 @@ base:Organization a rdfs:Class .
 
 base:Person a rdfs:Class .
 
-location_type:Agency_Management a rdfs:Class ;
+location_type:Agency_Management a base:LocationType,
+        rdfs:Class ;
     rdfs:subClassOf base:Location .
 
 location_type:Loan_and_Agency_Services_Group%2C a rdfs:Class ;
@@ -135,10 +136,10 @@ org_role:Joint_Lead_Arranger%2C a rdfs:Class ;
 org_role:Joint_Lead_Arrangers a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:L%2FC_Issuer a rdfs:Class ;
+<http://example.org/org_role/L/C_Issuer> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:L%2FC_Issuer%2C a rdfs:Class ;
+<http://example.org/org_role/L/C_Issuer%2C> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_role:LENDER a rdfs:Class ;
@@ -198,7 +199,7 @@ org_sub_role:Joint_Lead_Arrangers a rdfs:Class ;
 org_sub_role:Joint_Lead_Arrangers%2C a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_sub_role:L%2FC_Issuer a rdfs:Class ;
+<http://example.org/org_sub_role/L/C_Issuer> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_sub_role:Lender a rdfs:Class ;
@@ -396,6 +397,8 @@ person_position:treasurer a rdfs:Class ;
 person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
+loc:Agency_Management ns1:isLocationOf location_type:Agency_Management .
+
 loc:Bank_of_America%2C_N.A.%5Cn%5CnBank_of_America_Plaza%5Cn%5Cn901_Main_St%5Cn%5CnMail_Code%3A_TX1-492-14-11%5Cn%5CnDallas%2C_TX%2C_75202-3714 a base:Location .
 
 loc:Mail_Code%3A_CA5-705-04-09%5Cn%5Cn555_California_Street%2C_4th_Floor%5Cn%5CnSan_Francisco%2C_CA_94104 a base:Location .
@@ -465,16 +468,14 @@ person_name:Tony_Young a base:Person .
 person_name:Tracy_Rahn a base:Person .
 
 loc:222_Merchandise_Mart_Plaza%2C_Suite_1300%5Cn%5CnChicago%2C_IL_60654 a base:Location ;
-    rel:isLocationOf org_name:CONAGRA_BRANDS%2C_INC .
+    ns1:isLocationOf org_name:CONAGRA_BRANDS%2C_INC .
 
 loc:Mizuho_Bank%2C_Ltd.%5Cn%5Cn1800_Plaza_Ten%5Cn%5CnHarborside_Financial_Center%5Cn%5CnJersey_City_State%3A_NJ_07311 a base:Location ;
-    rel:isLocationOf <http://example.org/org_name/MIZUHO_BANK%2C_LTD.> .
+    ns1:isLocationOf <http://example.org/org_name/MIZUHO_BANK%2C_LTD.> .
 
 org_name:CONAGRA_BRANDS%2C_INC a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:222_Merchandise_Mart_Plaza%2C_Suite_1300%5Cn%5CnChicago%2C_IL_60654 .
+    ns1:hasLocationAt loc:222_Merchandise_Mart_Plaza%2C_Suite_1300%5Cn%5CnChicago%2C_IL_60654 .
 
 <http://example.org/org_name/MIZUHO_BANK%2C_LTD.> a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:Mizuho_Bank%2C_Ltd.%5Cn%5Cn1800_Plaza_Ten%5Cn%5CnHarborside_Financial_Center%5Cn%5CnJersey_City_State%3A_NJ_07311 .
+    ns1:hasLocationAt loc:Mizuho_Bank%2C_Ltd.%5Cn%5Cn1800_Plaza_Ten%5Cn%5CnHarborside_Financial_Center%5Cn%5CnJersey_City_State%3A_NJ_07311 .
 

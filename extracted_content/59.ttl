@@ -1,13 +1,13 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
+@prefix ns1: <http://example.org/relation/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -135,10 +135,10 @@ org_role:Joint_Lead_Arranger%2C a rdfs:Class ;
 org_role:Joint_Lead_Arrangers a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:L%2FC_Issuer a rdfs:Class ;
+<http://example.org/org_role/L/C_Issuer> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:L%2FC_Issuer%2C a rdfs:Class ;
+<http://example.org/org_role/L/C_Issuer%2C> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_role:LENDER a rdfs:Class ;
@@ -198,7 +198,7 @@ org_sub_role:Joint_Lead_Arrangers a rdfs:Class ;
 org_sub_role:Joint_Lead_Arrangers%2C a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_sub_role:L%2FC_Issuer a rdfs:Class ;
+<http://example.org/org_sub_role/L/C_Issuer> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_sub_role:Lender a rdfs:Class ;
@@ -407,27 +407,24 @@ person_name:Harold_R._Carpenter a base:Person .
 person_name:Mark_R._Cousineau a base:Person .
 
 loc:150_Third_Avenue_South%5CnNashville%2C_Tennessee_37201 a base:Location ;
-    rel:isLocationOf org_name:PINNACLE_BANK%5Cn .
+    ns1:isLocationOf org_name:PINNACLE_BANK%5Cn .
 
 loc:300_North_LaSalle_Street%2C_Suite%C2%A02400%2C_Chicago%2C_Illinois a base:Location ;
-    rel:isLocationOf org_name:Kirkland_%26_Ellis_LLP .
+    ns1:isLocationOf org_name:Kirkland_%26_Ellis_LLP .
 
 loc:5065_Wooster_Road%2C_CN-OH-L2CB%5CnCincinnati%2C_Ohio_45226-2326 a base:Location ;
-    rel:isLocationOf <http://example.org/org_name/%5CnU.S._BANK_NATIONAL_ASSOCIATION> .
+    ns1:isLocationOf <http://example.org/org_name/%5CnU.S._BANK_NATIONAL_ASSOCIATION> .
 
 loc:One_U.S._Bank_Plaza%5CnSt._Louis%2C_Missouri%C2%A0_63101 a base:Location ;
-    rel:isLocationOf <http://example.org/org_name/%5CnU.S._BANK_NATIONAL_ASSOCIATION> .
+    ns1:isLocationOf <http://example.org/org_name/%5CnU.S._BANK_NATIONAL_ASSOCIATION> .
 
 org_name:Kirkland_%26_Ellis_LLP a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:300_North_LaSalle_Street%2C_Suite%C2%A02400%2C_Chicago%2C_Illinois .
+    ns1:hasLocationAt loc:300_North_LaSalle_Street%2C_Suite%C2%A02400%2C_Chicago%2C_Illinois .
 
 org_name:PINNACLE_BANK%5Cn a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:150_Third_Avenue_South%5CnNashville%2C_Tennessee_37201 .
+    ns1:hasLocationAt loc:150_Third_Avenue_South%5CnNashville%2C_Tennessee_37201 .
 
 <http://example.org/org_name/%5CnU.S._BANK_NATIONAL_ASSOCIATION> a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:5065_Wooster_Road%2C_CN-OH-L2CB%5CnCincinnati%2C_Ohio_45226-2326,
+    ns1:hasLocationAt loc:5065_Wooster_Road%2C_CN-OH-L2CB%5CnCincinnati%2C_Ohio_45226-2326,
         loc:One_U.S._Bank_Plaza%5CnSt._Louis%2C_Missouri%C2%A0_63101 .
 

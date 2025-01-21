@@ -1,13 +1,13 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
+@prefix ns1: <http://example.org/relation/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -21,7 +21,8 @@ location_type:Agency_Management a rdfs:Class ;
 location_type:Loan_and_Agency_Services_Group%2C a rdfs:Class ;
     rdfs:subClassOf base:Location .
 
-location_type:Trade_Finance a rdfs:Class ;
+location_type:Trade_Finance a base:LocationType,
+        rdfs:Class ;
     rdfs:subClassOf base:Location .
 
 location_type:Trade_Operations a rdfs:Class ;
@@ -135,10 +136,10 @@ org_role:Joint_Lead_Arranger%2C a rdfs:Class ;
 org_role:Joint_Lead_Arrangers a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:L%2FC_Issuer a rdfs:Class ;
+<http://example.org/org_role/L/C_Issuer> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:L%2FC_Issuer%2C a rdfs:Class ;
+<http://example.org/org_role/L/C_Issuer%2C> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_role:LENDER a rdfs:Class ;
@@ -198,7 +199,7 @@ org_sub_role:Joint_Lead_Arrangers a rdfs:Class ;
 org_sub_role:Joint_Lead_Arrangers%2C a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_sub_role:L%2FC_Issuer a rdfs:Class ;
+<http://example.org/org_sub_role/L/C_Issuer> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_sub_role:Lender a rdfs:Class ;
@@ -396,6 +397,8 @@ person_position:treasurer a rdfs:Class ;
 person_position:vice_president a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
+loc:Trade_Finance ns1:isLocationOf location_type:Trade_Finance .
+
 org_name:CENTRAL_STATES_LOGISTICS%2C_INC a base:Organization .
 
 org_name:CENTRAL_STATES_TRUCKING_CO.%2C a base:Organization .
@@ -429,24 +432,22 @@ person_name:Rodney_L._Bell a base:Person .
 person_name:Tiffany_E._Gardner a base:Person .
 
 loc:430_Airport_Road%5CnGreeneville%2C_Tennessee_37745 a base:Location ;
-    rel:isLocationOf org_name:FORWARD_AIR_CORPORATION .
+    ns1:isLocationOf org_name:FORWARD_AIR_CORPORATION .
 
 loc:NC1-026-06-03%5Cn900_W._Trade_St.%5CnCharlotte%2C_NC_28255 a base:Location ;
-    rel:isLocationOf org_name:BANK_OF_AMERICA .
+    ns1:isLocationOf org_name:BANK_OF_AMERICA .
 
 loc:One_Independence_Center%5CnMail_Code%3A_NC1-001-05-46%5CnCharlotte%2C_NC_28255-0001 a base:Location ;
-    rel:isLocationOf org_name:BANK_OF_AMERICA .
+    ns1:isLocationOf org_name:BANK_OF_AMERICA .
 
 <http://example.org/location/PA6-580-02-30%5Cn1_Fleet_Way%5CnScranton%2C_PA_18507%5CnAttention%3A_Alfonso_Malave_Jr.> a base:Location ;
-    rel:isLocationOf org_name:BANK_OF_AMERICA .
+    ns1:isLocationOf org_name:BANK_OF_AMERICA .
 
 org_name:FORWARD_AIR_CORPORATION a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:430_Airport_Road%5CnGreeneville%2C_Tennessee_37745 .
+    ns1:hasLocationAt loc:430_Airport_Road%5CnGreeneville%2C_Tennessee_37745 .
 
 org_name:BANK_OF_AMERICA a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:NC1-026-06-03%5Cn900_W._Trade_St.%5CnCharlotte%2C_NC_28255,
+    ns1:hasLocationAt loc:NC1-026-06-03%5Cn900_W._Trade_St.%5CnCharlotte%2C_NC_28255,
         loc:One_Independence_Center%5CnMail_Code%3A_NC1-001-05-46%5CnCharlotte%2C_NC_28255-0001,
         <http://example.org/location/PA6-580-02-30%5Cn1_Fleet_Way%5CnScranton%2C_PA_18507%5CnAttention%3A_Alfonso_Malave_Jr.> .
 

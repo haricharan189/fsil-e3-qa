@@ -1,13 +1,13 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
+@prefix ns1: <http://example.org/relation/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -135,10 +135,10 @@ org_role:Joint_Lead_Arranger%2C a rdfs:Class ;
 org_role:Joint_Lead_Arrangers a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:L%2FC_Issuer a rdfs:Class ;
+<http://example.org/org_role/L/C_Issuer> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:L%2FC_Issuer%2C a rdfs:Class ;
+<http://example.org/org_role/L/C_Issuer%2C> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_role:LENDER a rdfs:Class ;
@@ -198,7 +198,7 @@ org_sub_role:Joint_Lead_Arrangers a rdfs:Class ;
 org_sub_role:Joint_Lead_Arrangers%2C a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_sub_role:L%2FC_Issuer a rdfs:Class ;
+<http://example.org/org_sub_role/L/C_Issuer> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_sub_role:Lender a rdfs:Class ;
@@ -483,24 +483,22 @@ person_name:SAMUEL_COWARD a base:Person .
 person_name:Virginia_Cosenza a base:Person .
 
 loc:1040_Spring_Street%5Cn%5CnSilver_Spring%2C_Maryland_20910 a base:Location ;
-    rel:isLocationOf org_name:UNITED_THERAPEUTICS_CORPORATION .
+    ns1:isLocationOf org_name:UNITED_THERAPEUTICS_CORPORATION .
 
 loc:1735_Connecticut_Avenue%2C_N.W.%5Cn%5CnWashington%2C_District_of_Columbia_20009 a base:Location ;
-    rel:isLocationOf org_name:UNITED_THERAPEUTICS_CORPORATION .
+    ns1:isLocationOf org_name:UNITED_THERAPEUTICS_CORPORATION .
 
 loc:301_South_College_Street%2C_14th_Floor%5Cn%5CnCharlotte%2C_NC_28202 a base:Location ;
-    rel:isLocationOf org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
+    ns1:isLocationOf org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
 
 loc:MAC_D1109-019%5Cn%5Cn1525_West_W.T._Harris_Blvd.%5Cn%5CnCharlotte%2C_NC_28262 a base:Location ;
-    rel:isLocationOf org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
+    ns1:isLocationOf org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
 
 org_name:UNITED_THERAPEUTICS_CORPORATION a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:1040_Spring_Street%5Cn%5CnSilver_Spring%2C_Maryland_20910,
+    ns1:hasLocationAt loc:1040_Spring_Street%5Cn%5CnSilver_Spring%2C_Maryland_20910,
         loc:1735_Connecticut_Avenue%2C_N.W.%5Cn%5CnWashington%2C_District_of_Columbia_20009 .
 
 org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:301_South_College_Street%2C_14th_Floor%5Cn%5CnCharlotte%2C_NC_28202,
+    ns1:hasLocationAt loc:301_South_College_Street%2C_14th_Floor%5Cn%5CnCharlotte%2C_NC_28202,
         loc:MAC_D1109-019%5Cn%5Cn1525_West_W.T._Harris_Blvd.%5Cn%5CnCharlotte%2C_NC_28262 .
 

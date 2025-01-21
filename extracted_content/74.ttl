@@ -1,13 +1,13 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
+@prefix ns1: <http://example.org/relation/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rel: <http://example.org/relation/> .
 
 base:Location a rdfs:Class .
 
@@ -135,10 +135,10 @@ org_role:Joint_Lead_Arranger%2C a rdfs:Class ;
 org_role:Joint_Lead_Arrangers a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:L%2FC_Issuer a rdfs:Class ;
+<http://example.org/org_role/L/C_Issuer> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:L%2FC_Issuer%2C a rdfs:Class ;
+<http://example.org/org_role/L/C_Issuer%2C> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_role:LENDER a rdfs:Class ;
@@ -198,7 +198,7 @@ org_sub_role:Joint_Lead_Arrangers a rdfs:Class ;
 org_sub_role:Joint_Lead_Arrangers%2C a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_sub_role:L%2FC_Issuer a rdfs:Class ;
+<http://example.org/org_sub_role/L/C_Issuer> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_sub_role:Lender a rdfs:Class ;
@@ -439,30 +439,26 @@ person_name:Noam_S._Azachi a base:Person .
 person_name:Timothy_J._Devane a base:Person .
 
 loc:150_South_Wacker_Drive%2C_Suite_2200%5CnChicago%2C_Illinois_60606 a base:Location ;
-    rel:isLocationOf org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
+    ns1:isLocationOf org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
 
 loc:425_Walnut_Street%2C_Suite_1800%5CnCincinnati%2C_Ohio_45202 a base:Location ;
-    rel:isLocationOf org_name:TAFT_STETTINIUS_%26_HOLLISTER_LLP .
+    ns1:isLocationOf org_name:TAFT_STETTINIUS_%26_HOLLISTER_LLP .
 
 loc:550_South_Caldwell_Street%5CnCharlotte%2C_North_Carolina_28202 a base:Location ;
-    rel:isLocationOf <http://example.org/org_name/CHIQUITA_BRANDS_INTERNATIONAL%2C_INC.> .
+    ns1:isLocationOf <http://example.org/org_name/CHIQUITA_BRANDS_INTERNATIONAL%2C_INC.> .
 
 loc:55_East_Monroe_Street%2C_Suite_3300%5CnChicago%2C_Illinois_60603 a base:Location ;
-    rel:isLocationOf <http://example.org/org_name/GOLDBERG_KOHN_LTD.> .
+    ns1:isLocationOf <http://example.org/org_name/GOLDBERG_KOHN_LTD.> .
 
 <http://example.org/org_name/CHIQUITA_BRANDS_INTERNATIONAL%2C_INC.> a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:550_South_Caldwell_Street%5CnCharlotte%2C_North_Carolina_28202 .
+    ns1:hasLocationAt loc:550_South_Caldwell_Street%5CnCharlotte%2C_North_Carolina_28202 .
 
 <http://example.org/org_name/GOLDBERG_KOHN_LTD.> a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:55_East_Monroe_Street%2C_Suite_3300%5CnChicago%2C_Illinois_60603 .
+    ns1:hasLocationAt loc:55_East_Monroe_Street%2C_Suite_3300%5CnChicago%2C_Illinois_60603 .
 
 org_name:TAFT_STETTINIUS_%26_HOLLISTER_LLP a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:425_Walnut_Street%2C_Suite_1800%5CnCincinnati%2C_Ohio_45202 .
+    ns1:hasLocationAt loc:425_Walnut_Street%2C_Suite_1800%5CnCincinnati%2C_Ohio_45202 .
 
 org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
-    rel:IsinstanceOf base:Organization ;
-    rel:hasLocationAt loc:150_South_Wacker_Drive%2C_Suite_2200%5CnChicago%2C_Illinois_60606 .
+    ns1:hasLocationAt loc:150_South_Wacker_Drive%2C_Suite_2200%5CnChicago%2C_Illinois_60606 .
 
