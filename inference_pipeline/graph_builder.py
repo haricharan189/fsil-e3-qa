@@ -122,6 +122,7 @@ class KnowledgeGraphBuilder:
         g.bind("org_sub_role", self.org_sub_role)
         g.bind("location_type", self.location_type)
         g.bind("rel", self.rel)
+        g.bind("isInstanceOf", self.is_instance_of)  # Bind is_instance_of correctly
 
         # Merge the ontology into the data layer graph
         g += ontology_graph
@@ -139,7 +140,7 @@ class KnowledgeGraphBuilder:
                     if label == "Person Name":
                         uri = self.person_name[self._clean_uri(text)]
                         g.add((uri, RDF.type, self.base.Person))  # Declare as instance of base:Person
-                        g.add((uri, self.is_instance_of, self.person_position["VP"]))  # IsInstanceOf VP
+                        g.add((uri, self.is_instance_of, self.person_position["VP"]))  # Use prefixed isInstanceOf
                         g.add((uri, self.rel.IsEmployeeOf, self.org_name["Wells_Fargo"]))  # IsEmployeeOf Wells Fargo
                         g.add((uri, RDFS.label, Literal(text)))  # Add label as literal
                         entities[result["id"]] = {"uri": uri, "label": label}
@@ -148,7 +149,7 @@ class KnowledgeGraphBuilder:
                     elif label == "Organization Name":
                         uri = self.org_name[self._clean_uri(text)]
                         g.add((uri, RDF.type, self.base.Organization))  # Declare as instance of base:Organization
-                        g.add((uri, self.is_instance_of, self.base.Organization))  # IsinstanceOf Organization
+                        g.add((uri, self.is_instance_of, self.base.Organization))  # Use prefixed isInstanceOf
                         role_uri = self.org_role[self._clean_uri("Finance_Department")]
                         g.add((uri, self.rel.hasOrgRole, role_uri))  # Link to role
                         entities[result["id"]] = {"uri": uri, "label": label}
@@ -158,7 +159,7 @@ class KnowledgeGraphBuilder:
                         uri = self.loc[self._clean_uri(text)]
                         g.add((uri, RDF.type, self.base.Location))  # Declare as instance of base:Location
                         location_type_uri = self.location_type[self._clean_uri("Loan_and_Agency_Services_Group")]
-                        g.add((uri, self.is_instance_of, location_type_uri))  # IsInstanceOf location type
+                        g.add((uri, self.is_instance_of, location_type_uri))  # Use prefixed isInstanceOf
                         g.add(
                             (uri, self.rel.isLocationOf, self.org_name[self._clean_uri("JPMORGAN_CHASE_BANK_N_A")])
                         )  # Link to organization
@@ -166,6 +167,7 @@ class KnowledgeGraphBuilder:
                         entities[result["id"]] = {"uri": uri, "label": label}
 
         return g
+
 
 
     def _clean_uri(self, text: str) -> str:
