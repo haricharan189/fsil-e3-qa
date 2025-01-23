@@ -1,136 +1,90 @@
 @prefix base: <http://example.org/base/> .
-@prefix isInstanceOf: <http://example.org/isInstanceOf/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rel: <http://example.org/relation/> .
 
+<http://example.org/org_name/%5CnALLY_BANK> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Ally_Representative,
+        <http://example.org/org_role/L/C_Issuer>,
+        org_role:Lender .
+
+org_name:BGSL_BIG_SKY_FUNDING_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:BGSL_BRECKENRIDGE_FUNDING_LLC%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:BGSL_JACKSON_HOLE_FUNDING_LLC%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/BLACKSTONE_HOLDINGS_FINANCE_CO._L.L.C.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:BLACKSTONE_PRIVATE_CREDIT_FUND a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:EMERALD_DIRECT_LENDING_1_LIMITED_PARTNERSHIP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
 org_name:EMERALD_MURRAY_STREET_LP a base:Organization ;
-    isInstanceOf: org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:EMERALD_SPRING_STREET_LP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:GN_LOAN_FUND_LP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
 
 <http://example.org/org_name/LD_INTERMEDIATE_HOLDINGS%2C_INC.> a base:Organization .
+
+<http://example.org/org_name/LD_TOPCO%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/%5Cnas_Holdings_Topco%2C> .
 
 <http://example.org/org_name/WVLD_ACQUISITION_CORP.> a base:Organization .
 
 <http://example.org/org_name/LD_LOWER_HOLDINGS%2C_INC.> a base:Organization ;
-    isInstanceOf: org_role:Borrower%2C ;
-    rel:hasEmployee person_name:Dawn_M._Wilson .
-
-<http://example.org/org_name/LD_TOPCO%2C_INC.> a base:Organization ;
-    isInstanceOf: <http://example.org/org_role/%5Cnas_Holdings_Topco%2C> ;
+    <http://example.org/isInstanceOf/> org_role:Borrower%2C ;
     rel:hasEmployee person_name:Dawn_M._Wilson .
 
 org_name:WILMINGTON_TRUST%2C_NATIONAL_ASSOCIATION a base:Organization ;
-    isInstanceOf: org_role:Administrative_Agent,
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
         org_role:Collateral_Agent ;
     rel:hasEmployee person_name:Nicole_Kroll .
 
+person_name:Danielle_Spar a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:GOLDMAN_SACHS_BANK_USA .
+
+person_name:Dawn_M._Wilson a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Secretary,
+        person_position:Treasurer ;
+    rel:isEmployedBy <http://example.org/org_name/LD_LOWER_HOLDINGS%2C_INC.> .
+
+person_name:Eric_Liaw a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Person ;
+    rel:isEmployedBy org_name:BLACKSTONE_SECURED_LENDING_FUND .
+
+person_name:Marisa_Beeney a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Person ;
+    rel:isEmployedBy org_name:BLACKSTONE_SECURED_LENDING_FUND .
+
 person_name:Nicole_Kroll a base:Person ;
-    rdfs:label "Nicole Kroll" ;
-    isInstanceOf: person_position:Assistant_Vice_President ;
+    <http://example.org/isInstanceOf/> person_position:Assistant_Vice_President ;
     rel:isEmployedBy org_name:WILMINGTON_TRUST%2C_NATIONAL_ASSOCIATION .
 
-<http://example.org/org_name/%5CnALLY_BANK> a base:Organization ;
-    isInstanceOf: org_role:Ally_Representative,
-        <http://example.org/org_role/L/C_Issuer>,
-        org_role:Lender ;
-    rel:hasEmployee person_name:Danielle_Spar,
-        person_name:Robert_J._Shusterman .
-
-org_name:BGSL_BIG_SKY_FUNDING_LLC a base:Organization ;
-    isInstanceOf: org_role:Lender ;
-    rel:hasEmployee person_name:Eric_Liaw,
-        person_name:Marisa_Beeney .
-
-org_name:BGSL_BRECKENRIDGE_FUNDING_LLC%2C a base:Organization ;
-    isInstanceOf: org_role:Lender ;
-    rel:hasEmployee person_name:Eric_Liaw,
-        person_name:Marisa_Beeney .
-
-org_name:BGSL_JACKSON_HOLE_FUNDING_LLC%2C a base:Organization ;
-    isInstanceOf: org_role:Lender ;
-    rel:hasEmployee person_name:Eric_Liaw,
-        person_name:Marisa_Beeney .
-
-<http://example.org/org_name/BLACKSTONE_HOLDINGS_FINANCE_CO._L.L.C.> a base:Organization ;
-    isInstanceOf: org_role:Lender ;
-    rel:hasEmployee person_name:Eric_Liaw,
-        person_name:Marisa_Beeney .
-
-org_name:BLACKSTONE_PRIVATE_CREDIT_FUND a base:Organization ;
-    isInstanceOf: org_role:Lender ;
-    rel:hasEmployee person_name:Eric_Liaw,
-        person_name:Marisa_Beeney .
+person_name:Robert_J._Shusterman a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:GOLDMAN_SACHS_BANK_USA .
 
 org_name:BLACKSTONE_SECURED_LENDING_FUND a base:Organization ;
-    isInstanceOf: org_role:Lender ;
-    rel:hasEmployee person_name:Eric_Liaw,
-        person_name:Marisa_Beeney .
-
-org_name:EMERALD_DIRECT_LENDING_1_LIMITED_PARTNERSHIP a base:Organization ;
-    isInstanceOf: org_role:Lender ;
-    rel:hasEmployee person_name:Eric_Liaw,
-        person_name:Marisa_Beeney .
-
-org_name:EMERALD_SPRING_STREET_LP a base:Organization ;
-    isInstanceOf: org_role:Lender ;
-    rel:hasEmployee person_name:Eric_Liaw,
-        person_name:Marisa_Beeney .
-
-org_name:GN_LOAN_FUND_LP a base:Organization ;
-    isInstanceOf: org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Eric_Liaw,
         person_name:Marisa_Beeney .
 
 org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
-    isInstanceOf: org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Danielle_Spar,
         person_name:Robert_J._Shusterman .
-
-person_name:Danielle_Spar a base:Person ;
-    rdfs:label "Danielle Spar" ;
-    isInstanceOf: person_position:Authorized_Signatory ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnALLY_BANK>,
-        org_name:GOLDMAN_SACHS_BANK_USA .
-
-person_name:Dawn_M._Wilson a base:Person ;
-    rdfs:label "Dawn M. Wilson" ;
-    isInstanceOf: person_position:Secretary,
-        person_position:Treasurer ;
-    rel:isEmployedBy <http://example.org/org_name/LD_LOWER_HOLDINGS%2C_INC.>,
-        <http://example.org/org_name/LD_TOPCO%2C_INC.> .
-
-person_name:Robert_J._Shusterman a base:Person ;
-    rdfs:label "Robert J. Shusterman" ;
-    isInstanceOf: person_position:Authorized_Signatory ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnALLY_BANK>,
-        org_name:GOLDMAN_SACHS_BANK_USA .
-
-person_name:Eric_Liaw a base:Person ;
-    rdfs:label "Eric Liaw" ;
-    isInstanceOf: person_position:Authorized_Person ;
-    rel:isEmployedBy org_name:BGSL_BIG_SKY_FUNDING_LLC,
-        org_name:BGSL_BRECKENRIDGE_FUNDING_LLC%2C,
-        org_name:BGSL_JACKSON_HOLE_FUNDING_LLC%2C,
-        <http://example.org/org_name/BLACKSTONE_HOLDINGS_FINANCE_CO._L.L.C.>,
-        org_name:BLACKSTONE_PRIVATE_CREDIT_FUND,
-        org_name:BLACKSTONE_SECURED_LENDING_FUND,
-        org_name:EMERALD_DIRECT_LENDING_1_LIMITED_PARTNERSHIP,
-        org_name:EMERALD_SPRING_STREET_LP,
-        org_name:GN_LOAN_FUND_LP .
-
-person_name:Marisa_Beeney a base:Person ;
-    rdfs:label "Marisa Beeney" ;
-    isInstanceOf: person_position:Authorized_Person ;
-    rel:isEmployedBy org_name:BGSL_BIG_SKY_FUNDING_LLC,
-        org_name:BGSL_BRECKENRIDGE_FUNDING_LLC%2C,
-        org_name:BGSL_JACKSON_HOLE_FUNDING_LLC%2C,
-        <http://example.org/org_name/BLACKSTONE_HOLDINGS_FINANCE_CO._L.L.C.>,
-        org_name:BLACKSTONE_PRIVATE_CREDIT_FUND,
-        org_name:BLACKSTONE_SECURED_LENDING_FUND,
-        org_name:EMERALD_DIRECT_LENDING_1_LIMITED_PARTNERSHIP,
-        org_name:EMERALD_SPRING_STREET_LP,
-        org_name:GN_LOAN_FUND_LP .
 

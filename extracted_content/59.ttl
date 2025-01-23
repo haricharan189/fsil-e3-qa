@@ -1,64 +1,58 @@
 @prefix base: <http://example.org/base/> .
-@prefix isInstanceOf: <http://example.org/isInstanceOf/> .
 @prefix loc: <http://example.org/location/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rel: <http://example.org/relation/> .
 
 org_name:PINNACLE_FINANCIAL_PARTNERS%2C_INC a base:Organization ;
-    isInstanceOf: org_sub_role:subsidiary .
+    <http://example.org/isInstanceOf/> org_sub_role:subsidiary .
 
 loc:150_Third_Avenue_South%5CnNashville%2C_Tennessee_37201 a base:Location ;
-    isInstanceOf: base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf org_name:PINNACLE_BANK%5Cn .
 
 loc:300_North_LaSalle_Street%2C_Suite%C2%A02400%2C_Chicago%2C_Illinois a base:Location ;
-    isInstanceOf: base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf org_name:Kirkland_%26_Ellis_LLP .
 
 loc:5065_Wooster_Road%2C_CN-OH-L2CB%5CnCincinnati%2C_Ohio_45226-2326 a base:Location ;
-    isInstanceOf: base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf <http://example.org/org_name/%5CnU.S._BANK_NATIONAL_ASSOCIATION> .
 
 loc:One_U.S._Bank_Plaza%5CnSt._Louis%2C_Missouri%C2%A0_63101 a base:Location ;
-    isInstanceOf: base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf <http://example.org/org_name/%5CnU.S._BANK_NATIONAL_ASSOCIATION> .
 
 org_name:Kirkland_%26_Ellis_LLP a base:Organization ;
-    isInstanceOf: org_sub_role:counsel_to_Lender ;
+    <http://example.org/isInstanceOf/> org_sub_role:counsel_to_Lender ;
     rel:hasLocationAt loc:300_North_LaSalle_Street%2C_Suite%C2%A02400%2C_Chicago%2C_Illinois .
 
 person_name:Cynthia_M._Olson%2C a base:Person ;
-    rdfs:label " Cynthia M. Olson," ;
-    isInstanceOf: person_position:Client_Services_Representative ;
+    <http://example.org/isInstanceOf/> person_position:Client_Services_Representative ;
     rel:isEmployedBy <http://example.org/org_name/%5CnU.S._BANK_NATIONAL_ASSOCIATION> .
 
 person_name:Eric_Niedbalski a base:Person ;
-    rdfs:label "Eric Niedbalski" ;
-    isInstanceOf: person_position:Portfolio_Manager ;
+    <http://example.org/isInstanceOf/> person_position:Portfolio_Manager ;
     rel:isEmployedBy <http://example.org/org_name/%5CnU.S._BANK_NATIONAL_ASSOCIATION> .
 
 person_name:Harold_R._Carpenter a base:Person ;
-    rdfs:label "Harold R. Carpenter" ;
-    isInstanceOf: person_position:Chief_Financial_Officer ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
     rel:isEmployedBy org_name:PINNACLE_BANK%5Cn .
 
 person_name:Mark_R._Cousineau a base:Person ;
-    rdfs:label "Mark R. Cousineau" ;
-    isInstanceOf: person_position:Senior_Vice_President ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
     rel:isEmployedBy <http://example.org/org_name/%5CnU.S._BANK_NATIONAL_ASSOCIATION> .
 
 org_name:PINNACLE_BANK%5Cn a base:Organization ;
-    isInstanceOf: org_role:Borrower ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
     rel:hasEmployee person_name:Harold_R._Carpenter ;
     rel:hasLocationAt loc:150_Third_Avenue_South%5CnNashville%2C_Tennessee_37201 .
 
 <http://example.org/org_name/%5CnU.S._BANK_NATIONAL_ASSOCIATION> a base:Organization ;
-    isInstanceOf: org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Cynthia_M._Olson%2C,
         person_name:Eric_Niedbalski,
         person_name:Mark_R._Cousineau ;

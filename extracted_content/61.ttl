@@ -1,232 +1,194 @@
 @prefix base: <http://example.org/base/> .
-@prefix isInstanceOf: <http://example.org/isInstanceOf/> .
 @prefix loc: <http://example.org/location/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rel: <http://example.org/relation/> .
 
+<http://example.org/org_name/%5CnCITIBANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/%5CnDNB_CAPITAL_LLC> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/%5CnHSBC_BANK_USA%2C_N.A> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
 <http://example.org/org_name/%5CnLUNG_BIOTECHNOLOGY_PBC> a base:Organization ;
-    isInstanceOf: org_role:GUARANTORS .
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
 
 org_name:1109_Spring_Holdings%2C_LLC%2C_a_Delaware_Limited_Liability_Company a base:Organization ;
-    isInstanceOf: org_sub_role:Subsidiaries .
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
 
 org_name:1109_Spring_Managing_Member%2C_LLC%2C_a_Delaware_Limited_Liability_Company a base:Organization ;
-    isInstanceOf: org_sub_role:Subsidiaries .
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
 
 org_name:EvoLung_Inc.%2C_a_Delaware_Corporation a base:Organization ;
-    isInstanceOf: org_sub_role:Subsidiaries .
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
 
 org_name:Lung_Biotechnology_%28Nanjing%29_Co.%2C_Ltd.%2C_a_Chinese_Wholly_Foreign-Owned_Entity a base:Organization ;
-    isInstanceOf: org_sub_role:Subsidiaries .
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
 
 org_name:Lung_Biotechnology_Hong_Kong_Limited%2C_a_Hong_Kong_Company a base:Organization ;
-    isInstanceOf: org_sub_role:Subsidiaries .
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
 
 org_name:Lung_Biotechnology_PBC%2C_a_Delaware_Public_Benefit_Corporation a base:Organization ;
-    isInstanceOf: org_sub_role:Subsidiaries .
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
 
 org_name:Lung_Rx_Limited%2C_a_United_Kingdom_Company a base:Organization ;
-    isInstanceOf: org_sub_role:Subsidiaries .
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
 
 org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED%2C a base:Organization ;
-    isInstanceOf: org_role:Joint_Bookrunners,
+    <http://example.org/isInstanceOf/> org_role:Joint_Bookrunners,
         org_role:Joint_Lead_Arrangers .
 
 org_name:PNC_CAPITAL_MARKETS_LLC%2C a base:Organization ;
-    isInstanceOf: org_role:Joint_Bookrunners,
+    <http://example.org/isInstanceOf/> org_role:Joint_Bookrunners,
         org_role:Joint_Lead_Arrangers .
 
 org_name:Revivicor%2C_Inc.%2C_a_Delaware_Corporation a base:Organization ;
-    isInstanceOf: org_sub_role:Subsidiaries .
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
 
 org_name:UTASIA_Inc.%2C_a_Delaware_Corporation a base:Organization ;
-    isInstanceOf: org_sub_role:Subsidiaries .
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
 
 org_name:UTASIA_Inc._Shanghai_Representative_Office%2C_a_Chinese_Representative_Office a base:Organization ;
-    isInstanceOf: org_sub_role:Subsidiaries .
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
 
 org_name:United_Therapeutics_Europe%2C_Ltd.%2C_a_United_Kingdom_Company a base:Organization ;
-    isInstanceOf: org_sub_role:Subsidiaries .
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
 
 org_name:Unither.com%2C_Inc.%2C_a_Delaware_Corporation a base:Organization ;
-    isInstanceOf: org_sub_role:Subsidiaries .
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
 
 org_name:Unither_Biotech_Inc.%2C_a_Canadian_Corporation a base:Organization ;
-    isInstanceOf: org_sub_role:Subsidiaries .
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
 
 org_name:Unither_Pharma%2C_LLC%2C_a_Delaware_Limited_Liability_Company a base:Organization ;
-    isInstanceOf: org_sub_role:Subsidiaries .
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
 
 org_name:Unither_Pharmaceuticals%2C_LLC%2C_a_Delaware_Limited_Liability_Company a base:Organization ;
-    isInstanceOf: org_sub_role:Subsidiaries .
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
 
 org_name:Unither_Telmed%2C_Ltd.%2C_a_Delaware_Corporation a base:Organization ;
-    isInstanceOf: org_sub_role:Subsidiaries .
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
 
 org_name:Unither_Therapeutik_GmbH%2C_a_German_Company a base:Organization ;
-    isInstanceOf: org_sub_role:Subsidiaries .
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
 
 org_name:WELLS_FARGO_SECURITIES%2C_LLC%2C a base:Organization ;
-    isInstanceOf: org_role:Joint_Bookrunners,
+    <http://example.org/isInstanceOf/> org_role:Joint_Bookrunners,
         org_role:Joint_Lead_Arrangers .
 
 loc:1040_Spring_Street%5Cn%5CnSilver_Spring%2C_Maryland_20910 a base:Location ;
-    isInstanceOf: base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf org_name:UNITED_THERAPEUTICS_CORPORATION .
 
 loc:1735_Connecticut_Avenue%2C_N.W.%5Cn%5CnWashington%2C_District_of_Columbia_20009 a base:Location ;
-    isInstanceOf: base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf org_name:UNITED_THERAPEUTICS_CORPORATION .
 
 loc:301_South_College_Street%2C_14th_Floor%5Cn%5CnCharlotte%2C_NC_28202 a base:Location ;
-    isInstanceOf: base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
 
 loc:MAC_D1109-019%5Cn%5Cn1525_West_W.T._Harris_Blvd.%5Cn%5CnCharlotte%2C_NC_28262 a base:Location ;
-    isInstanceOf: base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
 
 <http://example.org/org_name/%5CnBARCLAYS_BANK_PLC> a base:Organization ;
-    isInstanceOf: org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:SAMUEL_COWARD .
 
 <http://example.org/org_name/%5CnPNC_BANK%2C_NATIONAL_ASSOCIATION> a base:Organization ;
-    isInstanceOf: org_role:Lender,
+    <http://example.org/isInstanceOf/> org_role:Lender,
         org_role:co-Syndication_Agents ;
     rel:hasEmployee person_name:Bremmer_Kneib .
 
 <http://example.org/org_name/%5CnTHE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C%C2%A0LTD.> a base:Organization ;
-    isInstanceOf: org_role:Joint_Bookrunners,
+    <http://example.org/isInstanceOf/> org_role:Joint_Bookrunners,
         org_role:Lender,
         org_role:co-Syndication_Agents ;
     rel:hasEmployee person_name:Brian_McNany .
 
+person_name:Anthony_Galea a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG_NEW_YORK_BRANCH> .
+
 person_name:Bremmer_Kneib a base:Person ;
-    rdfs:label "Bremmer Kneib" ;
-    isInstanceOf: person_position:Vice_President%5Cn%5Cn ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President%5Cn%5Cn ;
     rel:isEmployedBy <http://example.org/org_name/%5CnPNC_BANK%2C_NATIONAL_ASSOCIATION> .
 
 person_name:Brian_McNany a base:Person ;
-    rdfs:label "Brian McNany" ;
-    isInstanceOf: person_position:Director ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
     rel:isEmployedBy <http://example.org/org_name/%5CnTHE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C%C2%A0LTD.> .
 
 person_name:James_Edgemond a base:Person ;
-    rdfs:label "James Edgemond" ;
-    isInstanceOf: person_position:Chief_Financial_Officer_and_Treasurer ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer_and_Treasurer ;
     rel:isEmployedBy org_name:UNITED_THERAPEUTICS_CORPORATION .
 
+<http://example.org/person_name/John_P._Treadwell_Jr.> a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG_NEW_YORK_BRANCH> .
+
 person_name:Kirk_Tesch a base:Person ;
-    rdfs:label "Kirk Tesch" ;
-    isInstanceOf: person_position:Managing_Director ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
     rel:isEmployedBy org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
 
+person_name:Kristie_Li a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnBANK_OF_AMERICA%2C_N.A.> .
+
+person_name:Marni_McManus a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG_NEW_YORK_BRANCH> .
+
+person_name:Ming_K._Chu a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG_NEW_YORK_BRANCH> .
+
+person_name:Philip_F._Kurpiewski a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG_NEW_YORK_BRANCH> .
+
+person_name:Robert_LaPorte a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnBANK_OF_AMERICA%2C_N.A.> .
+
 person_name:SAMUEL_COWARD a base:Person ;
-    rdfs:label "SAMUEL COWARD" ;
-    isInstanceOf: person_position:VICE_PRESIDENT ;
+    <http://example.org/isInstanceOf/> person_position:VICE_PRESIDENT ;
     rel:isEmployedBy <http://example.org/org_name/%5CnBARCLAYS_BANK_PLC> .
 
+person_name:Virginia_Cosenza a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG_NEW_YORK_BRANCH> .
+
 <http://example.org/org_name/%5CnBANK_OF_AMERICA%2C_N.A.> a base:Organization ;
-    isInstanceOf: org_role:Lender,
+    <http://example.org/isInstanceOf/> org_role:Lender,
         org_role:co-Syndication_Agents ;
     rel:hasEmployee person_name:Kristie_Li,
         person_name:Robert_LaPorte .
 
-person_name:Kristie_Li a base:Person ;
-    rdfs:label "Kristie Li" ;
-    isInstanceOf: person_position:Senior_Vice_President ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnBANK_OF_AMERICA%2C_N.A.>,
-        <http://example.org/org_name/%5CnDNB_CAPITAL_LLC> .
-
-person_name:Robert_LaPorte a base:Person ;
-    rdfs:label "Robert LaPorte" ;
-    isInstanceOf: person_position:Senior_Vice_President ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnBANK_OF_AMERICA%2C_N.A.>,
-        <http://example.org/org_name/%5CnDNB_CAPITAL_LLC> .
-
 org_name:UNITED_THERAPEUTICS_CORPORATION a base:Organization ;
-    isInstanceOf: <http://example.org/org_role/%5CnBORROWER> ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnBORROWER> ;
     rel:hasEmployee person_name:James_Edgemond ;
     rel:hasLocationAt loc:1040_Spring_Street%5Cn%5CnSilver_Spring%2C_Maryland_20910,
         loc:1735_Connecticut_Avenue%2C_N.W.%5Cn%5CnWashington%2C_District_of_Columbia_20009 .
 
 org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
-    isInstanceOf: org_role:Administrative_Agent%2C,
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent%2C,
         org_role:Lender ;
     rel:hasEmployee person_name:Kirk_Tesch ;
     rel:hasLocationAt loc:301_South_College_Street%2C_14th_Floor%5Cn%5CnCharlotte%2C_NC_28202,
         loc:MAC_D1109-019%5Cn%5Cn1525_West_W.T._Harris_Blvd.%5Cn%5CnCharlotte%2C_NC_28262 .
 
-person_name:Anthony_Galea a base:Person ;
-    rdfs:label "Anthony Galea" ;
-    isInstanceOf: person_position:Vice_President ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnCITIBANK%2C_N.A.>,
-        <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG_NEW_YORK_BRANCH>,
-        <http://example.org/org_name/%5CnDNB_CAPITAL_LLC>,
-        <http://example.org/org_name/%5CnHSBC_BANK_USA%2C_N.A>,
-        <http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK%2C_N.A.> .
-
-<http://example.org/person_name/John_P._Treadwell_Jr.> a base:Person ;
-    rdfs:label " John P. Treadwell Jr." ;
-    isInstanceOf: person_position:Vice_President ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnCITIBANK%2C_N.A.>,
-        <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG_NEW_YORK_BRANCH>,
-        <http://example.org/org_name/%5CnDNB_CAPITAL_LLC>,
-        <http://example.org/org_name/%5CnHSBC_BANK_USA%2C_N.A>,
-        <http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK%2C_N.A.> .
-
-person_name:Marni_McManus a base:Person ;
-    rdfs:label "Marni McManus" ;
-    isInstanceOf: person_position:Vice_President ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnCITIBANK%2C_N.A.>,
-        <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG_NEW_YORK_BRANCH>,
-        <http://example.org/org_name/%5CnDNB_CAPITAL_LLC>,
-        <http://example.org/org_name/%5CnHSBC_BANK_USA%2C_N.A>,
-        <http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK%2C_N.A.> .
-
-person_name:Ming_K._Chu a base:Person ;
-    rdfs:label "Ming K. Chu" ;
-    isInstanceOf: person_position:Vice_President ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnCITIBANK%2C_N.A.>,
-        <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG_NEW_YORK_BRANCH>,
-        <http://example.org/org_name/%5CnDNB_CAPITAL_LLC>,
-        <http://example.org/org_name/%5CnHSBC_BANK_USA%2C_N.A>,
-        <http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK%2C_N.A.> .
-
-person_name:Philip_F._Kurpiewski a base:Person ;
-    rdfs:label "Philip F. Kurpiewski" ;
-    isInstanceOf: person_position:Vice_President ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnCITIBANK%2C_N.A.>,
-        <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG_NEW_YORK_BRANCH>,
-        <http://example.org/org_name/%5CnDNB_CAPITAL_LLC>,
-        <http://example.org/org_name/%5CnHSBC_BANK_USA%2C_N.A>,
-        <http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK%2C_N.A.> .
-
-person_name:Virginia_Cosenza a base:Person ;
-    rdfs:label "Virginia Cosenza" ;
-    isInstanceOf: person_position:Vice_President ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnCITIBANK%2C_N.A.>,
-        <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG_NEW_YORK_BRANCH>,
-        <http://example.org/org_name/%5CnDNB_CAPITAL_LLC>,
-        <http://example.org/org_name/%5CnHSBC_BANK_USA%2C_N.A>,
-        <http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK%2C_N.A.> .
-
-<http://example.org/org_name/%5CnCITIBANK%2C_N.A.> a base:Organization ;
-    isInstanceOf: org_role:Lender ;
-    rel:hasEmployee person_name:Anthony_Galea,
-        <http://example.org/person_name/John_P._Treadwell_Jr.>,
-        person_name:Marni_McManus,
-        person_name:Ming_K._Chu,
-        person_name:Philip_F._Kurpiewski,
-        person_name:Virginia_Cosenza .
-
 <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG_NEW_YORK_BRANCH> a base:Organization ;
-    isInstanceOf: org_role:Joint_Lead_Arrangers,
+    <http://example.org/isInstanceOf/> org_role:Joint_Lead_Arrangers,
         org_role:Lender,
         org_role:co-Syndication_Agents ;
     rel:hasEmployee person_name:Anthony_Galea,
@@ -234,34 +196,5 @@ person_name:Virginia_Cosenza a base:Person ;
         person_name:Marni_McManus,
         person_name:Ming_K._Chu,
         person_name:Philip_F._Kurpiewski,
-        person_name:Virginia_Cosenza .
-
-<http://example.org/org_name/%5CnHSBC_BANK_USA%2C_N.A> a base:Organization ;
-    isInstanceOf: org_role:Lender ;
-    rel:hasEmployee person_name:Anthony_Galea,
-        <http://example.org/person_name/John_P._Treadwell_Jr.>,
-        person_name:Marni_McManus,
-        person_name:Ming_K._Chu,
-        person_name:Philip_F._Kurpiewski,
-        person_name:Virginia_Cosenza .
-
-<http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
-    isInstanceOf: org_role:Lender ;
-    rel:hasEmployee person_name:Anthony_Galea,
-        <http://example.org/person_name/John_P._Treadwell_Jr.>,
-        person_name:Marni_McManus,
-        person_name:Ming_K._Chu,
-        person_name:Philip_F._Kurpiewski,
-        person_name:Virginia_Cosenza .
-
-<http://example.org/org_name/%5CnDNB_CAPITAL_LLC> a base:Organization ;
-    isInstanceOf: org_role:Lender ;
-    rel:hasEmployee person_name:Anthony_Galea,
-        <http://example.org/person_name/John_P._Treadwell_Jr.>,
-        person_name:Kristie_Li,
-        person_name:Marni_McManus,
-        person_name:Ming_K._Chu,
-        person_name:Philip_F._Kurpiewski,
-        person_name:Robert_LaPorte,
         person_name:Virginia_Cosenza .
 

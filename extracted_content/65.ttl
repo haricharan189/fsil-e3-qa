@@ -1,100 +1,78 @@
 @prefix base: <http://example.org/base/> .
-@prefix isInstanceOf: <http://example.org/isInstanceOf/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rel: <http://example.org/relation/> .
 
-person_name:Gene_Riego_de_Dios a base:Person ;
-    rdfs:label "Gene Riego de Dios" ;
-    isInstanceOf: person_position:Executive_Director .
+org_name:BARCLAYS_BANK_PLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Initial_Lender .
 
-person_name:Ming_K._Chu a base:Person ;
-    rdfs:label "Ming K. Chu" .
+<http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Initial_Lender .
+
+person_name:Gene_Riego_de_Dios a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director .
+
+person_name:Ming_K._Chu a base:Person .
 
 loc:Director a base:Location ;
-    isInstanceOf: base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf org_name:DEUTSCHE_BANK_AG_NEW_YORK_BRANCH%2C .
 
 loc:Floor_3%2C_Ops_2%5Cn%5Cn500_Stanton_Christiana_Rd.%5Cn%5CnNewark%2C_DE_19713 a base:Location ;
-    isInstanceOf: base:Location,
+    <http://example.org/isInstanceOf/> base:Location,
         location_type:Loan_and_Agency_Services_Group%2C ;
     rel:isLocationOf org_name:JPMORGAN_CHASE_BANK%2C_N.A .
 
+org_name:DEUTSCHE_BANK_AG_NEW_YORK_BRANCH%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Initial_Lender ;
+    rel:hasLocationAt loc:Director .
+
 org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
-    isInstanceOf: org_role:Initial_Lender ;
+    <http://example.org/isInstanceOf/> org_role:Initial_Lender ;
     rel:hasEmployee person_name:Robert_Ehudin .
 
 org_name:JPMORGAN_CHASE_BANK%2C_N.A a base:Organization ;
-    isInstanceOf: org_role:Administrative_Agent,
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
         org_role:Initial_Lender ;
     rel:hasLocationAt loc:Floor_3%2C_Ops_2%5Cn%5Cn500_Stanton_Christiana_Rd.%5Cn%5CnNewark%2C_DE_19713 .
 
+person_name:Carolyn_Kee a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/HONEYWELL_INTERNATIONAL_INC.> .
+
+person_name:Craig_Malloy a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
 person_name:John_J._Tus a base:Person ;
-    rdfs:label "John J. Tus" ;
-    isInstanceOf: person_position:Treasurer,
+    <http://example.org/isInstanceOf/> person_position:Treasurer,
         person_position:Vice_President ;
     rel:isEmployedBy <http://example.org/org_name/HONEYWELL_INTERNATIONAL_INC.> .
 
+person_name:Mukesh_Singh a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
 person_name:Robert_Ehudin a base:Person ;
-    rdfs:label "Robert Ehudin" ;
-    isInstanceOf: person_position:Authorized_Signatory ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
     rel:isEmployedBy org_name:GOLDMAN_SACHS_BANK_USA .
 
+person_name:Virginia_Cosenza a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/HONEYWELL_INTERNATIONAL_INC.> .
+
 <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
-    isInstanceOf: org_role:Initial_Lender ;
+    <http://example.org/isInstanceOf/> org_role:Initial_Lender ;
     rel:hasEmployee person_name:Craig_Malloy,
         person_name:Mukesh_Singh .
-
-org_name:BARCLAYS_BANK_PLC a base:Organization ;
-    isInstanceOf: org_role:Initial_Lender ;
-    rel:hasEmployee person_name:Craig_Malloy,
-        person_name:Mukesh_Singh .
-
-<http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization ;
-    isInstanceOf: org_role:Initial_Lender ;
-    rel:hasEmployee person_name:Carolyn_Kee,
-        person_name:Virginia_Cosenza .
-
-person_name:Craig_Malloy a base:Person ;
-    rdfs:label " Craig Malloy" ;
-    isInstanceOf: person_position:Director ;
-    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.>,
-        org_name:BARCLAYS_BANK_PLC .
-
-person_name:Mukesh_Singh a base:Person ;
-    rdfs:label "Mukesh Singh" ;
-    isInstanceOf: person_position:Director ;
-    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.>,
-        org_name:BARCLAYS_BANK_PLC .
-
-org_name:DEUTSCHE_BANK_AG_NEW_YORK_BRANCH%2C a base:Organization ;
-    isInstanceOf: org_role:Initial_Lender ;
-    rel:hasEmployee person_name:Carolyn_Kee,
-        person_name:Virginia_Cosenza ;
-    rel:hasLocationAt loc:Director .
 
 <http://example.org/org_name/HONEYWELL_INTERNATIONAL_INC.> a base:Organization ;
-    isInstanceOf: org_role:Borrower%2C ;
+    <http://example.org/isInstanceOf/> org_role:Borrower%2C ;
     rel:hasEmployee person_name:Carolyn_Kee,
         person_name:John_J._Tus,
         person_name:Virginia_Cosenza .
-
-person_name:Carolyn_Kee a base:Person ;
-    rdfs:label "Carolyn Kee" ;
-    isInstanceOf: person_position:Vice_President ;
-    rel:isEmployedBy <http://example.org/org_name/CITIBANK%2C_N.A.>,
-        org_name:DEUTSCHE_BANK_AG_NEW_YORK_BRANCH%2C,
-        <http://example.org/org_name/HONEYWELL_INTERNATIONAL_INC.> .
-
-person_name:Virginia_Cosenza a base:Person ;
-    rdfs:label "Virginia Cosenza" ;
-    isInstanceOf: person_position:Vice_President ;
-    rel:isEmployedBy <http://example.org/org_name/CITIBANK%2C_N.A.>,
-        org_name:DEUTSCHE_BANK_AG_NEW_YORK_BRANCH%2C,
-        <http://example.org/org_name/HONEYWELL_INTERNATIONAL_INC.> .
 

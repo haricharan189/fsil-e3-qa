@@ -1,23 +1,59 @@
 @prefix base: <http://example.org/base/> .
-@prefix isInstanceOf: <http://example.org/isInstanceOf/> .
 @prefix loc: <http://example.org/location/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rel: <http://example.org/relation/> .
 
+<http://example.org/org_name/%5CnCREDIT_AGRICOLE_CORPORATE_AND_INVESTMENT_BANK> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/%5CnCREDIT_SUISSE_AG%2C_CAYMAN_ISLANDS_BRANCH> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/%5CnMORGAN_STANLEY_SENIOR_FUNDING%2C_INC> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/%5CnMUFG_BANK%2C_LTD> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/%5CnSILICON_VALLEY_BANK> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Collateral_Agent,
+        <http://example.org/org_role/L/C_Issuer>,
+        org_role:Lender .
+
+<http://example.org/org_name/%5CnVIVINT_SOLAR%2C_INC> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR .
+
+<http://example.org/org_name/%5CnVIVINT_SOLAR_HOLDINGS%2C_INC> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR .
+
+<http://example.org/org_name/%5CnVIVINT_SOLAR_OPERATIONS%2C_LLC> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR .
+
+org_name:AEE_SOLAR_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR .
+
+org_name:SUNRUN_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER%3A .
+
+org_name:SUNRUN_INSTALLATION_SERVICES_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR .
+
+org_name:SUNRUN_SOUTH_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR .
+
 <http://example.org/org_name/%5CnBANK_OF_AMERICA%2C_N.A.> a base:Organization ;
-    isInstanceOf: org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Holli_Balzar .
 
 <http://example.org/org_name/%5CnCLEAN_ENERGY_EXPERTS_LLC> a base:Organization ;
-    isInstanceOf: org_role:GUARANTOR ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR ;
     rel:hasEmployee person_name:Jeanna_Steele .
 
 <http://example.org/org_name/%5CnKEYBANK_NATIONAL_ASSOCIATION> a base:Organization ;
-    isInstanceOf: org_role:Administrative_Agent,
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
         <http://example.org/org_role/L/C_Issuer>,
         org_role:Lender ;
     rel:hasEmployee person_name:Jonathan_M._Bouvet .
@@ -28,205 +64,89 @@ org_name:KEYBANC_CAPITAL_MARKETS_INC.%2C a base:Organization ;
 org_name:MUFG_BANK%2C_LTD.%2C a base:Organization ;
     rel:hasLocationAt loc:Arranger .
 
+person_name:Andrew_Sidford a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG%2C_NEW_YORK_BRANCH%2C> .
+
 person_name:Holli_Balzar a base:Person ;
-    rdfs:label "Holli Balzar" ;
-    isInstanceOf: person_position:Vice_President ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
     rel:isEmployedBy <http://example.org/org_name/%5CnBANK_OF_AMERICA%2C_N.A.> .
 
 person_name:Jeanna_Steele a base:Person ;
-    rdfs:label "Jeanna Steele" ;
-    isInstanceOf: person_position:Secretary ;
+    <http://example.org/isInstanceOf/> person_position:Secretary ;
     rel:isEmployedBy <http://example.org/org_name/%5CnCLEAN_ENERGY_EXPERTS_LLC> .
 
+person_name:Jeremy_Eisman a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG%2C_NEW_YORK_BRANCH%2C> .
+
 person_name:Jonathan_M._Bouvet a base:Person ;
-    rdfs:label " Jonathan M. Bouvet" ;
-    isInstanceOf: person_position:Senior_Vice_President ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
     rel:isEmployedBy <http://example.org/org_name/%5CnKEYBANK_NATIONAL_ASSOCIATION> .
 
+person_name:Jordan_Kanis a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG%2C_NEW_YORK_BRANCH%2C> .
+
+person_name:Komal_Shah a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA%2C> .
+
+person_name:Kyle_Hatze a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG%2C_NEW_YORK_BRANCH%2C> .
+
+person_name:Mark_W._Condon a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA%2C> .
+
+person_name:Michael_Agrimis a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG%2C_NEW_YORK_BRANCH%2C> .
+
+person_name:Michael_King a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA%2C> .
+
+person_name:Myra_Martinez a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG%2C_NEW_YORK_BRANCH%2C> .
+
+person_name:Nawshaer_Safi a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA%2C> .
+
+person_name:Paul_Dickson a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnVIVINT_SOLAR_DEVELOPER%2C_LLC%2C> .
+
+person_name:Tom_vonReichbauer a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnVIVINT_SOLAR_DEVELOPER%2C_LLC%2C> .
+
 loc:Arranger a base:Location ;
-    isInstanceOf: base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf org_name:KEYBANC_CAPITAL_MARKETS_INC.%2C,
         org_name:MUFG_BANK%2C_LTD.%2C .
 
-<http://example.org/org_name/%5CnVIVINT_SOLAR%2C_INC> a base:Organization ;
-    isInstanceOf: org_role:GUARANTOR ;
-    rel:hasEmployee person_name:Paul_Dickson,
-        person_name:Tom_vonReichbauer .
-
 <http://example.org/org_name/%5CnVIVINT_SOLAR_DEVELOPER%2C_LLC%2C> a base:Organization ;
-    isInstanceOf: org_role:GUARANTOR ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR ;
     rel:hasEmployee person_name:Paul_Dickson,
         person_name:Tom_vonReichbauer .
-
-<http://example.org/org_name/%5CnVIVINT_SOLAR_HOLDINGS%2C_INC> a base:Organization ;
-    isInstanceOf: org_role:GUARANTOR ;
-    rel:hasEmployee person_name:Paul_Dickson,
-        person_name:Tom_vonReichbauer .
-
-<http://example.org/org_name/%5CnVIVINT_SOLAR_OPERATIONS%2C_LLC> a base:Organization ;
-    isInstanceOf: org_role:GUARANTOR ;
-    rel:hasEmployee person_name:Paul_Dickson,
-        person_name:Tom_vonReichbauer .
-
-org_name:AEE_SOLAR_INC a base:Organization ;
-    isInstanceOf: org_role:GUARANTOR ;
-    rel:hasEmployee person_name:Paul_Dickson,
-        person_name:Tom_vonReichbauer .
-
-org_name:SUNRUN_INC a base:Organization ;
-    isInstanceOf: org_role:BORROWER%3A ;
-    rel:hasEmployee person_name:Paul_Dickson,
-        person_name:Tom_vonReichbauer .
-
-org_name:SUNRUN_INSTALLATION_SERVICES_INC a base:Organization ;
-    isInstanceOf: org_role:GUARANTOR ;
-    rel:hasEmployee person_name:Paul_Dickson,
-        person_name:Tom_vonReichbauer .
-
-org_name:SUNRUN_SOUTH_LLC a base:Organization ;
-    isInstanceOf: org_role:GUARANTOR ;
-    rel:hasEmployee person_name:Paul_Dickson,
-        person_name:Tom_vonReichbauer .
-
-person_name:Kyle_Hatze a base:Person ;
-    rdfs:label "Kyle Hatze" ;
-    isInstanceOf: person_position:Director ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG%2C_NEW_YORK_BRANCH%2C>,
-        <http://example.org/org_name/%5CnMUFG_BANK%2C_LTD> .
-
-person_name:Michael_Agrimis a base:Person ;
-    rdfs:label "Michael Agrimis" ;
-    isInstanceOf: person_position:Director ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG%2C_NEW_YORK_BRANCH%2C>,
-        <http://example.org/org_name/%5CnMUFG_BANK%2C_LTD> .
-
-person_name:Myra_Martinez a base:Person ;
-    rdfs:label "Myra Martinez" ;
-    isInstanceOf: person_position:Director ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG%2C_NEW_YORK_BRANCH%2C>,
-        <http://example.org/org_name/%5CnMUFG_BANK%2C_LTD> .
-
-<http://example.org/org_name/%5CnCREDIT_AGRICOLE_CORPORATE_AND_INVESTMENT_BANK> a base:Organization ;
-    isInstanceOf: org_role:Lender ;
-    rel:hasEmployee person_name:Andrew_Sidford,
-        person_name:Jeremy_Eisman,
-        person_name:Jordan_Kanis .
-
-<http://example.org/org_name/%5CnMUFG_BANK%2C_LTD> a base:Organization ;
-    isInstanceOf: org_role:Lender ;
-    rel:hasEmployee person_name:Kyle_Hatze,
-        person_name:Michael_Agrimis,
-        person_name:Myra_Martinez .
-
-<http://example.org/org_name/%5CnSILICON_VALLEY_BANK> a base:Organization ;
-    isInstanceOf: org_role:Collateral_Agent,
-        <http://example.org/org_role/L/C_Issuer>,
-        org_role:Lender ;
-    rel:hasEmployee person_name:Andrew_Sidford,
-        person_name:Jeremy_Eisman,
-        person_name:Jordan_Kanis .
-
-person_name:Andrew_Sidford a base:Person ;
-    rdfs:label "Andrew Sidford" ;
-    isInstanceOf: person_position:Managing_Director ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnCREDIT_AGRICOLE_CORPORATE_AND_INVESTMENT_BANK>,
-        <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG%2C_NEW_YORK_BRANCH%2C>,
-        <http://example.org/org_name/%5CnSILICON_VALLEY_BANK> .
-
-person_name:Jeremy_Eisman a base:Person ;
-    rdfs:label "Jeremy Eisman" ;
-    isInstanceOf: person_position:Managing_Director ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnCREDIT_AGRICOLE_CORPORATE_AND_INVESTMENT_BANK>,
-        <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG%2C_NEW_YORK_BRANCH%2C>,
-        <http://example.org/org_name/%5CnSILICON_VALLEY_BANK> .
-
-person_name:Jordan_Kanis a base:Person ;
-    rdfs:label "Jordan Kanis" ;
-    isInstanceOf: person_position:Managing_Director ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnCREDIT_AGRICOLE_CORPORATE_AND_INVESTMENT_BANK>,
-        <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG%2C_NEW_YORK_BRANCH%2C>,
-        <http://example.org/org_name/%5CnSILICON_VALLEY_BANK> .
-
-person_name:Komal_Shah a base:Person ;
-    rdfs:label "Komal Shah" ;
-    isInstanceOf: person_position:Authorized_Signatory ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnCREDIT_SUISSE_AG%2C_CAYMAN_ISLANDS_BRANCH>,
-        <http://example.org/org_name/%5CnMORGAN_STANLEY_SENIOR_FUNDING%2C_INC>,
-        <http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA%2C> .
-
-person_name:Mark_W._Condon a base:Person ;
-    rdfs:label " 	Mark W. Condon" ;
-    isInstanceOf: person_position:Authorized_Signatory ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnCREDIT_SUISSE_AG%2C_CAYMAN_ISLANDS_BRANCH>,
-        <http://example.org/org_name/%5CnMORGAN_STANLEY_SENIOR_FUNDING%2C_INC>,
-        <http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA%2C> .
-
-person_name:Michael_King a base:Person ;
-    rdfs:label "	Michael King" ;
-    isInstanceOf: person_position:Authorized_Signatory ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnCREDIT_SUISSE_AG%2C_CAYMAN_ISLANDS_BRANCH>,
-        <http://example.org/org_name/%5CnMORGAN_STANLEY_SENIOR_FUNDING%2C_INC>,
-        <http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA%2C> .
-
-person_name:Nawshaer_Safi a base:Person ;
-    rdfs:label "Nawshaer Safi" ;
-    isInstanceOf: person_position:Authorized_Signatory ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnCREDIT_SUISSE_AG%2C_CAYMAN_ISLANDS_BRANCH>,
-        <http://example.org/org_name/%5CnMORGAN_STANLEY_SENIOR_FUNDING%2C_INC>,
-        <http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA%2C> .
-
-<http://example.org/org_name/%5CnCREDIT_SUISSE_AG%2C_CAYMAN_ISLANDS_BRANCH> a base:Organization ;
-    isInstanceOf: org_role:Lender ;
-    rel:hasEmployee person_name:Komal_Shah,
-        person_name:Mark_W._Condon,
-        person_name:Michael_King,
-        person_name:Nawshaer_Safi .
-
-<http://example.org/org_name/%5CnMORGAN_STANLEY_SENIOR_FUNDING%2C_INC> a base:Organization ;
-    isInstanceOf: org_role:Lender ;
-    rel:hasEmployee person_name:Komal_Shah,
-        person_name:Mark_W._Condon,
-        person_name:Michael_King,
-        person_name:Nawshaer_Safi .
 
 <http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA%2C> a base:Organization ;
-    isInstanceOf: org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Komal_Shah,
         person_name:Mark_W._Condon,
         person_name:Michael_King,
         person_name:Nawshaer_Safi .
 
 <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG%2C_NEW_YORK_BRANCH%2C> a base:Organization ;
-    isInstanceOf: org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Andrew_Sidford,
         person_name:Jeremy_Eisman,
         person_name:Jordan_Kanis,
         person_name:Kyle_Hatze,
         person_name:Michael_Agrimis,
         person_name:Myra_Martinez .
-
-person_name:Paul_Dickson a base:Person ;
-    rdfs:label " Paul Dickson" ;
-    isInstanceOf: person_position:Chief_Financial_Officer ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnVIVINT_SOLAR%2C_INC>,
-        <http://example.org/org_name/%5CnVIVINT_SOLAR_DEVELOPER%2C_LLC%2C>,
-        <http://example.org/org_name/%5CnVIVINT_SOLAR_HOLDINGS%2C_INC>,
-        <http://example.org/org_name/%5CnVIVINT_SOLAR_OPERATIONS%2C_LLC>,
-        org_name:AEE_SOLAR_INC,
-        org_name:SUNRUN_INC,
-        org_name:SUNRUN_INSTALLATION_SERVICES_INC,
-        org_name:SUNRUN_SOUTH_LLC .
-
-person_name:Tom_vonReichbauer a base:Person ;
-    rdfs:label " Tom vonReichbauer",
-        "Tom vonReichbauer" ;
-    isInstanceOf: person_position:Chief_Financial_Officer ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnVIVINT_SOLAR%2C_INC>,
-        <http://example.org/org_name/%5CnVIVINT_SOLAR_DEVELOPER%2C_LLC%2C>,
-        <http://example.org/org_name/%5CnVIVINT_SOLAR_HOLDINGS%2C_INC>,
-        <http://example.org/org_name/%5CnVIVINT_SOLAR_OPERATIONS%2C_LLC>,
-        org_name:AEE_SOLAR_INC,
-        org_name:SUNRUN_INC,
-        org_name:SUNRUN_INSTALLATION_SERVICES_INC,
-        org_name:SUNRUN_SOUTH_LLC .
 

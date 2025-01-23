@@ -1,59 +1,48 @@
 @prefix base: <http://example.org/base/> .
-@prefix isInstanceOf: <http://example.org/isInstanceOf/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rel: <http://example.org/relation/> .
 
+<http://example.org/org_name/%5CnTRANSDYN%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnGUARANTORS> .
+
 org_name:BANK_OF_AMERICA_MERRILL_LYNCH a base:Organization ;
-    isInstanceOf: org_role:Sole_Book_Manager,
+    <http://example.org/isInstanceOf/> org_role:Sole_Book_Manager,
         org_role:Sole_Lead_Arranger .
 
-<http://example.org/org_name/%5CnPOWELL_INDUSTRIES_INTERNATIONAL%2C_INC.> a base:Organization ;
-    isInstanceOf: <http://example.org/org_role/%5CnGUARANTORS> ;
-    rel:hasEmployee person_name:Don_R._Madison .
-
-<http://example.org/org_name/%5CnTRANSDYN%2C_INC.> a base:Organization ;
-    isInstanceOf: <http://example.org/org_role/%5CnGUARANTORS> ;
-    rel:hasEmployee person_name:Don_R._Madison .
-
 <http://example.org/org_name/POWELL_ELECTRICAL_SYSTEMS%2C_INC.> a base:Organization ;
-    isInstanceOf: <http://example.org/org_role/%5CnGUARANTORS> ;
-    rel:hasEmployee person_name:Don_R._Madison .
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnGUARANTORS> .
 
 <http://example.org/org_name/POWELL_INDUSTRIES%2C_INC.> a base:Organization ;
-    isInstanceOf: org_role:BORROWER ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER .
+
+<http://example.org/org_name/%5CnPOWELL_INDUSTRIES_INTERNATIONAL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnGUARANTORS> ;
     rel:hasEmployee person_name:Don_R._Madison .
 
 <http://example.org/person_name/%5CnShelley_A._McGregor> a base:Person ;
-    rdfs:label "	\\nShelley A. McGregor" ;
-    isInstanceOf: person_position:Senior_Vice_President ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
     rel:isEmployedBy org_name:BANK_OF_AMERICA%2C_N.A.%2C .
-
-person_name:Shelley_A._McGregor a base:Person ;
-    rdfs:label "Shelley A. McGregor" ;
-    isInstanceOf: person_position:Senior_Vice_President ;
-    rel:isEmployedBy org_name:BANK_OF_AMERICA%2C_N.A.%2C .
-
-org_name:BANK_OF_AMERICA%2C_N.A.%2C a base:Organization ;
-    isInstanceOf: org_role:Administrative_Agent,
-        <http://example.org/org_role/L/C_Issuer>,
-        org_role:Lender%2C ;
-    rel:hasEmployee <http://example.org/person_name/%5CnShelley_A._McGregor>,
-        person_name:Shelley_A._McGregor .
 
 person_name:Don_R._Madison a base:Person ;
-    rdfs:label "Don R. Madison" ;
-    isInstanceOf: <http://example.org/person_position/%5CnVice_President>,
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnVice_President>,
         <http://example.org/person_position/%5CnVice_President%2C>,
         person_position:Secretary,
         person_position:Treasurer,
         person_position:Vice_President,
         person_position:Vice_President%2C ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnPOWELL_INDUSTRIES_INTERNATIONAL%2C_INC.>,
-        <http://example.org/org_name/%5CnTRANSDYN%2C_INC.>,
-        <http://example.org/org_name/POWELL_ELECTRICAL_SYSTEMS%2C_INC.>,
-        <http://example.org/org_name/POWELL_INDUSTRIES%2C_INC.> .
+    rel:isEmployedBy <http://example.org/org_name/%5CnPOWELL_INDUSTRIES_INTERNATIONAL%2C_INC.> .
+
+person_name:Shelley_A._McGregor a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:BANK_OF_AMERICA%2C_N.A.%2C .
+
+org_name:BANK_OF_AMERICA%2C_N.A.%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
+        <http://example.org/org_role/L/C_Issuer>,
+        org_role:Lender%2C ;
+    rel:hasEmployee <http://example.org/person_name/%5CnShelley_A._McGregor>,
+        person_name:Shelley_A._McGregor .
 

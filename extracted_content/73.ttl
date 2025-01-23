@@ -1,51 +1,42 @@
 @prefix base: <http://example.org/base/> .
-@prefix isInstanceOf: <http://example.org/isInstanceOf/> .
 @prefix loc: <http://example.org/location/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rel: <http://example.org/relation/> .
 
 org_name:BOFA_SECURITIES%2C_INC.%2C a base:Organization ;
-    isInstanceOf: org_role:Book_Runners,
+    <http://example.org/isInstanceOf/> org_role:Book_Runners,
         org_role:Lead_Arrangers .
 
-person_name:Michael_Contreras a base:Person ;
-    rdfs:label "Michael Contreras" .
+person_name:Michael_Contreras a base:Person .
 
 loc:1000_Stanley_Drive%5Cn%5CnNew_Britain%2C_Connecticut_06053 a base:Location ;
-    isInstanceOf: base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf <http://example.org/org_name/%5CnSTANLEY_BLACK%C2%A0%26_DECKER%2C_INC.> .
 
 loc:Building_Ops_II%2C_One_Penns_Way%5Cn%5CnNew_Castle%2C_DE_19720 a base:Location ;
-    isInstanceOf: base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf org_name:CITIBANK%2C_N.A.%2C .
 
+org_name:CITIBANK%2C_N.A.%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
+        org_role:Lender ;
+    rel:hasLocationAt loc:Building_Ops_II%2C_One_Penns_Way%5Cn%5CnNew_Castle%2C_DE_19720 .
+
 person_name:Carolyn_A._Kee a base:Person ;
-    rdfs:label " Carolyn A. Kee" ;
-    isInstanceOf: person_position:Vice_President ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnSTANLEY_BLACK%C2%A0%26_DECKER%2C_INC.>,
-        org_name:CITIBANK%2C_N.A.%2C .
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnSTANLEY_BLACK%C2%A0%26_DECKER%2C_INC.> .
 
 person_name:Robert_T._Paternostro a base:Person ;
-    rdfs:label "Robert T. Paternostro" ;
-    isInstanceOf: person_position:Treasurer,
+    <http://example.org/isInstanceOf/> person_position:Treasurer,
         person_position:Vice_President ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnSTANLEY_BLACK%C2%A0%26_DECKER%2C_INC.>,
-        org_name:CITIBANK%2C_N.A.%2C .
+    rel:isEmployedBy <http://example.org/org_name/%5CnSTANLEY_BLACK%C2%A0%26_DECKER%2C_INC.> .
 
 <http://example.org/org_name/%5CnSTANLEY_BLACK%C2%A0%26_DECKER%2C_INC.> a base:Organization ;
-    isInstanceOf: org_role:Borrower ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
     rel:hasEmployee person_name:Carolyn_A._Kee,
         person_name:Robert_T._Paternostro ;
     rel:hasLocationAt loc:1000_Stanley_Drive%5Cn%5CnNew_Britain%2C_Connecticut_06053 .
-
-org_name:CITIBANK%2C_N.A.%2C a base:Organization ;
-    isInstanceOf: org_role:Administrative_Agent,
-        org_role:Lender ;
-    rel:hasEmployee person_name:Carolyn_A._Kee,
-        person_name:Robert_T._Paternostro ;
-    rel:hasLocationAt loc:Building_Ops_II%2C_One_Penns_Way%5Cn%5CnNew_Castle%2C_DE_19720 .
 

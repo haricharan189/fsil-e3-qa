@@ -1,61 +1,54 @@
 @prefix base: <http://example.org/base/> .
-@prefix isInstanceOf: <http://example.org/isInstanceOf/> .
 @prefix loc: <http://example.org/location/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix org_sub_role: <http://example.org/org_sub_role/> .
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rel: <http://example.org/relation/> .
 
 loc:1100_Louisiana%2C_Suite_3300%5Cn%5CnHouston%2C_TX_77002-5217 a base:Location ;
-    isInstanceOf: base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf <http://example.org/org_name/ENBRIDGE_%28U.S.%29_INC.> .
 
 loc:1100_Louisiana%2C_Suite_3300%5CnHouston%2C_TX_77002-5217 a base:Location ;
-    isInstanceOf: base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf org_name:ENBRIDGE_ENERGY_PARTNERS%2C_L.P.%2C .
 
 <http://example.org/location/C/O_Enbridge_Inc.%5Cn%5Cn3000%2C_425-1st%5Cn%5CnCalgary%2C_Alberta%2C_Canada> a base:Location ;
-    isInstanceOf: base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf <http://example.org/org_name/ENBRIDGE_%28U.S.%29_INC.> .
 
 <http://example.org/location/C/O_Enbridge_Inc.%5Cn3000%2C_425-1st%5CnCalgary%2C_Alberta%2C_Canada> a base:Location ;
-    isInstanceOf: base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf org_name:ENBRIDGE_ENERGY_PARTNERS%2C_L.P.%2C .
 
 <http://example.org/org_name/ENBRIDGE_ENERGY_MANAGEMENT%2C_L.L.C.> a base:Organization ;
-    isInstanceOf: org_sub_role:General_Partner,
+    <http://example.org/isInstanceOf/> org_sub_role:General_Partner,
         org_sub_role:delegate ;
     rel:hasEmployee person_name:Stephen_J._Neyland .
 
+person_name:Chris_Kaitson a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Corporate_Secretary,
+        person_position:Vice_President_%E2%80%93_Law_%26_Assistant,
+        person_position:Vice_President_%E2%80%93_US_Law ;
+    rel:isEmployedBy org_name:ENBRIDGE_ENERGY_PARTNERS%2C_L.P.%2C .
+
 person_name:Jonathan_Rose a base:Person ;
-    rdfs:label "Jonathan Rose" ;
-    isInstanceOf: person_position:Treasurer ;
+    <http://example.org/isInstanceOf/> person_position:Treasurer ;
     rel:isEmployedBy org_name:ENBRIDGE_ENERGY_PARTNERS%2C_L.P.%2C .
 
 person_name:Stephen_J._Neyland a base:Person ;
-    rdfs:label "Stephen J. Neyland" ;
-    isInstanceOf: person_position:Vice_President-Finance ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President-Finance ;
     rel:isEmployedBy <http://example.org/org_name/ENBRIDGE_ENERGY_MANAGEMENT%2C_L.L.C.> .
 
-person_name:Chris_Kaitson a base:Person ;
-    rdfs:label "Chris Kaitson" ;
-    isInstanceOf: person_position:Corporate_Secretary,
-        person_position:Vice_President_%E2%80%93_Law_%26_Assistant,
-        person_position:Vice_President_%E2%80%93_US_Law ;
-    rel:isEmployedBy <http://example.org/org_name/ENBRIDGE_%28U.S.%29_INC.>,
-        org_name:ENBRIDGE_ENERGY_PARTNERS%2C_L.P.%2C .
-
 <http://example.org/org_name/ENBRIDGE_%28U.S.%29_INC.> a base:Organization ;
-    isInstanceOf: org_role:Lender ;
-    rel:hasEmployee person_name:Chris_Kaitson ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasLocationAt loc:1100_Louisiana%2C_Suite_3300%5Cn%5CnHouston%2C_TX_77002-5217,
         <http://example.org/location/C/O_Enbridge_Inc.%5Cn%5Cn3000%2C_425-1st%5Cn%5CnCalgary%2C_Alberta%2C_Canada> .
 
 org_name:ENBRIDGE_ENERGY_PARTNERS%2C_L.P.%2C a base:Organization ;
-    isInstanceOf: org_role:Borrower ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
     rel:hasEmployee person_name:Chris_Kaitson,
         person_name:Jonathan_Rose ;
     rel:hasLocationAt loc:1100_Louisiana%2C_Suite_3300%5CnHouston%2C_TX_77002-5217,

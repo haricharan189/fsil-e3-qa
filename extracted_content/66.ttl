@@ -1,93 +1,118 @@
 @prefix base: <http://example.org/base/> .
-@prefix isInstanceOf: <http://example.org/isInstanceOf/> .
 @prefix loc: <http://example.org/location/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rel: <http://example.org/relation/> .
 
+<http://example.org/org_name/%5CnHSBC_BANK_USA%2C_N.A.%2C> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:BANK_OF_AMERICA%2C_N.A.%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:MUFG_BANK%2C_LTD.%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
 loc:108_Wilmot_Road%5Cn%5CnDeerfield%2C_IL_60015 a base:Location ;
-    isInstanceOf: base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf <http://example.org/org_name/%5CnWALGREENS_BOOTS_ALLIANCE%2C_INC.> .
 
 loc:Mizuho_Bank%2C_Ltd.%5Cn%5CnHarborside_Financial_Ctr%5Cn%5Cn1800_Plaza_Ten%5Cn%5CnJersey_City%2C_NJ_07311 a base:Location ;
-    isInstanceOf: base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf org_name:MIZUHO_BANK%2C_LTD.%2C .
 
 <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
-    isInstanceOf: org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Dawn_Lee_Lum .
 
+org_name:MIZUHO_BANK%2C_LTD.%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
+        org_role:Lender ;
+    rel:hasLocationAt loc:Mizuho_Bank%2C_Ltd.%5Cn%5CnHarborside_Financial_Ctr%5Cn%5Cn1800_Plaza_Ten%5Cn%5CnJersey_City%2C_NJ_07311 .
+
 org_name:NATIONAL_WESTMINSTER_BANK_PLC a base:Organization ;
-    isInstanceOf: org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Graham_Gibson .
 
 org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
-    isInstanceOf: org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Conan_Schleicher .
 
 person_name:Aidan_Clare a base:Person ;
-    rdfs:label "Aidan Clare" ;
-    isInstanceOf: person_position:Global_Treasurer,
+    <http://example.org/isInstanceOf/> person_position:Global_Treasurer,
         person_position:Senior_Vice_President ;
     rel:isEmployedBy <http://example.org/org_name/%5CnWALGREENS_BOOTS_ALLIANCE%2C_INC.> .
 
 person_name:Conan_Schleicher a base:Person ;
-    rdfs:label "Conan Schleicher" ;
-    isInstanceOf: person_position:Vice_President ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
     rel:isEmployedBy org_name:U.S._BANK_NATIONAL_ASSOCIATION .
 
 person_name:Dawn_Lee_Lum a base:Person ;
-    rdfs:label "Dawn Lee Lum" ;
-    isInstanceOf: person_position:Executive_Director ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
     rel:isEmployedBy <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
 
 person_name:Francesco_Di_Mario a base:Person ;
-    rdfs:label "Francesco Di Mario" ;
-    isInstanceOf: person_position:FVP_%C2%96_Head_of_Credit ;
+    <http://example.org/isInstanceOf/> person_position:FVP_%C2%96_Head_of_Credit ;
     rel:isEmployedBy <http://example.org/org_name/%5CnINTESA_SANPAOLO_S.P.A.%2C_NEW_YORK_BRANCH%2C> .
 
 person_name:Gr%C3%A1inne_Kelly a base:Person ;
-    rdfs:label "Gráinne Kelly" ;
-    isInstanceOf: person_position:Vice_President%2C_Global_Treasury ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President%2C_Global_Treasury ;
     rel:isEmployedBy <http://example.org/org_name/%5CnWALGREENS_BOOTS_ALLIANCE%2C_INC.> .
 
 person_name:Graham_Gibson a base:Person ;
-    rdfs:label "Graham Gibson" ;
-    isInstanceOf: person_position:Senior_Director ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Director ;
     rel:isEmployedBy org_name:NATIONAL_WESTMINSTER_BANK_PLC .
 
+person_name:J._Casey_Cosgrove a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:UNICREDIT_BANK_AG%2C_NEW_YORK_BRANCH%2C .
+
+person_name:Jack_Lonker a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:UNICREDIT_BANK_AG%2C_NEW_YORK_BRANCH%2C .
+
 person_name:John_Devlin a base:Person ;
-    rdfs:label "John Devlin" ;
-    isInstanceOf: person_position:Vice_President%2C_Global_Treasury ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President%2C_Global_Treasury ;
     rel:isEmployedBy <http://example.org/org_name/%5CnWALGREENS_BOOTS_ALLIANCE%2C_INC.> .
 
+person_name:Linh_Dang a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnTHE_TORONTO-DOMINION_BANK%2C_NEW_YORK_BRANCH%2C> .
+
 person_name:Lorenzo_Rodino a base:Person ;
-    rdfs:label "Lorenzo Rodino" ;
-    isInstanceOf: person_position:Relationship_Manager ;
+    <http://example.org/isInstanceOf/> person_position:Relationship_Manager ;
     rel:isEmployedBy <http://example.org/org_name/%5CnINTESA_SANPAOLO_S.P.A.%2C_NEW_YORK_BRANCH%2C> .
 
+person_name:Luca_Balestra a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:UNICREDIT_BANK_AG%2C_NEW_YORK_BRANCH%2C .
+
 person_name:Marco_Pagni%3B a base:Person ;
-    rdfs:label "Marco Pagni;" ;
-    isInstanceOf: person_position:Executive_Vice_President%2C,
+    <http://example.org/isInstanceOf/> person_position:Executive_Vice_President%2C,
         person_position:General_Counsel,
         person_position:Global_Chief_Administrative_Officer ;
     rel:isEmployedBy <http://example.org/org_name/%5CnWALGREENS_BOOTS_ALLIANCE%2C_INC.> .
 
 person_name:Sara_La_Berg a base:Person ;
-    rdfs:label "Sara La Berg" ;
-    isInstanceOf: person_position:Senior_Manager%2C%C2%A0Global_Treasury ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Manager%2C%C2%A0Global_Treasury ;
     rel:isEmployedBy <http://example.org/org_name/%5CnWALGREENS_BOOTS_ALLIANCE%2C_INC.> .
 
-<http://example.org/org_name/%5CnHSBC_BANK_USA%2C_N.A.%2C> a base:Organization ;
-    isInstanceOf: org_role:Lender ;
-    rel:hasEmployee person_name:Luca_Balestra,
-        person_name:Thomas_Foley .
+person_name:Thilo_Huber a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:UNICREDIT_BANK_AG%2C_NEW_YORK_BRANCH%2C .
+
+person_name:Thomas_Foley a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:UNICREDIT_BANK_AG%2C_NEW_YORK_BRANCH%2C .
+
+person_name:Tracy_Rahn a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnTHE_TORONTO-DOMINION_BANK%2C_NEW_YORK_BRANCH%2C> .
 
 <http://example.org/org_name/%5CnINTESA_SANPAOLO_S.P.A.%2C_NEW_YORK_BRANCH%2C> a base:Organization ;
-    isInstanceOf: org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Francesco_Di_Mario,
         person_name:Lorenzo_Rodino .
 
@@ -95,72 +120,8 @@ person_name:Sara_La_Berg a base:Person ;
     rel:hasEmployee person_name:Linh_Dang,
         person_name:Tracy_Rahn .
 
-person_name:Linh_Dang a base:Person ;
-    rdfs:label "Linh Dang" ;
-    isInstanceOf: person_position:Authorized_Signatory ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnTHE_TORONTO-DOMINION_BANK%2C_NEW_YORK_BRANCH%2C>,
-        org_name:MIZUHO_BANK%2C_LTD.%2C .
-
-person_name:Luca_Balestra a base:Person ;
-    rdfs:label "Luca Balestra" ;
-    isInstanceOf: person_position:Managing_Director ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnHSBC_BANK_USA%2C_N.A.%2C>,
-        org_name:UNICREDIT_BANK_AG%2C_NEW_YORK_BRANCH%2C .
-
-person_name:Thomas_Foley a base:Person ;
-    rdfs:label "Thomas Foley" ;
-    isInstanceOf: person_position:Managing_Director ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnHSBC_BANK_USA%2C_N.A.%2C>,
-        org_name:UNICREDIT_BANK_AG%2C_NEW_YORK_BRANCH%2C .
-
-person_name:Tracy_Rahn a base:Person ;
-    rdfs:label "Tracy Rahn" ;
-    isInstanceOf: person_position:Authorized_Signatory ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnTHE_TORONTO-DOMINION_BANK%2C_NEW_YORK_BRANCH%2C>,
-        org_name:MIZUHO_BANK%2C_LTD.%2C .
-
-org_name:BANK_OF_AMERICA%2C_N.A.%2C a base:Organization ;
-    isInstanceOf: org_role:Lender ;
-    rel:hasEmployee person_name:J._Casey_Cosgrove,
-        person_name:Jack_Lonker,
-        person_name:Thilo_Huber .
-
-org_name:MIZUHO_BANK%2C_LTD.%2C a base:Organization ;
-    isInstanceOf: org_role:Administrative_Agent,
-        org_role:Lender ;
-    rel:hasEmployee person_name:Linh_Dang,
-        person_name:Tracy_Rahn ;
-    rel:hasLocationAt loc:Mizuho_Bank%2C_Ltd.%5Cn%5CnHarborside_Financial_Ctr%5Cn%5Cn1800_Plaza_Ten%5Cn%5CnJersey_City%2C_NJ_07311 .
-
-org_name:MUFG_BANK%2C_LTD.%2C a base:Organization ;
-    isInstanceOf: org_role:Lender ;
-    rel:hasEmployee person_name:J._Casey_Cosgrove,
-        person_name:Jack_Lonker,
-        person_name:Thilo_Huber .
-
-person_name:J._Casey_Cosgrove a base:Person ;
-    rdfs:label " J. Casey Cosgrove" ;
-    isInstanceOf: person_position:Director ;
-    rel:isEmployedBy org_name:BANK_OF_AMERICA%2C_N.A.%2C,
-        org_name:MUFG_BANK%2C_LTD.%2C,
-        org_name:UNICREDIT_BANK_AG%2C_NEW_YORK_BRANCH%2C .
-
-person_name:Jack_Lonker a base:Person ;
-    rdfs:label "Jack Lonker" ;
-    isInstanceOf: person_position:Director ;
-    rel:isEmployedBy org_name:BANK_OF_AMERICA%2C_N.A.%2C,
-        org_name:MUFG_BANK%2C_LTD.%2C,
-        org_name:UNICREDIT_BANK_AG%2C_NEW_YORK_BRANCH%2C .
-
-person_name:Thilo_Huber a base:Person ;
-    rdfs:label "Thilo Huber" ;
-    isInstanceOf: person_position:Director ;
-    rel:isEmployedBy org_name:BANK_OF_AMERICA%2C_N.A.%2C,
-        org_name:MUFG_BANK%2C_LTD.%2C,
-        org_name:UNICREDIT_BANK_AG%2C_NEW_YORK_BRANCH%2C .
-
 org_name:UNICREDIT_BANK_AG%2C_NEW_YORK_BRANCH%2C a base:Organization ;
-    isInstanceOf: org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:J._Casey_Cosgrove,
         person_name:Jack_Lonker,
         person_name:Luca_Balestra,
@@ -168,7 +129,7 @@ org_name:UNICREDIT_BANK_AG%2C_NEW_YORK_BRANCH%2C a base:Organization ;
         person_name:Thomas_Foley .
 
 <http://example.org/org_name/%5CnWALGREENS_BOOTS_ALLIANCE%2C_INC.> a base:Organization ;
-    isInstanceOf: org_role:Borrower ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
     rel:hasEmployee person_name:Aidan_Clare,
         person_name:Gr%C3%A1inne_Kelly,
         person_name:John_Devlin,

@@ -1,202 +1,152 @@
 @prefix base: <http://example.org/base/> .
-@prefix isInstanceOf: <http://example.org/isInstanceOf/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rel: <http://example.org/relation/> .
 
+<http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Co-Syndication_Agents%2C .
+
 org_name:CITIGROUP_GLOBAL_MARKETS_INC a base:Organization ;
-    isInstanceOf: org_role:Arranger,
+    <http://example.org/isInstanceOf/> org_role:Arranger,
         org_role:Book_Manager .
 
 org_name:GOLDMAN_SACHS_BANK_USA%2C a base:Organization ;
-    isInstanceOf: org_role:Co-Documentation_Agents%2C .
+    <http://example.org/isInstanceOf/> org_role:Co-Documentation_Agents%2C .
 
 org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER_%26_SMITH_INCORPORATED%2C a base:Organization ;
-    isInstanceOf: org_role:Arranger,
+    <http://example.org/isInstanceOf/> org_role:Arranger,
         org_role:Book_Manager .
 
 org_name:MORGAN_STANLEY_MUFG_LOAN_PARTNERS%2C_LLC%2C a base:Organization ;
-    isInstanceOf: org_role:Co-Documentation_Agents%2C .
+    <http://example.org/isInstanceOf/> org_role:Co-Documentation_Agents%2C .
+
+<http://example.org/org_name/WELLS_FARGO_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Co-Syndication_Agents%2C .
 
 org_name:WELLS_FARGO_SECURITIES%2C_LLC%2C a base:Organization ;
-    isInstanceOf: org_role:Arranger,
+    <http://example.org/isInstanceOf/> org_role:Arranger,
         org_role:Book_Manager .
 
 loc:101_North_Tryon_Street%5CnMail_Code%3A_NC1-001-05-46%5CnCharlotte%2C_North_Carolina_28255-0001 a base:Location ;
-    isInstanceOf: base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
 
 loc:1_Fleet_Way%5CnMail_Code%3A_PA6-580-02-30%5CnScranton%2C_Pennsylvania_18507 a base:Location ;
-    isInstanceOf: base:Location,
+    <http://example.org/isInstanceOf/> base:Location,
         location_type:Trade_Operations ;
     rel:isLocationOf <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
 
 loc:2401_Utah_Avenue%2C_South%5CnSeattle%2C_Washington_98134 a base:Location ;
-    isInstanceOf: base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf org_name:STARBUCKS_CORPORATION%2C .
 
 loc:Bank_of_America_Plaza%5Cn901_Main_Street%5CnMail_Code%3A_TX1-492-14-11%5CnDallas%2C_Texas_75202 a base:Location ;
-    isInstanceOf: base:Location,
+    <http://example.org/isInstanceOf/> base:Location,
         location_type:Agency_Management ;
     rel:isLocationOf <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
 
+org_name:COOPERATIEVE_CENTRALE_RAIFFEISEN-BOERENLEENBANK_B.A.%2C_%E2%80%9CRABOBANK_NEDERLAND%E2%80%9D_NEW_YORK_BRANCH%5Cn a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Gillian_Dickson .
+
 org_name:JPMORGAN_CHASE_BANK%2C_N.A.%2C a base:Organization ;
-    isInstanceOf: org_role:Co-Documentation_Agents%2C ;
+    <http://example.org/isInstanceOf/> org_role:Co-Documentation_Agents%2C ;
     rel:hasEmployee person_name:Tony_Wong .
 
 org_name:U.S._BANK_NATIONAL_ASSOCIATION%2C a base:Organization ;
-    isInstanceOf: org_role:Co-Documentation_Agents%2C ;
+    <http://example.org/isInstanceOf/> org_role:Co-Documentation_Agents%2C ;
     rel:hasEmployee person_name:Mark_D._Rodgers .
 
 person_name:Christine_Howatt a base:Person ;
-    rdfs:label "Christine Howatt" ;
-    isInstanceOf: person_position:Authorized_Signatory ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
     rel:isEmployedBy org_name:THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD.%5Cn .
 
+person_name:Diane_Emanuel a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NOVA_SCOTIA%2C .
+
 person_name:Gillian_Dickson a base:Person ;
-    rdfs:label " Gillian Dickson" ;
-    isInstanceOf: person_position:Executive_Director ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
     rel:isEmployedBy org_name:COOPERATIEVE_CENTRALE_RAIFFEISEN-BOERENLEENBANK_B.A.%2C_%E2%80%9CRABOBANK_NEDERLAND%E2%80%9D_NEW_YORK_BRANCH%5Cn .
 
+person_name:Jason_Fuqua a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION .
+
 person_name:Kelly_Chin a base:Person ;
-    rdfs:label "Kelly Chin" ;
-    isInstanceOf: person_position:Authorized_Signatory ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
     rel:isEmployedBy org_name:THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD.%5Cn .
 
 person_name:Mark_D._Rodgers a base:Person ;
-    rdfs:label "Mark D. Rodgers" ;
-    isInstanceOf: person_position:Assistant_Vice_President ;
+    <http://example.org/isInstanceOf/> person_position:Assistant_Vice_President ;
     rel:isEmployedBy org_name:U.S._BANK_NATIONAL_ASSOCIATION%2C .
 
 person_name:Mark_Walton a base:Person ;
-    rdfs:label "Mark Walton" ;
-    isInstanceOf: person_position:Authorized_Signatory ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
     rel:isEmployedBy org_name:THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD.%5Cn .
 
+person_name:Matthew_Gregg a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION .
+
+person_name:Michael_Vondriska a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION .
+
 person_name:Richard_Lautch a base:Person ;
-    rdfs:label "Richard Lautch" ;
-    isInstanceOf: person_position:treasurer,
+    <http://example.org/isInstanceOf/> person_position:treasurer,
         person_position:vice_president ;
     rel:isEmployedBy org_name:STARBUCKS_CORPORATION%2C .
 
+person_name:Ronaldo_Naval a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION .
+
+person_name:Sabrina_Hassan a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION .
+
+person_name:Susan_T._Gallagher a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NOVA_SCOTIA%2C .
+
 person_name:Tony_Wong a base:Person ;
-    rdfs:label "Tony Wong" ;
-    isInstanceOf: person_position:Vice_President%5Cn ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President%5Cn ;
     rel:isEmployedBy org_name:JPMORGAN_CHASE_BANK%2C_N.A.%2C .
 
 org_name:STARBUCKS_CORPORATION%2C a base:Organization ;
-    isInstanceOf: org_role:Borrower%2C ;
+    <http://example.org/isInstanceOf/> org_role:Borrower%2C ;
     rel:hasEmployee person_name:Richard_Lautch ;
     rel:hasLocationAt loc:2401_Utah_Avenue%2C_South%5CnSeattle%2C_Washington_98134 .
 
 org_name:THE_BANK_OF_NOVA_SCOTIA%2C a base:Organization ;
-    isInstanceOf: org_role:Co-Documentation_Agents%2C ;
+    <http://example.org/isInstanceOf/> org_role:Co-Documentation_Agents%2C ;
     rel:hasEmployee person_name:Diane_Emanuel,
         person_name:Susan_T._Gallagher .
 
-<http://example.org/org_name/WELLS_FARGO_BANK%2C_N.A.> a base:Organization ;
-    isInstanceOf: org_role:Co-Syndication_Agents%2C ;
-    rel:hasEmployee person_name:Diane_Emanuel,
-        person_name:Susan_T._Gallagher .
-
-person_name:Diane_Emanuel a base:Person ;
-    rdfs:label "Diane Emanuel" ;
-    isInstanceOf: person_position:Managing_Director ;
-    rel:isEmployedBy org_name:THE_BANK_OF_NOVA_SCOTIA%2C,
-        <http://example.org/org_name/WELLS_FARGO_BANK%2C_N.A.> .
-
-person_name:Susan_T._Gallagher a base:Person ;
-    rdfs:label "Susan T. Gallagher" ;
-    isInstanceOf: person_position:Managing_Director ;
-    rel:isEmployedBy org_name:THE_BANK_OF_NOVA_SCOTIA%2C,
-        <http://example.org/org_name/WELLS_FARGO_BANK%2C_N.A.> .
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
+        <http://example.org/org_role/L/C_Issuer%2C>,
+        org_role:Lender ;
+    rel:hasLocationAt loc:101_North_Tryon_Street%5CnMail_Code%3A_NC1-001-05-46%5CnCharlotte%2C_North_Carolina_28255-0001,
+        loc:1_Fleet_Way%5CnMail_Code%3A_PA6-580-02-30%5CnScranton%2C_Pennsylvania_18507,
+        loc:Bank_of_America_Plaza%5Cn901_Main_Street%5CnMail_Code%3A_TX1-492-14-11%5CnDallas%2C_Texas_75202 .
 
 org_name:THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD.%5Cn a base:Organization ;
-    isInstanceOf: org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Christine_Howatt,
         person_name:Kelly_Chin,
         person_name:Mark_Walton .
 
-person_name:Jason_Fuqua a base:Person ;
-    rdfs:label "Jason Fuqua" ;
-    isInstanceOf: person_position:Vice_President ;
-    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.>,
-        <http://example.org/org_name/CITIBANK%2C_N.A.>,
-        org_name:COOPERATIEVE_CENTRALE_RAIFFEISEN-BOERENLEENBANK_B.A.%2C_%E2%80%9CRABOBANK_NEDERLAND%E2%80%9D_NEW_YORK_BRANCH%5Cn,
-        org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION .
-
-person_name:Matthew_Gregg a base:Person ;
-    rdfs:label "Matthew Gregg" ;
-    isInstanceOf: person_position:Vice_President ;
-    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.>,
-        <http://example.org/org_name/CITIBANK%2C_N.A.>,
-        org_name:COOPERATIEVE_CENTRALE_RAIFFEISEN-BOERENLEENBANK_B.A.%2C_%E2%80%9CRABOBANK_NEDERLAND%E2%80%9D_NEW_YORK_BRANCH%5Cn,
-        org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION .
-
-person_name:Michael_Vondriska a base:Person ;
-    rdfs:label " Michael Vondriska" ;
-    isInstanceOf: person_position:Vice_President ;
-    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.>,
-        <http://example.org/org_name/CITIBANK%2C_N.A.>,
-        org_name:COOPERATIEVE_CENTRALE_RAIFFEISEN-BOERENLEENBANK_B.A.%2C_%E2%80%9CRABOBANK_NEDERLAND%E2%80%9D_NEW_YORK_BRANCH%5Cn,
-        org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION .
-
-person_name:Ronaldo_Naval a base:Person ;
-    rdfs:label "Ronaldo Naval" ;
-    isInstanceOf: person_position:Vice_President ;
-    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.>,
-        <http://example.org/org_name/CITIBANK%2C_N.A.>,
-        org_name:COOPERATIEVE_CENTRALE_RAIFFEISEN-BOERENLEENBANK_B.A.%2C_%E2%80%9CRABOBANK_NEDERLAND%E2%80%9D_NEW_YORK_BRANCH%5Cn,
-        org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION .
-
-person_name:Sabrina_Hassan a base:Person ;
-    rdfs:label "Sabrina Hassan" ;
-    isInstanceOf: person_position:Vice_President ;
-    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.>,
-        <http://example.org/org_name/CITIBANK%2C_N.A.>,
-        org_name:COOPERATIEVE_CENTRALE_RAIFFEISEN-BOERENLEENBANK_B.A.%2C_%E2%80%9CRABOBANK_NEDERLAND%E2%80%9D_NEW_YORK_BRANCH%5Cn,
-        org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION .
-
-<http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization ;
-    isInstanceOf: org_role:Co-Syndication_Agents%2C ;
-    rel:hasEmployee person_name:Jason_Fuqua,
-        person_name:Matthew_Gregg,
-        person_name:Michael_Vondriska,
-        person_name:Ronaldo_Naval,
-        person_name:Sabrina_Hassan .
-
 org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION a base:Organization ;
-    isInstanceOf: org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Jason_Fuqua,
         person_name:Matthew_Gregg,
         person_name:Michael_Vondriska,
         person_name:Ronaldo_Naval,
         person_name:Sabrina_Hassan .
-
-org_name:COOPERATIEVE_CENTRALE_RAIFFEISEN-BOERENLEENBANK_B.A.%2C_%E2%80%9CRABOBANK_NEDERLAND%E2%80%9D_NEW_YORK_BRANCH%5Cn a base:Organization ;
-    isInstanceOf: org_role:Lender ;
-    rel:hasEmployee person_name:Gillian_Dickson,
-        person_name:Jason_Fuqua,
-        person_name:Matthew_Gregg,
-        person_name:Michael_Vondriska,
-        person_name:Ronaldo_Naval,
-        person_name:Sabrina_Hassan .
-
-<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
-    isInstanceOf: org_role:Administrative_Agent,
-        <http://example.org/org_role/L/C_Issuer%2C>,
-        org_role:Lender ;
-    rel:hasEmployee person_name:Jason_Fuqua,
-        person_name:Matthew_Gregg,
-        person_name:Michael_Vondriska,
-        person_name:Ronaldo_Naval,
-        person_name:Sabrina_Hassan ;
-    rel:hasLocationAt loc:101_North_Tryon_Street%5CnMail_Code%3A_NC1-001-05-46%5CnCharlotte%2C_North_Carolina_28255-0001,
-        loc:1_Fleet_Way%5CnMail_Code%3A_PA6-580-02-30%5CnScranton%2C_Pennsylvania_18507,
-        loc:Bank_of_America_Plaza%5Cn901_Main_Street%5CnMail_Code%3A_TX1-492-14-11%5CnDallas%2C_Texas_75202 .
 

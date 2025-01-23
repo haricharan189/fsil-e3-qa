@@ -1,101 +1,80 @@
 @prefix base: <http://example.org/base/> .
-@prefix isInstanceOf: <http://example.org/isInstanceOf/> .
 @prefix loc: <http://example.org/location/> .
 @prefix org_name: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
 @prefix person_name: <http://example.org/person_name/> .
 @prefix person_position: <http://example.org/person_position/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rel: <http://example.org/relation/> .
 
+org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:MORGAN_STANLEY_SENIOR_FUNDING%2C%C2%A0INC.%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
 loc:200_Vesey_Street%5Cn%5CnNew_York%2C_New_York_10281 a base:Location ;
-    isInstanceOf: base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf org_name:ROYAL_BANK_OF_CANADA%2C .
 
 loc:4900_Tiedeman_Road_4th_Floor%5Cn%5CnBrooklyn%2C_OH_44144 a base:Location ;
-    isInstanceOf: base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf <http://example.org/org_name/%5CnVICTORY_CAPITAL_HOLDINGS%2C%C2%A0INC.%2C> .
 
 loc:Royal_Bank_Plaza%2C_200_Bay_Street%2C%5Cn%5Cn12th_Floor_South_Tower%5Cn%5CnToronto%2C_Ontario_M5J_2W7%5Cn%5CnCanada a base:Location ;
-    isInstanceOf: base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf <http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA%2C> .
 
 <http://example.org/org_name/%5CnBANK_OF_AMERICA%2C_N.A.> a base:Organization ;
-    isInstanceOf: org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee <http://example.org/person_name/%5CnRodney_Beeks> .
 
+<http://example.org/person_name/%5CnKenise_Henry_Larmond> a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnVice_President> ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnJPMorgan_Chase_Bank%2C_N.A.%2C> .
+
+<http://example.org/person_name/%5CnMichael_King> a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnVice_President> ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnJPMorgan_Chase_Bank%2C_N.A.%2C> .
+
 <http://example.org/person_name/%5CnRodney_Beeks> a base:Person ;
-    rdfs:label "	\\nRodney Beeks" ;
-    isInstanceOf: <http://example.org/person_position/%5CnAssociate> ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnAssociate> ;
     rel:isEmployedBy <http://example.org/org_name/%5CnBANK_OF_AMERICA%2C_N.A.> .
 
+<http://example.org/person_name/%5CnShane_M._Leary> a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnVice_President> ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnJPMorgan_Chase_Bank%2C_N.A.%2C> .
+
 <http://example.org/person_name/%5CnSusan_Khokher> a base:Person ;
-    rdfs:label "	\\nSusan Khokher" ;
-    isInstanceOf: <http://example.org/person_position/%5CnManager%2C_Agency> ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnManager%2C_Agency> ;
     rel:isEmployedBy <http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA%2C> .
 
 <http://example.org/person_name/%5CnTerence_F._Sullivan> a base:Person ;
-    rdfs:label "	\\nTerence F. Sullivan" ;
-    isInstanceOf: person_position:Chief_Financial_Officer,
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer,
         person_position:Treasuruer ;
     rel:isEmployedBy <http://example.org/org_name/%5CnVICTORY_CAPITAL_HOLDINGS%2C%C2%A0INC.%2C> .
 
 person_name:Alex_Figueroa a base:Person ;
-    rdfs:label "Alex Figueroa" ;
-    isInstanceOf: <http://example.org/person_position/%5CnAuthorized_Signatory> ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnAuthorized_Signatory> ;
     rel:isEmployedBy org_name:ROYAL_BANK_OF_CANADA%2C .
 
 <http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA%2C> a base:Organization ;
-    isInstanceOf: org_role:Administrative_Agent ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent ;
     rel:hasEmployee <http://example.org/person_name/%5CnSusan_Khokher> ;
     rel:hasLocationAt loc:Royal_Bank_Plaza%2C_200_Bay_Street%2C%5Cn%5Cn12th_Floor_South_Tower%5Cn%5CnToronto%2C_Ontario_M5J_2W7%5Cn%5CnCanada .
 
 <http://example.org/org_name/%5CnVICTORY_CAPITAL_HOLDINGS%2C%C2%A0INC.%2C> a base:Organization ;
-    isInstanceOf: org_role:Borrower ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
     rel:hasEmployee <http://example.org/person_name/%5CnTerence_F._Sullivan> ;
     rel:hasLocationAt loc:4900_Tiedeman_Road_4th_Floor%5Cn%5CnBrooklyn%2C_OH_44144 .
 
 org_name:ROYAL_BANK_OF_CANADA%2C a base:Organization ;
-    isInstanceOf: org_role:Issuing_Bank ;
+    <http://example.org/isInstanceOf/> org_role:Issuing_Bank ;
     rel:hasEmployee person_name:Alex_Figueroa ;
     rel:hasLocationAt loc:200_Vesey_Street%5Cn%5CnNew_York%2C_New_York_10281 .
 
 <http://example.org/org_name/%5CnJPMorgan_Chase_Bank%2C_N.A.%2C> a base:Organization ;
-    isInstanceOf: org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee <http://example.org/person_name/%5CnKenise_Henry_Larmond>,
         <http://example.org/person_name/%5CnMichael_King>,
         <http://example.org/person_name/%5CnShane_M._Leary> .
-
-org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
-    isInstanceOf: org_role:Lender ;
-    rel:hasEmployee <http://example.org/person_name/%5CnKenise_Henry_Larmond>,
-        <http://example.org/person_name/%5CnMichael_King>,
-        <http://example.org/person_name/%5CnShane_M._Leary> .
-
-org_name:MORGAN_STANLEY_SENIOR_FUNDING%2C%C2%A0INC.%2C a base:Organization ;
-    isInstanceOf: org_role:Lender ;
-    rel:hasEmployee <http://example.org/person_name/%5CnKenise_Henry_Larmond>,
-        <http://example.org/person_name/%5CnMichael_King>,
-        <http://example.org/person_name/%5CnShane_M._Leary> .
-
-<http://example.org/person_name/%5CnKenise_Henry_Larmond> a base:Person ;
-    rdfs:label "	\\nKenise Henry Larmond" ;
-    isInstanceOf: <http://example.org/person_position/%5CnVice_President> ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnJPMorgan_Chase_Bank%2C_N.A.%2C>,
-        org_name:KEYBANK_NATIONAL_ASSOCIATION,
-        org_name:MORGAN_STANLEY_SENIOR_FUNDING%2C%C2%A0INC.%2C .
-
-<http://example.org/person_name/%5CnMichael_King> a base:Person ;
-    rdfs:label "	\\nMichael King" ;
-    isInstanceOf: <http://example.org/person_position/%5CnVice_President> ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnJPMorgan_Chase_Bank%2C_N.A.%2C>,
-        org_name:KEYBANK_NATIONAL_ASSOCIATION,
-        org_name:MORGAN_STANLEY_SENIOR_FUNDING%2C%C2%A0INC.%2C .
-
-<http://example.org/person_name/%5CnShane_M._Leary> a base:Person ;
-    rdfs:label "	\\nShane M. Leary" ;
-    isInstanceOf: <http://example.org/person_position/%5CnVice_President> ;
-    rel:isEmployedBy <http://example.org/org_name/%5CnJPMorgan_Chase_Bank%2C_N.A.%2C>,
-        org_name:KEYBANK_NATIONAL_ASSOCIATION,
-        org_name:MORGAN_STANLEY_SENIOR_FUNDING%2C%C2%A0INC.%2C .
 
