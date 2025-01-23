@@ -18,7 +18,7 @@ class KnowledgeGraphBuilder:
         self.person_name = Namespace("http://example.org/person_name/")
         self.org_name = Namespace("http://example.org/org_name/")
         self.loc = Namespace("http://example.org/location/")
-        self.is_instance_of = URIRef("http://example.org/is_instance_of/")
+        self.isInstanceOf = URIRef("http://example.org/isInstanceOf/")
         self.rel = Namespace("http://example.org/relation/")
         
         # Base classes namespace
@@ -68,7 +68,7 @@ class KnowledgeGraphBuilder:
         g.bind("person_position", self.person_position)
         g.bind("location_type", self.location_type)
         g.bind("base", self.base)
-        g.bind("is_instance_of", self.is_instance_of)
+        g.bind("isInstanceOf", self.isInstanceOf)
 
         # Define base classes
         g.add((self.base.Person, RDF.type, RDFS.Class))
@@ -106,70 +106,203 @@ class KnowledgeGraphBuilder:
         
         return g
     
-    def create_data_layer(self, doc: Dict, ontology_graph: Graph) -> Graph:
+    def create_data_layer(self, doc: Dict) -> Graph:
         """
-        Create data layer graph for a single document using ontology classes.
+        Create data layer graph for a single document using ontology classes
         """
         g = Graph()
+        print("Graph initialized.")
 
         # Bind namespaces
         g.bind("person_name", self.person_name)
         g.bind("org_name", self.org_name)
         g.bind("loc", self.loc)
+        g.bind("rel", self.rel)
         g.bind("base", self.base)
         g.bind("person_position", self.person_position)
         g.bind("org_role", self.org_role)
         g.bind("org_sub_role", self.org_sub_role)
         g.bind("location_type", self.location_type)
-        g.bind("rel", self.rel)
-        g.bind("isInstanceOf", self.is_instance_of)  # Bind is_instance_of correctly
-
-        # Merge the ontology into the data layer graph
-        g += ontology_graph
+        g.bind("isInstanceOf", self.isInstanceOf)  # Binding IsInstanceOf namespace
+        print("Namespaces bound.")
 
         entities = {}
+        org_roles: Dict[URIRef, Set[URIRef]] = {}
+        person_positions: Dict[URIRef, URIRef] = {}
+        position_orgs: Dict[URIRef, URIRef] = {}
+        person_employers: Dict[URIRef, URIRef] = {}
+        location_types: Dict[URIRef, URIRef] = {}
 
-        # Parse all entities
+        # First pass: Parse all entities
+        print("Parsing entities...")
         for annotation in doc.get("annotations", []):
-            for result in annotation.get("result", []):
+            for result in annotation.get('result', []):
                 if result["type"] == "hypertextlabels":
                     label = result["value"].get("hypertextlabels", [])[0]
                     text = result["value"].get("text", "")
+                    print(f"Found label: {label} with text: {text}")
 
-                    # Handle Person Name
                     if label == "Person Name":
                         uri = self.person_name[self._clean_uri(text)]
-                        g.add((uri, RDF.type, self.base.Person))  # Declare as instance of base:Person
-                        g.add((uri, self.is_instance_of, self.person_position["VP"]))  # Use prefixed isInstanceOf
-                        g.add((uri, self.rel.IsEmployeeOf, self.org_name["Wells_Fargo"]))  # IsEmployeeOf Wells Fargo
-                        g.add((uri, RDFS.label, Literal(text)))  # Add label as literal
+                        g.add((uri, RDF.type, self.base.Person))
+                        g.add((uri, RDFS.label, Literal(text)))
+                        print(f"Added person: {uri}")
                         entities[result["id"]] = {"uri": uri, "label": label}
-
-                    # Handle Organization Name
+                        person_positions[uri] = None
+                        person_employers[uri] = None
+                    
                     elif label == "Organization Name":
                         uri = self.org_name[self._clean_uri(text)]
-                        g.add((uri, RDF.type, self.base.Organization))  # Declare as instance of base:Organization
-                        g.add((uri, self.is_instance_of, self.base.Organization))  # Use prefixed isInstanceOf
-                        role_uri = self.org_role[self._clean_uri("Finance_Department")]
-                        g.add((uri, self.rel.hasOrgRole, role_uri))  # Link to role
+                        g.add((uri, RDF.type, self.base.Organization))
+                        org_roles[uri] = set()
+                        print(f"Added organization: {uri}")
                         entities[result["id"]] = {"uri": uri, "label": label}
-
-                    # Handle Location
+                    
                     elif label == "Location":
                         uri = self.loc[self._clean_uri(text)]
-                        g.add((uri, RDF.type, self.base.Location))  # Declare as instance of base:Location
-                        location_type_uri = self.location_type[self._clean_uri("Loan_and_Agency_Services_Group")]
-                        g.add((uri, self.is_instance_of, location_type_uri))  # Use prefixed isInstanceOf
-                        g.add(
-                            (uri, self.rel.isLocationOf, self.org_name[self._clean_uri("JPMORGAN_CHASE_BANK_N_A")])
-                        )  # Link to organization
-                        g.add((uri, RDFS.label, Literal(text)))  # Add label as literal
+                        g.add((uri, RDF.type, self.base.Location))
+                        print(f"Added location: {uri}")
                         entities[result["id"]] = {"uri": uri, "label": label}
+                    
+                    elif label in ["Person Position", "Organization Role", "Organization Sub-Role", "Location Type"]:
+                        print(f"Storing entity for relationship: {label} -> {text}")
+                        entities[result["id"]] = {
+                            "text": text,
+                            "label": label
+                        }
+
+        # Second pass: Process relationships
+        print("Processing relationships...")
+        for annotation in doc.get("annotations", []):
+            for result in annotation.get('result', []):
+                if result["type"] == "relation":
+                    from_id = result.get("from_id")
+                    to_id = result.get("to_id")
+
+                    from_entity = entities.get(from_id)
+                    to_entity = entities.get(to_id)
+
+                    if not from_entity or not to_entity:
+                        print(f"Skipping relation due to missing entities: {from_id}, {to_id}")
+                        continue
+
+                    from_label = from_entity.get("label")
+                    to_label = to_entity.get("label")
+                    print(f"Processing relation: {from_label} -> {to_label}")
+
+                    # Person - Position relationship
+                    if (from_label == "Person Name" and to_label == "Person Position") or \
+                    (from_label == "Person Position" and to_label == "Person Name"):
+                        person_uri = from_entity["uri"] if from_label == "Person Name" else to_entity["uri"]
+                        position_text = to_entity["text"] if from_label == "Person Name" else from_entity["text"]
+                        position_uri = self.person_position[self._clean_uri(position_text)]
+                        person_positions[person_uri] = position_uri
+
+                        # Add position relationship
+                        g.add((person_uri, RDF.type, self.base.Person))
+                        g.add((person_uri, self.isInstanceOf, position_uri))
+                        print(f"Added Person -> Position isInstanceOf relationship: {person_uri} -> {position_uri}")
+
+                    # Organization - Person relationship
+                    elif (from_label == "Organization Name" and to_label == "Person Name") or \
+                        (from_label == "Person Name" and to_label == "Organization Name"):
+                        org_uri = from_entity["uri"] if from_label == "Organization Name" else to_entity["uri"]
+                        person_uri = to_entity["uri"] if from_label == "Organization Name" else from_entity["uri"]
+
+                        # Add employment relationships
+                        g.add((person_uri, RDF.type, self.base.Person))
+                        g.add((org_uri, RDF.type, self.base.Organization))
+                        g.add((person_uri, self.rel.isEmployedBy, org_uri))
+                        g.add((org_uri, self.rel.hasEmployee, person_uri))
+                        g.add((person_uri, self.isInstanceOf, org_uri))
+                        print(f"Added Organization -> Person and isInstanceOf relationship: {person_uri} -> {org_uri}")
+                        person_employers[person_uri] = org_uri
+
+                    # Organization - Role relationship
+                    elif (from_label == "Organization Name" and to_label in ["Organization Role", "Organization Sub-Role"]):
+                        org_uri = from_entity["uri"]
+                        role_ns = self.org_role if to_label == "Organization Role" else self.org_sub_role
+                        role_uri = role_ns[self._clean_uri(to_entity["text"])]
+                        g.add((org_uri, RDF.type, self.base.Organization))
+                        g.add((org_uri, self.isInstanceOf, role_uri))
+                        print(f"Added isInstanceOf for Organization Role: {org_uri} -> {role_uri}")
+
+                    # Organization - Sub-Role relationship
+                    elif from_label == "Organization Name" and to_label == "Organization Sub-Role":
+                        org_uri = from_entity["uri"]
+                        sub_role_uri = self.org_sub_role[self._clean_uri(to_entity["text"])]
+                        org_roles[org_uri].add(sub_role_uri)
+                        g.add((org_uri, self.isInstanceOf, sub_role_uri))
+                        print(f"Added isInstanceOf for Sub-Role: {org_uri} -> {sub_role_uri}")
+
+                    # Location - Type relationship
+                    elif from_label == "Location" and to_label == "Location Type":
+                        loc_uri = from_entity["uri"]
+                        type_uri = self.location_type[self._clean_uri(to_entity["text"])]
+                        g.add((loc_uri, self.isInstanceOf, type_uri))
+                        print(f"Added Location -> Type isInstanceOf relationship: {loc_uri} -> {type_uri}")
+
+                    # Organization - Location relationship
+                    elif from_label == "Organization Name" and to_label == "Location":
+                        org_uri = from_entity["uri"]
+                        loc_uri = to_entity["uri"]
+                        g.add((org_uri, self.rel.hasLocationAt, loc_uri))
+                        g.add((loc_uri, self.rel.isLocationOf, org_uri))
+                        g.add((loc_uri, self.isInstanceOf, self.base.Location))
+                        print(f"Linked Organization to Location and added isInstanceOf: {loc_uri} -> Location")
+
+                    # Position -> Organization relationship
+                    if (from_label == "Person Position" and to_label == "Organization Name") or \
+                    (from_label == "Organization Name" and to_label == "Person Position"):
+                        org_uri = from_entity["uri"] if from_label == "Organization Name" else to_entity["uri"]
+                        position_text = to_entity["text"] if from_label == "Organization Name" else from_entity["text"]
+                        position_uri = self.person_position[self._clean_uri(position_text)]
+                        position_orgs[position_uri] = org_uri
+
+                    # After processing all relationships, connect Person to Organization through Position
+                    for person_uri, position_uri in person_positions.items():
+                        if position_uri in position_orgs:
+                            org_uri = position_orgs[position_uri]
+                            g.add((person_uri, self.rel.isEmployedBy, org_uri))
+                            g.add((org_uri, self.rel.hasEmployee, person_uri))
+                            print(f"Connected Person -> Position -> Organization: {person_uri} -> {position_uri} -> {org_uri}")
+
+                    # Add any missing relationships
+                    for person_uri, position_uri in person_positions.items():
+                        if position_uri and person_uri not in [s for s, p, o in g.triples((None, self.rel.hasPosition, position_uri))]:
+                            g.add((person_uri, RDF.type, self.base.Person))
+                            g.add((person_uri, self.isInstanceOf, position_uri))
+                            print(f"Added missing Person -> Position relationship: {person_uri} -> {position_uri}")
+
+                    for person_uri, employer_uri in person_employers.items():
+                        if employer_uri and person_uri not in [s for s, p, o in g.triples((None, self.rel.isEmployedBy, employer_uri))]:
+                            g.add((person_uri, self.rel.isEmployedBy, employer_uri))
+                            g.add((employer_uri, self.rel.hasEmployee, person_uri))
+                            print(f"Added missing Person -> Organization relationship: {person_uri} -> {employer_uri}")
+
+                    # Add all organization roles
+                    for org_uri, roles in org_roles.items():
+                        for role_uri in roles:
+                            g.add((org_uri, RDF.type, role_uri))
+                            g.add((org_uri, self.isInstanceOf, role_uri))
+                            print(f"Added Organization -> Role isInstanceOf relationship: {org_uri} -> {role_uri}")
+
+                    # Debugging after processing relationships
+                    print("Final graph:")
+                    for subj, pred, obj in g:
+                        print(f"{subj} {pred} {obj}")
+
+        # Finalize TTL file structure
+        print("Finalizing RDF graph...")
+        for person_uri, position_uri in person_positions.items():
+            if position_uri:
+                g.add((person_uri, self.isInstanceOf, position_uri))
+                print(f"Added IsInstanceOf relationship: {person_uri} -> {position_uri}")
 
         return g
 
 
-
+        
     def _clean_uri(self, text: str) -> str:
         """
         Clean and encode the string text for use as part of a URI.
@@ -199,7 +332,7 @@ def main(json_file_path: str, output_dir: str):
     
     # Create and save data layers
     for doc in data:
-        data_graph = builder.create_data_layer(doc, ontology_graph)
+        data_graph = builder.create_data_layer(doc)
         # Use the document ID for naming
         doc_id = doc.get("id", "unknown_id")  # Default to "unknown_id" if not found
         builder.save_graph(data_graph, f"{output_dir}/{doc_id}.ttl")
