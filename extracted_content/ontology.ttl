@@ -9,6 +9,8 @@ base:Location a rdfs:Class .
 
 base:Organization a rdfs:Class .
 
+base:OrganizationRole a rdfs:Class .
+
 base:Person a rdfs:Class .
 
 location_type:Agency_Management a rdfs:Class ;
@@ -171,76 +173,76 @@ org_role:counsel_to_any_Lender a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_sub_role:Co-Book_Managers a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 org_sub_role:Coordinating_Lead_Arranger a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 org_sub_role:General_Partner a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 org_sub_role:Joint_Book_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 org_sub_role:Joint_Book_Runner a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 org_sub_role:Joint_Lead_Arranger a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 org_sub_role:Joint_Lead_Arrangers a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 org_sub_role:Joint_Lead_Arrangers%2C a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 <http://example.org/org_sub_role/L/C_Issuer> a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 org_sub_role:Lender a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 org_sub_role:Parent a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 org_sub_role:Sole_Lead_Arranger a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 org_sub_role:Subsidiaries a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 org_sub_role:Subsidiary_Guarantors a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 org_sub_role:Swing_Line_Lender a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 org_sub_role:Swingline_Lender a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 org_sub_role:counsel a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 org_sub_role:counsel_to_Borrowers a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 org_sub_role:counsel_to_Lender a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 org_sub_role:counsel_to_any_Lender a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 org_sub_role:delegate a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 org_sub_role:legal_counsel a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 org_sub_role:oint_Lead_Arranger a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 org_sub_role:subsidiary a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+    rdfs:subClassOf base:OrganizationRole .
 
 <http://example.org/person_position/%5CnAssociate> a rdfs:Class ;
     rdfs:subClassOf base:Person .
