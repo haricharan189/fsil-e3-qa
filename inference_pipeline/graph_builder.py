@@ -106,11 +106,14 @@ class KnowledgeGraphBuilder:
         
         return g
     
-    def create_data_layer(self, doc: Dict) -> Graph:
+    def create_data_layer(self, doc: Dict, ontology_graph) -> Graph:
+    
         """
         Create data layer graph for a single document using ontology classes
         """
         g = Graph()
+        
+        g = g + ontology_graph
         
         # Bind namespaces
         g.bind("person_name", self.person_name)
@@ -302,7 +305,7 @@ def main(json_file_path: str, output_dir: str):
     
     # Create and save data layers
     for doc in data:
-        data_graph = builder.create_data_layer(doc)
+        data_graph = builder.create_data_layer(doc, ontology_graph)
         # Use the document ID for naming
         doc_id = doc.get("id", "unknown_id")  # Default to "unknown_id" if not found
         builder.save_graph(data_graph, f"{output_dir}/{doc_id}.ttl")

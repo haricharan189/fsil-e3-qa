@@ -1,1 +1,1 @@
-isInstanceOf
+org_roles[org_uri].add(sub_role_uri)
