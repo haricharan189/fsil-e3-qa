@@ -38,7 +38,7 @@ class KnowledgeGraphBuilder:
         """
         positions: Set[str] = set()
         org_roles: Set[str] = set()
-        org_sub_roles: Dict[str, str] = {}  # sub_role -> parent_role mapping
+        org_sub_roles: Set[str] = set()  
         loc_types: Set[str] = set()
         
         # Extract all classes from annotations
@@ -55,7 +55,7 @@ class KnowledgeGraphBuilder:
                         elif label == "Organization Role":
                             org_roles.add(text)
                         elif label == "Organization Sub-Role":
-                            org_sub_roles[text] = None  # Temporarily store sub-role
+                            org_sub_roles.add(text)
                         elif label == "Location Type":
                             loc_types.add(text)
         
@@ -74,30 +74,37 @@ class KnowledgeGraphBuilder:
         g.add((self.base.Person, RDF.type, RDFS.Class))
         g.add((self.base.Organization, RDF.type, RDFS.Class))
         g.add((self.base.Location, RDF.type, RDFS.Class))
+        g.add((self.base.OrganizationRole, RDF.type, RDFS.Class))
         
         # Add position subclasses
         for position in positions:
             position_uri = self.person_position[self._clean_uri(position)]
             g.add((position_uri, RDF.type, RDFS.Class))
             g.add((position_uri, RDFS.subClassOf, self.base.Person))
-        
+
         # Add organization role subclasses
         for role in org_roles:
             role_uri = self.org_role[self._clean_uri(role)]
             g.add((role_uri, RDF.type, RDFS.Class))
             g.add((role_uri, RDFS.subClassOf, self.base.Organization))
-        
+            print(f"Added role: ({role_uri}, rdf:type, rdfs:Class)")
+            print(f"Added role subclass: ({role_uri}, rdfs:subClassOf, {self.base.Organization})")
+
+
         # Add organization sub-role subclasses
-        for sub_role, parent_role in org_sub_roles.items():
+        for sub_role in org_sub_roles:
             sub_role_uri = self.org_sub_role[self._clean_uri(sub_role)]
             g.add((sub_role_uri, RDF.type, RDFS.Class))
-            
-            if parent_role:
-                parent_role_uri = self.org_role[self._clean_uri(parent_role)]
-                g.add((sub_role_uri, RDFS.subClassOf, parent_role_uri))
-            else:
-                g.add((sub_role_uri, RDFS.subClassOf, self.base.Organization))
-        
+            g.add((sub_role_uri, RDFS.subClassOf, self.base.OrganizationRole))
+            print(f"Added sub-role: ({sub_role_uri}, rdf:type, rdfs:Class)")
+            print(f"Added sub-role subclass: ({sub_role_uri}, rdfs:subClassOf, {self.org_role})")
+
+
+        # Debug output of the org_roles and org_sub_roles mappings
+        print("Organization roles:")
+        for role in org_roles:
+            print(f"Role: {role}, URI: {self.org_role[self._clean_uri(role)]}")
+
         # Add location type subclasses
         for loc_type in loc_types:
             loc_type_uri = self.location_type[self._clean_uri(loc_type)]
@@ -210,20 +217,20 @@ class KnowledgeGraphBuilder:
                     # Organization - Role relationship
                     elif (from_label == "Organization Name" and to_label in ["Organization Role", "Organization Sub-Role"]):
                         org_uri = from_entity["uri"]
-                        role_ns = self.org_role if to_label == "Organization Role" else self.org_sub_role
-                        role_uri = role_ns[self._clean_uri(to_entity["text"])]
+                        if(to_label == "Organization Role"):
+                            role_ns = self.org_role
+                            role_uri = role_ns[self._clean_uri(to_entity["text"])]
+                            g.add((org_uri, self.isInstanceOf, role_uri))
+                        else:
+                            role_ns = self.org_sub_role
+                            sub_role_uri = role_ns[self._clean_uri(to_entity["text"])]
+                            g.add((org_uri, self.isInstanceOf, sub_role_uri))
+
                         g.add((org_uri, RDF.type, self.base.Organization))
-                        g.add((org_uri, self.isInstanceOf, role_uri))
                         # g.add((org_uri, RDF.type, role_uri))
                         # org_roles[org_uri].add(role_uri)
                     
-                    # Organization - Sub-Role relationship
-                    elif from_label == "Organization Name" and to_label == "Organization Sub-Role":
-                        org_uri = from_entity["uri"]
-                        sub_role_uri = self.org_sub_role[self._clean_uri(to_entity["text"])]
-                        org_roles[org_uri].add(sub_role_uri)
-                        g.add((org_uri, self.isInstanceOf, sub_role_uri))
-                    
+
                     # Location - Type relationship
                     elif from_label == "Location" and to_label == "Location Type":
                         loc_uri = from_entity["uri"]
