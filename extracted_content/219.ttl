@@ -1,281 +1,384 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
 @prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
 @prefix rel: <http://example.org/relation/> .
 
-<http://example.org/org_name/AMERICAN_SAVINGS_BANK%2C_F.S.B.> a base:Organization .
+<http://example.org/org_name/AMERICAN_SAVINGS_BANK%2C_F.S.B.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
 
-org_name:BANK_OF_AMERICA a base:Organization .
+org_name:BANK_OF_AMERICA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
 
-org_name:BANNER_BANK a base:Organization .
+org_name:BANNER_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
 
-org_name:BRANCH_BANKING_AND_TRUST_COMPANY a base:Organization .
+org_name:BRANCH_BANKING_AND_TRUST_COMPANY a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
 
-org_name:CHANG_HWA_COMMERCIAL_BANK%2C_LTD a base:Organization .
+org_name:CHANG_HWA_COMMERCIAL_BANK%2C_LTD a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
 
-org_name:COMERICA_BANK a base:Organization .
+org_name:COMERICA_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
 
-org_name:COMPASS_BANK a base:Organization .
+org_name:COMPASS_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
 
-org_name:FIFTH_THIRD_BANK a base:Organization .
+org_name:FIFTH_THIRD_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
 
-org_name:FIRST_HAWAIIAN_BANK a base:Organization .
+org_name:FIRST_HAWAIIAN_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
 
-org_name:HSBC_BANK_PLC a base:Organization .
+org_name:HSBC_BANK_PLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
 
-org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION a base:Organization .
+org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
 
-org_name:HUA_NAN_COMMERCIAL_BANK a base:Organization .
+org_name:HUA_NAN_COMMERCIAL_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
 
-org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization .
+org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
 
-org_name:MANUFACTURERS_BANK a base:Organization .
+org_name:MANUFACTURERS_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
 
-org_name:MIZUHO_BANK%2C_LTD a base:Organization .
+org_name:MIZUHO_BANK%2C_LTD a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
 
-org_name:SUNTRUST_BANK a base:Organization .
+org_name:SUNTRUST_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
 
-org_name:TD_BANK a base:Organization .
+org_name:TD_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
 
-org_name:THE%C2%A0BANK%C2%A0OF%C2%A0TOKYO-MITSUBISHI%C2%A0UFJ%2C%C2%A0LTD a base:Organization .
+org_name:THE%C2%A0BANK%C2%A0OF%C2%A0TOKYO-MITSUBISHI%C2%A0UFJ%2C%C2%A0LTD a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
 
-org_name:THE_BANK_OF_NOVA_SCOTIA a base:Organization .
+org_name:THE_BANK_OF_NOVA_SCOTIA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
 
-org_name:THE_NORTHERN_TRUST_COMPANY a base:Organization .
+org_name:THE_NORTHERN_TRUST_COMPANY a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
 
-org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization .
+org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
 
-org_name:WELLS_FARGO_BANK%2C%5CnNATIONAL_ASSOCIATION a base:Organization .
+org_name:WELLS_FARGO_BANK%2C%5CnNATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
 
-org_name:WESTERN_DIGITAL_CORPORATION a base:Organization .
+org_name:WESTERN_DIGITAL_CORPORATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_role:Holdings .
 
 loc:10_South_Dearborn_Street%2C_Floor_7%5Cn%5CnChicago%2C_IL_60603 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf <http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK> .
 
 loc:3355_Michelson_Drive%5Cn%5CnSuite_100%5Cn%5CnIrvine%2C_CA_92612 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf org_name:WESTERN_DIGITAL_IRELAND%2C_LTD .
 
 <http://example.org/org_name/%5CnHUA_NAN_COMMERCIAL_BANK%2C_LTD> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Shu-Fei_%28Sophia%29_Lin .
 
 <http://example.org/org_name/%5CnTAIPEI_FUBON_COMMERCIAL_BANK_CO.%2C_LTD> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Robin_S._Wu .
 
 org_name:BANK_OF_CHINA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Haiyong_Yang .
 
 org_name:BANK_OF_THE_WEST a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Cecile_Segovia .
 
 org_name:CTBC_BANK_CO.%2C_LTD a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Ralph_Wu .
 
 org_name:DBS_BANK_LTD a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:James_McWalters .
 
 org_name:LAND_BANK_OF_TAIWAN a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Henry_C._R._Leu .
 
 org_name:MEGA_INTERNATIONAL_COMMERCIAL_BANK_CO.%2C_LTD a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Hsiao-Ho_Huang .
 
 org_name:PNC_BANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Matthew_D._Meister .
 
 org_name:SABADELL_UNITED_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Maurici_Llad%C3%B3 .
 
 org_name:TAIWAN_COOPERATIVE_BANK%2C_LTD a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Li-Hua_Huang .
 
 org_name:WESTERN_DIGITAL_IRELAND%2C_LTD a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Cayman_Borrower ;
     rel:hasLocationAt loc:3355_Michelson_Drive%5Cn%5CnSuite_100%5Cn%5CnIrvine%2C_CA_92612 .
 
 person_name:Andrew_Hietala a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
     rel:isEmployedBy org_name:WESTERN_DIGITAL_TECHNOLOGIES%2C_INC .
 
 person_name:Bertram_H._Tang a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
     rel:isEmployedBy org_name:ROYAL_BANK_OF_CANADA .
 
 person_name:Cecile_Segovia a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director_and_Senior_Relationship_Manager ;
     rel:isEmployedBy org_name:BANK_OF_THE_WEST .
 
 person_name:Charles_De_Clapiers a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
     rel:isEmployedBy org_name:CITIBANK .
 
 person_name:Danny_Leung a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:SVP_%26_COO ;
     rel:isEmployedBy org_name:THE_BANK_OF_EAST_ASIA%2C_LTD .
 
 person_name:Elizabeth_Willi a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
     rel:isEmployedBy org_name:CITIBANK .
 
 person_name:Eric_Chen a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:VP_%26_General_Manager ;
     rel:isEmployedBy org_name:BANK_OF_TAIWAN .
 
 person_name:Eugene_Dempsey a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
     rel:isEmployedBy <http://example.org/org_name/%5CnBNP_PARIBAS> .
 
 person_name:Haiyong_Yang a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:SVP_and_Branch_Manager ;
     rel:isEmployedBy org_name:BANK_OF_CHINA .
 
 person_name:Henry_C._R._Leu a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:S.V.P._%26_General_Manager ;
     rel:isEmployedBy org_name:LAND_BANK_OF_TAIWAN .
 
 person_name:Hsiao-Ho_Huang a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:SVP_%26_General_Manager ;
     rel:isEmployedBy org_name:MEGA_INTERNATIONAL_COMMERCIAL_BANK_CO.%2C_LTD .
 
 person_name:Ivan_Vera a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:VP_Credit_and_Documentation ;
     rel:isEmployedBy org_name:BANCO_DE_CREDITO_E_INVERSIONES .
 
 person_name:James_Hua a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:SVP ;
     rel:isEmployedBy org_name:THE_BANK_OF_EAST_ASIA%2C_LTD .
 
 person_name:James_McWalters a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:General_Manager ;
     rel:isEmployedBy org_name:DBS_BANK_LTD .
 
 person_name:Jane_Chang a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:VP_%26_General_Manager ;
     rel:isEmployedBy org_name:BANK_OF_TAIWAN .
 
 person_name:Jeannette_Lu a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
     rel:isEmployedBy org_name:CITIBANK .
 
 person_name:Johanna_Minaya a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Associate_Director ;
     rel:isEmployedBy org_name:STANDARD_CHARTERED_BANK .
 
 person_name:Johnetta_Bush a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
     rel:isEmployedBy org_name:CITIBANK .
 
 person_name:Joseph_Carrillo a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
     rel:isEmployedBy org_name:CITIBANK .
 
 person_name:Juan_Segundo a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Corporate_Banking%2C_Directo ;
     rel:isEmployedBy org_name:BANCO_DE_CREDITO_E_INVERSIONES .
 
 person_name:Kang_Yang a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:VP_%26_General_Manager ;
     rel:isEmployedBy org_name:BANK_OF_TAIWAN .
 
 person_name:Keith_Winzenried a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Credit_Executive ;
     rel:isEmployedBy <http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK> .
 
 person_name:Lacy_Houstoun a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
     rel:isEmployedBy <http://example.org/org_name/%5CnBNP_PARIBAS> .
 
 person_name:Li-Hua_Huang a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:VP_%26_General_Manager%5Cn ;
     rel:isEmployedBy org_name:TAIWAN_COOPERATIVE_BANK%2C_LTD .
 
 person_name:Mark_C._Skrzynski a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
     rel:isEmployedBy org_name:CITIBANK .
 
 person_name:Matthew_D._Meister a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Assistant_Vice_President%5Cn ;
     rel:isEmployedBy org_name:PNC_BANK_NATIONAL_ASSOCIATION .
 
 person_name:Maureen_P._Maroney a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
     rel:isEmployedBy org_name:CITIBANK .
 
 person_name:Maurici_Llad%C3%B3 a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:EVP_%C2%96_Corporate_%26_Commercial_Banking%5Cn ;
     rel:isEmployedBy org_name:SABADELL_UNITED_BANK .
 
 person_name:Michael_Dixon a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
     rel:isEmployedBy org_name:WESTERN_DIGITAL_TECHNOLOGIES%2C_INC .
 
 person_name:Michael_Miller a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
     rel:isEmployedBy <http://example.org/org_name/%5CnBNP_PARIBAS> .
 
 person_name:Michael_Ray a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:General_Counsel,
+        person_position:Secretary,
+        person_position:Senior_Vice_President ;
     rel:isEmployedBy org_name:WESTERN_DIGITAL_TECHNOLOGIES%2C_INC .
 
 person_name:Ralph_Wu a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:SVP_%26_Branch_Manager ;
     rel:isEmployedBy org_name:CTBC_BANK_CO.%2C_LTD .
 
 person_name:Rian_DuBach a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
     rel:isEmployedBy org_name:CITIBANK .
 
 <http://example.org/person_name/Richard_J._Ameny_Jr.> a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
     rel:isEmployedBy org_name:CITIBANK .
 
 person_name:Richard_Ong_Pho a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
     rel:isEmployedBy <http://example.org/org_name/%5CnBNP_PARIBAS> .
 
 person_name:Rita_E._Dillon a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
     rel:isEmployedBy org_name:WESTERN_DIGITAL_TECHNOLOGIES%2C_INC .
 
 person_name:Robert_K._Reddington a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Credit_Documentation_Manager ;
     rel:isEmployedBy org_name:STANDARD_CHARTERED_BANK .
 
 person_name:Robin_S._Wu a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:VP_%26_Deputy_General_Manager ;
     rel:isEmployedBy <http://example.org/org_name/%5CnTAIPEI_FUBON_COMMERCIAL_BANK_CO.%2C_LTD> .
 
 person_name:Sandy_Lee a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
     rel:isEmployedBy org_name:CITIBANK .
 
 person_name:Sheldon_Pinto a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
     rel:isEmployedBy org_name:ROYAL_BANK_OF_CANADA .
 
 person_name:Shibani_Faehnle a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
     rel:isEmployedBy org_name:CITIBANK .
 
 person_name:Shu-Fei_%28Sophia%29_Lin a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President_%26_General_Manager ;
     rel:isEmployedBy <http://example.org/org_name/%5CnHUA_NAN_COMMERCIAL_BANK%2C_LTD> .
 
 person_name:Shuji_Yabe a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
     rel:isEmployedBy org_name:SUMITOMO_MITSUI_BANKING_CORP .
 
 person_name:Steve_Levi a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
     rel:isEmployedBy org_name:WESTERN_DIGITAL_TECHNOLOGIES%2C_INC .
 
 person_name:Steve_Ryan a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
     rel:isEmployedBy org_name:WESTERN_DIGITAL_TECHNOLOGIES%2C_INC .
 
 person_name:Susan_Takeda a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
     rel:isEmployedBy org_name:CITIBANK .
 
 person_name:Suzanne_M._Rode a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
     rel:isEmployedBy org_name:SUMITOMO_MITSUI_BANKING_CORP .
 
 person_name:Teresita_Siao a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK> ;
     rel:isEmployedBy <http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK> .
 
 person_name:Tim_Leyden a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
     rel:isEmployedBy org_name:WESTERN_DIGITAL_TECHNOLOGIES%2C_INC .
 
 person_name:Timothy_Leyden a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
     rel:isEmployedBy org_name:WESTERN_DIGITAL_TECHNOLOGIES%2C_INC .
 
 person_name:Todd_Rodgers a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
     rel:isEmployedBy <http://example.org/org_name/%5CnBNP_PARIBAS> .
 
 org_name:BANCO_DE_CREDITO_E_INVERSIONES a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Ivan_Vera,
         person_name:Juan_Segundo .
 
 org_name:ROYAL_BANK_OF_CANADA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Bertram_H._Tang,
         person_name:Sheldon_Pinto .
 
 org_name:STANDARD_CHARTERED_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Johanna_Minaya,
         person_name:Robert_K._Reddington .
 
 org_name:SUMITOMO_MITSUI_BANKING_CORP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Shuji_Yabe,
         person_name:Suzanne_M._Rode .
 
 org_name:THE_BANK_OF_EAST_ASIA%2C_LTD a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Danny_Leung,
         person_name:James_Hua .
 
-<http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK> a base:Organization ;
-    rel:hasEmployee person_name:Keith_Winzenried,
-        person_name:Teresita_Siao ;
-    rel:hasLocationAt loc:10_South_Dearborn_Street%2C_Floor_7%5Cn%5CnChicago%2C_IL_60603 .
-
 org_name:BANK_OF_TAIWAN a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Eric_Chen,
         person_name:Jane_Chang,
         person_name:Kang_Yang .
 
+<http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        <http://example.org/org_role/L/C_Issuer>,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Keith_Winzenried,
+        person_name:Teresita_Siao ;
+    rel:hasLocationAt loc:10_South_Dearborn_Street%2C_Floor_7%5Cn%5CnChicago%2C_IL_60603 .
+
 <http://example.org/org_name/%5CnBNP_PARIBAS> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Eugene_Dempsey,
         person_name:Lacy_Houstoun,
         person_name:Michael_Miller,
@@ -283,6 +386,7 @@ org_name:BANK_OF_TAIWAN a base:Organization ;
         person_name:Todd_Rodgers .
 
 org_name:WESTERN_DIGITAL_TECHNOLOGIES%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:US_Borrower ;
     rel:hasEmployee person_name:Andrew_Hietala,
         person_name:Michael_Dixon,
         person_name:Michael_Ray,
@@ -293,6 +397,7 @@ org_name:WESTERN_DIGITAL_TECHNOLOGIES%2C_INC a base:Organization ;
         person_name:Timothy_Leyden .
 
 org_name:CITIBANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Charles_De_Clapiers,
         person_name:Elizabeth_Willi,
         person_name:Jeannette_Lu,

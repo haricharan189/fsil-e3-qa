@@ -83,7 +83,7 @@ org_role:Guarantor a rdfs:Class ;
 org_role:Holdings a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-org_role:L%2FC_Issuer a rdfs:Class ;
+<http://example.org/org_role/L/C_Issuer> a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_role:LC_Issuer a rdfs:Class ;
@@ -114,44 +114,43 @@ org_role:counsel_to_the_Borrower a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
 org_sub_role:Administrative a rdfs:Class ;
-    rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C .
+    rdfs:subClassOf base:Organization .
 
 org_sub_role:Book a rdfs:Class ;
-    rdfs:subClassOf org_role:Managers .
+    rdfs:subClassOf base:Organization .
 
 org_sub_role:Co-Documentation a rdfs:Class ;
-    rdfs:subClassOf org_role:Agent .
+    rdfs:subClassOf base:Organization .
 
 org_sub_role:Co-Syndication a rdfs:Class ;
-    rdfs:subClassOf org_role:Agents .
+    rdfs:subClassOf base:Organization .
 
 org_sub_role:Documentation a rdfs:Class ;
-    rdfs:subClassOf org_role:Agent .
+    rdfs:subClassOf base:Organization .
 
 org_sub_role:Issuing a rdfs:Class ;
-    rdfs:subClassOf org_role:Lender%2C .
+    rdfs:subClassOf base:Organization .
 
 org_sub_role:Lead a rdfs:Class ;
-    rdfs:subClassOf org_role:Arrangers .
+    rdfs:subClassOf base:Organization .
 
 org_sub_role:Revolving a rdfs:Class ;
-    rdfs:subClassOf org_role:Lender .
+    rdfs:subClassOf base:Organization .
 
 org_sub_role:Subsidiary a rdfs:Class ;
-    rdfs:subClassOf org_role:Borrower .
+    rdfs:subClassOf base:Organization .
 
 org_sub_role:Swing_Line a rdfs:Class ;
-    rdfs:subClassOf org_role:Lender .
+    rdfs:subClassOf base:Organization .
 
 org_sub_role:Swingline a rdfs:Class ;
-    rdfs:subClassOf org_role:Lender .
+    rdfs:subClassOf base:Organization .
 
 org_sub_role:Syndication a rdfs:Class ;
-    rdfs:subClassOf org_role:Agents .
+    rdfs:subClassOf base:Organization .
 
 org_sub_role:Term_Loan a rdfs:Class ;
-    rdfs:subClassOf org_role:Lender .
+    rdfs:subClassOf base:Organization .
 
 <http://example.org/person_position/%5CnAuthorized_Signatory> a rdfs:Class ;
     rdfs:subClassOf base:Person .

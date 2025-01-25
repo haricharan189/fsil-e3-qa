@@ -1,0 +1,368 @@
+document_number,question,answer,num_hops,num_set_operations
+217,"What is the location of KELTIC FINANCIAL PARTNERS II, LP?","580 White Plains RoadSuite 610Tarrytown, NY 10591",1,0
+217,"Which company is associated with 580 White Plains RoadSuite 610Tarrytown, NY 10591?","KELTIC FINANCIAL PARTNERS II, LP",1,0
+216,What is the position of Brian Seipke?,Vice President,1,0
+216,What is the position of Michael Pugsley?,Senior Vice President,1,0
+216,What is the position of Blake Gronich?,Vice President,1,0
+216,What is the position of Charles M. Swoboda?,"Chairman, Chief Executive  Officer, President",1,0
+216,What is the position of Chris Burns?,Vice President,1,0
+216,What is the position of Daglas P Panchal?,Vice President,1,0
+216,What is the position of Mary K Lundin?,Vice President,1,0
+216,What is the position of Michael E. McDevitt?,"Chief Financial Officer, Executive Vice President",1,0
+216,What is the position of Nicole Ferry Lacchia?,Authorized Signatory,1,0
+216,What is the position of Richard C. Brown?,Senior Vice President,1,0
+216,What is the position of Thomas M. Paulk?,Senior Vice President,1,0
+216,In what organization does Brian Seipke work?,U.S. Bank National Association,1,0
+216,In what organization does Michael Pugsley work?,"PNC Bank, National Association",1,0
+216,In what organization does Blake Gronich work?,"HSBC Bank USA, National Association",1,0
+216,In what organization does Charles M. Swoboda work?,E-CONOLIGHT LLC,1,0
+216,In what organization does Chris Burns work?,"HSBC Bank USA, National Association",1,0
+216,In what organization does Daglas P Panchal work?,"HSBC Bank USA, National Association",1,0
+216,In what organization does Mary K Lundin work?,"HSBC Bank USA, National Association",1,0
+216,In what organization does Michael E. McDevitt work?,"CREE, INC",1,0
+216,In what organization does Nicole Ferry Lacchia work?,GOLDMAN SACHS BANK USA,1,0
+216,In what organization does Richard C. Brown work?,"PNC Bank, National Association",1,0
+216,In what organization does Thomas M. Paulk work?,Bank of America,1,0
+216,"Who is the representative of CREE, INC?",Michael E. McDevitt,1,0
+216,Who is the representative of U.S. Bank National Association?,Brian Seipke,1,0
+216,Who is the representative of Bank of America?,Thomas M. Paulk,1,0
+216,Who is the representative of E-CONOLIGHT LLC?,Charles M. Swoboda,1,0
+216,Who is the representative of GOLDMAN SACHS BANK USA?,Nicole Ferry Lacchia,1,0
+216,"Who is the representative of PNC Bank, National Association?","Michael Pugsley, Richard C. Brown",1,0
+216,"Who is the representative of HSBC Bank USA, National Association?","Blake Gronich, Chris Burns, Daglas P Panchal, Mary K Lundin",1,0
+215,What is the position of Darlene Arias?,Director,1,0
+215,What is the position of Derek Chang?,Vice President,1,0
+215,What is the position of Helen H. Gateson?,Vice President,1,0
+215,"What is the position of John R. Roach, Jr.?",Vice President,1,0
+215,What is the position of S. Kent Gorman?,Sr. VP,1,0
+215,What is the position of Casey Gehrig?,Vice President,1,0
+215,What is the position of Charles McLaughlin?,Senior Vice President,1,0
+215,What is the position of Cheryl Snoor?,Vice President,1,0
+215,What is the position of Craig Pearson?,Associate Director,1,0
+215,What is the position of D. Bryan Gregory?,Director,1,0
+215,What is the position of Dan LePage?,Authorized Signatory,1,0
+215,What is the position of David Heller?,Senior Vice President,1,0
+215,What is the position of Gregory A. Conner?,Vice President,1,0
+215,What is the position of Jean M. Brennan?,Senior Vice President,1,0
+215,What is the position of John C. Popeo?,"Assistant Secretary, Chief Financial Officer, Treasurer",1,0
+215,What is the position of John C. Rowland?,Vice President,1,0
+215,What is the position of Mark Edwards?,Senior Vice President,1,0
+215,What is the position of Michael King?,Authorized Signatory,1,0
+215,What is the position of Michael R Mellott?,Director,1,0
+215,What is the position of Noel Purcell?,Authorized Signatory,1,0
+215,In what organization does Darlene Arias work?,"WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0
+215,In what organization does Derek Chang work?,CITIGROUP GLOBAL MARKETS INC,1,0
+215,In what organization does Helen H. Gateson work?,CITIGROUP GLOBAL MARKETS INC,1,0
+215,"In what organization does John R. Roach, Jr. work?",CITIGROUP GLOBAL MARKETS INC,1,0
+215,In what organization does S. Kent Gorman work?,COMPASS BANK,1,0
+215,In what organization does Casey Gehrig work?,CITIGROUP GLOBAL MARKETS INC,1,0
+215,In what organization does Charles McLaughlin work?,BRANCH BANKING AND TRUST COMPANY,1,0
+215,In what organization does Cheryl Snoor work?,CITIGROUP GLOBAL MARKETS INC,1,0
+215,In what organization does Craig Pearson work?,"UBS AG, STAMFORD BRANCH",1,0
+215,In what organization does D. Bryan Gregory work?,"WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0
+215,In what organization does Dan LePage work?,ROYAL BANK OF CANADA,1,0
+215,In what organization does David Heller work?,U.S. BANK NATIONAL ASSOCIATION,1,0
+215,In what organization does Dinesh Kumar work?,"Citibank, N.A.",1,0
+215,In what organization does Gregory A. Conner work?,"ASSOCIATED BANK, NATIONAL ASSOCIATION",1,0
+215,In what organization does Jean M. Brennan work?,BRANCH BANKING AND TRUST COMPANY,1,0
+215,In what organization does John C. Popeo work?,SELECT INCOME REIT,1,0
+215,In what organization does John C. Rowland work?,CITIGROUP GLOBAL MARKETS INC,1,0
+215,In what organization does Mark Edwards work?,BRANCH BANKING AND TRUST COMPANY,1,0
+215,In what organization does Michael King work?,MORGAN STANLEY BANK,1,0
+215,In what organization does Michael R Mellott work?,"WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0
+215,In what organization does Noel Purcell work?,MORGAN STANLEY BANK,1,0
+215,In what organization does Tari Mock work?,"WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0
+215,In what organization does Treva Lee work?,"WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0
+215,"Who is the representative of UBS AG, STAMFORD BRANCH?",Craig Pearson,1,0
+215,"Who is the representative of ASSOCIATED BANK, NATIONAL ASSOCIATION?",Gregory A. Conner,1,0
+215,Who is the representative of COMPASS BANK?,S. Kent Gorman,1,0
+215,Who is the representative of U.S. BANK NATIONAL ASSOCIATION?,David Heller,1,0
+215,Who is the representative of MORGAN STANLEY BANK?,"Michael King, Noel Purcell",1,0
+215,Who is the representative of ROYAL BANK OF CANADA?,Dan LePage,1,0
+215,Who is the representative of SELECT INCOME REIT?,John C. Popeo,1,0
+215,Who is the representative of BRANCH BANKING AND TRUST COMPANY?,"Charles McLaughlin, Jean M. Brennan, Mark Edwards",1,0
+215,"Who is the representative of Citibank, N.A.?",Dinesh Kumar,1,0
+215,Who is the representative of CITIGROUP GLOBAL MARKETS INC?,"Derek Chang, Helen H. Gateson, John R. Roach, Jr., Casey Gehrig, Cheryl Snoor, John C. Rowland",1,0
+215,"Who is the representative of WELLS FARGO BANK, NATIONAL ASSOCIATION?","Darlene Arias, D. Bryan Gregory, Michael R Mellott, Tari Mock, Treva Lee",1,0
+215,What is the location of BANK OF AMERICA?,"One Fleet Way, 2nd FloorMail Code PA6-580-02-30Scranton, PA 18507",1,0
+215,What is the location of Royal Bank of Canada?,"200 Vesey St., 5th FloorNew York, NY 10281-8098",1,0
+215,"What is the location of WELLS FARGO SECURITIES, LLC?","Minneapolis Loan CenterMAC N9303-110608 Second Avenue South, 11th FloorMinneapolis, Minnesota 55402-1916",1,0
+215,What is the location of ROYAL BANK OF CANADA?,"200 Vesey St., 5th FloorNew York, NY 10281-8098",1,0
+215,What is the location of SELECT INCOME REIT?,"Two Newton Place255 Washington Street, Suite 300Newton, Massachusetts  02458-1634",1,0
+215,"What is the location of Citibank, N.A.?","1615 Brett Road, Ops IIINew Castle, DE 19720",1,0
+215,What is the location of CITIGROUP GLOBAL MARKETS INC?,"1615 Brett Road, Ops IIINew Castle, DE 19720",1,0
+215,"What is the location of WELLS FARGO BANK, NATIONAL ASSOCIATION?","550 South Tryon Street, 6th FloorCharlotte, North Carolina 28202, Minneapolis Loan CenterMAC N9303-110608 Second Avenue South, 11th FloorMinneapolis, Minnesota 55402-1916",1,0
+215,"Which company is associated with 550 South Tryon Street, 6th FloorCharlotte, North Carolina 28202?","WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0
+215,"Which company is associated with One Fleet Way, 2nd FloorMail Code PA6-580-02-30Scranton, PA 18507?",BANK OF AMERICA,1,0
+215,"Which company is associated with Two Newton Place255 Washington Street, Suite 300Newton, Massachusetts  02458-1634?",SELECT INCOME REIT,1,0
+215,"Which company is associated with 1615 Brett Road, Ops IIINew Castle, DE 19720?","Citibank, N.A., CITIGROUP GLOBAL MARKETS INC",1,0
+215,"Which company is associated with 200 Vesey St., 5th FloorNew York, NY 10281-8098?","Royal Bank of Canada, ROYAL BANK OF CANADA",1,0
+215,"Which company is associated with Minneapolis Loan CenterMAC N9303-110608 Second Avenue South, 11th FloorMinneapolis, Minnesota 55402-1916?","WELLS FARGO SECURITIES, LLC, WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0
+215,"What type of location is One Fleet Way, 2nd FloorMail Code PA6-580-02-30Scranton, PA 18507?",Global Trade Operations,1,0
+220,What is the position of Ahaz Armstrong?,Assistant Vice President,1,0
+220,What is the position of Alexander Wu?,"General Manager, SVP",1,0
+220,What is the position of Amie L. Edwards?,Director,1,0
+220,What is the position of Amy Trapp?,Managing Director,1,0
+220,What is the position of Andrea S. Chen?,Director,1,0
+220,What is the position of Audrey Pishnery?,Servicing Officer,1,0
+220,What is the position of Bershunda J. Taylor?,Vice President,1,0
+220,What is the position of Bill O%C2%92Daly?,Director,1,0
+220,What is the position of Brian Tuerff?,Senior Vice President,1,0
+220,What is the position of Christina P. Blackwell?,Vice President,1,0
+220,What is the position of Chwan-Ming Ho?,"General Manager, VP",1,0
+220,What is the position of Edward Chen?,"General Manager, VP",1,0
+220,What is the position of Elsa O%C2%92Brien?,Manager,1,0
+220,What is the position of Helga Blum?,Managing Director,1,0
+220,What is the position of James M. Armstrong?,Senior Vice President,1,0
+220,What is the position of John C. Rowland?,Vice President,1,0
+220,What is the position of Joselin Fernandes?,Associate Director,1,0
+220,What is the position of Joshua Freedman?,Authorized Signatory,1,0
+220,What is the position of Joshua Turner?,Vice President,1,0
+220,What is the position of Kazuhisa Matsuda?,Managing Director,1,0
+220,What is the position of Kirby R. Holman?,Vice President,1,0
+220,What is the position of Kristy Ahee?,Vice President,1,0
+220,What is the position of Kyle B. O%C2%92Neill?,Account Representative,1,0
+220,What is the position of Lana Gifas?,Director,1,0
+220,What is the position of Laura Conway?,Vice President,1,0
+220,What is the position of Laura Conway?,Vice President,1,0
+220,What is the position of Li Hua Huang?,"General Manager, VP",1,0
+220,What is the position of Mark Costantino?,Executive Director,1,0
+220,What is the position of Megan R. Brearey?,Assistant Vice President,1,0
+220,What is the position of Michael A. Crabtree?,"Senior Vice President, Treasurer",1,0
+220,What is the position of Michael D%C2%92Onofrio?,Associate,1,0
+220,What is the position of Michael King?,Authorized Signatory,1,0
+220,What is the position of Ming K. Chu?,Vice President,1,0
+220,What is the position of Mr. George L. Chapman?,"Chairman of the Board, Chief Executive Officer",1,0
+220,What is the position of Noam Azachi?,Authorized Signatory,1,0
+220,What is the position of Samuel A. Bluso?,Senior Vice President,1,0
+220,What is the position of Scott O%C2%92Connell?,Vice President,1,0
+220,What is the position of Tanya Crossley?,Managing Director,1,0
+220,What is the position of Virginia Cosenza?,Vice President,1,0
+220,In what organization does Ahaz Armstrong work?,BRANCH BANKING AND TRUST COMPANY,1,0
+220,In what organization does Alexander Wu work?,BANK OF TAIWAN,1,0
+220,In what organization does Amie L. Edwards work?,Bank of America,1,0
+220,In what organization does Amy Trapp work?,Credit Agricole Corporate and Investment Bank,1,0
+220,In what organization does Andrea S. Chen work?,Bank of America,1,0
+220,In what organization does Audrey Pishnery work?,KEYBANK NATIONAL ASSOCIATION,1,0
+220,In what organization does Bershunda J. Taylor work?,KEYBANK NATIONAL ASSOCIATION,1,0
+220,In what organization does Bill O%C2%92Daly work?,Bank of America,1,0
+220,In what organization does Brian Tuerff work?,"HEALTH CARE REIT, INC.",1,0
+220,In what organization does Christina P. Blackwell work?,KEYBANK NATIONAL ASSOCIATION,1,0
+220,In what organization does Chwan-Ming Ho work?,BANK OF TAIWAN,1,0
+220,In what organization does Edward Chen work?,E.SUN COMMERCIAL BANK,1,0
+220,In what organization does Elsa O%C2%92Brien work?,KEYBANK NATIONAL ASSOCIATION,1,0
+220,In what organization does Helga Blum work?,Credit Agricole Corporate and Investment Bank,1,0
+220,In what organization does James M. Armstrong work?,"HEALTH CARE REIT, INC.",1,0
+220,In what organization does John C. Rowland work?,KEYBANK NATIONAL ASSOCIATION,1,0
+220,In what organization does Joselin Fernandes work?,UBS AG,1,0
+220,In what organization does Joshua Freedman work?,ROYAL BANK OF CANADA,1,0
+220,In what organization does Joshua Turner work?,DEUTSCHE BANK AG,1,0
+220,In what organization does Kazuhisa Matsuda work?,Credit Agricole Corporate and Investment Bank,1,0
+220,In what organization does Kirby R. Holman work?,KEYBANK NATIONAL ASSOCIATION,1,0
+220,In what organization does Kristy Ahee work?,KEYBANK NATIONAL ASSOCIATION,1,0
+220,In what organization does Kyle B. O%C2%92Neill work?,Comerica Bank,1,0
+220,In what organization does Lana Gifas work?,Bank of America,1,0
+220,In what organization does Laura Conway work?,KEYBANK NATIONAL ASSOCIATION,1,0
+220,In what organization does Laura Conway work?,KEYBANK NATIONAL ASSOCIATION,1,0
+220,In what organization does Li Hua Huang work?,E.SUN COMMERCIAL BANK,1,0
+220,In what organization does Mark Costantino work?,JPMORGAN CHASE BANK,1,0
+220,In what organization does Mary Ellen Pisanelli work?,"Shumaker, Loop %26 Kendrick, LLP",1,0
+220,In what organization does Megan R. Brearey work?,Fifth Third Bank,1,0
+220,In what organization does Michael A. Crabtree work?,"HEALTH CARE REIT, INC.",1,0
+220,In what organization does Michael D%C2%92Onofrio work?,CREDIT SUISSE AG,1,0
+220,In what organization does Michael King work?,ROYAL BANK OF CANADA,1,0
+220,In what organization does Ming K. Chu work?,DEUTSCHE BANK AG,1,0
+220,In what organization does Mr. George L. Chapman work?,"HEALTH CARE REIT, INC.",1,0
+220,In what organization does Noam Azachi work?,BARCLAYS BANK PLC,1,0
+220,In what organization does Samuel A. Bluso work?,"HEALTH CARE REIT, INC.",1,0
+220,In what organization does Scott O%C2%92Connell work?,KEYBANK NATIONAL ASSOCIATION,1,0
+220,In what organization does Tanya Crossley work?,Credit Agricole Corporate and Investment Bank,1,0
+220,In what organization does Virginia Cosenza work?,DEUTSCHE BANK AG,1,0
+220,Who is the representative of Comerica Bank?,Kyle B. O%C2%92Neill,1,0
+220,Who is the representative of Fifth Third Bank?,Megan R. Brearey,1,0
+220,Who is the representative of UBS AG?,Joselin Fernandes,1,0
+220,Who is the representative of BARCLAYS BANK PLC?,Noam Azachi,1,0
+220,Who is the representative of BRANCH BANKING AND TRUST COMPANY?,Ahaz Armstrong,1,0
+220,Who is the representative of CREDIT SUISSE AG?,Michael D%C2%92Onofrio,1,0
+220,Who is the representative of JPMORGAN CHASE BANK?,Mark Costantino,1,0
+220,Who is the representative of ROYAL BANK OF CANADA?,"Joshua Freedman, Michael King",1,0
+220,Who is the representative of BANK OF TAIWAN?,"Alexander Wu, Chwan-Ming Ho",1,0
+220,Who is the representative of E.SUN COMMERCIAL BANK?,"Edward Chen, Li Hua Huang",1,0
+220,Who is the representative of DEUTSCHE BANK AG?,"Joshua Turner, Ming K. Chu, Virginia Cosenza",1,0
+220,"Who is the representative of Shumaker, Loop %26 Kendrick, LLP?",Mary Ellen Pisanelli,1,0
+220,Who is the representative of Credit Agricole Corporate and Investment Bank?,"Amy Trapp, Helga Blum, Kazuhisa Matsuda, Tanya Crossley",1,0
+220,Who is the representative of Bank of America?,"Amie L. Edwards, Andrea S. Chen, Bill O%C2%92Daly, Lana Gifas",1,0
+220,"Who is the representative of HEALTH CARE REIT, INC.?","Brian Tuerff, James M. Armstrong, Michael A. Crabtree, Mr. George L. Chapman, Samuel A. Bluso",1,0
+220,Who is the representative of KEYBANK NATIONAL ASSOCIATION?,"Audrey Pishnery, Bershunda J. Taylor, Christina P. Blackwell, Elsa O%C2%92Brien, John C. Rowland, Kirby R. Holman, Kristy Ahee, Laura Conway, Laura Conway, Scott O%C2%92Connell",1,0
+220,"What is the location of Shumaker, Loop %26 Kendrick, LLP?","North Courthouse Square1000 Jackson StreetToledo, Ohio 43604-5573",1,0
+220,"What is the location of HEALTH CARE REIT, INC.?","4500 Dorr StreetToledo, Ohio 43615-4040",1,0
+220,What is the location of KEYBANK NATIONAL ASSOCIATION?,"4910 Tiedeman Rd.Mail Code%3A OH-01-51-0311Brooklyn, Ohio 44144",1,0
+220,"Which company is associated with 4500 Dorr StreetToledo, Ohio 43615-4040?","HEALTH CARE REIT, INC.",1,0
+220,"Which company is associated with 4910 Tiedeman Rd.Mail Code%3A OH-01-51-0311Brooklyn, Ohio 44144?",KEYBANK NATIONAL ASSOCIATION,1,0
+220,"Which company is associated with North Courthouse Square1000 Jackson StreetToledo, Ohio 43604-5573?","Shumaker, Loop %26 Kendrick, LLP",1,0
+218,What is the position of Anthony Pantina?,Vice President,1,0
+218,What is the position of Charles R. Davis?,Officer,1,0
+218,What is the position of D. Scott Farquhar?,Senior Vice President,1,0
+218,What is the position of David A. Carroll?,Senior Vice President,1,0
+218,What is the position of David C. Francisco?,"Treasurer, Vice President",1,0
+218,What is the position of David M. Crane?,Vice President,1,0
+218,What is the position of Jennifer Hwang?,Vice President,1,0
+218,What is the position of John L. Healy?,"Attorney-in-Fact, Secretary, Vice President",1,0
+218,What is the position of Michael Richards?,Senior Vice President,1,0
+218,What is the position of Scott O%C2%92Connell?,Director,1,0
+218,What is the position of Shreya Shah?,Senior Vice President,1,0
+218,What is the position of Vanessa A. Kurbatskiy?,Vice President,1,0
+218,What is the position of William McGinty?,Director,1,0
+218,What is the position of Zubin R. Shroff?,Director,1,0
+218,In what organization does Anthony Pantina work?,"WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0
+218,In what organization does Charles R. Davis work?,THE NORTHERN TRUST COMPANY,1,0
+218,In what organization does D. Scott Farquhar work?,"PNC BANK, NATIONAL ASSOCIATION",1,0
+218,In what organization does David A. Carroll work?,"PNC BANK, NATIONAL ASSOCIATION",1,0
+218,In what organization does David C. Francisco work?,"PERKINELMER, INC",1,0
+218,In what organization does David M. Crane work?,"WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0
+218,In what organization does Jennifer Hwang work?,"WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0
+218,In what organization does John L. Healy work?,"PERKINELMER HEALTH SCIENCES, INC",1,0
+218,In what organization does Michael Richards work?,"PNC BANK, NATIONAL ASSOCIATION",1,0
+218,In what organization does Scott O%C2%92Connell work?,"THE BANK OF TOKYO-MITSUBISHI UFJ, LTD",1,0
+218,In what organization does Shreya Shah work?,"PNC BANK, NATIONAL ASSOCIATION",1,0
+218,In what organization does Vanessa A. Kurbatskiy work?,"WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0
+218,In what organization does William McGinty work?,"THE BANK OF TOKYO-MITSUBISHI UFJ, LTD",1,0
+218,In what organization does Zubin R. Shroff work?,"THE BANK OF TOKYO-MITSUBISHI UFJ, LTD",1,0
+218,Who is the representative of THE NORTHERN TRUST COMPANY?,Charles R. Davis,1,0
+218,"Who is the representative of PERKINELMER HEALTH SCIENCES, INC?",John L. Healy,1,0
+218,"Who is the representative of PERKINELMER, INC?",David C. Francisco,1,0
+218,"Who is the representative of THE BANK OF TOKYO-MITSUBISHI UFJ, LTD?","Scott O%C2%92Connell, William McGinty, Zubin R. Shroff",1,0
+218,"Who is the representative of PNC BANK, NATIONAL ASSOCIATION?","D. Scott Farquhar, David A. Carroll, Michael Richards, Shreya Shah",1,0
+218,"Who is the representative of WELLS FARGO BANK, NATIONAL ASSOCIATION?","Anthony Pantina, David M. Crane, Jennifer Hwang, Vanessa A. Kurbatskiy",1,0
+218,What is the location of JPMORGAN CHASE BANK?,"10 South Dearborn Street%5D%5BChicago, Illinois 60603",1,0
+218,What is the location of WALLAC OY?,04-2436772,1,0
+218,"What is the location of PERKINELMER, INC?",04-2052042,1,0
+218,Which company is associated with 04-2052042?,"PERKINELMER, INC",1,0
+218,Which company is associated with 04-2436772?,WALLAC OY,1,0
+218,"Which company is associated with 10 South Dearborn Street%5D%5BChicago, Illinois 60603?",JPMORGAN CHASE BANK,1,0
+219,What is the position of Andrew Hietala?,Senior Vice President,1,0
+219,What is the position of Bertram H. Tang?,Authorized Signatory,1,0
+219,What is the position of Cecile Segovia?,Director and Senior Relationship Manager,1,0
+219,What is the position of Charles De Clapiers?,Vice President,1,0
+219,What is the position of Danny Leung?,SVP %26 COO,1,0
+219,What is the position of Elizabeth Willi?,Vice President,1,0
+219,What is the position of Eric Chen?,VP %26 General Manager,1,0
+219,What is the position of Eugene Dempsey?,Director,1,0
+219,What is the position of Haiyong Yang?,SVP and Branch Manager,1,0
+219,What is the position of Henry C. R. Leu?,S.V.P. %26 General Manager,1,0
+219,What is the position of Hsiao-Ho Huang?,SVP %26 General Manager,1,0
+219,What is the position of Ivan Vera?,VP Credit and Documentation,1,0
+219,What is the position of James Hua?,SVP,1,0
+219,What is the position of James McWalters?,General Manager,1,0
+219,What is the position of Jane Chang?,VP %26 General Manager,1,0
+219,What is the position of Jeannette Lu?,Vice President,1,0
+219,What is the position of Johanna Minaya?,Associate Director,1,0
+219,What is the position of Johnetta Bush?,Vice President,1,0
+219,What is the position of Joseph Carrillo?,Vice President,1,0
+219,What is the position of Juan Segundo?,"Corporate Banking, Directo",1,0
+219,What is the position of Kang Yang?,VP %26 General Manager,1,0
+219,What is the position of Keith Winzenried?,Credit Executive,1,0
+219,What is the position of Lacy Houstoun?,Director,1,0
+219,What is the position of Li-Hua Huang?,VP %26 General Manager,1,0
+219,What is the position of Mark C. Skrzynski?,Vice President,1,0
+219,What is the position of Matthew D. Meister?,Assistant Vice President,1,0
+219,What is the position of Maureen P. Maroney?,Vice President,1,0
+219,What is the position of Maurici Llad%C3%B3?,EVP %C2%96 Corporate %26 Commercial Banking,1,0
+219,What is the position of Michael Dixon?,Senior Vice President,1,0
+219,What is the position of Michael Miller?,Director,1,0
+219,What is the position of Michael Ray?,"General Counsel, Secretary, Senior Vice President",1,0
+219,What is the position of Ralph Wu?,SVP %26 Branch Manager,1,0
+219,What is the position of Rian DuBach?,Vice President,1,0
+219,What is the position of Richard J. Ameny Jr.?,Vice President,1,0
+219,What is the position of Richard Ong Pho?,Director,1,0
+219,What is the position of Rita E. Dillon?,Senior Vice President,1,0
+219,What is the position of Robert K. Reddington?,Credit Documentation Manager,1,0
+219,What is the position of Robin S. Wu?,VP %26 Deputy General Manager,1,0
+219,What is the position of Sandy Lee?,Vice President,1,0
+219,What is the position of Sheldon Pinto?,Authorized Signatory,1,0
+219,What is the position of Shibani Faehnle?,Vice President,1,0
+219,What is the position of Shu-Fei %28Sophia%29 Lin?,Vice President %26 General Manager,1,0
+219,What is the position of Shuji Yabe?,Managing Director,1,0
+219,What is the position of Steve Levi?,Senior Vice President,1,0
+219,What is the position of Steve Ryan?,Senior Vice President,1,0
+219,What is the position of Susan Takeda?,Vice President,1,0
+219,What is the position of Suzanne M. Rode?,Managing Director,1,0
+219,What is the position of Tim Leyden?,Chief Financial Officer,1,0
+219,What is the position of Timothy Leyden?,Chief Financial Officer,1,0
+219,What is the position of Todd Rodgers?,Director,1,0
+219,In what organization does Andrew Hietala work?,"WESTERN DIGITAL TECHNOLOGIES, INC",1,0
+219,In what organization does Bertram H. Tang work?,ROYAL BANK OF CANADA,1,0
+219,In what organization does Cecile Segovia work?,BANK OF THE WEST,1,0
+219,In what organization does Charles De Clapiers work?,CITIBANK,1,0
+219,In what organization does Danny Leung work?,"THE BANK OF EAST ASIA, LTD",1,0
+219,In what organization does Elizabeth Willi work?,CITIBANK,1,0
+219,In what organization does Eric Chen work?,BANK OF TAIWAN,1,0
+219,In what organization does Eugene Dempsey work?,BNP PARIBAS,1,0
+219,In what organization does Haiyong Yang work?,BANK OF CHINA,1,0
+219,In what organization does Henry C. R. Leu work?,LAND BANK OF TAIWAN,1,0
+219,In what organization does Hsiao-Ho Huang work?,"MEGA INTERNATIONAL COMMERCIAL BANK CO., LTD",1,0
+219,In what organization does Ivan Vera work?,BANCO DE CREDITO E INVERSIONES,1,0
+219,In what organization does James Hua work?,"THE BANK OF EAST ASIA, LTD",1,0
+219,In what organization does James McWalters work?,DBS BANK LTD,1,0
+219,In what organization does Jane Chang work?,BANK OF TAIWAN,1,0
+219,In what organization does Jeannette Lu work?,CITIBANK,1,0
+219,In what organization does Johanna Minaya work?,STANDARD CHARTERED BANK,1,0
+219,In what organization does Johnetta Bush work?,CITIBANK,1,0
+219,In what organization does Joseph Carrillo work?,CITIBANK,1,0
+219,In what organization does Juan Segundo work?,BANCO DE CREDITO E INVERSIONES,1,0
+219,In what organization does Kang Yang work?,BANK OF TAIWAN,1,0
+219,In what organization does Keith Winzenried work?,JPMORGAN CHASE BANK,1,0
+219,In what organization does Lacy Houstoun work?,BNP PARIBAS,1,0
+219,In what organization does Li-Hua Huang work?,"TAIWAN COOPERATIVE BANK, LTD",1,0
+219,In what organization does Mark C. Skrzynski work?,CITIBANK,1,0
+219,In what organization does Matthew D. Meister work?,PNC BANK NATIONAL ASSOCIATION,1,0
+219,In what organization does Maureen P. Maroney work?,CITIBANK,1,0
+219,In what organization does Maurici Llad%C3%B3 work?,SABADELL UNITED BANK,1,0
+219,In what organization does Michael Dixon work?,"WESTERN DIGITAL TECHNOLOGIES, INC",1,0
+219,In what organization does Michael Miller work?,BNP PARIBAS,1,0
+219,In what organization does Michael Ray work?,"WESTERN DIGITAL TECHNOLOGIES, INC",1,0
+219,In what organization does Ralph Wu work?,"CTBC BANK CO., LTD",1,0
+219,In what organization does Rian DuBach work?,CITIBANK,1,0
+219,In what organization does Richard J. Ameny Jr. work?,CITIBANK,1,0
+219,In what organization does Richard Ong Pho work?,BNP PARIBAS,1,0
+219,In what organization does Rita E. Dillon work?,"WESTERN DIGITAL TECHNOLOGIES, INC",1,0
+219,In what organization does Robert K. Reddington work?,STANDARD CHARTERED BANK,1,0
+219,In what organization does Robin S. Wu work?,"TAIPEI FUBON COMMERCIAL BANK CO., LTD",1,0
+219,In what organization does Sandy Lee work?,CITIBANK,1,0
+219,In what organization does Sheldon Pinto work?,ROYAL BANK OF CANADA,1,0
+219,In what organization does Shibani Faehnle work?,CITIBANK,1,0
+219,In what organization does Shu-Fei %28Sophia%29 Lin work?,"HUA NAN COMMERCIAL BANK, LTD",1,0
+219,In what organization does Shuji Yabe work?,SUMITOMO MITSUI BANKING CORP,1,0
+219,In what organization does Steve Levi work?,"WESTERN DIGITAL TECHNOLOGIES, INC",1,0
+219,In what organization does Steve Ryan work?,"WESTERN DIGITAL TECHNOLOGIES, INC",1,0
+219,In what organization does Susan Takeda work?,CITIBANK,1,0
+219,In what organization does Suzanne M. Rode work?,SUMITOMO MITSUI BANKING CORP,1,0
+219,In what organization does Teresita Siao work?,JPMORGAN CHASE BANK,1,0
+219,In what organization does Tim Leyden work?,"WESTERN DIGITAL TECHNOLOGIES, INC",1,0
+219,In what organization does Timothy Leyden work?,"WESTERN DIGITAL TECHNOLOGIES, INC",1,0
+219,In what organization does Todd Rodgers work?,BNP PARIBAS,1,0
+219,"Who is the representative of HUA NAN COMMERCIAL BANK, LTD?",Shu-Fei %28Sophia%29 Lin,1,0
+219,"Who is the representative of TAIPEI FUBON COMMERCIAL BANK CO., LTD?",Robin S. Wu,1,0
+219,Who is the representative of BANK OF CHINA?,Haiyong Yang,1,0
+219,Who is the representative of BANK OF THE WEST?,Cecile Segovia,1,0
+219,"Who is the representative of CTBC BANK CO., LTD?",Ralph Wu,1,0
+219,Who is the representative of DBS BANK LTD?,James McWalters,1,0
+219,Who is the representative of LAND BANK OF TAIWAN?,Henry C. R. Leu,1,0
+219,"Who is the representative of MEGA INTERNATIONAL COMMERCIAL BANK CO., LTD?",Hsiao-Ho Huang,1,0
+219,Who is the representative of PNC BANK NATIONAL ASSOCIATION?,Matthew D. Meister,1,0
+219,Who is the representative of SABADELL UNITED BANK?,Maurici Llad%C3%B3,1,0
+219,"Who is the representative of TAIWAN COOPERATIVE BANK, LTD?",Li-Hua Huang,1,0
+219,Who is the representative of BANCO DE CREDITO E INVERSIONES?,"Ivan Vera, Juan Segundo",1,0
+219,Who is the representative of ROYAL BANK OF CANADA?,"Bertram H. Tang, Sheldon Pinto",1,0
+219,Who is the representative of STANDARD CHARTERED BANK?,"Johanna Minaya, Robert K. Reddington",1,0
+219,Who is the representative of SUMITOMO MITSUI BANKING CORP?,"Shuji Yabe, Suzanne M. Rode",1,0
+219,"Who is the representative of THE BANK OF EAST ASIA, LTD?","Danny Leung, James Hua",1,0
+219,Who is the representative of BANK OF TAIWAN?,"Eric Chen, Jane Chang, Kang Yang",1,0
+219,Who is the representative of JPMORGAN CHASE BANK?,"Keith Winzenried, Teresita Siao",1,0
+219,Who is the representative of BNP PARIBAS?,"Eugene Dempsey, Lacy Houstoun, Michael Miller, Richard Ong Pho, Todd Rodgers",1,0
+219,"Who is the representative of WESTERN DIGITAL TECHNOLOGIES, INC?","Andrew Hietala, Michael Dixon, Michael Ray, Rita E. Dillon, Steve Levi, Steve Ryan, Tim Leyden, Timothy Leyden",1,0
+219,Who is the representative of CITIBANK?,"Charles De Clapiers, Elizabeth Willi, Jeannette Lu, Johnetta Bush, Joseph Carrillo, Mark C. Skrzynski, Maureen P. Maroney, Rian DuBach, Richard J. Ameny Jr., Sandy Lee, Shibani Faehnle, Susan Takeda",1,0
+219,"What is the location of WESTERN DIGITAL IRELAND, LTD?","3355 Michelson DriveSuite 100Irvine, CA 92612",1,0
+219,What is the location of JPMORGAN CHASE BANK?,"10 South Dearborn Street, Floor 7Chicago, IL 60603",1,0
+219,"Which company is associated with 10 South Dearborn Street, Floor 7Chicago, IL 60603?",JPMORGAN CHASE BANK,1,0
+219,"Which company is associated with 3355 Michelson DriveSuite 100Irvine, CA 92612?","WESTERN DIGITAL IRELAND, LTD",1,0
