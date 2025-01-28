@@ -380,12 +380,12 @@ class KnowledgeGraphBuilder:
                     for sub_role in sub_roles:
                         org_uri = self.org_name[self._clean_uri(org)]
                         sub_role_uri = self.org_sub_role[self._clean_uri(sub_role)]
-                        g.add((org_uri, RDF.type, sub_role_uri))
+                        g.add((org_uri, self.isInstanceOf, sub_role_uri))
                         print(f"{org} isInstanceOf {sub_role}")
                 else:  # Role does not have sub-roles
                     org_uri = self.org_name[self._clean_uri(org)]
                     role_uri = self.org_role[self._clean_uri(role)]
-                    g.add((org_uri, RDF.type, role_uri))
+                    g.add((org_uri, self.isInstanceOf, role_uri))
                     print(f"{org} isInstanceOf {role}")
 
         return g
