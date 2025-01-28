@@ -1,0 +1,76 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+org_name:BROWN_RUDNICK_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:legal_counsel .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Syndication_Agents .
+
+loc:1000_Stanley_Drive%5Cn%5CnNew_Britain%2C_Connecticut_06053 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:STANLEY_BLACK%C2%A0%26_DECKER%2C_INC .
+
+loc:25_Canada_Square%5Cn%5CnCanary_Wharf%5Cn%5CnLondon%2C_England_E14_5LB a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location,
+        location_type:UK_Branch ;
+    rel:isLocationOf org_name:CITIGROUP_GLOBAL_MARKETS_INC .
+
+loc:Building_%233%5Cn%5Cn1615_Brett_Road%5Cn%5CnNew_Castle%2C_DE_19720 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:CITIBANK .
+
+org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Book_Runners,
+        org_role:Syndication_Agents ;
+    rel:hasEmployee person_name:Ryan_Durkin .
+
+org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Book_Runners ;
+    rel:hasEmployee person_name:Kay_Reedy .
+
+person_name:Carolyn_Kee a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:CITIBANK .
+
+person_name:Craig_A._Douglas a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Treasurer,
+        person_position:Vice_President ;
+    rel:isEmployedBy org_name:STANLEY_BLACK%C2%A0%26_DECKER%2C_INC .
+
+person_name:John_Summers a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Assistant_Vice_President ;
+    rel:isEmployedBy org_name:CITIGROUP_GLOBAL_MARKETS_INC .
+
+person_name:Kay_Reedy a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director%5Cn ;
+    rel:isEmployedBy org_name:WELLS_FARGO_SECURITIES%2C_LLC .
+
+person_name:Ryan_Durkin a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:GOLDMAN_SACHS_BANK_USA .
+
+org_name:CITIBANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent ;
+    rel:hasEmployee person_name:Carolyn_Kee ;
+    rel:hasLocationAt loc:Building_%233%5Cn%5Cn1615_Brett_Road%5Cn%5CnNew_Castle%2C_DE_19720 .
+
+org_name:CITIGROUP_GLOBAL_MARKETS_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Book_Runners ;
+    rel:hasEmployee person_name:John_Summers ;
+    rel:hasLocationAt loc:25_Canada_Square%5Cn%5CnCanary_Wharf%5Cn%5CnLondon%2C_England_E14_5LB .
+
+org_name:STANLEY_BLACK%C2%A0%26_DECKER%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Initial_Borrower ;
+    rel:hasEmployee person_name:Craig_A._Douglas ;
+    rel:hasLocationAt loc:1000_Stanley_Drive%5Cn%5CnNew_Britain%2C_Connecticut_06053 .
+

@@ -24,7 +24,8 @@ org_name:CITY_NATIONAL_BANK a base:Organization .
 org_name:COMPASS_BANK a base:Organization .
 
 <http://example.org/org_name/DEUTSCHE_BANK_SECURITIES_INC.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent .
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Documentation_Agent .
 
 org_name:J.P._MORGAN_SECURITIES_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
@@ -53,14 +54,6 @@ org_name:The_Bank_of_Tokyo-Mitsubishi_UFJ a base:Organization .
 
 org_name:WELLS_FARGO_BANK a base:Organization .
 
-loc:4500_Dorr_Street%5Cn%5CnToledo%2C_Ohio_43615-4040 a base:Location ;
-    <http://example.org/isInstanceOf/> base:Location ;
-    rel:isLocationOf <http://example.org/org_name/HEALTH_CARE_REIT%2C_INC.> .
-
-loc:4910_Tiedeman_Rd.%5Cn%5CnMail_Code%3A_OH-01-51-0311%5Cn%5CnBrooklyn%2C_Ohio_44144 a base:Location ;
-    <http://example.org/isInstanceOf/> base:Location ;
-    rel:isLocationOf org_name:KEYBANK_NATIONAL_ASSOCIATION .
-
 loc:North_Courthouse_Square%5Cn%5Cn1000_Jackson_Street%5Cn%5CnToledo%2C_Ohio_43604-5573 a base:Location ;
     <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf org_name:Shumaker%2C_Loop%C2%A0%26_Kendrick%2C_LLP .
@@ -84,7 +77,7 @@ org_name:CREDIT_SUISSE_AG a base:Organization ;
     rel:hasEmployee person_name:Michael_D%C2%92Onofrio .
 
 org_name:JPMORGAN_CHASE_BANK a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agents ;
+    <http://example.org/isInstanceOf/> org_role:Co-Syndication_Agents ;
     rel:hasEmployee person_name:Mark_Costantino .
 
 person_name:Ahaz_Armstrong a base:Person ;
@@ -110,11 +103,11 @@ person_name:Andrea_S._Chen a base:Person ;
 
 person_name:Audrey_Pishnery a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Servicing_Officer ;
-    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
+    rel:isEmployedBy org_name:KeyBank_National_Association .
 
 person_name:Bershunda_J._Taylor a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Vice_President ;
-    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
+    rel:isEmployedBy org_name:KeyBank_National_Association .
 
 person_name:Bill_O%C2%92Daly a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Director ;
@@ -126,7 +119,7 @@ person_name:Brian_Tuerff a base:Person ;
 
 person_name:Christina_P._Blackwell a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Vice_President ;
-    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
+    rel:isEmployedBy org_name:KeyBank_National_Association .
 
 person_name:Chwan-Ming_Ho a base:Person ;
     <http://example.org/isInstanceOf/> person_position:General_Manager,
@@ -140,7 +133,7 @@ person_name:Edward_Chen a base:Person ;
 
 person_name:Elsa_O%C2%92Brien a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Manager ;
-    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
+    rel:isEmployedBy org_name:KeyBank_National_Association .
 
 person_name:Helga_Blum a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Managing_Director ;
@@ -152,7 +145,7 @@ person_name:James_M._Armstrong a base:Person ;
 
 person_name:John_C._Rowland a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Vice_President ;
-    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
+    rel:isEmployedBy org_name:KeyBank_National_Association .
 
 person_name:Joselin_Fernandes a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Associate_Director ;
@@ -172,11 +165,11 @@ person_name:Kazuhisa_Matsuda a base:Person ;
 
 person_name:Kirby_R._Holman a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Vice_President ;
-    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
+    rel:isEmployedBy org_name:KeyBank_National_Association .
 
 person_name:Kristy_Ahee a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Vice_President ;
-    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
+    rel:isEmployedBy org_name:KeyBank_National_Association .
 
 person_name:Kyle_B._O%C2%92Neill a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Account_Representative ;
@@ -188,11 +181,11 @@ person_name:Lana_Gifas a base:Person ;
 
 person_name:Laura_Conway a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Vice_President ;
-    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
+    rel:isEmployedBy org_name:KeyBank_National_Association .
 
 person_name:Laura_Conway%5Cn a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Vice_President ;
-    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
+    rel:isEmployedBy org_name:KeyBank_National_Association .
 
 person_name:Li_Hua_Huang a base:Person ;
     <http://example.org/isInstanceOf/> person_position:General_Manager%5Cn,
@@ -231,7 +224,7 @@ person_name:Ming_K._Chu a base:Person ;
 person_name:Mr.%C2%A0George%C2%A0L._Chapman a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Chairman_of_the_Board,
         person_position:Chief_Executive_Officer ;
-    rel:isEmployedBy <http://example.org/org_name/HEALTH_CARE_REIT%2C_INC.> .
+    rel:isEmployedBy <http://example.org/org_name/Health_Care_REIT%2C_Inc.> .
 
 person_name:Noam_Azachi a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Authorized_Signatory%5Cn ;
@@ -243,7 +236,7 @@ person_name:Samuel_A._Bluso a base:Person ;
 
 person_name:Scott_O%C2%92Connell a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Vice_President ;
-    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
+    rel:isEmployedBy org_name:KeyBank_National_Association .
 
 person_name:Tanya_Crossley a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Managing_Director%5Cn ;
@@ -252,6 +245,21 @@ person_name:Tanya_Crossley a base:Person ;
 person_name:Virginia_Cosenza a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Vice_President%5Cn ;
     rel:isEmployedBy <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG> .
+
+loc:127_Public_Square%5Cn%5CnCleveland%2C_Ohio_44114-1306 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:KEYBANK_NATIONAL_ASSOCIATION,
+        org_name:KeyBank_National_Association .
+
+loc:4500_Dorr_Street%5Cn%5CnToledo%2C_Ohio_43615-4040 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/HEALTH_CARE_REIT%2C_INC.>,
+        <http://example.org/org_name/Health_Care_REIT%2C_Inc.> .
+
+loc:4910_Tiedeman_Rd.%5Cn%5CnMail_Code%3A_OH-01-51-0311%5Cn%5CnBrooklyn%2C_Ohio_44144 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:KEYBANK_NATIONAL_ASSOCIATION,
+        org_name:KeyBank_National_Association .
 
 <http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA> a base:Organization ;
     rel:hasEmployee person_name:Joshua_Freedman,
@@ -264,6 +272,18 @@ org_name:BANK_OF_TAIWAN a base:Organization ;
 org_name:E.SUN_COMMERCIAL_BANK a base:Organization ;
     rel:hasEmployee person_name:Edward_Chen,
         person_name:Li_Hua_Huang .
+
+<http://example.org/org_name/Health_Care_REIT%2C_Inc.> a base:Organization ;
+    rel:hasEmployee person_name:Mr.%C2%A0George%C2%A0L._Chapman ;
+    rel:hasLocationAt loc:4500_Dorr_Street%5Cn%5CnToledo%2C_Ohio_43615-4040 .
+
+org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
+        org_role:LC_Issuer,
+        org_role:Lender,
+        org_role:Swingline%5Cn%5Cn%C2%A0%C2%A0%C2%A0%C2%A0Lender ;
+    rel:hasLocationAt loc:127_Public_Square%5Cn%5CnCleveland%2C_Ohio_44114-1306,
+        loc:4910_Tiedeman_Rd.%5Cn%5CnMail_Code%3A_OH-01-51-0311%5Cn%5CnBrooklyn%2C_Ohio_44144 .
 
 <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG> a base:Organization ;
     rel:hasEmployee person_name:Joshua_Turner,
@@ -281,7 +301,7 @@ org_name:Shumaker%2C_Loop%C2%A0%26_Kendrick%2C_LLP a base:Organization ;
         person_name:Tanya_Crossley .
 
 org_name:Bank_of_America a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agents ;
+    <http://example.org/isInstanceOf/> org_role:Co-Syndication_Agents ;
     rel:hasEmployee person_name:Amie_L._Edwards,
         person_name:Andrea_S._Chen,
         person_name:Bill_O%C2%92Daly,
@@ -291,14 +311,13 @@ org_name:Bank_of_America a base:Organization ;
     rel:hasEmployee person_name:Brian_Tuerff,
         person_name:James_M._Armstrong,
         person_name:Michael_A._Crabtree,
-        person_name:Mr.%C2%A0George%C2%A0L._Chapman,
         person_name:Samuel_A._Bluso ;
     rel:hasLocationAt loc:4500_Dorr_Street%5Cn%5CnToledo%2C_Ohio_43615-4040 .
 
-org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent%2C,
-        org_role:LC_Issuer,
-        org_role:Lender ;
+org_name:KeyBank_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:ADMINISTRATIVE_AGENT,
+        org_role:Administrative_Agent,
+        <http://example.org/org_role/L/C_ISSUER%3A%5Cn%5Cn> ;
     rel:hasEmployee person_name:Audrey_Pishnery,
         person_name:Bershunda_J._Taylor,
         person_name:Christina_P._Blackwell,
@@ -309,5 +328,6 @@ org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
         person_name:Laura_Conway,
         person_name:Laura_Conway%5Cn,
         person_name:Scott_O%C2%92Connell ;
-    rel:hasLocationAt loc:4910_Tiedeman_Rd.%5Cn%5CnMail_Code%3A_OH-01-51-0311%5Cn%5CnBrooklyn%2C_Ohio_44144 .
+    rel:hasLocationAt loc:127_Public_Square%5Cn%5CnCleveland%2C_Ohio_44114-1306,
+        loc:4910_Tiedeman_Rd.%5Cn%5CnMail_Code%3A_OH-01-51-0311%5Cn%5CnBrooklyn%2C_Ohio_44144 .
 

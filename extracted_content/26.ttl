@@ -1,0 +1,348 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/%5CnBNP_Paribas> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/%5CnPNC_Bank%2C_National_Association> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/%5CnTHE_BANK_OF_NOVA_SCOTIA> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/%5CnWELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:BARCLAYS_BANK_PLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents,
+        org_role:Bookrunners,
+        org_role:Lead_Arrangers,
+        org_role:Lender .
+
+<http://example.org/org_name/BMO_HARRIS_BANK_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:BRISTOL-MYERS_SQUIBB_COMPANY a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDERS .
+
+org_name:CREDIT_SUISSE_AG%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:CREDIT_SUISSE_LOAN_FUNDING_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents,
+        org_role:Bookrunners,
+        org_role:Lead_Arrangers .
+
+org_name:Credit_Agricole_Corporate_and_Investment_Bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:HSBC_Bank_USA%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/MIZUHO_BANK%2C_LTD.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents,
+        org_role:Bookrunners,
+        org_role:Lead_Arrangers .
+
+<http://example.org/org_name/MORGAN_STANLEY_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:MORGAN_STANLEY_SENIOR_FUNDING%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/MORGAN_STANLEY_SENIOR_FUNDING%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Bookrunners,
+        org_role:Lead_Arrangers .
+
+<http://example.org/org_name/MUFG_BANK%2C_LTD.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Bookrunners,
+        org_role:Lead_Arrangers,
+        org_role:Lender .
+
+org_name:Mizuho_Bank%2C_Ltd a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:Soci%C3%A9t%C3%A9_G%C3%A9n%C3%A9rale a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:SunTrust_Bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:The_Northern_Trust_Company a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:U.S._Bank_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents .
+
+org_name:WELLS_FARGO_SECURITIES_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bookrunners,
+        org_role:Lead_Arrangers .
+
+loc:1300_Thames_Street%2C_Thames_Street_Wharf%2C_4th_Floor%2C_Baltimore%2C_MD_21231 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location,
+        location_type:office ;
+    rel:isLocationOf <http://example.org/org_name/Morgan_Stanley_Senior_Funding%2C_Inc.> .
+
+loc:1585_Broadway%5CnNew_York%2C_NY_10036 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Morgan_Stanley_Senior_Funding%2C_Inc .
+
+loc:345_Park_Avenue%2C_New_York%2C_New_York_10154 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Bristol-Myers_Squibb_Company .
+
+loc:Route_206_%26_Province_Line_Road%2C_Princeton%2C_New_Jersey_08543 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Bristol-Myers_Squibb_Company .
+
+org_name:BANCO_BILBAO_VIZCAYA_ARGENTARIA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasLocationAt loc:NEW_YORK .
+
+org_name:Commerzbank_AG a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasLocationAt loc:New_York .
+
+org_name:Morgan_Stanley_Senior_Funding%2C_Inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent ;
+    rel:hasLocationAt loc:1585_Broadway%5CnNew_York%2C_NY_10036 .
+
+<http://example.org/org_name/Morgan_Stanley_Senior_Funding%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:1300_Thames_Street%2C_Thames_Street_Wharf%2C_4th_Floor%2C_Baltimore%2C_MD_21231 .
+
+org_name:Standard_Chartered_Bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Daniel_Mattern .
+
+org_name:Sumitomo_Mitsui_Banking_Corporation a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Katsuyuki_Kubo .
+
+org_name:UniCredit_Bank_AG a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasLocationAt loc:New_York .
+
+person_name:Ade_Adedeji a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:DEUTSCHE_BANK .
+
+person_name:Andrew_D._Holtz a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:City_National_Bank .
+
+person_name:Anish_Shah a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:Cayman_Islands_Brank .
+
+person_name:Breck_Fleming a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:City_National_Bank .
+
+person_name:Brian_Crowley a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:Santander_Bank%2C_N.A .
+
+person_name:Christopher_Sked a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:Santander_Bank%2C_N.A .
+
+person_name:Clifford_A._Mull a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NEW_YORK_MELLON .
+
+person_name:Daniel_Mattern a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Associate_Director ;
+    rel:isEmployedBy org_name:Standard_Chartered_Bank .
+
+person_name:Emerson_Almeida a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:Cayman_Islands_Brank .
+
+person_name:Fabio_Della_Malva a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:Santander_Bank%2C_N.A .
+
+person_name:Gary_Herzog a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:Santander_Bank%2C_N.A .
+
+person_name:Iain_Stewart a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:Santander_Bank%2C_N.A .
+
+person_name:Jeffrey_Galik a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President,
+        person_position:Treasurer ;
+    rel:isEmployedBy org_name:BRISTOL-MEYERS_SQUIBB_COMPANY .
+
+person_name:Jill_Wong a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NEW_YORK_MELLON .
+
+person_name:John_Toronto a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:Cayman_Islands_Brank .
+
+person_name:Jonathan_Logan a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NEW_YORK_MELLON .
+
+person_name:Jordan_Harris a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NEW_YORK_MELLON .
+
+person_name:Joshua_Hovermale a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NEW_YORK_MELLON .
+
+person_name:Katherine.kelly a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Corporate_Secretary ;
+    rel:isEmployedBy org_name:BRISTOL-MEYERS_SQUIBB_COMPANY .
+
+person_name:Katherine_Bass a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NEW_YORK_MELLON .
+
+person_name:Katherine_Kelly a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Corporate_Secretary ;
+    rel:isEmployedBy org_name:BRISTOL-MEYERS_SQUIBB_COMPANY .
+
+person_name:Katsuyuki_Kubo a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managin_Director ;
+    rel:isEmployedBy org_name:Sumitomo_Mitsui_Banking_Corporation .
+
+person_name:Marc_Fussbahn a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:Santander_Bank%2C_N.A .
+
+person_name:Michelle_C._Phillips a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:Santander_Bank%2C_N.A .
+
+person_name:Ming_K._Chu a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NEW_YORK_MELLON .
+
+person_name:Pedro_Bell a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:Santander_Bank%2C_N.A .
+
+person_name:Ronnie_Glenn a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NEW_YORK_MELLON .
+
+person_name:Ryan_M._Black a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:DEUTSCHE_BANK .
+
+person_name:Scott_O%E2%80%99Connell a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NEW_YORK_MELLON .
+
+person_name:Tracy_Rahn a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:Cayman_Islands_Brank .
+
+person_name:Veli-Matti_Abohen a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:DEUTSCHE_BANK .
+
+person_name:Veronica_Incera a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:Santander_Bank%2C_N.A .
+
+person_name:Virginia_Cosenza a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:DEUTSCHE_BANK .
+
+person_name:William_P._Herold a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:DEUTSCHE_BANK .
+
+person_name:Xavier_Ruiz_Sena a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:Santander_Bank%2C_N.A .
+
+person_name:jeffrey.galik a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Treasurer ;
+    rel:isEmployedBy org_name:BRISTOL-MEYERS_SQUIBB_COMPANY .
+
+loc:NEW_YORK a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location,
+        location_type:BRANCH ;
+    rel:isLocationOf org_name:BANCO_BILBAO_VIZCAYA_ARGENTARIA,
+        org_name:DEUTSCHE_BANK .
+
+loc:New_York a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location,
+        location_type:Branch ;
+    rel:isLocationOf org_name:Commerzbank_AG,
+        org_name:UniCredit_Bank_AG .
+
+org_name:Bristol-Myers_Squibb_Company a base:Organization ;
+    rel:hasLocationAt loc:345_Park_Avenue%2C_New_York%2C_New_York_10154,
+        loc:Route_206_%26_Province_Line_Road%2C_Princeton%2C_New_Jersey_08543 .
+
+org_name:City_National_Bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Andrew_D._Holtz,
+        person_name:Breck_Fleming .
+
+org_name:BRISTOL-MEYERS_SQUIBB_COMPANY a base:Organization ;
+    rel:hasEmployee person_name:Jeffrey_Galik,
+        person_name:Katherine.kelly,
+        person_name:Katherine_Kelly,
+        person_name:jeffrey.galik .
+
+org_name:Cayman_Islands_Brank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Anish_Shah,
+        person_name:Emerson_Almeida,
+        person_name:John_Toronto,
+        person_name:Tracy_Rahn .
+
+org_name:DEUTSCHE_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Ade_Adedeji,
+        person_name:Ryan_M._Black,
+        person_name:Veli-Matti_Abohen,
+        person_name:Virginia_Cosenza,
+        person_name:William_P._Herold ;
+    rel:hasLocationAt loc:NEW_YORK .
+
+org_name:THE_BANK_OF_NEW_YORK_MELLON a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Clifford_A._Mull,
+        person_name:Jill_Wong,
+        person_name:Jonathan_Logan,
+        person_name:Jordan_Harris,
+        person_name:Joshua_Hovermale,
+        person_name:Katherine_Bass,
+        person_name:Ming_K._Chu,
+        person_name:Ronnie_Glenn,
+        person_name:Scott_O%E2%80%99Connell .
+
+org_name:Santander_Bank%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Brian_Crowley,
+        person_name:Christopher_Sked,
+        person_name:Fabio_Della_Malva,
+        person_name:Gary_Herzog,
+        person_name:Iain_Stewart,
+        person_name:Marc_Fussbahn,
+        person_name:Michelle_C._Phillips,
+        person_name:Pedro_Bell,
+        person_name:Veronica_Incera,
+        person_name:Xavier_Ruiz_Sena .
+

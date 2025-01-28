@@ -1,0 +1,255 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/location/%5CnFoster_City%2C_CA_94404> a base:Location .
+
+<http://example.org/org_name/%5CnVISA_INC.> a base:Organization .
+
+<http://example.org/org_name/%5CnWELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:BANK_OF_CHINA%2C_LOS_ANGELES_BRANCH a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:AGENTS,
+        org_role:BOOK_RUNNERS .
+
+org_name:CITIBANK%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:AGENTS .
+
+<http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/CITIGROUP_GLOBAL_MARKETS_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BOOK_RUNNERS .
+
+org_name:J.P._MORGAN_SECURITIES_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BOOK_RUNNERS .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:AGENT,
+        org_role:Lender .
+
+org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BOOK_RUNNERS .
+
+org_name:STANDARD_CHARTERED_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:AGENTS,
+        org_role:BOOK_RUNNERS .
+
+<http://example.org/org_name/THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:AGENTS,
+        org_role:BOOK_RUNNERS,
+        org_role:Lender .
+
+org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:AGENTS,
+        org_role:BOOK_RUNNERS,
+        org_role:Lender .
+
+<http://example.org/org_name/VISA_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_role:LENDERS .
+
+org_name:VISA_INTERNATIONAL_SERVICE_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_role:LENDERS .
+
+org_name:VISA_U.S.A._INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_role:LENDERS .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:AGENTS .
+
+org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BOOK_RUNNERS .
+
+<http://example.org/location/%5Cn101_N_Tryon_Street%5Cn%5Cn%C2%A0%09%5CnMail_Code%3A_NC1-001-05-46%5Cn%5Cn%C2%A0%09%5CnCharlotte%2C_North_Carolina_28255-0001> a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%5CnBank_of_America%2C_N.A.> .
+
+<http://example.org/location/%5Cn101_N_Tryon_Street.%5Cn%5Cn%C2%A0%09%5CnMail_Code%3A_NC1-001-05-46%5Cn%5Cn%C2%A0%09%5CnCharlotte%2C_North_Carolina_28255-0001> a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Bank_of_America%2C_N.A .
+
+<http://example.org/location/%5Cn4th_Floor_Prestige_Knowledge_Park%5Cn%5Cn%C2%A0%09%5CnNear_Marathalli_Junction%2C_Outer_Ring_Road%5Cn%5Cn%C2%A0%09%5CnKadabeesanahalli%2C_Vathur_Hobli%2C_Bangalore_560087> a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> .
+
+<http://example.org/location/%5Cn900_Metro_Center_Boulevard> a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%5CnVisa_International_Service_Association> .
+
+<http://example.org/location/%5CnTokyo_Building%2C_2-7-3%2C_Marunouchi%5Cn%5Cn%C2%A0%09%5CnChiyoda-ku%2C_Tokyo%2C_100-6432%2C_Japan> a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> .
+
+loc:1455_Market_Street%2C_5th_Floor%5Cn%5Cn%C2%A0%09%5CnMail_Code%3A_CA5-701-05-19%5Cn%5Cn%C2%A0%09%5CnSan_Francisco%2C_California_94103 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Bank_of_America%2C_N.A.> .
+
+loc:26_Elmfield_Road%5Cn%5Cn%C2%A0%09%5CnBromley%2C_BR1_1WA%5Cn%5Cn%C2%A0%09%5CnUnited_Kingdom a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%5CnBank_of_America%2C_N.A.> .
+
+loc:901_Main_Street%2C_64th_Floor%5Cn%5Cn%C2%A0%09%5CnMail_Code%3A_TX1-492-64-01%5Cn%5Cn%C2%A0%09%5CnDallas%2C_Texas_75202-3714 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Bank_of_America%2C_N.A.> .
+
+<http://example.org/org_name/%5CnBARCLAYS_BANK_PLC> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Mark_Timms .
+
+<http://example.org/org_name/%5CnVISA_U.S.A._INC.> a base:Organization ;
+    rel:hasEmployee person_name:Richard_Laiderman .
+
+<http://example.org/org_name/%5CnVisa_International_Service_Association> a base:Organization ;
+    rel:hasLocationAt <http://example.org/location/%5Cn900_Metro_Center_Boulevard> .
+
+org_name:Bank_of_America%2C_N.A a base:Organization ;
+    rel:hasLocationAt <http://example.org/location/%5Cn101_N_Tryon_Street.%5Cn%5Cn%C2%A0%09%5CnMail_Code%3A_NC1-001-05-46%5Cn%5Cn%C2%A0%09%5CnCharlotte%2C_North_Carolina_28255-0001> .
+
+org_name:THE_BANK_OF_CHINA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Haiyong_Yang .
+
+org_name:Visa_Inc a base:Organization ;
+    rel:hasLocationAt loc:900_Metro_Center_Boulevard .
+
+<http://example.org/org_name/Visa_Inc.> a base:Organization ;
+    rel:hasLocationAt <http://example.org/location/%5Cn900_Metro_Center_Boulevard%5Cn%5Cn%C2%A0%09%5CnTreasury%2C_Mailstop_M1-6C%5Cn%5Cn%C2%A0%09%5CnFoster_City%2C_CA_94404> .
+
+org_name:Visa_International_Service_Association a base:Organization ;
+    rel:hasLocationAt <http://example.org/location/%5Cn900_Metro_Center_Boulevard%5Cn%5Cn%C2%A0%09%5CnTreasury%2C_Mailstop_M1-6C%5Cn%5Cn%C2%A0%09%5CnFoster_City%2C_CA_94404> .
+
+org_name:Visa_U.S.A._Inc a base:Organization ;
+    rel:hasLocationAt <http://example.org/location/%5Cn900_Metro_Center_Boulevard%5Cn%5Cn%C2%A0%09%5CnTreasury%2C_Mailstop_M1-6C%5Cn%5Cn%C2%A0%09%5CnFoster_City%2C_CA_94404> .
+
+<http://example.org/org_name/Visa_U.S.A._Inc.> a base:Organization ;
+    rel:hasLocationAt loc:900_Metro_Center_Boulevard .
+
+person_name:Anthea_Del_Bianco a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
+person_name:Dhiren_Desai a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
+person_name:Eoin_Roche a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
+    rel:isEmployedBy org_name:CANADIAN_IMPERIAL_BANK_OF_COMMERCE%2C_NEW_YORK_AGENCY .
+
+person_name:George_Manchenko a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION .
+
+person_name:Haiyong_Yang a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Branch_Manager,
+        person_position:Vice_President ;
+    rel:isEmployedBy org_name:THE_BANK_OF_CHINA .
+
+person_name:Johanna_Minaya a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Associate_Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnSTANDARD_CHARTERED_BANK> .
+
+person_name:Kurban_H._Merchant a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
+person_name:Mark_Timms a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President%2C_Debt_Finance ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnBARCLAYS_BANK_PLC> .
+
+person_name:Mark_Walton a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:GOLDMAN_SACHS_BANK_USA .
+
+person_name:Maureen_Maroney a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
+person_name:Oscar_D._Cortez a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
+person_name:Richard_J._Poworoznek a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
+    rel:isEmployedBy org_name:CANADIAN_IMPERIAL_BANK_OF_COMMERCE%2C_NEW_YORK_AGENCY .
+
+person_name:Richard_Laiderman a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Treasurer ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnVISA_U.S.A._INC.> .
+
+person_name:Robert_Casey a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:GOLDMAN_SACHS_BANK_USA .
+
+person_name:Robert_K._Reddington a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Documentation_Manager ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnSTANDARD_CHARTERED_BANK> .
+
+person_name:Scott_W._Reynolds a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION .
+
+loc:900_Metro_Center_Boulevard a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Visa_Inc,
+        <http://example.org/org_name/Visa_U.S.A._Inc.> .
+
+<http://example.org/org_name/%5CnBank_of_America%2C_N.A.> a base:Organization ;
+    rel:hasLocationAt <http://example.org/location/%5Cn101_N_Tryon_Street%5Cn%5Cn%C2%A0%09%5CnMail_Code%3A_NC1-001-05-46%5Cn%5Cn%C2%A0%09%5CnCharlotte%2C_North_Carolina_28255-0001>,
+        loc:26_Elmfield_Road%5Cn%5Cn%C2%A0%09%5CnBromley%2C_BR1_1WA%5Cn%5Cn%C2%A0%09%5CnUnited_Kingdom .
+
+<http://example.org/org_name/%5CnSTANDARD_CHARTERED_BANK> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Johanna_Minaya,
+        person_name:Robert_K._Reddington .
+
+<http://example.org/org_name/Bank_of_America%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent ;
+    rel:hasLocationAt loc:1455_Market_Street%2C_5th_Floor%5Cn%5Cn%C2%A0%09%5CnMail_Code%3A_CA5-701-05-19%5Cn%5Cn%C2%A0%09%5CnSan_Francisco%2C_California_94103,
+        loc:901_Main_Street%2C_64th_Floor%5Cn%5Cn%C2%A0%09%5CnMail_Code%3A_TX1-492-64-01%5Cn%5Cn%C2%A0%09%5CnDallas%2C_Texas_75202-3714 .
+
+org_name:CANADIAN_IMPERIAL_BANK_OF_COMMERCE%2C_NEW_YORK_AGENCY a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:AGENTS,
+        org_role:BOOK_RUNNERS,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Eoin_Roche,
+        person_name:Richard_J._Poworoznek .
+
+org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Mark_Walton,
+        person_name:Robert_Casey .
+
+org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:George_Manchenko,
+        person_name:Scott_W._Reynolds .
+
+<http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> a base:Organization ;
+    rel:hasLocationAt <http://example.org/location/%5Cn4th_Floor_Prestige_Knowledge_Park%5Cn%5Cn%C2%A0%09%5CnNear_Marathalli_Junction%2C_Outer_Ring_Road%5Cn%5Cn%C2%A0%09%5CnKadabeesanahalli%2C_Vathur_Hobli%2C_Bangalore_560087>,
+        <http://example.org/location/%5CnTokyo_Building%2C_2-7-3%2C_Marunouchi%5Cn%5Cn%C2%A0%09%5CnChiyoda-ku%2C_Tokyo%2C_100-6432%2C_Japan> .
+
+<http://example.org/location/%5Cn900_Metro_Center_Boulevard%5Cn%5Cn%C2%A0%09%5CnTreasury%2C_Mailstop_M1-6C%5Cn%5Cn%C2%A0%09%5CnFoster_City%2C_CA_94404> a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Visa_Inc.>,
+        org_name:Visa_International_Service_Association,
+        org_name:Visa_U.S.A._Inc .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:AGENT,
+        org_role:Agent,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Anthea_Del_Bianco,
+        person_name:Dhiren_Desai,
+        person_name:Kurban_H._Merchant,
+        person_name:Maureen_Maroney,
+        person_name:Oscar_D._Cortez .
+

@@ -23,7 +23,8 @@ org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED a base:Or
     <http://example.org/isInstanceOf/> org_role:Arrangers,
         org_role:Bookrunners .
 
-org_name:MIZUHO_BANK%2C%C2%A0LTD a base:Organization .
+org_name:MIZUHO_BANK%2C%C2%A0LTD a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Documentation_Agents .
 
 org_name:RBC_CAPITAL_MARKETS%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
@@ -44,7 +45,7 @@ loc:One_Fleet_Way%2C_2nd_Floor%5Cn%5CnMail_Code_PA6-580-02-30%5Cn%5CnScranton%2C
         location_type:Global_Trade_Operations ;
     rel:isLocationOf org_name:BANK_OF_AMERICA .
 
-loc:Two_Newton_Place%5Cn%5Cn255_Washington_Street%2C_Suite%C2%A0300%5Cn%5CnNewton%2C_Massachusetts%C2%A0_02458-1634 a base:Location ;
+loc:Two_Newton_Place%5Cn%5Cn255_Washington_Street%2C_Suite%C2%A0300%5Cn%5CnNewton%2C_Massachusetts_02458-1634 a base:Location ;
     <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf org_name:SELECT_INCOME_REIT .
 
@@ -55,15 +56,24 @@ org_name:ASSOCIATED_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
     rel:hasEmployee person_name:Gregory_A._Conner .
 
 org_name:BANK_OF_AMERICA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Syndication_Agents ;
     rel:hasLocationAt loc:One_Fleet_Way%2C_2nd_Floor%5Cn%5CnMail_Code_PA6-580-02-30%5Cn%5CnScranton%2C_PA_18507 .
 
 org_name:COMPASS_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Documentation_Agents ;
     rel:hasEmployee <http://example.org/person_name/%5CnS._Kent_Gorman> .
 
 org_name:Royal_Bank_of_Canada a base:Organization ;
     rel:hasLocationAt loc:200_Vesey_St.%2C_5th%C2%A0Floor%5Cn%5CnNew_York%2C_NY_10281-8098 .
 
+org_name:Select_Income_REIT a base:Organization ;
+    rel:hasLocationAt loc:Two_Newton_Place%5Cn%5Cn255_Washington_Street%2C_Suite%C2%A0300%5Cn%5CnNewton%2C_Massachusetts%C2%A0_02458-1634 .
+
+org_name:Select_Income_REIT%2818%29 a base:Organization ;
+    rel:hasLocationAt loc:Two_Newton_Place%5Cn%5Cn255_Washington_Street%2C_Suite%C2%A0300%5Cn%5CnNewton%2C_Massachusetts%C2%A0_02458-1634 .
+
 org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Documentation_Agents ;
     rel:hasEmployee person_name:David_Heller .
 
 org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
@@ -163,8 +173,8 @@ person_name:Tari_Mock a base:Person ;
     rel:isEmployedBy <http://example.org/org_name/%5Cn%C2%A0%5Cn%5CnWELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> .
 
 person_name:Treva_Lee a base:Person ;
-    <http://example.org/isInstanceOf/> <http://example.org/org_name/%5Cn%C2%A0%5Cn%5CnWELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> ;
-    rel:isEmployedBy <http://example.org/org_name/%5Cn%C2%A0%5Cn%5CnWELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> .
+    <http://example.org/isInstanceOf/> org_name:Wells_Fargo_Bank%2C_National_Association ;
+    rel:isEmployedBy org_name:Wells_Fargo_Bank%2C_National_Association .
 
 loc:1615_Brett_Road%2C_Ops_III%5Cn%5CnNew_Castle%2C_DE_19720 a base:Location ;
     <http://example.org/isInstanceOf/> base:Location ;
@@ -178,21 +188,27 @@ loc:200_Vesey_St.%2C_5th%C2%A0Floor%5Cn%5CnNew_York%2C_NY_10281-8098 a base:Loca
 
 loc:Minneapolis_Loan_Center%5Cn%5CnMAC_N9303-110%5Cn%5Cn608_Second_Avenue_South%2C_11th%C2%A0Floor%5Cn%5CnMinneapolis%2C_Minnesota_55402-1916 a base:Location ;
     <http://example.org/isInstanceOf/> base:Location ;
-    rel:isLocationOf <http://example.org/org_name/%5Cn%C2%A0%5Cn%5CnWELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION>,
-        org_name:WELLS_FARGO_SECURITIES%2C_LLC .
+    rel:isLocationOf org_name:WELLS_FARGO_SECURITIES%2C_LLC,
+        org_name:Wells_Fargo_Bank%2C_National_Association .
+
+loc:Two_Newton_Place%5Cn%5Cn255_Washington_Street%2C_Suite%C2%A0300%5Cn%5CnNewton%2C_Massachusetts%C2%A0_02458-1634 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Select_Income_REIT,
+        org_name:Select_Income_REIT%2818%29 .
 
 org_name:MORGAN_STANLEY_BANK a base:Organization ;
     rel:hasEmployee person_name:Michael_King,
         person_name:Noel_Purcell .
 
 org_name:ROYAL_BANK_OF_CANADA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Syndication_Agents ;
     rel:hasEmployee person_name:Dan_LePage ;
     rel:hasLocationAt loc:200_Vesey_St.%2C_5th%C2%A0Floor%5Cn%5CnNew_York%2C_NY_10281-8098 .
 
 org_name:SELECT_INCOME_REIT a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower ;
     rel:hasEmployee person_name:John_C._Popeo ;
-    rel:hasLocationAt loc:Two_Newton_Place%5Cn%5Cn255_Washington_Street%2C_Suite%C2%A0300%5Cn%5CnNewton%2C_Massachusetts%C2%A0_02458-1634 .
+    rel:hasLocationAt loc:Two_Newton_Place%5Cn%5Cn255_Washington_Street%2C_Suite%C2%A0300%5Cn%5CnNewton%2C_Massachusetts_02458-1634 .
 
 org_name:BRANCH_BANKING_AND_TRUST_COMPANY a base:Organization ;
     rel:hasEmployee person_name:Charles_McLaughlin,
@@ -203,9 +219,23 @@ org_name:BRANCH_BANKING_AND_TRUST_COMPANY a base:Organization ;
     rel:hasEmployee person_name:Dinesh_Kumar ;
     rel:hasLocationAt loc:1615_Brett_Road%2C_Ops_III%5Cn%5CnNew_Castle%2C_DE_19720 .
 
+org_name:Wells_Fargo_Bank%2C_National_Association a base:Organization ;
+    rel:hasEmployee person_name:Treva_Lee ;
+    rel:hasLocationAt loc:Minneapolis_Loan_Center%5Cn%5CnMAC_N9303-110%5Cn%5Cn608_Second_Avenue_South%2C_11th%C2%A0Floor%5Cn%5CnMinneapolis%2C_Minnesota_55402-1916 .
+
+<http://example.org/org_name/%5Cn%C2%A0%5Cn%5CnWELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
+        org_role:Lenders ;
+    rel:hasEmployee <http://example.org/person_name/%5CnDarlene_Arias>,
+        person_name:D._Bryan_Gregory,
+        person_name:Michael_R_Mellott,
+        person_name:Tari_Mock ;
+    rel:hasLocationAt loc:550_South_Tryon_Street%2C_6th%C2%A0Floor%5Cn%5CnCharlotte%2C_North_Carolina_28202 .
+
 org_name:CITIGROUP_GLOBAL_MARKETS_INC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners ;
+        org_role:Bookrunners,
+        org_role:Syndication_Agents ;
     rel:hasEmployee <http://example.org/person_name/%5CnDerek_Chang>,
         <http://example.org/person_name/%5CnHelen_H._Gateson>,
         <http://example.org/person_name/%5CnJohn_R._Roach%2C_Jr.>,
@@ -213,17 +243,4 @@ org_name:CITIGROUP_GLOBAL_MARKETS_INC a base:Organization ;
         person_name:Cheryl_Snoor,
         person_name:John_C._Rowland ;
     rel:hasLocationAt loc:1615_Brett_Road%2C_Ops_III%5Cn%5CnNew_Castle%2C_DE_19720 .
-
-<http://example.org/org_name/%5Cn%C2%A0%5Cn%5CnWELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent%2C,
-        org_role:Bank,
-        org_role:Lender,
-        org_role:Lenders ;
-    rel:hasEmployee <http://example.org/person_name/%5CnDarlene_Arias>,
-        person_name:D._Bryan_Gregory,
-        person_name:Michael_R_Mellott,
-        person_name:Tari_Mock,
-        person_name:Treva_Lee ;
-    rel:hasLocationAt loc:550_South_Tryon_Street%2C_6th%C2%A0Floor%5Cn%5CnCharlotte%2C_North_Carolina_28202,
-        loc:Minneapolis_Loan_Center%5Cn%5CnMAC_N9303-110%5Cn%5Cn608_Second_Avenue_South%2C_11th%C2%A0Floor%5Cn%5CnMinneapolis%2C_Minnesota_55402-1916 .
 

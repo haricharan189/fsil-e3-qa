@@ -1,0 +1,145 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+loc:Webster_Bank a base:Location .
+
+org_name:BMO_HARRIS_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent%2C,
+        org_role:LC_Issuer .
+
+org_name:CITIZENS_BANK%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender .
+
+<http://example.org/org_name/CITIZENS_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_role:arranger,
+        org_role:bookrunner .
+
+org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/Agent.> .
+
+loc:100_Franklin_Street%5CnBoston%2C_MA_02110 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Webster_Bank%2C_N.A.> .
+
+loc:111_W._Monroe_Street%5Cn5th%C2%A0Floor_Center%5CnChicago%2C_IL_60603 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/BMO_Harris_Bank_N.A.> .
+
+loc:125_Summer_Street%2C_Boston%2C_Massachusetts_02110 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Burns_%26_Levinson_LLP .
+
+loc:225_Franklin_Street_18th_Floor%5CnBoston%2C_MA_02110 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:KeyBank_National_Association .
+
+loc:28_State_Street%2C_16th_Floor%5CnMA2-6560-CB16%5CnBoston%2C_MA_02109 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Santander_Bank%2C_N.A.> .
+
+loc:6400_Las_Colinas_Boulevard%5CnIrvine%2C_TX_75039 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Citibank%2C_N.A.> .
+
+loc:6_Main_Street%5CnNatick%2C_MA_01760 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Middlesex_Savings_Bank .
+
+loc:Eastern_Bank%5Cn265_Franklin_Street%2C_2nd_Floor%5CnBoston%2C_MA_02110 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Eastern_Bank .
+
+<http://example.org/org_name/Citibank%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasLocationAt loc:6400_Las_Colinas_Boulevard%5CnIrvine%2C_TX_75039 .
+
+org_name:Eastern_Bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasLocationAt loc:Eastern_Bank%5Cn265_Franklin_Street%2C_2nd_Floor%5CnBoston%2C_MA_02110 .
+
+org_name:Middlesex_Savings_Bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasLocationAt loc:6_Main_Street%5CnNatick%2C_MA_01760 .
+
+<http://example.org/org_name/Santander_Bank%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasLocationAt loc:28_State_Street%2C_16th_Floor%5CnMA2-6560-CB16%5CnBoston%2C_MA_02109 .
+
+org_name:TRC_COMPANIES%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Martin_H._Dodd .
+
+person_name:Ann_M._Meade a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/Webster_Bank%2C_N.A.> .
+
+person_name:David_Nussbaum a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/Webster_Bank%2C_N.A.> .
+
+person_name:Deborah_A._Colony a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/Webster_Bank%2C_N.A.> .
+
+person_name:Frank_A._Segall a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:Burns_%26_Levinson_LLP ;
+    rel:isEmployedBy org_name:Burns_%26_Levinson_LLP .
+
+person_name:J.E._Hall a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Banker ;
+    rel:isEmployedBy org_name:KeyBank_National_Association .
+
+person_name:John_Dillon a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/BMO_Harris_Bank_N.A.> .
+
+person_name:Marc_J._Lubelczyk a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/Webster_Bank%2C_N.A.> .
+
+person_name:Marina_E._Grossi a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/Webster_Bank%2C_N.A.> .
+
+person_name:Martin_H._Dodd a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:General_Counsel,
+        person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:TRC_COMPANIES%2C_INC .
+
+person_name:Mitchell_B._Feldman a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/Webster_Bank%2C_N.A.> .
+
+<http://example.org/org_name/BMO_Harris_Bank_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:LC_Issuer,
+        org_role:Lender ;
+    rel:hasEmployee person_name:John_Dillon ;
+    rel:hasLocationAt loc:111_W._Monroe_Street%5Cn5th%C2%A0Floor_Center%5CnChicago%2C_IL_60603 .
+
+org_name:KeyBank_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:J.E._Hall ;
+    rel:hasLocationAt loc:225_Franklin_Street_18th_Floor%5CnBoston%2C_MA_02110 .
+
+org_name:Burns_%26_Levinson_LLP a base:Organization ;
+    rel:hasEmployee person_name:Frank_A._Segall ;
+    rel:hasLocationAt loc:125_Summer_Street%2C_Boston%2C_Massachusetts_02110 .
+
+<http://example.org/org_name/Webster_Bank%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Ann_M._Meade,
+        person_name:David_Nussbaum,
+        person_name:Deborah_A._Colony,
+        person_name:Marc_J._Lubelczyk,
+        person_name:Marina_E._Grossi,
+        person_name:Mitchell_B._Feldman ;
+    rel:hasLocationAt loc:100_Franklin_Street%5CnBoston%2C_MA_02110 .
+

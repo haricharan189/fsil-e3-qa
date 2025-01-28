@@ -1,0 +1,49 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+org_name:CRYSTAL_FINANCIAL_SPV_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:STANDARD_OUTDOOR_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER .
+
+org_name:STANDARD_OUTDOOR_SOUTHEAST_II_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER .
+
+org_name:STANDARD_OUTDOOR_SOUTHEAST_I_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER .
+
+org_name:STANDARD_OUTDOOR_SOUTHWEST_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER .
+
+loc:Two_International_Place%2C_17th_Floor%09%C2%A0%5Cn%C2%A0%09%C2%A0%09Boston%2C_MA_02110 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Crystal_Financial_LLC .
+
+org_name:CRYSTAL_FINANCIAL_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_role:Term_Agent ;
+    rel:hasEmployee person_name:Christopher_A._Arnold .
+
+org_name:Crystal_Financial_LLC a base:Organization ;
+    rel:hasLocationAt loc:Two_International_Place%2C_17th_Floor%09%C2%A0%5Cn%C2%A0%09%C2%A0%09Boston%2C_MA_02110 .
+
+<http://example.org/org_name/STANDARD_DIVERSIFIED_OPPORTUNITIES_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER ;
+    rel:hasEmployee person_name:Ian_W._Estus .
+
+person_name:Christopher_A._Arnold a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Managing_Directo,
+        person_position:Senior_Managing_Director ;
+    rel:isEmployedBy org_name:CRYSTAL_FINANCIAL_LLC .
+
+person_name:Ian_W._Estus a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Executive_Officer,
+        person_position:President ;
+    rel:isEmployedBy <http://example.org/org_name/STANDARD_DIVERSIFIED_OPPORTUNITIES_INC.> .
+

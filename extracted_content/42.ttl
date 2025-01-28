@@ -1,0 +1,206 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix org_sub_role: <http://example.org/org_sub_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/%5CnBANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/%5CnWELLS_FARGO_BANK%2C_NATIONAL%5Cn%5CnASSOCIATION> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:ARTISAN_BREAD%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+org_name:Artisan_Bread%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary .
+
+org_name:BAKERY_CAF%C3%89_CARDS%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:Bakery_Cafe_Cards%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary .
+
+org_name:CAP_CITY_BREAD%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+org_name:Cap_City_Bread%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender .
+
+org_name:Merrill_Lynch%2C_Pierce%2C_Fenner%C2%A0%26_Smith a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arranger,
+        org_role:bookrunner .
+
+<http://example.org/org_name/PANERA_BAKERY%C2%A0%26_CAF%C3%89%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+org_name:PANERA_BREAD_COMPANY a base:Organization .
+
+<http://example.org/org_name/PANERA_CANADA_HOLDINGS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+<http://example.org/org_name/PANERA_ENTERPRISES%2C_INC.> a base:Organization .
+
+<http://example.org/org_name/PANERA_INTERNATIONAL_HOLDINGS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+<http://example.org/org_name/PUMPERNICKEL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+org_name:PUMPERNICKEL_ASSOCIATES%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+org_name:Panera%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary .
+
+org_name:Panera_Bread_%28BC%29_ULC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary .
+
+<http://example.org/org_name/Panera_Canada_Holdings%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary .
+
+<http://example.org/org_name/Panera_Enterprises%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary .
+
+<http://example.org/org_name/Panera_International_Holdings%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary .
+
+<http://example.org/org_name/Paradise_Bakery%C2%A0%26_Caf%C3%A9%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary .
+
+<http://example.org/org_name/Pumpernickel%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary .
+
+org_name:Pumpernickel_Associates%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary .
+
+<http://example.org/org_name/TD_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/WELLS_FARGO_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+loc:101_North_Tryon_St._5th_Floor%5Cn%5CnCharlotte%2C_NC_28255 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Bank_of_America%2C_N.A .
+
+loc:3630_South_Geyer_Road%2C_Suite_100%5Cn%5CnSt._Louis%2C_MO_63127 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Panera_Bread_Company .
+
+loc:60_State_Street%5Cn%5CnBoston%2C_MA_02109_USA a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:WilmerHale .
+
+loc:63_Kendrick_Street%5Cn%5CnNeedham%2C_MA_02494 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Panera_Bread_Company .
+
+loc:900_West_Trade_St.%5Cn%5CnCharlotte%2C_NC_28255-0001 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Bank_of_America%2C_N.A.> .
+
+loc:New_York%2C_NY a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Bank_of_America%2C_N.A.> .
+
+person_name:Alan_Garson a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:PANERA%2C_LLC .
+
+person_name:Anthony_Luppino a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:Helene_P._Sprung a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:REGIONS_BANK .
+
+person_name:Jay_R._Goldstein a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:REGIONS_BANK .
+
+person_name:John_D._Sigel a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:WilmerHale ;
+    rel:isEmployedBy org_name:WilmerHale .
+
+person_name:Louis_DiPietro a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:Panera_Bread_Company ;
+    rel:isEmployedBy org_name:Panera_Bread_Company .
+
+person_name:Mark_Wooldridge a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:Panera_Bread_Company ;
+    rel:isEmployedBy org_name:Panera_Bread_Company .
+
+person_name:Maureen_S._Malphus a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:Michael_J._Bufano a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial%5Cn%5CnOfficer,
+        person_position:Chief_Financial_Officer,
+        person_position:Senior_Vice_President,
+        person_position:Treasurer ;
+    rel:isEmployedBy org_name:PANERA%2C_LLC .
+
+person_name:Monique_Haley a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:Bank_of_America%2C_N.A ;
+    rel:isEmployedBy org_name:Bank_of_America%2C_N.A .
+
+person_name:Paul_Spearing a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION .
+
+org_name:PANERA%2C_LLC a base:Organization ;
+    rel:hasEmployee person_name:Alan_Garson,
+        person_name:Michael_J._Bufano .
+
+org_name:REGIONS_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Helene_P._Sprung,
+        person_name:Jay_R._Goldstein .
+
+person_name:Kelly_Weaver a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_name/Bank_of_America%2C_N.A.>,
+        person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/Bank_of_America%2C_N.A.>,
+        org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION .
+
+org_name:Bank_of_America%2C_N.A a base:Organization ;
+    rel:hasEmployee person_name:Monique_Haley ;
+    rel:hasLocationAt loc:101_North_Tryon_St._5th_Floor%5Cn%5CnCharlotte%2C_NC_28255 .
+
+org_name:WilmerHale a base:Organization ;
+    rel:hasEmployee person_name:John_D._Sigel ;
+    rel:hasLocationAt loc:60_State_Street%5Cn%5CnBoston%2C_MA_02109_USA .
+
+<http://example.org/org_name/Bank_of_America%2C_N.A.> a base:Organization ;
+    rel:hasEmployee person_name:Kelly_Weaver ;
+    rel:hasLocationAt loc:900_West_Trade_St.%5Cn%5CnCharlotte%2C_NC_28255-0001,
+        loc:New_York%2C_NY .
+
+org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Anthony_Luppino,
+        person_name:Kelly_Weaver,
+        person_name:Maureen_S._Malphus,
+        person_name:Paul_Spearing .
+
+org_name:Panera_Bread_Company a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER ;
+    rel:hasEmployee person_name:Louis_DiPietro,
+        person_name:Mark_Wooldridge ;
+    rel:hasLocationAt loc:3630_South_Geyer_Road%2C_Suite_100%5Cn%5CnSt._Louis%2C_MO_63127,
+        loc:63_Kendrick_Street%5Cn%5CnNeedham%2C_MA_02494 .
+

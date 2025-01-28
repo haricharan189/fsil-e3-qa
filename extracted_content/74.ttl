@@ -1,0 +1,118 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+org_name:CITIZENS_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Documentation_Agents .
+
+org_name:CREDIT_SUISSE_SECURITIES_%28USA%29_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+org_name:CohnReznick_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:legal_counsel .
+
+org_name:ING_CAPITAL_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Documentation_Agents .
+
+<http://example.org/org_name/KEYBANC_CAPITAL_MARKETS_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Documentation_Agents .
+
+loc:100_Northern_Avenue%5Cn%5CnBoston%2C_MA_02110 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Goodwin_Procter_LLP .
+
+loc:4900_Tiedeman_Road%3B_Mail_Code%3A_OH-01-49-0362%2C_Brooklyn%2C_Ohio_44144 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:KEYBANK_NATIONAL_ASSOCIATION .
+
+loc:7900_Tysons_One_Place%2C_Suite%C2%A01450%2C_McLean%2C_VA_22102 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:GTT_COMMUNICATIONS%2C%C2%A0INC .
+
+<http://example.org/person_name/%5CnChristopher_Day> a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:CREDIT_SUISSE_AG%2C_CAYMAN_ISLANDS_BRANCH .
+
+<http://example.org/person_name/%5CnChristopher_T._McKee> a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Vice_President_and_Secretary ;
+    rel:isEmployedBy org_name:GTT_COMMUNICATIONS%2C%C2%A0INC .
+
+<http://example.org/person_name/%5CnJeff_Kalinowski> a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
+
+<http://example.org/person_name/%5CnNick_Hahn> a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnManaging_Director> ;
+    rel:isEmployedBy org_name:SUNTRUST_BANK .
+
+<http://example.org/person_name/%5CnTodd_M._Koetje> a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:SUNTRUST_ROBINSON_HUMPHREY%2C%C2%A0INC .
+
+person_name:Anna_E._Dodson a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:Goodwin_Procter_LLP ;
+    rel:isEmployedBy org_name:Goodwin_Procter_LLP .
+
+person_name:Chris_McKee a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:GTT_COMMUNICATIONS%2C%C2%A0INC ;
+    rel:isEmployedBy org_name:GTT_COMMUNICATIONS%2C%C2%A0INC .
+
+person_name:Jon_Singer a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnManaging_Director> ;
+    rel:isEmployedBy org_name:SUNTRUST_BANK .
+
+person_name:Karim_Rahimtoola a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:CREDIT_SUISSE_AG%2C_CAYMAN_ISLANDS_BRANCH .
+
+person_name:Paula_C._Gordon a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:KEYBANK_NATIONAL_ASSOCIATION ;
+    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
+
+person_name:Stacy_Moritz a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:SUNTRUST_ROBINSON_HUMPHREY%2C%C2%A0INC .
+
+org_name:CREDIT_SUISSE_AG%2C_CAYMAN_ISLANDS_BRANCH a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Syndication_Agents ;
+    rel:hasEmployee <http://example.org/person_name/%5CnChristopher_Day>,
+        person_name:Karim_Rahimtoola .
+
+org_name:SUNTRUST_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Syndication_Agents ;
+    rel:hasEmployee <http://example.org/person_name/%5CnNick_Hahn>,
+        person_name:Jon_Singer .
+
+org_name:SUNTRUST_ROBINSON_HUMPHREY%2C%C2%A0INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners ;
+    rel:hasEmployee <http://example.org/person_name/%5CnTodd_M._Koetje>,
+        person_name:Stacy_Moritz .
+
+org_name:Goodwin_Procter_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:legal_counsel ;
+    rel:hasEmployee person_name:Anna_E._Dodson ;
+    rel:hasLocationAt loc:100_Northern_Avenue%5Cn%5CnBoston%2C_MA_02110 .
+
+org_name:GTT_COMMUNICATIONS%2C%C2%A0INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee <http://example.org/person_name/%5CnChristopher_T._McKee>,
+        person_name:Chris_McKee ;
+    rel:hasLocationAt loc:7900_Tysons_One_Place%2C_Suite%C2%A01450%2C_McLean%2C_VA_22102 .
+
+org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
+        org_role:LC_Issuer ;
+    rel:hasEmployee <http://example.org/person_name/%5CnJeff_Kalinowski>,
+        person_name:Paula_C._Gordon ;
+    rel:hasLocationAt loc:4900_Tiedeman_Road%3B_Mail_Code%3A_OH-01-49-0362%2C_Brooklyn%2C_Ohio_44144 .
+

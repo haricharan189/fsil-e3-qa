@@ -1,0 +1,31 @@
+@prefix base: <http://example.org/base/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/Bank_of_America%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arranger,
+        org_role:bookrunner .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
+        org_role:Arranger,
+        org_role:Bookrunner,
+        org_role:Lender,
+        org_role:Lenders ;
+    rel:hasEmployee person_name:Alexandra_M._Knights .
+
+<http://example.org/org_name/FRANKLIN_RESOURCES%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Mark_Constant .
+
+person_name:Alexandra_M._Knights a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
+person_name:Mark_Constant a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Treasurer,
+        person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/FRANKLIN_RESOURCES%2C_INC.> .
+

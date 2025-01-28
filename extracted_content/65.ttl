@@ -1,0 +1,148 @@
+@prefix base: <http://example.org/base/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix org_sub_role: <http://example.org/org_sub_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+org_name:BofA_Securities a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:bookrunners .
+
+org_name:CREDIT_SUISSE_AG%2C_CAYMAN_ISLANDS_BRANCH a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:Citizens_Ban a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:bookrunners .
+
+org_name:Citizens_Bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Trustee .
+
+org_name:Credit_Suisse a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:bookrunners .
+
+org_name:DBSI a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:bookrunners .
+
+org_name:Fifth_Third a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:bookrunners .
+
+org_name:Fitch_Ratings a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agency .
+
+org_name:Goldman a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:bookrunners .
+
+org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:KeyBank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:bookrunners .
+
+org_name:Mohegan_Expo_Center%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary .
+
+org_name:Mohegan_Gaming_Advisors%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary .
+
+<http://example.org/org_name/Moody%C2%92s_Investors_Service%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agency .
+
+org_name:Standard%C2%A0%26_Poor%C2%92s_Financial_Services_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agency .
+
+org_name:Tribe%2C_Faegre_Drinker_Biddle%C2%A0%26_Reath_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:legal_counsel .
+
+org_name:Tribe%2C_Rosenn%2C_Jenkins%C2%A0%26_Greenwald_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:legal_counsel .
+
+org_name:Truist_Securities a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:bookrunners .
+
+<http://example.org/org_name/%5CnTRUIST_BANK> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Frank_McCormack .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Brian_D._Corum .
+
+<http://example.org/org_name/CITIZENS_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Issuer,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Sean_McWhinnie .
+
+org_name:MOHEGAN_TRIBAL_GAMING_AUTHORITY a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Mario_C._Kontomerkos .
+
+person_name:Andrew_Griffin a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:GOLDMAN_SACHS_BANK_USA .
+
+person_name:Brian_D._Corum a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
+person_name:Frank_McCormack a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:SVP ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnTRUIST_BANK> .
+
+person_name:Lise_Hinton a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:FIFTH_THIRD_BANK .
+
+person_name:Mario_C._Kontomerkos a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Executive_Officer ;
+    rel:isEmployedBy org_name:MOHEGAN_TRIBAL_GAMING_AUTHORITY .
+
+person_name:Matthew_J._Bradley a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:FIFTH_THIRD_BANK .
+
+person_name:Philip_Tancorra a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:DEUTSCHE_BANK_AG_NEW_YORK_BRANCH .
+
+person_name:Sean_McWhinnie a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/CITIZENS_BANK%2C_N.A.> .
+
+person_name:Thomas_Manning a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:GOLDMAN_SACHS_BANK_USA .
+
+person_name:Whitney_Gaston a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:GOLDMAN_SACHS_BANK_USA .
+
+person_name:Yumi_Okabe a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:DEUTSCHE_BANK_AG_NEW_YORK_BRANCH .
+
+org_name:DEUTSCHE_BANK_AG_NEW_YORK_BRANCH a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Philip_Tancorra,
+        person_name:Yumi_Okabe .
+
+org_name:FIFTH_THIRD_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Lise_Hinton,
+        person_name:Matthew_J._Bradley .
+
+org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Andrew_Griffin,
+        person_name:Thomas_Manning,
+        person_name:Whitney_Gaston .
+

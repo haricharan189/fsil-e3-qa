@@ -1,0 +1,159 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/Citigroup_Global_Markets_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bank .
+
+org_name:ROYAL_BANK_OF_CANADA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bank .
+
+org_name:THE_BANK_OF_NOVA_SCOTIA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bank .
+
+<http://example.org/org_name/THE_BANK_OF_TOKYO-MITSUBISHI%5CnUFJ%2C_LTD.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bank .
+
+<http://example.org/org_name/The_Bank_of_Tokyo-Mitsubishi_UFJ%2C_Ltd.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bank .
+
+org_name:Wells_Fargo_Securities%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+loc:1221_Broadway%5Cn%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%09Oakland%2C_California_94612 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Clorox_Company .
+
+<http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bank ;
+    rel:hasLocationAt loc:1615_Brett_Road%5Cn%C2%A0Building_%233%5CnNew_Castle%2C_DE_19720 .
+
+<http://example.org/org_name/Citibank%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Agents ;
+    rel:hasLocationAt loc:1615_Brett_Road%5Cn%C2%A0Building_%233%5CnNew_Castle%2C_DE_19720 .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bank ;
+    rel:hasLocationAt loc:270_Park_Avenue%5CnNew_York%2C_NY_10017 .
+
+<http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents,
+        org_role:Arrangers,
+        org_role:Bookrunners ;
+    rel:hasLocationAt loc:270_Park_Avenue%5CnNew_York%2C_NY_10017 .
+
+org_name:Wells_Fargo_Bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents ;
+    rel:hasLocationAt loc:301_South_College_St.%5CnCharlotte%2C_NC_28288 .
+
+person_name:Adriana_Collins a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:BANK_OF_THE_WEST .
+
+person_name:Annie_Carr a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy <http://example.org/org_name/MORGAN_STANLEY_BANK%2C_N.A.> .
+
+person_name:Barry_Bergman a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:WELLS_FARGO_BANK .
+
+person_name:Carolyn_Kee a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:THE_NORTHERN_TRUST_COMPANY .
+
+person_name:Charles_R._Conradi a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Treasurer,
+        person_position:Vice_President_of_Tax ;
+    rel:isEmployedBy org_name:Clorox_Company .
+
+person_name:James_Travagline a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:WELLS_FARGO_BANK .
+
+person_name:Jeff_Benedix a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:THE_NORTHERN_TRUST_COMPANY .
+
+person_name:John_Flores a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy <http://example.org/org_name/MORGAN_STANLEY_BANK%2C_N.A.> .
+
+person_name:John_Lascody a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:THE_NORTHERN_TRUST_COMPANY .
+
+person_name:Laura_Stein a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Vice_President ;
+    rel:isEmployedBy org_name:Clorox_Company .
+
+person_name:Lauren_Hom a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:BANK_OF_THE_WEST .
+
+person_name:Michael_King a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy <http://example.org/org_name/MORGAN_STANLEY_BANK%2C_N.A.> .
+
+person_name:Michelle_C._Phillips a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:BANK_OF_THE_WEST .
+
+loc:1615_Brett_Road%5Cn%C2%A0Building_%233%5CnNew_Castle%2C_DE_19720 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/CITIBANK%2C_N.A.>,
+        <http://example.org/org_name/Citibank%2C_N.A.> .
+
+loc:270_Park_Avenue%5CnNew_York%2C_NY_10017 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.>,
+        <http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> .
+
+loc:301_South_College_St.%5CnCharlotte%2C_NC_28288 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:WELLS_FARGO_BANK,
+        org_name:Wells_Fargo_Bank .
+
+org_name:BANK_OF_THE_WEST a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bank ;
+    rel:hasEmployee person_name:Adriana_Collins,
+        person_name:Lauren_Hom,
+        person_name:Michelle_C._Phillips .
+
+org_name:Clorox_Company a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Charles_R._Conradi,
+        person_name:Laura_Stein ;
+    rel:hasLocationAt loc:1221_Broadway%5Cn%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%09Oakland%2C_California_94612 .
+
+<http://example.org/org_name/MORGAN_STANLEY_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bank ;
+    rel:hasEmployee person_name:Annie_Carr,
+        person_name:John_Flores,
+        person_name:Michael_King .
+
+org_name:THE_NORTHERN_TRUST_COMPANY a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bank ;
+    rel:hasEmployee person_name:Carolyn_Kee,
+        person_name:Jeff_Benedix,
+        person_name:John_Lascody .
+
+org_name:WELLS_FARGO_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bank ;
+    rel:hasEmployee person_name:Barry_Bergman,
+        person_name:James_Travagline ;
+    rel:hasLocationAt loc:301_South_College_St.%5CnCharlotte%2C_NC_28288 .
+

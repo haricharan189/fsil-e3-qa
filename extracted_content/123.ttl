@@ -1,0 +1,171 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+<http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:CITIGROUP_GLOBAL_MARKETS_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bookrunners .
+
+org_name:CREDIT_SUISSE_AG a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Arranger,
+        org_role:Bookrunners,
+        org_role:Lender .
+
+org_name:J.P._MORGAN_SECURITIES_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger,
+        org_role:Bookrunners .
+
+org_name:JPMORGAN_CHASE_BANK%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+<http://example.org/org_name/NEWELL_RUBBERMAID_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+org_name:PNC_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:PNC_Bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:RBC_CAPITAL_MARKETS a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Arranger,
+        org_role:Bookrunners .
+
+org_name:ROYAL_BANK_OF_CANADA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:The_Bank_of_Tokyo-Mitsubishi_UFJ%2C_Ltd a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:WELLS_FARGO_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender .
+
+loc:Cayman_Islands a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location,
+        location_type:Branch ;
+    rel:isLocationOf org_name:Credit_Suisse_AG .
+
+loc:Dublin a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location,
+        location_type:Branch ;
+    rel:isLocationOf org_name:ING_Bank_N.V .
+
+<http://example.org/org_name/Bank_of_America%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Kyle_Lewis .
+
+org_name:CITIBANK%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Lisa_Huang .
+
+org_name:NEWELL_RUBBERMAID_INC a base:Organization ;
+    rel:hasEmployee person_name:John_B._Ellis .
+
+org_name:THE_NORTHERN_TRUST_COMPANY a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Kimberly_A._Crotty .
+
+org_name:US_Bank_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Steven_L._Sawyer .
+
+person_name:Andrew_Payne a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:ING_Bank_N.V .
+
+person_name:Bill_O%C2%92Daly a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory%5Cn%C2%A0%5Cn%5Cn ;
+    rel:isEmployedBy org_name:Credit_Suisse_AG .
+
+person_name:Brandon_K._Fiddler a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:ING_Bank_N.V .
+
+person_name:Gene_R._Riego_De_Dios a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:ING_Bank_N.V .
+
+person_name:John_B._Ellis a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Treasurer,
+        person_position:Vice_President ;
+    rel:isEmployedBy org_name:NEWELL_RUBBERMAID_INC .
+
+person_name:Julia_Ivanova a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:Credit_Suisse_AG .
+
+person_name:Kelly_Heimrich a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:Credit_Suisse_AG .
+
+person_name:Kimberly_A._Crotty a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:VP ;
+    rel:isEmployedBy org_name:THE_NORTHERN_TRUST_COMPANY .
+
+person_name:Kyle_Lewis a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:AVP ;
+    rel:isEmployedBy <http://example.org/org_name/Bank_of_America%2C_N.A.> .
+
+person_name:Lisa_Huang a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President%5Cn%C2%A0%5Cn%5Cn ;
+    rel:isEmployedBy org_name:CITIBANK%2C_N.A .
+
+person_name:Ravneet_Mumick a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:ING_Bank_N.V .
+
+person_name:Robert_Ehudin a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:Credit_Suisse_AG .
+
+person_name:Sean_Hassett a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:ING_Bank_N.V .
+
+person_name:Shaun_Hawley a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:ING_Bank_N.V .
+
+person_name:Steven_L._Sawyer a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:US_Bank_National_Association .
+
+org_name:Credit_Suisse_AG a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Bill_O%C2%92Daly,
+        person_name:Julia_Ivanova,
+        person_name:Kelly_Heimrich,
+        person_name:Robert_Ehudin ;
+    rel:hasLocationAt loc:Cayman_Islands .
+
+org_name:ING_Bank_N.V a base:Organization ;
+    rel:hasEmployee person_name:Andrew_Payne,
+        person_name:Brandon_K._Fiddler,
+        person_name:Gene_R._Riego_De_Dios,
+        person_name:Ravneet_Mumick,
+        person_name:Sean_Hassett,
+        person_name:Shaun_Hawley ;
+    rel:hasLocationAt loc:Dublin .
+

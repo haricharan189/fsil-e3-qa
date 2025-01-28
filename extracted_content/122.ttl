@@ -1,0 +1,234 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/%5Cn%5Cn%C2%A0%5Cn%5CnWELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:AON_CORPORATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers .
+
+org_name:AON_PLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers .
+
+org_name:AUSTRALIA_AND_NEW_ZEALAND_BANK_GROUP_LIMITED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender .
+
+<http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+<http://example.org/org_name/CITIGROUP_GLOBAL_MARKETS_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger,
+        org_role:Bookrunners .
+
+<http://example.org/org_name/HSBC_BANK_USA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:ING_BANK_N.V.%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger,
+        org_role:Bookrunners .
+
+<http://example.org/org_name/MORGAN_STANLEY_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/MORGAN_STANLEY_SENIOR_FUNDING%2C%C2%A0INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Arranger,
+        org_role:Bookrunners .
+
+org_name:NATIONAL_AUSTRALIA_BANK_LIMITED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:THE_BANK_OF_NEW_YORK_MELLON a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+loc:1615_Brett_Road%2C_Building_%233%5CnNew_Castle%2C_Delaware_19720%5Cn%5Cn a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Citibank%2C_N.A.> .
+
+loc:LONDON a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location,
+        location_type:BRANCH ;
+    rel:isLocationOf org_name:BANK_OF_MONTREAL .
+
+loc:NEW_YORK a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location,
+        location_type:BRANCH ;
+    rel:isLocationOf org_name:DEUTSCHE_BANK_AG .
+
+loc:S.A._ROTTERDAM a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:BANK_OF_CHINA_%28LUXEMBOURG%29 .
+
+<http://example.org/org_name/%5Cn%C2%A0%5Cn%5CnAON_CORPORATION> a base:Organization ;
+    rel:hasEmployee person_name:Paul_Hagy .
+
+org_name:AON_UK_LIMITED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers ;
+    rel:hasEmployee person_name:P._A._Hogwood .
+
+org_name:BANK_OF_MONTREAL a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasLocationAt loc:LONDON .
+
+org_name:BARCLAYS_BANK_PLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Arti_Sugunan .
+
+<http://example.org/org_name/Citibank%2C_N.A.> a base:Organization ;
+    rel:hasLocationAt loc:1615_Brett_Road%2C_Building_%233%5CnNew_Castle%2C_Delaware_19720%5Cn%5Cn .
+
+org_name:DEUTSCHE_BANK_AG a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasLocationAt loc:NEW_YORK .
+
+person_name:Andres_Neumeier a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NOVA_SCOTIA .
+
+person_name:Andy_McClinton a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NOVA_SCOTIA .
+
+person_name:Anna_Smith a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:JPMORGAN_CHASE_BANK%2C_N.A .
+
+person_name:Arti_Sugunan a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Assistant_Vice_President ;
+    rel:isEmployedBy org_name:BARCLAYS_BANK_PLC .
+
+person_name:Bill_Seabrook a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/UNICREDIT_BANK_A.G.> .
+
+person_name:Christopher_Choi a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/UNICREDIT_BANK_A.G.> .
+
+person_name:Craig_M._Pinsly%2C_CFA a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/UNICREDIT_BANK_A.G.> .
+
+person_name:Diederik_Sluijs a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/UNICREDIT_BANK_A.G.> .
+
+person_name:Doreen_Barr a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:CREDIT_SUISSE_AG .
+
+person_name:Jody_Feldman a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/UNICREDIT_BANK_A.G.> .
+
+<http://example.org/person_name/Kenneth_P._Sneider%2C%C2%A0Jr.> a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NOVA_SCOTIA .
+
+person_name:Kristen_M._Murphy a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:JPMORGAN_CHASE_BANK%2C_N.A .
+
+person_name:Lingzi_Huang a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:CREDIT_SUISSE_AG .
+
+person_name:Maria_Lago a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/UNICREDIT_BANK_A.G.> .
+
+person_name:Maureen_Maroney a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:JPMORGAN_CHASE_BANK%2C_N.A .
+
+person_name:Michael_King a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:CREDIT_SUISSE_AG .
+
+person_name:Michelle_S._Dagenhart a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/UNICREDIT_BANK_A.G.> .
+
+person_name:N._J._Hardman a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/UNICREDIT_BANK_A.G.> .
+
+person_name:P._A._Hogwood a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Secretary ;
+    rel:isEmployedBy org_name:AON_UK_LIMITED .
+
+person_name:Paul_Hagy a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Treasurer ;
+    rel:isEmployedBy <http://example.org/org_name/%5Cn%C2%A0%5Cn%5CnAON_CORPORATION> .
+
+person_name:Robert_Grillo a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/UNICREDIT_BANK_A.G.> .
+
+person_name:Ross_Levitsky a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NOVA_SCOTIA .
+
+person_name:Thane_Rattew a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NOVA_SCOTIA .
+
+person_name:Tony_Gordon a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NOVA_SCOTIA .
+
+person_name:Zhao_Caiyan a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:General_Manager ;
+    rel:isEmployedBy org_name:BANK_OF_CHINA_%28LUXEMBOURG%29 .
+
+org_name:BANK_OF_CHINA_%28LUXEMBOURG%29 a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Zhao_Caiyan ;
+    rel:hasLocationAt loc:S.A._ROTTERDAM .
+
+org_name:CREDIT_SUISSE_AG a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Doreen_Barr,
+        person_name:Lingzi_Huang,
+        person_name:Michael_King .
+
+org_name:JPMORGAN_CHASE_BANK%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Anna_Smith,
+        person_name:Kristen_M._Murphy,
+        person_name:Maureen_Maroney .
+
+org_name:THE_BANK_OF_NOVA_SCOTIA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Andres_Neumeier,
+        person_name:Andy_McClinton,
+        <http://example.org/person_name/Kenneth_P._Sneider%2C%C2%A0Jr.>,
+        person_name:Ross_Levitsky,
+        person_name:Thane_Rattew,
+        person_name:Tony_Gordon .
+
+<http://example.org/org_name/UNICREDIT_BANK_A.G.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Bill_Seabrook,
+        person_name:Christopher_Choi,
+        person_name:Craig_M._Pinsly%2C_CFA,
+        person_name:Diederik_Sluijs,
+        person_name:Jody_Feldman,
+        person_name:Maria_Lago,
+        person_name:Michelle_S._Dagenhart,
+        person_name:N._J._Hardman,
+        person_name:Robert_Grillo .
+

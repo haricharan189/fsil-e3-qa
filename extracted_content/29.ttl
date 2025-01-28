@@ -1,0 +1,877 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+loc:Italy a base:Location .
+
+<http://example.org/org_name/Advantage_Payroll_Services%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors .
+
+org_name:PAYCHEX%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Parent .
+
+<http://example.org/org_name/PAYCHEX%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Parent .
+
+org_name:PAYCHEX_ADVANCE_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Issuing_Bank,
+        org_role:Lender .
+
+org_name:Pagaveloce_S.R.L_%28IT%29 a base:Organization .
+
+loc:1175_John_Street%2C_Rochester%2C_New_York_14586 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/PayChex%2C_Inc.> .
+
+loc:53_State_Street%2C_Boston%2C_Massachusetts_02109 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Nixon_Peabody_LLP .
+
+loc:6750_Miller_Road%2C_Brecksville%2C_Ohio_44141 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:PNC_Bank%2C_National_Association .
+
+loc:6750_Miller_Road%5Cn%5CnBrecksville%2C_Ohio_44141 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:PNC_Bank%2C_National_Association .
+
+loc:911_Panorama_Trail_South%2C_Rochester%2C_New_York_14625 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Paychex%2C_Inc.> .
+
+loc:California a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Rapid_Payroll%2C_Inc.> .
+
+loc:France a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:iSalaire_Eurl_%28FR%29 .
+
+loc:Idaho a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Employers_Solutions_Group_of_Idaho%2C_Inc.> .
+
+loc:Nevada a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:HR_Outsourcing_Processing%2C_LLC .
+
+loc:New_Mexico a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Employers_Insurance_Group%2C_LLC .
+
+loc:Norway a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Norl%C3%B8nn_AS_%28NO%29 .
+
+loc:Poland a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Latweplace_sp_z.o.o._%28PL%29 .
+
+loc:Spain a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Hispanomina_%28SP%29 .
+
+loc:Sweden a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Swel%C3%B8n_AB_%28S%29 .
+
+loc:Texas a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Staff_One_HR_II%2C_Inc.> .
+
+loc:Wyoming a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:WorkSmarter_HR%2C_LLC .
+
+org_name:AX_IV_Holding_III_ApS a base:Organization ;
+    rel:hasLocationAt loc:Denmark .
+
+org_name:AX_IV_Holding_II_ApS a base:Organization ;
+    rel:hasLocationAt loc:Denmark .
+
+<http://example.org/org_name/Advantage_Payroll_Services_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+<http://example.org/org_name/CSM%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Tennessee .
+
+<http://example.org/org_name/Century_II_ASO%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Tennessee .
+
+<http://example.org/org_name/Century_II_Services%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Tennessee .
+
+<http://example.org/org_name/Century_II_Staffing%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Tennessee .
+
+<http://example.org/org_name/Century_II_Staffing%2C_USA%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Tennessee .
+
+<http://example.org/org_name/Century_II_Staffing_TN%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Tennessee .
+
+org_name:DHR_Insurance_Services%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:DHR_Services_Holdings%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:DHR_of_Florida_I%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Danske_L%C3%B8nsystemer_A/S> a base:Organization ;
+    rel:hasLocationAt loc:Denmark .
+
+<http://example.org/org_name/ESG_Achievement%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Utah .
+
+org_name:ESG_Administration%2C_Inc a base:Organization ;
+    rel:hasLocationAt loc:Utah .
+
+<http://example.org/org_name/ESG_Assistance%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Utah .
+
+<http://example.org/org_name/ESG_Consulting%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Utah .
+
+org_name:ESG_Consulting_II%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Utah .
+
+<http://example.org/org_name/ESG_Direction%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Utah .
+
+<http://example.org/org_name/ESG_Entities%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Utah .
+
+org_name:ESG_Entities_II%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Utah .
+
+<http://example.org/org_name/ESG_Fulfillment%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Utah .
+
+<http://example.org/org_name/ESG_Insurance%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Utah .
+
+<http://example.org/org_name/ESG_Management%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Utah .
+
+<http://example.org/org_name/ESG_Offerings%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Utah .
+
+<http://example.org/org_name/ESG_PEO%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Utah .
+
+<http://example.org/org_name/ESG_Services%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Utah .
+
+<http://example.org/org_name/ESG_Success%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Utah .
+
+<http://example.org/org_name/ESG_Supervision%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Utah .
+
+<http://example.org/org_name/ESSG%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Utah .
+
+org_name:Employer%27s_Alliance%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Employer%27s_Alliance_III%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Employer%27s_Alliance_IV%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Employer%27s_Alliance_IX%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Employer%27s_Alliance_V%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Employer%27s_Alliance_VI%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Employer%27s_Alliance_VII%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Employer%27s_Alliance_VIII%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Employer%27s_Select%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Employer_Solutions_Group%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Utah .
+
+<http://example.org/org_name/Employer_Solutions_Group_of_SLC%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Utah .
+
+<http://example.org/org_name/Employer_Solutions_Group_of_Utah%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Utah .
+
+<http://example.org/org_name/Employer_Solutions_Group_of_Utah_II%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Utah .
+
+org_name:Employers_Insurance_Group%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:New_Mexico .
+
+<http://example.org/org_name/Employers_Solutions_Group_of_Idaho%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Idaho .
+
+org_name:Expense_Wire_LLC a base:Organization ;
+    rel:hasLocationAt loc:Ohio .
+
+<http://example.org/org_name/Fast_401k%2C_Inc._d/b/a_ePlan_Services_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:Fortune_Financial%2C_Inc a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Fortune_Industries a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:Fortune_Insurance_Solutions%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Fortune_PEO%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Fortune_PEO_Acquisitions%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Gordian_Capital_Holdings%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:Gordian_HR%2C_LLC_%28ASO%29 a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:HRSmarter_I%2CLLC a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:HRSmarter_II%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:HRSmarter_III%2CLLC a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:HRSmarter_IV%2CLLC a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:HRSmarter_IX%2CLLC a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:HRSmarter_V%2CLLC a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:HRSmarter_VI%2CLLC a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:HRSmarter_VII%2CLLC a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:HRSmarter_VIII%2CLLC a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:HRSmarter_X%2CLLC a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/HR_Outsourcing%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Georgia .
+
+org_name:HR_Outsourcing%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:HR_Outsourcing_ASO%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:HR_Outsourcing_Associates%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:HR_Outsourcing_Consultants%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:HR_Outsourcing_Development%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:HR_Outsourcing_Enterprises%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Georgia .
+
+org_name:HR_Outsourcing_Group%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:HR_Outsourcing_Processing%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Nevada .
+
+org_name:HR_Outsourcing_Services%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+<http://example.org/org_name/HR_Services_Inc._d/b/a_My_Staffing_Pro> a base:Organization ;
+    rel:hasLocationAt loc:Ohio .
+
+org_name:Hispanomina_%28SP%29 a base:Organization ;
+    rel:hasLocationAt loc:Spain .
+
+org_name:Ipayroll_Holding_ApS a base:Organization ;
+    rel:hasLocationAt loc:Denmark .
+
+<http://example.org/org_name/King_Employee_Services%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/LESSOR_A/S_%28DK%29> a base:Organization ;
+    rel:hasLocationAt loc:Denmark .
+
+org_name:Latweplace_sp_z.o.o._%28PL%29 a base:Organization ;
+    rel:hasLocationAt loc:Poland .
+
+org_name:Lessor_GmbH_%28DE%29 a base:Organization ;
+    rel:hasLocationAt loc:Germany .
+
+org_name:Lessor_Group_ApS a base:Organization ;
+    rel:hasLocationAt loc:Denmark .
+
+org_name:Lessor_Holding_ApS a base:Organization ;
+    rel:hasLocationAt loc:Denmark .
+
+<http://example.org/org_name/Nettime_Solutions%2C_L.L.C.> a base:Organization ;
+    rel:hasLocationAt loc:Arizona .
+
+org_name:New_Dawn_Holding_ApS a base:Organization ;
+    rel:hasLocationAt loc:Denmark .
+
+org_name:Norl%C3%B8nn_AS_%28NO%29 a base:Organization ;
+    rel:hasLocationAt loc:Norway .
+
+<http://example.org/org_name/Oasis_AHR%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Iowa .
+
+org_name:Oasis_AHR_HRC%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Colorado .
+
+<http://example.org/org_name/Oasis_AHR_Holdings%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+<http://example.org/org_name/Oasis_AHR_I%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Oasis_AHR_II%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Iowa .
+
+<http://example.org/org_name/Oasis_AHR_III%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Iowa .
+
+org_name:Oasis_AHR_PL%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:Colorado .
+
+<http://example.org/org_name/Oasis_Acquisition%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+<http://example.org/org_name/Oasis_Advisory_Services%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Oasis_DEG%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Minnesota .
+
+<http://example.org/org_name/Oasis_DEG_ASO%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Minnesota .
+
+org_name:Oasis_DHR%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+<http://example.org/org_name/Oasis_Employment_Services%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:Delaware .
+
+<http://example.org/org_name/Oasis_HR_Solutions_III%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Oasis_Outsourcing%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Oasis_Outsourcing_Acquisition_Corporation a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+<http://example.org/org_name/Oasis_Outsourcing_Admin%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Oasis_Outsourcing_Admin._II%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Oasis_Outsourcing_Admin_Group%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Oasis_Outsourcing_Benefits_III%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Oasis_Outsourcing_Contract%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Oasis_Outsourcing_Contract_Group%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Oasis_Outsourcing_Contract_II%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Oasis_Outsourcing_Contract_III%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Oasis_Outsourcing_Contract_IV%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Oasis_Outsourcing_Contract_VII%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Oasis_Outsourcing_HR%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Oasis_Outsourcing_Holdings%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+<http://example.org/org_name/Oasis_Outsourcing_III%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Oasis_Outsourcing_IX%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Oasis_Outsourcing_TX%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Oasis_Outsourcing_V%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Oasis_Outsourcing_VI%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Oasis_Payroll_Services%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Oasis_Staffing%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+<http://example.org/org_name/Oasis_Staffing_II%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:PBS_of_America%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:PBS_of_Central_Florida%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:PSM_Financial_Services%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Indiana .
+
+<http://example.org/org_name/PXC_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:New_York .
+
+<http://example.org/org_name/PayChex%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasLocationAt loc:1175_John_Street%2C_Rochester%2C_New_York_14586 .
+
+org_name:Paychex_Administrative_Services%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Paychex_Advance_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasLocationAt loc:New_York .
+
+<http://example.org/org_name/Paychex_Benefit_Technologies_Inc._d/b/a_Benetrac> a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:Paychex_Brazil_LLC a base:Organization ;
+    rel:hasLocationAt loc:New_York .
+
+org_name:Paychex_Business_Solutions%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Paychex_Deutschland_GmbH a base:Organization ;
+    rel:hasLocationAt loc:Germany .
+
+org_name:Paychex_HR_Outsourcing_LLC a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:Paychex_Holdings%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:New_York .
+
+<http://example.org/org_name/Paychex_Insurance_Agency%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:New_York .
+
+<http://example.org/org_name/Paychex_Insurance_Concepts%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:New_York .
+
+org_name:Paychex_Investment_LLC a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:Paychex_Management_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:Delaware .
+
+<http://example.org/org_name/Paychex_North_America_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:Paychex_PEO_I%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Paychex_PEO_II%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Paychex_PEO_III%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Paychex_PEO_IV%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Paychex_PEO_IX%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Paychex_PEO_V%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Paychex_PEO_VI%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Paychex_PEO_VII%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Paychex_PEO_VIII%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Paychex_PEO_X%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:Paychex_Real_Estate%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:New_York .
+
+<http://example.org/org_name/Paychex_Recordkeeping_Services%2C_Inc._d/b/a_Southeastern_Employee_Benefit_Services> a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:Paychex_Securities_Corporation a base:Organization ;
+    rel:hasLocationAt loc:New_York .
+
+<http://example.org/org_name/Paychex_Time_%26_Attendance_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:Paychex_of_New_York_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:Precision_Employee_Management%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Arizona .
+
+<http://example.org/org_name/Professional_Staff_Management%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Indiana .
+
+org_name:Professional_Staff_Management%2C_Inc._II a base:Organization ;
+    rel:hasLocationAt loc:Indiana .
+
+<http://example.org/org_name/Professional_Staff_Management_ASO%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Indiana .
+
+<http://example.org/org_name/Rapid_Payroll%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:California .
+
+<http://example.org/org_name/Solutions_Staffing_Group%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Utah .
+
+<http://example.org/org_name/Staff_One%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Oklahoma .
+
+org_name:Staff_One_HR%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Oklahoma .
+
+<http://example.org/org_name/Staff_One_HR_II%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Texas .
+
+org_name:Staff_One_of_Oklahoma%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Oklahoma .
+
+<http://example.org/org_name/SurePayroll%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:Swel%C3%B8n_AB_%28S%29 a base:Organization ;
+    rel:hasLocationAt loc:Sweden .
+
+<http://example.org/org_name/WRI_Acquisition%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Delaware .
+
+<http://example.org/org_name/WRI_II%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:WorkSmarter_HR%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Wyoming .
+
+<http://example.org/org_name/Workforce_Alternative%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Florida .
+
+org_name:ePlan_Advisors_LLC a base:Organization ;
+    rel:hasLocationAt loc:Colorado .
+
+org_name:iSalaire_Eurl_%28FR%29 a base:Organization ;
+    rel:hasLocationAt loc:France .
+
+org_name:ilohngehalt_internetservices_GmbH a base:Organization ;
+    rel:hasLocationAt loc:Germany .
+
+person_name:Efrain_Rivera a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
+    rel:isEmployedBy <http://example.org/org_name/Paychex%2C_Inc.> .
+
+person_name:Frank_Hamblett a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:Nixon_Peabody_LLP ;
+    rel:isEmployedBy org_name:Nixon_Peabody_LLP .
+
+person_name:Lisa_Christian a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:PNC_Bank%2C_National_Association ;
+    rel:isEmployedBy org_name:PNC_Bank%2C_National_Association .
+
+loc:Arizona a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Nettime_Solutions%2C_L.L.C.>,
+        org_name:Precision_Employee_Management%2C_LLC .
+
+loc:Georgia a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/HR_Outsourcing%2C_Inc.>,
+        org_name:HR_Outsourcing_Enterprises%2C_LLC .
+
+loc:Minnesota a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Oasis_DEG%2C_Inc.>,
+        <http://example.org/org_name/Oasis_DEG_ASO%2C_Inc.> .
+
+loc:Ohio a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Expense_Wire_LLC,
+        <http://example.org/org_name/HR_Services_Inc._d/b/a_My_Staffing_Pro> .
+
+<http://example.org/org_name/Paychex%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Efrain_Rivera ;
+    rel:hasLocationAt loc:911_Panorama_Trail_South%2C_Rochester%2C_New_York_14625 .
+
+loc:Colorado a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Oasis_AHR_HRC%2C_LLC,
+        org_name:Oasis_AHR_PL%2C_LLC,
+        org_name:ePlan_Advisors_LLC .
+
+loc:Germany a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Lessor_GmbH_%28DE%29,
+        org_name:Paychex_Deutschland_GmbH,
+        org_name:ilohngehalt_internetservices_GmbH .
+
+loc:Iowa a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Oasis_AHR%2C_Inc.>,
+        <http://example.org/org_name/Oasis_AHR_II%2C_Inc.>,
+        <http://example.org/org_name/Oasis_AHR_III%2C_Inc.> .
+
+loc:Oklahoma a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Staff_One%2C_Inc.>,
+        org_name:Staff_One_HR%2C_LLC,
+        org_name:Staff_One_of_Oklahoma%2C_LLC .
+
+org_name:Nixon_Peabody_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Frank_Hamblett ;
+    rel:hasLocationAt loc:53_State_Street%2C_Boston%2C_Massachusetts_02109 .
+
+loc:Indiana a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:PSM_Financial_Services%2C_LLC,
+        <http://example.org/org_name/Professional_Staff_Management%2C_Inc.>,
+        org_name:Professional_Staff_Management%2C_Inc._II,
+        <http://example.org/org_name/Professional_Staff_Management_ASO%2C_Inc.> .
+
+org_name:PNC_Bank%2C_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:agent ;
+    rel:hasEmployee person_name:Lisa_Christian ;
+    rel:hasLocationAt loc:6750_Miller_Road%2C_Brecksville%2C_Ohio_44141,
+        loc:6750_Miller_Road%5Cn%5CnBrecksville%2C_Ohio_44141 .
+
+loc:Tennessee a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/CSM%2C_Inc.>,
+        <http://example.org/org_name/Century_II_ASO%2C_Inc.>,
+        <http://example.org/org_name/Century_II_Services%2C_Inc.>,
+        <http://example.org/org_name/Century_II_Staffing%2C_Inc.>,
+        <http://example.org/org_name/Century_II_Staffing%2C_USA%2C_Inc.>,
+        <http://example.org/org_name/Century_II_Staffing_TN%2C_Inc.> .
+
+loc:Denmark a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:AX_IV_Holding_III_ApS,
+        org_name:AX_IV_Holding_II_ApS,
+        <http://example.org/org_name/Danske_L%C3%B8nsystemer_A/S>,
+        org_name:Ipayroll_Holding_ApS,
+        <http://example.org/org_name/LESSOR_A/S_%28DK%29>,
+        org_name:Lessor_Group_ApS,
+        org_name:Lessor_Holding_ApS,
+        org_name:New_Dawn_Holding_ApS .
+
+loc:New_York a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/PXC_Inc.>,
+        org_name:Paychex_Advance_LLC,
+        org_name:Paychex_Brazil_LLC,
+        org_name:Paychex_Holdings%2C_LLC,
+        <http://example.org/org_name/Paychex_Insurance_Agency%2C_Inc.>,
+        <http://example.org/org_name/Paychex_Insurance_Concepts%2C_Inc.>,
+        org_name:Paychex_Real_Estate%2C_LLC,
+        org_name:Paychex_Securities_Corporation .
+
+loc:Utah a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/ESG_Achievement%2C_Inc.>,
+        org_name:ESG_Administration%2C_Inc,
+        <http://example.org/org_name/ESG_Assistance%2C_Inc.>,
+        <http://example.org/org_name/ESG_Consulting%2C_Inc.>,
+        org_name:ESG_Consulting_II%2C_LLC,
+        <http://example.org/org_name/ESG_Direction%2C_Inc.>,
+        <http://example.org/org_name/ESG_Entities%2C_Inc.>,
+        org_name:ESG_Entities_II%2C_LLC,
+        <http://example.org/org_name/ESG_Fulfillment%2C_Inc.>,
+        <http://example.org/org_name/ESG_Insurance%2C_Inc.>,
+        <http://example.org/org_name/ESG_Management%2C_Inc.>,
+        <http://example.org/org_name/ESG_Offerings%2C_Inc.>,
+        <http://example.org/org_name/ESG_PEO%2C_Inc.>,
+        <http://example.org/org_name/ESG_Services%2C_Inc.>,
+        <http://example.org/org_name/ESG_Success%2C_Inc.>,
+        <http://example.org/org_name/ESG_Supervision%2C_Inc.>,
+        <http://example.org/org_name/ESSG%2C_Inc.>,
+        <http://example.org/org_name/Employer_Solutions_Group%2C_Inc.>,
+        <http://example.org/org_name/Employer_Solutions_Group_of_SLC%2C_Inc.>,
+        <http://example.org/org_name/Employer_Solutions_Group_of_Utah%2C_Inc.>,
+        <http://example.org/org_name/Employer_Solutions_Group_of_Utah_II%2C_Inc.>,
+        <http://example.org/org_name/Solutions_Staffing_Group%2C_Inc.> .
+
+loc:Delaware a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Advantage_Payroll_Services_Inc.>,
+        org_name:DHR_Insurance_Services%2C_LLC,
+        org_name:DHR_Services_Holdings%2C_LLC,
+        <http://example.org/org_name/Fast_401k%2C_Inc._d/b/a_ePlan_Services_Inc.>,
+        org_name:Fortune_Industries,
+        <http://example.org/org_name/Gordian_Capital_Holdings%2C_Inc.>,
+        org_name:Gordian_HR%2C_LLC_%28ASO%29,
+        org_name:HR_Outsourcing%2C_LLC,
+        org_name:HR_Outsourcing_ASO%2C_LLC,
+        org_name:HR_Outsourcing_Associates%2C_LLC,
+        org_name:HR_Outsourcing_Consultants%2C_LLC,
+        org_name:HR_Outsourcing_Development%2C_LLC,
+        org_name:HR_Outsourcing_Group%2C_LLC,
+        org_name:HR_Outsourcing_Services%2C_LLC,
+        <http://example.org/org_name/Oasis_AHR_Holdings%2C_Inc.>,
+        <http://example.org/org_name/Oasis_Acquisition%2C_Inc.>,
+        org_name:Oasis_DHR%2C_LLC,
+        <http://example.org/org_name/Oasis_Employment_Services%2C_Inc.>,
+        org_name:Oasis_Outsourcing_Acquisition_Corporation,
+        <http://example.org/org_name/Oasis_Outsourcing_Holdings%2C_Inc.>,
+        <http://example.org/org_name/Paychex_Benefit_Technologies_Inc._d/b/a_Benetrac>,
+        org_name:Paychex_HR_Outsourcing_LLC,
+        org_name:Paychex_Investment_LLC,
+        org_name:Paychex_Management_LLC,
+        <http://example.org/org_name/Paychex_North_America_Inc.>,
+        <http://example.org/org_name/Paychex_Recordkeeping_Services%2C_Inc._d/b/a_Southeastern_Employee_Benefit_Services>,
+        <http://example.org/org_name/Paychex_Time_%26_Attendance_Inc.>,
+        org_name:Paychex_of_New_York_LLC,
+        <http://example.org/org_name/SurePayroll%2C_Inc.>,
+        <http://example.org/org_name/WRI_Acquisition%2C_Inc.> .
+
+loc:Florida a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:DHR_of_Florida_I%2C_LLC,
+        org_name:Employer%27s_Alliance%2C_LLC,
+        org_name:Employer%27s_Alliance_III%2C_LLC,
+        org_name:Employer%27s_Alliance_IV%2C_LLC,
+        org_name:Employer%27s_Alliance_IX%2C_LLC,
+        org_name:Employer%27s_Alliance_V%2C_LLC,
+        org_name:Employer%27s_Alliance_VI%2C_LLC,
+        org_name:Employer%27s_Alliance_VII%2C_LLC,
+        org_name:Employer%27s_Alliance_VIII%2C_LLC,
+        org_name:Employer%27s_Select%2C_LLC,
+        org_name:Fortune_Financial%2C_Inc,
+        org_name:Fortune_Insurance_Solutions%2C_LLC,
+        org_name:Fortune_PEO%2C_LLC,
+        org_name:Fortune_PEO_Acquisitions%2C_LLC,
+        org_name:HRSmarter_I%2CLLC,
+        org_name:HRSmarter_II%2C_LLC,
+        org_name:HRSmarter_III%2CLLC,
+        org_name:HRSmarter_IV%2CLLC,
+        org_name:HRSmarter_IX%2CLLC,
+        org_name:HRSmarter_V%2CLLC,
+        org_name:HRSmarter_VI%2CLLC,
+        org_name:HRSmarter_VII%2CLLC,
+        org_name:HRSmarter_VIII%2CLLC,
+        org_name:HRSmarter_X%2CLLC,
+        <http://example.org/org_name/King_Employee_Services%2C_Inc.>,
+        <http://example.org/org_name/Oasis_AHR_I%2C_Inc.>,
+        <http://example.org/org_name/Oasis_Advisory_Services%2C_Inc.>,
+        <http://example.org/org_name/Oasis_HR_Solutions_III%2C_Inc.>,
+        <http://example.org/org_name/Oasis_Outsourcing%2C_Inc.>,
+        <http://example.org/org_name/Oasis_Outsourcing_Admin%2C_Inc.>,
+        <http://example.org/org_name/Oasis_Outsourcing_Admin._II%2C_Inc.>,
+        <http://example.org/org_name/Oasis_Outsourcing_Admin_Group%2C_Inc.>,
+        <http://example.org/org_name/Oasis_Outsourcing_Benefits_III%2C_Inc.>,
+        <http://example.org/org_name/Oasis_Outsourcing_Contract%2C_Inc.>,
+        <http://example.org/org_name/Oasis_Outsourcing_Contract_Group%2C_Inc.>,
+        <http://example.org/org_name/Oasis_Outsourcing_Contract_II%2C_Inc.>,
+        <http://example.org/org_name/Oasis_Outsourcing_Contract_III%2C_Inc.>,
+        <http://example.org/org_name/Oasis_Outsourcing_Contract_IV%2C_Inc.>,
+        <http://example.org/org_name/Oasis_Outsourcing_Contract_VII%2C_Inc.>,
+        <http://example.org/org_name/Oasis_Outsourcing_HR%2C_Inc.>,
+        <http://example.org/org_name/Oasis_Outsourcing_III%2C_Inc.>,
+        <http://example.org/org_name/Oasis_Outsourcing_IX%2C_Inc.>,
+        <http://example.org/org_name/Oasis_Outsourcing_TX%2C_Inc.>,
+        <http://example.org/org_name/Oasis_Outsourcing_V%2C_Inc.>,
+        <http://example.org/org_name/Oasis_Outsourcing_VI%2C_Inc.>,
+        <http://example.org/org_name/Oasis_Payroll_Services%2C_Inc.>,
+        <http://example.org/org_name/Oasis_Staffing%2C_Inc.>,
+        <http://example.org/org_name/Oasis_Staffing_II%2C_Inc.>,
+        org_name:PBS_of_America%2C_LLC,
+        org_name:PBS_of_Central_Florida%2C_LLC,
+        org_name:Paychex_Administrative_Services%2C_LLC,
+        org_name:Paychex_Business_Solutions%2C_LLC,
+        org_name:Paychex_PEO_I%2C_LLC,
+        org_name:Paychex_PEO_II%2C_LLC,
+        org_name:Paychex_PEO_III%2C_LLC,
+        org_name:Paychex_PEO_IV%2C_LLC,
+        org_name:Paychex_PEO_IX%2C_LLC,
+        org_name:Paychex_PEO_V%2C_LLC,
+        org_name:Paychex_PEO_VI%2C_LLC,
+        org_name:Paychex_PEO_VII%2C_LLC,
+        org_name:Paychex_PEO_VIII%2C_LLC,
+        org_name:Paychex_PEO_X%2C_LLC,
+        <http://example.org/org_name/WRI_II%2C_Inc.>,
+        <http://example.org/org_name/Workforce_Alternative%2C_Inc.> .
+

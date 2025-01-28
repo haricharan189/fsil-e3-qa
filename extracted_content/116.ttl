@@ -1,0 +1,60 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+loc:120_South_LaSalle_Street%5CnChicago%2C_Illinois_60603 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:CIBC_BANK_USA .
+
+loc:70_W._Madison%5Cn%5CnChicago%2C_Illinois_60602 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:CIBC_BANK_USA .
+
+org_name:MORGAN_STANLEY_DIRECT_LENDING_FUND a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:THE_COMPANY ;
+    rel:hasEmployee person_name:Venugopal_Rathi .
+
+person_name:Erica_Knight a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:CIBC_BANK_USA ;
+    rel:isEmployedBy org_name:CIBC_BANK_USA .
+
+person_name:Nicholas_Jordan a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:CIBC_BANK_USA .
+
+person_name:Nick_Jordan a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:CIBC_BANK_USA ;
+    rel:isEmployedBy org_name:CIBC_BANK_USA .
+
+person_name:Orit_Mizrachi a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:COO ;
+    rel:isEmployedBy org_name:Morgan_Stanley_Direct_Lending_Fund .
+
+person_name:Venu_Rathi a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:CFO ;
+    rel:isEmployedBy org_name:Morgan_Stanley_Direct_Lending_Fund .
+
+person_name:Venugopal_Rathi a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
+    rel:isEmployedBy org_name:MORGAN_STANLEY_DIRECT_LENDING_FUND .
+
+org_name:Morgan_Stanley_Direct_Lending_Fund a base:Organization ;
+    rel:hasEmployee person_name:Orit_Mizrachi,
+        person_name:Venu_Rathi .
+
+org_name:CIBC_BANK_USA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
+        org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Arranger,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Erica_Knight,
+        person_name:Nicholas_Jordan,
+        person_name:Nick_Jordan ;
+    rel:hasLocationAt loc:120_South_LaSalle_Street%5CnChicago%2C_Illinois_60603,
+        loc:70_W._Madison%5Cn%5CnChicago%2C_Illinois_60602 .
+

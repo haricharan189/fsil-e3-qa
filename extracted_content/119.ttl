@@ -1,0 +1,40 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/VAALCO_GABON_%28ETAME%29%2C_INC.> a base:Organization .
+
+loc:2121_Pennsylvania_Avenue%2C_N.W.%5Cn%5CnWashington%2C_D.C._20433%5Cn%5CnUnited_States_of_America%5Cn%5Cn a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:International_Finance_Corporation .
+
+loc:4600_Post_Oak_Place%5Cn%5CnSuite_309%5Cn%5CnHouston%2C_TX_77027%5Cn%5Cn a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/VAALCO_Gabon_%28Etame%29%2C_Inc.> .
+
+org_name:INTERNATIONAL_FINANCE_CORPORATION a base:Organization ;
+    rel:hasEmployee person_name:Delanson_D._Crist .
+
+org_name:International_Finance_Corporation a base:Organization ;
+    rel:hasLocationAt loc:2121_Pennsylvania_Avenue%2C_N.W.%5Cn%5CnWashington%2C_D.C._20433%5Cn%5CnUnited_States_of_America%5Cn%5Cn .
+
+org_name:VAALCO_GABON_%28ETAME%29%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:W._Russell_Scheirman .
+
+<http://example.org/org_name/VAALCO_Gabon_%28Etame%29%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:4600_Post_Oak_Place%5Cn%5CnSuite_309%5Cn%5CnHouston%2C_TX_77027%5Cn%5Cn .
+
+person_name:Delanson_D._Crist a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Manager ;
+    rel:isEmployedBy org_name:INTERNATIONAL_FINANCE_CORPORATION .
+
+person_name:W._Russell_Scheirman a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Operating_Officer,
+        person_position:President ;
+    rel:isEmployedBy org_name:VAALCO_GABON_%28ETAME%29%2C_INC .
+

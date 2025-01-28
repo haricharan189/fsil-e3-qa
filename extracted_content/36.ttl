@@ -1,0 +1,36 @@
+@prefix base: <http://example.org/base/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+org_name:SILICON_GRAPHICS_FEDERAL%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GRANTORS .
+
+org_name:SILICON_GRAPHICS_INTERNATIONAL_CORP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+<http://example.org/org_name/SILICON_GRAPHICS_INTERNATIONAL_CORP.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GRANTORS .
+
+<http://example.org/org_name/%5CnSILICON_GRAPHICS_INTERNATIONAL_CORP> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Robert_J._Nikl .
+
+<http://example.org/org_name/MORGAN_STANLEY_SENIOR_FUNDING%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:AGENT,
+        org_role:Agent,
+        org_role:Arranger,
+        org_role:Bookrunner,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Reagan_Philipp .
+
+person_name:Reagan_Philipp a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy <http://example.org/org_name/MORGAN_STANLEY_SENIOR_FUNDING%2C_INC.> .
+
+person_name:Robert_J._Nikl a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnSILICON_GRAPHICS_INTERNATIONAL_CORP> .
+

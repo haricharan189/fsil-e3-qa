@@ -1,0 +1,250 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:CITIBANK%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+<http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:CITIGROUP_GLOBAL_MARKETS_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+org_name:MERRILL%2C_LYNCH%2C_PIERCE%2C_FENNER_%26_SMITH_INCORPORATED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+<http://example.org/org_name/Stream_Global_Services_%E2%80%93_AZ%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR .
+
+org_name:THE_BANK_OF_NOVA_SCOTIA a base:Organization .
+
+org_name:THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+<http://example.org/org_name/THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD.> a base:Organization .
+
+org_name:THE_NORTHERN_TRUST_COMPANY a base:Organization .
+
+org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+loc:1615_Brett_Road_Building_%233%5CnNew_Castle%2C_DE_19720 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%5CnCitibank%2C_N.A.> .
+
+loc:Arizona a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Stream_Global_Services_%E2%80%93_AZ%2C_Inc.%5Cn .
+
+loc:Kansas a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Encore_Receivable_Management%2C_Inc.> .
+
+loc:Texas a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Intervoice%2C_LLC .
+
+<http://example.org/org_name/%5CnCitibank%2C_N.A.> a base:Organization ;
+    rel:hasLocationAt loc:1615_Brett_Road_Building_%233%5CnNew_Castle%2C_DE_19720 .
+
+<http://example.org/org_name/ASSOCIATED_BANK%2C_N.A.> a base:Organization ;
+    rel:hasEmployee person_name:William_W._Carroll .
+
+org_name:BANCO_DE_SABADELL%2C_S.A.%2C_MIAMI_BRANCH a base:Organization ;
+    rel:hasEmployee person_name:Maurici_Llad%C3%B3 .
+
+org_name:Convergys_CMG_Insurance_Services_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR,
+        org_role:Material_Subsidiaries%5Cn ;
+    rel:hasLocationAt loc:Ohio .
+
+org_name:Convergys_Customer_Management_Delaware_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR,
+        org_role:Material_Subsidiaries%5Cn ;
+    rel:hasLocationAt loc:Delaware .
+
+<http://example.org/org_name/Convergys_Customer_Management_Group_Canada_Holding_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR,
+        org_role:Material_Subsidiaries%5Cn ;
+    rel:hasLocationAt loc:Delaware .
+
+<http://example.org/org_name/Convergys_Customer_Management_Group_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR,
+        org_role:Material_Subsidiaries%5Cn ;
+    rel:hasLocationAt loc:Ohio .
+
+<http://example.org/org_name/Convergys_Customer_Management_International_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR,
+        org_role:Material_Subsidiaries%5Cn ;
+    rel:hasLocationAt loc:Ohio .
+
+org_name:Convergys_Government_Solutions_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR,
+        org_role:Material_Subsidiaries%5Cn ;
+    rel:hasLocationAt loc:Ohio .
+
+<http://example.org/org_name/Encore_Receivable_Management%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR,
+        org_role:Material_Subsidiaries%5Cn ;
+    rel:hasLocationAt loc:Kansas .
+
+org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
+    rel:hasEmployee person_name:Ryan_Durkin .
+
+org_name:Intervoice%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR,
+        org_role:Material_Subsidiaries%5Cn ;
+    rel:hasLocationAt loc:Texas .
+
+<http://example.org/org_name/SGS_Holdings%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR,
+        org_role:Material_Subsidiaries%5Cn ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:STANDARD_CHARTERED_BANK a base:Organization ;
+    rel:hasEmployee person_name:Steven_Aloupis .
+
+<http://example.org/org_name/Stream_Global_Services%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR,
+        org_role:Material_Subsidiaries%5Cn ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:Stream_Global_Services_%E2%80%93_AZ%2C_Inc.%5Cn a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Material_Subsidiaries%5Cn ;
+    rel:hasLocationAt loc:Arizona .
+
+<http://example.org/org_name/Stream_Global_Services_%E2%80%93_US%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR,
+        org_role:Material_Subsidiaries%5Cn ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:Stream_Holdings_Corporation a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR,
+        org_role:Material_Subsidiaries%5Cn ;
+    rel:hasLocationAt loc:Delaware .
+
+<http://example.org/org_name/Stream_International_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR,
+        org_role:Material_Subsidiaries%5Cn ;
+    rel:hasLocationAt loc:Delaware .
+
+<http://example.org/org_name/Stream_New_York_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR,
+        org_role:Material_Subsidiaries%5Cn ;
+    rel:hasLocationAt loc:Delaware .
+
+person_name:Andre_S._Valentine a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
+    rel:isEmployedBy org_name:CONVERGYS_CORPORATION .
+
+person_name:David_R._Wiedwald a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Treasurer ;
+    rel:isEmployedBy org_name:CONVERGYS_CORPORATION .
+
+person_name:Diane_Emanuel a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:COBANK%2C_ACB .
+
+person_name:Jeffrey_P._Fisher a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:THE_HUNTINGTON_NATIONAL_BANK .
+
+person_name:John_Di_Legge a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:THE_HUNTINGTON_NATIONAL_BANK .
+
+person_name:Kyle_R._Holtz a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:Lillian_Kim a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:Mark_Irey a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:THE_HUNTINGTON_NATIONAL_BANK .
+
+person_name:Maurici_Llad%C3%B3 a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
+    rel:isEmployedBy org_name:BANCO_DE_SABADELL%2C_S.A.%2C_MIAMI_BRANCH .
+
+person_name:Michael_Vondriska a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:THE_HUNTINGTON_NATIONAL_BANK .
+
+person_name:Robert_Kling a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:THE_HUNTINGTON_NATIONAL_BANK .
+
+person_name:Ryan_Durkin a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:GOLDMAN_SACHS_BANK_USA .
+
+person_name:Sherlyn_Nelson a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:THE_HUNTINGTON_NATIONAL_BANK .
+
+person_name:Steven_Aloupis a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director%5Cn ;
+    rel:isEmployedBy org_name:STANDARD_CHARTERED_BANK .
+
+person_name:Ted_Koerner a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:COBANK%2C_ACB .
+
+person_name:William_W._Carroll a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/ASSOCIATED_BANK%2C_N.A.> .
+
+org_name:COBANK%2C_ACB a base:Organization ;
+    rel:hasEmployee person_name:Diane_Emanuel,
+        person_name:Ted_Koerner .
+
+org_name:CONVERGYS_CORPORATION a base:Organization ;
+    rel:hasEmployee person_name:Andre_S._Valentine,
+        person_name:David_R._Wiedwald .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    rel:hasEmployee person_name:Kyle_R._Holtz,
+        person_name:Lillian_Kim .
+
+loc:Ohio a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Convergys_CMG_Insurance_Services_LLC,
+        <http://example.org/org_name/Convergys_Customer_Management_Group_Inc.>,
+        <http://example.org/org_name/Convergys_Customer_Management_International_Inc.>,
+        org_name:Convergys_Government_Solutions_LLC .
+
+org_name:THE_HUNTINGTON_NATIONAL_BANK a base:Organization ;
+    rel:hasEmployee person_name:Jeffrey_P._Fisher,
+        person_name:John_Di_Legge,
+        person_name:Mark_Irey,
+        person_name:Michael_Vondriska,
+        person_name:Robert_Kling,
+        person_name:Sherlyn_Nelson .
+
+loc:Delaware a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Convergys_Customer_Management_Delaware_LLC,
+        <http://example.org/org_name/Convergys_Customer_Management_Group_Canada_Holding_Inc.>,
+        <http://example.org/org_name/SGS_Holdings%2C_Inc.>,
+        <http://example.org/org_name/Stream_Global_Services%2C_Inc.>,
+        <http://example.org/org_name/Stream_Global_Services_%E2%80%93_US%2C_Inc.>,
+        org_name:Stream_Holdings_Corporation,
+        <http://example.org/org_name/Stream_International_Inc.>,
+        <http://example.org/org_name/Stream_New_York_Inc.> .
+

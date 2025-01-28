@@ -1,0 +1,54 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+loc:10851_Mastin_Street%2C_Suite_300%5CnOverland_Park%2C_Kansas_66210 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Midland_Loan_Services .
+
+loc:383_Madison_Avenue%2C_New_York%2C_New_York_10179 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:JPMORGAN_CHASE_BANK .
+
+loc:4084_Autumn_Ridge_Road%5CnBethlehem%2C_Pennsylvania_18017%5Cn a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Andrascik_%26_Tita_LLC .
+
+<http://example.org/location/c/o_Blackstone_Real_Estate_Advisors_L.P.%2C_345_Park_Avenue%2C_New_York%2C_New_York_10154> a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:2018-1_IH_BORROWER_LP .
+
+org_name:JPMORGAN_CHASE_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasLocationAt loc:383_Madison_Avenue%2C_New_York%2C_New_York_10179 .
+
+org_name:Midland_Loan_Services a base:Organization ;
+    rel:hasLocationAt loc:10851_Mastin_Street%2C_Suite_300%5CnOverland_Park%2C_Kansas_66210 .
+
+person_name:Chuckie_Reddy a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:2018-1_IH_BORROWER_LP .
+
+person_name:Jonathan_Olsen a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director,
+        person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:2018-1_IH_BORROWER_LP .
+
+person_name:Stephanie_M._Tita a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:Andrascik_%26_Tita_LLC ;
+    rel:isEmployedBy org_name:Andrascik_%26_Tita_LLC .
+
+org_name:2018-1_IH_BORROWER_LP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Chuckie_Reddy,
+        person_name:Jonathan_Olsen ;
+    rel:hasLocationAt <http://example.org/location/c/o_Blackstone_Real_Estate_Advisors_L.P.%2C_345_Park_Avenue%2C_New_York%2C_New_York_10154> .
+
+org_name:Andrascik_%26_Tita_LLC a base:Organization ;
+    rel:hasEmployee person_name:Stephanie_M._Tita ;
+    rel:hasLocationAt loc:4084_Autumn_Ridge_Road%5CnBethlehem%2C_Pennsylvania_18017%5Cn .
+

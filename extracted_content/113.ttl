@@ -1,0 +1,79 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+loc:600_East_96th_Street%2C_Suite_600%5Cn%5CnIndianapolis%2C_Indiana_46240_USA a base:Location .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/HURCO_INTERNATIONAL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+<http://example.org/org_name/HURCO_INTERNATIONAL_HOLDINGS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:HURCO_MIDWEST%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+<http://example.org/org_name/Hurco_Companies%2C_Inc.> a base:Organization .
+
+org_name:MACHINERY_SALES_CO._LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+<http://example.org/org_name/MILLTRONICS_USA%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+loc:9000_Southside_Blvd.%2C_Bldg_100%5Cn%5CnTransaction_Processing_-_FL9-100-04-24%5Cn%5CnJacksonville%2C_FL_32256 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Bank_of_America%2C_N.A.> .
+
+loc:One_Technology_Way%5Cn%5CnIndianapolis%2C_Indiana_42268_USA a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%5CnHurco_Companies%2C_Inc.> .
+
+loc:Prins_Bernhardplein_200%5Cn%5Cn1097_JB_Amsterdam%2C_The_Netherlands a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Hurco_B.V.> .
+
+<http://example.org/org_name/%5CnHurco_Companies%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:One_Technology_Way%5Cn%5CnIndianapolis%2C_Indiana_42268_USA .
+
+org_name:BANK_OF_AMERICA%2C_N.A.%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Jonathan_M._Phillips .
+
+<http://example.org/org_name/Bank_of_America%2C_N.A.> a base:Organization ;
+    rel:hasLocationAt loc:9000_Southside_Blvd.%2C_Bldg_100%5Cn%5CnTransaction_Processing_-_FL9-100-04-24%5Cn%5CnJacksonville%2C_FL_32256 .
+
+<http://example.org/org_name/HURCO_B.V.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_role:Borrowers ;
+    rel:hasEmployee person_name:Sonja_K._McClelland .
+
+<http://example.org/org_name/HURCO_COMPANIES%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_role:Borrowers ;
+    rel:hasEmployee <http://example.org/person_name/%5CnMichael_Doar> .
+
+<http://example.org/org_name/Hurco_B.V.> a base:Organization ;
+    rel:hasLocationAt loc:Prins_Bernhardplein_200%5Cn%5Cn1097_JB_Amsterdam%2C_The_Netherlands .
+
+<http://example.org/person_name/%5CnMichael_Doar> a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Executive_Officer ;
+    rel:isEmployedBy <http://example.org/org_name/HURCO_COMPANIES%2C_INC.> .
+
+person_name:Jonathan_M._Phillips a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:BANK_OF_AMERICA%2C_N.A.%2C .
+
+person_name:Sonja_K._McClelland a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Manager,
+        person_position:Managing_Director_A_and_Authorized_Representative,
+        <http://example.org/person_position/Secretary/Treasurer> ;
+    rel:isEmployedBy <http://example.org/org_name/HURCO_B.V.> .
+

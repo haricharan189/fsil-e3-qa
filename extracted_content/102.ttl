@@ -1,0 +1,83 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/DIGIRAD_IMAGING_SOLUTIONS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS .
+
+<http://example.org/org_name/DMS_HEALTH_TECHNOLOGIES%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS .
+
+<http://example.org/org_name/DMS_IMAGING%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS .
+
+org_name:MD_OFFICE_SOLUTIONS a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS .
+
+org_name:PROJECT_RENDEZVOUS_HOLDING_CORPORATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS .
+
+org_name:TELERHYTHMICS%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS .
+
+loc:1048_Industrial_Court%2C_Suite_E%5Cn%C2%A0%5CnSuwanee%2C_GA_30024 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:DIGIRAD_CORPORATION .
+
+loc:2450_Colorado_Avenue%2C_Suite_3000_West%5CnSanta_Monica%2C_CA_90404 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
+
+loc:65_East_55th_Street%5Cn%C2%A0%5CnNew_York%2C_NY_10022 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%5CnOLSHAN_FROME_WOLOSKY_LLP> .
+
+loc:695_Town_Center_Drive%2C_17th_Floor%5Cn%C2%A0%5CnCosta_Mesa%2C_CA_92626 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:PAUL_HASTINGS_LLP .
+
+<http://example.org/org_name/%5CnOLSHAN_FROME_WOLOSKY_LLP> a base:Organization ;
+    rel:hasLocationAt loc:65_East_55th_Street%5Cn%C2%A0%5CnNew_York%2C_NY_10022 .
+
+person_name:Adam_Finerman a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/Esq.> ;
+    rel:isEmployedBy org_name:PAUL_HASTINGS_LLP .
+
+person_name:Jeffry_R._Keyes a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer,
+        person_position:President ;
+    rel:isEmployedBy org_name:DIGIRAD_CORPORATION .
+
+person_name:Katherine_Bell a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/Esq.> ;
+    rel:isEmployedBy org_name:PAUL_HASTINGS_LLP .
+
+person_name:Kathy_R._Plisko a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
+
+org_name:DIGIRAD_CORPORATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER,
+        org_role:BORROWERS,
+        org_role:Borrower ;
+    rel:hasEmployee person_name:Jeffry_R._Keyes ;
+    rel:hasLocationAt loc:1048_Industrial_Court%2C_Suite_E%5Cn%C2%A0%5CnSuwanee%2C_GA_30024 .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Arranger,
+        org_role:Book_Runner,
+        org_role:Lender,
+        org_role:Runner ;
+    rel:hasEmployee person_name:Kathy_R._Plisko ;
+    rel:hasLocationAt loc:2450_Colorado_Avenue%2C_Suite_3000_West%5CnSanta_Monica%2C_CA_90404 .
+
+org_name:PAUL_HASTINGS_LLP a base:Organization ;
+    rel:hasEmployee person_name:Adam_Finerman,
+        person_name:Katherine_Bell ;
+    rel:hasLocationAt loc:695_Town_Center_Drive%2C_17th_Floor%5Cn%C2%A0%5CnCosta_Mesa%2C_CA_92626 .
+

@@ -1,0 +1,34 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+person_name:John_Koehler a base:Person .
+
+loc:520_Madison_Avenue%5Cn%5CnNew_York%2C_New_York_10022 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%5CnJEFFERIES_FINANCE_LLC> .
+
+loc:Managing_Director a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%5CnJEFFERIES_FINANCE_LLC> .
+
+org_name:CVR_ENERGY%2C%C2%A0INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower%2C ;
+    rel:hasEmployee person_name:Tracy_D._Jackson .
+
+person_name:Tracy_D._Jackson a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer,
+        person_position:Executive_Vice_President ;
+    rel:isEmployedBy org_name:CVR_ENERGY%2C%C2%A0INC .
+
+<http://example.org/org_name/%5CnJEFFERIES_FINANCE_LLC> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
+        org_role:Collateral_Agent,
+        org_role:Lender ;
+    rel:hasLocationAt loc:520_Madison_Avenue%5Cn%5CnNew_York%2C_New_York_10022,
+        loc:Managing_Director .
+

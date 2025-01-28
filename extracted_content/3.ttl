@@ -1,0 +1,264 @@
+@prefix base: <http://example.org/base/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix org_sub_role: <http://example.org/org_sub_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/BofA_SECURITIES%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger,
+        org_role:Bookrunner .
+
+org_name:GRAPEVINE_METRO_HOTEL_GP%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOSPITALITY_JV%2C_LP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:PARENT,
+        org_sub_role:Parent .
+
+org_name:SUMMIT_HOSPITALITY_SUBJV%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR .
+
+org_name:SUMMIT_HOTEL_TRS_156%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_157%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_158%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_160%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_161%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_162%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_163%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_164%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_165%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_166%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_167%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_168%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_169%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_171%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_172%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_173%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_174%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_175%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_176%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_177%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_178%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_179%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_180%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_181%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_182%2C_LLC a base:Organization .
+
+org_name:SUMMIT_HOTEL_TRS_183%2C_LLC a base:Organization .
+
+org_name:SUMMIT_JV_MR_2%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER,
+        org_role:Borrower .
+
+org_name:SUMMIT_JV_MR_3%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER,
+        org_role:Borrower .
+
+org_name:SUMMIT_NCI_JV_158%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_159%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_160%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_161%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_162%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_165%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_166%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_169%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_171%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_172%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_173%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_175%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_176%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_177%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_178%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_181%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_182-183%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_BR_156-159%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR .
+
+org_name:SUMMIT_NCI_JV_BR_160%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR .
+
+org_name:SUMMIT_NCI_JV_BR_161%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR .
+
+org_name:SUMMIT_NCI_JV_BR_162%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_BR_163-164%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_BR_165%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_BR_166%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_BR_167-168%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_BR_169%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_BR_171%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_BR_172%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_BR_173%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_BR_174%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_BR_175%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_BR_175%2C_LLC%2C a base:Organization .
+
+org_name:SUMMIT_NCI_JV_BR_176%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_BR_178%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_BR_179%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_BR_180%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_BR_181%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_BR_182-183%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_JV_TRS_170%2C_LLC a base:Organization .
+
+org_name:SUMMIT_NCI_MASTER_TRS%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR .
+
+<http://example.org/org_name/SUMMIT_NCI_MASTER_TRS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Issuer .
+
+org_name:SUMMIT_NCI_NOLA_BR_184%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER,
+        org_role:Borrower .
+
+org_name:SUPREME_BRIGHT_BRICKTOWN_II%2C_LLC a base:Organization .
+
+org_name:SUPREME_BRIGHT_BRICKTOWN_III%2C_LLC a base:Organization .
+
+org_name:SUPREME_BRIGHT_BRYAN%2C_LLC a base:Organization .
+
+org_name:SUPREME_BRIGHT_DALLAS_II%2C_LLC a base:Organization .
+
+org_name:SUPREME_BRIGHT_FRISCO_II%2C_LLC a base:Organization .
+
+org_name:Summit_Hotel_GP_2%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:general_partner .
+
+org_name:Summit_NCI_JV_BR_156-159%2C_LLC a base:Organization .
+
+org_name:Summit_NCI_JV_BR_160%2C_LLC a base:Organization .
+
+org_name:Summit_NCI_JV_BR_161%2C_LLC a base:Organization .
+
+org_name:Summit_NCI_JV_BR_162%2C_LLC a base:Organization .
+
+org_name:Summit_NCI_JV_BR_163-164%2C_LLC a base:Organization .
+
+org_name:Summit_NCI_JV_BR_165%2C_LLC a base:Organization .
+
+org_name:Summit_NCI_JV_BR_166%2C_LLC a base:Organization .
+
+org_name:Summit_NCI_JV_BR_167-168%2C_LLC a base:Organization .
+
+org_name:Summit_NCI_JV_BR_169%2C_LLC a base:Organization .
+
+org_name:Summit_NCI_JV_BR_171%2C_LLC a base:Organization .
+
+org_name:Summit_NCI_JV_BR_172%2C_LLC a base:Organization .
+
+org_name:Summit_NCI_JV_BR_173%2C_LLC a base:Organization .
+
+org_name:Summit_NCI_JV_BR_174%2C_LLC a base:Organization .
+
+org_name:Summit_NCI_JV_BR_175%2C_LLC a base:Organization .
+
+org_name:Summit_NCI_JV_BR_176%2C_LLC a base:Organization .
+
+org_name:Summit_NCI_JV_BR_177%2C_LLC a base:Organization .
+
+org_name:Summit_NCI_JV_BR_178%2C_LLC a base:Organization .
+
+org_name:Summit_NCI_JV_BR_179%2C_LLC a base:Organization .
+
+org_name:Summit_NCI_JV_BR_180%2C_LLC a base:Organization .
+
+org_name:Summit_NCI_JV_BR_181%2C_LLC a base:Organization .
+
+org_name:Summit_NCI_JV_BR_182-183%2C_LLC a base:Organization .
+
+org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger,
+        org_role:Bookrunner .
+
+org_name:Wells_Fargo_Bank%2C_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Syndication_Agent .
+
+org_name:SUMMIT_NCI_JV_BR_177%2C_LLC a base:Organization ;
+    rel:hasEmployee person_name:Christopher_Eng .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_role:Syndication_Agent ;
+    rel:hasEmployee person_name:Anand_J._Jobanputra .
+
+person_name:Anand_J._Jobanputra a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:Christopher_Eng a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Secretary ;
+    rel:isEmployedBy org_name:SUMMIT_NCI_JV_BR_177%2C_LLC .
+
+person_name:Cindy_Jordan a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:AVP ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
+person_name:Kyle_Pearson a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Cindy_Jordan,
+        person_name:Kyle_Pearson .
+

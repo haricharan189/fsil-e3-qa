@@ -1,0 +1,92 @@
+@prefix base: <http://example.org/base/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/%5CnALLY_BANK> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Ally_Representative,
+        <http://example.org/org_role/L/C_Issuer>,
+        org_role:Lender .
+
+org_name:BGSL_BIG_SKY_FUNDING_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:BGSL_BRECKENRIDGE_FUNDING_LLC%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:BGSL_JACKSON_HOLE_FUNDING_LLC%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/BLACKSTONE_HOLDINGS_FINANCE_CO._L.L.C.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:BLACKSTONE_PRIVATE_CREDIT_FUND a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:EMERALD_DIRECT_LENDING_1_LIMITED_PARTNERSHIP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:EMERALD_MURRAY_STREET_LP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:EMERALD_SPRING_STREET_LP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:GN_LOAN_FUND_LP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/LD_INTERMEDIATE_HOLDINGS%2C_INC.> a base:Organization .
+
+<http://example.org/org_name/LD_TOPCO%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Holdings_Topco%2C .
+
+org_name:WILMINGTON_TRUST%2C_NATIONAL_ASSOCIATION%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+<http://example.org/org_name/WVLD_ACQUISITION_CORP.> a base:Organization .
+
+<http://example.org/org_name/LD_LOWER_HOLDINGS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Dawn_M._Wilson .
+
+org_name:WILMINGTON_TRUST%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent ;
+    rel:hasEmployee person_name:Nicole_Kroll .
+
+person_name:Danielle_Spar a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:GOLDMAN_SACHS_BANK_USA .
+
+person_name:Dawn_M._Wilson a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Secretary,
+        person_position:Treasurer ;
+    rel:isEmployedBy <http://example.org/org_name/LD_LOWER_HOLDINGS%2C_INC.> .
+
+person_name:Eric_Liaw a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Person ;
+    rel:isEmployedBy org_name:BLACKSTONE_SECURED_LENDING_FUND .
+
+person_name:Marisa_Beeney a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Person ;
+    rel:isEmployedBy org_name:BLACKSTONE_SECURED_LENDING_FUND .
+
+person_name:Nicole_Kroll a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Assistant_Vice_President ;
+    rel:isEmployedBy org_name:WILMINGTON_TRUST%2C_NATIONAL_ASSOCIATION .
+
+person_name:Robert_J._Shusterman a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:GOLDMAN_SACHS_BANK_USA .
+
+org_name:BLACKSTONE_SECURED_LENDING_FUND a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Eric_Liaw,
+        person_name:Marisa_Beeney .
+
+org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Danielle_Spar,
+        person_name:Robert_J._Shusterman .
+

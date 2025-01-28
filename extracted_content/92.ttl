@@ -1,0 +1,118 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+org_name: a base:Organization .
+
+org_name:BUSINESS_DEVELOPMENT_CORPORATION_OF_AMERICA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bookrunner .
+
+org_name:MIDCAP_FUNDING_V%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
+        org_role:Arranger,
+        org_role:Bookrunner,
+        org_role:Lender .
+
+<http://example.org/org_name/PERNIX_THERAPEUTICS_HOLDINGS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
+        org_role:Arranger,
+        org_role:Bookrunner,
+        org_role:Lender .
+
+loc:10003_Woodloch_Forest_Drive%5Cn%5CnSuite_950%5Cn%5CnThe_Woodlands%2C_Texas_77380%5Cn%5Cn a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/HAWTHORN_PHARMACEUTICALS%2C_INC.> .
+
+loc:25_Park_Place%5Cn%5CnAtlanta%2C_Georgia_30303 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:SunTrust_Bank .
+
+<http://example.org/org_name/%5CnGAINE%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS ;
+    rel:hasLocationAt loc:10003_Woodloch_Forest_Drive%5Cn%5Cn%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0Suite_950%5Cn%5Cn%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0The_Woodlands%2C_Texas_77380 .
+
+<http://example.org/org_name/CYPRESS_PHARMACEUTICALS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS ;
+    rel:hasLocationAt loc:10003_Woodloch_Forest_Drive%5Cn%5CnSuite_950%5Cn%5CnThe_Woodlands%2C_Texas_77380 .
+
+<http://example.org/org_name/GTA_GP%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS ;
+    rel:hasLocationAt loc:10003_Woodloch_Forest_Drive%5Cn%5CnSuite_950%5Cn%5CnThe_Woodlands%2C_Texas_77380 .
+
+<http://example.org/org_name/HAWTHORN_PHARMACEUTICALS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS ;
+    rel:hasLocationAt loc:10003_Woodloch_Forest_Drive%5Cn%5CnSuite_950%5Cn%5CnThe_Woodlands%2C_Texas_77380%5Cn%5Cn .
+
+<http://example.org/org_name/MACOVEN_PHARMACEUTICALS%2C_L.L.C.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS ;
+    rel:hasLocationAt loc:10003_Woodloch_Forest_Drive%5Cn%5Cn%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0Suite_950%5Cn%5Cn%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0The_Woodlands%2C_Texas_77380 .
+
+org_name:MIDCAP_FUNDING_VI%2C_LLC%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasLocationAt loc:7725_Woodmont_Ave.%2C_%23200%5Cn%5CnBethesda%2C_Maryland_20814 .
+
+org_name:PERNIX_ACQUISITION_CORP._I%5Cn a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS ;
+    rel:hasLocationAt loc:10003_Woodloch_Forest_Drive%5Cn%5Cn%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0Suite_950%5Cn%5Cn%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0The_Woodlands%2C_Texas_77380 .
+
+org_name:PERNIX_MANUFACTURING%2C_LLC%5Cn a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS ;
+    rel:hasLocationAt loc:10003_Woodloch_Forest_Drive%5Cn%5Cn%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0Suite_950%5Cn%5Cn%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0The_Woodlands%2C_Texas_77380 .
+
+org_name:PERNIX_THERAPEUTICS_HOLDINGS%2C_INC.%5Cn a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER ;
+    rel:hasLocationAt loc:10003_Woodloch_Forest_Drive%5Cn%5CnSuite_950%5Cn%5CnThe_Woodlands%2C_Texas_77380 .
+
+<http://example.org/org_name/RESPICOPEA%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS ;
+    rel:hasLocationAt loc:10003_Woodloch_Forest_Drive%5Cn%5Cn%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0Suite_950%5Cn%5Cn%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0The_Woodlands%2C_Texas_77380 .
+
+org_name:SunTrust_Bank a base:Organization ;
+    rel:hasLocationAt loc:25_Park_Place%5Cn%5CnAtlanta%2C_Georgia_30303 .
+
+person_name:Cooper_C._Collins a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:President,
+        person_position:President_and_Chief_Executive_Officer,
+        person_position:President_and_Chief_Executive_Officer%2C%5Cn%5CnPernix_Therapeutics_Holdings%2C_Inc.%2C%5Cn%5CnSole_Member_and_Sole_Manager_of_Pernix_Therapeutics%2C_LLC,
+        person_position:President_and_Chief_Executive_Officer%5Cn ;
+    rel:isEmployedBy org_name:PERNIX_THERAPEUTICS%2C_LLC .
+
+person_name:Michael_Min a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director,
+        person_position:Director%5Cn ;
+    rel:isEmployedBy org_name:MIDCAP_FUNDING_V%2C_LLC%2C .
+
+loc:7725_Woodmont_Ave.%2C_%23200%5Cn%5CnBethesda%2C_Maryland_20814 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:MIDCAP_FUNDING_V%2C_LLC%2C,
+        org_name:MIDCAP_FUNDING_VI%2C_LLC%2C .
+
+org_name:MIDCAP_FUNDING_V%2C_LLC%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Michael_Min ;
+    rel:hasLocationAt loc:7725_Woodmont_Ave.%2C_%23200%5Cn%5CnBethesda%2C_Maryland_20814 .
+
+org_name:PERNIX_THERAPEUTICS%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS ;
+    rel:hasEmployee person_name:Cooper_C._Collins ;
+    rel:hasLocationAt loc:10003_Woodloch_Forest_Drive%5Cn%5CnSuite_950%5Cn%5CnThe_Woodlands%2C_Texas_77380 .
+
+loc:10003_Woodloch_Forest_Drive%5Cn%5CnSuite_950%5Cn%5CnThe_Woodlands%2C_Texas_77380 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/CYPRESS_PHARMACEUTICALS%2C_INC.>,
+        <http://example.org/org_name/GTA_GP%2C_INC.>,
+        org_name:PERNIX_THERAPEUTICS%2C_LLC,
+        org_name:PERNIX_THERAPEUTICS_HOLDINGS%2C_INC.%5Cn .
+
+loc:10003_Woodloch_Forest_Drive%5Cn%5Cn%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0Suite_950%5Cn%5Cn%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0The_Woodlands%2C_Texas_77380 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%5CnGAINE%2C_INC.>,
+        <http://example.org/org_name/MACOVEN_PHARMACEUTICALS%2C_L.L.C.>,
+        org_name:PERNIX_ACQUISITION_CORP._I%5Cn,
+        org_name:PERNIX_MANUFACTURING%2C_LLC%5Cn,
+        <http://example.org/org_name/RESPICOPEA%2C_INC.> .
+

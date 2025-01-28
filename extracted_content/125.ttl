@@ -1,0 +1,68 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Arranger,
+        org_role:Book_Manager,
+        org_role:Lender .
+
+loc:1420_5th_Avenue%2C_9th_Floor%5CnSeattle%2C_WA_98101 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:US_Bank_Agency_Services .
+
+loc:414_Silver_Ave._SW%2C_MS0905%5CnAlbuquerque%2C_New_Mexico_87102-3289 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Public_Service_Company_of_New_Mexico .
+
+loc:New_Mexico a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:PUBLIC_SERVICE_COMPANY_OF_NEW_MEXICO .
+
+loc:US_Bank_Utilities_Division%5Cn461_Fifth_Avenue%2C_8th_Floor%5CnNew_York%2C_NY_10017 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:U.S._Bank_National_Association .
+
+org_name:PUBLIC_SERVICE_COMPANY_OF_NEW_MEXICO a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER ;
+    rel:hasLocationAt loc:New_Mexico .
+
+org_name:US_Bank_Agency_Services a base:Organization ;
+    rel:hasLocationAt loc:1420_5th_Avenue%2C_9th_Floor%5CnSeattle%2C_WA_98101 .
+
+person_name:David_R._Barney a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
+person_name:Eric_J._Cosgrove a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
+person_name:Joe_Horrigan a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:U.S._Bank_National_Association ;
+    rel:isEmployedBy org_name:U.S._Bank_National_Association .
+
+person_name:Joseph_D._Tarry a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Controller,
+        person_position:Treasurer,
+        person_position:Vice_President ;
+    rel:isEmployedBy org_name:Public_Service_Company_of_New_Mexico .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:David_R._Barney,
+        person_name:Eric_J._Cosgrove .
+
+org_name:Public_Service_Company_of_New_Mexico a base:Organization ;
+    rel:hasEmployee person_name:Joseph_D._Tarry ;
+    rel:hasLocationAt loc:414_Silver_Ave._SW%2C_MS0905%5CnAlbuquerque%2C_New_Mexico_87102-3289 .
+
+org_name:U.S._Bank_National_Association a base:Organization ;
+    rel:hasEmployee person_name:Joe_Horrigan ;
+    rel:hasLocationAt loc:US_Bank_Utilities_Division%5Cn461_Fifth_Avenue%2C_8th_Floor%5CnNew_York%2C_NY_10017 .
+

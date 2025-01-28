@@ -1,0 +1,170 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization .
+
+org_name:BARCLAYS_BANK_PLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers .
+
+org_name:BNP_Paribas a base:Organization .
+
+org_name:GOLDMAN_SACHS_BANK_USA a base:Organization .
+
+org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER_%26_SMITH_INCORPORATED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+org_name:ROYAL_BANK_OF_CANADA a base:Organization .
+
+org_name:SunTrust_Bank a base:Organization .
+
+org_name:THE_BANK_OF_NOVA_SCOTIA%2C_HOUSTON_BRANCH a base:Organization .
+
+<http://example.org/org_name/THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+<http://example.org/org_name/The_Bank_of_Tokyo-Mitsubishi_UFJ%2C_Ltd.> a base:Organization .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+loc:Harborside_Financial_Center%5Cn1800_Plaza_Ten%5CnJersey_City%2C_NJ_07311 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Mizuho_Bank%2C_Ltd.> .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners ;
+    rel:hasEmployee person_name:Dave_Katz .
+
+<http://example.org/org_name/MIZUHO_BANK%2C_LTD.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Arrangers,
+        org_role:Bookrunners ;
+    rel:hasEmployee person_name:Donna_DeMagistris .
+
+org_name:MPLX_GP_LLC a base:Organization ;
+    rel:hasEmployee person_name:Peter_Gilgen .
+
+<http://example.org/org_name/Mizuho_Bank%2C_Ltd.> a base:Organization ;
+    rel:hasLocationAt loc:Harborside_Financial_Center%5Cn1800_Plaza_Ten%5CnJersey_City%2C_NJ_07311 .
+
+org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    rel:hasEmployee person_name:Stephen_Monto .
+
+org_name:U.S._Bank_National_Association a base:Organization ;
+    rel:hasEmployee person_name:John_Prigge .
+
+person_name:Alan_Dawson a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:UBS_AG%2C_Stamford_Branch .
+
+person_name:Alia_Qaddumi a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:UBS_AG%2C_Stamford_Branch .
+
+person_name:Annie_Dorval a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:The_Toronto-Dominion_Bank%2C_New_York_Branch .
+
+person_name:Brendan_Heneghan a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:UBS_AG%2C_Stamford_Branch .
+
+person_name:Dave_Katz a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
+    rel:isEmployedBy <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
+
+person_name:David_L._Berger a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:UBS_AG%2C_Stamford_Branch .
+
+person_name:Donna_DeMagistris a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory%5Cn ;
+    rel:isEmployedBy <http://example.org/org_name/MIZUHO_BANK%2C_LTD.> .
+
+person_name:Houssem_Daly a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Associate_Director ;
+    rel:isEmployedBy org_name:UBS_AG%2C_Stamford_Branch .
+
+person_name:Jason_S._York a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:The_Toronto-Dominion_Bank%2C_New_York_Branch .
+
+person_name:John_Prigge a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:U.S._Bank_National_Association .
+
+person_name:Josh_Rosenthal a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:The_Toronto-Dominion_Bank%2C_New_York_Branch .
+
+person_name:Kenneth_Chin a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:UBS_AG%2C_Stamford_Branch .
+
+person_name:Michael_Zeller a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/CITIBANK%2C_N.A.> .
+
+person_name:Nathan_Starr a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/CITIBANK%2C_N.A.> .
+
+person_name:Peter_Gilgen a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President_and_Treasurer ;
+    rel:isEmployedBy org_name:MPLX_GP_LLC .
+
+person_name:Stephen_Hoffman a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:The_Huntington_National_Bank .
+
+person_name:Stephen_Monto a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:SVP ;
+    rel:isEmployedBy org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:Sydney_G._Dennis a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:UBS_AG%2C_Stamford_Branch .
+
+person_name:Traci_Bankston a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/CITIBANK%2C_N.A.> .
+
+person_name:Yann_Pirio a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:The_Huntington_National_Bank .
+
+org_name:The_Huntington_National_Bank a base:Organization ;
+    rel:hasEmployee person_name:Stephen_Hoffman,
+        person_name:Yann_Pirio .
+
+<http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization ;
+    rel:hasEmployee person_name:Michael_Zeller,
+        person_name:Nathan_Starr,
+        person_name:Traci_Bankston .
+
+org_name:The_Toronto-Dominion_Bank%2C_New_York_Branch a base:Organization ;
+    rel:hasEmployee person_name:Annie_Dorval,
+        person_name:Jason_S._York,
+        person_name:Josh_Rosenthal .
+
+org_name:UBS_AG%2C_Stamford_Branch a base:Organization ;
+    rel:hasEmployee person_name:Alan_Dawson,
+        person_name:Alia_Qaddumi,
+        person_name:Brendan_Heneghan,
+        person_name:David_L._Berger,
+        person_name:Houssem_Daly,
+        person_name:Kenneth_Chin,
+        person_name:Sydney_G._Dennis .
+

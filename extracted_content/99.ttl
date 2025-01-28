@@ -1,0 +1,291 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/%5CnCBOCS_TEXAS%2C_LLC> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+<http://example.org/org_name/%5CnSYNOVUS_BANK> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/%5CnUS_BANK%2C_NATIONAL_ASSOCIATION> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:BANK_OF_AMERICA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:BANK_OF_AMERICA%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:BRANCH_BANKING_AND_TRUST_COMPANY a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender%5Cn .
+
+<http://example.org/org_name/CBOCS_DISTRIBUTION%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor%5Cn .
+
+<http://example.org/org_name/CBOCS_Distribution%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR .
+
+org_name:CBOCS_Pennsylvania%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR .
+
+org_name:CBOCS_Properties%2C_Inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR .
+
+org_name:CBOCS_SUPPLY%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+<http://example.org/org_name/CBOCS_Supply%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR .
+
+org_name:CBOCS_Texas%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR .
+
+<http://example.org/org_name/CBOCS_WEST%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+<http://example.org/org_name/CBOCS_West%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR .
+
+org_name:CB_Music_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR .
+
+<http://example.org/org_name/CO%C3%96PERATIEVE_CENTRALE_RAIFFEISEN-BOERENLEENBANK_B.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Arrangers,
+        org_role:Bookrunners .
+
+<http://example.org/org_name/CRACKER_BARREL_OLD_COUNTRY_STORE%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+org_name:FIFTH_THIRD_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+org_name:PINNACLE_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:RABOBANK_NEDERLAND a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Arrangers,
+        org_role:Bookrunners .
+
+org_name:REGIONS_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+<http://example.org/org_name/Rocking_Chair%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR .
+
+org_name:SUNTRUST_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender .
+
+<http://example.org/org_name/THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:THE_SUBSIDIARY_GUARANTORS_NAMED_HEREIN a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors .
+
+org_name:US_BANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:WELLS%C2%A0FARGO%C2%A0BANK%2C%C2%A0NATIONAL%C2%A0ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Bank,
+        org_role:Lender .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+loc:150_Third_Avenue_South%2C_Suite_2800%5Cn%5CnNashville%2C_TN_37201 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%5CnBass%2C_Berry%C2%A0%26_Sims_PLC> .
+
+loc:1808_Aston_Avenue%2C_Suite_250%5Cn%5CnCarlsbad%2C_CA_92008 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Wells_Fargo_Bank%2C_National_Association .
+
+loc:305_Hartman_Drive%5Cn%5CnP.O._Box_787%5Cn%5CnLebanon%2C_Tennessee_37088-0787 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Cracker_Barrel_Old_Country_Store%2C_Inc.> .
+
+loc:MAC_D1109-019%5Cn%5Cn1525_West_W.T._Harris_Blvd.%5Cn%5CnCharlotte%2C_NC%C2%A028262 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Wells_Fargo_Bank%2C_National_Association .
+
+<http://example.org/org_name/%5CnBass%2C_Berry%C2%A0%26_Sims_PLC> a base:Organization ;
+    rel:hasLocationAt loc:150_Third_Avenue_South%2C_Suite_2800%5Cn%5CnNashville%2C_TN_37201 .
+
+<http://example.org/org_name/%5CnCBOCS_PENNSYLVANIA%2C_LLC> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor%5Cn ;
+    rel:hasEmployee person_name:Nick_Flanagan .
+
+<http://example.org/org_name/%5CnCO%C3%96PERATIEVE_CENTRALE_RAIFFEISEN-BOERENLEENBANK_B.A._%C2%93RABOBANK> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Michael_T._Harder .
+
+<http://example.org/org_name/%5CnFIRST_TENNESSEE_BANK_NATIONAL_ASSOCIATION> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Mac_Atsup .
+
+<http://example.org/org_name/%5CnPNC_BANK%2C_NATIONAL_ASSOCIATION> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:JOHN_THURMAN .
+
+<http://example.org/org_name/%5CnROCKING_CHAIR%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasEmployee person_name:Elizabeth_Wilson .
+
+<http://example.org/org_name/%5CnTHE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender%5Cn ;
+    rel:hasEmployee person_name:Christine_Howatt .
+
+org_name:CB_MUSIC_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor%5Cn%5Cn ;
+    rel:hasEmployee person_name:Chris_Ciavarra .
+
+org_name:CRACKER%C2%A0BARREL%C2%A0OLD%C2%A0COUNTRY%C2%A0STORE%2C%C2%A0INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Lawrence_E._Hyatt .
+
+<http://example.org/org_name/Cracker_Barrel_Old_Country_Store%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasLocationAt loc:305_Hartman_Drive%5Cn%5CnP.O._Box_787%5Cn%5CnLebanon%2C_Tennessee_37088-0787 .
+
+person_name:Adriaan_Weststrate a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnREGIONS_BANK> .
+
+person_name:Anne_H._Lovette a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:AVENUE_BANK .
+
+person_name:Carol_S._Titus a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:AVENUE_BANK .
+
+person_name:Chris_Ciavarra a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Manager%C2%A0%26_Vice_President ;
+    rel:isEmployedBy org_name:CB_MUSIC_LLC .
+
+person_name:Christine_Howatt a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnTHE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD.> .
+
+person_name:Doug_Couvillion a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:President,
+        person_position:Treasurer ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnCBOCS_PROPERTIES%2C_INC.> .
+
+person_name:Elizabeth_Wilson a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Assistant_Secretary ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnROCKING_CHAIR%2C_INC.> .
+
+person_name:Henry_Spark a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnGREENSTONE_FARM_CREDIT_SERVICES> .
+
+person_name:JOHN_THURMAN a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:SENIOR_VICE_PRESIDENT ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnPNC_BANK%2C_NATIONAL_ASSOCIATION> .
+
+person_name:Jeff_Pavlik a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnGREENSTONE_FARM_CREDIT_SERVICES> .
+
+person_name:Laura_Daily a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnGREENSTONE_FARM_CREDIT_SERVICES> .
+
+person_name:Lawrence_E._Hyatt a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President%C2%A0%26_Chief_Financial_Officer%5Cn ;
+    rel:isEmployedBy org_name:CRACKER%C2%A0BARREL%C2%A0OLD%C2%A0COUNTRY%C2%A0STORE%2C%C2%A0INC .
+
+person_name:Lisa_R._Cook a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnGREENSTONE_FARM_CREDIT_SERVICES> .
+
+person_name:Mac_Atsup a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:VP ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnFIRST_TENNESSEE_BANK_NATIONAL_ASSOCIATION> .
+
+person_name:Michael_T._Harder a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnCO%C3%96PERATIEVE_CENTRALE_RAIFFEISEN-BOERENLEENBANK_B.A._%C2%93RABOBANK> .
+
+person_name:Nick_Flanagan a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Manager,
+        person_position:President%5Cn ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnCBOCS_PENNSYLVANIA%2C_LLC> .
+
+person_name:R._Andrew_Beam a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:AVENUE_BANK .
+
+person_name:Robert_J._Beckley a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:AVENUE_BANK .
+
+person_name:S._Victoria_Harvey a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:President ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnCBOCS_PROPERTIES%2C_INC.> .
+
+person_name:Scott_C._Tocci a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnREGIONS_BANK> .
+
+person_name:Stephen_A._Leon a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnREGIONS_BANK> .
+
+person_name:Steven_Dixon a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnGREENSTONE_FARM_CREDIT_SERVICES> .
+
+person_name:William_H._Diehl a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:AVENUE_BANK .
+
+<http://example.org/org_name/%5CnCBOCS_PROPERTIES%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasEmployee person_name:Doug_Couvillion,
+        person_name:S._Victoria_Harvey .
+
+org_name:Wells_Fargo_Bank%2C_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative%5Cn%5CnAgent ;
+    rel:hasLocationAt loc:1808_Aston_Avenue%2C_Suite_250%5Cn%5CnCarlsbad%2C_CA_92008,
+        loc:MAC_D1109-019%5Cn%5Cn1525_West_W.T._Harris_Blvd.%5Cn%5CnCharlotte%2C_NC%C2%A028262 .
+
+<http://example.org/org_name/%5CnREGIONS_BANK> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Adriaan_Weststrate,
+        person_name:Scott_C._Tocci,
+        person_name:Stephen_A._Leon .
+
+<http://example.org/org_name/%5CnGREENSTONE_FARM_CREDIT_SERVICES> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender%5Cn ;
+    rel:hasEmployee person_name:Henry_Spark,
+        person_name:Jeff_Pavlik,
+        person_name:Laura_Daily,
+        person_name:Lisa_R._Cook,
+        person_name:Steven_Dixon .
+
+org_name:AVENUE_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Anne_H._Lovette,
+        person_name:Carol_S._Titus,
+        person_name:R._Andrew_Beam,
+        person_name:Robert_J._Beckley,
+        person_name:William_H._Diehl .
+

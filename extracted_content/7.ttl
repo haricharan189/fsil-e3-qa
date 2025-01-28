@@ -1,0 +1,40 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+loc:1331_17th_Street%2C_Suite_710%2C_Denver%2C_CO_80202 a base:Location .
+
+loc:1550_Seventeenth_Street%2C_Suite_500%5Cn%5CnDenver%2C_Colorado%C2%A0%C2%A080202-1500%5Cn%5Cn a base:Location .
+
+loc:520_Post_Oak_Boulevard%2C_Suite_700%5Cn%5CnHouston%2C_Texas%C2%A0%C2%A077027 a base:Location .
+
+org_name:Davis_Graham_%26_Stubbs_LLP%5Cn%5Cn a base:Organization .
+
+org_name:Mutual_of_Omaha_Bank a base:Organization .
+
+org_name:Samson_Oil_and_Gas_USA_Inc a base:Organization .
+
+org_name:MUTUAL_OF_OMAHA_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
+        <http://example.org/org_role/L/C_Issuer>,
+        org_role:Lender ;
+    rel:hasEmployee person_name:George_McKean .
+
+org_name:SAMSON_OIL_AND_GAS_USA%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Terry_Barr .
+
+person_name:George_McKean a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Manager ;
+    rel:isEmployedBy org_name:MUTUAL_OF_OMAHA_BANK .
+
+person_name:Terry_Barr a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:CEO,
+        person_position:President,
+        person_position:Treasurer ;
+    rel:isEmployedBy org_name:SAMSON_OIL_AND_GAS_USA%2C_INC .
+

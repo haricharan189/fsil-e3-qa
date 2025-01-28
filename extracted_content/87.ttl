@@ -1,0 +1,73 @@
+@prefix base: <http://example.org/base/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+org_name:AFI_LICENSING_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTOR .
+
+org_name:Morgan%2C_Lewis%C2%A0%26_Bockius_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:legal_counsel .
+
+<http://example.org/org_name/%5CnSUNTRUST_BANK> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Chris_Hursey .
+
+org_name:BANK_OF_AMERICA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent ;
+    rel:hasEmployee person_name:Melissa_Mullis .
+
+org_name:HSBC_BANK_USA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Robert_Levins .
+
+org_name:JPMORGAN_CHASE_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:John_Emery .
+
+person_name:Chris_Hursey a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnSUNTRUST_BANK> .
+
+person_name:Douglas_B._Bingham a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Treasurer,
+        person_position:Vice_President ;
+    rel:isEmployedBy org_name:MANUFACTURERS_AND_TRADERS_TRUST_COMPANY .
+
+person_name:Jennifer_Yan a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:ARMSTRONG%C2%A0FLOORING%2C%C2%A0INC .
+
+person_name:John_Emery a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:JPMORGAN_CHASE_BANK .
+
+person_name:Melissa_Mullis a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Assistant_Vice_President ;
+    rel:isEmployedBy org_name:BANK_OF_AMERICA .
+
+person_name:Robert_Levins a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Credit_Manager ;
+    rel:isEmployedBy org_name:HSBC_BANK_USA .
+
+person_name:Ronald_D._Ford a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer,
+        person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:ARMSTRONG%C2%A0FLOORING%2C%C2%A0INC .
+
+person_name:Sarah_C._Lesser a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:MANUFACTURERS_AND_TRADERS_TRUST_COMPANY .
+
+org_name:ARMSTRONG%C2%A0FLOORING%2C%C2%A0INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER ;
+    rel:hasEmployee person_name:Jennifer_Yan,
+        person_name:Ronald_D._Ford .
+
+org_name:MANUFACTURERS_AND_TRADERS_TRUST_COMPANY a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Douglas_B._Bingham,
+        person_name:Sarah_C._Lesser .
+

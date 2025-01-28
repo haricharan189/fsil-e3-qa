@@ -1,0 +1,233 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/%5CnTD_BANK%2C_N.A.> a base:Organization .
+
+<http://example.org/org_name/%5CnU.S._BANK_NATIONAL_ASSOCIATION> a base:Organization .
+
+<http://example.org/org_name/%5CnWELLS_FARGO_SECURITIES_LLC> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger,
+        org_role:Bookrunner .
+
+org_name:ASSOCIATED_BANK a base:Organization .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization .
+
+<http://example.org/org_name/BMO_HARRIS_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents .
+
+org_name:BRANCH_BANKING_AND_TRUST_COMPANY a base:Organization .
+
+org_name:COMPASS_BANK a base:Organization .
+
+org_name:COMPASS_BANK%2C_REGIONS_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents .
+
+org_name:J.P._MORGAN_SECURITIES_LLC a base:Organization .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A._and_BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents .
+
+org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunner .
+
+org_name:NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:REGIONS_BANK a base:Organization .
+
+org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents .
+
+org_name:WELLS_FARGO_BANK a base:Organization .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization .
+
+loc:10420_Highland_Manor_Drive%2C_Fl_4%5Cn%5CnTampa%2C_FL_33610%5Cn%5Cn a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> .
+
+loc:10_South_Wacker_Drive%2C_32nd%C2%A0Floor%5Cn%5CnChicago%2C%C2%A0Illinois_60606%5Cn%5Cn a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Wells_Fargo_Bank .
+
+loc:10_South_Wacker_Drive%2C_32nd%C2%A0floor%5Cn%5CnChicago%2C%C2%A0Illinois_60606 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Wells_Fargo_Bank%2C_National_Association .
+
+loc:300_North_LaSalle_Street%5Cn%5CnChicago%2C%C2%A0Illinois_60654 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Kirkland%C2%A0%26_Ellis_LLP .
+
+loc:Global_Trade_Operations%5Cn%5CnOne_Fleet_Way%2C_2nd_Floor%5Cn%5CnMail_Code_PA6-580-02-30%5Cn%5CnScranton%2C_PA_18507%5Cn%5Cn a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Bank_of_America%2C_N.A.> .
+
+loc:Two_North_Riverside_Plaza%2C_Suite%C2%A0600%5Cn%5CnChicago%2C%C2%A0Illinois_60606%5Cn%5Cn a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Equity_Commonwealth .
+
+org_name:BMO_HARRIS_BANK a base:Organization ;
+    rel:hasEmployee person_name:Mark_W._Piekos .
+
+<http://example.org/org_name/Bank_of_America%2C_N.A.> a base:Organization ;
+    rel:hasLocationAt loc:Global_Trade_Operations%5Cn%5CnOne_Fleet_Way%2C_2nd_Floor%5Cn%5CnMail_Code_PA6-580-02-30%5Cn%5CnScranton%2C_PA_18507%5Cn%5Cn .
+
+org_name:CAPITAL_ONE a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent ;
+    rel:hasEmployee person_name:Frederick_H._Denecke .
+
+org_name:EQUITY_COMMONWEALTH a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Adam_Markman .
+
+org_name:Equity_Commonwealth a base:Organization ;
+    rel:hasLocationAt loc:Two_North_Riverside_Plaza%2C_Suite%C2%A0600%5Cn%5CnChicago%2C%C2%A0Illinois_60606%5Cn%5Cn .
+
+org_name:FIFTH_THIRD_BANK a base:Organization ;
+    rel:hasEmployee person_name:Michael_Glandt .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    rel:hasEmployee person_name:Marc_Costantino .
+
+<http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> a base:Organization ;
+    rel:hasLocationAt loc:10420_Highland_Manor_Drive%2C_Fl_4%5Cn%5CnTampa%2C_FL_33610%5Cn%5Cn .
+
+org_name:Kirkland%C2%A0%26_Ellis_LLP a base:Organization ;
+    rel:hasLocationAt loc:300_North_LaSalle_Street%5Cn%5CnChicago%2C%C2%A0Illinois_60654 .
+
+org_name:MEGA_INTERNATIONAL_COMMERCIAL_BANK_CO.%2C_LTD a base:Organization ;
+    rel:hasEmployee person_name:Angela_Chen .
+
+org_name:ROYAL_BANK_OF_CANADA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents ;
+    rel:hasEmployee person_name:Dan_LePage .
+
+org_name:SUMITOMO_MITSUI_BANKING_CORPORATION a base:Organization ;
+    rel:hasEmployee person_name:William_G._Karl .
+
+org_name:THE_BANK_OF_NEW_YORK_MELLON a base:Organization ;
+    rel:hasEmployee person_name:Helga_Blum .
+
+org_name:THE_BANK_OF_NOVA_SCOTIA a base:Organization ;
+    rel:hasEmployee person_name:Chad_Hale .
+
+org_name:Wells_Fargo_Bank a base:Organization ;
+    rel:hasLocationAt loc:10_South_Wacker_Drive%2C_32nd%C2%A0Floor%5Cn%5CnChicago%2C%C2%A0Illinois_60606%5Cn%5Cn .
+
+org_name:Wells_Fargo_Bank%2C_National_Association a base:Organization ;
+    rel:hasLocationAt loc:10_South_Wacker_Drive%2C_32nd%C2%A0floor%5Cn%5CnChicago%2C%C2%A0Illinois_60606 .
+
+person_name:Adam_Markman a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer,
+        person_position:Executive_Vice_President,
+        person_position:Treasurer ;
+    rel:isEmployedBy org_name:EQUITY_COMMONWEALTH .
+
+person_name:Angela_Chen a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Deputy_GM,
+        person_position:VP ;
+    rel:isEmployedBy org_name:MEGA_INTERNATIONAL_COMMERCIAL_BANK_CO.%2C_LTD .
+
+person_name:Chad_Hale a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director,
+        person_position:Executive_Head ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NOVA_SCOTIA .
+
+person_name:Charles_McLaughlin a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnSenior_Vice_President> ;
+    rel:isEmployedBy org_name:BANK_HAPOALIM_B.M .
+
+person_name:Cheryl_Sneor a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:BANK_HAPOALIM_B.M .
+
+person_name:Curt_Steiner a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnSenior_Vice_President> ;
+    rel:isEmployedBy org_name:BANK_HAPOALIM_B.M .
+
+person_name:Dan_LePage a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory%5Cn%5Cn ;
+    rel:isEmployedBy org_name:ROYAL_BANK_OF_CANADA .
+
+person_name:Frederick_H._Denecke a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnSenior_Vice_President%5Cn%5Cn> ;
+    rel:isEmployedBy org_name:CAPITAL_ONE .
+
+person_name:Greg_Conner a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:BANK_HAPOALIM_B.M .
+
+person_name:Helga_Blum a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NEW_YORK_MELLON .
+
+person_name:James_P._Surless a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:BANK_HAPOALIM_B.M .
+
+person_name:John_T._Murphy a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:PNC_BANK .
+
+person_name:Kent_Gorman a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:PNC_BANK .
+
+person_name:Lori_Chambers a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:BANK_HAPOALIM_B.M .
+
+person_name:Marc_Costantino a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
+    rel:isEmployedBy <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
+
+person_name:Mark_A._Edwards a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnSenior_Vice_President> ;
+    rel:isEmployedBy org_name:BANK_HAPOALIM_B.M .
+
+person_name:Mark_W._Piekos a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnManaging_Director> ;
+    rel:isEmployedBy org_name:BMO_HARRIS_BANK .
+
+person_name:Michael_Glandt a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnVice_President> ;
+    rel:isEmployedBy org_name:FIFTH_THIRD_BANK .
+
+person_name:Rory_Desmond a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:BANK_HAPOALIM_B.M .
+
+person_name:William_G._Karl a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnExecutive_Officer> ;
+    rel:isEmployedBy org_name:SUMITOMO_MITSUI_BANKING_CORPORATION .
+
+person_name:Winita_Lau a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:PNC_BANK .
+
+org_name:PNC_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent ;
+    rel:hasEmployee person_name:John_T._Murphy,
+        person_name:Kent_Gorman,
+        person_name:Winita_Lau .
+
+org_name:BANK_HAPOALIM_B.M a base:Organization ;
+    rel:hasEmployee person_name:Charles_McLaughlin,
+        person_name:Cheryl_Sneor,
+        person_name:Curt_Steiner,
+        person_name:Greg_Conner,
+        person_name:James_P._Surless,
+        person_name:Lori_Chambers,
+        person_name:Mark_A._Edwards,
+        person_name:Rory_Desmond .
+

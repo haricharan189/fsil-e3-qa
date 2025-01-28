@@ -1,0 +1,35 @@
+@prefix base: <http://example.org/base/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/JAMBA%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:HOLDINGS .
+
+org_name:JAMBA_JUICE_COMPANY a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER .
+
+org_name:CADENCE_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:AGENT,
+        <http://example.org/org_role/L/C_Issuer>,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Charles_M._Joye_III .
+
+<http://example.org/org_name/JAMBA_JUICE_ADVERTISING_FUND_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS ;
+    rel:hasEmployee person_name:Marie_Perry .
+
+person_name:Charles_M._Joye_III a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:CADENCE_BANK .
+
+person_name:Marie_Perry a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:CAO,
+        person_position:CFO,
+        person_position:EVP,
+        person_position:Secretary,
+        person_position:Treasurer ;
+    rel:isEmployedBy <http://example.org/org_name/JAMBA_JUICE_ADVERTISING_FUND_INC.> .
+

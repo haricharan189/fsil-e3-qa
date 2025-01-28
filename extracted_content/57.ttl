@@ -1,0 +1,269 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix org_sub_role: <http://example.org/org_sub_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+loc:1615_Brett_Road%5CnNew_Castle%2C_DE_19709 a base:Location .
+
+loc:1_Fleet_Way%C2%A0_Scranton%2C_PA_18507 a base:Location .
+
+loc:222_W._Las_Colinas_Blvd.%2C_Suite_900N%5CnIrving%2C_Texas_75039 a base:Location .
+
+loc:2380_Performance_Dr.%2C_Bldg._C%5CnRichardson%2C_TX%C2%A0_75082 a base:Location .
+
+loc:383_Madison_Avenue%2C_Floor_24%5Cn%C2%A0%5CnNew_York%2C_NY_10179 a base:Location .
+
+loc:388_Greenwich_Street%5CnNew_York%2C_NY_10013 a base:Location .
+
+loc:5022_Gate_Parkway_Suite_100%5CnJacksonville%2C_FL%C2%A0_32256 a base:Location .
+
+loc:60_Wall_Street%5CnNew_York%2C_NY_10005 a base:Location .
+
+loc:JPM-Bangalore_Loan_Operations%5Cn%C2%A0%5CnPrestige_Tech_Park%2C_Floor_4%5CnSarjapur_Outer_Ring_Rd%2C_Vathur_Hobli%5CnBangalore%2C_India_560_087 a base:Location .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender .
+
+org_name:Barclays_Bank_PLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:CE_Receivables_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:buyer .
+
+<http://example.org/org_name/CITIBANK_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:CNA_Holdings_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:SUBSIDIARY .
+
+org_name:Celanese_Acetate_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:SUBSIDIARY .
+
+org_name:Celanese_Americas_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:SUBSIDIARY .
+
+<http://example.org/org_name/Celanese_Chemicals%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:SUBSIDIARY .
+
+org_name:Celanese_Global_Relocation_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:SUBSIDIARY .
+
+org_name:Celanese_International_Corporation a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:servicer,
+        org_sub_role:SUBSIDIARY .
+
+<http://example.org/org_name/Celanese_Ltd.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:SUBSIDIARY .
+
+<http://example.org/org_name/Celanese_Sales_U.S._Ltd.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:SUBSIDIARY .
+
+<http://example.org/org_name/Celtran%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:SUBSIDIARY .
+
+<http://example.org/org_name/Citibank_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arranger,
+        org_role:bookrunner .
+
+org_name:Commerzbank_AG%2C_New_York_Branch a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:DEUTSCHE_BANK_AG_NEW_YORK%5CnBRANCH a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:Deutsche_Bank_AG_New_York_Branch a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Issuer,
+        org_role:Lender .
+
+<http://example.org/org_name/Deutsche_Bank_Securities_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arranger,
+        org_role:bookrunner .
+
+<http://example.org/org_name/Europe_B.V.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+org_name:Gibson%2C_Dunn_%26_Crutcher_LLP%2C a base:Organization .
+
+org_name:HSBC_Bank_USA%2C_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:JPMorgan_Chase_Bank%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arranger,
+        org_role:bookrunner .
+
+<http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Issuer,
+        org_role:Lender .
+
+org_name:KEP_America_Engineering_Plastics%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:SUBSIDIARY .
+
+<http://example.org/org_name/MORGAN_STANLEY_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/MORGAN_STANLEY_SENIOR_FUNDING%2C%5CnINC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:Merrill_Lynch%2C_Pierce%2C_Fenner_%26_Smith_Incorporated a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arranger,
+        org_role:bookrunner .
+
+org_name:SUMITOMO_MITSUI_BANKING%5CnCORPORATION a base:Organization .
+
+org_name:Swing_Line a base:Organization .
+
+<http://example.org/org_name/Ticona_Fortron_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:SUBSIDIARY .
+
+org_name:Ticona_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:SUBSIDIARY .
+
+<http://example.org/org_name/Ticona_Polymers%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:SUBSIDIARY .
+
+org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+person_name:Katsuyuki_Kubo a base:Person .
+
+person_name:Vinoliya_Basker a base:Person .
+
+org_name:CELANESE_CORPORATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Holdings ;
+    rel:hasEmployee person_name:Scott_A._Richardson .
+
+<http://example.org/org_name/CELANESE_EUROPE_B.V.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Mark_Oberle .
+
+<http://example.org/org_name/Elwood_C.V.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Ronnie_D._Berry .
+
+<http://example.org/org_name/MUFG_Bank%2C_Ltd.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Thomas_J._Sterr .
+
+org_name:PNC_Bank%2C_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Divyang_Shah .
+
+<http://example.org/person_name/%5CnBetsy_Briggs> a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Associate_Director ;
+    rel:isEmployedBy org_name:UniCredit_Bank_AG%2C_New_York_Branch .
+
+person_name:Alysha_Salinger a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/Citibank%2C_N.A.> .
+
+person_name:Chuck_B._Kyrish a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:CELANESE_US_HOLDINGS_LLC,
+        person_position:Treasurer,
+        person_position:Vice_President ;
+    rel:isEmployedBy org_name:CELANESE_US_HOLDINGS_LLC .
+
+person_name:Divyang_Shah a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Sr._Vice_President ;
+    rel:isEmployedBy org_name:PNC_Bank%2C_National_Association .
+
+person_name:Henry_Pennell a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/Citibank%2C_N.A.> .
+
+person_name:John_W._Deegan a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:Bank_of_America .
+
+person_name:Julien_Tizorin a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:UniCredit_Bank_AG%2C_New_York_Branch .
+
+person_name:Kara_P._Van_Duzee a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/Citibank%2C_N.A.> .
+
+person_name:Katherine_L._Hurley a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/Citibank%2C_N.A.> .
+
+person_name:Lauren_Steiner a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/Citibank%2C_N.A.> .
+
+person_name:Mark_Oberle a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:SVP%3B_EMEA_%26_Asia ;
+    rel:isEmployedBy <http://example.org/org_name/CELANESE_EUROPE_B.V.> .
+
+person_name:Michael_Vondriska a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/Citibank%2C_N.A.> .
+
+person_name:Ming_K._Chu a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:Bank_of_America .
+
+person_name:Mukesh_Singh a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:Bank_of_America .
+
+person_name:Robert_Sullivan a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/Citibank%2C_N.A.> .
+
+person_name:Ronnie_D._Berry a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President%2C_Global_Taxes ;
+    rel:isEmployedBy <http://example.org/org_name/Elwood_C.V.> .
+
+person_name:Scott_A._Richardson a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:CELANESE_CORPORATION .
+
+person_name:Sydney_G._Dennis a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:Bank_of_America .
+
+person_name:Thomas_J._Sterr a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnAuthorized_Signatory> ;
+    rel:isEmployedBy <http://example.org/org_name/MUFG_Bank%2C_Ltd.> .
+
+person_name:Virginia_Cosenza a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/Citibank%2C_N.A.> .
+
+org_name:CELANESE_US_HOLDINGS_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower,
+        org_role:Company ;
+    rel:hasEmployee person_name:Chuck_B._Kyrish .
+
+org_name:UniCredit_Bank_AG%2C_New_York_Branch a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee <http://example.org/person_name/%5CnBetsy_Briggs>,
+        person_name:Julien_Tizorin .
+
+org_name:Bank_of_America a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender ;
+    rel:hasEmployee person_name:John_W._Deegan,
+        person_name:Ming_K._Chu,
+        person_name:Mukesh_Singh,
+        person_name:Sydney_G._Dennis .
+
+<http://example.org/org_name/Citibank%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Alysha_Salinger,
+        person_name:Henry_Pennell,
+        person_name:Kara_P._Van_Duzee,
+        person_name:Katherine_L._Hurley,
+        person_name:Lauren_Steiner,
+        person_name:Michael_Vondriska,
+        person_name:Robert_Sullivan,
+        person_name:Virginia_Cosenza .
+

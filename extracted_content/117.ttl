@@ -1,0 +1,79 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender .
+
+<http://example.org/org_name/BOFA_SECURITIES%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bookrunner .
+
+org_name:COLUMBIA_SPORTSWEAR_COMPANY a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender .
+
+org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger .
+
+loc:14375_NW_Science_Park_Drive%5CnPortland%2C_OR_97229 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Columbia_Sportswear_Company .
+
+org_name:COLUMBIA_SPORTSWEAR_COMPANY%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Jim_A._Swanson .
+
+org_name:Columbia_Sportswear_Company a base:Organization ;
+    rel:hasLocationAt loc:14375_NW_Science_Park_Drive%5CnPortland%2C_OR_97229 .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
+        org_role:Agent,
+        org_role:Arranger,
+        org_role:Bookrunner,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Lynn_Braun .
+
+org_name:ROYAL_BANK_OF_CANADA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Kirsten_Jakobsen .
+
+person_name:Chris_Burns a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION .
+
+person_name:Dawn_Mace_Moore a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION .
+
+person_name:Jim_A._Swanson a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer,
+        person_position:Executive_Vice_President ;
+    rel:isEmployedBy org_name:COLUMBIA_SPORTSWEAR_COMPANY%2C .
+
+person_name:Kirsten_Jakobsen a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:ROYAL_BANK_OF_CANADA .
+
+person_name:Lynn_Braun a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
+    rel:isEmployedBy <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
+
+person_name:Michael_Snook a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION .
+
+org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Chris_Burns,
+        person_name:Dawn_Mace_Moore,
+        person_name:Michael_Snook .
+

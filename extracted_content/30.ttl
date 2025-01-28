@@ -1,0 +1,131 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix org_sub_role: <http://example.org/org_sub_role/> .
+@prefix rel: <http://example.org/relation/> .
+
+org_name:BANK_OF_AMERICA%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDERS .
+
+org_name:EDGETECH_HOLDING_CO a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+<http://example.org/org_name/MIKRON_INDUSTRIES%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:MIKRON_WASHINGTON_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:NICHOLS_ALUMINUM-ALABAMA_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:NICHOLS_ALUMINUM_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:QUANEX_BUILDING_PRODUCTS_CORPORATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER .
+
+org_name:QUANEX_HOMESHIELD_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+<http://example.org/org_name/QUANEX_IG_SYSTEMS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:QUANEX_SCREENS_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+<http://example.org/org_name/QUANEX_SERVICES%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+<http://example.org/org_name/TRUSEAL_TECHNOLOGIES%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:AGENT,
+        org_role:Agent,
+        org_role:LENDERS,
+        org_role:Lender .
+
+org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Arranger .
+
+loc:1000_Louisiana%2C_3rd_Floor%5Cn%5CnHouston%2C_Texas_77002 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Wells_Fargo_Bank%2C_National_Association .
+
+loc:1900_West_Loop_South%2C_Suite_1500%5Cn%5CnHouston%2C_Texas_77027 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Quanex_Building_Products_Corporation .
+
+loc:MAC_D1109-019%5Cn%5Cn1525_West_W._T._Harris_Blvd.%5Cn%5CnCharlotte%2C_NC_28262 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Wells_Fargo_Bank%2C_National_Association .
+
+org_name:Edgetech_Holding_Co a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:SUBSIDIARIES ;
+    rel:hasLocationAt loc:Ohio .
+
+org_name:Mikron_Industries%2C_Inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:SUBSIDIARIES ;
+    rel:hasLocationAt loc:Washington .
+
+org_name:Mikron_Washington_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:SUBSIDIARIES ;
+    rel:hasLocationAt loc:Washington .
+
+org_name:Nichols_Aluminum-Alabama_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:SUBSIDIARIES ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:Nichols_Aluminum_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:SUBSIDIARIES ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:Quanex_Building_Products_Corporation a base:Organization ;
+    rel:hasLocationAt loc:1900_West_Loop_South%2C_Suite_1500%5Cn%5CnHouston%2C_Texas_77027 .
+
+org_name:Quanex_Homeshield_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:SUBSIDIARIES ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:Quanex_IG_Systems%2C_Inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:SUBSIDIARIES ;
+    rel:hasLocationAt loc:Ohio .
+
+org_name:Quanex_Screens_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:SUBSIDIARIES ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:Quanex_Services%2C_Inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:SUBSIDIARIES ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:Truseal_Technologies%2C_Inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:SUBSIDIARIES ;
+    rel:hasLocationAt loc:Delaware .
+
+loc:Ohio a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Edgetech_Holding_Co,
+        org_name:Quanex_IG_Systems%2C_Inc .
+
+loc:Washington a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Mikron_Industries%2C_Inc,
+        org_name:Mikron_Washington_LLC .
+
+org_name:Wells_Fargo_Bank%2C_National_Association a base:Organization ;
+    rel:hasLocationAt loc:1000_Louisiana%2C_3rd_Floor%5Cn%5CnHouston%2C_Texas_77002,
+        loc:MAC_D1109-019%5Cn%5Cn1525_West_W._T._Harris_Blvd.%5Cn%5CnCharlotte%2C_NC_28262 .
+
+loc:Delaware a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Nichols_Aluminum-Alabama_LLC,
+        org_name:Nichols_Aluminum_LLC,
+        org_name:Quanex_Homeshield_LLC,
+        org_name:Quanex_Screens_LLC,
+        org_name:Quanex_Services%2C_Inc,
+        org_name:Truseal_Technologies%2C_Inc .
+

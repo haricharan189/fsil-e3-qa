@@ -1,0 +1,59 @@
+@prefix base: <http://example.org/base/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/COHERUS_BIOSCIENCES%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER .
+
+<http://example.org/org_name/HCRP_OVERFLOW_FUND%2C_L.P.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDERS .
+
+<http://example.org/org_name/HCR_MOLAG_FUND%2C_L.P.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDERS .
+
+<http://example.org/org_name/HEALTHCARE_ROYALTY_PARTNERS_III%2C_L.P.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDERS .
+
+<http://example.org/org_name/HealthCare_Royalty_Partners_III%2C_L.P.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:investor .
+
+<http://example.org/org_name/INTEKRIN_THERAPEUTICS_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:KMG_Capital_Partners a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:investor .
+
+<http://example.org/org_name/LLC_and_KKR_Biosimilar_L.P.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:investor .
+
+org_name:Latham%C2%A0%26_Watkins_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Counsel .
+
+org_name:MX_II_Associates_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:investor .
+
+org_name:HCR_COLLATERAL_MANAGEMENT%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:AGENT ;
+    rel:hasEmployee person_name:Clarke_B._Futch .
+
+person_name:Clarke_B._Futch a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Partner ;
+    rel:isEmployedBy org_name:HCR_COLLATERAL_MANAGEMENT%2C_LLC .
+
+person_name:Dennis_M._Lanfear a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Executive_Officer,
+        person_position:President ;
+    rel:isEmployedBy <http://example.org/org_name/COHERUS_INTERMEDIATE_CORP.> .
+
+person_name:Michael_Fleming a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:President ;
+    rel:isEmployedBy <http://example.org/org_name/COHERUS_INTERMEDIATE_CORP.> .
+
+<http://example.org/org_name/COHERUS_INTERMEDIATE_CORP.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS ;
+    rel:hasEmployee person_name:Dennis_M._Lanfear,
+        person_name:Michael_Fleming .
+

@@ -1,0 +1,37 @@
+@prefix base: <http://example.org/base/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/FOUNDATION_HEALTHCARE%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER,
+        org_role:Borrower ;
+    rel:hasEmployee person_name:Stanton_M._Nelson .
+
+org_name:LEGACYTEXAS_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnLENDER> ;
+    rel:hasEmployee person_name:Spencer_Sockwell .
+
+org_name:TEXAS_CAPITAL_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:AGENT,
+        org_role:Agent,
+        org_role:Arranger,
+        <http://example.org/org_role/L/C_Issuer>,
+        org_role:LENDER,
+        org_role:Runner ;
+    rel:hasEmployee person_name:Deborah_T._Purvin .
+
+person_name:Deborah_T._Purvin a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:TEXAS_CAPITAL_BANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:Spencer_Sockwell a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Corporate_Healthcare_Banking_%C2%96_Manager ;
+    rel:isEmployedBy org_name:LEGACYTEXAS_BANK .
+
+person_name:Stanton_M._Nelson a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:CEO ;
+    rel:isEmployedBy <http://example.org/org_name/FOUNDATION_HEALTHCARE%2C_INC.> .
+

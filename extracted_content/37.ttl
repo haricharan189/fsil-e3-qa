@@ -1,0 +1,792 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix org_sub_role: <http://example.org/org_sub_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/%5CnWASTE_CONNECTIONS_OF_ARKANSAS%2C_INC.> a base:Organization .
+
+<http://example.org/org_name/ACE_SOLID_WASTE%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/ADVANCED_SYSTEMS_PORTABLE_RESTROOMS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+org_name:ALASKA_WASTE-INTERIOR%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+org_name:ALASKA_WASTE-KENAI_PENINSULA%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+org_name:ALASKA_WASTE_MAT-SU%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/AMERICAN_DISPOSAL_COMPANY%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/ANDERSON_COUNTY_LANDFILL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+org_name:ANDERSON_REGIONAL_LANDFILL%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+org_name:ARKANSAS_RECLAMATION_COMPANY%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/AUSTIN_LANDFILL_HOLDINGS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+org_name:Amegy_Bank_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:BANK_OF_AMERICA%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:BISON_BUTTE_ENVIRONMENTAL%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/BITUMINOUS_RESOURCES%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/BRENT_RUN_LANDFILL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/BROADACRE_LANDFILL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/BUTLER_COUNTY_LANDFILL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+org_name:CALPET%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/CAMINO_REAL_ENVIRONMENTAL_CENTER%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/CAPITAL_REGION_LANDFILLS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+org_name:CARPENTER_WASTE_HOLDINGS%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/CHAMBERS_DEVELOPMENT_OF_NORTH_CAROLINA%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/CHIMNEY_BUTTE_ENVIRONMENTAL_L.L.C.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/CHIQUITA_CANYON%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+org_name:CHIQUITA_CANYON%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+org_name:CLAY_BUTTE_ENVIRONMENTAL%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+org_name:CLIFTON_ORGANICS%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/COLD_CANYON_LAND_FILL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/COLUMBIA_RESOURCE_CO.%2C_L.P.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/COLUMBIA_RIVER_DISPOSAL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/COMMUNITY_REFUSE_DISPOSAL_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/CONTRACTORS_WASTE_SERVICES%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+org_name:CORRAL_DE_PIEDRA_LAND_COMPANY a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+org_name:COUNTY_WASTE_%E2%80%94_ULSTER%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/COUNTY_WASTE_AND_RECYCLING_SERVICE%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/COUNTY_WASTE_TRANSFER_CORP.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+org_name:CRI_HOLDINGS%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/CURRY_TRANSFER_%26_RECYCLING%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+org_name:CWI_ACQUISITION%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+org_name:CoBank%2C_ACB a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:Compass_Bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/D._M._DISPOSAL_CO.%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+org_name:DELTA_CONTRACTS%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/DENVER_REGIONAL_LANDFILL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/DIVERSIFIED_BUILDINGS%2C_L.L.C.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+org_name:EAGLE_FORD_RECLAMATION_COMPANY%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+org_name:ELKO_SANITATION_COMPANY a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+org_name:EL_PASO_DISPOSAL%2C_LP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS,
+        org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/EMPIRE_DISPOSAL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:ENTECH_ALASKA_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:ENVIRONMENTAL_TRUST_COMPANY a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/EVERGREEN_DISPOSAL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:FINLEY-BUTTES_LIMITED_PARTNERSHIP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:FINNEY_COUNTY_LANDFILL%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/FINNEY_COUNTY_LANDFILL%2C_INC.> a base:Organization .
+
+org_name:FORT_ANN_TRANSFER_STATION%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/FRONT_RANGE_LANDFILL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:GBUSA_HOLDINGS%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:GOD_BLESS_THE_USA%2C_INCORPORATED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:GREEN_WASTE_SOLUTIONS_OF_ALASKA%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/G_%26_P_DEVELOPMENT%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/HARDIN_SANITATION%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:HAROLD_LEMAY_ENTERPRISES%2C_INCORPORATED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/HIGH_DESERT_SOLID_WASTE_FACILITY%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/HUDSON_VALLEY_WASTE_HOLDING%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/ISLAND_DISPOSAL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:JPMorgan_Chase_Bank%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/J_BAR_J_LAND%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:KeyBank_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/LACASSINE_HOLDINGS%2C_L.L.C.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:LAKESHORE_DISPOSAL%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/LAKESHORE_DISPOSAL%2C_INC.> a base:Organization .
+
+<http://example.org/org_name/LAUREL_RIDGE_LANDFILL%2C_L.L.C.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/LEALCO%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/LFC%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:LIGHTNING_BUTTE_ENVIRONMENTAL%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/LOUISIANA_RECLAMATION_COMPANY%2C_L.L.C.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/MADERA_DISPOSAL_SYSTEMS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:MAMMOTH_DISPOSAL_COMPANY a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/MANAGEMENT_ENVIRONMENTAL_NATIONAL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/MASON_COUNTY_GARBAGE_CO.%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:MBO%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/MDSI_OF_LA%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:MILLENNIUM_WASTE_INCORPORATED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:MISSION_COUNTRY_DISPOSAL a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:MORRO_BAY_GARBAGE_SERVICE a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/MURREY%E2%80%99S_DISPOSAL_COMPANY%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/NEBRASKA_ECOLOGY_SYSTEMS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:NOBLES_COUNTY_LANDFILL%2C_INC a base:Organization .
+
+<http://example.org/org_name/NOBLES_COUNTY_LANDFILL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/NORTHWEST_CONTAINER_SERVICES%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/OKLAHOMA_CITY_WASTE_DISPOSAL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/OKLAHOMA_LANDFILL_HOLDINGS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/OSAGE_LANDFILL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:PIERCE_COUNTY_RECYCLING%2C_COMPOSTING_AND_DISPOSAL%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:PNC_Bank%2C_National_Association%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/POTRERO_HILLS_LANDFILL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:PRAIRIE_DISPOSAL%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:PRAIRIE_LIQUIDS%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/PSI_ENVIRONMENTAL_SERVICES%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/PSI_ENVIRONMENTAL_SYSTEMS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/R.A._BROWNRIGG_INVESTMENTS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/R.J.C._TRUCKING_CO.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:R360_ARTESIA%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:R360_CLACO%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:R360_ENVIRONMENTAL_SOLUTIONS%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/R360_ENVIRONMENTAL_SOLUTIONS_HOLDINGS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:R360_ENVIRONMENTAL_SOLUTIONS_OF_LOUISIANA%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:R360_ENVIRONMENTAL_SOLUTIONS_OF_MISSISSIPPI%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:R360_ENVIRONMENTAL_SOLUTIONS_OF_TEXAS%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/R360_ES_HOLDINGS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:R360_HITCHCOCK%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:R360_LOGISTICS%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:R360_OKLAHOMA%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:R360_PERMIAN_BASIN%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:R360_RED_BLUFF%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:R360_SHUTE_CREEK%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:R360_SILO%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:R360_WILLISTON_BASIN%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:RAILROAD_AVENUE_DISPOSAL%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/RED_CARPET_LANDFILL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/RENSSELAER_REGION_LANDFILLS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:RH_FINANCIAL_CORPORATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:RICH_VALLEY%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/RKS_HOLDING%2C_CORP.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:S.A._DUNN_%26_COMPANY%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/SANIPAC%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:SAN_LUIS_GARBAGE_COMPANY a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:SCOTT_SOLID_WASTE_DISPOSAL_COMPANY a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:SCOTT_SOLID_WASTE_DISPOSAL_COMPANY%5Cn%5Cn a base:Organization .
+
+org_name:SCOTT_WASTE_SERVICES%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:SEABREEZE_RECOVERY%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/SEABREEZE_RECOVERY%2C_INC.> a base:Organization .
+
+org_name:SECTION_18%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:SEDALIA_LAND_COMPANY a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:SHALE_GAS_SERVICES%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:SIERRA_HOLDING_GROUP%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:SIERRA_PROCESSING%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/SILVER_SPRINGS_ORGANICS_L.L.C.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/SJ_RECLAMATION%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:SKB_%28AUSTIN%29_ENVIRONMENTAL%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/SKB_ENVIRONMENTAL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:SKB_RECYCLING%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:SMOKY_BUTTE_ENVIRONMENTAL%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/SOUTH_COUNTY_SANITARY_SERVICE%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:STERLING_AVENUE_PROPERTIES%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/STUTZMAN_REFUSE_DISPOSAL_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/TACOMA_RECYCLING_COMPANY%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/TENNESSEE_WASTE_MOVERS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:THUNDER_BUTTE_ENVIRONMENTAL%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:U.S._Bank%2C_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/US_LIQUIDS_OF_LA%2C_L.P.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/VOORHEES_SANITATION%2C_L.L.C.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASCO_COUNTY_LANDFILL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_MANAGEMENT_SERVICES%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_ALABAMA%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_ALASKA%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_ARIZONA%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_ARKANSAS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_CALIFORNIA%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_COLORADO%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_GEORGIA%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_IDAHO%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:WASTE_CONNECTIONS_OF_ILLINOIS%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_ILLINOIS%2C_INC.> a base:Organization .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_IOWA%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_KANSAS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_KENTUCKY%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:WASTE_CONNECTIONS_OF_LEFLORE%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_LOUISIANA%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_MINNESOTA%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:WASTE_CONNECTIONS_OF_MISSISSIPPI%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_MISSISSIPPI%2C_INC.> a base:Organization .
+
+org_name:WASTE_CONNECTIONS_OF_MISSISSIPPI_DISPOSAL_SERVICES%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_MONTANA%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:WASTE_CONNECTIONS_OF_NEBRASKA%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_NEBRASKA%2C_INC.> a base:Organization .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_NEW_MEXICO%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:WASTE_CONNECTIONS_OF_NORTH_CAROLINA%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_NORTH_CAROLINA%2C_INC.> a base:Organization .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_NORTH_DAKOTA%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:WASTE_CONNECTIONS_OF_OKLAHOMA%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_OKLAHOMA%2C_INC.> a base:Organization .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_OREGON%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_SOUTH_CAROLINA%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_SOUTH_DAKOTA%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:WASTE_CONNECTIONS_OF_TENNESSEE%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_TENNESSEE%2C_INC.> a base:Organization .
+
+org_name:WASTE_CONNECTIONS_OF_TEXAS%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_THE_CENTRAL_VALLEY%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:WASTE_CONNECTIONS_OF_UTAH%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_UTAH%2C_INC.> a base:Organization .
+
+org_name:WASTE_CONNECTIONS_OF_WASHINGTON%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_WASHINGTON%2C_INC.> a base:Organization .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_OF_WYOMING%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_CONNECTIONS_TRANSPORTATION_COMPANY%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_REDUCTION_SERVICES%2C_L.L.C.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WASTE_SERVICES_OF_N.E._MISSISSIPPI%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:WASTE_SOLUTIONS_GROUP_OF_SAN_BENITO%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WCI-WHITE_OAKS_LANDFILL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:WCI_AUSTIN_LANDFILL%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:WEST_BANK_ENVIRONMENTAL_SERVICES%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WEST_BANK_ENVIRONMENTAL_SERVICES%2C_INC.> a base:Organization .
+
+<http://example.org/org_name/WEST_COAST_RECYCLING_AND_TRANSFER%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/WYOMING_ENVIRONMENTAL_SERVICES%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:Wells_Fargo_Bank%2C_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/YAKIMA_WASTE_SYSTEMS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+person_name:Worthing_Jackman a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory .
+
+loc:100_Federal_Street%5Cn%5CnMail_Code%3A%C2%A0_MA5-100-09-07%5Cn%5CnBoston%2C_MA_02110 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Bank_of_America%2C_N.A .
+
+loc:101_N._Tryon_Street%5Cn%5CnMail_Code%3A%C2%A0_NC1-001-05-46%5Cn%5CnCharlotte%2C_NC_28255-0001 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Bank_of_America%2C_N.A.> .
+
+loc:1_Fleet_Way%5Cn%5CnMail_Code%3A%C2%A0_PA6-580-02-30%5Cn%5CnScranton%2C_PA_18507 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Bank_of_America%2C_N.A.> .
+
+loc:3_Waterway_Square_Place%2C_Suite_110%5Cn%5CnThe_Woodlands%2C_TX_77380 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Waste_Connections%2C_Inc.> .
+
+loc:400_Atlantic_Avenue%5Cn%5CnBoston%2C_MA_02110 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Goulston_%26_Storrs .
+
+loc:555_California_Street%2C_4th_Floor%5Cn%5CnMail_Code%3A%C2%A0_CA5-705-04-09%C2%A0%5Cn%5CnSan_Francisco%2C_CA_94104 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Bank_of_America%2C_N.A .
+
+loc:811_Main_Street%2C_Suite_3700%5Cn%5CnHouston%2C_TX_77002 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Latham_%26_Watkins_LLP .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/L/C_Issuer>,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Maria_F._Maia .
+
+org_name:Goulston_%26_Storrs a base:Organization ;
+    rel:hasLocationAt loc:400_Atlantic_Avenue%5Cn%5CnBoston%2C_MA_02110 .
+
+org_name:Latham_%26_Watkins_LLP a base:Organization ;
+    rel:hasLocationAt loc:811_Main_Street%2C_Suite_3700%5Cn%5CnHouston%2C_TX_77002 .
+
+org_name:MUFG_Union_Bank%2C_N.A.%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Sandra_Cortes .
+
+person_name:Bryan_Ervin a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:Citizens_Bank%2C_N.A .
+
+person_name:Felix_Miranda a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:Branch_Banking_and_Trust_Company .
+
+person_name:John_Kushnerick a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:Citizens_Bank%2C_N.A .
+
+person_name:Judith_A._Huckins a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:Citizens_Bank%2C_N.A .
+
+person_name:Kelly_Nash a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:Citizens_Bank%2C_N.A .
+
+person_name:Maria_F._Maia a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
+person_name:Mark_Grover a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:Branch_Banking_and_Trust_Company .
+
+person_name:Philip_K._Liebscher a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:Branch_Banking_and_Trust_Company .
+
+person_name:Raj_Nambiar a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:Citizens_Bank%2C_N.A .
+
+person_name:Sandra_Cortes a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:MUFG_Union_Bank%2C_N.A.%2C .
+
+person_name:Steven_Dixon a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:Citizens_Bank%2C_N.A .
+
+person_name:Tad_Stainbrook a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:Citizens_Bank%2C_N.A .
+
+person_name:Worthing_F._Jackman a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer,
+        person_position:Executive_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/Waste_Connections%2C_Inc.> .
+
+org_name:Bank_of_America%2C_N.A a base:Organization ;
+    rel:hasLocationAt loc:100_Federal_Street%5Cn%5CnMail_Code%3A%C2%A0_MA5-100-09-07%5Cn%5CnBoston%2C_MA_02110,
+        loc:555_California_Street%2C_4th_Floor%5Cn%5CnMail_Code%3A%C2%A0_CA5-705-04-09%C2%A0%5Cn%5CnSan_Francisco%2C_CA_94104 .
+
+<http://example.org/org_name/Bank_of_America%2C_N.A.> a base:Organization ;
+    rel:hasLocationAt loc:101_N._Tryon_Street%5Cn%5CnMail_Code%3A%C2%A0_NC1-001-05-46%5Cn%5CnCharlotte%2C_NC_28255-0001,
+        loc:1_Fleet_Way%5Cn%5CnMail_Code%3A%C2%A0_PA6-580-02-30%5Cn%5CnScranton%2C_PA_18507 .
+
+<http://example.org/org_name/Waste_Connections%2C_Inc.> a base:Organization ;
+    rel:hasEmployee person_name:Worthing_F._Jackman ;
+    rel:hasLocationAt loc:3_Waterway_Square_Place%2C_Suite_110%5Cn%5CnThe_Woodlands%2C_TX_77380 .
+
+org_name:Branch_Banking_and_Trust_Company a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Felix_Miranda,
+        person_name:Mark_Grover,
+        person_name:Philip_K._Liebscher .
+
+org_name:Citizens_Bank%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Bryan_Ervin,
+        person_name:John_Kushnerick,
+        person_name:Judith_A._Huckins,
+        person_name:Kelly_Nash,
+        person_name:Raj_Nambiar,
+        person_name:Steven_Dixon,
+        person_name:Tad_Stainbrook .
+

@@ -1,0 +1,82 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/%5CnEXGEN_RENEWABLES_IV%2C_LLC> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+org_name:Constellation_DCO_Albany_Power_Holdings%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Grantor .
+
+org_name:EXGEN_RENEWABLES_IV_HOLDING%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Holding .
+
+org_name:Exelon_AVSR_Holding%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Grantor .
+
+<http://example.org/org_name/MORGAN_STANLEY_SENIOR_FUNDING%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger,
+        org_role:Bookrunner,
+        org_role:Documentation_Agent,
+        org_role:Syndication_Agent%2C .
+
+org_name:SolGen_Holding%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Grantor .
+
+org_name:WILMINGTON_TRUST%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Collateral_Agent,
+        org_role:Depositary_Bank .
+
+loc:1100_North_Market_Street%5CnWilmington_Delaware_19890 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Wilmington_Trust%2C_National_Association .
+
+loc:1300_Thames_Street%2C_4th_Floor%5CnThames_Street_Wharf%5CnBaltimore%2C_MD_21231 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Morgan_Stanley_Senior_Funding%2C_Inc.> .
+
+loc:1310_Point_Street%2C_12th_Floor%5CnBaltimore%2C_MD_21231 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:ExGen_Renewables_IV%2C_LLC .
+
+loc:425_Lexington_Avenue%2C_New_York%2C_New_York_10017 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Simpson_Thacher_%26_Bartlett_LLP .
+
+loc:701_Ninth_Street_NW%2C_9th_Floor%5CnWashington%2C_DC_20068 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Exelon_Generation_Company%2C_LLC .
+
+org_name:ExGen_Renewables_Holdings%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:10_South_Dearborn_Street%2C_49th%C2%A0Floor%5CnChicago%2C_IL_60603 .
+
+org_name:ExGen_Renewables_IV%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Grantor,
+        org_role:Pledgor ;
+    rel:hasLocationAt loc:1310_Point_Street%2C_12th_Floor%5CnBaltimore%2C_MD_21231 .
+
+org_name:ExGen_Renewables_IV_Holding%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:10_South_Dearborn_Street%2C_49th%C2%A0Floor%5CnChicago%2C_IL_60603 .
+
+org_name:Exelon_Generation_Company%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:701_Ninth_Street_NW%2C_9th_Floor%5CnWashington%2C_DC_20068 .
+
+<http://example.org/org_name/Morgan_Stanley_Senior_Funding%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:1300_Thames_Street%2C_4th_Floor%5CnThames_Street_Wharf%5CnBaltimore%2C_MD_21231 .
+
+org_name:Simpson_Thacher_%26_Bartlett_LLP a base:Organization ;
+    rel:hasLocationAt loc:425_Lexington_Avenue%2C_New_York%2C_New_York_10017 .
+
+org_name:Wilmington_Trust%2C_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Collateral%5CnWilmington_Trust%2C_National_Association%5CnAgent ;
+    rel:hasLocationAt loc:1100_North_Market_Street%5CnWilmington_Delaware_19890 .
+
+loc:10_South_Dearborn_Street%2C_49th%C2%A0Floor%5CnChicago%2C_IL_60603 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location,
+        location_type:Chief_Executive_Office ;
+    rel:isLocationOf org_name:ExGen_Renewables_Holdings%2C_LLC,
+        org_name:ExGen_Renewables_IV_Holding%2C_LLC .
+

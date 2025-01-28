@@ -1,0 +1,122 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/%5CnCLAIRE%C2%92S_GERMANY_GMBH> a base:Organization .
+
+org_name:BOTTICELLI_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender .
+
+org_name:CLAIRE%C2%92S_%28GIBRALTAR%29_INTERMEDIATE_HOLDINGS_LIMITED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+<http://example.org/org_name/CLAIRE%C2%92S_ACCESSORIES_SPAIN%2C_S.L.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+org_name:CLAIRE%C2%92S_ACCESSORIES_UK_LTD a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+<http://example.org/org_name/CLAIRE%C2%92S_ACCESSORIES_UK_LTD.> a base:Organization .
+
+org_name:CLAIRE%C2%92S_EUROPEAN_DISTRIBUTION_LIMITED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+org_name:CLAIRE%C2%92S_EUROPEAN_SERVICES_LIMITED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+<http://example.org/org_name/CLAIRE%C2%92S_FRANCE_S.A.S.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+org_name:CLAIRE%C2%92S_GERMANY_GMBH a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+org_name:CLAIRE%C2%92S_HOLDINGS_S.%C3%80_R.L a base:Organization .
+
+<http://example.org/org_name/CLAIRE%C2%92S_HOLDINGS_S.A._R.L.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+org_name:CLAIRE%C2%92S_HOLDING_GMBH a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+org_name:CLAIRE%C2%92S_HOLDING_GMBH%5Cn a base:Organization .
+
+<http://example.org/org_name/CLAIRE%C2%92S_LUXEMBOURG_S.A._R.L.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+org_name:CLAIRE%C2%92S_SWITZERLAND_GMBH a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+<http://example.org/org_name/CSI_LUXEMBOURG_S.A._R.L.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+<http://example.org/org_name/CSI_LUXEMBOURG_S.A_R.L.> a base:Organization .
+
+loc:225_W._Washington_Street%2C_21st_Floor%5Cn%5CnChicago%2C_IL_60606 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Cortland_Capital_Market_Services_LLC .
+
+loc:245_Park_Avenue%2C_26th_Floor%5Cn%5CnNew_York%2C_New_York_10167 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Botticelli_LLC%5Cn%5Cnc/o_Angelo%2C_Gordon%C2%A0%26_Co.%2C_LP> .
+
+loc:3_SW_129th_Avenue%5Cn%5CnSuite_400%5Cn%5CnPembroke_Pines%2C_FL_33027 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Claire%C2%92s_%28Gibraltar%29_Holdings_Limited .
+
+<http://example.org/org_name/Angelo%2C_Gordon%C2%A0%26_Co.%2C_L.P.> a base:Organization ;
+    rel:hasEmployee person_name:Gavin_Baiera .
+
+<http://example.org/org_name/Botticelli_LLC%5Cn%5Cnc/o_Angelo%2C_Gordon%C2%A0%26_Co.%2C_LP> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent ;
+    rel:hasLocationAt loc:245_Park_Avenue%2C_26th_Floor%5Cn%5CnNew_York%2C_New_York_10167 .
+
+<http://example.org/org_name/CLAIRE%C2%92S_LUXEMBOURG_S.A_R.L.> a base:Organization ;
+    rel:hasEmployee person_name:Paul_A._Barker .
+
+org_name:CORTLAND_CAPITAL_MARKET_SERVICES_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent ;
+    rel:hasEmployee person_name:Matthew_Trybula .
+
+org_name:Claire%C2%92s_%28Gibraltar%29_Holdings_Limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers ;
+    rel:hasLocationAt loc:3_SW_129th_Avenue%5Cn%5CnSuite_400%5Cn%5CnPembroke_Pines%2C_FL_33027 .
+
+org_name:Cortland_Capital_Market_Services_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Collateral_Agent ;
+    rel:hasLocationAt loc:225_W._Washington_Street%2C_21st_Floor%5Cn%5CnChicago%2C_IL_60606 .
+
+person_name:Gavin_Baiera a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy <http://example.org/org_name/Angelo%2C_Gordon%C2%A0%26_Co.%2C_L.P.> .
+
+person_name:Matthew_Trybula a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Associate_Counsel ;
+    rel:isEmployedBy org_name:CORTLAND_CAPITAL_MARKET_SERVICES_LLC .
+
+person_name:Paul_A._Barker a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Manager ;
+    rel:isEmployedBy <http://example.org/org_name/CLAIRE%C2%92S_LUXEMBOURG_S.A_R.L.> .
+
+person_name:Scott_Huckins a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/CLAIRE%C2%92S_FASHION_PROPERTY_CORP.> .
+
+person_name:Stephen_Sernett a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/CLAIRE%C2%92S_FASHION_PROPERTY_CORP.> .
+
+person_name:Stuart_Brown a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/CLAIRE%C2%92S_FASHION_PROPERTY_CORP.> .
+
+<http://example.org/org_name/CLAIRE%C2%92S_FASHION_PROPERTY_CORP.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasEmployee person_name:Scott_Huckins,
+        person_name:Stephen_Sernett,
+        person_name:Stuart_Brown .
+

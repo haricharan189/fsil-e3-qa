@@ -27,13 +27,14 @@ org_name:U.S._BANCORP_INVESTMENTS%2C_INC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers .
 
 org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:Lender,
-        org_role:Lender%2C .
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnSwingline_Lender>,
+        org_role:Administrative_Agent,
+        org_role:Issuing_Lender,
+        org_role:Lender .
 
 org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Book_Manager .
+        org_role:Sole_Book_Manager .
 
 <http://example.org/org_name/%5CnCREE%2C_INC> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:BORROWER ;

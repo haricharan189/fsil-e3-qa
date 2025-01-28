@@ -1,0 +1,108 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+org_name:DUNKIRK%C2%A0SPECIALTY%C2%A0STEEL%2C%C2%A0LLC a base:Organization .
+
+org_name:DUNKIRK_SPECIALTY_STEEL%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+org_name:NORTH_JACKSON_SPECIALTY_STEEL%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+org_name:PNC_CAPITAL_MARKETS_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:ARRANGER,
+        org_role:BOOKRUNNER .
+
+<http://example.org/org_name/UNIVERSAL%C2%A0STAINLESS%C2%A0%26%C2%A0ALLOY%5Cn%5CnPRODUCTS%2C%C2%A0INC.> a base:Organization .
+
+<http://example.org/org_name/UNIVERSAL_STAINLESS%C2%A0%26_ALLOY_PRODUCTS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+loc:121_Caldwell_Street%5Cn%5CnTitusville%2C_PA_16354 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Universal_Stainless%C2%A0%26_Alloy_Products%2C_Inc.> .
+
+loc:2058_South_Bailey_Road%5Cn%5CnNorth_Jackson%2C_OH_44541 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location,
+        location_type:Chief_Executive_Office ;
+    rel:isLocationOf org_name:North_Jackson_Specialty_Steel%2C_LLC .
+
+loc:300_Fifth_Avenue%2C_14th_Floor%5Cn%5CnPittsburgh%2C_Pennsylvania_15222 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:PNC_Bank%2C_National_Association .
+
+loc:600_Mayer_Street%5Cn%5CnBridgeville%2C_PA_15017 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location,
+        location_type:Chief_Executive_Office ;
+    rel:isLocationOf <http://example.org/org_name/Universal_Stainless%C2%A0%26_Alloy_Products%2C_Inc.> .
+
+loc:6750_Miller_Rd_%28Mail_Stop%3A_BR-YB58-01-P%29%5Cn%5CnBrecksville%2C_Ohio_44141 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:PNC_Bank%2C_National_Association .
+
+loc:830_Brigham_Road%5Cn%5CnDunkirk%2C_NY_14048 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location,
+        location_type:Chief_Executive_Office ;
+    rel:isLocationOf org_name:Dunkirk_Specialty_Steel%2C_LLC .
+
+loc:One_Bryant_Park%2C_32nd_Floor%5Cn%5CnNew_York%2C_NY_10036 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Bank_of_America%2C_N.A.> .
+
+loc:Two_Tower_Center_Blvd._-_21st_Floor%09%C2%A0%C2%A0%09%5CnEast_Brunswick%2C_NJ_08816 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/PNC_BANK%2C_N.A.> .
+
+<http://example.org/org_name/%5CnNORTH%C2%A0JACKSON%C2%A0SPECIALTY%C2%A0STEEL%2C%5Cn%5CnLLC> a base:Organization ;
+    rel:hasEmployee person_name:Ross%C2%A0C.%C2%A0Wilkin .
+
+org_name:BANK_OF_AMERICA%2C_N.A.%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender ;
+    rel:hasEmployee person_name:James_Foley .
+
+<http://example.org/org_name/Bank_of_America%2C_N.A.> a base:Organization ;
+    rel:hasLocationAt loc:One_Bryant_Park%2C_32nd_Floor%5Cn%5CnNew_York%2C_NY_10036 .
+
+org_name:Dunkirk_Specialty_Steel%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:830_Brigham_Road%5Cn%5CnDunkirk%2C_NY_14048 .
+
+org_name:North_Jackson_Specialty_Steel%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:2058_South_Bailey_Road%5Cn%5CnNorth_Jackson%2C_OH_44541 .
+
+<http://example.org/org_name/PNC_BANK%2C_N.A.> a base:Organization ;
+    rel:hasLocationAt loc:Two_Tower_Center_Blvd._-_21st_Floor%09%C2%A0%C2%A0%09%5CnEast_Brunswick%2C_NJ_08816 .
+
+org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender ;
+    rel:hasEmployee person_name:David_B._Thayer .
+
+person_name:David_B._Thayer a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:James_Foley a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:BANK_OF_AMERICA%2C_N.A.%2C .
+
+person_name:Ross%C2%A0C.%C2%A0Wilkin a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief%09%C2%A0%09%5Cn%C2%A0%09%09%C2%A0%09%09%C2%A0%09Finance%C2%A0Officer,
+        person_position:Treasurer,
+        person_position:Vice%C2%A0President%C2%A0of%C2%A0Finance ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnNORTH%C2%A0JACKSON%C2%A0SPECIALTY%C2%A0STEEL%2C%5Cn%5CnLLC> .
+
+org_name:PNC_Bank%2C_National_Association a base:Organization ;
+    rel:hasLocationAt loc:300_Fifth_Avenue%2C_14th_Floor%5Cn%5CnPittsburgh%2C_Pennsylvania_15222,
+        loc:6750_Miller_Rd_%28Mail_Stop%3A_BR-YB58-01-P%29%5Cn%5CnBrecksville%2C_Ohio_44141 .
+
+<http://example.org/org_name/Universal_Stainless%C2%A0%26_Alloy_Products%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:121_Caldwell_Street%5Cn%5CnTitusville%2C_PA_16354,
+        loc:600_Mayer_Street%5Cn%5CnBridgeville%2C_PA_15017 .
+

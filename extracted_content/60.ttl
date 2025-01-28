@@ -1,0 +1,205 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+loc:11951_Freedom_Drive%2C_Reston%2C_VA_20190 a base:Location .
+
+loc:One_Penns_Way%2C_OPS_II%2C_Floor_2%2C_New_Castle%2C_DE_19720 a base:Location .
+
+<http://example.org/org_name/Bank_of_America%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agents .
+
+org_name:Bank_of_Montreal a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agents,
+        org_role:arrangers,
+        org_role:bookrunners .
+
+<http://example.org/org_name/BofA_Securities%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:bookrunners .
+
+<http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+<http://example.org/org_name/Citibank%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:bookrunners .
+
+org_name:Fifth_Third_Bank%2C_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agents .
+
+org_name:Fitch_Ratings a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agency .
+
+org_name:Goldman_Sachs_Bank_USA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agents .
+
+<http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:bookrunners .
+
+<http://example.org/org_name/LEIDOS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+<http://example.org/org_name/MUFG_Bank%2C_Ltd.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:bookrunners .
+
+<http://example.org/org_name/Moody%E2%80%99s_Investors_Service%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agency .
+
+org_name:PNC_Bank%2C_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agents .
+
+org_name:PNC_Capital_Markets_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:bookrunners .
+
+org_name:SUMITOMO_MITSUI_BANKING_CORPORATION a base:Organization .
+
+<http://example.org/org_name/TD_Bank%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agents .
+
+org_name:U.S._Bank_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agents,
+        org_role:arrangers,
+        org_role:bookrunners .
+
+org_name:Wells_Fargo_Bank%2C_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agents .
+
+org_name:Wells_Fargo_Securities_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:bookrunners .
+
+org_name:JPMorgan_Chase_Bank%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agents ;
+    rel:hasEmployee person_name:Anthony_Galea .
+
+<http://example.org/org_name/LEIDOS_HOLDINGS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Holdings ;
+    rel:hasEmployee person_name:Marc_H._Crown .
+
+org_name:Regions_Bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agents ;
+    rel:hasEmployee person_name:Stephanie_Herndon .
+
+person_name:Anthony_Galea a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director%5Cn ;
+    rel:isEmployedBy org_name:JPMorgan_Chase_Bank%2C_N.A .
+
+person_name:Bernadette_Collins a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President%5Cn ;
+    rel:isEmployedBy org_name:Capital_One%2C_National_Association .
+
+person_name:Caroline_Smith a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Assistant_Vice_President ;
+    rel:isEmployedBy org_name:Bank_of_the_West .
+
+person_name:Eric_H._Williams a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President%5Cn ;
+    rel:isEmployedBy org_name:Capital_One%2C_National_Association .
+
+person_name:Greg_Strauss a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:The_Bank_of_Nova_Scotia .
+
+person_name:Harry_Yergey a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:Bank_of_the_West .
+
+person_name:Jason_Rinne a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:The_Bank_of_Nova_Scotia .
+
+person_name:Joshua_Dearmon a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President%5Cn ;
+    rel:isEmployedBy org_name:Capital_One%2C_National_Association .
+
+person_name:Laura_Dodd a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:City_National_Bank%2C_a_national_banking_association .
+
+person_name:Lukas_Coleman a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:City_National_Bank%2C_a_national_banking_association .
+
+person_name:Marc_H._Crown a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President,
+        person_position:Treasurer ;
+    rel:isEmployedBy <http://example.org/org_name/LEIDOS_HOLDINGS%2C_INC.> .
+
+person_name:Michael_Maguire a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:Bank_of_the_West .
+
+person_name:Michael_S._Barnett a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President%5Cn ;
+    rel:isEmployedBy org_name:Capital_One%2C_National_Association .
+
+person_name:Oscar_Cortez a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:The_Bank_of_Nova_Scotia .
+
+person_name:Patrick_Hartweger a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:Bank_of_the_West .
+
+person_name:Ryan_Durkin a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory%5Cn ;
+    rel:isEmployedBy <http://example.org/org_name/Mizuho_Bank%2C_Ltd.> .
+
+person_name:Stephanie_Herndon a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Assistant_Vice_President%5Cn ;
+    rel:isEmployedBy org_name:Regions_Bank .
+
+person_name:Susan_M._Olsen a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:City_National_Bank%2C_a_national_banking_association .
+
+person_name:Thor_O%E2%80%99Connell a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:City_National_Bank%2C_a_national_banking_association .
+
+person_name:Tracy_Rahn a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory%5Cn ;
+    rel:isEmployedBy <http://example.org/org_name/Mizuho_Bank%2C_Ltd.> .
+
+<http://example.org/org_name/Mizuho_Bank%2C_Ltd.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agents,
+        org_role:arrangers ;
+    rel:hasEmployee person_name:Ryan_Durkin,
+        person_name:Tracy_Rahn .
+
+org_name:The_Bank_of_Nova_Scotia a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agents,
+        org_role:arrangers,
+        org_role:bookrunners ;
+    rel:hasEmployee person_name:Greg_Strauss,
+        person_name:Jason_Rinne,
+        person_name:Oscar_Cortez .
+
+org_name:Bank_of_the_West a base:Organization ;
+    rel:hasEmployee person_name:Caroline_Smith,
+        person_name:Harry_Yergey,
+        person_name:Michael_Maguire,
+        person_name:Patrick_Hartweger .
+
+org_name:Capital_One%2C_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agents,
+        org_role:arrangers,
+        org_role:bookrunners ;
+    rel:hasEmployee person_name:Bernadette_Collins,
+        person_name:Eric_H._Williams,
+        person_name:Joshua_Dearmon,
+        person_name:Michael_S._Barnett .
+
+org_name:City_National_Bank%2C_a_national_banking_association a base:Organization ;
+    rel:hasEmployee person_name:Laura_Dodd,
+        person_name:Lukas_Coleman,
+        person_name:Susan_M._Olsen,
+        person_name:Thor_O%E2%80%99Connell .
+

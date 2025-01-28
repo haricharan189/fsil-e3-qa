@@ -1,0 +1,90 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+loc:Delaware a base:Location .
+
+loc:Maryland a base:Location .
+
+org_name:ACADIA_1520_MILWAUKEE_AVENUE_LLC a base:Organization .
+
+org_name:ACADIA_28_JERICHO_TURNPIKE_LLC a base:Organization .
+
+org_name:ACADIA_2914_THIRD_AVENUE_LLC a base:Organization .
+
+org_name:ACADIA_5-7_EAST_17TH_STREET_LLC a base:Organization .
+
+org_name:ACADIA_83_SPRING_STREET_LLC a base:Organization .
+
+org_name:ACADIA_BARTOW_AVENUE_LLC a base:Organization .
+
+org_name:ACADIA_CHESTNUT_LLC a base:Organization .
+
+org_name:ACADIA_GOLD_COAST_LLC a base:Organization .
+
+org_name:ACADIA_MAD_RIVER_PROPERTY_LLC a base:Organization .
+
+org_name:ACADIA_MERCER_STREET_LLC a base:Organization .
+
+org_name:ACADIA_REALTY_LIMITED_PARTNERSHIP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors .
+
+org_name:ACADIA_REALTY_TRUST a base:Organization .
+
+org_name:ACADIA_RUSH_WALTON_LLC a base:Organization .
+
+org_name:ACADIA_TOWN_LINE_LLC%2C a base:Organization .
+
+org_name:ACADIA_WEST_54TH_STREET_LLC%2C a base:Organization .
+
+org_name:ACADIA_WEST_SHORE_EXPRESSWAY_LLC a base:Organization .
+
+org_name:BANK_OF_AMERICA%2C_N.A a base:Organization .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
+        <http://example.org/org_role/L/C_Issuer>,
+        org_role:Lender,
+        org_role:Swing_Line_Lender .
+
+<http://example.org/org_name/MARK_PLAZA_FIFTY_L.P.> a base:Organization .
+
+org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER_%26_SMITH_INCORPORATED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bookrunner,
+        org_role:Lead_Arranger .
+
+org_name:WELLS_FARGO_SECURITIES a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lead_Arrangers .
+
+org_name:WELLS_FARGO_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Documentation_Agents ;
+    rel:hasEmployee person_name:Andrew_W._Hussion .
+
+person_name:Andrew_W._Hussion a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:WELLS_FARGO_BANK .
+
+person_name:Denise_Smyth a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:PNC_BANK .
+
+person_name:Robert_Masters a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:PNC_BANK .
+
+person_name:Roy_E._Alexander a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President,
+        person_position:Vice_President ;
+    rel:isEmployedBy org_name:PNC_BANK .
+
+org_name:PNC_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Documentation_Agents,
+        org_role:Lead_Arrangers ;
+    rel:hasEmployee person_name:Denise_Smyth,
+        person_name:Robert_Masters,
+        person_name:Roy_E._Alexander .
+

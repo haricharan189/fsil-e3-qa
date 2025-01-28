@@ -1,0 +1,163 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix org_sub_role: <http://example.org/org_sub_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+org_name:Airport_Solar_I%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:Bloomfield_Solar%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:Charter_Hill_Solar%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:City_Solar_Garden_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:ESA_Fleet_Community_Solar%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:Earth_Right_Energy_II%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:East_to_West_Solar_II_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:GLC_Chester_Community_Solar%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:GREENBACKER_RENEWABLE_ENERGY_CORPORATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Intermediate_Holdco .
+
+org_name:Green_Maple_II_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:Green_Maple_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:Hartford_Solarfield%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:Lincoln_Farm_I%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:Lincoln_Farm_II%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:Lincoln_Farm_III%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:Lincoln_Farm_IV%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:MLH_Phase_2_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:MLH_Phase_3%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:MP2-Oregon_Solar_One%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+<http://example.org/org_name/MP2/IRG-Petaluma_City_Schools%2C_LLC> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:MP2_Capital_%E2%80%93_WGBH_Educational_Foundation%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:MP2_Green_Valley_ES%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:MP2_Hawaii_Solar_I%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:Magnolia_Sun_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:North_Carolina_Solar_I%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:North_Carolina_Solar_II%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:Novus_Royalton_Solar%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:PCIP_Solar_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:PCIP_Solar_Lessee_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:Pittsford_GLC_Solar%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:Powerhouse_One%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:Proctor_GLC_Solar%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:Solaverde%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:South_Robeson_Farm%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:South_Robeson_Solar_Farm%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:Sunsense_Clayton_Lessee%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:Sunsense_Fletcher_Lessee%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:Sunsense_Inman_Lessee%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:Turtle_Top_Solar%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:WE_46_Precision_Drive_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+org_name:Williamstown_Old_Town_Road_Solar%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
+
+loc:11_East_44th_Street%2C_Suite_1200%5Cn%5CnNew_York%2C_NY_10017 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:GREC_ENTITY_HOLDCO_LLC .
+
+loc:201_N._Tryon_Street%2C_Suite_1700%5Cn%5CnCharlotte%2C_North_Carolina_28202 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:FIFTH_THIRD_BANK .
+
+org_name:GREC_ENTITY_HOLDCO_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasLocationAt loc:11_East_44th_Street%2C_Suite_1200%5Cn%5CnNew_York%2C_NY_10017 .
+
+org_name:GREENBACKER_RENEWABLE_ENERGY_COMPANY_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Parent ;
+    rel:hasEmployee person_name:Richard_Butt .
+
+person_name:ERIC_COHEN a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:VICE_PRESIDENT ;
+    rel:isEmployedBy org_name:FIFTH_THIRD_BANK .
+
+person_name:Richard_Butt a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
+    rel:isEmployedBy org_name:GREENBACKER_RENEWABLE_ENERGY_COMPANY_LLC .
+
+org_name:FIFTH_THIRD_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
+        org_role:Arranger,
+        org_role:Bookrunner ;
+    rel:hasEmployee person_name:ERIC_COHEN ;
+    rel:hasLocationAt loc:201_N._Tryon_Street%2C_Suite_1700%5Cn%5CnCharlotte%2C_North_Carolina_28202 .
+

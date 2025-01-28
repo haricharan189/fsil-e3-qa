@@ -1,0 +1,50 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+loc:2001_Ross_Avenue%2C_Suite_600%5Cn%5CnDallas%2C_Texas_75201%5Cn a base:Location .
+
+loc:2800_Post_Oak_Boulevard%2C_Suite_4800%5Cn%5CnHouston%2C_Texas_77056%5Cn a base:Location .
+
+loc:333_S._Hope_Street%2C_39th_Floor%5Cn%5CnLos_Angeles%2C_California_90071%5Cn a base:Location .
+
+loc:444_S._Flower_Street%2C_39th_Floor%5Cn%5CnLos_Angeles%2C_California_90071%5Cn a base:Location .
+
+loc:LOS_ANGELES a base:Location ;
+    <http://example.org/isInstanceOf/> location_type:BRANCH .
+
+org_name:Baker_Botts_LLP a base:Organization .
+
+org_name:Hines_REIT_One_Wilshire_LP a base:Organization .
+
+org_name:Seyfarth_Shaw_LLP a base:Organization .
+
+loc:444_S._Flower_Street%2C_39th_Floor%5Cn%5CnLos_Angeles%2C_California_90071 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Bank_of_China .
+
+org_name:BANK_OF_CHINA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Ying_Chen .
+
+org_name:Bank_of_China a base:Organization ;
+    rel:hasLocationAt loc:444_S._Flower_Street%2C_39th_Floor%5Cn%5CnLos_Angeles%2C_California_90071 .
+
+org_name:HINES_REIT_ONE_WILSHIRE_LP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:J._Shea_Morgenroth .
+
+person_name:J._Shea_Morgenroth a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Agent ;
+    rel:isEmployedBy org_name:HINES_REIT_ONE_WILSHIRE_LP .
+
+person_name:Ying_Chen a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Deputy_Branch_Manager,
+        person_position:Vice_President ;
+    rel:isEmployedBy org_name:BANK_OF_CHINA .
+

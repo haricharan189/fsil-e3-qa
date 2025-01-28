@@ -1,0 +1,64 @@
+@prefix base: <http://example.org/base/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/ALLIANCE_TRADING%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+<http://example.org/org_name/CYPRESS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:POOLFX_SUPPLY_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:POOL_DEVELOPMENT_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:SCP_DISTRIBUTORS_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+<http://example.org/org_name/SCP_INTERNATIONAL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+<http://example.org/org_name/SPLASH_HOLDINGS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:SUPERIOR_POOL_PRODUCTS_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Adam_Rose .
+
+person_name:Adam_Rose a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
+person_name:Melanie_Housey_Hart a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Assistant_Secretary,
+        person_position:Chief_Accounting_Officer,
+        person_position:President,
+        person_position:Secretary,
+        person_position:Treasurer ;
+    rel:isEmployedBy org_name:POOL_CORPORATION .
+
+<http://example.org/org_name/HORIZON_DISTRIBUTORS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS ;
+    rel:hasEmployee person_name:Jennifer_M._Neil .
+
+org_name:POOL_CORPORATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Jennifer_M._Neil,
+        person_name:Melanie_Housey_Hart .
+
+person_name:Jennifer_M._Neil a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_name/HORIZON_DISTRIBUTORS%2C_INC.>,
+        person_position:Chief_Legal_Officer,
+        person_position:Secretary,
+        person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/HORIZON_DISTRIBUTORS%2C_INC.>,
+        org_name:POOL_CORPORATION .
+

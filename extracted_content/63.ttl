@@ -1,0 +1,54 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix rel: <http://example.org/relation/> .
+
+loc:1420_5th_Avenue%2C_Seattle%2C_WA_98121 a base:Location .
+
+loc:1947_Briarfield_Boulevard%2C_Maumee%2C_OH_43537%2C_Attention%3A_Brian_A._Valentine a base:Location .
+
+org_name:FARM_CREDIT_MID-AMERICA%2C_PCA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/The_Andersons%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender .
+
+loc:DN-CO-T4%2C_950_Seventeenth_Street%2C_4th_Floor%2C_Denver%2C_Colorado_80202 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Food_Industries .
+
+loc:One_South_Dearborn%2C_Chicago%2C_Illinois_60603 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Sidley_Austin_LLP .
+
+person_name:Cel_Gatdula a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:U.S._Bank_National_Association ;
+    rel:isEmployedBy org_name:U.S._Bank_National_Association .
+
+person_name:James_Pegues a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:Food_Industries ;
+    rel:isEmployedBy org_name:Food_Industries .
+
+person_name:Mark_Kirsons a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:Sidley_Austin_LLP ;
+    rel:isEmployedBy org_name:Sidley_Austin_LLP .
+
+org_name:U.S._Bank_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LC_Issuer ;
+    rel:hasEmployee person_name:Cel_Gatdula .
+
+org_name:Food_Industries a base:Organization ;
+    rel:hasEmployee person_name:James_Pegues ;
+    rel:hasLocationAt loc:DN-CO-T4%2C_950_Seventeenth_Street%2C_4th_Floor%2C_Denver%2C_Colorado_80202 .
+
+org_name:Sidley_Austin_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:legal_counsel ;
+    rel:hasEmployee person_name:Mark_Kirsons ;
+    rel:hasLocationAt loc:One_South_Dearborn%2C_Chicago%2C_Illinois_60603 .
+

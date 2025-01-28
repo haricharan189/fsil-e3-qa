@@ -1,0 +1,202 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+org_name:3806_CLAYTON_ROAD%2C_LLC%5Cn%C2%A0%09245_EAST_WILSHIRE_AVENUE%2C_LLC%5Cn%C2%A0%0913922_CERISE_AVENUE%2C_LLC%5Cn%C2%A0%09637_EAST_ROMIE_LANE%2C_LLC%5Cn%C2%A0%09523_HAYES_LANE%2C_LLC%5Cn a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:CFG_2115_WOODSTOCK_PLACE%2C_LLC%5Cn%C2%A0%091200_ELY_STREET_HOLDINGS_CO._LLC%5Cn%C2%A0%0942235_COUNTY_ROAD_HOLDINGS_CO._LLC%5Cn%C2%A0%092425_TELLER_AVENUE%2C_LLC%5Cn%C2%A0%0948_HIGH_POINT_ROAD%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:CSE_ALBANY_LLC%5Cn%C2%A0%09CSE_AMARILLO_LLC%5Cn%C2%A0%09CSE_AUGUSTA_LLC%5Cn%C2%A0%09CSE_BEDFORD_LLC%5Cn%C2%A0%09CSE_CAMBRIDGE_REALTY_LLC%5Cn%C2%A0%09CSE_CANTON_LLC%5Cn%C2%A0%09CSE_CEDAR_RAPIDS_LLC%5Cn%C2%A0%09CSE_CHELMSFORD_LLC%5Cn%C2%A0%09CSE_CHESTERTON_LLC%5Cn%C2%A0%09CSE_CLAREMONT_LLC%5Cn%C2%A0%09CSE_DENVER_LLC%5Cn%C2%A0%09CSE_DOUGLAS_LLC%5Cn%C2%A0%09CSE_ELKTON_REALTY_LLC%5Cn%C2%A0%09CSE_FORT_WAYNE_LLC%5Cn%C2%A0%09CSE_FRANKSTON_LLC%5Cn%C2%A0%09CSE_GEORGETOWN_LLC%5Cn%C2%A0%09CSE_GREEN_BAY_LLC%5Cn%C2%A0%09CSE_HILLIARD_LLC%5Cn%C2%A0%09CSE_HUNTSVILLE_LLC%5Cn%C2%A0%09CSE_INDIANAPOLIS_%E2%80%93_CONTINENTAL_LLC%5Cn%C2%A0%09CSE_INDIANAPOLIS_%E2%80%93_GREENBRIAR_LLC%5Cn%C2%A0%09CSE_JEFFERSONVILLE_%E2%80%93_HILLCREST_CENTER_LLC%5Cn%C2%A0%09CSE_JEFFERSONVILLE_%E2%80%93_JENNINGS_HOUSE_LLC%5Cn%C2%A0%09CSE_KINGSPORT_LLC%5Cn%C2%A0%09CSE_LAKE_CITY_LLC%5Cn%C2%A0%09CSE_LAKE_WORTH_LLC%5Cn%C2%A0%09CSE_LAKEWOOD_LLC%5Cn%C2%A0%09CSE_LAS_VEGAS_LLC%5Cn%C2%A0%09CSE_LAWRENCEBURG_LLC%5Cn%C2%A0%09CSE_LEXINGTON_PARK_REALTY_LLC%5Cn%C2%A0%09CSE_LIGONIER_LLC%5Cn%C2%A0%09CSE_LIVE_OAK_LLC%5Cn%C2%A0%09CSE_LOWELL_LLC%5Cn%C2%A0%09CSE_MOBILE_LLC%5Cn%C2%A0%09CSE_MOORE_LLC%5Cn%C2%A0%09CSE_NORTH_CAROLINA_HOLDINGS_I_LLC%5Cn%C2%A0%09CSE_NORTH_CAROLINA_HOLDINGS_II_LLC%5Cn%C2%A0%09CSE_OMRO_LLC%5Cn%C2%A0%09CSE_ORANGE_PARK_LLC%5Cn%C2%A0%09CSE_ORLANDO_%E2%80%93_PINAR_TERRACE_MANOR_LLC%5Cn%C2%A0%09CSE_ORLANDO_%E2%80%93_TERRA_VISTA_REHAB_LLC%5Cn%C2%A0%09CSE_PIGGOTT_LLC%5Cn%C2%A0%09CSE_PILOT_POINT_LLC%5Cn%C2%A0%09CSE_PONCA_CITY_LLC%5Cn%C2%A0%09CSE_PORT_ST._LUCIE_LLC%5Cn%C2%A0%09CSE_RICHMOND_LLC%5Cn%C2%A0%09CSE_SAFFORD_LLC%5Cn%C2%A0%09CSE_SALINA_LLC%5Cn%C2%A0%09CSE_SEMINOLE_LLC%5Cn%C2%A0%09CSE_SHAWNEE_LLC%5Cn%C2%A0%09CSE_STILLWATER_LLC%5Cn%C2%A0%09CSE_TAYLORSVILLE_LLC%5Cn%C2%A0%5Cn%5Cn%C2%A0%09OMEGA_HEALTHCARE_INVESTORS%2C_INC.%5CnCREDIT_AGREEMENT%5Cn%C2%A0%09%C2%A0%5Cn%C2%A0%C2%A0%5Cn%5Cn%C2%A0%09CSE_TEXAS_CITY_LLC%5Cn%C2%A0%09CSE_UPLAND_LLC%5Cn%C2%A0%09CSE_WINTER_HAVEN_LLC%5Cn%C2%A0%09CSE_YORKTOWN_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+<http://example.org/org_name/CSE_ARDEN_L.P.%5Cn%C2%A0%09CSE_KING_L.P.%5Cn%C2%A0%09CSE_KNIGHTDALE_L.P.%5Cn%C2%A0%09CSE_LENOIR_L.P.%5Cn%C2%A0%09CSE_WALNUT_COVE_L.P.%5Cn%C2%A0%09CSE_WOODFIN_L.P.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:CSE_BLOUNTVILLE_LLC%5Cn%C2%A0%09CSE_BOLIVAR_LLC%5Cn%C2%A0%09CSE_CAMDEN_LLC%5Cn%C2%A0%09CSE_HUNTINGDON_LLC%5Cn%C2%A0%09CSE_JEFFERSON_CITY_LLC%5Cn%C2%A0%09CSE_MEMPHIS_LLC%5Cn%C2%A0%09CSE_RIPLEY_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:CSE_CAMBRIDGE_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:CSE_CASABLANCA_HOLDINGS_II_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:CSE_CASABLANCA_HOLDINGS_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:CSE_CENTENNIAL_VILLAGE a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:CSE_CORPUS_NORTH_LLC%5Cn%C2%A0%09CSE_JACINTO_CITY_LLC%5Cn%C2%A0%09CSE_KERRVILLE_LLC%5Cn%C2%A0%09CSE_RIPON_LLC%5Cn%C2%A0%09CSE_SPRING_BRANCH_LLC%5Cn%C2%A0%09CSE_THE_VILLAGE_LLC%5Cn%C2%A0%09CSE_WILLIAMSPORT_LLC%5Cn%C2%A0%09DESERT_LANE_LLC%5Cn%C2%A0%09NORTH_LAS_VEGAS_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:CSE_Cambridge_Realty_LLC a base:Organization .
+
+org_name:CSE_Casablanca_Holdings_II_LLC a base:Organization .
+
+org_name:CSE_Casablanca_Holdings_LLC a base:Organization .
+
+org_name:CSE_DENVER_ILIFF_LLC%5Cn%C2%A0%09CSE_FAIRHAVEN_LLC%5Cn%C2%A0%09CSE_MARIANNA_HOLDINGS_LLC%5Cn%C2%A0%09CSE_TEXARKANA_LLC%5Cn%C2%A0%09CSE_WEST_POINT_LLC%5Cn%C2%A0%09CSE_WHITEHOUSE_LLC%5Cn%C2%A0%09CARNEGIE_GARDENS_LLC%5Cn%C2%A0%09FLORIDA_REAL_ESTATE_COMPANY%2C_LLC%5Cn%C2%A0%09GREENBOUGH%2C_LLC%5Cn%C2%A0%09LAD_I_REAL_ESTATE_COMPANY%2C_LLC%5Cn%C2%A0%09PANAMA_CITY_NURSING_CENTER_LLC%5Cn%C2%A0%09SKYLER_MAITLAND_LLC%5Cn%C2%A0%09SUWANEE%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:CSE_ELKTON_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:CSE_Elkton_Realty_LLC a base:Organization .
+
+org_name:CSE_LEXINGTON_PARK_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:CSE_Lexington_Park_Realty_LLC a base:Organization .
+
+org_name:CSE_North_Carolina_Holdings_I_LLC a base:Organization .
+
+org_name:CSE_PENNSYLVANIA_HOLDINGS a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:CSE_PINE_VIEW_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:CSE_Pennsylvania_Holdings a base:Organization .
+
+org_name:ENCANTO_SENIOR_CARE%2C_LLC%5Cn a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+<http://example.org/org_name/HOUSE_OF_HANOVER%2C_LTD.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER_%26_SMITH_INCORPORATED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger,
+        org_role:Book%C2%A0Manager .
+
+<http://example.org/org_name/OHIMA%2C_INC.%5Cn%C2%A0%09CANTON_HEALTH_CARE_LAND%2C_INC.%5Cn%C2%A0%09DIXON_HEALTH_CARE_CENTER%2C_INC.%5Cn%C2%A0%09HUTTON_I_LAND%2C_INC.%5Cn%C2%A0%09HUTTON_II_LAND%2C_INC.%5Cn%C2%A0%09HUTTON_III_LAND%2C_INC.%5Cn%C2%A0%09LEATHERMAN_PARTNERSHIP_89-1%2C_INC.%5Cn%C2%A0%09LEATHERMAN_PARTNERSHIP_89-2%2C_INC.%5Cn%C2%A0%09LEATHERMAN_90-1%2C_INC.%5Cn%C2%A0%09MERIDIAN_ARMS_LAND%2C_INC.%5Cn%C2%A0%09ORANGE_VILLAGE_CARE_CENTER%2C_INC.%5Cn%C2%A0%09ST._MARY%E2%80%99S_PROPERTIES%2C_INC.%5Cn%C2%A0%09ARIZONA_LESSOR_%E2%80%93_INFINIA%2C_INC.%5Cn%C2%A0%09BAYSIDE_STREET_II%2C_INC.%5Cn%C2%A0%09COLORADO_LESSOR_%E2%80%93_CONIFER%2C_INC.%5Cn%C2%A0%09COPLEY_HEALTH_CENTER%2C_INC.%5Cn%C2%A0%09FLORIDA_LESSOR_%E2%80%93_EMERALD%2C_INC.%5Cn%C2%A0%09FLORIDA_LESSOR_%E2%80%93_MEADOWVIEW%2C_INC.%5Cn%C2%A0%09GEORGIA_LESSOR_%E2%80%93_BONTERRA/PARKVIEW%2C_INC.%5Cn%C2%A0%09HANOVER_HOUSE%2C_INC.%5Cn%C2%A0%09INDIANA_LESSOR_%E2%80%93_WELLINGTON_MANOR%2C_INC.%5Cn%C2%A0%09LONG_TERM_CARE_ASSOCIATES_%E2%80%93_TEXAS%2C_INC.%5Cn%C2%A0%09OHI_%28CONNECTICUT%29%2C_INC.%5Cn%C2%A0%09OHI_%28FLORIDA%29%2C_INC.%5Cn%C2%A0%09OHI_%28ILLINOIS%29%2C_INC.%5Cn%C2%A0%09OHI_%28INDIANA%29%2C_INC.%5Cn%C2%A0%09OHI_%28IOWA%29%2C_INC.%5Cn%C2%A0%09PAVILLION_NORTH_PARTNERS%2C_INC.%5Cn%C2%A0%09PAVILLION_NURSING_CENTER_NORTH%2C_INC.%5Cn%C2%A0%09STERLING_ACQUISITION_CORP.%5Cn%C2%A0%09THE_SUBURBAN_PAVILION%2C_INC.%5Cn%C2%A0%09TEXAS_LESSOR_%E2%80%93_STONEGATE%2C_LIMITED%2C_INC.%5Cn%C2%A0%09TEXAS_LESSOR_%E2%80%93_STONEGATE_GP%2C_INC.%5Cn%C2%A0%09WASHINGTON_LESSOR_%E2%80%93_SILVERDALE%2C_INC.%5Cn%C2%A0%09OMEGA_TRS_I%2C_INC.%5Cn%C2%A0%09BAYSIDE_ARIZONA_HEALTHCARE_SECOND%2C_INC.%5Cn%C2%A0%09BAYSIDE_COLORADO_HEALTHCARE_ASSOCIATES%2C_INC.%5Cn%C2%A0%09BAYSIDE_STREET%2C_INC.%5Cn%C2%A0%09DIXIE_WHITE_HOUSE_NURSING_HOME%2C_INC.%5Cn%C2%A0%09FLORIDA_LESSOR_%E2%80%93_CRYSTAL_SPRINGS%2C_INC.%5Cn%C2%A0%09FLORIDA_LESSOR_%E2%80%93_LAKELAND%2C_INC.%5Cn%C2%A0%09INDIANA_LESSOR_%E2%80%93_JEFFERSONVILLE%2C_INC.%5Cn%C2%A0%09JEFFERSON_CLARK%2C_INC.%5Cn%C2%A0%09LONG_TERM_CARE_%E2%80%93_MICHIGAN%2C_INC.%5Cn%C2%A0%C2%A0%5Cn%5Cn%C2%A0%09OMEGA_HEALTHCARE_INVESTORS%2C_INC.%5CnCREDIT_AGREEMENT%5Cn%C2%A0%09%C2%A0%5Cn%C2%A0%C2%A0%5Cn%5Cn%C2%A0%09LONG_TERM_CARE_%E2%80%93_NORTH_CAROLINA%2C_INC.%5Cn%C2%A0%09LONG_TERM_CARE_ASSOCIATES_%E2%80%93_ILLINOIS%2C_INC.%5Cn%C2%A0%09LONG_TERM_CARE_ASSOCIATES_%E2%80%93_INDIANA%2C_INC.%5Cn%C2%A0%09OCEAN_SPRINGS_NURSING_HOME%2C_INC.%5Cn%C2%A0%09OHI_%28KANSAS%29%2C_INC.%5Cn%C2%A0%09OHI_ASSET_%28SMS%29_LENDER%2C_INC.%5Cn%C2%A0%09OHI_OF_TEXAS%2C_INC.%5Cn%C2%A0%09OHI_SUNSHINE%2C_INC.%5Cn%C2%A0%09OHI_TENNESSEE%2C_INC.%5Cn%C2%A0%09OMEGA_%28KANSAS%29%2C_INC.%5Cn%C2%A0%09OS_LEASING_COMPANY%5Cn%C2%A0%09PENSACOLA_REAL_ESTATE_HOLDINGS_I%2C_INC.%5Cn%C2%A0%09PENSACOLA_REAL_ESTATE_HOLDINGS_II%2C_INC.%5Cn%C2%A0%09PENSACOLA_REAL_ESTATE_HOLDINGS_III%2C_INC.%5Cn%C2%A0%09PENSACOLA_REAL_ESTATE_HOLDINGS_IV%2C_INC.%5Cn%C2%A0%09PENSACOLA_REAL_ESTATE_HOLDINGS_V%2C_INC.%5Cn%C2%A0%09SKILLED_NURSING_%E2%80%93_HICKSVILLE%2C_INC.%5Cn%C2%A0%09SKYLER_BOYINGTON%2C_INC.%5Cn%C2%A0%09SKYLER_FLORIDA%2C_INC.%5Cn%C2%A0%09SKYLER_PENSACOLA%2C_INC.%5Cn%C2%A0%09STERLING_ACQUISITION_CORP._II%5Cn%C2%A0%09TEXAS_LESSOR_%E2%80%93_TREEMONT%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+<http://example.org/org_name/OHI_ASSET%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28ID%29%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28CA%29%2C_LLC%5Cn%C2%A0%09DELTA_INVESTORS_I%2C_LLC%5Cn%C2%A0%09DELTA_INVESTORS_II%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28CO%29%2C_LLC%5Cn%C2%A0%09COLONIAL_GARDENS%2C_LLC%5Cn%C2%A0%09WILCARE%2C_LLC%5Cn%C2%A0%09NRS_VENTURES%2C_L.L.C.%5Cn%C2%A0%09OHI_ASSET_%28CT%29_LENDER%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28FL%29%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IL%29%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28MO%29%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28OH%29%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28OH%29_LENDER%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28PA%29%2C_LLC%5Cn%C2%A0%09OHI_ASSET_II_%28CA%29%2C_LLC%5Cn%C2%A0%09OHI_ASSET_II_%28FL%29%2C_LLC%5Cn%C2%A0%09OHI_ASSET_CSE-E%2C_LLC%5Cn%C2%A0%09OHI_ASSET_CSE-U%2C_LLC%5Cn%C2%A0%09OHI_ASSET_CSB_LLC%5Cn%C2%A0%09OHI_ASSET_%28MI%29%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28FL%29_LENDER%2C_LLC%5Cn%C2%A0%09OHI_ASSET_HUD_WO%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28MD%29%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IN%29%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28MI/NC%29%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28OH%29_NEW_PHILADELPHIA%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28TX%29%2C_LLC%5Cn%C2%A0%09OHI_ASSET_ESSEX_%28OH%29%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IN%29_WABASH%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IN%29_WESTFIELD%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IN%29_GREENSBURG%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IN%29_INDIANAPOLIS%2C_LLC%5Cn%C2%A0%09OHI_ASSET_HUD_SF%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IN%29_AMERICAN_VILLAGE%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IN%29_ANDERSON%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IN%29_BEECH_GROVE%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IN%29_CLARKSVILLE%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IN%29_EAGLE_VALLEY%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IN%29_ELKHART%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IN%29_FOREST_CREEK%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IN%29_FORT_WAYNE%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IN%29_FRANKLIN%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IN%29_KOKOMO%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IN%29_LAFAYETTE%2C_LLC%5Cn%C2%A0%09%C2%A0%5Cn%C2%A0%09OMEGA_HEALTHCARE_INVESTORS%2C_INC.%5CnCREDIT_AGREEMENT%5Cn%C2%A0%09%C2%A0%5Cn%C2%A0%C2%A0%5Cn%5Cn%C2%A0%09OHI_ASSET_%28IN%29_MONTICELLO%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IN%29_NOBLESVILLE%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IN%29_ROSEWALK%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IN%29_SPRING_MILL%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IN%29_TERRE_HAUTE%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IN%29_ZIONSVILLE%2C_LLC%5Cn%C2%A0%09OHI_ASSET_HUD_CFG%2C_LLC%5Cn%C2%A0%09OHI_ASSET_HUD_SF_CA%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28TX%29_HONDO%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28MI%29_HEATHER_HILLS%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IN%29_CROWN_POINT%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28IN%29_MADISON%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28AR%29_ASH_FLAT%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28AR%29_CAMDEN%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28AR%29_CONWAY%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28AR%29_DES_ARC%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28AR%29_HOT_SPRINGS%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28AR%29_MALVERN%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28AR%29_MENA%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28AR%29_POCAHONTAS%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28AR%29_SHERIDAN%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28AR%29_WALNUT_RIDGE%2C_LLC%5Cn%C2%A0%09OHI_ASSET_RO%2C_LLC%5Cn%C2%A0%09OHI_ASSET_%28FL%29_LAKE_PLACID%2C_LLC%5Cn%C2%A0%09OHI_ASSETHUD_DELTA%2C_LLC> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:OHI_ASSET_%28LA%29%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:OHI_ASSET_%28PA%29_TRUST%5Cn%C2%A0%09OHI_ASSET_II_%28PA%29_TRUST%5Cn%C2%A0%09OHI_ASSET_III_%28PA%29_TRUST%5Cn%C2%A0%09OHI_ASSET_IV_%28PA%29_SILVER_LAKE_TRUST a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:OHI_ASSET_HUD_CFG%2C_LLC a base:Organization .
+
+org_name:OHI_Asset_%28OH%29%2C_LLC a base:Organization .
+
+org_name:OHI_Asset_%28PA%29%2C_LLC a base:Organization .
+
+org_name:OHI_Asset_CSB_LLC a base:Organization .
+
+org_name:OHI_Asset_CSE-E%2C_LLC a base:Organization .
+
+org_name:OHI_Asset_CSE-U%2C_LLC a base:Organization .
+
+org_name:OHI_Asset_HUD_SF%2C_LLC a base:Organization .
+
+org_name:OHI_Asset_HUD_SF_CA%2C_LLC a base:Organization .
+
+<http://example.org/org_name/OHI_Tennessee%2C_Inc.> a base:Organization .
+
+<http://example.org/org_name/OMEGA_HEALTHCARE_INVESTORS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER,
+        org_role:Borrower .
+
+<http://example.org/org_name/Omega_Healthcare_Investors%2C_Inc.> a base:Organization .
+
+<http://example.org/org_name/Omega_TRS_I%2C_Inc.> a base:Organization .
+
+org_name:PAVILLION_NORTH%2C_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+<http://example.org/org_name/Pavillion_Nursing_Center_North%2C_Inc.> a base:Organization .
+
+org_name:TEXAS_LESSOR_-_STONEGATE%2C_LP%5Cn a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+<http://example.org/org_name/Texas_Lessor_%E2%80%93_Stonegate_GP%2C_Inc.> a base:Organization .
+
+loc:100_N._Tryon_Street%5Cn%5CnMail_Code%3A_NC1_-007-17-11%5Cn%5CnCharlotte%2C_NC_28255 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location,
+        location_type:Global_Corporate_Debt_Products ;
+    rel:isLocationOf <http://example.org/org_name/Bank_of_America%2C_N.A.> .
+
+loc:101_North_Tryon_Street%5CnMail_Code%3A_NC1-001-04-39%5CnCharlotte%2C_North_Carolina_28255-0001 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Bank_of_America%2C_N.A.> .
+
+loc:1455_Market_Street%5Cn%5CnMail_Code%3A_CA5-701-05-19%5Cn%5CnSan_Francisco%2C_California_94103-1399 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location,
+        location_type:Agency_Management ;
+    rel:isLocationOf <http://example.org/org_name/Bank_of_America%2C_N.A.> .
+
+loc:200_International_Circle%2C_Suite_3500%5CnHunt_Valley%2C_Maryland_21030 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Omega_Healthcare_Investors%2C_Inc .
+
+loc:425_Park_Avenue%5CnNew_York%2C_New_York_10022 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Kaye_Scholer_LLP .
+
+org_name:OHI_Asset_HUD_Delta%2C_LLC a base:Organization ;
+    rel:hasEmployee person_name:Daniel_J._Booth .
+
+person_name:Jean_Hood a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_name/Bank_of_America%2C_N.A.> ;
+    rel:isEmployedBy <http://example.org/org_name/Bank_of_America%2C_N.A.> .
+
+person_name:John_R._Fallon a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/Jr.%2C_Esq.> ;
+    rel:isEmployedBy org_name:Kaye_Scholer_LLP .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:AGENT,
+        org_role:Agent,
+        org_role:LENDER ;
+    rel:hasEmployee person_name:Angela_Lau,
+        person_name:Yinghua_Zhang .
+
+org_name:Kaye_Scholer_LLP a base:Organization ;
+    rel:hasEmployee person_name:John_R._Fallon ;
+    rel:hasLocationAt loc:425_Park_Avenue%5CnNew_York%2C_New_York_10022 .
+
+person_name:Angela_Lau a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_name/Bank_of_America%2C_N.A.>,
+        person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.>,
+        <http://example.org/org_name/Bank_of_America%2C_N.A.> .
+
+person_name:Daniel_J._Booth a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:Omega_Healthcare_Investors%2C_Inc,
+        person_position:Chief_Operating_Officer ;
+    rel:isEmployedBy org_name:OHI_Asset_HUD_Delta%2C_LLC,
+        org_name:Omega_Healthcare_Investors%2C_Inc .
+
+person_name:Yinghua_Zhang a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_name/Bank_of_America%2C_N.A.>,
+        person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.>,
+        <http://example.org/org_name/Bank_of_America%2C_N.A.> .
+
+org_name:Omega_Healthcare_Investors%2C_Inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Credit_Parties ;
+    rel:hasEmployee person_name:Daniel_J._Booth ;
+    rel:hasLocationAt loc:200_International_Circle%2C_Suite_3500%5CnHunt_Valley%2C_Maryland_21030 .
+
+<http://example.org/org_name/Bank_of_America%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent ;
+    rel:hasEmployee person_name:Angela_Lau,
+        person_name:Jean_Hood,
+        person_name:Yinghua_Zhang ;
+    rel:hasLocationAt loc:100_N._Tryon_Street%5Cn%5CnMail_Code%3A_NC1_-007-17-11%5Cn%5CnCharlotte%2C_NC_28255,
+        loc:101_North_Tryon_Street%5CnMail_Code%3A_NC1-001-04-39%5CnCharlotte%2C_North_Carolina_28255-0001,
+        loc:1455_Market_Street%5Cn%5CnMail_Code%3A_CA5-701-05-19%5Cn%5CnSan_Francisco%2C_California_94103-1399 .
+

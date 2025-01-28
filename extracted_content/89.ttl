@@ -1,0 +1,113 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/AGILITI_HOLDCO%2C%C2%A0INC.> a base:Organization .
+
+<http://example.org/org_name/AGILITI_IMAGING%2C_INC.> a base:Organization .
+
+org_name:BARCLAYS_BANK_PLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+org_name:CITIGROUP_GLOBAL_MARKETS_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+org_name:DEUTSCHE_BANK_SECURITIES_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+org_name:GOLUB_CAPITAL_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+<http://example.org/org_name/KEYBANC_CAPITAL_MARKETS_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+<http://example.org/org_name/MACQUARIE_CAPITAL_%28USA%29_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+loc:100_Federal_St.%2C_35th_Floor%5Cn%5CnBoston%2C_Massachusetts_02110 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Thomas_H._Lee_Partners%2C_L.P.> .
+
+loc:10_S._Dearborn%5Cn%5CnChicago%2C%C2%A0IL_60603 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:JPMORGAN_CHASE_BANK .
+
+loc:601_Lexington_Avenue%5CnNew_York%2C_NY_10022 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Kirkland%C2%A0%26_Ellis_LLP .
+
+loc:6625_West_78th_Street%2C_Suite%C2%A0300%5Cn%5CnMinneapolis%2C_MN_55439 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/AGILITI_HEALTH%2C%C2%A0INC.> .
+
+<http://example.org/org_name/Thomas_H._Lee_Partners%2C_L.P.> a base:Organization ;
+    rel:hasLocationAt loc:100_Federal_St.%2C_35th_Floor%5Cn%5CnBoston%2C_Massachusetts_02110 .
+
+person_name:Charles_P._Holden a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer,
+        person_position:Managing_Director ;
+    rel:isEmployedBy <http://example.org/org_name/AGILITI_SURGICAL%2C_INC.> .
+
+person_name:Eric_Wedel a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:Kirkland%C2%A0%26_Ellis_LLP ;
+    rel:isEmployedBy org_name:Kirkland%C2%A0%26_Ellis_LLP .
+
+person_name:James_B._Pekarek a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
+    rel:isEmployedBy <http://example.org/org_name/AGILITI_SURGICAL%2C_INC.> .
+
+person_name:James_Pekarek a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:CFO ;
+    rel:isEmployedBy <http://example.org/org_name/AGILITI_HEALTH%2C%C2%A0INC.> .
+
+person_name:Lee_Neumann a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:General_Counsel,
+        person_position:SVP,
+        person_position:Treasurer,
+        person_position:VP_Finance ;
+    rel:isEmployedBy <http://example.org/org_name/AGILITI_HEALTH%2C%C2%A0INC.> .
+
+person_name:Leonida_Mischke a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:JPMORGAN_CHASE_BANK ;
+    rel:isEmployedBy org_name:JPMORGAN_CHASE_BANK .
+
+person_name:Matthew_McCabe a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:CFO ;
+    rel:isEmployedBy <http://example.org/org_name/AGILITI_HEALTH%2C%C2%A0INC.> .
+
+person_name:Sabir_Hashmy a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:JPMORGAN_CHASE_BANK .
+
+<http://example.org/org_name/AGILITI_SURGICAL%2C_INC.> a base:Organization ;
+    rel:hasEmployee person_name:Charles_P._Holden,
+        person_name:James_B._Pekarek .
+
+org_name:Kirkland%C2%A0%26_Ellis_LLP a base:Organization ;
+    rel:hasEmployee person_name:Eric_Wedel ;
+    rel:hasLocationAt loc:601_Lexington_Avenue%5CnNew_York%2C_NY_10022 .
+
+<http://example.org/org_name/AGILITI_HEALTH%2C%C2%A0INC.> a base:Organization ;
+    rel:hasEmployee person_name:James_Pekarek,
+        person_name:Lee_Neumann,
+        person_name:Matthew_McCabe ;
+    rel:hasLocationAt loc:6625_West_78th_Street%2C_Suite%C2%A0300%5Cn%5CnMinneapolis%2C_MN_55439 .
+
+org_name:JPMORGAN_CHASE_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
+        org_role:Arrangers,
+        org_role:Bookrunners ;
+    rel:hasEmployee person_name:Leonida_Mischke,
+        person_name:Sabir_Hashmy ;
+    rel:hasLocationAt loc:10_S._Dearborn%5Cn%5CnChicago%2C%C2%A0IL_60603 .
+

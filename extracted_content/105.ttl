@@ -1,0 +1,136 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/CINEDIGM_CORP.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER .
+
+loc:101_Park_Avenue%2C_27th_Floor%09%C2%A0%5CnNew_York%2C_NY_10178 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Kelley_Drye_%26_Warren_LLP .
+
+loc:45_West_36th_Street%2C_7th_Floor%09%C2%A0%5CnNew_York%2C_NY_10018 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Cinedigm_Corp.> .
+
+<http://example.org/location/Unit_1501-2%2C_15/F%2C_Sino_Plaza%09%C2%A0%5Cn255_Gloucester_Road%09%C2%A0%5CnCauseway_Bay%2C_Hong_Kong> a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Bison_Entertainment_and_Media_Group .
+
+<http://example.org/org_name/ADM_Cinema_Corporation_d/b/a_the_Pavilion_Theatre> a base:Organization ;
+    rel:hasLocationAt loc:45_W._36th_Street%2C_7th_Floor%2C_New_York%2C_NY%C2%A0%C2%A010018 .
+
+<http://example.org/org_name/Access_Digital_Cinema_Phase_2%2C_Corp.> a base:Organization ;
+    rel:hasLocationAt loc:45_W._36th_Street%2C_7th_Floor%2C_New_York%2C_NY%C2%A0%C2%A010018 .
+
+<http://example.org/org_name/Access_Digital_Cinema_Phase_2_B/AIX_Corp.> a base:Organization ;
+    rel:hasLocationAt loc:45_W._36th_Street%2C_7th_Floor%2C_New_York%2C_NY%C2%A0%C2%A010018 .
+
+<http://example.org/org_name/Access_Digital_Media%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:45_W._36th_Street%2C_7th_Floor%2C_New_York%2C_NY%C2%A0%C2%A010018 .
+
+org_name:BISON_ENTERTAINMENT_AND_MEDIA_GROUP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDER ;
+    rel:hasEmployee person_name:Xu_Peixin .
+
+org_name:Bison_Entertainment_and_Media_Group a base:Organization ;
+    rel:hasLocationAt <http://example.org/location/Unit_1501-2%2C_15/F%2C_Sino_Plaza%09%C2%A0%5Cn255_Gloucester_Road%09%C2%A0%5CnCauseway_Bay%2C_Hong_Kong> .
+
+org_name:CDF2_Holdings%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:45_W._36th_Street%2C_7th_Floor%2C_New_York%2C_NY%C2%A0%C2%A010018 .
+
+org_name:CINEDIGM_CORP a base:Organization ;
+    rel:hasEmployee person_name:Gary_S._Loffredo .
+
+org_name:CON_TV%2C_LLC a base:Organization ;
+    rel:hasLocationAt <http://example.org/location/%5CnCinedigm_Corp.%5Cn%5Cn45_West_36th_Street%2C_7th_Floor%5Cn%5CnNew_York%2C_NY_10018> .
+
+<http://example.org/org_name/Christie/AIX%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:45_W._36th_Street%2C_7th_Floor%2C_New_York%2C_NY%C2%A0%C2%A010018 .
+
+<http://example.org/org_name/Cinedigm_Corp.> a base:Organization ;
+    rel:hasLocationAt loc:45_West_36th_Street%2C_7th_Floor%09%C2%A0%5CnNew_York%2C_NY_10018 .
+
+org_name:Cinedigm_DC_Holdings%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:45_W._36th_Street%2C_7th_Floor%2C_New_York%2C_NY%C2%A0%C2%A010018 .
+
+org_name:Cinedigm_Digital_Cinema_Australia_Pty_Ltd a base:Organization ;
+    rel:hasLocationAt loc:45_W._36th_Street%2C_7th_Floor%2C_New_York%2C_NY%C2%A0%C2%A010018 .
+
+org_name:Cinedigm_Digital_Funding_2%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:45_W._36th_Street%2C_7th_Floor%2C_New_York%2C_NY%C2%A0%C2%A010018 .
+
+org_name:Cinedigm_Digital_Funding_I%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:45_W._36th_Street%2C_7th_Floor%2C_New_York%2C_NY%C2%A0%C2%A010018 .
+
+<http://example.org/org_name/Cinedigm_Entertainment_Corp.> a base:Organization ;
+    rel:hasLocationAt loc:45_W._36th_Street%2C_7th_Floor%2C_New_York%2C_NY%C2%A0%C2%A010018 .
+
+org_name:Cinedigm_Entertainment_Holdings%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:45_W._36th_Street%2C_7th_Floor%2C_New_York%2C_NY%C2%A0%C2%A010018 .
+
+org_name:Cinedigm_Home_Entertainment%2C_LLC a base:Organization ;
+    rel:hasLocationAt <http://example.org/location/%5CnCinedigm_Corp.%5Cn%5Cn45_West_36th_Street%2C_7th_Floor%5Cn%5CnNew_York%2C_NY_10018> .
+
+org_name:Cinedigm_OTT_Holdings%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Cinedigm_Corp.%5Cn%5Cn45_West_36th_Street%2C_7th_Floor%5Cn%5CnNew_York%2C_NY_10018 .
+
+org_name:Cinedigm_Productions%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Cinedigm_Corp.%5Cn%5Cn45_West_36th_Street%2C_7th_Floor%5Cn%5CnNew_York%2C_NY_10018 .
+
+org_name:Docurama%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:Cinedigm_Corp.%5Cn%5Cn45_West_36th_Street%2C_7th_Floor%5Cn%5CnNew_York%2C_NY_10018 .
+
+org_name:Dove_Family_Channel%2C_LLC a base:Organization ;
+    rel:hasLocationAt <http://example.org/location/%5CnCinedigm_Corp.%5Cn%5Cn45_West_36th_Street%2C_7th_Floor%5Cn%5CnNew_York%2C_NY_10018> .
+
+org_name:Kelley_Drye_%26_Warren_LLP a base:Organization ;
+    rel:hasLocationAt loc:101_Park_Avenue%2C_27th_Floor%09%C2%A0%5CnNew_York%2C_NY_10178 .
+
+<http://example.org/org_name/Vistachiara_Entertainment%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:45_W._36th_Street%2C_7th_Floor%2C_New_York%2C_NY%C2%A0%C2%A010018 .
+
+<http://example.org/org_name/Vistachiara_Productions_Inc.%2C_d/b/a_The_Bigger_Picture> a base:Organization ;
+    rel:hasLocationAt loc:45_W._36th_Street%2C_7th_Floor%2C_New_York%2C_NY%C2%A0%C2%A010018 .
+
+person_name:Gary_S._Loffredo a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:President%2C_Digital_Cinema%2C_General_Counsel_and_Secretary ;
+    rel:isEmployedBy org_name:CINEDIGM_CORP .
+
+person_name:Xu_Peixin a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:BISON_ENTERTAINMENT_AND_MEDIA_GROUP .
+
+<http://example.org/location/%5CnCinedigm_Corp.%5Cn%5Cn45_West_36th_Street%2C_7th_Floor%5Cn%5CnNew_York%2C_NY_10018> a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:CON_TV%2C_LLC,
+        org_name:Cinedigm_Home_Entertainment%2C_LLC,
+        org_name:Dove_Family_Channel%2C_LLC .
+
+loc:Cinedigm_Corp.%5Cn%5Cn45_West_36th_Street%2C_7th_Floor%5Cn%5CnNew_York%2C_NY_10018 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Cinedigm_OTT_Holdings%2C_LLC,
+        org_name:Cinedigm_Productions%2C_LLC,
+        org_name:Docurama%2C_LLC .
+
+loc:45_W._36th_Street%2C_7th_Floor%2C_New_York%2C_NY%C2%A0%C2%A010018 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/ADM_Cinema_Corporation_d/b/a_the_Pavilion_Theatre>,
+        <http://example.org/org_name/Access_Digital_Cinema_Phase_2%2C_Corp.>,
+        <http://example.org/org_name/Access_Digital_Cinema_Phase_2_B/AIX_Corp.>,
+        <http://example.org/org_name/Access_Digital_Media%2C_Inc.>,
+        org_name:CDF2_Holdings%2C_LLC,
+        <http://example.org/org_name/Christie/AIX%2C_Inc.>,
+        org_name:Cinedigm_DC_Holdings%2C_LLC,
+        org_name:Cinedigm_Digital_Cinema_Australia_Pty_Ltd,
+        org_name:Cinedigm_Digital_Funding_2%2C_LLC,
+        org_name:Cinedigm_Digital_Funding_I%2C_LLC,
+        <http://example.org/org_name/Cinedigm_Entertainment_Corp.>,
+        org_name:Cinedigm_Entertainment_Holdings%2C_LLC,
+        <http://example.org/org_name/Vistachiara_Entertainment%2C_Inc.>,
+        <http://example.org/org_name/Vistachiara_Productions_Inc.%2C_d/b/a_The_Bigger_Picture> .
+

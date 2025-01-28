@@ -1,0 +1,85 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/%5CnBANK_OF_AMERICA> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:ADMINISTRATIVE%09%C2%A0%09%09%C2%A0%09%09%C2%A0%09%5CnAGENT_%26_LENDER,
+        org_role:Agent,
+        <http://example.org/org_role/L/C_Issuer>,
+        org_role:Lender .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        <http://example.org/org_role/L/C_Issuer>,
+        org_role:Lender .
+
+<http://example.org/org_name/CITRIX_SYSTEMS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnBORROWER>,
+        org_role:Borrower .
+
+org_name:J.P._MORGAN_SECURITIES_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Book_Managers .
+
+org_name:JPMORGAN_CHASE_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnLENDERS> .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Book_Managers .
+
+loc:14_Crosby_Drive%5Cn%5CnBedford%2C_MA_01730 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Citrix_Systems%2C_Inc.> .
+
+loc:1_Fleet_Way%5Cn%5CnScranton%2C_PA_18507 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Bank_of_America .
+
+loc:555_California_St%5Cn%5CnSan_Francisco%2C_CA_94104 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Bank_of_America .
+
+loc:851_West_Cypress_Creek_Road%5Cn%5CnFort_Lauderdale%2C_Florida_33309 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%5CnCitrix_Systems%2C_Inc.> .
+
+loc:901_Main_St%5Cn%5CnDallas%2C_TX_75202-3714 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Bank_of_America .
+
+loc:One_South_Dearborn%5Cn%5CnChicago%2C_IL_60603 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Sidley_Austin_LLP .
+
+<http://example.org/org_name/%5CnCitrix_Systems%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasLocationAt loc:851_West_Cypress_Creek_Road%5Cn%5CnFort_Lauderdale%2C_Florida_33309 .
+
+<http://example.org/org_name/Citrix_Systems%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasLocationAt loc:14_Crosby_Drive%5Cn%5CnBedford%2C_MA_01730 .
+
+org_name:Sidley_Austin_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasLocationAt loc:One_South_Dearborn%5Cn%5CnChicago%2C_IL_60603 .
+
+person_name:Joan_Mok a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:Bank_of_America ;
+    rel:isEmployedBy org_name:Bank_of_America .
+
+org_name:Bank_of_America a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        <http://example.org/org_role/L/C_Issuer>,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Joan_Mok ;
+    rel:hasLocationAt loc:1_Fleet_Way%5Cn%5CnScranton%2C_PA_18507,
+        loc:555_California_St%5Cn%5CnSan_Francisco%2C_CA_94104,
+        loc:901_Main_St%5Cn%5CnDallas%2C_TX_75202-3714 .
+

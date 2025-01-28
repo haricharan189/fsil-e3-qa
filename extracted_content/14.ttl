@@ -1,0 +1,90 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix org_sub_role: <http://example.org/org_sub_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+loc:245_Park_Avenue%5Cn%5CnNew_York%2C_New_York_10167 a base:Location .
+
+org_name:ANGELO%2C_GORDON_ENERGY_SERVICER%2C%5CnLLC%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:ADMINISTRATIVE_AGENT .
+
+<http://example.org/org_name/Pacific_Bora_Ltd.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary_Guarantors .
+
+<http://example.org/org_name/Pacific_Drilling%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary_Guarantors .
+
+org_name:Pacific_Drilling%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary_Guarantors .
+
+org_name:Pacific_Drilling_%28Gibraltar%29_Limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary_Guarantors .
+
+<http://example.org/org_name/Pacific_Drilling_Finance_S.%C3%A0_r.l.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary_Guarantors .
+
+org_name:Pacific_Drilling_Holding_%28Gibraltar%29_Limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary_Guarantors .
+
+org_name:Pacific_Drilling_Limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary_Guarantors .
+
+org_name:Pacific_Drilling_Operations%2C_Inc.%5Cn%5Cn a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary_Guarantors .
+
+org_name:Pacific_Drilling_Operations_Limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary_Guarantors .
+
+org_name:Pacific_Drilling_VII_Limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary_Guarantors .
+
+org_name:Pacific_Drilling_V_Limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary_Guarantors .
+
+org_name:Pacific_Drillship_%28Gibraltar%29_Limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary_Guarantors .
+
+org_name:Pacific_Drillship_Nigeria_Limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary_Guarantors .
+
+<http://example.org/org_name/Pacific_Drillship_S.%C3%A0_r.l.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary_Guarantors .
+
+<http://example.org/org_name/Pacific_Mistral_Ltd.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary_Guarantors .
+
+org_name:Pacific_Santa_Ana_%28Gibraltar%29_Limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary_Guarantors .
+
+org_name:Pacific_Santa_Ana_Limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary_Guarantors .
+
+<http://example.org/org_name/Pacific_Scirocco_Ltd.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary_Guarantors .
+
+org_name:Pacific_Sharav_Korl%C3%A1tolt_Felel%C3%B6ss%C3%A9g%C5%A9_T%C3%A1rsas%C3%A1g a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary_Guarantors .
+
+org_name:Pacific_Sharav_S.%C3%A0_r.l.%5Cn%5Cn a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiary_Guarantors .
+
+org_name:AG_ENERGY_FUNDING%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDER ;
+    rel:hasEmployee person_name:Todd_Dittmann .
+
+org_name:PACIFIC_DRILLING_S.A.%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER ;
+    rel:hasEmployee person_name:James_Harris .
+
+person_name:James_Harris a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
+    rel:isEmployedBy org_name:PACIFIC_DRILLING_S.A.%2C .
+
+person_name:Todd_Dittmann a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Person ;
+    rel:isEmployedBy org_name:AG_ENERGY_FUNDING%2C_LLC .
+

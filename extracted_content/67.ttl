@@ -1,0 +1,109 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+loc:333_Twin_Dolphin_Drive%5Cn%5CnSuite_600%5Cn%5CnRedwood_City%2C_CA_94065 a base:Location .
+
+loc:Exeter_EX4_4EP%5Cn%5CnUnited_Kingdom a base:Location .
+
+org_name:BIOPHARMA%C2%A0CREDIT%C2%A0INVESTMENTS%C2%A0V%C2%A0%28MASTER%29%C2%A0LP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:BPCR_LIMITED_PARTNERSHIP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/COHERUS_INTERMEDIATE_CORP.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Credit_Party .
+
+<http://example.org/org_name/Coherus_Biosciences%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Issuer .
+
+<http://example.org/org_name/HealthCare_Royalty_Partners_III%2C_L.P.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Investor .
+
+<http://example.org/org_name/KKR_Biosimilar_L.P.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Investor .
+
+org_name:KMG_Capital_Partners%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Investor .
+
+org_name:MX_II_Associates_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Investor .
+
+loc:110_East_59th_Street%2C_%233300%5Cn%5CnNew_York%2C_NY_10022 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Pharmakon_Advisors_LP .
+
+loc:140_Scott_Drive%5Cn%5CnMenlo_Park%2C_CA_94025 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Latham%C2%A0%26_Watkins_LLP .
+
+loc:51_New_North_Road a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:BioPharma_Credit_PLC .
+
+loc:One_Bryant_Park%5Cn%5CnNew_York%2C_NY_10036-6745 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Akin_Gump_Strauss_Hauer%C2%A0%26_Feld_LLP .
+
+org_name:BIOPHARMA_CREDIT_PLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent ;
+    rel:hasEmployee person_name:Pedro_Gonzalez_de_Cosio .
+
+org_name:BioPharma_Credit_PLC a base:Organization ;
+    rel:hasLocationAt loc:51_New_North_Road .
+
+<http://example.org/org_name/INTEKRIN_THERAPEUTICS_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Credit_Party ;
+    rel:hasEmployee person_name:Michael_Fleming .
+
+person_name:Benjamin_Potter a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:Latham%C2%A0%26_Watkins_LLP ;
+    rel:isEmployedBy org_name:Latham%C2%A0%26_Watkins_LLP .
+
+person_name:Dennis_M._Lanfear a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:CEO ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnCOHERUS_BIOSCIENCES%2C_INC.> .
+
+person_name:Geoffrey_E._Secol a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:Akin_Gump_Strauss_Hauer%C2%A0%26_Feld_LLP ;
+    rel:isEmployedBy org_name:Akin_Gump_Strauss_Hauer%C2%A0%26_Feld_LLP .
+
+person_name:McDavid_Stilwell a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_name/%5CnCOHERUS_BIOSCIENCES%2C_INC.> ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnCOHERUS_BIOSCIENCES%2C_INC.> .
+
+person_name:Michael_Fleming a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:President ;
+    rel:isEmployedBy <http://example.org/org_name/INTEKRIN_THERAPEUTICS_INC.> .
+
+person_name:Pedro_Gonzalez_de_Cosio a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:Pharmakon_Advisors_LP,
+        person_position:CEO,
+        person_position:Managing_Member ;
+    rel:isEmployedBy org_name:BIOPHARMA_CREDIT_PLC,
+        org_name:Pharmakon_Advisors_LP .
+
+<http://example.org/org_name/%5CnCOHERUS_BIOSCIENCES%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower,
+        org_role:Credit_Party%5Cn%5Cn ;
+    rel:hasEmployee person_name:Dennis_M._Lanfear,
+        person_name:McDavid_Stilwell .
+
+org_name:Akin_Gump_Strauss_Hauer%C2%A0%26_Feld_LLP a base:Organization ;
+    rel:hasEmployee person_name:Geoffrey_E._Secol ;
+    rel:hasLocationAt loc:One_Bryant_Park%5Cn%5CnNew_York%2C_NY_10036-6745 .
+
+org_name:Latham%C2%A0%26_Watkins_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:legal_counsel ;
+    rel:hasEmployee person_name:Benjamin_Potter ;
+    rel:hasLocationAt loc:140_Scott_Drive%5Cn%5CnMenlo_Park%2C_CA_94025 .
+
+org_name:Pharmakon_Advisors_LP a base:Organization ;
+    rel:hasEmployee person_name:Pedro_Gonzalez_de_Cosio ;
+    rel:hasLocationAt loc:110_East_59th_Street%2C_%233300%5Cn%5CnNew_York%2C_NY_10022 .
+

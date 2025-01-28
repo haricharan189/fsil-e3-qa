@@ -1,0 +1,60 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+org_name:CF_Real_Estate_Holdings%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+<http://example.org/location/%5Cn1285_Avenue_of_the_Americas%5Cn%5CnNew_York%2C_New_York_10019> a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location,
+        location_type:branch_office ;
+    rel:isLocationOf org_name:UBS_AG .
+
+loc:110_East_59th_Street%5Cn%5CnNew_York%2C_New_York_1002 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:2477_Deerfield_Drive%2C_LLC .
+
+loc:277_Park_Avenue%5Cn%5CnNew_York%2C_New_York_10172 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Cozen_O%C2%92Connor_LLP .
+
+loc:90_Park_Avenue%5Cn%5CnNew_York%2C_New_York_10016 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Alston%C2%A0%26_Bird_LLP .
+
+org_name:2477_DEERFIELD_DRIVE%2C_LLC%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER ;
+    rel:hasEmployee person_name:Shawn_Matthews .
+
+org_name:2477_Deerfield_Drive%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:110_East_59th_Street%5Cn%5CnNew_York%2C_New_York_1002 .
+
+org_name:Alston%C2%A0%26_Bird_LLP a base:Organization ;
+    rel:hasLocationAt loc:90_Park_Avenue%5Cn%5CnNew_York%2C_New_York_10016 .
+
+org_name:Cozen_O%C2%92Connor_LLP a base:Organization ;
+    rel:hasLocationAt loc:277_Park_Avenue%5Cn%5CnNew_York%2C_New_York_10172 .
+
+person_name:Jared_Randall a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
+    rel:isEmployedBy org_name:UBS_AG .
+
+person_name:Racquel_A.C._Small a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
+    rel:isEmployedBy org_name:UBS_AG .
+
+person_name:Shawn_Matthews a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:CEO ;
+    rel:isEmployedBy org_name:2477_DEERFIELD_DRIVE%2C_LLC%2C .
+
+org_name:UBS_AG a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDER ;
+    rel:hasEmployee person_name:Jared_Randall,
+        person_name:Racquel_A.C._Small ;
+    rel:hasLocationAt <http://example.org/location/%5Cn1285_Avenue_of_the_Americas%5Cn%5CnNew_York%2C_New_York_10019> .
+

@@ -1,0 +1,67 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+loc:437_Grant_Street%5CnFrick_Building%2C_Suite_1600%5CnPittsburgh%2C_PA_15219 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:First_Commonwealth_Bank .
+
+loc:5001_Baum_Blvd.%2C_Ste.%2C_770%5CnPittsburgh%2C_PA_15213 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Liberated_Syndication_Inc.> .
+
+loc:Babst%2C_Calland%2C_Clements_and_Zomnir%2C_P.C.%5CnTwo_Gateway_Center%5CnPittsburgh%2C_PA_15222 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:First_Commonwealth_Bank .
+
+<http://example.org/org_name/Liberated_Syndication_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers ;
+    rel:hasLocationAt loc:5001_Baum_Blvd.%2C_Ste.%2C_770%5CnPittsburgh%2C_PA_15213 .
+
+person_name:Brian_J._Sohocki a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:First_Commonwealth_Bank ;
+    rel:isEmployedBy org_name:First_Commonwealth_Bank .
+
+person_name:Christopher_J._Spencer a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:CEO,
+        person_position:Chief_Executive_Officer_and_Chairman_of_the_Board ;
+    rel:isEmployedBy org_name:Liberated_Syndication_Inc.%2C_Webmayhem_Inc%2C_and_pair_Networks%2C_Inc .
+
+person_name:Denis_Yevstifeyey a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:Liberated_Syndication_Inc.%2C_Webmayhem_Inc%2C_and_pair_Networks%2C_Inc .
+
+person_name:Douglas_Polinksy a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:Liberated_Syndication_Inc.%2C_Webmayhem_Inc%2C_and_pair_Networks%2C_Inc .
+
+person_name:Gregory_D._Cribbs a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:First_Commonwealth_Bank ;
+    rel:isEmployedBy org_name:First_Commonwealth_Bank .
+
+person_name:J._Gregory_Smith a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:Liberated_Syndication_Inc.%2C_Webmayhem_Inc%2C_and_pair_Networks%2C_Inc .
+
+person_name:John_Busshaus a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
+    rel:isEmployedBy org_name:Liberated_Syndication_Inc.%2C_Webmayhem_Inc%2C_and_pair_Networks%2C_Inc .
+
+org_name:Liberated_Syndication_Inc.%2C_Webmayhem_Inc%2C_and_pair_Networks%2C_Inc a base:Organization ;
+    rel:hasEmployee person_name:Christopher_J._Spencer,
+        person_name:Denis_Yevstifeyey,
+        person_name:Douglas_Polinksy,
+        person_name:J._Gregory_Smith,
+        person_name:John_Busshaus .
+
+org_name:First_Commonwealth_Bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bank ;
+    rel:hasEmployee person_name:Brian_J._Sohocki,
+        person_name:Gregory_D._Cribbs ;
+    rel:hasLocationAt loc:437_Grant_Street%5CnFrick_Building%2C_Suite_1600%5CnPittsburgh%2C_PA_15219,
+        loc:Babst%2C_Calland%2C_Clements_and_Zomnir%2C_P.C.%5CnTwo_Gateway_Center%5CnPittsburgh%2C_PA_15222 .
+

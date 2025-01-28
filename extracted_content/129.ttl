@@ -1,0 +1,65 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+org_name:GRAHAM_CORPORATION a base:Organization .
+
+org_name:J.P._MORGAN_SECURITIES_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger,
+        org_role:Bookrunner .
+
+loc:1600_Bausch_%26_Lomb_Place%5Cn%5CnRochester%2C_New_York_14606 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Harter_Secrest_%26_Emery_LLP .
+
+loc:1_South_Clinton_Avenue%2C_Floor_7%5Cn%5CnRochester%2C_NY_14604 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> .
+
+loc:20_Florence_Avenue%5Cn%5CnBatavia%2C_New_York_14020 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Graham_Corporation .
+
+loc:United_States_of_America a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Federal_Reserve_System .
+
+<http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Issuing_Bank ;
+    rel:hasEmployee person_name:Elizabeth_A._Jordan .
+
+org_name:Federal_Reserve_System a base:Organization ;
+    rel:hasLocationAt loc:United_States_of_America .
+
+org_name:Graham_Corporation a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasLocationAt loc:20_Florence_Avenue%5Cn%5CnBatavia%2C_New_York_14020 .
+
+org_name:Harter_Secrest_%26_Emery_LLP a base:Organization ;
+    rel:hasLocationAt loc:1600_Bausch_%26_Lomb_Place%5Cn%5CnRochester%2C_New_York_14606 .
+
+<http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> a base:Organization ;
+    rel:hasLocationAt loc:1_South_Clinton_Avenue%2C_Floor_7%5Cn%5CnRochester%2C_NY_14604 .
+
+<http://example.org/person_name/%5CnJeffrey_Glajch> a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
+    rel:isEmployedBy <http://example.org/org_name/GHM_Acquisition_Corp.> .
+
+person_name:Elizabeth_A._Jordan a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Officer ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK%2C_N.A.> .
+
+person_name:Jeffrey_Glajch a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer,
+        person_position:Secretary ;
+    rel:isEmployedBy <http://example.org/org_name/GHM_Acquisition_Corp.> .
+
+<http://example.org/org_name/GHM_Acquisition_Corp.> a base:Organization ;
+    rel:hasEmployee <http://example.org/person_name/%5CnJeffrey_Glajch>,
+        person_name:Jeffrey_Glajch .
+

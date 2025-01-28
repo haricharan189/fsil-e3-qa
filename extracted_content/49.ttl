@@ -1,0 +1,111 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/DBG_SUBSIDIARY_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnBORROWERS> .
+
+<http://example.org/org_name/DIFFERENTIAL_BRANDS_GROUP_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnBORROWERS> .
+
+org_name:HUDSON_CLOTHING%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnBORROWERS> .
+
+org_name:HUDSON_CLOTHING_HOLDINGS%2C%C2%A0INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:INNOVO_WEST_SALES%2C%C2%A0INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:RGH_GROUP_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+org_name:ROBERT_GRAHAM_DESIGNS%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnBORROWERS> .
+
+org_name:ROBERT_GRAHAM_HOLDINGS%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnBORROWERS> .
+
+org_name:ROBERT_GRAHAM_RETAIL_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnBORROWERS> .
+
+org_name:TCW_DIRECT_LENDING_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDERS .
+
+org_name:TCW_DIRECT_LENDING_STRATEGIC_VENTURES_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDERS .
+
+loc:1231_S._Gerhart_Avenue%5Cn%5CnCommerce%2C_CA_90022 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:RG_PARENT_LLC .
+
+loc:200_Clarendon_Street%2C_51st_Floor%5Cn%5CnBoston%2C_Massachusetts%C2%A0_02116 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:TCW_ASSET_MANAGEMENT_COMPANY .
+
+loc:225_W._Washington_Street%2C_Suite%C2%A02100%5Cn%5CnChicago%2C%C2%A0Illinois_60606 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Cortland_Capital_Market_Services_LLC .
+
+loc:300_South_Grand_Avenue%5Cn%5CnLos_Angeles%2C_CA_90071 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Skadden%2C_Arps%2C_Slate%2C_Meagher%C2%A0%26_Flom_LLP .
+
+loc:55_East_Monroe%2C_Suite%C2%A03300%5Cn%5CnChicago%2C%C2%A0Illinois_60603 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Goldberg_Kohn_Ltd.> .
+
+org_name:Cortland_Capital_Market_Services_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent ;
+    rel:hasLocationAt loc:225_W._Washington_Street%2C_Suite%C2%A02100%5Cn%5CnChicago%2C%C2%A0Illinois_60606 .
+
+org_name:DBG_HOLDINGS_SUBSIDIARY_INC a base:Organization ;
+    rel:hasEmployee person_name:Hamish_Sandhu .
+
+<http://example.org/org_name/Goldberg_Kohn_Ltd.> a base:Organization ;
+    rel:hasLocationAt loc:55_East_Monroe%2C_Suite%C2%A03300%5Cn%5CnChicago%2C%C2%A0Illinois_60603 .
+
+org_name:HC_ACQUISITION_HOLDINGS%2C%C2%A0INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS ;
+    rel:hasEmployee person_name:Peter_Kim .
+
+org_name:MARCO_BRUNELLI_IP%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS ;
+    rel:hasEmployee person_name:Michael_Buckley .
+
+org_name:RG_PARENT_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasLocationAt loc:1231_S._Gerhart_Avenue%5Cn%5CnCommerce%2C_CA_90022 .
+
+org_name:Skadden%2C_Arps%2C_Slate%2C_Meagher%C2%A0%26_Flom_LLP a base:Organization ;
+    rel:hasLocationAt loc:300_South_Grand_Avenue%5Cn%5CnLos_Angeles%2C_CA_90071 .
+
+org_name:TCW_ASSET_MANAGEMENT_COMPANY a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent ;
+    rel:hasLocationAt loc:200_Clarendon_Street%2C_51st_Floor%5Cn%5CnBoston%2C_Massachusetts%C2%A0_02116 .
+
+org_name:WEST_VIRGINIA_DIRECT_LENDING_LLC a base:Organization ;
+    rel:hasEmployee person_name:Suzanne_Grosso .
+
+person_name:Hamish_Sandhu a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
+    rel:isEmployedBy org_name:DBG_HOLDINGS_SUBSIDIARY_INC .
+
+person_name:Michael_Buckley a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Executive,
+        person_position:Chief_Executive_Officer ;
+    rel:isEmployedBy org_name:MARCO_BRUNELLI_IP%2C_LLC .
+
+person_name:Peter_Kim a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Executive_Officer,
+        person_position:Chief_Executive_Officer%5Cn%5Cn%C2%A0%5Cn%5Cn%C2%A0%5Cn%5Cn ;
+    rel:isEmployedBy org_name:HC_ACQUISITION_HOLDINGS%2C%C2%A0INC .
+
+person_name:Suzanne_Grosso a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:WEST_VIRGINIA_DIRECT_LENDING_LLC .
+

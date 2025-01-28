@@ -1,0 +1,79 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/%5CnGOLDMAN_SACHS_BANK_USA> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender .
+
+org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Arranger,
+        org_role:Bookrunner .
+
+loc:200_West_Street%5Cn%5CnNew_York%2C_New_York%C2%A0_10282-2198 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Goldman_Sachs_Bank_USA .
+
+loc:200_West_Street%5CnNew_York%2C_New_York_10282-2198 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Goldman_Sachs_Bank_USA .
+
+loc:27175_Energy_Way%5Cn%5CnNovi%2C_MI%C2%A0_48377 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:ITC_Holdings_Corp .
+
+loc:27175_Energy_Way%5CnNovi%2C_MI_48377 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Michigan_Electric_Transmission_Company%2C_LLC .
+
+loc:30_Hudson_Street%2C_36th_Floor%5CnJersey_City%2C_NJ_07302 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Goldman_Sachs_Bank_USA .
+
+<http://example.org/location/c/o_Goldman%2C_Sachs%C2%A0%26_Co.%5Cn30_Hudson_Street%2C_36th_Floor%5CnJersey_City%2C_NJ_07302> a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%5CnGoldman_Sachs_Bank_USA> .
+
+<http://example.org/org_name/%5CnGoldman_Sachs_Bank_USA> a base:Organization ;
+    rel:hasLocationAt <http://example.org/location/c/o_Goldman%2C_Sachs%C2%A0%26_Co.%5Cn30_Hudson_Street%2C_36th_Floor%5CnJersey_City%2C_NJ_07302> .
+
+org_name:ITC_Holdings_Corp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:manager ;
+    rel:hasLocationAt loc:27175_Energy_Way%5Cn%5CnNovi%2C_MI%C2%A0_48377 .
+
+org_name:Michigan_Electric_Transmission_Company%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasLocationAt loc:27175_Energy_Way%5CnNovi%2C_MI_48377 .
+
+person_name:Cameron_M._Bready%2C a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer,
+        person_position:Executive_Vice_President ;
+    rel:isEmployedBy org_name:MICHIGAN_ELECTRIC_TRANSMISSION_COMPANY%2C_LLC .
+
+person_name:Rejji_P._Hayes a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President%2C_Finance_and_Treasurer ;
+    rel:isEmployedBy org_name:MICHIGAN_ELECTRIC_TRANSMISSION_COMPANY%2C_LLC .
+
+person_name:Wendy_A._McIntyre a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:General_Counsel,
+        person_position:Secretary,
+        person_position:Vice_President ;
+    rel:isEmployedBy org_name:MICHIGAN_ELECTRIC_TRANSMISSION_COMPANY%2C_LLC .
+
+org_name:Goldman_Sachs_Bank_USA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent ;
+    rel:hasLocationAt loc:200_West_Street%5Cn%5CnNew_York%2C_New_York%C2%A0_10282-2198,
+        loc:200_West_Street%5CnNew_York%2C_New_York_10282-2198,
+        loc:30_Hudson_Street%2C_36th_Floor%5CnJersey_City%2C_NJ_07302 .
+
+org_name:MICHIGAN_ELECTRIC_TRANSMISSION_COMPANY%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Cameron_M._Bready%2C,
+        person_name:Rejji_P._Hayes,
+        person_name:Wendy_A._McIntyre .
+

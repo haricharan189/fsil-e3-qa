@@ -1,0 +1,87 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+org_name:BANK_OF_THE_WEST a base:Organization .
+
+<http://example.org/org_name/BofA_Securities%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arranger,
+        org_role:bookrunners .
+
+org_name:Silicon_Valley_Bank a base:Organization .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization .
+
+loc:801_5th_Avenue%2C_Seattle%2C_Washington_98104 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/F5_Networks%2C_Inc.> .
+
+loc:JPMorgan_Loan_Services%2C_500_Stanton_Christiana_Road%2C_NCC5%2C_Floor_1%2C_Newark%2C_DE_19713 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> .
+
+<http://example.org/org_name/Bank_of_America%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent ;
+    rel:hasEmployee person_name:Timothy_G._Holsapple .
+
+<http://example.org/org_name/F5_NETWORKS%2C_INC.> a base:Organization ;
+    rel:hasEmployee person_name:Frank_Pelzer .
+
+<http://example.org/org_name/F5_Networks%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:801_5th_Avenue%2C_Seattle%2C_Washington_98104 .
+
+<http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:arranger,
+        org_role:bookrunners ;
+    rel:hasLocationAt loc:JPMorgan_Loan_Services%2C_500_Stanton_Christiana_Road%2C_NCC5%2C_Floor_1%2C_Newark%2C_DE_19713 .
+
+org_name:Royal_Bank_of_Canada a base:Organization ;
+    rel:hasEmployee person_name:Nicholas_Heslip .
+
+person_name:Derek_Jensen a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
+
+person_name:Frank_Pelzer a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
+    rel:isEmployedBy <http://example.org/org_name/F5_NETWORKS%2C_INC.> .
+
+person_name:Gill_Skala a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:Barclays_Bank_PLC .
+
+person_name:Leni_Preciado a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director,
+        person_position:Market_Manager ;
+    rel:isEmployedBy org_name:Barclays_Bank_PLC .
+
+person_name:Mario_De_Luca a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:Barclays_Bank_PLC .
+
+person_name:Nicholas_Heslip a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:Royal_Bank_of_Canada .
+
+person_name:Ryan_Zimmerman a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
+
+person_name:Timothy_G._Holsapple a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/Bank_of_America%2C_N.A.> .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    rel:hasEmployee person_name:Derek_Jensen,
+        person_name:Ryan_Zimmerman .
+
+org_name:Barclays_Bank_PLC a base:Organization ;
+    rel:hasEmployee person_name:Gill_Skala,
+        person_name:Leni_Preciado,
+        person_name:Mario_De_Luca .
+

@@ -1,0 +1,67 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/Circle_C_GP%2C_L.L.C.> a base:Organization .
+
+<http://example.org/org_name/STRS_L.L.C.> a base:Organization .
+
+loc:100_Congress_Ave%2C_Suite_1300%5CnAustin%2C_Texas_78701 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Armbrust_%26_Brown%2C_PLLC .
+
+loc:300_West_6th_Street%2C_Suite_1300%5CnAustin%2C_TX_78701 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:COMERICA_BANK .
+
+<http://example.org/org_name/AUSTIN_290_PROPERTIES%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS ;
+    rel:hasLocationAt loc:212_Lavaca_Boulevard%2C_Suite_300%5CnAustin%2C_Texas_78701 .
+
+<http://example.org/org_name/CIRCLE_C_LAND%2C_L.P.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS ;
+    rel:hasLocationAt loc:212_Lavaca_Boulevard%2C_Suite_300%5CnAustin%2C_Texas_78701 .
+
+org_name:COMERICA_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BANK ;
+    rel:hasLocationAt loc:300_West_6th_Street%2C_Suite_1300%5CnAustin%2C_TX_78701 .
+
+org_name:STRATUS_PROPERTIES_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS ;
+    rel:hasLocationAt loc:212_Lavaca_Boulevard%2C_Suite_300%5CnAustin%2C_Texas_78701 .
+
+<http://example.org/org_name/STRATUS_PROPERTIES_OPERATING_CO.%2C_L.P.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS ;
+    rel:hasLocationAt loc:212_Lavaca_Boulevard%2C_Suite_300%5CnAustin%2C_Texas_78701 .
+
+person_name:Erin_D._Pickens a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/Stratus_Properties_Inc.> .
+
+person_name:Ken_Jones a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:Armbrust_%26_Brown%2C_PLLC ;
+    rel:isEmployedBy org_name:Armbrust_%26_Brown%2C_PLLC .
+
+person_name:Sterling_J._Silver a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/Stratus_Properties_Inc.> .
+
+<http://example.org/org_name/Stratus_Properties_Inc.> a base:Organization ;
+    rel:hasEmployee person_name:Erin_D._Pickens,
+        person_name:Sterling_J._Silver .
+
+org_name:Armbrust_%26_Brown%2C_PLLC a base:Organization ;
+    rel:hasEmployee person_name:Ken_Jones ;
+    rel:hasLocationAt loc:100_Congress_Ave%2C_Suite_1300%5CnAustin%2C_Texas_78701 .
+
+loc:212_Lavaca_Boulevard%2C_Suite_300%5CnAustin%2C_Texas_78701 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/AUSTIN_290_PROPERTIES%2C_INC.>,
+        <http://example.org/org_name/CIRCLE_C_LAND%2C_L.P.>,
+        org_name:STRATUS_PROPERTIES_INC,
+        <http://example.org/org_name/STRATUS_PROPERTIES_OPERATING_CO.%2C_L.P.> .
+

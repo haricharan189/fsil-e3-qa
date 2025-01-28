@@ -1,0 +1,60 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+loc:1888_Century_Park_East%5Cn%5CnLos_Angeles%2C_CA_90067 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Sullivan%C2%A0%26_Cromwell_LLP .
+
+loc:445_S._Figueroa_Street%2C_Floor_10%5Cn%5CnLos_Angeles%2C_CA_90071 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:MUFG_UNION_BANK .
+
+loc:6922_Hollywood_Blvd.%2C_Suite_500%5Cn%5CnLos_Angeles%2C_CA_90028 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:j2_CLOUD_SERVICES%2C_LLC .
+
+person_name:Jeremy_Rossen a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:j2_CLOUD_SERVICES%2C_LLC ;
+    rel:isEmployedBy org_name:j2_CLOUD_SERVICES%2C_LLC .
+
+person_name:Patrick_Brown a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:Sullivan%C2%A0%26_Cromwell_LLP ;
+    rel:isEmployedBy org_name:Sullivan%C2%A0%26_Cromwell_LLP .
+
+person_name:R._Scott_Turicchi a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer,
+        person_position:President ;
+    rel:isEmployedBy org_name:j2_CLOUD_SERVICES%2C_LLC .
+
+person_name:Steve_Dunn a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:j2_CLOUD_SERVICES%2C_LLC ;
+    rel:isEmployedBy org_name:j2_CLOUD_SERVICES%2C_LLC .
+
+person_name:Westley_White a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:MUFG_UNION_BANK .
+
+org_name:MUFG_UNION_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Issuing_Bank,
+        org_role:Lender,
+        org_role:Swing_Line_Lender ;
+    rel:hasEmployee person_name:Westley_White ;
+    rel:hasLocationAt loc:445_S._Figueroa_Street%2C_Floor_10%5Cn%5CnLos_Angeles%2C_CA_90071 .
+
+org_name:Sullivan%C2%A0%26_Cromwell_LLP a base:Organization ;
+    rel:hasEmployee person_name:Patrick_Brown ;
+    rel:hasLocationAt loc:1888_Century_Park_East%5Cn%5CnLos_Angeles%2C_CA_90067 .
+
+org_name:j2_CLOUD_SERVICES%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:liability_company ;
+    rel:hasEmployee person_name:Jeremy_Rossen,
+        person_name:R._Scott_Turicchi,
+        person_name:Steve_Dunn ;
+    rel:hasLocationAt loc:6922_Hollywood_Blvd.%2C_Suite_500%5Cn%5CnLos_Angeles%2C_CA_90028 .
+

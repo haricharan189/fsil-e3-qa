@@ -1,0 +1,86 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix org_sub_role: <http://example.org/org_sub_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/%5CnMVC_PARTNERS_LLC> a base:Organization ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnGUARANTORS%3A> .
+
+org_name:MVC_CAYMAN a base:Organization ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnGUARANTORS%3A> .
+
+<http://example.org/org_name/MVC_FINANCIAL_SERVICES%2C%C2%A0INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnGUARANTORS%3A> .
+
+loc:111_South_Wacker_Drive%5Cn%5CnChicago%2C%C2%A0Illinois_60606 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Locke_Lord_LLP .
+
+loc:230_Park_Avenue%5Cn%5CnNew_York%2C_New_York_10169 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Otterbourg_P.C.> .
+
+loc:287_Bowman_Ave_%23_241%5Cn%5CnPurchase%2C_NY_10577 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/MVC_CAPITAL%2C%C2%A0INC.> .
+
+loc:55_East_Monroe%5Cn%5CnSuite%C2%A03300_Chicago%2C%C2%A0IL_60603 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Goldberg_Kohn_LTD.> .
+
+loc:830_Morris_Turnpike%2C_3rd%C2%A0Floor%5Cn%5CnShort_Hills%2C_NJ_07078 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%5CnSANTANDER_BANK%2C_N.A.%2C> .
+
+loc:at_Wintrust_Bank%5Cn%5Cn231_S._LaSalle_Street%5Cn%5Cn2nd%C2%A0Floor%5Cn%5CnChicago%2C%C2%A0IL_60604 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%5CnWintrust_Bank%2C> .
+
+<http://example.org/org_name/%5CnMVC_GP_II%2C_LLC> a base:Organization ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnGUARANTORS%3A> ;
+    rel:hasEmployee person_name:James_Pinto .
+
+<http://example.org/org_name/Goldberg_Kohn_LTD.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:counsel ;
+    rel:hasLocationAt loc:55_East_Monroe%5Cn%5CnSuite%C2%A03300_Chicago%2C%C2%A0IL_60603 .
+
+org_name:Locke_Lord_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:legal_counsel ;
+    rel:hasLocationAt loc:111_South_Wacker_Drive%5Cn%5CnChicago%2C%C2%A0Illinois_60606 .
+
+<http://example.org/org_name/MVC_CAPITAL%2C%C2%A0INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER%3A ;
+    rel:hasLocationAt loc:287_Bowman_Ave_%23_241%5Cn%5CnPurchase%2C_NY_10577 .
+
+<http://example.org/org_name/Otterbourg_P.C.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:counsel ;
+    rel:hasLocationAt loc:230_Park_Avenue%5Cn%5CnNew_York%2C_New_York_10169 .
+
+person_name:Gregory_R._Russano a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnSANTANDER_BANK%2C_N.A.%2C> .
+
+person_name:James_Pinto a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Executive_Officer,
+        person_position:Manager ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnMVC_GP_II%2C_LLC> .
+
+person_name:John_Paul_Hills a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:VP ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnWintrust_Bank%2C> .
+
+<http://example.org/org_name/%5CnSANTANDER_BANK%2C_N.A.%2C> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Gregory_R._Russano ;
+    rel:hasLocationAt loc:830_Morris_Turnpike%2C_3rd%C2%A0Floor%5Cn%5CnShort_Hills%2C_NJ_07078 .
+
+<http://example.org/org_name/%5CnWintrust_Bank%2C> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:John_Paul_Hills ;
+    rel:hasLocationAt loc:at_Wintrust_Bank%5Cn%5Cn231_S._LaSalle_Street%5Cn%5Cn2nd%C2%A0Floor%5Cn%5CnChicago%2C%C2%A0IL_60604 .
+

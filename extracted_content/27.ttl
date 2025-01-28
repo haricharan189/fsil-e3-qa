@@ -1,0 +1,65 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/AF_V_ENERGY_I_HOLDINGS%2C_L.P.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:GASTAR_MIDCO_HOLDINGS_LLC%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+loc:2029_Century_Park_East%2C_33rd_Floor%2C_Los_Angeles%2C_CA_90067 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Milbank_Tweed_Hadley_%26_McCloy_LLP .
+
+org_name:GASTAR_MIDCO_HOLDINGS_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER ;
+    rel:hasEmployee person_name:Michael_A._Gerlich .
+
+person_name:Adam_Moses a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:Milbank_Tweed_Hadley_%26_McCloy_LLP ;
+    rel:isEmployedBy org_name:Milbank_Tweed_Hadley_%26_McCloy_LLP .
+
+person_name:Gary_Levin a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy <http://example.org/org_name/AF_V_Energy_I_Holdings%2C_L.P.> .
+
+person_name:Michael_A._Gerlich a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial,
+        person_position:Officer,
+        person_position:Secretary,
+        person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:GASTAR_MIDCO_HOLDINGS_LLC .
+
+loc:Ares_Management_LLC%2C_2000_Avenue_of_the_Stars%2C_12th_Floor%2C_Los_Angeles%2C_CA%C2%A0%C2%A090067 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/AF_V_Energy_I_Holdings%2C_L.P.>,
+        org_name:Gastar_Midco_Holdings_LLC .
+
+person_name:Eric_Waxman a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_name/AF_V_Energy_I_Holdings%2C_L.P.>,
+        org_name:Gastar_Midco_Holdings_LLC ;
+    rel:isEmployedBy <http://example.org/org_name/AF_V_Energy_I_Holdings%2C_L.P.>,
+        org_name:Gastar_Midco_Holdings_LLC .
+
+org_name:Gastar_Midco_Holdings_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Eric_Waxman ;
+    rel:hasLocationAt loc:Ares_Management_LLC%2C_2000_Avenue_of_the_Stars%2C_12th_Floor%2C_Los_Angeles%2C_CA%C2%A0%C2%A090067 .
+
+org_name:Milbank_Tweed_Hadley_%26_McCloy_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Adam_Moses ;
+    rel:hasLocationAt loc:2029_Century_Park_East%2C_33rd_Floor%2C_Los_Angeles%2C_CA_90067 .
+
+<http://example.org/org_name/AF_V_Energy_I_Holdings%2C_L.P.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Eric_Waxman,
+        person_name:Gary_Levin ;
+    rel:hasLocationAt loc:Ares_Management_LLC%2C_2000_Avenue_of_the_Stars%2C_12th_Floor%2C_Los_Angeles%2C_CA%C2%A0%C2%A090067 .
+

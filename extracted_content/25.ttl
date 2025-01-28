@@ -1,0 +1,65 @@
+@prefix base: <http://example.org/base/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+org_name:CORTLAND_CAPITAL_MARKET_SERVICES_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lenders .
+
+org_name:Cortland_Capital_Market_Services_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:Delaware_corporation a base:Organization .
+
+org_name:Delaware_limited_liability_company a base:Organization .
+
+<http://example.org/org_name/FIVE_OAKS_ACQUISITION_CORP.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+org_name:FIVE_OAKS_ACQUISITION_CORP._AND_HUNT_CMT_EQUITY%2C_LLC%5Cn%5Cn a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors .
+
+<http://example.org/org_name/Five_Oaks_Acquisition_Corp.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors .
+
+org_name:HUNT_COMPANIES_FINANCE_TRUST%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+<http://example.org/org_name/HUNT_COMPANIES_FINANCE_TRUST%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+org_name:Hunt_CMT_Equity%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors .
+
+<http://example.org/org_name/Hunt_Companies_Finance_Trust%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+org_name:Maryland_corporation a base:Organization .
+
+org_name:CORTLAND_CAPITAL_MARKET_SERVICES%5Cn%C2%A0%09LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent ;
+    rel:hasEmployee person_name:Emily_Ergang_Pappas .
+
+org_name:HUNT_CMT_EQUITY%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasEmployee person_name:Michael_Larsen .
+
+org_name:JEFFERIES_LEVERAGED_CREDIT_PRODUCTS%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:William_P._McLoughlin .
+
+person_name:Emily_Ergang_Pappas a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Associate_Counsel ;
+    rel:isEmployedBy org_name:CORTLAND_CAPITAL_MARKET_SERVICES%5Cn%C2%A0%09LLC .
+
+person_name:Michael_Larsen a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:President ;
+    rel:isEmployedBy org_name:HUNT_CMT_EQUITY%2C_LLC .
+
+person_name:William_P._McLoughlin a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:SVP ;
+    rel:isEmployedBy org_name:JEFFERIES_LEVERAGED_CREDIT_PRODUCTS%2C_LLC .
+

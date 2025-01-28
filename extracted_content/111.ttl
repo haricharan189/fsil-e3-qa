@@ -1,0 +1,148 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+org_name:ENSTAR_%28US_ASIA-PAC%29_HOLDINGS_LIMITED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_role:Guarantors .
+
+org_name:ENSTAR_GROUP_LIMITED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+org_name:ENSTAR_HOLDINGS_%28US%29_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_role:Guarantors .
+
+org_name:KENMARE_HOLDINGS_LTD a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+<http://example.org/org_name/KENMARE_HOLDINGS_LTD.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors .
+
+org_name:NATIONAL_AUSTRALIA_BANK_LIMITED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners%5Cn,
+        org_role:Lender .
+
+org_name:SUNTRUST_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender .
+
+<http://example.org/org_name/SUNTRUST_ROBINSON_HUMPHREY%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners%5Cn .
+
+org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners%5Cn .
+
+org_name:a a base:Organization .
+
+loc:MAC_D1109-019%5Cn1525_West_W.T._Harris_Blvd.%5CnCharlotte%2C_NC_28262 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Wells_Fargo_Bank%2C_National_Association .
+
+loc:One_Wells_Fargo_Center%2C_11th_Floor%5Cn301_South_College_Street%5CnCharlotte%2C_North_Carolina_28202 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Wells_Fargo_Bank%2C_National_Association .
+
+loc:Windsor_Place%2C_4th_Floor%5Cn22_Queen_Street%2C%5CnHamilton_HM11%2C_Bermuda a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Loan_Party .
+
+org_name:BARCLAYS_BANK_PLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Eoin_Naughton .
+
+org_name:JPMORGAN_CHASE_BANK%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Hector_J._Varona .
+
+org_name:Loan_Party a base:Organization ;
+    rel:hasLocationAt loc:Windsor_Place%2C_4th_Floor%5Cn22_Queen_Street%2C%5CnHamilton_HM11%2C_Bermuda .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
+        org_role:Agent,
+        org_role:Lender ;
+    rel:hasEmployee person_name:William_R._Goley .
+
+person_name:Bill_Seabrook a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NOVA_SCOTIA .
+
+person_name:Clive_Paul_Thomas a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NOVA_SCOTIA .
+
+person_name:Doug_Kennedy a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NOVA_SCOTIA .
+
+person_name:Duncan_Scott a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NOVA_SCOTIA .
+
+person_name:Eoin_Naughton a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director%5Cn ;
+    rel:isEmployedBy org_name:BARCLAYS_BANK_PLC .
+
+person_name:Guy_Bowker a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
+    rel:isEmployedBy org_name:ENSTAR_%28US%29_INC .
+
+person_name:Hector_J._Varona a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
+    rel:isEmployedBy org_name:JPMORGAN_CHASE_BANK%2C_N.A .
+
+person_name:Jennifer_Miu a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
+    rel:isEmployedBy org_name:ENSTAR_%28US%29_INC .
+
+person_name:Kevin_Chan a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:THE_BANK_OF_NOVA_SCOTIA .
+
+person_name:Louise_Twiss_West a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Head_of_Financial_Institutions_Group ;
+    rel:isEmployedBy org_name:HSBC_BANK_BERMUDA_LIMITED .
+
+person_name:Neville_Grant a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Head_of_Corporate_Banking ;
+    rel:isEmployedBy org_name:HSBC_BANK_BERMUDA_LIMITED .
+
+person_name:Will_Goley a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:Wells_Fargo_Bank%2C_National_Association ;
+    rel:isEmployedBy org_name:Wells_Fargo_Bank%2C_National_Association .
+
+person_name:William_R._Goley a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
+
+org_name:ENSTAR_%28US%29_INC a base:Organization ;
+    rel:hasEmployee person_name:Guy_Bowker,
+        person_name:Jennifer_Miu .
+
+org_name:HSBC_BANK_BERMUDA_LIMITED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Louise_Twiss_West,
+        person_name:Neville_Grant .
+
+org_name:Wells_Fargo_Bank%2C_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent ;
+    rel:hasEmployee person_name:Will_Goley ;
+    rel:hasLocationAt loc:MAC_D1109-019%5Cn1525_West_W.T._Harris_Blvd.%5CnCharlotte%2C_NC_28262,
+        loc:One_Wells_Fargo_Center%2C_11th_Floor%5Cn301_South_College_Street%5CnCharlotte%2C_North_Carolina_28202 .
+
+org_name:THE_BANK_OF_NOVA_SCOTIA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Bill_Seabrook,
+        person_name:Clive_Paul_Thomas,
+        person_name:Doug_Kennedy,
+        person_name:Duncan_Scott,
+        person_name:Kevin_Chan .
+

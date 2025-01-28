@@ -1,0 +1,193 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/%5CnMORGAN_STANLEY_BANK%2C_N.A> a base:Organization .
+
+<http://example.org/org_name/%5CnPNC_BANK> a base:Organization .
+
+org_name:BARCLAYS_BANK_PLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:AGENT,
+        org_role:ARRANGERS,
+        org_role:BOOKRUNNERS .
+
+org_name:CREDIT_SUISSE_SECURITIES_%28USA%29_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:ARRANGERS,
+        org_role:BOOKRUNNERS .
+
+org_name:CoBank%2C_ACB a base:Organization .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization .
+
+org_name:NOMURA_CORPORATE_FUNDING%5CnAMERICAS%2C_LLC%2C a base:Organization .
+
+org_name:WELLS_FARGO_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:AGENT .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        <http://example.org/org_role/L/C_Issuer>,
+        org_role:Lender .
+
+org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BOOKRUNNERS .
+
+loc:10_S._Wacker_Drive_22nd_Floor%5CnChicago%2C_IL_60606 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Wells_Fargo_Corporate_Banking .
+
+loc:1525_West_W.T._Harris_Boulevard%5CnCharlotte%2C_NC_28262 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Wells_Fargo_Bank%2C_National_Association .
+
+loc:2503_S._Hanley_Road%5CnSt._Louis%2C_MO_63144 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Post_Holdings%2C_Inc.> .
+
+loc:600_Washington_Avenue%2C_Suite_2500%5CnSt._Louis%2C_MO_63101%5Cn a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Lewis%2C_Rice_%26_Fingersh%2C_L.C .
+
+loc:885_Third_Avenue%5CnNew_York%2C_NY_10022 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Latham_%26_Watkins_LLP .
+
+loc:CAYMAN_ISLANDS a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location,
+        location_type:BRANCH ;
+    rel:isLocationOf org_name:CREDIT_SUISSE_AG .
+
+org_name:BANK_OF_THE_WEST a base:Organization ;
+    rel:hasEmployee person_name:Roger_Lumley .
+
+org_name:CREDIT_SUISSE_AG a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:AGENTS ;
+    rel:hasLocationAt loc:CAYMAN_ISLANDS .
+
+org_name:Latham_%26_Watkins_LLP a base:Organization ;
+    rel:hasLocationAt loc:885_Third_Avenue%5CnNew_York%2C_NY_10022 .
+
+<http://example.org/org_name/POST_HOLDINGS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER ;
+    rel:hasEmployee person_name:Diedre_J._Gray .
+
+<http://example.org/org_name/Post_Holdings%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:2503_S._Hanley_Road%5CnSt._Louis%2C_MO_63144 .
+
+org_name:Stifel_Bank_%26_Trust a base:Organization ;
+    rel:hasEmployee person_name:John_H._Phillips .
+
+org_name:Wells_Fargo_Bank%2C_National_Association a base:Organization ;
+    rel:hasLocationAt loc:1525_West_W.T._Harris_Boulevard%5CnCharlotte%2C_NC_28262 .
+
+org_name:Wells_Fargo_Corporate_Banking a base:Organization ;
+    rel:hasLocationAt loc:10_S._Wacker_Drive_22nd_Floor%5CnChicago%2C_IL_60606 .
+
+person_name:Brendan_Korb a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BMO_Harris_Financing_Inc.> .
+
+person_name:Carl_A._Mayer_III a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:COOPERATIEVE_CENTRALE%5CnRAIFFEISEN-BOERENLEENBANK .
+
+person_name:Charles_D._Johnston a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:GOLDMAN_SACHS_BANK_USA .
+
+person_name:Christopher_Day a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:GOLDMAN_SACHS_BANK_USA .
+
+person_name:Daniel_J._Miller a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BMO_Harris_Financing_Inc.> .
+
+person_name:Daniel_R._Van_Aken a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:SUNTRUST_BANK .
+
+person_name:Diedre_J._Gray a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:General_Counsel,
+        person_position:SVP,
+        person_position:Secretary ;
+    rel:isEmployedBy <http://example.org/org_name/POST_HOLDINGS%2C_INC.> .
+
+person_name:Hal_Nelson a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BMO_Harris_Financing_Inc.> .
+
+person_name:J._Haynes_Gentry_III a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:SUNTRUST_BANK .
+
+person_name:Joan_Spiotto a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BMO_Harris_Financing_Inc.> .
+
+person_name:John_H._Phillips a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Vice_President ;
+    rel:isEmployedBy org_name:Stifel_Bank_%26_Trust .
+
+person_name:Kelly_Chin a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:GOLDMAN_SACHS_BANK_USA .
+
+person_name:Peter_Duncan a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:COOPERATIEVE_CENTRALE%5CnRAIFFEISEN-BOERENLEENBANK .
+
+person_name:Peter_Glawe a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
+    rel:isEmployedBy org_name:COOPERATIEVE_CENTRALE%5CnRAIFFEISEN-BOERENLEENBANK .
+
+person_name:Roger_Lumley a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:BANK_OF_THE_WEST .
+
+person_name:Ronnie_Glenn a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BMO_Harris_Financing_Inc.> .
+
+person_name:Samuel_Miller a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:GOLDMAN_SACHS_BANK_USA .
+
+person_name:Tom_W._Zook a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:Lewis%2C_Rice_%26_Fingersh%2C_L.C ;
+    rel:isEmployedBy org_name:Lewis%2C_Rice_%26_Fingersh%2C_L.C .
+
+org_name:SUNTRUST_BANK a base:Organization ;
+    rel:hasEmployee person_name:Daniel_R._Van_Aken,
+        person_name:J._Haynes_Gentry_III .
+
+org_name:COOPERATIEVE_CENTRALE%5CnRAIFFEISEN-BOERENLEENBANK a base:Organization ;
+    rel:hasEmployee person_name:Carl_A._Mayer_III,
+        person_name:Peter_Duncan,
+        person_name:Peter_Glawe .
+
+org_name:Lewis%2C_Rice_%26_Fingersh%2C_L.C a base:Organization ;
+    rel:hasEmployee person_name:Tom_W._Zook ;
+    rel:hasLocationAt loc:600_Washington_Avenue%2C_Suite_2500%5CnSt._Louis%2C_MO_63101%5Cn .
+
+org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:AGENTS,
+        org_role:ARRANGERS,
+        org_role:BOOKRUNNERS ;
+    rel:hasEmployee person_name:Charles_D._Johnston,
+        person_name:Christopher_Day,
+        person_name:Kelly_Chin,
+        person_name:Samuel_Miller .
+
+<http://example.org/org_name/BMO_Harris_Financing_Inc.> a base:Organization ;
+    rel:hasEmployee person_name:Brendan_Korb,
+        person_name:Daniel_J._Miller,
+        person_name:Hal_Nelson,
+        person_name:Joan_Spiotto,
+        person_name:Ronnie_Glenn .
+

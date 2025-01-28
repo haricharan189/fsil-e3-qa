@@ -1,0 +1,241 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lenders,
+        org_role:agents .
+
+org_name:BNP_PARIBAS a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lenders,
+        org_role:agents .
+
+<http://example.org/org_name/BNP_PARIBAS_SECURITIES_CORP.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+<http://example.org/org_name/BOFA_SECURITIES%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+<http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Arrangers,
+        org_role:Bookrunners,
+        org_role:Lenders .
+
+org_name:CREDIT_AGRICOLE_CORPORATE_AND_INVESTMENT_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lenders .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners,
+        org_role:Lenders,
+        org_role:agents .
+
+<http://example.org/org_name/MIZUHO_BANK%2C_LTD.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners,
+        org_role:Lenders,
+        org_role:agents .
+
+<http://example.org/org_name/MUFG_BANK%2C_LTD.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners,
+        org_role:Lenders,
+        org_role:agents .
+
+org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lenders .
+
+org_name:SUMITOMO_MITSUI_BANKING_CORPORATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners,
+        org_role:Lenders,
+        org_role:agents .
+
+org_name:THE_BANK_OF_NOVA_SCOTIA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lenders .
+
+org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lenders .
+
+loc:10560_Dr.%C2%A0Martin_Luther_King%2C_Jr_St._North%5Cn%5CnSt._Petersburg%2C_FL_33716 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Jabil_Inc.> .
+
+loc:10560_Ninth_Street%5Cn%5CnSt._Petersburg%2C_FL_33716 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Jabil_Circuit%2C_Inc.> .
+
+loc:10_S._Dearborn%5Cn%5CnChicago%2C_IL_60670 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> .
+
+loc:11333_McCormick_Road%5Cn%5CnMailcode%3A_MD5-032-07-05%5Cn%5CnHunt_Valley%2C_MD_21031 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:BA_Leasing_BSC%2C_LLC .
+
+loc:1615_Brett_Road%2C_Building_%233%5Cn%5CnNew_Castle%2C_Delaware_19720 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Citibank%2C_N.A.> .
+
+org_name:BANK_OF_CHINA%2C_NEW_YORK_BRANCH a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lenders ;
+    rel:hasEmployee person_name:Raymond_Qiao .
+
+org_name:BA_Leasing_BSC%2C_LLC a base:Organization ;
+    rel:hasLocationAt loc:11333_McCormick_Road%5Cn%5CnMailcode%3A_MD5-032-07-05%5Cn%5CnHunt_Valley%2C_MD_21031 .
+
+<http://example.org/org_name/Citibank%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent ;
+    rel:hasLocationAt loc:1615_Brett_Road%2C_Building_%233%5Cn%5CnNew_Castle%2C_Delaware_19720 .
+
+<http://example.org/org_name/JABIL_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Sergio_A._Cadavid .
+
+<http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> a base:Organization ;
+    rel:hasLocationAt loc:10_S._Dearborn%5Cn%5CnChicago%2C_IL_60670 .
+
+<http://example.org/org_name/Jabil_Circuit%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:10560_Ninth_Street%5Cn%5CnSt._Petersburg%2C_FL_33716 .
+
+<http://example.org/org_name/Jabil_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:10560_Dr.%C2%A0Martin_Luther_King%2C_Jr_St._North%5Cn%5CnSt._Petersburg%2C_FL_33716 .
+
+org_name:STANDARD_CHARTERED_BANK%5Cn a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lenders ;
+    rel:hasEmployee person_name:James_Beck .
+
+person_name:Andrew_Sidford a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:BANCO_SANTANDER%2C_S.A.%2C_NEW_YORK_BRANCH .
+
+person_name:Brendan_Heneghan a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION .
+
+person_name:Brett_Bonet a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION .
+
+person_name:Dan_Beckwith a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:DBS_BANK_LTD .
+
+person_name:Dayi_Liu a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
+    rel:isEmployedBy org_name:INDUSTRIAL_AND_COMMERCIAL_BANK_OF_CHINA_LIMITED%2C_NEW_YORK_BRANCH .
+
+person_name:Derek_Jensen a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION%5Cn .
+
+person_name:Gordon_Yip a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION .
+
+person_name:James_Beck a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Associate_Director%5Cn ;
+    rel:isEmployedBy org_name:STANDARD_CHARTERED_BANK%5Cn .
+
+person_name:Juliana_Fong a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:DBS_BANK_LTD .
+
+person_name:Karim_Remtoula a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION%5Cn .
+
+person_name:Lillian_Kim a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION .
+
+person_name:Michael_Maguire a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:BANCO_SANTANDER%2C_S.A.%2C_NEW_YORK_BRANCH .
+
+person_name:Michelle_C._Phillips a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:BANCO_SANTANDER%2C_S.A.%2C_NEW_YORK_BRANCH .
+
+person_name:Min_Park a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION%5Cn .
+
+person_name:Puneet_Lakhotia a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION%5Cn .
+
+person_name:Raymond_Qiao a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Vice_President ;
+    rel:isEmployedBy org_name:BANK_OF_CHINA%2C_NEW_YORK_BRANCH .
+
+<http://example.org/person_name/Richard_J._Ameny%2C_Jr.> a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION%5Cn .
+
+person_name:Rita_Walz-Cuccioli a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
+    rel:isEmployedBy org_name:INDUSTRIAL_AND_COMMERCIAL_BANK_OF_CHINA_LIMITED%2C_NEW_YORK_BRANCH .
+
+person_name:Sergio_A._Cadavid a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Treasurer ;
+    rel:isEmployedBy <http://example.org/org_name/JABIL_INC.> .
+
+person_name:Susan_M._Olsen a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION%5Cn .
+
+person_name:Tony_Huang a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION .
+
+person_name:Tracy_Rahn a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
+    rel:isEmployedBy org_name:INDUSTRIAL_AND_COMMERCIAL_BANK_OF_CHINA_LIMITED%2C_NEW_YORK_BRANCH .
+
+person_name:Xavier_Ruiz_Sena a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:BANCO_SANTANDER%2C_S.A.%2C_NEW_YORK_BRANCH .
+
+org_name:DBS_BANK_LTD a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lenders ;
+    rel:hasEmployee person_name:Dan_Beckwith,
+        person_name:Juliana_Fong .
+
+org_name:INDUSTRIAL_AND_COMMERCIAL_BANK_OF_CHINA_LIMITED%2C_NEW_YORK_BRANCH a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lenders ;
+    rel:hasEmployee person_name:Dayi_Liu,
+        person_name:Rita_Walz-Cuccioli,
+        person_name:Tracy_Rahn .
+
+org_name:BANCO_SANTANDER%2C_S.A.%2C_NEW_YORK_BRANCH a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lenders ;
+    rel:hasEmployee person_name:Andrew_Sidford,
+        person_name:Michael_Maguire,
+        person_name:Michelle_C._Phillips,
+        person_name:Xavier_Ruiz_Sena .
+
+org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lenders ;
+    rel:hasEmployee person_name:Brendan_Heneghan,
+        person_name:Brett_Bonet,
+        person_name:Gordon_Yip,
+        person_name:Lillian_Kim,
+        person_name:Tony_Huang .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION%5Cn a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lenders ;
+    rel:hasEmployee person_name:Derek_Jensen,
+        person_name:Karim_Remtoula,
+        person_name:Min_Park,
+        person_name:Puneet_Lakhotia,
+        <http://example.org/person_name/Richard_J._Ameny%2C_Jr.>,
+        person_name:Susan_M._Olsen .
+

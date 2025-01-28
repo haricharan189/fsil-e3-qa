@@ -1,0 +1,51 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+org_name:BOKF%2C_N.A.%2C_A_NATIONAL_BANKING_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/EARTHSTONE_ENERGY_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+loc:633%C2%A017th_Street%2C_Suite_1900%5CnDenver%2C_Colorado_80202-3619 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location,
+        location_type:Address_for_Notices%3A ;
+    rel:isLocationOf org_name:EARTHSTONE_ENERGY_INC .
+
+loc:Bank_of_Oklahoma%5Cn1625_Broadway%2C_Suite_1100%5CnDenver%2C_Colorado_80202 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location,
+        location_type:Address_for_Notices%3A ;
+    rel:isLocationOf org_name:BANK_OF_OKLAHOMA .
+
+loc:P.O._Box_248817%5CnOklahoma_City%2C_Oklahoma_73124-8817 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location,
+        location_type:Payment_Processing_Center ;
+    rel:isLocationOf org_name:BANK_OF_OKLAHOMA .
+
+person_name:Ray_Singleton a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Executive_Officer,
+        person_position:President ;
+    rel:isEmployedBy org_name:EARTHSTONE_ENERGY_INC .
+
+person_name:Thomas_M._Foncannon a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:BANK_OF_OKLAHOMA .
+
+org_name:EARTHSTONE_ENERGY_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER ;
+    rel:hasEmployee person_name:Ray_Singleton ;
+    rel:hasLocationAt loc:633%C2%A017th_Street%2C_Suite_1900%5CnDenver%2C_Colorado_80202-3619 .
+
+org_name:BANK_OF_OKLAHOMA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDER,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Thomas_M._Foncannon ;
+    rel:hasLocationAt loc:Bank_of_Oklahoma%5Cn1625_Broadway%2C_Suite_1100%5CnDenver%2C_Colorado_80202,
+        loc:P.O._Box_248817%5CnOklahoma_City%2C_Oklahoma_73124-8817 .
+

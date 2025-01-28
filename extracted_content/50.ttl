@@ -1,0 +1,105 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/%5CnFIFTH_THRID_BANK> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:BANK_OF_AMERICA%2C_N.A.%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:FIFTH_THIRD_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents .
+
+org_name:JPMORGAN%C2%A0CHASE%C2%A0BANK%2C%C2%A0N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents,
+        org_role:Lender .
+
+org_name:WELLS%C2%A0FARGO%C2%A0BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Joint_Bookrunners .
+
+loc:10_South_Dearborn%2C_Floor_L2%5Cn%5CnChicago%2C_Illinois_60603%5Cn%5Cn a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Arrangers,
+        org_role:Joint_Bookrunners,
+        org_role:Lender ;
+    rel:hasLocationAt loc:10_South_Dearborn%2C_Floor_L2%5Cn%5CnChicago%2C_Illinois_60603%5Cn%5Cn .
+
+<http://example.org/org_name/MYRIAD_GENETICS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:R._Bryan_Riggsbee .
+
+org_name:SILICON_VALLEY_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Derek_R._Brunelle .
+
+person_name:Darin_Mullis a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:WELLS_FARGO_BANK .
+
+person_name:David_Green a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:PNC_BANK .
+
+person_name:Derek_R._Brunelle a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:SILICON_VALLEY_BANK .
+
+person_name:Laura_Woodward a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:PNC_BANK .
+
+person_name:Michael_R._Brough a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:ZIONS_FIRST_NATIONAL_BANK .
+
+person_name:Philip_K._Lievscher a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:PNC_BANK .
+
+person_name:R._Bryan_Riggsbee a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
+    rel:isEmployedBy <http://example.org/org_name/MYRIAD_GENETICS%2C_INC.> .
+
+person_name:William_D._Priester a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:ZIONS_FIRST_NATIONAL_BANK .
+
+person_name:Yinghua_Zhang a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:WELLS_FARGO_BANK .
+
+org_name:WELLS_FARGO_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent ;
+    rel:hasEmployee person_name:Darin_Mullis,
+        person_name:Yinghua_Zhang .
+
+org_name:ZIONS_FIRST_NATIONAL_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Michael_R._Brough,
+        person_name:William_D._Priester .
+
+org_name:PNC_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents,
+        org_role:Lender ;
+    rel:hasEmployee person_name:David_Green,
+        person_name:Laura_Woodward,
+        person_name:Philip_K._Lievscher .
+

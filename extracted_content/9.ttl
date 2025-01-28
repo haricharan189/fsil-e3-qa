@@ -1,0 +1,182 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+loc:383_Madison_Avenue%2C_FL_24%09%C2%A0%C2%A0%09%5Cn%C2%A0%C2%A0%09New_York%2C_NY_10179 a base:Location .
+
+org_name:BANK_OF_AMERICA%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:BRANCH_BANKING_AND_TRUST_COMPANY a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/Bank_of_America%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents .
+
+org_name:Barclays_Bank_PLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Arrangers .
+
+org_name:CITIBANK%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+<http://example.org/org_name/Citibank%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents .
+
+org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:HAVERHILL_COGENERATION_COMPANY_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+org_name:HAVERHILL_COKE_COMPANY_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+org_name:HAVERHILL_COKE_COMPANY_LLC%5Cn a base:Organization .
+
+org_name:J.P._MORGAN_SECURITIES_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger,
+        org_role:Bookrunner .
+
+org_name:J.P._Morgan_Securities_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers .
+
+org_name:JPMORGAN_CHASE_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+<http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:MIDDLETOWN_COKE_COMPANY%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+org_name:MIDDLETOWN_COKE_COMPANY%2C_LLC%5Cn a base:Organization .
+
+org_name:RBS_SECURITIES_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger,
+        org_role:Bookrunner .
+
+org_name:RBS_Securities_Inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers .
+
+org_name:THE_ROYAL_BANK_OF_SCOTLAND a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:The_Royal_Bank_of_Scotland_plc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents .
+
+loc:1011_Warrenville_Road%09%C2%A0%C2%A0%09%5Cn%C2%A0%C2%A0%09Suite_600%09%C2%A0%C2%A0%09%5Cn%C2%A0%C2%A0%09Lisle%2C_IL_60532 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/SUNCOKE_ENERGY_PARTNERS%2C_L.P.> .
+
+loc:500_Stanton_Christiana_Road%2C_Ops_2%2C_Floor_3%09%C2%A0%C2%A0%09%5Cn%C2%A0%C2%A0%09Newark%2C_Delaware_19713-2107 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/SUNCOKE_ENERGY_PARTNERS%2C_L.P.> .
+
+<http://example.org/org_name/%5CnCREDIT_SUISSE_AG%2C_CAYMAN_ISLANDS_BRANCH> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Wei-Jen_Yuan .
+
+<http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Raymond_G._Dunning .
+
+org_name:MIDDLETOWN_COGENERATION_COMPANY_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Mark_E._Newman .
+
+org_name:THE_ROYAL_BANK_OF_SCOTLAND_plc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Brian_D._Williams .
+
+person_name:Ann_E._Sutton a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:BARCLAYS_BANK_PLC .
+
+person_name:Brian_D._Williams a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorised_Signatory ;
+    rel:isEmployedBy org_name:THE_ROYAL_BANK_OF_SCOTLAND_plc .
+
+person_name:Denise_R._Cade a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_name/SUNCOKE_ENERGY_PARTNERS%2C_L.P.> ;
+    rel:isEmployedBy <http://example.org/org_name/SUNCOKE_ENERGY_PARTNERS%2C_L.P.> .
+
+person_name:Eric_Searls a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/SUNCOKE_ENERGY_PARTNERS%2C_L.P.> .
+
+person_name:Ido_Yehuda a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK%2C_N.A.> ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK%2C_N.A.> .
+
+person_name:James_Disher a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA> .
+
+person_name:Jonathan_M._Phillips a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/SUNCOKE_ENERGY_PARTNERS%2C_L.P.> .
+
+person_name:Mark_Walton a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA> .
+
+person_name:Mikhail_Faybusovich a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:BARCLAYS_BANK_PLC .
+
+person_name:Peter_Predun a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK%2C_N.A.> .
+
+person_name:Raymond_G._Dunning a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/CITIBANK%2C_N.A.> .
+
+person_name:Wei-Jen_Yuan a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Associate ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnCREDIT_SUISSE_AG%2C_CAYMAN_ISLANDS_BRANCH> .
+
+<http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:James_Disher,
+        person_name:Mark_Walton .
+
+org_name:BARCLAYS_BANK_PLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Arranger,
+        org_role:Bookrunner,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Ann_E._Sutton,
+        person_name:Mikhail_Faybusovich .
+
+person_name:Mark_E._Newman a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_name/SUNCOKE_ENERGY_PARTNERS%2C_L.P.>,
+        person_position:Chief_Financial_Officer,
+        person_position:Senior_Vice_President,
+        person_position:Treasurer ;
+    rel:isEmployedBy org_name:MIDDLETOWN_COGENERATION_COMPANY_LLC,
+        <http://example.org/org_name/SUNCOKE_ENERGY_PARTNERS%2C_L.P.> .
+
+<http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Ido_Yehuda,
+        person_name:Peter_Predun .
+
+<http://example.org/org_name/SUNCOKE_ENERGY_PARTNERS%2C_L.P.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Denise_R._Cade,
+        person_name:Eric_Searls,
+        person_name:Jonathan_M._Phillips,
+        person_name:Mark_E._Newman ;
+    rel:hasLocationAt loc:1011_Warrenville_Road%09%C2%A0%C2%A0%09%5Cn%C2%A0%C2%A0%09Suite_600%09%C2%A0%C2%A0%09%5Cn%C2%A0%C2%A0%09Lisle%2C_IL_60532,
+        loc:500_Stanton_Christiana_Road%2C_Ops_2%2C_Floor_3%09%C2%A0%C2%A0%09%5Cn%C2%A0%C2%A0%09Newark%2C_Delaware_19713-2107 .
+

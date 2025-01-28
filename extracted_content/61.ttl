@@ -1,0 +1,100 @@
+@prefix base: <http://example.org/base/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/%5CnWELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:BNP_Paribas a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agent .
+
+<http://example.org/org_name/BofA_Securities%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arranger,
+        org_role:bookrunner .
+
+<http://example.org/org_name/Citibank%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agent .
+
+org_name:DEUTSCHE_BANK_AG_NEW_YORK_BRANCH a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/Deutsche_Bank_Securities_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agent .
+
+<http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agent .
+
+org_name:Wells_Fargo_Bank%2C_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agent .
+
+<http://example.org/org_name/%5CnCITIBANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Ming_K_Chu .
+
+<http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:MARIA_RIAZ .
+
+org_name:BNP_PARIBAS a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Gregory_Paul .
+
+<http://example.org/org_name/CITRIX_SYSTEMS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER ;
+    rel:hasEmployee person_name:Brian_L._Shytle .
+
+person_name:Amanuel_Assefa a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
+person_name:Brian_L._Shytle a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Treasurer,
+        person_position:Vice_President%2C_Tax%C2%A0%26_Treasury ;
+    rel:isEmployedBy <http://example.org/org_name/CITRIX_SYSTEMS%2C_INC.> .
+
+person_name:Bridgett_J._Manduk-Mowry a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
+person_name:Christopher_Shafto a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
+person_name:Gregory_Paul a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:BNP_PARIBAS .
+
+person_name:Jim_Cahow a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director,
+        person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
+person_name:Liz_Cheng a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
+person_name:MARIA_RIAZ a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:VICE_PRESIDENT ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK%2C_N.A.> .
+
+person_name:Marko_Lukin a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
+person_name:Ming_K_Chu a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnCITIBANK%2C_N.A.> .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Amanuel_Assefa,
+        person_name:Bridgett_J._Manduk-Mowry,
+        person_name:Christopher_Shafto,
+        person_name:Jim_Cahow,
+        person_name:Liz_Cheng,
+        person_name:Marko_Lukin .
+

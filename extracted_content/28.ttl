@@ -1,0 +1,154 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/%5Cn%5CnCOLLEGIUM_PHARMACEUTICAL%2C_INC> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+org_name:BIOPHARMA_CREDIT_INVESTMENTS_V_%28MASTER%29_LP%5Cn%5Cn a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/COLLEGIUM_PHARMACEUTICAL_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+org_name:COLLEGIUM_SECURITIES_CORPORATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Credit_Party .
+
+org_name:Pharmakon_Advisors%2C_LP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Investment_Manager .
+
+org_name:Pharmakon_Management_I%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Partner .
+
+loc:100_Technology_Center_Drive%2C_Suite_300%5Cn%C2%A0%09Stoughton%2C_MA_02072 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Collegium_Pharmaceutical%2C_Inc.> .
+
+loc:110_East_59th_Street%2C_%233300%5Cn%5CnNew_York%2C_NY_10022 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:PHARMAKON_ADVISORS_LP .
+
+loc:110_East_59th_Street%2C_%233300%5Cn%C2%A0%09New_York%2C_NY_10022 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Pharmakon_Advisors_LP .
+
+loc:110_East_59th_Street%2C_%233300%5CnNew_York%2C_NY_10022 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:PHARMAKON_ADVISORS_LP .
+
+loc:3000_Two_Logan_Square%5Cn%C2%A0%09Philadelphia%2C_PA_19103 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Pepper_Hamilton_LLP .
+
+loc:51_New_North_Road%5Cn%C2%A0%09Exeter_EX4_4EP%5Cn%C2%A0%09United_Kingdom a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:BioPharma_Credit_PLC .
+
+loc:51_New_North_Road%5CnExeter_EX4_4EP%5CnUnited_Kingdom a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:BIOPHARMA_CREDIT_PLC .
+
+loc:Cayman_Corporate_Centre%2C_27_Hospital_Road%2C%5Cn%5CnGeorge_Town%2C_Grand_Cayman_KY1-9008 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:BIOPHARMA_CREDIT_INVESTMENTS_V_%28MASTER%29_LP .
+
+loc:One_Bryant_Park%5Cn%5CnNew_York%2C_NY_10036-6745 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:AKIN_GUMP_STRAUSS_HAUER_%26_FELD_LLP .
+
+loc:One_Bryant_Park%5Cn%C2%A0%09New_York%2C_NY_10036-6745 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Akin_Gump_Strauss_Hauer_%26_Feld_LLP .
+
+loc:One_Bryant_Park%5CnNew_York%2C_NY_10036-6745 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:AKIN_GUMP_STRAUSS_HAUER_%26_FELD_LLP .
+
+org_name:BIOPHARMA_CREDIT_PLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender ;
+    rel:hasLocationAt loc:51_New_North_Road%5CnExeter_EX4_4EP%5CnUnited_Kingdom .
+
+org_name:BioPharma_Credit_PLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent ;
+    rel:hasLocationAt loc:51_New_North_Road%5Cn%C2%A0%09Exeter_EX4_4EP%5Cn%C2%A0%09United_Kingdom .
+
+<http://example.org/org_name/COLLEGIUM_PHARMACEUTICAL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Joseph_Ciaffoni .
+
+person_name:Jen_Porter a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:Pepper_Hamilton_LLP ;
+    rel:isEmployedBy org_name:Pepper_Hamilton_LLP .
+
+person_name:Joseph_Ciaffoni a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Executive_Officer,
+        person_position:President ;
+    rel:isEmployedBy <http://example.org/org_name/COLLEGIUM_PHARMACEUTICAL%2C_INC.> .
+
+person_name:Paul_Brannelly a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_name/Collegium_Pharmaceutical%2C_Inc.> ;
+    rel:isEmployedBy <http://example.org/org_name/Collegium_Pharmaceutical%2C_Inc.> .
+
+person_name:Shirley_Kuhlmann a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_name/Collegium_Pharmaceutical%2C_Inc.> ;
+    rel:isEmployedBy <http://example.org/org_name/Collegium_Pharmaceutical%2C_Inc.> .
+
+person_name:Geoffrey_E._Secol a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:AKIN_GUMP_STRAUSS_HAUER_%26_FELD_LLP,
+        org_name:Akin_Gump_Strauss_Hauer_%26_Feld_LLP ;
+    rel:isEmployedBy org_name:AKIN_GUMP_STRAUSS_HAUER_%26_FELD_LLP,
+        org_name:Akin_Gump_Strauss_Hauer_%26_Feld_LLP .
+
+org_name:Akin_Gump_Strauss_Hauer_%26_Feld_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent ;
+    rel:hasEmployee person_name:Geoffrey_E._Secol ;
+    rel:hasLocationAt loc:One_Bryant_Park%5Cn%C2%A0%09New_York%2C_NY_10036-6745 .
+
+org_name:BIOPHARMA_CREDIT_INVESTMENTS_V_%28MASTER%29_LP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Pedro_Gonzalez_de_Cosio ;
+    rel:hasLocationAt loc:Cayman_Corporate_Centre%2C_27_Hospital_Road%2C%5Cn%5CnGeorge_Town%2C_Grand_Cayman_KY1-9008 .
+
+org_name:Pepper_Hamilton_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Jen_Porter ;
+    rel:hasLocationAt loc:3000_Two_Logan_Square%5Cn%C2%A0%09Philadelphia%2C_PA_19103 .
+
+org_name:Pharmakon_Advisors_LP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent ;
+    rel:hasEmployee person_name:Pedro_Gonzalez_de_Cosio ;
+    rel:hasLocationAt loc:110_East_59th_Street%2C_%233300%5Cn%C2%A0%09New_York%2C_NY_10022 .
+
+person_name:Pedro_Gonzalez_de_Cosio a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:BIOPHARMA_CREDIT_INVESTMENTS_V_%28MASTER%29_LP,
+        org_name:PHARMAKON_ADVISORS_LP,
+        org_name:Pharmakon_Advisors_LP,
+        person_position:CEO,
+        person_position:Managing_Member ;
+    rel:isEmployedBy org_name:BIOPHARMA_CREDIT_INVESTMENTS_V_%28MASTER%29_LP,
+        org_name:PHARMAKON_ADVISORS_LP,
+        org_name:Pharmakon_Advisors_LP .
+
+org_name:AKIN_GUMP_STRAUSS_HAUER_%26_FELD_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Geoffrey_E._Secol ;
+    rel:hasLocationAt loc:One_Bryant_Park%5Cn%5CnNew_York%2C_NY_10036-6745,
+        loc:One_Bryant_Park%5CnNew_York%2C_NY_10036-6745 .
+
+org_name:PHARMAKON_ADVISORS_LP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Pedro_Gonzalez_de_Cosio ;
+    rel:hasLocationAt loc:110_East_59th_Street%2C_%233300%5Cn%5CnNew_York%2C_NY_10022,
+        loc:110_East_59th_Street%2C_%233300%5CnNew_York%2C_NY_10022 .
+
+<http://example.org/org_name/Collegium_Pharmaceutical%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Paul_Brannelly,
+        person_name:Shirley_Kuhlmann ;
+    rel:hasLocationAt loc:100_Technology_Center_Drive%2C_Suite_300%5Cn%C2%A0%09Stoughton%2C_MA_02072 .
+

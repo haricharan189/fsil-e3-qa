@@ -1,0 +1,369 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix org_sub_role: <http://example.org/org_sub_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/%5CnHSBC_BANK_PLC> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:BARCLAYS_BANK_PLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Agents,
+        org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner,
+        org_role:Bookrunners,
+        org_role:Lender .
+
+org_name:BNP_Paribas_%28Canada%29 a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lenders .
+
+org_name:Barclays_Bank_PLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lenders .
+
+<http://example.org/org_name/CHC_DEN_HELDER_B.V.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers .
+
+org_name:CHC_Den_Helder_B.V a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers .
+
+<http://example.org/org_name/CHC_GLOBAL_OPERATIONS_%282008%29%C2%A0INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers .
+
+<http://example.org/org_name/CHC_GLOBAL_OPERATIONS_INTERNATIONAL_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers .
+
+org_name:CHC_GROUP_LTD a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+<http://example.org/org_name/CHC_GROUP_LTD.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+org_name:CHC_Global_Operations_%282008%29%C2%A0Inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers .
+
+<http://example.org/org_name/CHC_HELICOPTER_HOLDING_S.%C3%80%C2%A0R.L.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Holdco .
+
+<http://example.org/org_name/CHC_HELICOPTER_S.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+<http://example.org/org_name/CHC_HOLDING_NL_B.V.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers .
+
+org_name:CHC_Helicopter_S.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers .
+
+<http://example.org/org_name/CHC_NETHERLANDS_B.V.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers .
+
+org_name:CHC_NORWAY_ACQUISITION_CO_AS a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers .
+
+org_name:HELI-ONE_%28EUROPE%29_AS a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers .
+
+org_name:HELI-ONE_%28NORWAY%29_AS a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers .
+
+org_name:HELI-ONE_CANADA_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers .
+
+<http://example.org/org_name/HELI-ONE_LEASING_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers .
+
+org_name:HSBC_Bank_Canada a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lenders .
+
+org_name:J.P._MORGAN_SECURITIES_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents,
+        org_role:Arrangers,
+        org_role:Bookrunners .
+
+org_name:JPMorgan_Chase_Bank%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lenders .
+
+org_name:RBC_CAPITAL_MARKETS a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+org_name:Royal_Bank_of_Canada a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lenders .
+
+org_name:The_Standard_Bank_of_South_Africa_Limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lenders .
+
+org_name:UBS_Limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lenders .
+
+org_name:Wells_Fargo_Bank%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lenders .
+
+loc:2711_Centerville_Road%2C_Suite_400%5Cn%5CnWilmington%5Cn%5CnDelaware_19808 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Heli-One_%28U.S.%29_Inc.> .
+
+loc:4740_Agar_Drive%5Cn%5CnRichmond%2C_B.C.%5Cn%5CnV7B_1A3%5Cn%5CnCanada a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/ATC-RCS_Corporate_Services_%28Luxembourg%29_S.A.> .
+
+loc:8_Canada_Square%5Cn%5CnLondon_E14_5HQ a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:HSBC_Corporate_Trust_Company_%28UK%29_Limited .
+
+loc:9%2C_rue_Sainte_Zithe%2C_3rd_Floor%5Cn%5CnL-2763_Luxembourg%5Cn%5CnLuxembourg a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/ATC-RCS_Corporate_Services_%28Luxembourg%29_S.A.> .
+
+loc:Corporate_Trust%C2%A0%26_Loan_Agency%2C_Level_27%5Cn%5Cn8_Canada_Square%5Cn%5CnLondon_E14_5HQ a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:HSBC_Bank_plc .
+
+loc:Level_27%2C_8_Canada_Square%5Cn%5CnLondon_E14_5HQ a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:HSBC_Bank_plc .
+
+<http://example.org/org_name/6922767_HOLDING_S.%C3%80_R.L.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:The_Company ;
+    rel:hasLocationAt loc:13-15_avenue_de_la_Libert%C3%A9%2C_L-1931_Luxembourg .
+
+<http://example.org/org_name/CHC_Den_Helder_B.V.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries ;
+    rel:hasLocationAt loc:Netherlands .
+
+org_name:CHC_Global_Operations_%282008%29_Inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries ;
+    rel:hasLocationAt loc:Canada .
+
+org_name:CHC_Global_Operations_International_Inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Subsidiaries ;
+    rel:hasLocationAt loc:Canada .
+
+<http://example.org/org_name/CHC_HELICOPTER_HOLDING_S.%C3%80_R.L.> a base:Organization ;
+    rel:hasLocationAt loc:13-15_avenue_de_la_Libert%C3%A9%2C_L-1931_Luxembourg .
+
+org_name:CHC_HELICOPTER_S.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasLocationAt loc:13-15_avenue_de_la_Libert%C3%A9%2C_L-1931_Luxembourg .
+
+org_name:CHC_Holding_NL_B.V a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Subsidiaries ;
+    rel:hasLocationAt loc:Netherlands .
+
+org_name:CHC_Netherlands_B.V a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Subsidiaries ;
+    rel:hasLocationAt loc:Netherlands .
+
+org_name:CHC_Norway_Acquisition_Co_AS a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Subsidiaries ;
+    rel:hasLocationAt loc:Norway .
+
+org_name:HSBC_BANK_PLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent ;
+    rel:hasEmployee person_name:Jeremy_Causton .
+
+org_name:HSBC_CORPORATE_TRUSTEE_COMPANY_%28UK%29_LIMITED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent ;
+    rel:hasEmployee person_name:Jason_Blondell .
+
+org_name:HSBC_Corporate_Trust_Company_%28UK%29_Limited a base:Organization ;
+    rel:hasLocationAt loc:8_Canada_Square%5Cn%5CnLondon_E14_5HQ .
+
+org_name:Heli-One_%28Europe%29_AS a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Subsidiaries ;
+    rel:hasLocationAt loc:Norway .
+
+org_name:Heli-One_%28Norway%29_AS a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Subsidiaries ;
+    rel:hasLocationAt loc:Norway .
+
+<http://example.org/org_name/Heli-One_%28U.S.%29_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:2711_Centerville_Road%2C_Suite_400%5Cn%5CnWilmington%5Cn%5CnDelaware_19808 .
+
+org_name:Heli-One_Canada_Inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Subsidiaries ;
+    rel:hasLocationAt loc:Canada .
+
+org_name:Heli-One_Leasing_Inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Subsidiaries ;
+    rel:hasLocationAt loc:Canada .
+
+org_name:J.P._MORGAN_SECURITIES_LLC%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Arranger,
+        org_role:Bookrunner ;
+    rel:hasEmployee person_name:Gregg_L._Byers .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Muhammad_Hasan .
+
+org_name:THE_STANDARD_BANK_OF_SOUTH_AFRICA_LIMITED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:O._Lavitzson .
+
+org_name:UBS_SECURITIES_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Agents,
+        org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner,
+        org_role:Bookrunners ;
+    rel:hasEmployee person_name:Barbara_S._Wang .
+
+<http://example.org/org_name/WELLS_FARGO_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:John_Cantalupo .
+
+person_name:Alan_Greenhow a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:UBS_LIMITED .
+
+person_name:Ann_E._Sutton a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:UBS_LIMITED .
+
+person_name:Barbara_S._Wang a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director_and_Counsel_Region_Americas_Legal ;
+    rel:isEmployedBy org_name:UBS_SECURITIES_LLC .
+
+person_name:Chris_Golding a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director_Corporate_Banking ;
+    rel:isEmployedBy org_name:BNP_PARIBAS .
+
+person_name:Douglas_Brandes a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President_Commercial_Banking ;
+    rel:isEmployedBy org_name:HSBC_BANK_CANADA .
+
+person_name:Gregg_L._Byers a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
+    rel:isEmployedBy org_name:J.P._MORGAN_SECURITIES_LLC%2C .
+
+person_name:J._Campbell a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:UBS_LIMITED .
+
+person_name:Jason_Blondell a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorised_Signatory ;
+    rel:isEmployedBy org_name:HSBC_CORPORATE_TRUSTEE_COMPANY_%28UK%29_LIMITED .
+
+person_name:Jeremy_Causton a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorised_Signatory%5Cn ;
+    rel:isEmployedBy org_name:HSBC_BANK_PLC .
+
+person_name:John_Cantalupo a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/WELLS_FARGO_BANK%2C_N.A.> .
+
+person_name:John_Hanbury a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:ROYAL_BANK_OF_CANADA .
+
+person_name:John_Stholl a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:UBS_LIMITED .
+
+<http://example.org/person_name/Mark_Lumpkin%2C_Jr.> a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:ROYAL_BANK_OF_CANADA .
+
+person_name:Muhammad_Hasan a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
+
+person_name:O._Lavitzson a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive ;
+    rel:isEmployedBy org_name:THE_STANDARD_BANK_OF_SOUTH_AFRICA_LIMITED .
+
+person_name:Rebecca_Camden a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory,
+        person_position:Authorized_Signatory%5Cn ;
+    rel:isEmployedBy org_name:ROYAL_BANK_OF_CANADA .
+
+person_name:Todd_Patchell a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Assistant_Vice_President ;
+    rel:isEmployedBy org_name:HSBC_BANK_CANADA .
+
+person_name:Tony_Baratta a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director_Corporate_Coverage_Canada ;
+    rel:isEmployedBy org_name:BNP_PARIBAS .
+
+<http://example.org/org_name/ATC-RCS_Corporate_Services_%28Luxembourg%29_S.A.> a base:Organization ;
+    rel:hasLocationAt loc:4740_Agar_Drive%5Cn%5CnRichmond%2C_B.C.%5Cn%5CnV7B_1A3%5Cn%5CnCanada,
+        loc:9%2C_rue_Sainte_Zithe%2C_3rd_Floor%5Cn%5CnL-2763_Luxembourg%5Cn%5CnLuxembourg .
+
+org_name:BNP_PARIBAS a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Chris_Golding,
+        person_name:Tony_Baratta .
+
+org_name:HSBC_BANK_CANADA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bank,
+        org_role:Bookrunner,
+        org_role:Bookrunners,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Douglas_Brandes,
+        person_name:Todd_Patchell .
+
+org_name:HSBC_Bank_plc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent ;
+    rel:hasLocationAt loc:Corporate_Trust%C2%A0%26_Loan_Agency%2C_Level_27%5Cn%5Cn8_Canada_Square%5Cn%5CnLondon_E14_5HQ,
+        loc:Level_27%2C_8_Canada_Square%5Cn%5CnLondon_E14_5HQ .
+
+loc:13-15_avenue_de_la_Libert%C3%A9%2C_L-1931_Luxembourg a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location,
+        location_type:registered_office ;
+    rel:isLocationOf <http://example.org/org_name/6922767_HOLDING_S.%C3%80_R.L.>,
+        <http://example.org/org_name/CHC_HELICOPTER_HOLDING_S.%C3%80_R.L.>,
+        org_name:CHC_HELICOPTER_S.A .
+
+loc:Netherlands a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/CHC_Den_Helder_B.V.>,
+        org_name:CHC_Holding_NL_B.V,
+        org_name:CHC_Netherlands_B.V .
+
+loc:Norway a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:CHC_Norway_Acquisition_Co_AS,
+        org_name:Heli-One_%28Europe%29_AS,
+        org_name:Heli-One_%28Norway%29_AS .
+
+org_name:ROYAL_BANK_OF_CANADA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Agents,
+        org_role:Arranger,
+        org_role:Lender ;
+    rel:hasEmployee person_name:John_Hanbury,
+        <http://example.org/person_name/Mark_Lumpkin%2C_Jr.>,
+        person_name:Rebecca_Camden .
+
+loc:Canada a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:CHC_Global_Operations_%282008%29_Inc,
+        org_name:CHC_Global_Operations_International_Inc,
+        org_name:Heli-One_Canada_Inc,
+        org_name:Heli-One_Leasing_Inc .
+
+org_name:UBS_LIMITED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Alan_Greenhow,
+        person_name:Ann_E._Sutton,
+        person_name:J._Campbell,
+        person_name:John_Stholl .
+

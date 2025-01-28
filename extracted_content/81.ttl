@@ -4,8 +4,7 @@
 @prefix org_role: <http://example.org/org_role/> .
 @prefix rel: <http://example.org/relation/> .
 
-<http://example.org/org_name/%5CnBMCHPA%2C_INC> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:BORROWER .
+<http://example.org/org_name/%5CnBMCHPA%2C_INC> a base:Organization .
 
 <http://example.org/org_name/%5CnTRIAD_PERSONNEL_SERVICES%2C_INC> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:BORROWER .
@@ -15,6 +14,8 @@ org_name:BMCH%2C_INC a base:Organization ;
 
 org_name:BMPS%2C_INC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:BORROWER .
+
+org_name:BORROWER a base:Organization .
 
 org_name:BUSINESS_MANAGEMENT_PERSONNEL%2C_INC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:BORROWER .

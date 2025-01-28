@@ -1,0 +1,55 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+loc:222_Bay_Street%2C_15_Floor%5CnToronto%2C_ON_M5K_1A2 a base:Location .
+
+loc:222_Bay_Street%2C_15th_Floor%09%C2%A0%5Cn%C2%A0%09Toronto%2C_Ontario%C2%A0_M5K1A2 a base:Location .
+
+loc:27175_Energy_Way%5CnNovi%2C_MI_48377 a base:Location .
+
+org_name:Dykema_Gossett_PLLC a base:Organization .
+
+org_name:Simpson_Thacher_%26_Bartlett_LLP a base:Organization .
+
+org_name:TD_Securities_%28USA%29_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger .
+
+org_name:TORONTO_DOMINION_%28TEXAS%29_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:MICHIGAN_ELECTRIC_TRANSMISSION_COMPANY%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Gretchen_L._Holloway .
+
+org_name:TD_SECURITIES_%28USA%29_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger,
+        org_role:Bookrunner ;
+    rel:hasEmployee person_name:Pradeep_Mehra .
+
+person_name:Annie_Dorval a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:THE_TORONTO_DOMINION_BANK%2C_NEW_YORK_BRANCH .
+
+person_name:Brian_MacFarlane a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:THE_TORONTO_DOMINION_BANK%2C_NEW_YORK_BRANCH .
+
+person_name:Gretchen_L._Holloway a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer,
+        person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:MICHIGAN_ELECTRIC_TRANSMISSION_COMPANY%2C_LLC .
+
+person_name:Pradeep_Mehra a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:TD_SECURITIES_%28USA%29_LLC .
+
+org_name:THE_TORONTO_DOMINION_BANK%2C_NEW_YORK_BRANCH a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Annie_Dorval,
+        person_name:Brian_MacFarlane .
+

@@ -1,0 +1,84 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/CITIGROUP_GLOBAL_MARKETS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Joint_Bookrunners .
+
+org_name:GOLDMAN_SACHS_BANK_USA a base:Organization .
+
+org_name:ING_CAPITAL%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Co-Manager .
+
+org_name:NATIXIS_SECURITIES_AMERICAS_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Joint_Bookrunners .
+
+org_name:RBC_CAPITAL_MARKETS1 a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Joint_Bookrunners .
+
+<http://example.org/org_name/THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Joint_Bookrunners .
+
+org_name:UBS_SECURITIES_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Joint_Bookrunners .
+
+loc:1585_Broadway%5Cn%C2%A0%5CnNew_York%2C_NY_10036 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/MORGAN_STANLEY_SENIOR_FUNDING%2C_INC.> .
+
+loc:717_Texas_Avenue%5Cn%C2%A0%5CnSuite_1000%5Cn%C2%A0%5CnHouston%2C_TX_77002 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:CALPINE_CORPORATION .
+
+loc:80_Pine_Street%5Cn%C2%A0%5CnNew_York%2C_NY_10005 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Cahill_Gordon_%26_Reindel_LLP .
+
+loc:Global_Trust_Services%5Cn%C2%A0%5Cn350_California_St.%2C_11th%C2%A0Floor%5Cn%C2%A0%5CnSan_Francisco%2C_CA_94014 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/MUFG_UNION_BANK%2C_N.A.> .
+
+org_name:Cahill_Gordon_%26_Reindel_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent ;
+    rel:hasLocationAt loc:80_Pine_Street%5Cn%C2%A0%5CnNew_York%2C_NY_10005 .
+
+person_name:Cody_Gunsch a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/MORGAN_STANLEY_SENIOR_FUNDING%2C_INC.> .
+
+person_name:Sonia_Flores a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:VP ;
+    rel:isEmployedBy <http://example.org/org_name/MUFG_UNION_BANK%2C_N.A.> .
+
+person_name:Zamir_Rauf a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Treasurer,
+        person_position:Vice_President%2C_Finance ;
+    rel:isEmployedBy org_name:CALPINE_CORPORATION .
+
+org_name:CALPINE_CORPORATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Zamir_Rauf ;
+    rel:hasLocationAt loc:717_Texas_Avenue%5Cn%C2%A0%5CnSuite_1000%5Cn%C2%A0%5CnHouston%2C_TX_77002 .
+
+<http://example.org/org_name/MORGAN_STANLEY_SENIOR_FUNDING%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Arrangers,
+        org_role:Joint_Bookrunners,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Cody_Gunsch ;
+    rel:hasLocationAt loc:1585_Broadway%5Cn%C2%A0%5CnNew_York%2C_NY_10036 .
+
+<http://example.org/org_name/MUFG_UNION_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent ;
+    rel:hasEmployee person_name:Sonia_Flores ;
+    rel:hasLocationAt loc:Global_Trust_Services%5Cn%C2%A0%5Cn350_California_St.%2C_11th%C2%A0Floor%5Cn%C2%A0%5CnSan_Francisco%2C_CA_94014 .
+

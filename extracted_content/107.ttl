@@ -1,0 +1,938 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix org_sub_role: <http://example.org/org_sub_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+loc:1301_Avenue_of_the_Americas%5CnNew_York%2C_New_York_10019 a base:Location .
+
+loc:1959_Upper_Water_Street%5CnSuite_900%5CnHalifax%2C_Nova_Scotia a base:Location .
+
+loc:2680_Skymark_Avenue%2C_Suite_500%5CnMississauga%2C_Ontario a base:Location .
+
+loc:275_Frank_Tompa_Drive%5CnWaterloo%2C_Ontario a base:Location .
+
+loc:38_Leek_Crescent%5CnRichmond_Hill%2C_Ontario%5CnL4B_4N8%5Cn%5Cn10_Rideau_Street%5Cn%5Cn%5Cn%5Cn%5CnOttawa%2C_Ontario%5CnK1N_9J1 a base:Location .
+
+loc:745_Seventh_Avenue%5CnNew_York%2C_New_York_10019 a base:Location .
+
+org_name:Barclays_Bank_PLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Arrangers,
+        org_role:agent .
+
+org_name:Barclays_Capital a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:bookrunners .
+
+<http://example.org/org_name/Citigroup_Global_Markets_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:bookrunners .
+
+org_name:EASYLINK_SERVICES_INTERNATIONAL_CORPORATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Grantor,
+        org_role:Guarantor .
+
+<http://example.org/org_name/EASYLINK_SERVICES_USA%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Grantor,
+        org_role:Guarantor .
+
+org_name:England_%26_Wal a base:Organization .
+
+<http://example.org/org_name/GXS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+org_name:GXS_GROUP%2C_INC a base:Organization .
+
+<http://example.org/org_name/GXS_GROUP%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+org_name:GXS_Group%2C_Inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+<http://example.org/org_name/GXS_HOLDINGS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic .
+
+<http://example.org/org_name/GXS_INVESTMENTS%2C_INC.> a base:Organization .
+
+<http://example.org/org_name/GXS_WORLDWIDE%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic .
+
+<http://example.org/org_name/Global_Markets_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agent .
+
+<http://example.org/org_name/J.P._Morgan_Securities%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agents .
+
+<http://example.org/org_name/J.P._Morgan_Securities_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:bookrunners .
+
+<http://example.org/org_name/OCELOT_MERGER_SUB%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower,
+        org_role:Grantor .
+
+<http://example.org/org_name/OPEN_TEXT_CANADA%2C_LTD.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+<http://example.org/org_name/OPEN_TEXT_CANADA_LTD.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Grantor .
+
+org_name:OPEN_TEXT_CORPORATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Grantor,
+        org_role:Guarantor .
+
+<http://example.org/org_name/OPEN_TEXT_HOLDINGS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Grantor,
+        org_role:Guarantor .
+
+<http://example.org/org_name/OPEN_TEXT_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Grantor,
+        org_role:Guarantor .
+
+<http://example.org/org_name/OPEN_TEXT_USA_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Grantor,
+        org_role:Guarantor .
+
+org_name:Open_Text_Software_GmbH a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+org_name:RBC_CAPITAL_MARKETS a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bookrunner .
+
+org_name:RBC_Capital_Markets a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers .
+
+org_name:VIGNETTE_PARTNERSHIP%2C_LP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor .
+
+org_name:Wells_Fargo_Foothill%2C_Inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agent .
+
+<http://example.org/org_name/Wells_Fargo_Foothill%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:bookrunners .
+
+org_name:Wilmington_Trust_FSB a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:trustee .
+
+org_name:XPEDITE_SYSTEMS%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Grantor,
+        org_role:Guarantor .
+
+loc:Austria a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Open_Text_Software_Austria_GmbH .
+
+loc:Czech_Republic a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Open_Text_s.r.o.> .
+
+loc:Denmark a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Open_Text_A/S> .
+
+loc:Finland a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Open_Text_OY .
+
+loc:Israel a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Cordys_Israel_Ltd.> .
+
+loc:Korea a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/GXS_Inc.> .
+
+loc:Michigan a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Cordys%2C_Inc .
+
+loc:Netherlands_%E2%80%93_Luxembourg a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/StreamServe_S.a.r.l._B.V.> .
+
+loc:Nova_Scotia%2C_Canada a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Open_Text_ULC .
+
+loc:Poland a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Open_Text_Sp.z.o.o .
+
+loc:Portugal a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Open_Text_Software_S.L.U._-_Portugal_Branch .
+
+loc:Quebec a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Nstein_Technologies_Inc.> .
+
+loc:South_Africa a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Open_Text_South_Africa_Pty_Limited .
+
+loc:Thailand a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/GXS_Ltd.> .
+
+loc:United_Arab_Emirates a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Open_Text_Middle_East_%28Open_Text_Inc._-_United_Arab_Emirates_Branch%29 .
+
+loc:Virginia a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Open_Text_Public_Sector_Solutions%2C_Inc .
+
+<http://example.org/org_name/2016090_Ontario_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Ontario .
+
+<http://example.org/org_name/2016091_Ontario_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Ontario .
+
+<http://example.org/org_name/8493642_Canada_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Canada .
+
+org_name:Acquisition_UK_Limited a base:Organization ;
+    rel:hasLocationAt loc:United_Kingdom .
+
+org_name:BARCLAYS_BANK_PLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Arranger,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Ritam_Bhalla .
+
+org_name:Cordys%2C_Inc a base:Organization ;
+    rel:hasLocationAt loc:Michigan .
+
+org_name:Cordys_%28Beijing%29_Co._Ltd a base:Organization ;
+    rel:hasLocationAt loc:China .
+
+<http://example.org/org_name/Cordys_Australia_Pty._Ltd.> a base:Organization ;
+    rel:hasLocationAt loc:Australia .
+
+org_name:Cordys_Deutschland_AG a base:Organization ;
+    rel:hasLocationAt loc:Germany .
+
+org_name:Cordys_Deutschland_Service_GmbH a base:Organization ;
+    rel:hasLocationAt loc:Germany .
+
+<http://example.org/org_name/Cordys_France_S.a.r.l.> a base:Organization ;
+    rel:hasLocationAt loc:France .
+
+<http://example.org/org_name/Cordys_Holding_B.V.> a base:Organization ;
+    rel:hasLocationAt loc:Netherlands .
+
+<http://example.org/org_name/Cordys_Hong_Kong_Ltd.> a base:Organization ;
+    rel:hasLocationAt loc:Hong_Kong .
+
+<http://example.org/org_name/Cordys_Investments_B.V.> a base:Organization ;
+    rel:hasLocationAt loc:Netherlands .
+
+<http://example.org/org_name/Cordys_Israel_Ltd.> a base:Organization ;
+    rel:hasLocationAt loc:Israel .
+
+<http://example.org/org_name/Cordys_Japan_Co._Ltd.> a base:Organization ;
+    rel:hasLocationAt loc:Japan .
+
+<http://example.org/org_name/Cordys_Nederland_B.V.> a base:Organization ;
+    rel:hasLocationAt loc:Netherlands .
+
+org_name:Cordys_Nederland_B.V._-_China_Representation_Office a base:Organization ;
+    rel:hasLocationAt loc:China .
+
+org_name:Cordys_Nordics_AB%2A a base:Organization ;
+    rel:hasLocationAt loc:Sweden .
+
+<http://example.org/org_name/Cordys_R%26D_B.V.> a base:Organization ;
+    rel:hasLocationAt loc:Netherlands .
+
+<http://example.org/org_name/Cordys_Shanghai_Co._Ltd.> a base:Organization ;
+    rel:hasLocationAt loc:China .
+
+<http://example.org/org_name/Cordys_Singapore_Pte._Ltd.> a base:Organization ;
+    rel:hasLocationAt loc:Singapore .
+
+org_name:Cordys_Software_B.V a base:Organization ;
+    rel:hasLocationAt loc:Netherlands .
+
+org_name:Cordys_Software_India_Pvt._Ltd a base:Organization ;
+    rel:hasLocationAt loc:India .
+
+org_name:EC1_Pte_Ltd a base:Organization ;
+    rel:hasLocationAt loc:Singapore .
+
+<http://example.org/org_name/EasyLink_Services_USA%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasLocationAt loc:Delaware%2C_USA .
+
+org_name:Easylink_Do_Brasil_Comunicacoes_Ltd a base:Organization ;
+    rel:hasLocationAt loc:Brazil .
+
+org_name:Easylink_Services_%28Deutschland%29_GMBH a base:Organization ;
+    rel:hasLocationAt loc:Germany .
+
+<http://example.org/org_name/Easylink_Services_%28France%29_S.A.R.L.> a base:Organization ;
+    rel:hasLocationAt loc:France .
+
+org_name:Easylink_Services_%28Hong_Kong%29_Limited a base:Organization ;
+    rel:hasLocationAt loc:Hong_Kong .
+
+org_name:Easylink_Services_Australia_Pty_Limited a base:Organization ;
+    rel:hasLocationAt loc:Australia .
+
+org_name:Easylink_Services_Corp._Pte_Ltd a base:Organization ;
+    rel:hasLocationAt loc:Singapore .
+
+org_name:Easylink_Services_Corporation_India_Private_Limited a base:Organization ;
+    rel:hasLocationAt loc:India .
+
+org_name:Easylink_Services_International_Corporation a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasLocationAt loc:Delaware%2C_USA .
+
+org_name:Easylink_Services_International_Limited_-_Ireland_Branch a base:Organization ;
+    rel:hasLocationAt loc:Ireland .
+
+<http://example.org/org_name/Easylink_Services_K.K.> a base:Organization ;
+    rel:hasLocationAt loc:Japan .
+
+org_name:Easylink_Services_Korea_Corporation a base:Organization ;
+    rel:hasLocationAt loc:Republic_of_Korea .
+
+<http://example.org/org_name/Easylink_Services_Latin_America%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Delaware%2C_USA .
+
+<http://example.org/org_name/Federation%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Delaware%2C_USA .
+
+<http://example.org/org_name/Federation_Web%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Delaware%2C_USA .
+
+org_name:Freeway_Commerce_Limited_%28in_liquidation%29 a base:Organization ;
+    rel:hasLocationAt loc:United_Kingdom .
+
+<http://example.org/org_name/GXS%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasLocationAt loc:Delaware%2C_USA .
+
+<http://example.org/org_name/GXS%2C_Investments%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasLocationAt loc:Delaware%2C_USA .
+
+org_name:GXS_%28ANZ%29_Pty_Limited a base:Organization ;
+    rel:hasLocationAt loc:Australia .
+
+org_name:GXS_%28HK%29_Limited a base:Organization ;
+    rel:hasLocationAt loc:Hong_Kong .
+
+<http://example.org/org_name/GXS_%28Shanghai%29_Software_Development_Ltd.> a base:Organization ;
+    rel:hasLocationAt loc:China .
+
+org_name:GXS_AG a base:Organization ;
+    rel:hasLocationAt loc:Switzerland .
+
+<http://example.org/org_name/GXS_B.V.> a base:Organization ;
+    rel:hasLocationAt loc:Netherlands .
+
+<http://example.org/org_name/GXS_Canada_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Canada .
+
+<http://example.org/org_name/GXS_Co._Ltd.> a base:Organization ;
+    rel:hasLocationAt loc:Japan .
+
+org_name:GXS_GmbH a base:Organization ;
+    rel:hasLocationAt loc:Germany .
+
+<http://example.org/org_name/GXS_Group%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower%3A ;
+    rel:hasLocationAt loc:Delaware%2C_USA .
+
+<http://example.org/org_name/GXS_Holdings%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasLocationAt loc:Delaware%2C_USA .
+
+<http://example.org/org_name/GXS_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Korea .
+
+org_name:GXS_India_Technology_Centre_Private_Limited a base:Organization ;
+    rel:hasLocationAt loc:India .
+
+<http://example.org/org_name/GXS_International%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasLocationAt loc:Delaware%2C_USA .
+
+org_name:GXS_Limited a base:Organization ;
+    rel:hasLocationAt loc:United_Kingdom .
+
+<http://example.org/org_name/GXS_Ltd.> a base:Organization ;
+    rel:hasLocationAt loc:Thailand .
+
+<http://example.org/org_name/GXS_Mexico_S_de_R.L._de_C.V.> a base:Organization ;
+    rel:hasLocationAt loc:Mexico .
+
+org_name:GXS_Philippines%2C_Inc a base:Organization ;
+    rel:hasLocationAt loc:Philippines .
+
+org_name:GXS_Product_Data_Quality_Limited_%28in_liquidation%29 a base:Organization ;
+    rel:hasLocationAt loc:United_Kingdom .
+
+<http://example.org/org_name/GXS_S.A.> a base:Organization ;
+    rel:hasLocationAt loc:Belgium .
+
+org_name:GXS_SAS a base:Organization ;
+    rel:hasLocationAt loc:France .
+
+org_name:GXS_SpA a base:Organization ;
+    rel:hasLocationAt loc:Italy .
+
+org_name:GXS_Tecnologia_da_Informaco_%28Brasil%29_Ltd a base:Organization ;
+    rel:hasLocationAt loc:Brazil .
+
+org_name:GXS_UK_Holding_Limited a base:Organization ;
+    rel:hasLocationAt loc:United_Kingdom .
+
+<http://example.org/org_name/GXS_Worldwide%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_role:guarantors ;
+    rel:hasLocationAt loc:Delaware%2C_USA .
+
+org_name:Global_360_%28Australia%29_Pty_Limited a base:Organization ;
+    rel:hasLocationAt loc:Australia .
+
+org_name:Global_360_China_Limited a base:Organization ;
+    rel:hasLocationAt loc:Hong_Kong .
+
+org_name:Global_360_China_Limited_-_China_Branch a base:Organization ;
+    rel:hasLocationAt loc:China .
+
+org_name:Global_360_Germany_GmbH a base:Organization ;
+    rel:hasLocationAt loc:Germany .
+
+<http://example.org/org_name/Global_360_Spain_S.L.U.> a base:Organization ;
+    rel:hasLocationAt loc:Spain .
+
+<http://example.org/org_name/HAHT_Commerce%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Delaware%2C_USA .
+
+<http://example.org/org_name/Harbinger_de_Mexico%2C_S._de_C.V._de_R.L.> a base:Organization ;
+    rel:hasLocationAt loc:Mexico .
+
+org_name:Inovis_UK_Limited_%28in_liquidation%29 a base:Organization ;
+    rel:hasLocationAt loc:United_Kingdom .
+
+<http://example.org/org_name/InterCommerce_Gateway%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Philippines .
+
+org_name:Metastorm_UK_Limited a base:Organization ;
+    rel:hasLocationAt loc:England .
+
+<http://example.org/org_name/Nstein_Technologies_France_S.A.S.U.> a base:Organization ;
+    rel:hasLocationAt loc:France .
+
+<http://example.org/org_name/Nstein_Technologies_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Quebec .
+
+org_name:OPEN_TEXT_ULC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Grantor,
+        org_role:Guarantor ;
+    rel:hasEmployee person_name:Paul_McFeeters .
+
+org_name:Ocelot_Merger_Sub%2C_Inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower%3A ;
+    rel:hasLocationAt loc:Delaware%2C_USA .
+
+org_name:Open_Text_%28Asia%29_Pte_Limited a base:Organization ;
+    rel:hasLocationAt loc:Singapore .
+
+org_name:Open_Text_%28Hong_Kong%29_Limited a base:Organization ;
+    rel:hasLocationAt loc:Hong_Kong .
+
+<http://example.org/org_name/Open_Text_A/S> a base:Organization ;
+    rel:hasLocationAt loc:Denmark .
+
+org_name:Open_Text_AB a base:Organization ;
+    rel:hasLocationAt loc:Sweden .
+
+org_name:Open_Text_AG a base:Organization ;
+    rel:hasLocationAt loc:Switzerland .
+
+org_name:Open_Text_Brasil_Comercio_De_Software_LTDA a base:Organization ;
+    rel:hasLocationAt loc:Brazil .
+
+<http://example.org/org_name/Open_Text_Canada_Ltd.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasLocationAt loc:Canada .
+
+<http://example.org/org_name/Open_Text_Co%C3%B6peratief_U.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasLocationAt loc:Netherlands .
+
+org_name:Open_Text_Co%C3%B6peratief_U.A._%E2%80%93_BELGIUM_Branch a base:Organization ;
+    rel:hasLocationAt loc:Belgium .
+
+<http://example.org/org_name/Open_Text_Conseil_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Canada .
+
+org_name:Open_Text_Corporation a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasLocationAt loc:Canada .
+
+org_name:Open_Text_Corporation_India_Private_Limited a base:Organization ;
+    rel:hasLocationAt loc:India .
+
+org_name:Open_Text_Document_Technologies_GmbH a base:Organization ;
+    rel:hasLocationAt loc:Germany .
+
+org_name:Open_Text_Finance_SARL_-_IRELAND_Place_of_Business a base:Organization ;
+    rel:hasLocationAt loc:Ireland .
+
+org_name:Open_Text_Finance_Sarl a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasLocationAt loc:Luxembourg .
+
+<http://example.org/org_name/Open_Text_Holdings%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasLocationAt loc:Delaware%2C_USA .
+
+<http://example.org/org_name/Open_Text_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasLocationAt loc:Delaware%2C_USA .
+
+org_name:Open_Text_Ireland_Limited a base:Organization ;
+    rel:hasLocationAt loc:Ireland .
+
+org_name:Open_Text_K.K a base:Organization ;
+    rel:hasLocationAt loc:Japan .
+
+org_name:Open_Text_Middle_East_%28Open_Text_Inc._-_United_Arab_Emirates_Branch%29 a base:Organization ;
+    rel:hasLocationAt loc:United_Arab_Emirates .
+
+org_name:Open_Text_New_Zealand_Limited a base:Organization ;
+    rel:hasLocationAt loc:New_Zealand .
+
+org_name:Open_Text_OY a base:Organization ;
+    rel:hasLocationAt loc:Finland .
+
+org_name:Open_Text_Pty_Limited a base:Organization ;
+    rel:hasLocationAt loc:Australia .
+
+org_name:Open_Text_Public_Sector_Solutions%2C_Inc a base:Organization ;
+    rel:hasLocationAt loc:Virginia .
+
+<http://example.org/org_name/Open_Text_S._de_R.L._de_C.V.> a base:Organization ;
+    rel:hasLocationAt loc:Mexico .
+
+<http://example.org/org_name/Open_Text_S.r.l.> a base:Organization ;
+    rel:hasLocationAt loc:Italy .
+
+org_name:Open_Text_SA a base:Organization ;
+    rel:hasLocationAt loc:Luxembourg .
+
+org_name:Open_Text_SARL a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasLocationAt loc:France .
+
+org_name:Open_Text_SA_-_IRELAND_place_of_business a base:Organization ;
+    rel:hasLocationAt loc:Ireland .
+
+org_name:Open_Text_Software_Austria_GmbH a base:Organization ;
+    rel:hasLocationAt loc:Austria .
+
+<http://example.org/org_name/Open_Text_Software_S.L.U.> a base:Organization ;
+    rel:hasLocationAt loc:Spain .
+
+org_name:Open_Text_Software_S.L.U._-_Portugal_Branch a base:Organization ;
+    rel:hasLocationAt loc:Portugal .
+
+org_name:Open_Text_Software_Technology_%28Shanghai%29_Co.%2C_Limited a base:Organization ;
+    rel:hasLocationAt loc:China .
+
+org_name:Open_Text_South_Africa_Pty_Limited a base:Organization ;
+    rel:hasLocationAt loc:South_Africa .
+
+org_name:Open_Text_Sp.z.o.o a base:Organization ;
+    rel:hasLocationAt loc:Poland .
+
+org_name:Open_Text_Technologies_India_Private_Limited a base:Organization ;
+    rel:hasLocationAt loc:India .
+
+org_name:Open_Text_UK_Limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasLocationAt loc:United_Kingdom .
+
+org_name:Open_Text_ULC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasLocationAt loc:Nova_Scotia%2C_Canada .
+
+<http://example.org/org_name/Open_Text_USA_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasLocationAt loc:Delaware%2C_USA .
+
+org_name:Open_Text_Venture_Capital_Investment_Limited_Partnership a base:Organization ;
+    rel:hasLocationAt loc:Ontario .
+
+<http://example.org/org_name/Open_Text_s.r.o.> a base:Organization ;
+    rel:hasLocationAt loc:Czech_Republic .
+
+org_name:StreamServe_Development_AB a base:Organization ;
+    rel:hasLocationAt loc:Sweden .
+
+<http://example.org/org_name/StreamServe_S.a.r.l._B.V.> a base:Organization ;
+    rel:hasLocationAt loc:Netherlands_%E2%80%93_Luxembourg .
+
+org_name:The_Easylink_Services_Corporation_SDN._BHD a base:Organization ;
+    rel:hasLocationAt loc:Malaysia .
+
+org_name:UDEX_Holdings_Limited_%28in_liquidation%29 a base:Organization ;
+    rel:hasLocationAt loc:United_Kingdom .
+
+org_name:Vignette_India_Private_Limited a base:Organization ;
+    rel:hasLocationAt loc:India .
+
+org_name:Vignette_Partnership%2C_LP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasLocationAt loc:Delaware%2C_USA .
+
+org_name:Xpedite%2C_Ltd a base:Organization ;
+    rel:hasLocationAt loc:Republic_of_Korea .
+
+<http://example.org/org_name/Xpedite_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Japan .
+
+org_name:Xpedite_Systems%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasLocationAt loc:Delaware%2C_USA .
+
+org_name:Xpedite_Systems_AG a base:Organization ;
+    rel:hasLocationAt loc:Switzerland .
+
+org_name:Xpedite_Systems_GmbH a base:Organization ;
+    rel:hasLocationAt loc:Germany .
+
+<http://example.org/org_name/Xpedite_Systems_Holdings%2C_Inc.> a base:Organization ;
+    rel:hasLocationAt loc:Delaware%2C_USA .
+
+org_name:Xpedite_Systems_Incorporated_%28Malaysia%29_SDN._BHD a base:Organization ;
+    rel:hasLocationAt loc:Malaysia .
+
+<http://example.org/org_name/Xpedite_Systems_Participations_E.U.R.L.> a base:Organization ;
+    rel:hasLocationAt loc:France .
+
+org_name:Xpedite_Systems_Pte_Ltd a base:Organization ;
+    rel:hasLocationAt loc:Singapore .
+
+org_name:Xpedite_Systems_Pty_Limited a base:Organization ;
+    rel:hasLocationAt loc:Australia .
+
+<http://example.org/org_name/Xpedite_Systems_S.r.l.> a base:Organization ;
+    rel:hasLocationAt loc:Italy .
+
+org_name:Xpedite_Systems_SA a base:Organization ;
+    rel:hasLocationAt loc:France .
+
+org_name:Xpedite_Systems_Spain%2C_SA a base:Organization ;
+    rel:hasLocationAt loc:Spain .
+
+org_name:Xpedite_Systems_Worldwide%2C_Inc a base:Organization ;
+    rel:hasLocationAt loc:Delaware%2C_USA .
+
+<http://example.org/org_name/bizzApps_B.V.> a base:Organization ;
+    rel:hasLocationAt loc:Netherlands .
+
+person_name:Ritam_Bhalla a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:BARCLAYS_BANK_PLC .
+
+loc:Belgium a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/GXS_S.A.>,
+        org_name:Open_Text_Co%C3%B6peratief_U.A._%E2%80%93_BELGIUM_Branch .
+
+loc:Luxembourg a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Open_Text_Finance_Sarl,
+        org_name:Open_Text_SA .
+
+loc:Malaysia a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:The_Easylink_Services_Corporation_SDN._BHD,
+        org_name:Xpedite_Systems_Incorporated_%28Malaysia%29_SDN._BHD .
+
+loc:New_Zealand a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Open_Text_New_Zealand_Limited,
+        org_name:Xpedite_Systems_Limited .
+
+loc:Philippines a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:GXS_Philippines%2C_Inc,
+        <http://example.org/org_name/InterCommerce_Gateway%2C_Inc.> .
+
+loc:Republic_of_Korea a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Easylink_Services_Korea_Corporation,
+        org_name:Xpedite%2C_Ltd .
+
+<http://example.org/org_name/Cordys_UK_Ltd.> a base:Organization ;
+    rel:hasLocationAt loc:England,
+        loc:Wales .
+
+org_name:Easylink_Services_International_Limited a base:Organization ;
+    rel:hasLocationAt loc:England,
+        loc:Wales .
+
+<http://example.org/org_name/GXS_INTERNATIONAL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasEmployee person_name:Paul_McFeeters .
+
+org_name:Global_360_UK_Limited a base:Organization ;
+    rel:hasLocationAt loc:England,
+        loc:Wales .
+
+org_name:ICCM_Professional_Services_Ltd a base:Organization ;
+    rel:hasLocationAt loc:England,
+        loc:Wales .
+
+org_name:Metastorm_Limited a base:Organization ;
+    rel:hasLocationAt loc:England,
+        loc:Wales .
+
+<http://example.org/org_name/Resonate_KT_Ltd.> a base:Organization ;
+    rel:hasLocationAt loc:England,
+        loc:Wales .
+
+org_name:StreamServe_Limited a base:Organization ;
+    rel:hasLocationAt loc:England,
+        loc:Wales .
+
+org_name:Sysgenics_Limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasLocationAt loc:England,
+        loc:Wales .
+
+org_name:Xpedite_Systems_%28UK%29_Limited a base:Organization ;
+    rel:hasLocationAt loc:England,
+        loc:Wales .
+
+org_name:Xpedite_Systems_Limited a base:Organization ;
+    rel:hasLocationAt loc:Hong_Kong,
+        loc:New_Zealand .
+
+person_name:Paul_McFeeters a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_name/GXS_INTERNATIONAL%2C_INC.>,
+        person_position:Assistant_Treasurer,
+        person_position:Chief_Administrative_Officer,
+        person_position:Chief_Executive_Officer,
+        person_position:Chief_Financial_Officer,
+        person_position:Chief_Financial_Officer%5Cn,
+        person_position:President,
+        person_position:Treasurer,
+        person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/GXS_INTERNATIONAL%2C_INC.>,
+        org_name:OPEN_TEXT_ULC .
+
+loc:Brazil a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Easylink_Do_Brasil_Comunicacoes_Ltd,
+        org_name:GXS_Tecnologia_da_Informaco_%28Brasil%29_Ltd,
+        org_name:Open_Text_Brasil_Comercio_De_Software_LTDA .
+
+loc:Italy a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:GXS_SpA,
+        <http://example.org/org_name/Open_Text_S.r.l.>,
+        <http://example.org/org_name/Xpedite_Systems_S.r.l.> .
+
+loc:Mexico a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/GXS_Mexico_S_de_R.L._de_C.V.>,
+        <http://example.org/org_name/Harbinger_de_Mexico%2C_S._de_C.V._de_R.L.>,
+        <http://example.org/org_name/Open_Text_S._de_R.L._de_C.V.> .
+
+loc:Ontario a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/2016090_Ontario_Inc.>,
+        <http://example.org/org_name/2016091_Ontario_Inc.>,
+        org_name:Open_Text_Venture_Capital_Investment_Limited_Partnership .
+
+loc:Spain a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Global_360_Spain_S.L.U.>,
+        <http://example.org/org_name/Open_Text_Software_S.L.U.>,
+        org_name:Xpedite_Systems_Spain%2C_SA .
+
+loc:Sweden a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Cordys_Nordics_AB%2A,
+        org_name:Open_Text_AB,
+        org_name:StreamServe_Development_AB .
+
+loc:Switzerland a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:GXS_AG,
+        org_name:Open_Text_AG,
+        org_name:Xpedite_Systems_AG .
+
+loc:Ireland a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Easylink_Services_International_Limited_-_Ireland_Branch,
+        org_name:Open_Text_Finance_SARL_-_IRELAND_Place_of_Business,
+        org_name:Open_Text_Ireland_Limited,
+        org_name:Open_Text_SA_-_IRELAND_place_of_business .
+
+loc:Canada a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/8493642_Canada_Inc.>,
+        <http://example.org/org_name/GXS_Canada_Inc.>,
+        <http://example.org/org_name/Open_Text_Canada_Ltd.>,
+        <http://example.org/org_name/Open_Text_Conseil_Inc.>,
+        org_name:Open_Text_Corporation .
+
+loc:Japan a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Cordys_Japan_Co._Ltd.>,
+        <http://example.org/org_name/Easylink_Services_K.K.>,
+        <http://example.org/org_name/GXS_Co._Ltd.>,
+        org_name:Open_Text_K.K,
+        <http://example.org/org_name/Xpedite_Inc.> .
+
+loc:Singapore a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Cordys_Singapore_Pte._Ltd.>,
+        org_name:EC1_Pte_Ltd,
+        org_name:Easylink_Services_Corp._Pte_Ltd,
+        org_name:Open_Text_%28Asia%29_Pte_Limited,
+        org_name:Xpedite_Systems_Pte_Ltd .
+
+loc:Australia a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Cordys_Australia_Pty._Ltd.>,
+        org_name:Easylink_Services_Australia_Pty_Limited,
+        org_name:GXS_%28ANZ%29_Pty_Limited,
+        org_name:Global_360_%28Australia%29_Pty_Limited,
+        org_name:Open_Text_Pty_Limited,
+        org_name:Xpedite_Systems_Pty_Limited .
+
+loc:China a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Cordys_%28Beijing%29_Co._Ltd,
+        org_name:Cordys_Nederland_B.V._-_China_Representation_Office,
+        <http://example.org/org_name/Cordys_Shanghai_Co._Ltd.>,
+        <http://example.org/org_name/GXS_%28Shanghai%29_Software_Development_Ltd.>,
+        org_name:Global_360_China_Limited_-_China_Branch,
+        org_name:Open_Text_Software_Technology_%28Shanghai%29_Co.%2C_Limited .
+
+loc:Hong_Kong a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Cordys_Hong_Kong_Ltd.>,
+        org_name:Easylink_Services_%28Hong_Kong%29_Limited,
+        org_name:GXS_%28HK%29_Limited,
+        org_name:Global_360_China_Limited,
+        org_name:Open_Text_%28Hong_Kong%29_Limited,
+        org_name:Xpedite_Systems_Limited .
+
+loc:India a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Cordys_Software_India_Pvt._Ltd,
+        org_name:Easylink_Services_Corporation_India_Private_Limited,
+        org_name:GXS_India_Technology_Centre_Private_Limited,
+        org_name:Open_Text_Corporation_India_Private_Limited,
+        org_name:Open_Text_Technologies_India_Private_Limited,
+        org_name:Vignette_India_Private_Limited .
+
+loc:France a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Cordys_France_S.a.r.l.>,
+        <http://example.org/org_name/Easylink_Services_%28France%29_S.A.R.L.>,
+        org_name:GXS_SAS,
+        <http://example.org/org_name/Nstein_Technologies_France_S.A.S.U.>,
+        org_name:Open_Text_SARL,
+        <http://example.org/org_name/Xpedite_Systems_Participations_E.U.R.L.>,
+        org_name:Xpedite_Systems_SA .
+
+loc:Germany a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Cordys_Deutschland_AG,
+        org_name:Cordys_Deutschland_Service_GmbH,
+        org_name:Easylink_Services_%28Deutschland%29_GMBH,
+        org_name:GXS_GmbH,
+        org_name:Global_360_Germany_GmbH,
+        org_name:Open_Text_Document_Technologies_GmbH,
+        org_name:Xpedite_Systems_GmbH .
+
+loc:Netherlands a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Cordys_Holding_B.V.>,
+        <http://example.org/org_name/Cordys_Investments_B.V.>,
+        <http://example.org/org_name/Cordys_Nederland_B.V.>,
+        <http://example.org/org_name/Cordys_R%26D_B.V.>,
+        org_name:Cordys_Software_B.V,
+        <http://example.org/org_name/GXS_B.V.>,
+        <http://example.org/org_name/Open_Text_Co%C3%B6peratief_U.A.>,
+        <http://example.org/org_name/bizzApps_B.V.> .
+
+loc:United_Kingdom a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Acquisition_UK_Limited,
+        org_name:Freeway_Commerce_Limited_%28in_liquidation%29,
+        org_name:GXS_Limited,
+        org_name:GXS_Product_Data_Quality_Limited_%28in_liquidation%29,
+        org_name:GXS_UK_Holding_Limited,
+        org_name:Inovis_UK_Limited_%28in_liquidation%29,
+        org_name:Open_Text_UK_Limited,
+        org_name:UDEX_Holdings_Limited_%28in_liquidation%29 .
+
+loc:Wales a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Cordys_UK_Ltd.>,
+        org_name:Easylink_Services_International_Limited,
+        org_name:Global_360_UK_Limited,
+        org_name:ICCM_Professional_Services_Ltd,
+        org_name:Metastorm_Limited,
+        <http://example.org/org_name/Resonate_KT_Ltd.>,
+        org_name:StreamServe_Limited,
+        org_name:Sysgenics_Limited,
+        org_name:Xpedite_Systems_%28UK%29_Limited .
+
+loc:England a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Cordys_UK_Ltd.>,
+        org_name:Easylink_Services_International_Limited,
+        org_name:Global_360_UK_Limited,
+        org_name:ICCM_Professional_Services_Ltd,
+        org_name:Metastorm_Limited,
+        org_name:Metastorm_UK_Limited,
+        <http://example.org/org_name/Resonate_KT_Ltd.>,
+        org_name:StreamServe_Limited,
+        org_name:Sysgenics_Limited,
+        org_name:Xpedite_Systems_%28UK%29_Limited .
+
+loc:Delaware%2C_USA a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/EasyLink_Services_USA%2C_Inc.>,
+        org_name:Easylink_Services_International_Corporation,
+        <http://example.org/org_name/Easylink_Services_Latin_America%2C_Inc.>,
+        <http://example.org/org_name/Federation%2C_Inc.>,
+        <http://example.org/org_name/Federation_Web%2C_Inc.>,
+        <http://example.org/org_name/GXS%2C_Inc.>,
+        <http://example.org/org_name/GXS%2C_Investments%2C_Inc.>,
+        <http://example.org/org_name/GXS_Group%2C_Inc.>,
+        <http://example.org/org_name/GXS_Holdings%2C_Inc.>,
+        <http://example.org/org_name/GXS_International%2C_Inc.>,
+        <http://example.org/org_name/GXS_Worldwide%2C_Inc.>,
+        <http://example.org/org_name/HAHT_Commerce%2C_Inc.>,
+        org_name:Ocelot_Merger_Sub%2C_Inc,
+        <http://example.org/org_name/Open_Text_Holdings%2C_Inc.>,
+        <http://example.org/org_name/Open_Text_Inc.>,
+        <http://example.org/org_name/Open_Text_USA_Inc.>,
+        org_name:Vignette_Partnership%2C_LP,
+        org_name:Xpedite_Systems%2C_LLC,
+        <http://example.org/org_name/Xpedite_Systems_Holdings%2C_Inc.>,
+        org_name:Xpedite_Systems_Worldwide%2C_Inc .
+

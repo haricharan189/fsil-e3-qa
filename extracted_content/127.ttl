@@ -1,0 +1,145 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/%5CnWELLS%C2%A0FARGO%C2%A0BANK%2C%C2%A0NATIONAL%C2%A0ASSOCIATION> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/L/C_Issuer>,
+        org_role:LENDERS,
+        org_role:Lender .
+
+<http://example.org/org_name/BOFA_SECURITIES%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger,
+        org_role:Bookrunner .
+
+org_name:BofA_Securities a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arranger,
+        org_role:bookrunner .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents .
+
+<http://example.org/org_name/MORGAN_STANLEY_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents,
+        org_role:Lender .
+
+org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents,
+        org_role:Lender .
+
+<http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK%2C_N.A> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Heather_E._Hoopingarner .
+
+org_name:BANK_OF_AMERICA%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:AGENT ;
+    rel:hasEmployee person_name:Taelitha_Bonds-Harris .
+
+org_name:BANK_OF_CHINA%2C_NEW_YORK_BRANCH a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Raymond_Qiao .
+
+<http://example.org/org_name/BIOGEN_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER ;
+    rel:hasEmployee person_name:Michael_Dambach .
+
+org_name:DEUTSCHE_BANK_AG a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents ;
+    rel:hasLocationAt loc:NEW_YORK .
+
+person_name:Annie_Carr a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:GOLDMAN_SACHS_BANK .
+
+person_name:Annie_Chung a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG> .
+
+person_name:Darren_Merten a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG> .
+
+person_name:Eugene_Yermash a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/CITIBANK%2C_N.A.> .
+
+person_name:Heather_E._Hoopingarner a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signer ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK%2C_N.A> .
+
+person_name:Julie_Lilienfeld a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:GOLDMAN_SACHS_BANK .
+
+person_name:Michael_Dambach a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Treasurer,
+        person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BIOGEN_INC.> .
+
+person_name:Ming_K._Chu a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG> .
+
+person_name:Raymond_Qiao a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Vice_President ;
+    rel:isEmployedBy org_name:BANK_OF_CHINA%2C_NEW_YORK_BRANCH .
+
+person_name:Ryan_M._Black a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/CITIBANK%2C_N.A.> .
+
+person_name:Taelitha_Bonds-Harris a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Assistant_Vice_President ;
+    rel:isEmployedBy org_name:BANK_OF_AMERICA%2C_N.A .
+
+person_name:Teddy_Koch a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG> .
+
+person_name:Tracy_Rahn a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
+    rel:isEmployedBy org_name:MIZUHO_BANK .
+
+loc:NEW_YORK a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG>,
+        org_name:DEUTSCHE_BANK_AG .
+
+loc:USA a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:GOLDMAN_SACHS_BANK,
+        org_name:MIZUHO_BANK .
+
+<http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Eugene_Yermash,
+        person_name:Ryan_M._Black .
+
+org_name:MIZUHO_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Tracy_Rahn ;
+    rel:hasLocationAt loc:USA .
+
+org_name:GOLDMAN_SACHS_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Annie_Carr,
+        person_name:Julie_Lilienfeld ;
+    rel:hasLocationAt loc:USA .
+
+<http://example.org/org_name/%5CnDEUTSCHE_BANK_AG> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Annie_Chung,
+        person_name:Darren_Merten,
+        person_name:Ming_K._Chu,
+        person_name:Teddy_Koch ;
+    rel:hasLocationAt loc:NEW_YORK .
+

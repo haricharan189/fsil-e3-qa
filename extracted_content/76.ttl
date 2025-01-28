@@ -1,0 +1,64 @@
+@prefix base: <http://example.org/base/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/%5Cn%5CnTHE_BANK_OF_MONTREAL> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+<http://example.org/org_name/DEUTSCHE_BANK_SECURITIES_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+org_name:Deloitte_%26_Touche_LLP a base:Organization .
+
+org_name:Ernst_%26_Young_LLP a base:Organization .
+
+org_name:O%27Melveny_%26_Myers_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:counsel_to_the_Borrower .
+
+org_name:O%E2%80%99Melveny_%26_Myers_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:counsel_to_the_Borrower .
+
+org_name:O%E2%80%99Melveny_%26_Myers_LLP%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:counsel_to_the_Borrower .
+
+org_name:PricewaterhouseCoopers_LLP a base:Organization .
+
+org_name:RBC_CAPITAL_MARKETS a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+org_name:SUNTRUST_ROBINSON_HUMPHREY%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+<http://example.org/org_name/THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+org_name:MICROSEMI_CORPORATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:John_W._Hohener .
+
+org_name:MORGAN_STANLEY_SENIOR_FUNDING%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
+        org_role:Arrangers,
+        org_role:Bookrunners,
+        org_role:Collateral_Agent ;
+    rel:hasEmployee person_name:Jonathon_Rauen .
+
+person_name:John_W._Hohener a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief%C2%A0%C2%A0Financial_Officer,
+        person_position:Executive_Vice_President,
+        person_position:Secretary,
+        person_position:Treasurer ;
+    rel:isEmployedBy org_name:MICROSEMI_CORPORATION .
+
+person_name:Jonathon_Rauen a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:MORGAN_STANLEY_SENIOR_FUNDING%2C_INC .
+

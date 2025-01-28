@@ -1,0 +1,136 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+org_name:BOKF%2C_NA_dba_BANK_OF_ALBUQUERQUE a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Arrangers,
+        org_role:Book_Managers .
+
+loc:1420_5th_Avenue%2C_9th_Floor%2C%5CnSeattle%2C_WA_98101%2C a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:US_Bank_Agency_Services .
+
+loc:414_Silver_Ave._SW%5CnAlbuquerque%2C_NM_87102-3289 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Public_Service_Company_of_New_Mexico .
+
+loc:CARLSBAD%2C_NEW_MEXICO a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:WESTERN_COMMERCE_BANK .
+
+loc:Raymond_Palmer%2C%5CnUS_Bank_Utilities_Division%2C%5Cn461_Fifth_Avenue%2C_8th_Floor%2C%5CnNew_York%2C_NY_10017 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:U.S._Bank_National_Association .
+
+loc:US_Bank_Utilities_Division%5Cn461_Fifth_Avenue%2C_8th_Floor%5CnNew_York%2C_NY_10017 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:U.S._Bank_National_Association .
+
+org_name:BANK_OF_THE_WEST a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDERS ;
+    rel:hasEmployee person_name:Kevin_R._Gillette .
+
+org_name:BOKF%2C_NA_DBA_BANK_OF_ALBUQUERQUE a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:LENDERS ;
+    rel:hasEmployee person_name:John_M._Valentine .
+
+org_name:COMMUNITY_BANK_OF_SANTA_FE a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDERS ;
+    rel:hasEmployee person_name:Fernando_Baca .
+
+org_name:FOUR_CORNERS_COMMUNITY_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDERS ;
+    rel:hasEmployee person_name:Roger_LaHart .
+
+org_name:Public_Service_Company_of_New_Mexico a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasLocationAt loc:414_Silver_Ave._SW%5CnAlbuquerque%2C_NM_87102-3289 .
+
+org_name:SOUTHWEST_CAPITAL_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDERS ;
+    rel:hasEmployee person_name:Emilio_Vallejos .
+
+org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Arrangers,
+        org_role:Book_Managers,
+        org_role:LENDERS ;
+    rel:hasEmployee person_name:Holland_H._Williams .
+
+org_name:US_Bank_Agency_Services a base:Organization ;
+    rel:hasLocationAt loc:1420_5th_Avenue%2C_9th_Floor%2C%5CnSeattle%2C_WA_98101%2C .
+
+org_name:WASHINGTON_FEDERAL_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDERS ;
+    rel:hasEmployee person_name:Joshua_L._Smith .
+
+org_name:WESTERN_COMMERCE_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDERS ;
+    rel:hasLocationAt loc:CARLSBAD%2C_NEW_MEXICO .
+
+person_name:Emilio_Vallejos a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Assistant_Vice_President ;
+    rel:isEmployedBy org_name:SOUTHWEST_CAPITAL_BANK .
+
+person_name:Fernando_Baca a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:COMMUNITY_BANK_OF_SANTA_FE .
+
+person_name:Holland_H._Williams a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/AVP_%26_Portfolio_Mgr.> ;
+    rel:isEmployedBy org_name:U.S._BANK_NATIONAL_ASSOCIATION .
+
+person_name:John_M._Valentine a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:SVP ;
+    rel:isEmployedBy org_name:BOKF%2C_NA_DBA_BANK_OF_ALBUQUERQUE .
+
+person_name:Joshua_L._Smith a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Commercial_Loan_Officer ;
+    rel:isEmployedBy org_name:WASHINGTON_FEDERAL_BANK .
+
+person_name:Kevin_R._Gillette a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:BANK_OF_THE_WEST .
+
+person_name:Larry_D._Cheek a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Vice_President ;
+    rel:isEmployedBy org_name:FIRST_NATIONAL_BANK_OF_SANTA_FE .
+
+person_name:Mike_Hoyl a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Vice_President ;
+    rel:isEmployedBy org_name:FIRST_NATIONAL_BANK_OF_SANTA_FE .
+
+person_name:Roger_LaHart a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Lending_Officer ;
+    rel:isEmployedBy org_name:FOUR_CORNERS_COMMUNITY_BANK .
+
+person_name:Terry_Horn a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President_and_Treasurer ;
+    rel:isEmployedBy org_name:PUBLIC_SERVICE_COMPANY_OF_NEW_MEXICO .
+
+person_name:Terry_R._Horn a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President_and_Treasurer ;
+    rel:isEmployedBy org_name:PUBLIC_SERVICE_COMPANY_OF_NEW_MEXICO .
+
+org_name:FIRST_NATIONAL_BANK_OF_SANTA_FE a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDERS ;
+    rel:hasEmployee person_name:Larry_D._Cheek,
+        person_name:Mike_Hoyl .
+
+org_name:PUBLIC_SERVICE_COMPANY_OF_NEW_MEXICO a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER,
+        org_role:Borrower ;
+    rel:hasEmployee person_name:Terry_Horn,
+        person_name:Terry_R._Horn .
+
+org_name:U.S._Bank_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent ;
+    rel:hasLocationAt loc:Raymond_Palmer%2C%5CnUS_Bank_Utilities_Division%2C%5Cn461_Fifth_Avenue%2C_8th_Floor%2C%5CnNew_York%2C_NY_10017,
+        loc:US_Bank_Utilities_Division%5Cn461_Fifth_Avenue%2C_8th_Floor%5CnNew_York%2C_NY_10017 .
+

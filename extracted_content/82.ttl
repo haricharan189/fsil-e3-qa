@@ -19,11 +19,11 @@ loc:Mustionkatu_6 a base:Location .
 loc:Waltham%2C_MA_02451 a base:Location .
 
 <http://example.org/org_name/%5CnBANK_OF_AMERICA> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent,
+    <http://example.org/isInstanceOf/> org_role:Co-Syndication_Agent,
         org_role:Lender .
 
 <http://example.org/org_name/%5CnCITIBANK> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent,
+    <http://example.org/isInstanceOf/> org_role:Co-Documentation_Agent%5Cn,
         org_role:Lender .
 
 <http://example.org/org_name/%5CnU.S._BANK_NATIONAL_ASSOCIATION> a base:Organization ;
@@ -33,18 +33,18 @@ loc:Waltham%2C_MA_02451 a base:Location .
     <http://example.org/isInstanceOf/> <http://example.org/org_role/Finnish_counsel_for_the_Initial_Finnish_Borrower.> .
 
 org_name:BARCLAYS_BANK_PLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent,
+    <http://example.org/isInstanceOf/> org_role:Co-Syndication_Agent,
         org_role:Lender .
 
 org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent,
+    <http://example.org/isInstanceOf/> org_role:Co-Documentation_Agent%5Cn,
         org_role:Lender .
 
 org_name:TD_BANK a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender .
 
 org_name:THE_ROYAL_BANK_OF_SCOTLAND_PLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent,
+    <http://example.org/isInstanceOf/> org_role:Co-Documentation_Agent,
         org_role:Lender .
 
 org_name:Wilmer_Cutler_Pickering_Hale_and_Dorr_LLP%2C a base:Organization ;
@@ -67,9 +67,9 @@ loc:10_South_Dearborn_Street%5D%5Cn%5Cn%5BChicago%2C_Illinois_60603 a base:Locat
     rel:hasEmployee person_name:Charles_R._Davis .
 
 org_name:JPMORGAN_CHASE_BANK a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent,
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
         org_role:Lender,
-        org_role:Lender%2C ;
+        org_role:Swingline_Lender%2C ;
     rel:hasLocationAt loc:10_South_Dearborn_Street%5D%5Cn%5Cn%5BChicago%2C_Illinois_60603 .
 
 org_name:PERKINELMER_HEALTH_SCIENCES%2C_INC a base:Organization ;

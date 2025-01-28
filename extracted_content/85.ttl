@@ -1,0 +1,205 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/%5CnMETROPOLITAN_RESEARCH_ASSOCIATES%2C_INC.> a base:Organization .
+
+<http://example.org/org_name/%5CnTRAVEL_STAFF%2C_LLC> a base:Organization .
+
+org_name:ALLIED_HEALTH_GROUP%2C_LLC a base:Organization .
+
+<http://example.org/org_name/CEJKA_SEARCH%2C_INC.> a base:Organization .
+
+org_name:CLINFORCE%2C_LLC a base:Organization .
+
+org_name:LOCAL_STAFF%2C_LLC a base:Organization .
+
+org_name:Proskauer_Rose_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:counsel_to_Borrowers .
+
+org_name:REDENT_VERIFICATION_AND_LICENSING_SERVICES%2C_LLC a base:Organization .
+
+loc:300_Galleria_Parkway%2C_Suite_800%5CnAtlanta%2C_GA_30339 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:BANK_OF_AMERICA .
+
+loc:3805_W._Chester_Pike%2C_Suite_200%5CnNewtown_Square%2C_Pennsylvania_19073 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%5CnLOCAL_STAFF%2C_LLC> .
+
+loc:380_Stevens_Avenue%2C_Suite_120%5CnSolana_Beach%2C_California_92075 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:ASSENT_CONSULTING .
+
+loc:40_Eastern_Avenue%5CnMalden%2C_Massachusetts_02148-9104 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/MCVT%2C_INC.> .
+
+<http://example.org/org_name/%5Cn%C2%A0%09%5CnALLIED_HEALTH_GROUP%2C_LLC> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS ;
+    rel:hasLocationAt loc:135_Technology_Parkway_NW%5CnNorcross%2C_Georgia_30092 .
+
+org_name:ASSENT_CONSULTING a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS ;
+    rel:hasLocationAt loc:380_Stevens_Avenue%2C_Suite_120%5CnSolana_Beach%2C_California_92075 .
+
+<http://example.org/org_name/METROPOLITAN_RESEARCH_ASSOCIATES%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS ;
+    rel:hasLocationAt loc:48815_Emperor_Blvd.%2C_Suite_300%5CnDurham%2C_North_Carolina_27703 .
+
+<http://example.org/org_name/MRA_SEARCH%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS ;
+    rel:hasLocationAt loc:4_City_Place_Drive%2C_Suite_300%5CnCreve_Coeur%2C_Missouri_63141 .
+
+org_name:TRAVEL_STAFF%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS ;
+    rel:hasLocationAt loc:6551_Park_of_Commerce_Blvd._NW%5CnBoca_Raton%2C_Florida_33487 .
+
+person_name:Kenneth_Butler a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:BANK_OF_AMERICA .
+
+loc:48815_Emperor_Blvd.%2C_Suite_300%5CnDurham%2C_North_Carolina_27703 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%5CnCLINFORCE%2C_LLC>,
+        <http://example.org/org_name/METROPOLITAN_RESEARCH_ASSOCIATES%2C_INC.> .
+
+loc:4_City_Place_Drive%2C_Suite_300%5CnCreve_Coeur%2C_Missouri_63141 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%5CnCEJKA_SEARCH%2C_INC.>,
+        <http://example.org/org_name/MRA_SEARCH%2C_INC.> .
+
+loc:9020_Overlook_Blvd.%2C_Suite_140%5CnBrentwood%2C_Tennessee_37027 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:CROSS_COUNTRY_EDUCATION%2C_LLC,
+        org_name:CROSS_COUNTRY_PUBLISHING%2C_LLC .
+
+org_name:BANK_OF_AMERICA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Kenneth_Butler ;
+    rel:hasLocationAt loc:300_Galleria_Parkway%2C_Suite_800%5CnAtlanta%2C_GA_30339 .
+
+person_name:Emil_Hensel a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_name/%5CnCEJKA_SEARCH%2C_INC.>,
+        person_position:Assistant_Controller,
+        person_position:Chief_Financial_Officer,
+        person_position:Vice_President,
+        person_position:Vice_President%09%C2%A0%5Cn ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnCEJKA_SEARCH%2C_INC.>,
+        <http://example.org/org_name/CROSS_COUNTRY_HEALTHCARE%2C_INC.> .
+
+<http://example.org/org_name/%5CnCLINFORCE%2C_LLC> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS ;
+    rel:hasEmployee person_name:Susan_E._Ball ;
+    rel:hasLocationAt loc:48815_Emperor_Blvd.%2C_Suite_300%5CnDurham%2C_North_Carolina_27703 .
+
+<http://example.org/org_name/%5CnLOCAL_STAFF%2C_LLC> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS ;
+    rel:hasEmployee person_name:Susan_E._Ball ;
+    rel:hasLocationAt loc:3805_W._Chester_Pike%2C_Suite_200%5CnNewtown_Square%2C_Pennsylvania_19073 .
+
+org_name:ASSIGNMENT_AMERICA%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS ;
+    rel:hasEmployee person_name:Susan_E._Ball ;
+    rel:hasLocationAt loc:6551_Park_of_Commerce_Blvd._NW%5CnBoca_Raton%2C_Florida_33487 .
+
+<http://example.org/org_name/CC_LOCAL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS ;
+    rel:hasEmployee person_name:Susan_E._Ball ;
+    rel:hasLocationAt loc:6551_Park_of_Commerce_Blvd._NW%5CnBoca_Raton%2C_Florida_33487 .
+
+org_name:CREDENT_VERIFICATION_AND_LICENSING_SERVICES%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS ;
+    rel:hasEmployee person_name:Susan_E._Ball ;
+    rel:hasLocationAt loc:135_Technology_Parkway_NW%5CnNorcross%2C_Georgia_30092 .
+
+org_name:CROSS_COUNTRY_EDUCATION%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS ;
+    rel:hasEmployee person_name:Susan_E._Ball ;
+    rel:hasLocationAt loc:9020_Overlook_Blvd.%2C_Suite_140%5CnBrentwood%2C_Tennessee_37027 .
+
+org_name:CROSS_COUNTRY_PUBLISHING%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS ;
+    rel:hasEmployee person_name:Susan_E._Ball ;
+    rel:hasLocationAt loc:9020_Overlook_Blvd.%2C_Suite_140%5CnBrentwood%2C_Tennessee_37027 .
+
+<http://example.org/org_name/CROSS_COUNTRY_STAFFING%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS ;
+    rel:hasEmployee person_name:Susan_E._Ball ;
+    rel:hasLocationAt loc:6551_Park_of_Commerce_Blvd._NW%5CnBoca_Raton%2C_Florida_33487 .
+
+<http://example.org/org_name/MCVT%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS ;
+    rel:hasEmployee person_name:Susan_E._Ball ;
+    rel:hasLocationAt loc:40_Eastern_Avenue%5CnMalden%2C_Massachusetts_02148-9104 .
+
+<http://example.org/org_name/MDA_HOLDINGS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS ;
+    rel:hasEmployee person_name:Susan_E._Ball ;
+    rel:hasLocationAt loc:135_Technology_Parkway_NW%5CnNorcross%2C_Georgia_30092 .
+
+org_name:MEDICAL_DOCTOR_ASSOCIATES%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS ;
+    rel:hasEmployee person_name:Susan_E._Ball ;
+    rel:hasLocationAt loc:135_Technology_Parkway_NW%5CnNorcross%2C_Georgia_30092 .
+
+loc:135_Technology_Parkway_NW%5CnNorcross%2C_Georgia_30092 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%5Cn%C2%A0%09%5CnALLIED_HEALTH_GROUP%2C_LLC>,
+        org_name:CREDENT_VERIFICATION_AND_LICENSING_SERVICES%2C_LLC,
+        <http://example.org/org_name/MDA_HOLDINGS%2C_INC.>,
+        org_name:MEDICAL_DOCTOR_ASSOCIATES%2C_LLC .
+
+<http://example.org/org_name/CROSS_COUNTRY_HEALTHCARE%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS ;
+    rel:hasEmployee person_name:Emil_Hensel,
+        person_name:Susan_E._Ball ;
+    rel:hasLocationAt loc:6551_Park_of_Commerce_Blvd._NW%5CnBoca_Raton%2C_Florida_33487 .
+
+loc:6551_Park_of_Commerce_Blvd._NW%5CnBoca_Raton%2C_Florida_33487 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:ASSIGNMENT_AMERICA%2C_LLC,
+        <http://example.org/org_name/CC_LOCAL%2C_INC.>,
+        <http://example.org/org_name/CROSS_COUNTRY_HEALTHCARE%2C_INC.>,
+        <http://example.org/org_name/CROSS_COUNTRY_STAFFING%2C_INC.>,
+        org_name:TRAVEL_STAFF%2C_LLC .
+
+<http://example.org/org_name/%5CnCEJKA_SEARCH%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWERS ;
+    rel:hasEmployee person_name:Emil_Hensel,
+        person_name:Susan_E._Ball ;
+    rel:hasLocationAt loc:4_City_Place_Drive%2C_Suite_300%5CnCreve_Coeur%2C_Missouri_63141 .
+
+person_name:Susan_E._Ball a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_name/%5CnCEJKA_SEARCH%2C_INC.>,
+        <http://example.org/org_name/%5CnCLINFORCE%2C_LLC>,
+        <http://example.org/org_name/%5CnLOCAL_STAFF%2C_LLC>,
+        org_name:ASSIGNMENT_AMERICA%2C_LLC,
+        <http://example.org/org_name/CC_LOCAL%2C_INC.>,
+        org_name:CREDENT_VERIFICATION_AND_LICENSING_SERVICES%2C_LLC,
+        org_name:CROSS_COUNTRY_EDUCATION%2C_LLC,
+        <http://example.org/org_name/CROSS_COUNTRY_HEALTHCARE%2C_INC.>,
+        org_name:CROSS_COUNTRY_PUBLISHING%2C_LLC,
+        <http://example.org/org_name/CROSS_COUNTRY_STAFFING%2C_INC.>,
+        <http://example.org/org_name/MCVT%2C_INC.>,
+        <http://example.org/org_name/MDA_HOLDINGS%2C_INC.>,
+        org_name:MEDICAL_DOCTOR_ASSOCIATES%2C_LLC ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnCEJKA_SEARCH%2C_INC.>,
+        <http://example.org/org_name/%5CnCLINFORCE%2C_LLC>,
+        <http://example.org/org_name/%5CnLOCAL_STAFF%2C_LLC>,
+        org_name:ASSIGNMENT_AMERICA%2C_LLC,
+        <http://example.org/org_name/CC_LOCAL%2C_INC.>,
+        org_name:CREDENT_VERIFICATION_AND_LICENSING_SERVICES%2C_LLC,
+        org_name:CROSS_COUNTRY_EDUCATION%2C_LLC,
+        <http://example.org/org_name/CROSS_COUNTRY_HEALTHCARE%2C_INC.>,
+        org_name:CROSS_COUNTRY_PUBLISHING%2C_LLC,
+        <http://example.org/org_name/CROSS_COUNTRY_STAFFING%2C_INC.>,
+        <http://example.org/org_name/MCVT%2C_INC.>,
+        <http://example.org/org_name/MDA_HOLDINGS%2C_INC.>,
+        org_name:MEDICAL_DOCTOR_ASSOCIATES%2C_LLC .
+

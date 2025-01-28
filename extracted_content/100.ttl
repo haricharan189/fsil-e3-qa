@@ -1,0 +1,158 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+org_name:BANK_OF_THE_WEST%2C_FIFTH_THIRD_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+<http://example.org/org_name/MUFG_UNION_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:SUNTRUST_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent .
+
+org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger,
+        org_role:Bookrunner .
+
+loc:12670_High_Bluff_Drive%5Cn%5CnSan_Diego%2C_California%C2%A0_92103 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Latham%C2%A0%26_Watkins_LLP .
+
+loc:400_Hamilton_Ave.%2C_Suite%C2%A0110%5Cn%5CnPalo_Alto%2C_CA_94301 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Wells_Fargo_Bank%2C_National_Association .
+
+loc:590_E._Middlefield_Road%5Cn%5CnMountain_View%2C_CA_94043-4008 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Omnicell%2C%C2%A0Inc.> .
+
+<http://example.org/org_name/%5CnCITIZENS_BANK%2C_NATIONAL_ASSOCIATION> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Darran_Wee .
+
+<http://example.org/org_name/%5CnCOMERICA_BANK> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee <http://example.org/person_name/%5CnMark_Strzynski> .
+
+<http://example.org/org_name/%5CnHSBC_BANK_USA> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee <http://example.org/person_name/%5CnChristopher_M._Ames> .
+
+<http://example.org/org_name/%5CnSUNTRUST_BANK> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee <http://example.org/person_name/%5CnMin_Park> .
+
+org_name:BANK_OF_THE_WEST a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Lee_Merkle-Raymond .
+
+org_name:BBVA_COMPASS a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee <http://example.org/person_name/%5CnTyler_J._Mei> .
+
+org_name:EAST_WEST_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Alexis_Coyle .
+
+org_name:FIFTH_THIRD_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Thomas_Avery .
+
+org_name:JPMORGAN_CHASE_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee <http://example.org/person_name/%5CnMarshall_Trenckmann> .
+
+org_name:MUFG_UNION_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Teuta_Ghilaga .
+
+<http://example.org/org_name/OMNICELL%2C%C2%A0INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Peter_Kuipers .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Ray_Aguilar .
+
+org_name:Wells_Fargo_Bank%2C_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent ;
+    rel:hasLocationAt loc:400_Hamilton_Ave.%2C_Suite%C2%A0110%5Cn%5CnPalo_Alto%2C_CA_94301 .
+
+<http://example.org/person_name/%5CnChristopher_M._Ames> a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnSVP%2C_Global_Relationship_Manager> ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnHSBC_BANK_USA> .
+
+<http://example.org/person_name/%5CnMark_Strzynski> a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnVice_President> ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnCOMERICA_BANK> .
+
+<http://example.org/person_name/%5CnMarshall_Trenckmann> a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
+    rel:isEmployedBy org_name:JPMORGAN_CHASE_BANK .
+
+<http://example.org/person_name/%5CnMin_Park> a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnSUNTRUST_BANK> .
+
+<http://example.org/person_name/%5CnTyler_J._Mei> a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnSenior_Vice_President> ;
+    rel:isEmployedBy org_name:BBVA_COMPASS .
+
+person_name:Alexis_Coyle a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnManaging_Director> ;
+    rel:isEmployedBy org_name:EAST_WEST_BANK .
+
+person_name:Dan_Johnston a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Legal_and_Administrative_Officer,
+        person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/Omnicell%2C%C2%A0Inc.> .
+
+person_name:Darran_Wee a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnCITIZENS_BANK%2C_NATIONAL_ASSOCIATION> .
+
+person_name:Lee_Merkle-Raymond a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:BANK_OF_THE_WEST .
+
+person_name:Peter_Kuipers a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer,
+        person_position:Executive_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/OMNICELL%2C%C2%A0INC.> .
+
+person_name:Ray_Aguilar a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/VP/Relationship_Manager>,
+        <http://example.org/person_position/Vice_President/Relationship_Manager> ;
+    rel:isEmployedBy org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:Sony_Ben-Moshe a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:Latham%C2%A0%26_Watkins_LLP,
+        <http://example.org/person_position/Esq.> ;
+    rel:isEmployedBy org_name:Latham%C2%A0%26_Watkins_LLP .
+
+person_name:Teuta_Ghilaga a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:MUFG_UNION_BANK .
+
+person_name:Thomas_Avery a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Relationship_Manager ;
+    rel:isEmployedBy org_name:FIFTH_THIRD_BANK .
+
+<http://example.org/org_name/Omnicell%2C%C2%A0Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Dan_Johnston ;
+    rel:hasLocationAt loc:590_E._Middlefield_Road%5Cn%5CnMountain_View%2C_CA_94043-4008 .
+
+org_name:Latham%C2%A0%26_Watkins_LLP a base:Organization ;
+    rel:hasEmployee person_name:Sony_Ben-Moshe ;
+    rel:hasLocationAt loc:12670_High_Bluff_Drive%5Cn%5CnSan_Diego%2C_California%C2%A0_92103 .
+

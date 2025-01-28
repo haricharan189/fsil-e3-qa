@@ -1,0 +1,202 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+loc:1525_W_WT_Harris_Blvd%2C_Charlotte%2C_North_Carolina_28262 a base:Location .
+
+loc:951_Calle%5CnAmanecer%2C_San_Clemente%2C_California_92673 a base:Location .
+
+org_name:BARCLAYS_BANK_PLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/BNP_Paribas_Securities_Corp.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents,
+        org_role:arrangers,
+        org_role:bookrunners .
+
+org_name:Bank_of_theWest a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:Bank_of_the_West a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents,
+        org_role:arrangers,
+        org_role:bookrunners .
+
+org_name:Barclays_Bank_PLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents,
+        org_role:arrangers,
+        org_role:bookrunners .
+
+<http://example.org/org_name/BofA_Securities%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents,
+        org_role:arrangers,
+        org_role:bookrunners .
+
+org_name:Cahill_Gordon_%26_Reindel_llp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:legal_counsel .
+
+<http://example.org/org_name/Citigroup_Global_Markets_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents,
+        org_role:arrangers,
+        org_role:bookrunners .
+
+org_name:DNB_CAPITAL_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:Deloitte_%26_Touche_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:legal_counsel .
+
+org_name:HSBC_Bank_USA%2C_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:KeyBanc_Capital_Markets a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents .
+
+<http://example.org/org_name/KeyBanc_Capital_Markets%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:bookrunners .
+
+org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:Silicon_Valley_Bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:The_Huntington_National_Bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:U.S._Bank_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents,
+        org_role:arrangers,
+        org_role:bookrunners .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:Wells_Fargo_Securities%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:bookrunners .
+
+<http://example.org/org_name/Bank_of_America%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Ronnie_Glenn .
+
+org_name:CAPITAL_ONE%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Karen_M._Dahlquist .
+
+<http://example.org/org_name/Citibank_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_role:Revolver ;
+    rel:hasEmployee person_name:James_Riley .
+
+<http://example.org/org_name/ICU_Medical%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Brian_M._Bonnell .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Erik_Barragan .
+
+person_name:Ben_Snodgrass a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:KEYBANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:Bret_Douglas a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:U.S._BANK_NATIONAL_ASSOCIATION .
+
+person_name:Cecile_Segovia a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/MUFG_Bank%2C_Ltd.> .
+
+person_name:Darin_Mullis a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:Wells_Fargo_Bank%2C_National_Association .
+
+person_name:Erik_Barragan a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Officer ;
+    rel:isEmployedBy <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
+
+person_name:Erin_Robinson a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:Wells_Fargo_Bank%2C_National_Association .
+
+person_name:James_Riley a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signer ;
+    rel:isEmployedBy <http://example.org/org_name/Citibank_N.A.> .
+
+person_name:Joseph_D._Hricovsky a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:U.S._BANK_NATIONAL_ASSOCIATION .
+
+person_name:Karen_M._Dahlquist a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Duly_Authorized_Signatory ;
+    rel:isEmployedBy org_name:CAPITAL_ONE%2C_NATIONAL_ASSOCIATION .
+
+person_name:Kathryn_E._Benjamin a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:U.S._BANK_NATIONAL_ASSOCIATION .
+
+person_name:Kevin_Wood a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/MUFG_Bank%2C_Ltd.> .
+
+person_name:Kristie_Li a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:U.S._BANK_NATIONAL_ASSOCIATION .
+
+person_name:Ronnie_Glenn a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director,
+        person_position:SVP ;
+    rel:isEmployedBy <http://example.org/org_name/Bank_of_America%2C_N.A.> .
+
+person_name:Tanille_Ingle a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:KEYBANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:Tom_Priedeman a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:U.S._BANK_NATIONAL_ASSOCIATION .
+
+<http://example.org/org_name/EXC_HOLDING_CORP.%5CnTANGENT_MEDICAL_TECHNOLOGIES%2C_INC.%5CnEXCELSIOR_MEDICAL_CORPORATION%5CnICU_WORLD%2C_INC.> a base:Organization ;
+    rel:hasEmployee person_name:Brian_M._Bonnell .
+
+org_name:KEYBANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Ben_Snodgrass,
+        person_name:Tanille_Ingle .
+
+<http://example.org/org_name/MUFG_Bank%2C_Ltd.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agents,
+        org_role:Lender,
+        org_role:arrangers,
+        org_role:bookrunners ;
+    rel:hasEmployee person_name:Cecile_Segovia,
+        person_name:Kevin_Wood .
+
+org_name:Wells_Fargo_Bank%2C_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Darin_Mullis,
+        person_name:Erin_Robinson .
+
+person_name:Brian_M._Bonnell a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_name/EXC_HOLDING_CORP.%5CnTANGENT_MEDICAL_TECHNOLOGIES%2C_INC.%5CnEXCELSIOR_MEDICAL_CORPORATION%5CnICU_WORLD%2C_INC.>,
+        person_position:CFO,
+        person_position:Treasurer ;
+    rel:isEmployedBy <http://example.org/org_name/EXC_HOLDING_CORP.%5CnTANGENT_MEDICAL_TECHNOLOGIES%2C_INC.%5CnEXCELSIOR_MEDICAL_CORPORATION%5CnICU_WORLD%2C_INC.>,
+        <http://example.org/org_name/ICU_Medical%2C_Inc.> .
+
+org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Bret_Douglas,
+        person_name:Joseph_D._Hricovsky,
+        person_name:Kathryn_E._Benjamin,
+        person_name:Kristie_Li,
+        person_name:Tom_Priedeman .
+

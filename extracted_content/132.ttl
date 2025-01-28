@@ -1,0 +1,138 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/ASSETMARK%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors .
+
+<http://example.org/org_name/ASSETMARK_FINANCIAL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors .
+
+<http://example.org/org_name/ASSETMARK_RETIREMENT_SERVICES%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors .
+
+<http://example.org/org_name/BMO_Capital_Markets_Corp.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Book_Runners .
+
+org_name:GLOBAL_FINANCIAL_ADVISORY%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors .
+
+<http://example.org/org_name/GLOBAL_FINANCIAL_PRIVATE_CAPITAL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors .
+
+org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:JPMorgan_Chase_Bank%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Book_Runners .
+
+org_name:U.S._Bank_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Book_Runners .
+
+<http://example.org/org_name/WBI_OBS_FINANCIAL%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors .
+
+<http://example.org/org_name/WELLS_FARGO_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:Wells_Fargo_Securities%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Book_Runners .
+
+loc:115_South_LaSalle_Street%5Cn%5CnChicago%2C_Illinois_60603 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Bank_of_Montreal .
+
+loc:1655_Grant_Street%2C_10th_Floor%5Cn%5CnConcord%2C_CA_94520 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/ASSETMARK_FINANCIAL_HOLDINGS%2C_INC.> .
+
+<http://example.org/org_name/ASSETMARK_FINANCIAL_HOLDINGS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasLocationAt loc:1655_Grant_Street%2C_10th_Floor%5Cn%5CnConcord%2C_CA_94520 .
+
+org_name:Bank_of_Montreal a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        <http://example.org/org_role/L/C_Issuer> ;
+    rel:hasLocationAt loc:115_South_LaSalle_Street%5Cn%5CnChicago%2C_Illinois_60603 .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee <http://example.org/person_name/%5CnJennifer_M._Dunneback> .
+
+<http://example.org/org_name/OBS_FINANCIAL_SERVICES%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasEmployee person_name:Gary_G._Zyla .
+
+<http://example.org/org_name/OBS_HOLDINGS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantors ;
+    rel:hasEmployee <http://example.org/person_name/%5CnGary_G._Zyla> .
+
+org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Mark_R._Cousineau .
+
+<http://example.org/person_name/%5CnAmy_Prager> a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:BANK_OF_MONTREAL .
+
+<http://example.org/person_name/%5CnDoreen_Barr> a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:CREDIT_SUISSE_AG%2C_NEW_YORK_BRANCH .
+
+<http://example.org/person_name/%5CnGary_G._Zyla> a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnExecutive_Vice_President%2C_Chief_Financial_Officer_and_Treasurer>,
+        person_position:Vice_President_and_Treasurer ;
+    rel:isEmployedBy <http://example.org/org_name/OBS_HOLDINGS%2C_INC.> .
+
+<http://example.org/person_name/%5CnJennifer_M._Dunneback> a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
+
+<http://example.org/person_name/%5CnRyan_Durkin> a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:CREDIT_SUISSE_AG%2C_NEW_YORK_BRANCH .
+
+person_name:Amy_Prager a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:BANK_OF_MONTREAL .
+
+person_name:Andrew_Griffin a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:CREDIT_SUISSE_AG%2C_NEW_YORK_BRANCH .
+
+person_name:Gary_G._Zyla a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnExecutive_Vice_President%2C_Chief_Financial_Officer_and_Treasurer>,
+        <http://example.org/person_position/%5CnExecutive_Vice_President_and_Treasurer>,
+        person_position:Executive_Vice_President%2C_Chief_Financial_Officer_and_Treasurer,
+        person_position:Executive_Vice_President_and_Treasurer,
+        person_position:Vice_President_and_Treasurer ;
+    rel:isEmployedBy <http://example.org/org_name/OBS_FINANCIAL_SERVICES%2C_INC.> .
+
+person_name:James_Mastroianna a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:BANK_OF_MONTREAL .
+
+person_name:Mark_R._Cousineau a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:U.S._BANK_NATIONAL_ASSOCIATION .
+
+org_name:BANK_OF_MONTREAL a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee <http://example.org/person_name/%5CnAmy_Prager>,
+        person_name:Amy_Prager,
+        person_name:James_Mastroianna .
+
+org_name:CREDIT_SUISSE_AG%2C_NEW_YORK_BRANCH a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee <http://example.org/person_name/%5CnDoreen_Barr>,
+        <http://example.org/person_name/%5CnRyan_Durkin>,
+        person_name:Andrew_Griffin .
+

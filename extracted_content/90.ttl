@@ -1,0 +1,204 @@
+@prefix base: <http://example.org/base/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/%5Cn%C2%A0%09ASHLAND_GLOBAL_HOLDINGS_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Holding_Companies .
+
+<http://example.org/org_name/ASHLAND_CHEMCO_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Holding_Companies .
+
+org_name:ASHLAND_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+<http://example.org/org_name/ASHLAND_SERVICES_B.V.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Dutch_Borrower .
+
+org_name:BANK_OF_AMERICA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:BNP_PARIBAS a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:CITIBANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:CREDIT_AGRICOLE_CORPORATE_AND%5Cn%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0_INVESTMENT_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:Cravath%2C_Swaine_%26_Moore_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:special_New_York_counsel_to_the_Borrowers .
+
+org_name:DEUTSCHE_BANK_AG_NEW_YORK_BRANCH a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:Dinsmore_%26_Shohl_LLP%2C a base:Organization .
+
+org_name:FIFTH_THIRD_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:MIZUHO_BANK%2C_LTD a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:PNC_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:SUMITOMO_MITSUI_BANKING_CORPORATION%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:TD_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:THE_BANK_OF_NOVA_SCOTIA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative%5CnAgent,
+        <http://example.org/org_role/L/C_Issuer>,
+        org_role:Lender,
+        org_role:Swing_Line_Lender .
+
+org_name:special_Kentucky_counsel_to_the_Borrowers a base:Organization .
+
+org_name:HSBC_BANK_USA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Alexander_Foster .
+
+org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Kelsey_E._Hehman .
+
+person_name:Alexander_Foster a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:AVP ;
+    rel:isEmployedBy org_name:HSBC_BANK_USA .
+
+person_name:Annie_Chung a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/ING_BANK_N.V.> .
+
+person_name:Barry_Fehily a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy <http://example.org/org_name/ING_BANK_N.V.> .
+
+person_name:Brad_Matthews a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/ING_BANK_N.V.> .
+
+person_name:Carlos_Cruz a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
+    rel:isEmployedBy org_name:TRUIST_BANK .
+
+person_name:Christopher_A._Salek a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:JPMORGAN_CHASE_BANK .
+
+person_name:Christopher_Matheson a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:SANTANDER_BANK .
+
+person_name:Clement_Yu a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/ING_BANK_N.V.> .
+
+person_name:David_C._Beckett a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:SANTANDER_BANK .
+
+person_name:Donna_DeMagistris a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:GOLDMAN_SACHS_BANK_USA .
+
+person_name:Irv_Roa a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:SANTANDER_BANK .
+
+person_name:Kaye_Ea a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy <http://example.org/org_name/ING_BANK_N.V.> .
+
+person_name:Kelsey_E._Hehman a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Assistant_Vice_President ;
+    rel:isEmployedBy org_name:U.S._BANK_NATIONAL_ASSOCIATION .
+
+person_name:Kevin_D._Higgins a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy <http://example.org/org_name/ING_BANK_N.V.> .
+
+person_name:Michael_Maguire a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
+    rel:isEmployedBy org_name:TRUIST_BANK .
+
+person_name:Michael_Pearce a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy <http://example.org/org_name/ING_BANK_N.V.> .
+
+person_name:Michael_S._Barnett a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy org_name:SANTANDER_BANK .
+
+person_name:Michael_Vondriska a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:JPMORGAN_CHASE_BANK .
+
+person_name:Ming_K._Chu a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/ING_BANK_N.V.> .
+
+person_name:Mukesh_Singh a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/ING_BANK_N.V.> .
+
+person_name:Sean_Hassett a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/ING_BANK_N.V.> .
+
+person_name:Thomas_M._Manning a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:GOLDMAN_SACHS_BANK_USA .
+
+person_name:Todd_Grossnickle a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy <http://example.org/org_name/ING_BANK_N.V.> .
+
+person_name:William_C._Whitaker a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Treasurer,
+        person_position:Vice_President ;
+    rel:isEmployedBy org_name:JPMORGAN_CHASE_BANK .
+
+org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Donna_DeMagistris,
+        person_name:Thomas_M._Manning .
+
+org_name:TRUIST_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Carlos_Cruz,
+        person_name:Michael_Maguire .
+
+org_name:JPMORGAN_CHASE_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Christopher_A._Salek,
+        person_name:Michael_Vondriska,
+        person_name:William_C._Whitaker .
+
+org_name:SANTANDER_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Christopher_Matheson,
+        person_name:David_C._Beckett,
+        person_name:Irv_Roa,
+        person_name:Michael_S._Barnett .
+
+<http://example.org/org_name/ING_BANK_N.V.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Annie_Chung,
+        person_name:Barry_Fehily,
+        person_name:Brad_Matthews,
+        person_name:Clement_Yu,
+        person_name:Kaye_Ea,
+        person_name:Kevin_D._Higgins,
+        person_name:Michael_Pearce,
+        person_name:Ming_K._Chu,
+        person_name:Mukesh_Singh,
+        person_name:Sean_Hassett,
+        person_name:Todd_Grossnickle .
+

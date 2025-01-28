@@ -1,0 +1,41 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+loc:1550_Seventeenth_Street%2C_Suite_500%5Cn%5CnDenver%2C_Colorado_80202%5Cn%5CnAttention%3A_Ron_Levine a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Davis_Graham_%26_Stubbs_LLP .
+
+loc:1900_Grant_Street%5Cn%5CnSuite_720%5Cn%5CnDenver%2C_CO_80203 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:LILIS_ENERGY%2C_INC .
+
+loc:One_Information_Way%2C_Suite_300%5Cn%5CnLittle_Rock%2C_Arkansas_72202 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:HEARTLAND_BANK .
+
+org_name:Davis_Graham_%26_Stubbs_LLP a base:Organization ;
+    rel:hasLocationAt loc:1550_Seventeenth_Street%2C_Suite_500%5Cn%5CnDenver%2C_Colorado_80202%5Cn%5CnAttention%3A_Ron_Levine .
+
+person_name:Abraham_Mirman a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Executive_Officer ;
+    rel:isEmployedBy org_name:LILIS_ENERGY%2C_INC .
+
+person_name:Phil_Thomas a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/CLO_/_EVP> ;
+    rel:isEmployedBy org_name:HEARTLAND_BANK .
+
+org_name:HEARTLAND_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:administrative_agent ;
+    rel:hasEmployee person_name:Phil_Thomas ;
+    rel:hasLocationAt loc:One_Information_Way%2C_Suite_300%5Cn%5CnLittle_Rock%2C_Arkansas_72202 .
+
+org_name:LILIS_ENERGY%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Abraham_Mirman ;
+    rel:hasLocationAt loc:1900_Grant_Street%5Cn%5CnSuite_720%5Cn%5CnDenver%2C_CO_80203 .
+

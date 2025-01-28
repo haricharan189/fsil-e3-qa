@@ -1,0 +1,268 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/BofA_Securities%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arranger,
+        org_role:bookrunner .
+
+org_name:Fifth_Third_Bank%2C_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arranger,
+        org_role:bookrunner .
+
+<http://example.org/org_name/Hancock_Whitney_Investment_Services%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arranger,
+        org_role:bookrunner .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Collateral_Agent,
+        org_role:Documentation_Agents,
+        org_role:Syndication_Agents .
+
+<http://example.org/org_name/MURPHY_USA%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+<http://example.org/org_name/MURPHY_USA_INC.> a base:Organization .
+
+org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Issuing_Bank,
+        org_role:LENDER .
+
+org_name:PNC_Capital_Markets_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arranger,
+        org_role:bookrunner .
+
+org_name:RBC_CAPITAL_MARKETS a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Documentation_Agents,
+        org_role:Syndication_Agents .
+
+org_name:RBC_Capital_Markets a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arranger,
+        org_role:bookrunner .
+
+org_name:REGIONS_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDER .
+
+org_name:Regions_Capital_Markets a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arranger,
+        org_role:bookrunner .
+
+org_name:TRUIST_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDER .
+
+<http://example.org/org_name/Truist_Securities%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arranger,
+        org_role:bookrunner .
+
+<http://example.org/org_name/UMB_Bank%2C%C2%A0N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arranger,
+        org_role:bookrunner .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDER .
+
+org_name:Wells_Fargo_Securities%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arranger,
+        org_role:bookrunner .
+
+loc:200_Peach_Street%2C_El_Dorado%2C_Arkansas_71730 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Murphy_USA .
+
+loc:2200_Ross_Avenue%2C_9th_Floor%5Cn%5CnDallas%2C_TX_75201 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> .
+
+loc:Nebraska a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/591_Beverage%2C_Inc.> .
+
+loc:Texas a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/864_Beverage%2C_Inc.> .
+
+<http://example.org/org_name/591_Beverage%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Subsidiary ;
+    rel:hasLocationAt loc:Nebraska .
+
+<http://example.org/org_name/864_Beverage%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Subsidiary ;
+    rel:hasLocationAt loc:Texas .
+
+<http://example.org/org_name/864_Holdings%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Subsidiary ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:BANK_OF_AMERICA%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Issuing_Bank,
+        org_role:LENDER ;
+    rel:hasEmployee person_name:Kevin_Couch .
+
+org_name:El_Dorado_Properties_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Subsidiary ;
+    rel:hasLocationAt loc:Arkansas .
+
+org_name:HANCOCK_WHITNEY_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDER ;
+    rel:hasEmployee person_name:Nancy_G._Moragas .
+
+org_name:Hankinson_Holding%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Subsidiary ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:JPMORGAN_CHASE_BANK%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Issuing_Bank ;
+    rel:hasEmployee person_name:Stephanie_Balette .
+
+<http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arranger,
+        org_role:bookrunner ;
+    rel:hasLocationAt loc:2200_Ross_Avenue%2C_9th_Floor%5Cn%5CnDallas%2C_TX_75201 .
+
+<http://example.org/org_name/MURPHY_OIL_USA%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Mindy_K._West .
+
+org_name:Murphy_Oil_Trading%5Cn%5CnCompany%5Cn%5Cn%28Eastern%29 a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Subsidiary ;
+    rel:hasLocationAt loc:Delaware .
+
+<http://example.org/org_name/Murphy_Oil_USA%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Subsidiary ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:Murphy_USA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    rel:hasLocationAt loc:200_Peach_Street%2C_El_Dorado%2C_Arkansas_71730 .
+
+<http://example.org/org_name/Murphy_USA_NJ%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Subsidiary ;
+    rel:hasLocationAt loc:New_Jersey .
+
+<http://example.org/org_name/QuickChek_Realty%2C_L.L.C.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Subsidiary ;
+    rel:hasLocationAt loc:New_Jersey .
+
+org_name:QuickChek_Realty_Urban_Renewal_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Subsidiary ;
+    rel:hasLocationAt loc:New_Jersey .
+
+org_name:Quick_Chek_Corporation a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Subsidiary ;
+    rel:hasLocationAt loc:New_Jersey .
+
+org_name:Spur_Oil_Corporation a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Subsidiary ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:Superior_Crude_Trading_Company a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Subsidiary ;
+    rel:hasLocationAt loc:Delaware .
+
+org_name:The_Griffin_LLC_Arkansas a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Subsidiary ;
+    rel:hasLocationAt loc:Arkansas .
+
+person_name:Aaron_Wade a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:BANCORPSOUTH_BANK .
+
+person_name:Cory_Miller a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/UMB_BANK%2C_N.A.> .
+
+person_name:J._Carlos_Navarrete a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:BANCORPSOUTH_BANK .
+
+person_name:Jacob_McGee a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:BANCORPSOUTH_BANK .
+
+person_name:John_Flores a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory%5Cn ;
+    rel:isEmployedBy org_name:ROYAL_BANK_OF_CANADA .
+
+person_name:Kevin_Couch a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/person_position/SVP/Commercial_Credit_Officer> ;
+    rel:isEmployedBy org_name:BANK_OF_AMERICA%2C_N.A .
+
+person_name:Mark_Holm a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:FIFTH_THIRD_BANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:Michael_L._Monninger a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/UMB_BANK%2C_N.A.> .
+
+person_name:Mike_Ross a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:FIFTH_THIRD_BANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:Mindy_K._West a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Office,
+        person_position:Chief_Financial_Officer,
+        person_position:Executive_Vice_President%2C_Fuels,
+        person_position:Treasurer ;
+    rel:isEmployedBy <http://example.org/org_name/MURPHY_OIL_USA%2C_INC.> .
+
+person_name:Nancy_G._Moragas a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:SVP ;
+    rel:isEmployedBy org_name:HANCOCK_WHITNEY_BANK .
+
+person_name:Stephanie_Balette a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Officer ;
+    rel:isEmployedBy org_name:JPMORGAN_CHASE_BANK%2C_N.A .
+
+person_name:Yvonne_Brazier a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Manager%2C_Agency_Services ;
+    rel:isEmployedBy org_name:ROYAL_BANK_OF_CANADA .
+
+loc:Arkansas a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:El_Dorado_Properties_LLC,
+        org_name:The_Griffin_LLC_Arkansas .
+
+org_name:FIFTH_THIRD_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDER ;
+    rel:hasEmployee person_name:Mark_Holm,
+        person_name:Mike_Ross .
+
+org_name:ROYAL_BANK_OF_CANADA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Issuing_Bank%2C ;
+    rel:hasEmployee person_name:John_Flores,
+        person_name:Yvonne_Brazier .
+
+<http://example.org/org_name/UMB_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDER ;
+    rel:hasEmployee person_name:Cory_Miller,
+        person_name:Michael_L._Monninger .
+
+org_name:BANCORPSOUTH_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:LENDER ;
+    rel:hasEmployee person_name:Aaron_Wade,
+        person_name:J._Carlos_Navarrete,
+        person_name:Jacob_McGee .
+
+loc:New_Jersey a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/Murphy_USA_NJ%2C_Inc.>,
+        <http://example.org/org_name/QuickChek_Realty%2C_L.L.C.>,
+        org_name:QuickChek_Realty_Urban_Renewal_LLC,
+        org_name:Quick_Chek_Corporation .
+
+loc:Delaware a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/864_Holdings%2C_Inc.>,
+        org_name:Hankinson_Holding%2C_LLC,
+        org_name:Murphy_Oil_Trading%5Cn%5CnCompany%5Cn%5Cn%28Eastern%29,
+        <http://example.org/org_name/Murphy_Oil_USA%2C_Inc.>,
+        org_name:Spur_Oil_Corporation,
+        org_name:Superior_Crude_Trading_Company .
+

@@ -1,0 +1,137 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/%5CnTRUIST_BANK> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/BOFA_SECURITIES%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+<http://example.org/org_name/BofA_Securities%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger,
+        org_role:Syndication_Agent .
+
+<http://example.org/org_name/CITIZENS_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:co-documentation_agent .
+
+org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:PNC_Bank a base:Organization .
+
+org_name:TD_Securities_%28USA%29_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:co-documentation_agent .
+
+org_name:U.S._Bank_National_Association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:co-documentation_agent .
+
+org_name:U._S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
+        org_role:Lender .
+
+org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+org_name:Wells_Fargo_Securities%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger .
+
+loc:NEW%5Cn%5CnYORK a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/%5CnTHE_TORONTO-DOMINION_BANK> .
+
+<http://example.org/org_name/CAPITAL_ONE%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Paul_Isaac .
+
+<http://example.org/org_name/DICK%C2%92S_SPORTING_GOODS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Navdeep_Gupta .
+
+org_name:FIFTH_THIRD_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Mary_Ramsey .
+
+person_name:Adam_J._Kultgen a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnTHE_HUNTINGTON_NATIONAL_BANK> .
+
+person_name:Alysa_Trakas a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:BANK_OF_AMERICA%2C_N.A .
+
+person_name:Anthony_Hoye a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:BANK_OF_AMERICA%2C_N.A .
+
+person_name:Carl_Hinrichs a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:BANK_OF_AMERICA%2C_N.A .
+
+person_name:Carl_S._Tabacjar%2C_Jr a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/HSBC_BANK_USA%2C_N.A.> .
+
+person_name:Jaime_Mariano a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/HSBC_BANK_USA%2C_N.A.> .
+
+person_name:Mary_F._Molnar a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/HSBC_BANK_USA%2C_N.A.> .
+
+person_name:Mary_Ramsey a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director%2C_SVP ;
+    rel:isEmployedBy org_name:FIFTH_THIRD_BANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:Michael_Borowiecki a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnTHE_TORONTO-DOMINION_BANK> .
+
+person_name:Navdeep_Gupta a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer,
+        person_position:Executive_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/DICK%C2%92S_SPORTING_GOODS%2C_INC.> .
+
+person_name:Paul_Isaac a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Duly_Authorized_Signatory ;
+    rel:isEmployedBy <http://example.org/org_name/CAPITAL_ONE%2C_N.A.> .
+
+person_name:Phil_Andresen a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/%5CnTHE_HUNTINGTON_NATIONAL_BANK> .
+
+<http://example.org/org_name/%5CnTHE_HUNTINGTON_NATIONAL_BANK> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Adam_J._Kultgen,
+        person_name:Phil_Andresen .
+
+<http://example.org/org_name/%5CnTHE_TORONTO-DOMINION_BANK> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Michael_Borowiecki ;
+    rel:hasLocationAt loc:NEW%5Cn%5CnYORK .
+
+org_name:BANK_OF_AMERICA%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Alysa_Trakas,
+        person_name:Anthony_Hoye,
+        person_name:Carl_Hinrichs .
+
+<http://example.org/org_name/HSBC_BANK_USA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Carl_S._Tabacjar%2C_Jr,
+        person_name:Jaime_Mariano,
+        person_name:Mary_F._Molnar .
+

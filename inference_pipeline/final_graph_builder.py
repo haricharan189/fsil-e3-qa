@@ -225,12 +225,18 @@ class KnowledgeGraphBuilder:
                         g.add((org_uri, self.isInstanceOf, sub_role_uri))
                     
                     # Location - Type relationship
-                    elif (from_label == "Location" and to_label == "Location Type") or \
-                         (from_label == "Location Type" and to_label == "Location"):
-                         loc_uri = from_entity["uri"]
-                         type_uri = self.location_type[self._clean_uri(to_entity["text"])]
-                        # g.add((loc_uri, RDF.type, type_uri))
-                         g.add((loc_uri, self.isInstanceOf, type_uri))
+                    if (from_label == "Location" and to_label == "Location Type") or \
+                       (from_label == "Location Type" and to_label == "Location"):
+                        # Get the location URI and type text in the correct order
+                        if from_label == "Location":
+                            loc_uri = from_entity["uri"]
+                            type_text = to_entity["text"]
+                        else:
+                            loc_uri = to_entity["uri"]
+                            type_text = from_entity["text"]
+                        
+                        type_uri = self.location_type[self._clean_uri(type_text)]
+                        g.add((loc_uri, self.isInstanceOf, type_uri))
                     
                     # Organization - Location relationship
                     elif from_label == "Organization Name" and to_label == "Location":
@@ -314,4 +320,4 @@ def main(json_file_path: str, output_dir: str):
 
 if __name__ == "__main__":
     # Replace with your actual JSON file path and desired output directory
-    main("48 to 53_hari.json", "./extracted_content")  
+    main("semi_cleaned_docs (1).json", "./extracted_content")  

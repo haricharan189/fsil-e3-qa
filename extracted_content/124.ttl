@@ -1,0 +1,113 @@
+@prefix base: <http://example.org/base/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_role:Syndication_Agents .
+
+org_name:BRANCH_BANKING a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Documentation_Agents%5Cn%5Cn .
+
+org_name:CITIZENS_BANK%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+<http://example.org/org_name/CITIZENS_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent%5Cn%5Cn,
+        org_role:Lead_Arrangers .
+
+org_name:KEYBANC_CAPITAL_MARKETS%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lead_Arrangers .
+
+org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_role:Syndication_Agents .
+
+org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bookrunners .
+
+<http://example.org/org_name/TD_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Documentation_Agents%5Cn%5Cn,
+        org_role:Lender .
+
+org_name:TRUST_COMPANY a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Documentation_Agents%5Cn%5Cn .
+
+org_name:WELLS_FARGO_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Documentation_Agents%5Cn%5Cn .
+
+org_name:BRANCH_BANKING_%26_TRUST_COMPANY a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Trevor_Williams .
+
+org_name:JPMORGAN_CHASE_BANK%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bookrunners,
+        org_role:Lender,
+        org_role:Syndication_Agents ;
+    rel:hasEmployee person_name:Peter_M._Killea .
+
+org_name:MONRO_MUFFLER_BRAKE%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Catherine_D%C2%92Amico .
+
+<http://example.org/org_name/WELLS_FARGO_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee <http://example.org/person_name/%5CnRichard_Ferrari> .
+
+<http://example.org/person_name/%5CnChristine_Keating> a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/CITIBANK_N.A.> .
+
+<http://example.org/person_name/%5CnRandall_R._Phillips> a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:FIRST_NIAGARA_BANK%2C_N.A.%2C .
+
+<http://example.org/person_name/%5CnRichard_Ferrari> a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President%5Cn%5Cn%C2%A0%5Cn%5Cn ;
+    rel:isEmployedBy <http://example.org/org_name/WELLS_FARGO_BANK%2C_N.A.> .
+
+person_name:Catherine_D%C2%92Amico a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer,
+        person_position:Executive_Vice_President_of_Finance,
+        person_position:Treasurer ;
+    rel:isEmployedBy org_name:MONRO_MUFFLER_BRAKE%2C_INC .
+
+person_name:Craig_Welch a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/CITIBANK_N.A.> .
+
+person_name:Michael_K._Makaitis a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:FIRST_NIAGARA_BANK%2C_N.A.%2C .
+
+person_name:Michael_McMahon a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/CITIBANK_N.A.> .
+
+person_name:Peter_M._Killea a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
+    rel:isEmployedBy org_name:JPMORGAN_CHASE_BANK%2C_N.A .
+
+person_name:Thomas_C._Strasenburgh a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/CITIBANK_N.A.> .
+
+person_name:Trevor_Williams a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Banking_Officer ;
+    rel:isEmployedBy org_name:BRANCH_BANKING_%26_TRUST_COMPANY .
+
+org_name:FIRST_NIAGARA_BANK%2C_N.A.%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee <http://example.org/person_name/%5CnRandall_R._Phillips>,
+        person_name:Michael_K._Makaitis .
+
+<http://example.org/org_name/CITIBANK_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee <http://example.org/person_name/%5CnChristine_Keating>,
+        person_name:Craig_Welch,
+        person_name:Michael_McMahon,
+        person_name:Thomas_C._Strasenburgh .
+

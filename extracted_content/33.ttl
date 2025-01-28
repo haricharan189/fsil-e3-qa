@@ -1,0 +1,60 @@
+@prefix base: <http://example.org/base/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+org_name:CREDIT_SUISSE_SECURITIES_%28USA%29_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+org_name:J.P._MORGAN_SECURITIES_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Arrangers,
+        org_role:Bookrunners .
+
+<http://example.org/org_name/PLY_GEM_HOLDINGS%2C_INC.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Parent .
+
+org_name:RBC_CAPITAL_MARKETS%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger .
+
+org_name:UBS_SECURITIES_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Arrangers,
+        org_role:Bookrunners .
+
+org_name:UBS_Securities_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Documentation_Agent .
+
+org_name:PLY_GEM_INDUSTRIES%2C_INC.%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Shawn_K._Poe .
+
+person_name:Christopher_Day a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:CREDIT_SUISSE_AG .
+
+person_name:Jean-Marc_Vauclair a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:CREDIT_SUISSE_AG .
+
+person_name:Shawn_K._Poe a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer,
+        person_position:Chief_Financial_Officer%2C,
+        person_position:Secretary,
+        person_position:Treasurer,
+        person_position:Vice_President ;
+    rel:isEmployedBy org_name:PLY_GEM_INDUSTRIES%2C_INC.%2C .
+
+org_name:CREDIT_SUISSE_AG a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Agent%5Cn ;
+    rel:hasEmployee person_name:Christopher_Day,
+        person_name:Jean-Marc_Vauclair .
+

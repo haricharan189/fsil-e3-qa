@@ -1,0 +1,36 @@
+@prefix base: <http://example.org/base/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+org_name:Alston%C2%A0%26_Bird_LLP%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:counsel_to_the_Borrower .
+
+org_name:BANK_OF_AMERICA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent ;
+    rel:hasEmployee person_name:Henry_Pennell .
+
+org_name:BANK_OF_AMERICA_MERRILL_LYNCH a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger,
+        org_role:Bookrunner ;
+    rel:hasEmployee person_name:Ryan_Maples .
+
+org_name:TOTAL_SYSTEM_SERVICES%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Paul_M._Todd .
+
+person_name:Henry_Pennell a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:BANK_OF_AMERICA .
+
+person_name:Paul_M._Todd a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer,
+        person_position:Senior_Executive_Vice_President ;
+    rel:isEmployedBy org_name:TOTAL_SYSTEM_SERVICES%2C_INC .
+
+person_name:Ryan_Maples a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Sr._Vice_President ;
+    rel:isEmployedBy org_name:BANK_OF_AMERICA_MERRILL_LYNCH .
+

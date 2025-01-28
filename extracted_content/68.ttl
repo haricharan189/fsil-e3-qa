@@ -1,0 +1,164 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix org_sub_role: <http://example.org/org_sub_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+org_name:401_Edgewater_Place%2C_Suite_200%5CnWakefield%2C_Massachusetts_01880-6210 a base:Organization .
+
+org_name:BANK_OF_MONTREAL a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender .
+
+org_name:BMO_Capital_Markets_Corp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger .
+
+org_name:Beacon_Capital a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Competitors .
+
+org_name:BofA_Securities a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger .
+
+<http://example.org/org_name/Boston_Properties%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Competitors .
+
+org_name:Brandywine_Realty_Trust a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Competitors .
+
+org_name:CP_Group a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Competitors .
+
+org_name:City_Office a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Competitors .
+
+org_name:Corporate_Office_Properties_Trust a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Competitors .
+
+org_name:Cousins_Properties a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Competitors .
+
+<http://example.org/org_name/Douglas_Emmett%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Competitors .
+
+<http://example.org/org_name/FIRST_FINANCIAL_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender .
+
+org_name:Granite_Properties a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Competitors .
+
+<http://example.org/org_name/Highwoods_Properties%2C_Inc.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Competitors .
+
+<http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arranger .
+
+org_name:Kilroy_Realty_Corporation a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Competitors .
+
+org_name:Mack-Cali_Realty_Corporation a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Competitors .
+
+org_name:Piedmont_Office_Realty_Trust a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Competitors .
+
+<http://example.org/org_name/SL_Green_Realty_Corp.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Competitors .
+
+org_name:Vornado_Realty_Trust a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Competitors .
+
+org_name:W.P._Carey_%26_Co.%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Competitors .
+
+org_name:Washington_Real_Estate_Investment_Trust a base:Organization ;
+    <http://example.org/isInstanceOf/> org_sub_role:Competitors .
+
+loc:111_Huntington_Avenue%5CnBoston%2C_MA_02199 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Foley_%26_Lardner_LLP .
+
+loc:900_W._Trade_St.%5CnCharlotte%2C_NC_28255 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
+org_name:CAPITAL_ONE%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Melissa_DeVito .
+
+<http://example.org/org_name/FRANKLIN_STREET_PROPERTIES_CORP.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:BORROWER ;
+    rel:hasEmployee person_name:George_J._Carter .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Issuer,
+        org_role:Lender ;
+    rel:hasEmployee <http://example.org/person_name/%5CnAustin_Lotito> .
+
+<http://example.org/person_name/%5CnAustin_Lotito> a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
+    rel:isEmployedBy <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> .
+
+person_name:Cletise_Ussery a base:Person ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
+person_name:George_J._Carter a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Executive_Officer ;
+    rel:isEmployedBy <http://example.org/org_name/FRANKLIN_STREET_PROPERTIES_CORP.> .
+
+person_name:Jamie_N._Class a base:Person ;
+    <http://example.org/isInstanceOf/> org_name:Foley_%26_Lardner_LLP ;
+    rel:isEmployedBy org_name:Foley_%26_Lardner_LLP .
+
+person_name:John_F._Simon a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/CITIZENS_BANK%2C_N.A.> .
+
+person_name:John_Wilgus a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/CITIZENS_BANK%2C_N.A.> .
+
+person_name:Jonas_L._Robinson a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:REGIONS_BANK .
+
+person_name:Kerri_Colwell a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/CITIZENS_BANK%2C_N.A.> .
+
+person_name:Melissa_DeVito a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:CAPITAL_ONE%2C_NATIONAL_ASSOCIATION .
+
+person_name:T._Barrett_Vawter a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:REGIONS_BANK .
+
+org_name:REGIONS_BANK a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Jonas_L._Robinson,
+        person_name:T._Barrett_Vawter .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Issuer,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Cletise_Ussery ;
+    rel:hasLocationAt loc:900_W._Trade_St.%5CnCharlotte%2C_NC_28255 .
+
+<http://example.org/org_name/CITIZENS_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_role:Lender ;
+    rel:hasEmployee person_name:John_F._Simon,
+        person_name:John_Wilgus,
+        person_name:Kerri_Colwell .
+
+org_name:Foley_%26_Lardner_LLP a base:Organization ;
+    rel:hasEmployee person_name:Jamie_N._Class ;
+    rel:hasLocationAt loc:111_Huntington_Avenue%5CnBoston%2C_MA_02199 .
+

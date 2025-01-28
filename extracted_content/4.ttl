@@ -1,0 +1,107 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+loc:200_Talcott_Avenue_South%5Cn%5CnP.O._Box_9177%5Cn%5CnWatertown%2C_MA_02471-9177%5Cn%5Cn a base:Location .
+
+loc:200_West_Street%5Cn%5CnNew_York%2C_New_York%5Cn%5Cn a base:Location .
+
+loc:6011_Connection_Drive%5Cn%5CnIrving%2C_Texas_75039 a base:Location .
+
+loc:800_Boylston_Street%5Cn%5CnBoston%2C_MA_02199 a base:Location .
+
+loc:CAYMAN_ISLANDS a base:Location ;
+    <http://example.org/isInstanceOf/> location_type:BRANCH .
+
+loc:Delaware a base:Location .
+
+loc:John_Hancock_Tower%5Cn%5Cn200_Clarendon_Street%5Cn%5CnBoston%2C_MA_02116%5Cn%5Cn a base:Location .
+
+<http://example.org/org_name/.P._MORGAN_SECURITIES_LLC> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bookrunner,
+        org_role:Lead_Arranger,
+        org_role:Syndication_Agent .
+
+org_name:BARCLAYS_BANK_PLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bookrunners,
+        org_role:Co-Documentation_Agents .
+
+org_name:BRIGHT%C2%A0HORIZONS%C2%A0FAMILY%C2%A0SOLUTIONS%C2%A0LLC a base:Organization .
+
+org_name:BRIGHT_HORIZONS_CAPITAL_CORP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Holdings .
+
+org_name:BRIGHT_HORIZONS_FAMILY_SOLUTIONS_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower .
+
+org_name:Bain_Capital%2C_LLC a base:Organization .
+
+org_name:Bright_Horizons_Family_Solutions_LLC a base:Organization .
+
+org_name:CREDIT_SUISSE_SECURITIES_%28USA%29_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bookrunners,
+        org_role:Co-Documentation_Agents .
+
+org_name:Delaware a base:Organization .
+
+org_name:Goldman_Sachs_Bank_USA a base:Organization .
+
+org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Bookrunners,
+        org_role:Co-Documentation_Agents .
+
+org_name:Ropes%C2%A0%26_Gray_LLP%5Cn%5Cn a base:Organization .
+
+person_name:Wei-Jen_Yuan a base:Person .
+
+org_name:BRIGHT_HORIZONS_CAPITAL_CORP.%2C a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Holdings ;
+    rel:hasEmployee person_name:David_Lissy .
+
+org_name:CREDIT_SUISSE_AG a base:Organization ;
+    rel:hasEmployee person_name:John_Toronto .
+
+org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
+        org_role:Bookrunner,
+        <http://example.org/org_role/L/C_Issuer>,
+        org_role:Lead_Arranger,
+        org_role:Swing_Line_Lender ;
+    rel:hasEmployee person_name:Robert_Ehudin .
+
+<http://example.org/org_name/JPMORGAN_CHASE_BANK_N.A.> a base:Organization ;
+    rel:hasEmployee person_name:Sarah_L._Freedman .
+
+person_name:David_Lissy a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Executive_Officer ;
+    rel:isEmployedBy org_name:BRIGHT_HORIZONS_CAPITAL_CORP.%2C .
+
+person_name:Frank_Byrne a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
+person_name:John_Toronto a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Managing_Director ;
+    rel:isEmployedBy org_name:CREDIT_SUISSE_AG .
+
+person_name:Robert_Ehudin a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:GOLDMAN_SACHS_BANK_USA .
+
+person_name:Ronnie_Glen a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
+
+person_name:Sarah_L._Freedman a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Executive_Director ;
+    rel:isEmployedBy <http://example.org/org_name/JPMORGAN_CHASE_BANK_N.A.> .
+
+<http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
+    rel:hasEmployee person_name:Frank_Byrne,
+        person_name:Ronnie_Glen .
+

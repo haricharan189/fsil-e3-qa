@@ -1,0 +1,91 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/%5CnREGIONS_BANK> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_role:Syndication_Agent .
+
+org_name:CAPITAL_ONE%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Documentation_Agent,
+        org_role:Lender .
+
+org_name:REGIONS_CAPITAL_MARKETS a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_role:Bookrunners .
+
+loc:10_South_Wacker_Drive%5CnChicago%2C_IL_60606 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
+
+loc:518_17th_Street%5Cn%5CnSuite_1700%5Cn%5CnDenver%2C_CO_80202 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:Black_Creek_Diversified_Property_Operating_Partnership_LP .
+
+loc:Minneapolis_Loan_Center%5CnMAC_N9300-091%5Cn600_South_4th%C2%A0Street%2C_9th%C2%A0Floor%5CnMinneapolis%2C_Minnesota_55415 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
+
+org_name:BLACK_CREEK_DIVERSIFIED_PROPERTY_OPERATING_PARTNERSHIP_LP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    rel:hasEmployee person_name:Lainie_Minnick .
+
+org_name:Black_Creek_Diversified_Property_Operating_Partnership_LP a base:Organization ;
+    rel:hasLocationAt loc:518_17th_Street%5Cn%5CnSuite_1700%5Cn%5CnDenver%2C_CO_80202 .
+
+org_name:MUFG_UNION_BANK%2C_N.A a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Katherine_Davidson .
+
+person_name:Craig_V._Koshkarian a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:Dennis_Szczesuil a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/RAYMOND_JAMES_BANK%2C_N.A.> .
+
+person_name:Elizabeth_Dove a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Vice_President ;
+    rel:isEmployedBy org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
+
+person_name:Ghi_Gavin a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/RAYMOND_JAMES_BANK%2C_N.A.> .
+
+person_name:Katherine_Davidson a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Director ;
+    rel:isEmployedBy org_name:MUFG_UNION_BANK%2C_N.A .
+
+person_name:Kevin_A._Stacker a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
+    rel:isEmployedBy <http://example.org/org_name/RAYMOND_JAMES_BANK%2C_N.A.> .
+
+person_name:Lainie_Minnick a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer,
+        person_position:Managing_Director,
+        person_position:Treasurer ;
+    rel:isEmployedBy org_name:BLACK_CREEK_DIVERSIFIED_PROPERTY_OPERATING_PARTNERSHIP_LP .
+
+<http://example.org/org_name/RAYMOND_JAMES_BANK%2C_N.A.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Lender ;
+    rel:hasEmployee person_name:Dennis_Szczesuil,
+        person_name:Ghi_Gavin,
+        person_name:Kevin_A._Stacker .
+
+org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
+        org_role:Lender ;
+    rel:hasEmployee person_name:Craig_V._Koshkarian,
+        person_name:Elizabeth_Dove ;
+    rel:hasLocationAt loc:10_South_Wacker_Drive%5CnChicago%2C_IL_60606,
+        loc:Minneapolis_Loan_Center%5CnMAC_N9300-091%5Cn600_South_4th%C2%A0Street%2C_9th%C2%A0Floor%5CnMinneapolis%2C_Minnesota_55415 .
+

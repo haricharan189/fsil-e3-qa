@@ -1,0 +1,50 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix org_name: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person_name: <http://example.org/person_name/> .
+@prefix person_position: <http://example.org/person_position/> .
+@prefix rel: <http://example.org/relation/> .
+
+<http://example.org/org_name/Apollo_Capital_Management%2C_L.P.> a base:Organization .
+
+org_name:MIDCAP_FINANCIAL_TRUST a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:AGENT,
+        org_role:Agent,
+        org_role:LENDER,
+        org_role:Lender .
+
+org_name:SOL_HOLDINGS%2C_INC a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS .
+
+loc:7255_Woodmont_Avenue%2C_Suite_200%5Cn%5CnBethesda%2C_Maryland_20814 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:MidCap_Financial_Services .
+
+loc:ModusLink_Corporation%5Cn%5Cn1601_Trapelo_Road%2C_Suite_170%5Cn%5CnWaltham%2C_Massachusetts_02451 a base:Location ;
+    <http://example.org/isInstanceOf/> base:Location ;
+    rel:isLocationOf org_name:MODUSLINK_CORPORATION .
+
+org_name:Apollo_Capital_Management_GP%2C_LLC a base:Organization ;
+    rel:hasEmployee person_name:Maurice_Amsellem .
+
+org_name:MODUSLINK_CORPORATION a base:Organization ;
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnBORROWERS>,
+        org_role:Borrower ;
+    rel:hasLocationAt loc:ModusLink_Corporation%5Cn%5Cn1601_Trapelo_Road%2C_Suite_170%5Cn%5CnWaltham%2C_Massachusetts_02451 .
+
+org_name:MidCap_Financial_Services a base:Organization ;
+    rel:hasLocationAt loc:7255_Woodmont_Avenue%2C_Suite_200%5Cn%5CnBethesda%2C_Maryland_20814 .
+
+<http://example.org/org_name/SALESLINK_MEXICO_HOLDING_CORP.> a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:GUARANTORS ;
+    rel:hasEmployee person_name:Peter_Feret .
+
+person_name:Maurice_Amsellem a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
+    rel:isEmployedBy org_name:Apollo_Capital_Management_GP%2C_LLC .
+
+person_name:Peter_Feret a base:Person ;
+    <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
+    rel:isEmployedBy <http://example.org/org_name/SALESLINK_MEXICO_HOLDING_CORP.> .
+
