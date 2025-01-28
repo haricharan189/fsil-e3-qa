@@ -319,8 +319,7 @@ class KnowledgeGraphBuilder:
                 
    
         entities = {}  # Temporary store for entities in the current document
-
-        # Parse all entities (roles, sub-roles, and organization names)
+        # First pass: Parse all entities (roles, sub-roles, and organization names)
         for annotation in doc.get("annotations", []):
             for result in annotation.get("result", []):
                 if "value" in result:
@@ -335,66 +334,59 @@ class KnowledgeGraphBuilder:
                             "label": label
                         }
 
-        # Second pass: Handle relationships and the isInstanceOf logic
+        # Second pass: Process relationships
+        print("Processing relationships...")
+        role_to_subrole = {}  # Map roles to their sub-roles
+        org_to_role = {}  # Map organizations to their roles
+
         for annotation in doc.get("annotations", []):
-            for result in annotation.get("result", []):
+            for result in annotation.get('result', []):
                 if result["type"] == "relation":
                     from_id = result.get("from_id")
                     to_id = result.get("to_id")
-
-                    # Retrieve entities based on IDs
                     from_entity = entities.get(from_id)
                     to_entity = entities.get(to_id)
 
                     if not from_entity or not to_entity:
+                        print(f"Skipping relationship: from_id={from_id}, to_id={to_id} (one or both not found)")
                         continue
 
                     from_label = from_entity.get("label")
                     to_label = to_entity.get("label")
 
-                    # Process Organization Name and its relationships
-                    if from_label == "Organization Name":
-                        org_name = from_entity["text"]
-                        org_name_uri = URIRef(self._clean_uri(org_name))
+                    print(f"Processing relationship: from_label={from_label}, to_label={to_label}")
 
-                        if to_label == "Organization Role":
-                            role_uri = to_entity["text"]
-                            role_uri = URIRef(self._clean_uri(role_uri)) if self._clean_uri(role_uri).startswith("http") else Literal(role_uri)
+                    # Track role-to-subrole mapping
+                    if from_label == "Organization Role" and to_label == "Organization Sub-Role":
+                        role = from_entity["text"]
+                        sub_role = to_entity["text"]
+                        role_to_subrole.setdefault(role, set()).add(sub_role)
+                        print(f"Mapped role to sub-role: role={role}, sub_role={sub_role}")
 
-                            # Check for linked sub-roles
-                            for rel in doc.get("annotations", []):
-                                for sub_result in rel.get("result", []):
-                                    if sub_result["type"] == "relation":
-                                        sub_from_id = sub_result.get("from_id")
-                                        sub_to_id = sub_result.get("to_id")
+                    # Track organization-to-role mapping
+                    elif (from_label == "Organization Name" and to_label == "Organization Role") or \
+                        (from_label == "Organization Role" and to_label == "Organization Name"):
+                        org = from_entity["text"] if from_label == "Organization Name" else to_entity["text"]
+                        role = to_entity["text"] if from_label == "Organization Name" else from_entity["text"]
+                        org_to_role.setdefault(org, set()).add(role)
+                        print(f"Mapped organization to role: org={org}, role={role}")
 
-                                        # Identify if this is a sub-role linked to the role
-                                        if sub_from_id == to_id and entities.get(sub_to_id, {}).get("label") == "Organization Sub-Role":
-                                            sub_role_uri = entities.get(sub_to_id)["text"]
-                                            sub_role_uri = URIRef(self._clean_uri(sub_role_uri)) if self._clean_uri(sub_role_uri).startswith("http") else Literal(sub_role_uri)
-
-                                            # Add the organization as an instance of the sub-role
-                                            g.add((org_name_uri, self.isInstanceOf, sub_role_uri))
-                                            
-                            else:
-                                # No sub-role found, link the Organization Name to the Role
-                                g.add((org_name_uri, self.isInstanceOf, role_uri))
-
-                        elif to_label == "Organization Sub-Role":
-                            sub_role_uri = to_entity["text"]
-                            sub_role_uri = URIRef(self._clean_uri(sub_role_uri)) if self._clean_uri(sub_role_uri).startswith("http") else Literal(sub_role_uri)
-
-                            # Link Organization Name directly to the Sub-Role
-                            g.add((org_name_uri, self.isInstanceOf, sub_role_uri))
-                    elif from_label == "Organization Role" and to_label == "Organization Sub-Role":
-                        # Handle cases where roles are linked to sub-roles
-                        role_uri = from_entity["text"]
-                        sub_role_uri = to_entity["text"]
-
-                        role_uri = URIRef(self._clean_uri(role_uri)) if self._clean_uri(role_uri).startswith("http") else Literal(role_uri)
-                        sub_role_uri = URIRef(self._clean_uri(sub_role_uri)) if self._clean_uri(sub_role_uri).startswith("http") else Literal(sub_role_uri)
-
-                        g.add((role_uri, self.isInstanceOf, sub_role_uri))
+        # Final pass: Determine isInstanceOf relationships
+        print("Assigning isInstanceOf relationships...")
+        for org, roles in org_to_role.items():
+            for role in roles:
+                sub_roles = role_to_subrole.get(role, None)  # Get sub-roles for this role
+                if sub_roles:  # Role has sub-roles
+                    for sub_role in sub_roles:
+                        org_uri = self.org_name[self._clean_uri(org)]
+                        sub_role_uri = self.org_sub_role[self._clean_uri(sub_role)]
+                        g.add((org_uri, RDF.type, sub_role_uri))
+                        print(f"{org} isInstanceOf {sub_role}")
+                else:  # Role does not have sub-roles
+                    org_uri = self.org_name[self._clean_uri(org)]
+                    role_uri = self.org_role[self._clean_uri(role)]
+                    g.add((org_uri, RDF.type, role_uri))
+                    print(f"{org} isInstanceOf {role}")
 
         return g
 
