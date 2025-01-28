@@ -1305,34 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnCOHERUS_BIOSCIENCES%2C_INC.> <http://example.org/isInstanceOf/> "Borrower",
-        "Credit Party\\n\\n" .
-
-<BIOPHARMA%C2%A0CREDIT%C2%A0INVESTMENTS%C2%A0V%C2%A0%28MASTER%29%C2%A0LP> <http://example.org/isInstanceOf/> "Lender" .
-
-<BIOPHARMA_CREDIT_PLC> <http://example.org/isInstanceOf/> "Agent",
-        "Collateral" .
-
-<BPCR_LIMITED_PARTNERSHIP> <http://example.org/isInstanceOf/> "Lender" .
-
-<COHERUS_INTERMEDIATE_CORP.> <http://example.org/isInstanceOf/> "Credit Party",
-        "additional" .
-
-<Coherus_Biosciences%2C_Inc.> <http://example.org/isInstanceOf/> "Issuer" .
-
-<HealthCare_Royalty_Partners_III%2C_L.P.> <http://example.org/isInstanceOf/> "Investor" .
-
-<INTEKRIN_THERAPEUTICS_INC.> <http://example.org/isInstanceOf/> "Credit Party",
-        "additional" .
-
-<KKR_Biosimilar_L.P.> <http://example.org/isInstanceOf/> "Investor" .
-
-<KMG_Capital_Partners%2C_LLC> <http://example.org/isInstanceOf/> "Investor" .
-
-<Latham%C2%A0%26_Watkins_LLP> <http://example.org/isInstanceOf/> "legal counsel" .
-
-<MX_II_Associates_LLC> <http://example.org/isInstanceOf/> "Investor" .
-
 loc:333_Twin_Dolphin_Drive%5Cn%5CnSuite_600%5Cn%5CnRedwood_City%2C_CA_94065 a base:Location .
 
 loc:Exeter_EX4_4EP%5Cn%5CnUnited_Kingdom a base:Location .
@@ -1344,7 +1316,8 @@ org_name:BPCR_LIMITED_PARTNERSHIP a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender .
 
 <http://example.org/org_name/COHERUS_INTERMEDIATE_CORP.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Credit_Party .
+    <http://example.org/isInstanceOf/> org_role:Credit_Party,
+        org_sub_role:additional .
 
 <http://example.org/org_name/Coherus_Biosciences%2C_Inc.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Issuer .
@@ -1389,10 +1362,6 @@ org_sub_role:Co-Syndication rdfs:subClassOf org_role:Agent,
         org_role:Agents .
 
 org_sub_role:Collatera rdfs:subClassOf org_role:Agent .
-
-org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
-        org_role:Agent%5Cn,
-        org_role:Trustee .
 
 org_sub_role:DOCUMENTATION rdfs:subClassOf org_role:AGENTS .
 
@@ -1522,8 +1491,6 @@ org_sub_role:U.S._Swing rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Yen_Swing rdfs:subClassOf org_role:Lender .
 
-org_sub_role:additional rdfs:subClassOf org_role:Credit_Party .
-
 org_sub_role:administrative rdfs:subClassOf org_role:agent .
 
 org_sub_role:co-documentation rdfs:subClassOf org_role:agents .
@@ -1572,15 +1539,21 @@ loc:One_Bryant_Park%5Cn%5CnNew_York%2C_NY_10036-6745 a base:Location ;
     rel:isLocationOf org_name:Akin_Gump_Strauss_Hauer%C2%A0%26_Feld_LLP .
 
 org_name:BIOPHARMA_CREDIT_PLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Collateral ;
     rel:hasEmployee person_name:Pedro_Gonzalez_de_Cosio .
 
 org_name:BioPharma_Credit_PLC a base:Organization ;
     rel:hasLocationAt loc:51_New_North_Road .
 
 <http://example.org/org_name/INTEKRIN_THERAPEUTICS_INC.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Credit_Party ;
+    <http://example.org/isInstanceOf/> org_role:Credit_Party,
+        org_sub_role:additional ;
     rel:hasEmployee person_name:Michael_Fleming .
+
+org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
+        org_role:Agent%5Cn,
+        org_role:Trustee .
 
 person_name:Benjamin_Potter a base:Person ;
     <http://example.org/isInstanceOf/> org_name:Latham%C2%A0%26_Watkins_LLP ;
@@ -1602,7 +1575,7 @@ person_name:Michael_Fleming a base:Person ;
     <http://example.org/isInstanceOf/> person_position:President ;
     rel:isEmployedBy <http://example.org/org_name/INTEKRIN_THERAPEUTICS_INC.> .
 
-"Agent" <http://example.org/isInstanceOf/> "Collateral" .
+org_sub_role:additional rdfs:subClassOf org_role:Credit_Party .
 
 person_name:Pedro_Gonzalez_de_Cosio a base:Person ;
     <http://example.org/isInstanceOf/> org_name:Pharmakon_Advisors_LP,
@@ -1610,8 +1583,6 @@ person_name:Pedro_Gonzalez_de_Cosio a base:Person ;
         person_position:Managing_Member ;
     rel:isEmployedBy org_name:BIOPHARMA_CREDIT_PLC,
         org_name:Pharmakon_Advisors_LP .
-
-"Credit Party" <http://example.org/isInstanceOf/> "additional" .
 
 <http://example.org/org_name/%5CnCOHERUS_BIOSCIENCES%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower,

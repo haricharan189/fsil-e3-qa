@@ -1305,50 +1305,14 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<BANK_OF_THE_WEST> <http://example.org/isInstanceOf/> "LENDERS" .
-
-<BOKF%2C_NA_DBA_BANK_OF_ALBUQUERQUE> <http://example.org/isInstanceOf/> "Agent",
-        "LENDERS",
-        "Syndication" .
-
-<BOKF%2C_NA_dba_BANK_OF_ALBUQUERQUE> <http://example.org/isInstanceOf/> "Agent",
-        "Arrangers",
-        "Book Managers",
-        "Co-",
-        "Joint Lead",
-        "Syndication" .
-
-<COMMUNITY_BANK_OF_SANTA_FE> <http://example.org/isInstanceOf/> "LENDERS" .
-
-<FIRST_NATIONAL_BANK_OF_SANTA_FE> <http://example.org/isInstanceOf/> "LENDERS" .
-
-<FOUR_CORNERS_COMMUNITY_BANK> <http://example.org/isInstanceOf/> "LENDERS" .
-
-<PUBLIC_SERVICE_COMPANY_OF_NEW_MEXICO> <http://example.org/isInstanceOf/> "BORROWER",
-        "Borrower" .
-
-<Public_Service_Company_of_New_Mexico> <http://example.org/isInstanceOf/> "Borrower" .
-
-<SOUTHWEST_CAPITAL_BANK> <http://example.org/isInstanceOf/> "LENDERS" .
-
-<U.S._BANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent",
-        "Arrangers",
-        "Book Managers",
-        "Co-",
-        "Joint Lead",
-        "LENDERS" .
-
-<U.S._Bank_National_Association> <http://example.org/isInstanceOf/> "Administrative Agent" .
-
-<WASHINGTON_FEDERAL_BANK> <http://example.org/isInstanceOf/> "LENDERS" .
-
-<WESTERN_COMMERCE_BANK> <http://example.org/isInstanceOf/> "LENDERS" .
-
 org_name:BOKF%2C_NA_dba_BANK_OF_ALBUQUERQUE a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
         org_role:Arrangers,
-        org_role:Book_Managers .
+        org_role:Book_Managers,
+        org_sub_role:Administrative,
+        org_sub_role:Co-,
+        org_sub_role:Joint_Lead,
+        org_sub_role:Syndication .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1358,14 +1322,6 @@ org_name:BOKF%2C_NA_dba_BANK_OF_ALBUQUERQUE a base:Organization ;
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
-
-org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
-        org_role:Bookrunner .
 
 org_sub_role:Co-Book_Managers rdfs:subClassOf org_role:Initial_Lender .
 
@@ -1428,10 +1384,6 @@ org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
 
 org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
         org_role:Runner .
-
-org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
 
@@ -1496,10 +1448,6 @@ org_sub_role:Swing_Line_Lender rdfs:subClassOf org_role:LENDER,
 org_sub_role:Swing_line rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Swingline rdfs:subClassOf org_role:Lender .
-
-org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents .
 
 org_sub_role:Term rdfs:subClassOf org_role:Lender .
 
@@ -1570,7 +1518,9 @@ org_name:BANK_OF_THE_WEST a base:Organization ;
 
 org_name:BOKF%2C_NA_DBA_BANK_OF_ALBUQUERQUE a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:LENDERS ;
+        org_role:LENDERS,
+        org_sub_role:Administrative,
+        org_sub_role:Syndication ;
     rel:hasEmployee person_name:John_M._Valentine .
 
 org_name:COMMUNITY_BANK_OF_SANTA_FE a base:Organization ;
@@ -1593,7 +1543,11 @@ org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
         org_role:Arrangers,
         org_role:Book_Managers,
-        org_role:LENDERS ;
+        org_role:LENDERS,
+        org_sub_role:Administrative,
+        org_sub_role:Co-,
+        org_sub_role:Joint_Lead,
+        org_sub_role:Syndication ;
     rel:hasEmployee person_name:Holland_H._Williams .
 
 org_name:US_Bank_Agency_Services a base:Organization ;
@@ -1667,10 +1621,19 @@ org_name:U.S._Bank_National_Association a base:Organization ;
     rel:hasLocationAt loc:Raymond_Palmer%2C%5CnUS_Bank_Utilities_Division%2C%5Cn461_Fifth_Avenue%2C_8th_Floor%2C%5CnNew_York%2C_NY_10017,
         loc:US_Bank_Utilities_Division%5Cn461_Fifth_Avenue%2C_8th_Floor%5CnNew_York%2C_NY_10017 .
 
-"Arrangers" <http://example.org/isInstanceOf/> "Joint Lead" .
+org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
+        org_role:Bookrunner .
 
-"Book Managers" <http://example.org/isInstanceOf/> "Co-" .
+org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative",
-        "Syndication" .
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
+
+org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents .
 

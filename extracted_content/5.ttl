@@ -1305,28 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<ACADIA_REALTY_LIMITED_PARTNERSHIP> <http://example.org/isInstanceOf/> "Guarantors",
-        "SUBSIDIARIES " .
-
-<BANK_OF_AMERICA%2C_N.A.> <http://example.org/isInstanceOf/> "Administrative Agent",
-        "L/C Issuer",
-        "Lender",
-        "Swing Line Lender" .
-
-<MERRILL_LYNCH%2C_PIERCE%2C_FENNER_%26_SMITH_INCORPORATED> <http://example.org/isInstanceOf/> "Bookrunner",
-        "Joint ",
-        "Lead Arranger",
-        "Sole " .
-
-<PNC_BANK> <http://example.org/isInstanceOf/> "Documentation Agents",
-        "Joint ",
-        "Lead Arrangers" .
-
-<WELLS_FARGO_BANK> <http://example.org/isInstanceOf/> "Documentation Agents" .
-
-<WELLS_FARGO_SECURITIES> <http://example.org/isInstanceOf/> "Joint ",
-        "Lead Arrangers" .
-
 loc:Delaware a base:Location .
 
 loc:Maryland a base:Location .
@@ -1352,7 +1330,8 @@ org_name:ACADIA_MAD_RIVER_PROPERTY_LLC a base:Organization .
 org_name:ACADIA_MERCER_STREET_LLC a base:Organization .
 
 org_name:ACADIA_REALTY_LIMITED_PARTNERSHIP a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantors .
+    <http://example.org/isInstanceOf/> org_role:Guarantors,
+        org_sub_role:SUBSIDIARIES .
 
 org_name:ACADIA_REALTY_TRUST a base:Organization .
 
@@ -1376,10 +1355,13 @@ org_name:BANK_OF_AMERICA%2C_N.A a base:Organization .
 
 org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER_%26_SMITH_INCORPORATED a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Bookrunner,
-        org_role:Lead_Arranger .
+        org_role:Lead_Arranger,
+        org_sub_role:Joint,
+        org_sub_role:Sole .
 
 org_name:WELLS_FARGO_SECURITIES a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lead_Arrangers .
+    <http://example.org/isInstanceOf/> org_role:Lead_Arrangers,
+        org_sub_role:Joint .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1448,15 +1430,6 @@ org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
 
 org_sub_role:JOINT_LEAD rdfs:subClassOf org_role:ARRANGERS .
 
-org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
-        org_role:Book_Runner,
-        org_role:Book_Runners,
-        org_role:Bookrunner,
-        org_role:Bookrunners,
-        org_role:Bookrunners%5Cn,
-        org_role:Lead_Arranger,
-        org_role:Lead_Arrangers .
-
 org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
         org_role:Runner .
 
@@ -1497,15 +1470,11 @@ org_sub_role:SOLE rdfs:subClassOf org_role:BOOKRUNNER .
 org_sub_role:SUBORDINATED rdfs:subClassOf org_role:BORROWERS,
         org_role:LENDERS .
 
-org_sub_role:SUBSIDIARIES rdfs:subClassOf org_role:Guarantors .
-
 org_sub_role:SYNDICATION rdfs:subClassOf org_role:AGENT .
 
 org_sub_role:Senior_Managing rdfs:subClassOf org_role:Agent .
 
 org_sub_role:Servicing rdfs:subClassOf org_role:Agent .
-
-org_sub_role:Sole rdfs:subClassOf org_role:Bookrunner .
 
 org_sub_role:Sole_Book rdfs:subClassOf org_role:Manager,
         org_role:Runner .
@@ -1579,6 +1548,10 @@ org_name:WELLS_FARGO_BANK a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Documentation_Agents ;
     rel:hasEmployee person_name:Andrew_W._Hussion .
 
+org_sub_role:SUBSIDIARIES rdfs:subClassOf org_role:Guarantors .
+
+org_sub_role:Sole rdfs:subClassOf org_role:Bookrunner .
+
 person_name:Andrew_W._Hussion a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Vice_President ;
     rel:isEmployedBy org_name:WELLS_FARGO_BANK .
@@ -1596,18 +1569,20 @@ person_name:Roy_E._Alexander a base:Person ;
         person_position:Vice_President ;
     rel:isEmployedBy org_name:PNC_BANK .
 
-"Bookrunner" <http://example.org/isInstanceOf/> "Sole " .
-
-"Guarantors" <http://example.org/isInstanceOf/> "SUBSIDIARIES " .
-
-"Lead Arranger" <http://example.org/isInstanceOf/> "Joint " .
-
-"Lead Arrangers" <http://example.org/isInstanceOf/> "Joint " .
-
 org_name:PNC_BANK a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Documentation_Agents,
-        org_role:Lead_Arrangers ;
+        org_role:Lead_Arrangers,
+        org_sub_role:Joint ;
     rel:hasEmployee person_name:Denise_Smyth,
         person_name:Robert_Masters,
         person_name:Roy_E._Alexander .
+
+org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
+        org_role:Book_Runner,
+        org_role:Book_Runners,
+        org_role:Bookrunner,
+        org_role:Bookrunners,
+        org_role:Bookrunners%5Cn,
+        org_role:Lead_Arranger,
+        org_role:Lead_Arrangers .
 

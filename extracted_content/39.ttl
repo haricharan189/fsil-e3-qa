@@ -1305,25 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<BANK_OF_AMERICA%2C_N.A.%2C> <http://example.org/isInstanceOf/> "Agent",
-        "Co-Collateral",
-        "Lender " .
-
-<DUNKIRK_SPECIALTY_STEEL%2C_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<NORTH_JACKSON_SPECIALTY_STEEL%2C_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<PNC_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent",
-        "Co-Collateral ",
-        "Lender" .
-
-<PNC_CAPITAL_MARKETS_LLC> <http://example.org/isInstanceOf/> "ARRANGER ",
-        "BOOKRUNNER",
-        "LEAD " .
-
-<UNIVERSAL_STAINLESS%C2%A0%26_ALLOY_PRODUCTS%2C_INC.> <http://example.org/isInstanceOf/> "Borrower" .
-
 org_name:DUNKIRK%C2%A0SPECIALTY%C2%A0STEEL%2C%C2%A0LLC a base:Organization .
 
 org_name:DUNKIRK_SPECIALTY_STEEL%2C_LLC a base:Organization ;
@@ -1334,7 +1315,8 @@ org_name:NORTH_JACKSON_SPECIALTY_STEEL%2C_LLC a base:Organization ;
 
 org_name:PNC_CAPITAL_MARKETS_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:ARRANGER,
-        org_role:BOOKRUNNER .
+        org_role:BOOKRUNNER,
+        org_sub_role:LEAD .
 
 <http://example.org/org_name/UNIVERSAL%C2%A0STAINLESS%C2%A0%26%C2%A0ALLOY%5Cn%5CnPRODUCTS%2C%C2%A0INC.> a base:Organization .
 
@@ -1350,17 +1332,10 @@ org_name:PNC_CAPITAL_MARKETS_LLC a base:Organization ;
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
 
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
-
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
 
 org_sub_role:Co-Book_Managers rdfs:subClassOf org_role:Initial_Lender .
-
-org_sub_role:Co-Collateral rdfs:subClassOf org_role:Agent .
 
 org_sub_role:Co-Documentation rdfs:subClassOf org_role:Agent,
         org_role:Agents .
@@ -1430,8 +1405,6 @@ org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
 
 <http://example.org/org_sub_role/L/C_Issuer> rdfs:subClassOf org_role:LENDERS%3A,
         org_role:Lender .
-
-org_sub_role:LEAD rdfs:subClassOf org_role:ARRANGER .
 
 org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
         org_role:Arrangers,
@@ -1575,7 +1548,9 @@ loc:Two_Tower_Center_Blvd._-_21st_Floor%09%C2%A0%C2%A0%09%5CnEast_Brunswick%2C_N
 
 org_name:BANK_OF_AMERICA%2C_N.A.%2C a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Co-Collateral ;
     rel:hasEmployee person_name:James_Foley .
 
 <http://example.org/org_name/Bank_of_America%2C_N.A.> a base:Organization ;
@@ -1592,8 +1567,12 @@ org_name:North_Jackson_Specialty_Steel%2C_LLC a base:Organization ;
 
 org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Co-Collateral ;
     rel:hasEmployee person_name:David_B._Thayer .
+
+org_sub_role:LEAD rdfs:subClassOf org_role:ARRANGER .
 
 person_name:David_B._Thayer a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Vice_President ;
@@ -1609,8 +1588,6 @@ person_name:Ross%C2%A0C.%C2%A0Wilkin a base:Person ;
         person_position:Vice%C2%A0President%C2%A0of%C2%A0Finance ;
     rel:isEmployedBy <http://example.org/org_name/%5CnNORTH%C2%A0JACKSON%C2%A0SPECIALTY%C2%A0STEEL%2C%5Cn%5CnLLC> .
 
-"ARRANGER " <http://example.org/isInstanceOf/> "LEAD " .
-
 org_name:PNC_Bank%2C_National_Association a base:Organization ;
     rel:hasLocationAt loc:300_Fifth_Avenue%2C_14th_Floor%5Cn%5CnPittsburgh%2C_Pennsylvania_15222,
         loc:6750_Miller_Rd_%28Mail_Stop%3A_BR-YB58-01-P%29%5Cn%5CnBrecksville%2C_Ohio_44141 .
@@ -1619,7 +1596,10 @@ org_name:PNC_Bank%2C_National_Association a base:Organization ;
     rel:hasLocationAt loc:121_Caldwell_Street%5Cn%5CnTitusville%2C_PA_16354,
         loc:600_Mayer_Street%5Cn%5CnBridgeville%2C_PA_15017 .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative",
-        "Co-Collateral",
-        "Co-Collateral " .
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
+
+org_sub_role:Co-Collateral rdfs:subClassOf org_role:Agent .
 

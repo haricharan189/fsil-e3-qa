@@ -1305,36 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<BMO_Harris_Bank%2C_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
-<CASEY%E2%80%99S_GENERAL_STORES%2C_INC.> <http://example.org/isInstanceOf/> "Borrower" .
-
-<CO%C3%96PERATIEVE_RABOBANK_U.A.%2C_NEW_YORK> <http://example.org/isInstanceOf/> "Lender" .
-
-<Casey%E2%80%99s_Marketing_Company> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<Casey%E2%80%99s_Retail_Company> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<Casey%E2%80%99s_Services_Company> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<GOLDMAN_SACHS_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<MUFG_Bank%2C_Ltd.> <http://example.org/isInstanceOf/> "Lender" .
-
-<RBC_CAPITAL_MARKETS> <http://example.org/isInstanceOf/> "Arranger ",
-        "Bookrunner",
-        "Lead " .
-
-<ROYAL_BANK_OF_CANADA> <http://example.org/isInstanceOf/> "Administrative Agent",
-        "Issuing Bank",
-        "Lender",
-        "Lender ",
-        "Swingline " .
-
-<UMB_Bank%2C_n.a.> <http://example.org/isInstanceOf/> "Lender" .
-
-<WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender" .
-
 <http://example.org/org_name/BMO_Harris_Bank%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender .
 
@@ -1352,7 +1322,8 @@ org_name:GOLDMAN_SACHS_BANK a base:Organization ;
 
 org_name:RBC_CAPITAL_MARKETS a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arranger,
-        org_role:Bookrunner .
+        org_role:Bookrunner,
+        org_sub_role:Lead .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1446,10 +1417,6 @@ org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
 
 org_sub_role:LEAD rdfs:subClassOf org_role:ARRANGER .
 
-org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
-
 org_sub_role:Lender rdfs:subClassOf org_role:Issuing_Bank .
 
 org_sub_role:Loan_and_Agency_Services_Group rdfs:subClassOf org_role:Agent .
@@ -1496,8 +1463,6 @@ org_sub_role:Swing_Line_Lender rdfs:subClassOf org_role:LENDER,
         org_role:LENDERS%3A .
 
 org_sub_role:Swing_line rdfs:subClassOf org_role:Lender .
-
-org_sub_role:Swingline rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
         org_role:Agent%2C,
@@ -1580,6 +1545,12 @@ org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Maureen_S._Malphus .
 
+org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
+
+org_sub_role:Swingline rdfs:subClassOf org_role:Lender .
+
 person_name:Annie_Carr a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
     rel:isEmployedBy org_name:ROYAL_BANK_OF_CANADA .
@@ -1621,10 +1592,6 @@ person_name:Timothy_J._Devane a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Executive_Director ;
     rel:isEmployedBy org_name:CO%C3%96PERATIEVE_RABOBANK_U.A.%2C_NEW_YORK .
 
-"Arranger " <http://example.org/isInstanceOf/> "Lead " .
-
-"Lender " <http://example.org/isInstanceOf/> "Swingline " .
-
 org_name:CO%C3%96PERATIEVE_RABOBANK_U.A.%2C_NEW_YORK a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Robert_Graff,
@@ -1642,7 +1609,8 @@ org_name:Royal_Bank_of_Canada a base:Organization ;
 org_name:ROYAL_BANK_OF_CANADA a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
         org_role:Issuing_Bank,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:Swingline ;
     rel:hasEmployee person_name:Annie_Carr,
         person_name:John_Flores,
         person_name:Rodica_Dutka .

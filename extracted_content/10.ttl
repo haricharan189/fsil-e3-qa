@@ -1305,21 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnBANK_OF_AMERICA%2C_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
-<%5CnJPMorgan_Chase_Bank%2C_N.A.%2C> <http://example.org/isInstanceOf/> "Lender" .
-
-<%5CnROYAL_BANK_OF_CANADA%2C> <http://example.org/isInstanceOf/> "Administrative Agent" .
-
-<%5CnVICTORY_CAPITAL_HOLDINGS%2C%C2%A0INC.%2C> <http://example.org/isInstanceOf/> " Borrower" .
-
-<KEYBANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> " Lender" .
-
-<MORGAN_STANLEY_SENIOR_FUNDING%2C%C2%A0INC.%2C> <http://example.org/isInstanceOf/> "Lender" .
-
-<ROYAL_BANK_OF_CANADA%2C> <http://example.org/isInstanceOf/> "Issuing Bank",
-        "Lender" .
-
 org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender .
 
@@ -1421,8 +1406,6 @@ org_sub_role:LEAD rdfs:subClassOf org_role:ARRANGER .
 org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
         org_role:Arrangers,
         org_role:Bookrunner .
-
-org_sub_role:Lender rdfs:subClassOf org_role:Issuing_Bank .
 
 org_sub_role:Loan_and_Agency_Services_Group rdfs:subClassOf org_role:Agent .
 
@@ -1536,6 +1519,8 @@ loc:Royal_Bank_Plaza%2C_200_Bay_Street%2C%5Cn%5Cn12th_Floor_South_Tower%5Cn%5CnT
     <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee <http://example.org/person_name/%5CnRodney_Beeks> .
 
+org_sub_role:Lender rdfs:subClassOf org_role:Issuing_Bank .
+
 <http://example.org/person_name/%5CnKenise_Henry_Larmond> a base:Person ;
     <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnVice_President> ;
     rel:isEmployedBy <http://example.org/org_name/%5CnJPMorgan_Chase_Bank%2C_N.A.%2C> .
@@ -1565,8 +1550,6 @@ person_name:Alex_Figueroa a base:Person ;
     <http://example.org/isInstanceOf/> <http://example.org/person_position/%5CnAuthorized_Signatory> ;
     rel:isEmployedBy org_name:ROYAL_BANK_OF_CANADA%2C .
 
-"Issuing Bank" <http://example.org/isInstanceOf/> "Lender" .
-
 <http://example.org/org_name/%5CnROYAL_BANK_OF_CANADA%2C> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Administrative_Agent ;
     rel:hasEmployee <http://example.org/person_name/%5CnSusan_Khokher> ;
@@ -1578,7 +1561,8 @@ person_name:Alex_Figueroa a base:Person ;
     rel:hasLocationAt loc:4900_Tiedeman_Road_4th_Floor%5Cn%5CnBrooklyn%2C_OH_44144 .
 
 org_name:ROYAL_BANK_OF_CANADA%2C a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Issuing_Bank ;
+    <http://example.org/isInstanceOf/> org_role:Issuing_Bank,
+        org_sub_role:Lender ;
     rel:hasEmployee person_name:Alex_Figueroa ;
     rel:hasLocationAt loc:200_Vesey_Street%5Cn%5CnNew_York%2C_New_York_10281 .
 

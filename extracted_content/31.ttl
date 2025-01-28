@@ -1305,145 +1305,83 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnBARCLAYS_BANK_PLC> <http://example.org/isInstanceOf/> "Lender",
-        "U.S. Swing" .
-
-<%5CnSTANDARD_CHARTERED_BANK> <http://example.org/isInstanceOf/> "Lender",
-        "U.S. Swing" .
-
-<%5CnWELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender",
-        "U.S. Swing" .
-
-<BANK_OF_AMERICA%2C_N.A.> <http://example.org/isInstanceOf/> "ADMINISTRATIVE",
-        "AGENT",
-        "Administrative",
-        "Agent",
-        "Euro Swing",
-        "Lender",
-        "U.S. Swing" .
-
-<BANK_OF_CHINA%2C_LOS_ANGELES_BRANCH> <http://example.org/isInstanceOf/> "AGENTS",
-        "BOOK RUNNERS",
-        "DOCUMENTATION",
-        "JOINT" .
-
-<Bank_of_America%2C_N.A.> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent" .
-
-<CANADIAN_IMPERIAL_BANK_OF_COMMERCE%2C_NEW_YORK_AGENCY> <http://example.org/isInstanceOf/> "AGENTS",
-        "BOOK RUNNERS",
-        "DOCUMENTATION",
-        "JOINT",
-        "Lender",
-        "U.S. Swing" .
-
-<CITIBANK%2C_N.A> <http://example.org/isInstanceOf/> "AGENTS",
-        "DOCUMENTATION" .
-
-<CITIBANK%2C_N.A.> <http://example.org/isInstanceOf/> "Lender",
-        "U.S. Swing" .
-
-<CITIGROUP_GLOBAL_MARKETS_INC.> <http://example.org/isInstanceOf/> "BOOK RUNNERS",
-        "JOINT" .
-
-<GOLDMAN_SACHS_BANK_USA> <http://example.org/isInstanceOf/> "Lender",
-        "U.S. Swing" .
-
-<HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender" .
-
-<J.P._MORGAN_SECURITIES_LLC> <http://example.org/isInstanceOf/> "BOOK RUNNERS",
-        "JOINT" .
-
-<JPMORGAN_CHASE_BANK%2C_N.A.> <http://example.org/isInstanceOf/> " U.S. Swing",
-        "AGENT",
-        "Lender",
-        "SYNDICATION",
-        "Sterling Swing",
-        "Yen Swing" .
-
-<MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED> <http://example.org/isInstanceOf/> "BOOK RUNNERS",
-        "JOINT" .
-
-<STANDARD_CHARTERED_BANK> <http://example.org/isInstanceOf/> "AGENTS",
-        "BOOK RUNNERS",
-        "DOCUMENTATION",
-        "JOINT" .
-
-<THE_BANK_OF_CHINA> <http://example.org/isInstanceOf/> "Lender",
-        "U.S. Swing" .
-
-<THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD.> <http://example.org/isInstanceOf/> "AGENTS",
-        "BOOK RUNNERS",
-        "DOCUMENTATION",
-        "JOINT",
-        "Lender",
-        "U.S. Swing" .
-
-<U.S._BANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> " U.S. Swing",
-        "AGENTS",
-        "BOOK RUNNERS",
-        "DOCUMENTATION",
-        "JOINT",
-        "Lender" .
-
-<VISA_INC.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "LENDERS" .
-
-<VISA_INTERNATIONAL_SERVICE_ASSOCIATION> <http://example.org/isInstanceOf/> "BORROWERS",
-        "LENDERS" .
-
-<VISA_U.S.A._INC> <http://example.org/isInstanceOf/> "BORROWERS",
-        "LENDERS" .
-
-<WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "AGENTS",
-        "DOCUMENTATION" .
-
-<WELLS_FARGO_SECURITIES%2C_LLC> <http://example.org/isInstanceOf/> "BOOK RUNNERS",
-        "JOINT" .
-
 <http://example.org/location/%5CnFoster_City%2C_CA_94404> a base:Location .
 
 <http://example.org/org_name/%5CnVISA_INC.> a base:Organization .
 
 <http://example.org/org_name/%5CnWELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Euro_Swing,
+        org_sub_role:Sterling_Swing,
+        org_sub_role:U.S._Swing,
+        org_sub_role:Yen_Swing .
 
 org_name:BANK_OF_CHINA%2C_LOS_ANGELES_BRANCH a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:AGENTS,
-        org_role:BOOK_RUNNERS .
+        org_role:BOOK_RUNNERS,
+        org_sub_role:DOCUMENTATION,
+        org_sub_role:JOINT .
 
 org_name:CITIBANK%2C_N.A a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:AGENTS .
+    <http://example.org/isInstanceOf/> org_role:AGENTS,
+        org_sub_role:DOCUMENTATION .
 
 <http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Euro_Swing,
+        org_sub_role:Sterling_Swing,
+        org_sub_role:U.S._Swing,
+        org_sub_role:Yen_Swing .
 
 <http://example.org/org_name/CITIGROUP_GLOBAL_MARKETS_INC.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:BOOK_RUNNERS .
+    <http://example.org/isInstanceOf/> org_role:BOOK_RUNNERS,
+        org_sub_role:JOINT .
 
 org_name:J.P._MORGAN_SECURITIES_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:BOOK_RUNNERS .
+    <http://example.org/isInstanceOf/> org_role:BOOK_RUNNERS,
+        org_sub_role:JOINT .
 
 <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:AGENT,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:ADMINISTRATIVE,
+        org_sub_role:Euro_Swing,
+        org_sub_role:SYNDICATION,
+        org_sub_role:Sterling_Swing,
+        org_sub_role:U.S._Swing,
+        org_sub_role:Yen_Swing .
 
 org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:BOOK_RUNNERS .
+    <http://example.org/isInstanceOf/> org_role:BOOK_RUNNERS,
+        org_sub_role:JOINT .
 
 org_name:STANDARD_CHARTERED_BANK a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:AGENTS,
-        org_role:BOOK_RUNNERS .
+        org_role:BOOK_RUNNERS,
+        org_sub_role:DOCUMENTATION,
+        org_sub_role:JOINT .
 
 <http://example.org/org_name/THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:AGENTS,
         org_role:BOOK_RUNNERS,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:DOCUMENTATION,
+        org_sub_role:Euro_Swing,
+        org_sub_role:JOINT,
+        org_sub_role:Sterling_Swing,
+        org_sub_role:U.S._Swing,
+        org_sub_role:Yen_Swing .
 
 org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:AGENTS,
         org_role:BOOK_RUNNERS,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:DOCUMENTATION,
+        org_sub_role:Euro_Swing,
+        org_sub_role:JOINT,
+        org_sub_role:Sterling_Swing,
+        org_sub_role:U.S._Swing,
+        org_sub_role:Yen_Swing .
 
 <http://example.org/org_name/VISA_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:BORROWERS,
@@ -1458,24 +1396,18 @@ org_name:VISA_U.S.A._INC a base:Organization ;
         org_role:LENDERS .
 
 org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:AGENTS .
+    <http://example.org/isInstanceOf/> org_role:AGENTS,
+        org_sub_role:DOCUMENTATION .
 
 org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:BOOK_RUNNERS .
+    <http://example.org/isInstanceOf/> org_role:BOOK_RUNNERS,
+        org_sub_role:JOINT .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
 <http://example.org/org_sub_role/%5CnCo-Documentation> rdfs:subClassOf org_role:Agent .
 
 <http://example.org/org_sub_role/%5CnJoint_Lead> rdfs:subClassOf org_role:Arranger .
-
-org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
-        org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1496,8 +1428,6 @@ org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
         org_role:Agent%5Cn,
         org_role:Trustee .
 
-org_sub_role:DOCUMENTATION rdfs:subClassOf org_role:AGENTS .
-
 org_sub_role:Designated rdfs:subClassOf org_role:Borrower,
         org_role:Borrowers .
 
@@ -1508,8 +1438,6 @@ org_sub_role:Documentation rdfs:subClassOf org_role:Agent,
 org_sub_role:Domestic rdfs:subClassOf org_role:Guarantor .
 
 org_sub_role:Dutch rdfs:subClassOf org_role:Borrower .
-
-org_sub_role:Euro_Swing rdfs:subClassOf org_role:Lender .
 
 org_sub_role:General rdfs:subClassOf org_role:Partner .
 
@@ -1522,11 +1450,6 @@ org_sub_role:Intermediate rdfs:subClassOf org_role:Holdings .
 
 org_sub_role:Issuing rdfs:subClassOf org_role:Bank,
         org_role:Lender .
-
-org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
-        org_role:BOOK_RUNNERS,
-        org_role:LEAD_ARRANGER,
-        org_role:LEAD_ARRANGERS .
 
 org_sub_role:JOINT_LEAD rdfs:subClassOf org_role:ARRANGERS .
 
@@ -1581,8 +1504,6 @@ org_sub_role:SUBORDINATED rdfs:subClassOf org_role:BORROWERS,
 
 org_sub_role:SUBSIDIARIES rdfs:subClassOf org_role:Guarantors .
 
-org_sub_role:SYNDICATION rdfs:subClassOf org_role:AGENT .
-
 org_sub_role:Senior_Managing rdfs:subClassOf org_role:Agent .
 
 org_sub_role:Servicing rdfs:subClassOf org_role:Agent .
@@ -1595,8 +1516,6 @@ org_sub_role:Sole_Book rdfs:subClassOf org_role:Manager,
 org_sub_role:Sole_Lead rdfs:subClassOf org_role:Arranger .
 
 org_sub_role:Sole_Lead_Arranger rdfs:subClassOf org_role:Arranger .
-
-org_sub_role:Sterling_Swing rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Subsidiary rdfs:subClassOf org_role:Borrower .
 
@@ -1619,10 +1538,6 @@ org_sub_role:Term rdfs:subClassOf org_role:Lender .
 org_sub_role:Term_Administrative rdfs:subClassOf org_role:Agent .
 
 org_sub_role:Term_Loan_A rdfs:subClassOf org_role:Lender .
-
-org_sub_role:U.S._Swing rdfs:subClassOf org_role:Lender .
-
-org_sub_role:Yen_Swing rdfs:subClassOf org_role:Lender .
 
 org_sub_role:additional rdfs:subClassOf org_role:Credit_Party .
 
@@ -1657,8 +1572,6 @@ org_sub_role:sole rdfs:subClassOf org_role:General_Partner,
 
 org_sub_role:syndication rdfs:subClassOf org_role:agent .
 
-"ARRANGERS" <http://example.org/isInstanceOf/> "JOINT LEAD" .
-
 <http://example.org/location/%5Cn101_N_Tryon_Street%5Cn%5Cn%C2%A0%09%5CnMail_Code%3A_NC1-001-05-46%5Cn%5Cn%C2%A0%09%5CnCharlotte%2C_North_Carolina_28255-0001> a base:Location ;
     <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf <http://example.org/org_name/%5CnBank_of_America%2C_N.A.> .
@@ -1692,7 +1605,11 @@ loc:901_Main_Street%2C_64th_Floor%5Cn%5Cn%C2%A0%09%5CnMail_Code%3A_TX1-492-64-01
     rel:isLocationOf <http://example.org/org_name/Bank_of_America%2C_N.A.> .
 
 <http://example.org/org_name/%5CnBARCLAYS_BANK_PLC> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Euro_Swing,
+        org_sub_role:Sterling_Swing,
+        org_sub_role:U.S._Swing,
+        org_sub_role:Yen_Swing ;
     rel:hasEmployee person_name:Mark_Timms .
 
 <http://example.org/org_name/%5CnVISA_U.S.A._INC.> a base:Organization ;
@@ -1705,7 +1622,11 @@ org_name:Bank_of_America%2C_N.A a base:Organization ;
     rel:hasLocationAt <http://example.org/location/%5Cn101_N_Tryon_Street.%5Cn%5Cn%C2%A0%09%5CnMail_Code%3A_NC1-001-05-46%5Cn%5Cn%C2%A0%09%5CnCharlotte%2C_North_Carolina_28255-0001> .
 
 org_name:THE_BANK_OF_CHINA a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Euro_Swing,
+        org_sub_role:Sterling_Swing,
+        org_sub_role:U.S._Swing,
+        org_sub_role:Yen_Swing ;
     rel:hasEmployee person_name:Haiyong_Yang .
 
 org_name:Visa_Inc a base:Organization ;
@@ -1798,29 +1719,48 @@ loc:900_Metro_Center_Boulevard a base:Location ;
         loc:26_Elmfield_Road%5Cn%5Cn%C2%A0%09%5CnBromley%2C_BR1_1WA%5Cn%5Cn%C2%A0%09%5CnUnited_Kingdom .
 
 <http://example.org/org_name/%5CnSTANDARD_CHARTERED_BANK> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Euro_Swing,
+        org_sub_role:Sterling_Swing,
+        org_sub_role:U.S._Swing,
+        org_sub_role:Yen_Swing ;
     rel:hasEmployee person_name:Johanna_Minaya,
         person_name:Robert_K._Reddington .
 
 <http://example.org/org_name/Bank_of_America%2C_N.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative ;
     rel:hasLocationAt loc:1455_Market_Street%2C_5th_Floor%5Cn%5Cn%C2%A0%09%5CnMail_Code%3A_CA5-701-05-19%5Cn%5Cn%C2%A0%09%5CnSan_Francisco%2C_California_94103,
         loc:901_Main_Street%2C_64th_Floor%5Cn%5Cn%C2%A0%09%5CnMail_Code%3A_TX1-492-64-01%5Cn%5Cn%C2%A0%09%5CnDallas%2C_Texas_75202-3714 .
 
 org_name:CANADIAN_IMPERIAL_BANK_OF_COMMERCE%2C_NEW_YORK_AGENCY a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:AGENTS,
         org_role:BOOK_RUNNERS,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:DOCUMENTATION,
+        org_sub_role:Euro_Swing,
+        org_sub_role:JOINT,
+        org_sub_role:Sterling_Swing,
+        org_sub_role:U.S._Swing,
+        org_sub_role:Yen_Swing ;
     rel:hasEmployee person_name:Eoin_Roche,
         person_name:Richard_J._Poworoznek .
 
 org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Euro_Swing,
+        org_sub_role:Sterling_Swing,
+        org_sub_role:U.S._Swing,
+        org_sub_role:Yen_Swing ;
     rel:hasEmployee person_name:Mark_Walton,
         person_name:Robert_Casey .
 
 org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Euro_Swing,
+        org_sub_role:Sterling_Swing,
+        org_sub_role:U.S._Swing,
+        org_sub_role:Yen_Swing ;
     rel:hasEmployee person_name:George_Manchenko,
         person_name:Scott_W._Reynolds .
 
@@ -1828,10 +1768,15 @@ org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION a base:Organization ;
     rel:hasLocationAt <http://example.org/location/%5Cn4th_Floor_Prestige_Knowledge_Park%5Cn%5Cn%C2%A0%09%5CnNear_Marathalli_Junction%2C_Outer_Ring_Road%5Cn%5Cn%C2%A0%09%5CnKadabeesanahalli%2C_Vathur_Hobli%2C_Bangalore_560087>,
         <http://example.org/location/%5CnTokyo_Building%2C_2-7-3%2C_Marunouchi%5Cn%5Cn%C2%A0%09%5CnChiyoda-ku%2C_Tokyo%2C_100-6432%2C_Japan> .
 
-"AGENT" <http://example.org/isInstanceOf/> "ADMINISTRATIVE",
-        "SYNDICATION" .
+org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
+        org_role:BORROWER .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative" .
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
+
+org_sub_role:SYNDICATION rdfs:subClassOf org_role:AGENT .
 
 <http://example.org/location/%5Cn900_Metro_Center_Boulevard%5Cn%5Cn%C2%A0%09%5CnTreasury%2C_Mailstop_M1-6C%5Cn%5Cn%C2%A0%09%5CnFoster_City%2C_CA_94404> a base:Location ;
     <http://example.org/isInstanceOf/> base:Location ;
@@ -1842,20 +1787,32 @@ org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION a base:Organization ;
 <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:AGENT,
         org_role:Agent,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:ADMINISTRATIVE,
+        org_sub_role:Administrative,
+        org_sub_role:Euro_Swing,
+        org_sub_role:SYNDICATION,
+        org_sub_role:Sterling_Swing,
+        org_sub_role:U.S._Swing,
+        org_sub_role:Yen_Swing ;
     rel:hasEmployee person_name:Anthea_Del_Bianco,
         person_name:Dhiren_Desai,
         person_name:Kurban_H._Merchant,
         person_name:Maureen_Maroney,
         person_name:Oscar_D._Cortez .
 
-"AGENTS" <http://example.org/isInstanceOf/> "DOCUMENTATION" .
+org_sub_role:DOCUMENTATION rdfs:subClassOf org_role:AGENTS .
 
-"BOOK RUNNERS" <http://example.org/isInstanceOf/> "JOINT" .
+org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
+        org_role:BOOK_RUNNERS,
+        org_role:LEAD_ARRANGER,
+        org_role:LEAD_ARRANGERS .
 
-"Lender" <http://example.org/isInstanceOf/> " U.S. Swing",
-        "Euro Swing",
-        "Sterling Swing",
-        "U.S. Swing",
-        "Yen Swing" .
+org_sub_role:Euro_Swing rdfs:subClassOf org_role:Lender .
+
+org_sub_role:Sterling_Swing rdfs:subClassOf org_role:Lender .
+
+org_sub_role:U.S._Swing rdfs:subClassOf org_role:Lender .
+
+org_sub_role:Yen_Swing rdfs:subClassOf org_role:Lender .
 

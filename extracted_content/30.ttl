@@ -1304,64 +1304,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<BANK_OF_AMERICA%2C_N.A> <http://example.org/isInstanceOf/> "LENDERS" .
-
-<EDGETECH_HOLDING_CO> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<Edgetech_Holding_Co> <http://example.org/isInstanceOf/> "SUBSIDIARIES" .
-
-<MIKRON_INDUSTRIES%2C_INC.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<MIKRON_WASHINGTON_LLC> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<Mikron_Industries%2C_Inc> <http://example.org/isInstanceOf/> "SUBSIDIARIES" .
-
-<Mikron_Washington_LLC> <http://example.org/isInstanceOf/> "SUBSIDIARIES" .
-
-<NICHOLS_ALUMINUM-ALABAMA_LLC> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<NICHOLS_ALUMINUM_LLC> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<Nichols_Aluminum-Alabama_LLC> <http://example.org/isInstanceOf/> "SUBSIDIARIES" .
-
-<Nichols_Aluminum_LLC> <http://example.org/isInstanceOf/> "SUBSIDIARIES" .
-
-<QUANEX_BUILDING_PRODUCTS_CORPORATION> <http://example.org/isInstanceOf/> "BORROWER" .
-
-<QUANEX_HOMESHIELD_LLC> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<QUANEX_IG_SYSTEMS%2C_INC.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<QUANEX_SCREENS_LLC> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<QUANEX_SERVICES%2C_INC.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<Quanex_Homeshield_LLC> <http://example.org/isInstanceOf/> "SUBSIDIARIES" .
-
-<Quanex_IG_Systems%2C_Inc> <http://example.org/isInstanceOf/> "SUBSIDIARIES" .
-
-<Quanex_Screens_LLC> <http://example.org/isInstanceOf/> "SUBSIDIARIES" .
-
-<Quanex_Services%2C_Inc> <http://example.org/isInstanceOf/> "SUBSIDIARIES" .
-
-<TRUSEAL_TECHNOLOGIES%2C_Inc.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<Truseal_Technologies%2C_Inc> <http://example.org/isInstanceOf/> "SUBSIDIARIES" .
-
-<WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "ADMINISTRATIVE",
-        "AGENT",
-        "Administrative",
-        "Agent",
-        "Issuing",
-        "LENDERS",
-        "Lender",
-        "Swingline" .
-
-<WELLS_FARGO_SECURITIES%2C_LLC> <http://example.org/isInstanceOf/> "Agent",
-        "Arranger",
-        "Lead",
-        "Syndication" .
-
 org_name:BANK_OF_AMERICA%2C_N.A a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:LENDERS .
 
@@ -1402,25 +1344,25 @@ org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:AGENT,
         org_role:Agent,
         org_role:LENDERS,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:ADMINISTRATIVE,
+        org_sub_role:Administrative,
+        org_sub_role:Issuing,
+        org_sub_role:Swingline,
+        org_sub_role:Syndication .
 
 org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:Arranger .
+        org_role:Arranger,
+        org_sub_role:Administrative,
+        org_sub_role:Lead,
+        org_sub_role:Syndication .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
 <http://example.org/org_sub_role/%5CnCo-Documentation> rdfs:subClassOf org_role:Agent .
 
 <http://example.org/org_sub_role/%5CnJoint_Lead> rdfs:subClassOf org_role:Arranger .
-
-org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
-        org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1465,9 +1407,6 @@ org_sub_role:Intercreditor rdfs:subClassOf org_role:Agent .
 
 org_sub_role:Intermediate rdfs:subClassOf org_role:Holdings .
 
-org_sub_role:Issuing rdfs:subClassOf org_role:Bank,
-        org_role:Lender .
-
 org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
         org_role:BOOK_RUNNERS,
         org_role:LEAD_ARRANGER,
@@ -1499,10 +1438,6 @@ org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
         org_role:Lender .
 
 org_sub_role:LEAD rdfs:subClassOf org_role:ARRANGER .
-
-org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Lender rdfs:subClassOf org_role:Issuing_Bank .
 
@@ -1550,12 +1485,6 @@ org_sub_role:Swing_Line_Lender rdfs:subClassOf org_role:LENDER,
         org_role:LENDERS%3A .
 
 org_sub_role:Swing_line rdfs:subClassOf org_role:Lender .
-
-org_sub_role:Swingline rdfs:subClassOf org_role:Lender .
-
-org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents .
 
 org_sub_role:Term rdfs:subClassOf org_role:Lender .
 
@@ -1655,12 +1584,17 @@ org_name:Truseal_Technologies%2C_Inc a base:Organization ;
     <http://example.org/isInstanceOf/> org_sub_role:SUBSIDIARIES ;
     rel:hasLocationAt loc:Delaware .
 
-"AGENT" <http://example.org/isInstanceOf/> "ADMINISTRATIVE" .
+org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
+        org_role:BORROWER .
 
-"Arranger" <http://example.org/isInstanceOf/> "Lead" .
+org_sub_role:Issuing rdfs:subClassOf org_role:Bank,
+        org_role:Lender .
 
-"Lender" <http://example.org/isInstanceOf/> "Issuing",
-        "Swingline" .
+org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
+
+org_sub_role:Swingline rdfs:subClassOf org_role:Lender .
 
 loc:Ohio a base:Location ;
     <http://example.org/isInstanceOf/> base:Location ;
@@ -1676,8 +1610,14 @@ org_name:Wells_Fargo_Bank%2C_National_Association a base:Organization ;
     rel:hasLocationAt loc:1000_Louisiana%2C_3rd_Floor%5Cn%5CnHouston%2C_Texas_77002,
         loc:MAC_D1109-019%5Cn%5Cn1525_West_W._T._Harris_Blvd.%5Cn%5CnCharlotte%2C_NC_28262 .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative",
-        "Syndication" .
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
+
+org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents .
 
 loc:Delaware a base:Location ;
     <http://example.org/isInstanceOf/> base:Location ;

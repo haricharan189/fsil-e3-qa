@@ -1305,11 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<MUFG_UNION_BANK> <http://example.org/isInstanceOf/> "Agent",
-        "Issuing Bank",
-        "Lender",
-        "Swing Line Lender" .
-
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
 <http://example.org/org_sub_role/%5CnCo-Documentation> rdfs:subClassOf org_role:Agent .
@@ -1503,8 +1498,6 @@ org_sub_role:sole rdfs:subClassOf org_role:General_Partner,
         org_role:manager .
 
 org_sub_role:syndication rdfs:subClassOf org_role:agent .
-
-<j2_CLOUD_SERVICES%2C_LLC> <http://example.org/isInstanceOf/> "liability company" .
 
 loc:1888_Century_Park_East%5Cn%5CnLos_Angeles%2C_CA_90067 a base:Location ;
     <http://example.org/isInstanceOf/> base:Location ;

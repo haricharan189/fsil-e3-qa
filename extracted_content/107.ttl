@@ -1305,181 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<BARCLAYS_BANK_PLC> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent",
-        "Agent ",
-        "Arranger",
-        "Collateral",
-        "Lead",
-        "Lender" .
-
-<Barclays_Bank_PLC> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent",
-        "Arrangers",
-        "Intercreditor",
-        "Lead",
-        "agent",
-        "collateral" .
-
-<Barclays_Capital> <http://example.org/isInstanceOf/> "arrangers",
-        "bookrunners",
-        "joint",
-        "lead" .
-
-<Citigroup_Global_Markets_Inc.> <http://example.org/isInstanceOf/> "arrangers",
-        "bookrunners",
-        "joint",
-        "lead" .
-
-<EASYLINK_SERVICES_INTERNATIONAL_CORPORATION> <http://example.org/isInstanceOf/> "Domestic",
-        "Grantor",
-        "Guarantor" .
-
-<EASYLINK_SERVICES_USA%2C_INC.> <http://example.org/isInstanceOf/> "Domestic",
-        "Grantor",
-        "Guarantor" .
-
-<EasyLink_Services_USA%2C_Inc.> <http://example.org/isInstanceOf/> "Domestic",
-        "Guarantor" .
-
-<Easylink_Services_International_Corporation> <http://example.org/isInstanceOf/> "Domestic",
-        "Guarantor" .
-
-<GXS%2C_INC.> <http://example.org/isInstanceOf/> "Domestic",
-        "Guarantor" .
-
-<GXS%2C_Inc.> <http://example.org/isInstanceOf/> "Domestic",
-        "Guarantor" .
-
-<GXS%2C_Investments%2C_Inc.> <http://example.org/isInstanceOf/> "Domestic",
-        "Guarantor" .
-
-<GXS_GROUP%2C_INC.> <http://example.org/isInstanceOf/> "Borrower" .
-
-<GXS_Group%2C_Inc> <http://example.org/isInstanceOf/> "Borrower" .
-
-<GXS_Group%2C_Inc.> <http://example.org/isInstanceOf/> "Borrower:" .
-
-<GXS_HOLDINGS%2C_INC.> <http://example.org/isInstanceOf/> "Domestic",
-        "Guarantor" .
-
-<GXS_Holdings%2C_Inc.> <http://example.org/isInstanceOf/> "Domestic",
-        "Guarantor" .
-
-<GXS_INTERNATIONAL%2C_INC.> <http://example.org/isInstanceOf/> "Domestic",
-        "Guarantor" .
-
-<GXS_International%2C_Inc.> <http://example.org/isInstanceOf/> "Domestic",
-        "Guarantor" .
-
-<GXS_WORLDWIDE%2C_INC.> <http://example.org/isInstanceOf/> "Domestic",
-        "Guarantor" .
-
-<GXS_Worldwide%2C_Inc.> <http://example.org/isInstanceOf/> "Domestic",
-        "Guarantor",
-        "guarantors" .
-
-<Global_Markets_Inc.> <http://example.org/isInstanceOf/> "agent",
-        "documentation" .
-
-<J.P._Morgan_Securities%2C_Inc.> <http://example.org/isInstanceOf/> "agents",
-        "co-syndication" .
-
-<J.P._Morgan_Securities_Inc.> <http://example.org/isInstanceOf/> "arrangers",
-        "bookrunners",
-        "joint",
-        "lead" .
-
-<OCELOT_MERGER_SUB%2C_INC.> <http://example.org/isInstanceOf/> "Borrower",
-        "Grantor" .
-
-<OPEN_TEXT_CANADA%2C_LTD.> <http://example.org/isInstanceOf/> "Domestic",
-        "Guarantor" .
-
-<OPEN_TEXT_CANADA_LTD.> <http://example.org/isInstanceOf/> "Grantor" .
-
-<OPEN_TEXT_CORPORATION> <http://example.org/isInstanceOf/> "Domestic",
-        "Grantor",
-        "Guarantor" .
-
-<OPEN_TEXT_HOLDINGS%2C_INC.> <http://example.org/isInstanceOf/> "Domestic",
-        "Grantor",
-        "Guarantor" .
-
-<OPEN_TEXT_INC.> <http://example.org/isInstanceOf/> "Domestic",
-        "Grantor",
-        "Guarantor" .
-
-<OPEN_TEXT_ULC> <http://example.org/isInstanceOf/> "Domestic",
-        "Grantor",
-        "Guarantor" .
-
-<OPEN_TEXT_USA_INC.> <http://example.org/isInstanceOf/> "Domestic",
-        "Grantor",
-        "Guarantor" .
-
-<Ocelot_Merger_Sub%2C_Inc> <http://example.org/isInstanceOf/> "Borrower:" .
-
-<Open_Text_Canada_Ltd.> <http://example.org/isInstanceOf/> "Domestic",
-        "Guarantor" .
-
-<Open_Text_Co%C3%B6peratief_U.A.> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<Open_Text_Corporation> <http://example.org/isInstanceOf/> "Domestic",
-        "Guarantor" .
-
-<Open_Text_Finance_Sarl> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<Open_Text_Holdings%2C_Inc.> <http://example.org/isInstanceOf/> "Domestic",
-        "Guarantor" .
-
-<Open_Text_Inc.> <http://example.org/isInstanceOf/> "Domestic",
-        "Guarantor" .
-
-<Open_Text_SARL> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<Open_Text_Software_GmbH> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<Open_Text_UK_Limited> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<Open_Text_ULC> <http://example.org/isInstanceOf/> "Domestic",
-        "Guarantor" .
-
-<Open_Text_USA_Inc.> <http://example.org/isInstanceOf/> "Domestic",
-        "Guarantor" .
-
-<RBC_CAPITAL_MARKETS> <http://example.org/isInstanceOf/> "Bookrunner",
-        "Joint" .
-
-<RBC_Capital_Markets> <http://example.org/isInstanceOf/> "Arrangers",
-        "Lead" .
-
-<Sysgenics_Limited> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<VIGNETTE_PARTNERSHIP%2C_LP> <http://example.org/isInstanceOf/> "Domestic",
-        "Guarantor" .
-
-<Vignette_Partnership%2C_LP> <http://example.org/isInstanceOf/> "Domestic",
-        "Guarantor" .
-
-<Wells_Fargo_Foothill%2C_Inc> <http://example.org/isInstanceOf/> "administrative",
-        "agent" .
-
-<Wells_Fargo_Foothill%2C_Inc.> <http://example.org/isInstanceOf/> "arrangers",
-        "bookrunners",
-        "joint",
-        "lead" .
-
-<Wilmington_Trust_FSB> <http://example.org/isInstanceOf/> "collateral",
-        "trustee" .
-
-<XPEDITE_SYSTEMS%2C_LLC> <http://example.org/isInstanceOf/> "Domestic",
-        "Grantor",
-        "Guarantor" .
-
-<Xpedite_Systems%2C_LLC> <http://example.org/isInstanceOf/> "Domestic",
-        "Guarantor" .
-
 loc:1301_Avenue_of_the_Americas%5CnNew_York%2C_New_York_10019 a base:Location .
 
 loc:1959_Upper_Water_Street%5CnSuite_900%5CnHalifax%2C_Nova_Scotia a base:Location .
@@ -1495,28 +1320,42 @@ loc:745_Seventh_Avenue%5CnNew_York%2C_New_York_10019 a base:Location .
 org_name:Barclays_Bank_PLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
         org_role:Arrangers,
-        org_role:agent .
+        org_role:agent,
+        org_sub_role:Administrative,
+        org_sub_role:Collateral,
+        org_sub_role:Intercreditor,
+        org_sub_role:Lead,
+        org_sub_role:administrative,
+        org_sub_role:collateral,
+        org_sub_role:documentation .
 
 org_name:Barclays_Capital a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arrangers,
-        org_role:bookrunners .
+        org_role:bookrunners,
+        org_sub_role:joint,
+        org_sub_role:lead .
 
 <http://example.org/org_name/Citigroup_Global_Markets_Inc.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arrangers,
-        org_role:bookrunners .
+        org_role:bookrunners,
+        org_sub_role:joint,
+        org_sub_role:lead .
 
 org_name:EASYLINK_SERVICES_INTERNATIONAL_CORPORATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Grantor,
-        org_role:Guarantor .
+        org_role:Guarantor,
+        org_sub_role:Domestic .
 
 <http://example.org/org_name/EASYLINK_SERVICES_USA%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Grantor,
-        org_role:Guarantor .
+        org_role:Guarantor,
+        org_sub_role:Domestic .
 
 org_name:England_%26_Wal a base:Organization .
 
 <http://example.org/org_name/GXS%2C_INC.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor .
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic .
 
 org_name:GXS_GROUP%2C_INC a base:Organization .
 
@@ -1537,66 +1376,88 @@ org_name:GXS_Group%2C_Inc a base:Organization ;
         org_sub_role:Domestic .
 
 <http://example.org/org_name/Global_Markets_Inc.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:agent .
+    <http://example.org/isInstanceOf/> org_role:agent,
+        org_sub_role:administrative,
+        org_sub_role:collateral,
+        org_sub_role:documentation .
 
 <http://example.org/org_name/J.P._Morgan_Securities%2C_Inc.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:agents .
+    <http://example.org/isInstanceOf/> org_role:agents,
+        org_sub_role:co-syndication .
 
 <http://example.org/org_name/J.P._Morgan_Securities_Inc.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arrangers,
-        org_role:bookrunners .
+        org_role:bookrunners,
+        org_sub_role:joint,
+        org_sub_role:lead .
 
 <http://example.org/org_name/OCELOT_MERGER_SUB%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower,
         org_role:Grantor .
 
 <http://example.org/org_name/OPEN_TEXT_CANADA%2C_LTD.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor .
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic .
 
 <http://example.org/org_name/OPEN_TEXT_CANADA_LTD.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Grantor .
 
 org_name:OPEN_TEXT_CORPORATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Grantor,
-        org_role:Guarantor .
+        org_role:Guarantor,
+        org_sub_role:Domestic .
 
 <http://example.org/org_name/OPEN_TEXT_HOLDINGS%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Grantor,
-        org_role:Guarantor .
+        org_role:Guarantor,
+        org_sub_role:Domestic .
 
 <http://example.org/org_name/OPEN_TEXT_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Grantor,
-        org_role:Guarantor .
+        org_role:Guarantor,
+        org_sub_role:Domestic .
 
 <http://example.org/org_name/OPEN_TEXT_USA_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Grantor,
-        org_role:Guarantor .
+        org_role:Guarantor,
+        org_sub_role:Domestic .
 
 org_name:Open_Text_Software_GmbH a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor .
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic .
 
 org_name:RBC_CAPITAL_MARKETS a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Bookrunner .
+    <http://example.org/isInstanceOf/> org_role:Bookrunner,
+        org_sub_role:Joint .
 
 org_name:RBC_Capital_Markets a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Arrangers .
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_sub_role:Lead .
 
 org_name:VIGNETTE_PARTNERSHIP%2C_LP a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor .
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic .
 
 org_name:Wells_Fargo_Foothill%2C_Inc a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:agent .
+    <http://example.org/isInstanceOf/> org_role:agent,
+        org_sub_role:administrative,
+        org_sub_role:collateral,
+        org_sub_role:documentation .
 
 <http://example.org/org_name/Wells_Fargo_Foothill%2C_Inc.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arrangers,
-        org_role:bookrunners .
+        org_role:bookrunners,
+        org_sub_role:joint,
+        org_sub_role:lead .
 
 org_name:Wilmington_Trust_FSB a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:trustee .
+    <http://example.org/isInstanceOf/> org_role:trustee,
+        org_sub_role:collateral .
 
 org_name:XPEDITE_SYSTEMS%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Grantor,
-        org_role:Guarantor .
+        org_role:Guarantor,
+        org_sub_role:Domestic .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1606,11 +1467,6 @@ org_name:XPEDITE_SYSTEMS%2C_LLC a base:Organization ;
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1626,10 +1482,6 @@ org_sub_role:Co-Syndication rdfs:subClassOf org_role:Agent,
         org_role:Agents .
 
 org_sub_role:Collatera rdfs:subClassOf org_role:Agent .
-
-org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
-        org_role:Agent%5Cn,
-        org_role:Trustee .
 
 org_sub_role:DOCUMENTATION rdfs:subClassOf org_role:AGENTS .
 
@@ -1649,8 +1501,6 @@ org_sub_role:General rdfs:subClassOf org_role:Partner .
 org_sub_role:Initial rdfs:subClassOf org_role:Borrower,
         org_role:Lender .
 
-org_sub_role:Intercreditor rdfs:subClassOf org_role:Agent .
-
 org_sub_role:Intermediate rdfs:subClassOf org_role:Holdings .
 
 org_sub_role:Issuing rdfs:subClassOf org_role:Bank,
@@ -1662,15 +1512,6 @@ org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
         org_role:LEAD_ARRANGERS .
 
 org_sub_role:JOINT_LEAD rdfs:subClassOf org_role:ARRANGERS .
-
-org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
-        org_role:Book_Runner,
-        org_role:Book_Runners,
-        org_role:Bookrunner,
-        org_role:Bookrunners,
-        org_role:Bookrunners%5Cn,
-        org_role:Lead_Arranger,
-        org_role:Lead_Arrangers .
 
 org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
         org_role:Runner .
@@ -1687,10 +1528,6 @@ org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
         org_role:Lender .
 
 org_sub_role:LEAD rdfs:subClassOf org_role:ARRANGER .
-
-org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Lender rdfs:subClassOf org_role:Issuing_Bank .
 
@@ -1759,25 +1596,9 @@ org_sub_role:Yen_Swing rdfs:subClassOf org_role:Lender .
 
 org_sub_role:additional rdfs:subClassOf org_role:Credit_Party .
 
-org_sub_role:administrative rdfs:subClassOf org_role:agent .
-
 org_sub_role:co-documentation rdfs:subClassOf org_role:agents .
 
-org_sub_role:co-syndication rdfs:subClassOf org_role:agents .
-
-org_sub_role:collateral rdfs:subClassOf org_role:agent,
-        org_role:trustee .
-
-org_sub_role:documentation rdfs:subClassOf org_role:agent,
-        org_role:agents .
-
-org_sub_role:joint rdfs:subClassOf org_role:bookrunner,
-        org_role:bookrunners .
-
 org_sub_role:joint_lead rdfs:subClassOf org_role:arranger .
-
-org_sub_role:lead rdfs:subClassOf org_role:arranger,
-        org_role:arrangers .
 
 org_sub_role:managing rdfs:subClassOf org_role:agents .
 
@@ -1869,7 +1690,11 @@ org_name:Acquisition_UK_Limited a base:Organization ;
 org_name:BARCLAYS_BANK_PLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
         org_role:Arranger,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Collateral,
+        org_sub_role:Intercreditor,
+        org_sub_role:Lead ;
     rel:hasEmployee person_name:Ritam_Bhalla .
 
 org_name:Cordys%2C_Inc a base:Organization ;
@@ -1933,7 +1758,8 @@ org_name:EC1_Pte_Ltd a base:Organization ;
     rel:hasLocationAt loc:Singapore .
 
 <http://example.org/org_name/EasyLink_Services_USA%2C_Inc.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic ;
     rel:hasLocationAt loc:Delaware%2C_USA .
 
 org_name:Easylink_Do_Brasil_Comunicacoes_Ltd a base:Organization ;
@@ -1958,7 +1784,8 @@ org_name:Easylink_Services_Corporation_India_Private_Limited a base:Organization
     rel:hasLocationAt loc:India .
 
 org_name:Easylink_Services_International_Corporation a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic ;
     rel:hasLocationAt loc:Delaware%2C_USA .
 
 org_name:Easylink_Services_International_Limited_-_Ireland_Branch a base:Organization ;
@@ -1983,11 +1810,13 @@ org_name:Freeway_Commerce_Limited_%28in_liquidation%29 a base:Organization ;
     rel:hasLocationAt loc:United_Kingdom .
 
 <http://example.org/org_name/GXS%2C_Inc.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic ;
     rel:hasLocationAt loc:Delaware%2C_USA .
 
 <http://example.org/org_name/GXS%2C_Investments%2C_Inc.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic ;
     rel:hasLocationAt loc:Delaware%2C_USA .
 
 org_name:GXS_%28ANZ%29_Pty_Limited a base:Organization ;
@@ -2019,7 +1848,8 @@ org_name:GXS_GmbH a base:Organization ;
     rel:hasLocationAt loc:Delaware%2C_USA .
 
 <http://example.org/org_name/GXS_Holdings%2C_Inc.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic ;
     rel:hasLocationAt loc:Delaware%2C_USA .
 
 <http://example.org/org_name/GXS_Inc.> a base:Organization ;
@@ -2029,7 +1859,8 @@ org_name:GXS_India_Technology_Centre_Private_Limited a base:Organization ;
     rel:hasLocationAt loc:India .
 
 <http://example.org/org_name/GXS_International%2C_Inc.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic ;
     rel:hasLocationAt loc:Delaware%2C_USA .
 
 org_name:GXS_Limited a base:Organization ;
@@ -2064,7 +1895,8 @@ org_name:GXS_UK_Holding_Limited a base:Organization ;
 
 <http://example.org/org_name/GXS_Worldwide%2C_Inc.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Guarantor,
-        org_role:guarantors ;
+        org_role:guarantors,
+        org_sub_role:Domestic ;
     rel:hasLocationAt loc:Delaware%2C_USA .
 
 org_name:Global_360_%28Australia%29_Pty_Limited a base:Organization ;
@@ -2105,7 +1937,8 @@ org_name:Metastorm_UK_Limited a base:Organization ;
 
 org_name:OPEN_TEXT_ULC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Grantor,
-        org_role:Guarantor ;
+        org_role:Guarantor,
+        org_sub_role:Domestic ;
     rel:hasEmployee person_name:Paul_McFeeters .
 
 org_name:Ocelot_Merger_Sub%2C_Inc a base:Organization ;
@@ -2131,11 +1964,13 @@ org_name:Open_Text_Brasil_Comercio_De_Software_LTDA a base:Organization ;
     rel:hasLocationAt loc:Brazil .
 
 <http://example.org/org_name/Open_Text_Canada_Ltd.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic ;
     rel:hasLocationAt loc:Canada .
 
 <http://example.org/org_name/Open_Text_Co%C3%B6peratief_U.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic ;
     rel:hasLocationAt loc:Netherlands .
 
 org_name:Open_Text_Co%C3%B6peratief_U.A._%E2%80%93_BELGIUM_Branch a base:Organization ;
@@ -2145,7 +1980,8 @@ org_name:Open_Text_Co%C3%B6peratief_U.A._%E2%80%93_BELGIUM_Branch a base:Organiz
     rel:hasLocationAt loc:Canada .
 
 org_name:Open_Text_Corporation a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic ;
     rel:hasLocationAt loc:Canada .
 
 org_name:Open_Text_Corporation_India_Private_Limited a base:Organization ;
@@ -2158,15 +1994,18 @@ org_name:Open_Text_Finance_SARL_-_IRELAND_Place_of_Business a base:Organization 
     rel:hasLocationAt loc:Ireland .
 
 org_name:Open_Text_Finance_Sarl a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic ;
     rel:hasLocationAt loc:Luxembourg .
 
 <http://example.org/org_name/Open_Text_Holdings%2C_Inc.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic ;
     rel:hasLocationAt loc:Delaware%2C_USA .
 
 <http://example.org/org_name/Open_Text_Inc.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic ;
     rel:hasLocationAt loc:Delaware%2C_USA .
 
 org_name:Open_Text_Ireland_Limited a base:Organization ;
@@ -2200,7 +2039,8 @@ org_name:Open_Text_SA a base:Organization ;
     rel:hasLocationAt loc:Luxembourg .
 
 org_name:Open_Text_SARL a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic ;
     rel:hasLocationAt loc:France .
 
 org_name:Open_Text_SA_-_IRELAND_place_of_business a base:Organization ;
@@ -2228,15 +2068,18 @@ org_name:Open_Text_Technologies_India_Private_Limited a base:Organization ;
     rel:hasLocationAt loc:India .
 
 org_name:Open_Text_UK_Limited a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic ;
     rel:hasLocationAt loc:United_Kingdom .
 
 org_name:Open_Text_ULC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic ;
     rel:hasLocationAt loc:Nova_Scotia%2C_Canada .
 
 <http://example.org/org_name/Open_Text_USA_Inc.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic ;
     rel:hasLocationAt loc:Delaware%2C_USA .
 
 org_name:Open_Text_Venture_Capital_Investment_Limited_Partnership a base:Organization ;
@@ -2261,7 +2104,8 @@ org_name:Vignette_India_Private_Limited a base:Organization ;
     rel:hasLocationAt loc:India .
 
 org_name:Vignette_Partnership%2C_LP a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic ;
     rel:hasLocationAt loc:Delaware%2C_USA .
 
 org_name:Xpedite%2C_Ltd a base:Organization ;
@@ -2271,7 +2115,8 @@ org_name:Xpedite%2C_Ltd a base:Organization ;
     rel:hasLocationAt loc:Japan .
 
 org_name:Xpedite_Systems%2C_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic ;
     rel:hasLocationAt loc:Delaware%2C_USA .
 
 org_name:Xpedite_Systems_AG a base:Organization ;
@@ -2310,19 +2155,20 @@ org_name:Xpedite_Systems_Worldwide%2C_Inc a base:Organization ;
 <http://example.org/org_name/bizzApps_B.V.> a base:Organization ;
     rel:hasLocationAt loc:Netherlands .
 
+org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
+        org_role:Book_Runner,
+        org_role:Book_Runners,
+        org_role:Bookrunner,
+        org_role:Bookrunners,
+        org_role:Bookrunners%5Cn,
+        org_role:Lead_Arranger,
+        org_role:Lead_Arrangers .
+
+org_sub_role:co-syndication rdfs:subClassOf org_role:agents .
+
 person_name:Ritam_Bhalla a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Director ;
     rel:isEmployedBy org_name:BARCLAYS_BANK_PLC .
-
-"Agent " <http://example.org/isInstanceOf/> "Administrative" .
-
-"Arranger" <http://example.org/isInstanceOf/> "Lead" .
-
-"Bookrunner" <http://example.org/isInstanceOf/> "Joint" .
-
-"agents" <http://example.org/isInstanceOf/> "co-syndication" .
-
-"trustee" <http://example.org/isInstanceOf/> "collateral" .
 
 loc:Belgium a base:Location ;
     <http://example.org/isInstanceOf/> base:Location ;
@@ -2363,7 +2209,8 @@ org_name:Easylink_Services_International_Limited a base:Organization ;
         loc:Wales .
 
 <http://example.org/org_name/GXS_INTERNATIONAL%2C_INC.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic ;
     rel:hasEmployee person_name:Paul_McFeeters .
 
 org_name:Global_360_UK_Limited a base:Organization ;
@@ -2387,7 +2234,8 @@ org_name:StreamServe_Limited a base:Organization ;
         loc:Wales .
 
 org_name:Sysgenics_Limited a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor ;
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Domestic ;
     rel:hasLocationAt loc:England,
         loc:Wales .
 
@@ -2399,7 +2247,16 @@ org_name:Xpedite_Systems_Limited a base:Organization ;
     rel:hasLocationAt loc:Hong_Kong,
         loc:New_Zealand .
 
-org_sub_role:Domestic rdfs:subClassOf org_role:Guarantor .
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
+
+org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
+        org_role:Agent%5Cn,
+        org_role:Trustee .
+
+org_sub_role:Intercreditor rdfs:subClassOf org_role:Agent .
 
 person_name:Paul_McFeeters a base:Person ;
     <http://example.org/isInstanceOf/> <http://example.org/org_name/GXS_INTERNATIONAL%2C_INC.>,
@@ -2413,12 +2270,6 @@ person_name:Paul_McFeeters a base:Person ;
         person_position:Vice_President ;
     rel:isEmployedBy <http://example.org/org_name/GXS_INTERNATIONAL%2C_INC.>,
         org_name:OPEN_TEXT_ULC .
-
-"Agent" <http://example.org/isInstanceOf/> "Administrative",
-        "Collateral",
-        "Intercreditor" .
-
-"Arrangers" <http://example.org/isInstanceOf/> "Lead" .
 
 loc:Brazil a base:Location ;
     <http://example.org/isInstanceOf/> base:Location ;
@@ -2462,9 +2313,14 @@ loc:Switzerland a base:Location ;
         org_name:Open_Text_AG,
         org_name:Xpedite_Systems_AG .
 
-"agent" <http://example.org/isInstanceOf/> "administrative",
-        "collateral",
-        "documentation" .
+org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
+
+org_sub_role:administrative rdfs:subClassOf org_role:agent .
+
+org_sub_role:documentation rdfs:subClassOf org_role:agent,
+        org_role:agents .
 
 loc:Ireland a base:Location ;
     <http://example.org/isInstanceOf/> base:Location ;
@@ -2473,9 +2329,14 @@ loc:Ireland a base:Location ;
         org_name:Open_Text_Ireland_Limited,
         org_name:Open_Text_SA_-_IRELAND_place_of_business .
 
-"arrangers" <http://example.org/isInstanceOf/> "lead" .
+org_sub_role:collateral rdfs:subClassOf org_role:agent,
+        org_role:trustee .
 
-"bookrunners" <http://example.org/isInstanceOf/> "joint" .
+org_sub_role:joint rdfs:subClassOf org_role:bookrunner,
+        org_role:bookrunners .
+
+org_sub_role:lead rdfs:subClassOf org_role:arranger,
+        org_role:arrangers .
 
 loc:Canada a base:Location ;
     <http://example.org/isInstanceOf/> base:Location ;
@@ -2627,5 +2488,5 @@ loc:Delaware%2C_USA a base:Location ;
         <http://example.org/org_name/Xpedite_Systems_Holdings%2C_Inc.>,
         org_name:Xpedite_Systems_Worldwide%2C_Inc .
 
-"Guarantor" <http://example.org/isInstanceOf/> "Domestic" .
+org_sub_role:Domestic rdfs:subClassOf org_role:Guarantor .
 

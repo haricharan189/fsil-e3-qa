@@ -1304,28 +1304,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<ALLIANCE_TRADING%2C_INC.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<BANK_OF_AMERICA%2C_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
-<CYPRESS%2C_INC.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<HORIZON_DISTRIBUTORS%2C_INC.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<POOLFX_SUPPLY_LLC> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<POOL_CORPORATION> <http://example.org/isInstanceOf/> "Borrower" .
-
-<POOL_DEVELOPMENT_LLC> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<SCP_DISTRIBUTORS_LLC> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<SCP_INTERNATIONAL%2C_INC.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<SPLASH_HOLDINGS%2C_INC.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<SUPERIOR_POOL_PRODUCTS_LLC> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
 <http://example.org/org_name/ALLIANCE_TRADING%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:GUARANTORS .
 

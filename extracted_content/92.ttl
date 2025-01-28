@@ -1305,63 +1305,27 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnGAINE%2C_INC.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<BUSINESS_DEVELOPMENT_CORPORATION_OF_AMERICA> <http://example.org/isInstanceOf/> "Bookrunner",
-        "Co-" .
-
-<CYPRESS_PHARMACEUTICALS%2C_INC.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<GTA_GP%2C_INC.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<HAWTHORN_PHARMACEUTICALS%2C_INC.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<MACOVEN_PHARMACEUTICALS%2C_L.L.C.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<MIDCAP_FUNDING_V%2C_LLC> <http://example.org/isInstanceOf/> "Administrative Agent",
-        "Arranger",
-        "Bookrunner",
-        "Co-",
-        "Lender",
-        "Sole Lead" .
-
-<MIDCAP_FUNDING_V%2C_LLC%2C> <http://example.org/isInstanceOf/> "Lender" .
-
-<MIDCAP_FUNDING_VI%2C_LLC%2C> <http://example.org/isInstanceOf/> "Lender" .
-
-<PERNIX_ACQUISITION_CORP._I%5Cn> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<PERNIX_MANUFACTURING%2C_LLC%5Cn> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<PERNIX_THERAPEUTICS%2C_LLC> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<PERNIX_THERAPEUTICS_HOLDINGS%2C_INC.> <http://example.org/isInstanceOf/> "Administrative Agent",
-        "Arranger",
-        "Bookrunner",
-        "Co-",
-        "Lender",
-        "Sole Lead" .
-
-<PERNIX_THERAPEUTICS_HOLDINGS%2C_INC.%5Cn> <http://example.org/isInstanceOf/> "BORROWER" .
-
-<RESPICOPEA%2C_INC.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
 org_name: a base:Organization .
 
 org_name:BUSINESS_DEVELOPMENT_CORPORATION_OF_AMERICA a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Bookrunner .
+    <http://example.org/isInstanceOf/> org_role:Bookrunner,
+        org_sub_role:Co- .
 
 org_name:MIDCAP_FUNDING_V%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
         org_role:Arranger,
         org_role:Bookrunner,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:Co-,
+        org_sub_role:Sole_Lead .
 
 <http://example.org/org_name/PERNIX_THERAPEUTICS_HOLDINGS%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
         org_role:Arranger,
         org_role:Bookrunner,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:Co-,
+        org_sub_role:Sole_Lead .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1376,9 +1340,6 @@ org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
         org_role:Agent%2C,
         org_role:Agents,
         org_role:Borrower .
-
-org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
-        org_role:Bookrunner .
 
 org_sub_role:Co-Book_Managers rdfs:subClassOf org_role:Initial_Lender .
 
@@ -1491,8 +1452,6 @@ org_sub_role:Sole rdfs:subClassOf org_role:Bookrunner .
 
 org_sub_role:Sole_Book rdfs:subClassOf org_role:Manager,
         org_role:Runner .
-
-org_sub_role:Sole_Lead rdfs:subClassOf org_role:Arranger .
 
 org_sub_role:Sole_Lead_Arranger rdfs:subClassOf org_role:Arranger .
 
@@ -1635,9 +1594,10 @@ org_name:PERNIX_THERAPEUTICS%2C_LLC a base:Organization ;
     rel:hasEmployee person_name:Cooper_C._Collins ;
     rel:hasLocationAt loc:10003_Woodloch_Forest_Drive%5Cn%5CnSuite_950%5Cn%5CnThe_Woodlands%2C_Texas_77380 .
 
-"Arranger" <http://example.org/isInstanceOf/> "Sole Lead" .
+org_sub_role:Sole_Lead rdfs:subClassOf org_role:Arranger .
 
-"Bookrunner" <http://example.org/isInstanceOf/> "Co-" .
+org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
+        org_role:Bookrunner .
 
 loc:10003_Woodloch_Forest_Drive%5Cn%5CnSuite_950%5Cn%5CnThe_Woodlands%2C_Texas_77380 a base:Location ;
     <http://example.org/isInstanceOf/> base:Location ;

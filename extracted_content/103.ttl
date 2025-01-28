@@ -1305,50 +1305,13 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<BOTTICELLI_LLC> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent",
-        "Lender" .
-
-<Botticelli_LLC%5Cn%5Cnc/o_Angelo%2C_Gordon%C2%A0%26_Co.%2C_LP> <http://example.org/isInstanceOf/> "Administrative Agent" .
-
-<CLAIRE%C2%92S_%28GIBRALTAR%29_INTERMEDIATE_HOLDINGS_LIMITED> <http://example.org/isInstanceOf/> "Borrower" .
-
-<CLAIRE%C2%92S_ACCESSORIES_SPAIN%2C_S.L.> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<CLAIRE%C2%92S_ACCESSORIES_UK_LTD> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<CLAIRE%C2%92S_EUROPEAN_DISTRIBUTION_LIMITED> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<CLAIRE%C2%92S_EUROPEAN_SERVICES_LIMITED> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<CLAIRE%C2%92S_FASHION_PROPERTY_CORP.> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<CLAIRE%C2%92S_FRANCE_S.A.S.> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<CLAIRE%C2%92S_GERMANY_GMBH> <http://example.org/isInstanceOf/> "Borrower" .
-
-<CLAIRE%C2%92S_HOLDINGS_S.A._R.L.> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<CLAIRE%C2%92S_HOLDING_GMBH> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<CLAIRE%C2%92S_LUXEMBOURG_S.A._R.L.> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<CLAIRE%C2%92S_SWITZERLAND_GMBH> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<CORTLAND_CAPITAL_MARKET_SERVICES_LLC> <http://example.org/isInstanceOf/> "Agent",
-        "Collateral" .
-
-<CSI_LUXEMBOURG_S.A._R.L.> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<Claire%C2%92s_%28Gibraltar%29_Holdings_Limited> <http://example.org/isInstanceOf/> "Borrowers" .
-
-<Cortland_Capital_Market_Services_LLC> <http://example.org/isInstanceOf/> "Collateral Agent" .
-
 <http://example.org/org_name/%5CnCLAIRE%C2%92S_GERMANY_GMBH> a base:Organization .
 
 org_name:BOTTICELLI_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Collateral .
 
 org_name:CLAIRE%C2%92S_%28GIBRALTAR%29_INTERMEDIATE_HOLDINGS_LIMITED a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower .
@@ -1403,11 +1366,6 @@ org_name:CLAIRE%C2%92S_SWITZERLAND_GMBH a base:Organization ;
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
 
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
-
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
 
@@ -1422,10 +1380,6 @@ org_sub_role:Co-Syndication rdfs:subClassOf org_role:Agent,
         org_role:Agents .
 
 org_sub_role:Collatera rdfs:subClassOf org_role:Agent .
-
-org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
-        org_role:Agent%5Cn,
-        org_role:Trustee .
 
 org_sub_role:DOCUMENTATION rdfs:subClassOf org_role:AGENTS .
 
@@ -1611,7 +1565,9 @@ loc:3_SW_129th_Avenue%5Cn%5CnSuite_400%5Cn%5CnPembroke_Pines%2C_FL_33027 a base:
     rel:hasEmployee person_name:Paul_A._Barker .
 
 org_name:CORTLAND_CAPITAL_MARKET_SERVICES_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative,
+        org_sub_role:Collateral ;
     rel:hasEmployee person_name:Matthew_Trybula .
 
 org_name:Claire%C2%92s_%28Gibraltar%29_Holdings_Limited a base:Organization ;
@@ -1646,8 +1602,14 @@ person_name:Stuart_Brown a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Director ;
     rel:isEmployedBy <http://example.org/org_name/CLAIRE%C2%92S_FASHION_PROPERTY_CORP.> .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative",
-        "Collateral" .
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
+
+org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
+        org_role:Agent%5Cn,
+        org_role:Trustee .
 
 <http://example.org/org_name/CLAIRE%C2%92S_FASHION_PROPERTY_CORP.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Guarantor ;

@@ -1305,46 +1305,14 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<CITIZENS_BANK> <http://example.org/isInstanceOf/> "Documentation Agents" .
-
-<CREDIT_SUISSE_AG%2C_CAYMAN_ISLANDS_BRANCH> <http://example.org/isInstanceOf/> "Syndication Agents" .
-
-<CREDIT_SUISSE_SECURITIES_%28USA%29_LLC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint",
-        "Joint Lead " .
-
-<CohnReznick_LLP> <http://example.org/isInstanceOf/> "legal counsel" .
-
-<GTT_COMMUNICATIONS%2C%C2%A0INC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<Goodwin_Procter_LLP> <http://example.org/isInstanceOf/> "legal counsel" .
-
-<ING_CAPITAL_LLC> <http://example.org/isInstanceOf/> "Documentation Agents" .
-
-<KEYBANC_CAPITAL_MARKETS_INC.> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint",
-        "Joint Lead " .
-
-<KEYBANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Administrative Agent",
-        "LC Issuer" .
-
-<SUNTRUST_BANK> <http://example.org/isInstanceOf/> "Syndication Agents" .
-
-<SUNTRUST_ROBINSON_HUMPHREY%2C%C2%A0INC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint",
-        "Joint Lead " .
-
-<WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Documentation Agents" .
-
 org_name:CITIZENS_BANK a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Documentation_Agents .
 
 org_name:CREDIT_SUISSE_SECURITIES_%28USA%29_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 org_name:CohnReznick_LLP a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:legal_counsel .
@@ -1354,7 +1322,9 @@ org_name:ING_CAPITAL_LLC a base:Organization ;
 
 <http://example.org/org_name/KEYBANC_CAPITAL_MARKETS_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Documentation_Agents .
@@ -1426,21 +1396,8 @@ org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
 
 org_sub_role:JOINT_LEAD rdfs:subClassOf org_role:ARRANGERS .
 
-org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
-        org_role:Book_Runner,
-        org_role:Book_Runners,
-        org_role:Bookrunner,
-        org_role:Bookrunners,
-        org_role:Bookrunners%5Cn,
-        org_role:Lead_Arranger,
-        org_role:Lead_Arrangers .
-
 org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
         org_role:Runner .
-
-org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
 
@@ -1621,7 +1578,9 @@ org_name:SUNTRUST_BANK a base:Organization ;
 
 org_name:SUNTRUST_ROBINSON_HUMPHREY%2C%C2%A0INC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners ;
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead ;
     rel:hasEmployee <http://example.org/person_name/%5CnTodd_M._Koetje>,
         person_name:Stacy_Moritz .
 
@@ -1630,9 +1589,18 @@ org_name:Goodwin_Procter_LLP a base:Organization ;
     rel:hasEmployee person_name:Anna_E._Dodson ;
     rel:hasLocationAt loc:100_Northern_Avenue%5Cn%5CnBoston%2C_MA_02110 .
 
-"Arrangers" <http://example.org/isInstanceOf/> "Joint Lead " .
+org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
+        org_role:Book_Runner,
+        org_role:Book_Runners,
+        org_role:Bookrunner,
+        org_role:Bookrunners,
+        org_role:Bookrunners%5Cn,
+        org_role:Lead_Arranger,
+        org_role:Lead_Arrangers .
 
-"Bookrunners" <http://example.org/isInstanceOf/> "Joint" .
+org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
 
 org_name:GTT_COMMUNICATIONS%2C%C2%A0INC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower ;

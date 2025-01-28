@@ -1305,14 +1305,9 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<BANK_OF_MONTREAL%2C_CHICAGO_BRANCH> <http://example.org/isInstanceOf/> "Administrative Agent",
-        "Lender" .
-
-<BMO_Capital_Markets_Corp.> <http://example.org/isInstanceOf/> "Arranger",
-        "Sole Lead Arranger " .
-
 <http://example.org/org_name/BMO_Capital_Markets_Corp.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Arranger .
+    <http://example.org/isInstanceOf/> org_role:Arranger,
+        org_sub_role:Sole_Lead_Arranger .
 
 org_name:Borrower%2C a base:Organization .
 
@@ -1447,8 +1442,6 @@ org_sub_role:Sole_Book rdfs:subClassOf org_role:Manager,
 
 org_sub_role:Sole_Lead rdfs:subClassOf org_role:Arranger .
 
-org_sub_role:Sole_Lead_Arranger rdfs:subClassOf org_role:Arranger .
-
 org_sub_role:Sterling_Swing rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Subsidiary rdfs:subClassOf org_role:Borrower .
@@ -1524,9 +1517,9 @@ org_name:BANK_OF_MONTREAL%2C_CHICAGO_BRANCH a base:Organization ;
 <http://example.org/org_name/SELECTIVE_INSURANCE_GROUP%2C_INC.> a base:Organization ;
     rel:hasLocationAt loc:40_Wantage_Avenue%2C_Branchville%2C_New_Jersey_07890 .
 
+org_sub_role:Sole_Lead_Arranger rdfs:subClassOf org_role:Arranger .
+
 person_name:Benjamin_Mlot a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Director ;
     rel:isEmployedBy org_name:BANK_OF_MONTREAL%2C_CHICAGO_BRANCH .
-
-"Arranger" <http://example.org/isInstanceOf/> "Sole Lead Arranger " .
 

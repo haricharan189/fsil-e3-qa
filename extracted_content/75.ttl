@@ -1305,17 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<ASPEN_TECHNOLOGY%2C%C2%A0INC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<J.P._MORGAN_SECURITIES_LLC> <http://example.org/isInstanceOf/> " Sole Bookrunner",
-        "Sole Lead Arranger " .
-
-<JPMORGAN_CHASE_BANK> <http://example.org/isInstanceOf/> "Administrative Agent" .
-
-<K%26L_Gates_LLP> <http://example.org/isInstanceOf/> " special counsel to the Borrower" .
-
-<KPMG_LLP> <http://example.org/isInstanceOf/> "public accounting firm" .
-
 loc:New_York%2C_New_York_10017 a base:Location .
 
 org_name:K%26L_Gates_LLP a base:Organization ;

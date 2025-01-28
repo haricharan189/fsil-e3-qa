@@ -1305,147 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnChapman_Properties%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<%5CnCleveland_Lincoln_Garage_Owner%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<%5CnMCI_1372_Street%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<%5CnMVP_ACQUISITIONS%2C_LLC> <http://example.org/isInstanceOf/> "SUBSIDIARY GUARANTORS:" .
-
-<%5CnMVP_Acquisitions%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<%5CnMVP_Bridgeport_Fairfield_Garage%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<%5CnMVP_Denver_Sherman%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<%5CnMVP_Houston_Preston_Lot%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<%5CnMVP_Indianapolis_Meridian_Lot_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<%5CnMVP_Milwaukee_Clybourn%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<%5CnMVP_PF_Kansas_City_2013%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<%5CnMVP_PF_St._Louis_2013%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<%5CnMVP_St._Louis_Broadway%2C_LLC%2C> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<%5CnMVP_St._Louis_Convention_Plaza%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<%5CnWest_9th_Street_Properties_II%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<Cleveland_Lincoln_Garage%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<KEYBANC_CAPITAL_MARKETS> <http://example.org/isInstanceOf/> "Arranger",
-        "Lead" .
-
-<KEYBANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent" .
-
-<KeyBank_National_Association> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent" .
-
-<MVP_ACQUISITIONS%2C_LLC> <http://example.org/isInstanceOf/> "SUBSIDIARY" .
-
-<MVP_Acquisitions%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_Bridgeport_Fairfield_Garage%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_Cincinnati_Race_Street_Garage%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_Clarksburg_Lot%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_Denver_1935_Sherman%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_Detroit_Center_Garage%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_Fort_Worth_Taylor%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_Houston_Jefferson_Lot%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_Houston_Preston_Lot%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_Houston_Saks_Garage%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_Houston_San_Jacinto_Lot%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_Indianapolis_City_Park_Garage%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_Indianapolis_Washington_Street_Lot%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_KC_Cherry_Lot%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_Louisville_Station_Broadway%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_MERGER_SUB%2C_LLC> <http://example.org/isInstanceOf/> "SUBSIDIARY",
-        "SUBSIDIARY GUARANTORS:" .
-
-<MVP_MILWAUKEE_WELLS_LLC> <http://example.org/isInstanceOf/> "SUBSIDIARY",
-        "SUBSIDIARY GUARANTORS:" .
-
-<MVP_Merger_Sub%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_Milwaukee_Arena_Lot%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_Milwaukee_Old_World%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_Milwaukee_Wells_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_PF_Fort_Lauderdale_2013%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_PF_Memphis_Court_2013%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_PF_Memphis_Poplar_2013%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_Preferred_Parking%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_RAIDER_PARK_GARAGE%2C_LLC> <http://example.org/isInstanceOf/> "SUBSIDIARY",
-        "SUBSIDIARY GUARANTORS:" .
-
-<MVP_REAL_ESTATE_HOLDINGS%2C_LLC> <http://example.org/isInstanceOf/> "GUARANTORS",
-        "SUBSIDIARY GUARANTORS:" .
-
-<MVP_REIT_II_OPERATING_PARTNERSHIP%2C_LP> <http://example.org/isInstanceOf/> "Borrower",
-        "\\nBORROWER" .
-
-<MVP_REIT_II_Operating_Partnership%2C_LP> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_Raider_Park_Garage%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_Real_Estate_Holdings%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_San_Jose_88_Garage%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_St._Louis_Cerre%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_St._Louis_Lucas%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_St._Louis_Washington%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_St._Paul_Holiday_Garage%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<MVP_Wildwood_NJ_Lot%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<Mabley_Place_Garage%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<Mabley_Place_Garage_II%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<Minneapolis_City_Parking%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<Minneapolis_Venture_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<St._Louis_Broadway_Group%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<St._Louis_Seventh_%26_Cerre%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<THE_PARKING_REIT%2C_INC> <http://example.org/isInstanceOf/> "PARENT GUARANTOR",
-        "REIT" .
-
-<West_9th_Street_Properties_II%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<White_Front_Garage_Partners%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
 <http://example.org/org_name/%5CnChapman_Properties%2C_LLC> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Subsidiary .
 
@@ -1497,7 +1356,8 @@ org_name:Cleveland_Lincoln_Garage%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Subsidiary .
 
 org_name:KEYBANC_CAPITAL_MARKETS a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Arranger .
+    <http://example.org/isInstanceOf/> org_role:Arranger,
+        org_sub_role:Lead .
 
 org_name:MVP_Acquisitions%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Subsidiary .
@@ -1646,11 +1506,6 @@ org_name:White_Front_Garage_Partners%2C_LLC a base:Organization ;
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
 
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
-
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
 
@@ -1728,10 +1583,6 @@ org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
         org_role:Lender .
 
 org_sub_role:LEAD rdfs:subClassOf org_role:ARRANGER .
-
-org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Lender rdfs:subClassOf org_role:Issuing_Bank .
 
@@ -1862,7 +1713,8 @@ loc:Three_Center_Plaza%5CnBoston%2C_Massachusetts%C2%A0_02108 a base:Location ;
     rel:isLocationOf org_name:Riemer_%26_Braunstein_LLP .
 
 org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative ;
     rel:hasEmployee person_name:Christopher_T._Neil .
 
 org_name:MVP_ACQUISITIONS%2C_LLC a base:Organization ;
@@ -1876,6 +1728,10 @@ org_name:MVP_REIT_II_OPERATING_PARTNERSHIP%2C_LP a base:Organization ;
 
 org_name:Riemer_%26_Braunstein_LLP a base:Organization ;
     rel:hasLocationAt loc:Three_Center_Plaza%5CnBoston%2C_Massachusetts%C2%A0_02108 .
+
+org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
 
 person_name:Christopher_T._Neil a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Vice_President ;
@@ -1900,12 +1756,14 @@ person_name:Mr._Christopher_Neil a base:Person ;
     <http://example.org/isInstanceOf/> org_name:KeyBank_National_Association ;
     rel:isEmployedBy org_name:KeyBank_National_Association .
 
-"Arranger" <http://example.org/isInstanceOf/> "Lead" .
-
-"Agent" <http://example.org/isInstanceOf/> "Administrative" .
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
 
 org_name:KeyBank_National_Association a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative ;
     rel:hasEmployee person_name:Mr._Christopher_Neil ;
     rel:hasLocationAt loc:225_Franklin_Street%2C_16th_Floor%5CnBoston%2C_MA_02110,
         loc:225_Franklin_Street%2C_18th_floor%5CnBoston%2C_Massachusetts_02110 .

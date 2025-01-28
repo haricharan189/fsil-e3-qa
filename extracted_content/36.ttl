@@ -1304,24 +1304,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnSILICON_GRAPHICS_INTERNATIONAL_CORP> <http://example.org/isInstanceOf/> "Borrower" .
-
-<MORGAN_STANLEY_SENIOR_FUNDING%2C_INC.> <http://example.org/isInstanceOf/> " Agent",
-        "AGENT",
-        "Administrative",
-        "Agent",
-        "Arranger ",
-        "Bookrunner",
-        "Collateral",
-        "Lead ",
-        "Lender" .
-
-<SILICON_GRAPHICS_FEDERAL%2C_LLC> <http://example.org/isInstanceOf/> "GRANTORS" .
-
-<SILICON_GRAPHICS_INTERNATIONAL_CORP> <http://example.org/isInstanceOf/> "Borrower" .
-
-<SILICON_GRAPHICS_INTERNATIONAL_CORP.> <http://example.org/isInstanceOf/> "GRANTORS" .
-
 org_name:SILICON_GRAPHICS_FEDERAL%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:GRANTORS .
 
@@ -1340,11 +1322,6 @@ org_name:SILICON_GRAPHICS_INTERNATIONAL_CORP a base:Organization ;
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
 
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
-
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
 
@@ -1359,10 +1336,6 @@ org_sub_role:Co-Syndication rdfs:subClassOf org_role:Agent,
         org_role:Agents .
 
 org_sub_role:Collatera rdfs:subClassOf org_role:Agent .
-
-org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
-        org_role:Agent%5Cn,
-        org_role:Trustee .
 
 org_sub_role:DOCUMENTATION rdfs:subClassOf org_role:AGENTS .
 
@@ -1422,10 +1395,6 @@ org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
         org_role:Lender .
 
 org_sub_role:LEAD rdfs:subClassOf org_role:ARRANGER .
-
-org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Lender rdfs:subClassOf org_role:Issuing_Bank .
 
@@ -1534,8 +1503,24 @@ org_sub_role:syndication rdfs:subClassOf org_role:agent .
         org_role:Agent,
         org_role:Arranger,
         org_role:Bookrunner,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Collateral,
+        org_sub_role:Lead ;
     rel:hasEmployee person_name:Reagan_Philipp .
+
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
+
+org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
+        org_role:Agent%5Cn,
+        org_role:Trustee .
+
+org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
 
 person_name:Reagan_Philipp a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
@@ -1544,10 +1529,4 @@ person_name:Reagan_Philipp a base:Person ;
 person_name:Robert_J._Nikl a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
     rel:isEmployedBy <http://example.org/org_name/%5CnSILICON_GRAPHICS_INTERNATIONAL_CORP> .
-
-" Agent" <http://example.org/isInstanceOf/> "Administrative" .
-
-"Agent" <http://example.org/isInstanceOf/> "Collateral" .
-
-"Arranger " <http://example.org/isInstanceOf/> "Lead " .
 

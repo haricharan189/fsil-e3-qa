@@ -1305,17 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<CIBC_BANK_USA> <http://example.org/isInstanceOf/> "Administrative",
-        "Administrative Agent",
-        "Agent",
-        "Agent,",
-        "Arranger",
-        "Issuing",
-        "Issuing ",
-        "Lender" .
-
-<MORGAN_STANLEY_DIRECT_LENDING_FUND> <http://example.org/isInstanceOf/> "THE COMPANY" .
-
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
 <http://example.org/org_sub_role/%5CnCo-Documentation> rdfs:subClassOf org_role:Agent .
@@ -1324,11 +1313,6 @@ person_position:Vice_President_of_Tax a rdfs:Class ;
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1372,9 +1356,6 @@ org_sub_role:Initial rdfs:subClassOf org_role:Borrower,
 org_sub_role:Intercreditor rdfs:subClassOf org_role:Agent .
 
 org_sub_role:Intermediate rdfs:subClassOf org_role:Holdings .
-
-org_sub_role:Issuing rdfs:subClassOf org_role:Bank,
-        org_role:Lender .
 
 org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
         org_role:BOOK_RUNNERS,
@@ -1522,6 +1503,14 @@ org_name:MORGAN_STANLEY_DIRECT_LENDING_FUND a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:THE_COMPANY ;
     rel:hasEmployee person_name:Venugopal_Rathi .
 
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
+
+org_sub_role:Issuing rdfs:subClassOf org_role:Bank,
+        org_role:Lender .
+
 person_name:Erica_Knight a base:Person ;
     <http://example.org/isInstanceOf/> org_name:CIBC_BANK_USA ;
     rel:isEmployedBy org_name:CIBC_BANK_USA .
@@ -1546,13 +1535,6 @@ person_name:Venugopal_Rathi a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
     rel:isEmployedBy org_name:MORGAN_STANLEY_DIRECT_LENDING_FUND .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative" .
-
-"Agent," <http://example.org/isInstanceOf/> "Administrative" .
-
-"Lender" <http://example.org/isInstanceOf/> "Issuing",
-        "Issuing " .
-
 org_name:Morgan_Stanley_Direct_Lending_Fund a base:Organization ;
     rel:hasEmployee person_name:Orit_Mizrachi,
         person_name:Venu_Rathi .
@@ -1562,7 +1544,9 @@ org_name:CIBC_BANK_USA a base:Organization ;
         org_role:Agent,
         org_role:Agent%2C,
         org_role:Arranger,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Issuing ;
     rel:hasEmployee person_name:Erica_Knight,
         person_name:Nicholas_Jordan,
         person_name:Nick_Jordan ;

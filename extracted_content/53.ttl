@@ -1304,17 +1304,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<CADENCE_BANK> <http://example.org/isInstanceOf/> "ADMINISTRATIVE",
-        "AGENT",
-        "L/C Issuer",
-        "Lender" .
-
-<JAMBA%2C_INC.> <http://example.org/isInstanceOf/> "HOLDINGS" .
-
-<JAMBA_JUICE_ADVERTISING_FUND_INC.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<JAMBA_JUICE_COMPANY> <http://example.org/isInstanceOf/> "BORROWER" .
-
 <http://example.org/org_name/JAMBA%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:HOLDINGS .
 
@@ -1326,9 +1315,6 @@ org_name:JAMBA_JUICE_COMPANY a base:Organization ;
 <http://example.org/org_sub_role/%5CnCo-Documentation> rdfs:subClassOf org_role:Agent .
 
 <http://example.org/org_sub_role/%5CnJoint_Lead> rdfs:subClassOf org_role:Arranger .
-
-org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
-        org_role:BORROWER .
 
 org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
         org_role:Agent%2C,
@@ -1518,12 +1504,16 @@ org_sub_role:syndication rdfs:subClassOf org_role:agent .
 org_name:CADENCE_BANK a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:AGENT,
         <http://example.org/org_role/L/C_Issuer>,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:ADMINISTRATIVE ;
     rel:hasEmployee person_name:Charles_M._Joye_III .
 
 <http://example.org/org_name/JAMBA_JUICE_ADVERTISING_FUND_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:GUARANTORS ;
     rel:hasEmployee person_name:Marie_Perry .
+
+org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
+        org_role:BORROWER .
 
 person_name:Charles_M._Joye_III a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
@@ -1536,6 +1526,4 @@ person_name:Marie_Perry a base:Person ;
         person_position:Secretary,
         person_position:Treasurer ;
     rel:isEmployedBy <http://example.org/org_name/JAMBA_JUICE_ADVERTISING_FUND_INC.> .
-
-"AGENT" <http://example.org/isInstanceOf/> "ADMINISTRATIVE" .
 

@@ -1305,27 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnHSBC_BANK_USA%2C_N.A.%2C> <http://example.org/isInstanceOf/> "Lender" .
-
-<%5CnINTESA_SANPAOLO_S.P.A.%2C_NEW_YORK_BRANCH%2C> <http://example.org/isInstanceOf/> "Lender" .
-
-<%5CnWALGREENS_BOOTS_ALLIANCE%2C_INC.> <http://example.org/isInstanceOf/> "Borrower" .
-
-<BANK_OF_AMERICA%2C_N.A.%2C> <http://example.org/isInstanceOf/> "Lender" .
-
-<JPMORGAN_CHASE_BANK%2C_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
-<MIZUHO_BANK%2C_LTD.%2C> <http://example.org/isInstanceOf/> "Administrative Agent",
-        "Lender" .
-
-<MUFG_BANK%2C_LTD.%2C> <http://example.org/isInstanceOf/> "Lender" .
-
-<NATIONAL_WESTMINSTER_BANK_PLC> <http://example.org/isInstanceOf/> "Lender" .
-
-<U.S._BANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender" .
-
-<UNICREDIT_BANK_AG%2C_NEW_YORK_BRANCH%2C> <http://example.org/isInstanceOf/> "Lender" .
-
 <http://example.org/org_name/%5CnHSBC_BANK_USA%2C_N.A.%2C> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender .
 

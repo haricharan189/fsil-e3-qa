@@ -1305,80 +1305,40 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<FIFTH_THIRD_BANK> <http://example.org/isInstanceOf/> " Joint Lead",
-        "Arrangers",
-        "Bookrunners",
-        "Joint",
-        "Lender" .
-
-<JEFFERIES_FINANCE_LLC> <http://example.org/isInstanceOf/> " Joint Lead",
-        "Administrative",
-        "Agent",
-        "Arrangers",
-        "Bookrunners",
-        "Collatera",
-        "Joint",
-        "Lender" .
-
-<NATIXIS%2C_NEW_YORK_BRANCH> <http://example.org/isInstanceOf/> "Agent",
-        "Lender",
-        "Senior Managing" .
-
-<PNC_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Bank",
-        "Issuing",
-        "Lender",
-        "Swingline" .
-
-<PNC_CAPITAL_MARKETS_LLC> <http://example.org/isInstanceOf/> " Joint Lead",
-        "Arrangers",
-        "Bookrunners",
-        "Joint" .
-
-<RBS_CITIZENS%2C_N.A.> <http://example.org/isInstanceOf/> "Agent",
-        "Lender",
-        "Senior Managing" .
-
-<SALIX_PHARMACEUTICALS%2C_LTD> <http://example.org/isInstanceOf/> "Borrower" .
-
-<SALIX_PHARMACEUTICALS%2C_LTD.> <http://example.org/isInstanceOf/> "Borrower" .
-
-<SUMITOMO_MITSUI_BANKING%5Cn%5CnCORPORATION> <http://example.org/isInstanceOf/> "Lender" .
-
-<SUMITOMO_MITSUI_BANKING_CORPORATION> <http://example.org/isInstanceOf/> " Joint Lead",
-        "Arrangers",
-        "Bookrunners",
-        "Joint" .
-
-<SUNTRUST_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<SUNTRUST_ROBINSON_HUMPHREY%2C_INC.> <http://example.org/isInstanceOf/> " Joint Lead",
-        "Arrangers",
-        "Bookrunners",
-        "Joint" .
-
 org_name:FIFTH_THIRD_BANK a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
         org_role:Bookrunners,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead,
+        org_sub_role:Swingline .
 
 org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Bank,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:Issuing,
+        org_sub_role:Swingline .
 
 org_name:PNC_CAPITAL_MARKETS_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 org_name:SALIX_PHARMACEUTICALS%2C_LTD a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower .
 
 org_name:SUMITOMO_MITSUI_BANKING_CORPORATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 <http://example.org/org_name/SUNTRUST_ROBINSON_HUMPHREY%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1388,11 +1348,6 @@ org_name:SUMITOMO_MITSUI_BANKING_CORPORATION a base:Organization ;
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1406,8 +1361,6 @@ org_sub_role:Co-Documentation rdfs:subClassOf org_role:Agent,
 
 org_sub_role:Co-Syndication rdfs:subClassOf org_role:Agent,
         org_role:Agents .
-
-org_sub_role:Collatera rdfs:subClassOf org_role:Agent .
 
 org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
         org_role:Agent%5Cn,
@@ -1437,9 +1390,6 @@ org_sub_role:Intercreditor rdfs:subClassOf org_role:Agent .
 
 org_sub_role:Intermediate rdfs:subClassOf org_role:Holdings .
 
-org_sub_role:Issuing rdfs:subClassOf org_role:Bank,
-        org_role:Lender .
-
 org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
         org_role:BOOK_RUNNERS,
         org_role:LEAD_ARRANGER,
@@ -1447,21 +1397,8 @@ org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
 
 org_sub_role:JOINT_LEAD rdfs:subClassOf org_role:ARRANGERS .
 
-org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
-        org_role:Book_Runner,
-        org_role:Book_Runners,
-        org_role:Bookrunner,
-        org_role:Bookrunners,
-        org_role:Bookrunners%5Cn,
-        org_role:Lead_Arranger,
-        org_role:Lead_Arrangers .
-
 org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
         org_role:Runner .
-
-org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
 
@@ -1500,8 +1437,6 @@ org_sub_role:SUBSIDIARIES rdfs:subClassOf org_role:Guarantors .
 
 org_sub_role:SYNDICATION rdfs:subClassOf org_role:AGENT .
 
-org_sub_role:Senior_Managing rdfs:subClassOf org_role:Agent .
-
 org_sub_role:Servicing rdfs:subClassOf org_role:Agent .
 
 org_sub_role:Sole rdfs:subClassOf org_role:Bookrunner .
@@ -1524,8 +1459,6 @@ org_sub_role:Swing_Line_Lender rdfs:subClassOf org_role:LENDER,
         org_role:LENDERS%3A .
 
 org_sub_role:Swing_line rdfs:subClassOf org_role:Lender .
-
-org_sub_role:Swingline rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
         org_role:Agent%2C,
@@ -1586,19 +1519,30 @@ org_name:JEFFERIES_FINANCE_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
         org_role:Arrangers,
         org_role:Bookrunners,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Collatera,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead,
+        org_sub_role:Senior_Managing,
+        org_sub_role:Swingline ;
     rel:hasEmployee person_name:E._Joseph_Hess .
 
 org_name:SUMITOMO_MITSUI_BANKING%5Cn%5CnCORPORATION a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swingline ;
     rel:hasEmployee person_name:Katsuyuki_Kubo .
 
 org_name:SUNTRUST_BANK a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swingline ;
     rel:hasEmployee person_name:Ben_Cumming .
 
 <http://example.org/org_name/Salix_Pharmaceuticals%2C_Ltd.> a base:Organization ;
     rel:hasLocationAt loc:520_Madison_Avenue%2C_New_York%2C_NY_10022 .
+
+org_sub_role:Issuing rdfs:subClassOf org_role:Bank,
+        org_role:Lender .
 
 person_name:Adam_C._Derbyshire a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Assistant_Secretary,
@@ -1639,11 +1583,13 @@ person_name:William_D._Priester a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
     rel:isEmployedBy <http://example.org/org_name/RBS_CITIZENS%2C_N.A.> .
 
-"Bank" <http://example.org/isInstanceOf/> "Issuing" .
-
 org_name:NATIXIS%2C_NEW_YORK_BRANCH a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Collatera,
+        org_sub_role:Senior_Managing,
+        org_sub_role:Swingline ;
     rel:hasEmployee person_name:Edward_T._Crook,
         person_name:J._St%C3%A9phane_Lautner .
 
@@ -1654,18 +1600,36 @@ org_name:NATIXIS%2C_NEW_YORK_BRANCH a base:Organization ;
 
 <http://example.org/org_name/RBS_CITIZENS%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Collatera,
+        org_sub_role:Senior_Managing,
+        org_sub_role:Swingline ;
     rel:hasEmployee person_name:Cheryl_Carangelo,
         person_name:Richard_C._Brown,
         person_name:William_D._Priester .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative",
-        "Collatera",
-        "Senior Managing" .
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
 
-"Arrangers" <http://example.org/isInstanceOf/> " Joint Lead" .
+org_sub_role:Collatera rdfs:subClassOf org_role:Agent .
 
-"Bookrunners" <http://example.org/isInstanceOf/> "Joint" .
+org_sub_role:Senior_Managing rdfs:subClassOf org_role:Agent .
 
-"Lender" <http://example.org/isInstanceOf/> "Swingline" .
+org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
+        org_role:Book_Runner,
+        org_role:Book_Runners,
+        org_role:Bookrunner,
+        org_role:Bookrunners,
+        org_role:Bookrunners%5Cn,
+        org_role:Lead_Arranger,
+        org_role:Lead_Arrangers .
+
+org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
+
+org_sub_role:Swingline rdfs:subClassOf org_role:Lender .
 

@@ -1305,27 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnMVC_GP_II%2C_LLC> <http://example.org/isInstanceOf/> "	\\nGUARANTORS:" .
-
-<%5CnMVC_PARTNERS_LLC> <http://example.org/isInstanceOf/> "	\\nGUARANTORS:" .
-
-<%5CnSANTANDER_BANK%2C_N.A.%2C> <http://example.org/isInstanceOf/> "Agent",
-        "Lender" .
-
-<%5CnWintrust_Bank%2C> <http://example.org/isInstanceOf/> "Lender" .
-
-<Goldberg_Kohn_LTD.> <http://example.org/isInstanceOf/> "counsel" .
-
-<Locke_Lord_LLP> <http://example.org/isInstanceOf/> "legal counsel" .
-
-<MVC_CAPITAL%2C%C2%A0INC.> <http://example.org/isInstanceOf/> "BORROWER:" .
-
-<MVC_CAYMAN> <http://example.org/isInstanceOf/> "	\\nGUARANTORS:" .
-
-<MVC_FINANCIAL_SERVICES%2C%C2%A0INC.> <http://example.org/isInstanceOf/> "	\\nGUARANTORS:" .
-
-<Otterbourg_P.C.> <http://example.org/isInstanceOf/> "counsel" .
-
 <http://example.org/org_name/%5CnMVC_PARTNERS_LLC> a base:Organization ;
     <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnGUARANTORS%3A> .
 

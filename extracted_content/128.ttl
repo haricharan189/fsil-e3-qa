@@ -1305,26 +1305,13 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<Bank_of_America%2C_N.A.> <http://example.org/isInstanceOf/> "Agent",
-        "Syndication" .
-
-<BofA_Securities%2C_Inc.> <http://example.org/isInstanceOf/> "arranger",
-        "bookrunners",
-        "joint ",
-        "joint lead" .
-
-<JPMorgan_Chase_Bank%2C_N.A.> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent",
-        "arranger",
-        "bookrunners",
-        "joint ",
-        "joint lead" .
-
 org_name:BANK_OF_THE_WEST a base:Organization .
 
 <http://example.org/org_name/BofA_Securities%2C_Inc.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arranger,
-        org_role:bookrunners .
+        org_role:bookrunners,
+        org_sub_role:joint,
+        org_sub_role:joint_lead .
 
 org_name:Silicon_Valley_Bank a base:Organization .
 
@@ -1338,11 +1325,6 @@ org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization .
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1477,10 +1459,6 @@ org_sub_role:Swing_line rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Swingline rdfs:subClassOf org_role:Lender .
 
-org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents .
-
 org_sub_role:Term rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Term_Administrative rdfs:subClassOf org_role:Agent .
@@ -1505,11 +1483,6 @@ org_sub_role:collateral rdfs:subClassOf org_role:agent,
 org_sub_role:documentation rdfs:subClassOf org_role:agent,
         org_role:agents .
 
-org_sub_role:joint rdfs:subClassOf org_role:bookrunner,
-        org_role:bookrunners .
-
-org_sub_role:joint_lead rdfs:subClassOf org_role:arranger .
-
 org_sub_role:lead rdfs:subClassOf org_role:arranger,
         org_role:arrangers .
 
@@ -1533,7 +1506,9 @@ loc:JPMorgan_Loan_Services%2C_500_Stanton_Christiana_Road%2C_NCC5%2C_Floor_1%2C_
     rel:isLocationOf <http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> .
 
 <http://example.org/org_name/Bank_of_America%2C_N.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative,
+        org_sub_role:Syndication ;
     rel:hasEmployee person_name:Timothy_G._Holsapple .
 
 <http://example.org/org_name/F5_NETWORKS%2C_INC.> a base:Organization ;
@@ -1545,7 +1520,11 @@ loc:JPMorgan_Loan_Services%2C_500_Stanton_Christiana_Road%2C_NCC5%2C_Floor_1%2C_
 <http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
         org_role:arranger,
-        org_role:bookrunners ;
+        org_role:bookrunners,
+        org_sub_role:Administrative,
+        org_sub_role:Syndication,
+        org_sub_role:joint,
+        org_sub_role:joint_lead ;
     rel:hasLocationAt loc:JPMorgan_Loan_Services%2C_500_Stanton_Christiana_Road%2C_NCC5%2C_Floor_1%2C_Newark%2C_DE_19713 .
 
 org_name:Royal_Bank_of_Canada a base:Organization ;
@@ -1588,12 +1567,19 @@ person_name:Timothy_G._Holsapple a base:Person ;
     rel:hasEmployee person_name:Derek_Jensen,
         person_name:Ryan_Zimmerman .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative",
-        "Syndication" .
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
 
-"arranger" <http://example.org/isInstanceOf/> "joint lead" .
+org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents .
 
-"bookrunners" <http://example.org/isInstanceOf/> "joint " .
+org_sub_role:joint rdfs:subClassOf org_role:bookrunner,
+        org_role:bookrunners .
+
+org_sub_role:joint_lead rdfs:subClassOf org_role:arranger .
 
 org_name:Barclays_Bank_PLC a base:Organization ;
     rel:hasEmployee person_name:Gill_Skala,

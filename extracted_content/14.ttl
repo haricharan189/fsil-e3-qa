@@ -1305,52 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<AG_ENERGY_FUNDING%2C_LLC> <http://example.org/isInstanceOf/> "LENDER" .
-
-<ANGELO%2C_GORDON_ENERGY_SERVICER%2C%5CnLLC%2C> <http://example.org/isInstanceOf/> "ADMINISTRATIVE AGENT" .
-
-<PACIFIC_DRILLING_S.A.%2C> <http://example.org/isInstanceOf/> "BORROWER" .
-
-<Pacific_Bora_Ltd.> <http://example.org/isInstanceOf/> "Subsidiary Guarantors" .
-
-<Pacific_Drilling%2C_Inc.> <http://example.org/isInstanceOf/> "Subsidiary Guarantors" .
-
-<Pacific_Drilling%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary Guarantors" .
-
-<Pacific_Drilling_%28Gibraltar%29_Limited> <http://example.org/isInstanceOf/> "Subsidiary Guarantors" .
-
-<Pacific_Drilling_Finance_S.%C3%A0_r.l.> <http://example.org/isInstanceOf/> "Subsidiary Guarantors" .
-
-<Pacific_Drilling_Holding_%28Gibraltar%29_Limited> <http://example.org/isInstanceOf/> "Subsidiary Guarantors" .
-
-<Pacific_Drilling_Limited> <http://example.org/isInstanceOf/> "Subsidiary Guarantors" .
-
-<Pacific_Drilling_Operations%2C_Inc.%5Cn%5Cn> <http://example.org/isInstanceOf/> "Subsidiary Guarantors" .
-
-<Pacific_Drilling_Operations_Limited> <http://example.org/isInstanceOf/> "Subsidiary Guarantors" .
-
-<Pacific_Drilling_VII_Limited> <http://example.org/isInstanceOf/> "Subsidiary Guarantors" .
-
-<Pacific_Drilling_V_Limited> <http://example.org/isInstanceOf/> "Subsidiary Guarantors" .
-
-<Pacific_Drillship_%28Gibraltar%29_Limited> <http://example.org/isInstanceOf/> "Subsidiary Guarantors" .
-
-<Pacific_Drillship_Nigeria_Limited> <http://example.org/isInstanceOf/> "Subsidiary Guarantors" .
-
-<Pacific_Drillship_S.%C3%A0_r.l.> <http://example.org/isInstanceOf/> "Subsidiary Guarantors" .
-
-<Pacific_Mistral_Ltd.> <http://example.org/isInstanceOf/> "Subsidiary Guarantors" .
-
-<Pacific_Santa_Ana_%28Gibraltar%29_Limited> <http://example.org/isInstanceOf/> "Subsidiary Guarantors" .
-
-<Pacific_Santa_Ana_Limited> <http://example.org/isInstanceOf/> "Subsidiary Guarantors" .
-
-<Pacific_Scirocco_Ltd.> <http://example.org/isInstanceOf/> "Subsidiary Guarantors" .
-
-<Pacific_Sharav_Korl%C3%A1tolt_Felel%C3%B6ss%C3%A9g%C5%A9_T%C3%A1rsas%C3%A1g> <http://example.org/isInstanceOf/> "Subsidiary Guarantors" .
-
-<Pacific_Sharav_S.%C3%A0_r.l.%5Cn%5Cn> <http://example.org/isInstanceOf/> "Subsidiary Guarantors" .
-
 loc:245_Park_Avenue%5Cn%5CnNew_York%2C_New_York_10167 a base:Location .
 
 org_name:ANGELO%2C_GORDON_ENERGY_SERVICER%2C%5CnLLC%2C a base:Organization ;

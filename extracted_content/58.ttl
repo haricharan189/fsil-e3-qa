@@ -1304,31 +1304,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<COHERUS_BIOSCIENCES%2C_INC.> <http://example.org/isInstanceOf/> "BORROWER" .
-
-<COHERUS_INTERMEDIATE_CORP.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<HCRP_OVERFLOW_FUND%2C_L.P.> <http://example.org/isInstanceOf/> "LENDERS" .
-
-<HCR_COLLATERAL_MANAGEMENT%2C_LLC> <http://example.org/isInstanceOf/> "ADMINISTRATIVE",
-        "AGENT" .
-
-<HCR_MOLAG_FUND%2C_L.P.> <http://example.org/isInstanceOf/> "LENDERS" .
-
-<HEALTHCARE_ROYALTY_PARTNERS_III%2C_L.P.> <http://example.org/isInstanceOf/> "LENDERS" .
-
-<HealthCare_Royalty_Partners_III%2C_L.P.> <http://example.org/isInstanceOf/> "investor" .
-
-<INTEKRIN_THERAPEUTICS_INC.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<KMG_Capital_Partners> <http://example.org/isInstanceOf/> "investor" .
-
-<LLC_and_KKR_Biosimilar_L.P.> <http://example.org/isInstanceOf/> "investor" .
-
-<Latham%C2%A0%26_Watkins_LLP> <http://example.org/isInstanceOf/> "Counsel" .
-
-<MX_II_Associates_LLC> <http://example.org/isInstanceOf/> "investor" .
-
 <http://example.org/org_name/COHERUS_BIOSCIENCES%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:BORROWER .
 
@@ -1364,9 +1339,6 @@ org_name:MX_II_Associates_LLC a base:Organization ;
 <http://example.org/org_sub_role/%5CnCo-Documentation> rdfs:subClassOf org_role:Agent .
 
 <http://example.org/org_sub_role/%5CnJoint_Lead> rdfs:subClassOf org_role:Arranger .
-
-org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
-        org_role:BORROWER .
 
 org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
         org_role:Agent%2C,
@@ -1554,8 +1526,12 @@ org_sub_role:sole rdfs:subClassOf org_role:General_Partner,
 org_sub_role:syndication rdfs:subClassOf org_role:agent .
 
 org_name:HCR_COLLATERAL_MANAGEMENT%2C_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:AGENT ;
+    <http://example.org/isInstanceOf/> org_role:AGENT,
+        org_sub_role:ADMINISTRATIVE ;
     rel:hasEmployee person_name:Clarke_B._Futch .
+
+org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
+        org_role:BORROWER .
 
 person_name:Clarke_B._Futch a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Managing_Partner ;
@@ -1569,8 +1545,6 @@ person_name:Dennis_M._Lanfear a base:Person ;
 person_name:Michael_Fleming a base:Person ;
     <http://example.org/isInstanceOf/> person_position:President ;
     rel:isEmployedBy <http://example.org/org_name/COHERUS_INTERMEDIATE_CORP.> .
-
-"AGENT" <http://example.org/isInstanceOf/> "ADMINISTRATIVE" .
 
 <http://example.org/org_name/COHERUS_INTERMEDIATE_CORP.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:GUARANTORS ;

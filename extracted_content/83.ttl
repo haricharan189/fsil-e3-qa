@@ -1305,172 +1305,97 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnBNP_PARIBAS> <http://example.org/isInstanceOf/> "Lender" .
-
-<%5CnHUA_NAN_COMMERCIAL_BANK%2C_LTD> <http://example.org/isInstanceOf/> "Lender" .
-
-<%5CnJPMORGAN_CHASE_BANK> <http://example.org/isInstanceOf/> "Administrative Agent" .
-
-<%5CnTAIPEI_FUBON_COMMERCIAL_BANK_CO.%2C_LTD> <http://example.org/isInstanceOf/> "Lender" .
-
-<AMERICAN_SAVINGS_BANK%2C_F.S.B.> <http://example.org/isInstanceOf/> "Lender" .
-
-<BANCO_DE_CREDITO_E_INVERSIONES> <http://example.org/isInstanceOf/> "Lender" .
-
-<BANK_OF_AMERICA> <http://example.org/isInstanceOf/> "Lender" .
-
-<BANK_OF_CHINA> <http://example.org/isInstanceOf/> "Lender" .
-
-<BANK_OF_TAIWAN> <http://example.org/isInstanceOf/> "Lender" .
-
-<BANK_OF_THE_WEST> <http://example.org/isInstanceOf/> "Lender" .
-
-<BANNER_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<BRANCH_BANKING_AND_TRUST_COMPANY> <http://example.org/isInstanceOf/> "Lender" .
-
-<CHANG_HWA_COMMERCIAL_BANK%2C_LTD> <http://example.org/isInstanceOf/> "Lender" .
-
-<CITIBAN> <http://example.org/isInstanceOf/> "Lender" .
-
-<COMERICA_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<COMPASS_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<CTBC_BANK_CO.%2C_LTD> <http://example.org/isInstanceOf/> "Lender" .
-
-<DBS_BANK_LTD> <http://example.org/isInstanceOf/> "Lender" .
-
-<FIFTH_THIRD_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<FIRST_HAWAIIAN_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<HSBC_BANK_PLC> <http://example.org/isInstanceOf/> "Lender" .
-
-<HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender" .
-
-<HUA_NAN_COMMERCIAL_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<JPMorgan_Chase_Bank%2C_N.A.> <http://example.org/isInstanceOf/> "Administrative Agent",
-        "L/C Issuer",
-        "Lender",
-        "Swing Line" .
-
-<KEYBANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender" .
-
-<LAND_BANK_OF_TAIWAN%5CnLOS_ANGELES_BRANCH> <http://example.org/isInstanceOf/> "Lender" .
-
-<MANUFACTURERS_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<MEGA_INTERNATIONAL_COMMERCIAL_BANK_CO.%2C_LTD._LOS_ANGELES_BRANCH> <http://example.org/isInstanceOf/> "Lender" .
-
-<MIZUHO_BANK%2C_LTD> <http://example.org/isInstanceOf/> "Lender" .
-
-<PNC_BANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender" .
-
-<ROYAL_BANK_OF_CANADA> <http://example.org/isInstanceOf/> "Lender" .
-
-<SABADELL_UNITED_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<STANDARD_CHARTERED_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<SUMITOMO_MITSUI_BANKING_CORP> <http://example.org/isInstanceOf/> "Lender" .
-
-<SUNTRUST_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<TAIWAN_COOPERATIVE_BANK%2C_LTD> <http://example.org/isInstanceOf/> "Lender" .
-
-<TD_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<THE%C2%A0BANK%C2%A0OF%C2%A0TOKYO-MITSUBISHI%C2%A0UFJ%2C%C2%A0LTD> <http://example.org/isInstanceOf/> "Lender" .
-
-<THE_BANK_OF_EAST_ASIA%2C_LTD> <http://example.org/isInstanceOf/> "Lender" .
-
-<THE_BANK_OF_NOVA_SCOTIA> <http://example.org/isInstanceOf/> "Lender" .
-
-<THE_NORTHERN_TRUST_COMPANY> <http://example.org/isInstanceOf/> "Lender" .
-
-<U.S._BANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender" .
-
-<WELLS_FARGO_BANK%2C%5CnNATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender" .
-
-<WESTERN_DIGITAL_CORPORATION> <http://example.org/isInstanceOf/> "Guarantor",
-        "Holdings" .
-
-<WESTERN_DIGITAL_IRELAND%2C_LTD> <http://example.org/isInstanceOf/> "Cayman Borrower" .
-
-<WESTERN_DIGITAL_TECHNOLOGIES%2C_INC> <http://example.org/isInstanceOf/> " US Borrower",
-        "Cayman Borrower:",
-        "US Borrower" .
-
 <http://example.org/org_name/AMERICAN_SAVINGS_BANK%2C_F.S.B.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:BANK_OF_AMERICA a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:BANNER_BANK a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:BRANCH_BANKING_AND_TRUST_COMPANY a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:CHANG_HWA_COMMERCIAL_BANK%2C_LTD a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:CITIBAN a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:COMERICA_BANK a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:COMPASS_BANK a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:FIFTH_THIRD_BANK a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:FIRST_HAWAIIAN_BANK a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:HSBC_BANK_PLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:HUA_NAN_COMMERCIAL_BANK a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:MANUFACTURERS_BANK a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:MIZUHO_BANK%2C_LTD a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:SUNTRUST_BANK a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:TD_BANK a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:THE%C2%A0BANK%C2%A0OF%C2%A0TOKYO-MITSUBISHI%C2%A0UFJ%2C%C2%A0LTD a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:THE_BANK_OF_NOVA_SCOTIA a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:THE_NORTHERN_TRUST_COMPANY a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:WELLS_FARGO_BANK%2C%5CnNATIONAL_ASSOCIATION a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:WESTERN_DIGITAL_CORPORATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Guarantor,
@@ -1613,9 +1538,6 @@ org_sub_role:Sterling_Swing rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Subsidiary rdfs:subClassOf org_role:Borrower .
 
-org_sub_role:Swing_Line rdfs:subClassOf org_role:Bank,
-        org_role:Lender .
-
 org_sub_role:Swing_Line_Lender rdfs:subClassOf org_role:LENDER,
         org_role:LENDERS%3A .
 
@@ -1683,7 +1605,8 @@ loc:3355_Michelson_Drive%5Cn%5CnSuite_100%5Cn%5CnIrvine%2C_CA_92612 a base:Locat
     rel:isLocationOf org_name:WESTERN_DIGITAL_IRELAND%2C_LTD .
 
 <http://example.org/org_name/%5CnHUA_NAN_COMMERCIAL_BANK%2C_LTD> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line ;
     rel:hasEmployee person_name:Shu-Fei_%28Sophia%29_Lin .
 
 <http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK> a base:Organization ;
@@ -1691,43 +1614,53 @@ loc:3355_Michelson_Drive%5Cn%5CnSuite_100%5Cn%5CnIrvine%2C_CA_92612 a base:Locat
     rel:hasEmployee person_name:Keith_Winzenried .
 
 <http://example.org/org_name/%5CnTAIPEI_FUBON_COMMERCIAL_BANK_CO.%2C_LTD> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line ;
     rel:hasEmployee person_name:Robin_S._Wu .
 
 org_name:BANK_OF_CHINA a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line ;
     rel:hasEmployee person_name:Haiyong_Yang .
 
 org_name:BANK_OF_THE_WEST a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line ;
     rel:hasEmployee person_name:Cecile_Segovia .
 
 org_name:CTBC_BANK_CO.%2C_LTD a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line ;
     rel:hasEmployee person_name:Ralph_Wu .
 
 org_name:DBS_BANK_LTD a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line ;
     rel:hasEmployee person_name:James_McWalters .
 
 org_name:LAND_BANK_OF_TAIWAN%5CnLOS_ANGELES_BRANCH a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line ;
     rel:hasEmployee person_name:Henry_C._R._Leu .
 
 org_name:MEGA_INTERNATIONAL_COMMERCIAL_BANK_CO.%2C_LTD._LOS_ANGELES_BRANCH a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line ;
     rel:hasEmployee person_name:Hsiao-Ho_Huang .
 
 org_name:PNC_BANK_NATIONAL_ASSOCIATION a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line ;
     rel:hasEmployee person_name:Matthew_D._Meister .
 
 org_name:SABADELL_UNITED_BANK a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line ;
     rel:hasEmployee person_name:Maurici_Llad%C3%B3 .
 
 org_name:TAIWAN_COOPERATIVE_BANK%2C_LTD a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line ;
     rel:hasEmployee person_name:Li-Hua_Huang .
 
 person_name:Andrew_Hietala a base:Person ;
@@ -1939,27 +1872,32 @@ loc:1301_Second_Avenue%2C_Floor_25%5Cn%5CnSeattle%2C_WA_98101 a base:Location ;
         <http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> .
 
 org_name:BANCO_DE_CREDITO_E_INVERSIONES a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line ;
     rel:hasEmployee person_name:Ivan_Vera,
         person_name:Juan_Segundo .
 
 org_name:ROYAL_BANK_OF_CANADA a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line ;
     rel:hasEmployee person_name:Bertram_H._Tang,
         person_name:Sheldon_Pinto .
 
 org_name:STANDARD_CHARTERED_BANK a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line ;
     rel:hasEmployee person_name:Johanna_Minaya,
         person_name:Robert_K._Reddington .
 
 org_name:SUMITOMO_MITSUI_BANKING_CORP a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line ;
     rel:hasEmployee person_name:Shuji_Yabe,
         person_name:Suzanne_M._Rode .
 
 org_name:THE_BANK_OF_EAST_ASIA%2C_LTD a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line ;
     rel:hasEmployee person_name:Danny_Leung,
         person_name:James_Hua .
 
@@ -1970,7 +1908,8 @@ person_name:Teresita_Siao a base:Person ;
         <http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> .
 
 org_name:BANK_OF_TAIWAN a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line ;
     rel:hasEmployee person_name:Eric_Chen,
         person_name:Jane_Chang,
         person_name:Kang_Yang .
@@ -1984,7 +1923,8 @@ person_name:Keith_Winzenried a base:Person ;
         <http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> .
 
 <http://example.org/org_name/%5CnBNP_PARIBAS> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line ;
     rel:hasEmployee person_name:Eugene_Dempsey,
         person_name:Lacy_Houstoun,
         person_name:Michael_Miller,
@@ -2000,7 +1940,8 @@ org_name:JPMorgan_Chase_Bank%2C_N.A a base:Organization ;
 <http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
         <http://example.org/org_role/L/C_Issuer>,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:Swing_Line ;
     rel:hasEmployee person_name:Keith_Winzenried,
         person_name:Teresita_Siao ;
     rel:hasLocationAt loc:10_South_Dearborn_Street%2C_Floor_7%5Cn%5CnChicago%2C_IL_60603,
@@ -2036,5 +1977,6 @@ org_name:WESTERN_DIGITAL_IRELAND%2C_LTD a base:Organization ;
         person_name:Susan_Takeda ;
     rel:hasLocationAt loc:3355_Michelson_Drive%5Cn%5CnSuite_100%5Cn%5CnIrvine%2C_CA_92612 .
 
-"Lender" <http://example.org/isInstanceOf/> "Swing Line" .
+org_sub_role:Swing_Line rdfs:subClassOf org_role:Bank,
+        org_role:Lender .
 

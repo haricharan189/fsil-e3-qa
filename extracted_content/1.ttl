@@ -1303,21 +1303,10 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<BANK_OF_AMERICA%2C_N.A.> <http://example.org/isInstanceOf/> "Administrative Agent",
-        "Arranger",
-        "Bookrunner",
-        "Lender",
-        "Lenders" .
-
-<Bank_of_America%2C_N.A.> <http://example.org/isInstanceOf/> "arranger ",
-        "bookrunner",
-        "lead " .
-
-<FRANKLIN_RESOURCES%2C_INC.> <http://example.org/isInstanceOf/> "Borrower" .
-
 <http://example.org/org_name/Bank_of_America%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arranger,
-        org_role:bookrunner .
+        org_role:bookrunner,
+        org_sub_role:lead .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1499,9 +1488,6 @@ org_sub_role:joint rdfs:subClassOf org_role:bookrunner,
 
 org_sub_role:joint_lead rdfs:subClassOf org_role:arranger .
 
-org_sub_role:lead rdfs:subClassOf org_role:arranger,
-        org_role:arrangers .
-
 org_sub_role:managing rdfs:subClassOf org_role:agents .
 
 org_sub_role:ratings rdfs:subClassOf org_role:agency .
@@ -1525,6 +1511,9 @@ org_sub_role:syndication rdfs:subClassOf org_role:agent .
     <http://example.org/isInstanceOf/> org_role:Borrower ;
     rel:hasEmployee person_name:Mark_Constant .
 
+org_sub_role:lead rdfs:subClassOf org_role:arranger,
+        org_role:arrangers .
+
 person_name:Alexandra_M._Knights a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
     rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
@@ -1533,6 +1522,4 @@ person_name:Mark_Constant a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Treasurer,
         person_position:Vice_President ;
     rel:isEmployedBy <http://example.org/org_name/FRANKLIN_RESOURCES%2C_INC.> .
-
-"arranger " <http://example.org/isInstanceOf/> "lead " .
 

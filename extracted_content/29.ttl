@@ -1305,83 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<Advantage_Payroll_Services%2C_Inc.> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<Nixon_Peabody_LLP> <http://example.org/isInstanceOf/> "Borrower",
-        "Parent" .
-
-<Oasis_AHR_PL%2C_LLC> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<Oasis_Advisory_Services%2C_Inc.> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<Oasis_Employment_Services%2C_Inc.> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<Oasis_Outsourcing_Contract_III%2C_Inc.> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<Oasis_Outsourcing_TX%2C_Inc.> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<PAYCHEX%2C_INC> <http://example.org/isInstanceOf/> "Parent" .
-
-<PAYCHEX%2C_INC.> <http://example.org/isInstanceOf/> "Parent" .
-
-<PAYCHEX_ADVANCE_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<PBS_of_America%2C_LLC> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<PBS_of_Central_Florida%2C_LLC> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<PNC_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent",
-        "Issuing Bank",
-        "Lender" .
-
-<PNC_Bank%2C_National_Association> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent",
-        "administrative",
-        "agent" .
-
-<PayChex%2C_Inc.> <http://example.org/isInstanceOf/> "Borrower",
-        "Parent" .
-
-<Paychex%2C_Inc.> <http://example.org/isInstanceOf/> "Borrower",
-        "Parent" .
-
-<Paychex_Administrative_Services%2C_LLC> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<Paychex_Advance_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<Paychex_Business_Solutions%2C_LLC> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<Paychex_Holdings%2C_LLC> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<Paychex_Management_LLC> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<Paychex_North_America_Inc.> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<Paychex_PEO_I%2C_LLC> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<Paychex_PEO_II%2C_LLC> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<Paychex_PEO_III%2C_LLC> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<Paychex_PEO_IV%2C_LLC> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<Paychex_PEO_IX%2C_LLC> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<Paychex_PEO_V%2C_LLC> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<Paychex_PEO_VI%2C_LLC> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<Paychex_PEO_VII%2C_LLC> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<Paychex_PEO_VIII%2C_LLC> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<Paychex_PEO_X%2C_LLC> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<Paychex_of_New_York_LLC> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<WRI_II%2C_Inc.> <http://example.org/isInstanceOf/> "Guarantors" .
-
 loc:Italy a base:Location .
 
 <http://example.org/org_name/Advantage_Payroll_Services%2C_Inc.> a base:Organization ;
@@ -1394,12 +1317,14 @@ org_name:PAYCHEX%2C_INC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Parent .
 
 org_name:PAYCHEX_ADVANCE_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+    <http://example.org/isInstanceOf/> org_role:Borrower,
+        org_sub_role:Parent .
 
 org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
         org_role:Issuing_Bank,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:Administrative .
 
 org_name:Pagaveloce_S.R.L_%28IT%29 a base:Organization .
 
@@ -1411,11 +1336,6 @@ org_name:Pagaveloce_S.R.L_%28IT%29 a base:Organization .
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1503,9 +1423,6 @@ org_sub_role:Lender rdfs:subClassOf org_role:Issuing_Bank .
 
 org_sub_role:Loan_and_Agency_Services_Group rdfs:subClassOf org_role:Agent .
 
-org_sub_role:Parent rdfs:subClassOf org_role:Borrower,
-        org_role:Guarantor .
-
 org_sub_role:Rating rdfs:subClassOf org_role:Agency .
 
 org_sub_role:Revolving rdfs:subClassOf org_role:Lender .
@@ -1565,8 +1482,6 @@ org_sub_role:U.S._Swing rdfs:subClassOf org_role:Lender .
 org_sub_role:Yen_Swing rdfs:subClassOf org_role:Lender .
 
 org_sub_role:additional rdfs:subClassOf org_role:Credit_Party .
-
-org_sub_role:administrative rdfs:subClassOf org_role:agent .
 
 org_sub_role:co-documentation rdfs:subClassOf org_role:agents .
 
@@ -2047,7 +1962,8 @@ org_name:PSM_Financial_Services%2C_LLC a base:Organization ;
     rel:hasLocationAt loc:New_York .
 
 <http://example.org/org_name/PayChex%2C_Inc.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    <http://example.org/isInstanceOf/> org_role:Borrower,
+        org_sub_role:Parent ;
     rel:hasLocationAt loc:1175_John_Street%2C_Rochester%2C_New_York_14586 .
 
 org_name:Paychex_Administrative_Services%2C_LLC a base:Organization ;
@@ -2055,7 +1971,8 @@ org_name:Paychex_Administrative_Services%2C_LLC a base:Organization ;
     rel:hasLocationAt loc:Florida .
 
 org_name:Paychex_Advance_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    <http://example.org/isInstanceOf/> org_role:Borrower,
+        org_sub_role:Parent ;
     rel:hasLocationAt loc:New_York .
 
 <http://example.org/org_name/Paychex_Benefit_Technologies_Inc._d/b/a_Benetrac> a base:Organization ;
@@ -2209,6 +2126,8 @@ org_name:iSalaire_Eurl_%28FR%29 a base:Organization ;
 org_name:ilohngehalt_internetservices_GmbH a base:Organization ;
     rel:hasLocationAt loc:Germany .
 
+org_sub_role:administrative rdfs:subClassOf org_role:agent .
+
 person_name:Efrain_Rivera a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
     rel:isEmployedBy <http://example.org/org_name/Paychex%2C_Inc.> .
@@ -2220,8 +2139,6 @@ person_name:Frank_Hamblett a base:Person ;
 person_name:Lisa_Christian a base:Person ;
     <http://example.org/isInstanceOf/> org_name:PNC_Bank%2C_National_Association ;
     rel:isEmployedBy org_name:PNC_Bank%2C_National_Association .
-
-"agent" <http://example.org/isInstanceOf/> "administrative" .
 
 loc:Arizona a base:Location ;
     <http://example.org/isInstanceOf/> base:Location ;
@@ -2244,11 +2161,15 @@ loc:Ohio a base:Location ;
         <http://example.org/org_name/HR_Services_Inc._d/b/a_My_Staffing_Pro> .
 
 <http://example.org/org_name/Paychex%2C_Inc.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    <http://example.org/isInstanceOf/> org_role:Borrower,
+        org_sub_role:Parent ;
     rel:hasEmployee person_name:Efrain_Rivera ;
     rel:hasLocationAt loc:911_Panorama_Trail_South%2C_Rochester%2C_New_York_14625 .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative" .
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
 
 loc:Colorado a base:Location ;
     <http://example.org/isInstanceOf/> base:Location ;
@@ -2275,7 +2196,8 @@ loc:Oklahoma a base:Location ;
         org_name:Staff_One_of_Oklahoma%2C_LLC .
 
 org_name:Nixon_Peabody_LLP a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    <http://example.org/isInstanceOf/> org_role:Borrower,
+        org_sub_role:Parent ;
     rel:hasEmployee person_name:Frank_Hamblett ;
     rel:hasLocationAt loc:53_State_Street%2C_Boston%2C_Massachusetts_02109 .
 
@@ -2288,12 +2210,15 @@ loc:Indiana a base:Location ;
 
 org_name:PNC_Bank%2C_National_Association a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:agent ;
+        org_role:agent,
+        org_sub_role:Administrative,
+        org_sub_role:administrative ;
     rel:hasEmployee person_name:Lisa_Christian ;
     rel:hasLocationAt loc:6750_Miller_Road%2C_Brecksville%2C_Ohio_44141,
         loc:6750_Miller_Road%5Cn%5CnBrecksville%2C_Ohio_44141 .
 
-"Borrower" <http://example.org/isInstanceOf/> "Parent" .
+org_sub_role:Parent rdfs:subClassOf org_role:Borrower,
+        org_role:Guarantor .
 
 loc:Tennessee a base:Location ;
     <http://example.org/isInstanceOf/> base:Location ;

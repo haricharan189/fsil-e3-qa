@@ -1304,55 +1304,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5Cn%C2%A0%09ASHLAND_GLOBAL_HOLDINGS_INC.> <http://example.org/isInstanceOf/> "Holding Companies" .
-
-<ASHLAND_CHEMCO_INC.> <http://example.org/isInstanceOf/> "Holding Companies" .
-
-<ASHLAND_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<ASHLAND_SERVICES_B.V.> <http://example.org/isInstanceOf/> "Dutch Borrower" .
-
-<BANK_OF_AMERICA> <http://example.org/isInstanceOf/> "Lender" .
-
-<BNP_PARIBAS> <http://example.org/isInstanceOf/> "Lender" .
-
-<CITIBANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<CREDIT_AGRICOLE_CORPORATE_AND%5Cn%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0%C2%A0_INVESTMENT_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<Cravath%2C_Swaine_%26_Moore_LLP> <http://example.org/isInstanceOf/> "special New York counsel to the Borrowers" .
-
-<DEUTSCHE_BANK_AG_NEW_YORK_BRANCH> <http://example.org/isInstanceOf/> "Lender" .
-
-<FIFTH_THIRD_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<GOLDMAN_SACHS_BANK_USA> <http://example.org/isInstanceOf/> "Lender" .
-
-<HSBC_BANK_USA> <http://example.org/isInstanceOf/> "Lender" .
-
-<ING_BANK_N.V.> <http://example.org/isInstanceOf/> "Lender" .
-
-<JPMORGAN_CHASE_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<MIZUHO_BANK%2C_LTD> <http://example.org/isInstanceOf/> "Lender" .
-
-<PNC_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<SANTANDER_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<SUMITOMO_MITSUI_BANKING_CORPORATION%2C> <http://example.org/isInstanceOf/> "Lender" .
-
-<TD_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<THE_BANK_OF_NOVA_SCOTIA> <http://example.org/isInstanceOf/> "Administrative\\nAgent",
-        "L/C Issuer",
-        "Lender",
-        "Swing Line Lender" .
-
-<TRUIST_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<U.S._BANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender" .
-
 <http://example.org/org_name/%5Cn%C2%A0%09ASHLAND_GLOBAL_HOLDINGS_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Holding_Companies .
 

@@ -1305,77 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<COLUMBIA_PROPERTY_TRUST%5CnOPERATING_PARTNERSHIP%2C_L.P.> <http://example.org/isInstanceOf/> "General Partner",
-        "sole" .
-
-<COLUMBIA_PROPERTY_TRUST_OPERATING_PARTNERSHIP%2C_L.P.> <http://example.org/isInstanceOf/> "Borrower" .
-
-<COLUMBIA_PROPERTY_TRUST_OPERATING_PARTNERSHIP%2C_L.P.%5Cn> <http://example.org/isInstanceOf/> "BORROWER" .
-
-<Columbia_Property_Trust_Operating_Partnership%2C_L.P.%5Cn> <http://example.org/isInstanceOf/> "Borrower" .
-
-<JPMORGAN_CHASE_BANK%2C_N.A.> <http://example.org/isInstanceOf/> "ADMINISTRATIVE",
-        "AGENT",
-        "Administrative",
-        "Agent",
-        "BOOKRUNNER",
-        "JOINT",
-        "LEAD ARRANGER",
-        "Lender",
-        "SOLE" .
-
-<JPMorgan_Chase_Bank%2C_N.A.> <http://example.org/isInstanceOf/> "Agent",
-        "Lender",
-        "Loan and Agency Services Group" .
-
-<King_%26_Spalding_LLP> <http://example.org/isInstanceOf/> "Borrower" .
-
-<Morgan%2C_Lewis_%26_Bockius_LLP%5Cn> <http://example.org/isInstanceOf/> "Agent",
-        "Loan and Agency Services Group" .
-
-<NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "AGENTS",
-        "DOCUMENTATION" .
-
-<PNC_BANK> <http://example.org/isInstanceOf/> "AGENTS",
-        "DOCUMENTATION" .
-
-<PNC_BANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender" .
-
-<PNC_CAPITAL_MARKETS_LLC> <http://example.org/isInstanceOf/> "JOINT",
-        "LEAD ARRANGERS" .
-
-<REGIONS_BANK> <http://example.org/isInstanceOf/> "AGENTS",
-        "DOCUMENTATION",
-        "Lender" .
-
-<REGIONS_CAPITAL_MARKETS> <http://example.org/isInstanceOf/> "JOINT",
-        "LEAD ARRANGERS" .
-
-<SUMITOMO_MITSUI_BANKING_CORPORATION> <http://example.org/isInstanceOf/> "Lender" .
-
-<SUNTRUST_BANK> <http://example.org/isInstanceOf/> "AGENTS",
-        "DOCUMENTATION",
-        "Lender" .
-
-<SUNTRUST_ROBINSON_HUMPHREY%2C_INC.> <http://example.org/isInstanceOf/> "JOINT",
-        "LEAD ARRANGERS" .
-
-<TD_BANK%2C_N._A.> <http://example.org/isInstanceOf/> "Lender" .
-
-<U.S._BANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "AGENTS",
-        "DOCUMENTATION",
-        "JOINT",
-        "LEAD ARRANGERS",
-        "Lender" .
-
-<WELLS_FARGO_BANK> <http://example.org/isInstanceOf/> "AGENTS",
-        "DOCUMENTATION" .
-
-<WELLS_FARGO_BANK_NATIONAL%5CnASSOCIATION> <http://example.org/isInstanceOf/> "Lender" .
-
-<WELLS_FARGO_SECURITIES_LLC> <http://example.org/isInstanceOf/> "JOINT",
-        "LEAD ARRANGERS" .
-
 <http://example.org/org_name/COLUMBIA_PROPERTY_TRUST_OPERATING_PARTNERSHIP%2C_L.P.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower .
 
@@ -1385,27 +1314,34 @@ org_name:COLUMBIA_PROPERTY_TRUST_OPERATING_PARTNERSHIP%2C_L.P.%5Cn a base:Organi
 org_name:Delaware_limited_partnership a base:Organization .
 
 org_name:NATIONAL_ASSOCIATION a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:AGENTS .
+    <http://example.org/isInstanceOf/> org_role:AGENTS,
+        org_sub_role:DOCUMENTATION .
 
 org_name:PNC_BANK a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:AGENTS .
+    <http://example.org/isInstanceOf/> org_role:AGENTS,
+        org_sub_role:DOCUMENTATION .
 
 org_name:PNC_CAPITAL_MARKETS_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:LEAD_ARRANGERS .
+    <http://example.org/isInstanceOf/> org_role:LEAD_ARRANGERS,
+        org_sub_role:JOINT .
 
 org_name:REGIONS_BANK a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:AGENTS,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:DOCUMENTATION .
 
 org_name:REGIONS_CAPITAL_MARKETS a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:LEAD_ARRANGERS .
+    <http://example.org/isInstanceOf/> org_role:LEAD_ARRANGERS,
+        org_sub_role:JOINT .
 
 org_name:SUNTRUST_BANK a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:AGENTS,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:DOCUMENTATION .
 
 <http://example.org/org_name/SUNTRUST_ROBINSON_HUMPHREY%2C_INC.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:LEAD_ARRANGERS .
+    <http://example.org/isInstanceOf/> org_role:LEAD_ARRANGERS,
+        org_sub_role:JOINT .
 
 <http://example.org/org_name/TD_BANK%2C_N._A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender .
@@ -1413,27 +1349,23 @@ org_name:SUNTRUST_BANK a base:Organization ;
 org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:AGENTS,
         org_role:LEAD_ARRANGERS,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:DOCUMENTATION,
+        org_sub_role:JOINT .
 
 org_name:WELLS_FARGO_BANK a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:AGENTS .
+    <http://example.org/isInstanceOf/> org_role:AGENTS,
+        org_sub_role:DOCUMENTATION .
 
 org_name:WELLS_FARGO_SECURITIES_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:LEAD_ARRANGERS .
+    <http://example.org/isInstanceOf/> org_role:LEAD_ARRANGERS,
+        org_sub_role:JOINT .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
 <http://example.org/org_sub_role/%5CnCo-Documentation> rdfs:subClassOf org_role:Agent .
 
 <http://example.org/org_sub_role/%5CnJoint_Lead> rdfs:subClassOf org_role:Arranger .
-
-org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
-        org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1453,8 +1385,6 @@ org_sub_role:Collatera rdfs:subClassOf org_role:Agent .
 org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
         org_role:Agent%5Cn,
         org_role:Trustee .
-
-org_sub_role:DOCUMENTATION rdfs:subClassOf org_role:AGENTS .
 
 org_sub_role:Designated rdfs:subClassOf org_role:Borrower,
         org_role:Borrowers .
@@ -1480,11 +1410,6 @@ org_sub_role:Intermediate rdfs:subClassOf org_role:Holdings .
 
 org_sub_role:Issuing rdfs:subClassOf org_role:Bank,
         org_role:Lender .
-
-org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
-        org_role:BOOK_RUNNERS,
-        org_role:LEAD_ARRANGER,
-        org_role:LEAD_ARRANGERS .
 
 org_sub_role:JOINT_LEAD rdfs:subClassOf org_role:ARRANGERS .
 
@@ -1519,8 +1444,6 @@ org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
 
 org_sub_role:Lender rdfs:subClassOf org_role:Issuing_Bank .
 
-org_sub_role:Loan_and_Agency_Services_Group rdfs:subClassOf org_role:Agent .
-
 org_sub_role:Parent rdfs:subClassOf org_role:Borrower,
         org_role:Guarantor .
 
@@ -1531,8 +1454,6 @@ org_sub_role:Revolving rdfs:subClassOf org_role:Lender .
 org_sub_role:Revolving_Administrative rdfs:subClassOf org_role:Agent .
 
 org_sub_role:Revolving_Credit rdfs:subClassOf org_role:Lender .
-
-org_sub_role:SOLE rdfs:subClassOf org_role:BOOKRUNNER .
 
 org_sub_role:SUBORDINATED rdfs:subClassOf org_role:BORROWERS,
         org_role:LENDERS .
@@ -1608,11 +1529,6 @@ org_sub_role:managing rdfs:subClassOf org_role:agents .
 
 org_sub_role:ratings rdfs:subClassOf org_role:agency .
 
-org_sub_role:sole rdfs:subClassOf org_role:General_Partner,
-        org_role:arranger,
-        org_role:bookrunner,
-        org_role:manager .
-
 org_sub_role:syndication rdfs:subClassOf org_role:agent .
 
 loc:1180_Peachtree_Street%2C_NE%5CnAtlanta%2C_GA_30309 a base:Location ;
@@ -1636,7 +1552,8 @@ loc:One_Glenlake_Parkway%2C_Suite_1200%5CnAtlanta_Georgia_30328-7267 a base:Loca
     rel:isLocationOf org_name:Columbia_Property_Trust_Operating_Partnership%2C_L.P.%5Cn .
 
 <http://example.org/org_name/COLUMBIA_PROPERTY_TRUST%5CnOPERATING_PARTNERSHIP%2C_L.P.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:General_Partner ;
+    <http://example.org/isInstanceOf/> org_role:General_Partner,
+        org_sub_role:sole ;
     rel:hasEmployee person_name:James_A._Fleming .
 
 org_name:Columbia_Property_Trust_Operating_Partnership%2C_L.P.%5Cn a base:Organization ;
@@ -1650,6 +1567,16 @@ org_name:SUMITOMO_MITSUI_BANKING_CORPORATION a base:Organization ;
 org_name:WELLS_FARGO_BANK_NATIONAL%5CnASSOCIATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:D._Bryan_Gregory .
+
+org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
+        org_role:BORROWER .
+
+org_sub_role:SOLE rdfs:subClassOf org_role:BOOKRUNNER .
+
+org_sub_role:sole rdfs:subClassOf org_role:General_Partner,
+        org_role:arranger,
+        org_role:bookrunner,
+        org_role:manager .
 
 person_name:Chad_McMasters a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
@@ -1700,14 +1627,6 @@ person_name:William_G._Karl a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Executive_Officer ;
     rel:isEmployedBy org_name:SUMITOMO_MITSUI_BANKING_CORPORATION .
 
-"AGENT" <http://example.org/isInstanceOf/> "ADMINISTRATIVE" .
-
-"BOOKRUNNER" <http://example.org/isInstanceOf/> "SOLE" .
-
-"General Partner" <http://example.org/isInstanceOf/> "sole" .
-
-"LEAD ARRANGER" <http://example.org/isInstanceOf/> "JOINT" .
-
 org_name:King_%26_Spalding_LLP a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower ;
     rel:hasEmployee person_name:J._Craig_Lee ;
@@ -1719,19 +1638,30 @@ org_name:PNC_BANK_NATIONAL_ASSOCIATION a base:Organization ;
         person_name:J._Lee_Hord .
 
 org_name:Morgan%2C_Lewis_%26_Bockius_LLP%5Cn a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative,
+        org_sub_role:Loan_and_Agency_Services_Group ;
     rel:hasEmployee person_name:Stephen_M._Miklus ;
     rel:hasLocationAt loc:One_Federal_Street%5CnBoston%2C_Massachusetts_02110-1726 .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative",
-        "Loan and Agency Services Group" .
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
+
+org_sub_role:Loan_and_Agency_Services_Group rdfs:subClassOf org_role:Agent .
 
 <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:AGENT,
         org_role:Agent,
         org_role:BOOKRUNNER,
         org_role:LEAD_ARRANGER,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:ADMINISTRATIVE,
+        org_sub_role:Administrative,
+        org_sub_role:JOINT,
+        org_sub_role:Loan_and_Agency_Services_Group,
+        org_sub_role:SOLE ;
     rel:hasEmployee person_name:Courtney_Jones,
         person_name:Jaime_Gitler,
         person_name:Jessica_Trombly,
@@ -1739,12 +1669,17 @@ org_name:Morgan%2C_Lewis_%26_Bockius_LLP%5Cn a base:Organization ;
 
 <http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Loan_and_Agency_Services_Group ;
     rel:hasEmployee person_name:Sangeeta_Mahadevan ;
     rel:hasLocationAt loc:383_Madison_Avenue%2C_24th_Floor%5CnNew_York%2C_New_York_10179%5Cn,
         loc:500_Stanton_Christiana_Road%2C_3rd_Floor%5CnNewark%2C_DE_19713-2107 .
 
-"LEAD ARRANGERS" <http://example.org/isInstanceOf/> "JOINT" .
+org_sub_role:DOCUMENTATION rdfs:subClassOf org_role:AGENTS .
 
-"AGENTS" <http://example.org/isInstanceOf/> "DOCUMENTATION" .
+org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
+        org_role:BOOK_RUNNERS,
+        org_role:LEAD_ARRANGER,
+        org_role:LEAD_ARRANGERS .
 

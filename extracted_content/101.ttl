@@ -1304,35 +1304,12 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<FOUNDATION_HEALTHCARE%2C_INC.> <http://example.org/isInstanceOf/> "BORROWER",
-        "Borrower" .
-
-<LEGACYTEXAS_BANK> <http://example.org/isInstanceOf/> "\\nLENDER" .
-
-<TEXAS_CAPITAL_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "AGENT",
-        "Administrative",
-        "Agent",
-        "Arranger",
-        "L/C Issuer",
-        "LENDER",
-        "Runner",
-        "Sole Book",
-        "Sole Lead",
-        "\\nADMINISTRATIVE" .
-
-<http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
-
 <http://example.org/org_sub_role/%5CnCo-Documentation> rdfs:subClassOf org_role:Agent .
 
 <http://example.org/org_sub_role/%5CnJoint_Lead> rdfs:subClassOf org_role:Arranger .
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1446,11 +1423,6 @@ org_sub_role:Servicing rdfs:subClassOf org_role:Agent .
 
 org_sub_role:Sole rdfs:subClassOf org_role:Bookrunner .
 
-org_sub_role:Sole_Book rdfs:subClassOf org_role:Manager,
-        org_role:Runner .
-
-org_sub_role:Sole_Lead rdfs:subClassOf org_role:Arranger .
-
 org_sub_role:Sole_Lead_Arranger rdfs:subClassOf org_role:Arranger .
 
 org_sub_role:Sterling_Swing rdfs:subClassOf org_role:Lender .
@@ -1529,8 +1501,24 @@ org_name:TEXAS_CAPITAL_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
         org_role:Arranger,
         <http://example.org/org_role/L/C_Issuer>,
         org_role:LENDER,
-        org_role:Runner ;
+        org_role:Runner,
+        <http://example.org/org_sub_role/%5CnADMINISTRATIVE>,
+        org_sub_role:Administrative,
+        org_sub_role:Sole_Book,
+        org_sub_role:Sole_Lead ;
     rel:hasEmployee person_name:Deborah_T._Purvin .
+
+<http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
+
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
+
+org_sub_role:Sole_Book rdfs:subClassOf org_role:Manager,
+        org_role:Runner .
+
+org_sub_role:Sole_Lead rdfs:subClassOf org_role:Arranger .
 
 person_name:Deborah_T._Purvin a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
@@ -1543,12 +1531,4 @@ person_name:Spencer_Sockwell a base:Person ;
 person_name:Stanton_M._Nelson a base:Person ;
     <http://example.org/isInstanceOf/> person_position:CEO ;
     rel:isEmployedBy <http://example.org/org_name/FOUNDATION_HEALTHCARE%2C_INC.> .
-
-"AGENT" <http://example.org/isInstanceOf/> "\\nADMINISTRATIVE" .
-
-"Agent" <http://example.org/isInstanceOf/> "Administrative" .
-
-"Arranger" <http://example.org/isInstanceOf/> "Sole Lead" .
-
-"Runner" <http://example.org/isInstanceOf/> "Sole Book" .
 

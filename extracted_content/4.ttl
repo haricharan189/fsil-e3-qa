@@ -1305,31 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<.P._MORGAN_SECURITIES_LLC> <http://example.org/isInstanceOf/> "Bookrunner ",
-        "Lead Arranger",
-        "Syndication Agent" .
-
-<BARCLAYS_BANK_PLC> <http://example.org/isInstanceOf/> "Bookrunners ",
-        "Co-Documentation Agents" .
-
-<BRIGHT_HORIZONS_CAPITAL_CORP> <http://example.org/isInstanceOf/> "Holdings" .
-
-<BRIGHT_HORIZONS_CAPITAL_CORP.%2C> <http://example.org/isInstanceOf/> "Holdings" .
-
-<BRIGHT_HORIZONS_FAMILY_SOLUTIONS_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<CREDIT_SUISSE_SECURITIES_%28USA%29_LLC> <http://example.org/isInstanceOf/> "Bookrunners ",
-        "Co-Documentation Agents" .
-
-<GOLDMAN_SACHS_BANK_USA> <http://example.org/isInstanceOf/> "Administrative Agent",
-        "Bookrunner",
-        "L/C Issuer",
-        "Lead Arranger",
-        "Swing Line Lender" .
-
-<MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED> <http://example.org/isInstanceOf/> "Bookrunners ",
-        "Co-Documentation Agents" .
-
 loc:200_Talcott_Avenue_South%5Cn%5CnP.O._Box_9177%5Cn%5CnWatertown%2C_MA_02471-9177%5Cn%5Cn a base:Location .
 
 loc:200_West_Street%5Cn%5CnNew_York%2C_New_York%5Cn%5Cn a base:Location .

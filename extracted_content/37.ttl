@@ -1305,449 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<ACE_SOLID_WASTE%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<ADVANCED_SYSTEMS_PORTABLE_RESTROOMS%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<ALASKA_WASTE-INTERIOR%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<ALASKA_WASTE-KENAI_PENINSULA%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<ALASKA_WASTE_MAT-SU%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<AMERICAN_DISPOSAL_COMPANY%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<ANDERSON_COUNTY_LANDFILL%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<ANDERSON_REGIONAL_LANDFILL%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<ARKANSAS_RECLAMATION_COMPANY%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<AUSTIN_LANDFILL_HOLDINGS%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<Amegy_Bank_National_Association> <http://example.org/isInstanceOf/> "Lender" .
-
-<BANK_OF_AMERICA%2C_N.A> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent" .
-
-<BANK_OF_AMERICA%2C_N.A.> <http://example.org/isInstanceOf/> " L/C Issuer",
-        "Lender",
-        "Swing Line" .
-
-<BISON_BUTTE_ENVIRONMENTAL%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<BITUMINOUS_RESOURCES%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<BRENT_RUN_LANDFILL%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<BROADACRE_LANDFILL%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<BUTLER_COUNTY_LANDFILL%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<Branch_Banking_and_Trust_Company> <http://example.org/isInstanceOf/> "Lender" .
-
-<CALPET%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<CAMINO_REAL_ENVIRONMENTAL_CENTER%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<CAPITAL_REGION_LANDFILLS%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<CARPENTER_WASTE_HOLDINGS%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<CHAMBERS_DEVELOPMENT_OF_NORTH_CAROLINA%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<CHIMNEY_BUTTE_ENVIRONMENTAL_L.L.C.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<CHIQUITA_CANYON%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<CHIQUITA_CANYON%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<CLAY_BUTTE_ENVIRONMENTAL%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<CLIFTON_ORGANICS%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<COLD_CANYON_LAND_FILL%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<COLUMBIA_RESOURCE_CO.%2C_L.P.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<COLUMBIA_RIVER_DISPOSAL%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<COMMUNITY_REFUSE_DISPOSAL_INC.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<CONTRACTORS_WASTE_SERVICES%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<CORRAL_DE_PIEDRA_LAND_COMPANY> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<COUNTY_WASTE_%E2%80%94_ULSTER%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<COUNTY_WASTE_AND_RECYCLING_SERVICE%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<COUNTY_WASTE_TRANSFER_CORP.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<CRI_HOLDINGS%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<CURRY_TRANSFER_%26_RECYCLING%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<CWI_ACQUISITION%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<Citizens_Bank%2C_N.A> <http://example.org/isInstanceOf/> "Lender" .
-
-<CoBank%2C_ACB> <http://example.org/isInstanceOf/> "Lender" .
-
-<Compass_Bank> <http://example.org/isInstanceOf/> "Lender" .
-
-<D._M._DISPOSAL_CO.%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<DELTA_CONTRACTS%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<DENVER_REGIONAL_LANDFILL%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<DIVERSIFIED_BUILDINGS%2C_L.L.C.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<EAGLE_FORD_RECLAMATION_COMPANY%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<ELKO_SANITATION_COMPANY> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<EL_PASO_DISPOSAL%2C_LP> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Subsidiaries" .
-
-<EMPIRE_DISPOSAL%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<ENTECH_ALASKA_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<ENVIRONMENTAL_TRUST_COMPANY> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<EVERGREEN_DISPOSAL%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<FINLEY-BUTTES_LIMITED_PARTNERSHIP> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<FINNEY_COUNTY_LANDFILL%2C_INC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<FORT_ANN_TRANSFER_STATION%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<FRONT_RANGE_LANDFILL%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<GBUSA_HOLDINGS%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<GOD_BLESS_THE_USA%2C_INCORPORATED> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<GREEN_WASTE_SOLUTIONS_OF_ALASKA%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<G_%26_P_DEVELOPMENT%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<HARDIN_SANITATION%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<HAROLD_LEMAY_ENTERPRISES%2C_INCORPORATED> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<HIGH_DESERT_SOLID_WASTE_FACILITY%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<HUDSON_VALLEY_WASTE_HOLDING%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<ISLAND_DISPOSAL%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<JPMorgan_Chase_Bank%2C_N.A> <http://example.org/isInstanceOf/> "Lender" .
-
-<J_BAR_J_LAND%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<KeyBank_National_Association> <http://example.org/isInstanceOf/> "Lender" .
-
-<LACASSINE_HOLDINGS%2C_L.L.C.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<LAKESHORE_DISPOSAL%2C_INC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<LAUREL_RIDGE_LANDFILL%2C_L.L.C.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<LEALCO%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<LFC%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<LIGHTNING_BUTTE_ENVIRONMENTAL%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<LOUISIANA_RECLAMATION_COMPANY%2C_L.L.C.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<MADERA_DISPOSAL_SYSTEMS%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<MAMMOTH_DISPOSAL_COMPANY> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<MANAGEMENT_ENVIRONMENTAL_NATIONAL%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<MASON_COUNTY_GARBAGE_CO.%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<MBO%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<MDSI_OF_LA%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<MILLENNIUM_WASTE_INCORPORATED> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<MISSION_COUNTRY_DISPOSAL> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<MORRO_BAY_GARBAGE_SERVICE> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<MUFG_Union_Bank%2C_N.A.%2C> <http://example.org/isInstanceOf/> "Lender" .
-
-<MURREY%E2%80%99S_DISPOSAL_COMPANY%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<NEBRASKA_ECOLOGY_SYSTEMS%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<NOBLES_COUNTY_LANDFILL%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<NORTHWEST_CONTAINER_SERVICES%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<OKLAHOMA_CITY_WASTE_DISPOSAL%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<OKLAHOMA_LANDFILL_HOLDINGS%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<OSAGE_LANDFILL%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<PIERCE_COUNTY_RECYCLING%2C_COMPOSTING_AND_DISPOSAL%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<PNC_Bank%2C_National_Association%2C> <http://example.org/isInstanceOf/> "Lender" .
-
-<POTRERO_HILLS_LANDFILL%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<PRAIRIE_DISPOSAL%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<PRAIRIE_LIQUIDS%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<PSI_ENVIRONMENTAL_SERVICES%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<PSI_ENVIRONMENTAL_SYSTEMS%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<R.A._BROWNRIGG_INVESTMENTS%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<R.J.C._TRUCKING_CO.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<R360_ARTESIA%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<R360_CLACO%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<R360_ENVIRONMENTAL_SOLUTIONS%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<R360_ENVIRONMENTAL_SOLUTIONS_HOLDINGS%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<R360_ENVIRONMENTAL_SOLUTIONS_OF_LOUISIANA%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<R360_ENVIRONMENTAL_SOLUTIONS_OF_MISSISSIPPI%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<R360_ENVIRONMENTAL_SOLUTIONS_OF_TEXAS%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<R360_ES_HOLDINGS%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<R360_HITCHCOCK%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<R360_LOGISTICS%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<R360_OKLAHOMA%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<R360_PERMIAN_BASIN%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<R360_RED_BLUFF%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<R360_SHUTE_CREEK%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<R360_SILO%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<R360_WILLISTON_BASIN%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<RAILROAD_AVENUE_DISPOSAL%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<RED_CARPET_LANDFILL%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<RENSSELAER_REGION_LANDFILLS%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<RH_FINANCIAL_CORPORATION> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<RICH_VALLEY%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<RKS_HOLDING%2C_CORP.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<S.A._DUNN_%26_COMPANY%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<SANIPAC%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<SAN_LUIS_GARBAGE_COMPANY> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<SCOTT_SOLID_WASTE_DISPOSAL_COMPANY> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<SCOTT_WASTE_SERVICES%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<SEABREEZE_RECOVERY%2C_INC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<SECTION_18%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<SEDALIA_LAND_COMPANY> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<SHALE_GAS_SERVICES%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<SIERRA_HOLDING_GROUP%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<SIERRA_PROCESSING%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<SILVER_SPRINGS_ORGANICS_L.L.C.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<SJ_RECLAMATION%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<SKB_%28AUSTIN%29_ENVIRONMENTAL%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<SKB_ENVIRONMENTAL%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<SKB_RECYCLING%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<SMOKY_BUTTE_ENVIRONMENTAL%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<SOUTH_COUNTY_SANITARY_SERVICE%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<STERLING_AVENUE_PROPERTIES%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<STUTZMAN_REFUSE_DISPOSAL_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<TACOMA_RECYCLING_COMPANY%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<TENNESSEE_WASTE_MOVERS%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<THUNDER_BUTTE_ENVIRONMENTAL%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<U.S._Bank%2C_National_Association> <http://example.org/isInstanceOf/> "Lender" .
-
-<US_LIQUIDS_OF_LA%2C_L.P.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<VOORHEES_SANITATION%2C_L.L.C.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASCO_COUNTY_LANDFILL%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<WASTE_CONNECTIONS_MANAGEMENT_SERVICES%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_ALABAMA%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_ALASKA%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_ARIZONA%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_ARKANSAS%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_CALIFORNIA%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_COLORADO%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_GEORGIA%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_IDAHO%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_ILLINOIS%2C_INC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_IOWA%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_KANSAS%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_KENTUCKY%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_LEFLORE%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_LOUISIANA%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_MINNESOTA%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_MISSISSIPPI%2C_INC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_MISSISSIPPI_DISPOSAL_SERVICES%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_MONTANA%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_NEBRASKA%2C_INC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_NEW_MEXICO%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_NORTH_CAROLINA%2C_INC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_NORTH_DAKOTA%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_OKLAHOMA%2C_INC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_OREGON%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_SOUTH_CAROLINA%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_SOUTH_DAKOTA%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_TENNESSEE%2C_INC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_TEXAS%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_THE_CENTRAL_VALLEY%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_UTAH%2C_INC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_WASHINGTON%2C_INC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_OF_WYOMING%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_CONNECTIONS_TRANSPORTATION_COMPANY%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_REDUCTION_SERVICES%2C_L.L.C.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_SERVICES_OF_N.E._MISSISSIPPI%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WASTE_SOLUTIONS_GROUP_OF_SAN_BENITO%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WCI-WHITE_OAKS_LANDFILL%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WCI_AUSTIN_LANDFILL%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WEST_BANK_ENVIRONMENTAL_SERVICES%2C_INC> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WEST_COAST_RECYCLING_AND_TRANSFER%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<WYOMING_ENVIRONMENTAL_SERVICES%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<Wells_Fargo_Bank%2C_National_Association> <http://example.org/isInstanceOf/> "Lender" .
-
-<YAKIMA_WASTE_SYSTEMS%2C_INC.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
 <http://example.org/org_name/%5CnWASTE_CONNECTIONS_OF_ARKANSAS%2C_INC.> a base:Organization .
 
 <http://example.org/org_name/ACE_SOLID_WASTE%2C_INC.> a base:Organization ;
@@ -1791,10 +1348,12 @@ org_name:ARKANSAS_RECLAMATION_COMPANY%2C_LLC a base:Organization ;
         org_sub_role:Subsidiaries .
 
 org_name:Amegy_Bank_National_Association a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:BANK_OF_AMERICA%2C_N.A a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent .
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative .
 
 org_name:BISON_BUTTE_ENVIRONMENTAL%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:BORROWERS,
@@ -1905,10 +1464,12 @@ org_name:CWI_ACQUISITION%2C_LLC a base:Organization ;
         org_sub_role:Subsidiaries .
 
 org_name:CoBank%2C_ACB a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:Compass_Bank a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 <http://example.org/org_name/D._M._DISPOSAL_CO.%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:BORROWERS,
@@ -1992,13 +1553,15 @@ org_name:HAROLD_LEMAY_ENTERPRISES%2C_INCORPORATED a base:Organization ;
     <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
 
 org_name:JPMorgan_Chase_Bank%2C_N.A a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 <http://example.org/org_name/J_BAR_J_LAND%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
 
 org_name:KeyBank_National_Association a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 <http://example.org/org_name/LACASSINE_HOLDINGS%2C_L.L.C.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
@@ -2077,7 +1640,8 @@ org_name:PIERCE_COUNTY_RECYCLING%2C_COMPOSTING_AND_DISPOSAL%2C_LLC a base:Organi
     <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
 
 org_name:PNC_Bank%2C_National_Association%2C a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 <http://example.org/org_name/POTRERO_HILLS_LANDFILL%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
@@ -2240,7 +1804,8 @@ org_name:THUNDER_BUTTE_ENVIRONMENTAL%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
 
 org_name:U.S._Bank%2C_National_Association a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 <http://example.org/org_name/US_LIQUIDS_OF_LA%2C_L.P.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
@@ -2399,7 +1964,8 @@ org_name:WEST_BANK_ENVIRONMENTAL_SERVICES%2C_INC a base:Organization ;
     <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
 
 org_name:Wells_Fargo_Bank%2C_National_Association a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 <http://example.org/org_name/YAKIMA_WASTE_SYSTEMS%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
@@ -2412,11 +1978,6 @@ org_name:Wells_Fargo_Bank%2C_National_Association a base:Organization ;
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -2541,9 +2102,6 @@ org_sub_role:Sterling_Swing rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Subsidiary rdfs:subClassOf org_role:Borrower .
 
-org_sub_role:Swing_Line rdfs:subClassOf org_role:Bank,
-        org_role:Lender .
-
 org_sub_role:Swing_Line_Lender rdfs:subClassOf org_role:LENDER,
         org_role:LENDERS%3A .
 
@@ -2631,7 +2189,8 @@ loc:811_Main_Street%2C_Suite_3700%5Cn%5CnHouston%2C_TX_77002 a base:Location ;
 
 <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> <http://example.org/org_role/L/C_Issuer>,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:Swing_Line ;
     rel:hasEmployee person_name:Maria_F._Maia .
 
 org_name:Goulston_%26_Storrs a base:Organization ;
@@ -2641,8 +2200,14 @@ org_name:Latham_%26_Watkins_LLP a base:Organization ;
     rel:hasLocationAt loc:811_Main_Street%2C_Suite_3700%5Cn%5CnHouston%2C_TX_77002 .
 
 org_name:MUFG_Union_Bank%2C_N.A.%2C a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line ;
     rel:hasEmployee person_name:Sandra_Cortes .
+
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
 
 person_name:Bryan_Ervin a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Vice_President ;
@@ -2697,8 +2262,6 @@ person_name:Worthing_F._Jackman a base:Person ;
         person_position:Executive_Vice_President ;
     rel:isEmployedBy <http://example.org/org_name/Waste_Connections%2C_Inc.> .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative" .
-
 org_name:Bank_of_America%2C_N.A a base:Organization ;
     rel:hasLocationAt loc:100_Federal_Street%5Cn%5CnMail_Code%3A%C2%A0_MA5-100-09-07%5Cn%5CnBoston%2C_MA_02110,
         loc:555_California_Street%2C_4th_Floor%5Cn%5CnMail_Code%3A%C2%A0_CA5-705-04-09%C2%A0%5Cn%5CnSan_Francisco%2C_CA_94104 .
@@ -2712,13 +2275,15 @@ org_name:Bank_of_America%2C_N.A a base:Organization ;
     rel:hasLocationAt loc:3_Waterway_Square_Place%2C_Suite_110%5Cn%5CnThe_Woodlands%2C_TX_77380 .
 
 org_name:Branch_Banking_and_Trust_Company a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line ;
     rel:hasEmployee person_name:Felix_Miranda,
         person_name:Mark_Grover,
         person_name:Philip_K._Liebscher .
 
 org_name:Citizens_Bank%2C_N.A a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line ;
     rel:hasEmployee person_name:Bryan_Ervin,
         person_name:John_Kushnerick,
         person_name:Judith_A._Huckins,
@@ -2727,5 +2292,6 @@ org_name:Citizens_Bank%2C_N.A a base:Organization ;
         person_name:Steven_Dixon,
         person_name:Tad_Stainbrook .
 
-"Lender" <http://example.org/isInstanceOf/> "Swing Line" .
+org_sub_role:Swing_Line rdfs:subClassOf org_role:Bank,
+        org_role:Lender .
 

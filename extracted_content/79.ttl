@@ -1305,46 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5Cn%C2%A0%5Cn%5CnWELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Administrative Agent",
-        "Lenders" .
-
-<BANK_OF_AMERICA> <http://example.org/isInstanceOf/> "Syndication Agents" .
-
-<CITIGROUP_GLOBAL_MARKETS_INC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint",
-        "Joint Lead",
-        "Syndication Agents" .
-
-<COMPASS_BANK> <http://example.org/isInstanceOf/> "Documentation Agents" .
-
-<MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint",
-        "Joint Lead" .
-
-<MIZUHO_BANK%2C%C2%A0LTD> <http://example.org/isInstanceOf/> "Documentation Agents" .
-
-<RBC_CAPITAL_MARKETS%2C_LLC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint",
-        "Joint Lead" .
-
-<ROYAL_BANK_OF_CANADA> <http://example.org/isInstanceOf/> "Syndication Agents" .
-
-<SELECT_INCOME_REIT> <http://example.org/isInstanceOf/> "Borrower" .
-
-<Saul_Ewing_LLP> <http://example.org/isInstanceOf/> "counsel to the Borrower" .
-
-<Sullivan%C2%A0%26_Worcester_LLP> <http://example.org/isInstanceOf/> "counsel to the Borrower" .
-
-<U.S._BANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Documentation Agents" .
-
-<WELLS_FARGO_SECURITIES%2C_LLC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint",
-        "Joint Lead" .
-
 <http://example.org/org_name/%5CnBANK_HAPOALIM_B.M.> a base:Organization .
 
 <http://example.org/org_name/%5CnFIRST_HAWAIIAN_BANK> a base:Organization .
@@ -1359,14 +1319,18 @@ org_name:FIFTH_THIRD_BANK a base:Organization .
 
 org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 org_name:MIZUHO_BANK%2C%C2%A0LTD a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Documentation_Agents .
 
 org_name:RBC_CAPITAL_MARKETS%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 org_name:Saul_Ewing_LLP a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:counsel_to_the_Borrower .
@@ -1441,21 +1405,8 @@ org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
 
 org_sub_role:JOINT_LEAD rdfs:subClassOf org_role:ARRANGERS .
 
-org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
-        org_role:Book_Runner,
-        org_role:Book_Runners,
-        org_role:Bookrunner,
-        org_role:Bookrunners,
-        org_role:Bookrunners%5Cn,
-        org_role:Lead_Arranger,
-        org_role:Lead_Arrangers .
-
 org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
         org_role:Runner .
-
-org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
 
@@ -1610,7 +1561,9 @@ org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
 
 org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners ;
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead ;
     rel:hasLocationAt loc:Minneapolis_Loan_Center%5Cn%5CnMAC_N9303-110%5Cn%5Cn608_Second_Avenue_South%2C_11th%C2%A0Floor%5Cn%5CnMinneapolis%2C_Minnesota_55402-1916 .
 
 <http://example.org/person_name/%5CnDarlene_Arias> a base:Person ;
@@ -1755,9 +1708,18 @@ org_name:Wells_Fargo_Bank%2C_National_Association a base:Organization ;
     rel:hasEmployee person_name:Treva_Lee ;
     rel:hasLocationAt loc:Minneapolis_Loan_Center%5Cn%5CnMAC_N9303-110%5Cn%5Cn608_Second_Avenue_South%2C_11th%C2%A0Floor%5Cn%5CnMinneapolis%2C_Minnesota_55402-1916 .
 
-"Arrangers" <http://example.org/isInstanceOf/> "Joint Lead" .
+org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
+        org_role:Book_Runner,
+        org_role:Book_Runners,
+        org_role:Bookrunner,
+        org_role:Bookrunners,
+        org_role:Bookrunners%5Cn,
+        org_role:Lead_Arranger,
+        org_role:Lead_Arrangers .
 
-"Bookrunners" <http://example.org/isInstanceOf/> "Joint" .
+org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
 
 <http://example.org/org_name/%5Cn%C2%A0%5Cn%5CnWELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
@@ -1771,7 +1733,9 @@ org_name:Wells_Fargo_Bank%2C_National_Association a base:Organization ;
 org_name:CITIGROUP_GLOBAL_MARKETS_INC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
         org_role:Bookrunners,
-        org_role:Syndication_Agents ;
+        org_role:Syndication_Agents,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead ;
     rel:hasEmployee <http://example.org/person_name/%5CnDerek_Chang>,
         <http://example.org/person_name/%5CnHelen_H._Gateson>,
         <http://example.org/person_name/%5CnJohn_R._Roach%2C_Jr.>,

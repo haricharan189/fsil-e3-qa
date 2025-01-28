@@ -1305,69 +1305,45 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<BARCLAYS_BANK_PLC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint",
-        "Joint Lead " .
-
-<CITIGROUP_GLOBAL_MARKETS_INC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint",
-        "Joint Lead " .
-
-<DEUTSCHE_BANK_SECURITIES_INC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint",
-        "Joint Lead " .
-
-<GOLUB_CAPITAL_LLC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint",
-        "Joint Lead " .
-
-<JPMORGAN_CHASE_BANK> <http://example.org/isInstanceOf/> "Administrative Agent",
-        "Arrangers",
-        "Bookrunners",
-        "Joint",
-        "Joint Lead " .
-
-<KEYBANC_CAPITAL_MARKETS_INC.> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint",
-        "Joint Lead " .
-
-<MACQUARIE_CAPITAL_%28USA%29_INC.> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint",
-        "Joint Lead " .
-
 <http://example.org/org_name/AGILITI_HOLDCO%2C%C2%A0INC.> a base:Organization .
 
 <http://example.org/org_name/AGILITI_IMAGING%2C_INC.> a base:Organization .
 
 org_name:BARCLAYS_BANK_PLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 org_name:CITIGROUP_GLOBAL_MARKETS_INC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 org_name:DEUTSCHE_BANK_SECURITIES_INC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 org_name:GOLUB_CAPITAL_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 <http://example.org/org_name/KEYBANC_CAPITAL_MARKETS_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 <http://example.org/org_name/MACQUARIE_CAPITAL_%28USA%29_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1436,21 +1412,8 @@ org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
 
 org_sub_role:JOINT_LEAD rdfs:subClassOf org_role:ARRANGERS .
 
-org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
-        org_role:Book_Runner,
-        org_role:Book_Runners,
-        org_role:Bookrunner,
-        org_role:Bookrunners,
-        org_role:Bookrunners%5Cn,
-        org_role:Lead_Arranger,
-        org_role:Lead_Arrangers .
-
 org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
         org_role:Runner .
-
-org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
 
@@ -1635,12 +1598,23 @@ org_name:Kirkland%C2%A0%26_Ellis_LLP a base:Organization ;
 org_name:JPMORGAN_CHASE_BANK a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
         org_role:Arrangers,
-        org_role:Bookrunners ;
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead ;
     rel:hasEmployee person_name:Leonida_Mischke,
         person_name:Sabir_Hashmy ;
     rel:hasLocationAt loc:10_S._Dearborn%5Cn%5CnChicago%2C%C2%A0IL_60603 .
 
-"Arrangers" <http://example.org/isInstanceOf/> "Joint Lead " .
+org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
+        org_role:Book_Runner,
+        org_role:Book_Runners,
+        org_role:Bookrunner,
+        org_role:Bookrunners,
+        org_role:Bookrunners%5Cn,
+        org_role:Lead_Arranger,
+        org_role:Lead_Arrangers .
 
-"Bookrunners" <http://example.org/isInstanceOf/> "Joint" .
+org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
 

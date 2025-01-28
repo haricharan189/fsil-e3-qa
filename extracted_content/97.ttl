@@ -1305,26 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<GENERAL_ELECTRIC_CAPITAL_CORPORATION> <http://example.org/isInstanceOf/> "ADMINISTRATIVE",
-        "AGENT",
-        "Administrative",
-        "Agent",
-        "LENDER",
-        "Lender" .
-
-<General_Electric_Capital_Corporation> <http://example.org/isInstanceOf/> "Administrative  Agent" .
-
-<HP_REDDING%2C_LLC> <http://example.org/isInstanceOf/> "BORROWER",
-        "Borrower" .
-
-<SUMMIT_PORTLAND%2C_LLC> <http://example.org/isInstanceOf/> "BORROWER",
-        "Borrower" .
-
-<SUMMIT_SALEM%2C_LLC> <http://example.org/isInstanceOf/> "BORROWER",
-        "Borrower" .
-
-<Summit_Healthcare_REIT%2C_Inc.> <http://example.org/isInstanceOf/> " Borrower" .
-
 loc:500_West_Monroe_Street%5Cn%C2%A0%09%C2%A0%09Chicago%2C_Illinois%C2%A0%C2%A060661 a base:Location .
 
 loc:5804_Trailridge_Drive%5Cn%C2%A0%09%C2%A0%09Austin%2C_Texas%C2%A0%C2%A078731 a base:Location .
@@ -1346,14 +1326,6 @@ org_name:SUMMIT_SALEM%2C_LLC a base:Organization ;
 <http://example.org/org_sub_role/%5CnCo-Documentation> rdfs:subClassOf org_role:Agent .
 
 <http://example.org/org_sub_role/%5CnJoint_Lead> rdfs:subClassOf org_role:Arranger .
-
-org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
-        org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1547,7 +1519,9 @@ org_name:GENERAL_ELECTRIC_CAPITAL_CORPORATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:AGENT,
         org_role:Agent,
         org_role:LENDER,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:ADMINISTRATIVE,
+        org_sub_role:Administrative ;
     rel:hasEmployee person_name:Dague_Retzlaff .
 
 org_name:Summit_Healthcare_REIT%2C_Inc a base:Organization ;
@@ -1556,6 +1530,14 @@ org_name:Summit_Healthcare_REIT%2C_Inc a base:Organization ;
 <http://example.org/org_name/Summit_Healthcare_REIT%2C_Inc.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower ;
     rel:hasLocationAt loc:2_South_Pointe_Drive%2C_Suite_1400%5Cn%C2%A0%09%C2%A0%09Lake_Forest%2C_California_92630 .
+
+org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
+        org_role:BORROWER .
+
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
 
 person_name:Dague_Retzlaff a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Authorized_Signatory,
@@ -1573,10 +1555,6 @@ person_name:Jeffrey_M._Muchmore a base:Person ;
 person_name:Kent_Eikanas a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Chief_Operating_Officer ;
     rel:isEmployedBy org_name:Summit_Healthcare_REIT%2C_Inc .
-
-"AGENT" <http://example.org/isInstanceOf/> "ADMINISTRATIVE" .
-
-"Agent" <http://example.org/isInstanceOf/> "Administrative" .
 
 org_name:General_Electric_Capital_Corporation a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Administrative_%C2%A0Agent ;

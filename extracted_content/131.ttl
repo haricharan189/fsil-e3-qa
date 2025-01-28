@@ -1305,15 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<BCRED_MAROON_PEAK_FUNDING_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<MORGAN_STANLEY_BANK%2C_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
-<MORGAN_STANLEY_SENIOR_FUNDING%2C_INC> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent" .
-
-<U.S._BANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Collateral Agent" .
-
 org_name:BCRED_MAROON_PEAK_FUNDING_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower .
 
@@ -1321,7 +1312,8 @@ org_name:BCRED_MAROON_PEAK_FUNDING_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender .
 
 org_name:MORGAN_STANLEY_SENIOR_FUNDING%2C_INC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent .
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1331,11 +1323,6 @@ org_name:MORGAN_STANLEY_SENIOR_FUNDING%2C_INC a base:Organization ;
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1548,6 +1535,11 @@ org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
 org_name:U.S._Bank_National_Association a base:Organization ;
     rel:hasLocationAt loc:One_Federal_Street%2C_Third_Floor%5Cn%5CnBoston%2C_Massachusetts_02110 .
 
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
+
 person_name:John_Bumgarner a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
     rel:isEmployedBy org_name:BLACKSTONE_PRIVATE_CREDIT_FUND .
@@ -1563,8 +1555,6 @@ person_name:Matthieu_Milgrom a base:Person ;
 <http://example.org/person_name/Ralph_J._Creasia%2C_Jr.> a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
     rel:isEmployedBy org_name:U.S._BANK_NATIONAL_ASSOCIATION .
-
-"Agent" <http://example.org/isInstanceOf/> "Administrative" .
 
 loc:1585_Broadway%5Cn%5CnNew%C2%A0York%2C_New%C2%A0York_10036 a base:Location ;
     <http://example.org/isInstanceOf/> base:Location ;

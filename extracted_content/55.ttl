@@ -1305,15 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<GSO_Capital_Partners_LP> <http://example.org/isInstanceOf/> "Purchaser" .
-
-<HOVNANIAN_ENTERPRISES%2C_INC.> <http://example.org/isInstanceOf/> "Holdings" .
-
-<K._HOVNANIAN_ENTERPRISES%2C_INC.> <http://example.org/isInstanceOf/> "Borrower" .
-
-<WILMINGTON_TRUST%2C_NATIONAL%5Cn%5CnASSOCIATION> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent" .
-
 loc:110_West_Front_Street%5Cn%5CnP.O._Box_500%5Cn%5CnRed_Bank%2C_New_Jersey_07701 a base:Location .
 
 loc:345_Park_Ave%5Cn%5CnNew_York%2C_NY_10154 a base:Location .
@@ -1336,11 +1327,6 @@ org_name:GSO_Capital_Partners_LP a base:Organization ;
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1531,8 +1517,14 @@ loc:180_Maiden_Lane%5Cn%5CnNew_York%2C_NY_10038 a base:Location ;
     rel:hasEmployee person_name:J._Larry_Sorsby .
 
 org_name:WILMINGTON_TRUST%2C_NATIONAL%5Cn%5CnASSOCIATION a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative ;
     rel:hasEmployee person_name:Cora_Holland-Koller .
+
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
 
 person_name:Cora_Holland-Koller a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Banking_Officer ;
@@ -1555,13 +1547,12 @@ person_name:William_B._Sheehan a base:Person ;
     <http://example.org/isInstanceOf/> org_name:Simpson_Thacher_%26_Bartlett_LLP ;
     rel:isEmployedBy org_name:Simpson_Thacher_%26_Bartlett_LLP .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative" .
-
 org_name:STROOCK_%26_STROOCK_%26_LAVAN_LLP a base:Organization ;
     rel:hasEmployee person_name:Kristopher_M._Hansen ;
     rel:hasLocationAt loc:180_Maiden_Lane%5Cn%5CnNew_York%2C_NY_10038 .
 
 org_name:Simpson_Thacher_%26_Bartlett_LLP a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:special_counsel_for_the_Borrower ;
     rel:hasEmployee person_name:Marisa_D._Stavenas,
         person_name:William_B._Sheehan .
 

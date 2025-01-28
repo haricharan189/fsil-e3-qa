@@ -1305,42 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<ARC_Real_Estate_Partners%2C_LLC> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<FENNER%C2%A0%26_SMITH_INCORPORATED> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint" .
-
-<MERRILL_LYNCH> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint" .
-
-<MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED> <http://example.org/isInstanceOf/> "Arranger",
-        "Joint Lead" .
-
-<PIERCE> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint" .
-
-<TAU_OPERATING_PARTNERSHIP%2C_L.P> <http://example.org/isInstanceOf/> "Borrower" .
-
-<Tau%C2%A0Operating%C2%A0Partnership%2C%C2%A0L.P.> <http://example.org/isInstanceOf/> "Borrower" .
-
-<WELLS%C2%A0FARGO%C2%A0BANK%2C%C2%A0NATIONAL%C2%A0ASSOCIATION> <http://example.org/isInstanceOf/> "Lender" .
-
-<WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent" .
-
-<WELLS_FARGO_SECURITIES%2C_LLC> <http://example.org/isInstanceOf/> "Arranger",
-        "Arrangers",
-        "Bookrunner",
-        "Bookrunners",
-        "Joint",
-        "Joint Lead" .
-
-<Wells_Fargo_Bank%2C_National_Association> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent" .
-
 loc:401_B_Street%2C_Suite_1100%5CnSan_Diego%2C_California_92101 a base:Location .
 
 loc:600_La_Terraza_Blvd.%5CnEscondido%2C_California_92025 a base:Location .
@@ -1352,18 +1316,22 @@ org_name:ARC_Real_Estate_Partners%2C_LLC a base:Organization ;
 
 org_name:FENNER%C2%A0%26_SMITH_INCORPORATED a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint .
 
 org_name:MERRILL_LYNCH a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint .
 
 org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Arranger .
+    <http://example.org/isInstanceOf/> org_role:Arranger,
+        org_sub_role:Joint_Lead .
 
 org_name:PIERCE a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint .
 
 org_name:TAU_OPERATING_PARTNERSHIP%2C_L.P a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower .
@@ -1375,13 +1343,16 @@ org_name:WELLS%C2%A0FARGO%C2%A0BANK%2C%C2%A0NATIONAL%C2%A0ASSOCIATION a base:Org
     <http://example.org/isInstanceOf/> org_role:Lender .
 
 org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent .
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative .
 
 org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arranger,
         org_role:Arrangers,
         org_role:Bookrunner,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1391,11 +1362,6 @@ org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1450,21 +1416,8 @@ org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
 
 org_sub_role:JOINT_LEAD rdfs:subClassOf org_role:ARRANGERS .
 
-org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
-        org_role:Book_Runner,
-        org_role:Book_Runners,
-        org_role:Bookrunner,
-        org_role:Bookrunners,
-        org_role:Bookrunners%5Cn,
-        org_role:Lead_Arranger,
-        org_role:Lead_Arrangers .
-
 org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
         org_role:Runner .
-
-org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
 
@@ -1585,16 +1538,27 @@ person_name:Mark_Nardi a base:Person ;
     <http://example.org/isInstanceOf/> org_name:Wells_Fargo_Bank%2C_National_Association ;
     rel:isEmployedBy org_name:Wells_Fargo_Bank%2C_National_Association .
 
-"Bookrunner" <http://example.org/isInstanceOf/> "Joint" .
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative" .
-
-"Arranger" <http://example.org/isInstanceOf/> "Joint Lead" .
+org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
 
 org_name:Wells_Fargo_Bank%2C_National_Association a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative ;
     rel:hasEmployee person_name:Dale_Northup,
         person_name:Mark_Nardi .
 
-"Bookrunners" <http://example.org/isInstanceOf/> "Joint" .
+org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
+        org_role:Book_Runner,
+        org_role:Book_Runners,
+        org_role:Bookrunner,
+        org_role:Bookrunners,
+        org_role:Bookrunners%5Cn,
+        org_role:Lead_Arranger,
+        org_role:Lead_Arrangers .
 

@@ -1305,16 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<AUSTIN_290_PROPERTIES%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<CIRCLE_C_LAND%2C_L.P.> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<COMERICA_BANK> <http://example.org/isInstanceOf/> "BANK" .
-
-<STRATUS_PROPERTIES_INC> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<STRATUS_PROPERTIES_OPERATING_CO.%2C_L.P.> <http://example.org/isInstanceOf/> "BORROWERS" .
-
 <http://example.org/org_name/Circle_C_GP%2C_L.L.C.> a base:Organization .
 
 <http://example.org/org_name/STRS_L.L.C.> a base:Organization .

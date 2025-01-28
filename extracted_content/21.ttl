@@ -1304,45 +1304,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnALLY_BANK> <http://example.org/isInstanceOf/> "Ally Representative",
-        "L/C Issuer",
-        "Lender" .
-
-<BGSL_BIG_SKY_FUNDING_LLC> <http://example.org/isInstanceOf/> "Lender" .
-
-<BGSL_BRECKENRIDGE_FUNDING_LLC%2C> <http://example.org/isInstanceOf/> "Lender" .
-
-<BGSL_JACKSON_HOLE_FUNDING_LLC%2C> <http://example.org/isInstanceOf/> " Lender" .
-
-<BLACKSTONE_HOLDINGS_FINANCE_CO._L.L.C.> <http://example.org/isInstanceOf/> "Lender" .
-
-<BLACKSTONE_PRIVATE_CREDIT_FUND> <http://example.org/isInstanceOf/> "Lender" .
-
-<BLACKSTONE_SECURED_LENDING_FUND> <http://example.org/isInstanceOf/> "Lender" .
-
-<EMERALD_DIRECT_LENDING_1_LIMITED_PARTNERSHIP> <http://example.org/isInstanceOf/> "Lender" .
-
-<EMERALD_MURRAY_STREET_LP> <http://example.org/isInstanceOf/> "Lender" .
-
-<EMERALD_SPRING_STREET_LP> <http://example.org/isInstanceOf/> "Lender" .
-
-<GN_LOAN_FUND_LP> <http://example.org/isInstanceOf/> "Lender" .
-
-<GOLDMAN_SACHS_BANK_USA> <http://example.org/isInstanceOf/> "Lender" .
-
-<LD_LOWER_HOLDINGS%2C_INC.> <http://example.org/isInstanceOf/> "Borrower" .
-
-<LD_TOPCO%2C_INC.> <http://example.org/isInstanceOf/> "Holdings Topco," .
-
-<WILMINGTON_TRUST%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> " Administrative",
-        " Agent",
-        "Agent",
-        "Collateral" .
-
-<WILMINGTON_TRUST%2C_NATIONAL_ASSOCIATION%2C> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent",
-        "Collateral" .
-
 <http://example.org/org_name/%5CnALLY_BANK> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Ally_Representative,
         <http://example.org/org_role/L/C_Issuer>,
@@ -1381,7 +1342,9 @@ org_name:GN_LOAN_FUND_LP a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Holdings_Topco%2C .
 
 org_name:WILMINGTON_TRUST%2C_NATIONAL_ASSOCIATION%2C a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent .
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative,
+        org_sub_role:Collateral .
 
 <http://example.org/org_name/WVLD_ACQUISITION_CORP.> a base:Organization .
 
@@ -1393,11 +1356,6 @@ org_name:WILMINGTON_TRUST%2C_NATIONAL_ASSOCIATION%2C a base:Organization ;
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1413,10 +1371,6 @@ org_sub_role:Co-Syndication rdfs:subClassOf org_role:Agent,
         org_role:Agents .
 
 org_sub_role:Collatera rdfs:subClassOf org_role:Agent .
-
-org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
-        org_role:Agent%5Cn,
-        org_role:Trustee .
 
 org_sub_role:DOCUMENTATION rdfs:subClassOf org_role:AGENTS .
 
@@ -1584,7 +1538,9 @@ org_sub_role:syndication rdfs:subClassOf org_role:agent .
     rel:hasEmployee person_name:Dawn_M._Wilson .
 
 org_name:WILMINGTON_TRUST%2C_NATIONAL_ASSOCIATION a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative,
+        org_sub_role:Collateral ;
     rel:hasEmployee person_name:Nicole_Kroll .
 
 person_name:Danielle_Spar a base:Person ;
@@ -1612,8 +1568,6 @@ person_name:Robert_J._Shusterman a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
     rel:isEmployedBy org_name:GOLDMAN_SACHS_BANK_USA .
 
-" Agent" <http://example.org/isInstanceOf/> " Administrative" .
-
 org_name:BLACKSTONE_SECURED_LENDING_FUND a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender ;
     rel:hasEmployee person_name:Eric_Liaw,
@@ -1624,6 +1578,12 @@ org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
     rel:hasEmployee person_name:Danielle_Spar,
         person_name:Robert_J._Shusterman .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative",
-        "Collateral" .
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
+
+org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
+        org_role:Agent%5Cn,
+        org_role:Trustee .
 

@@ -1305,78 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<3949_Lindell_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<CV_East_Lansing_MI_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<Carrollton_Place%2C_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<Cottages_W._Lafayette_IN_LL> <http://example.org/isInstanceOf/> "Borrower" .
-
-<Deloitte_%26_Touche%2C_LLP> <http://example.org/isInstanceOf/> "accountants" .
-
-<District_on_5th_Tuscon_AZ_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<EDR_Austin_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<EDR_Berkeley_LP> <http://example.org/isInstanceOf/> "Borrower" .
-
-<EDR_Carbondale%2C_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<EDR_Charlottesville_Jefferson_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<EDR_Charlottesville_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<EDR_Charlottesville_Wertland_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<EDR_Gainesville_Limited_Partnership> <http://example.org/isInstanceOf/> "Borrower" .
-
-<EDR_Lawrence_Limited_Partnership> <http://example.org/isInstanceOf/> "Borrower" .
-
-<EDR_Lexington_I_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<EDR_Orlando_Limited_Partnership> <http://example.org/isInstanceOf/> "Borrower" .
-
-<EDR_Oxford%2C_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<EDR_Statesboro%2C_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<EDR_Syracuse%2C_LL> <http://example.org/isInstanceOf/> "Borrower" .
-
-<EDR_Syracuse_Campus_West_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<EDR_Tallahassee_I%2C_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<EDR_Tallahassee_Limited_Partnership> <http://example.org/isInstanceOf/> "Borrower" .
-
-<EDR_Tampa_Limited_Partnership> <http://example.org/isInstanceOf/> "Borrower" .
-
-<East_Edge_Tuscaloosa_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<Education_Realty_Operating_Partnership%2C_LP> <http://example.org/isInstanceOf/> "Borrower" .
-
-<KeyBank_National_Association> <http://example.org/isInstanceOf/> "administrative",
-        "agent" .
-
-<PNC_Bank%2C_National_Association> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent" .
-
-<PNC_CAPITAL_MARKETS_LLC> <http://example.org/isInstanceOf/> "Bookrunners",
-        "Joint" .
-
-<Province_Kent_OH_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<REGIONS_BANK> <http://example.org/isInstanceOf/> "Agent",
-        "Syndication" .
-
-<REGIONS_CAPITAL_MARKETS> <http://example.org/isInstanceOf/> "Arrangers" .
-
-<Retreat_at_State_College%2C_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<The_Province_Greenville_NC_LP> <http://example.org/isInstanceOf/> "Borrower" .
-
-<University_Village_Towers_LP> <http://example.org/isInstanceOf/> "Borrower" .
-
 loc:1100_Abernathy_Rd_NE%5CnBldg_%23_500%2C_Suite_%23_1250%5CnAtlanta%2C_Georgia_30328 a base:Location .
 
 loc:222_S._Riverside_Plaza%5CnChicago%2C_IL_60606 a base:Location .
@@ -1463,16 +1391,20 @@ org_name:Education_Realty_Operating_Partnership%2C_LP a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower .
 
 org_name:KeyBank_National_Association a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:agent .
+    <http://example.org/isInstanceOf/> org_role:agent,
+        org_sub_role:administrative .
 
 org_name:PNC_CAPITAL_MARKETS_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Bookrunners .
+    <http://example.org/isInstanceOf/> org_role:Bookrunners,
+        org_sub_role:Joint .
 
 org_name:Province_Kent_OH_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower .
 
 org_name:REGIONS_BANK a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent .
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative,
+        org_sub_role:Syndication .
 
 org_name:REGIONS_CAPITAL_MARKETS a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers .
@@ -1493,11 +1425,6 @@ org_name:University_Village_Towers_LP a base:Organization ;
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1551,15 +1478,6 @@ org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
         org_role:LEAD_ARRANGERS .
 
 org_sub_role:JOINT_LEAD rdfs:subClassOf org_role:ARRANGERS .
-
-org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
-        org_role:Book_Runner,
-        org_role:Book_Runners,
-        org_role:Bookrunner,
-        org_role:Bookrunners,
-        org_role:Bookrunners%5Cn,
-        org_role:Lead_Arranger,
-        org_role:Lead_Arrangers .
 
 org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
         org_role:Runner .
@@ -1632,10 +1550,6 @@ org_sub_role:Swing_line rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Swingline rdfs:subClassOf org_role:Lender .
 
-org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents .
-
 org_sub_role:Term rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Term_Administrative rdfs:subClassOf org_role:Agent .
@@ -1647,8 +1561,6 @@ org_sub_role:U.S._Swing rdfs:subClassOf org_role:Lender .
 org_sub_role:Yen_Swing rdfs:subClassOf org_role:Lender .
 
 org_sub_role:additional rdfs:subClassOf org_role:Credit_Party .
-
-org_sub_role:administrative rdfs:subClassOf org_role:agent .
 
 org_sub_role:co-documentation rdfs:subClassOf org_role:agents .
 
@@ -1689,6 +1601,17 @@ org_name:Retreat_at_State_College%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower ;
     rel:hasEmployee person_name:Randall_H._Brown .
 
+org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
+        org_role:Book_Runner,
+        org_role:Book_Runners,
+        org_role:Bookrunner,
+        org_role:Bookrunners,
+        org_role:Bookrunners%5Cn,
+        org_role:Lead_Arranger,
+        org_role:Lead_Arrangers .
+
+org_sub_role:administrative rdfs:subClassOf org_role:agent .
+
 person_name:Gregory_W._Lane a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Vice_President ;
     rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
@@ -1708,22 +1631,26 @@ person_name:Randall_H._Brown a base:Person ;
         person_position:Vice_President ;
     rel:isEmployedBy org_name:Retreat_at_State_College%2C_LLC .
 
-"Bookrunners" <http://example.org/isInstanceOf/> "Joint" .
-
-"agent" <http://example.org/isInstanceOf/> "administrative" .
-
 org_name:PNC_Bank%2C_National_Association a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative,
+        org_sub_role:Syndication ;
     rel:hasEmployee person_name:Andrew_White .
+
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
+
+org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents .
 
 person_name:Andrew_White a base:Person ;
     <http://example.org/isInstanceOf/> org_name:PNC_Bank%2C_National_Association,
         person_position:Vice_President ;
     rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION,
         org_name:PNC_Bank%2C_National_Association .
-
-"Agent" <http://example.org/isInstanceOf/> "Administrative",
-        "Syndication" .
 
 org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
     rel:hasEmployee person_name:Andrew_White,

@@ -1305,98 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<Airport_Solar_I%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<Bloomfield_Solar%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<Charter_Hill_Solar%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<City_Solar_Garden_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<ESA_Fleet_Community_Solar%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<Earth_Right_Energy_II%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<East_to_West_Solar_II_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<FIFTH_THIRD_BANK> <http://example.org/isInstanceOf/> " Arranger ",
-        "Administrative Agent",
-        "Bookrunner",
-        "Sole",
-        "Sole Lead" .
-
-<GLC_Chester_Community_Solar%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<GREC_ENTITY_HOLDCO_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<GREENBACKER_RENEWABLE_ENERGY_COMPANY_LLC> <http://example.org/isInstanceOf/> "Parent" .
-
-<GREENBACKER_RENEWABLE_ENERGY_CORPORATION> <http://example.org/isInstanceOf/> "Intermediate Holdco" .
-
-<Green_Maple_II_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<Green_Maple_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<Hartford_Solarfield%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<Lincoln_Farm_I%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<Lincoln_Farm_II%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<Lincoln_Farm_III%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<Lincoln_Farm_IV%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<MLH_Phase_2_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<MLH_Phase_3%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<MP2-Oregon_Solar_One%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<MP2/IRG-Petaluma_City_Schools%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<MP2_Capital_%E2%80%93_WGBH_Educational_Foundation%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<MP2_Green_Valley_ES%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<MP2_Hawaii_Solar_I%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<Magnolia_Sun_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<North_Carolina_Solar_I%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<North_Carolina_Solar_II%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<Novus_Royalton_Solar%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<PCIP_Solar_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<PCIP_Solar_Lessee_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<Pittsford_GLC_Solar%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<Powerhouse_One%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<Proctor_GLC_Solar%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<Solaverde%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<South_Robeson_Farm%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<South_Robeson_Solar_Farm%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<Sunsense_Clayton_Lessee%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<Sunsense_Fletcher_Lessee%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<Sunsense_Inman_Lessee%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<Turtle_Top_Solar%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<WE_46_Precision_Drive_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
-<Williamstown_Old_Town_Road_Solar%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiaries " .
-
 org_name:Airport_Solar_I%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_sub_role:Subsidiaries .
 
@@ -1644,12 +1552,8 @@ org_sub_role:Senior_Managing rdfs:subClassOf org_role:Agent .
 
 org_sub_role:Servicing rdfs:subClassOf org_role:Agent .
 
-org_sub_role:Sole rdfs:subClassOf org_role:Bookrunner .
-
 org_sub_role:Sole_Book rdfs:subClassOf org_role:Manager,
         org_role:Runner .
-
-org_sub_role:Sole_Lead rdfs:subClassOf org_role:Arranger .
 
 org_sub_role:Sole_Lead_Arranger rdfs:subClassOf org_role:Arranger .
 
@@ -1730,6 +1634,10 @@ org_name:GREENBACKER_RENEWABLE_ENERGY_COMPANY_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Parent ;
     rel:hasEmployee person_name:Richard_Butt .
 
+org_sub_role:Sole rdfs:subClassOf org_role:Bookrunner .
+
+org_sub_role:Sole_Lead rdfs:subClassOf org_role:Arranger .
+
 person_name:ERIC_COHEN a base:Person ;
     <http://example.org/isInstanceOf/> person_position:VICE_PRESIDENT ;
     rel:isEmployedBy org_name:FIFTH_THIRD_BANK .
@@ -1738,14 +1646,12 @@ person_name:Richard_Butt a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
     rel:isEmployedBy org_name:GREENBACKER_RENEWABLE_ENERGY_COMPANY_LLC .
 
-" Arranger " <http://example.org/isInstanceOf/> "Sole Lead" .
-
-"Bookrunner" <http://example.org/isInstanceOf/> "Sole" .
-
 org_name:FIFTH_THIRD_BANK a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
         org_role:Arranger,
-        org_role:Bookrunner ;
+        org_role:Bookrunner,
+        org_sub_role:Sole,
+        org_sub_role:Sole_Lead ;
     rel:hasEmployee person_name:ERIC_COHEN ;
     rel:hasLocationAt loc:201_N._Tryon_Street%2C_Suite_1700%5Cn%5CnCharlotte%2C_North_Carolina_28202 .
 

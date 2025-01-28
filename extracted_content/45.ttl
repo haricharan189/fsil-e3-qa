@@ -1305,14 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnU.S._BANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender" .
-
-<Kirkland_%26_Ellis_LLP> <http://example.org/isInstanceOf/> "counsel to Lender" .
-
-<PINNACLE_BANK%5Cn> <http://example.org/isInstanceOf/> "Borrower" .
-
-<PINNACLE_FINANCIAL_PARTNERS%2C_INC> <http://example.org/isInstanceOf/> "subsidiary" .
-
 org_name:PINNACLE_FINANCIAL_PARTNERS%2C_INC a base:Organization ;
     <http://example.org/isInstanceOf/> org_sub_role:subsidiary .
 

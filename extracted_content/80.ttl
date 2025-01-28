@@ -1304,67 +1304,30 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnCREE%2C_INC> <http://example.org/isInstanceOf/> "BORROWER" .
-
-<%5CnU.S._Bank_National_Association> <http://example.org/isInstanceOf/> "Lender" .
-
-<Bank_of_America> <http://example.org/isInstanceOf/> "Lender" .
-
-<Citibank> <http://example.org/isInstanceOf/> "Lender" .
-
-<E-CONOLIGHT_LLC> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<GOLDMAN_SACHS_BANK_USA> <http://example.org/isInstanceOf/> "Lender" .
-
-<HSBC_Bank_USA%2C_National_Association> <http://example.org/isInstanceOf/> "Lender" .
-
-<HSBC_SECURITIES_%28USA%29_INC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Joint Lead" .
-
-<JP_Morgan_Chase_Bank> <http://example.org/isInstanceOf/> "Lender" .
-
-<PNC_Bank%2C_National_Association> <http://example.org/isInstanceOf/> "Lender" .
-
-<PNC_CAPITAL_MARKETS_LLC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Joint Lead" .
-
-<SUNTRUST_ROBINSON_HUMPHREY%2C_INC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Joint Lead" .
-
-<SunTrust_Bank> <http://example.org/isInstanceOf/> "Lender" .
-
-<U.S._BANCORP_INVESTMENTS%2C_INC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Joint Lead" .
-
-<WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "	\\nSwingline Lender",
-        "Administrative Agent",
-        "Issuing Lender",
-        "Lender" .
-
-<WELLS_FARGO_SECURITIES%2C_LLC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Joint Lead",
-        "Sole Book Manager" .
-
 org_name:Citibank a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender .
 
 org_name:HSBC_SECURITIES_%28USA%29_INC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Arrangers .
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_sub_role:Joint_Lead .
 
 org_name:JP_Morgan_Chase_Bank a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender .
 
 org_name:PNC_CAPITAL_MARKETS_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Arrangers .
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_sub_role:Joint_Lead .
 
 org_name:SUNTRUST_ROBINSON_HUMPHREY%2C_INC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Arrangers .
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_sub_role:Joint_Lead .
 
 org_name:SunTrust_Bank a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender .
 
 org_name:U.S._BANCORP_INVESTMENTS%2C_INC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Arrangers .
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_sub_role:Joint_Lead .
 
 org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
     <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnSwingline_Lender>,
@@ -1374,7 +1337,8 @@ org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
 
 org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Sole_Book_Manager .
+        org_role:Sole_Book_Manager,
+        org_sub_role:Joint_Lead .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1454,10 +1418,6 @@ org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
 
 org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
         org_role:Runner .
-
-org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
 
@@ -1649,5 +1609,7 @@ org_name:HSBC_Bank_USA%2C_National_Association a base:Organization ;
         person_name:Daglas_P_Panchal,
         person_name:Mary_K_Lundin .
 
-"Arrangers" <http://example.org/isInstanceOf/> "Joint Lead" .
+org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
 

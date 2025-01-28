@@ -1304,45 +1304,16 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<CORTLAND_CAPITAL_MARKET_SERVICES%5Cn%C2%A0%09LLC> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent",
-        "Collateral" .
-
-<CORTLAND_CAPITAL_MARKET_SERVICES_LLC> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent",
-        "Collateral",
-        "Lenders" .
-
-<Cortland_Capital_Market_Services_LLC> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent",
-        "Collateral" .
-
-<FIVE_OAKS_ACQUISITION_CORP.> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<FIVE_OAKS_ACQUISITION_CORP._AND_HUNT_CMT_EQUITY%2C_LLC%5Cn%5Cn> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<Five_Oaks_Acquisition_Corp.> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<HUNT_CMT_EQUITY%2C_LLC> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<HUNT_COMPANIES_FINANCE_TRUST%2C_INC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<HUNT_COMPANIES_FINANCE_TRUST%2C_INC.> <http://example.org/isInstanceOf/> "	Borrower",
-        "Borrower" .
-
-<Hunt_CMT_Equity%2C_LLC> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<Hunt_Companies_Finance_Trust%2C_Inc.> <http://example.org/isInstanceOf/> "Borrower" .
-
-<JEFFERIES_LEVERAGED_CREDIT_PRODUCTS%2C_LLC> <http://example.org/isInstanceOf/> "Initial",
-        "Lender" .
-
 org_name:CORTLAND_CAPITAL_MARKET_SERVICES_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:Lenders .
+        org_role:Lenders,
+        org_sub_role:Administrative,
+        org_sub_role:Collateral .
 
 org_name:Cortland_Capital_Market_Services_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent .
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative,
+        org_sub_role:Collateral .
 
 org_name:Delaware_corporation a base:Organization .
 
@@ -1380,11 +1351,6 @@ org_name:Maryland_corporation a base:Organization .
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
 
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
-
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
 
@@ -1399,10 +1365,6 @@ org_sub_role:Co-Syndication rdfs:subClassOf org_role:Agent,
         org_role:Agents .
 
 org_sub_role:Collatera rdfs:subClassOf org_role:Agent .
-
-org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
-        org_role:Agent%5Cn,
-        org_role:Trustee .
 
 org_sub_role:DOCUMENTATION rdfs:subClassOf org_role:AGENTS .
 
@@ -1420,9 +1382,6 @@ org_sub_role:Dutch rdfs:subClassOf org_role:Borrower .
 org_sub_role:Euro_Swing rdfs:subClassOf org_role:Lender .
 
 org_sub_role:General rdfs:subClassOf org_role:Partner .
-
-org_sub_role:Initial rdfs:subClassOf org_role:Borrower,
-        org_role:Lender .
 
 org_sub_role:Intercreditor rdfs:subClassOf org_role:Agent .
 
@@ -1566,7 +1525,9 @@ org_sub_role:sole rdfs:subClassOf org_role:General_Partner,
 org_sub_role:syndication rdfs:subClassOf org_role:agent .
 
 org_name:CORTLAND_CAPITAL_MARKET_SERVICES%5Cn%C2%A0%09LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative,
+        org_sub_role:Collateral ;
     rel:hasEmployee person_name:Emily_Ergang_Pappas .
 
 org_name:HUNT_CMT_EQUITY%2C_LLC a base:Organization ;
@@ -1574,8 +1535,12 @@ org_name:HUNT_CMT_EQUITY%2C_LLC a base:Organization ;
     rel:hasEmployee person_name:Michael_Larsen .
 
 org_name:JEFFERIES_LEVERAGED_CREDIT_PRODUCTS%2C_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Initial ;
     rel:hasEmployee person_name:William_P._McLoughlin .
+
+org_sub_role:Initial rdfs:subClassOf org_role:Borrower,
+        org_role:Lender .
 
 person_name:Emily_Ergang_Pappas a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Associate_Counsel ;
@@ -1589,8 +1554,12 @@ person_name:William_P._McLoughlin a base:Person ;
     <http://example.org/isInstanceOf/> person_position:SVP ;
     rel:isEmployedBy org_name:JEFFERIES_LEVERAGED_CREDIT_PRODUCTS%2C_LLC .
 
-"Lender" <http://example.org/isInstanceOf/> "Initial" .
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative",
-        "Collateral" .
+org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
+        org_role:Agent%5Cn,
+        org_role:Trustee .
 

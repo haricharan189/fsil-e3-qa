@@ -1305,12 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<2477_DEERFIELD_DRIVE%2C_LLC%2C> <http://example.org/isInstanceOf/> "BORROWER" .
-
-<CF_Real_Estate_Holdings%2C_LLC> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<UBS_AG> <http://example.org/isInstanceOf/> "LENDER" .
-
 org_name:CF_Real_Estate_Holdings%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Guarantor .
 

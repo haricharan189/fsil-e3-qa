@@ -1305,128 +1305,20 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<591_Beverage%2C_Inc.> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<864_Beverage%2C_Inc.> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<864_Holdings%2C_Inc.> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<BANCORPSOUTH_BANK> <http://example.org/isInstanceOf/> "LENDER " .
-
-<BANK_OF_AMERICA%2C_N.A> <http://example.org/isInstanceOf/> "Issuing Bank",
-        "LENDER" .
-
-<BofA_Securities%2C_Inc.> <http://example.org/isInstanceOf/> "arranger ",
-        "bookrunner ",
-        "lead " .
-
-<El_Dorado_Properties_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<FIFTH_THIRD_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "LENDER " .
-
-<Fifth_Third_Bank%2C_National_Association> <http://example.org/isInstanceOf/> "arranger ",
-        "bookrunner ",
-        "lead " .
-
-<HANCOCK_WHITNEY_BANK> <http://example.org/isInstanceOf/> "LENDER " .
-
-<Hancock_Whitney_Investment_Services%2C_Inc.> <http://example.org/isInstanceOf/> "arranger ",
-        "bookrunner ",
-        "lead " .
-
-<Hankinson_Holding%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<JPMORGAN_CHASE_BANK%2C_N.A> <http://example.org/isInstanceOf/> "Agent",
-        "Agent ",
-        "Collateral",
-        "Issuing Bank",
-        "Revolving Administrative" .
-
-<JPMORGAN_CHASE_BANK%2C_N.A.> <http://example.org/isInstanceOf/> " Collateral Agent",
-        "Documentation Agents",
-        "Syndication Agents" .
-
-<JPMorgan_Chase_Bank%2C_N.A.> <http://example.org/isInstanceOf/> "arranger ",
-        "bookrunner ",
-        "lead " .
-
-<MURPHY_OIL_USA%2C_INC.> <http://example.org/isInstanceOf/> "Borrower" .
-
-<MURPHY_USA%2C_INC.> <http://example.org/isInstanceOf/> "Borrower" .
-
-<Murphy_Oil_Trading%5Cn%5CnCompany%5Cn%5Cn%28Eastern%29> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<Murphy_Oil_USA%2C_Inc.> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<Murphy_USA> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<Murphy_USA_NJ%2C_Inc.> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<PNC_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Issuing Bank",
-        "LENDER " .
-
-<PNC_Capital_Markets_LLC> <http://example.org/isInstanceOf/> "arranger ",
-        "bookrunner ",
-        "lead " .
-
-<QuickChek_Realty%2C_L.L.C.> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<QuickChek_Realty_Urban_Renewal_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<Quick_Chek_Corporation> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<RBC_CAPITAL_MARKETS> <http://example.org/isInstanceOf/> "Documentation Agents",
-        "Syndication Agents" .
-
-<RBC_Capital_Markets> <http://example.org/isInstanceOf/> "arranger ",
-        "bookrunner ",
-        "lead " .
-
-<REGIONS_BANK> <http://example.org/isInstanceOf/> "LENDER " .
-
-<ROYAL_BANK_OF_CANADA> <http://example.org/isInstanceOf/> "Agent",
-        "Issuing Bank,",
-        "Term Administrative" .
-
-<Regions_Capital_Markets> <http://example.org/isInstanceOf/> "arranger ",
-        "bookrunner ",
-        "lead " .
-
-<Spur_Oil_Corporation> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<Superior_Crude_Trading_Company> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<TRUIST_BANK> <http://example.org/isInstanceOf/> "LENDER " .
-
-<The_Griffin_LLC_Arkansas> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<Truist_Securities%2C_Inc.> <http://example.org/isInstanceOf/> "arranger ",
-        "bookrunner ",
-        "lead " .
-
-<UMB_BANK%2C_N.A.> <http://example.org/isInstanceOf/> "LENDER " .
-
-<UMB_Bank%2C%C2%A0N.A.> <http://example.org/isInstanceOf/> "arranger ",
-        "bookrunner ",
-        "lead " .
-
-<WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "LENDER " .
-
-<Wells_Fargo_Securities%2C_LLC> <http://example.org/isInstanceOf/> "arranger ",
-        "bookrunner ",
-        "lead " .
-
 <http://example.org/org_name/BofA_Securities%2C_Inc.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arranger,
-        org_role:bookrunner .
+        org_role:bookrunner,
+        org_sub_role:lead .
 
 org_name:Fifth_Third_Bank%2C_National_Association a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arranger,
-        org_role:bookrunner .
+        org_role:bookrunner,
+        org_sub_role:lead .
 
 <http://example.org/org_name/Hancock_Whitney_Investment_Services%2C_Inc.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arranger,
-        org_role:bookrunner .
+        org_role:bookrunner,
+        org_sub_role:lead .
 
 <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Collateral_Agent,
@@ -1444,7 +1336,8 @@ org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
 
 org_name:PNC_Capital_Markets_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arranger,
-        org_role:bookrunner .
+        org_role:bookrunner,
+        org_sub_role:lead .
 
 org_name:RBC_CAPITAL_MARKETS a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Documentation_Agents,
@@ -1452,32 +1345,37 @@ org_name:RBC_CAPITAL_MARKETS a base:Organization ;
 
 org_name:RBC_Capital_Markets a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arranger,
-        org_role:bookrunner .
+        org_role:bookrunner,
+        org_sub_role:lead .
 
 org_name:REGIONS_BANK a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:LENDER .
 
 org_name:Regions_Capital_Markets a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arranger,
-        org_role:bookrunner .
+        org_role:bookrunner,
+        org_sub_role:lead .
 
 org_name:TRUIST_BANK a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:LENDER .
 
 <http://example.org/org_name/Truist_Securities%2C_Inc.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arranger,
-        org_role:bookrunner .
+        org_role:bookrunner,
+        org_sub_role:lead .
 
 <http://example.org/org_name/UMB_Bank%2C%C2%A0N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arranger,
-        org_role:bookrunner .
+        org_role:bookrunner,
+        org_sub_role:lead .
 
 org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:LENDER .
 
 org_name:Wells_Fargo_Securities%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arranger,
-        org_role:bookrunner .
+        org_role:bookrunner,
+        org_sub_role:lead .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1507,10 +1405,6 @@ org_sub_role:Co-Syndication rdfs:subClassOf org_role:Agent,
         org_role:Agents .
 
 org_sub_role:Collatera rdfs:subClassOf org_role:Agent .
-
-org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
-        org_role:Agent%5Cn,
-        org_role:Trustee .
 
 org_sub_role:DOCUMENTATION rdfs:subClassOf org_role:AGENTS .
 
@@ -1586,8 +1480,6 @@ org_sub_role:Rating rdfs:subClassOf org_role:Agency .
 
 org_sub_role:Revolving rdfs:subClassOf org_role:Lender .
 
-org_sub_role:Revolving_Administrative rdfs:subClassOf org_role:Agent .
-
 org_sub_role:Revolving_Credit rdfs:subClassOf org_role:Lender .
 
 org_sub_role:SOLE rdfs:subClassOf org_role:BOOKRUNNER .
@@ -1632,8 +1524,6 @@ org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
 
 org_sub_role:Term rdfs:subClassOf org_role:Lender .
 
-org_sub_role:Term_Administrative rdfs:subClassOf org_role:Agent .
-
 org_sub_role:Term_Loan_A rdfs:subClassOf org_role:Lender .
 
 org_sub_role:U.S._Swing rdfs:subClassOf org_role:Lender .
@@ -1658,9 +1548,6 @@ org_sub_role:joint rdfs:subClassOf org_role:bookrunner,
         org_role:bookrunners .
 
 org_sub_role:joint_lead rdfs:subClassOf org_role:arranger .
-
-org_sub_role:lead rdfs:subClassOf org_role:arranger,
-        org_role:arrangers .
 
 org_sub_role:managing rdfs:subClassOf org_role:agents .
 
@@ -1720,12 +1607,16 @@ org_name:Hankinson_Holding%2C_LLC a base:Organization ;
 
 org_name:JPMORGAN_CHASE_BANK%2C_N.A a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:Issuing_Bank ;
+        org_role:Issuing_Bank,
+        org_sub_role:Collateral,
+        org_sub_role:Revolving_Administrative,
+        org_sub_role:Term_Administrative ;
     rel:hasEmployee person_name:Stephanie_Balette .
 
 <http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arranger,
-        org_role:bookrunner ;
+        org_role:bookrunner,
+        org_sub_role:lead ;
     rel:hasLocationAt loc:2200_Ross_Avenue%2C_9th_Floor%5Cn%5CnDallas%2C_TX_75201 .
 
 <http://example.org/org_name/MURPHY_OIL_USA%2C_INC.> a base:Organization ;
@@ -1771,6 +1662,8 @@ org_name:Superior_Crude_Trading_Company a base:Organization ;
 org_name:The_Griffin_LLC_Arkansas a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Subsidiary ;
     rel:hasLocationAt loc:Arkansas .
+
+org_sub_role:Revolving_Administrative rdfs:subClassOf org_role:Agent .
 
 person_name:Aaron_Wade a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Director ;
@@ -1827,8 +1720,6 @@ person_name:Yvonne_Brazier a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Manager%2C_Agency_Services ;
     rel:isEmployedBy org_name:ROYAL_BANK_OF_CANADA .
 
-"Agent " <http://example.org/isInstanceOf/> "Revolving Administrative" .
-
 loc:Arkansas a base:Location ;
     <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf org_name:El_Dorado_Properties_LLC,
@@ -1841,7 +1732,9 @@ org_name:FIFTH_THIRD_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
 
 org_name:ROYAL_BANK_OF_CANADA a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:Issuing_Bank%2C ;
+        org_role:Issuing_Bank%2C,
+        org_sub_role:Collateral,
+        org_sub_role:Term_Administrative ;
     rel:hasEmployee person_name:John_Flores,
         person_name:Yvonne_Brazier .
 
@@ -1850,8 +1743,11 @@ org_name:ROYAL_BANK_OF_CANADA a base:Organization ;
     rel:hasEmployee person_name:Cory_Miller,
         person_name:Michael_L._Monninger .
 
-"Agent" <http://example.org/isInstanceOf/> "Collateral",
-        "Term Administrative" .
+org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
+        org_role:Agent%5Cn,
+        org_role:Trustee .
+
+org_sub_role:Term_Administrative rdfs:subClassOf org_role:Agent .
 
 org_name:BANCORPSOUTH_BANK a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:LENDER ;
@@ -1875,5 +1771,6 @@ loc:Delaware a base:Location ;
         org_name:Spur_Oil_Corporation,
         org_name:Superior_Crude_Trading_Company .
 
-"arranger " <http://example.org/isInstanceOf/> "lead " .
+org_sub_role:lead rdfs:subClassOf org_role:arranger,
+        org_role:arrangers .
 

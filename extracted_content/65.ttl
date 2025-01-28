@@ -1304,136 +1304,65 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnTRUIST_BANK> <http://example.org/isInstanceOf/> "Lender",
-        "Revolving" .
-
-<BANK_OF_AMERICA%2C_N.A.> <http://example.org/isInstanceOf/> "Lender",
-        "Revolving",
-        "Swingline" .
-
-<BofA_Securities> <http://example.org/isInstanceOf/> "arrangers",
-        "bookrunners",
-        "joint",
-        "lead" .
-
-<CITIZENS_BANK%2C_N.A.> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent",
-        "Issuer",
-        "L/C",
-        "Lender",
-        "Revolving" .
-
-<CREDIT_SUISSE_AG%2C_CAYMAN_ISLANDS_BRANCH> <http://example.org/isInstanceOf/> "Lender",
-        "Revolving" .
-
-<Citizens_Ban> <http://example.org/isInstanceOf/> "arrangers",
-        "bookrunners",
-        "joint",
-        "lead" .
-
-<Citizens_Bank> <http://example.org/isInstanceOf/> "Collateral",
-        "Trustee" .
-
-<Credit_Suisse> <http://example.org/isInstanceOf/> "arrangers",
-        "bookrunners",
-        "joint",
-        "lead" .
-
-<DBSI> <http://example.org/isInstanceOf/> "arrangers",
-        "bookrunners",
-        "joint",
-        "lead" .
-
-<DEUTSCHE_BANK_AG_NEW_YORK_BRANCH> <http://example.org/isInstanceOf/> "Lender",
-        "Revolving" .
-
-<FIFTH_THIRD_BANK> <http://example.org/isInstanceOf/> "Lender",
-        "Revolving" .
-
-<Fifth_Third> <http://example.org/isInstanceOf/> "arrangers",
-        "bookrunners",
-        "joint",
-        "lead" .
-
-<Fitch_Ratings> <http://example.org/isInstanceOf/> "Agency",
-        "Rating" .
-
-<GOLDMAN_SACHS_BANK_USA> <http://example.org/isInstanceOf/> "Lender",
-        "Revolving" .
-
-<Goldman> <http://example.org/isInstanceOf/> "arrangers",
-        "bookrunners",
-        "joint",
-        "lead" .
-
-<KEYBANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender",
-        "Revolving" .
-
-<KeyBank> <http://example.org/isInstanceOf/> "arrangers",
-        "bookrunners",
-        "joint",
-        "lead" .
-
-<MOHEGAN_TRIBAL_GAMING_AUTHORITY> <http://example.org/isInstanceOf/> "Borrower" .
-
-<Mohegan_Expo_Center%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<Mohegan_Gaming_Advisors%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary" .
-
-<Moody%C2%92s_Investors_Service%2C_Inc.> <http://example.org/isInstanceOf/> "Agency",
-        "Rating" .
-
-<Standard%C2%A0%26_Poor%C2%92s_Financial_Services_LLC> <http://example.org/isInstanceOf/> "Agency",
-        "Rating" .
-
-<Tribe%2C_Faegre_Drinker_Biddle%C2%A0%26_Reath_LLP> <http://example.org/isInstanceOf/> "legal counsel" .
-
-<Tribe%2C_Rosenn%2C_Jenkins%C2%A0%26_Greenwald_LLP> <http://example.org/isInstanceOf/> "legal counsel" .
-
-<Truist_Securities> <http://example.org/isInstanceOf/> "arrangers",
-        "bookrunners",
-        "joint",
-        "lead" .
-
 org_name:BofA_Securities a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arrangers,
-        org_role:bookrunners .
+        org_role:bookrunners,
+        org_sub_role:joint,
+        org_sub_role:lead .
 
 org_name:CREDIT_SUISSE_AG%2C_CAYMAN_ISLANDS_BRANCH a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Revolving,
+        org_sub_role:Swingline .
 
 org_name:Citizens_Ban a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arrangers,
-        org_role:bookrunners .
+        org_role:bookrunners,
+        org_sub_role:joint,
+        org_sub_role:lead .
 
 org_name:Citizens_Bank a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Trustee .
+    <http://example.org/isInstanceOf/> org_role:Trustee,
+        org_sub_role:Collateral .
 
 org_name:Credit_Suisse a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arrangers,
-        org_role:bookrunners .
+        org_role:bookrunners,
+        org_sub_role:joint,
+        org_sub_role:lead .
 
 org_name:DBSI a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arrangers,
-        org_role:bookrunners .
+        org_role:bookrunners,
+        org_sub_role:joint,
+        org_sub_role:lead .
 
 org_name:Fifth_Third a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arrangers,
-        org_role:bookrunners .
+        org_role:bookrunners,
+        org_sub_role:joint,
+        org_sub_role:lead .
 
 org_name:Fitch_Ratings a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agency .
+    <http://example.org/isInstanceOf/> org_role:Agency,
+        org_sub_role:Rating .
 
 org_name:Goldman a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arrangers,
-        org_role:bookrunners .
+        org_role:bookrunners,
+        org_sub_role:joint,
+        org_sub_role:lead .
 
 org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Revolving,
+        org_sub_role:Swingline .
 
 org_name:KeyBank a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arrangers,
-        org_role:bookrunners .
+        org_role:bookrunners,
+        org_sub_role:joint,
+        org_sub_role:lead .
 
 org_name:Mohegan_Expo_Center%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_sub_role:Subsidiary .
@@ -1442,10 +1371,12 @@ org_name:Mohegan_Gaming_Advisors%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_sub_role:Subsidiary .
 
 <http://example.org/org_name/Moody%C2%92s_Investors_Service%2C_Inc.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agency .
+    <http://example.org/isInstanceOf/> org_role:Agency,
+        org_sub_role:Rating .
 
 org_name:Standard%C2%A0%26_Poor%C2%92s_Financial_Services_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agency .
+    <http://example.org/isInstanceOf/> org_role:Agency,
+        org_sub_role:Rating .
 
 org_name:Tribe%2C_Faegre_Drinker_Biddle%C2%A0%26_Reath_LLP a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:legal_counsel .
@@ -1455,7 +1386,9 @@ org_name:Tribe%2C_Rosenn%2C_Jenkins%C2%A0%26_Greenwald_LLP a base:Organization ;
 
 org_name:Truist_Securities a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arrangers,
-        org_role:bookrunners .
+        org_role:bookrunners,
+        org_sub_role:joint,
+        org_sub_role:lead .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1465,11 +1398,6 @@ org_name:Truist_Securities a base:Organization ;
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1485,10 +1413,6 @@ org_sub_role:Co-Syndication rdfs:subClassOf org_role:Agent,
         org_role:Agents .
 
 org_sub_role:Collatera rdfs:subClassOf org_role:Agent .
-
-org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
-        org_role:Agent%5Cn,
-        org_role:Trustee .
 
 org_sub_role:DOCUMENTATION rdfs:subClassOf org_role:AGENTS .
 
@@ -1542,8 +1466,6 @@ org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
 
 org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
 
-<http://example.org/org_sub_role/L/C> rdfs:subClassOf org_role:Issuer .
-
 <http://example.org/org_sub_role/L/C_Issuer> rdfs:subClassOf org_role:LENDERS%3A,
         org_role:Lender .
 
@@ -1559,10 +1481,6 @@ org_sub_role:Loan_and_Agency_Services_Group rdfs:subClassOf org_role:Agent .
 
 org_sub_role:Parent rdfs:subClassOf org_role:Borrower,
         org_role:Guarantor .
-
-org_sub_role:Rating rdfs:subClassOf org_role:Agency .
-
-org_sub_role:Revolving rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Revolving_Administrative rdfs:subClassOf org_role:Agent .
 
@@ -1600,8 +1518,6 @@ org_sub_role:Swing_Line_Lender rdfs:subClassOf org_role:LENDER,
 
 org_sub_role:Swing_line rdfs:subClassOf org_role:Lender .
 
-org_sub_role:Swingline rdfs:subClassOf org_role:Lender .
-
 org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
         org_role:Agent%2C,
         org_role:Agents .
@@ -1630,13 +1546,7 @@ org_sub_role:collateral rdfs:subClassOf org_role:agent,
 org_sub_role:documentation rdfs:subClassOf org_role:agent,
         org_role:agents .
 
-org_sub_role:joint rdfs:subClassOf org_role:bookrunner,
-        org_role:bookrunners .
-
 org_sub_role:joint_lead rdfs:subClassOf org_role:arranger .
-
-org_sub_role:lead rdfs:subClassOf org_role:arranger,
-        org_role:arrangers .
 
 org_sub_role:managing rdfs:subClassOf org_role:agents .
 
@@ -1650,22 +1560,41 @@ org_sub_role:sole rdfs:subClassOf org_role:General_Partner,
 org_sub_role:syndication rdfs:subClassOf org_role:agent .
 
 <http://example.org/org_name/%5CnTRUIST_BANK> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Revolving,
+        org_sub_role:Swingline ;
     rel:hasEmployee person_name:Frank_McCormack .
 
 <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Revolving,
+        org_sub_role:Swingline ;
     rel:hasEmployee person_name:Brian_D._Corum .
 
 <http://example.org/org_name/CITIZENS_BANK%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
         org_role:Issuer,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:Administrative,
+        <http://example.org/org_sub_role/L/C>,
+        org_sub_role:Revolving,
+        org_sub_role:Swingline ;
     rel:hasEmployee person_name:Sean_McWhinnie .
 
 org_name:MOHEGAN_TRIBAL_GAMING_AUTHORITY a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower ;
     rel:hasEmployee person_name:Mario_C._Kontomerkos .
+
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
+
+org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
+        org_role:Agent%5Cn,
+        org_role:Trustee .
+
+<http://example.org/org_sub_role/L/C> rdfs:subClassOf org_role:Issuer .
 
 person_name:Andrew_Griffin a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
@@ -1711,36 +1640,39 @@ person_name:Yumi_Okabe a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Vice_President ;
     rel:isEmployedBy org_name:DEUTSCHE_BANK_AG_NEW_YORK_BRANCH .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative" .
-
-"Issuer" <http://example.org/isInstanceOf/> "L/C" .
-
-"Trustee" <http://example.org/isInstanceOf/> "Collateral" .
-
 org_name:DEUTSCHE_BANK_AG_NEW_YORK_BRANCH a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Revolving,
+        org_sub_role:Swingline ;
     rel:hasEmployee person_name:Philip_Tancorra,
         person_name:Yumi_Okabe .
 
 org_name:FIFTH_THIRD_BANK a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Revolving,
+        org_sub_role:Swingline ;
     rel:hasEmployee person_name:Lise_Hinton,
         person_name:Matthew_J._Bradley .
 
 org_sub_role:Subsidiary rdfs:subClassOf org_role:Borrower .
 
 org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Revolving,
+        org_sub_role:Swingline ;
     rel:hasEmployee person_name:Andrew_Griffin,
         person_name:Thomas_Manning,
         person_name:Whitney_Gaston .
 
-"Agency" <http://example.org/isInstanceOf/> "Rating" .
+org_sub_role:Rating rdfs:subClassOf org_role:Agency .
 
-"Lender" <http://example.org/isInstanceOf/> "Revolving",
-        "Swingline" .
+org_sub_role:Revolving rdfs:subClassOf org_role:Lender .
 
-"arrangers" <http://example.org/isInstanceOf/> "lead" .
+org_sub_role:Swingline rdfs:subClassOf org_role:Lender .
 
-"bookrunners" <http://example.org/isInstanceOf/> "joint" .
+org_sub_role:joint rdfs:subClassOf org_role:bookrunner,
+        org_role:bookrunners .
+
+org_sub_role:lead rdfs:subClassOf org_role:arranger,
+        org_role:arrangers .
 

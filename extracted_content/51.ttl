@@ -1305,45 +1305,10 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<CALPINE_CORPORATION> <http://example.org/isInstanceOf/> "Borrower" .
-
-<CITIGROUP_GLOBAL_MARKETS%2C_INC.> <http://example.org/isInstanceOf/> "Arrangers",
-        "Joint Bookrunners",
-        "Joint Lead" .
-
-<Cahill_Gordon_%26_Reindel_LLP> <http://example.org/isInstanceOf/> "Administrative Agent" .
-
-<ING_CAPITAL%2C_LLC> <http://example.org/isInstanceOf/> "Co-Manager" .
-
-<MORGAN_STANLEY_SENIOR_FUNDING%2C_INC.> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent",
-        "Arrangers",
-        "Joint Bookrunners",
-        "Joint Lead",
-        "Lender" .
-
-<MUFG_UNION_BANK%2C_N.A.> <http://example.org/isInstanceOf/> "Agent",
-        "Collateral" .
-
-<NATIXIS_SECURITIES_AMERICAS_LLC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Joint Bookrunners",
-        "Joint Lead" .
-
-<RBC_CAPITAL_MARKETS1> <http://example.org/isInstanceOf/> "Arrangers",
-        "Joint Bookrunners",
-        "Joint Lead" .
-
-<THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD.> <http://example.org/isInstanceOf/> "Arrangers",
-        "Joint Bookrunners",
-        "Joint Lead" .
-
-<UBS_SECURITIES_LLC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Joint Bookrunners",
-        "Joint Lead" .
-
 <http://example.org/org_name/CITIGROUP_GLOBAL_MARKETS%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Joint_Bookrunners .
+        org_role:Joint_Bookrunners,
+        org_sub_role:Joint_Lead .
 
 org_name:GOLDMAN_SACHS_BANK_USA a base:Organization .
 
@@ -1352,19 +1317,23 @@ org_name:ING_CAPITAL%2C_LLC a base:Organization ;
 
 org_name:NATIXIS_SECURITIES_AMERICAS_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Joint_Bookrunners .
+        org_role:Joint_Bookrunners,
+        org_sub_role:Joint_Lead .
 
 org_name:RBC_CAPITAL_MARKETS1 a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Joint_Bookrunners .
+        org_role:Joint_Bookrunners,
+        org_sub_role:Joint_Lead .
 
 <http://example.org/org_name/THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Joint_Bookrunners .
+        org_role:Joint_Bookrunners,
+        org_sub_role:Joint_Lead .
 
 org_name:UBS_SECURITIES_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Joint_Bookrunners .
+        org_role:Joint_Bookrunners,
+        org_sub_role:Joint_Lead .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1374,11 +1343,6 @@ org_name:UBS_SECURITIES_LLC a base:Organization ;
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1394,10 +1358,6 @@ org_sub_role:Co-Syndication rdfs:subClassOf org_role:Agent,
         org_role:Agents .
 
 org_sub_role:Collatera rdfs:subClassOf org_role:Agent .
-
-org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
-        org_role:Agent%5Cn,
-        org_role:Trustee .
 
 org_sub_role:DOCUMENTATION rdfs:subClassOf org_role:AGENTS .
 
@@ -1444,10 +1404,6 @@ org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
 
 org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
         org_role:Runner .
-
-org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
 
@@ -1602,17 +1558,30 @@ org_name:CALPINE_CORPORATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
         org_role:Arrangers,
         org_role:Joint_Bookrunners,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Collateral,
+        org_sub_role:Joint_Lead ;
     rel:hasEmployee person_name:Cody_Gunsch ;
     rel:hasLocationAt loc:1585_Broadway%5Cn%C2%A0%5CnNew_York%2C_NY_10036 .
 
 <http://example.org/org_name/MUFG_UNION_BANK%2C_N.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative,
+        org_sub_role:Collateral ;
     rel:hasEmployee person_name:Sonia_Flores ;
     rel:hasLocationAt loc:Global_Trust_Services%5Cn%C2%A0%5Cn350_California_St.%2C_11th%C2%A0Floor%5Cn%C2%A0%5CnSan_Francisco%2C_CA_94014 .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative",
-        "Collateral" .
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
 
-"Arrangers" <http://example.org/isInstanceOf/> "Joint Lead" .
+org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
+        org_role:Agent%5Cn,
+        org_role:Trustee .
+
+org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
 

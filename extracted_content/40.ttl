@@ -1305,57 +1305,24 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<ASSOCIATED_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Agent",
-        "Co-Documentation",
-        "Lender" .
-
-<FIRST_NIAGARA_BANK%2C_N.A.> <http://example.org/isInstanceOf/> " Co-Documentation",
-        "Agent",
-        "Lender " .
-
-<J.P._MORGAN_SECURITIES_LLC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint ",
-        "Joint Lead" .
-
-<JPMORGAN_CHASE_BANK%2C_N.A> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent",
-        "Issuing Bank",
-        "Lender" .
-
-<JPMorgan_Chase_Bank%2C_N.A> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent," .
-
-<KEYBANC_CAPITAL_MARKETS%2C_INC.> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint ",
-        "Joint Lead" .
-
-<KEYBANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Agent",
-        "Lender ",
-        "Syndication " .
-
-<KeyBank_National_Association> <http://example.org/isInstanceOf/> "Syndication Agent" .
-
-<MORGAN_STANLEY_BANK%2C_N.A> <http://example.org/isInstanceOf/> "Lender" .
-
-<NATIONAL_GENERAL_HOLDINGS_CORP> <http://example.org/isInstanceOf/> "Borrower" .
-
-<National_General_Holdings_Corp.> <http://example.org/isInstanceOf/> "Borrower" .
-
-<THE_BANK_OF_NOVIA_SCOTIA> <http://example.org/isInstanceOf/> "Lender" .
-
 org_name:J.P._MORGAN_SECURITIES_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 <http://example.org/org_name/KEYBANC_CAPITAL_MARKETS%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Co-Documentation,
+        org_sub_role:Syndication .
 
 org_name:KeyBank_National_Association a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Syndication_Agent .
@@ -1372,20 +1339,12 @@ org_name:NATIONAL_GENERAL_HOLDINGS_CORP a base:Organization ;
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
 
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
-
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
 
 org_sub_role:Co-Book_Managers rdfs:subClassOf org_role:Initial_Lender .
 
 org_sub_role:Co-Collateral rdfs:subClassOf org_role:Agent .
-
-org_sub_role:Co-Documentation rdfs:subClassOf org_role:Agent,
-        org_role:Agents .
 
 org_sub_role:Co-Syndication rdfs:subClassOf org_role:Agent,
         org_role:Agents .
@@ -1430,21 +1389,8 @@ org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
 
 org_sub_role:JOINT_LEAD rdfs:subClassOf org_role:ARRANGERS .
 
-org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
-        org_role:Book_Runner,
-        org_role:Book_Runners,
-        org_role:Bookrunner,
-        org_role:Bookrunners,
-        org_role:Bookrunners%5Cn,
-        org_role:Lead_Arranger,
-        org_role:Lead_Arrangers .
-
 org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
         org_role:Runner .
-
-org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
 
@@ -1510,10 +1456,6 @@ org_sub_role:Swing_line rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Swingline rdfs:subClassOf org_role:Lender .
 
-org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents .
-
 org_sub_role:Term rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Term_Administrative rdfs:subClassOf org_role:Agent .
@@ -1567,13 +1509,19 @@ loc:59_Maiden_Lane%2C_38th_Floor%2C_New_York%2C_NY_10038 a base:Location ;
 
 <http://example.org/org_name/FIRST_NIAGARA_BANK%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Co-Documentation,
+        org_sub_role:Syndication ;
     rel:hasEmployee person_name:David_Reading .
 
 org_name:JPMORGAN_CHASE_BANK%2C_N.A a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
         org_role:Issuing_Bank,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Co-Documentation,
+        org_sub_role:Syndication ;
     rel:hasEmployee person_name:Hector_J._Varona .
 
 org_name:MORGAN_STANLEY_BANK%2C_N.A a base:Organization ;
@@ -1616,11 +1564,12 @@ person_name:Nida_Mischke a base:Person ;
     <http://example.org/isInstanceOf/> org_name:JPMorgan_Chase_Bank%2C_N.A ;
     rel:isEmployedBy org_name:JPMorgan_Chase_Bank%2C_N.A .
 
-"Agent," <http://example.org/isInstanceOf/> "Administrative" .
-
 org_name:ASSOCIATED_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Co-Documentation,
+        org_sub_role:Syndication ;
     rel:hasEmployee person_name:Edward_J._Chidiac,
         person_name:James_Cribbet .
 
@@ -1629,17 +1578,34 @@ org_name:ASSOCIATED_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
     rel:hasEmployee person_name:Michael_H._Weiner ;
     rel:hasLocationAt loc:59_Maiden_Lane%2C_38th_Floor%2C_New_York%2C_NY_10038 .
 
-"Arrangers" <http://example.org/isInstanceOf/> "Joint Lead" .
+org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
+        org_role:Book_Runner,
+        org_role:Book_Runners,
+        org_role:Bookrunner,
+        org_role:Bookrunners,
+        org_role:Bookrunners%5Cn,
+        org_role:Lead_Arranger,
+        org_role:Lead_Arrangers .
 
-"Bookrunners" <http://example.org/isInstanceOf/> "Joint " .
+org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
 
 org_name:JPMorgan_Chase_Bank%2C_N.A a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent%2C ;
+    <http://example.org/isInstanceOf/> org_role:Agent%2C,
+        org_sub_role:Administrative ;
     rel:hasEmployee person_name:Nida_Mischke ;
     rel:hasLocationAt loc:10_South_Dearborn_Street%2C_Floor_L2%2C_Chicago%2C_IL_60603-2003 .
 
-"Agent" <http://example.org/isInstanceOf/> " Co-Documentation",
-        "Administrative",
-        "Co-Documentation",
-        "Syndication " .
+org_sub_role:Co-Documentation rdfs:subClassOf org_role:Agent,
+        org_role:Agents .
+
+org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents .
+
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
 

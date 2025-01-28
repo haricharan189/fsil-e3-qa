@@ -1305,21 +1305,12 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnJPMORGAN_CHASE_BANK%2C_N.A.> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent",
-        "Issuing Bank" .
-
-<Graham_Corporation> <http://example.org/isInstanceOf/> "Borrower " .
-
-<J.P._MORGAN_SECURITIES_LLC> <http://example.org/isInstanceOf/> "Arranger",
-        "Bookrunner",
-        "Lead " .
-
 org_name:GRAHAM_CORPORATION a base:Organization .
 
 org_name:J.P._MORGAN_SECURITIES_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arranger,
-        org_role:Bookrunner .
+        org_role:Bookrunner,
+        org_sub_role:Lead .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1329,11 +1320,6 @@ org_name:J.P._MORGAN_SECURITIES_LLC a base:Organization ;
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1412,10 +1398,6 @@ org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
         org_role:Lender .
 
 org_sub_role:LEAD rdfs:subClassOf org_role:ARRANGER .
-
-org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Lender rdfs:subClassOf org_role:Issuing_Bank .
 
@@ -1533,7 +1515,8 @@ loc:United_States_of_America a base:Location ;
 
 <http://example.org/org_name/%5CnJPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:Issuing_Bank ;
+        org_role:Issuing_Bank,
+        org_sub_role:Administrative ;
     rel:hasEmployee person_name:Elizabeth_A._Jordan .
 
 org_name:Federal_Reserve_System a base:Organization ;
@@ -1549,6 +1532,15 @@ org_name:Harter_Secrest_%26_Emery_LLP a base:Organization ;
 <http://example.org/org_name/JPMorgan_Chase_Bank%2C_N.A.> a base:Organization ;
     rel:hasLocationAt loc:1_South_Clinton_Avenue%2C_Floor_7%5Cn%5CnRochester%2C_NY_14604 .
 
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
+
+org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
+
 <http://example.org/person_name/%5CnJeffrey_Glajch> a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
     rel:isEmployedBy <http://example.org/org_name/GHM_Acquisition_Corp.> .
@@ -1561,10 +1553,6 @@ person_name:Jeffrey_Glajch a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer,
         person_position:Secretary ;
     rel:isEmployedBy <http://example.org/org_name/GHM_Acquisition_Corp.> .
-
-"Agent" <http://example.org/isInstanceOf/> "Administrative" .
-
-"Arranger" <http://example.org/isInstanceOf/> "Lead " .
 
 <http://example.org/org_name/GHM_Acquisition_Corp.> a base:Organization ;
     rel:hasEmployee <http://example.org/person_name/%5CnJeffrey_Glajch>,

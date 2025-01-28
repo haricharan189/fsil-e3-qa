@@ -1302,28 +1302,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnBANK_OF_AMERICA> <http://example.org/isInstanceOf/> "ADMINISTRATIVE AGENT" .
-
-<%5CnK12_CALIFORNIA_L.L.C> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<%5CnK12_VIRTUAL_SCHOOLS_L.L.C.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<%5CnK12_WASHINGTON_L.L.C.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<%5CnPOWER-GLIDE_LANGUAGE_COURSES%2C%C2%A0INC> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<FUEL_EDUCATION_LLC%2C> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<K12_CLASSROOM_L.L.C> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<K12_FLORIDA_L.L.C.%2C> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<K12_INC> <http://example.org/isInstanceOf/> "BORROWER" .
-
-<K12_MANAGEMENT_INC.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<K12_SERVICES_INC.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
 <http://example.org/org_name/%5CnBANK_OF_AMERICA> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:ADMINISTRATIVE_AGENT .
 
@@ -1550,7 +1528,4 @@ org_sub_role:sole rdfs:subClassOf org_role:General_Partner,
         org_role:manager .
 
 org_sub_role:syndication rdfs:subClassOf org_role:agent .
-
-"LENDERS:" <http://example.org/isInstanceOf/> "L/C Issuer",
-        "Swing Line Lender" .
 

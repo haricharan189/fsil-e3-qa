@@ -1304,46 +1304,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<BANK_OF_AMERICA%2C_N.A.> <http://example.org/isInstanceOf/> "Lender",
-        "Syndication Agents" .
-
-<BRANCH_BANKING> <http://example.org/isInstanceOf/> "Documentation Agents\\n\\n" .
-
-<BRANCH_BANKING_%26_TRUST_COMPANY> <http://example.org/isInstanceOf/> "Lender" .
-
-<CITIBANK_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
-<CITIZENS_BANK%2C_N.A> <http://example.org/isInstanceOf/> "Lender" .
-
-<CITIZENS_BANK%2C_N.A.> <http://example.org/isInstanceOf/> "Administrative Agent\\n\\n",
-        "Joint ",
-        "Lead Arrangers" .
-
-<FIRST_NIAGARA_BANK%2C_N.A.%2C> <http://example.org/isInstanceOf/> "Lender" .
-
-<JPMORGAN_CHASE_BANK%2C_N.A> <http://example.org/isInstanceOf/> "Bookrunners",
-        "Lender",
-        "Syndication Agents" .
-
-<KEYBANC_CAPITAL_MARKETS%2C_INC> <http://example.org/isInstanceOf/> "Joint ",
-        "Lead Arrangers" .
-
-<KEYBANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender",
-        "Syndication Agents" .
-
-<MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH%2C_INC> <http://example.org/isInstanceOf/> "Bookrunners" .
-
-<MONRO_MUFFLER_BRAKE%2C_INC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<TD_BANK%2C_N.A.> <http://example.org/isInstanceOf/> "Documentation Agents\\n\\n",
-        "Lender" .
-
-<TRUST_COMPANY> <http://example.org/isInstanceOf/> "Documentation Agents\\n\\n" .
-
-<WELLS_FARGO_BANK> <http://example.org/isInstanceOf/> "Documentation Agents\\n\\n" .
-
-<WELLS_FARGO_BANK%2C_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
 <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender,
         org_role:Syndication_Agents .
@@ -1356,10 +1316,12 @@ org_name:CITIZENS_BANK%2C_N.A a base:Organization ;
 
 <http://example.org/org_name/CITIZENS_BANK%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Administrative_Agent%5Cn%5Cn,
-        org_role:Lead_Arrangers .
+        org_role:Lead_Arrangers,
+        org_sub_role:Joint .
 
 org_name:KEYBANC_CAPITAL_MARKETS%2C_INC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lead_Arrangers .
+    <http://example.org/isInstanceOf/> org_role:Lead_Arrangers,
+        org_sub_role:Joint .
 
 org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender,
@@ -1444,15 +1406,6 @@ org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
         org_role:LEAD_ARRANGERS .
 
 org_sub_role:JOINT_LEAD rdfs:subClassOf org_role:ARRANGERS .
-
-org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
-        org_role:Book_Runner,
-        org_role:Book_Runners,
-        org_role:Bookrunner,
-        org_role:Bookrunners,
-        org_role:Bookrunners%5Cn,
-        org_role:Lead_Arranger,
-        org_role:Lead_Arrangers .
 
 org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
         org_role:Runner .
@@ -1637,7 +1590,14 @@ org_name:FIRST_NIAGARA_BANK%2C_N.A.%2C a base:Organization ;
     rel:hasEmployee <http://example.org/person_name/%5CnRandall_R._Phillips>,
         person_name:Michael_K._Makaitis .
 
-"Lead Arrangers" <http://example.org/isInstanceOf/> "Joint " .
+org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
+        org_role:Book_Runner,
+        org_role:Book_Runners,
+        org_role:Bookrunner,
+        org_role:Bookrunners,
+        org_role:Bookrunners%5Cn,
+        org_role:Lead_Arranger,
+        org_role:Lead_Arrangers .
 
 <http://example.org/org_name/CITIBANK_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender ;

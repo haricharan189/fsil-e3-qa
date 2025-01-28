@@ -1305,29 +1305,13 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<BANK_OF_AMERICA%2C_N.A.> <http://example.org/isInstanceOf/> "Initial Lender" .
-
-<BARCLAYS_BANK_PLC> <http://example.org/isInstanceOf/> "Initial Lender" .
-
-<CITIBANK%2C_N.A.> <http://example.org/isInstanceOf/> "Initial Lender" .
-
-<DEUTSCHE_BANK_AG_NEW_YORK_BRANCH%2C> <http://example.org/isInstanceOf/> "Initial Lender" .
-
-<GOLDMAN_SACHS_BANK_USA> <http://example.org/isInstanceOf/> "Co-Book Managers",
-        "Initial Lender" .
-
-<HONEYWELL_INTERNATIONAL_INC.> <http://example.org/isInstanceOf/> "Borrower," .
-
-<JPMORGAN_CHASE_BANK%2C_N.A> <http://example.org/isInstanceOf/> " Initial Lender",
-        "Administrative Agent",
-        "Co-Book Managers",
-        "Joint Lead Arrangers" .
-
 org_name:BARCLAYS_BANK_PLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Initial_Lender .
+    <http://example.org/isInstanceOf/> org_role:Initial_Lender,
+        org_sub_role:Co-Book_Managers .
 
 <http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Initial_Lender .
+    <http://example.org/isInstanceOf/> org_role:Initial_Lender,
+        org_sub_role:Co-Book_Managers .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1345,8 +1329,6 @@ org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
-
-org_sub_role:Co-Book_Managers rdfs:subClassOf org_role:Initial_Lender .
 
 org_sub_role:Co-Collateral rdfs:subClassOf org_role:Agent .
 
@@ -1411,8 +1393,6 @@ org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
 org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
         org_role:Arrangers,
         org_role:Bookrunner .
-
-org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
 
 <http://example.org/org_sub_role/L/C> rdfs:subClassOf org_role:Issuer .
 
@@ -1538,17 +1518,23 @@ loc:Floor_3%2C_Ops_2%5Cn%5Cn500_Stanton_Christiana_Rd.%5Cn%5CnNewark%2C_DE_19713
     rel:isLocationOf org_name:JPMORGAN_CHASE_BANK%2C_N.A .
 
 org_name:DEUTSCHE_BANK_AG_NEW_YORK_BRANCH%2C a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Initial_Lender ;
+    <http://example.org/isInstanceOf/> org_role:Initial_Lender,
+        org_sub_role:Co-Book_Managers ;
     rel:hasLocationAt loc:Director .
 
 org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Initial_Lender ;
+    <http://example.org/isInstanceOf/> org_role:Initial_Lender,
+        org_sub_role:Co-Book_Managers ;
     rel:hasEmployee person_name:Robert_Ehudin .
 
 org_name:JPMORGAN_CHASE_BANK%2C_N.A a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
-        org_role:Initial_Lender ;
+        org_role:Initial_Lender,
+        org_sub_role:Co-Book_Managers,
+        org_sub_role:Joint_Lead_Arrangers ;
     rel:hasLocationAt loc:Floor_3%2C_Ops_2%5Cn%5Cn500_Stanton_Christiana_Rd.%5Cn%5CnNewark%2C_DE_19713 .
+
+org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
 
 person_name:Carolyn_Kee a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Vice_President ;
@@ -1575,11 +1561,9 @@ person_name:Virginia_Cosenza a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Vice_President ;
     rel:isEmployedBy <http://example.org/org_name/HONEYWELL_INTERNATIONAL_INC.> .
 
-" Initial Lender" <http://example.org/isInstanceOf/> "Co-Book Managers",
-        "Joint Lead Arrangers" .
-
 <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Initial_Lender ;
+    <http://example.org/isInstanceOf/> org_role:Initial_Lender,
+        org_sub_role:Co-Book_Managers ;
     rel:hasEmployee person_name:Craig_Malloy,
         person_name:Mukesh_Singh .
 
@@ -1589,5 +1573,5 @@ person_name:Virginia_Cosenza a base:Person ;
         person_name:John_J._Tus,
         person_name:Virginia_Cosenza .
 
-"Initial Lender" <http://example.org/isInstanceOf/> "Co-Book Managers" .
+org_sub_role:Co-Book_Managers rdfs:subClassOf org_role:Initial_Lender .
 

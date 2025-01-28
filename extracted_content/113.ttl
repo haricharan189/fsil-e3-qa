@@ -1305,26 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<BANK_OF_AMERICA%2C_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
-<BANK_OF_AMERICA%2C_N.A.%2C> <http://example.org/isInstanceOf/> "Lender" .
-
-<HURCO_B.V.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Borrowers" .
-
-<HURCO_COMPANIES%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS",
-        "Borrowers" .
-
-<HURCO_INTERNATIONAL%2C_INC.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<HURCO_INTERNATIONAL_HOLDINGS%2C_INC.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<HURCO_MIDWEST%2C_LLC> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<MACHINERY_SALES_CO._LLC> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<MILLTRONICS_USA%2C_INC.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
 loc:600_East_96th_Street%2C_Suite_600%5Cn%5CnIndianapolis%2C_Indiana_46240_USA a base:Location .
 
 <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;

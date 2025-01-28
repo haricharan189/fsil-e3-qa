@@ -1305,19 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<AF_V_ENERGY_I_HOLDINGS%2C_L.P.> <http://example.org/isInstanceOf/> "Lender" .
-
-<AF_V_Energy_I_Holdings%2C_L.P.> <http://example.org/isInstanceOf/> "Lender" .
-
-<GASTAR_MIDCO_HOLDINGS_LLC> <http://example.org/isInstanceOf/> "BORROWER" .
-
-<GASTAR_MIDCO_HOLDINGS_LLC%2C> <http://example.org/isInstanceOf/> "Borrower" .
-
-<Gastar_Midco_Holdings_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<Milbank_Tweed_Hadley_%26_McCloy_LLP> <http://example.org/isInstanceOf/> "Borrower",
-        "Lender" .
-
 <http://example.org/org_name/AF_V_ENERGY_I_HOLDINGS%2C_L.P.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender .
 

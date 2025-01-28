@@ -1305,29 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnREGIONS_BANK> <http://example.org/isInstanceOf/> "Lender",
-        "Syndication Agent" .
-
-<BLACK_CREEK_DIVERSIFIED_PROPERTY_OPERATING_PARTNERSHIP_LP> <http://example.org/isInstanceOf/> "Borrower" .
-
-<CAPITAL_ONE%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Documentation Agent",
-        "Lender" .
-
-<MUFG_UNION_BANK%2C_N.A> <http://example.org/isInstanceOf/> "Lender" .
-
-<RAYMOND_JAMES_BANK%2C_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
-<REGIONS_CAPITAL_MARKETS> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint Lead" .
-
-<WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Administrative Agent",
-        "Lender" .
-
-<WELLS_FARGO_SECURITIES%2C_LLC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint Lead" .
-
 <http://example.org/org_name/%5CnREGIONS_BANK> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender,
         org_role:Syndication_Agent .
@@ -1338,11 +1315,13 @@ org_name:CAPITAL_ONE%2C_NATIONAL_ASSOCIATION a base:Organization ;
 
 org_name:REGIONS_CAPITAL_MARKETS a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint_Lead .
 
 org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint_Lead .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1422,10 +1401,6 @@ org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
 
 org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
         org_role:Runner .
-
-org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
 
@@ -1591,7 +1566,9 @@ person_name:Lainie_Minnick a base:Person ;
         person_position:Treasurer ;
     rel:isEmployedBy org_name:BLACK_CREEK_DIVERSIFIED_PROPERTY_OPERATING_PARTNERSHIP_LP .
 
-"Arrangers" <http://example.org/isInstanceOf/> "Joint Lead" .
+org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
 
 <http://example.org/org_name/RAYMOND_JAMES_BANK%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender ;

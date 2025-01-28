@@ -1305,18 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<MIDCAP_FINANCIAL_TRUST> <http://example.org/isInstanceOf/> "AGENT",
-        "Agent",
-        "LENDER",
-        "Lender" .
-
-<MODUSLINK_CORPORATION> <http://example.org/isInstanceOf/> "Borrower",
-        "\\nBORROWERS" .
-
-<SALESLINK_MEXICO_HOLDING_CORP.> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<SOL_HOLDINGS%2C_INC> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
 <http://example.org/org_name/Apollo_Capital_Management%2C_L.P.> a base:Organization .
 
 org_name:MIDCAP_FINANCIAL_TRUST a base:Organization ;

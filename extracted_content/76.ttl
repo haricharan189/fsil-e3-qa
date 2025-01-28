@@ -1304,47 +1304,15 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5Cn%5CnTHE_BANK_OF_MONTREAL> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Lead" .
-
-<DEUTSCHE_BANK_SECURITIES_INC.> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Lead" .
-
-<MICROSEMI_CORPORATION> <http://example.org/isInstanceOf/> "Borrower" .
-
-<MORGAN_STANLEY_SENIOR_FUNDING%2C_INC> <http://example.org/isInstanceOf/> "Administrative Agent",
-        "Arrangers",
-        "Bookrunners",
-        "Collateral Agent",
-        "Lead" .
-
-<O%27Melveny_%26_Myers_LLP> <http://example.org/isInstanceOf/> "counsel to the Borrower" .
-
-<O%E2%80%99Melveny_%26_Myers_LLP> <http://example.org/isInstanceOf/> "counsel to the Borrower" .
-
-<O%E2%80%99Melveny_%26_Myers_LLP%2C> <http://example.org/isInstanceOf/> "counsel to the Borrower" .
-
-<RBC_CAPITAL_MARKETS> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Lead" .
-
-<SUNTRUST_ROBINSON_HUMPHREY%2C_INC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Lead" .
-
-<THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD.> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Lead" .
-
 <http://example.org/org_name/%5Cn%5CnTHE_BANK_OF_MONTREAL> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Lead .
 
 <http://example.org/org_name/DEUTSCHE_BANK_SECURITIES_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Lead .
 
 org_name:Deloitte_%26_Touche_LLP a base:Organization .
 
@@ -1363,15 +1331,18 @@ org_name:PricewaterhouseCoopers_LLP a base:Organization .
 
 org_name:RBC_CAPITAL_MARKETS a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Lead .
 
 org_name:SUNTRUST_ROBINSON_HUMPHREY%2C_INC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Lead .
 
 <http://example.org/org_name/THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Lead .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1464,10 +1435,6 @@ org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
         org_role:Lender .
 
 org_sub_role:LEAD rdfs:subClassOf org_role:ARRANGER .
-
-org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Lender rdfs:subClassOf org_role:Issuing_Bank .
 
@@ -1575,7 +1542,8 @@ org_name:MORGAN_STANLEY_SENIOR_FUNDING%2C_INC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
         org_role:Arrangers,
         org_role:Bookrunners,
-        org_role:Collateral_Agent ;
+        org_role:Collateral_Agent,
+        org_sub_role:Lead ;
     rel:hasEmployee person_name:Jonathon_Rauen .
 
 person_name:John_W._Hohener a base:Person ;
@@ -1589,5 +1557,7 @@ person_name:Jonathon_Rauen a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
     rel:isEmployedBy org_name:MORGAN_STANLEY_SENIOR_FUNDING%2C_INC .
 
-"Arrangers" <http://example.org/isInstanceOf/> "Lead" .
+org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
 

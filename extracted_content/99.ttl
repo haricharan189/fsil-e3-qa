@@ -1305,124 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnCBOCS_PENNSYLVANIA%2C_LLC> <http://example.org/isInstanceOf/> "Guarantor\\n" .
-
-<%5CnCBOCS_PROPERTIES%2C_INC.> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<%5CnCBOCS_TEXAS%2C_LLC> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<%5CnCO%C3%96PERATIEVE_CENTRALE_RAIFFEISEN-BOERENLEENBANK_B.A._%C2%93RABOBANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<%5CnFIRST_TENNESSEE_BANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender" .
-
-<%5CnGREENSTONE_FARM_CREDIT_SERVICES> <http://example.org/isInstanceOf/> "Lender\\n" .
-
-<%5CnPNC_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender" .
-
-<%5CnREGIONS_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<%5CnROCKING_CHAIR%2C_INC.> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<%5CnSYNOVUS_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<%5CnTHE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD.> <http://example.org/isInstanceOf/> "Lender\\n" .
-
-<%5CnUS_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender" .
-
-<AVENUE_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<BANK_OF_AMERICA> <http://example.org/isInstanceOf/> "Lender" .
-
-<BANK_OF_AMERICA%2C_N.A> <http://example.org/isInstanceOf/> "Agent",
-        "Co-Syndication" .
-
-<BRANCH_BANKING_AND_TRUST_COMPANY> <http://example.org/isInstanceOf/> "Lender\\n" .
-
-<CBOCS_DISTRIBUTION%2C_INC.> <http://example.org/isInstanceOf/> "Guarantor\\n" .
-
-<CBOCS_Distribution%2C_Inc.> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<CBOCS_Pennsylvania%2C_LLC> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<CBOCS_Properties%2C_Inc> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<CBOCS_SUPPLY%2C_INC> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<CBOCS_Supply%2C_Inc.> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<CBOCS_Texas%2C_LLC> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<CBOCS_WEST%2C_INC.> <http://example.org/isInstanceOf/> "Guarantor" .
-
-<CBOCS_West%2C_Inc.> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<CB_MUSIC_LLC> <http://example.org/isInstanceOf/> "Guarantor\\n\\n" .
-
-<CB_Music_LLC> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<CO%C3%96PERATIEVE_CENTRALE_RAIFFEISEN-BOERENLEENBANK_B.A.> <http://example.org/isInstanceOf/> "Agent",
-        "Arrangers",
-        "Bookrunners",
-        "Co-Syndication",
-        "Joint",
-        "Joint Lead" .
-
-<CRACKER%C2%A0BARREL%C2%A0OLD%C2%A0COUNTRY%C2%A0STORE%2C%C2%A0INC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<CRACKER_BARREL_OLD_COUNTRY_STORE%2C_INC.> <http://example.org/isInstanceOf/> "Borrower" .
-
-<Cracker_Barrel_Old_Country_Store%2C_Inc.> <http://example.org/isInstanceOf/> "Borrower" .
-
-<FIFTH_THIRD_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint",
-        "Joint Lead" .
-
-<PINNACLE_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<RABOBANK_NEDERLAND> <http://example.org/isInstanceOf/> "Agent",
-        "Arrangers",
-        "Bookrunners",
-        "Co-Syndication",
-        "Joint",
-        "Joint Lead" .
-
-<REGIONS_BANK> <http://example.org/isInstanceOf/> "Agent",
-        "Co-Documentation" .
-
-<Rocking_Chair%2C_Inc.> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<SUNTRUST_BANK> <http://example.org/isInstanceOf/> "Agent",
-        "Co-Documentation",
-        "Lender" .
-
-<THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD.> <http://example.org/isInstanceOf/> "Agent",
-        "Co-Documentation" .
-
-<THE_SUBSIDIARY_GUARANTORS_NAMED_HEREIN> <http://example.org/isInstanceOf/> "Guarantors" .
-
-<US_BANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Agent",
-        "Co-Documentation" .
-
-<WELLS%C2%A0FARGO%C2%A0BANK%2C%C2%A0NATIONAL%C2%A0ASSOCIATION> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent",
-        "Bank",
-        "Collateral",
-        "Lender",
-        "Swing Line" .
-
-<WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Agent",
-        "Collateral" .
-
-<WELLS_FARGO_SECURITIES%2C_LLC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint",
-        "Joint Lead" .
-
-<Wells_Fargo_Bank%2C_National_Association> <http://example.org/isInstanceOf/> "Administrative\\n\\nAgent" .
-
 <http://example.org/org_name/%5CnCBOCS_TEXAS%2C_LLC> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Guarantor .
 
@@ -1436,7 +1318,11 @@ org_name:BANK_OF_AMERICA a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender .
 
 org_name:BANK_OF_AMERICA%2C_N.A a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent .
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative,
+        org_sub_role:Co-Documentation,
+        org_sub_role:Co-Syndication,
+        org_sub_role:Collateral .
 
 org_name:BRANCH_BANKING_AND_TRUST_COMPANY a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender%5Cn .
@@ -1474,7 +1360,13 @@ org_name:CB_Music_LLC a base:Organization ;
 <http://example.org/org_name/CO%C3%96PERATIEVE_CENTRALE_RAIFFEISEN-BOERENLEENBANK_B.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
         org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Administrative,
+        org_sub_role:Co-Documentation,
+        org_sub_role:Co-Syndication,
+        org_sub_role:Collateral,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 <http://example.org/org_name/CRACKER_BARREL_OLD_COUNTRY_STORE%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower .
@@ -1484,7 +1376,9 @@ org_name:FIFTH_THIRD_BANK a base:Organization ;
 
 org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 org_name:PINNACLE_BANK a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender .
@@ -1492,38 +1386,71 @@ org_name:PINNACLE_BANK a base:Organization ;
 org_name:RABOBANK_NEDERLAND a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
         org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Administrative,
+        org_sub_role:Co-Documentation,
+        org_sub_role:Co-Syndication,
+        org_sub_role:Collateral,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 org_name:REGIONS_BANK a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent .
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative,
+        org_sub_role:Co-Documentation,
+        org_sub_role:Co-Syndication,
+        org_sub_role:Collateral .
 
 <http://example.org/org_name/Rocking_Chair%2C_Inc.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:GUARANTOR .
 
 org_name:SUNTRUST_BANK a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Co-Documentation,
+        org_sub_role:Co-Syndication,
+        org_sub_role:Collateral .
 
 <http://example.org/org_name/THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent .
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative,
+        org_sub_role:Co-Documentation,
+        org_sub_role:Co-Syndication,
+        org_sub_role:Collateral .
 
 org_name:THE_SUBSIDIARY_GUARANTORS_NAMED_HEREIN a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Guarantors .
 
 org_name:US_BANK_NATIONAL_ASSOCIATION a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent .
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative,
+        org_sub_role:Co-Documentation,
+        org_sub_role:Co-Syndication,
+        org_sub_role:Collateral .
 
 org_name:WELLS%C2%A0FARGO%C2%A0BANK%2C%C2%A0NATIONAL%C2%A0ASSOCIATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
         org_role:Bank,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Co-Documentation,
+        org_sub_role:Co-Syndication,
+        org_sub_role:Collateral,
+        org_sub_role:Swing_Line .
 
 org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent .
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative,
+        org_sub_role:Co-Documentation,
+        org_sub_role:Co-Syndication,
+        org_sub_role:Collateral .
 
 org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1534,11 +1461,6 @@ org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
 
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
-
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
 
@@ -1546,17 +1468,7 @@ org_sub_role:Co-Book_Managers rdfs:subClassOf org_role:Initial_Lender .
 
 org_sub_role:Co-Collateral rdfs:subClassOf org_role:Agent .
 
-org_sub_role:Co-Documentation rdfs:subClassOf org_role:Agent,
-        org_role:Agents .
-
-org_sub_role:Co-Syndication rdfs:subClassOf org_role:Agent,
-        org_role:Agents .
-
 org_sub_role:Collatera rdfs:subClassOf org_role:Agent .
-
-org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
-        org_role:Agent%5Cn,
-        org_role:Trustee .
 
 org_sub_role:DOCUMENTATION rdfs:subClassOf org_role:AGENTS .
 
@@ -1592,21 +1504,8 @@ org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
 
 org_sub_role:JOINT_LEAD rdfs:subClassOf org_role:ARRANGERS .
 
-org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
-        org_role:Book_Runner,
-        org_role:Book_Runners,
-        org_role:Bookrunner,
-        org_role:Bookrunners,
-        org_role:Bookrunners%5Cn,
-        org_role:Lead_Arranger,
-        org_role:Lead_Arrangers .
-
 org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
         org_role:Runner .
-
-org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
 
@@ -1662,9 +1561,6 @@ org_sub_role:Sterling_Swing rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Subsidiary rdfs:subClassOf org_role:Borrower .
 
-org_sub_role:Swing_Line rdfs:subClassOf org_role:Bank,
-        org_role:Lender .
-
 org_sub_role:Swing_Line_Lender rdfs:subClassOf org_role:LENDER,
         org_role:LENDERS%3A .
 
@@ -1718,8 +1614,6 @@ org_sub_role:sole rdfs:subClassOf org_role:General_Partner,
         org_role:manager .
 
 org_sub_role:syndication rdfs:subClassOf org_role:agent .
-
-"Agent " <http://example.org/isInstanceOf/> "Administrative" .
 
 loc:150_Third_Avenue_South%2C_Suite_2800%5Cn%5CnNashville%2C_TN_37201 a base:Location ;
     <http://example.org/isInstanceOf/> base:Location ;
@@ -1775,6 +1669,9 @@ org_name:CRACKER%C2%A0BARREL%C2%A0OLD%C2%A0COUNTRY%C2%A0STORE%2C%C2%A0INC a base
 <http://example.org/org_name/Cracker_Barrel_Old_Country_Store%2C_Inc.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower ;
     rel:hasLocationAt loc:305_Hartman_Drive%5Cn%5CnP.O._Box_787%5Cn%5CnLebanon%2C_Tennessee_37088-0787 .
+
+org_sub_role:Swing_Line rdfs:subClassOf org_role:Bank,
+        org_role:Lender .
 
 person_name:Adriaan_Weststrate a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Managing_Director ;
@@ -1870,8 +1767,6 @@ person_name:William_H._Diehl a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
     rel:isEmployedBy org_name:AVENUE_BANK .
 
-"Bank" <http://example.org/isInstanceOf/> "Swing Line" .
-
 <http://example.org/org_name/%5CnCBOCS_PROPERTIES%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Guarantor ;
     rel:hasEmployee person_name:Doug_Couvillion,
@@ -1888,9 +1783,18 @@ org_name:Wells_Fargo_Bank%2C_National_Association a base:Organization ;
         person_name:Scott_C._Tocci,
         person_name:Stephen_A._Leon .
 
-"Arrangers" <http://example.org/isInstanceOf/> "Joint Lead" .
+org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
+        org_role:Book_Runner,
+        org_role:Book_Runners,
+        org_role:Bookrunner,
+        org_role:Bookrunners,
+        org_role:Bookrunners%5Cn,
+        org_role:Lead_Arranger,
+        org_role:Lead_Arrangers .
 
-"Bookrunners" <http://example.org/isInstanceOf/> "Joint" .
+org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
 
 <http://example.org/org_name/%5CnGREENSTONE_FARM_CREDIT_SERVICES> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender%5Cn ;
@@ -1908,8 +1812,18 @@ org_name:AVENUE_BANK a base:Organization ;
         person_name:Robert_J._Beckley,
         person_name:William_H._Diehl .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative",
-        "Co-Documentation",
-        "Co-Syndication",
-        "Collateral" .
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
+
+org_sub_role:Co-Documentation rdfs:subClassOf org_role:Agent,
+        org_role:Agents .
+
+org_sub_role:Co-Syndication rdfs:subClassOf org_role:Agent,
+        org_role:Agents .
+
+org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
+        org_role:Agent%5Cn,
+        org_role:Trustee .
 

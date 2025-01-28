@@ -1305,10 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<BANK_OF_CHINA> <http://example.org/isInstanceOf/> "Lender" .
-
-<HINES_REIT_ONE_WILSHIRE_LP> <http://example.org/isInstanceOf/> "Borrower" .
-
 loc:2001_Ross_Avenue%2C_Suite_600%5Cn%5CnDallas%2C_Texas_75201%5Cn a base:Location .
 
 loc:2800_Post_Oak_Boulevard%2C_Suite_4800%5Cn%5CnHouston%2C_Texas_77056%5Cn a base:Location .

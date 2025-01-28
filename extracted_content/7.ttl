@@ -1305,12 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<MUTUAL_OF_OMAHA_BANK> <http://example.org/isInstanceOf/> "Administrative Agent",
-        "L/C Issuer",
-        "Lender" .
-
-<SAMSON_OIL_AND_GAS_USA%2C_INC> <http://example.org/isInstanceOf/> "Borrower" .
-
 loc:1331_17th_Street%2C_Suite_710%2C_Denver%2C_CO_80202 a base:Location .
 
 loc:1550_Seventeenth_Street%2C_Suite_500%5Cn%5CnDenver%2C_Colorado%C2%A0%C2%A080202-1500%5Cn%5Cn a base:Location .

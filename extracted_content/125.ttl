@@ -1305,22 +1305,13 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<BANK_OF_AMERICA%2C_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
-<PUBLIC_SERVICE_COMPANY_OF_NEW_MEXICO> <http://example.org/isInstanceOf/> "BORROWER" .
-
-<U.S._BANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> " Agent",
-        "Administrative",
-        "Arranger ",
-        "Book Manager",
-        "Lead ",
-        "Lender " .
-
 org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
         org_role:Arranger,
         org_role:Book_Manager,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Lead .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1330,11 +1321,6 @@ org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1413,10 +1399,6 @@ org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
         org_role:Lender .
 
 org_sub_role:LEAD rdfs:subClassOf org_role:ARRANGER .
-
-org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Lender rdfs:subClassOf org_role:Issuing_Bank .
 
@@ -1539,6 +1521,15 @@ org_name:PUBLIC_SERVICE_COMPANY_OF_NEW_MEXICO a base:Organization ;
 org_name:US_Bank_Agency_Services a base:Organization ;
     rel:hasLocationAt loc:1420_5th_Avenue%2C_9th_Floor%5CnSeattle%2C_WA_98101 .
 
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
+
+org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
+
 person_name:David_R._Barney a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
     rel:isEmployedBy <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> .
@@ -1556,10 +1547,6 @@ person_name:Joseph_D._Tarry a base:Person ;
         person_position:Treasurer,
         person_position:Vice_President ;
     rel:isEmployedBy org_name:Public_Service_Company_of_New_Mexico .
-
-" Agent" <http://example.org/isInstanceOf/> "Administrative" .
-
-"Arranger " <http://example.org/isInstanceOf/> "Lead " .
 
 <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender ;

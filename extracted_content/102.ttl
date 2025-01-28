@@ -1305,32 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<DIGIRAD_CORPORATION> <http://example.org/isInstanceOf/> "ADMINISTRATIVE",
-        "BORROWER",
-        "BORROWERS",
-        "Borrower" .
-
-<DIGIRAD_IMAGING_SOLUTIONS%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<DMS_HEALTH_TECHNOLOGIES%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<DMS_IMAGING%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<MD_OFFICE_SOLUTIONS> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<PROJECT_RENDEZVOUS_HOLDING_CORPORATION> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<TELERHYTHMICS%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent",
-        "Arranger",
-        "Book Runner",
-        "Lender",
-        "Runner",
-        "Sole Book",
-        "Sole Lead" .
-
 <http://example.org/org_name/DIGIRAD_IMAGING_SOLUTIONS%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:BORROWERS .
 
@@ -1354,14 +1328,6 @@ org_name:TELERHYTHMICS%2C_LLC a base:Organization ;
 <http://example.org/org_sub_role/%5CnCo-Documentation> rdfs:subClassOf org_role:Agent .
 
 <http://example.org/org_sub_role/%5CnJoint_Lead> rdfs:subClassOf org_role:Arranger .
-
-org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
-        org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1475,11 +1441,6 @@ org_sub_role:Servicing rdfs:subClassOf org_role:Agent .
 
 org_sub_role:Sole rdfs:subClassOf org_role:Bookrunner .
 
-org_sub_role:Sole_Book rdfs:subClassOf org_role:Manager,
-        org_role:Runner .
-
-org_sub_role:Sole_Lead rdfs:subClassOf org_role:Arranger .
-
 org_sub_role:Sole_Lead_Arranger rdfs:subClassOf org_role:Arranger .
 
 org_sub_role:Sterling_Swing rdfs:subClassOf org_role:Lender .
@@ -1562,6 +1523,19 @@ loc:695_Town_Center_Drive%2C_17th_Floor%5Cn%C2%A0%5CnCosta_Mesa%2C_CA_92626 a ba
 <http://example.org/org_name/%5CnOLSHAN_FROME_WOLOSKY_LLP> a base:Organization ;
     rel:hasLocationAt loc:65_East_55th_Street%5Cn%C2%A0%5CnNew_York%2C_NY_10022 .
 
+org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
+        org_role:BORROWER .
+
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
+
+org_sub_role:Sole_Book rdfs:subClassOf org_role:Manager,
+        org_role:Runner .
+
+org_sub_role:Sole_Lead rdfs:subClassOf org_role:Arranger .
+
 person_name:Adam_Finerman a base:Person ;
     <http://example.org/isInstanceOf/> <http://example.org/person_position/Esq.> ;
     rel:isEmployedBy org_name:PAUL_HASTINGS_LLP .
@@ -1579,18 +1553,11 @@ person_name:Kathy_R._Plisko a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Authorized_Signatory ;
     rel:isEmployedBy org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative" .
-
-"Arranger" <http://example.org/isInstanceOf/> "Sole Lead" .
-
-"BORROWER" <http://example.org/isInstanceOf/> "ADMINISTRATIVE" .
-
-"Runner" <http://example.org/isInstanceOf/> "Sole Book" .
-
 org_name:DIGIRAD_CORPORATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:BORROWER,
         org_role:BORROWERS,
-        org_role:Borrower ;
+        org_role:Borrower,
+        org_sub_role:ADMINISTRATIVE ;
     rel:hasEmployee person_name:Jeffry_R._Keyes ;
     rel:hasLocationAt loc:1048_Industrial_Court%2C_Suite_E%5Cn%C2%A0%5CnSuwanee%2C_GA_30024 .
 
@@ -1599,7 +1566,10 @@ org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
         org_role:Arranger,
         org_role:Book_Runner,
         org_role:Lender,
-        org_role:Runner ;
+        org_role:Runner,
+        org_sub_role:Administrative,
+        org_sub_role:Sole_Book,
+        org_sub_role:Sole_Lead ;
     rel:hasEmployee person_name:Kathy_R._Plisko ;
     rel:hasLocationAt loc:2450_Colorado_Avenue%2C_Suite_3000_West%5CnSanta_Monica%2C_CA_90404 .
 

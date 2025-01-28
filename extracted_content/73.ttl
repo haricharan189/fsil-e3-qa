@@ -1304,44 +1304,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<BANK_OF_AMERICA> <http://example.org/isInstanceOf/> " L/C Issuer",
-        "Administrative Agent",
-        "Collateral Agent",
-        "Joint Bookrunners",
-        "Joint Lead Arrangers",
-        "Swing Line Lender " .
-
-<BARCLAYS_BANK_PLC> <http://example.org/isInstanceOf/> "Joint Bookrunners",
-        "Joint Lead Arrangers" .
-
-<CAPITAL_ONE> <http://example.org/isInstanceOf/> "Co-Managers" .
-
-<CITIZENS_BANK%2C_NATIONAL_ASSOCIATION%5Cn%5Cn> <http://example.org/isInstanceOf/> "Co-Managers" .
-
-<CREDIT_SUISSE_SECURITIES_%28USA%29_LLC> <http://example.org/isInstanceOf/> "Joint Bookrunners",
-        "Joint Lead Arrangers" .
-
-<Cr%C3%A9dit_Industriel_et_Commercial%2C_New_York_Bank> <http://example.org/isInstanceOf/> "Lender" .
-
-<DEUTSCHE_BANK_SECURITIES_INC> <http://example.org/isInstanceOf/> "Joint Bookrunners",
-        "Joint Lead Arrangers" .
-
-<FIFTH_THIRD_BANK> <http://example.org/isInstanceOf/> "Co-Managers" .
-
-<NEXSTAR_BROADCASTING%2C_INC.> <http://example.org/isInstanceOf/> "Borrower" .
-
-<NEXSTAR_MEDIA_GROUP%2C_INC.> <http://example.org/isInstanceOf/> "Holding Company" .
-
-<Raymond_James_Bank%2C_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
-<SUNTRUST_ROBINSON_HUMPHREY%2C_INC> <http://example.org/isInstanceOf/> "Joint Bookrunners",
-        "Joint Lead Arrangers" .
-
-<THE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD> <http://example.org/isInstanceOf/> "Co-Managers" .
-
-<WELLS_FARGO_SECURITIES%2C_LLC> <http://example.org/isInstanceOf/> "Joint Bookrunners",
-        "Joint Lead Arrangers" .
-
 org_name:BANK_OF_AMERICA a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Administrative_Agent,
         org_role:Collateral_Agent,

@@ -1305,177 +1305,131 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<ABN_AMRO_CAPITAL_USA_LLC> <http://example.org/isInstanceOf/> "Lender" .
-
-<ABN_AMRO_Capital_LLC> <http://example.org/isInstanceOf/> "agents",
-        "co-syndication" .
-
-<ABN_AMRO_Capital_USA_LLC> <http://example.org/isInstanceOf/> "Arrangers" .
-
-<ARVEST_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<BANK_OF_AMERICA%2C_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
-<BANK_OF_THE_WEST> <http://example.org/isInstanceOf/> "Lender" .
-
-<BMO_HARRIS_BANK_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
-<BMO_Harris_Bank_N.A> <http://example.org/isInstanceOf/> "Arrangers" .
-
-<BMO_Harris_Bank_N.A.> <http://example.org/isInstanceOf/> "agents",
-        "co-syndication" .
-
-<BOKF%2C_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
-<BRANCH_BANKING_AND_TRUST_COMPANY> <http://example.org/isInstanceOf/> "Lender" .
-
-<Bank_of_America%2C_N.A.> <http://example.org/isInstanceOf/> "agents",
-        "co-syndication" .
-
-<Bank_of_the_West> <http://example.org/isInstanceOf/> "Arrangers",
-        "agents",
-        "co-syndication" .
-
-<Branch_Banking_and_Trust_Company> <http://example.org/isInstanceOf/> "agents",
-        "co-documentation" .
-
-<CITIBANK%2C_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
-<Citibank%2C_N.A.> <http://example.org/isInstanceOf/> "agents",
-        "co-documentation" .
-
-<FARM_CREDIT_MID-AMERICA%2C_PCA> <http://example.org/isInstanceOf/> "Lender" .
-
-<FIFTH_THIRD_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<FIRST_NATIONAL_BANK_OF_OMAHA> <http://example.org/isInstanceOf/> "Lender" .
-
-<Farm_Credit_Mid-America%2C_PCA> <http://example.org/isInstanceOf/> "Arrangers" .
-
-<Fifth_Third_Bank> <http://example.org/isInstanceOf/> "Arrangers",
-        "agents",
-        "co-syndication" .
-
-<G%C3%89N%C3%89RALE> <http://example.org/isInstanceOf/> "Lender" .
-
-<JPMORGAN_CHASE_BANK%2C_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
-<Jones_Day> <http://example.org/isInstanceOf/> "legal counsel" .
-
-<Merrill_Lynch%2C_Pierce%2C_Fenner_%26_Smith_Incorporated> <http://example.org/isInstanceOf/> "Arrangers" .
-
-<PNC_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender" .
-
-<Sidley_Austin_LLP> <http://example.org/isInstanceOf/> "legal counsel" .
-
-<THE_BANK_OF_NOVA_SCOTIA> <http://example.org/isInstanceOf/> "Lender" .
-
-<The_Andersons%2C_Inc.> <http://example.org/isInstanceOf/> "Borrower" .
-
-<U.S._BANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent",
-        "Lender",
-        "Swing Line" .
-
-<U.S._Bank> <http://example.org/isInstanceOf/> "Arrangers",
-        "Lender",
-        "Swing Line" .
-
-<U.S._Bank_National_Association> <http://example.org/isInstanceOf/> "LC Issuer" .
-
 loc:1420_5th_Avenue%2C_Seattle%2C_WA_98121 a base:Location .
 
 loc:1947_Briarfield_Boulevard%2C_Maumee%2C_OH_43537 a base:Location .
 
 org_name:ABN_AMRO_CAPITAL_USA_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:ABN_AMRO_Capital_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:agents .
+    <http://example.org/isInstanceOf/> org_role:agents,
+        org_sub_role:co-documentation,
+        org_sub_role:co-syndication .
 
 org_name:ABN_AMRO_Capital_USA_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers .
 
 org_name:ARVEST_BANK a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:BANK_OF_THE_WEST a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 <http://example.org/org_name/BMO_HARRIS_BANK_N.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:BMO_Harris_Bank_N.A a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers .
 
 <http://example.org/org_name/BMO_Harris_Bank_N.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:agents .
+    <http://example.org/isInstanceOf/> org_role:agents,
+        org_sub_role:co-documentation,
+        org_sub_role:co-syndication .
 
 <http://example.org/org_name/BOKF%2C_N.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:BRANCH_BANKING_AND_TRUST_COMPANY a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 <http://example.org/org_name/Bank_of_America%2C_N.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:agents .
+    <http://example.org/isInstanceOf/> org_role:agents,
+        org_sub_role:co-documentation,
+        org_sub_role:co-syndication .
 
 org_name:Bank_of_the_West a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:agents .
+        org_role:agents,
+        org_sub_role:co-documentation,
+        org_sub_role:co-syndication .
 
 org_name:Branch_Banking_and_Trust_Company a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:agents .
+    <http://example.org/isInstanceOf/> org_role:agents,
+        org_sub_role:co-documentation,
+        org_sub_role:co-syndication .
 
 <http://example.org/org_name/CITIBANK%2C_N.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 <http://example.org/org_name/Citibank%2C_N.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:agents .
+    <http://example.org/isInstanceOf/> org_role:agents,
+        org_sub_role:co-documentation,
+        org_sub_role:co-syndication .
 
 org_name:FARM_CREDIT_MID-AMERICA%2C_PCA a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:FIFTH_THIRD_BANK a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:FIRST_NATIONAL_BANK_OF_OMAHA a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:Farm_Credit_Mid-America%2C_PCA a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers .
 
 org_name:Fifth_Third_Bank a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:agents .
+        org_role:agents,
+        org_sub_role:co-documentation,
+        org_sub_role:co-syndication .
 
 org_name:G%C3%89N%C3%89RALE a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:Merrill_Lynch%2C_Pierce%2C_Fenner_%26_Smith_Incorporated a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers .
 
 org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:SOCI%C3%89T%C3%89_G%C3%89N%C3%89RALE a base:Organization .
 
 org_name:THE_BANK_OF_NOVA_SCOTIA a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender .
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:U.S._BANK_NATIONAL_ASSOCIATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Swing_Line .
 
 org_name:U.S._Bank a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:Swing_Line .
 
 org_name:U.S._Bank_National_Association a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:LC_Issuer .
@@ -1488,11 +1442,6 @@ org_name:U.S._Bank_National_Association a base:Organization ;
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1617,9 +1566,6 @@ org_sub_role:Sterling_Swing rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Subsidiary rdfs:subClassOf org_role:Borrower .
 
-org_sub_role:Swing_Line rdfs:subClassOf org_role:Bank,
-        org_role:Lender .
-
 org_sub_role:Swing_Line_Lender rdfs:subClassOf org_role:LENDER,
         org_role:LENDERS%3A .
 
@@ -1644,10 +1590,6 @@ org_sub_role:Yen_Swing rdfs:subClassOf org_role:Lender .
 org_sub_role:additional rdfs:subClassOf org_role:Credit_Party .
 
 org_sub_role:administrative rdfs:subClassOf org_role:agent .
-
-org_sub_role:co-documentation rdfs:subClassOf org_role:agents .
-
-org_sub_role:co-syndication rdfs:subClassOf org_role:agents .
 
 org_sub_role:collateral rdfs:subClassOf org_role:agent,
         org_role:trustee .
@@ -1692,6 +1634,11 @@ org_name:Sidley_Austin_LLP a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:legal_counsel ;
     rel:hasLocationAt loc:One_South_Dearborn%2C_Chicago%2C_Illinois_60603 .
 
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
+
 person_name:Brian_A._Valentine a base:Person ;
     <http://example.org/isInstanceOf/> <http://example.org/org_name/The_Andersons%2C_Inc.> ;
     rel:isEmployedBy <http://example.org/org_name/The_Andersons%2C_Inc.> .
@@ -1699,8 +1646,6 @@ person_name:Brian_A._Valentine a base:Person ;
 person_name:Robert_Graves a base:Person ;
     <http://example.org/isInstanceOf/> org_name:Jones_Day ;
     rel:isEmployedBy org_name:Jones_Day .
-
-"Agent" <http://example.org/isInstanceOf/> "Administrative" .
 
 <http://example.org/org_name/The_Andersons%2C_Inc.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower ;
@@ -1711,8 +1656,10 @@ org_name:Jones_Day a base:Organization ;
     rel:hasEmployee person_name:Robert_Graves ;
     rel:hasLocationAt loc:77_W._Wacker_Drive%2C_Chicago%2C_Illinois_60601 .
 
-"agents" <http://example.org/isInstanceOf/> "co-documentation",
-        "co-syndication" .
+org_sub_role:co-documentation rdfs:subClassOf org_role:agents .
 
-"Lender" <http://example.org/isInstanceOf/> "Swing Line" .
+org_sub_role:co-syndication rdfs:subClassOf org_role:agents .
+
+org_sub_role:Swing_Line rdfs:subClassOf org_role:Bank,
+        org_role:Lender .
 

@@ -1305,198 +1305,13 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnHSBC_BANK_PLC> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent" .
-
-<6922767_HOLDING_S.%C3%80_R.L.> <http://example.org/isInstanceOf/> "The Company" .
-
-<BARCLAYS_BANK_PLC> <http://example.org/isInstanceOf/> " Agent",
-        "Agents",
-        "Arranger",
-        "Arrangers",
-        "Bookrunner",
-        "Bookrunners",
-        "Co-Syndication",
-        "Joint",
-        "Joint ",
-        "Joint Lead",
-        "Lender" .
-
-<BNP_PARIBAS> <http://example.org/isInstanceOf/> "Lender" .
-
-<BNP_Paribas_%28Canada%29> <http://example.org/isInstanceOf/> "Lenders" .
-
-<Barclays_Bank_PLC> <http://example.org/isInstanceOf/> "Lenders" .
-
-<CHC_DEN_HELDER_B.V.> <http://example.org/isInstanceOf/> "Borrowers",
-        "Designated " .
-
-<CHC_Den_Helder_B.V> <http://example.org/isInstanceOf/> "Borrowers",
-        "Designated" .
-
-<CHC_Den_Helder_B.V.> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<CHC_GLOBAL_OPERATIONS_%282008%29%C2%A0INC.> <http://example.org/isInstanceOf/> "Borrowers",
-        "Designated " .
-
-<CHC_GLOBAL_OPERATIONS_INTERNATIONAL_INC.> <http://example.org/isInstanceOf/> "Borrowers",
-        "Designated " .
-
-<CHC_GROUP_LTD> <http://example.org/isInstanceOf/> "Guarantor",
-        "Parent" .
-
-<CHC_GROUP_LTD.> <http://example.org/isInstanceOf/> "Guarantor",
-        "Parent " .
-
-<CHC_Global_Operations_%282008%29%C2%A0Inc> <http://example.org/isInstanceOf/> "Borrowers",
-        "Designated" .
-
-<CHC_Global_Operations_%282008%29_Inc> <http://example.org/isInstanceOf/> "Subsidiaries" .
-
-<CHC_Global_Operations_International_Inc> <http://example.org/isInstanceOf/> "Borrowers",
-        "Designated",
-        "Subsidiaries" .
-
-<CHC_HELICOPTER_HOLDING_S.%C3%80%C2%A0R.L.> <http://example.org/isInstanceOf/> "Holdco" .
-
-<CHC_HELICOPTER_S.A> <http://example.org/isInstanceOf/> "Borrower",
-        "Initial" .
-
-<CHC_HELICOPTER_S.A.> <http://example.org/isInstanceOf/> "Borrower",
-        "Initial " .
-
-<CHC_HOLDING_NL_B.V.> <http://example.org/isInstanceOf/> "Borrowers",
-        "Designated " .
-
-<CHC_Helicopter_S.A> <http://example.org/isInstanceOf/> "Borrowers",
-        "Designated" .
-
-<CHC_Holding_NL_B.V> <http://example.org/isInstanceOf/> "Borrowers",
-        "Designated",
-        "Subsidiaries" .
-
-<CHC_NETHERLANDS_B.V.> <http://example.org/isInstanceOf/> "Borrowers",
-        "Designated " .
-
-<CHC_NORWAY_ACQUISITION_CO_AS> <http://example.org/isInstanceOf/> "Borrowers",
-        "Designated " .
-
-<CHC_Netherlands_B.V> <http://example.org/isInstanceOf/> "Borrowers",
-        "Designated",
-        "Subsidiaries" .
-
-<CHC_Norway_Acquisition_Co_AS> <http://example.org/isInstanceOf/> "Borrowers",
-        "Designated",
-        "Subsidiaries" .
-
-<HELI-ONE_%28EUROPE%29_AS> <http://example.org/isInstanceOf/> "Borrowers",
-        "Designated " .
-
-<HELI-ONE_%28NORWAY%29_AS> <http://example.org/isInstanceOf/> "Borrowers",
-        "Designated " .
-
-<HELI-ONE_CANADA_INC> <http://example.org/isInstanceOf/> "Borrowers",
-        "Designated " .
-
-<HELI-ONE_LEASING_INC.> <http://example.org/isInstanceOf/> "Borrowers",
-        "Designated " .
-
-<HSBC_BANK_CANADA> <http://example.org/isInstanceOf/> "Arranger",
-        "Arrangers",
-        "Bank",
-        "Bookrunner",
-        "Bookrunners",
-        "Issuing",
-        "Joint",
-        "Joint Lead",
-        "Lender",
-        "Swingline " .
-
-<HSBC_BANK_PLC> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent" .
-
-<HSBC_Bank_Canada> <http://example.org/isInstanceOf/> "Lenders" .
-
-<HSBC_Bank_plc> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent" .
-
-<HSBC_CORPORATE_TRUSTEE_COMPANY_%28UK%29_LIMITED> <http://example.org/isInstanceOf/> "Agent",
-        "Collateral" .
-
-<Heli-One_%28Europe%29_AS> <http://example.org/isInstanceOf/> "Borrowers",
-        "Designated",
-        "Subsidiaries" .
-
-<Heli-One_%28Norway%29_AS> <http://example.org/isInstanceOf/> "Borrowers",
-        "Designated",
-        "Subsidiaries" .
-
-<Heli-One_Canada_Inc> <http://example.org/isInstanceOf/> "Borrowers",
-        "Designated",
-        "Subsidiaries" .
-
-<Heli-One_Leasing_Inc> <http://example.org/isInstanceOf/> "Borrowers",
-        "Designated",
-        "Subsidiaries" .
-
-<J.P._MORGAN_SECURITIES_LLC> <http://example.org/isInstanceOf/> "Agents",
-        "Arrangers",
-        "Bookrunners",
-        "Co-Syndication",
-        "Joint",
-        "Joint Lead" .
-
-<J.P._MORGAN_SECURITIES_LLC%2C> <http://example.org/isInstanceOf/> "Agent",
-        "Arranger",
-        "Bookrunner ",
-        "Co-Syndication",
-        "Joint ",
-        "\\nJoint Lead" .
-
-<JPMORGAN_CHASE_BANK%2C_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
-<JPMorgan_Chase_Bank%2C_N.A> <http://example.org/isInstanceOf/> "Lenders" .
-
-<RBC_CAPITAL_MARKETS> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint",
-        "Joint Lead" .
-
-<ROYAL_BANK_OF_CANADA> <http://example.org/isInstanceOf/> " Joint Lead",
-        "Agent",
-        "Agents",
-        "Arranger",
-        "Co-Documentation",
-        "Lender ",
-        "\\nCo-Documentation" .
-
-<Royal_Bank_of_Canada> <http://example.org/isInstanceOf/> "Lenders" .
-
-<THE_STANDARD_BANK_OF_SOUTH_AFRICA_LIMITED> <http://example.org/isInstanceOf/> "Lender" .
-
-<The_Standard_Bank_of_South_Africa_Limited> <http://example.org/isInstanceOf/> "Lenders" .
-
-<UBS_LIMITED> <http://example.org/isInstanceOf/> "Lender" .
-
-<UBS_Limited> <http://example.org/isInstanceOf/> "Lenders" .
-
-<UBS_SECURITIES_LLC> <http://example.org/isInstanceOf/> "Agent",
-        "Agents",
-        "Arranger",
-        "Arrangers",
-        "Bookrunner ",
-        "Bookrunners",
-        "Co-Documentation",
-        "Joint",
-        "Joint ",
-        "Joint Lead" .
-
-<WELLS_FARGO_BANK%2C_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
-<Wells_Fargo_Bank%2C_N.A> <http://example.org/isInstanceOf/> "Lenders" .
-
 <http://example.org/org_name/%5CnHSBC_BANK_PLC> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent .
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        <http://example.org/org_sub_role/%5CnCo-Documentation>,
+        org_sub_role:Administrative,
+        org_sub_role:Co-Documentation,
+        org_sub_role:Co-Syndication,
+        org_sub_role:Collateral .
 
 org_name:BARCLAYS_BANK_PLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
@@ -1505,7 +1320,13 @@ org_name:BARCLAYS_BANK_PLC a base:Organization ;
         org_role:Arrangers,
         org_role:Bookrunner,
         org_role:Bookrunners,
-        org_role:Lender .
+        org_role:Lender,
+        <http://example.org/org_sub_role/%5CnJoint_Lead>,
+        org_sub_role:Co-Documentation,
+        org_sub_role:Co-Syndication,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead,
+        org_sub_role:Swingline .
 
 org_name:BNP_Paribas_%28Canada%29 a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lenders .
@@ -1514,55 +1335,71 @@ org_name:Barclays_Bank_PLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lenders .
 
 <http://example.org/org_name/CHC_DEN_HELDER_B.V.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrowers .
+    <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Designated .
 
 org_name:CHC_Den_Helder_B.V a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrowers .
+    <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Designated .
 
 <http://example.org/org_name/CHC_GLOBAL_OPERATIONS_%282008%29%C2%A0INC.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrowers .
+    <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Designated .
 
 <http://example.org/org_name/CHC_GLOBAL_OPERATIONS_INTERNATIONAL_INC.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrowers .
+    <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Designated .
 
 org_name:CHC_GROUP_LTD a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor .
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Parent .
 
 <http://example.org/org_name/CHC_GROUP_LTD.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Guarantor .
+    <http://example.org/isInstanceOf/> org_role:Guarantor,
+        org_sub_role:Parent .
 
 org_name:CHC_Global_Operations_%282008%29%C2%A0Inc a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrowers .
+    <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Designated .
 
 <http://example.org/org_name/CHC_HELICOPTER_HOLDING_S.%C3%80%C2%A0R.L.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Holdco .
 
 <http://example.org/org_name/CHC_HELICOPTER_S.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+    <http://example.org/isInstanceOf/> org_role:Borrower,
+        org_sub_role:Initial .
 
 <http://example.org/org_name/CHC_HOLDING_NL_B.V.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrowers .
+    <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Designated .
 
 org_name:CHC_Helicopter_S.A a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrowers .
+    <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Designated .
 
 <http://example.org/org_name/CHC_NETHERLANDS_B.V.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrowers .
+    <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Designated .
 
 org_name:CHC_NORWAY_ACQUISITION_CO_AS a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrowers .
+    <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Designated .
 
 org_name:HELI-ONE_%28EUROPE%29_AS a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrowers .
+    <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Designated .
 
 org_name:HELI-ONE_%28NORWAY%29_AS a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrowers .
+    <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Designated .
 
 org_name:HELI-ONE_CANADA_INC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrowers .
+    <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Designated .
 
 <http://example.org/org_name/HELI-ONE_LEASING_INC.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrowers .
+    <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Designated .
 
 org_name:HSBC_Bank_Canada a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lenders .
@@ -1570,14 +1407,20 @@ org_name:HSBC_Bank_Canada a base:Organization ;
 org_name:J.P._MORGAN_SECURITIES_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agents,
         org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Co-Documentation,
+        org_sub_role:Co-Syndication,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 org_name:JPMorgan_Chase_Bank%2C_N.A a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lenders .
 
 org_name:RBC_CAPITAL_MARKETS a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 org_name:Royal_Bank_of_Canada a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lenders .
@@ -1593,17 +1436,8 @@ org_name:Wells_Fargo_Bank%2C_N.A a base:Organization ;
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
-<http://example.org/org_sub_role/%5CnCo-Documentation> rdfs:subClassOf org_role:Agent .
-
-<http://example.org/org_sub_role/%5CnJoint_Lead> rdfs:subClassOf org_role:Arranger .
-
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1612,22 +1446,9 @@ org_sub_role:Co-Book_Managers rdfs:subClassOf org_role:Initial_Lender .
 
 org_sub_role:Co-Collateral rdfs:subClassOf org_role:Agent .
 
-org_sub_role:Co-Documentation rdfs:subClassOf org_role:Agent,
-        org_role:Agents .
-
-org_sub_role:Co-Syndication rdfs:subClassOf org_role:Agent,
-        org_role:Agents .
-
 org_sub_role:Collatera rdfs:subClassOf org_role:Agent .
 
-org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
-        org_role:Agent%5Cn,
-        org_role:Trustee .
-
 org_sub_role:DOCUMENTATION rdfs:subClassOf org_role:AGENTS .
-
-org_sub_role:Designated rdfs:subClassOf org_role:Borrower,
-        org_role:Borrowers .
 
 org_sub_role:Documentation rdfs:subClassOf org_role:Agent,
         <http://example.org/org_role/Agent.>,
@@ -1641,15 +1462,9 @@ org_sub_role:Euro_Swing rdfs:subClassOf org_role:Lender .
 
 org_sub_role:General rdfs:subClassOf org_role:Partner .
 
-org_sub_role:Initial rdfs:subClassOf org_role:Borrower,
-        org_role:Lender .
-
 org_sub_role:Intercreditor rdfs:subClassOf org_role:Agent .
 
 org_sub_role:Intermediate rdfs:subClassOf org_role:Holdings .
-
-org_sub_role:Issuing rdfs:subClassOf org_role:Bank,
-        org_role:Lender .
 
 org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
         org_role:BOOK_RUNNERS,
@@ -1658,21 +1473,8 @@ org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
 
 org_sub_role:JOINT_LEAD rdfs:subClassOf org_role:ARRANGERS .
 
-org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
-        org_role:Book_Runner,
-        org_role:Book_Runners,
-        org_role:Bookrunner,
-        org_role:Bookrunners,
-        org_role:Bookrunners%5Cn,
-        org_role:Lead_Arranger,
-        org_role:Lead_Arrangers .
-
 org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
         org_role:Runner .
-
-org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
 
@@ -1690,9 +1492,6 @@ org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
 org_sub_role:Lender rdfs:subClassOf org_role:Issuing_Bank .
 
 org_sub_role:Loan_and_Agency_Services_Group rdfs:subClassOf org_role:Agent .
-
-org_sub_role:Parent rdfs:subClassOf org_role:Borrower,
-        org_role:Guarantor .
 
 org_sub_role:Rating rdfs:subClassOf org_role:Agency .
 
@@ -1735,8 +1534,6 @@ org_sub_role:Swing_Line_Lender rdfs:subClassOf org_role:LENDER,
         org_role:LENDERS%3A .
 
 org_sub_role:Swing_line rdfs:subClassOf org_role:Lender .
-
-org_sub_role:Swingline rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
         org_role:Agent%2C,
@@ -1823,6 +1620,7 @@ org_name:CHC_Global_Operations_%282008%29_Inc a base:Organization ;
 
 org_name:CHC_Global_Operations_International_Inc a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Designated,
         org_sub_role:Subsidiaries ;
     rel:hasLocationAt loc:Canada .
 
@@ -1830,30 +1628,44 @@ org_name:CHC_Global_Operations_International_Inc a base:Organization ;
     rel:hasLocationAt loc:13-15_avenue_de_la_Libert%C3%A9%2C_L-1931_Luxembourg .
 
 org_name:CHC_HELICOPTER_S.A a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    <http://example.org/isInstanceOf/> org_role:Borrower,
+        org_sub_role:Initial ;
     rel:hasLocationAt loc:13-15_avenue_de_la_Libert%C3%A9%2C_L-1931_Luxembourg .
 
 org_name:CHC_Holding_NL_B.V a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Designated,
         org_sub_role:Subsidiaries ;
     rel:hasLocationAt loc:Netherlands .
 
 org_name:CHC_Netherlands_B.V a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Designated,
         org_sub_role:Subsidiaries ;
     rel:hasLocationAt loc:Netherlands .
 
 org_name:CHC_Norway_Acquisition_Co_AS a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Designated,
         org_sub_role:Subsidiaries ;
     rel:hasLocationAt loc:Norway .
 
 org_name:HSBC_BANK_PLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        <http://example.org/org_sub_role/%5CnCo-Documentation>,
+        org_sub_role:Administrative,
+        org_sub_role:Co-Documentation,
+        org_sub_role:Co-Syndication,
+        org_sub_role:Collateral ;
     rel:hasEmployee person_name:Jeremy_Causton .
 
 org_name:HSBC_CORPORATE_TRUSTEE_COMPANY_%28UK%29_LIMITED a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        <http://example.org/org_sub_role/%5CnCo-Documentation>,
+        org_sub_role:Administrative,
+        org_sub_role:Co-Documentation,
+        org_sub_role:Co-Syndication,
+        org_sub_role:Collateral ;
     rel:hasEmployee person_name:Jason_Blondell .
 
 org_name:HSBC_Corporate_Trust_Company_%28UK%29_Limited a base:Organization ;
@@ -1861,11 +1673,13 @@ org_name:HSBC_Corporate_Trust_Company_%28UK%29_Limited a base:Organization ;
 
 org_name:Heli-One_%28Europe%29_AS a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Designated,
         org_sub_role:Subsidiaries ;
     rel:hasLocationAt loc:Norway .
 
 org_name:Heli-One_%28Norway%29_AS a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Designated,
         org_sub_role:Subsidiaries ;
     rel:hasLocationAt loc:Norway .
 
@@ -1874,26 +1688,38 @@ org_name:Heli-One_%28Norway%29_AS a base:Organization ;
 
 org_name:Heli-One_Canada_Inc a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Designated,
         org_sub_role:Subsidiaries ;
     rel:hasLocationAt loc:Canada .
 
 org_name:Heli-One_Leasing_Inc a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrowers,
+        org_sub_role:Designated,
         org_sub_role:Subsidiaries ;
     rel:hasLocationAt loc:Canada .
 
 org_name:J.P._MORGAN_SECURITIES_LLC%2C a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
         org_role:Arranger,
-        org_role:Bookrunner ;
+        org_role:Bookrunner,
+        <http://example.org/org_sub_role/%5CnCo-Documentation>,
+        <http://example.org/org_sub_role/%5CnJoint_Lead>,
+        org_sub_role:Administrative,
+        org_sub_role:Co-Documentation,
+        org_sub_role:Co-Syndication,
+        org_sub_role:Collateral,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead ;
     rel:hasEmployee person_name:Gregg_L._Byers .
 
 <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swingline ;
     rel:hasEmployee person_name:Muhammad_Hasan .
 
 org_name:THE_STANDARD_BANK_OF_SOUTH_AFRICA_LIMITED a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swingline ;
     rel:hasEmployee person_name:O._Lavitzson .
 
 org_name:UBS_SECURITIES_LLC a base:Organization ;
@@ -1902,12 +1728,24 @@ org_name:UBS_SECURITIES_LLC a base:Organization ;
         org_role:Arranger,
         org_role:Arrangers,
         org_role:Bookrunner,
-        org_role:Bookrunners ;
+        org_role:Bookrunners,
+        <http://example.org/org_sub_role/%5CnCo-Documentation>,
+        <http://example.org/org_sub_role/%5CnJoint_Lead>,
+        org_sub_role:Administrative,
+        org_sub_role:Co-Documentation,
+        org_sub_role:Co-Syndication,
+        org_sub_role:Collateral,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead ;
     rel:hasEmployee person_name:Barbara_S._Wang .
 
 <http://example.org/org_name/WELLS_FARGO_BANK%2C_N.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swingline ;
     rel:hasEmployee person_name:John_Cantalupo .
+
+org_sub_role:Issuing rdfs:subClassOf org_role:Bank,
+        org_role:Lender .
 
 person_name:Alan_Greenhow a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Director ;
@@ -1982,16 +1820,13 @@ person_name:Tony_Baratta a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Managing_Director_Corporate_Coverage_Canada ;
     rel:isEmployedBy org_name:BNP_PARIBAS .
 
-" Agent" <http://example.org/isInstanceOf/> "Co-Syndication" .
-
-"Bank" <http://example.org/isInstanceOf/> "Issuing" .
-
 <http://example.org/org_name/ATC-RCS_Corporate_Services_%28Luxembourg%29_S.A.> a base:Organization ;
     rel:hasLocationAt loc:4740_Agar_Drive%5Cn%5CnRichmond%2C_B.C.%5Cn%5CnV7B_1A3%5Cn%5CnCanada,
         loc:9%2C_rue_Sainte_Zithe%2C_3rd_Floor%5Cn%5CnL-2763_Luxembourg%5Cn%5CnLuxembourg .
 
 org_name:BNP_PARIBAS a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swingline ;
     rel:hasEmployee person_name:Chris_Golding,
         person_name:Tony_Baratta .
 
@@ -2001,25 +1836,30 @@ org_name:HSBC_BANK_CANADA a base:Organization ;
         org_role:Bank,
         org_role:Bookrunner,
         org_role:Bookrunners,
-        org_role:Lender ;
+        org_role:Lender,
+        <http://example.org/org_sub_role/%5CnJoint_Lead>,
+        org_sub_role:Issuing,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead,
+        org_sub_role:Swingline ;
     rel:hasEmployee person_name:Douglas_Brandes,
         person_name:Todd_Patchell .
 
 org_name:HSBC_Bank_plc a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        <http://example.org/org_sub_role/%5CnCo-Documentation>,
+        org_sub_role:Administrative,
+        org_sub_role:Co-Documentation,
+        org_sub_role:Co-Syndication,
+        org_sub_role:Collateral ;
     rel:hasLocationAt loc:Corporate_Trust%C2%A0%26_Loan_Agency%2C_Level_27%5Cn%5Cn8_Canada_Square%5Cn%5CnLondon_E14_5HQ,
         loc:Level_27%2C_8_Canada_Square%5Cn%5CnLondon_E14_5HQ .
 
-"Bookrunner" <http://example.org/isInstanceOf/> "Joint",
-        "Joint " .
+org_sub_role:Initial rdfs:subClassOf org_role:Borrower,
+        org_role:Lender .
 
-"Bookrunner " <http://example.org/isInstanceOf/> "Joint " .
-
-"Borrower" <http://example.org/isInstanceOf/> "Initial",
-        "Initial " .
-
-"Guarantor" <http://example.org/isInstanceOf/> "Parent",
-        "Parent " .
+org_sub_role:Parent rdfs:subClassOf org_role:Borrower,
+        org_role:Guarantor .
 
 loc:13-15_avenue_de_la_Libert%C3%A9%2C_L-1931_Luxembourg a base:Location ;
     <http://example.org/isInstanceOf/> base:Location,
@@ -2044,7 +1884,14 @@ org_name:ROYAL_BANK_OF_CANADA a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
         org_role:Agents,
         org_role:Arranger,
-        org_role:Lender ;
+        org_role:Lender,
+        <http://example.org/org_sub_role/%5CnCo-Documentation>,
+        <http://example.org/org_sub_role/%5CnJoint_Lead>,
+        org_sub_role:Administrative,
+        org_sub_role:Co-Documentation,
+        org_sub_role:Co-Syndication,
+        org_sub_role:Collateral,
+        org_sub_role:Joint_Lead ;
     rel:hasEmployee person_name:John_Hanbury,
         <http://example.org/person_name/Mark_Lumpkin%2C_Jr.>,
         person_name:Rebecca_Camden .
@@ -2057,31 +1904,47 @@ loc:Canada a base:Location ;
         org_name:Heli-One_Leasing_Inc .
 
 org_name:UBS_LIMITED a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swingline ;
     rel:hasEmployee person_name:Alan_Greenhow,
         person_name:Ann_E._Sutton,
         person_name:J._Campbell,
         person_name:John_Stholl .
 
-"Agents" <http://example.org/isInstanceOf/> "Co-Documentation",
-        "Co-Syndication" .
+<http://example.org/org_sub_role/%5CnJoint_Lead> rdfs:subClassOf org_role:Arranger .
 
-"Arranger" <http://example.org/isInstanceOf/> " Joint Lead",
-        "Joint Lead",
-        "\\nJoint Lead" .
+org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
+        org_role:Book_Runner,
+        org_role:Book_Runners,
+        org_role:Bookrunner,
+        org_role:Bookrunners,
+        org_role:Bookrunners%5Cn,
+        org_role:Lead_Arranger,
+        org_role:Lead_Arrangers .
 
-"Arrangers" <http://example.org/isInstanceOf/> "Joint Lead" .
+<http://example.org/org_sub_role/%5CnCo-Documentation> rdfs:subClassOf org_role:Agent .
 
-"Bookrunners" <http://example.org/isInstanceOf/> "Joint" .
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative",
-        "Co-Documentation",
-        "Co-Syndication",
-        "Collateral",
-        "\\nCo-Documentation" .
+org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
+        org_role:Agent%5Cn,
+        org_role:Trustee .
 
-"Lender" <http://example.org/isInstanceOf/> "Swingline " .
+org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
 
-"Borrowers" <http://example.org/isInstanceOf/> "Designated",
-        "Designated " .
+org_sub_role:Swingline rdfs:subClassOf org_role:Lender .
+
+org_sub_role:Co-Documentation rdfs:subClassOf org_role:Agent,
+        org_role:Agents .
+
+org_sub_role:Co-Syndication rdfs:subClassOf org_role:Agent,
+        org_role:Agents .
+
+org_sub_role:Designated rdfs:subClassOf org_role:Borrower,
+        org_role:Borrowers .
 

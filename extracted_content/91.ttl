@@ -1305,15 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<BANK_OF_OKLAHOMA> <http://example.org/isInstanceOf/> "LENDER",
-        "Lender" .
-
-<BOKF%2C_N.A.%2C_A_NATIONAL_BANKING_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender" .
-
-<EARTHSTONE_ENERGY_INC> <http://example.org/isInstanceOf/> "BORROWER" .
-
-<EARTHSTONE_ENERGY_INC.> <http://example.org/isInstanceOf/> "Borrower" .
-
 org_name:BOKF%2C_N.A.%2C_A_NATIONAL_BANKING_ASSOCIATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender .
 

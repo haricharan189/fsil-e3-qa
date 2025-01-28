@@ -1305,50 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnBANK_OF_AMERICA> <http://example.org/isInstanceOf/> "Co-Syndication Agent",
-        "Lender" .
-
-<%5CnCITIBANK> <http://example.org/isInstanceOf/> "Co-Documentation Agent\\n",
-        "Lender" .
-
-<%5CnTHE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD> <http://example.org/isInstanceOf/> "Lender" .
-
-<%5CnTHE_NORTHERN_TRUST_COMPANY> <http://example.org/isInstanceOf/> "Lender" .
-
-<%5CnU.S._BANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender" .
-
-<B%C3%BCtzow_Attorneys_Ltd.> <http://example.org/isInstanceOf/> "Finnish counsel for the Initial Finnish Borrower." .
-
-<BARCLAYS_BANK_PLC> <http://example.org/isInstanceOf/> "Co-Syndication Agent",
-        "Lender" .
-
-<HSBC_BANK_USA%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Co-Documentation Agent\\n",
-        "Lender" .
-
-<JPMORGAN_CHASE_BANK> <http://example.org/isInstanceOf/> "Administrative Agent",
-        "Lender",
-        "Swingline Lender," .
-
-<PERKINELMER%2C_INC> <http://example.org/isInstanceOf/> "Borrower",
-        "Subsidiary" .
-
-<PERKINELMER_HEALTH_SCIENCES%2C_INC> <http://example.org/isInstanceOf/> "Borrower",
-        "Subsidiary" .
-
-<PNC_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender" .
-
-<TD_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<THE_ROYAL_BANK_OF_SCOTLAND_PLC> <http://example.org/isInstanceOf/> "Co-Documentation Agent",
-        "Lender" .
-
-<WALLAC_OY> <http://example.org/isInstanceOf/> "Borrower",
-        "Subsidiary" .
-
-<WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender" .
-
-<Wilmer_Cutler_Pickering_Hale_and_Dorr_LLP%2C> <http://example.org/isInstanceOf/> "U.S. counsel for the initial Borrowers.\\n " .
-
 <http://example.org/location/%5CnMustionkatu_6%5Cn%5Cn20750_Turku%2C_Finland> a base:Location .
 
 loc:940_Winter_Street a base:Location .
@@ -1528,8 +1484,6 @@ org_sub_role:Sole_Lead_Arranger rdfs:subClassOf org_role:Arranger .
 
 org_sub_role:Sterling_Swing rdfs:subClassOf org_role:Lender .
 
-org_sub_role:Subsidiary rdfs:subClassOf org_role:Borrower .
-
 org_sub_role:Swing_Line rdfs:subClassOf org_role:Bank,
         org_role:Lender .
 
@@ -1610,11 +1564,13 @@ org_name:JPMORGAN_CHASE_BANK a base:Organization ;
     rel:hasLocationAt loc:10_South_Dearborn_Street%5D%5Cn%5Cn%5BChicago%2C_Illinois_60603 .
 
 org_name:PERKINELMER_HEALTH_SCIENCES%2C_INC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    <http://example.org/isInstanceOf/> org_role:Borrower,
+        org_sub_role:Subsidiary ;
     rel:hasEmployee person_name:John_L._Healy .
 
 org_name:WALLAC_OY a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    <http://example.org/isInstanceOf/> org_role:Borrower,
+        org_sub_role:Subsidiary ;
     rel:hasLocationAt loc:04-2436772 .
 
 person_name:Anthony_Pantina a base:Person ;
@@ -1677,7 +1633,8 @@ person_name:Zubin_R._Shroff a base:Person ;
     rel:isEmployedBy <http://example.org/org_name/%5CnTHE_BANK_OF_TOKYO-MITSUBISHI_UFJ%2C_LTD> .
 
 org_name:PERKINELMER%2C_INC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    <http://example.org/isInstanceOf/> org_role:Borrower,
+        org_sub_role:Subsidiary ;
     rel:hasEmployee person_name:David_C._Francisco ;
     rel:hasLocationAt loc:04-2052042 .
 
@@ -1687,7 +1644,7 @@ org_name:PERKINELMER%2C_INC a base:Organization ;
         person_name:William_McGinty,
         person_name:Zubin_R._Shroff .
 
-"Borrower" <http://example.org/isInstanceOf/> "Subsidiary" .
+org_sub_role:Subsidiary rdfs:subClassOf org_role:Borrower .
 
 org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender ;

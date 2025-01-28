@@ -1305,10 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<HEARTLAND_BANK> <http://example.org/isInstanceOf/> "administrative agent" .
-
-<LILIS_ENERGY%2C_INC> <http://example.org/isInstanceOf/> "Borrower" .
-
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
 <http://example.org/org_sub_role/%5CnCo-Documentation> rdfs:subClassOf org_role:Agent .

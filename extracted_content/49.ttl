@@ -1305,39 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<Cortland_Capital_Market_Services_LLC> <http://example.org/isInstanceOf/> "Agent" .
-
-<DBG_SUBSIDIARY_INC.> <http://example.org/isInstanceOf/> "	\\nBORROWERS" .
-
-<DIFFERENTIAL_BRANDS_GROUP_INC.> <http://example.org/isInstanceOf/> "	\\nBORROWERS" .
-
-<HC_ACQUISITION_HOLDINGS%2C%C2%A0INC> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<HUDSON_CLOTHING%2C_LLC> <http://example.org/isInstanceOf/> "	\\nBORROWERS" .
-
-<HUDSON_CLOTHING_HOLDINGS%2C%C2%A0INC> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<INNOVO_WEST_SALES%2C%C2%A0INC> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<MARCO_BRUNELLI_IP%2C_LLC> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<RGH_GROUP_LLC> <http://example.org/isInstanceOf/> "GUARANTORS" .
-
-<RG_PARENT_LLC> <http://example.org/isInstanceOf/> "Administrative ",
-        "Borrower " .
-
-<ROBERT_GRAHAM_DESIGNS%2C_LLC> <http://example.org/isInstanceOf/> "	\\nBORROWERS" .
-
-<ROBERT_GRAHAM_HOLDINGS%2C_LLC> <http://example.org/isInstanceOf/> "	\\nBORROWERS" .
-
-<ROBERT_GRAHAM_RETAIL_LLC> <http://example.org/isInstanceOf/> "	\\nBORROWERS" .
-
-<TCW_ASSET_MANAGEMENT_COMPANY> <http://example.org/isInstanceOf/> "Agent" .
-
-<TCW_DIRECT_LENDING_LLC> <http://example.org/isInstanceOf/> "LENDERS" .
-
-<TCW_DIRECT_LENDING_STRATEGIC_VENTURES_LLC> <http://example.org/isInstanceOf/> "LENDERS" .
-
 <http://example.org/org_name/DBG_SUBSIDIARY_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnBORROWERS> .
 
@@ -1379,11 +1346,6 @@ org_name:TCW_DIRECT_LENDING_STRATEGIC_VENTURES_LLC a base:Organization ;
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1604,7 +1566,8 @@ org_name:MARCO_BRUNELLI_IP%2C_LLC a base:Organization ;
     rel:hasEmployee person_name:Michael_Buckley .
 
 org_name:RG_PARENT_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower ;
+    <http://example.org/isInstanceOf/> org_role:Borrower,
+        org_sub_role:Administrative ;
     rel:hasLocationAt loc:1231_S._Gerhart_Avenue%5Cn%5CnCommerce%2C_CA_90022 .
 
 org_name:Skadden%2C_Arps%2C_Slate%2C_Meagher%C2%A0%26_Flom_LLP a base:Organization ;
@@ -1616,6 +1579,11 @@ org_name:TCW_ASSET_MANAGEMENT_COMPANY a base:Organization ;
 
 org_name:WEST_VIRGINIA_DIRECT_LENDING_LLC a base:Organization ;
     rel:hasEmployee person_name:Suzanne_Grosso .
+
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
 
 person_name:Hamish_Sandhu a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer ;
@@ -1634,6 +1602,4 @@ person_name:Peter_Kim a base:Person ;
 person_name:Suzanne_Grosso a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Managing_Director ;
     rel:isEmployedBy org_name:WEST_VIRGINIA_DIRECT_LENDING_LLC .
-
-"Borrower " <http://example.org/isInstanceOf/> "Administrative " .
 

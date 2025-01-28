@@ -1305,47 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5Cn%C2%A0%09%5CnALLIED_HEALTH_GROUP%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<%5CnCEJKA_SEARCH%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<%5CnCLINFORCE%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<%5CnLOCAL_STAFF%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<ASSENT_CONSULTING> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<ASSIGNMENT_AMERICA%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<BANK_OF_AMERICA> <http://example.org/isInstanceOf/> "Agent",
-        "Lender" .
-
-<CC_LOCAL%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<CREDENT_VERIFICATION_AND_LICENSING_SERVICES%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<CROSS_COUNTRY_EDUCATION%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<CROSS_COUNTRY_HEALTHCARE%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<CROSS_COUNTRY_PUBLISHING%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<CROSS_COUNTRY_STAFFING%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<MCVT%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<MDA_HOLDINGS%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<MEDICAL_DOCTOR_ASSOCIATES%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<METROPOLITAN_RESEARCH_ASSOCIATES%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<MRA_SEARCH%2C_INC.> <http://example.org/isInstanceOf/> "BORROWERS" .
-
-<Proskauer_Rose_LLP> <http://example.org/isInstanceOf/> "counsel to Borrowers" .
-
-<TRAVEL_STAFF%2C_LLC> <http://example.org/isInstanceOf/> "BORROWERS" .
-
 <http://example.org/org_name/%5CnMETROPOLITAN_RESEARCH_ASSOCIATES%2C_INC.> a base:Organization .
 
 <http://example.org/org_name/%5CnTRAVEL_STAFF%2C_LLC> a base:Organization .

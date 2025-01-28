@@ -1305,32 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<BANK_OF_AMERICA%2C_N.A> <http://example.org/isInstanceOf/> "Arranger",
-        "Book Runner",
-        "Joint",
-        "Joint Lead",
-        "Lender" .
-
-<GREENBERG_TRAURIG%2C_LLP> <http://example.org/isInstanceOf/> "counsel to any Lender" .
-
-<JPMORGAN_CHASE_BANK%2C_N.A.> <http://example.org/isInstanceOf/> " Lender",
-        "Arranger",
-        "Joint Book",
-        "Joint Lead",
-        "Runner" .
-
-<OIL_STATES_INTERNATIONAL%2C_INC.%2C> <http://example.org/isInstanceOf/> "BORROWER" .
-
-<ROYAL_BANK_OF_CANADA> <http://example.org/isInstanceOf/> "Lender" .
-
-<SIMPSON_THACHER_%26_BARTLETT_LLP> <http://example.org/isInstanceOf/> "counsel to Borrowers" .
-
-<WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Agent",
-        "Arranger",
-        "Book Runner",
-        "Joint",
-        "Joint Lead" .
-
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
 <http://example.org/org_sub_role/%5CnCo-Documentation> rdfs:subClassOf org_role:Agent .
@@ -1397,22 +1371,6 @@ org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
         org_role:LEAD_ARRANGERS .
 
 org_sub_role:JOINT_LEAD rdfs:subClassOf org_role:ARRANGERS .
-
-org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
-        org_role:Book_Runner,
-        org_role:Book_Runners,
-        org_role:Bookrunner,
-        org_role:Bookrunners,
-        org_role:Bookrunners%5Cn,
-        org_role:Lead_Arranger,
-        org_role:Lead_Arrangers .
-
-org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
-        org_role:Runner .
-
-org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
 
@@ -1544,7 +1502,9 @@ loc:Three_Allen_Center%5Cn333_Clay_Street%5CnSuite_4620%5CnHouston%2C_Texas_7700
 org_name:BANK_OF_AMERICA%2C_N.A a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arranger,
         org_role:Book_Runner,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead ;
     rel:hasEmployee person_name:Ajay_Jagsi .
 
 org_name:GREENBERG_TRAURIG%2C_LLP a base:Organization ;
@@ -1554,7 +1514,9 @@ org_name:GREENBERG_TRAURIG%2C_LLP a base:Organization ;
 <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arranger,
         org_role:Lender,
-        org_role:Runner ;
+        org_role:Runner,
+        org_sub_role:Joint_Book,
+        org_sub_role:Joint_Lead ;
     rel:hasEmployee person_name:Anca_Loghin .
 
 org_name:SIMPSON_THACHER_%26_BARTLETT_LLP a base:Organization ;
@@ -1564,8 +1526,13 @@ org_name:SIMPSON_THACHER_%26_BARTLETT_LLP a base:Organization ;
 org_name:WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
         org_role:Arranger,
-        org_role:Book_Runner ;
+        org_role:Book_Runner,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead ;
     rel:hasLocationAt loc:1100_Abernathy_Road%5CnSuite_1600%5Cn130%5Cn%5CnAtlanta%2C_GA_30328 .
+
+org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
+        org_role:Runner .
 
 person_name:Ajay_Jagsi a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Vice_President ;
@@ -1589,8 +1556,6 @@ person_name:Lloyd_A._Hajdik a base:Person ;
         person_position:Treasurer ;
     rel:isEmployedBy org_name:OIL_STATES_INTERNATIONAL%2C_INC.%2C .
 
-"Runner" <http://example.org/isInstanceOf/> "Joint Book" .
-
 org_name:OIL_STATES_INTERNATIONAL%2C_INC.%2C a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:BORROWER ;
     rel:hasEmployee person_name:Lloyd_A._Hajdik ;
@@ -1601,7 +1566,16 @@ org_name:ROYAL_BANK_OF_CANADA a base:Organization ;
     rel:hasEmployee person_name:Alexandre_Camerlain,
         person_name:Heath_Israel .
 
-"Book Runner" <http://example.org/isInstanceOf/> "Joint" .
+org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
+        org_role:Book_Runner,
+        org_role:Book_Runners,
+        org_role:Bookrunner,
+        org_role:Bookrunners,
+        org_role:Bookrunners%5Cn,
+        org_role:Lead_Arranger,
+        org_role:Lead_Arrangers .
 
-"Arranger" <http://example.org/isInstanceOf/> "Joint Lead" .
+org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
 

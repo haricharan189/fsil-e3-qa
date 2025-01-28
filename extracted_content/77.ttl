@@ -1305,48 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnHANCOCK_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<BANK_OF_AMERICA> <http://example.org/isInstanceOf/> "Co-Syndication Agent",
-        "Lender" .
-
-<CADENCE_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<FENNER_%26_SMITH_INCORPORATED> <http://example.org/isInstanceOf/> "Joint Lead Arrangers",
-        "oint Bookrunners " .
-
-<GOLDMAN_SACHS_BANK_USA> <http://example.org/isInstanceOf/> "Co-Documentation Agent",
-        "Lender" .
-
-<J.P._MORGAN_SECURITIES_LLC> <http://example.org/isInstanceOf/> "Joint Lead Arrangers",
-        "oint Bookrunners " .
-
-<JPMORGAN_CHASE_BANK> <http://example.org/isInstanceOf/> " Administrative Agent",
-        " Issuing Bank",
-        "Lender" .
-
-<MUFG_UNION_BANK> <http://example.org/isInstanceOf/> "Co-Syndication Agent",
-        "Joint Lead Arrangers",
-        "Lender",
-        "oint Bookrunners " .
-
-<SUNTRUST_BANK> <http://example.org/isInstanceOf/> "Co-Syndication Agent",
-        "Lender" .
-
-<SUNTRUST_ROBINSON_HUMPHREY> <http://example.org/isInstanceOf/> "Joint Lead Arrangers",
-        "oint Bookrunners " .
-
-<U.S._BANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Co-Documentation Agent",
-        "Lender" .
-
-<WELLCARE_HEALTH_PLANS%2C_INC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Co-Syndication Agent\\n \\n \\n \\n \\n \\n \\n",
-        "Lender" .
-
-<WELLS_FARGO_SECURITIES%2C_LLC> <http://example.org/isInstanceOf/> "Joint Lead Arrangers",
-        "oint Bookrunners " .
-
 org_name:BANK_OF_AMERICA a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Co-Syndication_Agent,
         org_role:Lender .

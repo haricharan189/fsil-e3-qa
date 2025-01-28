@@ -1304,53 +1304,11 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<BANK_OF_AMERICA%2C_N.A.> <http://example.org/isInstanceOf/> "Administrative Agent",
-        "Lender" .
-
-<BofA_SECURITIES%2C_INC.> <http://example.org/isInstanceOf/> " Joint Lead",
-        "Arranger",
-        "Bookrunner",
-        "Joint " .
-
-<SUMMIT_HOSPITALITY_JV%2C_LP> <http://example.org/isInstanceOf/> "PARENT",
-        "Parent" .
-
-<SUMMIT_HOSPITALITY_SUBJV%2C_LLC> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<SUMMIT_JV_MR_2%2C_LLC> <http://example.org/isInstanceOf/> "BORROWER",
-        "Borrower" .
-
-<SUMMIT_JV_MR_3%2C_LLC> <http://example.org/isInstanceOf/> "BORROWER",
-        "Borrower" .
-
-<SUMMIT_NCI_JV_BR_156-159%2C_LLC> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<SUMMIT_NCI_JV_BR_160%2C_LLC> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<SUMMIT_NCI_JV_BR_161%2C_LLC> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<SUMMIT_NCI_MASTER_TRS%2C_INC> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<SUMMIT_NCI_MASTER_TRS%2C_INC.> <http://example.org/isInstanceOf/> "Issuer" .
-
-<SUMMIT_NCI_NOLA_BR_184%2C_LLC> <http://example.org/isInstanceOf/> "BORROWER",
-        "Borrower" .
-
-<Summit_Hotel_GP_2%2C_LLC> <http://example.org/isInstanceOf/> "general partner" .
-
-<WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender",
-        "Syndication Agent" .
-
-<WELLS_FARGO_SECURITIES%2C_LLC> <http://example.org/isInstanceOf/> " Joint Lead",
-        "Arranger",
-        "Bookrunner",
-        "Joint " .
-
-<Wells_Fargo_Bank%2C_National_Association> <http://example.org/isInstanceOf/> "Syndication Agent" .
-
 <http://example.org/org_name/BofA_SECURITIES%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arranger,
-        org_role:Bookrunner .
+        org_role:Bookrunner,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 org_name:GRAPEVINE_METRO_HOTEL_GP%2C_LLC a base:Organization .
 
@@ -1569,7 +1527,9 @@ org_name:Summit_NCI_JV_BR_182-183%2C_LLC a base:Organization .
 
 org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arranger,
-        org_role:Bookrunner .
+        org_role:Bookrunner,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 org_name:Wells_Fargo_Bank%2C_National_Association a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Syndication_Agent .
@@ -1641,21 +1601,8 @@ org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
 
 org_sub_role:JOINT_LEAD rdfs:subClassOf org_role:ARRANGERS .
 
-org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
-        org_role:Book_Runner,
-        org_role:Book_Runners,
-        org_role:Bookrunner,
-        org_role:Bookrunners,
-        org_role:Bookrunners%5Cn,
-        org_role:Lead_Arranger,
-        org_role:Lead_Arrangers .
-
 org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
         org_role:Runner .
-
-org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
 
@@ -1798,7 +1745,16 @@ person_name:Kyle_Pearson a base:Person ;
     rel:hasEmployee person_name:Cindy_Jordan,
         person_name:Kyle_Pearson .
 
-"Arranger" <http://example.org/isInstanceOf/> " Joint Lead" .
+org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
+        org_role:Book_Runner,
+        org_role:Book_Runners,
+        org_role:Bookrunner,
+        org_role:Bookrunners,
+        org_role:Bookrunners%5Cn,
+        org_role:Lead_Arranger,
+        org_role:Lead_Arrangers .
 
-"Bookrunner" <http://example.org/isInstanceOf/> "Joint " .
+org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
 

@@ -1304,30 +1304,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnEXGEN_RENEWABLES_IV%2C_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<Constellation_DCO_Albany_Power_Holdings%2C_LLC> <http://example.org/isInstanceOf/> "Grantor" .
-
-<EXGEN_RENEWABLES_IV_HOLDING%2C_LLC> <http://example.org/isInstanceOf/> "Holding" .
-
-<ExGen_Renewables_IV%2C_LLC> <http://example.org/isInstanceOf/> "Grantor",
-        "Pledgor" .
-
-<Exelon_AVSR_Holding%2C_LLC> <http://example.org/isInstanceOf/> "Grantor " .
-
-<MORGAN_STANLEY_SENIOR_FUNDING%2C_INC.> <http://example.org/isInstanceOf/> "Arranger ",
-        "Bookrunner",
-        "Documentation Agent",
-        "Lead ",
-        "Syndication Agent," .
-
-<SolGen_Holding%2C_LLC> <http://example.org/isInstanceOf/> "Grantor " .
-
-<WILMINGTON_TRUST%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Collateral Agent",
-        "Depositary Bank" .
-
-<Wilmington_Trust%2C_National_Association> <http://example.org/isInstanceOf/> "Collateral\\nWilmington Trust, National Association\\nAgent" .
-
 <http://example.org/org_name/%5CnEXGEN_RENEWABLES_IV%2C_LLC> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower .
 
@@ -1344,7 +1320,8 @@ org_name:Exelon_AVSR_Holding%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arranger,
         org_role:Bookrunner,
         org_role:Documentation_Agent,
-        org_role:Syndication_Agent%2C .
+        org_role:Syndication_Agent%2C,
+        org_sub_role:Lead .
 
 org_name:SolGen_Holding%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Grantor .
@@ -1444,10 +1421,6 @@ org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
         org_role:Lender .
 
 org_sub_role:LEAD rdfs:subClassOf org_role:ARRANGER .
-
-org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Lender rdfs:subClassOf org_role:Issuing_Bank .
 
@@ -1591,9 +1564,9 @@ org_name:Wilmington_Trust%2C_National_Association a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Collateral%5CnWilmington_Trust%2C_National_Association%5CnAgent ;
     rel:hasLocationAt loc:1100_North_Market_Street%5CnWilmington_Delaware_19890 .
 
-"Arranger " <http://example.org/isInstanceOf/> "Lead " .
-
-"Bookrunner" <http://example.org/isInstanceOf/> "Lead " .
+org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
 
 loc:10_South_Dearborn_Street%2C_49th%C2%A0Floor%5CnChicago%2C_IL_60603 a base:Location ;
     <http://example.org/isInstanceOf/> base:Location,

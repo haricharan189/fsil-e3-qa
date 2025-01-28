@@ -1305,60 +1305,22 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnBANK_OF_AMERICA> <http://example.org/isInstanceOf/> "ADMINISTRATIVE	 		 		 	\\nAGENT & LENDER",
-        "Administrative",
-        "Agent",
-        "L/C Issuer",
-        "Lender",
-        "Swing Line" .
-
-<%5CnCitrix_Systems%2C_Inc.> <http://example.org/isInstanceOf/> "Borrower" .
-
-<BANK_OF_AMERICA%2C_N.A.> <http://example.org/isInstanceOf/> " L/C Issuer",
-        "Administrative",
-        "Agent",
-        "Lender",
-        "Swing Line" .
-
-<Bank_of_America> <http://example.org/isInstanceOf/> " Agent",
-        "Administrative",
-        "Agent",
-        "L/C Issuer",
-        "Lender",
-        "Swing Line" .
-
-<CITRIX_SYSTEMS%2C_INC.> <http://example.org/isInstanceOf/> "Borrower",
-        "\\nBORROWER" .
-
-<Citrix_Systems%2C_Inc.> <http://example.org/isInstanceOf/> "Borrower" .
-
-<J.P._MORGAN_SECURITIES_LLC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Book Managers",
-        "Joint",
-        "Joint Lead" .
-
-<JPMORGAN_CHASE_BANK> <http://example.org/isInstanceOf/> "\\nLENDERS" .
-
-<JPMORGAN_CHASE_BANK%2C_N.A.> <http://example.org/isInstanceOf/> "Agent",
-        "Syndication" .
-
-<MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED> <http://example.org/isInstanceOf/> "Arrangers",
-        "Book Managers",
-        "Joint",
-        "Joint Lead" .
-
-<Sidley_Austin_LLP> <http://example.org/isInstanceOf/> "Borrower" .
-
 <http://example.org/org_name/%5CnBANK_OF_AMERICA> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:ADMINISTRATIVE%09%C2%A0%09%09%C2%A0%09%09%C2%A0%09%5CnAGENT_%26_LENDER,
         org_role:Agent,
         <http://example.org/org_role/L/C_Issuer>,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Swing_Line,
+        org_sub_role:Syndication .
 
 <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
         <http://example.org/org_role/L/C_Issuer>,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Swing_Line,
+        org_sub_role:Syndication .
 
 <http://example.org/org_name/CITRIX_SYSTEMS%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnBORROWER>,
@@ -1366,17 +1328,23 @@ person_position:Vice_President_of_Tax a rdfs:Class ;
 
 org_name:J.P._MORGAN_SECURITIES_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Book_Managers .
+        org_role:Book_Managers,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 org_name:JPMORGAN_CHASE_BANK a base:Organization ;
     <http://example.org/isInstanceOf/> <http://example.org/org_role/%5CnLENDERS> .
 
 <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent .
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative,
+        org_sub_role:Syndication .
 
 org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Book_Managers .
+        org_role:Book_Managers,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1386,11 +1354,6 @@ org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED a base:Or
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1445,21 +1408,8 @@ org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
 
 org_sub_role:JOINT_LEAD rdfs:subClassOf org_role:ARRANGERS .
 
-org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
-        org_role:Book_Runner,
-        org_role:Book_Runners,
-        org_role:Bookrunner,
-        org_role:Bookrunners,
-        org_role:Bookrunners%5Cn,
-        org_role:Lead_Arranger,
-        org_role:Lead_Arrangers .
-
 org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
         org_role:Runner .
-
-org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
 
@@ -1515,19 +1465,12 @@ org_sub_role:Sterling_Swing rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Subsidiary rdfs:subClassOf org_role:Borrower .
 
-org_sub_role:Swing_Line rdfs:subClassOf org_role:Bank,
-        org_role:Lender .
-
 org_sub_role:Swing_Line_Lender rdfs:subClassOf org_role:LENDER,
         org_role:LENDERS%3A .
 
 org_sub_role:Swing_line rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Swingline rdfs:subClassOf org_role:Lender .
-
-org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents .
 
 org_sub_role:Term rdfs:subClassOf org_role:Lender .
 
@@ -1612,21 +1555,38 @@ person_name:Joan_Mok a base:Person ;
     <http://example.org/isInstanceOf/> org_name:Bank_of_America ;
     rel:isEmployedBy org_name:Bank_of_America .
 
-" Agent" <http://example.org/isInstanceOf/> "Administrative" .
+org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
+        org_role:Book_Runner,
+        org_role:Book_Runners,
+        org_role:Bookrunner,
+        org_role:Bookrunners,
+        org_role:Bookrunners%5Cn,
+        org_role:Lead_Arranger,
+        org_role:Lead_Arrangers .
 
-"Arrangers" <http://example.org/isInstanceOf/> "Joint Lead" .
+org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
 
-"Book Managers" <http://example.org/isInstanceOf/> "Joint" .
+org_sub_role:Swing_Line rdfs:subClassOf org_role:Bank,
+        org_role:Lender .
 
-"Lender" <http://example.org/isInstanceOf/> "Swing Line" .
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative",
-        "Syndication" .
+org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents .
 
 org_name:Bank_of_America a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
         <http://example.org/org_role/L/C_Issuer>,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Swing_Line,
+        org_sub_role:Syndication ;
     rel:hasEmployee person_name:Joan_Mok ;
     rel:hasLocationAt loc:1_Fleet_Way%5Cn%5CnScranton%2C_PA_18507,
         loc:555_California_St%5Cn%5CnSan_Francisco%2C_CA_94104,

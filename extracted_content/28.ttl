@@ -1305,45 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5Cn%5CnCOLLEGIUM_PHARMACEUTICAL%2C_INC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<AKIN_GUMP_STRAUSS_HAUER_%26_FELD_LLP> <http://example.org/isInstanceOf/> "Lender" .
-
-<Akin_Gump_Strauss_Hauer_%26_Feld_LLP> <http://example.org/isInstanceOf/> "Agent",
-        "Collateral" .
-
-<BIOPHARMA_CREDIT_INVESTMENTS_V_%28MASTER%29_LP> <http://example.org/isInstanceOf/> "Lender" .
-
-<BIOPHARMA_CREDIT_INVESTMENTS_V_%28MASTER%29_LP%5Cn%5Cn> <http://example.org/isInstanceOf/> "Lender" .
-
-<BIOPHARMA_CREDIT_PLC> <http://example.org/isInstanceOf/> "Agent",
-        "Collateral",
-        "Lender" .
-
-<BioPharma_Credit_PLC> <http://example.org/isInstanceOf/> "Agent",
-        "Collateral" .
-
-<COLLEGIUM_PHARMACEUTICAL%2C_INC.> <http://example.org/isInstanceOf/> "Borrower" .
-
-<COLLEGIUM_PHARMACEUTICAL_INC.> <http://example.org/isInstanceOf/> "Borrower" .
-
-<COLLEGIUM_SECURITIES_CORPORATION> <http://example.org/isInstanceOf/> "Credit Party",
-        "additional" .
-
-<Collegium_Pharmaceutical%2C_Inc.> <http://example.org/isInstanceOf/> "Borrower" .
-
-<PHARMAKON_ADVISORS_LP> <http://example.org/isInstanceOf/> "Lender" .
-
-<Pepper_Hamilton_LLP> <http://example.org/isInstanceOf/> "Borrower" .
-
-<Pharmakon_Advisors%2C_LP> <http://example.org/isInstanceOf/> "Investment Manager" .
-
-<Pharmakon_Advisors_LP> <http://example.org/isInstanceOf/> "Agent",
-        "Collateral" .
-
-<Pharmakon_Management_I%2C_LLC> <http://example.org/isInstanceOf/> "General",
-        "Partner" .
-
 <http://example.org/org_name/%5Cn%5CnCOLLEGIUM_PHARMACEUTICAL%2C_INC> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower .
 
@@ -1354,13 +1315,15 @@ org_name:BIOPHARMA_CREDIT_INVESTMENTS_V_%28MASTER%29_LP%5Cn%5Cn a base:Organizat
     <http://example.org/isInstanceOf/> org_role:Borrower .
 
 org_name:COLLEGIUM_SECURITIES_CORPORATION a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Credit_Party .
+    <http://example.org/isInstanceOf/> org_role:Credit_Party,
+        org_sub_role:additional .
 
 org_name:Pharmakon_Advisors%2C_LP a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Investment_Manager .
 
 org_name:Pharmakon_Management_I%2C_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Partner .
+    <http://example.org/isInstanceOf/> org_role:Partner,
+        org_sub_role:General .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1391,10 +1354,6 @@ org_sub_role:Co-Syndication rdfs:subClassOf org_role:Agent,
 
 org_sub_role:Collatera rdfs:subClassOf org_role:Agent .
 
-org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
-        org_role:Agent%5Cn,
-        org_role:Trustee .
-
 org_sub_role:DOCUMENTATION rdfs:subClassOf org_role:AGENTS .
 
 org_sub_role:Designated rdfs:subClassOf org_role:Borrower,
@@ -1409,8 +1368,6 @@ org_sub_role:Domestic rdfs:subClassOf org_role:Guarantor .
 org_sub_role:Dutch rdfs:subClassOf org_role:Borrower .
 
 org_sub_role:Euro_Swing rdfs:subClassOf org_role:Lender .
-
-org_sub_role:General rdfs:subClassOf org_role:Partner .
 
 org_sub_role:Initial rdfs:subClassOf org_role:Borrower,
         org_role:Lender .
@@ -1523,8 +1480,6 @@ org_sub_role:U.S._Swing rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Yen_Swing rdfs:subClassOf org_role:Lender .
 
-org_sub_role:additional rdfs:subClassOf org_role:Credit_Party .
-
 org_sub_role:administrative rdfs:subClassOf org_role:agent .
 
 org_sub_role:co-documentation rdfs:subClassOf org_role:agents .
@@ -1602,16 +1557,22 @@ loc:One_Bryant_Park%5CnNew_York%2C_NY_10036-6745 a base:Location ;
 
 org_name:BIOPHARMA_CREDIT_PLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:Collateral ;
     rel:hasLocationAt loc:51_New_North_Road%5CnExeter_EX4_4EP%5CnUnited_Kingdom .
 
 org_name:BioPharma_Credit_PLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Collateral ;
     rel:hasLocationAt loc:51_New_North_Road%5Cn%C2%A0%09Exeter_EX4_4EP%5Cn%C2%A0%09United_Kingdom .
 
 <http://example.org/org_name/COLLEGIUM_PHARMACEUTICAL%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower ;
     rel:hasEmployee person_name:Joseph_Ciaffoni .
+
+org_sub_role:General rdfs:subClassOf org_role:Partner .
+
+org_sub_role:additional rdfs:subClassOf org_role:Credit_Party .
 
 person_name:Jen_Porter a base:Person ;
     <http://example.org/isInstanceOf/> org_name:Pepper_Hamilton_LLP ;
@@ -1630,10 +1591,6 @@ person_name:Shirley_Kuhlmann a base:Person ;
     <http://example.org/isInstanceOf/> <http://example.org/org_name/Collegium_Pharmaceutical%2C_Inc.> ;
     rel:isEmployedBy <http://example.org/org_name/Collegium_Pharmaceutical%2C_Inc.> .
 
-"Credit Party" <http://example.org/isInstanceOf/> "additional" .
-
-"Partner" <http://example.org/isInstanceOf/> "General" .
-
 person_name:Geoffrey_E._Secol a base:Person ;
     <http://example.org/isInstanceOf/> org_name:AKIN_GUMP_STRAUSS_HAUER_%26_FELD_LLP,
         org_name:Akin_Gump_Strauss_Hauer_%26_Feld_LLP ;
@@ -1641,7 +1598,8 @@ person_name:Geoffrey_E._Secol a base:Person ;
         org_name:Akin_Gump_Strauss_Hauer_%26_Feld_LLP .
 
 org_name:Akin_Gump_Strauss_Hauer_%26_Feld_LLP a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Collateral ;
     rel:hasEmployee person_name:Geoffrey_E._Secol ;
     rel:hasLocationAt loc:One_Bryant_Park%5Cn%C2%A0%09New_York%2C_NY_10036-6745 .
 
@@ -1656,7 +1614,8 @@ org_name:Pepper_Hamilton_LLP a base:Organization ;
     rel:hasLocationAt loc:3000_Two_Logan_Square%5Cn%C2%A0%09Philadelphia%2C_PA_19103 .
 
 org_name:Pharmakon_Advisors_LP a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Collateral ;
     rel:hasEmployee person_name:Pedro_Gonzalez_de_Cosio ;
     rel:hasLocationAt loc:110_East_59th_Street%2C_%233300%5Cn%C2%A0%09New_York%2C_NY_10022 .
 
@@ -1682,7 +1641,9 @@ org_name:PHARMAKON_ADVISORS_LP a base:Organization ;
     rel:hasLocationAt loc:110_East_59th_Street%2C_%233300%5Cn%5CnNew_York%2C_NY_10022,
         loc:110_East_59th_Street%2C_%233300%5CnNew_York%2C_NY_10022 .
 
-"Agent" <http://example.org/isInstanceOf/> "Collateral" .
+org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
+        org_role:Agent%5Cn,
+        org_role:Trustee .
 
 <http://example.org/org_name/Collegium_Pharmaceutical%2C_Inc.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower ;

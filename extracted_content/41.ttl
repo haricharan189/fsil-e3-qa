@@ -1305,59 +1305,29 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<BMO_HARRIS_BANK> <http://example.org/isInstanceOf/> "Agent,",
-        "LC Issuer",
-        "Syndication" .
-
-<BMO_Harris_Bank_N.A.> <http://example.org/isInstanceOf/> "Agent",
-        "LC Issuer",
-        "Lender",
-        "Syndication" .
-
-<CITIZENS_BANK%2C_N.A> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent",
-        "Lender " .
-
-<CITIZENS_BANK%2C_N.A.> <http://example.org/isInstanceOf/> "Lender",
-        "Swingline",
-        "arranger ",
-        "bookrunner ",
-        "lead " .
-
-<Citibank%2C_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
-<Eastern_Bank> <http://example.org/isInstanceOf/> "Lender" .
-
-<KEYBANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Agent.",
-        "Documentation" .
-
-<KeyBank_National_Association> <http://example.org/isInstanceOf/> "Lender" .
-
-<Middlesex_Savings_Bank> <http://example.org/isInstanceOf/> "Lender" .
-
-<Santander_Bank%2C_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
-<TRC_COMPANIES%2C_INC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<Webster_Bank%2C_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
 loc:Webster_Bank a base:Location .
 
 org_name:BMO_HARRIS_BANK a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent%2C,
-        org_role:LC_Issuer .
+        org_role:LC_Issuer,
+        org_sub_role:Syndication .
 
 org_name:CITIZENS_BANK%2C_N.A a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Syndication .
 
 <http://example.org/org_name/CITIZENS_BANK%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender,
         org_role:arranger,
-        org_role:bookrunner .
+        org_role:bookrunner,
+        org_sub_role:Swingline,
+        org_sub_role:lead .
 
 org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
-    <http://example.org/isInstanceOf/> <http://example.org/org_role/Agent.> .
+    <http://example.org/isInstanceOf/> <http://example.org/org_role/Agent.>,
+        org_sub_role:Documentation .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1367,11 +1337,6 @@ org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1396,10 +1361,6 @@ org_sub_role:DOCUMENTATION rdfs:subClassOf org_role:AGENTS .
 
 org_sub_role:Designated rdfs:subClassOf org_role:Borrower,
         org_role:Borrowers .
-
-org_sub_role:Documentation rdfs:subClassOf org_role:Agent,
-        <http://example.org/org_role/Agent.>,
-        org_role:Agents .
 
 org_sub_role:Domestic rdfs:subClassOf org_role:Guarantor .
 
@@ -1504,12 +1465,6 @@ org_sub_role:Swing_Line_Lender rdfs:subClassOf org_role:LENDER,
 
 org_sub_role:Swing_line rdfs:subClassOf org_role:Lender .
 
-org_sub_role:Swingline rdfs:subClassOf org_role:Lender .
-
-org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents .
-
 org_sub_role:Term rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Term_Administrative rdfs:subClassOf org_role:Agent .
@@ -1538,9 +1493,6 @@ org_sub_role:joint rdfs:subClassOf org_role:bookrunner,
         org_role:bookrunners .
 
 org_sub_role:joint_lead rdfs:subClassOf org_role:arranger .
-
-org_sub_role:lead rdfs:subClassOf org_role:arranger,
-        org_role:arrangers .
 
 org_sub_role:managing rdfs:subClassOf org_role:agents .
 
@@ -1586,24 +1538,35 @@ loc:Eastern_Bank%5Cn265_Franklin_Street%2C_2nd_Floor%5CnBoston%2C_MA_02110 a bas
     rel:isLocationOf org_name:Eastern_Bank .
 
 <http://example.org/org_name/Citibank%2C_N.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swingline ;
     rel:hasLocationAt loc:6400_Las_Colinas_Boulevard%5CnIrvine%2C_TX_75039 .
 
 org_name:Eastern_Bank a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swingline ;
     rel:hasLocationAt loc:Eastern_Bank%5Cn265_Franklin_Street%2C_2nd_Floor%5CnBoston%2C_MA_02110 .
 
 org_name:Middlesex_Savings_Bank a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swingline ;
     rel:hasLocationAt loc:6_Main_Street%5CnNatick%2C_MA_01760 .
 
 <http://example.org/org_name/Santander_Bank%2C_N.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swingline ;
     rel:hasLocationAt loc:28_State_Street%2C_16th_Floor%5CnMA2-6560-CB16%5CnBoston%2C_MA_02109 .
 
 org_name:TRC_COMPANIES%2C_INC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower ;
     rel:hasEmployee person_name:Martin_H._Dodd .
+
+org_sub_role:Documentation rdfs:subClassOf org_role:Agent,
+        <http://example.org/org_role/Agent.>,
+        org_role:Agents .
+
+org_sub_role:lead rdfs:subClassOf org_role:arranger,
+        org_role:arrangers .
 
 person_name:Ann_M._Meade a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
@@ -1646,33 +1609,38 @@ person_name:Mitchell_B._Feldman a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
     rel:isEmployedBy <http://example.org/org_name/Webster_Bank%2C_N.A.> .
 
-"Agent," <http://example.org/isInstanceOf/> "Syndication" .
-
-"Agent." <http://example.org/isInstanceOf/> "Documentation" .
-
-"arranger " <http://example.org/isInstanceOf/> "lead " .
-
 <http://example.org/org_name/BMO_Harris_Bank_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
         org_role:LC_Issuer,
-        org_role:Lender ;
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Swingline,
+        org_sub_role:Syndication ;
     rel:hasEmployee person_name:John_Dillon ;
     rel:hasLocationAt loc:111_W._Monroe_Street%5Cn5th%C2%A0Floor_Center%5CnChicago%2C_IL_60603 .
 
 org_name:KeyBank_National_Association a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swingline ;
     rel:hasEmployee person_name:J.E._Hall ;
     rel:hasLocationAt loc:225_Franklin_Street_18th_Floor%5CnBoston%2C_MA_02110 .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative",
-        "Syndication" .
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
 
 org_name:Burns_%26_Levinson_LLP a base:Organization ;
     rel:hasEmployee person_name:Frank_A._Segall ;
     rel:hasLocationAt loc:125_Summer_Street%2C_Boston%2C_Massachusetts_02110 .
 
+org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents .
+
 <http://example.org/org_name/Webster_Bank%2C_N.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Lender ;
+    <http://example.org/isInstanceOf/> org_role:Lender,
+        org_sub_role:Swingline ;
     rel:hasEmployee person_name:Ann_M._Meade,
         person_name:David_Nussbaum,
         person_name:Deborah_A._Colony,
@@ -1681,5 +1649,5 @@ org_name:Burns_%26_Levinson_LLP a base:Organization ;
         person_name:Mitchell_B._Feldman ;
     rel:hasLocationAt loc:100_Franklin_Street%5CnBoston%2C_MA_02110 .
 
-"Lender" <http://example.org/isInstanceOf/> "Swingline" .
+org_sub_role:Swingline rdfs:subClassOf org_role:Lender .
 

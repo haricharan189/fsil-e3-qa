@@ -1305,35 +1305,18 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnGOLDMAN_SACHS_BANK_USA> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent",
-        "Lender" .
-
-<GOLDMAN_SACHS_BANK_USA> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent",
-        "Arranger",
-        "Bookrunner",
-        "Sole",
-        "Sole Lead" .
-
-<Goldman_Sachs_Bank_USA> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent" .
-
-<ITC_Holdings_Corp> <http://example.org/isInstanceOf/> "manager",
-        "sole" .
-
-<MICHIGAN_ELECTRIC_TRANSMISSION_COMPANY%2C_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
-<Michigan_Electric_Transmission_Company%2C_LLC> <http://example.org/isInstanceOf/> "Borrower" .
-
 <http://example.org/org_name/%5CnGOLDMAN_SACHS_BANK_USA> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:Administrative .
 
 org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
         org_role:Arranger,
-        org_role:Bookrunner .
+        org_role:Bookrunner,
+        org_sub_role:Administrative,
+        org_sub_role:Sole,
+        org_sub_role:Sole_Lead .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1343,11 +1326,6 @@ org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1459,12 +1437,8 @@ org_sub_role:Senior_Managing rdfs:subClassOf org_role:Agent .
 
 org_sub_role:Servicing rdfs:subClassOf org_role:Agent .
 
-org_sub_role:Sole rdfs:subClassOf org_role:Bookrunner .
-
 org_sub_role:Sole_Book rdfs:subClassOf org_role:Manager,
         org_role:Runner .
-
-org_sub_role:Sole_Lead rdfs:subClassOf org_role:Arranger .
 
 org_sub_role:Sole_Lead_Arranger rdfs:subClassOf org_role:Arranger .
 
@@ -1522,11 +1496,6 @@ org_sub_role:managing rdfs:subClassOf org_role:agents .
 
 org_sub_role:ratings rdfs:subClassOf org_role:agency .
 
-org_sub_role:sole rdfs:subClassOf org_role:General_Partner,
-        org_role:arranger,
-        org_role:bookrunner,
-        org_role:manager .
-
 org_sub_role:syndication rdfs:subClassOf org_role:agent .
 
 loc:200_West_Street%5Cn%5CnNew_York%2C_New_York%C2%A0_10282-2198 a base:Location ;
@@ -1557,12 +1526,22 @@ loc:30_Hudson_Street%2C_36th_Floor%5CnJersey_City%2C_NJ_07302 a base:Location ;
     rel:hasLocationAt <http://example.org/location/c/o_Goldman%2C_Sachs%C2%A0%26_Co.%5Cn30_Hudson_Street%2C_36th_Floor%5CnJersey_City%2C_NJ_07302> .
 
 org_name:ITC_Holdings_Corp a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:manager ;
+    <http://example.org/isInstanceOf/> org_role:manager,
+        org_sub_role:sole ;
     rel:hasLocationAt loc:27175_Energy_Way%5Cn%5CnNovi%2C_MI%C2%A0_48377 .
 
 org_name:Michigan_Electric_Transmission_Company%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Borrower ;
     rel:hasLocationAt loc:27175_Energy_Way%5CnNovi%2C_MI_48377 .
+
+org_sub_role:Sole rdfs:subClassOf org_role:Bookrunner .
+
+org_sub_role:Sole_Lead rdfs:subClassOf org_role:Arranger .
+
+org_sub_role:sole rdfs:subClassOf org_role:General_Partner,
+        org_role:arranger,
+        org_role:bookrunner,
+        org_role:manager .
 
 person_name:Cameron_M._Bready%2C a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Chief_Financial_Officer,
@@ -1579,14 +1558,9 @@ person_name:Wendy_A._McIntyre a base:Person ;
         person_position:Vice_President ;
     rel:isEmployedBy org_name:MICHIGAN_ELECTRIC_TRANSMISSION_COMPANY%2C_LLC .
 
-"Arranger" <http://example.org/isInstanceOf/> "Sole Lead" .
-
-"Bookrunner" <http://example.org/isInstanceOf/> "Sole" .
-
-"manager" <http://example.org/isInstanceOf/> "sole" .
-
 org_name:Goldman_Sachs_Bank_USA a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent ;
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative ;
     rel:hasLocationAt loc:200_West_Street%5Cn%5CnNew_York%2C_New_York%C2%A0_10282-2198,
         loc:200_West_Street%5CnNew_York%2C_New_York_10282-2198,
         loc:30_Hudson_Street%2C_36th_Floor%5CnJersey_City%2C_NJ_07302 .
@@ -1597,5 +1571,8 @@ org_name:MICHIGAN_ELECTRIC_TRANSMISSION_COMPANY%2C_LLC a base:Organization ;
         person_name:Rejji_P._Hayes,
         person_name:Wendy_A._McIntyre .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative" .
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
 

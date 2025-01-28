@@ -1305,27 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<BROWN_RUDNICK_LLP> <http://example.org/isInstanceOf/> "legal counsel" .
-
-<CITIBANK> <http://example.org/isInstanceOf/> "Administrative Agent" .
-
-<CITIGROUP_GLOBAL_MARKETS_INC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Book Runners",
-        "Lead" .
-
-<GOLDMAN_SACHS_BANK_USA> <http://example.org/isInstanceOf/> "Arrangers",
-        "Book Runners",
-        "Lead",
-        "Syndication Agents" .
-
-<STANLEY_BLACK%C2%A0%26_DECKER%2C_INC> <http://example.org/isInstanceOf/> "Initial Borrower" .
-
-<WELLS_FARGO_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Syndication Agents" .
-
-<WELLS_FARGO_SECURITIES%2C_LLC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Book Runners",
-        "Lead" .
-
 org_name:BROWN_RUDNICK_LLP a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:legal_counsel .
 
@@ -1423,10 +1402,6 @@ org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
         org_role:Lender .
 
 org_sub_role:LEAD rdfs:subClassOf org_role:ARRANGER .
-
-org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Lender rdfs:subClassOf org_role:Issuing_Bank .
 
@@ -1542,12 +1517,14 @@ loc:Building_%233%5Cn%5Cn1615_Brett_Road%5Cn%5CnNew_Castle%2C_DE_19720 a base:Lo
 org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
         org_role:Book_Runners,
-        org_role:Syndication_Agents ;
+        org_role:Syndication_Agents,
+        org_sub_role:Lead ;
     rel:hasEmployee person_name:Ryan_Durkin .
 
 org_name:WELLS_FARGO_SECURITIES%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Book_Runners ;
+        org_role:Book_Runners,
+        org_sub_role:Lead ;
     rel:hasEmployee person_name:Kay_Reedy .
 
 person_name:Carolyn_Kee a base:Person ;
@@ -1578,7 +1555,8 @@ org_name:CITIBANK a base:Organization ;
 
 org_name:CITIGROUP_GLOBAL_MARKETS_INC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Book_Runners ;
+        org_role:Book_Runners,
+        org_sub_role:Lead ;
     rel:hasEmployee person_name:John_Summers ;
     rel:hasLocationAt loc:25_Canada_Square%5Cn%5CnCanary_Wharf%5Cn%5CnLondon%2C_England_E14_5LB .
 
@@ -1587,5 +1565,7 @@ org_name:STANLEY_BLACK%C2%A0%26_DECKER%2C_INC a base:Organization ;
     rel:hasEmployee person_name:Craig_A._Douglas ;
     rel:hasLocationAt loc:1000_Stanley_Drive%5Cn%5CnNew_Britain%2C_Connecticut_06053 .
 
-"Arrangers" <http://example.org/isInstanceOf/> "Lead" .
+org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
 

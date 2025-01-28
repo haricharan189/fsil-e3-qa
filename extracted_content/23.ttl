@@ -1305,46 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnBANK_OF_AMERICA%2C_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
-<%5CnCLEAN_ENERGY_EXPERTS_LLC> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<%5CnCREDIT_AGRICOLE_CORPORATE_AND_INVESTMENT_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<%5CnCREDIT_SUISSE_AG%2C_CAYMAN_ISLANDS_BRANCH> <http://example.org/isInstanceOf/> "Lender" .
-
-<%5CnDEUTSCHE_BANK_AG%2C_NEW_YORK_BRANCH%2C> <http://example.org/isInstanceOf/> "Lender" .
-
-<%5CnKEYBANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Administrative Agent",
-        "L/C Issuer",
-        "Lender" .
-
-<%5CnMORGAN_STANLEY_SENIOR_FUNDING%2C_INC> <http://example.org/isInstanceOf/> " Lender" .
-
-<%5CnMUFG_BANK%2C_LTD> <http://example.org/isInstanceOf/> "Lender" .
-
-<%5CnROYAL_BANK_OF_CANADA%2C> <http://example.org/isInstanceOf/> "Lender" .
-
-<%5CnSILICON_VALLEY_BANK> <http://example.org/isInstanceOf/> " L/C Issuer",
-        "Collateral Agent",
-        "Lender" .
-
-<%5CnVIVINT_SOLAR%2C_INC> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<%5CnVIVINT_SOLAR_DEVELOPER%2C_LLC%2C> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<%5CnVIVINT_SOLAR_HOLDINGS%2C_INC> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<%5CnVIVINT_SOLAR_OPERATIONS%2C_LLC> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<AEE_SOLAR_INC> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<SUNRUN_INC> <http://example.org/isInstanceOf/> "BORROWER:" .
-
-<SUNRUN_INSTALLATION_SERVICES_INC> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<SUNRUN_SOUTH_LLC> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
 <http://example.org/org_name/%5CnCREDIT_AGRICOLE_CORPORATE_AND_INVESTMENT_BANK> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender .
 

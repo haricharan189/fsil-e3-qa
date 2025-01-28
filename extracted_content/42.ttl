@@ -1305,70 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnBANK_OF_AMERICA%2C_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
-<%5CnWELLS_FARGO_BANK%2C_NATIONAL%5Cn%5CnASSOCIATION> <http://example.org/isInstanceOf/> "Lender" .
-
-<ARTISAN_BREAD%2C_LLC> <http://example.org/isInstanceOf/> "Guarantor " .
-
-<Artisan_Bread%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary " .
-
-<BAKERY_CAF%C3%89_CARDS%2C_LLC> <http://example.org/isInstanceOf/> "Guarantor " .
-
-<BANK_OF_AMERICA%2C_N.A.> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent" .
-
-<Bakery_Cafe_Cards%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary " .
-
-<CAP_CITY_BREAD%2C_LLC> <http://example.org/isInstanceOf/> "Guarantor " .
-
-<Cap_City_Bread%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary " .
-
-<JPMORGAN_CHASE_BANK%2C_N.A.> <http://example.org/isInstanceOf/> " Syndication",
-        "Agent",
-        "Lender" .
-
-<Merrill_Lynch%2C_Pierce%2C_Fenner%C2%A0%26_Smith> <http://example.org/isInstanceOf/> "arranger ",
-        "bookrunner",
-        "lead " .
-
-<PANERA_BAKERY%C2%A0%26_CAF%C3%89%2C_INC.> <http://example.org/isInstanceOf/> "Guarantor " .
-
-<PANERA_CANADA_HOLDINGS%2C_INC.> <http://example.org/isInstanceOf/> "Guarantor " .
-
-<PANERA_INTERNATIONAL_HOLDINGS%2C_INC.> <http://example.org/isInstanceOf/> "Guarantor " .
-
-<PNC_BANK%2C_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Lender" .
-
-<PUMPERNICKEL%2C_INC.> <http://example.org/isInstanceOf/> "Guarantor " .
-
-<PUMPERNICKEL_ASSOCIATES%2C_LLC> <http://example.org/isInstanceOf/> "Guarantor " .
-
-<Panera%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary " .
-
-<Panera_Bread_%28BC%29_ULC> <http://example.org/isInstanceOf/> "Subsidiary " .
-
-<Panera_Bread_Company> <http://example.org/isInstanceOf/> "BORROWER" .
-
-<Panera_Canada_Holdings%2C_Inc.> <http://example.org/isInstanceOf/> "Subsidiary " .
-
-<Panera_Enterprises%2C_Inc.> <http://example.org/isInstanceOf/> "Subsidiary " .
-
-<Panera_International_Holdings%2C_Inc.> <http://example.org/isInstanceOf/> "Subsidiary " .
-
-<Paradise_Bakery%C2%A0%26_Caf%C3%A9%2C_Inc.> <http://example.org/isInstanceOf/> "Subsidiary " .
-
-<Pumpernickel%2C_Inc.> <http://example.org/isInstanceOf/> "Subsidiary " .
-
-<Pumpernickel_Associates%2C_LLC> <http://example.org/isInstanceOf/> "Subsidiary " .
-
-<REGIONS_BANK> <http://example.org/isInstanceOf/> "Lender" .
-
-<TD_BANK%2C_N.A.> <http://example.org/isInstanceOf/> "Lender" .
-
-<WELLS_FARGO_BANK%2C_N.A.> <http://example.org/isInstanceOf/> "Agent",
-        "Documentation" .
-
 <http://example.org/org_name/%5CnBANK_OF_AMERICA%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender .
 
@@ -1385,7 +1321,10 @@ org_name:BAKERY_CAF%C3%89_CARDS%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Guarantor .
 
 <http://example.org/org_name/BANK_OF_AMERICA%2C_N.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent .
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative,
+        org_sub_role:Documentation,
+        org_sub_role:Syndication .
 
 org_name:Bakery_Cafe_Cards%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_sub_role:Subsidiary .
@@ -1398,11 +1337,15 @@ org_name:Cap_City_Bread%2C_LLC a base:Organization ;
 
 <http://example.org/org_name/JPMORGAN_CHASE_BANK%2C_N.A.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:Lender .
+        org_role:Lender,
+        org_sub_role:Administrative,
+        org_sub_role:Documentation,
+        org_sub_role:Syndication .
 
 org_name:Merrill_Lynch%2C_Pierce%2C_Fenner%C2%A0%26_Smith a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:arranger,
-        org_role:bookrunner .
+        org_role:bookrunner,
+        org_sub_role:lead .
 
 <http://example.org/org_name/PANERA_BAKERY%C2%A0%26_CAF%C3%89%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Guarantor .
@@ -1451,7 +1394,10 @@ org_name:Pumpernickel_Associates%2C_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Lender .
 
 <http://example.org/org_name/WELLS_FARGO_BANK%2C_N.A.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent .
+    <http://example.org/isInstanceOf/> org_role:Agent,
+        org_sub_role:Administrative,
+        org_sub_role:Documentation,
+        org_sub_role:Syndication .
 
 <http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
 
@@ -1461,11 +1407,6 @@ org_name:Pumpernickel_Associates%2C_LLC a base:Organization ;
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1490,10 +1431,6 @@ org_sub_role:DOCUMENTATION rdfs:subClassOf org_role:AGENTS .
 
 org_sub_role:Designated rdfs:subClassOf org_role:Borrower,
         org_role:Borrowers .
-
-org_sub_role:Documentation rdfs:subClassOf org_role:Agent,
-        <http://example.org/org_role/Agent.>,
-        org_role:Agents .
 
 org_sub_role:Domestic rdfs:subClassOf org_role:Guarantor .
 
@@ -1598,10 +1535,6 @@ org_sub_role:Swing_line rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Swingline rdfs:subClassOf org_role:Lender .
 
-org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents .
-
 org_sub_role:Term rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Term_Administrative rdfs:subClassOf org_role:Agent .
@@ -1630,9 +1563,6 @@ org_sub_role:joint rdfs:subClassOf org_role:bookrunner,
         org_role:bookrunners .
 
 org_sub_role:joint_lead rdfs:subClassOf org_role:arranger .
-
-org_sub_role:lead rdfs:subClassOf org_role:arranger,
-        org_role:arrangers .
 
 org_sub_role:managing rdfs:subClassOf org_role:agents .
 
@@ -1668,6 +1598,9 @@ loc:900_West_Trade_St.%5Cn%5CnCharlotte%2C_NC_28255-0001 a base:Location ;
 loc:New_York%2C_NY a base:Location ;
     <http://example.org/isInstanceOf/> base:Location ;
     rel:isLocationOf <http://example.org/org_name/Bank_of_America%2C_N.A.> .
+
+org_sub_role:lead rdfs:subClassOf org_role:arranger,
+        org_role:arrangers .
 
 person_name:Alan_Garson a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Senior_Vice_President ;
@@ -1716,8 +1649,6 @@ person_name:Paul_Spearing a base:Person ;
     <http://example.org/isInstanceOf/> person_position:Vice_President ;
     rel:isEmployedBy org_name:PNC_BANK%2C_NATIONAL_ASSOCIATION .
 
-"arranger " <http://example.org/isInstanceOf/> "lead " .
-
 org_name:PANERA%2C_LLC a base:Organization ;
     rel:hasEmployee person_name:Alan_Garson,
         person_name:Michael_J._Bufano .
@@ -1741,9 +1672,18 @@ org_name:WilmerHale a base:Organization ;
     rel:hasEmployee person_name:John_D._Sigel ;
     rel:hasLocationAt loc:60_State_Street%5Cn%5CnBoston%2C_MA_02109_USA .
 
-"Agent" <http://example.org/isInstanceOf/> " Syndication",
-        "Administrative",
-        "Documentation" .
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
+
+org_sub_role:Documentation rdfs:subClassOf org_role:Agent,
+        <http://example.org/org_role/Agent.>,
+        org_role:Agents .
+
+org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents .
 
 <http://example.org/org_name/Bank_of_America%2C_N.A.> a base:Organization ;
     rel:hasEmployee person_name:Kelly_Weaver ;

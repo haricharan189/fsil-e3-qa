@@ -1305,36 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<BANK_OF_AMERICA> <http://example.org/isInstanceOf/> "ADMINISTRATIVE AGENT",
-        "L/C Issuer",
-        "LENDER",
-        "Swing Line Lender" .
-
-<CENTRAL_STATES_LOGISTICS%2C_INC> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<CENTRAL_STATES_TRUCKING_CO.%2C> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<FAF%2C_INC> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<FIRST_TENNESSEE_BANK> <http://example.org/isInstanceOf/> "LENDER",
-        "Swing Line Lender" .
-
-<FORWARD_AIR%2C_INC.> <http://example.org/isInstanceOf/> "BORROWER" .
-
-<FORWARD_AIR_CORPORATION> <http://example.org/isInstanceOf/> "BORROWER" .
-
-<FORWARD_AIR_ROYALTY%2C_LLC%2C> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<FORWARD_AIR_SOLUTIONS%2C_INC.> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<FORWARD_AIR_TECHNOLOGY_AND_LOGISTICS_SERVICES%2C_INC.%2C> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<TOTAL_QUALITY%2C_INC.%2C> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<TQI_HOLDINGS%2C_INC.> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
-<TQI_INC.> <http://example.org/isInstanceOf/> "GUARANTOR" .
-
 org_name:CENTRAL_STATES_LOGISTICS%2C_INC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:GUARANTOR .
 
@@ -1345,7 +1315,8 @@ org_name:FAF%2C_INC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:GUARANTOR .
 
 org_name:FIRST_TENNESSEE_BANK a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:LENDER .
+    <http://example.org/isInstanceOf/> org_role:LENDER,
+        org_sub_role:Swing_Line_Lender .
 
 <http://example.org/org_name/FORWARD_AIR%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:BORROWER .
@@ -1505,9 +1476,6 @@ org_sub_role:Subsidiary rdfs:subClassOf org_role:Borrower .
 org_sub_role:Swing_Line rdfs:subClassOf org_role:Bank,
         org_role:Lender .
 
-org_sub_role:Swing_Line_Lender rdfs:subClassOf org_role:LENDER,
-        org_role:LENDERS%3A .
-
 org_sub_role:Swing_line rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Swingline rdfs:subClassOf org_role:Lender .
@@ -1605,12 +1573,14 @@ org_name:FORWARD_AIR_CORPORATION a base:Organization ;
     rel:hasEmployee person_name:Rodney_L._Bell ;
     rel:hasLocationAt loc:430_Airport_Road%5CnGreeneville%2C_Tennessee_37745 .
 
-"LENDER" <http://example.org/isInstanceOf/> "Swing Line Lender" .
+org_sub_role:Swing_Line_Lender rdfs:subClassOf org_role:LENDER,
+        org_role:LENDERS%3A .
 
 org_name:BANK_OF_AMERICA a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:ADMINISTRATIVE_AGENT,
         <http://example.org/org_role/L/C_Issuer>,
-        org_role:LENDER ;
+        org_role:LENDER,
+        org_sub_role:Swing_Line_Lender ;
     rel:hasEmployee person_name:John_M._Hall,
         person_name:Maria_A._McClain,
         person_name:Tiffany_E._Gardner ;

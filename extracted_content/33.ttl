@@ -1304,67 +1304,46 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<CREDIT_SUISSE_AG> <http://example.org/isInstanceOf/> "Administrative",
-        "Agent",
-        "Agent\\n",
-        "Collateral" .
-
-<CREDIT_SUISSE_SECURITIES_%28USA%29_LLC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint",
-        "Joint Lead" .
-
-<GOLDMAN_SACHS_BANK_USA> <http://example.org/isInstanceOf/> "Arrangers",
-        "Bookrunners",
-        "Joint",
-        "Joint Lead" .
-
-<J.P._MORGAN_SECURITIES_LLC> <http://example.org/isInstanceOf/> "Agent",
-        "Arrangers",
-        "Bookrunners",
-        "Joint",
-        "Joint Lead",
-        "Syndication" .
-
-<PLY_GEM_HOLDINGS%2C_INC.> <http://example.org/isInstanceOf/> "Parent" .
-
-<PLY_GEM_INDUSTRIES%2C_INC.%2C> <http://example.org/isInstanceOf/> "Borrower" .
-
-<RBC_CAPITAL_MARKETS%2C_LLC> <http://example.org/isInstanceOf/> "Arranger",
-        "Joint Lead" .
-
-<UBS_SECURITIES_LLC> <http://example.org/isInstanceOf/> "Agent",
-        "Arrangers",
-        "Bookrunners",
-        "Documentation",
-        "Joint",
-        "Joint Lead" .
-
-<UBS_Securities_LLC> <http://example.org/isInstanceOf/> "Documentation Agent" .
-
 org_name:CREDIT_SUISSE_SECURITIES_%28USA%29_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 org_name:GOLDMAN_SACHS_BANK_USA a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead .
 
 org_name:J.P._MORGAN_SECURITIES_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
         org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Administrative,
+        org_sub_role:Collateral,
+        org_sub_role:Documentation,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead,
+        org_sub_role:Syndication .
 
 <http://example.org/org_name/PLY_GEM_HOLDINGS%2C_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Parent .
 
 org_name:RBC_CAPITAL_MARKETS%2C_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Arranger .
+    <http://example.org/isInstanceOf/> org_role:Arranger,
+        org_sub_role:Joint_Lead .
 
 org_name:UBS_SECURITIES_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
         org_role:Arrangers,
-        org_role:Bookrunners .
+        org_role:Bookrunners,
+        org_sub_role:Administrative,
+        org_sub_role:Collateral,
+        org_sub_role:Documentation,
+        org_sub_role:Joint,
+        org_sub_role:Joint_Lead,
+        org_sub_role:Syndication .
 
 org_name:UBS_Securities_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Documentation_Agent .
@@ -1377,11 +1356,6 @@ org_name:UBS_Securities_LLC a base:Organization ;
 
 org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
         org_role:BORROWER .
-
-org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents,
-        org_role:Borrower .
 
 org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunner .
@@ -1398,18 +1372,10 @@ org_sub_role:Co-Syndication rdfs:subClassOf org_role:Agent,
 
 org_sub_role:Collatera rdfs:subClassOf org_role:Agent .
 
-org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
-        org_role:Agent%5Cn,
-        org_role:Trustee .
-
 org_sub_role:DOCUMENTATION rdfs:subClassOf org_role:AGENTS .
 
 org_sub_role:Designated rdfs:subClassOf org_role:Borrower,
         org_role:Borrowers .
-
-org_sub_role:Documentation rdfs:subClassOf org_role:Agent,
-        <http://example.org/org_role/Agent.>,
-        org_role:Agents .
 
 org_sub_role:Domestic rdfs:subClassOf org_role:Guarantor .
 
@@ -1436,21 +1402,8 @@ org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
 
 org_sub_role:JOINT_LEAD rdfs:subClassOf org_role:ARRANGERS .
 
-org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
-        org_role:Book_Runner,
-        org_role:Book_Runners,
-        org_role:Bookrunner,
-        org_role:Bookrunners,
-        org_role:Bookrunners%5Cn,
-        org_role:Lead_Arranger,
-        org_role:Lead_Arrangers .
-
 org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
         org_role:Runner .
-
-org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
 
@@ -1516,10 +1469,6 @@ org_sub_role:Swing_line rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Swingline rdfs:subClassOf org_role:Lender .
 
-org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
-        org_role:Agent%2C,
-        org_role:Agents .
-
 org_sub_role:Term rdfs:subClassOf org_role:Lender .
 
 org_sub_role:Term_Administrative rdfs:subClassOf org_role:Agent .
@@ -1583,22 +1532,43 @@ person_name:Shawn_K._Poe a base:Person ;
         person_position:Vice_President ;
     rel:isEmployedBy org_name:PLY_GEM_INDUSTRIES%2C_INC.%2C .
 
-"Agent\\n" <http://example.org/isInstanceOf/> "Collateral" .
-
-"Arranger" <http://example.org/isInstanceOf/> "Joint Lead" .
-
 org_name:CREDIT_SUISSE_AG a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Agent,
-        org_role:Agent%5Cn ;
+        org_role:Agent%5Cn,
+        org_sub_role:Administrative,
+        org_sub_role:Collateral,
+        org_sub_role:Documentation,
+        org_sub_role:Syndication ;
     rel:hasEmployee person_name:Christopher_Day,
         person_name:Jean-Marc_Vauclair .
 
-"Agent" <http://example.org/isInstanceOf/> "Administrative",
-        "Collateral",
-        "Documentation",
-        "Syndication" .
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
 
-"Arrangers" <http://example.org/isInstanceOf/> "Joint Lead" .
+org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
+        org_role:Agent%5Cn,
+        org_role:Trustee .
 
-"Bookrunners" <http://example.org/isInstanceOf/> "Joint" .
+org_sub_role:Documentation rdfs:subClassOf org_role:Agent,
+        <http://example.org/org_role/Agent.>,
+        org_role:Agents .
+
+org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents .
+
+org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
+        org_role:Book_Runner,
+        org_role:Book_Runners,
+        org_role:Bookrunner,
+        org_role:Bookrunners,
+        org_role:Bookrunners%5Cn,
+        org_role:Lead_Arranger,
+        org_role:Lead_Arrangers .
+
+org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
 

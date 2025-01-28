@@ -1305,38 +1305,6 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
-<%5CnTaiwan_Cooperative_Bank> <http://example.org/isInstanceOf/> "Lender" .
-
-<Bank_of_America> <http://example.org/isInstanceOf/> "Co-Syndication Agents" .
-
-<DEUTSCHE_BANK_SECURITIES_INC.> <http://example.org/isInstanceOf/> "Arrangers",
-        "Documentation Agent",
-        "Joint Lead" .
-
-<J.P._MORGAN_SECURITIES_LLC> <http://example.org/isInstanceOf/> "Arrangers",
-        "Joint Book",
-        "Joint Lead",
-        "Managers" .
-
-<JPMORGAN_CHASE_BANK> <http://example.org/isInstanceOf/> "Co-Syndication Agents" .
-
-<KEYBANC_CAPITAL_MARKETS_INC.> <http://example.org/isInstanceOf/> "Arrangers",
-        "Joint Lead" .
-
-<KEYBANK_NATIONAL_ASSOCIATION> <http://example.org/isInstanceOf/> "Administrative Agent",
-        "LC Issuer",
-        "Lender",
-        "Swingline\\n\\n    Lender" .
-
-<KeyBank_National_Association> <http://example.org/isInstanceOf/> "ADMINISTRATIVE AGENT",
-        "Administrative Agent",
-        "L/C ISSUER:\\n\\n" .
-
-<MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED> <http://example.org/isInstanceOf/> "Arrangers",
-        "Joint Book",
-        "Joint Lead",
-        "Managers" .
-
 <http://example.org/org_name/%5CnRBS_Citizens> a base:Organization .
 
 <http://example.org/org_name/%5CnTHE_HUNTINGTON_NATIONAL_BANK%5Cn> a base:Organization .
@@ -1356,18 +1324,24 @@ org_name:COMPASS_BANK a base:Organization .
 
 <http://example.org/org_name/DEUTSCHE_BANK_SECURITIES_INC.> a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Documentation_Agent .
+        org_role:Documentation_Agent,
+        org_sub_role:Joint_Lead .
 
 org_name:J.P._MORGAN_SECURITIES_LLC a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Managers .
+        org_role:Managers,
+        org_sub_role:Joint_Book,
+        org_sub_role:Joint_Lead .
 
 <http://example.org/org_name/KEYBANC_CAPITAL_MARKETS_INC.> a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Arrangers .
+    <http://example.org/isInstanceOf/> org_role:Arrangers,
+        org_sub_role:Joint_Lead .
 
 org_name:MERRILL_LYNCH%2C_PIERCE%2C_FENNER%C2%A0%26_SMITH_INCORPORATED a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:Arrangers,
-        org_role:Managers .
+        org_role:Managers,
+        org_sub_role:Joint_Book,
+        org_sub_role:Joint_Lead .
 
 org_name:MORGAN_STANLEY_BANK a base:Organization .
 
@@ -1460,13 +1434,6 @@ org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
         org_role:Bookrunners%5Cn,
         org_role:Lead_Arranger,
         org_role:Lead_Arrangers .
-
-org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
-        org_role:Runner .
-
-org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
-        org_role:Arrangers,
-        org_role:Bookrunner .
 
 org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
 
@@ -1810,7 +1777,8 @@ org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
     rel:hasLocationAt loc:127_Public_Square%5Cn%5CnCleveland%2C_Ohio_44114-1306,
         loc:4910_Tiedeman_Rd.%5Cn%5CnMail_Code%3A_OH-01-51-0311%5Cn%5CnBrooklyn%2C_Ohio_44144 .
 
-"Managers" <http://example.org/isInstanceOf/> "Joint Book" .
+org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
+        org_role:Runner .
 
 <http://example.org/org_name/%5CnDEUTSCHE_BANK_AG> a base:Organization ;
     rel:hasEmployee person_name:Joshua_Turner,
@@ -1834,7 +1802,9 @@ org_name:Bank_of_America a base:Organization ;
         person_name:Bill_O%C2%92Daly,
         person_name:Lana_Gifas .
 
-"Arrangers" <http://example.org/isInstanceOf/> "Joint Lead" .
+org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
 
 <http://example.org/org_name/HEALTH_CARE_REIT%2C_INC.> a base:Organization ;
     rel:hasEmployee person_name:Brian_Tuerff,
