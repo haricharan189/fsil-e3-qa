@@ -626,297 +626,6 @@ org_role:special_counsel_to_the_Borrower a rdfs:Class ;
 org_role:trustee a rdfs:Class ;
     rdfs:subClassOf base:Organization .
 
-<http://example.org/org_sub_role/%5CnADMINISTRATIVE> a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-<http://example.org/org_sub_role/%5CnCo-Documentation> a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-<http://example.org/org_sub_role/%5CnJoint_Lead> a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:ADMINISTRATIVE a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Administrative a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Barclays_Capital a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Co- a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Co-Book_Managers a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Co-Collateral a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Co-Documentation a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Co-Syndication a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Collatera a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Collateral a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Competitors a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Coordinating_Lead_Arranger a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:DOCUMENTATION a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Designated a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Documentation a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Domestic a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Dutch a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:EXECUTION a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Euro_Swing a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Foreign a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:General a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:General_Partner a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Initial a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Intercreditor a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Intermediate a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Issuing a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:JOINT a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:JOINT_LEAD a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Joint a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Joint_Book a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Joint_Lead a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Joint_Lead_Arranger a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Joint_Lead_Arrangers a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-<http://example.org/org_sub_role/L/C> a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-<http://example.org/org_sub_role/L/C_Issuer> a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:LEAD a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Lead a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Lender a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Loan_and_Agency_Services_Group a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:PARENT a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Parent a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:REIT a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Rating a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Revolving a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Revolving_Administrative a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Revolving_Credit a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:SOLE a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:SUBORDINATED a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:SUBSIDIARIES a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:SUBSIDIARY a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:SYNDICATION a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Senior_Managing a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Servicing a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Sole a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Sole_Book a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Sole_Lead a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Sole_Lead_Arranger a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Sterling_Swing a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Subsidiaries a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Subsidiary a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Subsidiary_Guarantors a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Swing_Line a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Swing_Line_Lender a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Swing_line a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Swingline a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Syndication a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Term a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Term_Administrative a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Term_Loan_A a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:U.S._Swing a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:Yen_Swing a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:additional a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:administrative a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:co-documentation a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:co-syndication a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:collateral a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:counsel a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:counsel_to_Borrowers a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:counsel_to_Lender a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:counsel_to_any_Lender a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:delegate a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:documentation a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:general_partner a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:joint a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:joint_lead a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:lead a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:legal_counsel a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:managing a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:parent a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:ratings a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:senior a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:sole a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:subsidiary a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_sub_role:syndication a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
 <http://example.org/person_position/%5CnAssistant_Vice_President> a rdfs:Class ;
     rdfs:subClassOf base:Person .
 
@@ -1591,4 +1300,198 @@ person_position:Vice_President_and_Treasurer a rdfs:Class ;
 
 person_position:Vice_President_of_Tax a rdfs:Class ;
     rdfs:subClassOf base:Person .
+
+<http://example.org/org_sub_role/%5CnADMINISTRATIVE> rdfs:subClassOf org_role:AGENT .
+
+<http://example.org/org_sub_role/%5CnCo-Documentation> rdfs:subClassOf org_role:Agent .
+
+<http://example.org/org_sub_role/%5CnJoint_Lead> rdfs:subClassOf org_role:Arranger .
+
+org_sub_role:ADMINISTRATIVE rdfs:subClassOf org_role:AGENT,
+        org_role:BORROWER .
+
+org_sub_role:Administrative rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents,
+        org_role:Borrower .
+
+org_sub_role:Co- rdfs:subClassOf org_role:Book_Managers,
+        org_role:Bookrunner .
+
+org_sub_role:Co-Book_Managers rdfs:subClassOf org_role:Initial_Lender .
+
+org_sub_role:Co-Collateral rdfs:subClassOf org_role:Agent .
+
+org_sub_role:Co-Documentation rdfs:subClassOf org_role:Agent,
+        org_role:Agents .
+
+org_sub_role:Co-Syndication rdfs:subClassOf org_role:Agent,
+        org_role:Agents .
+
+org_sub_role:Collatera rdfs:subClassOf org_role:Agent .
+
+org_sub_role:Collateral rdfs:subClassOf org_role:Agent,
+        org_role:Agent%5Cn,
+        org_role:Trustee .
+
+org_sub_role:DOCUMENTATION rdfs:subClassOf org_role:AGENTS .
+
+org_sub_role:Designated rdfs:subClassOf org_role:Borrower,
+        org_role:Borrowers .
+
+org_sub_role:Documentation rdfs:subClassOf org_role:Agent,
+        <http://example.org/org_role/Agent.>,
+        org_role:Agents .
+
+org_sub_role:Domestic rdfs:subClassOf org_role:Guarantor .
+
+org_sub_role:Dutch rdfs:subClassOf org_role:Borrower .
+
+org_sub_role:Euro_Swing rdfs:subClassOf org_role:Lender .
+
+org_sub_role:General rdfs:subClassOf org_role:Partner .
+
+org_sub_role:Initial rdfs:subClassOf org_role:Borrower,
+        org_role:Lender .
+
+org_sub_role:Intercreditor rdfs:subClassOf org_role:Agent .
+
+org_sub_role:Intermediate rdfs:subClassOf org_role:Holdings .
+
+org_sub_role:Issuing rdfs:subClassOf org_role:Bank,
+        org_role:Lender .
+
+org_sub_role:JOINT rdfs:subClassOf org_role:BOOKRUNNERS,
+        org_role:BOOK_RUNNERS,
+        org_role:LEAD_ARRANGER,
+        org_role:LEAD_ARRANGERS .
+
+org_sub_role:JOINT_LEAD rdfs:subClassOf org_role:ARRANGERS .
+
+org_sub_role:Joint rdfs:subClassOf org_role:Book_Managers,
+        org_role:Book_Runner,
+        org_role:Book_Runners,
+        org_role:Bookrunner,
+        org_role:Bookrunners,
+        org_role:Bookrunners%5Cn,
+        org_role:Lead_Arranger,
+        org_role:Lead_Arrangers .
+
+org_sub_role:Joint_Book rdfs:subClassOf org_role:Managers,
+        org_role:Runner .
+
+org_sub_role:Joint_Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
+
+org_sub_role:Joint_Lead_Arrangers rdfs:subClassOf org_role:Initial_Lender .
+
+<http://example.org/org_sub_role/L/C> rdfs:subClassOf org_role:Issuer .
+
+<http://example.org/org_sub_role/L/C_Issuer> rdfs:subClassOf org_role:LENDERS%3A,
+        org_role:Lender .
+
+org_sub_role:LEAD rdfs:subClassOf org_role:ARRANGER .
+
+org_sub_role:Lead rdfs:subClassOf org_role:Arranger,
+        org_role:Arrangers,
+        org_role:Bookrunner .
+
+org_sub_role:Lender rdfs:subClassOf org_role:Issuing_Bank .
+
+org_sub_role:Loan_and_Agency_Services_Group rdfs:subClassOf org_role:Agent .
+
+org_sub_role:Parent rdfs:subClassOf org_role:Borrower,
+        org_role:Guarantor .
+
+org_sub_role:Rating rdfs:subClassOf org_role:Agency .
+
+org_sub_role:Revolving rdfs:subClassOf org_role:Lender .
+
+org_sub_role:Revolving_Administrative rdfs:subClassOf org_role:Agent .
+
+org_sub_role:Revolving_Credit rdfs:subClassOf org_role:Lender .
+
+org_sub_role:SOLE rdfs:subClassOf org_role:BOOKRUNNER .
+
+org_sub_role:SUBORDINATED rdfs:subClassOf org_role:BORROWERS,
+        org_role:LENDERS .
+
+org_sub_role:SUBSIDIARIES rdfs:subClassOf org_role:Guarantors .
+
+org_sub_role:SYNDICATION rdfs:subClassOf org_role:AGENT .
+
+org_sub_role:Senior_Managing rdfs:subClassOf org_role:Agent .
+
+org_sub_role:Servicing rdfs:subClassOf org_role:Agent .
+
+org_sub_role:Sole rdfs:subClassOf org_role:Bookrunner .
+
+org_sub_role:Sole_Book rdfs:subClassOf org_role:Manager,
+        org_role:Runner .
+
+org_sub_role:Sole_Lead rdfs:subClassOf org_role:Arranger .
+
+org_sub_role:Sole_Lead_Arranger rdfs:subClassOf org_role:Arranger .
+
+org_sub_role:Sterling_Swing rdfs:subClassOf org_role:Lender .
+
+org_sub_role:Subsidiary rdfs:subClassOf org_role:Borrower .
+
+org_sub_role:Swing_Line rdfs:subClassOf org_role:Bank,
+        org_role:Lender .
+
+org_sub_role:Swing_Line_Lender rdfs:subClassOf org_role:LENDER,
+        org_role:LENDERS%3A .
+
+org_sub_role:Swing_line rdfs:subClassOf org_role:Lender .
+
+org_sub_role:Swingline rdfs:subClassOf org_role:Lender .
+
+org_sub_role:Syndication rdfs:subClassOf org_role:Agent,
+        org_role:Agent%2C,
+        org_role:Agents .
+
+org_sub_role:Term rdfs:subClassOf org_role:Lender .
+
+org_sub_role:Term_Administrative rdfs:subClassOf org_role:Agent .
+
+org_sub_role:Term_Loan_A rdfs:subClassOf org_role:Lender .
+
+org_sub_role:U.S._Swing rdfs:subClassOf org_role:Lender .
+
+org_sub_role:Yen_Swing rdfs:subClassOf org_role:Lender .
+
+org_sub_role:additional rdfs:subClassOf org_role:Credit_Party .
+
+org_sub_role:administrative rdfs:subClassOf org_role:agent .
+
+org_sub_role:co-documentation rdfs:subClassOf org_role:agents .
+
+org_sub_role:co-syndication rdfs:subClassOf org_role:agents .
+
+org_sub_role:collateral rdfs:subClassOf org_role:agent,
+        org_role:trustee .
+
+org_sub_role:documentation rdfs:subClassOf org_role:agent,
+        org_role:agents .
+
+org_sub_role:joint rdfs:subClassOf org_role:bookrunner,
+        org_role:bookrunners .
+
+org_sub_role:joint_lead rdfs:subClassOf org_role:arranger .
+
+org_sub_role:lead rdfs:subClassOf org_role:arranger,
+        org_role:arrangers .
+
+org_sub_role:managing rdfs:subClassOf org_role:agents .
+
+org_sub_role:ratings rdfs:subClassOf org_role:agency .
+
+org_sub_role:sole rdfs:subClassOf org_role:General_Partner,
+        org_role:arranger,
+        org_role:bookrunner,
+        org_role:manager .
+
+org_sub_role:syndication rdfs:subClassOf org_role:agent .
 
