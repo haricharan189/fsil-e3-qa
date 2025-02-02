@@ -4,39 +4,71 @@ import json
 from typing import Set, Dict, List
 from pathlib import Path
 import urllib.parse
+import os
+import re
 
+import nltk
+from nltk.stem import WordNetLemmatizer
+from nltk.corpus import wordnet
+
+# Ensure necessary NLTK resources are downloaded
+nltk.download('wordnet')
+nltk.download('omw-1.4')
 
 class KnowledgeGraphBuilder:
     def __init__(self):
+        """Initialize the knowledge graph with namespaces and properties."""
         # Define namespaces for ontology classes
         self.org_role = Namespace("http://example.org/org_role/")
         self.org_sub_role = Namespace("http://example.org/org_sub_role/")
         self.person_position = Namespace("http://example.org/person_position/")
         self.location_type = Namespace("http://example.org/location_type/")
-
+        
         # Define namespaces for data instances
         self.person_name = Namespace("http://example.org/person_name/")
         self.org_name = Namespace("http://example.org/org_name/")
         self.loc = Namespace("http://example.org/location/")
-        self.isInstanceOf = URIRef("http://example.org/isInstanceOf/")
         self.rel = Namespace("http://example.org/relation/")
-        self.org_role = Namespace("http://example.org/org_role/")
-        self.org_sub_role = Namespace("http://example.org/org_sub_role/")
-        self.person_position = Namespace("http://example.org/person_position/")
-        self.location_type = Namespace("http://example.org/location_type/")
-
+        
         # Base classes namespace
         self.base = Namespace("http://example.org/base/")
-
-        # Initialize graph and add relation types
+        
+        # Define isInstanceOf as its own predicate
+        self.isInstanceOf = URIRef("http://example.org/isInstanceOf/")
+        
+        # Initialize RDF graph
         self.g = Graph()
+        
+        # Add predefined relation types to the graph
         self.g.add((self.rel.hasPosition, RDF.type, RDF.Property))
         self.g.add((self.rel.isEmployedBy, RDF.type, RDF.Property))
         self.g.add((self.rel.hasEmployee, RDF.type, RDF.Property))
-        self.g.add((self.rel.hasLocationAt, RDF.type, RDF.Property))
-        self.g.add((self.rel.isLocationOf, RDF.type, RDF.Property))
+        self.g.add((self.isInstanceOf, RDF.type, RDF.Property))
+        
+        # Initialize lemmatizer
+        self._lemmatizer = WordNetLemmatizer()
+    
+
+    def lemmatize_text(self, text: str) -> str:
+        """Remove periods, normalize spaces, and lemmatize a given text (for nouns)."""
+        # Remove periods
+        text = re.sub(r'\.', '', text)  # Remove periods
+        
+        # Normalize spaces: replace multiple spaces with a single space
+        text = re.sub(r'\s+', ' ', text).strip()  # Replace multiple spaces with one, and strip leading/trailing spaces
+        
+        # Convert to lowercase and split into words
+        words = text.lower().split()  # Convert to lowercase and split into words
+        
+        # Lemmatize words as nouns
+        lemmatized_words = [self._lemmatizer.lemmatize(word, wordnet.NOUN) for word in words]
+        
+        # Join back the lemmatized words
+        return " ".join(lemmatized_words)
+
 
     def generate_role_subrole_map(self, data: List[Dict]) -> List[tuple[str, str]]:
+        """Extracts role-subrole relationships and returns them as tuples."""
         role_subrole_pairs = []  # List to store role-subrole pairs
 
         # First pass: Extract only the role-subrole relationships
@@ -51,14 +83,16 @@ class KnowledgeGraphBuilder:
                         label = value.get("hypertextlabels", [])[0]
                         text = value.get("text", "")
 
+                        # Lemmatize text before storing it
+                        lemmatized_text = self.lemmatize_text(text)
+
                         # Store Organization Role and Sub-Role entities
                         if label in ["Organization Role", "Organization Sub-Role"]:
                             entities[result["id"]] = {
-                                "text": text,
+                                "text": lemmatized_text,  # Store lemmatized text
                                 "label": label
                             }
                             
-
             # Second pass: role-subrole relationships
             for annotation in doc.get("annotations", []):
                 for result in annotation.get("result", []):
@@ -77,14 +111,14 @@ class KnowledgeGraphBuilder:
                         to_label = to_entity.get("label")
 
                         # If we have an Organization Role - Organization Sub-Role relationship
-                        if (from_label == "Organization Role" and to_label == "Organization Sub-Role"):
-                            role_uri = from_entity["text"] if from_label == "Organization Role" else to_entity["text"]
-                            sub_role_uri = to_entity["text"] if from_label == "Organization Role" else from_entity["text"]
+                        if from_label == "Organization Role" and to_label == "Organization Sub-Role":
+                            role_uri = from_entity["text"]
+                            sub_role_uri = to_entity["text"]
+
                             role_subrole_pairs.append((role_uri, sub_role_uri))  # Add to the list
 
         return role_subrole_pairs
-
-
+        
     def extract_ontology_classes(self, data: List[Dict], role_subrole_pairs: List[tuple[str, str]]) -> Graph:
         """
         Extract ontology classes from annotations and create TTL file.
@@ -158,7 +192,8 @@ class KnowledgeGraphBuilder:
             g.add((sub_role_uri, RDFS.subClassOf, role_uri))
 
         return g
-    
+     
+
     def create_data_layer(self, doc: Dict, ontology_graph) -> Graph:
         
         """
@@ -389,18 +424,19 @@ class KnowledgeGraphBuilder:
                     print(f"{org} isInstanceOf {role}")
 
         return g
-
-
+   
+    def _clean_uri(self, text: str, is_role_subrole: bool = False) -> str:
+        """
+        Clean text for use in URIs
+        """
+        cleaned = urllib.parse.quote(text.strip().replace("\n", "").replace(" ", "_"), safe="_")
+        if is_role_subrole:
+            cleaned = " ".join(self._lemmatizer.lemmatize(word.lower()) for word in cleaned.split())
+        return cleaned
     
-    def _clean_uri(self, text: str) -> str:
-        """
-        Clean and encode the string text for use as part of a URI.
-        """
-        return urllib.parse.quote(text.strip().replace(" ", "_"))
-
     def save_graph(self, graph: Graph, filepath: str):
         """
-        Save graph to TTL file.
+        Save graph to TTL file
         """
         graph.serialize(destination=filepath, format="turtle")
 
@@ -427,6 +463,7 @@ def main(json_file_path: str, output_dir: str):
             builder.save_graph(data_graph, f"{output_dir}/{doc_id}.ttl")
 
 
+
 if __name__ == "__main__":
-        # Replace with your actual JSON file path and desired output directory
-        main("/Users/vidhyakshayakannan/Downloads/semi_cleaned_docs.json", "./extracted_content")
+    # Replace with your actual JSON file path and desired output directory
+    main("/Users/vidhyakshayakannan/Downloads/semi_cleaned_docs.json", "./extracted_content")    
