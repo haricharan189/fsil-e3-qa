@@ -1,0 +1,10 @@
+# Ignore all files in data/html_docs/ except the directory itself
+data/html_docs/*
+!data/html_docs/
+# Optionally, keep a placeholder file
+
+# Ignore all files in logs/
+logs/*
+
+# Ignore Python bytecode files in inference/__pycache__/
+inference/__pycache__/
