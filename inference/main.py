@@ -1,12 +1,13 @@
 # main.py
+
 import re
 import os
 import json
 import logging
 import time
 import pandas as pd
-from langchain_community.callbacks.manager import get_openai_callback
 from bs4 import BeautifulSoup
+
 from metric import BenchmarkEvaluator
 import config
 from model_loader import BaseModel
@@ -137,8 +138,7 @@ def call_llm_with_retries(llm, messages: list[dict]) -> str:
     """
     for attempt in range(config.NUM_RETRIES):
         try:
-            with get_openai_callback() as cb:
-                response = llm.invoke(messages)
+            response = llm.invoke(messages)
 
             # Grab the text from `response.content` if using ChatOpenAI
             raw_output = response.content.strip() if hasattr(response, "content") else str(response).strip()
@@ -182,10 +182,6 @@ def main():
     # Group by document_number
     grouped = df.groupby("document_number")
 
-    total_prompt_tokens = 0
-    total_completion_tokens = 0
-    total_cost = 0.0
-
     # 3) For each document group, load text & ask the LLM
     for doc_id, group_indices in grouped.groups.items():
         indices_list = list(group_indices)
@@ -199,11 +195,6 @@ def main():
         questions = df.loc[indices_list, "question"].tolist()
         num_questions = len(questions)
         logging.info(f"Processing doc_id={doc_id} with {num_questions} questions...")
-
-        # We track usage for the entire doc in one or multiple calls
-        doc_prompt_tokens = 0
-        doc_completion_tokens = 0
-        doc_cost = 0.0
 
         if config.context_chat:
             # For each question, create a single prompt
@@ -220,18 +211,6 @@ def main():
                     df.at[row_idx, "llm_response"] = "LLM error or empty"
                     continue
 
-                # Now count tokens/cost for *this single call*
-                try:
-                    with get_openai_callback() as cb:
-                        # We won't actually re-invoke the LLM for counting usage.
-                        # Instead, do a dummy call or skip if you only can measure usage from an actual call.
-                        pass
-                    # The real usage from that call was already captured by call_llm_with_retries,
-                    # but we can't retrieve it post-facto unless we unify the logic.
-                    # For demonstration, we just skip or unify calls in the same block.
-                except:
-                    pass
-
                 # Parse the JSON for 1 question
                 parsed_answers = parse_llm_json(raw_output, 1)
                 df.at[row_idx, "llm_response"] = parsed_answers[1]
@@ -246,30 +225,9 @@ def main():
                     df.at[row_idx, "llm_response"] = "LLM error or empty"
                 continue
 
-            # We re-call with get_openai_callback() just to measure usage for this single request
-            try:
-                with get_openai_callback() as cb:
-                    # We must do the actual LLM call here to measure usage tokens/cost
-                    # But we've already done call_llm_with_retries to get raw_output...
-                    # So let's do a second call purely for usage measurement, which is not ideal.
-                    # Alternatively, we'd unify usage measurement inside call_llm_with_retries.
-                    _ = llm.invoke(messages)
-
-                doc_prompt_tokens     += cb.prompt_tokens
-                doc_completion_tokens += cb.completion_tokens
-                doc_cost              += cb.total_cost
-
-            except Exception as e:
-                logging.error(f"Usage measurement call failed: {e}")
-
             parsed_answers = parse_llm_json(raw_output, num_questions)
             for i, row_idx in enumerate(indices_list, start=1):
                 df.at[row_idx, "llm_response"] = parsed_answers[i]
-
-        # Accumulate doc usage
-        total_prompt_tokens     += doc_prompt_tokens
-        total_completion_tokens += doc_completion_tokens
-        total_cost              += doc_cost
 
     # 4) Save results
     output_dir = config.OUTPUT_PATH
@@ -278,18 +236,12 @@ def main():
     output_path = os.path.join(output_dir, output_csv)
     df.to_csv(output_path, index=False)
     logging.info(f"Saved LLM answers to {output_path}")
-    # 5) Summarize total usage/cost
-    logging.info(
-        f"Total Prompt Tokens: {total_prompt_tokens}, "
-        f"Total Completion Tokens: {total_completion_tokens}, "
-        f"Total Tokens: {total_prompt_tokens + total_completion_tokens}, "
-        f"Estimated Cost (USD): ${total_cost:.4f}"
-    )
-    # 6) Evaluate metrics
+
+    # 5) Evaluate metrics
     evaluator = BenchmarkEvaluator(results_dir=config.OUTPUT_PATH, metrics_dir=config.METRICS_PATH)
     evaluator.evaluate_all()
     logging.info(f"Saved metrics to {evaluator.metrics_dir}")
-    
+
 
 if __name__ == "__main__":
     main()
