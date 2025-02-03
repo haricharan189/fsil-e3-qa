@@ -10,7 +10,8 @@ from bs4 import BeautifulSoup
 
 # -------------- Add these two lines for caching --------------
 import langchain
-from langchain.cache import InMemoryCache
+from langchain_community.cache import InMemoryCache
+
 # -------------------------------------------------------------
 
 import config
