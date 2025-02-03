@@ -6,7 +6,7 @@ import Levenshtein
 import config
 
 logging.basicConfig(level=logging.INFO)
-
+"""add cleaning before comparing edit distance"""
 class BenchmarkEvaluator:
     def __init__(self, results_dir=config.OUTPUT_PATH, metrics_dir=config.METRICS_PATH):
         self.results_dir = results_dir

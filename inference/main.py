@@ -8,11 +8,20 @@ import time
 import pandas as pd
 from bs4 import BeautifulSoup
 
-from metric import BenchmarkEvaluator
+# -------------- Add these two lines for caching --------------
+import langchain
+from langchain.cache import InMemoryCache
+# -------------------------------------------------------------
+
 import config
+from metric import BenchmarkEvaluator
 from model_loader import BaseModel
 
 logging.basicConfig(level=logging.INFO)
+
+# -------------- Initialize the LangChain LLM cache --------------
+langchain.llm_cache = InMemoryCache()
+# ---------------------------------------------------------------
 
 def clean_html(raw_html: str) -> str:
     """
@@ -26,10 +35,16 @@ def clean_html(raw_html: str) -> str:
     text = " ".join(text.split())
     return text
 
+def chunk_text(text: str, chunk_size: int):
+    """
+    Splits `text` into a list of substrings, each at most `chunk_size` characters.
+    """
+    return [text[i:i+chunk_size] for i in range(0, len(text), chunk_size)]
+
 def load_document_text(doc_id: str) -> str:
     """
-    Load HTML from the JSON file, clean it, optionally truncate if it's too large.
-    Returns the final cleaned text.
+    Load HTML from the JSON file, clean it, then chunk or truncate if it's too large.
+    Returns the final cleaned text (or the first chunk if multiple).
     """
     json_path = os.path.join(config.JSON_PATH, config.JSON_FILE)
     if not os.path.exists(json_path):
@@ -43,14 +58,22 @@ def load_document_text(doc_id: str) -> str:
                 if str(entry.get("id")) == str(doc_id):
                     raw_html = entry.get("data", {}).get("html", "")
                     cleaned = clean_html(raw_html)
-                    # Truncate if too large:
+                    if not cleaned:
+                        logging.warning(f"Doc {doc_id} is empty after cleaning.")
+                        return ""
                     if len(cleaned) > config.MAX_CHAR_FOR_SYSTEM:
                         logging.warning(
-                            f"Doc {doc_id} length {len(cleaned)} > {config.MAX_CHAR_FOR_SYSTEM}, truncating..."
+                            f"Doc {doc_id} length {len(cleaned)} > {config.MAX_CHAR_FOR_SYSTEM}, chunking..."
                         )
-                        cleaned = cleaned[: config.MAX_CHAR_FOR_SYSTEM]
-                    logging.info(f"Doc {doc_id} loaded, length={len(cleaned)} chars (not printing full text).")
-                    return cleaned
+                        # Chunk the text
+                        chunks = chunk_text(cleaned, config.MAX_CHAR_FOR_SYSTEM)
+                        # For minimal changes, we only use the first chunk
+                        selected_chunk = chunks[0]
+                        logging.info(f"Using only the first chunk of doc {doc_id}, length={len(selected_chunk)}")
+                        return selected_chunk
+                    else:
+                        logging.info(f"Doc {doc_id} loaded, length={len(cleaned)} chars (not printing full text).")
+                        return cleaned
             logging.warning(f"Document {doc_id} not found in {json_path}. Returning empty string.")
             return ""
     except Exception as e:
@@ -60,9 +83,11 @@ def load_document_text(doc_id: str) -> str:
 def build_prompt_single(document_text: str, question: str, question_index: int) -> list[dict]:
     """
     Single user message combining instructions + doc text + question.
+    Includes a small improvement: "You are a world-class AI system..."
     """
     user_instructions = (
-        "You are a helpful assistant. You have the following document text.\n"
+        "You are a world-class AI system and a helpful assistant.\n"
+        "You have the following document text.\n"
         "If the answer is not found, say 'Not found'.\n\n"
         f"Document:\n{document_text}\n\n"
         "Please return your answer in JSON format EXACTLY:\n"
@@ -79,12 +104,14 @@ def build_prompt_single(document_text: str, question: str, question_index: int) 
 def build_prompt_batch(document_text: str, questions: list[str]) -> list[dict]:
     """
     One user message that includes multiple questions at once.
+    Also adds "You are a world-class AI system..."
     """
     prompt_lines = [
-        "You are a helpful assistant. You have the following document text.",
+        "You are a world-class AI system and a helpful assistant.",
+        "You have the following document text.",
         "If the answer is not found, say 'Not found'.\n",
         f"Document:\n{document_text}\n",
-        "Return your answers in JSON format EXACTLY:\n"
+        "Return your answers in JSON format EXACTLY.\n"
         "Do not return more text than necessary, just the answers.\n",
         "{\n"
         '  "answers": [\n'
@@ -140,18 +167,18 @@ def call_llm_with_retries(llm, messages: list[dict]) -> str:
         try:
             response = llm.invoke(messages)
 
-            # Grab the text from `response.content` if using ChatOpenAI
+            # Grab the text from `response.content` if using ChatOpenAI or a similar interface
             raw_output = response.content.strip() if hasattr(response, "content") else str(response).strip()
 
             if raw_output:
                 return raw_output
             else:
                 logging.warning(f"Got an empty response from LLM. Attempt {attempt+1}/{config.NUM_RETRIES}. Retrying...")
-                time.sleep(1.0)  # small wait before retry
+                time.sleep(1.0)
 
         except Exception as e:
             logging.error(f"LLM call error (attempt {attempt+1}): {e}")
-            time.sleep(1.0)  # small wait before retry
+            time.sleep(1.0)
 
     # If all attempts fail or yield empty:
     return ""
@@ -196,29 +223,24 @@ def main():
         num_questions = len(questions)
         logging.info(f"Processing doc_id={doc_id} with {num_questions} questions...")
 
+        # If context_chat is True => each question is a separate prompt
         if config.context_chat:
-            # For each question, create a single prompt
             for i, row_idx in enumerate(indices_list, start=1):
                 question_text = df.at[row_idx, "question"]
                 logging.info(f"Q{i}/{num_questions} => {question_text}")
 
-                # Build prompt for a single question
                 messages = build_prompt_single(doc_text, question_text, i)
-
-                # Call LLM with retries
                 raw_output = call_llm_with_retries(llm, messages)
                 if not raw_output:
                     df.at[row_idx, "llm_response"] = "LLM error or empty"
                     continue
 
-                # Parse the JSON for 1 question
                 parsed_answers = parse_llm_json(raw_output, 1)
                 df.at[row_idx, "llm_response"] = parsed_answers[1]
 
         else:
             # Single prompt for all questions at once
             messages = build_prompt_batch(doc_text, questions)
-
             raw_output = call_llm_with_retries(llm, messages)
             if not raw_output:
                 for i, row_idx in enumerate(indices_list, start=1):
