@@ -186,79 +186,79 @@ def call_llm_with_retries(llm, messages: list[dict]) -> str:
 
 def main():
     # 1) Load the model
-    # model_loader = BaseModel(
-    #     llm_provider=config.LLM_PROVIDER,
-    #     model_name=config.MODEL_NAME,
-    #     temperature=config.TEMPERATURE,
-    #     max_tokens=config.max_tokens_generation
-    # )
-    # model_loader.load()
-    # llm = model_loader.get_model()
+    model_loader = BaseModel(
+        llm_provider=config.LLM_PROVIDER,
+        model_name=config.MODEL_NAME,
+        temperature=config.TEMPERATURE,
+        max_tokens=config.max_tokens_generation
+    )
+    model_loader.load()
+    llm = model_loader.get_model()
 
-    # # 2) Read the CSV
-    # input_csv_path = os.path.join(config.INPUT_PATH, f"{config.QUESTION_FILE}.csv")
-    # if not os.path.exists(input_csv_path):
-    #     logging.error(f"Input CSV not found: {input_csv_path}")
-    #     return
+    # 2) Read the CSV
+    input_csv_path = os.path.join(config.INPUT_PATH, f"{config.QUESTION_FILE}.csv")
+    if not os.path.exists(input_csv_path):
+        logging.error(f"Input CSV not found: {input_csv_path}")
+        return
 
-    # df = pd.read_csv(input_csv_path)
+    df = pd.read_csv(input_csv_path)
 
-    # # Ensure we have an "llm_response" column to store results
-    # if "llm_response" not in df.columns:
-    #     df["llm_response"] = ""
+    # Ensure we have an "llm_response" column to store results
+    if "llm_response" not in df.columns:
+        df["llm_response"] = ""
 
-    # # Group by document_number
-    # grouped = df.groupby("document_number")
+    # Group by document_number
+    grouped = df.groupby("document_number")
 
-    # # 3) For each document group, load text & ask the LLM
-    # for doc_id, group_indices in grouped.groups.items():
-    #     indices_list = list(group_indices)
-    #     doc_text = load_document_text(str(doc_id))
-    #     if not doc_text:
-    #         logging.warning(f"Document {doc_id} is empty. Setting llm_response='No doc text'.")
-    #         for idx in indices_list:
-    #             df.at[idx, "llm_response"] = "No doc text"
-    #         continue
+    # 3) For each document group, load text & ask the LLM
+    for doc_id, group_indices in grouped.groups.items():
+        indices_list = list(group_indices)
+        doc_text = load_document_text(str(doc_id))
+        if not doc_text:
+            logging.warning(f"Document {doc_id} is empty. Setting llm_response='No doc text'.")
+            for idx in indices_list:
+                df.at[idx, "llm_response"] = "No doc text"
+            continue
 
-    #     questions = df.loc[indices_list, "question"].tolist()
-    #     num_questions = len(questions)
-    #     logging.info(f"Processing doc_id={doc_id} with {num_questions} questions...")
+        questions = df.loc[indices_list, "question"].tolist()
+        num_questions = len(questions)
+        logging.info(f"Processing doc_id={doc_id} with {num_questions} questions...")
 
-    #     # If context_chat is True => each question is a separate prompt
-    #     if config.context_chat:
-    #         for i, row_idx in enumerate(indices_list, start=1):
-    #             question_text = df.at[row_idx, "question"]
-    #             logging.info(f"Q{i}/{num_questions} => {question_text}")
+        # If context_chat is True => each question is a separate prompt
+        if config.context_chat:
+            for i, row_idx in enumerate(indices_list, start=1):
+                question_text = df.at[row_idx, "question"]
+                logging.info(f"Q{i}/{num_questions} => {question_text}")
 
-    #             messages = build_prompt_single(doc_text, question_text, i)
-    #             raw_output = call_llm_with_retries(llm, messages)
-    #             if not raw_output:
-    #                 df.at[row_idx, "llm_response"] = "LLM error or empty"
-    #                 continue
+                messages = build_prompt_single(doc_text, question_text, i)
+                raw_output = call_llm_with_retries(llm, messages)
+                if not raw_output:
+                    df.at[row_idx, "llm_response"] = "LLM error or empty"
+                    continue
 
-    #             parsed_answers = parse_llm_json(raw_output, 1)
-    #             df.at[row_idx, "llm_response"] = parsed_answers[1]
+                parsed_answers = parse_llm_json(raw_output, 1)
+                df.at[row_idx, "llm_response"] = parsed_answers[1]
 
-    #     else:
-    #         # Single prompt for all questions at once
-    #         messages = build_prompt_batch(doc_text, questions)
-    #         raw_output = call_llm_with_retries(llm, messages)
-    #         if not raw_output:
-    #             for i, row_idx in enumerate(indices_list, start=1):
-    #                 df.at[row_idx, "llm_response"] = "LLM error or empty"
-    #             continue
+        else:
+            # Single prompt for all questions at once
+            messages = build_prompt_batch(doc_text, questions)
+            raw_output = call_llm_with_retries(llm, messages)
+            if not raw_output:
+                for i, row_idx in enumerate(indices_list, start=1):
+                    df.at[row_idx, "llm_response"] = "LLM error or empty"
+                continue
 
-    #         parsed_answers = parse_llm_json(raw_output, num_questions)
-    #         for i, row_idx in enumerate(indices_list, start=1):
-    #             df.at[row_idx, "llm_response"] = parsed_answers[i]
+            parsed_answers = parse_llm_json(raw_output, num_questions)
+            for i, row_idx in enumerate(indices_list, start=1):
+                df.at[row_idx, "llm_response"] = parsed_answers[i]
 
-    # # 4) Save results
-    # output_dir = config.OUTPUT_PATH
-    # os.makedirs(output_dir, exist_ok=True)
-    # output_csv = f"{config.QUESTION_FILE}_{config.MODEL_NAME}.csv"
-    # output_path = os.path.join(output_dir, output_csv)
-    # df.to_csv(output_path, index=False)
-    # logging.info(f"Saved LLM answers to {output_path}")
+    # 4) Save results
+    output_dir = config.OUTPUT_PATH
+    os.makedirs(output_dir, exist_ok=True)
+    output_csv = f"{config.QUESTION_FILE}_{config.MODEL_NAME}.csv"
+    output_path = os.path.join(output_dir, output_csv)
+    df.to_csv(output_path, index=False)
+    logging.info(f"Saved LLM answers to {output_path}")
 
     # 5) Evaluate metrics
     evaluator = BenchmarkEvaluator(results_dir=config.OUTPUT_PATH, metrics_dir=config.METRICS_PATH)
