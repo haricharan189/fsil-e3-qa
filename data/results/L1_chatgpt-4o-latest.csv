@@ -42,7 +42,7 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answers,llm
 2,Who is the representative of THE TORONTO-DOMINION BANK?,Michael Borowiecki,1,0,0,Michael Borowiecki
 2,What is the location of THE TORONTO-DOMINION BANK?,NEWYORK,1,0,0,New York Branch
 2,Which company is associated with NEWYORK?,THE TORONTO-DOMINION BANK,1,0,0,The Toronto-Dominion Bank
-2,What is the role of National Association in the agreement?,co-documentation agent,1,0,0,Co-Documentation Agent
+2,What is the role of National Association in the agreement?,co-documentation agent,1,0,0,Administrative Agent and Issuing Lender
 2,What is the role of TD Securities %28USA%29 LLC in the agreement?,co-documentation agent,1,0,0,Co-Documentation Agent
 2,What is the role of U.S. Bank National Association in the agreement?,co-documentation agent,1,0,0,Co-Documentation Agent
 2,"What is the role of WELLS FARGO BANK, NATIONAL ASSOCIATION in the agreement?",Administrative Agent,1,0,0,Administrative Agent and Issuing Lender
@@ -56,7 +56,7 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answers,llm
 3,What is the position of Cindy Jordan?,AVP,1,0,0,AVP
 3,What is the position of Kyle Pearson?,Vice President,1,0,0,Vice President
 3,In what organization does Anand J. Jobanputra work?,"WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0,0,"WELLS FARGO BANK, NATIONAL ASSOCIATION"
-3,In what organization does Christopher Eng work?,"SUMMIT NCI JV BR 177, LLC",1,0,0,"SUMMIT entities (e.g., SUMMIT JV MR 2, LLC, SUMMIT NCI MASTER TRS, INC.)"
+3,In what organization does Christopher Eng work?,"SUMMIT NCI JV BR 177, LLC",1,0,0,"SUMMIT JV MR 2, LLC; SUMMIT JV MR 3, LLC; SUMMIT NCI NOLA BR 184, LLC; and other related entities"
 3,In what organization does Cindy Jordan work?,"BANK OF AMERICA, N.A.",1,0,0,"Bank of America, N.A."
 3,In what organization does Kyle Pearson work?,"BANK OF AMERICA, N.A.",1,0,0,"Bank of America, N.A."
 3,"Who is the representative of SUMMIT NCI JV BR 177, LLC?",Christopher Eng,1,0,0,Christopher Eng
@@ -71,33 +71,33 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answers,llm
 3,"What is the role of Summit Hotel GP 2, LLC in the agreement?",general partner,1,0,0,"General Partner of SUMMIT HOSPITALITY JV, LP"
 3,"What is the role of Wells Fargo Bank, National Association in the agreement?",Syndication Agent,1,0,0,Syndication Agent
 3,"What is the role of WELLS FARGO BANK, NATIONAL ASSOCIATION in the agreement?",Syndication Agent,1,0,0,Syndication Agent
-3,"What is the role of BANK OF AMERICA, N.A. in the agreement?",Administrative Agent,1,0,0,Administrative Agent and Lender
+3,"What is the role of BANK OF AMERICA, N.A. in the agreement?",Administrative Agent,1,0,0,Administrative Agent
 3,What company is the Issuer in the agreement?,"SUMMIT NCI MASTER TRS, INC.",1,0,0,"SUMMIT NCI MASTER TRS, INC."
 3,What company is the Administrative Agent in the agreement?,"BANK OF AMERICA, N.A.",1,0,0,"Bank of America, N.A."
-4,What is the position of David Lissy?,Chief Executive Officer,1,0,0,Not found
-4,What is the position of Frank Byrne?,Vice President,1,0,0,Not found
-4,What is the position of John Toronto?,Managing Director,1,0,0,Not found
-4,What is the position of Robert Ehudin?,Authorized Signatory,1,0,0,Not found
-4,What is the position of Ronnie Glen?,Vice President,1,0,0,Not found
-4,What is the position of Sarah L. Freedman?,Executive Director,1,0,0,Not found
-4,In what organization does David Lissy work?,"BRIGHT HORIZONS CAPITAL CORP.,",1,0,0,Not found
-4,In what organization does Frank Byrne work?,"BANK OF AMERICA, N.A.",1,0,0,Not found
-4,In what organization does John Toronto work?,CREDIT SUISSE AG,1,0,0,Not found
-4,In what organization does Robert Ehudin work?,GOLDMAN SACHS BANK USA,1,0,0,Not found
-4,In what organization does Ronnie Glen work?,"BANK OF AMERICA, N.A.",1,0,0,Not found
-4,In what organization does Sarah L. Freedman work?,JPMORGAN CHASE BANK N.A.,1,0,0,Not found
-4,"Who is the representative of BRIGHT HORIZONS CAPITAL CORP.,?",David Lissy,1,0,0,Not found
-4,Who is the representative of CREDIT SUISSE AG?,John Toronto,1,0,0,Not found
-4,Who is the representative of GOLDMAN SACHS BANK USA?,Robert Ehudin,1,0,0,Not found
+4,What is the position of David Lissy?,Chief Executive Officer,1,0,0,Chief Executive Officer
+4,What is the position of Frank Byrne?,Vice President,1,0,0,Vice President
+4,What is the position of John Toronto?,Managing Director,1,0,0,Managing Director
+4,What is the position of Robert Ehudin?,Authorized Signatory,1,0,0,Authorized Signatory
+4,What is the position of Ronnie Glen?,Vice President,1,0,0,Vice President
+4,What is the position of Sarah L. Freedman?,Executive Director,1,0,0,Executive Director
+4,In what organization does David Lissy work?,"BRIGHT HORIZONS CAPITAL CORP.,",1,0,0,BRIGHT HORIZONS FAMILY SOLUTIONS LLC
+4,In what organization does Frank Byrne work?,"BANK OF AMERICA, N.A.",1,0,0,"BANK OF AMERICA, N.A."
+4,In what organization does John Toronto work?,CREDIT SUISSE AG,1,0,0,"CREDIT SUISSE AG, CAYMAN ISLANDS BRANCH"
+4,In what organization does Robert Ehudin work?,GOLDMAN SACHS BANK USA,1,0,0,GOLDMAN SACHS BANK USA
+4,In what organization does Ronnie Glen work?,"BANK OF AMERICA, N.A.",1,0,0,BARCLAYS BANK PLC
+4,In what organization does Sarah L. Freedman work?,JPMORGAN CHASE BANK N.A.,1,0,0,JPMORGAN CHASE BANK N.A.
+4,"Who is the representative of BRIGHT HORIZONS CAPITAL CORP.,?",David Lissy,1,0,0,David Lissy
+4,Who is the representative of CREDIT SUISSE AG?,John Toronto,1,0,0,John Toronto
+4,Who is the representative of GOLDMAN SACHS BANK USA?,Robert Ehudin,1,0,0,GOLDMAN SACHS BANK USA
 4,Who is the representative of JPMORGAN CHASE BANK N.A.?,Sarah L. Freedman,1,0,0,Not found
-4,What type of location is CAYMAN ISLANDS?,BRANCH,1,0,0,Not found
+4,What type of location is CAYMAN ISLANDS?,BRANCH,1,0,0,Jurisdiction
 4,What is the role of BRIGHT HORIZONS CAPITAL CORP in the agreement?,Holdings,1,0,0,Holdings
 4,What is the role of BRIGHT HORIZONS FAMILY SOLUTIONS LLC in the agreement?,Borrower,1,0,0,Borrower
 4,"What is the role of BRIGHT HORIZONS CAPITAL CORP., in the agreement?",Holdings,1,0,0,Holdings
 4,What company is the Syndication Agent in the agreement?,.P. MORGAN SECURITIES LLC,1,0,0,J.P. Morgan Securities LLC
 4,What company is the Borrower in the agreement?,BRIGHT HORIZONS FAMILY SOLUTIONS LLC,1,0,0,BRIGHT HORIZONS FAMILY SOLUTIONS LLC
 4,What company is the Administrative Agent in the agreement?,GOLDMAN SACHS BANK USA,1,0,0,GOLDMAN SACHS BANK USA
-4,What company is the C Issuer in the agreement?,GOLDMAN SACHS BANK USA,1,0,0,Not found
+4,What company is the C Issuer in the agreement?,GOLDMAN SACHS BANK USA,1,0,0,GOLDMAN SACHS BANK USA
 4,What company is the Swing Line Lender in the agreement?,GOLDMAN SACHS BANK USA,1,0,0,GOLDMAN SACHS BANK USA
 5,What is the position of Andrew W. Hussion?,Vice President,1,0,0,Vice President
 5,What is the position of Denise Smyth?,Senior Vice President,1,0,0,Senior Vice President
@@ -114,19 +114,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answers,llm
 5,What company is the SUBSIDIARIES Guarantors in the agreement?,ACADIA REALTY LIMITED PARTNERSHIP,1,0,0,Certain subsidiaries of Acadia Realty Limited Partnership
 5,What company is the Administrative Agent in the agreement?,"BANK OF AMERICA, N.A.",1,0,0,"Bank of America, N.A."
 5,What company is the C Issuer in the agreement?,"BANK OF AMERICA, N.A.",1,0,0,"Bank of America, N.A."
-5,What company is the Lender in the agreement?,"BANK OF AMERICA, N.A.",1,0,0,"Bank of America, N.A., PNC Bank, National Association, Wells Fargo Bank, National Association"
+5,What company is the Lender in the agreement?,"BANK OF AMERICA, N.A.",1,0,0,"Bank of America, N.A., PNC Bank, National Association, and Wells Fargo Bank, National Association"
 5,What company is the Swing Line Lender in the agreement?,"BANK OF AMERICA, N.A.",1,0,0,"Bank of America, N.A."
-5,What company is the Joint Bookrunner in the agreement?,"MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED",1,0,0,"Merrill Lynch, Pierce, Fenner & Smith Incorporated and Wells Fargo Securities, LLC"
+5,What company is the Joint Bookrunner in the agreement?,"MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED",1,0,0,"Merrill Lynch, Pierce, Fenner & Smith Incorporated"
 5,What company is the Sole Bookrunner in the agreement?,"MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED",1,0,0,"Merrill Lynch, Pierce, Fenner & Smith Incorporated"
 5,What company is the Joint Lead Arranger in the agreement?,"MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED",1,0,0,"Merrill Lynch, Pierce, Fenner & Smith Incorporated, PNC Bank, National Association, and Wells Fargo Securities, LLC"
-6,What is the position of J. Shea Morgenroth?,Authorized Agent,1,0,0,Authorized Agent
-6,In what organization does J. Shea Morgenroth work?,HINES REIT ONE WILSHIRE LP,1,0,0,HINES REIT ONE WILSHIRE LP
-6,In what organization does Ying Chen work?,BANK OF CHINA,1,0,0,"BANK OF CHINA, LOS ANGELES BRANCH"
-6,Who is the representative of BANK OF CHINA?,Ying Chen,1,0,0,Ying Chen
-6,Who is the representative of HINES REIT ONE WILSHIRE LP?,J. Shea Morgenroth,1,0,0,J. Shea Morgenroth
-6,What is the location of Bank of China?,"444 S. Flower Street, 39th FloorLos Angeles, California 90071",1,0,0,"444 S. Flower Street, 39th Floor, Los Angeles, California 90071"
-6,"Which company is associated with 444 S. Flower Street, 39th FloorLos Angeles, California 90071?",Bank of China,1,0,0,"Bank of China, Los Angeles Branch"
-6,What type of location is LOS ANGELES?,BRANCH,1,0,0,City
-6,What is the role of HINES REIT ONE WILSHIRE LP in the agreement?,Borrower,1,0,0,Borrower
-6,What company is the Lender in the agreement?,BANK OF CHINA,1,0,0,"Bank of China, Los Angeles Branch"
-6,What company is the Borrower in the agreement?,HINES REIT ONE WILSHIRE LP,1,0,0,HINES REIT ONE WILSHIRE LP

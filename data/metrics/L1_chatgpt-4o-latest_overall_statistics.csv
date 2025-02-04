@@ -1,2 +1,2 @@
-average_f1_score,average_edit_distance,total_documents,total_questions
-0.7070625088509407,0.5876649075886377,6,131
+average_f1_score,average_edit_distance,average_cosine_similarity,total_documents,total_questions
+0.8145085299161388,0.8323627055168041,0.8170601747533252,5,120

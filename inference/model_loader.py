@@ -90,7 +90,7 @@ class BaseModel:
             server_url = input("Enter the server URL (e.g. http://localhost:3000): ")
             # In some versions, you might need to add "/v1" at the end to fully mimic OpenAI's format
             if not server_url.endswith("/v1"):
-                server_url = server_url.rstrip("/") + "/v1"
+                server_url = server_url.rstrip("/") + "/v1" # some times they request to ../v1/chat or ../v1 so may need to edit here
 
             self.model = OpenLLM(
                 openai_api_key="dummy_server_key",
@@ -99,7 +99,6 @@ class BaseModel:
                 temperature=self.temperature,
                 max_tokens=self.max_tokens
             )
-
         else:
             raise ValueError(
                 f"LLM provider '{self.llm_provider}' not supported. "
