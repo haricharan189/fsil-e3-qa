@@ -20,7 +20,7 @@ JSON_FILE     = "semi_cleaned_docs.json"  # JSON structure: [ { "id": "4", "data
 # ------------------------------------------------------------------------------
 # LLM Provider Settings
 # ------------------------------------------------------------------------------
-LLM_PROVIDER = "OpenAI" #(ANTHROPIC, MISTRAL, GOOGLE) # set this to "Custom" if you want to use own LLM based on server or "OPENLLM_LOCAL" if local laptop llm
+LLM_PROVIDER = "Custom" #(ANTHROPIC, MISTRAL, GOOGLE) # set this to "Custom" if you want to use own LLM based on server or "OPENLLM_LOCAL" if local laptop llm
 MODEL_NAME   = "chatgpt-4o-latest"  # or "gpt-4"
 TEMPERATURE  = 0.1
 

@@ -94,7 +94,7 @@ class BaseModel:
 
             self.model = OpenLLM(
                 openai_api_key="dummy_server_key",
-                api_base=server_url,
+                openai_api_base=server_url,
                 model=self.model_name,
                 temperature=self.temperature,
                 max_tokens=self.max_tokens
