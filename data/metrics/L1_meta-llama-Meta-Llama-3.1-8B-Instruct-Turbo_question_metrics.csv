@@ -1,0 +1,60 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answers,llm_response,f1_score,edit_distance,cosine_similarity
+1,What is the position of Alexandra M. Knights?,Authorized Signatory,1,0,0,Authorized Signatory,1.0,1.0,1.0000000000000002
+1,In what organization does Alexandra M. Knights work?,"BANK OF AMERICA, N.A.",1,0,0,"BANK OF AMERICA, N.A.",1.0,1.0,1.0
+1,In what organization does Mark Constant work?,"FRANKLIN RESOURCES, INC.",1,0,0,"FRANKLIN RESOURCES, INC.",1.0,1.0,1.0000000000000002
+1,"Who is the representative of BANK OF AMERICA, N.A.?",Alexandra M. Knights,1,0,0,Authorized Signatory,0.0,0.15000000000000002,0.0
+1,"Who is the representative of FRANKLIN RESOURCES, INC.?",Mark Constant,1,0,0,Vice President and Treasurer,0.0,0.2142857142857143,0.0
+1,"What is the role of FRANKLIN RESOURCES, INC. in the agreement?",Borrower,1,0,0,Borrower,1.0,1.0,1.0
+1,What company is the lead arranger in the agreement?,"Bank of America, N.A.",1,0,0,"BANK OF AMERICA, N.A.",1.0,1.0,1.0
+1,What company is the bookrunner in the agreement?,"Bank of America, N.A.",1,0,0,"BANK OF AMERICA, N.A.",1.0,1.0,1.0
+1,What company is the Administrative Agent in the agreement?,"BANK OF AMERICA, N.A.",1,0,0,"BANK OF AMERICA, N.A.",1.0,1.0,1.0
+1,What company is the Arranger in the agreement?,"BANK OF AMERICA, N.A.",1,0,0,"BANK OF AMERICA, N.A.",1.0,1.0,1.0
+1,What company is the Bookrunner in the agreement?,"BANK OF AMERICA, N.A.",1,0,0,"BANK OF AMERICA, N.A.",1.0,1.0,1.0
+1,What company is the Lender in the agreement?,"BANK OF AMERICA, N.A.",1,0,0,"BANK OF AMERICA, N.A.",1.0,1.0,1.0
+1,What company is the Lenders in the agreement?,"BANK OF AMERICA, N.A.",1,0,0,"BANK OF AMERICA, N.A.",1.0,1.0,1.0
+1,What company is the Borrower in the agreement?,"FRANKLIN RESOURCES, INC.",1,0,0,"FRANKLIN RESOURCES, INC.",1.0,1.0,1.0000000000000002
+5,What is the position of Andrew W. Hussion?,Vice President,1,0,0,Vice President,1.0,1.0,1.0000000000000002
+5,What is the position of Denise Smyth?,Senior Vice President,1,0,0,Senior Vice President,1.0,1.0,1.0000000000000002
+5,What is the position of Robert Masters?,Senior Vice President,1,0,0,Senior Vice President,1.0,1.0,1.0000000000000002
+5,In what organization does Andrew W. Hussion work?,WELLS FARGO BANK,1,0,0,"WELLS FARGO BANK, NATIONAL ASSOCIATION",0.7499999999999999,0.43243243243243246,0.6569729210330906
+5,In what organization does Denise Smyth work?,PNC BANK,1,0,0,"PNC BANK, NATIONAL ASSOCIATION",0.6666666666666666,0.27586206896551724,0.5797386715376658
+5,In what organization does Robert Masters work?,PNC BANK,1,0,0,ACADIA REALTY TRUST,0.0,0.10526315789473684,0.0
+5,In what organization does Roy E. Alexander work?,PNC BANK,1,0,0,"BANK OF AMERICA, N.A.",0.3333333333333333,0.2222222222222222,0.22028815056182968
+5,Who is the representative of WELLS FARGO BANK?,Andrew W. Hussion,1,0,0,"WELLS FARGO BANK, NATIONAL ASSOCIATION",0.0,0.21621621621621623,0.0
+5,What is the role of ACADIA REALTY LIMITED PARTNERSHIP in the agreement?,SUBSIDIARIES Guarantors,1,0,0,Borrower,0.0,0.17391304347826086,0.0
+5,"What is the role of BANK OF AMERICA, N.A. in the agreement?",Administrative Agent,1,0,0,"Administrative Agent, L/C Issuer and Swing Line Lender",0.4,0.37735849056603776,0.41036264495218466
+5,What is the role of WELLS FARGO SECURITIES in the agreement?,Joint Lead Arrangers,1,0,0,"WELLS FARGO SECURITIES, LLC",0.0,0.15384615384615385,0.0
+5,What is the role of WELLS FARGO BANK in the agreement?,Documentation Agents,1,0,0,"WELLS FARGO BANK, NATIONAL ASSOCIATION",0.0,0.2432432432432432,0.0
+5,What company is the SUBSIDIARIES Guarantors in the agreement?,ACADIA REALTY LIMITED PARTNERSHIP,1,0,0,ACADIA REALTY LIMITED PARTNERSHIP,1.0,1.0,1.0
+5,What company is the Administrative Agent in the agreement?,"BANK OF AMERICA, N.A.",1,0,0,"BANK OF AMERICA, N.A.",1.0,1.0,1.0
+5,What company is the C Issuer in the agreement?,"BANK OF AMERICA, N.A.",1,0,0,"BANK OF AMERICA, N.A.",1.0,1.0,1.0
+5,What company is the Lender in the agreement?,"BANK OF AMERICA, N.A.",1,0,0,"PNC BANK, NATIONAL ASSOCIATION",0.25,0.31034482758620685,0.1443835552773867
+5,What company is the Swing Line Lender in the agreement?,"BANK OF AMERICA, N.A.",1,0,0,"BANK OF AMERICA, N.A.",1.0,1.0,1.0
+5,What company is the Joint Bookrunner in the agreement?,"MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED",1,0,0,"WELLS FARGO SECURITIES, LLC",0.0,0.22448979591836737,0.0
+5,What company is the Sole Bookrunner in the agreement?,"MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED",1,0,0,"MERRILL LYNCH, PIERCE, FENNER & SMITH INCORPORATED",0.8571428571428571,0.9591836734693877,0.8673636849609287
+5,What company is the Joint Lead Arranger in the agreement?,"MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED",1,0,0,"WELLS FARGO SECURITIES, LLC",0.0,0.22448979591836737,0.0
+4,What is the position of David Lissy?,Chief Executive Officer,1,0,0,Director,0.0,0.26086956521739135,0.0
+4,What is the position of Frank Byrne?,Vice President,1,0,0,Director,0.0,0.2142857142857143,0.0
+4,What is the position of John Toronto?,Managing Director,1,0,0,Director,0.6666666666666666,0.47058823529411764,0.5797386715376658
+4,What is the position of Robert Ehudin?,Authorized Signatory,1,0,0,Director,0.0,0.25,0.0
+4,What is the position of Ronnie Glen?,Vice President,1,0,0,Director,0.0,0.2142857142857143,0.0
+4,What is the position of Sarah L. Freedman?,Executive Director,1,0,0,Director,0.6666666666666666,0.4444444444444444,0.5797386715376658
+4,In what organization does David Lissy work?,"BRIGHT HORIZONS CAPITAL CORP.,",1,0,0,Goldman Sachs Bank USA,0.0,0.1785714285714286,0.0
+4,In what organization does Frank Byrne work?,"BANK OF AMERICA, N.A.",1,0,0,Goldman Sachs Bank USA,0.25,0.2272727272727273,0.14438355527738672
+4,In what organization does John Toronto work?,CREDIT SUISSE AG,1,0,0,Goldman Sachs Bank USA,0.0,0.2272727272727273,0.0
+4,In what organization does Robert Ehudin work?,GOLDMAN SACHS BANK USA,1,0,0,Goldman Sachs Bank USA,1.0,1.0,1.0
+4,In what organization does Ronnie Glen work?,"BANK OF AMERICA, N.A.",1,0,0,Goldman Sachs Bank USA,0.25,0.2272727272727273,0.14438355527738672
+4,In what organization does Sarah L. Freedman work?,JPMORGAN CHASE BANK N.A.,1,0,0,Goldman Sachs Bank USA,0.25,0.4545454545454546,0.14438355527738672
+4,"Who is the representative of BRIGHT HORIZONS CAPITAL CORP.,?",David Lissy,1,0,0,Bright Horizons Capital Corp.,0.0,0.1071428571428571,0.0
+4,Who is the representative of CREDIT SUISSE AG?,John Toronto,1,0,0,Credit Suisse AG,0.0,0.0625,0.0
+4,Who is the representative of GOLDMAN SACHS BANK USA?,Robert Ehudin,1,0,0,Goldman Sachs Bank USA,0.0,0.18181818181818177,0.0
+4,Who is the representative of JPMORGAN CHASE BANK N.A.?,Sarah L. Freedman,1,0,0,JPMorgan Chase Bank N.A.,0.0,0.2272727272727273,0.0
+4,What type of location is CAYMAN ISLANDS?,BRANCH,1,0,0,Island,0.0,0.16666666666666663,0.0
+4,What is the role of BRIGHT HORIZONS CAPITAL CORP in the agreement?,Holdings,1,0,0,Holding company,0.0,0.4666666666666667,0.0
+4,What is the role of BRIGHT HORIZONS FAMILY SOLUTIONS LLC in the agreement?,Borrower,1,0,0,Borrower,1.0,1.0,1.0
+4,"What is the role of BRIGHT HORIZONS CAPITAL CORP., in the agreement?",Holdings,1,0,0,Holding company,0.0,0.4666666666666667,0.0
+4,What company is the Syndication Agent in the agreement?,.P. MORGAN SECURITIES LLC,1,0,0,JPMorgan Chase Bank N.A.,0.0,0.34782608695652173,0.0
+4,What company is the Borrower in the agreement?,BRIGHT HORIZONS FAMILY SOLUTIONS LLC,1,0,0,Bright Horizons Family Solutions LLC,1.0,1.0,1.0000000000000002
+4,What company is the Administrative Agent in the agreement?,GOLDMAN SACHS BANK USA,1,0,0,Goldman Sachs Bank USA,1.0,1.0,1.0
+4,What company is the C Issuer in the agreement?,GOLDMAN SACHS BANK USA,1,0,0,Credit Suisse AG,0.0,0.2272727272727273,0.0
+4,What company is the Swing Line Lender in the agreement?,GOLDMAN SACHS BANK USA,1,0,0,JPMorgan Chase Bank N.A.,0.25,0.4545454545454546,0.14438355527738672

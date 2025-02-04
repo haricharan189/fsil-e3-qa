@@ -13,67 +13,26 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answers
 1,What company is the Lender in the agreement?,"BANK OF AMERICA, N.A.",1,0,0
 1,What company is the Lenders in the agreement?,"BANK OF AMERICA, N.A.",1,0,0
 1,What company is the Borrower in the agreement?,"FRANKLIN RESOURCES, INC.",1,0,0
-2,What is the position of Adam J. Kultgen?,Vice President,1,0,0
-2,What is the position of Alysa Trakas?,Director,1,0,0
-2,What is the position of Anthony Hoye?,Director,1,0,0
-2,What is the position of Carl Hinrichs?,Director,1,0,0
-2,"What is the position of Carl S. Tabacjar, Jr?",Senior Vice President,1,0,0
-2,What is the position of Jaime Mariano?,Senior Vice President,1,0,0
-2,What is the position of Mary F. Molnar?,Senior Vice President,1,0,0
-2,What is the position of Mary Ramsey?,"Managing Director, SVP",1,0,0
-2,What is the position of Michael Borowiecki?,Authorized Signatory,1,0,0
-2,What is the position of Paul Isaac?,Duly Authorized Signatory,1,0,0
-2,What is the position of Phil Andresen?,Vice President,1,0,0
-2,In what organization does Adam J. Kultgen work?,THE HUNTINGTON NATIONAL BANK,1,0,0
-2,In what organization does Alysa Trakas work?,"BANK OF AMERICA, N.A",1,0,0
-2,In what organization does Anthony Hoye work?,"BANK OF AMERICA, N.A",1,0,0
-2,In what organization does Carl Hinrichs work?,"BANK OF AMERICA, N.A",1,0,0
-2,"In what organization does Carl S. Tabacjar, Jr work?","HSBC BANK USA, N.A.",1,0,0
-2,In what organization does Jaime Mariano work?,"HSBC BANK USA, N.A.",1,0,0
-2,In what organization does Mary F. Molnar work?,"HSBC BANK USA, N.A.",1,0,0
-2,In what organization does Mary Ramsey work?,"FIFTH THIRD BANK, NATIONAL ASSOCIATION",1,0,0
-2,In what organization does Michael Borowiecki work?,THE TORONTO-DOMINION BANK,1,0,0
-2,In what organization does Navdeep Gupta work?,"DICK%C2%92S SPORTING GOODS, INC.",1,0,0
-2,In what organization does Paul Isaac work?,"CAPITAL ONE, N.A.",1,0,0
-2,In what organization does Phil Andresen work?,THE HUNTINGTON NATIONAL BANK,1,0,0
-2,"Who is the representative of CAPITAL ONE, N.A.?",Paul Isaac,1,0,0
-2,"Who is the representative of DICK%C2%92S SPORTING GOODS, INC.?",Navdeep Gupta,1,0,0
-2,"Who is the representative of FIFTH THIRD BANK, NATIONAL ASSOCIATION?",Mary Ramsey,1,0,0
-2,Who is the representative of THE TORONTO-DOMINION BANK?,Michael Borowiecki,1,0,0
-2,What is the location of THE TORONTO-DOMINION BANK?,NEWYORK,1,0,0
-2,Which company is associated with NEWYORK?,THE TORONTO-DOMINION BANK,1,0,0
-2,What is the role of National Association in the agreement?,co-documentation agent,1,0,0
-2,What is the role of TD Securities %28USA%29 LLC in the agreement?,co-documentation agent,1,0,0
-2,What is the role of U.S. Bank National Association in the agreement?,co-documentation agent,1,0,0
-2,"What is the role of WELLS FARGO BANK, NATIONAL ASSOCIATION in the agreement?",Administrative Agent,1,0,0
-2,"What is the role of Wells Fargo Securities, LLC in the agreement?",Lead Arranger,1,0,0
-2,"What is the role of DICK%C2%92S SPORTING GOODS, INC. in the agreement?",Borrower,1,0,0
-2,What company is the Syndication Agent in the agreement?,"BofA Securities, Inc.",1,0,0
-2,What company is the Administrative Agent in the agreement?,"WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0,0
-2,What company is the Borrower in the agreement?,"DICK%C2%92S SPORTING GOODS, INC.",1,0,0
-3,What is the position of Anand J. Jobanputra?,Managing Director,1,0,0
-3,What is the position of Christopher Eng?,Secretary,1,0,0
-3,What is the position of Cindy Jordan?,AVP,1,0,0
-3,What is the position of Kyle Pearson?,Vice President,1,0,0
-3,In what organization does Anand J. Jobanputra work?,"WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0,0
-3,In what organization does Christopher Eng work?,"SUMMIT NCI JV BR 177, LLC",1,0,0
-3,In what organization does Cindy Jordan work?,"BANK OF AMERICA, N.A.",1,0,0
-3,In what organization does Kyle Pearson work?,"BANK OF AMERICA, N.A.",1,0,0
-3,"Who is the representative of SUMMIT NCI JV BR 177, LLC?",Christopher Eng,1,0,0
-3,"Who is the representative of WELLS FARGO BANK, NATIONAL ASSOCIATION?",Anand J. Jobanputra,1,0,0
-3,"What is the role of SUMMIT HOSPITALITY JV, LP in the agreement?",PARENT,1,0,0
-3,"What is the role of SUMMIT HOSPITALITY SUBJV, LLC in the agreement?",GUARANTOR,1,0,0
-3,"What is the role of SUMMIT NCI JV BR 156-159, LLC in the agreement?",GUARANTOR,1,0,0
-3,"What is the role of SUMMIT NCI JV BR 160, LLC in the agreement?",GUARANTOR,1,0,0
-3,"What is the role of SUMMIT NCI JV BR 161, LLC in the agreement?",GUARANTOR,1,0,0
-3,"What is the role of SUMMIT NCI MASTER TRS, INC in the agreement?",GUARANTOR,1,0,0
-3,"What is the role of SUMMIT NCI MASTER TRS, INC. in the agreement?",Issuer,1,0,0
-3,"What is the role of Summit Hotel GP 2, LLC in the agreement?",general partner,1,0,0
-3,"What is the role of Wells Fargo Bank, National Association in the agreement?",Syndication Agent,1,0,0
-3,"What is the role of WELLS FARGO BANK, NATIONAL ASSOCIATION in the agreement?",Syndication Agent,1,0,0
-3,"What is the role of BANK OF AMERICA, N.A. in the agreement?",Administrative Agent,1,0,0
-3,What company is the Issuer in the agreement?,"SUMMIT NCI MASTER TRS, INC.",1,0,0
-3,What company is the Administrative Agent in the agreement?,"BANK OF AMERICA, N.A.",1,0,0
+5,What is the position of Andrew W. Hussion?,Vice President,1,0,0
+5,What is the position of Denise Smyth?,Senior Vice President,1,0,0
+5,What is the position of Robert Masters?,Senior Vice President,1,0,0
+5,In what organization does Andrew W. Hussion work?,WELLS FARGO BANK,1,0,0
+5,In what organization does Denise Smyth work?,PNC BANK,1,0,0
+5,In what organization does Robert Masters work?,PNC BANK,1,0,0
+5,In what organization does Roy E. Alexander work?,PNC BANK,1,0,0
+5,Who is the representative of WELLS FARGO BANK?,Andrew W. Hussion,1,0,0
+5,What is the role of ACADIA REALTY LIMITED PARTNERSHIP in the agreement?,SUBSIDIARIES Guarantors,1,0,0
+5,"What is the role of BANK OF AMERICA, N.A. in the agreement?",Administrative Agent,1,0,0
+5,What is the role of WELLS FARGO SECURITIES in the agreement?,Joint Lead Arrangers,1,0,0
+5,What is the role of WELLS FARGO BANK in the agreement?,Documentation Agents,1,0,0
+5,What company is the SUBSIDIARIES Guarantors in the agreement?,ACADIA REALTY LIMITED PARTNERSHIP,1,0,0
+5,What company is the Administrative Agent in the agreement?,"BANK OF AMERICA, N.A.",1,0,0
+5,What company is the C Issuer in the agreement?,"BANK OF AMERICA, N.A.",1,0,0
+5,What company is the Lender in the agreement?,"BANK OF AMERICA, N.A.",1,0,0
+5,What company is the Swing Line Lender in the agreement?,"BANK OF AMERICA, N.A.",1,0,0
+5,What company is the Joint Bookrunner in the agreement?,"MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED",1,0,0
+5,What company is the Sole Bookrunner in the agreement?,"MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED",1,0,0
+5,What company is the Joint Lead Arranger in the agreement?,"MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED",1,0,0
 4,What is the position of David Lissy?,Chief Executive Officer,1,0,0
 4,What is the position of Frank Byrne?,Vice President,1,0,0
 4,What is the position of John Toronto?,Managing Director,1,0,0
@@ -99,34 +58,4 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answers
 4,What company is the Administrative Agent in the agreement?,GOLDMAN SACHS BANK USA,1,0,0
 4,What company is the C Issuer in the agreement?,GOLDMAN SACHS BANK USA,1,0,0
 4,What company is the Swing Line Lender in the agreement?,GOLDMAN SACHS BANK USA,1,0,0
-5,What is the position of Andrew W. Hussion?,Vice President,1,0,0
-5,What is the position of Denise Smyth?,Senior Vice President,1,0,0
-5,What is the position of Robert Masters?,Senior Vice President,1,0,0
-5,In what organization does Andrew W. Hussion work?,WELLS FARGO BANK,1,0,0
-5,In what organization does Denise Smyth work?,PNC BANK,1,0,0
-5,In what organization does Robert Masters work?,PNC BANK,1,0,0
-5,In what organization does Roy E. Alexander work?,PNC BANK,1,0,0
-5,Who is the representative of WELLS FARGO BANK?,Andrew W. Hussion,1,0,0
-5,What is the role of ACADIA REALTY LIMITED PARTNERSHIP in the agreement?,SUBSIDIARIES Guarantors,1,0,0
-5,"What is the role of BANK OF AMERICA, N.A. in the agreement?",Administrative Agent,1,0,0
-5,What is the role of WELLS FARGO SECURITIES in the agreement?,Joint Lead Arrangers,1,0,0
-5,What is the role of WELLS FARGO BANK in the agreement?,Documentation Agents,1,0,0
-5,What company is the SUBSIDIARIES Guarantors in the agreement?,ACADIA REALTY LIMITED PARTNERSHIP,1,0,0
-5,What company is the Administrative Agent in the agreement?,"BANK OF AMERICA, N.A.",1,0,0
-5,What company is the C Issuer in the agreement?,"BANK OF AMERICA, N.A.",1,0,0
-5,What company is the Lender in the agreement?,"BANK OF AMERICA, N.A.",1,0,0
-5,What company is the Swing Line Lender in the agreement?,"BANK OF AMERICA, N.A.",1,0,0
-5,What company is the Joint Bookrunner in the agreement?,"MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED",1,0,0
-5,What company is the Sole Bookrunner in the agreement?,"MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED",1,0,0
-5,What company is the Joint Lead Arranger in the agreement?,"MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED",1,0,0
-6,What is the position of J. Shea Morgenroth?,Authorized Agent,1,0,0
-6,In what organization does J. Shea Morgenroth work?,HINES REIT ONE WILSHIRE LP,1,0,0
-6,In what organization does Ying Chen work?,BANK OF CHINA,1,0,0
-6,Who is the representative of BANK OF CHINA?,Ying Chen,1,0,0
-6,Who is the representative of HINES REIT ONE WILSHIRE LP?,J. Shea Morgenroth,1,0,0
-6,What is the location of Bank of China?,"444 S. Flower Street, 39th FloorLos Angeles, California 90071",1,0,0
-6,"Which company is associated with 444 S. Flower Street, 39th FloorLos Angeles, California 90071?",Bank of China,1,0,0
-6,What type of location is LOS ANGELES?,BRANCH,1,0,0
-6,What is the role of HINES REIT ONE WILSHIRE LP in the agreement?,Borrower,1,0,0
-6,What company is the Lender in the agreement?,BANK OF CHINA,1,0,0
-6,What company is the Borrower in the agreement?,HINES REIT ONE WILSHIRE LP,1,0,0
+

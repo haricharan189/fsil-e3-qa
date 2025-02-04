@@ -4,6 +4,7 @@ import logging
 import pandas as pd
 import Levenshtein
 import config
+import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -15,7 +16,7 @@ def preprocess_text(text):
     if not isinstance(text, str):
         return ""
     text = text.lower().strip()
-    text = text.replace(".", "").replace("-", "")
+    text = text.replace(".", "").replace("-", "").replace("?", "").replace("%","").replace(",", "") 
     return " ".join(text.split())  # Remove extra spaces
 
 
@@ -23,20 +24,23 @@ class BenchmarkEvaluator:
     def __init__(self, results_dir=config.OUTPUT_PATH, metrics_dir=config.METRICS_PATH):
         self.results_dir = results_dir
         self.metrics_dir = metrics_dir
+        # Sanitize the model name for file naming
+        self.sanitized_model_name = config.MODEL_NAME.replace("/", "-")
+        self.sanitized_model_name = re.sub(r'[<>:"/\\|?*]', '-', self.sanitized_model_name)
         os.makedirs(self.metrics_dir, exist_ok=True)
 
     def calculate_f1_score(self, pred, true):
         """Word overlap F1 score after preprocessing."""
         pred, true = preprocess_text(pred), preprocess_text(true)
         pred_words, true_words = set(pred.split()), set(true.split())
-        
+
         if not pred_words or not true_words:
             return 0.0
-        
+
         overlap = pred_words.intersection(true_words)
         precision = len(overlap) / len(pred_words) if pred_words else 0
         recall = len(overlap) / len(true_words) if true_words else 0
-        
+
         return 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0.0
 
     def calculate_edit_distance(self, pred, true):
@@ -53,7 +57,7 @@ class BenchmarkEvaluator:
         vectorizer = TfidfVectorizer()
         tfidf_matrix = vectorizer.fit_transform([pred, true])
         similarity = cosine_similarity(tfidf_matrix[0], tfidf_matrix[1])[0][0]
-        
+
         return similarity
 
     def evaluate_csv(self, csv_path):
@@ -71,7 +75,7 @@ class BenchmarkEvaluator:
         df["cosine_similarity"] = df.apply(lambda row: self.calculate_cosine_similarity(row["llm_response"], row["answer"]), axis=1)
 
         # Save question-wise metrics
-        doc_metrics_path = os.path.join(self.metrics_dir, f"{config.QUESTION_FILE}_{config.MODEL_NAME}_question_metrics.csv")
+        doc_metrics_path = os.path.join(self.metrics_dir, f"{config.QUESTION_FILE}_{self.sanitized_model_name}_question_metrics.csv")
         df.to_csv(doc_metrics_path, index=False)
         logging.info(f"Saved question-wise metrics: {doc_metrics_path}")
 
@@ -97,7 +101,7 @@ class BenchmarkEvaluator:
 
         # Save per-document statistics
         doc_stats_df = pd.concat(document_stats, ignore_index=True)
-        doc_stats_path = os.path.join(self.metrics_dir, f"{config.QUESTION_FILE}_{config.MODEL_NAME}_document_statistics.csv")
+        doc_stats_path = os.path.join(self.metrics_dir, f"{config.QUESTION_FILE}_{self.sanitized_model_name}_document_statistics.csv")
         doc_stats_df.to_csv(doc_stats_path, index=False)
         logging.info(f"Saved per-document aggregated metrics: {doc_stats_path}")
 
@@ -111,13 +115,13 @@ class BenchmarkEvaluator:
         }
 
         overall_stats_df = pd.DataFrame([overall_stats])
-        overall_stats_path = os.path.join(self.metrics_dir, f"{config.QUESTION_FILE}_{config.MODEL_NAME}_overall_statistics.csv")
+        overall_stats_path = os.path.join(self.metrics_dir, f"{config.QUESTION_FILE}_{self.sanitized_model_name}_overall_statistics.csv")
         overall_stats_df.to_csv(overall_stats_path, index=False)
         logging.info(f"Saved overall aggregated metrics: {overall_stats_path}")
 
     def evaluate_all(self):
         """Evaluate all CSV files in results_dir and create per-document & overall statistics."""
-        csv_files = glob.glob(os.path.join(self.results_dir, f"{config.QUESTION_FILE}_{config.MODEL_NAME}.csv"))
+        csv_files = glob.glob(os.path.join(self.results_dir, f"{config.QUESTION_FILE}_{self.sanitized_model_name}.csv"))
         all_dfs = []
 
         for csv_file in csv_files:

@@ -20,14 +20,15 @@ JSON_FILE     = "semi_cleaned_docs.json"  # JSON structure: [ { "id": "4", "data
 # ------------------------------------------------------------------------------
 # LLM Provider Settings
 # ------------------------------------------------------------------------------
-LLM_PROVIDER = "OpenAI" #(ANTHROPIC, MISTRAL, GOOGLE) # set this to "Custom" if you want to use own LLM based on server
-MODEL_NAME   = "chatgpt-4o-latest"  # or "gpt-4"
+# Examples: "OpenAI", "ANTHROPIC", "MISTRAL", "GOOGLE", "TOGETHER", "Custom"
+LLM_PROVIDER = "TOGETHER"
+MODEL_NAME   = "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"   # or "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo" for Together, etc.
 TEMPERATURE  = 0.1
 
-# We want to set the maximum tokens the LLM can generate as output
-max_tokens_generation = 2000
+# Maximum tokens to generate in the output
+max_tokens_generation = 4000
 
-# The overall max token context for your LLM. If you only have 8k or 32k, set accordingly.
+# The overall max token context for your LLM (8k, 32k, etc. depending on your provider).
 max_token = 128000
 
 # ------------------------------------------------------------------------------
@@ -38,12 +39,12 @@ NUM_RETRIES = 2   # How many times to retry a failing LLM call
 # ------------------------------------------------------------------------------
 # Single vs. batch question approach
 # ------------------------------------------------------------------------------
-# - True  => For each question, we send doc text + single question (fresh prompt each time)
-# - False => For each doc, send doc text + ALL questions in one prompt
+# True  => For each question, doc text + single question in separate calls
+# False => For each doc, doc text + ALL questions in one call
 context_chat = False
 
 # ------------------------------------------------------------------------------
 # Other
 # ------------------------------------------------------------------------------
-# Character limit to avoid excessive context or 1MB limit
+# Character limit to avoid context that is too large
 MAX_CHAR_FOR_SYSTEM = 550000
