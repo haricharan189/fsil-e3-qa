@@ -68,8 +68,8 @@ def load_document_text(doc_id: str) -> str:
                         )
                         # Chunk the text
                         chunks = chunk_text(cleaned, config.MAX_CHAR_FOR_SYSTEM)
-                        # For minimal changes, we only use the first chunk
-                        selected_chunk = chunks[0]
+                        # For minimal changes, we only use the last chunk
+                        selected_chunk = chunks[-1]
                         logging.info(f"Using only the first chunk of doc {doc_id}, length={len(selected_chunk)}")
                         return selected_chunk
                     else:
