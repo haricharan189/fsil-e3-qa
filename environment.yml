@@ -1,0 +1,26 @@
+name: E3
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - seaborn
+  - requests
+  - beautifulsoup4
+  - langchain
+  - openai
+  - sqlalchemy
+  - tqdm
+  - pyyaml
+  - pip:
+      - httpx
+      - tiktoken
+      - joblib
+      - regex
+      - typing-extensions
