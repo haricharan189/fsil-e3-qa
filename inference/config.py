@@ -13,8 +13,8 @@ INPUT_PATH = "../data/dataframes/"
 OUTPUT_PATH = "../data/results/"
 JSON_PATH   = "../data/html_docs/"
 METRICS_PATH = "../data/metrics/"
-
-QUESTION_FILE = "L1"  # e.g., name of CSV (L1.csv) with columns (document_number, question, answer, etc.)
+#it is preferred to have sorted question file in increasing order of doc id.
+QUESTION_FILE = "L1"  #  e.g., name of CSV (L1.csv) with columns (document_number, question, answer, etc.)
 JSON_FILE     = "semi_cleaned_docs.json"  # JSON structure: [ { "id": "4", "data": { "html": "<html>...</html>" }}, ...]
 
 # ------------------------------------------------------------------------------
