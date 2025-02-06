@@ -175,35 +175,52 @@ def build_prompt_combine_answers(partial_answers: list[str], questions: list[str
 
 def parse_llm_json(raw_response: str, num_questions: int) -> dict:
     """
-    Expects a JSON string like:
+    Expects a JSON string, possibly embedded in extra text, like:
+    
+    Some preamble text...
+    ```json
     {
       "answers": [
         {"question_index": 1, "answer": "..."},
         ...
       ]
     }
+    ```
+    Some additional commentary...
+    
     Returns a dict: {1: "answer1", 2: "answer2", ...}
-    If invalid JSON or missing fields, default to "LLM parse error".
+    If invalid JSON or missing fields, defaults to "LLM parse error".
     """
     default_result = {i: "LLM parse error" for i in range(1, num_questions + 1)}
-    cleaned_response = re.sub(r"```json\s*|\s*```", "", raw_response).strip()
+    
+    # Extract JSON from inside triple backticks
+    match = re.search(r"```json\s*(.*?)\s*```", raw_response, re.DOTALL)
+    if match:
+        cleaned_response = match.group(1).strip()
+    else:
+        cleaned_response = raw_response.strip()
+    
     print(cleaned_response)
     logging.debug(f"Parsing LLM JSON: {cleaned_response[:300]}...")  # Log first 300 chars
+    
     try:
         data = json.loads(cleaned_response)
         if "answers" not in data:
             logging.warning("No 'answers' key found in the JSON response.")
             return default_result
+        
         answers = data["answers"]
         for ans in answers:
             idx = ans.get("question_index")
             content = ans.get("answer", "")
             if isinstance(idx, int) and 1 <= idx <= num_questions:
                 default_result[idx] = content
+        
         return default_result
     except json.JSONDecodeError as e:
         logging.warning(f"JSON parse error: {e}")
         return default_result
+
 
 def call_llm_with_retries(llm, messages: list[dict], extra_log_info: str = "") -> str:
     """
