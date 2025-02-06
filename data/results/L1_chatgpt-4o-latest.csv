@@ -16,23 +16,23 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answers,llm
 5,What is the position of Andrew W. Hussion?,Vice President,1,0,0,Vice President
 5,What is the position of Denise Smyth?,Senior Vice President,1,0,0,Senior Vice President
 5,What is the position of Robert Masters?,Senior Vice President,1,0,0,Senior Vice President
-5,In what organization does Andrew W. Hussion work?,WELLS FARGO BANK,1,0,0,"Wells Fargo Bank, National Association"
-5,In what organization does Denise Smyth work?,PNC BANK,1,0,0,"PNC Bank, National Association"
-5,In what organization does Robert Masters work?,PNC BANK,1,0,0,Acadia Realty Trust
-5,In what organization does Roy E. Alexander work?,PNC BANK,1,0,0,"Bank of America, N.A."
+5,In what organization does Andrew W. Hussion work?,WELLS FARGO BANK,1,0,0,"WELLS FARGO BANK, NATIONAL ASSOCIATION"
+5,In what organization does Denise Smyth work?,PNC BANK,1,0,0,"PNC BANK, NATIONAL ASSOCIATION"
+5,In what organization does Robert Masters work?,PNC BANK,1,0,0,ACADIA REALTY TRUST
+5,In what organization does Roy E. Alexander work?,PNC BANK,1,0,0,"BANK OF AMERICA, N.A."
 5,Who is the representative of WELLS FARGO BANK?,Andrew W. Hussion,1,0,0,Andrew W. Hussion
 5,What is the role of ACADIA REALTY LIMITED PARTNERSHIP in the agreement?,SUBSIDIARIES Guarantors,1,0,0,Borrower
 5,"What is the role of BANK OF AMERICA, N.A. in the agreement?",Administrative Agent,1,0,0,"Administrative Agent, Swing Line Lender, L/C Issuer, and a Lender"
 5,What is the role of WELLS FARGO SECURITIES in the agreement?,Joint Lead Arrangers,1,0,0,Joint Lead Arranger
 5,What is the role of WELLS FARGO BANK in the agreement?,Documentation Agents,1,0,0,Co-Documentation Agent and a Lender
 5,What company is the SUBSIDIARIES Guarantors in the agreement?,ACADIA REALTY LIMITED PARTNERSHIP,1,0,0,Certain subsidiaries of Acadia Realty Limited Partnership
-5,What company is the Administrative Agent in the agreement?,"BANK OF AMERICA, N.A.",1,0,0,"Bank of America, N.A."
-5,What company is the C Issuer in the agreement?,"BANK OF AMERICA, N.A.",1,0,0,"Bank of America, N.A."
-5,What company is the Lender in the agreement?,"BANK OF AMERICA, N.A.",1,0,0,"Bank of America, N.A., PNC Bank, National Association, and Wells Fargo Bank, National Association"
-5,What company is the Swing Line Lender in the agreement?,"BANK OF AMERICA, N.A.",1,0,0,"Bank of America, N.A."
-5,What company is the Joint Bookrunner in the agreement?,"MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED",1,0,0,"Merrill Lynch, Pierce, Fenner & Smith Incorporated"
-5,What company is the Sole Bookrunner in the agreement?,"MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED",1,0,0,"Merrill Lynch, Pierce, Fenner & Smith Incorporated"
-5,What company is the Joint Lead Arranger in the agreement?,"MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED",1,0,0,"Merrill Lynch, Pierce, Fenner & Smith Incorporated, PNC Bank, National Association, and Wells Fargo Securities, LLC"
+5,What company is the Administrative Agent in the agreement?,"BANK OF AMERICA, N.A.",1,0,0,"BANK OF AMERICA, N.A."
+5,What company is the C Issuer in the agreement?,"BANK OF AMERICA, N.A.",1,0,0,"BANK OF AMERICA, N.A."
+5,What company is the Lender in the agreement?,"BANK OF AMERICA, N.A.",1,0,0,"BANK OF AMERICA, N.A., PNC BANK, NATIONAL ASSOCIATION, WELLS FARGO BANK, NATIONAL ASSOCIATION, and other lenders party to the agreement"
+5,What company is the Swing Line Lender in the agreement?,"BANK OF AMERICA, N.A.",1,0,0,"BANK OF AMERICA, N.A."
+5,What company is the Joint Bookrunner in the agreement?,"MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED",1,0,0,"MERRILL LYNCH, PIERCE, FENNER & SMITH INCORPORATED"
+5,What company is the Sole Bookrunner in the agreement?,"MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED",1,0,0,"MERRILL LYNCH, PIERCE, FENNER & SMITH INCORPORATED"
+5,What company is the Joint Lead Arranger in the agreement?,"MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED",1,0,0,"MERRILL LYNCH, PIERCE, FENNER & SMITH INCORPORATED, PNC BANK, NATIONAL ASSOCIATION, and WELLS FARGO SECURITIES, LLC"
 4,What is the position of David Lissy?,Chief Executive Officer,1,0,0,Chief Executive Officer
 4,What is the position of Frank Byrne?,Vice President,1,0,0,Vice President
 4,What is the position of John Toronto?,Managing Director,1,0,0,Managing Director
@@ -48,8 +48,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answers,llm
 4,"Who is the representative of BRIGHT HORIZONS CAPITAL CORP.,?",David Lissy,1,0,0,David Lissy
 4,Who is the representative of CREDIT SUISSE AG?,John Toronto,1,0,0,John Toronto
 4,Who is the representative of GOLDMAN SACHS BANK USA?,Robert Ehudin,1,0,0,GOLDMAN SACHS BANK USA
-4,Who is the representative of JPMORGAN CHASE BANK N.A.?,Sarah L. Freedman,1,0,0,Sarah L. Freedman
-4,What type of location is CAYMAN ISLANDS?,BRANCH,1,0,0,A location
+4,Who is the representative of JPMORGAN CHASE BANK N.A.?,Sarah L. Freedman,1,0,0,Not found
+4,What type of location is CAYMAN ISLANDS?,BRANCH,1,0,0,Jurisdiction of Organization
 4,What is the role of BRIGHT HORIZONS CAPITAL CORP in the agreement?,Holdings,1,0,0,Holdings
 4,What is the role of BRIGHT HORIZONS FAMILY SOLUTIONS LLC in the agreement?,Borrower,1,0,0,Borrower
 4,"What is the role of BRIGHT HORIZONS CAPITAL CORP., in the agreement?",Holdings,1,0,0,Holdings

@@ -21,8 +21,8 @@ JSON_FILE     = "semi_cleaned_docs.json"  # JSON structure: [ { "id": "4", "data
 # LLM Provider Settings
 # ------------------------------------------------------------------------------
 # Examples: "OpenAI", "ANTHROPIC", "MISTRAL", "GOOGLE", "TOGETHER", "Custom"
-LLM_PROVIDER = "TOGETHER"
-MODEL_NAME   = "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo"   # or "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo" for Together, etc.
+LLM_PROVIDER = "Custom"
+MODEL_NAME   = "meta-llama/Llama-3.1-8b-Instruct"   # or "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo" for Together, etc.
 TEMPERATURE  = 0.1
 
 # Maximum tokens to generate in the output

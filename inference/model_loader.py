@@ -12,6 +12,13 @@ from langchain_openai import ChatOpenAI
 # from langchain_mistralai import ChatMistralAI
 # from langchain_google_genai import ChatGoogleGenerativeAI
 
+from vllm import LLM, SamplingParams
+
+class Response:
+    def __init__(self, content):
+        self.content = content
+
+
 class ChatTogether:
     """
     Minimal wrapper for TogetherAI endpoint that mimics the LangChain chat interface.
@@ -50,11 +57,19 @@ class ChatTogether:
         # The structure is: data["choices"][0]["message"]["content"] for the text
         content = data.get("choices", [{}])[0].get("message", {}).get("content", "")
 
-        # We'll create a small response object that has a .content attribute
-        class Response:
-            def __init__(self, content):
-                self.content = content
+        return Response(content)
 
+
+class ChatOpenSource:
+    def __init__(self, model_name, temperature):
+        self.model_name = model_name
+        self.sampling_params = SamplingParams(temperature=temperature)
+        self.model = LLM(model=self.model_name)
+
+    def invoke(self, messages):
+        prompts = [message['content'] for message in messages]
+        outputs = self.model.generate(prompts, self.sampling_params)
+        content = "\n".join(output.outputs[0].text for output in outputs)
         return Response(content)
 
 
@@ -143,16 +158,9 @@ class BaseModel:
               - We'll pass it as openai_api_base to mimic an "OpenAI-compatible" endpoint.
               - We also pass a dummy openai_api_key to satisfy the pydantic schema.
             """
-            server_url = input("Enter the server URL (e.g. http://localhost:3000): ")
-            if not server_url.endswith("/v1"):
-                server_url = server_url.rstrip("/") + "/v1"
-
-            self.model = OpenLLM(
-                openai_api_key="dummy_server_key",
-                openai_api_base=server_url,
-                model=self.model_name,
-                temperature=self.temperature,
-                max_tokens=self.max_tokens
+            self.model = ChatOpenSource(
+                model_name=self.model_name,
+                temperature=self.temperature
             )
         else:
             raise ValueError(

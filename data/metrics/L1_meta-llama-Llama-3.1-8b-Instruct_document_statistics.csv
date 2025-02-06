@@ -1,0 +1,4 @@
+document_number,average_f1_score,average_edit_distance,average_cosine_similarity,total_questions
+1,0.0,0.12758411179463813,0.0,14
+4,0.0,0.16671689677188398,0.0,25
+5,0.0,0.17683123381104748,0.0,20
