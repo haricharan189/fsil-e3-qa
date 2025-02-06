@@ -200,8 +200,7 @@ def parse_llm_json(raw_response: str, num_questions: int) -> dict:
     else:
         cleaned_response = raw_response.strip()
     
-    print(cleaned_response)
-    logging.debug(f"Parsing LLM JSON: {cleaned_response[:300]}...")  # Log first 300 chars
+    logging.debug(f"Parsing LLM JSON: {cleaned_response}")  
     
     try:
         data = json.loads(cleaned_response)
