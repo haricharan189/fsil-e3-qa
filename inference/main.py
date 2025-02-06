@@ -139,7 +139,7 @@ def build_prompt_batch(document_text: str, questions: list[str]) -> list[dict]:
         "Expected Output:\n",
         "{",
         '  "answers": [',
-        '    {"question_index": 1, "answer": "Martin Eberhard and Marc Tarpenning"},',
+        '    {"question_index": 1, "answer": "Martin Eberhard, Marc Tarpenning"},',
         '    {"question_index": 2, "answer": "2003"}',
         "  ]",
         "}\n",
