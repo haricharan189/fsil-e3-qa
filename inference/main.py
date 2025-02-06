@@ -91,18 +91,31 @@ def build_prompt_single(document_text: str, question: str, question_index: int) 
     user_instructions = (
         "You are a world-class AI system and a helpful assistant.\n"
         "You have the following document text.\n"
-       "If the answer is strictly still not found in the given document text, say 'Not found'.\n\n"
+        "If the answer is strictly still not found in the given document text, say 'Not found'.\n\n"
         "IMPORTANT: Respond ONLY with valid JSON, nothing else.\n\n"
-        f"Document:\n{document_text}\n\n"
-        "Return EXACTLY in this JSON format, with no extra keys or text:\n"
+        
+        "### Example ###\n"
+        "Document:\n"
+        "Apple Inc. is a technology company headquartered in Cupertino, California. "
+        "It was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in 1976.\n\n"
+        
+        "Q1: Where is the headquarters of Apple Inc.?\n"
+        "Expected Output:\n"
         "{\n"
         '  "answers": [\n'
-        '    {"question_index": 1, "answer": "..."}\n'
+        '    {"question_index": 1, "answer": "Cupertino, California"}\n'
         "  ]\n"
         "}\n\n"
-        f"Question (index={question_index}): {question}"
+        
+        "### Actual Task ###\n"
+        f"Document:\n{document_text}\n\n"
+        "Here is the question:\n"
+        f"Q{question_index}: {question}\n"
+        "Return EXACTLY in this JSON format, with no extra keys or text."
     )
+
     return [{"role": "user", "content": user_instructions}]
+
 
 def build_prompt_batch(document_text: str, questions: list[str]) -> list[dict]:
     """
@@ -112,24 +125,45 @@ def build_prompt_batch(document_text: str, questions: list[str]) -> list[dict]:
     prompt_lines = [
         "You are a world-class AI system and a helpful assistant.",
         "You have the following document text.",
-       "If the answer is strictly still not found in the given document text, say 'Not found'.\n",
+        "If the answer is strictly still not found in the given document text, say 'Not found'.\n",
         "IMPORTANT: Respond ONLY with valid JSON, nothing else.\n",
+        
+        "### Example ###",
+        "Document:",
+        "Tesla, Inc. is an American electric vehicle and clean energy company founded in 2003 by Martin Eberhard and Marc Tarpenning. "
+        "Elon Musk became the largest investor and later CEO.\n",
+        
+        "Here are some example questions and the expected JSON output:\n",
+        "Q1: Who founded Tesla?\n",
+        "Q2: What year was Tesla founded?\n",
+        "Expected Output:\n",
+        "{",
+        '  "answers": [',
+        '    {"question_index": 1, "answer": "Martin Eberhard and Marc Tarpenning"},',
+        '    {"question_index": 2, "answer": "2003"}',
+        "  ]",
+        "}\n",
+        
+        "### Actual Task ###",
         f"Document:\n{document_text}\n",
-        "Return EXACTLY in this JSON format, with no extra keys or text:\n"
-        "{\n"
-        '  "answers": [\n'
-        '    {"question_index": 1, "answer": "..."},\n'
-        '    {"question_index": 2, "answer": "..."},\n'
-        "    ...\n"
-        "  ]\n"
+        "Return EXACTLY in this JSON format, with no extra keys or text:\n",
+        "{",
+        '  "answers": [',
+        '    {"question_index": 1, "answer": "..."},',
+        '    {"question_index": 2, "answer": "..."},',
+        "    ...",
+        "  ]",
         "}\n",
         "Here are the questions:"
     ]
+
     for i, question in enumerate(questions, start=1):
         prompt_lines.append(f"Q{i}: {question}")
 
     combined_prompt = "\n".join(prompt_lines)
     return [{"role": "user", "content": combined_prompt}]
+
+
 
 def build_prompt_combine_answers(partial_answers: list[str], questions: list[str]) -> list[dict]:
     """
