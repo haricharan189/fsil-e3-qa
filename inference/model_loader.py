@@ -13,6 +13,7 @@ from langchain_openai import ChatOpenAI
 # from langchain_google_genai import ChatGoogleGenerativeAI
 
 from vllm import LLM, SamplingParams
+from vllm.sampling_params import GuidedDecodingParams
 
 class Response:
     def __init__(self, content):
@@ -63,14 +64,70 @@ class ChatTogether:
 class ChatOpenSource:
     def __init__(self, model_name, temperature):
         self.model_name = model_name
-        self.sampling_params = SamplingParams(temperature=temperature)
-        self.model = LLM(model=self.model_name)
+        self.temperature = temperature
+        self.model = LLM(model=self.model_name, enable_prefix_caching=False, enable_chunked_prefill=False)
+
+
+    def __get_json_schema(self):
+        schema = {
+            "type": "object",
+            "properties": {
+                "answers": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "question_index": {
+                                "type": "integer"
+                            },
+                            "answer": {
+                                "type": "string"
+                            }
+                        },
+                        "required": ["question_index", "answer"]
+                    }
+                }
+            },
+            "required": ["answers"]
+        }
+
+        return schema
+
+
+    def __restructure_messages(self, messages):
+        content = messages[0]['content']
+        split_content = content.split('[USER INPUT]')
+
+        sys_content = split_content[0]
+        user_content = f'[USER INPUT]{split_content[1]}'
+
+        print(user_content.split('[QUESTION')[1])
+
+        conversation = [
+            {
+                'role': 'system',
+                'content': sys_content
+            },
+            {
+                'role': 'user',
+                'content': user_content
+            }
+        ]
+        return conversation
+
 
     def invoke(self, messages):
-        prompts = [message['content'] for message in messages]
-        outputs = self.model.generate(prompts, self.sampling_params)
-        content = "\n".join(output.outputs[0].text for output in outputs)
-        return Response(content)
+        # prompts = [message['content'] for message in messages]
+        # outputs = self.model.generate(prompts, self.sampling_params)
+        guided_decoding_params = GuidedDecodingParams(json=self.__get_json_schema())
+        sampling_params = SamplingParams(temperature=self.temperature, 
+                                         guided_decoding=guided_decoding_params, 
+                                         max_tokens=4096)
+
+        conversation = self.__restructure_messages(messages)
+        outputs = self.model.chat(conversation, sampling_params)
+
+        return Response(outputs[0].outputs[0].text)
 
 
 class BaseModel:

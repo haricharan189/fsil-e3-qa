@@ -3,6 +3,7 @@ import os
 import json
 import logging
 import time
+import sys
 import pandas as pd
 from bs4 import BeautifulSoup
 
@@ -89,29 +90,33 @@ def build_prompt_single(document_text: str, question: str, question_index: int) 
     Enforce returning only JSON.
     """
     user_instructions = (
-        "You are a world-class AI system and a helpful assistant.\n"
-        "You have the following document text.\n"
-        "If the answer is strictly still not found in the given document text, say 'Not found'.\n\n"
-        "IMPORTANT: Respond ONLY with valid JSON, nothing else.\n\n"
-        
-        "### Example ###\n"
-        "Document:\n"
+        "[SYSTEM INPUT]\n"
+        "You are a financial expert, and your task is to answer "
+        "the question given to you about the provided credit agreement. "
+        "If you believe the answer is not present in the agreement, say 'Not found'.\n\n"
+
+        "[EXPECTED OUTPUT]\n"
+        "Respond ONLY with valid JSON, nothing else. See the example below.\n\n"
+
+        "The given document:\n"
         "Apple Inc. is a technology company headquartered in Cupertino, California. "
         "It was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in 1976.\n\n"
-        
-        "Q1: Where is the headquarters of Apple Inc.?\n"
-        "Expected Output:\n"
+
+        "The given question:\n"
+        "Q1: Where is the headquarters of Apple Inc.?\n\n"
+
+        "The expected output:\n"
         "{\n"
         '  "answers": [\n'
         '    {"question_index": 1, "answer": "Cupertino, California"}\n'
         "  ]\n"
         "}\n\n"
         
-        "### Actual Task ###\n"
+        "[USER INPUT]\n"
         f"Document:\n{document_text}\n\n"
-        "Here is the question:\n"
+
+        "[QUESTION]\n"
         f"Q{question_index}: {question}\n"
-        "Return EXACTLY in this JSON format, with no extra keys or text."
     )
 
     return [{"role": "user", "content": user_instructions}]
@@ -123,38 +128,34 @@ def build_prompt_batch(document_text: str, questions: list[str]) -> list[dict]:
     Enforce returning only JSON.
     """
     prompt_lines = [
-        "You are a world-class AI system and a helpful assistant.",
-        "You have the following document text.",
-        "If the answer is strictly still not found in the given document text, say 'Not found'.\n",
-        "IMPORTANT: Respond ONLY with valid JSON, nothing else.\n",
+        "[SYSTEM INPUT]\n"
+        "You are a financial expert, and your task is to answer "
+        "the questions given to you in batches about the provided credit agreement. "
+        "If you believe the answer is not present in the agreement, say 'Not found'.\n\n"
         
-        "### Example ###",
-        "Document:",
+        "[EXPECTED OUTPUT]\n"
+        "Respond ONLY with valid JSON, nothing else. See the example below.\n\n"
+
+        "The given document:\n"
         "Tesla, Inc. is an American electric vehicle and clean energy company founded in 2003 by Martin Eberhard and Marc Tarpenning. "
-        "Elon Musk became the largest investor and later CEO.\n",
+        "Elon Musk became the largest investor and later CEO.\n\n"
+
+        "The given questions:\n"
+        "Q1: Who founded Tesla?\n"
+        "Q2: What year was Tesla founded?\n\n"
+
+        "The expected output:\n"
+        "{\n"
+        '  "answers": [\n'
+        '    {"question_index": 1, "answer": "Martin Eberhard, Marc Tarpenning"},\n'
+        '    {"question_index": 2, "answer": "2003"}\n'
+        "  ]\n"
+        "}\n\n"
         
-        "Here are some example questions and the expected JSON output:\n",
-        "Q1: Who founded Tesla?\n",
-        "Q2: What year was Tesla founded?\n",
-        "Expected Output:\n",
-        "{",
-        '  "answers": [',
-        '    {"question_index": 1, "answer": "Martin Eberhard, Marc Tarpenning"},',
-        '    {"question_index": 2, "answer": "2003"}',
-        "  ]",
-        "}\n",
-        
-        "### Actual Task ###",
-        f"Document:\n{document_text}\n",
-        "Return EXACTLY in this JSON format, with no extra keys or text:\n",
-        "{",
-        '  "answers": [',
-        '    {"question_index": 1, "answer": "..."},',
-        '    {"question_index": 2, "answer": "..."},',
-        "    ...",
-        "  ]",
-        "}\n",
-        "Here are the questions:"
+        "[USER INPUT]\n"
+        f"Document:\n{document_text}\n\n"
+
+        "[QUESTIONS]\n"
     ]
 
     for i, question in enumerate(questions, start=1):
@@ -178,29 +179,38 @@ def build_prompt_combine_answers(partial_answers: list[str], questions: list[str
     Enforce returning only JSON.
     """
     prompt_lines = [
-        "You are a world-class AI system and a helpful assistant.",
-        "We have multiple partial answers for the same questions, coming from different chunks of the document.\n"
-        "Your task is to combine or merge these partial answers into a single final answer for each question.\n"
-        "If the answer is strictly still not found in the given document text, say 'Not found'.\n"
-        "IMPORTANT: Respond ONLY with valid JSON, nothing else.\n",
-        "Partial answers from each chunk (all are JSON strings):\n"
+        "[SYSTEM INPUT]\n"
+        "You are a financial expert, and your task is to combine or merge "
+        "the provided partial answers, coming from different chunks of a credit agreement, "
+        "into a single final answer for each of the questions given to you. "
+        "If you believe the answer is not present in the agreement, say 'Not found'.\n\n"
+        
+        "[EXPECTED OUTPUT]\n"
+        "Respond ONLY with valid JSON, nothing else. See the example below.\n\n"
+
+        "The given document:\n"
+        "Tesla, Inc. is an American electric vehicle and clean energy company founded in 2003 by Martin Eberhard and Marc Tarpenning. "
+        "Elon Musk became the largest investor and later CEO.\n\n"
+
+        "The given questions:\n"
+        "Q1: Who founded Tesla?\n"
+        "Q2: What year was Tesla founded?\n\n"
+
+        "The expected output:\n"
+        "{\n"
+        '  "answers": [\n'
+        '    {"question_index": 1, "answer": "Martin Eberhard, Marc Tarpenning"},\n'
+        '    {"question_index": 2, "answer": "2003"}\n'
+        "  ]\n"
+        "}\n\n"
+
+        "[USER INPUT]\n"
     ]
 
     for i, ans in enumerate(partial_answers, start=1):
         prompt_lines.append(f"Chunk {i} partial answer JSON:\n{ans}\n")
 
-    prompt_lines.append(
-        "Combine them carefully and return EXACTLY in this JSON format, no extra keys or text:\n"
-        "{\n"
-        '  "answers": [\n'
-        '    {"question_index": 1, "answer": "..."},\n'
-        '    {"question_index": 2, "answer": "..."},\n'
-        "    ...\n"
-        "  ]\n"
-        "}\n"
-    )
-
-    prompt_lines.append("Here are the original questions:")
+    prompt_lines.append("\n[QUESTIONS]\n")
     for i, q in enumerate(questions, start=1):
         prompt_lines.append(f"Q{i}: {q}")
 
@@ -274,6 +284,7 @@ def call_llm_with_retries(llm, messages: list[dict], extra_log_info: str = "") -
 
             response = llm.invoke(messages)
             raw_output = response.content.strip() if hasattr(response, "content") else str(response).strip()
+            print(raw_output)
 
             if raw_output:
                 return raw_output
