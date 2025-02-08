@@ -10,7 +10,7 @@ from langchain_community.llms import OpenLLM
 from langchain_openai import ChatOpenAI
 # from langchain_anthropic import ChatAnthropic
 # from langchain_mistralai import ChatMistralAI
-# from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 
 from vllm import LLM, SamplingParams
 from vllm.sampling_params import GuidedDecodingParams
@@ -185,16 +185,16 @@ class BaseModel:
         #         max_tokens=self.max_tokens
         #     )
 
-        # elif self.llm_provider == "GOOGLE":
-        #     # For PaLM/Google Generative AI
-        #     if "GOOGLE_API_KEY" not in os.environ:
-        #         os.environ["GOOGLE_API_KEY"] = getpass.getpass("Enter your Google AI API key: ")
-        #     self.model = ChatGoogleGenerativeAI(
-        #         google_api_key=os.environ["GOOGLE_API_KEY"],
-        #         model=self.model_name,
-        #         temperature=self.temperature,
-        #         max_tokens=self.max_tokens
-        #     )
+        elif self.llm_provider == "GOOGLE":
+            # For PaLM/Google Generative AI
+            if "GOOGLE_API_KEY" not in os.environ:
+                os.environ["GOOGLE_API_KEY"] = getpass.getpass("Enter your Google AI API key: ")
+            self.model = ChatGoogleGenerativeAI(
+                google_api_key=os.environ["GOOGLE_API_KEY"],
+                model=self.model_name,
+                temperature=self.temperature,
+                max_tokens=self.max_tokens
+            )
 
         elif self.llm_provider == "TOGETHER":
             # For TogetherAI (open-source models)

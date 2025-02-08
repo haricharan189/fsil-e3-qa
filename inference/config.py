@@ -14,15 +14,15 @@ OUTPUT_PATH = "../data/results/"
 JSON_PATH   = "../data/html_docs/"
 METRICS_PATH = "../data/metrics/"
 #it is preferred to have sorted question file in increasing order of doc id.
-QUESTION_FILE = "L1_test"  #  e.g., name of CSV (L1.csv) with columns (document_number, question, answer, etc.)
-JSON_FILE     = "docs_test.json"  # JSON structure: [ { "id": "4", "data": { "html": "<html>...</html>" }}, ...]
+QUESTION_FILE = "L5_proprietary"  #  e.g., name of CSV (L1.csv) with columns (document_number, question, answer, etc.)
+JSON_FILE     = "docs_proprietary.json"  # JSON structure: [ { "id": "4", "data": { "html": "<html>...</html>" }}, ...]
 
 # ------------------------------------------------------------------------------
 # LLM Provider Settings
 # ------------------------------------------------------------------------------
 # Examples: "OpenAI", "ANTHROPIC", "MISTRAL", "GOOGLE", "TOGETHER", "Custom"
-LLM_PROVIDER = "Custom"
-MODEL_NAME   = "/storage/coda1/p-schava6/0/shared/models_Nikita/Llama-3.1-70B-Instruct"   # or "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo" for Together, etc.
+LLM_PROVIDER = "OpenAI" # "OpenAI"
+MODEL_NAME   = "gpt-4o" # "gpt-4o" # or "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo" for Together, etc.
 TEMPERATURE  = 0.0
 
 # Maximum tokens to generate in the output
