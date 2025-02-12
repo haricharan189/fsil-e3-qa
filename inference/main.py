@@ -250,7 +250,6 @@ def parse_llm_json(raw_response: str, num_questions: int) -> dict:
     """
     default_result = {i: "LLM parse error" for i in range(1, num_questions + 1)}
     
-    # Extract JSON if enclosed in ```json ... ```
     match = re.search(r"```json\s*(.*?)\s*```", raw_response, re.DOTALL)
     if match:
         cleaned_response = match.group(1).strip()
@@ -296,6 +295,8 @@ def call_llm_with_retries(llm, messages: list[dict], extra_log_info: str = "") -
             print(raw_output)
 
             if raw_output:
+                if config.WAIT_TIME_ENABLED:
+                    time.sleep(config.WAIT_TIME_DURATION)
                 return raw_output
             else:
                 logging.warning(f"Got an empty response from LLM. Retrying in 1s...")
@@ -330,6 +331,7 @@ def get_llm_json_response(llm, messages: list[dict], num_questions: int, extra_l
 
     return parsed_result  # returns final parse_result with "LLM parse error" if not fixed
 
+
 def main():
     # 1) Load the model
     model_loader = BaseModel(
@@ -355,46 +357,69 @@ def main():
 
     # Group by document_number
     grouped = df.groupby("document_number")
+    all_doc_ids = list(grouped.groups.keys())
 
-    total_docs = len(grouped.groups)
+    total_docs = len(all_doc_ids)
     processed_docs = 0
     chunked_docs = []
 
     logging.info(f"Total documents to process: {total_docs}")
 
-    # 3) Process each document
-    for doc_id, group_indices in grouped.groups.items():
-        processed_docs += 1
-        logging.info(f"Processing document {processed_docs}/{total_docs} (doc_id={doc_id})...")
+    output_dir = config.OUTPUT_PATH
+    os.makedirs(output_dir, exist_ok=True)
 
-        # We'll wrap each document's processing in a try/except
-        # so that failure doesn't halt processing of subsequent documents
-        try:
+    # We'll define a helper to save CSV
+    def save_csv_and_metrics():
+        """
+        Saves the current DataFrame to CSV, then runs evaluation metrics.
+        """
+        # 4) Save results
+        sanitized_model_name = config.MODEL_NAME.replace("/", "-")
+        sanitized_model_name = re.sub(r'[<>:"/\\|?*]', '-', sanitized_model_name)
+
+        output_csv = f"{config.QUESTION_FILE}_{sanitized_model_name}.csv"
+        output_path = os.path.join(output_dir, output_csv)
+        df.to_csv(output_path, index=False)
+        logging.info(f"Saved LLM answers to {output_path}")
+
+        # 5) Evaluate metrics
+        evaluator = BenchmarkEvaluator(results_dir=config.OUTPUT_PATH, metrics_dir=config.METRICS_PATH)
+        evaluator.evaluate_all()
+        logging.info(f"Saved metrics to {evaluator.metrics_dir}")
+
+    try:
+        # NEW OR CHANGED: We wrap the main doc-loop in a try/except
+        for doc_id in all_doc_ids:
+            processed_docs += 1
+            logging.info(f"Processing document {processed_docs}/{total_docs} (doc_id={doc_id})...")
+
+            group_indices = grouped.groups[doc_id]
             overall_indices_list = list(group_indices)
 
-            # We handle in batches if you want to chunk the questions themselves
             question_batch_length = 50
+            doc_chunks = load_document_text(str(doc_id))  # list of text chunks
 
-            for question_batch_i in range(0, len(overall_indices_list), question_batch_length):
-                indices_list = overall_indices_list[question_batch_i:question_batch_i + question_batch_length]
-                doc_chunks = load_document_text(str(doc_id))  # list of text chunks
+            # If doc text is empty, mark all as 'No doc text'
+            if not doc_chunks:
+                logging.warning(f"Document {doc_id} is empty. Setting llm_response='No doc text'.")
+                for idx in overall_indices_list:
+                    df.at[idx, "llm_response"] = "No doc text"
+                # Save partial results after finishing each doc
+                save_csv_and_metrics()
+                continue
 
-                if not doc_chunks:
-                    logging.warning(f"Document {doc_id} is empty. Setting llm_response='No doc text'.")
-                    for idx in indices_list:
-                        df.at[idx, "llm_response"] = "No doc text"
-                    continue
-
-                questions = df.loc[indices_list, "question"].tolist()
+            # We process the doc's questions in sub-batches
+            for q_start in range(0, len(overall_indices_list), question_batch_length):
+                q_indices_list = overall_indices_list[q_start: q_start + question_batch_length]
+                questions = df.loc[q_indices_list, "question"].tolist()
                 num_questions = len(questions)
                 logging.info(f"Processing {num_questions} questions for doc_id={doc_id}...")
 
                 # If there's only 1 chunk, process it normally
                 if len(doc_chunks) == 1:
                     single_chunk_text = doc_chunks[0]
-
                     if config.context_chat:
-                        for i, row_idx in enumerate(indices_list, start=1):
+                        for i, row_idx in enumerate(q_indices_list, start=1):
                             question_text = df.at[row_idx, "question"]
                             log_msg = f"[doc={doc_id} chunk=1 question_index={i}]"
                             messages = build_prompt_single(single_chunk_text, question_text, i)
@@ -404,7 +429,7 @@ def main():
                         log_msg = f"[doc={doc_id} chunk=1 batch_mode]"
                         messages = build_prompt_batch(single_chunk_text, questions)
                         parsed_answers = get_llm_json_response(llm, messages, num_questions, extra_log_info=log_msg)
-                        for i, row_idx in enumerate(indices_list, start=1):
+                        for i, row_idx in enumerate(q_indices_list, start=1):
                             df.at[row_idx, "llm_response"] = parsed_answers[i]
 
                 else:
@@ -414,7 +439,7 @@ def main():
                     # If multiple chunks
                     if config.context_chat:
                         # Each question is separate across all chunks
-                        for i, row_idx in enumerate(indices_list, start=1):
+                        for i, row_idx in enumerate(q_indices_list, start=1):
                             question_text = df.at[row_idx, "question"]
                             partial_responses = []
 
@@ -441,7 +466,7 @@ def main():
                             df.at[row_idx, "llm_response"] = combined_final[1]
 
                     else:
-                        # Batch mode
+                        # Batch mode across multiple chunks
                         partial_responses = []
                         for c_idx, chunk_text in enumerate(doc_chunks, start=1):
                             log_msg = f"[doc={doc_id} chunk={c_idx} batch_mode]"
@@ -469,37 +494,52 @@ def main():
                         combine_msg = f"[doc={doc_id} combine batch_mode]"
                         combine_prompt = build_prompt_combine_answers(partial_responses, questions)
                         combined_output = get_llm_json_response(llm, combine_prompt, num_questions, extra_log_info=combine_msg)
-                        for i, row_idx in enumerate(indices_list, start=1):
+                        for i, row_idx in enumerate(q_indices_list, start=1):
                             df.at[row_idx, "llm_response"] = combined_output[i]
 
             logging.info(f"Completed processing document {processed_docs}/{total_docs} (doc_id={doc_id}).")
+            # NEW OR CHANGED: partial saving after each doc
+            save_csv_and_metrics()
 
-        except Exception as e:
-            # If we catch any unexpected error, log it and fill responses for that doc with "LLM error"
-            logging.error(f"Unexpected error while processing doc_id={doc_id}: {e}", exc_info=True)
-            for idx in group_indices:
-                df.at[idx, "llm_response"] = "LLM error"
+    except KeyboardInterrupt:
+        # NEW OR CHANGED: If the user presses Ctrl+C or otherwise interrupts
+        logging.warning("Code terminated by user. Marking unprocessed documents with 'code terminated'...")
 
-    # 4) Save results
-    output_dir = config.OUTPUT_PATH
-    os.makedirs(output_dir, exist_ok=True)
+        # Mark all documents not processed yet as "code terminated"
+        # processed_docs is the count of docs we already did
+        unprocessed_docs = all_doc_ids[processed_docs:]  # The ones we haven't started
+        for udoc_id in unprocessed_docs:
+            indices_ = grouped.groups[udoc_id]
+            for idx in indices_:
+                if df.at[idx, "llm_response"] == "":
+                    df.at[idx, "llm_response"] = "code terminated"
 
-    sanitized_model_name = config.MODEL_NAME.replace("/", "-")
-    sanitized_model_name = re.sub(r'[<>:"/\\|?*]', '-', sanitized_model_name)
+        # Save final partial results
+        save_csv_and_metrics()
+        logging.warning("Partial results saved. Exiting now.")
+        sys.exit(1)
 
-    output_csv = f"{config.QUESTION_FILE}_{sanitized_model_name}.csv"
-    output_path = os.path.join(output_dir, output_csv)
-    df.to_csv(output_path, index=False)
-    logging.info(f"Saved LLM answers to {output_path}")
+    except Exception as e:
+        # If there's an unexpected exception, log it
+        logging.error(f"Unexpected top-level error: {e}", exc_info=True)
 
-    # 5) Evaluate metrics
-    evaluator = BenchmarkEvaluator(results_dir=config.OUTPUT_PATH, metrics_dir=config.METRICS_PATH)
-    evaluator.evaluate_all()
-    logging.info(f"Saved metrics to {evaluator.metrics_dir}")
+        # Mark all documents not processed as "code terminated"
+        unprocessed_docs = all_doc_ids[processed_docs:]
+        for udoc_id in unprocessed_docs:
+            indices_ = grouped.groups[udoc_id]
+            for idx in indices_:
+                if df.at[idx, "llm_response"] == "":
+                    df.at[idx, "llm_response"] = "code terminated"
 
+        # Save partial results
+        save_csv_and_metrics()
+        logging.warning("Partial results saved. Exiting due to fatal error.")
+        sys.exit(1)
+
+    # If we complete everything without interruption:
     logging.info(f"Processing complete: {processed_docs}/{total_docs} documents processed successfully.")
 
-    # 6) Display chunked document IDs
+    # 6) Summarize chunked docs
     if chunked_docs:
         unique_chunked = list(set(chunked_docs))
         logging.info(f"Documents that required chunking: {len(unique_chunked)}")
@@ -507,7 +547,6 @@ def main():
         print("\nDocuments that required chunking:", unique_chunked)
     else:
         logging.info("No documents required chunking.")
-
 
 if __name__ == "__main__":
     main()
