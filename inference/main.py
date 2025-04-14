@@ -139,21 +139,19 @@ def build_prompt_batch(document_text: str, questions: list[str]) -> list[dict]:
     """
     prompt_lines = [
         "[SYSTEM INPUT]\n"
-        << << << < HEAD
         "You are a financial expert, and your task is to answer "
         "the questions given to you in batches about the provided credit agreement. "
         "If you believe the answer is not present in the agreement, say 'Not found'.\n\n"
 
-        == == == =
-        "You are an expert in financial documents. Your task is to answer multiple questions in one batch, "
-        "based solely on the provided credit agreement text.\n\n"
+        # Better prompt
+        # "You are an expert in financial documents. Your task is to answer multiple questions in one batch, "
+        # "based solely on the provided credit agreement text.\n\n"
 
-        "Answering Rules:\n"
-        "1. If the answer is explicitly found in the document, extract it exactly as written.\n"
-        "2. If the answer is not found in the document, respond with: 'Not found'.\n"
-        "3. Do not provide any extra explanation, reasoning, or assumptions.\n"
+        # "Answering Rules:\n"
+        # "1. If the answer is explicitly found in the document, extract it exactly as written.\n"
+        # "2. If the answer is not found in the document, respond with: 'Not found'.\n"
+        # "3. Do not provide any extra explanation, reasoning, or assumptions.\n"
 
-        >> >>>> > origin/benchmarking
         "[EXPECTED OUTPUT]\n"
         "Respond ONLY with valid JSON, nothing else. See the example below.\n\n"
 
