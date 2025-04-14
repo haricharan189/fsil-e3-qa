@@ -97,13 +97,18 @@ def build_prompt_single(document_text: str, question: str, question_index: int) 
     """
     user_instructions = (
         "[SYSTEM INPUT]\n"
-        "You are an expert in financial documents. Your task is to answer multiple questions in one batch, "
-        "based solely on the provided credit agreement text.\n\n"
+        "You are a financial expert, and your task is to answer "
+        "the question given to you about the provided credit agreement. "
+        "If you believe the answer is not present in the agreement, say 'Not found'.\n\n"
 
-        "Answering Rules:\n"
-        "1. If the answer is explicitly found in the document, extract it exactly as written.\n"
-        "2. If the answer is not found in the document, respond with: 'Not found'.\n"
-        "3. Do not provide any extra explanation, reasoning, or assumptions.\n"
+        # Better prompt
+        # "You are an expert in financial documents. Your task is to answer multiple questions in one batch, "
+        # "based solely on the provided credit agreement text.\n\n"
+
+        # "Answering Rules:\n"
+        # "1. If the answer is explicitly found in the document, extract it exactly as written.\n"
+        # "2. If the answer is not found in the document, respond with: 'Not found'.\n"
+        # "3. Do not provide any extra explanation, reasoning, or assumptions.\n"
 
         "[EXPECTED OUTPUT]\n"
         "Respond ONLY with valid JSON, nothing else. See the example below.\n\n"
@@ -215,34 +220,59 @@ def build_prompt_combine_answers(partial_answers: list[str], questions: list[str
         # "4. If all chunks say 'Not found', the final answer should be 'Not found'.\n\n"
 
         "[EXPECTED OUTPUT]\n"
-        "Respond ONLY with valid JSON, nothing else. See the example below.\n\n"
 
-        "Example input (chunks with partial answers):\n"
-        "Chunk 1 partial answer JSON:\n"
-        '{ "answers": [{"question_index": 1, "answer": "UBS AG, STAMFORD BRANCH"},'
-        '{"question_index": 2, "answer": "KeyBank National Association"},'
-        '{"question_index": 3, "answer": "Not found"}] }\n\n'
+        "The given document:\n"
+        "Tesla, Inc. is an American electric vehicle and clean energy company founded in 2003 by Martin Eberhard and Marc Tarpenning. "
+        "Elon Musk became the largest investor and later CEO.\n\n"
 
-        "Chunk 2 partial answer JSON:\n"
-        '{ "answers": [{"question_index": 1, "answer": "Not found"}, '
-        '{"question_index": 2, "answer": "KeyBank National Association"},'
-        '{"question_index": 3, "answer": "Not found"}] }\n\n'
+        "The given questions:\n"
+        "Q1: Who founded Tesla?\n"
+        "Q2: What year was Tesla founded?\n\n"
 
-        "Expected merged output:\n"
+        "The expected output:\n"
         "{\n"
         '  "answers": [\n'
-        '    {"question_index": 1, "answer": "UBS AG, STAMFORD BRANCH"},\n'
-        '    {"question_index": 2, "answer": "KeyBank National Association"},\n'
-        '    {"question_index": 3, "answer": "Not found"}\n'
+        '    {"question_index": 1, "answer": "Martin Eberhard, Marc Tarpenning"},\n'
+        '    {"question_index": 2, "answer": "2003"}\n'
         "  ]\n"
         "}\n\n"
 
         "[USER INPUT]\n"
-        "Below are the partial answers from different chunks:\n"
+
+        # Better prompt
+        # "Respond ONLY with valid JSON, nothing else. See the example below.\n\n"
+
+        # "Example input (chunks with partial answers):\n"
+        # "Chunk 1 partial answer JSON:\n"
+        # '{ "answers": [{"question_index": 1, "answer": "UBS AG, STAMFORD BRANCH"},'
+        # '{"question_index": 2, "answer": "KeyBank National Association"},'
+        # '{"question_index": 3, "answer": "Not found"}] }\n\n'
+
+        # "Chunk 2 partial answer JSON:\n"
+        # '{ "answers": [{"question_index": 1, "answer": "Not found"}, '
+        # '{"question_index": 2, "answer": "KeyBank National Association"},'
+        # '{"question_index": 3, "answer": "Not found"}] }\n\n'
+
+        # "Expected merged output:\n"
+        # "{\n"
+        # '  "answers": [\n'
+        # '    {"question_index": 1, "answer": "UBS AG, STAMFORD BRANCH"},\n'
+        # '    {"question_index": 2, "answer": "KeyBank National Association"},\n'
+        # '    {"question_index": 3, "answer": "Not found"}\n'
+        # "  ]\n"
+        # "}\n\n"
+
+        # "[USER INPUT]\n"
+        # "Below are the partial answers from different chunks:\n"
     ]
 
     for i, ans in enumerate(partial_answers, start=1):
         prompt_lines.append(f"Chunk {i} partial answer JSON:\n{ans}\n")
+
+    # Should be removed for the better prompt
+    prompt_lines.append("\n[QUESTIONS]\n")
+    for i, q in enumerate(questions, start=1):
+        prompt_lines.append(f"Q{i}: {q}")
 
     combined_prompt = "\n".join(prompt_lines)
 
