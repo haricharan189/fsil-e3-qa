@@ -13,11 +13,19 @@ INPUT_PATH = "../data/dataframes/"
 OUTPUT_PATH = "../data/results/"
 JSON_PATH = "../data/html_docs/"
 METRICS_PATH = "../data/metrics/"
+<< << << < HEAD
 # it is preferred to have sorted question file in increasing order of doc id.
 # e.g., name of CSV (L1.csv) with columns (document_number, question, answer, etc.)
 QUESTION_FILE = "L5_proprietary"
 # JSON structure: [ { "id": "4", "data": { "html": "<html>...</html>" }}, ...]
 JSON_FILE = "docs_test.json"
+== == == =
+# it is preferred to have sorted question file in increasing order of doc id.
+# e.g., name of CSV (L1.csv) with columns (document_number, question, answer, etc.)
+QUESTION_FILE = "test"
+# JSON structure: [ { "id": "4", "data": { "html": "<html>...</html>" }}, ...]
+JSON_FILE = "docs_test.json"
+>>>>>> > origin/benchmarking
 
 # ------------------------------------------------------------------------------
 # LLM Provider Settings

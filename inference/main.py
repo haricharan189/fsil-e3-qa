@@ -97,9 +97,13 @@ def build_prompt_single(document_text: str, question: str, question_index: int) 
     """
     user_instructions = (
         "[SYSTEM INPUT]\n"
-        "You are a financial expert, and your task is to answer "
-        "the question given to you about the provided credit agreement. "
-        "If you believe the answer is not present in the agreement, say 'Not found'.\n\n"
+        "You are an expert in financial documents. Your task is to answer multiple questions in one batch, "
+        "based solely on the provided credit agreement text.\n\n"
+
+        "Answering Rules:\n"
+        "1. If the answer is explicitly found in the document, extract it exactly as written.\n"
+        "2. If the answer is not found in the document, respond with: 'Not found'.\n"
+        "3. Do not provide any extra explanation, reasoning, or assumptions.\n"
 
         "[EXPECTED OUTPUT]\n"
         "Respond ONLY with valid JSON, nothing else. See the example below.\n\n"
@@ -130,15 +134,26 @@ def build_prompt_single(document_text: str, question: str, question_index: int) 
 
 def build_prompt_batch(document_text: str, questions: list[str]) -> list[dict]:
     """
-    One user message that includes multiple questions at once.
-    Enforce returning only JSON.
+    Constructs a single user message that includes multiple questions about a credit agreement.
+    The response must be in valid JSON format only.
     """
     prompt_lines = [
         "[SYSTEM INPUT]\n"
+        << << << < HEAD
         "You are a financial expert, and your task is to answer "
         "the questions given to you in batches about the provided credit agreement. "
         "If you believe the answer is not present in the agreement, say 'Not found'.\n\n"
 
+        == == == =
+        "You are an expert in financial documents. Your task is to answer multiple questions in one batch, "
+        "based solely on the provided credit agreement text.\n\n"
+
+        "Answering Rules:\n"
+        "1. If the answer is explicitly found in the document, extract it exactly as written.\n"
+        "2. If the answer is not found in the document, respond with: 'Not found'.\n"
+        "3. Do not provide any extra explanation, reasoning, or assumptions.\n"
+
+        >> >>>> > origin/benchmarking
         "[EXPECTED OUTPUT]\n"
         "Respond ONLY with valid JSON, nothing else. See the example below.\n\n"
 
@@ -191,34 +206,45 @@ def build_prompt_combine_answers(partial_answers: list[str], questions: list[str
         "into a single final answer for each of the questions given to you. "
         "If you believe the answer is not present in the agreement, say 'Not found'.\n\n"
 
+        # Better prompt
+        # "You are an expert in financial documents. Your task is to merge multiple partial answers "
+        # "from different chunks of a credit agreement into a single, final answer for each question.\n\n"
+
+        # "Rules for merging answers:\n"
+        # "1. If a chunk provides an answer and another says 'Not found', use the provided answer.\n"
+        # "2. If multiple chunks provide different answers, merge them into a single, coherent response.\n"
+        # "3. If multiple chunks provide the same answer, retain it as-is.\n"
+        # "4. If all chunks say 'Not found', the final answer should be 'Not found'.\n\n"
+
         "[EXPECTED OUTPUT]\n"
         "Respond ONLY with valid JSON, nothing else. See the example below.\n\n"
 
-        "The given document:\n"
-        "Tesla, Inc. is an American electric vehicle and clean energy company founded in 2003 by Martin Eberhard and Marc Tarpenning. "
-        "Elon Musk became the largest investor and later CEO.\n\n"
+        "Example input (chunks with partial answers):\n"
+        "Chunk 1 partial answer JSON:\n"
+        '{ "answers": [{"question_index": 1, "answer": "UBS AG, STAMFORD BRANCH"},'
+        '{"question_index": 2, "answer": "KeyBank National Association"},'
+        '{"question_index": 3, "answer": "Not found"}] }\n\n'
 
-        "The given questions:\n"
-        "Q1: Who founded Tesla?\n"
-        "Q2: What year was Tesla founded?\n\n"
+        "Chunk 2 partial answer JSON:\n"
+        '{ "answers": [{"question_index": 1, "answer": "Not found"}, '
+        '{"question_index": 2, "answer": "KeyBank National Association"},'
+        '{"question_index": 3, "answer": "Not found"}] }\n\n'
 
-        "The expected output:\n"
+        "Expected merged output:\n"
         "{\n"
         '  "answers": [\n'
-        '    {"question_index": 1, "answer": "Martin Eberhard, Marc Tarpenning"},\n'
-        '    {"question_index": 2, "answer": "2003"}\n'
+        '    {"question_index": 1, "answer": "UBS AG, STAMFORD BRANCH"},\n'
+        '    {"question_index": 2, "answer": "KeyBank National Association"},\n'
+        '    {"question_index": 3, "answer": "Not found"}\n'
         "  ]\n"
         "}\n\n"
 
         "[USER INPUT]\n"
+        "Below are the partial answers from different chunks:\n"
     ]
 
     for i, ans in enumerate(partial_answers, start=1):
         prompt_lines.append(f"Chunk {i} partial answer JSON:\n{ans}\n")
-
-    prompt_lines.append("\n[QUESTIONS]\n")
-    for i, q in enumerate(questions, start=1):
-        prompt_lines.append(f"Q{i}: {q}")
 
     combined_prompt = "\n".join(prompt_lines)
 
