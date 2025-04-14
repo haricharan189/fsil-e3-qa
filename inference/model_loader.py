@@ -8,12 +8,13 @@ from langchain_community.llms import OpenLLM
 
 # For proprietary LLM usage
 from langchain_openai import ChatOpenAI
-# from langchain_anthropic import ChatAnthropic
+from langchain_anthropic import ChatAnthropic
 # from langchain_mistralai import ChatMistralAI
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 from vllm import LLM, SamplingParams
 from vllm.sampling_params import GuidedDecodingParams
+
 
 class Response:
     def __init__(self, content):
@@ -25,6 +26,7 @@ class ChatTogether:
     Minimal wrapper for TogetherAI endpoint that mimics the LangChain chat interface.
     Provides an 'invoke(messages)' method returning an object with a .content attribute.
     """
+
     def __init__(self, together_api_key, model, temperature=0.7, max_tokens=2000):
         self.api_url = "https://api.together.xyz/v1/chat/completions"
         self.headers = {
@@ -52,11 +54,13 @@ class ChatTogether:
 
         resp = requests.post(self.api_url, json=payload, headers=self.headers)
         if resp.status_code != 200:
-            raise ValueError(f"[TogetherAI] Error {resp.status_code}: {resp.text}")
+            raise ValueError(
+                f"[TogetherAI] Error {resp.status_code}: {resp.text}")
 
         data = resp.json()
         # The structure is: data["choices"][0]["message"]["content"] for the text
-        content = data.get("choices", [{}])[0].get("message", {}).get("content", "")
+        content = data.get("choices", [{}])[0].get(
+            "message", {}).get("content", "")
 
         return Response(content)
 
@@ -65,8 +69,8 @@ class ChatOpenSource:
     def __init__(self, model_name, temperature):
         self.model_name = model_name
         self.temperature = temperature
-        self.model = LLM(model=self.model_name, enable_prefix_caching=False, enable_chunked_prefill=False)
-
+        self.model = LLM(model=self.model_name,
+                         enable_prefix_caching=False, enable_chunked_prefill=False)
 
     def __get_json_schema(self):
         schema = {
@@ -93,7 +97,6 @@ class ChatOpenSource:
 
         return schema
 
-
     def __restructure_messages(self, messages):
         content = messages[0]['content']
         split_content = content.split('[USER INPUT]')
@@ -115,13 +118,13 @@ class ChatOpenSource:
         ]
         return conversation
 
-
     def invoke(self, messages):
         # prompts = [message['content'] for message in messages]
         # outputs = self.model.generate(prompts, self.sampling_params)
-        guided_decoding_params = GuidedDecodingParams(json=self.__get_json_schema())
-        sampling_params = SamplingParams(temperature=self.temperature, 
-                                         guided_decoding=guided_decoding_params, 
+        guided_decoding_params = GuidedDecodingParams(
+            json=self.__get_json_schema())
+        sampling_params = SamplingParams(temperature=self.temperature,
+                                         guided_decoding=guided_decoding_params,
                                          max_tokens=4096)
 
         conversation = self.__restructure_messages(messages)
@@ -144,17 +147,18 @@ class BaseModel:
         :param max_tokens:   how many tokens the LLM can generate in output
         """
         self.llm_provider = llm_provider
-        self.model_name   = model_name
-        self.temperature  = temperature
-        self.max_tokens   = max_tokens
-        self.model        = None
+        self.model_name = model_name
+        self.temperature = temperature
+        self.max_tokens = max_tokens
+        self.model = None
 
     def load(self):
         """Instantiate the LLM based on the specified provider."""
         if self.llm_provider == "OpenAI":
             # For official OpenAI
             if "OPENAI_API_KEY" not in os.environ:
-                os.environ["OPENAI_API_KEY"] = getpass.getpass("Enter OpenAI API key: ")
+                os.environ["OPENAI_API_KEY"] = getpass.getpass(
+                    "Enter OpenAI API key: ")
 
             self.model = ChatOpenAI(
                 openai_api_key=os.environ["OPENAI_API_KEY"],
@@ -163,16 +167,17 @@ class BaseModel:
                 max_tokens=self.max_tokens
             )
 
-        # elif self.llm_provider == "ANTHROPIC":
-        #     # For Anthropic
-        #     if "ANTHROPIC_API_KEY" not in os.environ:
-        #         os.environ["ANTHROPIC_API_KEY"] = getpass.getpass("Enter Anthropic API key: ")
-        #     self.model = ChatAnthropic(
-        #         anthropic_api_key=os.environ["ANTHROPIC_API_KEY"],
-        #         model=self.model_name,
-        #         temperature=self.temperature,
-        #         max_tokens=self.max_tokens
-        #     )
+        elif self.llm_provider == "ANTHROPIC":
+            # For Anthropic
+            if "ANTHROPIC_API_KEY" not in os.environ:
+                os.environ["ANTHROPIC_API_KEY"] = getpass.getpass(
+                    "Enter Anthropic API key: ")
+            self.model = ChatAnthropic(
+                anthropic_api_key=os.environ["ANTHROPIC_API_KEY"],
+                model=self.model_name,
+                temperature=self.temperature,
+                max_tokens=self.max_tokens
+            )
 
         # elif self.llm_provider == "MISTRAL":
         #     # For Mistral
@@ -188,7 +193,8 @@ class BaseModel:
         elif self.llm_provider == "GOOGLE":
             # For PaLM/Google Generative AI
             if "GOOGLE_API_KEY" not in os.environ:
-                os.environ["GOOGLE_API_KEY"] = getpass.getpass("Enter your Google AI API key: ")
+                os.environ["GOOGLE_API_KEY"] = getpass.getpass(
+                    "Enter your Google AI API key: ")
             self.model = ChatGoogleGenerativeAI(
                 google_api_key=os.environ["GOOGLE_API_KEY"],
                 model=self.model_name,
@@ -199,7 +205,8 @@ class BaseModel:
         elif self.llm_provider == "TOGETHER":
             # For TogetherAI (open-source models)
             if "TOGETHER_API_KEY" not in os.environ:
-                os.environ["TOGETHER_API_KEY"] = getpass.getpass("Enter Together API key: ")
+                os.environ["TOGETHER_API_KEY"] = getpass.getpass(
+                    "Enter Together API key: ")
             self.model = ChatTogether(
                 together_api_key=os.environ["TOGETHER_API_KEY"],
                 model=self.model_name,

@@ -22,6 +22,7 @@ logging.basicConfig(level=logging.INFO)
 langchain.llm_cache = InMemoryCache()
 # ---------------------------------------------------------------
 
+
 def clean_html(raw_html: str) -> str:
     """
     Minimal HTML-to-text cleaning with BeautifulSoup.
@@ -34,11 +35,13 @@ def clean_html(raw_html: str) -> str:
     text = " ".join(text.split())
     return text
 
+
 def chunk_text(text: str, chunk_size: int):
     """
     Splits `text` into a list of substrings, each at most `chunk_size` characters.
     """
-    return [text[i : i + chunk_size] for i in range(0, len(text), chunk_size)]
+    return [text[i: i + chunk_size] for i in range(0, len(text), chunk_size)]
+
 
 def load_document_text(doc_id: str) -> list[str]:
     """
@@ -59,14 +62,16 @@ def load_document_text(doc_id: str) -> list[str]:
                     raw_html = entry.get("data", {}).get("html", "")
                     cleaned = clean_html(raw_html)
                     if not cleaned:
-                        logging.warning(f"Doc {doc_id} is empty after cleaning.")
+                        logging.warning(
+                            f"Doc {doc_id} is empty after cleaning.")
                         return []
 
                     if len(cleaned) > config.MAX_CHAR_FOR_SYSTEM:
                         logging.warning(
                             f"Doc {doc_id} length {len(cleaned)} > {config.MAX_CHAR_FOR_SYSTEM}, chunking..."
                         )
-                        chunks = chunk_text(cleaned, config.MAX_CHAR_FOR_SYSTEM)
+                        chunks = chunk_text(
+                            cleaned, config.MAX_CHAR_FOR_SYSTEM)
                         logging.info(
                             f"Doc {doc_id} chunked into {len(chunks)} parts. Each up to {config.MAX_CHAR_FOR_SYSTEM} chars."
                         )
@@ -83,6 +88,7 @@ def load_document_text(doc_id: str) -> list[str]:
     except Exception as e:
         logging.error(f"Error reading {json_path}: {e}")
         return []
+
 
 def build_prompt_single(document_text: str, question: str, question_index: int) -> list[dict]:
     """
@@ -111,7 +117,7 @@ def build_prompt_single(document_text: str, question: str, question_index: int) 
         '    {"question_index": 1, "answer": "Cupertino, California"}\n'
         "  ]\n"
         "}\n\n"
-        
+
         "[USER INPUT]\n"
         f"Document:\n{document_text}\n\n"
 
@@ -132,7 +138,7 @@ def build_prompt_batch(document_text: str, questions: list[str]) -> list[dict]:
         "You are a financial expert, and your task is to answer "
         "the questions given to you in batches about the provided credit agreement. "
         "If you believe the answer is not present in the agreement, say 'Not found'.\n\n"
-        
+
         "[EXPECTED OUTPUT]\n"
         "Respond ONLY with valid JSON, nothing else. See the example below.\n\n"
 
@@ -151,7 +157,7 @@ def build_prompt_batch(document_text: str, questions: list[str]) -> list[dict]:
         '    {"question_index": 2, "answer": "2003"}\n'
         "  ]\n"
         "}\n\n"
-        
+
         "[USER INPUT]\n"
         f"Document:\n{document_text}\n\n"
 
@@ -162,8 +168,8 @@ def build_prompt_batch(document_text: str, questions: list[str]) -> list[dict]:
         prompt_lines.append(f"Q{i}: {question}")
 
     combined_prompt = "\n".join(prompt_lines)
-    return [{"role": "user", "content": combined_prompt}]
 
+    return [{"role": "user", "content": combined_prompt}]
 
 
 def build_prompt_combine_answers(partial_answers: list[str], questions: list[str]) -> list[dict]:
@@ -184,7 +190,7 @@ def build_prompt_combine_answers(partial_answers: list[str], questions: list[str
         "the provided partial answers, coming from different chunks of a credit agreement, "
         "into a single final answer for each of the questions given to you. "
         "If you believe the answer is not present in the agreement, say 'Not found'.\n\n"
-        
+
         "[EXPECTED OUTPUT]\n"
         "Respond ONLY with valid JSON, nothing else. See the example below.\n\n"
 
@@ -215,12 +221,14 @@ def build_prompt_combine_answers(partial_answers: list[str], questions: list[str
         prompt_lines.append(f"Q{i}: {q}")
 
     combined_prompt = "\n".join(prompt_lines)
+
     return [{"role": "user", "content": combined_prompt}]
+
 
 def parse_llm_json(raw_response: str, num_questions: int) -> dict:
     """
     Expects a JSON string, possibly embedded in extra text, like:
-    
+
     Some preamble text...
     ```json
     {
@@ -231,49 +239,62 @@ def parse_llm_json(raw_response: str, num_questions: int) -> dict:
     }
     ```
     Some additional commentary...
-    
+
     Returns a dict: {1: "answer1", 2: "answer2", ...}
     If invalid JSON or missing fields, defaults to "LLM parse error".
     """
-    default_result = {i: "LLM parse error" for i in range(1, num_questions + 1)}
-    
-    # Extract JSON from inside triple backticks
+    default_result = {
+        i: "LLM parse error" for i in range(1, num_questions + 1)}
+
     match = re.search(r"```json\s*(.*?)\s*```", raw_response, re.DOTALL)
     if match:
         cleaned_response = match.group(1).strip()
     else:
         cleaned_response = raw_response.strip()
-    
-    logging.debug(f"Parsing LLM JSON: {cleaned_response}")  
-    
+
+    logging.debug(f"Parsing LLM JSON: {cleaned_response}")
+
     try:
         data = json.loads(cleaned_response)
         if "answers" not in data:
             logging.warning("No 'answers' key found in the JSON response.")
             return default_result
-        
+
         answers = data["answers"]
         for ans in answers:
             idx = ans.get("question_index")
             content = ans.get("answer", "")
             if isinstance(idx, int) and 1 <= idx <= num_questions:
                 default_result[idx] = content
-        
+
         return default_result
     except json.JSONDecodeError as e:
         logging.warning(f"JSON parse error: {e}")
         return default_result
 
 
+def parse_llm_list(raw_response: str, num_questions: int):
+    default_result = {
+        i: "LLM parse error" for i in range(1, num_questions + 1)}
+
+    question_responses = raw_response.split("\n")
+    for i in range(len(question_responses)):
+        try:
+            question_index = int(question_responses[i].split(':')[0][1:])
+            question_response = question_responses[i].split(':')[1][1:]
+            default_result[question_index] = question_response
+        except:
+            logging.warning(f'Issue parsing question {i}')
+
+    return default_result
+
+
 def call_llm_with_retries(llm, messages: list[dict], extra_log_info: str = "") -> str:
     """
     Call the LLM up to config.NUM_RETRIES times if blank is returned.
-    Then we do a second layer of retries if we fail JSON parsing.
-    
     We return the *raw string* from LLM (which should be JSON).
     extra_log_info can be used to log chunk/question context, etc.
     """
-    # First, up to config.NUM_RETRIES attempts for non-empty response
     for attempt in range(config.NUM_RETRIES):
         try:
             prompt_str = messages[0]['content'] if messages else ""
@@ -283,13 +304,17 @@ def call_llm_with_retries(llm, messages: list[dict], extra_log_info: str = "") -
             )
 
             response = llm.invoke(messages)
-            raw_output = response.content.strip() if hasattr(response, "content") else str(response).strip()
+            raw_output = response.content.strip() if hasattr(
+                response, "content") else str(response).strip()
             print(raw_output)
 
             if raw_output:
+                if config.WAIT_TIME_ENABLED:
+                    time.sleep(config.WAIT_TIME_DURATION)
                 return raw_output
             else:
-                logging.warning(f"Got an empty response from LLM. Retrying in 1s...")
+                logging.warning(
+                    f"Got an empty response from LLM. Retrying in 1s...")
                 time.sleep(1.0)
         except Exception as e:
             logging.error(f"LLM call error on attempt {attempt+1}: {e}")
@@ -299,6 +324,7 @@ def call_llm_with_retries(llm, messages: list[dict], extra_log_info: str = "") -
     logging.error("All attempts returned empty response. Giving up.")
     return ""
 
+
 def get_llm_json_response(llm, messages: list[dict], num_questions: int, extra_log_info: str) -> dict:
     """
     Attempts to get a valid JSON parse from the LLM.
@@ -306,10 +332,11 @@ def get_llm_json_response(llm, messages: list[dict], num_questions: int, extra_l
     """
     parsed_result = {}
     for parse_attempt in range(config.NUM_RETRIES):
-        raw_output = call_llm_with_retries(llm, messages, extra_log_info=extra_log_info)
+        raw_output = call_llm_with_retries(
+            llm, messages, extra_log_info=extra_log_info)
         if not raw_output:
-            # If we got no output, skip parse & just retry
-            logging.warning(f"Empty output from LLM (parse attempt {parse_attempt+1}). Retrying...")
+            logging.warning(
+                f"Empty output from LLM (parse attempt {parse_attempt+1}). Retrying...")
             time.sleep(1.0)
             continue
 
@@ -318,10 +345,20 @@ def get_llm_json_response(llm, messages: list[dict], num_questions: int, extra_l
         if any(ans != "LLM parse error" for ans in parsed_result.values()):
             return parsed_result
         else:
-            logging.warning(f"Parse error (parse attempt {parse_attempt+1}). Retrying LLM call...")
+            if config.MODEL_NAME != 'meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo':
+                logging.warning(
+                    f"Parse error (parse attempt {parse_attempt+1}). Retrying LLM call...")
+                continue
+            logging.warning(
+                f"JSON parse error (parse attempt {parse_attempt+1}). Attempting alternative parsing...")
+            parsed_result = parse_llm_list(raw_output, num_questions)
+            if any(ans != "LLM parse error" for ans in parsed_result.values()):
+                return parsed_result
+            logging.warning(
+                f"Parse error (parse attempt {parse_attempt+1}). Retrying LLM call...")
 
-    # If all parse attempts fail, return the parse_result with "LLM parse error"
-    return parsed_result
+    return parsed_result  # returns final parse_result with "LLM parse error" if not fixed
+
 
 def main():
     # 1) Load the model
@@ -335,7 +372,8 @@ def main():
     llm = model_loader.get_model()
 
     # 2) Read the CSV
-    input_csv_path = os.path.join(config.INPUT_PATH, f"{config.QUESTION_FILE}.csv")
+    input_csv_path = os.path.join(
+        config.INPUT_PATH, f"{config.QUESTION_FILE}.csv")
     if not os.path.exists(input_csv_path):
         logging.error(f"Input CSV not found: {input_csv_path}")
         return
@@ -348,134 +386,222 @@ def main():
 
     # Group by document_number
     grouped = df.groupby("document_number")
+    all_doc_ids = list(grouped.groups.keys())
 
-    # 3) For each document group, load text & ask the LLM
-    for doc_id, group_indices in grouped.groups.items():
-        overall_indices_list = list(group_indices)
-        question_batch_length = 50
-        for question_batch_i in range(0, len(overall_indices_list), question_batch_length):
-            indices_list = overall_indices_list[question_batch_i:question_batch_i + question_batch_length]
-            doc_chunks = load_document_text(str(doc_id))  # list of text chunks
-            if not doc_chunks:
-                logging.warning(f"Document {doc_id} is empty. Setting llm_response='No doc text'.")
-                for idx in indices_list:
-                    df.at[idx, "llm_response"] = "No doc text"
-                continue
+    total_docs = len(all_doc_ids)
+    processed_docs = 0
+    chunked_docs = []
 
-            questions = df.loc[indices_list, "question"].tolist()
-            num_questions = len(questions)
-            logging.info(f"Processing doc_id={doc_id} with {num_questions} questions...")
+    logging.info(f"Total documents to process: {total_docs}")
 
-            # If there's only 1 chunk, proceed as before (no chunk merging needed).
-            if len(doc_chunks) == 1:
-                single_chunk_text = doc_chunks[0]
-
-                # If context_chat is True => each question is a separate prompt
-                if config.context_chat:
-                    for i, row_idx in enumerate(indices_list, start=1):
-                        question_text = df.at[row_idx, "question"]
-                        log_msg = f"[doc={doc_id} chunk=1 question_index={i}]"
-                        logging.info(f"Q{i}/{num_questions} => {question_text}")
-
-                        # Build prompt
-                        messages = build_prompt_single(single_chunk_text, question_text, i)
-                        # Attempt to get valid JSON
-                        parsed_answers = get_llm_json_response(llm, messages, 1, extra_log_info=log_msg)
-                        df.at[row_idx, "llm_response"] = parsed_answers[1]
-                else:
-                    # Single prompt for all questions at once
-                    log_msg = f"[doc={doc_id} chunk=1 batch_mode]"
-                    messages = build_prompt_batch(single_chunk_text, questions)
-                    parsed_answers = get_llm_json_response(llm, messages, num_questions, extra_log_info=log_msg)
-                    for i, row_idx in enumerate(indices_list, start=1):
-                        df.at[row_idx, "llm_response"] = parsed_answers[i]
-
-            else:
-                # Multiple chunks => gather partial answers from each chunk, then combine
-                if config.context_chat:
-                    # Each question is separate across all chunks
-                    for i, row_idx in enumerate(indices_list, start=1):
-                        question_text = df.at[row_idx, "question"]
-                        logging.info(f"Q{i}/{num_questions} => {question_text}")
-                        partial_responses = []
-
-                        for c_idx, chunk_text in enumerate(doc_chunks, start=1):
-                            log_msg = f"[doc={doc_id} chunk={c_idx} question_index={i}]"
-                            messages_chunk = build_prompt_single(chunk_text, question_text, i)
-                            # get partial JSON
-                            chunk_parsed_answers = get_llm_json_response(llm, messages_chunk, 1, extra_log_info=log_msg)
-
-                            # Convert it back to string (so we can combine later). We'll store raw JSON string:
-                            # We'll just dump the chunk_parsed_answers to JSON string for the combine stage
-                            # but if it's "LLM parse error", let's store a placeholder
-                            if "LLM parse error" in chunk_parsed_answers[1]:
-                                partial_responses.append('{"answers":[{"question_index":1,"answer":"LLM parse error"}]}')
-                            else:
-                                partial_json_str = json.dumps({
-                                    "answers": [
-                                        {"question_index": 1, "answer": chunk_parsed_answers[1]}
-                                    ]
-                                })
-                                partial_responses.append(partial_json_str)
-
-                        # Now combine partial responses for question i
-                        combine_msg = f"[doc={doc_id} combine question_index={i}]"
-                        combine_prompt = build_prompt_combine_answers(partial_responses, [question_text])
-                        combined_final = get_llm_json_response(llm, combine_prompt, 1, extra_log_info=combine_msg)
-                        df.at[row_idx, "llm_response"] = combined_final[1]
-
-                else:
-                    # Batch mode: all questions at once across each chunk
-                    partial_responses = []
-                    for c_idx, chunk_text in enumerate(doc_chunks, start=1):
-                        log_msg = f"[doc={doc_id} chunk={c_idx} batch_mode]"
-                        messages_chunk = build_prompt_batch(chunk_text, questions)
-                        chunk_parsed_answers = get_llm_json_response(llm, messages_chunk, num_questions, extra_log_info=log_msg)
-
-                        # Convert chunk_parsed_answers to a JSON string
-                        # If parse error, keep placeholders for each question
-                        if any(ans == "LLM parse error" for ans in chunk_parsed_answers.values()):
-                            fake_json = {
-                                "answers": [
-                                    {"question_index": i, "answer": "LLM parse error"}
-                                    for i in range(1, num_questions + 1)
-                                ]
-                            }
-                            partial_responses.append(json.dumps(fake_json))
-                        else:
-                            # Build the minimal JSON we want to pass to combine
-                            partial_json = {"answers": []}
-                            for q_idx in range(1, num_questions + 1):
-                                partial_json["answers"].append(
-                                    {"question_index": q_idx, "answer": chunk_parsed_answers[q_idx]}
-                                )
-                            partial_responses.append(json.dumps(partial_json))
-
-                    # Combine partial JSON answers
-                    combine_msg = f"[doc={doc_id} combine batch_mode]"
-                    combine_prompt = build_prompt_combine_answers(partial_responses, questions)
-                    combined_output = get_llm_json_response(llm, combine_prompt, num_questions, extra_log_info=combine_msg)
-                    for i, row_idx in enumerate(indices_list, start=1):
-                        df.at[row_idx, "llm_response"] = combined_output[i]
-
-    # 4) Save results
     output_dir = config.OUTPUT_PATH
     os.makedirs(output_dir, exist_ok=True)
 
-    # Sanitize the model name for file naming
-    sanitized_model_name = config.MODEL_NAME.replace("/", "-")
-    # Remove other invalid filename chars
-    sanitized_model_name = re.sub(r'[<>:"/\\|?*]', '-', sanitized_model_name)
+    # We'll define a helper to save CSV
+    def save_csv_and_metrics():
+        """
+        Saves the current DataFrame to CSV, then runs evaluation metrics.
+        """
+        # 4) Save results
+        sanitized_model_name = config.MODEL_NAME.replace("/", "-")
+        sanitized_model_name = re.sub(
+            r'[<>:"/\\|?*]', '-', sanitized_model_name)
 
-    output_csv = f"{config.QUESTION_FILE}_{sanitized_model_name}.csv"
-    output_path = os.path.join(output_dir, output_csv)
-    df.to_csv(output_path, index=False)
-    logging.info(f"Saved LLM answers to {output_path}")
+        output_csv = f"{config.QUESTION_FILE}_{sanitized_model_name}.csv"
+        output_path = os.path.join(output_dir, output_csv)
+        df.to_csv(output_path, index=False)
+        logging.info(f"Saved LLM answers to {output_path}")
 
-    # 5) Evaluate metrics
-    evaluator = BenchmarkEvaluator(results_dir=config.OUTPUT_PATH, metrics_dir=config.METRICS_PATH)
-    evaluator.evaluate_all()
-    logging.info(f"Saved metrics to {evaluator.metrics_dir}")
+        # 5) Evaluate metrics
+        evaluator = BenchmarkEvaluator(
+            results_dir=config.OUTPUT_PATH, metrics_dir=config.METRICS_PATH)
+        evaluator.evaluate_all()
+        logging.info(f"Saved metrics to {evaluator.metrics_dir}")
+
+    try:
+        # NEW OR CHANGED: We wrap the main doc-loop in a try/except
+        for doc_id in all_doc_ids:
+            processed_docs += 1
+            logging.info(
+                f"Processing document {processed_docs}/{total_docs} (doc_id={doc_id})...")
+
+            group_indices = grouped.groups[doc_id]
+            overall_indices_list = list(group_indices)
+
+            question_batch_length = 50
+            doc_chunks = load_document_text(str(doc_id))  # list of text chunks
+
+            # If doc text is empty, mark all as 'No doc text'
+            if not doc_chunks:
+                logging.warning(
+                    f"Document {doc_id} is empty. Setting llm_response='No doc text'.")
+                for idx in overall_indices_list:
+                    df.at[idx, "llm_response"] = "No doc text"
+                # Save partial results after finishing each doc
+                save_csv_and_metrics()
+                continue
+
+            # We process the doc's questions in sub-batches
+            for q_start in range(0, len(overall_indices_list), question_batch_length):
+                q_indices_list = overall_indices_list[q_start: q_start +
+                                                      question_batch_length]
+                questions = df.loc[q_indices_list, "question"].tolist()
+                num_questions = len(questions)
+                logging.info(
+                    f"Processing {num_questions} questions for doc_id={doc_id}...")
+
+                # If there's only 1 chunk, process it normally
+                if len(doc_chunks) == 1:
+                    single_chunk_text = doc_chunks[0]
+                    if config.context_chat:
+                        for i, row_idx in enumerate(q_indices_list, start=1):
+                            question_text = df.at[row_idx, "question"]
+                            log_msg = f"[doc={doc_id} chunk=1 question_index={i}]"
+                            messages = build_prompt_single(
+                                single_chunk_text, question_text, i)
+                            parsed_answers = get_llm_json_response(
+                                llm, messages, 1, extra_log_info=log_msg)
+                            df.at[row_idx, "llm_response"] = parsed_answers[1]
+                    else:
+                        log_msg = f"[doc={doc_id} chunk=1 batch_mode]"
+                        messages = build_prompt_batch(
+                            single_chunk_text, questions)
+                        parsed_answers = get_llm_json_response(
+                            llm, messages, num_questions, extra_log_info=log_msg)
+                        for i, row_idx in enumerate(q_indices_list, start=1):
+                            df.at[row_idx, "llm_response"] = parsed_answers[i]
+
+                else:
+                    # Document required chunking, add to tracking
+                    chunked_docs.append(doc_id)
+
+                    # If multiple chunks
+                    if config.context_chat:
+                        # Each question is separate across all chunks
+                        for i, row_idx in enumerate(q_indices_list, start=1):
+                            question_text = df.at[row_idx, "question"]
+                            partial_responses = []
+
+                            for c_idx, chunk_text in enumerate(doc_chunks, start=1):
+                                log_msg = f"[doc={doc_id} chunk={c_idx} question_index={i}]"
+                                messages_chunk = build_prompt_single(
+                                    chunk_text, question_text, i)
+                                chunk_parsed_answers = get_llm_json_response(
+                                    llm, messages_chunk, 1, extra_log_info=log_msg
+                                )
+
+                                if "LLM parse error" in chunk_parsed_answers[1]:
+                                    partial_responses.append(
+                                        '{"answers":[{"question_index":1,"answer":"LLM parse error"}]}')
+                                else:
+                                    partial_json_str = json.dumps({
+                                        "answers": [
+                                            {"question_index": 1,
+                                                "answer": chunk_parsed_answers[1]}
+                                        ]
+                                    })
+                                    partial_responses.append(partial_json_str)
+
+                            combine_msg = f"[doc={doc_id} combine question_index={i}]"
+                            combine_prompt = build_prompt_combine_answers(
+                                partial_responses, [question_text])
+                            combined_final = get_llm_json_response(
+                                llm, combine_prompt, 1, extra_log_info=combine_msg)
+                            df.at[row_idx, "llm_response"] = combined_final[1]
+
+                    else:
+                        # Batch mode across multiple chunks
+                        partial_responses = []
+                        for c_idx, chunk_text in enumerate(doc_chunks, start=1):
+                            log_msg = f"[doc={doc_id} chunk={c_idx} batch_mode]"
+                            messages_chunk = build_prompt_batch(
+                                chunk_text, questions)
+                            chunk_parsed_answers = get_llm_json_response(
+                                llm, messages_chunk, num_questions, extra_log_info=log_msg
+                            )
+
+                            if any(ans == "LLM parse error" for ans in chunk_parsed_answers.values()):
+                                fake_json = {
+                                    "answers": [
+                                        {"question_index": i,
+                                            "answer": "LLM parse error"}
+                                        for i in range(1, num_questions + 1)
+                                    ]
+                                }
+                                partial_responses.append(json.dumps(fake_json))
+                            else:
+                                partial_json = {"answers": []}
+                                for q_idx in range(1, num_questions + 1):
+                                    partial_json["answers"].append(
+                                        {"question_index": q_idx,
+                                            "answer": chunk_parsed_answers[q_idx]}
+                                    )
+                                partial_responses.append(
+                                    json.dumps(partial_json))
+
+                        combine_msg = f"[doc={doc_id} combine batch_mode]"
+                        combine_prompt = build_prompt_combine_answers(
+                            partial_responses, questions)
+                        combined_output = get_llm_json_response(
+                            llm, combine_prompt, num_questions, extra_log_info=combine_msg)
+                        for i, row_idx in enumerate(q_indices_list, start=1):
+                            df.at[row_idx, "llm_response"] = combined_output[i]
+
+            logging.info(
+                f"Completed processing document {processed_docs}/{total_docs} (doc_id={doc_id}).")
+            # NEW OR CHANGED: partial saving after each doc
+            save_csv_and_metrics()
+
+    except KeyboardInterrupt:
+        # NEW OR CHANGED: If the user presses Ctrl+C or otherwise interrupts
+        logging.warning(
+            "Code terminated by user. Marking unprocessed documents with 'code terminated'...")
+
+        # Mark all documents not processed yet as "code terminated"
+        # processed_docs is the count of docs we already did
+        # The ones we haven't started
+        unprocessed_docs = all_doc_ids[processed_docs:]
+        for udoc_id in unprocessed_docs:
+            indices_ = grouped.groups[udoc_id]
+            for idx in indices_:
+                if df.at[idx, "llm_response"] == "":
+                    df.at[idx, "llm_response"] = "code terminated"
+
+        # Save final partial results
+        save_csv_and_metrics()
+        logging.warning("Partial results saved. Exiting now.")
+        sys.exit(1)
+
+    except Exception as e:
+        # If there's an unexpected exception, log it
+        logging.error(f"Unexpected top-level error: {e}", exc_info=True)
+
+        # Mark all documents not processed as "code terminated"
+        unprocessed_docs = all_doc_ids[processed_docs:]
+        for udoc_id in unprocessed_docs:
+            indices_ = grouped.groups[udoc_id]
+            for idx in indices_:
+                if df.at[idx, "llm_response"] == "":
+                    df.at[idx, "llm_response"] = "code terminated"
+
+        # Save partial results
+        save_csv_and_metrics()
+        logging.warning("Partial results saved. Exiting due to fatal error.")
+        sys.exit(1)
+
+    # If we complete everything without interruption:
+    logging.info(
+        f"Processing complete: {processed_docs}/{total_docs} documents processed successfully.")
+
+    # 6) Summarize chunked docs
+    if chunked_docs:
+        unique_chunked = list(set(chunked_docs))
+        logging.info(
+            f"Documents that required chunking: {len(unique_chunked)}")
+        logging.info(f"Chunked Document IDs: {unique_chunked}")
+        print("\nDocuments that required chunking:", unique_chunked)
+    else:
+        logging.info("No documents required chunking.")
 
 
 if __name__ == "__main__":
