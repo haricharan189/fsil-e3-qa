@@ -21,7 +21,8 @@ def build_vector_store():
         doc_id = str(entry.get("id"))
         html = entry.get("data", {}).get("html", "")
         text = clean_html(html)
-        chunks = [text[i:i + 1000] for i in range(0, len(text), 1000)]
+        chunks = [text[i:i + config.RAG_CHUNK_SIZE]
+                  for i in range(0, len(text), config.RAG_CHUNK_SIZE)]
         for i, chunk in enumerate(chunks):
             docs.append(Document(page_content=chunk, metadata={
                         "doc_id": doc_id, "chunk_id": i}))

@@ -81,7 +81,7 @@ def load_document_text(doc_id: str) -> list[str]:
                             f"Doc {doc_id} is empty after cleaning.")
                         return []
 
-                    chunk_text(cleaned, config.MAX_CHAR_FOR_SYSTEM)
+                    return chunk_text(doc_id, cleaned, config.MAX_CHAR_FOR_SYSTEM)
             logging.warning(
                 f"Document {doc_id} not found in {json_path}. Returning empty list."
             )
@@ -475,7 +475,8 @@ def main():
     if config.TESTING_RAG:
         embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
         vector_store = FAISS.load_local(
-            config.VECTOR_DB_DIR, embeddings=embedding_model)
+            config.VECTOR_DB_DIR, embeddings=embedding_model,
+            allow_dangerous_deserialization=True)
 
     # 2) Read the CSV
     input_csv_path = os.path.join(
@@ -513,7 +514,7 @@ def main():
         sanitized_model_name = re.sub(
             r'[<>:"/\\|?*]', '-', sanitized_model_name)
 
-        output_csv = f"{config.QUESTION_FILE}_{sanitized_model_name}.csv"
+        output_csv = f"{config.QUESTION_FILE}_{sanitized_model_name}{'_RAG' if config.TESTING_RAG else ''}.csv"
         output_path = os.path.join(output_dir, output_csv)
         df.to_csv(output_path, index=False)
         logging.info(f"Saved LLM answers to {output_path}")
@@ -535,8 +536,7 @@ def main():
             overall_indices_list = list(group_indices)
 
             question_batch_length = 50
-            doc_chunks = load_document_text(
-                str(doc_id), vector_store=vector_store)
+            doc_chunks = load_document_text(str(doc_id))
 
             # If doc text is empty, mark all as 'No doc text'
             if not doc_chunks:
@@ -563,7 +563,8 @@ def main():
                         merged_chunks = load_vector_db_text(
                             vector_store, doc_id, question)
                         messages = build_RAG_prompt(merged_chunks, question)
-                        response = llm.invoke(messages)
+                        response = llm.invoke(
+                            messages, testing_rag=config.TESTING_RAG)
                         df.at[row_idx, "llm_response"] = response.content.strip()
                     continue
 

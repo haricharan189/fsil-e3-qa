@@ -118,10 +118,10 @@ class ChatOpenSource:
         ]
         return conversation
 
-    def invoke(self, messages):
+    def invoke(self, messages, testing_rag: bool = False):
         # prompts = [message['content'] for message in messages]
         # outputs = self.model.generate(prompts, self.sampling_params)
-        guided_decoding_params = GuidedDecodingParams(
+        guided_decoding_params = None if testing_rag else GuidedDecodingParams(
             json=self.__get_json_schema())
         sampling_params = SamplingParams(temperature=self.temperature,
                                          guided_decoding=guided_decoding_params,

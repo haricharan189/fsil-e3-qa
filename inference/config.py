@@ -34,6 +34,7 @@ MODEL_NAME = "/storage/coda1/p-schava6/0/shared/models_Nikita/Qwen2-72B-Instruct
 TEMPERATURE = 0.0
 TESTING_RAG = True
 RAG_TOP_K = 5
+config.RAG_CHUNK_SIZE = 50000
 
 # Maximum tokens to generate in the output
 max_tokens_generation = 4000
