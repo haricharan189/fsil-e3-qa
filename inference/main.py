@@ -1,26 +1,26 @@
-import re
-import os
 import json
-import logging
-import time
-import sys
-import pandas as pd
-from bs4 import BeautifulSoup
-
-# -------------- Add these two lines for caching --------------
 import langchain
+import logging
+import os
+import pandas as pd
+import re
+import sys
+import time
+
+from bs4 import BeautifulSoup
+from langchain.embeddings import HuggingFaceEmbeddings
+from langchain.vectorstores import FAISS
+from langchain.vectorstores.base import VectorStoreRetriever
 from langchain_community.cache import InMemoryCache
-# -------------------------------------------------------------
 
 import config
+
 from metric import BenchmarkEvaluator
 from model_loader import BaseModel
 
 logging.basicConfig(level=logging.INFO)
 
-# -------------- Initialize the LangChain LLM cache --------------
 langchain.llm_cache = InMemoryCache()
-# ---------------------------------------------------------------
 
 
 def clean_html(raw_html: str) -> str:
@@ -36,19 +36,34 @@ def clean_html(raw_html: str) -> str:
     return text
 
 
-def chunk_text(text: str, chunk_size: int):
+def chunk_text(doc_id: str, text: str, chunk_size: int):
     """
     Splits `text` into a list of substrings, each at most `chunk_size` characters.
     """
-    return [text[i: i + chunk_size] for i in range(0, len(text), chunk_size)]
+    if len(text) > chunk_size:
+        logging.warning(
+            f"Doc {doc_id} length {len(text)} > {chunk_size}, chunking..."
+        )
+        chunks = [text[i: i + chunk_size]
+                  for i in range(0, len(text), chunk_size)]
+        logging.info(
+            f"Doc {doc_id} chunked into {len(chunks)} parts. Each up to {chunk_size} chars."
+        )
+        return chunks
+    else:
+        logging.info(
+            f"Doc {doc_id} loaded, length={len(text)} chars."
+        )
+        return [text]  # return as a single-element list
 
 
 def load_document_text(doc_id: str) -> list[str]:
     """
-    Load HTML from the JSON file, clean it.
+    Load HTML from the JSON file, clean it, or loading chunks from a vector store for testing RAG.
     If longer than config.MAX_CHAR_FOR_SYSTEM, chunk it; else return as single chunk.
     Returns a list of chunks (one or more).
     """
+
     json_path = os.path.join(config.JSON_PATH, config.JSON_FILE)
     if not os.path.exists(json_path):
         logging.error(f"JSON file not found: {json_path}")
@@ -66,21 +81,7 @@ def load_document_text(doc_id: str) -> list[str]:
                             f"Doc {doc_id} is empty after cleaning.")
                         return []
 
-                    if len(cleaned) > config.MAX_CHAR_FOR_SYSTEM:
-                        logging.warning(
-                            f"Doc {doc_id} length {len(cleaned)} > {config.MAX_CHAR_FOR_SYSTEM}, chunking..."
-                        )
-                        chunks = chunk_text(
-                            cleaned, config.MAX_CHAR_FOR_SYSTEM)
-                        logging.info(
-                            f"Doc {doc_id} chunked into {len(chunks)} parts. Each up to {config.MAX_CHAR_FOR_SYSTEM} chars."
-                        )
-                        return chunks
-                    else:
-                        logging.info(
-                            f"Doc {doc_id} loaded, length={len(cleaned)} chars."
-                        )
-                        return [cleaned]  # return as a single-element list
+                    chunk_text(cleaned, config.MAX_CHAR_FOR_SYSTEM)
             logging.warning(
                 f"Document {doc_id} not found in {json_path}. Returning empty list."
             )
@@ -88,6 +89,53 @@ def load_document_text(doc_id: str) -> list[str]:
     except Exception as e:
         logging.error(f"Error reading {json_path}: {e}")
         return []
+
+
+def load_vector_db_text(vector_store, doc_id: str, question: str):
+    retriever: VectorStoreRetriever = vector_store.as_retriever(
+        search_kwargs={"k": config.RAG_TOP_K, "filter": {"doc_id": doc_id}}
+    )
+    results = retriever.get_relevant_documents(question)
+    return "".join([doc.page_content for doc in results])
+
+
+def build_RAG_prompt(document_text: str, question: str) -> list[dict]:
+    user_instructions = (
+        "[SYSTEM INPUT]\n"
+        "You are a financial expert, and your task is to answer "
+        "the question given to you based on the chinks of a credit agreement provided to you. "
+        "If you believe the answer is not present among the chunks, say 'Not found'.\n\n"
+
+        # Better prompt
+        # "You are an expert in financial documents. Your task is to answer multiple questions in one batch, "
+        # "based solely on the provided credit agreement text.\n\n"
+
+        # "Answering Rules:\n"
+        # "1. If the answer is explicitly found in the document, extract it exactly as written.\n"
+        # "2. If the answer is not found in the document, respond with: 'Not found'.\n"
+        # "3. Do not provide any extra explanation, reasoning, or assumptions.\n"
+
+        "[EXPECTED OUTPUT]\n"
+        "Respond ONLY with the answer to your question, nothing else. See the example below.\n\n"
+
+        "The given document:\n"
+        "Apple Inc. is a technology company headquartered in Cupertino, California. "
+        "It was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in 1976.\n\n"
+
+        "The given question:\n"
+        "Where is the headquarters of Apple Inc.?\n\n"
+
+        "The expected output:\n"
+        "Cupertino, California\n\n"
+
+        "[USER INPUT]\n"
+        f"Merged chunks:\n{document_text}\n\n"
+
+        "[QUESTION]\n"
+        f"{question}\n"
+    )
+
+    return [{"role": "user", "content": user_instructions}]
 
 
 def build_prompt_single(document_text: str, question: str, question_index: int) -> list[dict]:
@@ -424,6 +472,10 @@ def main():
     )
     model_loader.load()
     llm = model_loader.get_model()
+    if config.TESTING_RAG:
+        embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+        vector_store = FAISS.load_local(
+            config.VECTOR_DB_DIR, embeddings=embedding_model)
 
     # 2) Read the CSV
     input_csv_path = os.path.join(
@@ -469,7 +521,7 @@ def main():
         # 5) Evaluate metrics
         evaluator = BenchmarkEvaluator(
             results_dir=config.OUTPUT_PATH, metrics_dir=config.METRICS_PATH)
-        evaluator.evaluate_all()
+        evaluator.evaluate_all(config.TESTING_RAG)
         logging.info(f"Saved metrics to {evaluator.metrics_dir}")
 
     try:
@@ -483,7 +535,8 @@ def main():
             overall_indices_list = list(group_indices)
 
             question_batch_length = 50
-            doc_chunks = load_document_text(str(doc_id))  # list of text chunks
+            doc_chunks = load_document_text(
+                str(doc_id), vector_store=vector_store)
 
             # If doc text is empty, mark all as 'No doc text'
             if not doc_chunks:
@@ -503,6 +556,16 @@ def main():
                 num_questions = len(questions)
                 logging.info(
                     f"Processing {num_questions} questions for doc_id={doc_id}...")
+
+                if config.TESTING_RAG:
+                    for i, row_idx in enumerate(q_indices_list, start=1):
+                        question = df.at[row_idx, "question"]
+                        merged_chunks = load_vector_db_text(
+                            vector_store, doc_id, question)
+                        messages = build_RAG_prompt(merged_chunks, question)
+                        response = llm.invoke(messages)
+                        df.at[row_idx, "llm_response"] = response.content.strip()
+                    continue
 
                 # If there's only 1 chunk, process it normally
                 if len(doc_chunks) == 1:

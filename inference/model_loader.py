@@ -8,7 +8,7 @@ from langchain_community.llms import OpenLLM
 
 # For proprietary LLM usage
 from langchain_openai import ChatOpenAI
-from langchain_anthropic import ChatAnthropic
+# from langchain_anthropic import ChatAnthropic
 # from langchain_mistralai import ChatMistralAI
 from langchain_google_genai import ChatGoogleGenerativeAI
 
@@ -167,17 +167,17 @@ class BaseModel:
                 max_tokens=self.max_tokens
             )
 
-        elif self.llm_provider == "ANTHROPIC":
-            # For Anthropic
-            if "ANTHROPIC_API_KEY" not in os.environ:
-                os.environ["ANTHROPIC_API_KEY"] = getpass.getpass(
-                    "Enter Anthropic API key: ")
-            self.model = ChatAnthropic(
-                anthropic_api_key=os.environ["ANTHROPIC_API_KEY"],
-                model=self.model_name,
-                temperature=self.temperature,
-                max_tokens=self.max_tokens
-            )
+        # elif self.llm_provider == "ANTHROPIC":
+        #     # For Anthropic
+        #     if "ANTHROPIC_API_KEY" not in os.environ:
+        #         os.environ["ANTHROPIC_API_KEY"] = getpass.getpass(
+        #             "Enter Anthropic API key: ")
+        #     self.model = ChatAnthropic(
+        #         anthropic_api_key=os.environ["ANTHROPIC_API_KEY"],
+        #         model=self.model_name,
+        #         temperature=self.temperature,
+        #         max_tokens=self.max_tokens
+        #     )
 
         # elif self.llm_provider == "MISTRAL":
         #     # For Mistral

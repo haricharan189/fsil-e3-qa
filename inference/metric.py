@@ -16,7 +16,8 @@ def preprocess_text(text):
     if not isinstance(text, str):
         return ""
     text = text.lower().strip()
-    text = text.replace(".", "").replace("-", "").replace("?", "").replace("%","").replace(",", "") 
+    text = text.replace(".", "").replace(
+        "-", "").replace("?", "").replace("%", "").replace(",", "")
     return " ".join(text.split())  # Remove extra spaces
 
 
@@ -26,7 +27,8 @@ class BenchmarkEvaluator:
         self.metrics_dir = metrics_dir
         # Sanitize the model name for file naming
         self.sanitized_model_name = config.MODEL_NAME.replace("/", "-")
-        self.sanitized_model_name = re.sub(r'[<>:"/\\|?*]', '-', self.sanitized_model_name)
+        self.sanitized_model_name = re.sub(
+            r'[<>:"/\\|?*]', '-', self.sanitized_model_name)
         os.makedirs(self.metrics_dir, exist_ok=True)
 
     def calculate_f1_score(self, pred, true):
@@ -60,7 +62,7 @@ class BenchmarkEvaluator:
 
         return similarity
 
-    def evaluate_csv(self, csv_path):
+    def evaluate_csv(self, csv_path, testing_rag: bool):
         """Evaluate a single CSV file and save per-question metrics."""
         df = pd.read_csv(csv_path)
 
@@ -70,18 +72,22 @@ class BenchmarkEvaluator:
             return None
 
         # Compute per-question metrics
-        df["f1_score"] = df.apply(lambda row: self.calculate_f1_score(row["llm_response"], row["answer"]), axis=1)
-        df["edit_distance"] = df.apply(lambda row: self.calculate_edit_distance(row["llm_response"], row["answer"]), axis=1)
-        df["cosine_similarity"] = df.apply(lambda row: self.calculate_cosine_similarity(row["llm_response"], row["answer"]), axis=1)
+        df["f1_score"] = df.apply(lambda row: self.calculate_f1_score(
+            row["llm_response"], row["answer"]), axis=1)
+        df["edit_distance"] = df.apply(lambda row: self.calculate_edit_distance(
+            row["llm_response"], row["answer"]), axis=1)
+        df["cosine_similarity"] = df.apply(lambda row: self.calculate_cosine_similarity(
+            row["llm_response"], row["answer"]), axis=1)
 
         # Save question-wise metrics
-        doc_metrics_path = os.path.join(self.metrics_dir, f"{config.QUESTION_FILE}_{self.sanitized_model_name}_question_metrics.csv")
+        doc_metrics_path = os.path.join(
+            self.metrics_dir, f"{config.QUESTION_FILE}_{self.sanitized_model_name}{'_RAG' if testing_rag else ''}_question_metrics.csv")
         df.to_csv(doc_metrics_path, index=False)
         logging.info(f"Saved question-wise metrics: {doc_metrics_path}")
 
         return df
 
-    def compute_document_statistics(self, all_dfs):
+    def compute_document_statistics(self, all_dfs, testing_rag: bool):
         """Compute per-document aggregated statistics and overall statistics."""
         document_stats = []
         all_f1_scores, all_edit_distances, all_cosine_similarities = [], [], []
@@ -101,9 +107,11 @@ class BenchmarkEvaluator:
 
         # Save per-document statistics
         doc_stats_df = pd.concat(document_stats, ignore_index=True)
-        doc_stats_path = os.path.join(self.metrics_dir, f"{config.QUESTION_FILE}_{self.sanitized_model_name}_document_statistics.csv")
+        doc_stats_path = os.path.join(
+            self.metrics_dir, f"{config.QUESTION_FILE}_{self.sanitized_model_name}{'_RAG' if testing_rag else ''}_document_statistics.csv")
         doc_stats_df.to_csv(doc_stats_path, index=False)
-        logging.info(f"Saved per-document aggregated metrics: {doc_stats_path}")
+        logging.info(
+            f"Saved per-document aggregated metrics: {doc_stats_path}")
 
         # Compute overall statistics
         overall_stats = {
@@ -115,21 +123,23 @@ class BenchmarkEvaluator:
         }
 
         overall_stats_df = pd.DataFrame([overall_stats])
-        overall_stats_path = os.path.join(self.metrics_dir, f"{config.QUESTION_FILE}_{self.sanitized_model_name}_overall_statistics.csv")
+        overall_stats_path = os.path.join(
+            self.metrics_dir, f"{config.QUESTION_FILE}_{self.sanitized_model_name}{'_RAG' if testing_rag else ''}_overall_statistics.csv")
         overall_stats_df.to_csv(overall_stats_path, index=False)
         logging.info(f"Saved overall aggregated metrics: {overall_stats_path}")
 
-    def evaluate_all(self):
+    def evaluate_all(self, testing_rag: bool):
         """Evaluate all CSV files in results_dir and create per-document & overall statistics."""
-        csv_files = glob.glob(os.path.join(self.results_dir, f"{config.QUESTION_FILE}_{self.sanitized_model_name}.csv"))
+        csv_files = glob.glob(os.path.join(self.results_dir,
+                                           f"{config.QUESTION_FILE}_{self.sanitized_model_name}{'_RAG' if testing_rag else ''}.csv"))
         all_dfs = []
 
         for csv_file in csv_files:
-            df = self.evaluate_csv(csv_file)
+            df = self.evaluate_csv(csv_file, testing_rag)
             if df is not None:
                 all_dfs.append(df)
 
         if all_dfs:
-            self.compute_document_statistics(all_dfs)
+            self.compute_document_statistics(all_dfs, testing_rag)
         else:
             logging.warning("No valid files found for evaluation.")
