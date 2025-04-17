@@ -1,0 +1,96 @@
+,document_number,question,answer,num_hops,num_set_operations,multiple_answers
+112,66,who is the authorized signer of the company which is the issuing lender but not the revolver in the agreement,james riley,3,2,0
+113,66,who is the authorized signer of the company which is the term loan a lender but not the revolver in the agreement,james riley,3,2,0
+114,66,who is the authorized signer of the company which is the swingline lender but not the revolver in the agreement,james riley,3,2,0
+164,47,who is the vice president of the company which is the lender but not the co syndication agents in the agreement,bremmer kneib,3,2,0
+165,47,who is the director of the company which is the co syndication agents but not the bookrunners in the agreement,brian mcnany,3,2,0
+166,47,who is the director of the company which is the lender but not the bookrunners in the agreement,brian mcnany,3,2,0
+167,47,who is the director of the company which is the lender but not the co syndication agents in the agreement,brian mcnany,3,2,0
+168,47,"who is the managing director of the company which is the lender but not the administrative agent, in the agreement",kirk tesch,3,2,0
+182,51,who is the vice president of the company which is the collateral agent but not the lead arrangers in the agreement,cody gunsch,3,2,0
+183,51,who is the vice president of the company which is the collateral agent but not the bookrunners in the agreement,cody gunsch,3,2,0
+184,51,who is the vice president of the company which is the collateral agent but not the lender in the agreement,cody gunsch,3,2,0
+185,51,who is the vice president of the company which is the administrative agent but not the lead arrangers in the agreement,cody gunsch,3,2,0
+186,51,who is the vice president of the company which is the administrative agent but not the bookrunners in the agreement,cody gunsch,3,2,0
+187,51,who is the vice president of the company which is the administrative agent but not the lender in the agreement,cody gunsch,3,2,0
+353,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by fifth third bank, national association","bookrunner, book manager, lead arranger",1,3,1
+354,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by goldman sachs bank usa","bookrunner, book manager, lead arranger",1,3,1
+355,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by pnc bank, national association","bookrunner, book manager, lead arranger",1,3,1
+356,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1
+357,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by td bank, n.a.","bookrunner, book manager, lead arranger",1,3,1
+358,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1
+359,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1
+360,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by regions bank","bookrunner, book manager, lead arranger",1,3,1
+361,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+362,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by fifth third bank, national association","bookrunner, book manager, lead arranger",1,3,1
+363,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by goldman sachs bank usa","bookrunner, book manager, lead arranger",1,3,1
+364,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by pnc bank, national association","bookrunner, book manager, lead arranger",1,3,1
+365,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1
+366,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by td bank, n.a.","bookrunner, book manager, lead arranger",1,3,1
+367,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1
+368,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1
+369,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by regions bank","bookrunner, book manager, lead arranger",1,3,1
+370,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+371,60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by pnc bank, national association","bookrunner, book manager, lead arranger",1,3,1
+372,60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1
+373,60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by td bank, n.a.","bookrunner, book manager, lead arranger",1,3,1
+374,60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1
+375,60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1
+376,60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by regions bank","bookrunner, book manager, lead arranger",1,3,1
+377,60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+378,60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by pnc bank, national association","bookrunner, book manager, lead arranger",1,3,1
+379,60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1
+380,60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by td bank, n.a.","bookrunner, book manager, lead arranger",1,3,1
+381,60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1
+382,60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1
+383,60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by regions bank","bookrunner, book manager, lead arranger",1,3,1
+384,60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+385,60,"what are the roles and subroles that bank of montreal and pnc capital markets llc share in the agreement that are not held by td bank, n.a.","bookrunner, book manager, lead arranger",1,3,1
+386,60,"what are the roles and subroles that bank of montreal and pnc capital markets llc share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1
+387,60,"what are the roles and subroles that bank of montreal and pnc capital markets llc share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1
+388,60,what are the roles and subroles that bank of montreal and pnc capital markets llc share in the agreement that are not held by regions bank,"bookrunner, book manager, lead arranger",1,3,1
+389,60,"what are the roles and subroles that bank of montreal and pnc capital markets llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+390,60,"what are the roles and subroles that bank of montreal and u.s. bank national association share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1
+391,60,"what are the roles and subroles that bank of montreal and u.s. bank national association share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1
+392,60,what are the roles and subroles that bank of montreal and u.s. bank national association share in the agreement that are not held by regions bank,"bookrunner, book manager, lead arranger",1,3,1
+393,60,"what are the roles and subroles that bank of montreal and u.s. bank national association share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+394,60,"what are the roles and subroles that bank of montreal and wells fargo securities llc share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1
+395,60,what are the roles and subroles that bank of montreal and wells fargo securities llc share in the agreement that are not held by regions bank,"bookrunner, book manager, lead arranger",1,3,1
+396,60,"what are the roles and subroles that bank of montreal and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+397,60,"what are the roles and subroles that bofa securities, inc. and citibank, n.a. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1
+398,60,"what are the roles and subroles that bofa securities, inc. and citibank, n.a. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+399,60,"what are the roles and subroles that bofa securities, inc. and jpmorgan chase bank, n.a. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1
+400,60,"what are the roles and subroles that bofa securities, inc. and jpmorgan chase bank, n.a. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+401,60,"what are the roles and subroles that bofa securities, inc. and mufg bank, ltd. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1
+402,60,"what are the roles and subroles that bofa securities, inc. and mufg bank, ltd. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+403,60,"what are the roles and subroles that bofa securities, inc. and pnc capital markets llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+404,60,"what are the roles and subroles that bofa securities, inc. and u.s. bank national association share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+405,60,"what are the roles and subroles that bofa securities, inc. and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+406,60,"what are the roles and subroles that citibank, n.a. and jpmorgan chase bank, n.a. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1
+407,60,"what are the roles and subroles that citibank, n.a. and jpmorgan chase bank, n.a. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+408,60,"what are the roles and subroles that citibank, n.a. and mufg bank, ltd. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1
+409,60,"what are the roles and subroles that citibank, n.a. and mufg bank, ltd. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+410,60,"what are the roles and subroles that citibank, n.a. and pnc capital markets llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+411,60,"what are the roles and subroles that citibank, n.a. and u.s. bank national association share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+412,60,"what are the roles and subroles that citibank, n.a. and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+413,60,"what are the roles and subroles that jpmorgan chase bank, n.a. and mufg bank, ltd. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1
+414,60,"what are the roles and subroles that jpmorgan chase bank, n.a. and mufg bank, ltd. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+415,60,"what are the roles and subroles that jpmorgan chase bank, n.a. and pnc capital markets llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+416,60,"what are the roles and subroles that jpmorgan chase bank, n.a. and u.s. bank national association share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+417,60,"what are the roles and subroles that jpmorgan chase bank, n.a. and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+418,60,"what are the roles and subroles that mufg bank, ltd. and pnc capital markets llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+419,60,"what are the roles and subroles that mufg bank, ltd. and u.s. bank national association share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+420,60,"what are the roles and subroles that mufg bank, ltd. and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+421,60,"what are the roles and subroles that u.s. bank national association and wells fargo securities llc share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1
+422,60,what are the roles and subroles that u.s. bank national association and wells fargo securities llc share in the agreement that are not held by regions bank,"bookrunner, book manager, lead arranger",1,3,1
+423,60,"what are the roles and subroles that u.s. bank national association and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1
+425,66,what are the roles and subroles that bnp paribas securities corp. and bank of the west share in the agreement that are not held by keybanc capital markets,"bookrunner, book manager, lead arranger",1,3,1
+426,66,what are the roles and subroles that bnp paribas securities corp. and barclays bank plc share in the agreement that are not held by keybanc capital markets,"bookrunner, book manager, lead arranger",1,3,1
+427,66,"what are the roles and subroles that bnp paribas securities corp. and bofa securities, inc. share in the agreement that are not held by keybanc capital markets","bookrunner, book manager, lead arranger",1,3,1
+428,66,what are the roles and subroles that bnp paribas securities corp. and citigroup global markets inc. share in the agreement that are not held by keybanc capital markets,"bookrunner, book manager, lead arranger",1,3,1
+429,66,what are the roles and subroles that bank of the west and barclays bank plc share in the agreement that are not held by keybanc capital markets,"bookrunner, book manager, lead arranger",1,3,1
+430,66,"what are the roles and subroles that bank of the west and bofa securities, inc. share in the agreement that are not held by keybanc capital markets","bookrunner, book manager, lead arranger",1,3,1
+431,66,what are the roles and subroles that bank of the west and citigroup global markets inc. share in the agreement that are not held by keybanc capital markets,"bookrunner, book manager, lead arranger",1,3,1
+432,66,"what are the roles and subroles that barclays bank plc and bofa securities, inc. share in the agreement that are not held by keybanc capital markets","bookrunner, book manager, lead arranger",1,3,1
+433,66,what are the roles and subroles that barclays bank plc and citigroup global markets inc. share in the agreement that are not held by keybanc capital markets,"bookrunner, book manager, lead arranger",1,3,1
+434,66,"what are the roles and subroles that bofa securities, inc. and citigroup global markets inc. share in the agreement that are not held by keybanc capital markets","bookrunner, book manager, lead arranger",1,3,1

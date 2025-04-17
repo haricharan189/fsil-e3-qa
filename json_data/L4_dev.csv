@@ -1,0 +1,43 @@
+,document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+40,35,what is the position held by john p. rielly but not by kelton glasscock or sophia love,chief financial officer,1,3,0
+41,35,what is the position held by john p. rielly but not by kelton glasscock or timothy b. goodell,chief financial officer,1,3,0
+42,35,what is the position held by john p. rielly but not by sophia love or timothy b. goodell,chief financial officer,1,3,0
+95,28,who is the ceo of the company which is both the collateral and the agent in the agreement,pedro gonzalez de cosio,3,1,0
+96,28,who is the managing member of the company which is both the collateral and the agent in the agreement,pedro gonzalez de cosio,3,1,0
+99,11,who is the authorized signatory of the company which is both the co book managers and the initial lender in the agreement,robert ehudin,3,1,0
+204,35,who is the treasurer of the company which is both the subsidiaries and the subsidiary in the agreement,eric s. fishman,3,1,0
+205,35,"who is the associate director, of the company which is both the lender and the swingline in the agreement",hsing h. huang,3,1,0
+206,35,who is the managing director capital markets of the company which is both the lender and the swingline in the agreement,steve aloupis,3,1,0
+213,32,who is the vice president of the company which is both the lender and the swingline in the agreement,muhammad hasan,3,1,0
+214,32,who is the executive of the company which is both the lender and the swingline in the agreement,o. lavitzson,3,1,0
+215,32,who is the senior vice president of the company which is both the lender and the swingline in the agreement,john cantalupo,3,1,0
+216,32,who is the director corporate banking of the company which is both the lender and the swingline in the agreement,chris golding,3,1,0
+217,32,who is the managing director corporate coverage canada of the company which is both the lender and the swingline in the agreement,tony baratta,3,1,0
+220,28,who is both the ceo and managing member of the company which is the lender in the agreement,pedro gonzalez de cosio,3,1,0
+221,28,who is both the chief executive officer and president of the company which is the borrower in the agreement,joseph ciaffoni,3,1,0
+224,11,"who is both the treasurer and vice president of the company which is the borrower, in the agreement",john j. tus,3,1,0
+226,12,who is both the global treasurer and senior vice president of the company which is the borrower in the agreement,aidan clare,3,1,0
+265,35,who is both the chief financial officer and senior vice president of the company which is the borrower in the agreement,john p. rielly,3,1,0
+266,35,who is both the general counsel and senior vice president of the company which is the borrower in the agreement,timothy b. goodell,3,1,0
+275,28,"who is both the ceo and managing member of the company associated with cayman corporate centre, 27 hospital road,george town, grand cayman ky1 9008",pedro gonzalez de cosio,3,1,0
+276,28,"who is both the ceo and managing member of the company associated with 110 east 59th street, new york, ny 10022",pedro gonzalez de cosio,3,1,0
+279,12,"who is both the global treasurer and senior vice president of the company associated with 108 wilmot roaddeerfield, il 60015",aidan clare,3,1,0
+290,35,"who is both the chief financial officer and senior vice president of the company associated with 1185 avenue of the americasnew york, new york 10036",john p. rielly,3,1,0
+291,35,"who is both the general counsel and senior vice president of the company associated with 1185 avenue of the americasnew york, new york 10036",timothy b. goodell,3,1,0
+294,11,who is both the vice president and treasurer of the company where carolyn kee is employed,john j. tus,3,1,0
+295,11,who is both the vice president and treasurer of the company where virginia cosenza is employed,john j. tus,3,1,0
+301,12,who is both the senior vice president and global treasurer of the company where gr inne kelly is employed,aidan clare,3,1,0
+302,12,who is both the senior vice president and global treasurer of the company where john devlin is employed,aidan clare,3,1,0
+303,12,who is both the senior vice president and global treasurer of the company where sara la berg is employed,aidan clare,3,1,0
+304,12,"who is both the general counsel and executive vice president, of the company where gr inne kelly is employed",marco pagni,3,1,0
+305,12,"who is both the general counsel and executive vice president, of the company where john devlin is employed",marco pagni,3,1,0
+306,12,"who is both the general counsel and executive vice president, of the company where sara la berg is employed",marco pagni,3,1,0
+348,35,who is both the chief financial officer and senior vice president of the company where devon j. lang is employed,john p. rielly,3,1,0
+349,35,who is both the chief financial officer and senior vice president of the company where joe hykle is employed,john p. rielly,3,1,0
+350,35,who is both the chief financial officer and senior vice president of the company where kelton glasscock is employed,john p. rielly,3,1,0
+351,35,who is both the chief financial officer and senior vice president of the company where sophia love is employed,john p. rielly,3,1,0
+352,35,who is both the senior vice president and general counsel of the company where devon j. lang is employed,timothy b. goodell,3,1,0
+353,35,who is both the senior vice president and general counsel of the company where joe hykle is employed,timothy b. goodell,3,1,0
+354,35,who is both the senior vice president and general counsel of the company where kelton glasscock is employed,timothy b. goodell,3,1,0
+355,35,who is both the senior vice president and general counsel of the company where sophia love is employed,timothy b. goodell,3,1,0
+386,11,"what is the address of the loan and agency services group, office of the company which is both the  lead arrangers and co book managers in the agreement","floor 3, de 19713, ops 2500 stanton christiana rd.newark",3,1,0

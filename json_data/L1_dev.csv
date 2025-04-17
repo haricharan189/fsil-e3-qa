@@ -1,0 +1,1290 @@
+,document_number,question,answer,num_hops,num_set_operations,multiple_answers
+152,14,what is the position of james harris,chief financial officer,1,0,0
+153,14,what is the position of todd dittmann,authorized person,1,0,0
+154,14,in what organization does james harris work,pacific drilling s.a.,1,0,0
+155,14,in what organization does todd dittmann work,"llc, ag energy funding",1,0,0
+156,14,"who is the representative of ag energy funding, llc",todd dittmann,1,0,0
+157,14,"who is the representative of pacific drilling s.a.,",james harris,1,0,0
+158,14,"what is the role of angelo, gordon energy servicer,llc, in the agreement",administrative agent,1,0,0
+159,14,what is the role of pacific bora ltd. in the agreement,subsidiary guarantors,1,0,0
+160,14,"what is the role of pacific drilling, inc. in the agreement",subsidiary guarantors,1,0,0
+161,14,"what is the role of pacific drilling, llc in the agreement",subsidiary guarantors,1,0,0
+162,14,what is the role of pacific drilling gibraltar limited in the agreement,subsidiary guarantors,1,0,0
+163,14,what is the role of pacific drilling finance s. r.l. in the agreement,subsidiary guarantors,1,0,0
+164,14,what is the role of pacific drilling holding gibraltar limited in the agreement,subsidiary guarantors,1,0,0
+165,14,what is the role of pacific drilling limited in the agreement,subsidiary guarantors,1,0,0
+166,14,"what is the role of pacific drilling operations, inc. in the agreement",subsidiary guarantors,1,0,0
+167,14,what is the role of pacific drilling operations limited in the agreement,subsidiary guarantors,1,0,0
+168,14,what is the role of pacific drilling vii limited in the agreement,subsidiary guarantors,1,0,0
+169,14,what is the role of pacific drilling v limited in the agreement,subsidiary guarantors,1,0,0
+170,14,what is the role of pacific drillship gibraltar limited in the agreement,subsidiary guarantors,1,0,0
+171,14,what is the role of pacific drillship nigeria limited in the agreement,subsidiary guarantors,1,0,0
+172,14,what is the role of pacific drillship s. r.l. in the agreement,subsidiary guarantors,1,0,0
+173,14,what is the role of pacific mistral ltd. in the agreement,subsidiary guarantors,1,0,0
+174,14,what is the role of pacific santa ana gibraltar limited in the agreement,subsidiary guarantors,1,0,0
+175,14,what is the role of pacific santa ana limited in the agreement,subsidiary guarantors,1,0,0
+176,14,what is the role of pacific scirocco ltd. in the agreement,subsidiary guarantors,1,0,0
+177,14,what is the role of pacific sharav korl tolt felel ss g t rsas g in the agreement,subsidiary guarantors,1,0,0
+178,14,what is the role of pacific sharav s. r.l. in the agreement,subsidiary guarantors,1,0,0
+179,14,"what is the role of ag energy funding, llc in the agreement",lender,1,0,0
+180,14,"what is the role of pacific drilling s.a., in the agreement",borrower,1,0,0
+181,14,what company is the administrative agent in the agreement,"llc, angelo, gordon energy servicer",1,0,0
+182,14,what company is the lender in the agreement,"llc, ag energy funding",1,0,0
+183,14,what company is the borrower in the agreement,pacific drilling s.a.,1,0,0
+184,28,in what organization does jen porter work,pepper hamilton llp,1,0,0
+185,28,in what organization does joseph ciaffoni work,"inc., collegium pharmaceutical",1,0,0
+186,28,in what organization does paul brannelly work,"inc., collegium pharmaceutical",1,0,0
+187,28,in what organization does shirley kuhlmann work,"inc., collegium pharmaceutical",1,0,0
+188,28,"who is the representative of collegium pharmaceutical, inc.",joseph ciaffoni,1,0,0
+189,28,who is the representative of akin gump strauss hauer feld llp,geoffrey e. secol,1,0,0
+190,28,who is the representative of biopharma credit investments v master lp,pedro gonzalez de cosio,1,0,0
+191,28,who is the representative of pepper hamilton llp,jen porter,1,0,0
+192,28,who is the representative of pharmakon advisors lp,pedro gonzalez de cosio,1,0,0
+193,28,what is the location of biopharma credit plc,51 new north roadexeter ex4 4epunited kingdom,1,0,0
+194,28,what is the location of biopharma credit plc,51 new north road exeter ex4 4ep united kingdom,1,0,0
+195,28,what is the location of akin gump strauss hauer feld llp,"ny 10036 6745, one bryant park new york",1,0,0
+196,28,what is the location of biopharma credit investments v master lp,"george town, 27 hospital road, grand cayman ky1 9008, cayman corporate centre",1,0,0
+197,28,what is the location of pepper hamilton llp,"pa 19103, 3000 two logan square philadelphia",1,0,0
+198,28,what is the location of pharmakon advisors lp,"new york, ny 10022, 110 east 59th street",1,0,0
+199,28,"what is the location of collegium pharmaceutical, inc.","ma 02072, suite 300 stoughton, 100 technology center drive",1,0,0
+200,28,"which company is associated with 100 technology center drive, suite 300 stoughton, ma 02072","inc., collegium pharmaceutical",1,0,0
+201,28,"which company is associated with 110 east 59th street, new york, ny 10022",pharmakon advisors lp,1,0,0
+202,28,"which company is associated with 3000 two logan square philadelphia, pa 19103",pepper hamilton llp,1,0,0
+203,28,which company is associated with 51 new north road exeter ex4 4ep united kingdom,biopharma credit plc,1,0,0
+204,28,which company is associated with 51 new north roadexeter ex4 4epunited kingdom,biopharma credit plc,1,0,0
+205,28,"which company is associated with cayman corporate centre, 27 hospital road,george town, grand cayman ky1 9008",biopharma credit investments v master lp,1,0,0
+206,28,"which company is associated with one bryant parknew york, ny 10036 6745",akin gump strauss hauer feld llp,1,0,0
+207,28,"which company is associated with one bryant park new york, ny 10036 6745",akin gump strauss hauer feld llp,1,0,0
+208,28,"what is the role of collegium pharmaceutical, inc in the agreement",borrower,1,0,0
+209,28,what is the role of collegium pharmaceutical inc. in the agreement,borrower,1,0,0
+210,28,what is the role of collegium securities corporation in the agreement,additional credit party,1,0,0
+211,28,"what is the role of pharmakon advisors, lp in the agreement",investment manager,1,0,0
+212,28,"what is the role of pharmakon management i, llc in the agreement",general partner,1,0,0
+213,28,what is the role of biopharma credit plc in the agreement,collateral agent,1,0,0
+214,28,"what is the role of collegium pharmaceutical, inc. in the agreement",borrower,1,0,0
+215,28,what is the role of akin gump strauss hauer feld llp in the agreement,collateral agent,1,0,0
+216,28,what is the role of pepper hamilton llp in the agreement,borrower,1,0,0
+217,28,what is the role of pharmakon advisors lp in the agreement,collateral agent,1,0,0
+218,28,what company is the additional credit party in the agreement,collegium securities corporation,1,0,0
+219,28,what company is the investment manager in the agreement,"lp, pharmakon advisors",1,0,0
+220,28,what company is the general partner in the agreement,"llc, pharmakon management i",1,0,0
+358,29,what is the position of efrain rivera,chief financial officer,1,0,0
+359,29,in what organization does efrain rivera work,"inc., paychex",1,0,0
+360,29,in what organization does frank hamblett work,nixon peabody llp,1,0,0
+361,29,in what organization does lisa christian work,"pnc bank, national association",1,0,0
+362,29,"who is the representative of paychex, inc.",efrain rivera,1,0,0
+363,29,who is the representative of nixon peabody llp,frank hamblett,1,0,0
+364,29,"who is the representative of pnc bank, national association",lisa christian,1,0,0
+365,29,what is the location of ax iv holding iii aps,denmark,1,0,0
+366,29,what is the location of ax iv holding ii aps,denmark,1,0,0
+367,29,what is the location of advantage payroll services inc.,delaware,1,0,0
+368,29,"what is the location of csm, inc.",tennessee,1,0,0
+369,29,"what is the location of century ii aso, inc.",tennessee,1,0,0
+370,29,"what is the location of century ii services, inc.",tennessee,1,0,0
+371,29,"what is the location of century ii staffing, inc.",tennessee,1,0,0
+372,29,"what is the location of century ii staffing, usa, inc.",tennessee,1,0,0
+373,29,"what is the location of century ii staffing tn, inc.",tennessee,1,0,0
+374,29,"what is the location of dhr insurance services, llc",delaware,1,0,0
+375,29,"what is the location of dhr services holdings, llc",delaware,1,0,0
+376,29,"what is the location of dhr of florida i, llc",florida,1,0,0
+377,29,what is the location of s,denmark,1,0,0
+378,29,"what is the location of esg achievement, inc.",utah,1,0,0
+379,29,"what is the location of esg administration, inc",utah,1,0,0
+380,29,"what is the location of esg assistance, inc.",utah,1,0,0
+381,29,"what is the location of esg consulting, inc.",utah,1,0,0
+382,29,"what is the location of esg consulting ii, llc",utah,1,0,0
+383,29,"what is the location of esg direction, inc.",utah,1,0,0
+384,29,"what is the location of esg entities, inc.",utah,1,0,0
+385,29,"what is the location of esg entities ii, llc",utah,1,0,0
+386,29,"what is the location of esg fulfillment, inc.",utah,1,0,0
+387,29,"what is the location of esg insurance, inc.",utah,1,0,0
+388,29,"what is the location of esg management, inc.",utah,1,0,0
+389,29,"what is the location of esg offerings, inc.",utah,1,0,0
+390,29,"what is the location of esg peo, inc.",utah,1,0,0
+391,29,"what is the location of esg services, inc.",utah,1,0,0
+392,29,"what is the location of esg success, inc.",utah,1,0,0
+393,29,"what is the location of esg supervision, inc.",utah,1,0,0
+394,29,"what is the location of essg, inc.",utah,1,0,0
+395,29,"what is the location of employer s alliance, llc",florida,1,0,0
+396,29,"what is the location of employer s alliance iii, llc",florida,1,0,0
+397,29,"what is the location of employer s alliance iv, llc",florida,1,0,0
+398,29,"what is the location of employer s alliance ix, llc",florida,1,0,0
+399,29,"what is the location of employer s alliance v, llc",florida,1,0,0
+400,29,"what is the location of employer s alliance vi, llc",florida,1,0,0
+401,29,"what is the location of employer s alliance vii, llc",florida,1,0,0
+402,29,"what is the location of employer s alliance viii, llc",florida,1,0,0
+403,29,"what is the location of employer s select, llc",florida,1,0,0
+404,29,"what is the location of employer solutions group, inc.",utah,1,0,0
+405,29,"what is the location of employer solutions group of slc, inc.",utah,1,0,0
+406,29,"what is the location of employer solutions group of utah, inc.",utah,1,0,0
+407,29,"what is the location of employer solutions group of utah ii, inc.",utah,1,0,0
+408,29,"what is the location of employers insurance group, llc",new mexico,1,0,0
+409,29,"what is the location of employers solutions group of idaho, inc.",idaho,1,0,0
+410,29,what is the location of expense wire llc,ohio,1,0,0
+411,29,what is the location of a eplan services inc.,delaware,1,0,0
+412,29,"what is the location of fortune financial, inc",florida,1,0,0
+413,29,what is the location of fortune industries,delaware,1,0,0
+414,29,"what is the location of fortune insurance solutions, llc",florida,1,0,0
+415,29,"what is the location of fortune peo, llc",florida,1,0,0
+416,29,"what is the location of fortune peo acquisitions, llc",florida,1,0,0
+417,29,"what is the location of gordian capital holdings, inc.",delaware,1,0,0
+418,29,"what is the location of gordian hr, llc aso",delaware,1,0,0
+419,29,"what is the location of hrsmarter i,llc",florida,1,0,0
+420,29,"what is the location of hrsmarter ii, llc",florida,1,0,0
+421,29,"what is the location of hrsmarter iii,llc",florida,1,0,0
+422,29,"what is the location of hrsmarter iv,llc",florida,1,0,0
+423,29,"what is the location of hrsmarter ix,llc",florida,1,0,0
+424,29,"what is the location of hrsmarter v,llc",florida,1,0,0
+425,29,"what is the location of hrsmarter vi,llc",florida,1,0,0
+426,29,"what is the location of hrsmarter vii,llc",florida,1,0,0
+427,29,"what is the location of hrsmarter viii,llc",florida,1,0,0
+428,29,"what is the location of hrsmarter x,llc",florida,1,0,0
+429,29,"what is the location of hr outsourcing, inc.",georgia,1,0,0
+430,29,"what is the location of hr outsourcing, llc",delaware,1,0,0
+431,29,"what is the location of hr outsourcing aso, llc",delaware,1,0,0
+432,29,"what is the location of hr outsourcing associates, llc",delaware,1,0,0
+433,29,"what is the location of hr outsourcing consultants, llc",delaware,1,0,0
+434,29,"what is the location of hr outsourcing development, llc",delaware,1,0,0
+435,29,"what is the location of hr outsourcing enterprises, llc",georgia,1,0,0
+436,29,"what is the location of hr outsourcing group, llc",delaware,1,0,0
+437,29,"what is the location of hr outsourcing processing, llc",nevada,1,0,0
+438,29,"what is the location of hr outsourcing services, llc",delaware,1,0,0
+439,29,what is the location of a my staffing pro,ohio,1,0,0
+440,29,what is the location of hispanomina sp,spain,1,0,0
+441,29,what is the location of ipayroll holding aps,denmark,1,0,0
+442,29,"what is the location of king employee services, inc.",florida,1,0,0
+443,29,what is the location of s dk,denmark,1,0,0
+444,29,what is the location of latweplace sp z.o.o. pl,poland,1,0,0
+445,29,what is the location of lessor gmbh,germany,1,0,0
+446,29,what is the location of lessor group aps,denmark,1,0,0
+447,29,what is the location of lessor holding aps,denmark,1,0,0
+448,29,"what is the location of nettime solutions, l.l.c.",arizona,1,0,0
+449,29,what is the location of new dawn holding aps,denmark,1,0,0
+450,29,what is the location of norl nn as no,norway,1,0,0
+451,29,"what is the location of oasis ahr, inc.",iowa,1,0,0
+452,29,"what is the location of oasis ahr hrc, llc",colorado,1,0,0
+453,29,"what is the location of oasis ahr holdings, inc.",delaware,1,0,0
+454,29,"what is the location of oasis ahr i, inc.",florida,1,0,0
+455,29,"what is the location of oasis ahr ii, inc.",iowa,1,0,0
+456,29,"what is the location of oasis ahr iii, inc.",iowa,1,0,0
+457,29,"what is the location of oasis ahr pl, llc",colorado,1,0,0
+458,29,"what is the location of oasis acquisition, inc.",delaware,1,0,0
+459,29,"what is the location of oasis advisory services, inc.",florida,1,0,0
+460,29,"what is the location of oasis deg, inc.",minnesota,1,0,0
+461,29,"what is the location of oasis deg aso, inc.",minnesota,1,0,0
+462,29,"what is the location of oasis dhr, llc",delaware,1,0,0
+463,29,"what is the location of oasis employment services, inc.",delaware,1,0,0
+464,29,"what is the location of oasis hr solutions iii, inc.",florida,1,0,0
+465,29,"what is the location of oasis outsourcing, inc.",florida,1,0,0
+466,29,what is the location of oasis outsourcing acquisition corporation,delaware,1,0,0
+467,29,"what is the location of oasis outsourcing admin, inc.",florida,1,0,0
+468,29,"what is the location of oasis outsourcing admin. ii, inc.",florida,1,0,0
+469,29,"what is the location of oasis outsourcing admin group, inc.",florida,1,0,0
+470,29,"what is the location of oasis outsourcing benefits iii, inc.",florida,1,0,0
+471,29,"what is the location of oasis outsourcing contract, inc.",florida,1,0,0
+472,29,"what is the location of oasis outsourcing contract group, inc.",florida,1,0,0
+473,29,"what is the location of oasis outsourcing contract ii, inc.",florida,1,0,0
+474,29,"what is the location of oasis outsourcing contract iii, inc.",florida,1,0,0
+475,29,"what is the location of oasis outsourcing contract iv, inc.",florida,1,0,0
+476,29,"what is the location of oasis outsourcing contract vii, inc.",florida,1,0,0
+477,29,"what is the location of oasis outsourcing hr, inc.",florida,1,0,0
+478,29,"what is the location of oasis outsourcing holdings, inc.",delaware,1,0,0
+479,29,"what is the location of oasis outsourcing iii, inc.",florida,1,0,0
+480,29,"what is the location of oasis outsourcing ix, inc.",florida,1,0,0
+481,29,"what is the location of oasis outsourcing tx, inc.",florida,1,0,0
+482,29,"what is the location of oasis outsourcing v, inc.",florida,1,0,0
+483,29,"what is the location of oasis outsourcing vi, inc.",florida,1,0,0
+484,29,"what is the location of oasis payroll services, inc.",florida,1,0,0
+485,29,"what is the location of oasis staffing, inc.",florida,1,0,0
+486,29,"what is the location of oasis staffing ii, inc.",florida,1,0,0
+487,29,"what is the location of pbs of america, llc",florida,1,0,0
+488,29,"what is the location of pbs of central florida, llc",florida,1,0,0
+489,29,"what is the location of psm financial services, llc",indiana,1,0,0
+490,29,what is the location of pxc inc.,new york,1,0,0
+491,29,"what is the location of paychex, inc.","rochester, new york 14586, 1175 john street",1,0,0
+492,29,"what is the location of paychex administrative services, llc",florida,1,0,0
+493,29,what is the location of paychex advance llc,new york,1,0,0
+494,29,what is the location of a benetrac,delaware,1,0,0
+495,29,what is the location of paychex brazil llc,new york,1,0,0
+496,29,"what is the location of paychex business solutions, llc",florida,1,0,0
+497,29,what is the location of paychex deutschland gmbh,germany,1,0,0
+498,29,what is the location of paychex hr outsourcing llc,delaware,1,0,0
+499,29,"what is the location of paychex holdings, llc",new york,1,0,0
+500,29,"what is the location of paychex insurance agency, inc.",new york,1,0,0
+501,29,"what is the location of paychex insurance concepts, inc.",new york,1,0,0
+502,29,what is the location of paychex investment llc,delaware,1,0,0
+503,29,what is the location of paychex management llc,delaware,1,0,0
+504,29,what is the location of paychex north america inc.,delaware,1,0,0
+505,29,"what is the location of paychex peo i, llc",florida,1,0,0
+506,29,"what is the location of paychex peo ii, llc",florida,1,0,0
+507,29,"what is the location of paychex peo iii, llc",florida,1,0,0
+508,29,"what is the location of paychex peo iv, llc",florida,1,0,0
+509,29,"what is the location of paychex peo ix, llc",florida,1,0,0
+510,29,"what is the location of paychex peo v, llc",florida,1,0,0
+511,29,"what is the location of paychex peo vi, llc",florida,1,0,0
+512,29,"what is the location of paychex peo vii, llc",florida,1,0,0
+513,29,"what is the location of paychex peo viii, llc",florida,1,0,0
+514,29,"what is the location of paychex peo x, llc",florida,1,0,0
+515,29,"what is the location of paychex real estate, llc",new york,1,0,0
+516,29,what is the location of a southeastern employee benefit services,delaware,1,0,0
+517,29,what is the location of paychex securities corporation,new york,1,0,0
+518,29,what is the location of paychex time attendance inc.,delaware,1,0,0
+519,29,what is the location of paychex of new york llc,delaware,1,0,0
+520,29,"what is the location of precision employee management, llc",arizona,1,0,0
+521,29,"what is the location of professional staff management, inc.",indiana,1,0,0
+522,29,"what is the location of professional staff management, inc. ii",indiana,1,0,0
+523,29,"what is the location of professional staff management aso, inc.",indiana,1,0,0
+524,29,"what is the location of rapid payroll, inc.",california,1,0,0
+525,29,"what is the location of solutions staffing group, inc.",utah,1,0,0
+526,29,"what is the location of staff one, inc.",oklahoma,1,0,0
+527,29,"what is the location of staff one hr, llc",oklahoma,1,0,0
+528,29,"what is the location of staff one hr ii, inc.",texas,1,0,0
+529,29,"what is the location of staff one of oklahoma, llc",oklahoma,1,0,0
+530,29,"what is the location of surepayroll, inc.",delaware,1,0,0
+531,29,what is the location of swel n ab s,sweden,1,0,0
+532,29,"what is the location of wri acquisition, inc.",delaware,1,0,0
+533,29,"what is the location of wri ii, inc.",florida,1,0,0
+534,29,"what is the location of worksmarter hr, llc",wyoming,1,0,0
+535,29,"what is the location of workforce alternative, inc.",florida,1,0,0
+536,29,what is the location of eplan advisors llc,colorado,1,0,0
+537,29,what is the location of isalaire eurl fr,france,1,0,0
+538,29,what is the location of ilohngehalt internetservices gmbh,germany,1,0,0
+539,29,"what is the location of paychex, inc.","rochester, new york 14625, 911 panorama trail south",1,0,0
+540,29,what is the location of nixon peabody llp,"boston, 53 state street, massachusetts 02109",1,0,0
+541,29,"which company is associated with 1175 john street, rochester, new york 14586","inc., paychex",1,0,0
+542,29,"which company is associated with 53 state street, boston, massachusetts 02109",nixon peabody llp,1,0,0
+543,29,"which company is associated with 6750 miller road, brecksville, ohio 44141","pnc bank, national association",1,0,0
+544,29,"which company is associated with 6750 miller roadbrecksville, ohio 44141","pnc bank, national association",1,0,0
+545,29,"which company is associated with 911 panorama trail south, rochester, new york 14625","inc., paychex",1,0,0
+546,29,which company is associated with california,"inc., rapid payroll",1,0,0
+547,29,which company is associated with france,isalaire eurl fr,1,0,0
+548,29,which company is associated with idaho,"inc., employers solutions group of idaho",1,0,0
+549,29,which company is associated with nevada,"llc, hr outsourcing processing",1,0,0
+550,29,which company is associated with new mexico,"llc, employers insurance group",1,0,0
+551,29,which company is associated with norway,norl nn as no,1,0,0
+552,29,which company is associated with poland,latweplace sp z.o.o. pl,1,0,0
+553,29,which company is associated with spain,hispanomina sp,1,0,0
+554,29,which company is associated with sweden,swel n ab s,1,0,0
+555,29,which company is associated with texas,"inc., staff one hr ii",1,0,0
+556,29,which company is associated with wyoming,"llc, worksmarter hr",1,0,0
+557,29,"what is the role of advantage payroll services, inc. in the agreement",guarantors,1,0,0
+558,29,what is the role of paychex advance llc in the agreement,parent borrower,1,0,0
+559,29,"what is the role of oasis ahr pl, llc in the agreement",guarantors,1,0,0
+560,29,"what is the role of oasis advisory services, inc. in the agreement",guarantors,1,0,0
+561,29,"what is the role of oasis employment services, inc. in the agreement",guarantors,1,0,0
+562,29,"what is the role of oasis outsourcing contract iii, inc. in the agreement",guarantors,1,0,0
+563,29,"what is the role of oasis outsourcing tx, inc. in the agreement",guarantors,1,0,0
+564,29,"what is the role of pbs of america, llc in the agreement",guarantors,1,0,0
+565,29,"what is the role of pbs of central florida, llc in the agreement",guarantors,1,0,0
+566,29,"what is the role of paychex, inc. in the agreement",parent borrower,1,0,0
+567,29,"what is the role of paychex administrative services, llc in the agreement",guarantors,1,0,0
+568,29,"what is the role of paychex business solutions, llc in the agreement",guarantors,1,0,0
+569,29,"what is the role of paychex holdings, llc in the agreement",guarantors,1,0,0
+570,29,what is the role of paychex management llc in the agreement,guarantors,1,0,0
+571,29,what is the role of paychex north america inc. in the agreement,guarantors,1,0,0
+572,29,"what is the role of paychex peo i, llc in the agreement",guarantors,1,0,0
+573,29,"what is the role of paychex peo ii, llc in the agreement",guarantors,1,0,0
+574,29,"what is the role of paychex peo iii, llc in the agreement",guarantors,1,0,0
+575,29,"what is the role of paychex peo iv, llc in the agreement",guarantors,1,0,0
+576,29,"what is the role of paychex peo ix, llc in the agreement",guarantors,1,0,0
+577,29,"what is the role of paychex peo v, llc in the agreement",guarantors,1,0,0
+578,29,"what is the role of paychex peo vi, llc in the agreement",guarantors,1,0,0
+579,29,"what is the role of paychex peo vii, llc in the agreement",guarantors,1,0,0
+580,29,"what is the role of paychex peo viii, llc in the agreement",guarantors,1,0,0
+581,29,"what is the role of paychex peo x, llc in the agreement",guarantors,1,0,0
+582,29,what is the role of paychex of new york llc in the agreement,guarantors,1,0,0
+583,29,"what is the role of wri ii, inc. in the agreement",guarantors,1,0,0
+584,29,what is the role of nixon peabody llp in the agreement,parent borrower,1,0,0
+585,29,what company is the issuing bank in the agreement,"pnc bank, national association",1,0,0
+586,29,what company is the lender in the agreement,"pnc bank, national association",1,0,0
+587,29,what company is the administrative agent in the agreement,"pnc bank, national association",1,0,0
+588,15,what is the position of jared randall,executive director,1,0,0
+589,15,what is the position of racquel a.c. small,executive director,1,0,0
+590,15,what is the position of shawn matthews,ceo,1,0,0
+591,15,in what organization does jared randall work,ubs ag,1,0,0
+592,15,in what organization does racquel a.c. small work,ubs ag,1,0,0
+593,15,in what organization does shawn matthews work,"llc, 2477 deerfield drive",1,0,0
+594,15,"who is the representative of 2477 deerfield drive, llc,",shawn matthews,1,0,0
+595,15,"what is the location of 2477 deerfield drive, llc","new york 1002, 110 east 59th streetnew york",1,0,0
+596,15,what is the location of alston bird llp,"new york 10016, 90 park avenuenew york",1,0,0
+597,15,what is the location of cozen o connor llp,"new york 10172, 277 park avenuenew york",1,0,0
+598,15,what is the location of ubs ag,"new york 10019, 1285 avenue of the americasnew york",1,0,0
+599,15,"which company is associated with 1285 avenue of the americasnew york, new york 10019",ubs ag,1,0,0
+600,15,"which company is associated with 110 east 59th streetnew york, new york 1002","llc, 2477 deerfield drive",1,0,0
+601,15,"which company is associated with 277 park avenuenew york, new york 10172",cozen o connor llp,1,0,0
+602,15,"which company is associated with 90 park avenuenew york, new york 10016",alston bird llp,1,0,0
+603,15,"what type of location is 1285 avenue of the americasnew york, new york 10019",branch office,1,0,0
+604,15,"what is the role of cf real estate holdings, llc in the agreement",guarantor,1,0,0
+605,15,"what is the role of 2477 deerfield drive, llc, in the agreement",borrower,1,0,0
+606,15,what is the role of ubs ag in the agreement,lender,1,0,0
+607,15,what company is the guarantor in the agreement,"llc, cf real estate holdings",1,0,0
+608,15,what company is the borrower in the agreement,"llc, 2477 deerfield drive",1,0,0
+609,15,what company is the lender in the agreement,ubs ag,1,0,0
+610,39,what is the position of david b. thayer,vice president,1,0,0
+611,39,what is the position of james foley,senior vice president,1,0,0
+612,39,in what organization does david b. thayer work,"pnc bank, national association",1,0,0
+613,39,in what organization does james foley work,"n.a., bank of america",1,0,0
+614,39,in what organization does ross c. wilkin work,"llc, north jackson specialty steel",1,0,0
+615,39,"who is the representative of north jackson specialty steel,llc",ross c. wilkin,1,0,0
+616,39,"who is the representative of bank of america, n.a.,",james foley,1,0,0
+617,39,"who is the representative of pnc bank, national association",david b. thayer,1,0,0
+618,39,"what is the location of bank of america, n.a.","ny 10036, one bryant park, 32nd floornew york",1,0,0
+619,39,"what is the location of dunkirk specialty steel, llc","ny 14048, 830 brigham roaddunkirk",1,0,0
+620,39,"what is the location of north jackson specialty steel, llc","oh 44541, 2058 south bailey roadnorth jackson",1,0,0
+621,39,"what is the location of pnc bank, n.a.","nj 08816, two tower center blvd. 21st floor st brunswick",1,0,0
+622,39,"which company is associated with 121 caldwell streettitusville, pa 16354","inc., universal stainless alloy products",1,0,0
+623,39,"which company is associated with 2058 south bailey roadnorth jackson, oh 44541","llc, north jackson specialty steel",1,0,0
+624,39,"which company is associated with 300 fifth avenue, 14th floorpittsburgh, pennsylvania 15222","pnc bank, national association",1,0,0
+625,39,"which company is associated with 600 mayer streetbridgeville, pa 15017","inc., universal stainless alloy products",1,0,0
+626,39,"which company is associated with 6750 miller rd mail stop br yb58 01 p brecksville, ohio 44141","pnc bank, national association",1,0,0
+627,39,"which company is associated with 830 brigham roaddunkirk, ny 14048","llc, dunkirk specialty steel",1,0,0
+628,39,"which company is associated with one bryant park, 32nd floornew york, ny 10036","n.a., bank of america",1,0,0
+629,39,"which company is associated with two tower center blvd. 21st floor st brunswick, nj 08816","n.a., pnc bank",1,0,0
+630,39,"what type of location is 2058 south bailey roadnorth jackson, oh 44541",chief executive office,1,0,0
+631,39,"what type of location is 600 mayer streetbridgeville, pa 15017",chief executive office,1,0,0
+632,39,"what type of location is 830 brigham roaddunkirk, ny 14048",chief executive office,1,0,0
+633,39,"what is the role of dunkirk specialty steel, llc in the agreement",borrower,1,0,0
+634,39,"what is the role of north jackson specialty steel, llc in the agreement",borrower,1,0,0
+635,39,"what is the role of universal stainless alloy products, inc. in the agreement",borrower,1,0,0
+636,39,what company is the lead arranger in the agreement,pnc capital markets llc,1,0,0
+637,39,what company is the bookrunner in the agreement,pnc capital markets llc,1,0,0
+638,11,what is the position of gene riego de dios,executive director,1,0,0
+639,11,what is the position of carolyn kee,vice president,1,0,0
+640,11,what is the position of craig malloy,director,1,0,0
+641,11,what is the position of mukesh singh,director,1,0,0
+642,11,what is the position of robert ehudin,authorized signatory,1,0,0
+643,11,what is the position of virginia cosenza,vice president,1,0,0
+644,11,in what organization does carolyn kee work,honeywell international inc.,1,0,0
+645,11,in what organization does craig malloy work,"n.a., bank of america",1,0,0
+646,11,in what organization does john j. tus work,honeywell international inc.,1,0,0
+647,11,in what organization does mukesh singh work,"n.a., bank of america",1,0,0
+648,11,in what organization does robert ehudin work,goldman sachs bank usa,1,0,0
+649,11,in what organization does virginia cosenza work,honeywell international inc.,1,0,0
+650,11,who is the representative of goldman sachs bank usa,robert ehudin,1,0,0
+651,11,"what is the location of deutsche bank ag new york branch,",director,1,0,0
+652,11,"what is the location of jpmorgan chase bank, n.a","floor 3, de 19713, ops 2500 stanton christiana rd.newark",1,0,0
+653,11,which company is associated with director,deutsche bank ag new york branch,1,0,0
+654,11,"which company is associated with floor 3, ops 2500 stanton christiana rd.newark, de 19713","n.a, jpmorgan chase bank",1,0,0
+655,11,"what type of location is floor 3, ops 2500 stanton christiana rd.newark, de 19713",loan and agency services group,1,0,0
+656,11,what is the role of barclays bank plc in the agreement,co book managers initial lender,1,0,0
+657,11,"what is the role of citibank, n.a. in the agreement",co book managers initial lender,1,0,0
+658,11,"what is the role of deutsche bank ag new york branch, in the agreement",co book managers initial lender,1,0,0
+659,11,what is the role of goldman sachs bank usa in the agreement,co book managers initial lender,1,0,0
+660,11,"what is the role of bank of america, n.a. in the agreement",co book managers initial lender,1,0,0
+661,11,what is the role of honeywell international inc. in the agreement,borrower,1,0,0
+662,11,what company is the administrative agent in the agreement,"n.a, jpmorgan chase bank",1,0,0
+663,11,what company is the lead arrangers initial lender in the agreement,"n.a, jpmorgan chase bank",1,0,0
+664,11,"what company is the borrower, in the agreement",honeywell international inc.,1,0,0
+845,10,what is the position of kenise henry larmond,vice president,1,0,0
+846,10,what is the position of michael king,vice president,1,0,0
+847,10,what is the position of rodney beeks,associate,1,0,0
+848,10,what is the position of shane m. leary,vice president,1,0,0
+849,10,what is the position of susan khokher,"agency, manager",1,0,0
+850,10,what is the position of alex figueroa,authorized signatory,1,0,0
+851,10,in what organization does kenise henry larmond work,"n.a., jpmorgan chase bank",1,0,0
+852,10,in what organization does michael king work,"n.a., jpmorgan chase bank",1,0,0
+853,10,in what organization does rodney beeks work,"n.a., bank of america",1,0,0
+854,10,in what organization does shane m. leary work,"n.a., jpmorgan chase bank",1,0,0
+855,10,in what organization does susan khokher work,royal bank of canada,1,0,0
+856,10,in what organization does terence f. sullivan work,"inc., victory capital holdings",1,0,0
+857,10,in what organization does alex figueroa work,royal bank of canada,1,0,0
+858,10,"who is the representative of bank of america, n.a.",rodney beeks,1,0,0
+859,10,"who is the representative of royal bank of canada,",susan khokher,1,0,0
+860,10,"who is the representative of victory capital holdings, inc.,",terence f. sullivan,1,0,0
+861,10,"who is the representative of royal bank of canada,",alex figueroa,1,0,0
+862,10,"what is the location of royal bank of canada,","200 bay street, royal bank plaza, ontario m5j 2w7canada, 12th floor south towertoronto",1,0,0
+863,10,"what is the location of victory capital holdings, inc.,","oh 44144, 4900 tiedeman road 4th floorbrooklyn",1,0,0
+864,10,"what is the location of royal bank of canada,","new york 10281, 200 vesey streetnew york",1,0,0
+865,10,"which company is associated with 200 vesey streetnew york, new york 10281",royal bank of canada,1,0,0
+866,10,"which company is associated with 4900 tiedeman road 4th floorbrooklyn, oh 44144","inc., victory capital holdings",1,0,0
+867,10,"which company is associated with royal bank plaza, 200 bay street,12th floor south towertoronto, ontario m5j 2w7canada",royal bank of canada,1,0,0
+868,10,"what is the role of royal bank of canada, in the agreement",administrative agent,1,0,0
+869,10,"what is the role of victory capital holdings, inc., in the agreement",borrower,1,0,0
+870,10,"what is the role of royal bank of canada, in the agreement",lender issuing bank,1,0,0
+871,10,what company is the administrative agent in the agreement,royal bank of canada,1,0,0
+872,10,what company is the borrower in the agreement,"inc., victory capital holdings",1,0,0
+873,10,what company is the lender issuing bank in the agreement,royal bank of canada,1,0,0
+874,38,what is the position of dennis petito,managing director,1,0,0
+875,38,what is the position of j. frazell,director,1,0,0
+876,38,what is the position of ming k. chu,vice president,1,0,0
+877,38,what is the position of pablo gonzalez spahr,executive,1,0,0
+878,38,what is the position of ann rhoads,managing director,1,0,0
+879,38,what is the position of borden tennant,assistant vice president,1,0,0
+880,38,what is the position of david kee,managing director,1,0,0
+881,38,what is the position of diego medina,director,1,0,0
+882,38,what is the position of hussam s. alsahlani,vice president,1,0,0
+883,38,what is the position of jamie grubb,vice president,1,0,0
+884,38,what is the position of joe hykle,senior vice president,1,0,0
+885,38,what is the position of kenneth phelan,vice president,1,0,0
+886,38,what is the position of maureen maroney,vice president,1,0,0
+887,38,what is the position of michael king,authorized signatory,1,0,0
+888,38,what is the position of michael willis,managing director,1,0,0
+889,38,what is the position of nupur kumar,authorized signatory,1,0,0
+890,38,what is the position of rebecca kratz,authorized signatory,1,0,0
+891,38,what is the position of ross levitsky,managing director,1,0,0
+892,38,what is the position of sherwin brandford,director,1,0,0
+893,38,what is the position of sriram chandrasekaran,director,1,0,0
+894,38,what is the position of stefan dickenmann,authorized signatory,1,0,0
+895,38,what is the position of steven aloupis,managing directorcapital markets,1,0,0
+896,38,what is the position of vanessa kurbatskiy,vice president,1,0,0
+897,38,in what organization does dennis petito work,sumitomo mitsui banking corporation,1,0,0
+898,38,in what organization does houssem daly work,ubs ag,1,0,0
+899,38,in what organization does j. frazell work,ubs ag,1,0,0
+900,38,in what organization does ming k. chu work,the bank of new york mellon,1,0,0
+901,38,in what organization does pablo gonzalez spahr work,the standard bank of south africa limited,1,0,0
+902,38,in what organization does albert l. richey work,anadarko petroleum corporation,1,0,0
+903,38,in what organization does ann rhoads work,bnp paribas,1,0,0
+904,38,in what organization does borden tennant work,"wells fargo bank, national association",1,0,0
+905,38,in what organization does david kee work,sumitomo mitsui banking corporation,1,0,0
+906,38,in what organization does diego medina work,ubs ag,1,0,0
+907,38,in what organization does donna demagistris work,"n.a., morgan stanley bank",1,0,0
+908,38,in what organization does hussam s. alsahlani work,the bank of new york mellon,1,0,0
+909,38,in what organization does jamie grubb work,the bank of new york mellon,1,0,0
+910,38,in what organization does joe hykle work,dnb capital llc,1,0,0
+911,38,in what organization does kenneth chin work,ubs ag,1,0,0
+912,38,in what organization does kenneth phelan work,the bank of new york mellon,1,0,0
+913,38,in what organization does maureen maroney work,the bank of new york mellon,1,0,0
+914,38,in what organization does michael king work,"n.a., morgan stanley bank",1,0,0
+915,38,in what organization does michael willis work,sumitomo mitsui banking corporation,1,0,0
+916,38,in what organization does nupur kumar work,"n.a., morgan stanley bank",1,0,0
+917,38,in what organization does rebecca kratz work,"n.a., morgan stanley bank",1,0,0
+918,38,in what organization does ross levitsky work,sumitomo mitsui banking corporation,1,0,0
+919,38,in what organization does sherwin brandford work,ubs ag,1,0,0
+920,38,in what organization does sriram chandrasekaran work,ubs ag,1,0,0
+921,38,in what organization does stefan dickenmann work,"n.a., morgan stanley bank",1,0,0
+922,38,in what organization does vanessa kurbatskiy work,the bank of new york mellon,1,0,0
+923,38,"who is the representative of jpmorgan chase bank, n.a.,",dave katz,1,0,0
+924,38,who is the representative of the standard bank of south africa limited,pablo gonzalez spahr,1,0,0
+925,38,"who is the representative of anadarko petroleum corporation,",albert l. richey,1,0,0
+926,38,who is the representative of bnp paribas,ann rhoads,1,0,0
+927,38,who is the representative of dnb capital llc,joe hykle,1,0,0
+928,38,"who is the representative of wells fargo bank, national association",borden tennant,1,0,0
+929,38,"what is the location of jpmorgan chase bank, n.a","ops 2, newark, de 19713, 3rd floor, 500 stanton christiana road",1,0,0
+930,38,"what is the location of jpmorgan chase bank, n.a.","new york, 383 madison avenue",1,0,0
+931,38,"which company is associated with 383 madison avenue, new york, new york 10179","n.a., jpmorgan chase bank",1,0,0
+932,38,"which company is associated with 500 stanton christiana road, ops 2, 3rd floor, newark, de 19713","n.a, jpmorgan chase bank",1,0,0
+933,38,"what is the role of anadarko petroleum corporation, in the agreement",borrower,1,0,0
+934,38,"what is the role of bank of america, n.a. in the agreement",co documentation agents,1,0,0
+935,38,"what is the role of citibank, n.a. in the agreement",co documentation agents,1,0,0
+936,38,"what is the role of mizuho bank, ltd in the agreement",co documentation agents,1,0,0
+937,38,"what is the role of the bank of tokyo mitsubishi ufj, ltd., in the agreement",co documentation agents,1,0,0
+938,38,"what is the role of wells fargo bank, national association, in the agreement",syndication agent,1,0,0
+939,38,"what is the role of jpmorgan chase bank, n.a., in the agreement",administrative agent,1,0,0
+940,38,"what is the role of jpmorgan chase bank, n.a. in the agreement",administrative agent,1,0,0
+941,38,what company is the syndication agent in the agreement,"wells fargo bank, national association",1,0,0
+942,12,what is the position of conan schleicher,vice president,1,0,0
+943,12,what is the position of dawn lee lum,executive director,1,0,0
+944,12,what is the position of francesco di mario,fvp head of credit,1,0,0
+945,12,what is the position of gr inne kelly,"vice president, global treasury",1,0,0
+946,12,what is the position of graham gibson,senior director,1,0,0
+947,12,what is the position of j. casey cosgrove,director,1,0,0
+948,12,what is the position of jack lonker,director,1,0,0
+949,12,what is the position of john devlin,"vice president, global treasury",1,0,0
+950,12,what is the position of linh dang,authorized signatory,1,0,0
+951,12,what is the position of lorenzo rodino,relationship manager,1,0,0
+952,12,what is the position of luca balestra,managing director,1,0,0
+953,12,what is the position of sara la berg,"senior manager, global treasury",1,0,0
+954,12,what is the position of thilo huber,director,1,0,0
+955,12,what is the position of thomas foley,managing director,1,0,0
+956,12,what is the position of tracy rahn,authorized signatory,1,0,0
+957,12,in what organization does aidan clare work,"inc., walgreens boots alliance",1,0,0
+958,12,in what organization does conan schleicher work,u.s. bank national association,1,0,0
+959,12,in what organization does dawn lee lum work,"n.a., jpmorgan chase bank",1,0,0
+960,12,in what organization does francesco di mario work,"new york branch, intesa sanpaolo s.p.a.",1,0,0
+961,12,in what organization does gr inne kelly work,"inc., walgreens boots alliance",1,0,0
+962,12,in what organization does graham gibson work,national westminster bank plc,1,0,0
+963,12,in what organization does j. casey cosgrove work,"new york branch, unicredit bank ag",1,0,0
+964,12,in what organization does jack lonker work,"new york branch, unicredit bank ag",1,0,0
+965,12,in what organization does john devlin work,"inc., walgreens boots alliance",1,0,0
+966,12,in what organization does linh dang work,"new york branch, the toronto dominion bank",1,0,0
+967,12,in what organization does lorenzo rodino work,"new york branch, intesa sanpaolo s.p.a.",1,0,0
+968,12,in what organization does luca balestra work,"new york branch, unicredit bank ag",1,0,0
+969,12,in what organization does marco pagni work,"inc., walgreens boots alliance",1,0,0
+970,12,in what organization does sara la berg work,"inc., walgreens boots alliance",1,0,0
+971,12,in what organization does thilo huber work,"new york branch, unicredit bank ag",1,0,0
+972,12,in what organization does thomas foley work,"new york branch, unicredit bank ag",1,0,0
+973,12,in what organization does tracy rahn work,"new york branch, the toronto dominion bank",1,0,0
+974,12,"who is the representative of jpmorgan chase bank, n.a.",dawn lee lum,1,0,0
+975,12,who is the representative of national westminster bank plc,graham gibson,1,0,0
+976,12,who is the representative of u.s. bank national association,conan schleicher,1,0,0
+977,12,"what is the location of mizuho bank, ltd.,","nj 07311, mizuho bank, ltd.harborside financial ctr1800 plaza tenjersey city",1,0,0
+978,12,"what is the location of walgreens boots alliance, inc.","il 60015, 108 wilmot roaddeerfield",1,0,0
+979,12,"which company is associated with 108 wilmot roaddeerfield, il 60015","inc., walgreens boots alliance",1,0,0
+980,12,"which company is associated with mizuho bank, ltd.harborside financial ctr1800 plaza tenjersey city, nj 07311","ltd., mizuho bank",1,0,0
+981,12,"what is the role of mizuho bank, ltd., in the agreement",administrative agent,1,0,0
+982,12,"what is the role of walgreens boots alliance, inc. in the agreement",borrower,1,0,0
+983,12,what company is the administrative agent in the agreement,"ltd., mizuho bank",1,0,0
+984,12,what company is the borrower in the agreement,"inc., walgreens boots alliance",1,0,0
+2010,64,what is the position of doreen barr,authorized signatory,1,0,0
+2011,64,what is the position of geoff kott,chief capital officer,1,0,0
+2012,64,what is the position of komal shah,authorized signatory,1,0,0
+2013,64,what is the position of martin corrigan,vice president,1,0,0
+2014,64,"what is the position of richard w. jantzen, iii",vice president,1,0,0
+2015,64,in what organization does doreen barr work,goldman sachs lending partners llc,1,0,0
+2016,64,in what organization does geoff kott work,"inc., affirm",1,0,0
+2017,64,in what organization does komal shah work,goldman sachs lending partners llc,1,0,0
+2018,64,in what organization does martin corrigan work,"inc., morgan stanley senior funding",1,0,0
+2019,64,in what organization does michael king work,"inc., morgan stanley senior funding",1,0,0
+2020,64,"in what organization does richard w. jantzen, iii work","inc., morgan stanley senior funding",1,0,0
+2021,64,in what organization does thomas manning work,goldman sachs lending partners llc,1,0,0
+2022,64,"who is the representative of affirm, inc.",geoff kott,1,0,0
+2023,64,what is the role of ernst young llp in the agreement,legal counsel,1,0,0
+2024,64,what is the role of goldman sachs lending partners llc. in the agreement,bookrunners,1,0,0
+2025,64,"what is the role of morgan stanley senior funding, inc in the agreement",bookrunners,1,0,0
+2026,64,"what is the role of morgan stanley senior funding, inc. in the agreement",lead arrangers,1,0,0
+2027,64,"what is the role of affirm, inc. in the agreement",borrower,1,0,0
+2028,64,"what is the role of morgan stanley senior funding, inc. in the agreement",administrative agent,1,0,0
+2029,64,what company is the syndication agent in the agreement,goldman sachs lending partners llc,1,0,0
+2030,64,what company is the borrower in the agreement,"inc., affirm",1,0,0
+2031,64,what company is the administrative agent in the agreement,"inc., morgan stanley senior funding",1,0,0
+2049,41,what is the position of ann m. meade,senior vice president,1,0,0
+2050,41,what is the position of david nussbaum,senior vice president,1,0,0
+2051,41,what is the position of deborah a. colony,senior vice president,1,0,0
+2052,41,what is the position of j.e. hall,senior banker,1,0,0
+2053,41,what is the position of john dillon,director,1,0,0
+2054,41,what is the position of marc j. lubelczyk,senior vice president,1,0,0
+2055,41,what is the position of marina e. grossi,senior vice president,1,0,0
+2056,41,what is the position of mitchell b. feldman,senior vice president,1,0,0
+2057,41,in what organization does ann m. meade work,"n.a., webster bank",1,0,0
+2058,41,in what organization does david nussbaum work,"n.a., webster bank",1,0,0
+2059,41,in what organization does deborah a. colony work,"n.a., webster bank",1,0,0
+2060,41,in what organization does frank a. segall work,burns levinson llp,1,0,0
+2061,41,in what organization does j.e. hall work,keybank national association,1,0,0
+2062,41,in what organization does john dillon work,bmo harris bank n.a.,1,0,0
+2063,41,in what organization does marc j. lubelczyk work,"n.a., webster bank",1,0,0
+2064,41,in what organization does marina e. grossi work,"n.a., webster bank",1,0,0
+2065,41,in what organization does martin h. dodd work,"inc, trc companies",1,0,0
+2066,41,in what organization does mitchell b. feldman work,"n.a., webster bank",1,0,0
+2067,41,"who is the representative of trc companies, inc",martin h. dodd,1,0,0
+2068,41,who is the representative of bmo harris bank n.a.,john dillon,1,0,0
+2069,41,who is the representative of keybank national association,j.e. hall,1,0,0
+2070,41,who is the representative of burns levinson llp,frank a. segall,1,0,0
+2071,41,"what is the location of citibank, n.a.","tx 75039, 6400 las colinas boulevardirvine",1,0,0
+2072,41,what is the location of eastern bank,"ma 02110, 2nd floorboston, eastern bank265 franklin street",1,0,0
+2073,41,what is the location of middlesex savings bank,"ma 01760, 6 main streetnatick",1,0,0
+2074,41,"what is the location of santander bank, n.a.","ma 02109, 28 state street, 16th floorma2 6560 cb16boston",1,0,0
+2075,41,what is the location of bmo harris bank n.a.,"il 60603, 111 w. monroe street5th floor centerchicago",1,0,0
+2076,41,what is the location of keybank national association,"ma 02110, 225 franklin street 18th floorboston",1,0,0
+2077,41,what is the location of burns levinson llp,"boston, 125 summer street, massachusetts 02110",1,0,0
+2078,41,"what is the location of webster bank, n.a.","ma 02110, 100 franklin streetboston",1,0,0
+2079,41,"which company is associated with 100 franklin streetboston, ma 02110","n.a., webster bank",1,0,0
+2080,41,"which company is associated with 111 w. monroe street5th floor centerchicago, il 60603",bmo harris bank n.a.,1,0,0
+2081,41,"which company is associated with 125 summer street, boston, massachusetts 02110",burns levinson llp,1,0,0
+2082,41,"which company is associated with 225 franklin street 18th floorboston, ma 02110",keybank national association,1,0,0
+2083,41,"which company is associated with 28 state street, 16th floorma2 6560 cb16boston, ma 02109","n.a., santander bank",1,0,0
+2084,41,"which company is associated with 6400 las colinas boulevardirvine, tx 75039","n.a., citibank",1,0,0
+2085,41,"which company is associated with 6 main streetnatick, ma 01760",middlesex savings bank,1,0,0
+2086,41,"which company is associated with eastern bank265 franklin street, 2nd floorboston, ma 02110",eastern bank,1,0,0
+2087,41,what is the role of keybank national association in the agreement,documentation agent.,1,0,0
+2088,41,"what is the role of trc companies, inc in the agreement",borrower,1,0,0
+2089,41,"what company is the syndication agent, in the agreement",bmo harris bank,1,0,0
+2090,41,what company is the lender in the agreement,"n.a, citizens bank",1,0,0
+2091,41,what company is the lead arranger in the agreement,"n.a., citizens bank",1,0,0
+2092,41,what company is the bookrunner in the agreement,"n.a., citizens bank",1,0,0
+2093,41,what company is the documentation agent. in the agreement,keybank national association,1,0,0
+2094,41,what company is the borrower in the agreement,"inc, trc companies",1,0,0
+2459,40,what is the position of david reading,first vice president,1,0,0
+2460,40,what is the position of edward j. chidiac,senior vice president,1,0,0
+2461,40,what is the position of james cribbet,senior vice president,1,0,0
+2462,40,what is the position of michael h. weiner,chief financial officer,1,0,0
+2463,40,in what organization does david reading work,"n.a., first niagara bank",1,0,0
+2464,40,in what organization does edward j. chidiac work,"associated bank, national association",1,0,0
+2465,40,in what organization does james cribbet work,"associated bank, national association",1,0,0
+2466,40,in what organization does kevin chan work,the bank of novia scotia,1,0,0
+2467,40,in what organization does michael h. weiner work,national general holdings corp.,1,0,0
+2468,40,in what organization does michael king work,"n.a, morgan stanley bank",1,0,0
+2469,40,in what organization does nida mischke work,"n.a, jpmorgan chase bank",1,0,0
+2470,40,"who is the representative of first niagara bank, n.a.",david reading,1,0,0
+2471,40,"who is the representative of morgan stanley bank, n.a",michael king,1,0,0
+2472,40,who is the representative of the bank of novia scotia,kevin chan,1,0,0
+2473,40,who is the representative of national general holdings corp.,michael h. weiner,1,0,0
+2474,40,"who is the representative of jpmorgan chase bank, n.a",nida mischke,1,0,0
+2475,40,what is the location of national general holdings corp.,"new york, ny 10038, 38th floor, 59 maiden lane",1,0,0
+2476,40,"what is the location of jpmorgan chase bank, n.a","chicago, floor l2, il 60603 2003, 10 south dearborn street",1,0,0
+2477,40,"which company is associated with 10 south dearborn street, floor l2, chicago, il 60603 2003","n.a, jpmorgan chase bank",1,0,0
+2478,40,"which company is associated with 59 maiden lane, 38th floor, new york, ny 10038",national general holdings corp.,1,0,0
+2479,40,what is the role of keybank national association in the agreement,syndication agent,1,0,0
+2480,40,what is the role of national general holdings corp in the agreement,borrower,1,0,0
+2481,40,what is the role of national general holdings corp. in the agreement,borrower,1,0,0
+2482,40,"what is the role of jpmorgan chase bank, n.a in the agreement",administrative agent,1,0,0
+2483,40,what company is the issuing bank in the agreement,"n.a, jpmorgan chase bank",1,0,0
+2484,40,"what company is the administrative agent, in the agreement","n.a, jpmorgan chase bank",1,0,0
+2513,4,what is the position of david lissy,chief executive officer,1,0,0
+2514,4,what is the position of frank byrne,vice president,1,0,0
+2515,4,what is the position of john toronto,managing director,1,0,0
+2516,4,what is the position of ronnie glen,vice president,1,0,0
+2517,4,what is the position of sarah l. freedman,executive director,1,0,0
+2518,4,in what organization does david lissy work,bright horizons capital corp.,1,0,0
+2519,4,in what organization does frank byrne work,"n.a., bank of america",1,0,0
+2520,4,in what organization does john toronto work,credit suisse ag,1,0,0
+2521,4,in what organization does ronnie glen work,"n.a., bank of america",1,0,0
+2522,4,in what organization does sarah l. freedman work,jpmorgan chase bank n.a.,1,0,0
+2523,4,"who is the representative of bright horizons capital corp.,",david lissy,1,0,0
+2524,4,who is the representative of credit suisse ag,john toronto,1,0,0
+2525,4,who is the representative of jpmorgan chase bank n.a.,sarah l. freedman,1,0,0
+2526,4,what type of location is cayman islands,branch,1,0,0
+2527,4,what is the role of bright horizons capital corp in the agreement,holdings,1,0,0
+2528,4,what is the role of bright horizons family solutions llc in the agreement,borrower,1,0,0
+2529,4,"what is the role of bright horizons capital corp., in the agreement",holdings,1,0,0
+2530,4,what company is the syndication agent in the agreement,.p. morgan securities llc,1,0,0
+2531,4,what company is the borrower in the agreement,bright horizons family solutions llc,1,0,0
+2532,4,what company is the administrative agent in the agreement,goldman sachs bank usa,1,0,0
+2533,4,what company is the c issuer in the agreement,goldman sachs bank usa,1,0,0
+2534,4,what company is the swing line lender in the agreement,goldman sachs bank usa,1,0,0
+2535,42,what is the position of alan garson,senior vice president,1,0,0
+2536,42,what is the position of anthony luppino,vice president,1,0,0
+2537,42,what is the position of helene p. sprung,managing director,1,0,0
+2538,42,what is the position of jay r. goldstein,managing director,1,0,0
+2539,42,what is the position of maureen s. malphus,vice president,1,0,0
+2540,42,what is the position of paul spearing,vice president,1,0,0
+2541,42,what is the position of kelly weaver,vice president,1,0,0
+2542,42,in what organization does alan garson work,"llc, panera",1,0,0
+2543,42,in what organization does anthony luppino work,"pnc bank, national association",1,0,0
+2544,42,in what organization does helene p. sprung work,regions bank,1,0,0
+2545,42,in what organization does jay r. goldstein work,regions bank,1,0,0
+2546,42,in what organization does john d. sigel work,wilmerhale,1,0,0
+2547,42,in what organization does louis dipietro work,panera bread company,1,0,0
+2548,42,in what organization does mark wooldridge work,panera bread company,1,0,0
+2549,42,in what organization does maureen s. malphus work,"pnc bank, national association",1,0,0
+2550,42,in what organization does michael j. bufano work,"llc, panera",1,0,0
+2551,42,in what organization does monique haley work,"n.a, bank of america",1,0,0
+2552,42,in what organization does paul spearing work,"pnc bank, national association",1,0,0
+2553,42,"who is the representative of bank of america, n.a",monique haley,1,0,0
+2554,42,who is the representative of wilmerhale,john d. sigel,1,0,0
+2555,42,"who is the representative of bank of america, n.a.",kelly weaver,1,0,0
+2556,42,"what is the location of bank of america, n.a","nc 28255, 101 north tryon st. 5th floorcharlotte",1,0,0
+2557,42,what is the location of wilmerhale,"ma 02109 usa, 60 state streetboston",1,0,0
+2558,42,"which company is associated with 101 north tryon st. 5th floorcharlotte, nc 28255","n.a, bank of america",1,0,0
+2559,42,"which company is associated with 3630 south geyer road, suite 100st. louis, mo 63127",panera bread company,1,0,0
+2560,42,"which company is associated with 60 state streetboston, ma 02109 usa",wilmerhale,1,0,0
+2561,42,"which company is associated with 63 kendrick streetneedham, ma 02494",panera bread company,1,0,0
+2562,42,"which company is associated with 900 west trade st.charlotte, nc 28255 0001","n.a., bank of america",1,0,0
+2563,42,"which company is associated with new york, ny","n.a., bank of america",1,0,0
+2564,42,"what is the role of artisan bread, llc in the agreement",guarantor,1,0,0
+2565,42,"what is the role of bakery caf cards, llc in the agreement",guarantor,1,0,0
+2566,42,"what is the role of cap city bread, llc in the agreement",guarantor,1,0,0
+2567,42,"what is the role of panera bakery caf , inc. in the agreement",guarantor,1,0,0
+2568,42,"what is the role of panera canada holdings, inc. in the agreement",guarantor,1,0,0
+2569,42,"what is the role of panera international holdings, inc. in the agreement",guarantor,1,0,0
+2570,42,"what is the role of pumpernickel, inc. in the agreement",guarantor,1,0,0
+2571,42,"what is the role of pumpernickel associates, llc in the agreement",guarantor,1,0,0
+2572,42,what is the role of panera bread company in the agreement,borrower,1,0,0
+2573,42,what company is the lead arranger in the agreement,"pierce, fenner smith, merrill lynch",1,0,0
+2574,42,what company is the bookrunner in the agreement,"pierce, fenner smith, merrill lynch",1,0,0
+2575,42,what company is the borrower in the agreement,panera bread company,1,0,0
+3083,46,what is the position of gregory r. russano,senior vice president,1,0,0
+3084,46,what is the position of john paul hills,vp,1,0,0
+3085,46,in what organization does gregory r. russano work,"n.a., santander bank",1,0,0
+3086,46,in what organization does james pinto work,"llc, mvc gp ii",1,0,0
+3087,46,in what organization does john paul hills work,wintrust bank,1,0,0
+3088,46,"who is the representative of mvc gp ii, llc",james pinto,1,0,0
+3089,46,"who is the representative of santander bank, n.a.,",gregory r. russano,1,0,0
+3090,46,"who is the representative of wintrust bank,",john paul hills,1,0,0
+3091,46,what is the location of goldberg kohn ltd.,"il 60603, 55 east monroesuite 3300 chicago",1,0,0
+3092,46,what is the location of locke lord llp,"illinois 60606, 111 south wacker drivechicago",1,0,0
+3093,46,"what is the location of mvc capital, inc.","ny 10577, 287 bowman ave 241purchase",1,0,0
+3094,46,what is the location of otterbourg p.c.,"new york 10169, 230 park avenuenew york",1,0,0
+3095,46,"what is the location of santander bank, n.a.,","nj 07078, 830 morris turnpike, 3rd floorshort hills",1,0,0
+3096,46,"what is the location of wintrust bank,","il 60604, at wintrust bank231 s. lasalle street2nd floorchicago",1,0,0
+3097,46,"which company is associated with 111 south wacker drivechicago, illinois 60606",locke lord llp,1,0,0
+3098,46,"which company is associated with 230 park avenuenew york, new york 10169",otterbourg p.c.,1,0,0
+3099,46,"which company is associated with 287 bowman ave 241purchase, ny 10577","inc., mvc capital",1,0,0
+3100,46,"which company is associated with 55 east monroesuite 3300 chicago, il 60603",goldberg kohn ltd.,1,0,0
+3101,46,"which company is associated with 830 morris turnpike, 3rd floorshort hills, nj 07078","n.a., santander bank",1,0,0
+3102,46,"which company is associated with at wintrust bank231 s. lasalle street2nd floorchicago, il 60604",wintrust bank,1,0,0
+3103,46,what is the role of mvc partners llc in the agreement,guarantors,1,0,0
+3104,46,what is the role of mvc cayman in the agreement,guarantors,1,0,0
+3105,46,"what is the role of mvc financial services, inc. in the agreement",guarantors,1,0,0
+3106,46,"what is the role of mvc gp ii, llc in the agreement",guarantors,1,0,0
+3107,46,what is the role of goldberg kohn ltd. in the agreement,counsel,1,0,0
+3108,46,what is the role of locke lord llp in the agreement,legal counsel,1,0,0
+3109,46,"what is the role of mvc capital, inc. in the agreement",borrower,1,0,0
+3110,46,what is the role of otterbourg p.c. in the agreement,counsel,1,0,0
+3111,46,"what is the role of santander bank, n.a., in the agreement",agent,1,0,0
+3112,46,what company is the borrower in the agreement,"inc., mvc capital",1,0,0
+3113,46,what company is the agent in the agreement,"n.a., santander bank",1,0,0
+3171,44,what is the position of john m. hall,senior vice president,1,0,0
+3172,44,what is the position of maria a. mcclain,vice president,1,0,0
+3173,44,what is the position of matthew j. jewell,president,1,0,0
+3174,44,what is the position of rodney l. bell,chief financial officer,1,0,0
+3175,44,what is the position of tiffany e. gardner,senior vice president,1,0,0
+3176,44,in what organization does john m. hall work,bank of america,1,0,0
+3177,44,in what organization does maria a. mcclain work,bank of america,1,0,0
+3178,44,in what organization does matthew j. jewell work,"llc, forward air royalty",1,0,0
+3179,44,in what organization does rodney l. bell work,forward air corporation,1,0,0
+3180,44,in what organization does tiffany e. gardner work,bank of america,1,0,0
+3181,44,"who is the representative of forward air royalty, llc,",matthew j. jewell,1,0,0
+3182,44,who is the representative of forward air corporation,rodney l. bell,1,0,0
+3183,44,what is the location of forward air corporation,"tennessee 37745, 430 airport roadgreeneville",1,0,0
+3184,44,"which company is associated with 430 airport roadgreeneville, tennessee 37745",forward air corporation,1,0,0
+3185,44,"which company is associated with nc1 026 06 03900 w. trade st.charlotte, nc 28255",bank of america,1,0,0
+3186,44,"which company is associated with one independence centermail code nc1 001 05 46charlotte, nc 28255 0001",bank of america,1,0,0
+3187,44,"which company is associated with pa6 580 02 301 fleet wayscranton, pa 18507attention alfonso malave jr.",bank of america,1,0,0
+3188,44,"what type of location is pa6 580 02 301 fleet wayscranton, pa 18507attention alfonso malave jr.",trade finance,1,0,0
+3189,44,"what is the role of central states logistics, inc in the agreement",guarantor,1,0,0
+3190,44,"what is the role of central states trucking co., in the agreement",guarantor,1,0,0
+3191,44,"what is the role of faf, inc in the agreement",guarantor,1,0,0
+3192,44,what is the role of first tennessee bank in the agreement,swing line lender lender,1,0,0
+3193,44,"what is the role of forward air, inc. in the agreement",borrower,1,0,0
+3194,44,"what is the role of forward air solutions, inc. in the agreement",guarantor,1,0,0
+3195,44,"what is the role of forward air technology and logistics services, inc., in the agreement",guarantor,1,0,0
+3196,44,"what is the role of total quality, inc., in the agreement",guarantor,1,0,0
+3197,44,"what is the role of tqi holdings, inc. in the agreement",guarantor,1,0,0
+3198,44,what is the role of tqi inc. in the agreement,guarantor,1,0,0
+3199,44,"what is the role of forward air royalty, llc, in the agreement",guarantor,1,0,0
+3200,44,what is the role of forward air corporation in the agreement,borrower,1,0,0
+3201,50,what is the position of darin mullis,director,1,0,0
+3202,50,what is the position of david green,vice president,1,0,0
+3203,50,what is the position of derek r. brunelle,managing director,1,0,0
+3204,50,what is the position of laura woodward,vice president,1,0,0
+3205,50,what is the position of michael r. brough,senior vice president,1,0,0
+3206,50,what is the position of philip k. lievscher,vice president,1,0,0
+3207,50,what is the position of r. bryan riggsbee,chief financial officer,1,0,0
+3208,50,what is the position of yinghua zhang,director,1,0,0
+3209,50,in what organization does darin mullis work,wells fargo bank,1,0,0
+3210,50,in what organization does david green work,pnc bank,1,0,0
+3211,50,in what organization does derek r. brunelle work,silicon valley bank,1,0,0
+3212,50,in what organization does laura woodward work,pnc bank,1,0,0
+3213,50,in what organization does michael r. brough work,zions first national bank,1,0,0
+3214,50,in what organization does philip k. lievscher work,pnc bank,1,0,0
+3215,50,in what organization does r. bryan riggsbee work,"inc., myriad genetics",1,0,0
+3216,50,in what organization does william d. priester work,zions first national bank,1,0,0
+3217,50,in what organization does yinghua zhang work,wells fargo bank,1,0,0
+3218,50,"who is the representative of myriad genetics, inc.",r. bryan riggsbee,1,0,0
+3219,50,who is the representative of silicon valley bank,derek r. brunelle,1,0,0
+3220,50,"what is the location of jpmorgan chase bank, n.a.","illinois 60603, floor l2chicago, 10 south dearborn",1,0,0
+3221,50,"which company is associated with 10 south dearborn, floor l2chicago, illinois 60603","n.a., jpmorgan chase bank",1,0,0
+3222,50,what is the role of fifth third bank in the agreement,co documentation agents,1,0,0
+3223,50,what is the role of u.s. bank national association in the agreement,co documentation agents,1,0,0
+3224,50,"what is the role of myriad genetics, inc. in the agreement",borrower,1,0,0
+3225,50,what is the role of silicon valley bank in the agreement,co documentation agents,1,0,0
+3226,50,what is the role of zions first national bank in the agreement,co documentation agents,1,0,0
+3227,50,what is the role of pnc bank in the agreement,co documentation agents,1,0,0
+3228,50,what company is the borrower in the agreement,"inc., myriad genetics",1,0,0
+3229,2,what is the position of adam j. kultgen,vice president,1,0,0
+3230,2,what is the position of alysa trakas,director,1,0,0
+3231,2,what is the position of anthony hoye,director,1,0,0
+3232,2,what is the position of carl hinrichs,director,1,0,0
+3233,2,"what is the position of carl s. tabacjar, jr",senior vice president,1,0,0
+3234,2,what is the position of jaime mariano,senior vice president,1,0,0
+3235,2,what is the position of mary f. molnar,senior vice president,1,0,0
+3236,2,what is the position of mary ramsey,"svp, managing director",1,0,0
+3237,2,what is the position of michael borowiecki,authorized signatory,1,0,0
+3238,2,what is the position of paul isaac,duly authorized signatory,1,0,0
+3239,2,what is the position of phil andresen,vice president,1,0,0
+3240,2,in what organization does adam j. kultgen work,the huntington national bank,1,0,0
+3241,2,in what organization does alysa trakas work,"n.a, bank of america",1,0,0
+3242,2,in what organization does anthony hoye work,"n.a, bank of america",1,0,0
+3243,2,in what organization does carl hinrichs work,"n.a, bank of america",1,0,0
+3244,2,"in what organization does carl s. tabacjar, jr work","n.a., hsbc bank usa",1,0,0
+3245,2,in what organization does jaime mariano work,"n.a., hsbc bank usa",1,0,0
+3246,2,in what organization does mary f. molnar work,"n.a., hsbc bank usa",1,0,0
+3247,2,in what organization does mary ramsey work,"fifth third bank, national association",1,0,0
+3248,2,in what organization does michael borowiecki work,the toronto dominion bank,1,0,0
+3249,2,in what organization does navdeep gupta work,"inc., dick s sporting goods",1,0,0
+3250,2,in what organization does paul isaac work,"n.a., capital one",1,0,0
+3251,2,in what organization does phil andresen work,the huntington national bank,1,0,0
+3252,2,"who is the representative of capital one, n.a.",paul isaac,1,0,0
+3253,2,"who is the representative of dick s sporting goods, inc.",navdeep gupta,1,0,0
+3254,2,"who is the representative of fifth third bank, national association",mary ramsey,1,0,0
+3255,2,who is the representative of the toronto dominion bank,michael borowiecki,1,0,0
+3256,2,what is the location of the toronto dominion bank,newyork,1,0,0
+3257,2,which company is associated with newyork,the toronto dominion bank,1,0,0
+3258,2,what is the role of national association in the agreement,co documentation agent,1,0,0
+3259,2,what is the role of td securities usa llc in the agreement,co documentation agent,1,0,0
+3260,2,"what is the role of dick s sporting goods, inc. in the agreement",borrower,1,0,0
+3261,2,what company is the syndication agent in the agreement,"inc., bofa securities",1,0,0
+3262,2,what company is the borrower in the agreement,"inc., dick s sporting goods",1,0,0
+3487,22,what is the position of ajay jagsi,vice president,1,0,0
+3488,22,what is the position of alexandre camerlain,authorized signatory,1,0,0
+3489,22,what is the position of anca loghin,authorized officer,1,0,0
+3490,22,what is the position of heath israel,authorized signatory,1,0,0
+3491,22,in what organization does ajay jagsi work,"n.a, bank of america",1,0,0
+3492,22,in what organization does alexandre camerlain work,royal bank of canada,1,0,0
+3493,22,in what organization does anca loghin work,"n.a., jpmorgan chase bank",1,0,0
+3494,22,in what organization does heath israel work,royal bank of canada,1,0,0
+3495,22,in what organization does lloyd a. hajdik work,"inc., oil states international",1,0,0
+3496,22,"who is the representative of bank of america, n.a",ajay jagsi,1,0,0
+3497,22,"who is the representative of jpmorgan chase bank, n.a.",anca loghin,1,0,0
+3498,22,"who is the representative of oil states international, inc.,",lloyd a. hajdik,1,0,0
+3499,22,"what is the location of greenberg traurig, llp","esq., suite 2500atlanta, 3333 piedmont road, georgia 30305attn timothy w. bratcher",1,0,0
+3500,22,what is the location of simpson thacher bartlett llp,"texas 77002, 600 travis streetsuite 5400houston",1,0,0
+3501,22,"what is the location of wells fargo bank, national association","ga 30328, 1100 abernathy roadsuite 1600130atlanta",1,0,0
+3502,22,"what is the location of oil states international, inc.,","texas 77002, three allen center333 clay streetsuite 4620houston",1,0,0
+3503,22,"which company is associated with 1100 abernathy roadsuite 1600130atlanta, ga 30328","wells fargo bank, national association",1,0,0
+3504,22,"which company is associated with 3333 piedmont road, suite 2500atlanta, georgia 30305attn timothy w. bratcher, esq.","llp, greenberg traurig",1,0,0
+3505,22,"which company is associated with 600 travis streetsuite 5400houston, texas 77002",simpson thacher bartlett llp,1,0,0
+3506,22,"which company is associated with three allen center333 clay streetsuite 4620houston, texas 77002","inc., oil states international",1,0,0
+3507,22,"what is the role of greenberg traurig, llp in the agreement",counsel to any lender,1,0,0
+3508,22,what is the role of simpson thacher bartlett llp in the agreement,counsel to borrowers,1,0,0
+3509,22,"what is the role of oil states international, inc., in the agreement",borrower,1,0,0
+3510,22,what company is the agent in the agreement,"wells fargo bank, national association",1,0,0
+3511,22,what company is the borrower in the agreement,"inc., oil states international",1,0,0
+3626,37,what is the position of worthing jackman,authorized signatory,1,0,0
+3627,37,what is the position of bryan ervin,vice president,1,0,0
+3628,37,what is the position of felix miranda,senior vice president,1,0,0
+3629,37,what is the position of john kushnerick,vice president,1,0,0
+3630,37,what is the position of judith a. huckins,vice president,1,0,0
+3631,37,what is the position of kelly nash,vice president,1,0,0
+3632,37,what is the position of maria f. maia,managing director,1,0,0
+3633,37,what is the position of mark grover,senior vice president,1,0,0
+3634,37,what is the position of philip k. liebscher,senior vice president,1,0,0
+3635,37,what is the position of raj nambiar,vice president,1,0,0
+3636,37,what is the position of sandra cortes,director,1,0,0
+3637,37,what is the position of tad stainbrook,vice president,1,0,0
+3638,37,in what organization does bryan ervin work,"n.a, citizens bank",1,0,0
+3639,37,in what organization does felix miranda work,branch banking and trust company,1,0,0
+3640,37,in what organization does john kushnerick work,"n.a, citizens bank",1,0,0
+3641,37,in what organization does judith a. huckins work,"n.a, citizens bank",1,0,0
+3642,37,in what organization does kelly nash work,"n.a, citizens bank",1,0,0
+3643,37,in what organization does maria f. maia work,"n.a., bank of america",1,0,0
+3644,37,in what organization does mark grover work,branch banking and trust company,1,0,0
+3645,37,in what organization does philip k. liebscher work,branch banking and trust company,1,0,0
+3646,37,in what organization does raj nambiar work,"n.a, citizens bank",1,0,0
+3647,37,in what organization does sandra cortes work,"n.a., mufg union bank",1,0,0
+3648,37,in what organization does steven dixon work,"n.a, citizens bank",1,0,0
+3649,37,in what organization does tad stainbrook work,"n.a, citizens bank",1,0,0
+3650,37,in what organization does worthing f. jackman work,"inc., waste connections",1,0,0
+3651,37,"who is the representative of bank of america, n.a.",maria f. maia,1,0,0
+3652,37,"who is the representative of mufg union bank, n.a.,",sandra cortes,1,0,0
+3653,37,"who is the representative of waste connections, inc.",worthing f. jackman,1,0,0
+3654,37,what is the location of goulston storrs,"ma 02110, 400 atlantic avenueboston",1,0,0
+3655,37,what is the location of latham watkins llp,"tx 77002, 811 main street, suite 3700houston",1,0,0
+3656,37,"what is the location of waste connections, inc.","tx 77380, suite 110the woodlands, 3 waterway square place",1,0,0
+3657,37,"which company is associated with 100 federal streetmail code ma5 100 09 07boston, ma 02110","n.a, bank of america",1,0,0
+3658,37,"which company is associated with 101 n. tryon streetmail code nc1 001 05 46charlotte, nc 28255 0001","n.a., bank of america",1,0,0
+3659,37,"which company is associated with 1 fleet waymail code pa6 580 02 30scranton, pa 18507","n.a., bank of america",1,0,0
+3660,37,"which company is associated with 3 waterway square place, suite 110the woodlands, tx 77380","inc., waste connections",1,0,0
+3661,37,"which company is associated with 400 atlantic avenueboston, ma 02110",goulston storrs,1,0,0
+3662,37,"which company is associated with 555 california street, 4th floormail code ca5 705 04 09 san francisco, ca 94104","n.a, bank of america",1,0,0
+3663,37,"which company is associated with 811 main street, suite 3700houston, tx 77002",latham watkins llp,1,0,0
+3664,37,"what is the role of bank of america, n.a in the agreement",administrative agent,1,0,0
+3665,37,"what is the role of empire disposal, inc. in the agreement",subsidiaries,1,0,0
+3666,37,what is the role of entech alaska llc in the agreement,subsidiaries,1,0,0
+3667,37,what is the role of environmental trust company in the agreement,subsidiaries,1,0,0
+3668,37,"what is the role of evergreen disposal, inc. in the agreement",subsidiaries,1,0,0
+3669,37,what is the role of finley buttes limited partnership in the agreement,subsidiaries,1,0,0
+3670,37,"what is the role of finney county landfill, inc in the agreement",subsidiaries,1,0,0
+3671,37,"what is the role of fort ann transfer station, llc in the agreement",subsidiaries,1,0,0
+3672,37,"what is the role of front range landfill, inc. in the agreement",subsidiaries,1,0,0
+3673,37,"what is the role of gbusa holdings, llc in the agreement",subsidiaries,1,0,0
+3674,37,"what is the role of god bless the usa, incorporated in the agreement",subsidiaries,1,0,0
+3675,37,"what is the role of green waste solutions of alaska, llc in the agreement",subsidiaries,1,0,0
+3676,37,"what is the role of g p development, inc. in the agreement",subsidiaries,1,0,0
+3677,37,"what is the role of hardin sanitation, inc. in the agreement",subsidiaries,1,0,0
+3678,37,"what is the role of harold lemay enterprises, incorporated in the agreement",subsidiaries,1,0,0
+3679,37,"what is the role of high desert solid waste facility, inc. in the agreement",subsidiaries,1,0,0
+3680,37,"what is the role of hudson valley waste holding, inc. in the agreement",subsidiaries,1,0,0
+3681,37,"what is the role of island disposal, inc. in the agreement",subsidiaries,1,0,0
+3682,37,"what is the role of j bar j land, inc. in the agreement",subsidiaries,1,0,0
+3683,37,"what is the role of lacassine holdings, l.l.c. in the agreement",subsidiaries,1,0,0
+3684,37,"what is the role of lakeshore disposal, inc in the agreement",subsidiaries,1,0,0
+3685,37,"what is the role of laurel ridge landfill, l.l.c. in the agreement",subsidiaries,1,0,0
+3686,37,"what is the role of lealco, inc. in the agreement",subsidiaries,1,0,0
+3687,37,"what is the role of lfc, inc. in the agreement",subsidiaries,1,0,0
+3688,37,"what is the role of lightning butte environmental, llc in the agreement",subsidiaries,1,0,0
+3689,37,"what is the role of louisiana reclamation company, l.l.c. in the agreement",subsidiaries,1,0,0
+3690,37,"what is the role of madera disposal systems, inc. in the agreement",subsidiaries,1,0,0
+3691,37,what is the role of mammoth disposal company in the agreement,subsidiaries,1,0,0
+3692,37,"what is the role of management environmental national, inc. in the agreement",subsidiaries,1,0,0
+3693,37,"what is the role of mason county garbage co., inc. in the agreement",subsidiaries,1,0,0
+3694,37,"what is the role of mbo, llc in the agreement",subsidiaries,1,0,0
+3695,37,"what is the role of mdsi of la, inc. in the agreement",subsidiaries,1,0,0
+3696,37,what is the role of millennium waste incorporated in the agreement,subsidiaries,1,0,0
+3697,37,what is the role of mission country disposal in the agreement,subsidiaries,1,0,0
+3698,37,what is the role of morro bay garbage service in the agreement,subsidiaries,1,0,0
+3699,37,"what is the role of murrey s disposal company, inc. in the agreement",subsidiaries,1,0,0
+3700,37,"what is the role of nebraska ecology systems, inc. in the agreement",subsidiaries,1,0,0
+3701,37,"what is the role of nobles county landfill, inc. in the agreement",subsidiaries,1,0,0
+3702,37,"what is the role of northwest container services, inc. in the agreement",subsidiaries,1,0,0
+3703,37,"what is the role of oklahoma city waste disposal, inc. in the agreement",subsidiaries,1,0,0
+3704,37,"what is the role of oklahoma landfill holdings, inc. in the agreement",subsidiaries,1,0,0
+3705,37,"what is the role of osage landfill, inc. in the agreement",subsidiaries,1,0,0
+3706,37,"what is the role of pierce county recycling, composting and disposal, llc in the agreement",subsidiaries,1,0,0
+3707,37,"what is the role of potrero hills landfill, inc. in the agreement",subsidiaries,1,0,0
+3708,37,"what is the role of prairie disposal, llc in the agreement",subsidiaries,1,0,0
+3709,37,"what is the role of prairie liquids, llc in the agreement",subsidiaries,1,0,0
+3710,37,"what is the role of psi environmental services, inc. in the agreement",subsidiaries,1,0,0
+3711,37,"what is the role of psi environmental systems, inc. in the agreement",subsidiaries,1,0,0
+3712,37,"what is the role of r.a. brownrigg investments, inc. in the agreement",subsidiaries,1,0,0
+3713,37,what is the role of r.j.c. trucking co. in the agreement,subsidiaries,1,0,0
+3714,37,"what is the role of r360 artesia, llc in the agreement",subsidiaries,1,0,0
+3715,37,"what is the role of r360 claco, llc in the agreement",subsidiaries,1,0,0
+3716,37,"what is the role of r360 environmental solutions, llc in the agreement",subsidiaries,1,0,0
+3717,37,"what is the role of r360 environmental solutions holdings, inc. in the agreement",subsidiaries,1,0,0
+3718,37,"what is the role of r360 environmental solutions of louisiana, llc in the agreement",subsidiaries,1,0,0
+3719,37,"what is the role of r360 environmental solutions of mississippi, llc in the agreement",subsidiaries,1,0,0
+3720,37,"what is the role of r360 environmental solutions of texas, llc in the agreement",subsidiaries,1,0,0
+3721,37,"what is the role of r360 es holdings, inc. in the agreement",subsidiaries,1,0,0
+3722,37,"what is the role of r360 hitchcock, llc in the agreement",subsidiaries,1,0,0
+3723,37,"what is the role of r360 logistics, llc in the agreement",subsidiaries,1,0,0
+3724,37,"what is the role of r360 oklahoma, llc in the agreement",subsidiaries,1,0,0
+3725,37,"what is the role of r360 permian basin, llc in the agreement",subsidiaries,1,0,0
+3726,37,"what is the role of r360 red bluff, llc in the agreement",subsidiaries,1,0,0
+3727,37,"what is the role of r360 shute creek, llc in the agreement",subsidiaries,1,0,0
+3728,37,"what is the role of r360 silo, llc in the agreement",subsidiaries,1,0,0
+3729,37,"what is the role of r360 williston basin, llc in the agreement",subsidiaries,1,0,0
+3730,37,"what is the role of railroad avenue disposal, llc in the agreement",subsidiaries,1,0,0
+3731,37,"what is the role of red carpet landfill, inc. in the agreement",subsidiaries,1,0,0
+3732,37,"what is the role of rensselaer region landfills, inc. in the agreement",subsidiaries,1,0,0
+3733,37,what is the role of rh financial corporation in the agreement,subsidiaries,1,0,0
+3734,37,"what is the role of rich valley, llc in the agreement",subsidiaries,1,0,0
+3735,37,"what is the role of rks holding, corp. in the agreement",subsidiaries,1,0,0
+3736,37,"what is the role of s.a. dunn company, llc in the agreement",subsidiaries,1,0,0
+3737,37,"what is the role of sanipac, inc. in the agreement",subsidiaries,1,0,0
+3738,37,what is the role of san luis garbage company in the agreement,subsidiaries,1,0,0
+3739,37,what is the role of scott solid waste disposal company in the agreement,subsidiaries,1,0,0
+3740,37,"what is the role of scott waste services, llc in the agreement",subsidiaries,1,0,0
+3741,37,"what is the role of seabreeze recovery, inc in the agreement",subsidiaries,1,0,0
+3742,37,"what is the role of section 18, llc in the agreement",subsidiaries,1,0,0
+3743,37,what is the role of sedalia land company in the agreement,subsidiaries,1,0,0
+3744,37,"what is the role of shale gas services, llc in the agreement",subsidiaries,1,0,0
+3745,37,"what is the role of sierra holding group, llc in the agreement",subsidiaries,1,0,0
+3746,37,"what is the role of sierra processing, llc in the agreement",subsidiaries,1,0,0
+3747,37,what is the role of silver springs organics l.l.c. in the agreement,subsidiaries,1,0,0
+3748,37,"what is the role of sj reclamation, inc. in the agreement",subsidiaries,1,0,0
+3749,37,"what is the role of skb austin environmental, llc in the agreement",subsidiaries,1,0,0
+3750,37,"what is the role of skb environmental, inc. in the agreement",subsidiaries,1,0,0
+3751,37,"what is the role of skb recycling, llc in the agreement",subsidiaries,1,0,0
+3752,37,"what is the role of smoky butte environmental, llc in the agreement",subsidiaries,1,0,0
+3753,37,"what is the role of south county sanitary service, inc. in the agreement",subsidiaries,1,0,0
+3754,37,"what is the role of sterling avenue properties, llc in the agreement",subsidiaries,1,0,0
+3755,37,what is the role of stutzman refuse disposal inc. in the agreement,subsidiaries,1,0,0
+3756,37,"what is the role of tacoma recycling company, inc. in the agreement",subsidiaries,1,0,0
+3757,37,"what is the role of tennessee waste movers, inc. in the agreement",subsidiaries,1,0,0
+3758,37,"what is the role of thunder butte environmental, llc in the agreement",subsidiaries,1,0,0
+3759,37,"what is the role of us liquids of la, l.p. in the agreement",subsidiaries,1,0,0
+3760,37,"what is the role of voorhees sanitation, l.l.c. in the agreement",subsidiaries,1,0,0
+3761,37,"what is the role of wasco county landfill, inc. in the agreement",subsidiaries,1,0,0
+3762,37,"what is the role of waste connections, inc. in the agreement",borrowers,1,0,0
+3763,37,"what is the role of waste connections management services, inc. in the agreement",subsidiaries,1,0,0
+3764,37,"what is the role of waste connections of alabama, inc. in the agreement",subsidiaries,1,0,0
+3765,37,"what is the role of waste connections of alaska, inc. in the agreement",subsidiaries,1,0,0
+3766,37,"what is the role of waste connections of arizona, inc. in the agreement",subsidiaries,1,0,0
+3767,37,"what is the role of waste connections of arkansas, inc. in the agreement",subsidiaries,1,0,0
+3768,37,"what is the role of waste connections of california, inc. in the agreement",subsidiaries,1,0,0
+3769,37,"what is the role of waste connections of colorado, inc. in the agreement",subsidiaries,1,0,0
+3770,37,"what is the role of waste connections of georgia, inc. in the agreement",subsidiaries,1,0,0
+3771,37,"what is the role of waste connections of idaho, inc. in the agreement",subsidiaries,1,0,0
+3772,37,"what is the role of waste connections of illinois, inc in the agreement",subsidiaries,1,0,0
+3773,37,"what is the role of waste connections of iowa, inc. in the agreement",subsidiaries,1,0,0
+3774,37,"what is the role of waste connections of kansas, inc. in the agreement",subsidiaries,1,0,0
+3775,37,"what is the role of waste connections of kentucky, inc. in the agreement",subsidiaries,1,0,0
+3776,37,"what is the role of waste connections of leflore, llc in the agreement",subsidiaries,1,0,0
+3777,37,"what is the role of waste connections of louisiana, inc. in the agreement",subsidiaries,1,0,0
+3778,37,"what is the role of waste connections of minnesota, inc. in the agreement",subsidiaries,1,0,0
+3779,37,"what is the role of waste connections of mississippi, inc in the agreement",subsidiaries,1,0,0
+3780,37,"what is the role of waste connections of mississippi disposal services, llc in the agreement",subsidiaries,1,0,0
+3781,37,"what is the role of waste connections of montana, inc. in the agreement",subsidiaries,1,0,0
+3782,37,"what is the role of waste connections of nebraska, inc in the agreement",subsidiaries,1,0,0
+3783,37,"what is the role of waste connections of new mexico, inc. in the agreement",subsidiaries,1,0,0
+3784,37,"what is the role of waste connections of north carolina, inc in the agreement",subsidiaries,1,0,0
+3785,37,"what is the role of waste connections of north dakota, inc. in the agreement",subsidiaries,1,0,0
+3786,37,"what is the role of waste connections of oklahoma, inc in the agreement",subsidiaries,1,0,0
+3787,37,"what is the role of waste connections of oregon, inc. in the agreement",subsidiaries,1,0,0
+3788,37,"what is the role of waste connections of south carolina, inc. in the agreement",subsidiaries,1,0,0
+3789,37,"what is the role of waste connections of south dakota, inc. in the agreement",subsidiaries,1,0,0
+3790,37,"what is the role of waste connections of tennessee, inc in the agreement",subsidiaries,1,0,0
+3791,37,"what is the role of waste connections of texas, llc in the agreement",subsidiaries,1,0,0
+3792,37,"what is the role of waste connections of the central valley, inc. in the agreement",subsidiaries,1,0,0
+3793,37,"what is the role of waste connections of utah, inc in the agreement",subsidiaries,1,0,0
+3794,37,"what is the role of waste connections of washington, inc in the agreement",subsidiaries,1,0,0
+3795,37,"what is the role of waste connections of wyoming, inc. in the agreement",subsidiaries,1,0,0
+3796,37,"what is the role of waste connections transportation company, inc. in the agreement",subsidiaries,1,0,0
+3797,37,"what is the role of waste reduction services, l.l.c. in the agreement",subsidiaries,1,0,0
+3798,37,"what is the role of waste services of n.e. mississippi, inc. in the agreement",subsidiaries,1,0,0
+3799,37,"what is the role of waste solutions group of san benito, llc in the agreement",subsidiaries,1,0,0
+3800,37,"what is the role of wci white oaks landfill, inc. in the agreement",subsidiaries,1,0,0
+3801,37,"what is the role of wci austin landfill, llc in the agreement",subsidiaries,1,0,0
+3802,37,"what is the role of west bank environmental services, inc in the agreement",subsidiaries,1,0,0
+3803,37,"what is the role of west coast recycling and transfer, inc. in the agreement",subsidiaries,1,0,0
+3804,37,"what is the role of wyoming environmental services, inc. in the agreement",subsidiaries,1,0,0
+3805,37,"what is the role of yakima waste systems, inc. in the agreement",subsidiaries,1,0,0
+3806,37,what company is the administrative agent in the agreement,"n.a, bank of america",1,0,0
+3807,23,what is the position of andrew sidford,managing director,1,0,0
+3808,23,what is the position of holli balzar,vice president,1,0,0
+3809,23,what is the position of jeanna steele,secretary,1,0,0
+3810,23,what is the position of jeremy eisman,managing director,1,0,0
+3811,23,what is the position of jonathan m. bouvet,senior vice president,1,0,0
+3812,23,what is the position of jordan kanis,managing director,1,0,0
+3813,23,what is the position of kyle hatze,director,1,0,0
+3814,23,what is the position of mark w. condon,authorized signatory,1,0,0
+3815,23,what is the position of michael agrimis,director,1,0,0
+3816,23,what is the position of myra martinez,director,1,0,0
+3817,23,what is the position of nawshaer safi,authorized signatory,1,0,0
+3818,23,what is the position of paul dickson,chief financial officer,1,0,0
+3819,23,what is the position of tom vonreichbauer,chief financial officer,1,0,0
+3820,23,in what organization does andrew sidford work,"new york branch, deutsche bank ag",1,0,0
+3821,23,in what organization does holli balzar work,"n.a., bank of america",1,0,0
+3822,23,in what organization does jeanna steele work,clean energy experts llc,1,0,0
+3823,23,in what organization does jeremy eisman work,"new york branch, deutsche bank ag",1,0,0
+3824,23,in what organization does jonathan m. bouvet work,keybank national association,1,0,0
+3825,23,in what organization does jordan kanis work,"new york branch, deutsche bank ag",1,0,0
+3826,23,in what organization does komal shah work,royal bank of canada,1,0,0
+3827,23,in what organization does kyle hatze work,"new york branch, deutsche bank ag",1,0,0
+3828,23,in what organization does mark w. condon work,royal bank of canada,1,0,0
+3829,23,in what organization does michael agrimis work,"new york branch, deutsche bank ag",1,0,0
+3830,23,in what organization does myra martinez work,"new york branch, deutsche bank ag",1,0,0
+3831,23,in what organization does nawshaer safi work,royal bank of canada,1,0,0
+3832,23,in what organization does paul dickson work,"llc, vivint solar developer",1,0,0
+3833,23,in what organization does tom vonreichbauer work,"llc, vivint solar developer",1,0,0
+3834,23,"who is the representative of bank of america, n.a.",holli balzar,1,0,0
+3835,23,who is the representative of clean energy experts llc,jeanna steele,1,0,0
+3836,23,who is the representative of keybank national association,jonathan m. bouvet,1,0,0
+3837,23,"what is the location of keybanc capital markets inc.,",arranger,1,0,0
+3838,23,"what is the location of mufg bank, ltd.,",arranger,1,0,0
+3839,23,what is the role of silicon valley bank in the agreement,collateral agent,1,0,0
+3840,23,"what is the role of vivint solar, inc in the agreement",guarantor,1,0,0
+3841,23,"what is the role of vivint solar holdings, inc in the agreement",guarantor,1,0,0
+3842,23,"what is the role of vivint solar operations, llc in the agreement",guarantor,1,0,0
+3843,23,what is the role of aee solar inc in the agreement,guarantor,1,0,0
+3844,23,what is the role of sunrun inc in the agreement,borrower,1,0,0
+3845,23,what is the role of sunrun installation services inc in the agreement,guarantor,1,0,0
+3846,23,what is the role of sunrun south llc in the agreement,guarantor,1,0,0
+3847,23,what is the role of clean energy experts llc in the agreement,guarantor,1,0,0
+3848,23,"what is the role of vivint solar developer, llc, in the agreement",guarantor,1,0,0
+3849,23,what company is the collateral agent in the agreement,silicon valley bank,1,0,0
+3850,23,what company is the borrower in the agreement,sunrun inc,1,0,0
+3851,35,what is the position of cheryl labelle,managing director,1,0,0
+3852,35,what is the position of claudia zarate,director,1,0,0
+3853,35,what is the position of david gurghigian,managing director,1,0,0
+3854,35,what is the position of devon j. lang,senior vice president,1,0,0
+3855,35,what is the position of debra hrelja,vice president,1,0,0
+3856,35,what is the position of diane pockaj,managing director,1,0,0
+3857,35,what is the position of eric s. fishman,treasurer,1,0,0
+3858,35,what is the position of glen binder,vice president,1,0,0
+3859,35,what is the position of haifeng xu,executive vice president,1,0,0
+3860,35,what is the position of hans beekmans,vice president,1,0,0
+3861,35,what is the position of hsing h. huang,associate director,1,0,0
+3862,35,what is the position of james d. weinstein,managing director,1,0,0
+3863,35,what is the position of john m. eyerman,vice president,1,0,0
+3864,35,what is the position of kelton glasscock,senior vice president,1,0,0
+3865,35,what is the position of kevin sparks,vice president,1,0,0
+3866,35,what is the position of leon mo,authorized signatory,1,0,0
+3867,35,what is the position of marco pizzi,global relationship manager,1,0,0
+3868,35,what is the position of nicolas anberree,vice president,1,0,0
+3869,35,what is the position of nurys maleki,director,1,0,0
+3870,35,what is the position of peter carini,vice president,1,0,0
+3871,35,what is the position of raza jafferi,vice president,1,0,0
+3872,35,what is the position of sophia love,senior vice president,1,0,0
+3873,35,what is the position of steve aloupis,managing director capital markets,1,0,0
+3874,35,what is the position of steve ray,authorized signatory,1,0,0
+3875,35,what is the position of steven smith,director,1,0,0
+3876,35,what is the position of veronica incera,managing director,1,0,0
+3877,35,in what organization does cheryl labelle work,credit agricole corporate and investment bank,1,0,0
+3878,35,in what organization does claudia zarate work,commerzbank ag,1,0,0
+3879,35,in what organization does david gurghigian work,credit agricole corporate and investment bank,1,0,0
+3880,35,in what organization does devon j. lang work,hess corporation,1,0,0
+3881,35,in what organization does debra hrelja work,u.s. bank national association,1,0,0
+3882,35,in what organization does diane pockaj work,commerzbank ag,1,0,0
+3883,35,in what organization does eric s. fishman work,hess overseas finance investments centre limited,1,0,0
+3884,35,in what organization does glen binder work,u.s. bank national association,1,0,0
+3885,35,in what organization does haifeng xu work,bank of china,1,0,0
+3886,35,in what organization does hans beekmans work,u.s. bank national association,1,0,0
+3887,35,in what organization does hsing h. huang work,standard chartered bank,1,0,0
+3888,35,in what organization does j. frazell work,commerzbank ag,1,0,0
+3889,35,in what organization does james d. weinstein work,credit agricole corporate and investment bank,1,0,0
+3890,35,in what organization does joe hykle work,hess corporation,1,0,0
+3891,35,in what organization does john m. eyerman work,u.s. bank national association,1,0,0
+3892,35,in what organization does john p. rielly work,hess corporation,1,0,0
+3893,35,in what organization does kelton glasscock work,hess corporation,1,0,0
+3894,35,in what organization does kevin sparks work,u.s. bank national association,1,0,0
+3895,35,in what organization does leon mo work,the royal bank of scotland plc,1,0,0
+3896,35,in what organization does marco pizzi work,intesa sanpaolo s.p.a.,1,0,0
+3897,35,in what organization does maureen maroney work,u.s. bank national association,1,0,0
+3898,35,in what organization does michael king work,the royal bank of scotland plc,1,0,0
+3899,35,in what organization does michael willis work,credit agricole corporate and investment bank,1,0,0
+3900,35,in what organization does nicolas anberree work,u.s. bank national association,1,0,0
+3901,35,in what organization does nurys maleki work,commerzbank ag,1,0,0
+3902,35,in what organization does peter carini work,u.s. bank national association,1,0,0
+3903,35,in what organization does raza jafferi work,u.s. bank national association,1,0,0
+3904,35,in what organization does rebecca kratz work,the royal bank of scotland plc,1,0,0
+3905,35,in what organization does sophia love work,hess corporation,1,0,0
+3906,35,in what organization does steve aloupis work,standard chartered bank,1,0,0
+3907,35,in what organization does steve ray work,the royal bank of scotland plc,1,0,0
+3908,35,in what organization does steven smith work,commerzbank ag,1,0,0
+3909,35,in what organization does timothy b. goodell work,hess corporation,1,0,0
+3910,35,in what organization does veronica incera work,credit agricole corporate and investment bank,1,0,0
+3911,35,who is the representative of hess overseas finance investments centre limited,eric s. fishman,1,0,0
+3912,35,who is the representative of intesa sanpaolo s.p.a.,marco pizzi,1,0,0
+3913,35,who is the representative of bank of china,haifeng xu,1,0,0
+3914,35,"what is the location of banco bilbao argentaria, s.a.",new york,1,0,0
+3915,35,what is the location of banco bilbao vizcaya argentaria,new york,1,0,0
+3916,35,"what is the location of jpmorgan chase bank, n.a.","ops 2, floor 3newark, delaware 19713, 500 stanton christiana rd",1,0,0
+3917,35,what is the location of bank of china,new york,1,0,0
+3918,35,what is the location of hess corporation,"new york 10036, 1185 avenue of the americasnew york",1,0,0
+3919,35,"which company is associated with 1185 avenue of the americasnew york, new york 10036",hess corporation,1,0,0
+3920,35,"which company is associated with 270 park avenuenew york, ny 10017","n.a, jpmorgan chase bank",1,0,0
+3921,35,which company is associated with grand cayman,commerzbank ag,1,0,0
+3922,35,which company is associated with new york,commerzbank ag,1,0,0
+3923,35,what type of location is grand cayman,branch,1,0,0
+3924,35,"what is the role of bank of america, n.a. in the agreement",issuing bank,1,0,0
+3925,35,"what is the role of wells fargo bank, nationalassociation in the agreement",issuing bank,1,0,0
+3926,35,"what is the role of bank of america, n.a in the agreement",issuing bank,1,0,0
+3927,35,"what is the role of citibank, n.a. in the agreement",issuing bank,1,0,0
+3928,35,"what is the role of citibank, n.a in the agreement",issuing bank,1,0,0
+3929,35,what is the role of goldman sachs bank usa in the agreement,issuing bank,1,0,0
+3930,35,what is the role of hess netherlands oil and gas holdings c.v. in the agreement,subsidiaries,1,0,0
+3931,35,what is the role of hess capital services llc in the agreement,subsidiaries,1,0,0
+3932,35,what is the role of hess international holdings limited in the agreement,subsidiaries,1,0,0
+3933,35,what is the role of hess oil and gas holdings inc in the agreement,subsidiaries,1,0,0
+3934,35,"what is the role of morgan stanley bank, n.a. in the agreement",issuing bank,1,0,0
+3935,35,"what is the role of morgan stanley bank, n.a in the agreement",issuing bank,1,0,0
+3936,35,"what is the role of the bank of tokyo mitsubishi ufj,ltd in the agreement",issuing bank,1,0,0
+3937,35,"what is the role of the bank of tokyo mitsubishi ufj, ltd in the agreement",issuing bank,1,0,0
+3938,35,what is the role of the royal bank of scotland plc in the agreement,issuing bank,1,0,0
+3939,35,"what is the role of wells fargo bank, national association in the agreement",issuing bank,1,0,0
+3940,35,what is the role of hess overseas finance investments centre limited in the agreement,subsidiaries,1,0,0
+3941,35,what is the role of hess corporation in the agreement,borrower,1,0,0
+3942,35,what company is the borrower in the agreement,hess corporation,1,0,0
+4180,18,what is the position of craig v. koshkarian,vice president,1,0,0
+4181,18,what is the position of dennis szczesuil,senior vice president,1,0,0
+4182,18,what is the position of elizabeth dove,vice president,1,0,0
+4183,18,what is the position of ghi gavin,senior vice president,1,0,0
+4184,18,what is the position of katherine davidson,director,1,0,0
+4185,18,what is the position of kevin a. stacker,senior vice president,1,0,0
+4186,18,in what organization does craig v. koshkarian work,"wells fargo bank, national association",1,0,0
+4187,18,in what organization does dennis szczesuil work,"n.a., raymond james bank",1,0,0
+4188,18,in what organization does elizabeth dove work,"wells fargo bank, national association",1,0,0
+4189,18,in what organization does ghi gavin work,"n.a., raymond james bank",1,0,0
+4190,18,in what organization does katherine davidson work,"n.a, mufg union bank",1,0,0
+4191,18,in what organization does kevin a. stacker work,"n.a., raymond james bank",1,0,0
+4192,18,in what organization does lainie minnick work,black creek diversified property operating partnership lp,1,0,0
+4193,18,who is the representative of black creek diversified property operating partnership lp,lainie minnick,1,0,0
+4194,18,"who is the representative of mufg union bank, n.a",katherine davidson,1,0,0
+4195,18,what is the location of black creek diversified property operating partnership lp,"co 80202, 518 17th streetsuite 1700denver",1,0,0
+4196,18,"which company is associated with 10 south wacker drivechicago, il 60606","wells fargo bank, national association",1,0,0
+4197,18,"which company is associated with 518 17th streetsuite 1700denver, co 80202",black creek diversified property operating partnership lp,1,0,0
+4198,18,"which company is associated with minneapolis loan centermac n9300 091600 south 4th street, 9th floorminneapolis, minnesota 55415","wells fargo bank, national association",1,0,0
+4199,18,what is the role of regions bank in the agreement,syndication agent,1,0,0
+4200,18,"what is the role of capital one, national association in the agreement",documentation agent,1,0,0
+4201,18,what is the role of black creek diversified property operating partnership lp in the agreement,borrower,1,0,0
+4202,18,what company is the syndication agent in the agreement,regions bank,1,0,0
+4203,18,what company is the documentation agent in the agreement,"capital one, national association",1,0,0
+4204,18,what company is the borrower in the agreement,black creek diversified property operating partnership lp,1,0,0
+4540,19,what is the position of katherine robinson,director,1,0,0
+4541,19,what is the position of katie cunningham,director,1,0,0
+4542,19,what is the position of robert graff,managing director,1,0,0
+4543,19,what is the position of robert p. elbert,senior vice president,1,0,0
+4544,19,what is the position of rodica dutka,"agency, manager",1,0,0
+4545,19,what is the position of timothy j. devane,executive director,1,0,0
+4546,19,in what organization does annie carr work,royal bank of canada,1,0,0
+4547,19,in what organization does katherine robinson work,"ltd., mufg bank",1,0,0
+4548,19,in what organization does katie cunningham work,"ltd., mufg bank",1,0,0
+4549,19,in what organization does maureen s. malphus work,"wells fargo bank, national association",1,0,0
+4550,19,in what organization does robert graff work,"new york, co peratieve rabobank u.a.",1,0,0
+4551,19,in what organization does robert p. elbert work,"n.a., umb bank",1,0,0
+4552,19,in what organization does rodica dutka work,royal bank of canada,1,0,0
+4553,19,in what organization does terry w. handley work,"inc., casey s general stores",1,0,0
+4554,19,in what organization does timothy j. devane work,"new york, co peratieve rabobank u.a.",1,0,0
+4555,19,"who is the representative of casey s general stores, inc.",terry w. handley,1,0,0
+4556,19,"who is the representative of umb bank, n.a.",robert p. elbert,1,0,0
+4557,19,"who is the representative of wells fargo bank, national association",maureen s. malphus,1,0,0
+4558,19,"what is the location of casey s general stores, inc","ia 50021, one convenience blvd.ankeny",1,0,0
+4559,19,what is the location of husch blackwell llp,"mo 64112, 4801 main street, suite 1000kansas city",1,0,0
+4560,19,"which company is associated with 4801 main street, suite 1000kansas city, mo 64112",husch blackwell llp,1,0,0
+4561,19,"which company is associated with one convenience blvd.ankeny, ia 50021","inc, casey s general stores",1,0,0
+4562,19,"which company is associated with rbc agency services group20 king street west, 4th floortoronto, ontario, canada",royal bank of canada,1,0,0
+4563,19,"what is the role of casey s general stores, inc. in the agreement",borrower,1,0,0
+4564,19,what company is the lead arranger in the agreement,rbc capital markets,1,0,0
+4565,19,what company is the lead bookrunner in the agreement,rbc capital markets,1,0,0
+4566,19,what company is the borrower in the agreement,"inc., casey s general stores",1,0,0
+4567,19,what company is the issuing bank in the agreement,royal bank of canada,1,0,0
+4568,19,what company is the swingline lender in the agreement,royal bank of canada,1,0,0
+4727,32,what is the position of alan greenhow,director,1,0,0
+4728,32,what is the position of barbara s. wang,director and counsel region americas legal,1,0,0
+4729,32,what is the position of chris golding,director corporate banking,1,0,0
+4730,32,what is the position of douglas brandes,vice president commercial banking,1,0,0
+4731,32,what is the position of gregg l. byers,executive director,1,0,0
+4732,32,what is the position of j. campbell,director,1,0,0
+4733,32,what is the position of jason blondell,authorised signatory,1,0,0
+4734,32,what is the position of jeremy causton,authorised signatory,1,0,0
+4735,32,what is the position of john cantalupo,senior vice president,1,0,0
+4736,32,what is the position of john hanbury,authorized signatory,1,0,0
+4737,32,what is the position of john stholl,director,1,0,0
+4738,32,"what is the position of mark lumpkin, jr.",authorized signatory,1,0,0
+4739,32,what is the position of muhammad hasan,vice president,1,0,0
+4740,32,what is the position of o. lavitzson,executive,1,0,0
+4741,32,what is the position of todd patchell,assistant vice president,1,0,0
+4742,32,what is the position of tony baratta,managing director corporate coverage canada,1,0,0
+4743,32,in what organization does alan greenhow work,ubs limited,1,0,0
+4744,32,in what organization does ann e. sutton work,ubs limited,1,0,0
+4745,32,in what organization does barbara s. wang work,ubs securities llc,1,0,0
+4746,32,in what organization does chris golding work,bnp paribas,1,0,0
+4747,32,in what organization does douglas brandes work,hsbc bank canada,1,0,0
+4748,32,in what organization does gregg l. byers work,j.p. morgan securities llc,1,0,0
+4749,32,in what organization does j. campbell work,ubs limited,1,0,0
+4750,32,in what organization does jason blondell work,hsbc corporate trustee company uk limited,1,0,0
+4751,32,in what organization does jeremy causton work,hsbc bank plc,1,0,0
+4752,32,in what organization does john cantalupo work,"n.a., wells fargo bank",1,0,0
+4753,32,in what organization does john hanbury work,royal bank of canada,1,0,0
+4754,32,in what organization does john stholl work,ubs limited,1,0,0
+4755,32,"in what organization does mark lumpkin, jr. work",royal bank of canada,1,0,0
+4756,32,in what organization does muhammad hasan work,"n.a., jpmorgan chase bank",1,0,0
+4757,32,in what organization does o. lavitzson work,the standard bank of south africa limited,1,0,0
+4758,32,in what organization does rebecca camden work,royal bank of canada,1,0,0
+4759,32,in what organization does todd patchell work,hsbc bank canada,1,0,0
+4760,32,in what organization does tony baratta work,bnp paribas,1,0,0
+4761,32,who is the representative of hsbc bank plc,jeremy causton,1,0,0
+4762,32,who is the representative of hsbc corporate trustee company uk limited,jason blondell,1,0,0
+4763,32,"who is the representative of j.p. morgan securities llc,",gregg l. byers,1,0,0
+4764,32,"who is the representative of jpmorgan chase bank, n.a.",muhammad hasan,1,0,0
+4765,32,who is the representative of the standard bank of south africa limited,o. lavitzson,1,0,0
+4766,32,who is the representative of ubs securities llc,barbara s. wang,1,0,0
+4767,32,"who is the representative of wells fargo bank, n.a.",john cantalupo,1,0,0
+4768,32,what is the location of 6922767 holding s. r.l.,"l 1931 luxembourg, 13 15 avenue de la libert",1,0,0
+4769,32,what is the location of chc den helder b.v.,netherlands,1,0,0
+4770,32,what is the location of chc global operations inc,canada,1,0,0
+4771,32,what is the location of chc global operations international inc,canada,1,0,0
+4772,32,what is the location of chc helicopter holding s. r.l.,"l 1931 luxembourg, 13 15 avenue de la libert",1,0,0
+4773,32,what is the location of chc helicopter s.a,"l 1931 luxembourg, 13 15 avenue de la libert",1,0,0
+4774,32,what is the location of chc holding nl b.v,netherlands,1,0,0
+4775,32,what is the location of chc netherlands b.v,netherlands,1,0,0
+4776,32,what is the location of chc norway acquisition co as,norway,1,0,0
+4777,32,what is the location of hsbc corporate trust company uk limited,8 canada squarelondon e14 5hq,1,0,0
+4778,32,what is the location of heli one europe as,norway,1,0,0
+4779,32,what is the location of heli one norway as,norway,1,0,0
+4780,32,what is the location of heli one u.s. inc.,"2711 centerville road, suite 400wilmingtondelaware 19808",1,0,0
+4781,32,what is the location of heli one canada inc,canada,1,0,0
+4782,32,what is the location of heli one leasing inc,canada,1,0,0
+4783,32,"which company is associated with 2711 centerville road, suite 400wilmingtondelaware 19808",heli one u.s. inc.,1,0,0
+4784,32,"which company is associated with 4740 agar driverichmond, b.c.v7b 1a3canada",atc rcs corporate services luxembourg s.a.,1,0,0
+4785,32,which company is associated with 8 canada squarelondon e14 5hq,hsbc corporate trust company uk limited,1,0,0
+4786,32,"which company is associated with 9, rue sainte zithe, 3rd floorl 2763 luxembourgluxembourg",atc rcs corporate services luxembourg s.a.,1,0,0
+4787,32,"which company is associated with corporate trust loan agency, level 278 canada squarelondon e14 5hq",hsbc bank plc,1,0,0
+4788,32,"which company is associated with level 27, 8 canada squarelondon e14 5hq",hsbc bank plc,1,0,0
+4789,32,"what type of location is 13 15 avenue de la libert , l 1931 luxembourg",registered office,1,0,0
+4790,32,what is the role of bnp paribas nada in the agreement,lenders,1,0,0
+4791,32,what is the role of barclays bank plc in the agreement,lenders,1,0,0
+4792,32,what is the role of chc den helder b.v. in the agreement,designated borrowers,1,0,0
+4793,32,what is the role of chc den helder b.v in the agreement,designated borrowers,1,0,0
+4794,32,what is the role of chc global operations inc. in the agreement,designated borrowers,1,0,0
+4795,32,what is the role of chc global operations international inc. in the agreement,designated borrowers,1,0,0
+4796,32,what is the role of chc group ltd in the agreement,parent guarantor,1,0,0
+4797,32,what is the role of chc group ltd. in the agreement,parent guarantor,1,0,0
+4798,32,what is the role of chc global operations inc in the agreement,designated borrowers,1,0,0
+4799,32,what is the role of chc helicopter holding s. r.l. in the agreement,holdco,1,0,0
+4800,32,what is the role of chc helicopter s.a. in the agreement,initial borrower,1,0,0
+4801,32,what is the role of chc holding nl b.v. in the agreement,designated borrowers,1,0,0
+4802,32,what is the role of chc helicopter s.a in the agreement,designated borrowers,1,0,0
+4803,32,what is the role of chc netherlands b.v. in the agreement,designated borrowers,1,0,0
+4804,32,what is the role of chc norway acquisition co as in the agreement,designated borrowers,1,0,0
+4805,32,what is the role of heli one europe as in the agreement,designated borrowers,1,0,0
+4806,32,what is the role of heli one norway as in the agreement,designated borrowers,1,0,0
+4807,32,what is the role of heli one canada inc in the agreement,designated borrowers,1,0,0
+4808,32,what is the role of heli one leasing inc. in the agreement,designated borrowers,1,0,0
+4809,32,what is the role of hsbc bank canada in the agreement,lenders,1,0,0
+4810,32,"what is the role of jpmorgan chase bank, n.a in the agreement",lenders,1,0,0
+4811,32,what is the role of royal bank of canada in the agreement,lenders,1,0,0
+4812,32,what is the role of the standard bank of south africa limited in the agreement,lenders,1,0,0
+4813,32,what is the role of ubs limited in the agreement,lenders,1,0,0
+4814,32,"what is the role of wells fargo bank, n.a in the agreement",lenders,1,0,0
+4815,32,what is the role of 6922767 holding s. r.l. in the agreement,the company,1,0,0
+4816,32,what is the role of chc den helder b.v. in the agreement,subsidiaries,1,0,0
+4817,32,what is the role of chc global operations inc in the agreement,subsidiaries,1,0,0
+4818,32,what is the role of chc helicopter s.a in the agreement,initial borrower,1,0,0
+4819,32,what company is the holdco in the agreement,chc helicopter holding s. r.l.,1,0,0
+4820,32,what company is the the company in the agreement,6922767 holding s. r.l.,1,0,0
+4821,32,what company is the issuing bank in the agreement,hsbc bank canada,1,0,0
+4822,32,what company is the issuing lender in the agreement,hsbc bank canada,1,0,0
+4823,32,what company is the lender in the agreement,royal bank of canada,1,0,0
