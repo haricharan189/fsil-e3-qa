@@ -7,4 +7,4 @@ data/html_docs/*
 logs/*
 
 # Ignore Python bytecode files in inference/__pycache__/
-inference/__pycache__/
+inference/__pycache__/json_data/*.json
