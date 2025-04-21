@@ -62,7 +62,7 @@ class BenchmarkEvaluator:
 
         return similarity
 
-    def evaluate_csv(self, csv_path, testing_rag: bool):
+    def evaluate_csv(self, csv_path, testing_regime: str):
         """Evaluate a single CSV file and save per-question metrics."""
         df = pd.read_csv(csv_path)
 
@@ -81,13 +81,13 @@ class BenchmarkEvaluator:
 
         # Save question-wise metrics
         doc_metrics_path = os.path.join(
-            self.metrics_dir, f"{config.QUESTION_FILE}_{self.sanitized_model_name}{'_RAG' if testing_rag else ''}_question_metrics.csv")
+            self.metrics_dir, f"{config.QUESTION_FILE}_{self.sanitized_model_name}_{testing_regime}_question_metrics.csv")
         df.to_csv(doc_metrics_path, index=False)
         logging.info(f"Saved question-wise metrics: {doc_metrics_path}")
 
         return df
 
-    def compute_document_statistics(self, all_dfs, testing_rag: bool):
+    def compute_document_statistics(self, all_dfs, testing_regime: str):
         """Compute per-document aggregated statistics and overall statistics."""
         document_stats = []
         all_f1_scores, all_edit_distances, all_cosine_similarities = [], [], []
@@ -108,7 +108,7 @@ class BenchmarkEvaluator:
         # Save per-document statistics
         doc_stats_df = pd.concat(document_stats, ignore_index=True)
         doc_stats_path = os.path.join(
-            self.metrics_dir, f"{config.QUESTION_FILE}_{self.sanitized_model_name}{'_RAG' if testing_rag else ''}_document_statistics.csv")
+            self.metrics_dir, f"{config.QUESTION_FILE}_{self.sanitized_model_name}_{testing_regime}_document_statistics.csv")
         doc_stats_df.to_csv(doc_stats_path, index=False)
         logging.info(
             f"Saved per-document aggregated metrics: {doc_stats_path}")
@@ -124,22 +124,22 @@ class BenchmarkEvaluator:
 
         overall_stats_df = pd.DataFrame([overall_stats])
         overall_stats_path = os.path.join(
-            self.metrics_dir, f"{config.QUESTION_FILE}_{self.sanitized_model_name}{'_RAG' if testing_rag else ''}_overall_statistics.csv")
+            self.metrics_dir, f"{config.QUESTION_FILE}_{self.sanitized_model_name}_{testing_regime}_overall_statistics.csv")
         overall_stats_df.to_csv(overall_stats_path, index=False)
         logging.info(f"Saved overall aggregated metrics: {overall_stats_path}")
 
-    def evaluate_all(self, testing_rag: bool):
+    def evaluate_all(self, testing_regime: str):
         """Evaluate all CSV files in results_dir and create per-document & overall statistics."""
         csv_files = glob.glob(os.path.join(self.results_dir,
-                                           f"{config.QUESTION_FILE}_{self.sanitized_model_name}{'_RAG' if testing_rag else ''}.csv"))
+                                           f"{config.QUESTION_FILE}_{self.sanitized_model_name}_{testing_regime}.csv"))
         all_dfs = []
 
         for csv_file in csv_files:
-            df = self.evaluate_csv(csv_file, testing_rag)
+            df = self.evaluate_csv(csv_file, testing_regime)
             if df is not None:
                 all_dfs.append(df)
 
         if all_dfs:
-            self.compute_document_statistics(all_dfs, testing_rag)
+            self.compute_document_statistics(all_dfs, testing_regime)
         else:
             logging.warning("No valid files found for evaluation.")

@@ -30,9 +30,13 @@ JSON_FILE = "docs_test.json"
 # LLM_PROVIDER = "TOGETHER"  # "GOOGLE" "TOGETHER"
 # MODEL_NAME = "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo"
 LLM_PROVIDER = "Custom"  # "GOOGLE" "TOGETHER"
-MODEL_NAME = "/storage/coda1/p-schava6/0/shared/models_Nikita/Qwen2-72B-Instruct"
+MODEL_NAME = "/storage/coda1/p-schava6/0/shared/models_Nikita/Llama-3.1-8B-Instruct"
 TEMPERATURE = 0.0
-TESTING_RAG = False
+# The regime in which the LLM is tested:
+# - "FULL" for benchmarking LLMs with entire documents
+# - "RAG" for benchmarking LLMs with RAG (retrieval-augmented generation)
+# - "GOLD" for benchmarking LLMs with pieces of documents containing the answer
+TESTING_REGIME = "FULL"
 RAG_TOP_K = 5
 RAG_CHUNK_SIZE = 100000
 

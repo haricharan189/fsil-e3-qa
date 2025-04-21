@@ -57,7 +57,51 @@ def chunk_text(doc_id: str, text: str, chunk_size: int):
         return [text]  # return as a single-element list
 
 
-def load_document_text(doc_id: str) -> list[str]:
+def get_gold_pieces(doc, padding=100):
+    raw_html = doc["data"]["html"]
+    annotations = doc["annotations"][0]["result"]
+
+    # Clean HTML to plain text
+    soup = BeautifulSoup(raw_html, 'html.parser')
+    plain_text = soup.get_text()
+
+    # Collect and sort spans
+    spans = []
+    for ann in annotations:
+        value = ann.get("value", {})
+        if "globalOffsets" not in value or "text" not in value:
+            continue
+
+        start = value["globalOffsets"]["start"]
+        end = value["globalOffsets"]["end"]
+        spans.append((max(0, start - padding),
+                     min(len(plain_text), end + padding)))
+
+    spans.sort()
+
+    # Merge overlapping/adjacent spans
+    merged = []
+    for span in spans:
+        if not merged:
+            merged.append(span)
+        else:
+            last_start, last_end = merged[-1]
+            curr_start, curr_end = span
+            if curr_start <= last_end:
+                merged[-1] = (last_start, max(last_end, curr_end))
+            else:
+                merged.append(span)
+
+    # Extract text for merged spans
+    merged_snippets = []
+    for start, end in merged:
+        snippet = plain_text[start:end]
+        merged_snippets.append(snippet)
+
+    return "\n\n".join(merged_snippets)
+
+
+def load_document_text(doc_id: str, testing_regime: str = 'FULL') -> list[str]:
     """
     Load HTML from the JSON file, clean it, or loading chunks from a vector store for testing RAG.
     If longer than config.MAX_CHAR_FOR_SYSTEM, chunk it; else return as single chunk.
@@ -74,14 +118,18 @@ def load_document_text(doc_id: str) -> list[str]:
             data = json.load(f)
             for entry in data:
                 if str(entry.get("id")) == str(doc_id):
-                    raw_html = entry.get("data", {}).get("html", "")
-                    cleaned = clean_html(raw_html)
-                    if not cleaned:
-                        logging.warning(
-                            f"Doc {doc_id} is empty after cleaning.")
-                        return []
+                    if testing_regime == 'FULL':
+                        raw_html = entry.get("data", {}).get("html", "")
+                        cleaned = clean_html(raw_html)
+                        if not cleaned:
+                            logging.warning(
+                                f"Doc {doc_id} is empty after cleaning.")
+                            return []
 
-                    return chunk_text(doc_id, cleaned, config.MAX_CHAR_FOR_SYSTEM)
+                        return chunk_text(doc_id, cleaned, config.MAX_CHAR_FOR_SYSTEM)
+
+                    # 'GOLD'
+                    return get_gold_pieces(entry)
             logging.warning(
                 f"Document {doc_id} not found in {json_path}. Returning empty list."
             )
@@ -93,18 +141,58 @@ def load_document_text(doc_id: str) -> list[str]:
 
 def load_vector_db_text(vector_store, doc_id: str, question: str):
     retriever: VectorStoreRetriever = vector_store.as_retriever(
-        search_kwargs={"k": config.RAG_TOP_K, "filter": {"doc_id": doc_id}}
+        search_kwargs={"k": config.RAG_TOP_K, "filter": {"docID": str(doc_id)}}
     )
     results = retriever.get_relevant_documents(question)
-    return "".join([doc.page_content for doc in results])
+    result = "".join([doc.page_content for doc in results])
+    return result
 
 
 def build_RAG_prompt(document_text: str, question: str) -> list[dict]:
     user_instructions = (
         "[SYSTEM INPUT]\n"
         "You are a financial expert, and your task is to answer "
-        "the question given to you based on the chinks of a credit agreement provided to you. "
+        "the question given to you based on the chunks of a credit agreement provided to you. "
         "If you believe the answer is not present among the chunks, say 'Not found'.\n\n"
+
+        # Better prompt
+        # "You are an expert in financial documents. Your task is to answer multiple questions in one batch, "
+        # "based solely on the provided credit agreement text.\n\n"
+
+        # "Answering Rules:\n"
+        # "1. If the answer is explicitly found in the document, extract it exactly as written.\n"
+        # "2. If the answer is not found in the document, respond with: 'Not found'.\n"
+        # "3. Do not provide any extra explanation, reasoning, or assumptions.\n"
+
+        "[EXPECTED OUTPUT]\n"
+        "Respond ONLY with the answer to your question, nothing else. See the example below.\n\n"
+
+        "The given document:\n"
+        "Apple Inc. is a technology company headquartered in Cupertino, California. "
+        "It was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in 1976.\n\n"
+
+        "The given question:\n"
+        "Where is the headquarters of Apple Inc.?\n\n"
+
+        "The expected output:\n"
+        "Cupertino, California\n\n"
+
+        "[USER INPUT]\n"
+        f"Merged chunks:\n{document_text}\n\n"
+
+        "[QUESTION]\n"
+        f"{question}\n"
+    )
+
+    return [{"role": "user", "content": user_instructions}]
+
+
+def build_GOLD_prompt(document_text: str, question: str) -> list[dict]:
+    user_instructions = (
+        "[SYSTEM INPUT]\n"
+        "You are a financial expert, and your task is to answer "
+        "the question given to you based on the pieces of a credit agreement which are guaranteed to contain the answer. "
+        "If you still believe the answer is not present among the chunks, say 'Not found'.\n\n"
 
         # Better prompt
         # "You are an expert in financial documents. Your task is to answer multiple questions in one batch, "
@@ -472,7 +560,7 @@ def main():
     )
     model_loader.load()
     llm = model_loader.get_model()
-    if config.TESTING_RAG:
+    if config.TESTING_REGIME == "RAG":
         embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
         vector_store = FAISS.load_local(
             config.VECTOR_DB_DIR, embeddings=embedding_model,
@@ -514,7 +602,7 @@ def main():
         sanitized_model_name = re.sub(
             r'[<>:"/\\|?*]', '-', sanitized_model_name)
 
-        output_csv = f"{config.QUESTION_FILE}_{sanitized_model_name}{'_RAG' if config.TESTING_RAG else ''}.csv"
+        output_csv = f"{config.QUESTION_FILE}_{sanitized_model_name}_{config.TESTING_REGIME}.csv"
         output_path = os.path.join(output_dir, output_csv)
         df.to_csv(output_path, index=False)
         logging.info(f"Saved LLM answers to {output_path}")
@@ -522,7 +610,7 @@ def main():
         # 5) Evaluate metrics
         evaluator = BenchmarkEvaluator(
             results_dir=config.OUTPUT_PATH, metrics_dir=config.METRICS_PATH)
-        evaluator.evaluate_all(config.TESTING_RAG)
+        evaluator.evaluate_all(config.TESTING_REGIME)
         logging.info(f"Saved metrics to {evaluator.metrics_dir}")
 
     try:
@@ -536,7 +624,7 @@ def main():
             overall_indices_list = list(group_indices)
 
             question_batch_length = 50
-            doc_chunks = load_document_text(str(doc_id))
+            doc_chunks = load_document_text(str(doc_id))  # str for "GOLD"
 
             # If doc text is empty, mark all as 'No doc text'
             if not doc_chunks:
@@ -557,14 +645,23 @@ def main():
                 logging.info(
                     f"Processing {num_questions} questions for doc_id={doc_id}...")
 
-                if config.TESTING_RAG:
+                if config.TESTING_REGIME == "RAG":
                     for i, row_idx in enumerate(q_indices_list, start=1):
                         question = df.at[row_idx, "question"]
                         merged_chunks = load_vector_db_text(
                             vector_store, doc_id, question)
                         messages = build_RAG_prompt(merged_chunks, question)
                         response = llm.invoke(
-                            messages, testing_rag=config.TESTING_RAG)
+                            messages, testing_regime=config.TESTING_REGIME)
+                        df.at[row_idx, "llm_response"] = response.content.strip()
+                    continue
+
+                if config.TESTING_REGIME == "GOLD":
+                    for i, row_idx in enumerate(q_indices_list, start=1):
+                        question = df.at[row_idx, "question"]
+                        messages = build_GOLD_prompt(doc_chunks, question)
+                        response = llm.invoke(
+                            messages, testing_regime=config.TESTING_REGIME)
                         df.at[row_idx, "llm_response"] = response.content.strip()
                     continue
 

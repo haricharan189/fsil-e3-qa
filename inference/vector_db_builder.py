@@ -25,7 +25,7 @@ def build_vector_store():
                   for i in range(0, len(text), config.RAG_CHUNK_SIZE)]
         for i, chunk in enumerate(chunks):
             docs.append(Document(page_content=chunk, metadata={
-                        "doc_id": doc_id, "chunk_id": i}))
+                        "docID": str(doc_id), "chunk_id": i}))
 
     embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
     db = FAISS.from_documents(docs, embedding=embeddings)
