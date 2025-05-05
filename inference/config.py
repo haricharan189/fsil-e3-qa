@@ -19,7 +19,7 @@ METRICS_PATH = "../data/metrics/"
 os.makedirs(METRICS_PATH, exist_ok=True)
 # it is preferred to have sorted question file in increasing order of doc id.
 # e.g., name of CSV (L1.csv) with columns (document_number, question, answer, etc.)
-QUESTION_FILE = "L1_test"
+QUESTION_FILE = "L1_proprietary"
 # JSON structure: [ { "id": "4", "data": { "html": "<html>...</html>" }}, ...]
 JSON_FILE = "docs_test.json"
 
@@ -29,16 +29,17 @@ JSON_FILE = "docs_test.json"
 # Examples: "OpenAI", "ANTHROPIC", "MISTRAL", "GOOGLE", "TOGETHER", "Custom"
 # LLM_PROVIDER = "TOGETHER"  # "GOOGLE" "TOGETHER"
 # MODEL_NAME = "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo"
-LLM_PROVIDER = "Custom"  # "GOOGLE" "TOGETHER"
-MODEL_NAME = "/storage/coda1/p-schava6/0/shared/models_Nikita/Llama-3.1-8B-Instruct"
+LLM_PROVIDER = "TOGETHER"  # "GOOGLE" "TOGETHER"
+MODEL_NAME = "Qwen/Qwen3-235B-A22B-fp8"
 TEMPERATURE = 0.0
 # The regime in which the LLM is tested:
 # - "FULL" for benchmarking LLMs with entire documents
 # - "RAG" for benchmarking LLMs with RAG (retrieval-augmented generation)
 # - "GOLD" for benchmarking LLMs with pieces of documents containing the answer
 TESTING_REGIME = "FULL"
-RAG_TOP_K = 5
-RAG_CHUNK_SIZE = 100000
+RAG_TOP_K = 50
+RAG_CHUNK_SIZE = 5000
+GOLD_PADDING = 1000
 
 # Maximum tokens to generate in the output
 max_tokens_generation = 4000
@@ -64,4 +65,4 @@ WAIT_TIME_DURATION = 5
 # Other
 # ------------------------------------------------------------------------------
 # Character limit to avoid context that is too large
-MAX_CHAR_FOR_SYSTEM = 500000
+MAX_CHAR_FOR_SYSTEM = 450000

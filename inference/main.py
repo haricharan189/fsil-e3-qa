@@ -57,48 +57,89 @@ def chunk_text(doc_id: str, text: str, chunk_size: int):
         return [text]  # return as a single-element list
 
 
-def get_gold_pieces(doc, padding=100):
+# def get_gold_pieces(doc, padding=10000):
+#     raw_html = doc["data"]["html"]
+#     annotations = doc["annotations"][0]["result"]
+
+#     # Clean HTML to plain text
+#     soup = BeautifulSoup(raw_html, 'html.parser')
+#     plain_text = soup.get_text()
+
+#     # Collect and sort spans
+#     spans = []
+#     for ann in annotations:
+#         value = ann.get("value", {})
+#         if "globalOffsets" not in value or "text" not in value:
+#             continue
+
+#         start = value["globalOffsets"]["start"]
+#         end = value["globalOffsets"]["end"]
+#         spans.append((max(0, start - padding),
+#                      min(len(plain_text), end + padding)))
+
+#     spans.sort()
+
+#     # Merge overlapping/adjacent spans
+#     merged = []
+#     for span in spans:
+#         if not merged:
+#             merged.append(span)
+#         else:
+#             last_start, last_end = merged[-1]
+#             curr_start, curr_end = span
+#             if curr_start <= last_end:
+#                 merged[-1] = (last_start, max(last_end, curr_end))
+#             else:
+#                 merged.append(span)
+
+#     # Extract text for merged spans
+#     merged_snippets = []
+#     for start, end in merged:
+#         snippet = plain_text[start:end]
+#         merged_snippets.append(snippet)
+
+#     return "\n\n".join(merged_snippets)
+
+
+def get_gold_pieces_alt(doc, padding=config.GOLD_PADDING):
     raw_html = doc["data"]["html"]
     annotations = doc["annotations"][0]["result"]
-
-    # Clean HTML to plain text
     soup = BeautifulSoup(raw_html, 'html.parser')
-    plain_text = soup.get_text()
+    clean_text = soup.get_text()
 
-    # Collect and sort spans
-    spans = []
+    raw_spans = []
+
     for ann in annotations:
         value = ann.get("value", {})
-        if "globalOffsets" not in value or "text" not in value:
+        if "text" not in value:
             continue
+        entity_text = value["text"].strip()
 
-        start = value["globalOffsets"]["start"]
-        end = value["globalOffsets"]["end"]
-        spans.append((max(0, start - padding),
-                     min(len(plain_text), end + padding)))
+        start_idx = 0
+        while True:
+            idx = clean_text.find(entity_text, start_idx)
+            if idx == -1:
+                break
+            span_start = max(0, idx - padding)
+            span_end = min(len(clean_text), idx +
+                           len(entity_text) + padding)
+            raw_spans.append((span_start, span_end))
+            start_idx = idx + len(entity_text)
 
-    spans.sort()
-
-    # Merge overlapping/adjacent spans
-    merged = []
-    for span in spans:
-        if not merged:
-            merged.append(span)
+    raw_spans.sort()
+    merged = [raw_spans[0]]
+    for start, end in raw_spans[1:]:
+        last_start, last_end = merged[-1]
+        if start <= last_end:
+            merged[-1] = (last_start, max(last_end, end))
         else:
-            last_start, last_end = merged[-1]
-            curr_start, curr_end = span
-            if curr_start <= last_end:
-                merged[-1] = (last_start, max(last_end, curr_end))
-            else:
-                merged.append(span)
+            merged.append((start, end))
 
-    # Extract text for merged spans
-    merged_snippets = []
+    merged_text = ""
     for start, end in merged:
-        snippet = plain_text[start:end]
-        merged_snippets.append(snippet)
+        merged_text += clean_text[start:end] + "\n\n"
 
-    return "\n\n".join(merged_snippets)
+    return merged_text
 
 
 def load_document_text(doc_id: str, testing_regime: str = 'FULL') -> list[str]:
@@ -129,7 +170,7 @@ def load_document_text(doc_id: str, testing_regime: str = 'FULL') -> list[str]:
                         return chunk_text(doc_id, cleaned, config.MAX_CHAR_FOR_SYSTEM)
 
                     # 'GOLD'
-                    return get_gold_pieces(entry)
+                    return get_gold_pieces_alt(entry)
             logging.warning(
                 f"Document {doc_id} not found in {json_path}. Returning empty list."
             )
@@ -497,6 +538,7 @@ def call_llm_with_retries(llm, messages: list[dict], extra_log_info: str = "") -
             raw_output = response.content.strip() if hasattr(
                 response, "content") else str(response).strip()
             print(raw_output)
+            time.sleep(10.0)
 
             if raw_output:
                 if config.WAIT_TIME_ENABLED:
@@ -507,6 +549,7 @@ def call_llm_with_retries(llm, messages: list[dict], extra_log_info: str = "") -
                     f"Got an empty response from LLM. Retrying in 1s...")
                 time.sleep(1.0)
         except Exception as e:
+            print(raw_output)
             logging.error(f"LLM call error on attempt {attempt+1}: {e}")
             time.sleep(1.0)
 
@@ -624,7 +667,8 @@ def main():
             overall_indices_list = list(group_indices)
 
             question_batch_length = 50
-            doc_chunks = load_document_text(str(doc_id))  # str for "GOLD"
+            doc_chunks = load_document_text(
+                str(doc_id), config.TESTING_REGIME)  # str for "GOLD"
 
             # If doc text is empty, mark all as 'No doc text'
             if not doc_chunks:
@@ -651,8 +695,11 @@ def main():
                         merged_chunks = load_vector_db_text(
                             vector_store, doc_id, question)
                         messages = build_RAG_prompt(merged_chunks, question)
-                        response = llm.invoke(
-                            messages, testing_regime=config.TESTING_REGIME)
+                        if config.LLM_PROVIDER == "Custom":
+                            response = llm.invoke(
+                                messages, testing_regime=config.TESTING_REGIME)
+                        else:
+                            response = llm.invoke(messages)
                         df.at[row_idx, "llm_response"] = response.content.strip()
                     continue
 
@@ -660,8 +707,11 @@ def main():
                     for i, row_idx in enumerate(q_indices_list, start=1):
                         question = df.at[row_idx, "question"]
                         messages = build_GOLD_prompt(doc_chunks, question)
-                        response = llm.invoke(
-                            messages, testing_regime=config.TESTING_REGIME)
+                        if config.LLM_PROVIDER == "Custom":
+                            response = llm.invoke(
+                                messages, testing_regime=config.TESTING_REGIME)
+                        else:
+                            response = llm.invoke(messages)
                         df.at[row_idx, "llm_response"] = response.content.strip()
                     continue
 
