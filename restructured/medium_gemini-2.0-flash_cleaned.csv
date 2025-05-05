@@ -1,0 +1,335 @@
+Unnamed: 0,document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension,llm_response,multiple_answers,sum_values
+228,60,who is both the senior vice president and treasurer of the company which is the holdings in the agreement,marc h. crown,3,1,0.0,Marc H. Crown,0,4
+981,60,"who is the senior vice president and treasurer of leidos holdings, inc.",marc h. crown,2,1,,Marc H. Crown,0,3
+982,60,who is the assistant vice president of the company where harry yergey is employed,caroline smith,3,0,,Caroline Smith,0,3
+983,60,who is the assistant vice president of the company where michael maguire is employed,caroline smith,3,0,,Not found,0,3
+984,60,who is the assistant vice president of the company where patrick hartweger is employed,caroline smith,3,0,,Not found,0,3
+991,60,"what role does bank of montreal have in the agreement which is not the role of mizuho bank, ltd.",bookrunners,2,1,,"Bank of Montreal is a Documentation Agent, Joint Lead Arranger and Joint Bookrunner.",0,3
+992,60,"what role does bofa securities, inc. have in the agreement which is not the role of mizuho bank, ltd.",bookrunners,2,1,,"BofA Securities, Inc. is a Joint Lead Arranger and Joint Bookrunner.",0,3
+993,60,"what role does citibank, n.a. have in the agreement which is not the role of mizuho bank, ltd.",bookrunners,2,1,,"Citibank, N.A. is an Administrative Agent, Joint Lead Arranger and Joint Bookrunner.",0,3
+994,60,"what role does jpmorgan chase bank, n.a. have in the agreement which is not the role of mizuho bank, ltd.",bookrunners,2,1,,"JPMorgan Chase Bank, N.A. is a Documentation Agent, Joint Lead Arranger and Joint Bookrunner.",0,3
+995,60,"what role does mufg bank, ltd. have in the agreement which is not the role of mizuho bank, ltd.",bookrunners,2,1,,"MUFG Bank, LTD. is a Syndication Agent, Joint Lead Arranger and Joint Bookrunner.",0,3
+996,60,"what role does u.s. bank national association have in the agreement which is not the role of mizuho bank, ltd.",bookrunners,2,1,,"U.S. Bank National Association is a Documentation Agent, Joint Lead Arranger and Joint Bookrunner.",0,3
+997,60,"what role does wells fargo securities llc have in the agreement which is not the role of mizuho bank, ltd.",bookrunners,2,1,,Wells Fargo Securities LLC is a Joint Lead Arranger and Joint Bookrunner.,0,3
+1149,66,"who is the director and svp of bank of america, n.a.",ronnie glenn,2,1,,Sebastian Lurie is the SVP and Ronnie Glenn is the Director,0,3
+1150,66,"who is the cfo and treasurer of icu medical, inc.",brian m. bonnell,2,1,,Brian M. Bonnell,0,3
+1151,66,"who is the cfo and treasurer of exc holding corp.tangent medical technologies, inc.excelsior medical corporationicu world, inc.",brian m. bonnell,2,1,,Brian M. Bonnell,0,3
+1161,66,who is the authorized signer of the company which is the revolver in the agreement,james riley,2,1,,Not found,0,3
+1167,66,"what role does bnp paribas securities corp. have in the agreement which is not the role of keybanc capital markets, inc.",agents,2,1,,Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility,0,3
+1168,66,"what role does bnp paribas securities corp. have in the agreement which is not the role of wells fargo securities, llc",agents,2,1,,Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility,0,3
+1169,66,"what role does bank of the west have in the agreement which is not the role of keybanc capital markets, inc.",agents,2,1,,Lender,0,3
+1170,66,"what role does bank of the west have in the agreement which is not the role of wells fargo securities, llc",agents,2,1,,Lender,0,3
+1171,66,"what role does barclays bank plc have in the agreement which is not the role of keybanc capital markets, inc.",agents,2,1,,"Issuing Lender, Lender",0,3
+1172,66,"what role does barclays bank plc have in the agreement which is not the role of wells fargo securities, llc",agents,2,1,,"Issuing Lender, Lender",0,3
+1173,66,"what role does bofa securities, inc. have in the agreement which is not the role of keybanc capital markets, inc.",agents,2,1,,Not found,0,3
+1174,66,"what role does bofa securities, inc. have in the agreement which is not the role of wells fargo securities, llc",agents,2,1,,Not found,0,3
+1175,66,"what role does citigroup global markets inc. have in the agreement which is not the role of keybanc capital markets, inc.",agents,2,1,,Not found,0,3
+1176,66,"what role does citigroup global markets inc. have in the agreement which is not the role of wells fargo securities, llc",agents,2,1,,Not found,0,3
+1177,66,"what role does u.s. bank national association have in the agreement which is not the role of wells fargo securities, llc",agents,2,1,,Lender,0,3
+1178,66,"what role does citibank n.a. have in the agreement which is not the role of mufg bank, ltd.",revolver,2,1,,Citibank N.A. is a Revolver and Term Loan A Lender,0,3
+1179,66,"what role does citibank n.a. have in the agreement which is not the role of wells fargo bank, national association",revolver,2,1,,Citibank N.A. is a Revolver and Term Loan A Lender,0,3
+1213,9,who is the chief financial officer and senior vice president of middletown cogeneration company llc,mark e. newman,2,1,,Not found,0,3
+1214,9,who is the chief financial officer and treasurer of middletown cogeneration company llc,mark e. newman,2,1,,Mark E. Newman,0,3
+1215,9,who is the senior vice president and treasurer of middletown cogeneration company llc,mark e. newman,2,1,,Not found,0,3
+1217,9,"who is the chief financial officer and treasurer of suncoke energy partners, l.p.",mark e. newman,2,1,,Mark E. Newman,0,3
+1219,9,"who is the treasurer of the company associated with 1011 warrenville road suite 600 lisle, il 60532",mark e. newman,3,0,,Denise R. Cade,0,3
+1220,9,"who is the chief financial officer of the company associated with 1011 warrenville road suite 600 lisle, il 60532",mark e. newman,3,0,,Mark E. Newman,0,3
+1221,9,"who is the treasurer of the company associated with 500 stanton christiana road, ops 2, floor 3 newark, delaware 19713 2107",mark e. newman,3,0,,Not found,0,3
+1222,9,"who is the chief financial officer of the company associated with 500 stanton christiana road, ops 2, floor 3 newark, delaware 19713 2107",mark e. newman,3,0,,Not found,0,3
+1223,9,who is the executive director of the company where ido yehuda is employed,peter predun,3,0,,"JPMORGAN CHASE BANK, N.A.",0,3
+1224,9,who is the chief financial officer of the company where eric searls is employed,mark e. newman,3,0,,Not found,0,3
+1225,9,who is the treasurer of the company where eric searls is employed,mark e. newman,3,0,,Not found,0,3
+1226,9,who is the chief financial officer of the company where denise r. cade is employed,mark e. newman,3,0,,Not found,0,3
+1227,9,who is the treasurer of the company where denise r. cade is employed,mark e. newman,3,0,,Not found,0,3
+1228,9,who is the chief financial officer of the company where jonathan m. phillips is employed,mark e. newman,3,0,,Not found,0,3
+1229,9,who is the treasurer of the company where jonathan m. phillips is employed,mark e. newman,3,0,,Not found,0,3
+1239,9,what role does barclays bank plc have in the agreement which is not the role of barclays bank plc,arrangers,2,1,,"Syndication Agent, Joint Lead Arranger, Joint Bookrunner, Lender",0,3
+1240,9,"what role does barclays bank plc have in the agreement which is not the role of jpmorgan chase bank, n.a.",arrangers,2,1,,"Syndication Agent, Joint Lead Arranger, Joint Bookrunner, Lender",0,3
+1252,65,who is the chief executive officer of the company which is the borrower in the agreement,mario c. kontomerkos,2,1,,Mario C. Kontomerkos,0,3
+1561,47,"who is the chief financial officer and treasurer of the company associated with 1040 spring streetsilver spring, maryland 20910",james edgemond,3,0,,James Edgemond,0,3
+1562,47,"who is the chief financial officer and treasurer of the company associated with 1735 connecticut avenue, n.w.washington, district of columbia 20009",james edgemond,3,0,,Not found,0,3
+1563,47,"who is the managing director of the company associated with 301 south college street, 14th floorcharlotte, nc 28202",kirk tesch,3,0,,Kirk Tesch,0,3
+1564,47,"who is the managing director of the company associated with mac d1109 0191525 west w.t. harris blvd.charlotte, nc 28262",kirk tesch,3,0,,Kirk Tesch,0,3
+1569,47,who is the chief financial officer and treasurer of the company which is the borrower in the agreement,james edgemond,2,1,,James Edgemond,0,3
+1570,47,"who is the managing director of the company which is the administrative agent, in the agreement",kirk tesch,2,1,,Kirk Tesch,0,3
+1572,47,"what role does merrill lynch, pierce, fenner smith incorporated, have in the agreement which is not the role of the bank of tokyo mitsubishi ufj, ltd.",lead arrangers,2,1,,Joint Lead Arrangers and Joint Bookrunners,0,3
+1573,47,"what role does merrill lynch, pierce, fenner smith incorporated, have in the agreement which is not the role of deutsche bank ag new york branch",bookrunners,2,1,,Joint Lead Arrangers and Joint Bookrunners,0,3
+1574,47,"what role does pnc capital markets llc, have in the agreement which is not the role of the bank of tokyo mitsubishi ufj, ltd.",lead arrangers,2,1,,Joint Lead Arrangers and Joint Bookrunners,0,3
+1575,47,"what role does pnc capital markets llc, have in the agreement which is not the role of deutsche bank ag new york branch",bookrunners,2,1,,Joint Lead Arrangers and Joint Bookrunners,0,3
+1576,47,"what role does wells fargo securities, llc, have in the agreement which is not the role of the bank of tokyo mitsubishi ufj, ltd.",lead arrangers,2,1,,Joint Lead Arrangers and Joint Bookrunners,0,3
+1577,47,"what role does wells fargo securities, llc, have in the agreement which is not the role of deutsche bank ag new york branch",bookrunners,2,1,,Joint Lead Arrangers and Joint Bookrunners,0,3
+1578,47,"what role does pnc bank, national association have in the agreement which is not the role of wells fargo bank, national association",co syndication agents,2,1,,co-Syndication Agents and Lender,0,3
+1579,47,"what role does the bank of tokyo mitsubishi ufj, ltd. have in the agreement which is not the role of bank of america, n.a.",bookrunners,2,1,,co-Syndication Agents and Lender,0,3
+1580,47,"what role does the bank of tokyo mitsubishi ufj, ltd. have in the agreement which is not the role of deutsche bank ag new york branch",bookrunners,2,1,,co-Syndication Agents and Lender,0,3
+1581,47,"what role does bank of america, n.a. have in the agreement which is not the role of wells fargo bank, national association",co syndication agents,2,1,,Lender,0,3
+1582,47,"what role does wells fargo bank, national association have in the agreement which is not the role of deutsche bank ag new york branch",administrative agent,2,1,,Administrative Agent and Swingline Lender,0,3
+1756,51,"who is the treasurer and vice president, finance of calpine corporation",zamir rauf,2,1,,Zamir Rauf,0,3
+1757,51,"who is the vice president of the company associated with 1585 broadway new york, ny 10036",cody gunsch,3,0,,Cody Gunsch,0,3
+1758,51,"who is the vice president, finance of the company associated with 717 texas avenue suite 1000 houston, tx 77002",zamir rauf,3,0,,Not found,0,3
+1759,51,"who is the treasurer of the company associated with 717 texas avenue suite 1000 houston, tx 77002",zamir rauf,3,0,,Not found,0,3
+1760,51,"who is the vp of the company associated with global trust services 350 california st., 11th floor san francisco, ca 94014",sonia flores,3,0,,Sonia Flores,0,3
+1767,51,who is the vice president of the company which is the lender in the agreement,cody gunsch,2,1,,Not found,0,3
+1780,45,"who is the chief financial officer of the company associated with 150 third avenue southnashville, tennessee 37201",harold r. carpenter,3,0,,Harold R. Carpenter,0,3
+1781,45,"who is the client services representative of the company associated with 5065 wooster road, cn oh l2cbcincinnati, ohio 45226 2326",cynthia m. olson,3,0,,Cynthia M. Olson,0,3
+1782,45,"who is the portfolio manager of the company associated with 5065 wooster road, cn oh l2cbcincinnati, ohio 45226 2326",eric niedbalski,3,0,,Not found,0,3
+1783,45,"who is the senior vice president of the company associated with 5065 wooster road, cn oh l2cbcincinnati, ohio 45226 2326",mark r. cousineau,3,0,,Not found,0,3
+1784,45,"who is the client services representative of the company associated with one u.s. bank plazast. louis, missouri 63101",cynthia m. olson,3,0,,Not found,0,3
+1785,45,"who is the portfolio manager of the company associated with one u.s. bank plazast. louis, missouri 63101",eric niedbalski,3,0,,Eric Niedbalski,0,3
+1786,45,"who is the senior vice president of the company associated with one u.s. bank plazast. louis, missouri 63101",mark r. cousineau,3,0,,Mark R. Cousineau,0,3
+1787,45,who is the client services representative of the company where mark r. cousineau is employed,cynthia m. olson,3,0,,Not found,0,3
+1788,45,who is the portfolio manager of the company where mark r. cousineau is employed,eric niedbalski,3,0,,Not found,0,3
+1789,45,who is the client services representative of the company where eric niedbalski is employed,cynthia m. olson,3,0,,Cynthia M. Olson,0,3
+1790,45,who is the senior vice president of the company where eric niedbalski is employed,mark r. cousineau,3,0,,Not found,0,3
+1791,45,"who is the portfolio manager of the company where cynthia m. olson, is employed",eric niedbalski,3,0,,Not found,0,3
+1792,45,"who is the senior vice president of the company where cynthia m. olson, is employed",mark r. cousineau,3,0,,Not found,0,3
+1793,45,who is the chief financial officer of the company which is the borrower in the agreement,harold r. carpenter,2,1,,Harold R. Carpenter,0,3
+2532,60,"what roles do both bank of montreal and bofa securities, inc. have in the agreement","arranger, bookrunner, book manager",1,1,,Both are Joint Lead Arrangers and Joint Bookrunners,1,3
+2533,60,"what roles do both bank of montreal and citibank, n.a. have in the agreement","arranger, bookrunner, book manager",1,1,,"Bank of Montreal is a Documentation Agent, Joint Lead Arranger and Joint Bookrunner, while Citibank, N.A. is an Administrative Agent, Joint Lead Arranger and Joint Bookrunner.",1,3
+2536,60,"what roles do both bank of montreal and jpmorgan chase bank, n.a. have in the agreement","arranger, bookrunner, book manager",1,1,,"Both are Documentation Agents, Joint Lead Arrangers and Joint Bookrunners",1,3
+2537,60,"what roles do both bank of montreal and mufg bank, ltd. have in the agreement","arranger, bookrunner, book manager",1,1,,"Bank of Montreal is a Documentation Agent, Joint Lead Arranger and Joint Bookrunner, while MUFG Bank, LTD. is a Syndication Agent, Joint Lead Arranger and Joint Bookrunner.",1,3
+2539,60,what roles do both bank of montreal and pnc capital markets llc have in the agreement,"bookrunner, book manager, lead arranger",1,1,,"Bank of Montreal is a Documentation Agent, Joint Lead Arranger and Joint Bookrunner, while PNC Capital Markets LLC is a Joint Lead Arranger and Joint Bookrunner.",1,3
+2541,60,what roles do both bank of montreal and u.s. bank national association have in the agreement,"agent, arranger, bookrunner, book manager",1,1,,"Both are Documentation Agents, Joint Lead Arrangers and Joint Bookrunners",1,3
+2543,60,what roles do both bank of montreal and wells fargo securities llc have in the agreement,"arranger, bookrunner, book manager",1,1,,"Bank of Montreal is a Documentation Agent, Joint Lead Arranger and Joint Bookrunner, while Wells Fargo Securities LLC is a Joint Lead Arranger and Joint Bookrunner.",1,3
+2546,60,"what roles do both bank of montreal and mizuho bank, ltd. have in the agreement","agent, arranger, bookrunner",1,1,,"Both are Documentation Agents, Joint Lead Arrangers and Joint Bookrunners",1,3
+2547,60,what roles do both bank of montreal and the bank of nova scotia have in the agreement,"agent, arranger, bookrunner, book manager",1,1,,"Both are Documentation Agents, Joint Lead Arrangers and Joint Bookrunners",1,3
+2548,60,"what roles do both bank of montreal and capital one, national association have in the agreement","agent, arranger, bookrunner, book manager",1,1,,"Both are Documentation Agents, Joint Lead Arrangers and Joint Bookrunners",1,3
+2549,60,"what roles do both bofa securities, inc. and citibank, n.a. have in the agreement","arranger, bookrunner, book manager",1,1,,"BofA Securities, Inc. is a Joint Lead Arranger and Joint Bookrunner, while Citibank, N.A. is an Administrative Agent, Joint Lead Arranger and Joint Bookrunner.",1,3
+2550,60,"what roles do both bofa securities, inc. and mufg bank, ltd. have in the agreement","arranger, bookrunner, book manager",1,1,,"BofA Securities, Inc. is a Joint Lead Arranger and Joint Bookrunner, while MUFG Bank, LTD. is a Syndication Agent, Joint Lead Arranger and Joint Bookrunner.",1,3
+2551,60,"what roles do both bofa securities, inc. and pnc capital markets llc have in the agreement","bookrunner, book manager, lead arranger",1,1,,Both are Joint Lead Arrangers and Joint Bookrunners,1,3
+2552,60,"what roles do both bofa securities, inc. and u.s. bank national association have in the agreement","arranger, bookrunner, book manager",1,1,,"BofA Securities, Inc. and U.S. Bank National Association are Joint Lead Arrangers and Joint Bookrunners.",1,3
+2553,60,"what roles do both bofa securities, inc. and wells fargo securities llc have in the agreement","arranger, bookrunner, book manager",1,1,,"BofA Securities, Inc. and Wells Fargo Securities LLC are Joint Lead Arrangers and Joint Bookrunners.",1,3
+2554,60,"what roles do both bofa securities, inc. and mizuho bank, ltd. have in the agreement","arranger, bookrunner",1,1,,"BofA Securities, Inc. and Mizuho Bank, Ltd. are Joint Lead Arrangers and Joint Bookrunners.",1,3
+2555,60,"what roles do both bofa securities, inc. and the bank of nova scotia have in the agreement","arranger, bookrunner, book manager",1,1,,"BofA Securities, Inc. and The Bank of Nova Scotia are Joint Lead Arrangers and Joint Bookrunners.",1,3
+2556,60,"what roles do both bofa securities, inc. and capital one, national association have in the agreement","arranger, bookrunner, book manager",1,1,,"BofA Securities, Inc. and Capital One, National Association are Joint Lead Arrangers and Joint Bookrunners.",1,3
+2557,60,"what roles do both citibank, n.a. and jpmorgan chase bank, n.a. have in the agreement","arranger, bookrunner, book manager",1,1,,"Citibank, N.A. is the Administrative Agent, and JPMorgan Chase Bank, N.A. is a Joint Lead Arranger and Joint Bookrunner and a Documentation Agent.",1,3
+2558,60,"what roles do both citibank, n.a. and mufg bank, ltd. have in the agreement","arranger, bookrunner, book manager",1,1,,"Citibank, N.A. is the Administrative Agent, and MUFG Bank, LTD. is the Syndication Agent and a Joint Lead Arranger and Joint Bookrunner.",1,3
+2559,60,"what roles do both citibank, n.a. and pnc capital markets llc have in the agreement","bookrunner, book manager, lead arranger",1,1,,"Citibank, N.A. is the Administrative Agent, and PNC Capital Markets LLC is a Joint Lead Arranger and Joint Bookrunner.",1,3
+2560,60,"what roles do both citibank, n.a. and u.s. bank national association have in the agreement","arranger, bookrunner, book manager",1,1,,"Citibank, N.A. is the Administrative Agent, and U.S. Bank National Association is a Joint Lead Arranger and Joint Bookrunner and a Documentation Agent.",1,3
+2561,60,"what roles do both citibank, n.a. and wells fargo securities llc have in the agreement","arranger, bookrunner, book manager",1,1,,"Citibank, N.A. is the Administrative Agent, and Wells Fargo Securities LLC is a Joint Lead Arranger and Joint Bookrunner.",1,3
+2562,60,"what roles do both citibank, n.a. and mizuho bank, ltd. have in the agreement","arranger, bookrunner",1,1,,"Citibank, N.A. is the Administrative Agent, and Mizuho Bank, Ltd. is a Joint Lead Arranger and Joint Bookrunner and a Documentation Agent.",1,3
+2563,60,"what roles do both citibank, n.a. and the bank of nova scotia have in the agreement","arranger, bookrunner, book manager",1,1,,"Citibank, N.A. is the Administrative Agent, and The Bank of Nova Scotia is a Joint Lead Arranger and Joint Bookrunner and a Documentation Agent.",1,3
+2564,60,"what roles do both citibank, n.a. and capital one, national association have in the agreement","arranger, bookrunner, book manager",1,1,,"Citibank, N.A. is the Administrative Agent, and Capital One, National Association is a Joint Lead Arranger and Joint Bookrunner and a Documentation Agent.",1,3
+2584,60,"what roles do both jpmorgan chase bank, n.a. and mufg bank, ltd. have in the agreement","arranger, bookrunner, book manager",1,1,,"JPMorgan Chase Bank, N.A. is a Joint Lead Arranger and Joint Bookrunner and a Documentation Agent, and MUFG Bank, LTD. is the Syndication Agent and a Joint Lead Arranger and Joint Bookrunner.",1,3
+2585,60,"what roles do both jpmorgan chase bank, n.a. and pnc capital markets llc have in the agreement","bookrunner, book manager, lead arranger",1,1,,"JPMorgan Chase Bank, N.A. is a Joint Lead Arranger and Joint Bookrunner and a Documentation Agent, and PNC Capital Markets LLC is a Joint Lead Arranger and Joint Bookrunner.",1,3
+2586,60,"what roles do both jpmorgan chase bank, n.a. and u.s. bank national association have in the agreement","arranger, bookrunner, book manager",1,1,,"JPMorgan Chase Bank, N.A. and U.S. Bank National Association are Joint Lead Arrangers and Joint Bookrunners and Documentation Agents.",1,3
+2587,60,"what roles do both jpmorgan chase bank, n.a. and wells fargo securities llc have in the agreement","arranger, bookrunner, book manager",1,1,,"JPMorgan Chase Bank, N.A. is a Joint Lead Arranger and Joint Bookrunner and a Documentation Agent, and Wells Fargo Securities LLC is a Joint Lead Arranger and Joint Bookrunner.",1,3
+2588,60,"what roles do both jpmorgan chase bank, n.a. and mizuho bank, ltd. have in the agreement","arranger, bookrunner",1,1,,"JPMorgan Chase Bank, N.A. and Mizuho Bank, Ltd. are Joint Lead Arrangers and Joint Bookrunners and Documentation Agents.",1,3
+2589,60,"what roles do both jpmorgan chase bank, n.a. and the bank of nova scotia have in the agreement","arranger, bookrunner, book manager",1,1,,"JPMorgan Chase Bank, N.A. and The Bank of Nova Scotia are Joint Lead Arrangers and Joint Bookrunners and Documentation Agents.",1,3
+2590,60,"what roles do both jpmorgan chase bank, n.a. and capital one, national association have in the agreement","arranger, bookrunner, book manager",1,1,,"JPMorgan Chase Bank, N.A. and Capital One, National Association are Joint Lead Arrangers and Joint Bookrunners and Documentation Agents.",1,3
+2591,60,"what roles do both mufg bank, ltd. and pnc capital markets llc have in the agreement","bookrunner, book manager, lead arranger",1,1,,"MUFG Bank, LTD. is the Syndication Agent and a Joint Lead Arranger and Joint Bookrunner, and PNC Capital Markets LLC is a Joint Lead Arranger and Joint Bookrunner.",1,3
+2592,60,"what roles do both mufg bank, ltd. and u.s. bank national association have in the agreement","arranger, bookrunner, book manager",1,1,,"MUFG Bank, LTD. is the Syndication Agent and a Joint Lead Arranger and Joint Bookrunner, and U.S. Bank National Association is a Joint Lead Arranger and Joint Bookrunner and a Documentation Agent.",1,3
+2593,60,"what roles do both mufg bank, ltd. and wells fargo securities llc have in the agreement","arranger, bookrunner, book manager",1,1,,"MUFG Bank, LTD. is the Syndication Agent and a Joint Lead Arranger and Joint Bookrunner, and Wells Fargo Securities LLC is a Joint Lead Arranger and Joint Bookrunner.",1,3
+2594,60,"what roles do both mufg bank, ltd. and mizuho bank, ltd. have in the agreement","arranger, bookrunner",1,1,,"MUFG Bank, LTD. and Mizuho Bank, Ltd. are the Syndication Agent and a Joint Lead Arranger and Joint Bookrunner and Documentation Agents.",1,3
+2595,60,"what roles do both mufg bank, ltd. and the bank of nova scotia have in the agreement","arranger, bookrunner, book manager",1,1,,"MUFG Bank, LTD. is the Syndication Agent and a Joint Lead Arranger and Joint Bookrunner, and The Bank of Nova Scotia is a Joint Lead Arranger and Joint Bookrunner and a Documentation Agent.",1,3
+2596,60,"what roles do both mufg bank, ltd. and capital one, national association have in the agreement","arranger, bookrunner, book manager",1,1,,"MUFG Bank, LTD. is the Syndication Agent and a Joint Lead Arranger and Joint Bookrunner, and Capital One, National Association is a Joint Lead Arranger and Joint Bookrunner and a Documentation Agent.",1,3
+2605,60,what roles do both pnc capital markets llc and u.s. bank national association have in the agreement,"bookrunner, book manager, lead arranger",1,1,,"PNC Capital Markets LLC: Joint Lead Arranger and Joint Bookrunner; U.S. Bank National Association: Joint Lead Arranger and Joint Bookrunner, Documentation Agent",1,3
+2606,60,what roles do both pnc capital markets llc and wells fargo securities llc have in the agreement,"bookrunner, book manager, lead arranger",1,1,,PNC Capital Markets LLC: Joint Lead Arranger and Joint Bookrunner; Wells Fargo Securities LLC: Joint Lead Arranger and Joint Bookrunner,1,3
+2607,60,what roles do both pnc capital markets llc and the bank of nova scotia have in the agreement,"bookrunner, book manager, lead arranger",1,1,,"PNC Capital Markets LLC: Joint Lead Arranger and Joint Bookrunner; The Bank of Nova Scotia: Joint Lead Arranger and Joint Bookrunner, Documentation Agent",1,3
+2608,60,"what roles do both pnc capital markets llc and capital one, national association have in the agreement","bookrunner, book manager, lead arranger",1,1,,"PNC Capital Markets LLC: Joint Lead Arranger and Joint Bookrunner; Capital One, National Association: Joint Lead Arranger and Joint Bookrunner, Documentation Agent",1,3
+2617,60,what roles do both u.s. bank national association and wells fargo securities llc have in the agreement,"arranger, bookrunner, book manager",1,1,,"U.S. Bank National Association: Joint Lead Arranger and Joint Bookrunner, Documentation Agent; Wells Fargo Securities LLC: Joint Lead Arranger and Joint Bookrunner",1,3
+2620,60,"what roles do both u.s. bank national association and mizuho bank, ltd. have in the agreement","agent, arranger, bookrunner",1,1,,"U.S. Bank National Association: Joint Lead Arranger and Joint Bookrunner, Documentation Agent; Mizuho Bank, Ltd.: Joint Lead Arranger and Joint Bookrunner, Documentation Agent",1,3
+2621,60,what roles do both u.s. bank national association and the bank of nova scotia have in the agreement,"agent, arranger, bookrunner, book manager",1,1,,"U.S. Bank National Association: Joint Lead Arranger and Joint Bookrunner, Documentation Agent; The Bank of Nova Scotia: Joint Lead Arranger and Joint Bookrunner, Documentation Agent",1,3
+2622,60,"what roles do both u.s. bank national association and capital one, national association have in the agreement","agent, arranger, bookrunner, book manager",1,1,,"U.S. Bank National Association: Joint Lead Arranger and Joint Bookrunner, Documentation Agent; Capital One, National Association: Joint Lead Arranger and Joint Bookrunner, Documentation Agent",1,3
+2628,60,"what roles do both wells fargo securities llc and mizuho bank, ltd. have in the agreement","arranger, bookrunner",1,1,,"Wells Fargo Securities LLC: Joint Lead Arranger and Joint Bookrunner; Mizuho Bank, Ltd.: Joint Lead Arranger and Joint Bookrunner, Documentation Agent",1,3
+2629,60,what roles do both wells fargo securities llc and the bank of nova scotia have in the agreement,"arranger, bookrunner, book manager",1,1,,"Wells Fargo Securities LLC: Joint Lead Arranger and Joint Bookrunner; The Bank of Nova Scotia: Joint Lead Arranger and Joint Bookrunner, Documentation Agent",1,3
+2630,60,"what roles do both wells fargo securities llc and capital one, national association have in the agreement","arranger, bookrunner, book manager",1,1,,"Wells Fargo Securities LLC: Joint Lead Arranger and Joint Bookrunner; Capital One, National Association: Joint Lead Arranger and Joint Bookrunner, Documentation Agent",1,3
+2638,60,"what roles do both mizuho bank, ltd. and the bank of nova scotia have in the agreement","agent, arranger, bookrunner",1,1,,"Mizuho Bank, Ltd.: Joint Lead Arranger and Joint Bookrunner, Documentation Agent; The Bank of Nova Scotia: Joint Lead Arranger and Joint Bookrunner, Documentation Agent",1,3
+2639,60,"what roles do both mizuho bank, ltd. and capital one, national association have in the agreement","agent, arranger, bookrunner",1,1,,"Mizuho Bank, Ltd.: Joint Lead Arranger and Joint Bookrunner, Documentation Agent; Capital One, National Association: Joint Lead Arranger and Joint Bookrunner, Documentation Agent",1,3
+2640,60,"what roles do both the bank of nova scotia and capital one, national association have in the agreement","agent, arranger, bookrunner, book manager",1,1,,"The Bank of Nova Scotia: Joint Lead Arranger and Joint Bookrunner, Documentation Agent; Capital One, National Association: Joint Lead Arranger and Joint Bookrunner, Documentation Agent",1,3
+2649,60,"who are the authorized signatorys of mizuho bank, ltd.","tracy rahn, ryan durkin",2,0,,Tracy Rahn,1,3
+2650,60,who are the directors of the bank of nova scotia,"jason rinne, greg strauss, oscar cortez",2,0,,Jason Rinne,1,3
+2651,60,who are the managing directors of bank of the west,"harry yergey, michael maguire, patrick hartweger",2,0,,Harry Yergey,1,3
+2652,60,"who are the senior vice presidents of capital one, national association","joshua dearmon, eric h. williams, bernadette collins, michael s. barnett",2,0,,Joshua Dearmon,1,3
+2653,60,"who are the vice presidents of city national bank, a national banking association","laura dodd, lukas coleman, susan m. olsen, thor o connell",2,0,,"Laura Dodd, Caroline Smith",1,3
+2654,60,what are the roles in the agreement of the company where anthony galea is employed,"agents, managing agent, documentation agent",2,0,,"JPMorgan Chase Bank, N.A., as Joint Lead Arrangers and Joint Bookrunners, Documentation Agents, Lender",1,3
+2655,60,what are the roles in the agreement of the company where stephanie herndon is employed,"agents, managing agent, documentation agent",2,0,,"Regions Bank, as Senior Managing Agents, Lender",1,3
+2656,60,what are the roles in the agreement of the company where ryan durkin is employed,"agents, arrangers, lead arranger, managing agent, lead bookrunner, documentation agent",2,0,,"Goldman Sachs Bank USA, as Senior Managing Agents, Lender",1,3
+2657,60,what are the roles in the agreement of the company where tracy rahn is employed,"agents, arrangers, lead arranger, managing agent, lead bookrunner, documentation agent",2,0,,"Mizuho Bank, Ltd., as Joint Lead Arrangers and Joint Bookrunners, Documentation Agents, Lender",1,3
+2658,60,what are the roles in the agreement of the company where jason rinne is employed,"agents, arrangers, bookrunner, book manager, lead arranger, managing agent, documentation agent",2,0,,"The Bank of Nova Scotia, as Joint Lead Arrangers and Joint Bookrunners, Documentation Agents, Lender",1,3
+2659,60,what are the roles in the agreement of the company where oscar cortez is employed,"agents, arrangers, bookrunner, book manager, lead arranger, managing agent, documentation agent",2,0,,"MUFG BANK, LTD., as Syndication Agent, Joint Lead Arrangers and Joint Bookrunners, Lender",1,3
+2660,60,what are the roles in the agreement of the company where greg strauss is employed,"agents, arrangers, bookrunner, book manager, lead arranger, managing agent, documentation agent",2,0,,"Wells Fargo Bank, National Association, as Lender",1,3
+2661,60,what are the roles in the agreement of the company where joshua dearmon is employed,"agents, arrangers, bookrunner, book manager, lead arranger, managing agent, documentation agent",2,0,,"Capital One, National Association, as Joint Lead Arrangers and Joint Bookrunners, Documentation Agents, Lender",1,3
+2662,60,what are the roles in the agreement of the company where bernadette collins is employed,"agents, arrangers, bookrunner, book manager, lead arranger, managing agent, documentation agent",2,0,,"TD Bank, N.A., as Senior Managing Agents, Lender",1,3
+2663,60,what are the roles in the agreement of the company where michael s. barnett is employed,"agents, arrangers, bookrunner, book manager, lead arranger, managing agent, documentation agent",2,0,,"Fifth Third Bank, National Association, as Senior Managing Agents, Lender",1,3
+2664,60,what are the roles in the agreement of the company where eric h. williams is employed,"agents, arrangers, bookrunner, book manager, lead arranger, managing agent, documentation agent",2,0,,"PNC BANK, NATIONAL ASSOCIATION, Lender",1,3
+2809,66,what roles do both bnp paribas securities corp. and bank of the west have in the agreement,"agents, arranger, bookrunner, book manager",1,1,,Not found,1,3
+2810,66,what roles do both bnp paribas securities corp. and barclays bank plc have in the agreement,"agents, arranger, bookrunner, book manager",1,1,,Not found,1,3
+2811,66,"what roles do both bnp paribas securities corp. and bofa securities, inc. have in the agreement","agents, arranger, bookrunner, book manager",1,1,,Not found,1,3
+2812,66,what roles do both bnp paribas securities corp. and citigroup global markets inc. have in the agreement,"agents, arranger, bookrunner, book manager",1,1,,Not found,1,3
+2813,66,"what roles do both bnp paribas securities corp. and keybanc capital markets, inc. have in the agreement","arranger, bookrunner, book manager",1,1,,Not found,1,3
+2814,66,what roles do both bnp paribas securities corp. and u.s. bank national association have in the agreement,"agents, arranger, bookrunner, book manager",1,1,,Not found,1,3
+2815,66,"what roles do both bnp paribas securities corp. and wells fargo securities, llc have in the agreement","arranger, bookrunner, book manager",1,1,,Not found,1,3
+2816,66,"what roles do both bnp paribas securities corp. and mufg bank, ltd. have in the agreement","agents, arranger, bookrunner, book manager",1,1,,Not found,1,3
+2817,66,what roles do both bank of the west and barclays bank plc have in the agreement,"agents, arranger, bookrunner, book manager",1,1,,"Barclays Bank PLC is Issuing Lender and Lender, Bank of the West is Lender",1,3
+2818,66,"what roles do both bank of the west and bofa securities, inc. have in the agreement","agents, arranger, bookrunner, book manager",1,1,,"Bank of the West is Lender, Bank of America, N.A. is a Lender",1,3
+2819,66,what roles do both bank of the west and citigroup global markets inc. have in the agreement,"agents, arranger, bookrunner, book manager",1,1,,Bank of the West is Lender,1,3
+2820,66,"what roles do both bank of the west and keybanc capital markets, inc. have in the agreement","arranger, bookrunner, book manager",1,1,,Bank of the West is Lender,1,3
+2821,66,what roles do both bank of the west and u.s. bank national association have in the agreement,"agents, arranger, bookrunner, book manager",1,1,,"Bank of the West is Lender, U.S. BANK NATIONAL ASSOCIATION is a Lender",1,3
+2822,66,"what roles do both bank of the west and wells fargo securities, llc have in the agreement","arranger, bookrunner, book manager",1,1,,Bank of the West is Lender,1,3
+2823,66,"what roles do both bank of the west and mufg bank, ltd. have in the agreement","agents, arranger, bookrunner, book manager",1,1,,"Bank of the West is Lender, MUFG Bank, Ltd. is a Lender",1,3
+2824,66,"what roles do both barclays bank plc and bofa securities, inc. have in the agreement","agents, arranger, bookrunner, book manager",1,1,,Not found,1,3
+2825,66,what roles do both barclays bank plc and citigroup global markets inc. have in the agreement,"agents, arranger, bookrunner, book manager",1,1,,Not found,1,3
+2826,66,"what roles do both barclays bank plc and keybanc capital markets, inc. have in the agreement","arranger, bookrunner, book manager",1,1,,"Joint Lead Arrangers and Joint Bookrunners for the Tranche A Term Facility and the Revolving Facility, Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility, Not found",1,3
+2827,66,what roles do both barclays bank plc and u.s. bank national association have in the agreement,"agents, arranger, bookrunner, book manager",1,1,,"Joint Lead Arrangers and Joint Bookrunners for the Tranche A Term Facility and the Revolving Facility, Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility, Barclays Bank PLC: Issuing Lender and Lender; U.S. Bank National Association: Lender",1,3
+2828,66,"what roles do both barclays bank plc and wells fargo securities, llc have in the agreement","arranger, bookrunner, book manager",1,1,,"Joint Lead Arrangers and Joint Bookrunners for the Tranche A Term Facility and the Revolving Facility, Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility, Not found",1,3
+2829,66,"what roles do both barclays bank plc and mufg bank, ltd. have in the agreement","agents, arranger, bookrunner, book manager",1,1,,"Joint Lead Arrangers and Joint Bookrunners for the Tranche A Term Facility and the Revolving Facility, Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility, Barclays Bank PLC: Issuing Lender and Lender; MUFG Bank, Ltd.: Lender",1,3
+2830,66,"what roles do both bofa securities, inc. and citigroup global markets inc. have in the agreement","agents, arranger, bookrunner, book manager",1,1,,"Joint Lead Arrangers and Joint Bookrunners for the Tranche A Term Facility and the Revolving Facility, Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility, Not found",1,3
+2831,66,"what roles do both bofa securities, inc. and keybanc capital markets, inc. have in the agreement","arranger, bookrunner, book manager",1,1,,"Joint Lead Arrangers and Joint Bookrunners for the Tranche A Term Facility and the Revolving Facility, Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility, Not found",1,3
+2832,66,"what roles do both bofa securities, inc. and wells fargo securities, llc have in the agreement","arranger, bookrunner, book manager",1,1,,"Joint Lead Arrangers and Joint Bookrunners for the Tranche A Term Facility and the Revolving Facility, Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility, Not found",1,3
+2833,66,"what roles do both citigroup global markets inc. and keybanc capital markets, inc. have in the agreement","arranger, bookrunner, book manager",1,1,,"Joint Lead Arrangers and Joint Bookrunners for the Tranche A Term Facility and the Revolving Facility, Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility, Not found",1,3
+2834,66,what roles do both citigroup global markets inc. and u.s. bank national association have in the agreement,"agents, arranger, bookrunner, book manager",1,1,,"Joint Lead Arrangers and Joint Bookrunners for the Tranche A Term Facility and the Revolving Facility, Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility, Not found",1,3
+2835,66,"what roles do both citigroup global markets inc. and wells fargo securities, llc have in the agreement","arranger, bookrunner, book manager",1,1,,"Joint Lead Arrangers and Joint Bookrunners for the Tranche A Term Facility and the Revolving Facility, Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility, Not found",1,3
+2836,66,"what roles do both citigroup global markets inc. and mufg bank, ltd. have in the agreement","agents, arranger, bookrunner, book manager",1,1,,"Joint Lead Arrangers and Joint Bookrunners for the Tranche A Term Facility and the Revolving Facility, Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility, Not found",1,3
+2837,66,"what roles do both keybanc capital markets, inc. and u.s. bank national association have in the agreement","arranger, bookrunner, book manager",1,1,,"Joint Lead Arrangers and Joint Bookrunners for the Tranche A Term Facility and the Revolving Facility, Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility, Not found",1,3
+2838,66,"what roles do both keybanc capital markets, inc. and wells fargo securities, llc have in the agreement","arranger, bookrunner, book manager",1,1,,"Joint Lead Arrangers and Joint Bookrunners for the Tranche A Term Facility and the Revolving Facility, Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility, Not found",1,3
+2839,66,"what roles do both keybanc capital markets, inc. and mufg bank, ltd. have in the agreement","arranger, bookrunner, book manager",1,1,,"Joint Lead Arrangers and Joint Bookrunners for the Tranche A Term Facility and the Revolving Facility, Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility, Not found",1,3
+2840,66,"what roles do both u.s. bank national association and wells fargo securities, llc have in the agreement","arranger, bookrunner, book manager",1,1,,"Joint Lead Arrangers and Joint Bookrunners for the Tranche A Term Facility and the Revolving Facility, Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility, Not found",1,3
+2841,66,"what roles do both u.s. bank national association and mufg bank, ltd. have in the agreement","agents, arranger, bookrunner, book manager",1,1,,"Joint Lead Arrangers and Joint Bookrunners for the Tranche A Term Facility and the Revolving Facility, Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility, U.S. Bank National Association: Lender; MUFG Bank, Ltd.: Lender",1,3
+2842,66,"what roles do both wells fargo securities, llc and mufg bank, ltd. have in the agreement","arranger, bookrunner, book manager",1,1,,"Joint Lead Arrangers and Joint Bookrunners for the Tranche A Term Facility and the Revolving Facility, Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility, Not found",1,3
+2850,66,"who are the vice presidents of keybank, national association","ben snodgrass, tanille ingle",2,0,,"Not found, Tanille Ingle",1,3
+2851,66,"who are the directors of mufg bank, ltd.","kevin wood, cecile segovia",2,0,,"Not found, Kevin Wood",1,3
+2852,66,"who are the managing directors of wells fargo bank, national association","darin mullis, erin robinson",2,0,,"Not found, Darin Mullis",1,3
+2853,66,who are the senior vice presidents of u.s. bank national association,"kristie li, bret douglas, tom priedeman, joseph d. hricovsky, kathryn e. benjamin",2,0,,"Not found, Tom Priedeman",1,3
+2854,66,what are the roles in the agreement of the company where james riley is employed,"lender, revolver",2,0,,"Not found, Citibank N.A.: Revolver and Term Loan A Lender",1,3
+2855,66,what are the roles in the agreement of the company where cecile segovia is employed,"agents, lender, arrangers, bookrunner, book manager, lead arranger",2,0,,"Not found, Bank of the West: Lender",1,3
+2856,66,what are the roles in the agreement of the company where kevin wood is employed,"agents, lender, arrangers, bookrunner, book manager, lead arranger",2,0,,"Not found, MUFG Bank, Ltd.: Lender",1,3
+2857,66,what are the roles in the agreement of the company where erin robinson is employed,"agent, lender",2,0,,"Not found, Silicon Valley Bank: Lender",1,3
+2858,66,what are the roles in the agreement of the company where darin mullis is employed,"agent, lender",2,0,,"Not found, Wells Fargo Bank, National Association: Administrative Agent, Collateral Agent, Swingline Lender, Issuing Lender and Lender",1,3
+2937,9,who are the authorized signatorys of royal bank of canada,"mark walton, james disher",2,0,,James Disher,1,3
+2938,9,who are the directors of barclays bank plc,"ann e. sutton, mikhail faybusovich",2,0,,Not found,1,3
+2939,9,"who are the senior vice presidents of suncoke energy partners, l.p.","eric searls, mark e. newman, jonathan m. phillips",2,0,,Mark E. Newman,1,3
+2940,9,what are the roles in the agreement of the company where ann e. sutton is employed,"agent, lender, arranger, bookrunner",2,0,,"Lender, Joint Lead Arranger, Joint Bookrunner, Syndication Agent",1,3
+2941,9,what are the roles in the agreement of the company where mikhail faybusovich is employed,"agent, lender, arranger, bookrunner",2,0,,Lender,1,3
+2942,9,what are the roles in the agreement of the company where peter predun is employed,"agent, lender",2,0,,"Administrative Agent, Lender",1,3
+2943,9,what are the roles in the agreement of the company where ido yehuda is employed,"agent, lender",2,0,,Not found,1,3
+2973,65,what roles do both bofa securities and citizens ban have in the agreement,"arranger, bookrunner, book manager",1,1,,"Joint Lead Arrangers and Joint Bookrunners for the Revolving Credit Facility, Swingline Lender",1,3
+2974,65,what roles do both bofa securities and credit suisse have in the agreement,"arranger, bookrunner, book manager",1,1,,Joint Lead Arrangers and Joint Bookrunners for the Revolving Credit Facility,1,3
+2975,65,what roles do both bofa securities and dbsi have in the agreement,"arranger, bookrunner, book manager",1,1,,Joint Lead Arrangers and Joint Bookrunners for the Revolving Credit Facility,1,3
+2976,65,what roles do both bofa securities and fifth third have in the agreement,"arranger, bookrunner, book manager",1,1,,Joint Lead Arrangers and Joint Bookrunners for the Revolving Credit Facility,1,3
+2977,65,what roles do both bofa securities and goldman have in the agreement,"arranger, bookrunner, book manager",1,1,,Joint Lead Arrangers and Joint Bookrunners for the Revolving Credit Facility,1,3
+2978,65,what roles do both bofa securities and keybank have in the agreement,"arranger, bookrunner, book manager",1,1,,Joint Lead Arrangers and Joint Bookrunners for the Revolving Credit Facility,1,3
+2979,65,what roles do both bofa securities and truist securities have in the agreement,"arranger, bookrunner, book manager",1,1,,Joint Lead Arrangers and Joint Bookrunners for the Revolving Credit Facility,1,3
+2980,65,what roles do both citizens ban and credit suisse have in the agreement,"arranger, bookrunner, book manager",1,1,,"Administrative Agent, L/C Issuer, Collateral Trustee",1,3
+2981,65,what roles do both citizens ban and dbsi have in the agreement,"arranger, bookrunner, book manager",1,1,,"Administrative Agent, L/C Issuer, Collateral Trustee",1,3
+2982,65,what roles do both citizens ban and fifth third have in the agreement,"arranger, bookrunner, book manager",1,1,,"Administrative Agent, L/C Issuer, Collateral Trustee",1,3
+2983,65,what roles do both citizens ban and goldman have in the agreement,"arranger, bookrunner, book manager",1,1,,"Administrative Agent, L/C Issuer, Collateral Trustee",1,3
+2984,65,what roles do both citizens ban and keybank have in the agreement,"arranger, bookrunner, book manager",1,1,,"Administrative Agent, L/C Issuer, Collateral Trustee",1,3
+2985,65,what roles do both citizens ban and truist securities have in the agreement,"arranger, bookrunner, book manager",1,1,,"Administrative Agent, L/C Issuer, Collateral Trustee",1,3
+2986,65,what roles do both credit suisse and dbsi have in the agreement,"arranger, bookrunner, book manager",1,1,,Not found,1,3
+2987,65,what roles do both credit suisse and fifth third have in the agreement,"arranger, bookrunner, book manager",1,1,,Not found,1,3
+2988,65,what roles do both credit suisse and goldman have in the agreement,"arranger, bookrunner, book manager",1,1,,Not found,1,3
+2989,65,what roles do both credit suisse and keybank have in the agreement,"arranger, bookrunner, book manager",1,1,,Not found,1,3
+2990,65,what roles do both credit suisse and truist securities have in the agreement,"arranger, bookrunner, book manager",1,1,,Not found,1,3
+2991,65,what roles do both dbsi and fifth third have in the agreement,"arranger, bookrunner, book manager",1,1,,Not found,1,3
+2992,65,what roles do both dbsi and goldman have in the agreement,"arranger, bookrunner, book manager",1,1,,Not found,1,3
+2993,65,what roles do both dbsi and keybank have in the agreement,"arranger, bookrunner, book manager",1,1,,Not found,1,3
+2994,65,what roles do both dbsi and truist securities have in the agreement,"arranger, bookrunner, book manager",1,1,,Not found,1,3
+2995,65,what roles do both fifth third and goldman have in the agreement,"arranger, bookrunner, book manager",1,1,,Not found,1,3
+2996,65,what roles do both fifth third and keybank have in the agreement,"arranger, bookrunner, book manager",1,1,,Not found,1,3
+2997,65,what roles do both fifth third and truist securities have in the agreement,"arranger, bookrunner, book manager",1,1,,Not found,1,3
+2998,65,what roles do both goldman and keybank have in the agreement,"arranger, bookrunner, book manager",1,1,,Not found,1,3
+2999,65,what roles do both goldman and truist securities have in the agreement,"arranger, bookrunner, book manager",1,1,,Not found,1,3
+3000,65,what roles do both keybank and truist securities have in the agreement,"arranger, bookrunner, book manager",1,1,,Not found,1,3
+3008,65,who are the vice presidents of deutsche bank ag new york branch,"yumi okabe, philip tancorra",2,0,,"Philip Tancorra, Yumi Okabe",1,3
+3009,65,who are the senior vice presidents of fifth third bank,"lise hinton, matthew j. bradley",2,0,,Lise Hinton,1,3
+3010,65,who are the authorized signatorys of goldman sachs bank usa,"andrew griffin, thomas manning, whitney gaston",2,0,,Thomas Manning,1,3
+3011,65,what are the roles in the agreement of the company where sean mcwhinnie is employed,"agent, issuer, lender",2,0,,"Administrative Agent, L/C Issuer and a Revolving Lender",1,3
+3316,47,"who are the senior vice presidents of bank of america, n.a.","kristie li, robert laporte",2,0,,Robert LaPorte,1,3
+3317,47,who are the vice presidents of deutsche bank ag new york branch,"ming k. chu, anthony galea, marni mcmanus, virginia cosenza, philip f. kurpiewski, john p. treadwell jr.",2,0,,"Ming K. Chu, Virginia Cosenza",1,3
+3318,47,what are the roles in the agreement of the company where bremmer kneib is employed,"lender, co syndication agents",2,0,,Lender and co-Syndication Agents,1,3
+3319,47,what are the roles in the agreement of the company where brian mcnany is employed,"lender, bookrunners, co syndication agents",2,0,,Lender and co-Syndication Agents,1,3
+3320,47,what are the roles in the agreement of the company where robert laporte is employed,"lender, co syndication agents",2,0,,Lender,1,3
+3321,47,what are the roles in the agreement of the company where kristie li is employed,"lender, co syndication agents",2,0,,Lender,1,3
+3322,47,what are the roles in the agreement of the company where kirk tesch is employed,"lender, administrative agent",2,0,,"Administrative Agent, Swingline Lender and Lender",1,3
+3323,47,what are the roles in the agreement of the company where john p. treadwell jr. is employed,"lender, lead arrangers, co syndication agents",2,0,,Lender,1,3
+3324,47,what are the roles in the agreement of the company where philip f. kurpiewski is employed,"lender, lead arrangers, co syndication agents",2,0,,Lender,1,3
+3325,47,what are the roles in the agreement of the company where marni mcmanus is employed,"lender, lead arrangers, co syndication agents",2,0,,Lender,1,3
+3326,47,what are the roles in the agreement of the company where anthony galea is employed,"lender, lead arrangers, co syndication agents",2,0,,Lender,1,3
+3327,47,what are the roles in the agreement of the company where virginia cosenza is employed,"lender, lead arrangers, co syndication agents",2,0,,Lender,1,3
+3328,47,what are the roles in the agreement of the company where ming k. chu is employed,"lender, lead arrangers, co syndication agents",2,0,,Lender,1,3
+3494,51,what are the roles in the agreement of the company where cody gunsch is employed,"agent, lender, arrangers, bookrunners",2,0,,"Administrative Agent, Lender",1,3
+6,17,"what is the chief executive office office of exgen renewables holdings, llc","il 60603, 49th floorchicago, 10 south dearborn street",2,0,,"10 South Dearborn Street, 49 th Floor Chicago, IL 60603",0,2
+7,17,"what is the chief executive office office of exgen renewables iv holding, llc","il 60603, 49th floorchicago, 10 south dearborn street",2,0,,"10 South Dearborn Street, 49 th Floor Chicago, IL 60603",0,2
+947,60,"what role do both pnc capital markets llc and mizuho bank, ltd. have in the agreement",bookrunner,1,1,0.0,"PNC Capital Markets LLC is a Joint Lead Arranger and Joint Bookrunner; Mizuho Bank, Ltd. is a Documentation Agent.",0,2
+1020,60,"who is the executive director of jpmorgan chase bank, n.a",anthony galea,2,0,0.0,Anthony Galea,0,2
+1021,60,"who is the senior vice president of leidos holdings, inc.",marc h. crown,2,0,0.0,Marc H. Crown,0,2
+1022,60,"who is the treasurer of leidos holdings, inc.",marc h. crown,2,0,0.0,Marc H. Crown,0,2
+1023,60,who is the assistant vice president of regions bank,stephanie herndon,2,0,0.0,Stephanie Herndon,0,2
+1024,60,who is the assistant vice president of bank of the west,caroline smith,2,0,0.0,Caroline Smith,0,2
+1025,60,what is the role in the agreement of the company where marc h. crown is employed,holdings,2,0,0.0,"Senior Vice President and Treasurer of Leidos Holdings, Inc. and Leidos, Inc.",0,2
+1420,66,"who is the director of bank of america, n.a.",ronnie glenn,2,0,0.0,Not found,0,2
+1421,66,"who is the svp of bank of america, n.a.",ronnie glenn,2,0,0.0,Senior Vice President,0,2
+1422,66,"who is the duly authorized signatory of capital one, national association",karen m. dahlquist,2,0,0.0,Not found,0,2
+1423,66,who is the authorized signer of citibank n.a.,james riley,2,0,0.0,Not found,0,2
+1424,66,"who is the cfo of icu medical, inc.",brian m. bonnell,2,0,0.0,Brian M. Bonnell,0,2
+1425,66,"who is the treasurer of icu medical, inc.",brian m. bonnell,2,0,0.0,Brian M. Bonnell,0,2
+1426,66,"who is the authorized officer of jpmorgan chase bank, n.a.",erik barragan,2,0,0.0,Erik Barragan,0,2
+1427,66,"who is the cfo of exc holding corp.tangent medical technologies, inc.excelsior medical corporationicu world, inc.",brian m. bonnell,2,0,0.0,Brian M. Bonnell,0,2
+1428,66,"who is the treasurer of exc holding corp.tangent medical technologies, inc.excelsior medical corporationicu world, inc.",brian m. bonnell,2,0,0.0,Brian M. Bonnell,0,2
+1429,66,what is the role in the agreement of the company where karen m. dahlquist is employed,lender,2,0,0.0,Duly Authorized Signatory,0,2
+1430,66,what is the role in the agreement of the company where brian m. bonnell is employed,borrower,2,0,0.0,CFO and Treasurer,0,2
+1431,66,what is the role in the agreement of the company where erik barragan is employed,lender,2,0,0.0,Authorized Officer,0,2
+1432,66,what is the role in the agreement of the company where ben snodgrass is employed,lender,2,0,0.0,Not found,0,2
+1433,66,what is the role in the agreement of the company where tanille ingle is employed,lender,2,0,0.0,Not found,0,2
+1434,66,what is the role in the agreement of the company where bret douglas is employed,lender,2,0,0.0,Not found,0,2
+1435,66,what is the role in the agreement of the company where tom priedeman is employed,lender,2,0,0.0,Not found,0,2
+1436,66,what is the role in the agreement of the company where joseph d. hricovsky is employed,lender,2,0,0.0,Not found,0,2
+1437,66,what is the role in the agreement of the company where kristie li is employed,lender,2,0,0.0,Not found,0,2
+1438,66,what is the role in the agreement of the company where kathryn e. benjamin is employed,lender,2,0,0.0,Not found,0,2
+1680,9,"who is the associate of credit suisse ag, cayman islands branch",wei jen yuan,2,0,0.0,Wei-Jen Yuan,0,2
+1681,9,"who is the vice president of citibank, n.a.",raymond g. dunning,2,0,0.0,Raymond G. Dunning,0,2
+1682,9,who is the chief financial officer of middletown cogeneration company llc,mark e. newman,2,0,0.0,Mark E. Newman,0,2
+1683,9,who is the senior vice president of middletown cogeneration company llc,mark e. newman,2,0,0.0,Not found,0,2
+1684,9,who is the treasurer of middletown cogeneration company llc,mark e. newman,2,0,0.0,Mark E. Newman,0,2
+1685,9,who is the authorised signatory of the royal bank of scotland plc,brian d. williams,2,0,0.0,Brian D. Williams,0,2
+1686,9,"who is the executive director of jpmorgan chase bank, n.a.",peter predun,2,0,0.0,Peter Predun,0,2
+1687,9,"who is the chief financial officer of suncoke energy partners, l.p.",mark e. newman,2,0,0.0,Mark E. Newman,0,2
+1688,9,"who is the treasurer of suncoke energy partners, l.p.",mark e. newman,2,0,0.0,Not found,0,2
+1689,9,what is the role in the agreement of the company where wei jen yuan is employed,lender,2,0,0.0,Lender,0,2
+1690,9,what is the role in the agreement of the company where raymond g. dunning is employed,lender,2,0,0.0,Lender,0,2
+1691,9,what is the role in the agreement of the company where mark e. newman is employed,borrower,2,0,0.0,"Treasurer & Chief Financial Officer of Haverhill Coke Company LLC, Middletown Coke Company, LLC, Haverhill Cogeneration Company LLC, Middletown Cogeneration Company LLC; Senior Vice President and Chief Financial Officer of SUNCOKE ENERGY PARTNERS, L.P.",0,2
+1692,9,what is the role in the agreement of the company where brian d. williams is employed,lender,2,0,0.0,Lender,0,2
+1693,9,what is the role in the agreement of the company where james disher is employed,lender,2,0,0.0,Lender,0,2
+1694,9,what is the role in the agreement of the company where mark walton is employed,lender,2,0,0.0,Lender,0,2
+1695,9,what is the role in the agreement of the company where denise r. cade is employed,borrower,2,0,0.0,Not found,0,2
+1696,9,what is the role in the agreement of the company where jonathan m. phillips is employed,borrower,2,0,0.0,Senior Vice President and Lender,0,2
+1697,9,what is the role in the agreement of the company where eric searls is employed,borrower,2,0,0.0,Lender,0,2
+1806,65,who is the svp of truist bank,frank mccormack,2,0,0.0,Frank McCormack,0,2
+1807,65,"who is the managing director of bank of america, n.a.",brian d. corum,2,0,0.0,Brian D. Corum,0,2
+1808,65,"who is the director of citizens bank, n.a.",sean mcwhinnie,2,0,0.0,Sean McWhinnie,0,2
+1809,65,who is the chief executive officer of mohegan tribal gaming authority,mario c. kontomerkos,2,0,0.0,Mario C. Kontomerkos,0,2
+1810,65,what is the role in the agreement of the company where frank mccormack is employed,lender,2,0,0.0,Revolving Lender,0,2
+1811,65,what is the role in the agreement of the company where brian d. corum is employed,lender,2,0,0.0,Swingline Lender and a Revolving Lender,0,2
+1812,65,what is the role in the agreement of the company where mario c. kontomerkos is employed,borrower,2,0,0.0,Chief Executive Officer,0,2
+1813,65,what is the role in the agreement of the company where yumi okabe is employed,lender,2,0,0.0,Vice President,0,2
+1814,65,what is the role in the agreement of the company where philip tancorra is employed,lender,2,0,0.0,Vice President,0,2
+1815,65,what is the role in the agreement of the company where lise hinton is employed,lender,2,0,0.0,Revolving Lender,0,2
+1816,65,what is the role in the agreement of the company where matthew j. bradley is employed,lender,2,0,0.0,Revolving Lender,0,2
+1817,65,what is the role in the agreement of the company where whitney gaston is employed,lender,2,0,0.0,Revolving Lender,0,2
+1818,65,what is the role in the agreement of the company where andrew griffin is employed,lender,2,0,0.0,Revolving Lender,0,2
+2964,47,who is the vice president of barclays bank plc,samuel coward,2,0,0.0,Samuel Coward,0,2
+2965,47,"who is the vice president of pnc bank, national association",bremmer kneib,2,0,0.0,Bremmer Kneib,0,2
+2966,47,"who is the director of the bank of tokyo mitsubishi ufj, ltd.",brian mcnany,2,0,0.0,Brian McNany,0,2
+2967,47,who is the chief financial officer and treasurer of united therapeutics corporation,james edgemond,2,0,0.0,James Edgemond,0,2
+2968,47,"who is the managing director of wells fargo bank, national association",kirk tesch,2,0,0.0,Kirk Tesch,0,2
+2969,47,what is the role in the agreement of the company where samuel coward is employed,lender,2,0,0.0,Lender,0,2
+2970,47,what is the role in the agreement of the company where james edgemond is employed,borrower,2,0,0.0,Borrower,0,2
+3531,51,who is the treasurer of calpine corporation,zamir rauf,2,0,0.0,Zamir Rauf,0,2
+3532,51,"who is the vice president, finance of calpine corporation",zamir rauf,2,0,0.0,Zamir Rauf,0,2
+3533,51,"who is the vice president of morgan stanley senior funding, inc.",cody gunsch,2,0,0.0,Cody Gunsch,0,2
+3534,51,"who is the vp of mufg union bank, n.a.",sonia flores,2,0,0.0,Sonia Flores,0,2
+3535,51,what is the role in the agreement of the company where zamir rauf is employed,borrower,2,0,0.0,Borrower,0,2
+3536,51,what is the role in the agreement of the company where sonia flores is employed,agent,2,0,0.0,Collateral Agent,0,2
+3561,45,who is the chief financial officer of pinnacle bank,harold r. carpenter,2,0,0.0,Harold R. Carpenter,0,2
+3562,45,who is the client services representative of u.s. bank national association,cynthia m. olson,2,0,0.0,Cynthia M. Olson,0,2
+3563,45,who is the portfolio manager of u.s. bank national association,eric niedbalski,2,0,0.0,Eric Niedbalski,0,2
+3564,45,who is the senior vice president of u.s. bank national association,mark r. cousineau,2,0,0.0,Mark R. Cousineau,0,2
+3565,45,what is the role in the agreement of the company where harold r. carpenter is employed,borrower,2,0,0.0,Borrower,0,2
+3566,45,what is the role in the agreement of the company where mark r. cousineau is employed,lender,2,0,0.0,Lender,0,2
+3567,45,what is the role in the agreement of the company where eric niedbalski is employed,lender,2,0,0.0,Lender,0,2
+3568,45,"what is the role in the agreement of the company where cynthia m. olson, is employed",lender,2,0,0.0,Lender,0,2
+4460,25,"who is the president of hunt cmt equity, llc",michael larsen,2,0,0.0,Michael Larsen,0,2
+4461,25,"who is the svp of jefferies leveraged credit products, llc",william p. mcloughlin,2,0,0.0,William P. McLoughlin,0,2
+4462,25,what is the role in the agreement of the company where emily ergang pappas is employed,agent,2,0,0.0,Administrative Agent and Collateral Agent,0,2
+4463,25,what is the role in the agreement of the company where michael larsen is employed,guarantor,2,0,0.0,Borrower,0,2
+4464,25,what is the role in the agreement of the company where william p. mcloughlin is employed,lender,2,0,0.0,Initial Lender,0,2

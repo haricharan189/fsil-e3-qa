@@ -1,0 +1,167 @@
+Unnamed: 0,document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension,llm_response,multiple_answers,sum_values
+0,139,what is the position held by michael king but not by michael vondriska or ronnie glenn,authorized signatory,1,3,0,Vice President,0,4
+1,139,what is the position held by michael king but not by savo bozic or sheldon pinto,vice president,1,3,0,Vice President,0,4
+2,106,what is the position held by kirkwood roland but not by lana gifas or marcus m. tarkington,vice president,1,3,0,Director & Vice President,0,4
+3,106,what is the position held by kirkwood roland but not by michael getz or vanessa a. kurbatskiy,director,1,3,0,Director & Vice President,0,4
+4,160,what is the position held by robert g. shaw but not by joseph siri or martin corrigan,managing director,1,3,0,Not found,0,4
+5,61,what is the position held by jim cahow but not by liz cheng or marko lukin,director,1,3,0,Director,0,4
+7,82,what is the position held by david c. francisco but not by david m. crane or jennifer hwang,treasurer,1,3,0,Vice President and Treasurer,0,4
+8,82,what is the position held by david c. francisco but not by david m. crane or john l. healy,treasurer,1,3,0,Vice President and Treasurer,0,4
+9,82,what is the position held by david c. francisco but not by david m. crane or vanessa a. kurbatskiy,treasurer,1,3,0,Vice President and Treasurer,0,4
+10,82,what is the position held by david c. francisco but not by jennifer hwang or john l. healy,treasurer,1,3,0,Vice President and Treasurer,0,4
+11,82,what is the position held by david c. francisco but not by jennifer hwang or vanessa a. kurbatskiy,treasurer,1,3,0,Vice President and Treasurer,0,4
+12,82,what is the position held by david c. francisco but not by john l. healy or vanessa a. kurbatskiy,treasurer,1,3,0,Vice President and Treasurer,0,4
+13,140,what is the position held by demetrios tserpelis but not by sean mckinley or tony traynor,authorized signatory,1,3,0,Authorized Signatory,0,4
+14,57,what is the position held by chuck b. kyrish but not by henry pennell or kara p. van duzee,treasurer,1,3,0,Not found,0,4
+15,57,what is the position held by chuck b. kyrish but not by henry pennell or katherine l. hurley,treasurer,1,3,0,Not found,0,4
+16,57,what is the position held by chuck b. kyrish but not by henry pennell or lauren steiner,treasurer,1,3,0,Not found,0,4
+17,57,what is the position held by chuck b. kyrish but not by henry pennell or michael vondriska,treasurer,1,3,0,Not found,0,4
+18,57,what is the position held by chuck b. kyrish but not by henry pennell or robert sullivan,treasurer,1,3,0,Not found,0,4
+19,57,what is the position held by chuck b. kyrish but not by henry pennell or virginia cosenza,treasurer,1,3,0,Not found,0,4
+20,57,what is the position held by chuck b. kyrish but not by kara p. van duzee or katherine l. hurley,treasurer,1,3,0,Not found,0,4
+21,57,what is the position held by chuck b. kyrish but not by kara p. van duzee or lauren steiner,treasurer,1,3,0,Not found,0,4
+22,57,what is the position held by chuck b. kyrish but not by kara p. van duzee or michael vondriska,treasurer,1,3,0,Not found,0,4
+23,57,what is the position held by chuck b. kyrish but not by kara p. van duzee or robert sullivan,treasurer,1,3,0,Not found,0,4
+24,57,what is the position held by chuck b. kyrish but not by kara p. van duzee or virginia cosenza,treasurer,1,3,0,Not found,0,4
+25,57,what is the position held by chuck b. kyrish but not by katherine l. hurley or lauren steiner,treasurer,1,3,0,Not found,0,4
+26,57,what is the position held by chuck b. kyrish but not by katherine l. hurley or michael vondriska,treasurer,1,3,0,Not found,0,4
+27,57,what is the position held by chuck b. kyrish but not by katherine l. hurley or robert sullivan,treasurer,1,3,0,Not found,0,4
+28,57,what is the position held by chuck b. kyrish but not by katherine l. hurley or virginia cosenza,treasurer,1,3,0,Not found,0,4
+29,57,what is the position held by chuck b. kyrish but not by lauren steiner or michael vondriska,treasurer,1,3,0,Not found,0,4
+30,57,what is the position held by chuck b. kyrish but not by lauren steiner or robert sullivan,treasurer,1,3,0,Not found,0,4
+31,57,what is the position held by chuck b. kyrish but not by lauren steiner or virginia cosenza,treasurer,1,3,0,Not found,0,4
+32,57,what is the position held by chuck b. kyrish but not by michael vondriska or robert sullivan,treasurer,1,3,0,Not found,0,4
+33,57,what is the position held by chuck b. kyrish but not by michael vondriska or virginia cosenza,treasurer,1,3,0,Not found,0,4
+34,57,what is the position held by chuck b. kyrish but not by robert sullivan or virginia cosenza,treasurer,1,3,0,Not found,0,4
+35,84,what is the position held by alexander wu but not by chwan ming ho or edward chen,svp,1,3,0,SVP & General Manager,0,4
+36,84,what is the position held by alexander wu but not by chwan ming ho or li hua huang,svp,1,3,0,SVP & General Manager,0,4
+37,84,what is the position held by alexander wu but not by edward chen or li hua huang,svp,1,3,0,SVP & General Manager,0,4
+43,121,what is the position held by angela chen but not by jane chang or murtuza ziauddin,dgm,1,3,0,VP & DGM,0,4
+44,121,what is the position held by kefel xu but not by kitty sin or paul hultgren,branch manager,1,3,0,SVP & Branch Manager,0,4
+45,135,what is the position held by sharon s. spurlin but not by virginia cosenza or hans beekmans,treasurer,1,3,0,Vice President and Treasurer,0,4
+49,139,what is the position held by michael king and michael vondriska but not by savo bozic,vice president,1,3,0,Vice President,0,4
+50,139,what is the position held by michael king and ronnie glenn but not by savo bozic,vice president,1,3,0,Vice President,0,4
+51,106,what is the position held by kirkwood roland and lana gifas but not by michael getz,director,1,3,0,Director,0,4
+52,106,what is the position held by kirkwood roland and marcus m. tarkington but not by michael getz,director,1,3,0,Director,0,4
+53,61,what is the position held by jim cahow and liz cheng but not by ming k chu,vice president,1,3,0,Vice President,0,4
+54,61,what is the position held by jim cahow and marko lukin but not by ming k chu,vice president,1,3,0,Vice President,0,4
+56,140,what is the position held by demetrios tserpelis and sean mckinley but not by william graham,director,1,3,0,Director,0,4
+57,140,what is the position held by demetrios tserpelis and tony traynor but not by william graham,director,1,3,0,Director,0,4
+73,135,"what is the role and subrole that citigroup global markets inc. and dnb markets, inc. share in the agreement that is not held by merrill lynch, pierce, fenner smith incorporated",lead arranger,1,3,0,Joint Lead Arranger and Joint Bookrunner,0,4
+74,135,"what is the role and subrole that citigroup global markets inc. and j.p. morgan securities llc share in the agreement that is not held by merrill lynch, pierce, fenner smith incorporated",lead arranger,1,3,0,Joint Lead Arranger and Joint Bookrunner,0,4
+75,135,"what is the role and subrole that dnb markets, inc. and j.p. morgan securities llc share in the agreement that is not held by merrill lynch, pierce, fenner smith incorporated",lead arranger,1,3,0,Joint Lead Arranger and Joint Bookrunner,0,4
+132,165,who is the executive director of the company which is both the lender and the syndication agent in the agreement,tony young,3,1,0,code terminated,0,4
+133,165,who is the corporate secretary of the company which is both the company and the lenders in the agreement,colleen batcheler,3,1,0,code terminated,0,4
+134,165,who is the general counsel of the company which is both the company and the lenders in the agreement,colleen batcheler,3,1,0,code terminated,0,4
+135,165,who is the investor relations officer of the company which is both the company and the lenders in the agreement,johan nystedt,3,1,0,code terminated,0,4
+136,165,who is the treasurer of the company which is both the company and the lenders in the agreement,johan nystedt,3,1,0,code terminated,0,4
+137,165,who is the vice president of the company which is both the company and the lenders in the agreement,johan nystedt,3,1,0,code terminated,0,4
+177,156,who is the senior vice president of the company which is both the lender and the issuing bank in the agreement,carmela massari,3,1,0,Carmela Massari,0,4
+188,91,who is the senior vice president of the company which is both the lender and the lender in the agreement,thomas m. foncannon,3,1,0,Thomas M. Foncannon,0,4
+228,60,who is both the senior vice president and treasurer of the company which is the holdings in the agreement,marc h. crown,3,1,0,Marc H. Crown,0,4
+231,61,"who is both the treasurer and vice president, tax treasury of the company which is the borrower in the agreement",brian l. shytle,3,1,0,Brian L. Shytle,0,4
+233,162,who is both the corporate secretary and president of the company which is the guarantor in the agreement,mark d. andrews,3,1,0,Mark D. Andrews,0,4
+234,162,who is both the president and secretary of the company which is the guarantor in the agreement,michael j. niedermaier,3,1,0,Mark D. Andrews,0,4
+241,170,who is both the treasurer and vice president of the company which is the borrower in the agreement,richard lautch,3,1,0,code terminated,0,4
+250,142,who is both the controller and principal financial officer of the company which is the borrower in the agreement,nathaniel a. brown,3,1,0,Nathaniel A. Brown,0,4
+251,142,"who is both the corporate secretary and vice president, law of the company which is the guarantor in the agreement",christine r. johnston,3,1,0,Christine R. Johnston,0,4
+252,142,"who is both the treasurer and vice president, finance of the company which is the guarantor in the agreement",joel e. hunter,3,1,0,Joel E. Hunter,0,4
+256,91,who is both the chief executive officer and president of the company which is the borrower in the agreement,ray singleton,3,1,0,Ray Singleton,0,4
+260,151,"who is both the treasurer and vice president, tax and treasury of the company which is the borrowers in the agreement",anthony h. smith,3,1,0,Anthony H. Smith,0,4
+268,135,who is both the treasurer and vice president of the company which is the borrower in the agreement,sharon s. spurlin,3,1,0,Sharon S. Spurlin,0,4
+282,165,"who is both the corporate secretary and general counsel of the company associated with 222 merchandise mart plaza, suite 1300chicago, il 60654",colleen batcheler,3,1,0,code terminated,0,4
+283,82,who is both the treasurer and vice president of the company associated with 04 2052042,david c. francisco,3,1,0,David C. Francisco,0,4
+286,156,who is both the chief financial officer and vice president of the company associated with u.s.,henk derksen,3,1,0,Henk Derksen,0,4
+287,91,"who is both the chief executive officer and president of the company associated with 633 17th street, suite 1900denver, colorado 80202 3619",ray singleton,3,1,0,Ray Singleton,0,4
+307,106,who is both the director and vice president of the company where michael getz is employed,kirkwood roland,3,1,0,Marcus M. Tarkington,0,4
+308,106,who is both the director and vice president of the company where vanessa a. kurbatskiy is employed,kirkwood roland,3,1,0,Kirkwood Roland,0,4
+310,61,who is both the director and vice president of the company where amanuel assefa is employed,jim cahow,3,1,0,Jim Cahow,0,4
+311,61,who is both the director and vice president of the company where bridgett j. manduk mowry is employed,jim cahow,3,1,0,Jim Cahow,0,4
+312,61,who is both the director and vice president of the company where christopher shafto is employed,jim cahow,3,1,0,Jim Cahow,0,4
+313,61,who is both the director and vice president of the company where liz cheng is employed,jim cahow,3,1,0,Jim Cahow,0,4
+314,61,who is both the director and vice president of the company where marko lukin is employed,jim cahow,3,1,0,Jim Cahow,0,4
+322,140,who is both the director and authorized signatory of the company where sean mckinley is employed,demetrios tserpelis,3,1,0,Sean McKinley,0,4
+323,140,who is both the director and authorized signatory of the company where tony traynor is employed,demetrios tserpelis,3,1,0,Tony Traynor,0,4
+334,142,"who is both the treasurer and vice president, finance of the company where jon a. dobson is employed",joel e. hunter,3,1,0,Joel E. Hunter,0,4
+357,121,who is both the director and svp of the company where chris hursey is employed,paul hultgren,3,1,0,Not found,0,4
+358,121,who is both the director and svp of the company where steven r. bruno is employed,paul hultgren,3,1,0,Not found,0,4
+392,165,what is the address of the agency management office of the company which is both the lender and administrative agent in the agreement,"ca 94104, 4th floorsan francisco, mail code ca5 705 04 09555 california street",3,1,0,code terminated,0,4
+393,91,what is the address of the address for notices office of the company which is both the lender and lender in the agreement,"colorado 80202, suite 1100denver, bank of oklahoma1625 broadway",3,1,0,"Bank of Oklahoma, 1625 Broadway, Suite 1100, Denver, Colorado 80202, Attention: Thomas M. Foncannon, Facsimile: (303) 864-7349",0,4
+394,91,what is the address of the payment processing center office of the company which is both the lender and lender in the agreement,"oklahoma 73124 8817, p.o. box 248817oklahoma city",3,1,0,"Bank of Oklahoma Payment Processing Center, P.O. Box 248817, Oklahoma City, Oklahoma 73124-8817",0,4
+407,139,what companies are the  lead arrangers but not the  bookrunners in the agreement,"pierce, citigroup global markets inc.",1,2,1,Not found,1,4
+414,161,what companies are the  lead arrangers but not the lender in the agreement,"inc., truist securities, bmo capital markets",1,2,1,"BMO Capital Markets, Truist Securities, Inc., The Huntington National Bank",1,4
+417,160,"what roles does barclays bank plc have in the agreement which are not the roles of bofa securities, inc","issuing bank, administrative agent",1,2,1,Swingline Lender,1,4
+418,160,"what roles does barclays bank plc have in the agreement which are not the roles of morgan stanley senior funding, inc","issuing bank, administrative agent",1,2,1,Swingline Lender,1,4
+419,160,"what roles does barclays bank plc have in the agreement which are not the roles of jpmorgan chase bank, n.a.","bookrunners, administrative agent",1,2,1,Swingline Lender,1,4
+420,160,what companies are the issuing bank but not the  bookrunners in the agreement,"n.a., ltd., citibank, mufg bank, truist bank, bank of america, jpmorgan chase bank, morgan stanley bank",1,2,1,"Citibank, N.A., MUFG Bank, Ltd., Truist Bank",1,4
+421,160,what companies are the issuing bank but not the  lead arrangers in the agreement,"n.a., ltd., citibank, mufg bank, truist bank, bank of america, morgan stanley bank",1,2,1,"Citibank, N.A., MUFG Bank, Ltd., Truist Bank",1,4
+422,148,who are the vice presidents of the company where mukesh singh is employed,"meng zhang, will hicks, liliana claar, rumesha ahmed, karim remtoula",3,0,1,Not found,1,4
+423,148,who are the directors of the company where karim remtoula is employed,"craig malloy, mukesh singh, todd kennedy, jonathan eady, katherine bass",3,0,1,Not found,1,4
+424,148,who are the directors of the company where liliana claar is employed,"craig malloy, mukesh singh, todd kennedy, jonathan eady, katherine bass",3,0,1,Not found,1,4
+425,148,who are the directors of the company where meng zhang is employed,"craig malloy, mukesh singh, todd kennedy, jonathan eady, katherine bass",3,0,1,Not found,1,4
+426,148,who are the vice presidents of the company where katherine bass is employed,"meng zhang, will hicks, liliana claar, rumesha ahmed, karim remtoula",3,0,1,Not found,1,4
+427,148,who are the vice presidents of the company where todd kennedy is employed,"meng zhang, will hicks, liliana claar, rumesha ahmed, karim remtoula",3,0,1,Not found,1,4
+428,148,who are the vice presidents of the company where jonathan eady is employed,"meng zhang, will hicks, liliana claar, rumesha ahmed, karim remtoula",3,0,1,Not found,1,4
+429,148,who are the vice presidents of the company where craig malloy is employed,"meng zhang, will hicks, liliana claar, rumesha ahmed, karim remtoula",3,0,1,Not found,1,4
+430,148,who are the directors of the company where will hicks is employed,"craig malloy, mukesh singh, todd kennedy, jonathan eady, katherine bass",3,0,1,Not found,1,4
+431,148,who are the directors of the company where rumesha ahmed is employed,"craig malloy, mukesh singh, todd kennedy, jonathan eady, katherine bass",3,0,1,Not found,1,4
+437,148,what companies are the lender but not the administrative agent in the agreement,"td bank, pnc bank, bnp paribas, truist bank, hsbc bank usa, mufg union bank, wells fargo bank, barclays bank plc, jpmorgan chase bank, morgan stanley bank, the bank of nova scotia, the northern trust company, national westminster bank plc, u.s. bank national association",1,2,1,"BNP Paribas, TD Bank, N.A., Wells Fargo Bank, National Association, HSBC Bank USA, National Association, National Westminster Bank PLC, PNC Bank, National Association, The Bank of Nova Scotia, U.S. Bank National Association, MUFG Union Bank, N.A., Barclays Bank Plc, Morgan Stanley Bank, N.A., The Northern Trust Company, JPMorgan Chase Bank, N.A., Truist Bank",1,4
+438,148,what companies are the lender but not the co syndication agents in the agreement,"pnc bank, truist bank, hsbc bank usa, bank of america, mufg union bank, wells fargo bank, barclays bank plc, jpmorgan chase bank, morgan stanley bank, the bank of nova scotia, the northern trust company, national westminster bank plc, u.s. bank national association",1,2,1,"HSBC Bank USA, National Association, National Westminster Bank PLC, PNC Bank, National Association, The Bank of Nova Scotia, U.S. Bank National Association, MUFG Union Bank, N.A., Barclays Bank Plc, Morgan Stanley Bank, N.A., The Northern Trust Company, JPMorgan Chase Bank, N.A., Truist Bank",1,4
+439,148,what companies are the lender but not the documentation agents in the agreement,"td bank, pnc bank, bnp paribas, truist bank, hsbc bank usa, bank of america, mufg union bank, wells fargo bank, barclays bank plc, jpmorgan chase bank, morgan stanley bank, the northern trust company",1,2,1,"BNP Paribas, TD Bank, N.A., Wells Fargo Bank, National Association, MUFG Union Bank, N.A., Barclays Bank Plc, Morgan Stanley Bank, N.A., The Northern Trust Company, JPMorgan Chase Bank, N.A., Truist Bank",1,4
+443,166,what companies are the bookrunners but not the lead arrangers in the agreement,"ltd., ing bank n.v., singapore branch, barclays bank plc, state bank of india, standard chartered bank, kotak mahindra bank limited, the bank of tokyo mitsubishi ufj, citigroup global markets asia limited",1,2,1,code terminated,1,4
+444,166,what companies are the bookrunners but not the lender in the agreement,"ing bank n.v., singapore branch, icici bank limited, citigroup global markets asia limited",1,2,1,code terminated,1,4
+445,164,"what roles does u.s. bank national association have in the agreement which are not the roles of suntrust robinson humphrey, inc","lender, lc issuer, administrative agent",1,2,1,"Administrative Agent, LC Issuer, Swing Line Lender",1,4
+446,164,what roles does u.s. bank national association have in the agreement which are not the roles of truist bank,"lc issuer, book runners, administrative agent",1,2,1,"Administrative Agent, LC Issuer, Swing Line Lender",1,4
+447,164,what roles does u.s. bank national association have in the agreement which are not the roles of regions bank,"lc issuer, book runners, administrative agent",1,2,1,"Administrative Agent, LC Issuer, Swing Line Lender",1,4
+448,164,what companies are the lender but not the  book runners in the agreement,"arvest bank, truist bank, regions bank, comerica bank, commerce bank, fifth third bank",1,2,1,"Arvest Bank, Comerica Bank, Commerce Bank, Fifth Third Bank, National Association, UMB Bank N.A.",1,4
+449,164,what companies are the lender but not the syndication agents in the agreement,"arvest bank, comerica bank, commerce bank, fifth third bank, u.s. bank national association",1,2,1,"Arvest Bank, Comerica Bank, Commerce Bank, Fifth Third Bank, National Association, UMB Bank N.A.",1,4
+461,165,who are the vice presidents of the company where peter duncan is employed,"pacella lehane, ryan zimmerman, brigitte m. sinclair, bridgett j. manduk mowry",3,0,1,code terminated,1,4
+465,165,what companies are the lender but not the documentation agents in the agreement,"n.a, ltd., mizuho bank, hsbc bank usa, suntrust bank, bank of america, new york branch, bank of the west, barclays bank plc, jpmorgan chase bank, royal bank of canada, the bank of nova scotia, cooperatieve rabobank u.a., u.s. bank national association",1,2,1,code terminated,1,4
+466,140,what companies are the borrower but not the intermediateco in the agreement,"wwtai finance ltd, wwtai airopco ii dac, airopco 1et bermuda ltd., airopco 1jt bermuda ltd., airopco i sd ireland dac, airopco 1asl bermuda ltd., airopco ii ko ireland dac, airopco ii me ireland dac, wwtai airopco 1 bermuda ltd., wwtai airopco bpa ireland limited",1,2,1,WWTAI Finance Ltd.,1,4
+472,169,"what roles does goldman sachs bank usa have in the agreement which are not the roles of merrill, lynch, pierce, fenner smith incorporated","agent, arranger",1,2,1,code terminated,1,4
+476,169,what companies are the lender but not the book runners in the agreement,"n.a., bank of america, new york branch, barclays bank plc, rabobank nederland, goldman sachs bank usa, co peratieve centrale raiffeisen boerenleenbank b.a.",1,2,1,code terminated,1,4
+481,142,who are the corporate secretarys of the company where joel e. hunter is employed,"jon a. dobson, christine r. johnston",3,0,1,Christine R. Johnston,1,4
+482,142,who are the managing directors of the company where ming k. chu is employed,"jeff ferrell, rob mackinnon, randy geislinger, james d. weinstein",3,0,1,John S. McGill,1,4
+483,142,who are the directors of the company where james d. weinstein is employed,"anar ramji, gordon yip, ming k. chu, brian l. banke, james campbell, john s. mcgill, michael linder, michael zeller",3,0,1,James D. Weinstein,1,4
+484,142,who are the managing directors of the company where john s. mcgill is employed,"jeff ferrell, rob mackinnon, randy geislinger, james d. weinstein",3,0,1,John S. McGill,1,4
+485,142,who are the directors of the company where randy geislinger is employed,"anar ramji, gordon yip, ming k. chu, brian l. banke, james campbell, john s. mcgill, michael linder, michael zeller",3,0,1,Randy Geislinger,1,4
+486,142,who are the managing directors of the company where anar ramji is employed,"jeff ferrell, rob mackinnon, randy geislinger, james d. weinstein",3,0,1,Anar Ramji,1,4
+487,142,who are the managing directors of the company where james campbell is employed,"jeff ferrell, rob mackinnon, randy geislinger, james d. weinstein",3,0,1,James Campbell,1,4
+488,142,who are the managing directors of the company where michael linder is employed,"jeff ferrell, rob mackinnon, randy geislinger, james d. weinstein",3,0,1,Michael Linder,1,4
+489,142,who are the managing directors of the company where michael zeller is employed,"jeff ferrell, rob mackinnon, randy geislinger, james d. weinstein",3,0,1,Michael Zeller,1,4
+490,142,who are the managing directors of the company where brian l. banke is employed,"jeff ferrell, rob mackinnon, randy geislinger, james d. weinstein",3,0,1,Brian L. Banke,1,4
+491,142,who are the managing directors of the company where gordon yip is employed,"jeff ferrell, rob mackinnon, randy geislinger, james d. weinstein",3,0,1,Gordon Yip,1,4
+492,142,who are the directors of the company where richard antl is employed,"anar ramji, gordon yip, ming k. chu, brian l. banke, james campbell, john s. mcgill, michael linder, michael zeller",3,0,1,Richard Antl,1,4
+493,142,who are the managing directors of the company where richard antl is employed,"jeff ferrell, rob mackinnon, randy geislinger, james d. weinstein",3,0,1,Richard Antl,1,4
+494,142,who are the directors of the company where rob mackinnon is employed,"anar ramji, gordon yip, ming k. chu, brian l. banke, james campbell, john s. mcgill, michael linder, michael zeller",3,0,1,Rob MacKinnon,1,4
+495,142,who are the directors of the company where jeff ferrell is employed,"anar ramji, gordon yip, ming k. chu, brian l. banke, james campbell, john s. mcgill, michael linder, michael zeller",3,0,1,Jeff Ferrell,1,4
+501,142,what companies are the lender but not the documentation agents in the agreement,"n.a., ltd., citibank, mizuho bank, chicago branch, toronto branch, bank of america, new york branch, bank of montreal, credit suisse ag, wells fargo bank, barclays bank plc, jpmorgan chase bank, royal bank of canada, national association, national bank of canada, the bank of nova scotia, export development canada, the toronto dominion bank, the bank of tokyo mitsubishi ujf, canadian imperial bank ofcommerce, credit agricole corporate andinvestment bank.",1,2,1,"HSBC Bank Canada, The Toronto-Dominion Bank, New York Branch, Sumitomo Mitsui Banking Corporation, Export Development Canada, The Bank of Nova Scotia, Canadian Imperial Bank of Commerce, Royal Bank of Canada, Barclays Bank PLC, Wells Fargo Bank, National Association, Credit Suisse AG, Toronto Branch, National Bank of Canada, Mizuho Bank, Ltd.",1,4
+502,156,"who are the its authorized signatorys of the company associated with 1800 century park east, suite 1100 los angeles, ca 90067","brian lane, patricia del busto",3,0,1,Brian Lane,1,4
+503,156,who are the directors of the company associated with uk,"guelay mese, henk derksen",3,0,1,Henk Derksen,1,4
+520,156,what companies are the lender but not the  bookrunners in the agreement,"new york branch, deutsche bank ag, wells fargo capital finance corporation canada",1,2,1,"Deutsche Bank AG, New York Branch",1,4
+521,156,what companies are the lender but not the  lead arrangers in the agreement,"new york branch, deutsche bank ag, wells fargo capital finance corporation canada",1,2,1,"Deutsche Bank AG, New York Branch",1,4
+522,156,what companies are the issuing bank but not the  bookrunners in the agreement,"n.a., jpmorgan chase bank, wells fargo capital finance corporation canada",1,2,1,"Deutsche Bank AG, New York Branch",1,4
+523,156,what companies are the issuing bank but not the  lead arrangers in the agreement,"n.a., jpmorgan chase bank, wells fargo capital finance corporation canada",1,2,1,"Deutsche Bank AG, New York Branch",1,4
+538,153,"what roles does citizens bank, n.a. have in the agreement which are not the roles of pnc bank, national association","bookrunners, lead arrangers",1,2,1,Not found,1,4
+539,153,"what roles does citizens bank, n.a. have in the agreement which are not the roles of truist bank","bookrunners, lead arrangers",1,2,1,Not found,1,4
+540,153,"what roles does silicon valley bank have in the agreement which are not the roles of truist securities, inc.","lender, issuing bank, co syndication agents",1,2,1,Not found,1,4
+541,153,"what roles does silicon valley bank have in the agreement which are not the roles of jpmorgan chase bank, n.a","bookrunners, lead arrangers, co syndication agents",1,2,1,Not found,1,4
+542,153,"what roles does silicon valley bank have in the agreement which are not the roles of pnc bank, national association","bookrunners, lead arrangers",1,2,1,Not found,1,4
+543,153,what roles does silicon valley bank have in the agreement which are not the roles of truist bank,"bookrunners, lead arrangers",1,2,1,Not found,1,4
+544,153,"what roles does jpmorgan chase bank, n.a have in the agreement which are not the roles of pnc bank, national association",agent,1,2,1,"Swingline Lender, Administrative Agent",1,4
+545,153,"what roles does jpmorgan chase bank, n.a have in the agreement which are not the roles of truist bank",agent,1,2,1,"Swingline Lender, Administrative Agent",1,4
+546,153,what companies are the issuing bank but not the co syndication agents in the agreement,"n.a, citizens bank, jpmorgan chase bank",1,2,1,"JPMorgan Chase Bank, N.A., Citizens Bank, N.A., PNC Bank, National Association, Silicon Valley Bank, Truist Bank",1,4
+547,153,what companies are the issuing bank but not the  bookrunners in the agreement,"n.a, pnc bank, truist bank, citizens bank, jpmorgan chase bank, national association",1,2,1,"JPMorgan Chase Bank, N.A., Citizens Bank, N.A., PNC Bank, National Association, Silicon Valley Bank, Truist Bank",1,4
+548,153,what companies are the issuing bank but not the  lead arrangers in the agreement,"n.a, pnc bank, truist bank, citizens bank, jpmorgan chase bank, national association",1,2,1,"JPMorgan Chase Bank, N.A., Citizens Bank, N.A., PNC Bank, National Association, Silicon Valley Bank, Truist Bank",1,4
+552,153,what companies are the co syndication agents but not the  bookrunners in the agreement,"pnc bank, truist bank, national association",1,2,1,Not found,1,4
+553,153,what companies are the co syndication agents but not the  lead arrangers in the agreement,"pnc bank, truist bank, national association",1,2,1,Not found,1,4
+555,151,who are the vice presidents of the company where joseph l. corah is employed,"tanille ingle, richard rivera, robert botcherby, christopher coney",3,0,1,Not found,1,4
+572,151,"what roles does citibank have in the agreement which are not the roles of mizuho bank, ltd","agent, bookrunners, lead arrangers",1,2,1,Not found,1,4
+573,151,"what roles does citibank have in the agreement which are not the roles of mizuho bank, ltd.,","agent, lender, l c issuer",1,2,1,Not found,1,4
+574,151,what roles does bank of america have in the agreement which are not the roles of barclays bank plc,"agent, lead arrangers",1,2,1,Not found,1,4
+580,137,who are the senior vice presidents of the company where jireh carcellar is employed,"eric searls, scott dejong, alexander l. rody",3,0,1,Not found,1,4
+583,137,"what roles does deutsche bank securities inc. have in the agreement which are not the roles of regions capital markets,","arrangers, bookrunners",1,2,1,Not found,1,4
+584,137,"what roles does merrill lynch, pierce, fenner smith incorporated have in the agreement which are not the roles of regions capital markets","arrangers, bookrunners",1,2,1,Not found,1,4
+585,137,"what roles does merrill lynch, pierce, fenner smith incorporated have in the agreement which are not the roles of regions capital markets,","arrangers, bookrunners",1,2,1,Not found,1,4
+587,137,what companies are the  bookrunners but not the bookrunners in the agreement,"regions capital markets, deutsche bank securities inc.",1,2,1,Not found,1,4
+608,135,"what roles does mizuho bank, ltd have in the agreement which are not the roles of wells fargo bank, national association","arrangers, bookrunners",1,2,1,"Co-Documentation Agent, Lender",1,4

@@ -1,0 +1,86 @@
+Unnamed: 0,document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension,llm_response,multiple_answers,sum_values
+6,17,"what is the chief executive office office of exgen renewables holdings, llc","il 60603, 49th floorchicago, 10 south dearborn street",2,0,,"10 South Dearborn Street, 49th Floor Chicago, IL 60603",0,2
+7,17,"what is the chief executive office office of exgen renewables iv holding, llc","il 60603, 49th floorchicago, 10 south dearborn street",2,0,,"10 South Dearborn Street, 49th Floor Chicago, IL 60603",0,2
+947,60,"what role do both pnc capital markets llc and mizuho bank, ltd. have in the agreement",bookrunner,1,1,0.0,"PNC Capital Markets LLC is a Joint Lead Arranger and Joint Bookrunner; Mizuho Bank, Ltd. is a Documentation Agent and Joint Lead Arranger.",0,2
+1020,60,"who is the executive director of jpmorgan chase bank, n.a",anthony galea,2,0,0.0,Anthony Galea,0,2
+1021,60,"who is the senior vice president of leidos holdings, inc.",marc h. crown,2,0,0.0,Marc H. Crown,0,2
+1022,60,"who is the treasurer of leidos holdings, inc.",marc h. crown,2,0,0.0,Marc H. Crown,0,2
+1023,60,who is the assistant vice president of regions bank,stephanie herndon,2,0,0.0,Stephanie Herndon,0,2
+1024,60,who is the assistant vice president of bank of the west,caroline smith,2,0,0.0,Caroline Smith,0,2
+1025,60,what is the role in the agreement of the company where marc h. crown is employed,holdings,2,0,0.0,"Borrower, Guarantor",0,2
+1420,66,"who is the director of bank of america, n.a.",ronnie glenn,2,0,0.0,Not found,0,2
+1421,66,"who is the svp of bank of america, n.a.",ronnie glenn,2,0,0.0,SVP,0,2
+1422,66,"who is the duly authorized signatory of capital one, national association",karen m. dahlquist,2,0,0.0,Duly Authorized Signatory,0,2
+1423,66,who is the authorized signer of citibank n.a.,james riley,2,0,0.0,Authorized Signer,0,2
+1424,66,"who is the cfo of icu medical, inc.",brian m. bonnell,2,0,0.0,CFO,0,2
+1425,66,"who is the treasurer of icu medical, inc.",brian m. bonnell,2,0,0.0,Treasurer,0,2
+1426,66,"who is the authorized officer of jpmorgan chase bank, n.a.",erik barragan,2,0,0.0,Authorized Officer,0,2
+1427,66,"who is the cfo of exc holding corp.tangent medical technologies, inc.excelsior medical corporationicu world, inc.",brian m. bonnell,2,0,0.0,CFO,0,2
+1428,66,"who is the treasurer of exc holding corp.tangent medical technologies, inc.excelsior medical corporationicu world, inc.",brian m. bonnell,2,0,0.0,Treasurer,0,2
+1429,66,what is the role in the agreement of the company where karen m. dahlquist is employed,lender,2,0,0.0,Lender,0,2
+1430,66,what is the role in the agreement of the company where brian m. bonnell is employed,borrower,2,0,0.0,Borrower,0,2
+1431,66,what is the role in the agreement of the company where erik barragan is employed,lender,2,0,0.0,Lender,0,2
+1432,66,what is the role in the agreement of the company where ben snodgrass is employed,lender,2,0,0.0,Lender,0,2
+1433,66,what is the role in the agreement of the company where tanille ingle is employed,lender,2,0,0.0,Lender,0,2
+1434,66,what is the role in the agreement of the company where bret douglas is employed,lender,2,0,0.0,Lender,0,2
+1435,66,what is the role in the agreement of the company where tom priedeman is employed,lender,2,0,0.0,Lender,0,2
+1436,66,what is the role in the agreement of the company where joseph d. hricovsky is employed,lender,2,0,0.0,Lender,0,2
+1437,66,what is the role in the agreement of the company where kristie li is employed,lender,2,0,0.0,Lender,0,2
+1438,66,what is the role in the agreement of the company where kathryn e. benjamin is employed,lender,2,0,0.0,Lender,0,2
+1680,9,"who is the associate of credit suisse ag, cayman islands branch",wei jen yuan,2,0,0.0,Wei-Jen Yuan,0,2
+1681,9,"who is the vice president of citibank, n.a.",raymond g. dunning,2,0,0.0,Raymond G. Dunning,0,2
+1682,9,who is the chief financial officer of middletown cogeneration company llc,mark e. newman,2,0,0.0,Mark E. Newman,0,2
+1683,9,who is the senior vice president of middletown cogeneration company llc,mark e. newman,2,0,0.0,Not found,0,2
+1684,9,who is the treasurer of middletown cogeneration company llc,mark e. newman,2,0,0.0,Mark E. Newman,0,2
+1685,9,who is the authorised signatory of the royal bank of scotland plc,brian d. williams,2,0,0.0,Brian D. Williams,0,2
+1686,9,"who is the executive director of jpmorgan chase bank, n.a.",peter predun,2,0,0.0,Peter Predun,0,2
+1687,9,"who is the chief financial officer of suncoke energy partners, l.p.",mark e. newman,2,0,0.0,Mark E. Newman,0,2
+1688,9,"who is the treasurer of suncoke energy partners, l.p.",mark e. newman,2,0,0.0,Mark E. Newman,0,2
+1689,9,what is the role in the agreement of the company where wei jen yuan is employed,lender,2,0,0.0,Lender,0,2
+1690,9,what is the role in the agreement of the company where raymond g. dunning is employed,lender,2,0,0.0,Lender,0,2
+1691,9,what is the role in the agreement of the company where mark e. newman is employed,borrower,2,0,0.0,Borrower,0,2
+1692,9,what is the role in the agreement of the company where brian d. williams is employed,lender,2,0,0.0,Lender,0,2
+1693,9,what is the role in the agreement of the company where james disher is employed,lender,2,0,0.0,Lender,0,2
+1694,9,what is the role in the agreement of the company where mark walton is employed,lender,2,0,0.0,Lender,0,2
+1695,9,what is the role in the agreement of the company where denise r. cade is employed,borrower,2,0,0.0,Not found,0,2
+1696,9,what is the role in the agreement of the company where jonathan m. phillips is employed,borrower,2,0,0.0,Lender,0,2
+1697,9,what is the role in the agreement of the company where eric searls is employed,borrower,2,0,0.0,Lender,0,2
+1806,65,who is the svp of truist bank,frank mccormack,2,0,0.0,Not found,0,2
+1807,65,"who is the managing director of bank of america, n.a.",brian d. corum,2,0,0.0,Not found,0,2
+1808,65,"who is the director of citizens bank, n.a.",sean mcwhinnie,2,0,0.0,Not found,0,2
+1809,65,who is the chief executive officer of mohegan tribal gaming authority,mario c. kontomerkos,2,0,0.0,Not found,0,2
+1810,65,what is the role in the agreement of the company where frank mccormack is employed,lender,2,0,0.0,Revolving Lender,0,2
+1811,65,what is the role in the agreement of the company where brian d. corum is employed,lender,2,0,0.0,Swingline Lender and a Revolving Lender,0,2
+1812,65,what is the role in the agreement of the company where mario c. kontomerkos is employed,borrower,2,0,0.0,Chief Executive Officer,0,2
+1813,65,what is the role in the agreement of the company where yumi okabe is employed,lender,2,0,0.0,Not found,0,2
+1814,65,what is the role in the agreement of the company where philip tancorra is employed,lender,2,0,0.0,Not found,0,2
+1815,65,what is the role in the agreement of the company where lise hinton is employed,lender,2,0,0.0,Not found,0,2
+1816,65,what is the role in the agreement of the company where matthew j. bradley is employed,lender,2,0,0.0,Not found,0,2
+1817,65,what is the role in the agreement of the company where whitney gaston is employed,lender,2,0,0.0,Not found,0,2
+1818,65,what is the role in the agreement of the company where andrew griffin is employed,lender,2,0,0.0,Not found,0,2
+2964,47,who is the vice president of barclays bank plc,samuel coward,2,0,0.0,Samuel Coward,0,2
+2965,47,"who is the vice president of pnc bank, national association",bremmer kneib,2,0,0.0,Bremmer Kneib,0,2
+2966,47,"who is the director of the bank of tokyo mitsubishi ufj, ltd.",brian mcnany,2,0,0.0,Brian McNany,0,2
+2967,47,who is the chief financial officer and treasurer of united therapeutics corporation,james edgemond,2,0,0.0,James Edgemond,0,2
+2968,47,"who is the managing director of wells fargo bank, national association",kirk tesch,2,0,0.0,Kirk Tesch,0,2
+2969,47,what is the role in the agreement of the company where samuel coward is employed,lender,2,0,0.0,Lender,0,2
+2970,47,what is the role in the agreement of the company where james edgemond is employed,borrower,2,0,0.0,Borrower and Guarantor,0,2
+3531,51,who is the treasurer of calpine corporation,zamir rauf,2,0,0.0,Zamir Rauf,0,2
+3532,51,"who is the vice president, finance of calpine corporation",zamir rauf,2,0,0.0,Zamir Rauf,0,2
+3533,51,"who is the vice president of morgan stanley senior funding, inc.",cody gunsch,2,0,0.0,Cody Gunsch,0,2
+3534,51,"who is the vp of mufg union bank, n.a.",sonia flores,2,0,0.0,Sonia Flores,0,2
+3535,51,what is the role in the agreement of the company where zamir rauf is employed,borrower,2,0,0.0,Borrower,0,2
+3536,51,what is the role in the agreement of the company where sonia flores is employed,agent,2,0,0.0,Collateral Agent,0,2
+3561,45,who is the chief financial officer of pinnacle bank,harold r. carpenter,2,0,0.0,Harold R. Carpenter,0,2
+3562,45,who is the client services representative of u.s. bank national association,cynthia m. olson,2,0,0.0,Cynthia M. Olson,0,2
+3563,45,who is the portfolio manager of u.s. bank national association,eric niedbalski,2,0,0.0,Eric Niedbalski,0,2
+3564,45,who is the senior vice president of u.s. bank national association,mark r. cousineau,2,0,0.0,Mark R. Cousineau,0,2
+3565,45,what is the role in the agreement of the company where harold r. carpenter is employed,borrower,2,0,0.0,Borrower,0,2
+3566,45,what is the role in the agreement of the company where mark r. cousineau is employed,lender,2,0,0.0,Lender,0,2
+3567,45,what is the role in the agreement of the company where eric niedbalski is employed,lender,2,0,0.0,Lender,0,2
+3568,45,"what is the role in the agreement of the company where cynthia m. olson, is employed",lender,2,0,0.0,Lender,0,2
+4460,25,"who is the president of hunt cmt equity, llc",michael larsen,2,0,0.0,Michael Larsen,0,2
+4461,25,"who is the svp of jefferies leveraged credit products, llc",william p. mcloughlin,2,0,0.0,William P. McLoughlin,0,2
+4462,25,what is the role in the agreement of the company where emily ergang pappas is employed,agent,2,0,0.0,Administrative Agent and Collateral Agent,0,2
+4463,25,what is the role in the agreement of the company where michael larsen is employed,guarantor,2,0,0.0,Borrower,0,2
+4464,25,what is the role in the agreement of the company where william p. mcloughlin is employed,lender,2,0,0.0,Initial Lender,0,2

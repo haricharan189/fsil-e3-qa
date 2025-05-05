@@ -1,0 +1,147 @@
+Unnamed: 0,document_number,question,answer,num_hops,num_set_operations,multiple_answers,llm_response,sum_values
+0,139,"who is the senior vice president but not chief financial officer, treasurer of the company where shivani agarwal is employed",jay a. brown,3,2,0,Not found,5
+1,139,who is the vice president but not authorized signatory of the company where eric ridgway is employed,michael king,3,2,0,Not found,5
+2,139,who is the vice president but not authorized signatory of the company where lennie blakeslee is employed,michael king,3,2,0,Not found,5
+3,139,who is the vice president but not authorized signatory of the company where michael vondriska is employed,michael king,3,2,0,Not found,5
+4,139,who is the vice president but not authorized signatory of the company where ronnie glenn is employed,michael king,3,2,0,Not found,5
+10,166,who is the head of loan syndications of the company which is the bookrunners but not the lead arrangers in the agreement,carl roberts,3,2,0,Mark Pope,5
+11,166,who is the head of loan syndications of the company which is the lender but not the lead arrangers in the agreement,carl roberts,3,2,0,R. Srinivasa Sekaran,5
+12,166,who is the head of loan syndications of the company which is the lender but not the bookrunners in the agreement,carl roberts,3,2,0,Suguru Hattori,5
+13,166,who is the assistant vice presiden of the company which is the lender but not the bookrunners in the agreement,mark pope,3,2,0,Sandeep Patnaik,5
+14,166,who is the svp credit administration of the company which is the lender but not the bookrunners in the agreement,r. srinivasa sekaran,3,2,0,Sandeep Patnaik,5
+15,166,who is the general manager of the company which is the lender but not the bookrunners in the agreement,suguru hattori,3,2,0,Sudip Kumar Ghatak,5
+16,166,who is the chief executive of the company which is the lender but not the lead arrangers in the agreement,rachit bhatia,3,2,0,Sudip Kumar Ghatak,5
+17,166,who is the head cbo of the company which is the lender but not the lead arrangers in the agreement,sandeep patnaik,3,2,0,Not found,5
+18,166,who is the chief executive of the company which is the lender but not the bookrunners in the agreement,rachit bhatia,3,2,0,Sudip Kumar Ghatak,5
+19,166,who is the head cbo of the company which is the lender but not the bookrunners in the agreement,sandeep patnaik,3,2,0,Not found,5
+20,166,who is the chief executive of the company which is the bookrunners but not the lead arrangers in the agreement,rachit bhatia,3,2,0,Not found,5
+21,166,who is the head cbo of the company which is the bookrunners but not the lead arrangers in the agreement,sandeep patnaik,3,2,0,Not found,5
+22,166,who is the chief manager of the company which is the lender but not the lead arrangers in the agreement,sudip kumar ghatak,3,2,0,Sudip Kumar Ghatak,5
+23,166,who is the chief manager of the company which is the lender but not the bookrunners in the agreement,sudip kumar ghatak,3,2,0,Sudip Kumar Ghatak,5
+24,166,who is the chief manager of the company which is the bookrunners but not the lead arrangers in the agreement,sudip kumar ghatak,3,2,0,Not found,5
+48,153,who is the authorized signatory of the company which is the issuing bank but not the administrative agent in the agreement,grace mahood,3,2,0,Michael J. McWalters,5
+53,145,who is the director but not vice president of the company where guy major is employed,joseph d. glatt,3,2,0,Not found,5
+54,145,who is the director but not vice president of the company where tammy jennissen is employed,joseph d. glatt,3,2,0,Not found,5
+65,135,who is the vice president but not treasurer of the company where christine aharonian is employed,sharon s. spurlin,3,2,0,Not found,5
+66,135,who is the vice president but not treasurer of the company where gabriel juarez is employed,sharon s. spurlin,3,2,0,Not found,5
+67,135,who is the vice president but not treasurer of the company where john c. lozano is employed,sharon s. spurlin,3,2,0,John C. Lozano,5
+68,135,who is the vice president but not treasurer of the company where reginald crichlow is employed,sharon s. spurlin,3,2,0,Not found,5
+69,135,who is the vice president but not treasurer of the company where rosanne parsill is employed,sharon s. spurlin,3,2,0,Rosanne Parsill,5
+70,135,who is the vice president but not treasurer of the company where david valentine is employed,sharon s. spurlin,3,2,0,David Valentine,5
+71,135,who is the vice president but not treasurer of the company where les werme is employed,sharon s. spurlin,3,2,0,Les Werme,5
+72,135,who is the vice president but not treasurer of the company where m. colin warman is employed,sharon s. spurlin,3,2,0,M. Colin Warman,5
+73,135,who is the vice president but not treasurer of the company where mark oberreuter is employed,sharon s. spurlin,3,2,0,Mark Oberreuter,5
+74,135,who is the vice president but not treasurer of the company where shannon juhan is employed,sharon s. spurlin,3,2,0,Shannon Juhan,5
+75,135,who is the vice president but not treasurer of the company where virginia cosenza is employed,sharon s. spurlin,3,2,0,Not found,5
+76,135,who is the vice president but not treasurer of the company where hans beekmans is employed,sharon s. spurlin,3,2,0,Hans Beekmans,5
+101,61,who is the vice president but not director of the company where amanuel assefa is employed,jim cahow,3,2,0,Not found,5
+102,61,who is the vice president but not director of the company where bridgett j. manduk mowry is employed,jim cahow,3,2,0,Not found,5
+103,61,who is the vice president but not director of the company where christopher shafto is employed,jim cahow,3,2,0,Not found,5
+104,61,who is the vice president but not director of the company where liz cheng is employed,jim cahow,3,2,0,Not found,5
+105,61,who is the vice president but not director of the company where marko lukin is employed,jim cahow,3,2,0,Not found,5
+132,83,"who is the senior vice president but not general counsel, secretary of the company where andrew hietala is employed",michael ray,3,2,0,Not found,5
+133,83,"who is the senior vice president but not general counsel, secretary of the company where michael dixon is employed",michael ray,3,2,0,Not found,5
+134,83,"who is the senior vice president but not general counsel, secretary of the company where rita e. dillon is employed",michael ray,3,2,0,Not found,5
+135,83,"who is the senior vice president but not general counsel, secretary of the company where steve levi is employed",michael ray,3,2,0,Not found,5
+136,83,"who is the senior vice president but not general counsel, secretary of the company where steve ryan is employed",michael ray,3,2,0,Not found,5
+164,47,who is the vice president of the company which is the lender but not the co syndication agents in the agreement,bremmer kneib,3,2,0,Robert LaPorte,5
+167,47,who is the director of the company which is the lender but not the co syndication agents in the agreement,brian mcnany,3,2,0,Not found,5
+168,47,"who is the managing director of the company which is the lender but not the administrative agent, in the agreement",kirk tesch,3,2,0,Not found,5
+171,84,who is the general manager but not vp of the company where alexander wu is employed,chwan ming ho,3,2,0,Not found,5
+172,84,who is the general manager but not svp of the company where chwan ming ho is employed,alexander wu,3,2,0,Not found,5
+173,84,who is the senior vice president but not treasurer of the company where brian tuerff is employed,michael a. crabtree,3,2,0,Joshua Turner,5
+174,84,who is the senior vice president but not treasurer of the company where james m. armstrong is employed,michael a. crabtree,3,2,0,Not found,5
+175,84,who is the senior vice president but not treasurer of the company where samuel a. bluso is employed,michael a. crabtree,3,2,0,Not found,5
+210,121,who is the vp but not general manager of the company where murtuza ziauddin is employed,jane chang,3,2,0,Not found,5
+211,121,who is the director but not svp of the company where chris hursey is employed,paul hultgren,3,2,0,Not found,5
+212,121,who is the director but not svp of the company where steven r. bruno is employed,paul hultgren,3,2,0,Steven R. Bruno,5
+213,121,"who is the vice president but not general counsel, secretary of the company where daniel vilarelle is employed",peter c. underwood,3,2,0,Not found,5
+214,121,"who is the vice president but not general counsel, secretary of the company where darran wee is employed",peter c. underwood,3,2,0,Not found,5
+215,121,"who is the vice president but not general counsel, secretary of the company where eric harvey is employed",peter c. underwood,3,2,0,Not found,5
+216,121,"who is the vice president but not general counsel, secretary of the company where mary r. wright is employed",peter c. underwood,3,2,0,Not found,5
+217,121,"who is the vice president but not general counsel, secretary of the company where s. bradley mcdougall is employed",peter c. underwood,3,2,0,Not found,5
+218,121,"who is the vice president but not general counsel, secretary of the company where shirley shipley is employed",peter c. underwood,3,2,0,Not found,5
+347,107,what are the roles and subroles that barclays bank plc and global markets inc. share in the agreement that are not held by wilmington trust fsb,"documentation agent, administrative agent, administrative borrower",1,3,1,Not found,5
+348,107,what are the roles and subroles that barclays bank plc and global markets inc. share in the agreement that are not held by barclays bank plc,"collateral agent, collateral trustee, documentation agent, administrative agent, administrative borrower",1,3,1,Not found,5
+349,107,"what are the roles and subroles that barclays bank plc and wells fargo foothill, inc share in the agreement that are not held by wilmington trust fsb","documentation agent, administrative agent, administrative borrower",1,3,1,Not found,5
+350,107,"what are the roles and subroles that barclays bank plc and wells fargo foothill, inc share in the agreement that are not held by barclays bank plc","collateral agent, collateral trustee, documentation agent, administrative agent, administrative borrower",1,3,1,Not found,5
+351,107,what are the roles and subroles that barclays bank plc and wilmington trust fsb share in the agreement that are not held by barclays bank plc,"collateral agent, collateral trustee",1,3,1,Not found,5
+352,107,"what are the roles and subroles that global markets inc. and wells fargo foothill, inc share in the agreement that are not held by wilmington trust fsb","documentation agent, administrative agent, administrative borrower",1,3,1,Not found,5
+353,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by fifth third bank, national association","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+354,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by goldman sachs bank usa","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+355,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by pnc bank, national association","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+356,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,Not found,5
+357,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by td bank, n.a.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+358,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+359,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+360,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by regions bank","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+361,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+362,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by fifth third bank, national association","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+363,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by goldman sachs bank usa","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+364,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by pnc bank, national association","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+365,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,Not found,5
+366,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by td bank, n.a.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+367,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+368,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+369,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by regions bank","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+370,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+371,60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by pnc bank, national association","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+372,60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,Not found,5
+373,60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by td bank, n.a.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+374,60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+375,60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+376,60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by regions bank","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+377,60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+378,60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by pnc bank, national association","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+379,60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,Not found,5
+380,60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by td bank, n.a.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+381,60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+382,60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+383,60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by regions bank","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+384,60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+385,60,"what are the roles and subroles that bank of montreal and pnc capital markets llc share in the agreement that are not held by td bank, n.a.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+386,60,"what are the roles and subroles that bank of montreal and pnc capital markets llc share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+387,60,"what are the roles and subroles that bank of montreal and pnc capital markets llc share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+388,60,what are the roles and subroles that bank of montreal and pnc capital markets llc share in the agreement that are not held by regions bank,"bookrunner, book manager, lead arranger",1,3,1,Not found,5
+389,60,"what are the roles and subroles that bank of montreal and pnc capital markets llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+390,60,"what are the roles and subroles that bank of montreal and u.s. bank national association share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+391,60,"what are the roles and subroles that bank of montreal and u.s. bank national association share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+392,60,what are the roles and subroles that bank of montreal and u.s. bank national association share in the agreement that are not held by regions bank,"bookrunner, book manager, lead arranger",1,3,1,Not found,5
+393,60,"what are the roles and subroles that bank of montreal and u.s. bank national association share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+394,60,"what are the roles and subroles that bank of montreal and wells fargo securities llc share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+395,60,what are the roles and subroles that bank of montreal and wells fargo securities llc share in the agreement that are not held by regions bank,"bookrunner, book manager, lead arranger",1,3,1,Not found,5
+396,60,"what are the roles and subroles that bank of montreal and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+397,60,"what are the roles and subroles that bofa securities, inc. and citibank, n.a. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,Not found,5
+398,60,"what are the roles and subroles that bofa securities, inc. and citibank, n.a. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+399,60,"what are the roles and subroles that bofa securities, inc. and jpmorgan chase bank, n.a. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,Not found,5
+400,60,"what are the roles and subroles that bofa securities, inc. and jpmorgan chase bank, n.a. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+401,60,"what are the roles and subroles that bofa securities, inc. and mufg bank, ltd. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,Not found,5
+402,60,"what are the roles and subroles that bofa securities, inc. and mufg bank, ltd. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+403,60,"what are the roles and subroles that bofa securities, inc. and pnc capital markets llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+404,60,"what are the roles and subroles that bofa securities, inc. and u.s. bank national association share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+405,60,"what are the roles and subroles that bofa securities, inc. and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+406,60,"what are the roles and subroles that citibank, n.a. and jpmorgan chase bank, n.a. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,Not found,5
+407,60,"what are the roles and subroles that citibank, n.a. and jpmorgan chase bank, n.a. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+408,60,"what are the roles and subroles that citibank, n.a. and mufg bank, ltd. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,Not found,5
+409,60,"what are the roles and subroles that citibank, n.a. and mufg bank, ltd. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+410,60,"what are the roles and subroles that citibank, n.a. and pnc capital markets llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+411,60,"what are the roles and subroles that citibank, n.a. and u.s. bank national association share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+412,60,"what are the roles and subroles that citibank, n.a. and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+413,60,"what are the roles and subroles that jpmorgan chase bank, n.a. and mufg bank, ltd. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,Not found,5
+414,60,"what are the roles and subroles that jpmorgan chase bank, n.a. and mufg bank, ltd. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+415,60,"what are the roles and subroles that jpmorgan chase bank, n.a. and pnc capital markets llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+416,60,"what are the roles and subroles that jpmorgan chase bank, n.a. and u.s. bank national association share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+417,60,"what are the roles and subroles that jpmorgan chase bank, n.a. and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+418,60,"what are the roles and subroles that mufg bank, ltd. and pnc capital markets llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+419,60,"what are the roles and subroles that mufg bank, ltd. and u.s. bank national association share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+420,60,"what are the roles and subroles that mufg bank, ltd. and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+421,60,"what are the roles and subroles that u.s. bank national association and wells fargo securities llc share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+422,60,what are the roles and subroles that u.s. bank national association and wells fargo securities llc share in the agreement that are not held by regions bank,"bookrunner, book manager, lead arranger",1,3,1,Not found,5
+423,60,"what are the roles and subroles that u.s. bank national association and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Not found,5
+439,83,what are the positions held by michael ray but not by rita e. dillon or steve levi,"secretary, general counsel",1,3,1,Senior Vice President,5
+440,83,what are the positions held by michael ray but not by rita e. dillon or steve ryan,"secretary, general counsel",1,3,1,"Senior Vice President, General Counsel, Secretary",5
+441,83,what are the positions held by michael ray but not by steve levi or steve ryan,"secretary, general counsel",1,3,1,Senior Vice President,5
+442,145,what are the positions held by christopher stephen guinta but not by joseph d. glatt or guy major,"manager, legal representative, chief financial officer",1,3,1,['Chief Financial Officer'],5
+443,145,what are the positions held by christopher stephen guinta but not by joseph d. glatt or tammy jennissen,"manager, legal representative, chief financial officer",1,3,1,['Chief Financial Officer'],5
+444,145,what are the positions held by christopher stephen guinta but not by guy major or tammy jennissen,"manager, legal representative, chief financial officer",1,3,1,['Chief Financial Officer'],5
+448,121,what are the positions held by peter c. underwood but not by s. bradley mcdougall or shirley shipley,"secretary, general counsel",1,3,1,"Vice President, General Counsel and Secretary",5
