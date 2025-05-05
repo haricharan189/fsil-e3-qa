@@ -1,0 +1,218 @@
+Removed Exact Duplicates from level3.csv
+Total exact duplicates removed: 31
+(Entries where both question AND answer were identical)
+================================================================================
+
+Found 2 identical entries:
+Question: what are the roles in the agreement of the company where darin mullis is employed
+Answer: agent, lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 66  # First occurrence - kept
+✗ 50  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what are the roles in the agreement of the company where yinghua zhang is employed
+Answer: agent, lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 95  # First occurrence - kept
+✗ 50  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what role does bank of america have in the agreement which is not the role of jpmorgan chase bank
+Answer: co syndication agent
+Document numbers (✓ = kept, ✗ = removed):
+✓ 77  # First occurrence - kept
+✗ 82  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what role does citibank, n.a. have in the agreement which is not the role of jpmorgan chase bank, n.a.
+Answer: agent
+Document numbers (✓ = kept, ✗ = removed):
+✓ 52  # First occurrence - kept
+✗ 126  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what role does goldman sachs bank usa have in the agreement which is not the role of rbc capital markets
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 106  # First occurrence - kept
+✗ 123  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what role does jpmorgan chase bank, n.a have in the agreement which is not the role of the royal bank of scotland plc
+Answer: agent
+Document numbers (✓ = kept, ✗ = removed):
+✓ 35  # First occurrence - kept
+✗ 35  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what role does regions bank have in the agreement which is not the role of jpmorgan chase bank, n.a.
+Answer: agents
+Document numbers (✓ = kept, ✗ = removed):
+✓ 24  # First occurrence - kept
+✗ 24  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what role does suntrust bank have in the agreement which is not the role of jpmorgan chase bank, n.a.
+Answer: agents
+Document numbers (✓ = kept, ✗ = removed):
+✓ 24  # First occurrence - kept
+✗ 24  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what roles do both bofa securities, inc. and jpmorgan chase bank, n.a. have in the agreement
+Answer: arranger, bookrunner, book manager
+Document numbers (✓ = kept, ✗ = removed):
+✓ 128  # First occurrence - kept
+✗ 60  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who are the vice presidents of bank of america, n.a.
+Answer: angela lau, yinghua zhang
+Document numbers (✓ = kept, ✗ = removed):
+✓ 95  # First occurrence - kept
+✗ 95  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the assistant controller and vice president of cejka search, inc.
+Answer: emil hensel
+Document numbers (✓ = kept, ✗ = removed):
+✓ 85  # First occurrence - kept
+✗ 85  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the assistant controller and vice president of cross country healthcare, inc.
+Answer: emil hensel
+Document numbers (✓ = kept, ✗ = removed):
+✓ 85  # First occurrence - kept
+✗ 85  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the assistant controller of the company where susan e. ball is employed
+Answer: emil hensel
+Document numbers (✓ = kept, ✗ = removed):
+✓ 85  # First occurrence - kept
+✗ 85  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the associate director of the company where kenneth chin is employed
+Answer: houssem daly
+Document numbers (✓ = kept, ✗ = removed):
+✓ 110  # First occurrence - kept
+✗ 38  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the associate director of the company where robert k. reddington is employed
+Answer: johanna minaya
+Document numbers (✓ = kept, ✗ = removed):
+✓ 83  # First occurrence - kept
+✗ 31  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: who is the ceo and managing member of pharmakon advisors lp
+Answer: pedro gonzalez de cosio
+Document numbers (✓ = kept, ✗ = removed):
+✓ 28  # First occurrence - kept
+✗ 28  # Duplicate - removed
+✗ 67  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: who is the ceo of the company associated with 110 east 59th street, new york, ny 10022
+Answer: pedro gonzalez de cosio
+Document numbers (✓ = kept, ✗ = removed):
+✓ 28  # First occurrence - kept
+✗ 28  # Duplicate - removed
+✗ 67  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the chief financial officer and vice president of cejka search, inc.
+Answer: emil hensel
+Document numbers (✓ = kept, ✗ = removed):
+✓ 85  # First occurrence - kept
+✗ 85  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the chief financial officer and vice president of cross country healthcare, inc.
+Answer: emil hensel
+Document numbers (✓ = kept, ✗ = removed):
+✓ 85  # First occurrence - kept
+✗ 85  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the chief financial officer of the company where susan e. ball is employed
+Answer: emil hensel
+Document numbers (✓ = kept, ✗ = removed):
+✓ 85  # First occurrence - kept
+✗ 85  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the credit executive of the company where teresita siao is employed
+Answer: keith winzenried
+Document numbers (✓ = kept, ✗ = removed):
+✓ 83  # First occurrence - kept
+✗ 83  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the executive director of the company which is the issuing bank in the agreement
+Answer: hector j. varona
+Document numbers (✓ = kept, ✗ = removed):
+✓ 77  # First occurrence - kept
+✗ 40  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: who is the managing member of the company associated with 110 east 59th street, new york, ny 10022
+Answer: pedro gonzalez de cosio
+Document numbers (✓ = kept, ✗ = removed):
+✓ 28  # First occurrence - kept
+✗ 28  # Duplicate - removed
+✗ 67  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the vice president of the company associated with 4 city place drive, suite 300creve coeur, missouri 63141
+Answer: emil hensel
+Document numbers (✓ = kept, ✗ = removed):
+✓ 85  # First occurrence - kept
+✗ 85  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the vice president of the company associated with 6551 park of commerce blvd. nwboca raton, florida 33487
+Answer: emil hensel
+Document numbers (✓ = kept, ✗ = removed):
+✓ 85  # First occurrence - kept
+✗ 85  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: who is the vice president of the company where susan e. ball is employed
+Answer: emil hensel
+Document numbers (✓ = kept, ✗ = removed):
+✓ 85  # First occurrence - kept
+✗ 85  # Duplicate - removed
+✗ 85  # Duplicate - removed
+✗ 85  # Duplicate - removed
+--------------------------------------------------------------------------------
+

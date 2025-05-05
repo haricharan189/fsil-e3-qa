@@ -1,0 +1,19 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+60,"What is the role and subrole that Bank of Montreal and Fifth Third Bank, National Association share in the agreement that is not held by JPMorgan Chase Bank, N.A.?",documentation agent,1,3,0
+60,"What is the role and subrole that Bank of Montreal and Fifth Third Bank, National Association share in the agreement that is not held by MUFG Bank, Ltd.?",documentation agent,1,3,0
+60,"What is the role and subrole that Bank of Montreal and Fifth Third Bank, National Association share in the agreement that is not held by PNC Capital Markets LLC?",documentation agent,1,3,0
+60,"What is the role and subrole that Bank of Montreal and Fifth Third Bank, National Association share in the agreement that is not held by Wells Fargo Securities LLC?",documentation agent,1,3,0
+60,"What is the role and subrole that Bank of Montreal and Goldman Sachs Bank USA share in the agreement that is not held by JPMorgan Chase Bank, N.A.?",documentation agent,1,3,0
+60,"What is the role and subrole that Bank of Montreal and Goldman Sachs Bank USA share in the agreement that is not held by MUFG Bank, Ltd.?",documentation agent,1,3,0
+60,What is the role and subrole that Bank of Montreal and Goldman Sachs Bank USA share in the agreement that is not held by PNC Capital Markets LLC?,documentation agent,1,3,0
+60,What is the role and subrole that Bank of Montreal and Goldman Sachs Bank USA share in the agreement that is not held by Wells Fargo Securities LLC?,documentation agent,1,3,0
+60,"What is the role and subrole that Bank of Montreal and PNC Bank, National Association share in the agreement that is not held by PNC Capital Markets LLC?",documentation agent,1,3,0
+60,"What is the role and subrole that Bank of Montreal and PNC Bank, National Association share in the agreement that is not held by Wells Fargo Securities LLC?",documentation agent,1,3,0
+60,"What is the role and subrole that Bank of Montreal and TD Bank, N.A. share in the agreement that is not held by Wells Fargo Securities LLC?",documentation agent,1,3,0
+60,What is the role and subrole that Bank of Montreal and U.S. Bank National Association share in the agreement that is not held by Wells Fargo Securities LLC?,documentation agent,1,3,0
+60,"What is the role and subrole that Bank of Montreal and Wells Fargo Bank, National Association share in the agreement that is not held by Wells Fargo Securities LLC?",documentation agent,1,3,0
+60,"What is the role and subrole that U.S. Bank National Association and Wells Fargo Bank, National Association share in the agreement that is not held by Wells Fargo Securities LLC?",documentation agent,1,3,0
+67,"What is the role and subrole that COHERUS INTERMEDIATE CORP. and INTEKRIN THERAPEUTICS INC. share in the agreement that is not held by COHERUS BIOSCIENCES, INC.?",additional credit party,1,3,0
+135,"What is the role and subrole that Citigroup Global Markets Inc. and DNB Markets, Inc. share in the agreement that is not held by Merrill Lynch, Pierce, Fenner %26 Smith Incorporated?",lead arranger,1,3,0
+135,"What is the role and subrole that Citigroup Global Markets Inc. and J.P. Morgan Securities LLC share in the agreement that is not held by Merrill Lynch, Pierce, Fenner %26 Smith Incorporated?",lead arranger,1,3,0
+135,"What is the role and subrole that DNB Markets, Inc. and J.P. Morgan Securities LLC share in the agreement that is not held by Merrill Lynch, Pierce, Fenner %26 Smith Incorporated?",lead arranger,1,3,0

@@ -1,0 +1,268 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+111,"What role does NATIONAL AUSTRALIA BANK LIMITED have in the agreement which is not the role of SUNTRUST ROBINSON HUMPHREY, INC.?",Lender,2,1,0
+111,"What role does NATIONAL AUSTRALIA BANK LIMITED have in the agreement which is not the role of WELLS FARGO SECURITIES, LLC?",Lender,2,1,0
+107,"What role does EASYLINK SERVICES INTERNATIONAL CORPORATION have in the agreement which is not the role of OCELOT MERGER SUB, INC.?",Guarantor,2,1,0
+107,"What role does EASYLINK SERVICES INTERNATIONAL CORPORATION have in the agreement which is not the role of GXS Worldwide, Inc.?",Grantor,2,1,0
+107,"What role does EASYLINK SERVICES USA, INC. have in the agreement which is not the role of OCELOT MERGER SUB, INC.?",Guarantor,2,1,0
+107,"What role does EASYLINK SERVICES USA, INC. have in the agreement which is not the role of GXS Worldwide, Inc.?",Grantor,2,1,0
+107,"What role does OCELOT MERGER SUB, INC. have in the agreement which is not the role of OPEN TEXT CORPORATION?",Borrower,2,1,0
+107,"What role does OCELOT MERGER SUB, INC. have in the agreement which is not the role of OPEN TEXT HOLDINGS, INC.?",Borrower,2,1,0
+107,"What role does OCELOT MERGER SUB, INC. have in the agreement which is not the role of OPEN TEXT INC.?",Borrower,2,1,0
+107,"What role does OCELOT MERGER SUB, INC. have in the agreement which is not the role of OPEN TEXT USA INC.?",Borrower,2,1,0
+107,"What role does OCELOT MERGER SUB, INC. have in the agreement which is not the role of XPEDITE SYSTEMS, LLC?",Borrower,2,1,0
+107,"What role does OCELOT MERGER SUB, INC. have in the agreement which is not the role of OPEN TEXT ULC?",Borrower,2,1,0
+107,"What role does OPEN TEXT CORPORATION have in the agreement which is not the role of GXS Worldwide, Inc.?",Grantor,2,1,0
+107,"What role does OPEN TEXT HOLDINGS, INC. have in the agreement which is not the role of GXS Worldwide, Inc.?",Grantor,2,1,0
+107,"What role does OPEN TEXT INC. have in the agreement which is not the role of GXS Worldwide, Inc.?",Grantor,2,1,0
+107,"What role does OPEN TEXT USA INC. have in the agreement which is not the role of GXS Worldwide, Inc.?",Grantor,2,1,0
+107,"What role does XPEDITE SYSTEMS, LLC have in the agreement which is not the role of GXS Worldwide, Inc.?",Grantor,2,1,0
+107,"What role does GXS Worldwide, Inc. have in the agreement which is not the role of OPEN TEXT ULC?",guarantors,2,1,0
+106,What role does BARCLAYS BANK PLC have in the agreement which is not the role of DEUTSCHE BANK SECURITIES INC.?,Lender,2,1,0
+106,What role does BARCLAYS BANK PLC have in the agreement which is not the role of RBC CAPITAL MARKETS?,Lender,2,1,0
+106,"What role does CITIGROUP GLOBAL MARKETS, INC. have in the agreement which is not the role of UBS SECURITIES LLC,?",Bookrunners,2,1,0
+106,What role does GOLDMAN SACHS BANK USA have in the agreement which is not the role of RBC CAPITAL MARKETS?,Lender,2,1,0
+106,What role does Royal Bank of Canada have in the agreement which is not the role of ROYAL BANK OF CANADA?,Trustee,2,1,0
+60,"What role does Bank of Montreal have in the agreement which is not the role of BofA Securities, Inc.?",agents,2,1,0
+60,"What role does Bank of Montreal have in the agreement which is not the role of Citibank, N.A.?",agents,2,1,0
+60,"What role does Bank of Montreal have in the agreement which is not the role of JPMorgan Chase Bank, N.A.?",agents,2,1,0
+60,"What role does Bank of Montreal have in the agreement which is not the role of MUFG Bank, Ltd.?",agents,2,1,0
+60,What role does Bank of Montreal have in the agreement which is not the role of Wells Fargo Securities LLC?,agents,2,1,0
+60,"What role does Bank of Montreal have in the agreement which is not the role of Mizuho Bank, Ltd.?",joint bookrunners,2,1,0
+60,"What role does BofA Securities, Inc. have in the agreement which is not the role of Mizuho Bank, Ltd.?",joint bookrunners,2,1,0
+60,"What role does Citibank, N.A. have in the agreement which is not the role of Mizuho Bank, Ltd.?",joint bookrunners,2,1,0
+60,"What role does JPMorgan Chase Bank, N.A. have in the agreement which is not the role of Mizuho Bank, Ltd.?",joint bookrunners,2,1,0
+60,"What role does MUFG Bank, Ltd. have in the agreement which is not the role of Mizuho Bank, Ltd.?",joint bookrunners,2,1,0
+60,What role does U.S. Bank National Association have in the agreement which is not the role of Wells Fargo Securities LLC?,agents,2,1,0
+60,"What role does U.S. Bank National Association have in the agreement which is not the role of Mizuho Bank, Ltd.?",joint bookrunners,2,1,0
+60,"What role does Wells Fargo Securities LLC have in the agreement which is not the role of Mizuho Bank, Ltd.?",joint bookrunners,2,1,0
+161,What role does BMO CAPITAL MARKETS have in the agreement which is not the role of TRUIST BANK?,JOINT-LEAD ARRANGERS,2,1,0
+161,What role does THE HUNTINGTON NATIONAL BANK have in the agreement which is not the role of TRUIST BANK?,JOINT-LEAD ARRANGERS,2,1,0
+160,"What role does BOFA SECURITIES, INC have in the agreement which is not the role of JPMORGAN CHASE BANK, N.A.?",Joint Bookrunners,2,1,0
+160,"What role does MORGAN STANLEY SENIOR FUNDING, INC have in the agreement which is not the role of JPMORGAN CHASE BANK, N.A.?",Joint Bookrunners,2,1,0
+148,What role does BNP PARIBAS have in the agreement which is not the role of NATIONAL WESTMINSTER BANK PLC?,Co-Syndication Agents,2,1,0
+148,What role does BNP PARIBAS have in the agreement which is not the role of THE BANK OF NOVA SCOTIA?,Co-Syndication Agents,2,1,0
+148,What role does BNP PARIBAS have in the agreement which is not the role of U.S. BANK NATIONAL ASSOCIATION?,Co-Syndication Agents,2,1,0
+148,What role does BNP PARIBAS have in the agreement which is not the role of BANK OF AMERICA?,Co-Syndication Agents,2,1,0
+148,What role does NATIONAL WESTMINSTER BANK PLC have in the agreement which is not the role of TD BANK?,Documentation Agents,2,1,0
+148,What role does NATIONAL WESTMINSTER BANK PLC have in the agreement which is not the role of BANK OF AMERICA?,Documentation Agents,2,1,0
+148,What role does THE BANK OF NOVA SCOTIA have in the agreement which is not the role of TD BANK?,Documentation Agents,2,1,0
+148,What role does THE BANK OF NOVA SCOTIA have in the agreement which is not the role of BANK OF AMERICA?,Documentation Agents,2,1,0
+148,What role does U.S. BANK NATIONAL ASSOCIATION have in the agreement which is not the role of TD BANK?,Documentation Agents,2,1,0
+148,What role does U.S. BANK NATIONAL ASSOCIATION have in the agreement which is not the role of BANK OF AMERICA?,Documentation Agents,2,1,0
+148,What role does TD BANK have in the agreement which is not the role of BANK OF AMERICA?,Co-Syndication Agents,2,1,0
+77,What role does BANK OF AMERICA have in the agreement which is not the role of U.S. BANK NATIONAL ASSOCIATION?,Co-Syndication Agent,2,1,0
+77,What role does BANK OF AMERICA have in the agreement which is not the role of GOLDMAN SACHS BANK USA?,Co-Syndication Agent,2,1,0
+77,What role does BANK OF AMERICA have in the agreement which is not the role of JPMORGAN CHASE BANK?,Co-Syndication Agent,2,1,0
+77,What role does SUNTRUST BANK have in the agreement which is not the role of U.S. BANK NATIONAL ASSOCIATION?,Co-Syndication Agent,2,1,0
+77,What role does SUNTRUST BANK have in the agreement which is not the role of GOLDMAN SACHS BANK USA?,Co-Syndication Agent,2,1,0
+77,What role does SUNTRUST BANK have in the agreement which is not the role of JPMORGAN CHASE BANK?,Co-Syndication Agent,2,1,0
+77,What role does U.S. BANK NATIONAL ASSOCIATION have in the agreement which is not the role of JPMORGAN CHASE BANK?,Co-Documentation Agent,2,1,0
+77,"What role does U.S. BANK NATIONAL ASSOCIATION have in the agreement which is not the role of WELLS FARGO BANK, NATIONAL ASSOCIATION?",Co-Documentation Agent,2,1,0
+77,What role does GOLDMAN SACHS BANK USA have in the agreement which is not the role of JPMORGAN CHASE BANK?,Co-Documentation Agent,2,1,0
+77,"What role does GOLDMAN SACHS BANK USA have in the agreement which is not the role of WELLS FARGO BANK, NATIONAL ASSOCIATION?",Co-Documentation Agent,2,1,0
+162,"What role does CITIBANK, N.A have in the agreement which is not the role of WELLS FARGO SECURITIES, LLC?",Administrative Agent,2,1,0
+72,"What role does GOLDMAN SACHS BANK USA have in the agreement which is not the role of WELLS FARGO SECURITIES, LLC?",Syndication Agents,2,1,0
+72,What role does GOLDMAN SACHS BANK USA have in the agreement which is not the role of CITIGROUP GLOBAL MARKETS INC?,Syndication Agents,2,1,0
+66,"What role does BNP Paribas Securities Corp. have in the agreement which is not the role of KeyBanc Capital Markets, Inc.?",Agents,2,1,0
+66,"What role does BNP Paribas Securities Corp. have in the agreement which is not the role of Wells Fargo Securities, LLC?",Agents,2,1,0
+66,"What role does Bank of the West have in the agreement which is not the role of KeyBanc Capital Markets, Inc.?",Agents,2,1,0
+66,"What role does Bank of the West have in the agreement which is not the role of Wells Fargo Securities, LLC?",Agents,2,1,0
+66,"What role does Barclays Bank PLC have in the agreement which is not the role of KeyBanc Capital Markets, Inc.?",Agents,2,1,0
+66,"What role does Barclays Bank PLC have in the agreement which is not the role of Wells Fargo Securities, LLC?",Agents,2,1,0
+66,"What role does BofA Securities, Inc. have in the agreement which is not the role of KeyBanc Capital Markets, Inc.?",Agents,2,1,0
+66,"What role does BofA Securities, Inc. have in the agreement which is not the role of Wells Fargo Securities, LLC?",Agents,2,1,0
+66,"What role does Citigroup Global Markets Inc. have in the agreement which is not the role of KeyBanc Capital Markets, Inc.?",Agents,2,1,0
+66,"What role does Citigroup Global Markets Inc. have in the agreement which is not the role of Wells Fargo Securities, LLC?",Agents,2,1,0
+66,"What role does U.S. Bank National Association have in the agreement which is not the role of Wells Fargo Securities, LLC?",Agents,2,1,0
+66,"What role does Citibank N.A. have in the agreement which is not the role of MUFG Bank, Ltd.?",Revolver,2,1,0
+66,"What role does Citibank N.A. have in the agreement which is not the role of Wells Fargo Bank, National Association?",Revolver,2,1,0
+99,"What role does CO%C3%96PERATIEVE CENTRALE RAIFFEISEN-BOERENLEENBANK B.A. have in the agreement which is not the role of MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED?",Agent,2,1,0
+99,"What role does CO%C3%96PERATIEVE CENTRALE RAIFFEISEN-BOERENLEENBANK B.A. have in the agreement which is not the role of WELLS FARGO SECURITIES, LLC?",Agent,2,1,0
+99,"What role does RABOBANK NEDERLAND have in the agreement which is not the role of WELLS FARGO SECURITIES, LLC?",Agent,2,1,0
+98,"What role does BANK OF AMERICA have in the agreement which is not the role of BANK OF AMERICA, N.A.?",ADMINISTRATIVE%09 %09%09 %09%09 %09AGENT %26 LENDER,2,1,0
+98,What role does BANK OF AMERICA have in the agreement which is not the role of Bank of America?,ADMINISTRATIVE%09 %09%09 %09%09 %09AGENT %26 LENDER,2,1,0
+166,What role does ICICI BANK LIMITED have in the agreement which is not the role of BARCLAYS BANK PLC?,Lead Arrangers,2,1,0
+166,What role does ICICI BANK LIMITED have in the agreement which is not the role of STATE BANK OF INDIA?,Lead Arrangers,2,1,0
+166,"What role does ICICI BANK LIMITED have in the agreement which is not the role of THE BANK OF TOKYO-MITSUBISHI UFJ, LTD.?",Lead Arrangers,2,1,0
+166,What role does ICICI BANK LIMITED have in the agreement which is not the role of KOTAK MAHINDRA BANK LIMITED?,Lead Arrangers,2,1,0
+166,What role does ICICI BANK LIMITED have in the agreement which is not the role of STANDARD CHARTERED BANK?,Lead Arrangers,2,1,0
+166,What role does AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED have in the agreement which is not the role of BARCLAYS BANK PLC?,Lead Arrangers,2,1,0
+166,What role does AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED have in the agreement which is not the role of STATE BANK OF INDIA?,Lead Arrangers,2,1,0
+166,"What role does AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED have in the agreement which is not the role of THE BANK OF TOKYO-MITSUBISHI UFJ, LTD.?",Lead Arrangers,2,1,0
+166,What role does AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED have in the agreement which is not the role of KOTAK MAHINDRA BANK LIMITED?,Lead Arrangers,2,1,0
+166,What role does AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED have in the agreement which is not the role of STANDARD CHARTERED BANK?,Lead Arrangers,2,1,0
+166,What role does AXIS BANK LIMITED have in the agreement which is not the role of KOTAK MAHINDRA BANK LIMITED?,Lead Arrangers,2,1,0
+166,What role does AXIS BANK LIMITED have in the agreement which is not the role of STANDARD CHARTERED BANK?,Lead Arrangers,2,1,0
+166,What role does BANK OF BARODA have in the agreement which is not the role of KOTAK MAHINDRA BANK LIMITED?,Lead Arrangers,2,1,0
+166,What role does BANK OF BARODA have in the agreement which is not the role of STANDARD CHARTERED BANK?,Lead Arrangers,2,1,0
+9,What role does Barclays Bank PLC have in the agreement which is not the role of BARCLAYS BANK PLC?,Arrangers,2,1,0
+9,"What role does Barclays Bank PLC have in the agreement which is not the role of JPMORGAN CHASE BANK, N.A.?",Arrangers,2,1,0
+59,What role does Bank of the West have in the agreement which is not the role of U.S. Bank?,agents,2,1,0
+59,What role does Fifth Third Bank have in the agreement which is not the role of U.S. Bank?,agents,2,1,0
+59,What role does U.S. BANK NATIONAL ASSOCIATION have in the agreement which is not the role of U.S. Bank?,Agent,2,1,0
+170,"What role does BANK OF AMERICA, N.A. have in the agreement which is not the role of JPMORGAN CHASE BANK, N.A.?",L%2FC Issuer,2,1,0
+165,"What role does BANK OF AMERICA, N.A have in the agreement which is not the role of GOLDMAN SACHS BANK USA?",Administrative Agent,2,1,0
+165,"What role does BANK OF AMERICA, N.A have in the agreement which is not the role of THE BANK OF TOKYO-MITSUBISHI UFJ, LTD?",Administrative Agent,2,1,0
+165,"What role does BANK OF AMERICA, N.A have in the agreement which is not the role of WELLS FARGO BANK, NATIONAL ASSOCIATION?",Administrative Agent,2,1,0
+165,"What role does BANK OF AMERICA, N.A have in the agreement which is not the role of JPMORGAN CHASE BANK, N.A?",Administrative Agent,2,1,0
+165,"What role does GOLDMAN SACHS BANK USA have in the agreement which is not the role of MIZUHO BANK, LTD?",Lender,2,1,0
+165,"What role does GOLDMAN SACHS BANK USA have in the agreement which is not the role of JPMORGAN CHASE BANK, N.A?",Documentation Agents,2,1,0
+165,"What role does MIZUHO BANK, LTD have in the agreement which is not the role of THE BANK OF TOKYO-MITSUBISHI UFJ, LTD?",Joint Bookrunners,2,1,0
+165,"What role does MIZUHO BANK, LTD have in the agreement which is not the role of WELLS FARGO BANK, NATIONAL ASSOCIATION?",Joint Bookrunners,2,1,0
+165,"What role does THE BANK OF TOKYO-MITSUBISHI UFJ, LTD have in the agreement which is not the role of JPMORGAN CHASE BANK, N.A?",Documentation Agents,2,1,0
+165,"What role does WELLS FARGO BANK, NATIONAL ASSOCIATION have in the agreement which is not the role of JPMORGAN CHASE BANK, N.A?",Documentation Agents,2,1,0
+41,What role does BMO HARRIS BANK have in the agreement which is not the role of BMO Harris Bank N.A.?,"Agent,",2,1,0
+41,"What role does CITIZENS BANK, N.A have in the agreement which is not the role of CITIZENS BANK, N.A.?",Agent,2,1,0
+82,What role does BANK OF AMERICA have in the agreement which is not the role of CITIBANK?,Co-Syndication Agent,2,1,0
+82,"What role does BANK OF AMERICA have in the agreement which is not the role of HSBC BANK USA, NATIONAL ASSOCIATION?",Co-Syndication Agent,2,1,0
+82,What role does BANK OF AMERICA have in the agreement which is not the role of THE ROYAL BANK OF SCOTLAND PLC?,Co-Syndication Agent,2,1,0
+82,What role does BANK OF AMERICA have in the agreement which is not the role of JPMORGAN CHASE BANK?,Co-Syndication Agent,2,1,0
+82,What role does CITIBANK have in the agreement which is not the role of BARCLAYS BANK PLC?,Co-Documentation Agent,2,1,0
+82,What role does CITIBANK have in the agreement which is not the role of JPMORGAN CHASE BANK?,Co-Documentation Agent,2,1,0
+82,"What role does BARCLAYS BANK PLC have in the agreement which is not the role of HSBC BANK USA, NATIONAL ASSOCIATION?",Co-Syndication Agent,2,1,0
+82,What role does BARCLAYS BANK PLC have in the agreement which is not the role of THE ROYAL BANK OF SCOTLAND PLC?,Co-Syndication Agent,2,1,0
+82,What role does BARCLAYS BANK PLC have in the agreement which is not the role of JPMORGAN CHASE BANK?,Co-Syndication Agent,2,1,0
+82,"What role does HSBC BANK USA, NATIONAL ASSOCIATION have in the agreement which is not the role of JPMORGAN CHASE BANK?",Co-Documentation Agent,2,1,0
+82,What role does THE ROYAL BANK OF SCOTLAND PLC have in the agreement which is not the role of JPMORGAN CHASE BANK?,Co-Documentation Agent,2,1,0
+169,"What role does BANK OF AMERICA, N.A. have in the agreement which is not the role of MERRILL, LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED?",Agent,2,1,0
+169,"What role does GOLDMAN SACHS BANK USA have in the agreement which is not the role of CO%C3%96PERATIEVE CENTRALE RAIFFEISEN %E2%80%93 BOERENLEENBANK B.A.,%22RABOBANK NEDERLAND%22, NEW YORK BRANCH?",Documentation Agent,2,1,0
+169,"What role does GOLDMAN SACHS BANK USA have in the agreement which is not the role of WELLS FARGO BANK, NATIONAL ASSOCIATION?",Documentation Agent,2,1,0
+169,"What role does MERRILL, LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED have in the agreement which is not the role of CO%C3%96PERATIEVE CENTRALE RAIFFEISEN %E2%80%93 BOERENLEENBANK B.A.,%22RABOBANK NEDERLAND%22, NEW YORK BRANCH?",Book Runners,2,1,0
+68,"What role does JPMORGAN CHASE BANK, N.A. have in the agreement which is not the role of REGIONS BANK?",Issuer,2,1,0
+68,"What role does JPMORGAN CHASE BANK, N.A. have in the agreement which is not the role of CITIZENS BANK, N.A.?",Issuer,2,1,0
+68,"What role does BANK OF AMERICA, N.A. have in the agreement which is not the role of CITIZENS BANK, N.A.?",Issuer,2,1,0
+40,"What role does JPMORGAN CHASE BANK, N.A have in the agreement which is not the role of ASSOCIATED BANK, NATIONAL ASSOCIATION?",Issuing Bank,2,1,0
+4,What role does .P. MORGAN SECURITIES LLC have in the agreement which is not the role of GOLDMAN SACHS BANK USA?,Syndication Agent,2,1,0
+142,"What role does HSBC BANK CANADA have in the agreement which is not the role of JPMORGAN CHASE BANK, N.A.?",Documentation Agents,2,1,0
+156,"What role does JPMORGAN CHASE BANK, N.A. have in the agreement which is not the role of WELLS FARGO CAPITAL FINANCE CORPORATION CANADA?",Lende,2,1,0
+156,"What role does JPMORGAN CHASE BANK, N.A. have in the agreement which is not the role of BNP PARIBAS?",Lende,2,1,0
+156,"What role does JPMORGAN CHASE BANK, N.A. have in the agreement which is not the role of WELLS FARGO BANK, NATIONAL ASSOCIATION?",Lende,2,1,0
+156,"What role does BNP PARIBAS have in the agreement which is not the role of WELLS FARGO BANK, NATIONAL ASSOCIATION?",bookrunners,2,1,0
+94,What role does FIFTH THIRD BANK have in the agreement which is not the role of PNC CAPITAL MARKETS LLC?,Lender,2,1,0
+94,What role does FIFTH THIRD BANK have in the agreement which is not the role of SUMITOMO MITSUI BANKING CORPORATION?,Lender,2,1,0
+94,"What role does FIFTH THIRD BANK have in the agreement which is not the role of SUNTRUST ROBINSON HUMPHREY, INC.?",Lender,2,1,0
+94,"What role does PNC BANK, NATIONAL ASSOCIATION have in the agreement which is not the role of JEFFERIES FINANCE LLC?",Bank,2,1,0
+94,"What role does PNC BANK, NATIONAL ASSOCIATION have in the agreement which is not the role of NATIXIS, NEW YORK BRANCH?",Bank,2,1,0
+94,"What role does PNC BANK, NATIONAL ASSOCIATION have in the agreement which is not the role of RBS CITIZENS, N.A.?",Bank,2,1,0
+57,"What role does BANK OF AMERICA, N.A. have in the agreement which is not the role of Deutsche Bank AG New York Branch?",Agent,2,1,0
+57,"What role does BANK OF AMERICA, N.A. have in the agreement which is not the role of JPMorgan Chase Bank, N.A.?",Agent,2,1,0
+57,What role does Deutsche Bank AG New York Branch have in the agreement which is not the role of Bank of America?,Issuer,2,1,0
+57,"What role does JPMorgan Chase Bank, N.A. have in the agreement which is not the role of Bank of America?",Issuer,2,1,0
+47,"What role does MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED, have in the agreement which is not the role of THE BANK OF TOKYO-MITSUBISHI UFJ, LTD.?",Joint Lead Arrangers,2,1,0
+47,"What role does MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED, have in the agreement which is not the role of DEUTSCHE BANK AG NEW YORK BRANCH?",Joint Bookrunners,2,1,0
+47,"What role does PNC CAPITAL MARKETS LLC, have in the agreement which is not the role of THE BANK OF TOKYO-MITSUBISHI UFJ, LTD.?",Joint Lead Arrangers,2,1,0
+47,"What role does PNC CAPITAL MARKETS LLC, have in the agreement which is not the role of DEUTSCHE BANK AG NEW YORK BRANCH?",Joint Bookrunners,2,1,0
+47,"What role does WELLS FARGO SECURITIES, LLC, have in the agreement which is not the role of THE BANK OF TOKYO-MITSUBISHI UFJ, LTD.?",Joint Lead Arrangers,2,1,0
+47,"What role does WELLS FARGO SECURITIES, LLC, have in the agreement which is not the role of DEUTSCHE BANK AG NEW YORK BRANCH?",Joint Bookrunners,2,1,0
+47,"What role does PNC BANK, NATIONAL ASSOCIATION have in the agreement which is not the role of WELLS FARGO BANK, NATIONAL ASSOCIATION?",co-Syndication Agents,2,1,0
+47,"What role does THE BANK OF TOKYO-MITSUBISHI UFJ, LTD. have in the agreement which is not the role of BANK OF AMERICA, N.A.?",Joint Bookrunners,2,1,0
+47,"What role does THE BANK OF TOKYO-MITSUBISHI UFJ, LTD. have in the agreement which is not the role of DEUTSCHE BANK AG NEW YORK BRANCH?",Joint Bookrunners,2,1,0
+47,"What role does BANK OF AMERICA, N.A. have in the agreement which is not the role of WELLS FARGO BANK, NATIONAL ASSOCIATION?",co-Syndication Agents,2,1,0
+47,"What role does WELLS FARGO BANK, NATIONAL ASSOCIATION have in the agreement which is not the role of DEUTSCHE BANK AG NEW YORK BRANCH?","Administrative Agent,",2,1,0
+84,What role does DEUTSCHE BANK SECURITIES INC. have in the agreement which is not the role of J.P. MORGAN SECURITIES LLC?,Documentation Agent,2,1,0
+84,"What role does DEUTSCHE BANK SECURITIES INC. have in the agreement which is not the role of MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED?",Documentation Agent,2,1,0
+147,What role does Bank of America have in the agreement which is not the role of Credit Suisse AG?,L%2FC Issuer,2,1,0
+147,What role does Bank of America have in the agreement which is not the role of Deutsche Bank?,L%2FC Issuer,2,1,0
+147,What role does Citibank have in the agreement which is not the role of Credit Suisse AG?,L%2FC Issuer,2,1,0
+147,What role does Citibank have in the agreement which is not the role of Deutsche Bank?,L%2FC Issuer,2,1,0
+147,What role does Credit Suisse AG have in the agreement which is not the role of Goldman Sachs Bank USA?,L%2FCIssuer,2,1,0
+147,"What role does Credit Suisse AG have in the agreement which is not the role of Mizuho Bank, Ltd.?",L%2FCIssuer,2,1,0
+147,What role does Credit Suisse AG have in the agreement which is not the role of Barclays Bank PLC?,L%2FCIssuer,2,1,0
+147,What role does Credit Suisse AG have in the agreement which is not the role of JPMORGAN CHASE BANK?,L%2FCIssuer,2,1,0
+147,"What role does Credit Suisse AG have in the agreement which is not the role of Morgan Stanley Senior Funding, Inc.?",L%2FCIssuer,2,1,0
+147,What role does Deutsche Bank have in the agreement which is not the role of Goldman Sachs Bank USA?,L%2FCIssuer,2,1,0
+147,"What role does Deutsche Bank have in the agreement which is not the role of Mizuho Bank, Ltd.?",L%2FCIssuer,2,1,0
+147,What role does Deutsche Bank have in the agreement which is not the role of Barclays Bank PLC?,L%2FCIssuer,2,1,0
+147,What role does Deutsche Bank have in the agreement which is not the role of JPMORGAN CHASE BANK?,L%2FCIssuer,2,1,0
+147,"What role does Deutsche Bank have in the agreement which is not the role of Morgan Stanley Senior Funding, Inc.?",L%2FCIssuer,2,1,0
+147,"What role does JPMORGAN CHASE BANK have in the agreement which is not the role of Morgan Stanley Senior Funding, Inc.?",Agent,2,1,0
+153,"What role does CITIZENS BANK, N.A. have in the agreement which is not the role of JPMORGAN CHASE BANK, N.A.?",Co-Syndication Agents,2,1,0
+153,"What role does CITIZENS BANK, N.A. have in the agreement which is not the role of PNC CAPITAL MARKETS LLC?",Co-Syndication Agents,2,1,0
+153,"What role does CITIZENS BANK, N.A. have in the agreement which is not the role of TRUIST SECURITIES, INC.?",Co-Syndication Agents,2,1,0
+52,"What role does Citibank, N.A. have in the agreement which is not the role of JPMorgan Chase Bank, N.A.?",Agent,2,1,0
+50,What role does U.S. BANK NATIONAL ASSOCIATION have in the agreement which is not the role of WELLS FARGO BANK?,Agents,2,1,0
+50,"What role does U.S. BANK NATIONAL ASSOCIATION have in the agreement which is not the role of JPMORGAN CHASE BANK, N.A.?",Agents,2,1,0
+50,What role does WELLS FARGO BANK have in the agreement which is not the role of SILICON VALLEY BANK?,Agent,2,1,0
+50,What role does WELLS FARGO BANK have in the agreement which is not the role of ZIONS FIRST NATIONAL BANK?,Agent,2,1,0
+50,What role does WELLS FARGO BANK have in the agreement which is not the role of PNC BANK?,Agent,2,1,0
+151,What role does CITIBANK have in the agreement which is not the role of BANK OF AMERICA?,Agent,2,1,0
+151,What role does CITIBANK have in the agreement which is not the role of BARCLAYS BANK PLC?,Joint Lead Arrangers,2,1,0
+151,"What role does MIZUHO BANK, LTD., have in the agreement which is not the role of BARCLAYS BANK PLC?",Joint Lead Arrangers,2,1,0
+151,What role does JPMORGAN CHASE BANK have in the agreement which is not the role of BANK OF AMERICA?,Agent,2,1,0
+151,What role does JPMORGAN CHASE BANK have in the agreement which is not the role of BARCLAYS BANK PLC?,Joint Lead Arrangers,2,1,0
+3,"What role does WELLS FARGO BANK, NATIONAL ASSOCIATION have in the agreement which is not the role of BANK OF AMERICA, N.A.?",Syndication Agent,2,1,0
+22,"What role does BANK OF AMERICA, N.A have in the agreement which is not the role of JPMORGAN CHASE BANK, N.A.?",Book Runner,2,1,0
+22,"What role does BANK OF AMERICA, N.A have in the agreement which is not the role of WELLS FARGO BANK, NATIONAL ASSOCIATION?",Lender,2,1,0
+123,What role does GOLDMAN SACHS BANK USA have in the agreement which is not the role of RBC CAPITAL MARKETS?,Lender,2,1,0
+137,What role does DEUTSCHE BANK SECURITIES INC. have in the agreement which is not the role of REGIONS CAPITAL MARKETS?,Arrangers,2,1,0
+137,What role does INITIAL ISSUING BANKS have in the agreement which is not the role of SWING LINE BANKS?,Lenders,2,1,0
+122,"What role does BANK OF AMERICA, N.A. have in the agreement which is not the role of MORGAN STANLEY SENIOR FUNDING, INC.?",Lender,2,1,0
+23,What role does SILICON VALLEY BANK have in the agreement which is not the role of KEYBANK NATIONAL ASSOCIATION?,Collateral Agent,2,1,0
+35,"What role does JPMORGAN CHASE BANK, N.A have in the agreement which is not the role of Goldman Sachs Bank USA?",Agent,2,1,0
+35,"What role does JPMORGAN CHASE BANK, N.A have in the agreement which is not the role of The Royal Bank of Scotland plc?",Agent,2,1,0
+35,"What role does JPMORGAN CHASE BANK, N.A have in the agreement which is not the role of Wells Fargo Bank, National Association?",Agent,2,1,0
+35,"What role does JPMORGAN CHASE BANK, N.A have in the agreement which is not the role of JPMorgan Chase Bank, N.A.?",Bank,2,1,0
+35,"What role does JPMORGAN CHASE BANK, N.A have in the agreement which is not the role of JPMorgan Chase Bank, N.A?",Lender,2,1,0
+35,"What role does Goldman Sachs Bank USA have in the agreement which is not the role of JPMorgan Chase Bank, N.A.?",Bank,2,1,0
+35,"What role does Goldman Sachs Bank USA have in the agreement which is not the role of JPMorgan Chase Bank, N.A?",Lender,2,1,0
+35,What role does Goldman Sachs Bank USA have in the agreement which is not the role of THE ROYAL BANK OF SCOTLAND PLC?,Lender,2,1,0
+35,"What role does The Royal Bank of Scotland plc have in the agreement which is not the role of JPMorgan Chase Bank, N.A.?",Bank,2,1,0
+35,"What role does The Royal Bank of Scotland plc have in the agreement which is not the role of JPMorgan Chase Bank, N.A?",Lender,2,1,0
+35,What role does The Royal Bank of Scotland plc have in the agreement which is not the role of THE ROYAL BANK OF SCOTLAND PLC?,Lender,2,1,0
+35,"What role does Wells Fargo Bank, National Association have in the agreement which is not the role of JPMorgan Chase Bank, N.A.?",Bank,2,1,0
+35,"What role does Wells Fargo Bank, National Association have in the agreement which is not the role of JPMorgan Chase Bank, N.A?",Lender,2,1,0
+35,"What role does Wells Fargo Bank, National Association have in the agreement which is not the role of THE ROYAL BANK OF SCOTLAND PLC?",Lender,2,1,0
+35,"What role does JPMorgan Chase Bank, N.A. have in the agreement which is not the role of JPMorgan Chase Bank, N.A?",Lender,2,1,0
+35,"What role does JPMorgan Chase Bank, N.A have in the agreement which is not the role of THE ROYAL BANK OF SCOTLAND PLC?",Agent,2,1,0
+120,"What role does WELLS FARGO SECURITIES LLC have in the agreement which is not the role of MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED?",Arranger,2,1,0
+121,"What role does U.S. BANK NATIONAL ASSOCIATION have in the agreement which is not the role of WELLS FARGO SECURITIES, LLC?",Agent,2,1,0
+135,"What role does MIZUHO BANK, LTD have in the agreement which is not the role of PIERCE?",Agents,2,1,0
+135,"What role does MIZUHO BANK, LTD have in the agreement which is not the role of SMITH INCORPORATED?",Agents,2,1,0
+135,"What role does MIZUHO BANK, LTD have in the agreement which is not the role of WELLS FARGO SECURITIES, LLC?",Agents,2,1,0
+18,"What role does REGIONS BANK have in the agreement which is not the role of CAPITAL ONE, NATIONAL ASSOCIATION?",Syndication Agent,2,1,0
+18,"What role does REGIONS BANK have in the agreement which is not the role of WELLS FARGO BANK, NATIONAL ASSOCIATION?",Syndication Agent,2,1,0
+18,"What role does CAPITAL ONE, NATIONAL ASSOCIATION have in the agreement which is not the role of WELLS FARGO BANK, NATIONAL ASSOCIATION?",Documentation Agent,2,1,0
+24,"What role does REGIONS BANK have in the agreement which is not the role of JPMORGAN CHASE BANK, N.A.?",AGENTS,2,1,0
+24,"What role does REGIONS BANK have in the agreement which is not the role of JPMorgan Chase Bank, N.A.?",AGENTS,2,1,0
+24,"What role does SUNTRUST BANK have in the agreement which is not the role of JPMORGAN CHASE BANK, N.A.?",AGENTS,2,1,0
+24,"What role does SUNTRUST BANK have in the agreement which is not the role of JPMorgan Chase Bank, N.A.?",AGENTS,2,1,0
+118,What role does BARCLAYS BANK PLC have in the agreement which is not the role of CREDIT SUISSE SECURITIES %28USA%29 LLC?,AGENT,2,1,0
+118,What role does BARCLAYS BANK PLC have in the agreement which is not the role of GOLDMAN SACHS BANK USA?,AGENT,2,1,0
+124,"What role does BANK OF AMERICA, N.A. have in the agreement which is not the role of TD BANK, N.A.?",Syndication Agents,2,1,0
+124,"What role does KEYBANK NATIONAL ASSOCIATION have in the agreement which is not the role of TD BANK, N.A.?",Syndication Agents,2,1,0
+124,"What role does TD BANK, N.A. have in the agreement which is not the role of JPMORGAN CHASE BANK, N.A?",Documentation Agents,2,1,0
+130,"What role does JPMORGAN CHASE BANK, N.A. have in the agreement which is not the role of RBC CAPITAL MARKETS?",Collateral Agent,2,1,0
+130,"What role does PNC BANK, NATIONAL ASSOCIATION have in the agreement which is not the role of JPMORGAN CHASE BANK, N.A?",LENDER,2,1,0
+130,"What role does BANK OF AMERICA, N.A have in the agreement which is not the role of JPMORGAN CHASE BANK, N.A?",LENDER,2,1,0
+130,"What role does JPMORGAN CHASE BANK, N.A have in the agreement which is not the role of ROYAL BANK OF CANADA?",Issuing Bank,2,1,0
+31,"What role does WELLS FARGO BANK, NATIONAL ASSOCIATION have in the agreement which is not the role of BANK OF CHINA, LOS ANGELES BRANCH?",Lender,2,1,0
+31,"What role does WELLS FARGO BANK, NATIONAL ASSOCIATION have in the agreement which is not the role of JPMORGAN CHASE BANK, N.A.?",AGENTS,2,1,0
+31,"What role does WELLS FARGO BANK, NATIONAL ASSOCIATION have in the agreement which is not the role of BANK OF AMERICA, N.A.?",AGENTS,2,1,0
+31,"What role does JPMORGAN CHASE BANK, N.A. have in the agreement which is not the role of STANDARD CHARTERED BANK?",AGENT,2,1,0
+31,"What role does JPMORGAN CHASE BANK, N.A. have in the agreement which is not the role of THE BANK OF TOKYO-MITSUBISHI UFJ, LTD.?",AGENT,2,1,0
+31,"What role does JPMORGAN CHASE BANK, N.A. have in the agreement which is not the role of U.S. BANK NATIONAL ASSOCIATION?",AGENT,2,1,0
+31,"What role does JPMORGAN CHASE BANK, N.A. have in the agreement which is not the role of CANADIAN IMPERIAL BANK OF COMMERCE, NEW YORK AGENCY?",AGENT,2,1,0
+126,"What role does BANK OF AMERICA, N.A. have in the agreement which is not the role of CITIBANK, N.A.?",agents,2,1,0
+126,"What role does BNP PARIBAS have in the agreement which is not the role of CITIBANK, N.A.?",agents,2,1,0
+126,"What role does CITIBANK, N.A. have in the agreement which is not the role of JPMORGAN CHASE BANK, N.A.?",Agent,2,1,0
+126,"What role does CITIBANK, N.A. have in the agreement which is not the role of MIZUHO BANK, LTD.?",Agent,2,1,0
+126,"What role does CITIBANK, N.A. have in the agreement which is not the role of MUFG BANK, LTD.?",Agent,2,1,0
+126,"What role does CITIBANK, N.A. have in the agreement which is not the role of SUMITOMO MITSUI BANKING CORPORATION?",Agent,2,1,0
+32,What role does BARCLAYS BANK PLC have in the agreement which is not the role of UBS SECURITIES LLC?,Lender,2,1,0
+32,What role does J.P. MORGAN SECURITIES LLC have in the agreement which is not the role of RBC CAPITAL MARKETS?,Agents,2,1,0
+32,What role does J.P. MORGAN SECURITIES LLC have in the agreement which is not the role of HSBC BANK CANADA?,Agents,2,1,0
+32,"What role does J.P. MORGAN SECURITIES LLC, have in the agreement which is not the role of HSBC BANK CANADA?",Agent,2,1,0
+32,"What role does J.P. MORGAN SECURITIES LLC, have in the agreement which is not the role of ROYAL BANK OF CANADA?",Bookrunner,2,1,0
+26,"What role does WELLS FARGO BANK, NATIONAL ASSOCIATION have in the agreement which is not the role of CREDIT SUISSE LOAN FUNDING LLC?",Lender,2,1,0
+26,"What role does WELLS FARGO BANK, NATIONAL ASSOCIATION have in the agreement which is not the role of MIZUHO BANK, LTD.?",Lender,2,1,0
+26,"What role does WELLS FARGO BANK, NATIONAL ASSOCIATION have in the agreement which is not the role of MUFG BANK, LTD.?",Agents,2,1,0
+26,What role does BARCLAYS BANK PLC have in the agreement which is not the role of CREDIT SUISSE LOAN FUNDING LLC?,Lender,2,1,0
+26,"What role does BARCLAYS BANK PLC have in the agreement which is not the role of MIZUHO BANK, LTD.?",Lender,2,1,0
+26,"What role does BARCLAYS BANK PLC have in the agreement which is not the role of MUFG BANK, LTD.?",Agents,2,1,0
+26,"What role does CREDIT SUISSE LOAN FUNDING LLC have in the agreement which is not the role of MORGAN STANLEY SENIOR FUNDING, INC.?",Agents,2,1,0
+26,"What role does CREDIT SUISSE LOAN FUNDING LLC have in the agreement which is not the role of MUFG BANK, LTD.?",Agents,2,1,0
+26,What role does CREDIT SUISSE LOAN FUNDING LLC have in the agreement which is not the role of WELLS FARGO SECURITIES LLC?,Agents,2,1,0
+26,"What role does MIZUHO BANK, LTD. have in the agreement which is not the role of MORGAN STANLEY SENIOR FUNDING, INC.?",Agents,2,1,0
+26,"What role does MIZUHO BANK, LTD. have in the agreement which is not the role of MUFG BANK, LTD.?",Agents,2,1,0
+26,"What role does MIZUHO BANK, LTD. have in the agreement which is not the role of WELLS FARGO SECURITIES LLC?",Agents,2,1,0
+26,"What role does MORGAN STANLEY SENIOR FUNDING, INC. have in the agreement which is not the role of WELLS FARGO SECURITIES LLC?",Agent,2,1,0

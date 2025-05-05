@@ -1,0 +1,197 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+29,"What role do both PNC BANK, NATIONAL ASSOCIATION and PNC Bank, National Association have in the agreement?",Agent,1,1,0
+138,"What role do both PNC BANK, NATIONAL ASSOCIATION and U.S. BANK, NATIONAL ASSOCIATION have in the agreement?",Agent,1,1,0
+111,What role do both NATIONAL AUSTRALIA BANK LIMITED and SUNTRUST BANK have in the agreement?,Lender,1,1,0
+111,"What role do both NATIONAL AUSTRALIA BANK LIMITED and WELLS FARGO BANK, NATIONAL ASSOCIATION have in the agreement?",Lender,1,1,0
+107,"What role do both Barclays Bank PLC and J.P. Morgan Securities, Inc. have in the agreement?",agent,1,1,0
+107,What role do both Barclays Bank PLC and BARCLAYS BANK PLC have in the agreement?,Agent,1,1,0
+107,"What role do both EASYLINK SERVICES INTERNATIONAL CORPORATION and OCELOT MERGER SUB, INC. have in the agreement?",Grantor,1,1,0
+107,"What role do both EASYLINK SERVICES INTERNATIONAL CORPORATION and GXS Worldwide, Inc. have in the agreement?",Guarantor,1,1,0
+107,"What role do both EASYLINK SERVICES USA, INC. and OCELOT MERGER SUB, INC. have in the agreement?",Grantor,1,1,0
+107,"What role do both EASYLINK SERVICES USA, INC. and GXS Worldwide, Inc. have in the agreement?",Guarantor,1,1,0
+107,"What role do both Global Markets Inc. and J.P. Morgan Securities, Inc. have in the agreement?",agent,1,1,0
+107,"What role do both J.P. Morgan Securities, Inc. and Wells Fargo Foothill, Inc have in the agreement?",agent,1,1,0
+107,"What role do both J.P. Morgan Securities, Inc. and Wilmington Trust FSB have in the agreement?",agent,1,1,0
+107,"What role do both OCELOT MERGER SUB, INC. and OPEN TEXT CORPORATION have in the agreement?",Grantor,1,1,0
+107,"What role do both OCELOT MERGER SUB, INC. and OPEN TEXT HOLDINGS, INC. have in the agreement?",Grantor,1,1,0
+107,"What role do both OCELOT MERGER SUB, INC. and OPEN TEXT INC. have in the agreement?",Grantor,1,1,0
+107,"What role do both OCELOT MERGER SUB, INC. and OPEN TEXT USA INC. have in the agreement?",Grantor,1,1,0
+107,"What role do both OCELOT MERGER SUB, INC. and XPEDITE SYSTEMS, LLC have in the agreement?",Grantor,1,1,0
+107,"What role do both OCELOT MERGER SUB, INC. and OPEN TEXT ULC have in the agreement?",Grantor,1,1,0
+107,"What role do both OPEN TEXT CORPORATION and GXS Worldwide, Inc. have in the agreement?",Guarantor,1,1,0
+107,"What role do both OPEN TEXT HOLDINGS, INC. and GXS Worldwide, Inc. have in the agreement?",Guarantor,1,1,0
+107,"What role do both OPEN TEXT INC. and GXS Worldwide, Inc. have in the agreement?",Guarantor,1,1,0
+107,"What role do both OPEN TEXT USA INC. and GXS Worldwide, Inc. have in the agreement?",Guarantor,1,1,0
+107,"What role do both XPEDITE SYSTEMS, LLC and GXS Worldwide, Inc. have in the agreement?",Guarantor,1,1,0
+107,"What role do both GXS Worldwide, Inc. and OPEN TEXT ULC have in the agreement?",Guarantor,1,1,0
+106,"What role do both CITIGROUP GLOBAL MARKETS, INC. and UBS SECURITIES LLC have in the agreement?",Bookrunners,1,1,0
+106,What role do both GOLDMAN SACHS BANK USA and ROYAL BANK OF CANADA have in the agreement?,Lender,1,1,0
+106,What role do both Royal Bank of Canada and ROYAL BANK OF CANADA have in the agreement?,Agent,1,1,0
+60,"What role do both PNC Capital Markets LLC and Mizuho Bank, Ltd. have in the agreement?",bookrunner,1,1,0
+161,What role do both BMO CAPITAL MARKETS and TRUIST BANK have in the agreement?,CO-SYNDICATION AGENTS,1,1,0
+160,"What role do both BOFA SECURITIES, INC and JPMORGAN CHASE BANK, N.A. have in the agreement?",Joint Lead Arrangers,1,1,0
+160,"What role do both MORGAN STANLEY SENIOR FUNDING, INC and JPMORGAN CHASE BANK, N.A. have in the agreement?",Joint Lead Arrangers,1,1,0
+148,What role do both NATIONAL WESTMINSTER BANK PLC and TD BANK have in the agreement?,Lender,1,1,0
+148,What role do both THE BANK OF NOVA SCOTIA and TD BANK have in the agreement?,Lender,1,1,0
+148,What role do both U.S. BANK NATIONAL ASSOCIATION and TD BANK have in the agreement?,Lender,1,1,0
+77,What role do both BANK OF AMERICA and U.S. BANK NATIONAL ASSOCIATION have in the agreement?,Lender,1,1,0
+77,What role do both BANK OF AMERICA and GOLDMAN SACHS BANK USA have in the agreement?,Lender,1,1,0
+77,What role do both BANK OF AMERICA and JPMORGAN CHASE BANK have in the agreement?,Lender,1,1,0
+77,What role do both MUFG UNION BANK and U.S. BANK NATIONAL ASSOCIATION have in the agreement?,Lender,1,1,0
+77,What role do both MUFG UNION BANK and GOLDMAN SACHS BANK USA have in the agreement?,Lender,1,1,0
+77,What role do both MUFG UNION BANK and JPMORGAN CHASE BANK have in the agreement?,Lender,1,1,0
+77,What role do both SUNTRUST BANK and U.S. BANK NATIONAL ASSOCIATION have in the agreement?,Lender,1,1,0
+77,What role do both SUNTRUST BANK and GOLDMAN SACHS BANK USA have in the agreement?,Lender,1,1,0
+77,What role do both SUNTRUST BANK and JPMORGAN CHASE BANK have in the agreement?,Lender,1,1,0
+77,What role do both U.S. BANK NATIONAL ASSOCIATION and JPMORGAN CHASE BANK have in the agreement?,Lender,1,1,0
+77,"What role do both U.S. BANK NATIONAL ASSOCIATION and WELLS FARGO BANK, NATIONAL ASSOCIATION have in the agreement?",Lender,1,1,0
+77,What role do both GOLDMAN SACHS BANK USA and JPMORGAN CHASE BANK have in the agreement?,Lender,1,1,0
+77,"What role do both GOLDMAN SACHS BANK USA and WELLS FARGO BANK, NATIONAL ASSOCIATION have in the agreement?",Lender,1,1,0
+77,"What role do both JPMORGAN CHASE BANK and WELLS FARGO BANK, NATIONAL ASSOCIATION have in the agreement?",Lender,1,1,0
+66,"What role do both Citibank N.A. and MUFG Bank, Ltd. have in the agreement?",Lender,1,1,0
+66,"What role do both Citibank N.A. and Wells Fargo Bank, National Association have in the agreement?",Lender,1,1,0
+66,"What role do both MUFG Bank, Ltd. and Wells Fargo Bank, National Association have in the agreement?",Lender,1,1,0
+99,What role do both CO%C3%96PERATIEVE CENTRALE RAIFFEISEN-BOERENLEENBANK B.A. and SUNTRUST BANK have in the agreement?,Agent,1,1,0
+99,What role do both RABOBANK NEDERLAND and SUNTRUST BANK have in the agreement?,Agent,1,1,0
+166,What role do both ICICI BANK LIMITED and BARCLAYS BANK PLC have in the agreement?,Bookrunners,1,1,0
+166,What role do both ICICI BANK LIMITED and STATE BANK OF INDIA have in the agreement?,Bookrunners,1,1,0
+166,"What role do both ICICI BANK LIMITED and THE BANK OF TOKYO-MITSUBISHI UFJ, LTD. have in the agreement?",Bookrunners,1,1,0
+166,What role do both ICICI BANK LIMITED and KOTAK MAHINDRA BANK LIMITED have in the agreement?,Bookrunners,1,1,0
+166,What role do both ICICI BANK LIMITED and STANDARD CHARTERED BANK have in the agreement?,Bookrunners,1,1,0
+67,"What role do both COHERUS INTERMEDIATE CORP. and COHERUS BIOSCIENCES, INC. have in the agreement?",Credit Party,1,1,0
+67,"What role do both INTEKRIN THERAPEUTICS INC. and COHERUS BIOSCIENCES, INC. have in the agreement?",Credit Party,1,1,0
+9,What role do both Barclays Bank PLC and BARCLAYS BANK PLC have in the agreement?,Agent,1,1,0
+9,"What role do both Barclays Bank PLC and JPMORGAN CHASE BANK, N.A. have in the agreement?",Agent,1,1,0
+59,What role do both Bank of the West and U.S. Bank have in the agreement?,Arrangers,1,1,0
+59,What role do both Fifth Third Bank and U.S. Bank have in the agreement?,Arrangers,1,1,0
+59,What role do both U.S. BANK NATIONAL ASSOCIATION and U.S. Bank have in the agreement?,Lender,1,1,0
+164,"What role do both U.S. BANK NATIONAL ASSOCIATION and SUNTRUST ROBINSON HUMPHREY, INC have in the agreement?",JOINT BOOK RUNNERS,1,1,0
+165,"What role do both GOLDMAN SACHS BANK USA and MIZUHO BANK, LTD have in the agreement?",Documentation Agents,1,1,0
+165,"What role do both GOLDMAN SACHS BANK USA and JPMORGAN CHASE BANK, N.A have in the agreement?",Lender,1,1,0
+165,"What role do both MIZUHO BANK, LTD and THE BANK OF TOKYO-MITSUBISHI UFJ, LTD have in the agreement?",Documentation Agents,1,1,0
+165,"What role do both MIZUHO BANK, LTD and WELLS FARGO BANK, NATIONAL ASSOCIATION have in the agreement?",Documentation Agents,1,1,0
+165,"What role do both THE BANK OF TOKYO-MITSUBISHI UFJ, LTD and JPMORGAN CHASE BANK, N.A have in the agreement?",Lender,1,1,0
+165,"What role do both WELLS FARGO BANK, NATIONAL ASSOCIATION and JPMORGAN CHASE BANK, N.A have in the agreement?",Lender,1,1,0
+64,What role do both Goldman Sachs Lending Partners LLC and Goldman Sachs Lending Partners LLC. have in the agreement?,bookrunner,1,1,0
+64,"What role do both Goldman Sachs Lending Partners LLC and Morgan Stanley Senior Funding, Inc have in the agreement?",bookrunner,1,1,0
+64,"What role do both Goldman Sachs Lending Partners LLC. and Morgan Stanley Senior Funding, Inc. have in the agreement?",bookrunner,1,1,0
+64,"What role do both Morgan Stanley Senior Funding, Inc and Morgan Stanley Senior Funding, Inc. have in the agreement?",bookrunner,1,1,0
+41,What role do both BMO HARRIS BANK and BMO Harris Bank N.A. have in the agreement?,LC Issuer,1,1,0
+41,"What role do both CITIZENS BANK, N.A and CITIZENS BANK, N.A. have in the agreement?",Lender,1,1,0
+41,"What role do both CITIZENS BANK, N.A. and BMO Harris Bank N.A. have in the agreement?",Lender,1,1,0
+82,What role do both BANK OF AMERICA and CITIBANK have in the agreement?,Lender,1,1,0
+82,"What role do both BANK OF AMERICA and HSBC BANK USA, NATIONAL ASSOCIATION have in the agreement?",Lender,1,1,0
+82,What role do both BANK OF AMERICA and THE ROYAL BANK OF SCOTLAND PLC have in the agreement?,Lender,1,1,0
+82,What role do both BANK OF AMERICA and JPMORGAN CHASE BANK have in the agreement?,Lender,1,1,0
+82,What role do both CITIBANK and BARCLAYS BANK PLC have in the agreement?,Lender,1,1,0
+82,What role do both CITIBANK and JPMORGAN CHASE BANK have in the agreement?,Lender,1,1,0
+82,"What role do both BARCLAYS BANK PLC and HSBC BANK USA, NATIONAL ASSOCIATION have in the agreement?",Lender,1,1,0
+82,What role do both BARCLAYS BANK PLC and THE ROYAL BANK OF SCOTLAND PLC have in the agreement?,Lender,1,1,0
+82,What role do both BARCLAYS BANK PLC and JPMORGAN CHASE BANK have in the agreement?,Lender,1,1,0
+82,"What role do both HSBC BANK USA, NATIONAL ASSOCIATION and JPMORGAN CHASE BANK have in the agreement?",Lender,1,1,0
+82,What role do both THE ROYAL BANK OF SCOTLAND PLC and JPMORGAN CHASE BANK have in the agreement?,Lender,1,1,0
+96,"What role do both BOKF, NA dba BANK OF ALBUQUERQUE and BOKF, NA DBA BANK OF ALBUQUERQUE have in the agreement?",Agent,1,1,0
+169,"What role do both BANK OF AMERICA, N.A. and MERRILL, LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED have in the agreement?",Lender,1,1,0
+169,"What role do both GOLDMAN SACHS BANK USA and MERRILL, LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED have in the agreement?",Lender,1,1,0
+169,"What role do both MERRILL, LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED and CO%C3%96PERATIEVE CENTRALE RAIFFEISEN %E2%80%93 BOERENLEENBANK B.A.,%22RABOBANK NEDERLAND%22, NEW YORK BRANCH have in the agreement?",Lender,1,1,0
+142,"What role do both HSBC BANK CANADA and JPMORGAN CHASE BANK, N.A. have in the agreement?",Lender,1,1,0
+156,"What role do both JPMORGAN CHASE BANK, N.A. and WELLS FARGO CAPITAL FINANCE CORPORATION CANADA have in the agreement?",Issuing Bank,1,1,0
+156,"What role do both JPMORGAN CHASE BANK, N.A. and BNP PARIBAS have in the agreement?",Issuing Bank,1,1,0
+156,"What role do both JPMORGAN CHASE BANK, N.A. and WELLS FARGO BANK, NATIONAL ASSOCIATION have in the agreement?",Issuing Bank,1,1,0
+94,"What role do both FIFTH THIRD BANK and PNC BANK, NATIONAL ASSOCIATION have in the agreement?",Lender,1,1,0
+94,"What role do both FIFTH THIRD BANK and NATIXIS, NEW YORK BRANCH have in the agreement?",Lender,1,1,0
+94,"What role do both FIFTH THIRD BANK and RBS CITIZENS, N.A. have in the agreement?",Lender,1,1,0
+94,"What role do both PNC BANK, NATIONAL ASSOCIATION and JEFFERIES FINANCE LLC have in the agreement?",Lender,1,1,0
+94,"What role do both PNC BANK, NATIONAL ASSOCIATION and NATIXIS, NEW YORK BRANCH have in the agreement?",Lender,1,1,0
+94,"What role do both PNC BANK, NATIONAL ASSOCIATION and RBS CITIZENS, N.A. have in the agreement?",Lender,1,1,0
+57,"What role do both BANK OF AMERICA, N.A. and Deutsche Bank AG New York Branch have in the agreement?",Lender,1,1,0
+57,"What role do both BANK OF AMERICA, N.A. and JPMorgan Chase Bank, N.A. have in the agreement?",Lender,1,1,0
+57,What role do both Deutsche Bank AG New York Branch and Bank of America have in the agreement?,Lender,1,1,0
+57,"What role do both JPMorgan Chase Bank, N.A. and Bank of America have in the agreement?",Lender,1,1,0
+47,"What role do both MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED, and THE BANK OF TOKYO-MITSUBISHI UFJ, LTD. have in the agreement?",Joint Bookrunners,1,1,0
+47,"What role do both MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED, and DEUTSCHE BANK AG NEW YORK BRANCH have in the agreement?",Joint Lead Arrangers,1,1,0
+47,"What role do both PNC CAPITAL MARKETS LLC, and THE BANK OF TOKYO-MITSUBISHI UFJ, LTD. have in the agreement?",Joint Bookrunners,1,1,0
+47,"What role do both PNC CAPITAL MARKETS LLC, and DEUTSCHE BANK AG NEW YORK BRANCH have in the agreement?",Joint Lead Arrangers,1,1,0
+47,"What role do both WELLS FARGO SECURITIES, LLC, and THE BANK OF TOKYO-MITSUBISHI UFJ, LTD. have in the agreement?",Joint Bookrunners,1,1,0
+47,"What role do both WELLS FARGO SECURITIES, LLC, and DEUTSCHE BANK AG NEW YORK BRANCH have in the agreement?",Joint Lead Arrangers,1,1,0
+47,"What role do both PNC BANK, NATIONAL ASSOCIATION and WELLS FARGO BANK, NATIONAL ASSOCIATION have in the agreement?",Lender,1,1,0
+47,"What role do both THE BANK OF TOKYO-MITSUBISHI UFJ, LTD. and WELLS FARGO BANK, NATIONAL ASSOCIATION have in the agreement?",Lender,1,1,0
+47,"What role do both BANK OF AMERICA, N.A. and WELLS FARGO BANK, NATIONAL ASSOCIATION have in the agreement?",Lender,1,1,0
+47,"What role do both WELLS FARGO BANK, NATIONAL ASSOCIATION and DEUTSCHE BANK AG NEW YORK BRANCH have in the agreement?",Lender,1,1,0
+84,What role do both DEUTSCHE BANK SECURITIES INC. and J.P. MORGAN SECURITIES LLC have in the agreement?,Arrangers,1,1,0
+84,"What role do both DEUTSCHE BANK SECURITIES INC. and MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED have in the agreement?",Arrangers,1,1,0
+84,What role do both KEYBANK NATIONAL ASSOCIATION and KeyBank National Association have in the agreement?,Administrative Agent,1,1,0
+147,What role do both Bank of America and Credit Suisse AG have in the agreement?,Lender,1,1,0
+147,What role do both Bank of America and Deutsche Bank have in the agreement?,Lender,1,1,0
+147,What role do both Citibank and Credit Suisse AG have in the agreement?,Lender,1,1,0
+147,What role do both Citibank and Deutsche Bank have in the agreement?,Lender,1,1,0
+147,What role do both Credit Suisse AG and Goldman Sachs Bank USA have in the agreement?,Lender,1,1,0
+147,"What role do both Credit Suisse AG and Mizuho Bank, Ltd. have in the agreement?",Lender,1,1,0
+147,What role do both Credit Suisse AG and Barclays Bank PLC have in the agreement?,Lender,1,1,0
+147,What role do both Credit Suisse AG and JPMORGAN CHASE BANK have in the agreement?,Lender,1,1,0
+147,"What role do both Credit Suisse AG and Morgan Stanley Senior Funding, Inc. have in the agreement?",Lender,1,1,0
+147,What role do both Deutsche Bank and Goldman Sachs Bank USA have in the agreement?,Lender,1,1,0
+147,"What role do both Deutsche Bank and Mizuho Bank, Ltd. have in the agreement?",Lender,1,1,0
+147,What role do both Deutsche Bank and Barclays Bank PLC have in the agreement?,Lender,1,1,0
+147,What role do both Deutsche Bank and JPMORGAN CHASE BANK have in the agreement?,Lender,1,1,0
+147,"What role do both Deutsche Bank and Morgan Stanley Senior Funding, Inc. have in the agreement?",Lender,1,1,0
+153,"What role do both CITIZENS BANK, N.A. and PNC BANK, NATIONAL ASSOCIATION have in the agreement?",Co-Syndication Agents,1,1,0
+153,"What role do both CITIZENS BANK, N.A. and TRUIST BANK have in the agreement?",Co-Syndication Agents,1,1,0
+52,"What role do both Citibank, N.A. and JPMorgan Chase Bank, N.A. have in the agreement?",Agents,1,1,0
+50,"What role do both U.S. BANK NATIONAL ASSOCIATION and JPMORGAN CHASE BANK, N.A. have in the agreement?",Lender,1,1,0
+50,"What role do both JPMORGAN CHASE BANK, N.A. and SILICON VALLEY BANK have in the agreement?",Lender,1,1,0
+50,"What role do both JPMORGAN CHASE BANK, N.A. and ZIONS FIRST NATIONAL BANK have in the agreement?",Lender,1,1,0
+50,"What role do both JPMORGAN CHASE BANK, N.A. and PNC BANK have in the agreement?",Lender,1,1,0
+151,"What role do both MIZUHO BANK, LTD., and BARCLAYS BANK PLC have in the agreement?",Joint Bookrunners,1,1,0
+3,"What role do both WELLS FARGO BANK, NATIONAL ASSOCIATION and BANK OF AMERICA, N.A. have in the agreement?",Lender,1,1,0
+22,"What role do both JPMORGAN CHASE BANK, N.A. and WELLS FARGO BANK, NATIONAL ASSOCIATION have in the agreement?",Arranger,1,1,0
+123,What role do both RBC CAPITAL MARKETS and WELLS FARGO BANK have in the agreement?,Agent,1,1,0
+137,"What role do both DEUTSCHE BANK SECURITIES INC. and REGIONS CAPITAL MARKETS, have in the agreement?",Arrangers,1,1,0
+122,"What role do both BANK OF AMERICA, N.A. and MORGAN STANLEY SENIOR FUNDING, INC. have in the agreement?",Agent,1,1,0
+35,What role do both GOLDMAN SACHS BANK USA and Goldman Sachs Bank USA have in the agreement?,Bank,1,1,0
+35,What role do both GOLDMAN SACHS BANK USA and The Royal Bank of Scotland plc have in the agreement?,Bank,1,1,0
+35,"What role do both GOLDMAN SACHS BANK USA and Wells Fargo Bank, National Association have in the agreement?",Bank,1,1,0
+35,"What role do both GOLDMAN SACHS BANK USA and JPMorgan Chase Bank, N.A have in the agreement?",Bank,1,1,0
+35,"What role do both Goldman Sachs Bank USA and JPMorgan Chase Bank, N.A. have in the agreement?",Lender,1,1,0
+35,"What role do both Goldman Sachs Bank USA and JPMorgan Chase Bank, N.A have in the agreement?",Bank,1,1,0
+35,What role do both Goldman Sachs Bank USA and THE ROYAL BANK OF SCOTLAND PLC have in the agreement?,Bank,1,1,0
+35,"What role do both The Royal Bank of Scotland plc and JPMorgan Chase Bank, N.A. have in the agreement?",Lender,1,1,0
+35,"What role do both The Royal Bank of Scotland plc and JPMorgan Chase Bank, N.A have in the agreement?",Bank,1,1,0
+35,What role do both The Royal Bank of Scotland plc and THE ROYAL BANK OF SCOTLAND PLC have in the agreement?,Bank,1,1,0
+35,"What role do both Wells Fargo Bank, National Association and JPMorgan Chase Bank, N.A. have in the agreement?",Lender,1,1,0
+35,"What role do both Wells Fargo Bank, National Association and JPMorgan Chase Bank, N.A have in the agreement?",Bank,1,1,0
+35,"What role do both Wells Fargo Bank, National Association and THE ROYAL BANK OF SCOTLAND PLC have in the agreement?",Bank,1,1,0
+35,"What role do both JPMorgan Chase Bank, N.A. and JPMorgan Chase Bank, N.A have in the agreement?",Agent,1,1,0
+35,"What role do both JPMorgan Chase Bank, N.A and THE ROYAL BANK OF SCOTLAND PLC have in the agreement?",Bank,1,1,0
+120,"What role do both WELLS FARGO SECURITIES LLC and MERRILL LYNCH, PIERCE, FENNER %26 SMITH INCORPORATED have in the agreement?",Bookrunner,1,1,0
+135,"What role do both MIZUHO BANK, LTD and WELLS FARGO BANK, NATIONAL ASSOCIATION have in the agreement?",Agents,1,1,0
+18,"What role do both REGIONS BANK and CAPITAL ONE, NATIONAL ASSOCIATION have in the agreement?",Lender,1,1,0
+18,"What role do both REGIONS BANK and WELLS FARGO BANK, NATIONAL ASSOCIATION have in the agreement?",Lender,1,1,0
+18,"What role do both CAPITAL ONE, NATIONAL ASSOCIATION and WELLS FARGO BANK, NATIONAL ASSOCIATION have in the agreement?",Lender,1,1,0
+30,"What role do both WELLS FARGO BANK, NATIONAL ASSOCIATION and WELLS FARGO SECURITIES, LLC have in the agreement?",Agent,1,1,0
+24,"What role do both REGIONS BANK and JPMORGAN CHASE BANK, N.A. have in the agreement?",Lender,1,1,0
+24,"What role do both REGIONS BANK and JPMorgan Chase Bank, N.A. have in the agreement?",Lender,1,1,0
+24,"What role do both SUNTRUST BANK and JPMORGAN CHASE BANK, N.A. have in the agreement?",Lender,1,1,0
+24,"What role do both SUNTRUST BANK and JPMorgan Chase Bank, N.A. have in the agreement?",Lender,1,1,0
+24,"What role do both U.S. BANK NATIONAL ASSOCIATION and JPMORGAN CHASE BANK, N.A. have in the agreement?",Lender,1,1,0
+24,"What role do both U.S. BANK NATIONAL ASSOCIATION and JPMorgan Chase Bank, N.A. have in the agreement?",Lender,1,1,0
+124,"What role do both BANK OF AMERICA, N.A. and TD BANK, N.A. have in the agreement?",Lender,1,1,0
+124,"What role do both KEYBANK NATIONAL ASSOCIATION and TD BANK, N.A. have in the agreement?",Lender,1,1,0
+124,"What role do both TD BANK, N.A. and JPMORGAN CHASE BANK, N.A have in the agreement?",Lender,1,1,0
+130,"What role do both PNC BANK, NATIONAL ASSOCIATION and JPMORGAN CHASE BANK, N.A have in the agreement?",Issuing Bank,1,1,0
+130,"What role do both BANK OF AMERICA, N.A and JPMORGAN CHASE BANK, N.A have in the agreement?",Issuing Bank,1,1,0
+130,"What role do both JPMORGAN CHASE BANK, N.A and ROYAL BANK OF CANADA have in the agreement?",Agent,1,1,0
+31,"What role do both JPMORGAN CHASE BANK, N.A. and THE BANK OF TOKYO-MITSUBISHI UFJ, LTD. have in the agreement?",Lender,1,1,0
+31,"What role do both JPMORGAN CHASE BANK, N.A. and U.S. BANK NATIONAL ASSOCIATION have in the agreement?",Lender,1,1,0
+31,"What role do both JPMORGAN CHASE BANK, N.A. and CANADIAN IMPERIAL BANK OF COMMERCE, NEW YORK AGENCY have in the agreement?",Lender,1,1,0
+31,"What role do both THE BANK OF TOKYO-MITSUBISHI UFJ, LTD. and BANK OF AMERICA, N.A. have in the agreement?",Lender,1,1,0
+31,"What role do both U.S. BANK NATIONAL ASSOCIATION and BANK OF AMERICA, N.A. have in the agreement?",Lender,1,1,0
+31,"What role do both CANADIAN IMPERIAL BANK OF COMMERCE, NEW YORK AGENCY and BANK OF AMERICA, N.A. have in the agreement?",Lender,1,1,0
+126,"What role do both BANK OF AMERICA, N.A. and CITIBANK, N.A. have in the agreement?",Lenders,1,1,0
+126,"What role do both BNP PARIBAS and CITIBANK, N.A. have in the agreement?",Lenders,1,1,0
+127,"What role do both BANK OF AMERICA, N.A. and MORGAN STANLEY BANK, N.A. have in the agreement?",Lender,1,1,0
+127,"What role do both BANK OF AMERICA, N.A. and U.S. BANK NATIONAL ASSOCIATION have in the agreement?",Lender,1,1,0
+127,"What role do both BANK OF AMERICA, N.A. and CITIBANK, N.A. have in the agreement?",Lender,1,1,0
+127,"What role do both BANK OF AMERICA, N.A. and MIZUHO BANK have in the agreement?",Lender,1,1,0
+127,"What role do both BANK OF AMERICA, N.A. and GOLDMAN SACHS BANK have in the agreement?",Lender,1,1,0
+32,What role do both J.P. MORGAN SECURITIES LLC and ROYAL BANK OF CANADA have in the agreement?,Agents,1,1,0

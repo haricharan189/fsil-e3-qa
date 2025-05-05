@@ -1,0 +1,3065 @@
+Removed Exact Duplicates from level1.csv
+Total exact duplicates removed: 589
+(Entries where both question AND answer were identical)
+================================================================================
+
+Found 2 identical entries:
+Question: in what organization does adam rose work
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 115  # First occurrence - kept
+✗ 158  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does amy prager work
+Answer: bank of montreal
+Document numbers (✓ = kept, ✗ = removed):
+✓ 132  # First occurrence - kept
+✗ 132  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does annie carr work
+Answer: royal bank of canada
+Document numbers (✓ = kept, ✗ = removed):
+✓ 165  # First occurrence - kept
+✗ 19  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does annie dorval work
+Answer: new york branch, the toronto dominion bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 110  # First occurrence - kept
+✗ 62  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does cathleen buckley work
+Answer: branch banking and trust company
+Document numbers (✓ = kept, ✗ = removed):
+✓ 135  # First occurrence - kept
+✗ 135  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does chris burns work
+Answer: hsbc bank usa, national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 117  # First occurrence - kept
+✗ 80  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does christine howatt work
+Answer: ltd., the bank of tokyo mitsubishi ufj
+Document numbers (✓ = kept, ✗ = removed):
+✓ 99  # First occurrence - kept
+✗ 170  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does craig pearson work
+Answer: ubs ag, stamford branch
+Document numbers (✓ = kept, ✗ = removed):
+✓ 79  # First occurrence - kept
+✗ 135  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does dan lepage work
+Answer: royal bank of canada
+Document numbers (✓ = kept, ✗ = removed):
+✓ 79  # First occurrence - kept
+✗ 120  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does dave katz work
+Answer: n.a., jpmorgan chase bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 110  # First occurrence - kept
+✗ 38  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does emily ergang pappas work
+Answer: cortland capital market services llc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 145  # First occurrence - kept
+✗ 25  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does hector j. varona work
+Answer: n.a, jpmorgan chase bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 111  # First occurrence - kept
+✗ 40  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does jane chang work
+Answer: bank of taiwan
+Document numbers (✓ = kept, ✗ = removed):
+✓ 83  # First occurrence - kept
+✗ 121  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does jeffrey glajch work
+Answer: ghm acquisition corp.
+Document numbers (✓ = kept, ✗ = removed):
+✓ 129  # First occurrence - kept
+✗ 129  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does johanna minaya work
+Answer: standard chartered bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 83  # First occurrence - kept
+✗ 31  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does john flores work
+Answer: royal bank of canada
+Document numbers (✓ = kept, ✗ = removed):
+✓ 130  # First occurrence - kept
+✗ 19  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does joshua freedman work
+Answer: royal bank of canada
+Document numbers (✓ = kept, ✗ = removed):
+✓ 84  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does kenneth chin work
+Answer: ubs ag, stamford branch
+Document numbers (✓ = kept, ✗ = removed):
+✓ 110  # First occurrence - kept
+✗ 56  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does laura conway work
+Answer: keybank national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 84  # First occurrence - kept
+✗ 84  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does marisa j. beeney work
+Answer: blackstone private credit fund
+Document numbers (✓ = kept, ✗ = removed):
+✓ 146  # First occurrence - kept
+✗ 131  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does mark r. cousineau work
+Answer: u.s. bank national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 45  # First occurrence - kept
+✗ 132  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does mark walton work
+Answer: goldman sachs bank usa
+Document numbers (✓ = kept, ✗ = removed):
+✓ 170  # First occurrence - kept
+✗ 31  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does michael king work
+Answer: credit suisse ag
+Document numbers (✓ = kept, ✗ = removed):
+✓ 151  # First occurrence - kept
+✗ 122  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: in what organization does michael king work
+Answer: inc., morgan stanley senior funding
+Document numbers (✓ = kept, ✗ = removed):
+✓ 139  # First occurrence - kept
+✗ 162  # Duplicate - removed
+✗ 64  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does michael king work
+Answer: morgan stanley bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 148  # First occurrence - kept
+✗ 79  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: in what organization does michael king work
+Answer: n.a., morgan stanley bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 160  # Duplicate - removed
+✗ 52  # Duplicate - removed
+✗ 135  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does michael king work
+Answer: royal bank of canada
+Document numbers (✓ = kept, ✗ = removed):
+✓ 84  # First occurrence - kept
+✗ 23  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does ming k. chu work
+Answer: deutsche bank ag
+Document numbers (✓ = kept, ✗ = removed):
+✓ 84  # First occurrence - kept
+✗ 127  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does ming k. chu work
+Answer: the bank of new york mellon
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does mukesh singh work
+Answer: bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 148  # First occurrence - kept
+✗ 57  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does patricia del busto work
+Answer: wells fargo bank, national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 156  # First occurrence - kept
+✗ 156  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does raymond qiao work
+Answer: bank of china, new york branch
+Document numbers (✓ = kept, ✗ = removed):
+✓ 126  # First occurrence - kept
+✗ 127  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does robert ehudin work
+Answer: goldman sachs bank usa
+Document numbers (✓ = kept, ✗ = removed):
+✓ 11  # First occurrence - kept
+✗ 4  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does robert k. reddington work
+Answer: standard chartered bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 83  # First occurrence - kept
+✗ 31  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does ronnie glenn work
+Answer: barclays bank plc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 147  # First occurrence - kept
+✗ 151  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does ryan durkin work
+Answer: goldman sachs bank usa
+Document numbers (✓ = kept, ✗ = removed):
+✓ 104  # First occurrence - kept
+✗ 72  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does shelley a. mcgregor work
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 167  # First occurrence - kept
+✗ 167  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does steven aloupis work
+Answer: standard chartered bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 104  # First occurrence - kept
+✗ 38  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does t. barrett vawter work
+Answer: regions bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 68  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: in what organization does thomas manning work
+Answer: goldman sachs bank usa
+Document numbers (✓ = kept, ✗ = removed):
+✓ 162  # First occurrence - kept
+✗ 65  # Duplicate - removed
+✗ 147  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: in what organization does william g. karl work
+Answer: sumitomo mitsui banking corporation
+Document numbers (✓ = kept, ✗ = removed):
+✓ 120  # First occurrence - kept
+✗ 24  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 7 identical entries:
+Question: what company is the administrative agent in the agreement
+Answer: bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 73  # First occurrence - kept
+✗ 71  # Duplicate - removed
+✗ 170  # Duplicate - removed
+✗ 43  # Duplicate - removed
+✗ 44  # Duplicate - removed
+✗ 87  # Duplicate - removed
+✗ 86  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the administrative agent in the agreement
+Answer: citibank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 72  # First occurrence - kept
+✗ 146  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 6 identical entries:
+Question: what company is the administrative agent in the agreement
+Answer: jpmorgan chase bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 139  # First occurrence - kept
+✗ 75  # Duplicate - removed
+✗ 77  # Duplicate - removed
+✗ 89  # Duplicate - removed
+✗ 159  # Duplicate - removed
+✗ 82  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what company is the administrative agent in the agreement
+Answer: keybank national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 74  # First occurrence - kept
+✗ 23  # Duplicate - removed
+✗ 108  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what company is the administrative agent in the agreement
+Answer: n.a, jpmorgan chase bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 11  # First occurrence - kept
+✗ 163  # Duplicate - removed
+✗ 154  # Duplicate - removed
+✗ 134  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 6 identical entries:
+Question: what company is the administrative agent in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 158  # First occurrence - kept
+✗ 95  # Duplicate - removed
+✗ 5  # Duplicate - removed
+✗ 1  # Duplicate - removed
+✗ 3  # Duplicate - removed
+✗ 135  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what company is the administrative agent in the agreement
+Answer: n.a., jpmorgan chase bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 117  # First occurrence - kept
+✗ 38  # Duplicate - removed
+✗ 112  # Duplicate - removed
+✗ 147  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the administrative agent in the agreement
+Answer: pnc bank, national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 29  # First occurrence - kept
+✗ 138  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the administrative agent in the agreement
+Answer: royal bank of canada
+Document numbers (✓ = kept, ✗ = removed):
+✓ 10  # First occurrence - kept
+✗ 19  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the administrative agent in the agreement
+Answer: u.s. bank national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 164  # First occurrence - kept
+✗ 96  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 7 identical entries:
+Question: what company is the administrative agent in the agreement
+Answer: wells fargo bank, national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 169  # First occurrence - kept
+✗ 143  # Duplicate - removed
+✗ 156  # Duplicate - removed
+✗ 80  # Duplicate - removed
+✗ 2  # Duplicate - removed
+✗ 79  # Duplicate - removed
+✗ 18  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what company is the agent in the agreement
+Answer: inc., morgan stanley senior funding
+Document numbers (✓ = kept, ✗ = removed):
+✓ 64  # First occurrence - kept
+✗ 140  # Duplicate - removed
+✗ 36  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent in the agreement
+Answer: midcap financial trust
+Document numbers (✓ = kept, ✗ = removed):
+✓ 114  # First occurrence - kept
+✗ 144  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent in the agreement
+Answer: n.a, bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 37  # First occurrence - kept
+✗ 127  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 61  # First occurrence - kept
+✗ 95  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent in the agreement
+Answer: n.a., citibank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 60  # First occurrence - kept
+✗ 168  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what company is the agent in the agreement
+Answer: n.a., jpmorgan chase bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 129  # First occurrence - kept
+✗ 38  # Duplicate - removed
+✗ 142  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent in the agreement
+Answer: pnc bank, national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 29  # First occurrence - kept
+✗ 141  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what company is the agent in the agreement
+Answer: u.s. bank national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 63  # First occurrence - kept
+✗ 59  # Duplicate - removed
+✗ 125  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 5 identical entries:
+Question: what company is the agent in the agreement
+Answer: wells fargo bank, national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 102  # First occurrence - kept
+✗ 66  # Duplicate - removed
+✗ 143  # Duplicate - removed
+✗ 156  # Duplicate - removed
+✗ 22  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what company is the arranger in the agreement
+Answer: inc., morgan stanley senior funding
+Document numbers (✓ = kept, ✗ = removed):
+✓ 17  # First occurrence - kept
+✗ 140  # Duplicate - removed
+✗ 36  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arranger in the agreement
+Answer: j.p. morgan securities llc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 129  # First occurrence - kept
+✗ 134  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arranger in the agreement
+Answer: llc, wells fargo securities
+Document numbers (✓ = kept, ✗ = removed):
+✓ 100  # First occurrence - kept
+✗ 30  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arranger in the agreement
+Answer: pierce, merrill lynch, fenner smith incorporated
+Document numbers (✓ = kept, ✗ = removed):
+✓ 95  # First occurrence - kept
+✗ 86  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the book runner in the agreement
+Answer: wells fargo bank, national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 102  # First occurrence - kept
+✗ 169  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the bookrunner in the agreement
+Answer: inc., bofa securities
+Document numbers (✓ = kept, ✗ = removed):
+✓ 158  # First occurrence - kept
+✗ 127  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the bookrunner in the agreement
+Answer: inc., morgan stanley senior funding
+Document numbers (✓ = kept, ✗ = removed):
+✓ 17  # First occurrence - kept
+✗ 36  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the bookrunner in the agreement
+Answer: llc, wells fargo securities
+Document numbers (✓ = kept, ✗ = removed):
+✓ 100  # First occurrence - kept
+✗ 8  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what company is the bookrunner in the agreement
+Answer: n.a., jpmorgan chase bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 163  # First occurrence - kept
+✗ 154  # Duplicate - removed
+✗ 24  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the bookrunner in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 19  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the borrower in the agreement
+Answer: inc., coherus biosciences
+Document numbers (✓ = kept, ✗ = removed):
+✓ 67  # First occurrence - kept
+✗ 58  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the borrower in the agreement
+Answer: inc., the andersons
+Document numbers (✓ = kept, ✗ = removed):
+✓ 63  # First occurrence - kept
+✗ 59  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the collateral agent in the agreement
+Answer: cortland capital market services llc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 103  # First occurrence - kept
+✗ 145  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the collateral agent in the agreement
+Answer: n.a., jpmorgan chase bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 147  # First occurrence - kept
+✗ 130  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the collateral agent in the agreement
+Answer: u.s. bank national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 159  # First occurrence - kept
+✗ 131  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what company is the issuing bank in the agreement
+Answer: n.a, jpmorgan chase bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 163  # First occurrence - kept
+✗ 40  # Duplicate - removed
+✗ 134  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the issuing bank in the agreement
+Answer: royal bank of canada
+Document numbers (✓ = kept, ✗ = removed):
+✓ 10  # First occurrence - kept
+✗ 19  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what company is the l c issuer in the agreement
+Answer: bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 73  # First occurrence - kept
+✗ 44  # Duplicate - removed
+✗ 86  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 5 identical entries:
+Question: what company is the l c issuer in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 170  # First occurrence - kept
+✗ 158  # Duplicate - removed
+✗ 5  # Duplicate - removed
+✗ 37  # Duplicate - removed
+✗ 127  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lc issuer in the agreement
+Answer: keybank national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 74  # First occurrence - kept
+✗ 84  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what company is the lc issuer in the agreement
+Answer: u.s. bank national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 63  # First occurrence - kept
+✗ 59  # Duplicate - removed
+✗ 164  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lead arranger in the agreement
+Answer: inc., bofa securities
+Document numbers (✓ = kept, ✗ = removed):
+✓ 61  # First occurrence - kept
+✗ 158  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what company is the lender in the agreement
+Answer: inc., morgan stanley senior funding
+Document numbers (✓ = kept, ✗ = removed):
+✓ 140  # First occurrence - kept
+✗ 51  # Duplicate - removed
+✗ 36  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender in the agreement
+Answer: jpmorgan chase bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 159  # First occurrence - kept
+✗ 54  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 5 identical entries:
+Question: what company is the lender in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 115  # First occurrence - kept
+✗ 158  # Duplicate - removed
+✗ 95  # Duplicate - removed
+✗ 5  # Duplicate - removed
+✗ 1  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what company is the lender in the agreement
+Answer: wells fargo bank, national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 102  # First occurrence - kept
+✗ 8  # Duplicate - removed
+✗ 30  # Duplicate - removed
+✗ 118  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lenders in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 1  # First occurrence - kept
+✗ 127  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what company is the swing line lender in the agreement
+Answer: bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 73  # First occurrence - kept
+✗ 170  # Duplicate - removed
+✗ 86  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the location of banco bilbao vizcaya argentaria
+Answer: new york
+Document numbers (✓ = kept, ✗ = removed):
+✓ 35  # First occurrence - kept
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the location of citibank, n.a.
+Answer: de 19720, 1615 brett road building 3new castle
+Document numbers (✓ = kept, ✗ = removed):
+✓ 104  # First occurrence - kept
+✗ 52  # Duplicate - removed
+✗ 52  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the location of citibank, n.a.
+Answer: delaware 19720, 1615 brett road, building 3new castle
+Document numbers (✓ = kept, ✗ = removed):
+✓ 122  # First occurrence - kept
+✗ 126  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the location of credit suisse ag
+Answer: cayman islands
+Document numbers (✓ = kept, ✗ = removed):
+✓ 123  # First occurrence - kept
+✗ 118  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the location of deutsche bank ag
+Answer: new york
+Document numbers (✓ = kept, ✗ = removed):
+✓ 122  # First occurrence - kept
+✗ 127  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the location of health care reit, inc.
+Answer: ohio 43615 4040, 4500 dorr streettoledo
+Document numbers (✓ = kept, ✗ = removed):
+✓ 84  # First occurrence - kept
+✗ 84  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the location of jpmorgan chase bank, n.a.
+Answer: ny 10017, 270 park avenuenew york
+Document numbers (✓ = kept, ✗ = removed):
+✓ 52  # First occurrence - kept
+✗ 52  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the location of pharmakon advisors lp
+Answer: new york, ny 10022, 110 east 59th street
+Document numbers (✓ = kept, ✗ = removed):
+✓ 28  # First occurrence - kept
+✗ 67  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the location of ppd, inc.
+Answer: nc 28401, 929 north front streetwilmington
+Document numbers (✓ = kept, ✗ = removed):
+✓ 147  # First occurrence - kept
+✗ 147  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the location of royal bank of canada
+Answer: 200 vesey st., ny 10281 8098, 5th floornew york
+Document numbers (✓ = kept, ✗ = removed):
+✓ 79  # First occurrence - kept
+✗ 79  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the location of select income reit
+Answer: suite 300newton, massachusetts 02458 1634, two newton place255 washington street
+Document numbers (✓ = kept, ✗ = removed):
+✓ 79  # First occurrence - kept
+✗ 79  # Duplicate - removed
+✗ 79  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the location of sidley austin llp
+Answer: chicago, illinois 60603, one south dearborn
+Document numbers (✓ = kept, ✗ = removed):
+✓ 63  # First occurrence - kept
+✗ 59  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the location of wells fargo bank
+Answer: nc 28288, 301 south college st.charlotte
+Document numbers (✓ = kept, ✗ = removed):
+✓ 52  # First occurrence - kept
+✗ 52  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of amy prager
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 132  # First occurrence - kept
+✗ 132  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of andrew d. holtz
+Answer: senior vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 141  # First occurrence - kept
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of andrew griffin
+Answer: authorized signatory
+Document numbers (✓ = kept, ✗ = removed):
+✓ 65  # First occurrence - kept
+✗ 132  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of andrew sidford
+Answer: managing director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 23  # First occurrence - kept
+✗ 126  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of ann e. sutton
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 9  # First occurrence - kept
+✗ 32  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what is the position of annie carr
+Answer: authorized signatory
+Document numbers (✓ = kept, ✗ = removed):
+✓ 165  # First occurrence - kept
+✗ 52  # Duplicate - removed
+✗ 19  # Duplicate - removed
+✗ 127  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the position of annie chung
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 90  # First occurrence - kept
+✗ 151  # Duplicate - removed
+✗ 127  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of annie dorval
+Answer: authorized signatory
+Document numbers (✓ = kept, ✗ = removed):
+✓ 110  # First occurrence - kept
+✗ 62  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of anthony luppino
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 42  # First occurrence - kept
+✗ 143  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of bertram h. tang
+Answer: authorized signatory
+Document numbers (✓ = kept, ✗ = removed):
+✓ 139  # First occurrence - kept
+✗ 83  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of bill seabrook
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 111  # First occurrence - kept
+✗ 122  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of brendan heneghan
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 110  # First occurrence - kept
+✗ 126  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of bridgett j. manduk mowry
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 61  # First occurrence - kept
+✗ 165  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the position of carolyn kee
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 11  # First occurrence - kept
+✗ 72  # Duplicate - removed
+✗ 52  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of cathleen buckley
+Answer: senior vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 135  # First occurrence - kept
+✗ 135  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of charles mclaughlin
+Answer: senior vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 79  # First occurrence - kept
+✗ 120  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of cheryl labelle
+Answer: managing director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 35  # First occurrence - kept
+✗ 135  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of chris hursey
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 87  # First occurrence - kept
+✗ 121  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the position of christopher day
+Answer: authorized signatory
+Document numbers (✓ = kept, ✗ = removed):
+✓ 74  # First occurrence - kept
+✗ 118  # Duplicate - removed
+✗ 33  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of christopher eng
+Answer: secretary
+Document numbers (✓ = kept, ✗ = removed):
+✓ 3  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of craig malloy
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 11  # First occurrence - kept
+✗ 148  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of craig pearson
+Answer: associate director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 79  # First occurrence - kept
+✗ 135  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of d. bryan gregory
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 79  # First occurrence - kept
+✗ 24  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of dan lepage
+Answer: authorized signatory
+Document numbers (✓ = kept, ✗ = removed):
+✓ 79  # First occurrence - kept
+✗ 120  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the position of darlene arias
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 56  # First occurrence - kept
+✗ 79  # Duplicate - removed
+✗ 135  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of dave katz
+Answer: executive director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 110  # First occurrence - kept
+✗ 38  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of david kee
+Answer: managing director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 135  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of dawn lee lum
+Answer: executive director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 12  # First occurrence - kept
+✗ 147  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of derek chang
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 79  # First occurrence - kept
+✗ 121  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of derek jensen
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 128  # First occurrence - kept
+✗ 126  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of devon j. lang
+Answer: senior vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 35  # First occurrence - kept
+✗ 135  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of diane emanuel
+Answer: managing director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 104  # First occurrence - kept
+✗ 170  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what is the position of donna demagistris
+Answer: authorized signatory
+Document numbers (✓ = kept, ✗ = removed):
+✓ 110  # First occurrence - kept
+✗ 38  # Duplicate - removed
+✗ 90  # Duplicate - removed
+✗ 121  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the position of doreen barr
+Answer: authorized signatory
+Document numbers (✓ = kept, ✗ = removed):
+✓ 64  # First occurrence - kept
+✗ 122  # Duplicate - removed
+✗ 132  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of emily ergang pappas
+Answer: associate counsel
+Document numbers (✓ = kept, ✗ = removed):
+✓ 145  # First occurrence - kept
+✗ 25  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of eric searls
+Answer: senior vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 9  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of eugene yermash
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 147  # First occurrence - kept
+✗ 127  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of frederick h. denecke
+Answer: senior vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 138  # First occurrence - kept
+✗ 120  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of gordon yip
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 142  # First occurrence - kept
+✗ 126  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of hans beekmans
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 35  # First occurrence - kept
+✗ 135  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the position of hector j. varona
+Answer: executive director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 111  # First occurrence - kept
+✗ 77  # Duplicate - removed
+✗ 40  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of helga blum
+Answer: managing director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 84  # First occurrence - kept
+✗ 120  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of henry pennell
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 71  # First occurrence - kept
+✗ 57  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of houssem daly
+Answer: associate director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 110  # First occurrence - kept
+✗ 38  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of j. casey cosgrove
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 12  # First occurrence - kept
+✗ 165  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of j. frazell
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 35  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of james d. weinstein
+Answer: managing director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 142  # First occurrence - kept
+✗ 35  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of james hua
+Answer: svp
+Document numbers (✓ = kept, ✗ = removed):
+✓ 83  # First occurrence - kept
+✗ 121  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of joe hykle
+Answer: senior vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 35  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of johanna minaya
+Answer: associate director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 83  # First occurrence - kept
+✗ 31  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of john c. rowland
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 84  # First occurrence - kept
+✗ 79  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the position of john flores
+Answer: authorized signatory
+Document numbers (✓ = kept, ✗ = removed):
+✓ 52  # First occurrence - kept
+✗ 130  # Duplicate - removed
+✗ 19  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of john wilgus
+Answer: senior vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 161  # First occurrence - kept
+✗ 68  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of jonathan m. phillips
+Answer: senior vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 113  # First occurrence - kept
+✗ 9  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of joselin fernandes
+Answer: associate director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 106  # First occurrence - kept
+✗ 84  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of joshua freedman
+Answer: authorized signatory
+Document numbers (✓ = kept, ✗ = removed):
+✓ 84  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of karim rahimtoola
+Answer: authorized signatory
+Document numbers (✓ = kept, ✗ = removed):
+✓ 74  # First occurrence - kept
+✗ 73  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of karim remtoula
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 148  # First occurrence - kept
+✗ 126  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the position of katherine bass
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 148  # First occurrence - kept
+✗ 77  # Duplicate - removed
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the position of kenneth chin
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 110  # First occurrence - kept
+✗ 38  # Duplicate - removed
+✗ 56  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of kevin chan
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 111  # First occurrence - kept
+✗ 40  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the position of komal shah
+Answer: authorized signatory
+Document numbers (✓ = kept, ✗ = removed):
+✓ 64  # First occurrence - kept
+✗ 147  # Duplicate - removed
+✗ 23  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of kristie li
+Answer: senior vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 66  # First occurrence - kept
+✗ 47  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of lana gifas
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 106  # First occurrence - kept
+✗ 84  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of laura conway
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 84  # First occurrence - kept
+✗ 84  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of leon mo
+Answer: authorized signatory
+Document numbers (✓ = kept, ✗ = removed):
+✓ 35  # First occurrence - kept
+✗ 135  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of lillian kim
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 104  # First occurrence - kept
+✗ 126  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of mark r. cousineau
+Answer: senior vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 45  # First occurrence - kept
+✗ 132  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the position of mark walton
+Answer: authorized signatory
+Document numbers (✓ = kept, ✗ = removed):
+✓ 9  # First occurrence - kept
+✗ 169  # Duplicate - removed
+✗ 31  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of martin corrigan
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 160  # First occurrence - kept
+✗ 64  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what is the position of maureen maroney
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 122  # Duplicate - removed
+✗ 35  # Duplicate - removed
+✗ 31  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of maureen s. malphus
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 42  # First occurrence - kept
+✗ 19  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of michael dixon
+Answer: senior vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 83  # First occurrence - kept
+✗ 121  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of michael fleming
+Answer: president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 67  # First occurrence - kept
+✗ 58  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 12 identical entries:
+Question: what is the position of michael king
+Answer: authorized signatory
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 160  # Duplicate - removed
+✗ 148  # Duplicate - removed
+✗ 40  # Duplicate - removed
+✗ 84  # Duplicate - removed
+✗ 52  # Duplicate - removed
+✗ 151  # Duplicate - removed
+✗ 79  # Duplicate - removed
+✗ 122  # Duplicate - removed
+✗ 23  # Duplicate - removed
+✗ 35  # Duplicate - removed
+✗ 135  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the position of michael king
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 10  # First occurrence - kept
+✗ 162  # Duplicate - removed
+✗ 64  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of michael maguire
+Answer: managing director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 60  # First occurrence - kept
+✗ 126  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of michael pearce
+Answer: managing director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 90  # First occurrence - kept
+✗ 151  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of michael s. barnett
+Answer: senior vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 60  # First occurrence - kept
+✗ 90  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 5 identical entries:
+Question: what is the position of michael vondriska
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 104  # First occurrence - kept
+✗ 139  # Duplicate - removed
+✗ 170  # Duplicate - removed
+✗ 57  # Duplicate - removed
+✗ 90  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of michael willis
+Answer: managing director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 35  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of michelle c. phillips
+Answer: managing director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 126  # First occurrence - kept
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of min park
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 100  # First occurrence - kept
+✗ 126  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 5 identical entries:
+Question: what is the position of ming k. chu
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 142  # First occurrence - kept
+✗ 57  # Duplicate - removed
+✗ 90  # Duplicate - removed
+✗ 127  # Duplicate - removed
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the position of ming k. chu
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 47  # Duplicate - removed
+✗ 84  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what is the position of mukesh singh
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 11  # First occurrence - kept
+✗ 148  # Duplicate - removed
+✗ 57  # Duplicate - removed
+✗ 90  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of ola anderssen
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 139  # First occurrence - kept
+✗ 73  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of patricia del busto
+Answer: its authorized signatory
+Document numbers (✓ = kept, ✗ = removed):
+✓ 156  # First occurrence - kept
+✗ 156  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of peter duncan
+Answer: managing director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 165  # First occurrence - kept
+✗ 118  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the position of philip tancorra
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 65  # First occurrence - kept
+✗ 156  # Duplicate - removed
+✗ 147  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the position of raymond qiao
+Answer: executive vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 151  # First occurrence - kept
+✗ 126  # Duplicate - removed
+✗ 127  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what is the position of rebecca kratz
+Answer: authorized signatory
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 77  # Duplicate - removed
+✗ 56  # Duplicate - removed
+✗ 35  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of richard c. brown
+Answer: senior vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 80  # First occurrence - kept
+✗ 94  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what is the position of robert ehudin
+Answer: authorized signatory
+Document numbers (✓ = kept, ✗ = removed):
+✓ 11  # First occurrence - kept
+✗ 106  # Duplicate - removed
+✗ 4  # Duplicate - removed
+✗ 123  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the position of ronnie glenn
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 147  # First occurrence - kept
+✗ 151  # Duplicate - removed
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of ronnie glenn
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 139  # First occurrence - kept
+✗ 118  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of rosanne parsill
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 86  # First occurrence - kept
+✗ 135  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of ross levitsky
+Answer: managing director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 122  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what is the position of ryan durkin
+Answer: authorized signatory
+Document numbers (✓ = kept, ✗ = removed):
+✓ 104  # First occurrence - kept
+✗ 60  # Duplicate - removed
+✗ 72  # Duplicate - removed
+✗ 132  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of ryan m. black
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 127  # First occurrence - kept
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of ryan zimmerman
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 128  # First occurrence - kept
+✗ 165  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of scott o connell
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 82  # First occurrence - kept
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the position of sean hassett
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 90  # First occurrence - kept
+✗ 151  # Duplicate - removed
+✗ 123  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of sheldon pinto
+Answer: authorized signatory
+Document numbers (✓ = kept, ✗ = removed):
+✓ 139  # First occurrence - kept
+✗ 83  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of shelley a. mcgregor
+Answer: senior vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 167  # First occurrence - kept
+✗ 167  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of shuji yabe
+Answer: managing director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 83  # First occurrence - kept
+✗ 121  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of stephanie balette
+Answer: authorized officer
+Document numbers (✓ = kept, ✗ = removed):
+✓ 135  # First occurrence - kept
+✗ 130  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of steven dixon
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 99  # First occurrence - kept
+✗ 37  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of susan m. olsen
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 60  # First occurrence - kept
+✗ 126  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of sydney g. dennis
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 110  # First occurrence - kept
+✗ 57  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of tanille ingle
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 66  # First occurrence - kept
+✗ 151  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of tanya crossley
+Answer: managing director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 139  # First occurrence - kept
+✗ 84  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of teuta ghilaga
+Answer: director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 100  # First occurrence - kept
+✗ 77  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what is the position of thomas manning
+Answer: authorized signatory
+Document numbers (✓ = kept, ✗ = removed):
+✓ 162  # First occurrence - kept
+✗ 65  # Duplicate - removed
+✗ 64  # Duplicate - removed
+✗ 147  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of timothy j. devane
+Answer: executive director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 169  # First occurrence - kept
+✗ 19  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what is the position of tracy rahn
+Answer: authorized signatory
+Document numbers (✓ = kept, ✗ = removed):
+✓ 12  # First occurrence - kept
+✗ 60  # Duplicate - removed
+✗ 165  # Duplicate - removed
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the position of tracy rahn
+Answer: executive director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 151  # First occurrence - kept
+✗ 126  # Duplicate - removed
+✗ 127  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of vanessa a. kurbatskiy
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 106  # First occurrence - kept
+✗ 82  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of veronica incera
+Answer: managing director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 35  # First occurrence - kept
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 6 identical entries:
+Question: what is the position of virginia cosenza
+Answer: vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 11  # First occurrence - kept
+✗ 57  # Duplicate - removed
+✗ 47  # Duplicate - removed
+✗ 84  # Duplicate - removed
+✗ 135  # Duplicate - removed
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of whitney gaston
+Answer: authorized signatory
+Document numbers (✓ = kept, ✗ = removed):
+✓ 65  # First occurrence - kept
+✗ 147  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of william d. priester
+Answer: senior vice president
+Document numbers (✓ = kept, ✗ = removed):
+✓ 94  # First occurrence - kept
+✗ 50  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of william g. karl
+Answer: executive officer
+Document numbers (✓ = kept, ✗ = removed):
+✓ 120  # First occurrence - kept
+✗ 24  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the position of xavier ruiz sena
+Answer: managing director
+Document numbers (✓ = kept, ✗ = removed):
+✓ 126  # First occurrence - kept
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of af v energy i holdings, l.p. in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 27  # First occurrence - kept
+✗ 27  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of anadarko petroleum corporation, in the agreement
+Answer: borrower
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 38  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of apollo capital management gp, llc in the agreement
+Answer: general partner
+Document numbers (✓ = kept, ✗ = removed):
+✓ 145  # First occurrence - kept
+✗ 144  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of b2r finance l.p. in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 136  # First occurrence - kept
+✗ 136  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what is the role of bank of america in the agreement
+Answer: administrative agent
+Document numbers (✓ = kept, ✗ = removed):
+✓ 148  # First occurrence - kept
+✗ 71  # Duplicate - removed
+✗ 43  # Duplicate - removed
+✗ 87  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 6 identical entries:
+Question: what is the role of bank of america in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 148  # First occurrence - kept
+✗ 99  # Duplicate - removed
+✗ 80  # Duplicate - removed
+✗ 152  # Duplicate - removed
+✗ 152  # Duplicate - removed
+✗ 90  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of bank of america in the agreement
+Answer: syndication agent
+Document numbers (✓ = kept, ✗ = removed):
+✓ 139  # First occurrence - kept
+✗ 168  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of bank of america, n.a in the agreement
+Answer: lenders
+Document numbers (✓ = kept, ✗ = removed):
+✓ 168  # First occurrence - kept
+✗ 30  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of bank of america, n.a. in the agreement
+Answer: administrative agent
+Document numbers (✓ = kept, ✗ = removed):
+✓ 148  # First occurrence - kept
+✗ 95  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 15 identical entries:
+Question: what is the role of bank of america, n.a. in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 115  # First occurrence - kept
+✗ 10  # Duplicate - removed
+✗ 113  # Duplicate - removed
+✗ 112  # Duplicate - removed
+✗ 158  # Duplicate - removed
+✗ 141  # Duplicate - removed
+✗ 42  # Duplicate - removed
+✗ 143  # Duplicate - removed
+✗ 142  # Duplicate - removed
+✗ 152  # Duplicate - removed
+✗ 123  # Duplicate - removed
+✗ 137  # Duplicate - removed
+✗ 23  # Duplicate - removed
+✗ 125  # Duplicate - removed
+✗ 133  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of bank of america, n.a., in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 12  # First occurrence - kept
+✗ 113  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of bank of montreal in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 122  # First occurrence - kept
+✗ 132  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 11 identical entries:
+Question: what is the role of barclays bank plc in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 111  # First occurrence - kept
+✗ 106  # Duplicate - removed
+✗ 148  # Duplicate - removed
+✗ 165  # Duplicate - removed
+✗ 64  # Duplicate - removed
+✗ 169  # Duplicate - removed
+✗ 56  # Duplicate - removed
+✗ 142  # Duplicate - removed
+✗ 47  # Duplicate - removed
+✗ 122  # Duplicate - removed
+✗ 135  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the role of biopharma credit investments v master lp in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 28  # First occurrence - kept
+✗ 28  # Duplicate - removed
+✗ 67  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the role of bmo harris bank n.a. in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 161  # First occurrence - kept
+✗ 135  # Duplicate - removed
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of bmo harris bank, n.a. in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 143  # First occurrence - kept
+✗ 19  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 6 identical entries:
+Question: what is the role of bnp paribas in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 148  # Duplicate - removed
+✗ 61  # Duplicate - removed
+✗ 90  # Duplicate - removed
+✗ 135  # Duplicate - removed
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what is the role of branch banking and trust company in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 99  # First occurrence - kept
+✗ 141  # Duplicate - removed
+✗ 137  # Duplicate - removed
+✗ 135  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of cb music llc in the agreement
+Answer: guarantor
+Document numbers (✓ = kept, ✗ = removed):
+✓ 99  # First occurrence - kept
+✗ 99  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of cbocs distribution, inc. in the agreement
+Answer: guarantor
+Document numbers (✓ = kept, ✗ = removed):
+✓ 99  # First occurrence - kept
+✗ 99  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of cbocs pennsylvania, llc in the agreement
+Answer: guarantor
+Document numbers (✓ = kept, ✗ = removed):
+✓ 99  # First occurrence - kept
+✗ 99  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of cbocs texas, llc in the agreement
+Answer: guarantor
+Document numbers (✓ = kept, ✗ = removed):
+✓ 99  # First occurrence - kept
+✗ 99  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of cbocs west, inc. in the agreement
+Answer: guarantor
+Document numbers (✓ = kept, ✗ = removed):
+✓ 99  # First occurrence - kept
+✗ 99  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the role of citibank in the agreement
+Answer: administrative agent
+Document numbers (✓ = kept, ✗ = removed):
+✓ 72  # First occurrence - kept
+✗ 168  # Duplicate - removed
+✗ 146  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of citibank in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 80  # First occurrence - kept
+✗ 90  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of citibank, n.a in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 123  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 6 identical entries:
+Question: what is the role of citibank, n.a. in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 106  # First occurrence - kept
+✗ 61  # Duplicate - removed
+✗ 162  # Duplicate - removed
+✗ 166  # Duplicate - removed
+✗ 142  # Duplicate - removed
+✗ 47  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the role of citrix systems, inc. in the agreement
+Answer: borrower
+Document numbers (✓ = kept, ✗ = removed):
+✓ 61  # First occurrence - kept
+✗ 98  # Duplicate - removed
+✗ 98  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of collegium pharmaceutical, inc. in the agreement
+Answer: borrower
+Document numbers (✓ = kept, ✗ = removed):
+✓ 28  # First occurrence - kept
+✗ 28  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the role of columbia property trust operating partnership, l.p. in the agreement
+Answer: borrower
+Document numbers (✓ = kept, ✗ = removed):
+✓ 24  # First occurrence - kept
+✗ 24  # Duplicate - removed
+✗ 24  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of comerica bank in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 164  # First occurrence - kept
+✗ 86  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of cracker barrel old country store, inc. in the agreement
+Answer: borrower
+Document numbers (✓ = kept, ✗ = removed):
+✓ 99  # First occurrence - kept
+✗ 99  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the role of credit agricole corporate and investment bank in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 90  # First occurrence - kept
+✗ 23  # Duplicate - removed
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the role of credit suisse ag in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 123  # Duplicate - removed
+✗ 122  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of credit suisse ag, cayman islands branch in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 64  # First occurrence - kept
+✗ 23  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of deloitte touche llp in the agreement
+Answer: legal counsel
+Document numbers (✓ = kept, ✗ = removed):
+✓ 66  # First occurrence - kept
+✗ 64  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of deutsche bank ag in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 122  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 5 identical entries:
+Question: what is the role of deutsche bank ag new york branch in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 61  # First occurrence - kept
+✗ 142  # Duplicate - removed
+✗ 90  # Duplicate - removed
+✗ 137  # Duplicate - removed
+✗ 135  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the role of dnb capital llc in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 47  # Duplicate - removed
+✗ 135  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of dynegy power, llc in the agreement
+Answer: borrower
+Document numbers (✓ = kept, ✗ = removed):
+✓ 106  # First occurrence - kept
+✗ 106  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the role of fifth third bank in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 99  # First occurrence - kept
+✗ 164  # Duplicate - removed
+✗ 90  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of first tennessee bank national association in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 99  # First occurrence - kept
+✗ 143  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of gastar midco holdings llc in the agreement
+Answer: borrower
+Document numbers (✓ = kept, ✗ = removed):
+✓ 27  # First occurrence - kept
+✗ 27  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 6 identical entries:
+Question: what is the role of goldman sachs bank usa in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 162  # Duplicate - removed
+✗ 80  # Duplicate - removed
+✗ 90  # Duplicate - removed
+✗ 21  # Duplicate - removed
+✗ 132  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of gxs group, inc. in the agreement
+Answer: borrower
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of healthcare royalty partners iii, l.p. in the agreement
+Answer: investor
+Document numbers (✓ = kept, ✗ = removed):
+✓ 67  # First occurrence - kept
+✗ 58  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the role of hsbc bank usa in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 148  # First occurrence - kept
+✗ 90  # Duplicate - removed
+✗ 87  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what is the role of hsbc bank usa, n.a in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 162  # First occurrence - kept
+✗ 165  # Duplicate - removed
+✗ 47  # Duplicate - removed
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of hsbc bank usa, national association in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 117  # First occurrence - kept
+✗ 80  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of hunt companies finance trust, inc. in the agreement
+Answer: borrower
+Document numbers (✓ = kept, ✗ = removed):
+✓ 25  # First occurrence - kept
+✗ 25  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of ing bank n.v. in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 166  # First occurrence - kept
+✗ 90  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the role of jpmorgan chase bank in the agreement
+Answer: administrative agent
+Document numbers (✓ = kept, ✗ = removed):
+✓ 139  # First occurrence - kept
+✗ 75  # Duplicate - removed
+✗ 83  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what is the role of jpmorgan chase bank in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 148  # First occurrence - kept
+✗ 54  # Duplicate - removed
+✗ 90  # Duplicate - removed
+✗ 87  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the role of jpmorgan chase bank, n.a in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 111  # First occurrence - kept
+✗ 123  # Duplicate - removed
+✗ 122  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what is the role of jpmorgan chase bank, n.a. in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 12  # First occurrence - kept
+✗ 61  # Duplicate - removed
+✗ 47  # Duplicate - removed
+✗ 132  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of keybank national association in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 10  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the role of michigan electric transmission company, llc in the agreement
+Answer: borrower
+Document numbers (✓ = kept, ✗ = removed):
+✓ 62  # First occurrence - kept
+✗ 34  # Duplicate - removed
+✗ 34  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of micropac industries, inc. in the agreement
+Answer: borrower
+Document numbers (✓ = kept, ✗ = removed):
+✓ 157  # First occurrence - kept
+✗ 157  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of mizuho bank, ltd in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 90  # First occurrence - kept
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the role of mizuho bank, ltd. in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 165  # Duplicate - removed
+✗ 142  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 6 identical entries:
+Question: what is the role of morgan stanley bank, n.a. in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 56  # Duplicate - removed
+✗ 122  # Duplicate - removed
+✗ 135  # Duplicate - removed
+✗ 131  # Duplicate - removed
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of morgan stanley senior funding, inc in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 23  # First occurrence - kept
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the role of mvp acquisitions, llc in the agreement
+Answer: subsidiary
+Document numbers (✓ = kept, ✗ = removed):
+✓ 69  # First occurrence - kept
+✗ 69  # Duplicate - removed
+✗ 69  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of mvp bridgeport fairfield garage, llc in the agreement
+Answer: subsidiary
+Document numbers (✓ = kept, ✗ = removed):
+✓ 69  # First occurrence - kept
+✗ 69  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of mvp houston preston lot, llc in the agreement
+Answer: subsidiary
+Document numbers (✓ = kept, ✗ = removed):
+✓ 69  # First occurrence - kept
+✗ 69  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of mx ii associates llc in the agreement
+Answer: investor
+Document numbers (✓ = kept, ✗ = removed):
+✓ 67  # First occurrence - kept
+✗ 58  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of o melveny myers llp in the agreement
+Answer: counsel to the borrower
+Document numbers (✓ = kept, ✗ = removed):
+✓ 76  # First occurrence - kept
+✗ 76  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of omnicell, inc. in the agreement
+Answer: borrower
+Document numbers (✓ = kept, ✗ = removed):
+✓ 100  # First occurrence - kept
+✗ 100  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the role of pnc bank in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 148  # First occurrence - kept
+✗ 90  # Duplicate - removed
+✗ 123  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 7 identical entries:
+Question: what is the role of pnc bank, national association in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 99  # First occurrence - kept
+✗ 82  # Duplicate - removed
+✗ 42  # Duplicate - removed
+✗ 80  # Duplicate - removed
+✗ 137  # Duplicate - removed
+✗ 135  # Duplicate - removed
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of public service company of new mexico in the agreement
+Answer: borrower
+Document numbers (✓ = kept, ✗ = removed):
+✓ 96  # First occurrence - kept
+✗ 125  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the role of raymond james bank, n.a. in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 73  # First occurrence - kept
+✗ 137  # Duplicate - removed
+✗ 18  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 5 identical entries:
+Question: what is the role of regions bank in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 99  # First occurrence - kept
+✗ 42  # Duplicate - removed
+✗ 137  # Duplicate - removed
+✗ 135  # Duplicate - removed
+✗ 130  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of rocking chair, inc. in the agreement
+Answer: guarantor
+Document numbers (✓ = kept, ✗ = removed):
+✓ 99  # First occurrence - kept
+✗ 99  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 8 identical entries:
+Question: what is the role of royal bank of canada in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 117  # First occurrence - kept
+✗ 165  # Duplicate - removed
+✗ 142  # Duplicate - removed
+✗ 86  # Duplicate - removed
+✗ 22  # Duplicate - removed
+✗ 123  # Duplicate - removed
+✗ 137  # Duplicate - removed
+✗ 135  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of sidley austin llp in the agreement
+Answer: legal counsel
+Document numbers (✓ = kept, ✗ = removed):
+✓ 63  # First occurrence - kept
+✗ 59  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of silicon graphics international corp in the agreement
+Answer: borrower
+Document numbers (✓ = kept, ✗ = removed):
+✓ 36  # First occurrence - kept
+✗ 36  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of soci t g n rale in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 135  # First occurrence - kept
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of standard chartered bank in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what is the role of sumitomo mitsui banking corporation in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 135  # Duplicate - removed
+✗ 24  # Duplicate - removed
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 5 identical entries:
+Question: what is the role of suntrust bank in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 165  # First occurrence - kept
+✗ 80  # Duplicate - removed
+✗ 87  # Duplicate - removed
+✗ 135  # Duplicate - removed
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of synovus bank in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 161  # First occurrence - kept
+✗ 99  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of td bank in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 82  # First occurrence - kept
+✗ 90  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of td bank, n.a. in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 141  # First occurrence - kept
+✗ 42  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of td securities usa llc in the agreement
+Answer: bookrunners
+Document numbers (✓ = kept, ✗ = removed):
+✓ 139  # First occurrence - kept
+✗ 148  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of the andersons, inc. in the agreement
+Answer: borrower
+Document numbers (✓ = kept, ✗ = removed):
+✓ 63  # First occurrence - kept
+✗ 59  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the role of the bank of new york mellon in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 122  # Duplicate - removed
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 7 identical entries:
+Question: what is the role of the bank of nova scotia in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 111  # First occurrence - kept
+✗ 38  # Duplicate - removed
+✗ 165  # Duplicate - removed
+✗ 142  # Duplicate - removed
+✗ 122  # Duplicate - removed
+✗ 135  # Duplicate - removed
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of the bank of tokyo mitsubishi ufj, ltd in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 82  # First occurrence - kept
+✗ 123  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of the bank of tokyo mitsubishi ufj, ltd. in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 99  # First occurrence - kept
+✗ 135  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 5 identical entries:
+Question: what is the role of the northern trust company in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 148  # First occurrence - kept
+✗ 82  # Duplicate - removed
+✗ 141  # Duplicate - removed
+✗ 123  # Duplicate - removed
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what is the role of truist bank in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 148  # First occurrence - kept
+✗ 64  # Duplicate - removed
+✗ 90  # Duplicate - removed
+✗ 130  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of u.s. bank national association in the agreement
+Answer: lc issuer
+Document numbers (✓ = kept, ✗ = removed):
+✓ 63  # First occurrence - kept
+✗ 59  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 11 identical entries:
+Question: what is the role of u.s. bank national association in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 138  # First occurrence - kept
+✗ 12  # Duplicate - removed
+✗ 165  # Duplicate - removed
+✗ 82  # Duplicate - removed
+✗ 80  # Duplicate - removed
+✗ 90  # Duplicate - removed
+✗ 45  # Duplicate - removed
+✗ 137  # Duplicate - removed
+✗ 135  # Duplicate - removed
+✗ 132  # Duplicate - removed
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of ubs ag in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 15  # First occurrence - kept
+✗ 38  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what is the role of ubs ag, stamford branch in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 106  # First occurrence - kept
+✗ 56  # Duplicate - removed
+✗ 135  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of umb bank, n.a. in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 130  # First occurrence - kept
+✗ 19  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of wells fargo bank in the agreement
+Answer: documentation agents
+Document numbers (✓ = kept, ✗ = removed):
+✓ 5  # First occurrence - kept
+✗ 124  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of wells fargo bank, n.a. in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 124  # First occurrence - kept
+✗ 132  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of wells fargo bank, national association in the agreement
+Answer: administrative agent
+Document numbers (✓ = kept, ✗ = removed):
+✓ 111  # First occurrence - kept
+✗ 143  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 9 identical entries:
+Question: what is the role of wells fargo bank, national association in the agreement
+Answer: lender
+Document numbers (✓ = kept, ✗ = removed):
+✓ 38  # First occurrence - kept
+✗ 61  # Duplicate - removed
+✗ 8  # Duplicate - removed
+✗ 82  # Duplicate - removed
+✗ 142  # Duplicate - removed
+✗ 122  # Duplicate - removed
+✗ 130  # Duplicate - removed
+✗ 19  # Duplicate - removed
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what is the role of west 9th street properties ii, llc in the agreement
+Answer: subsidiary
+Document numbers (✓ = kept, ✗ = removed):
+✓ 69  # First occurrence - kept
+✗ 69  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what type of location is cayman islands
+Answer: branch
+Document numbers (✓ = kept, ✗ = removed):
+✓ 4  # First occurrence - kept
+✗ 123  # Duplicate - removed
+✗ 118  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 6 identical entries:
+Question: what type of location is new york
+Answer: branch
+Document numbers (✓ = kept, ✗ = removed):
+✓ 122  # First occurrence - kept
+✗ 35  # Duplicate - removed
+✗ 35  # Duplicate - removed
+✗ 121  # Duplicate - removed
+✗ 26  # Duplicate - removed
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: which company is associated with 110 east 59th street, new york, ny 10022
+Answer: pharmakon advisors lp
+Document numbers (✓ = kept, ✗ = removed):
+✓ 28  # First occurrence - kept
+✗ 28  # Duplicate - removed
+✗ 28  # Duplicate - removed
+✗ 67  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: which company is associated with 1615 brett road, building 3new castle, delaware 19720
+Answer: n.a., citibank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 122  # First occurrence - kept
+✗ 126  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: which company is associated with 200 vesey streetnew york, new york 10281
+Answer: royal bank of canada
+Document numbers (✓ = kept, ✗ = removed):
+✓ 10  # First occurrence - kept
+✗ 19  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: which company is associated with 200 west streetnew york, new york 10282 2198
+Answer: goldman sachs bank usa
+Document numbers (✓ = kept, ✗ = removed):
+✓ 34  # First occurrence - kept
+✗ 34  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: which company is associated with cayman islands
+Answer: credit suisse ag
+Document numbers (✓ = kept, ✗ = removed):
+✓ 123  # First occurrence - kept
+✗ 118  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: which company is associated with mac d1109 0191525 west w.t. harris blvd.charlotte, nc 28262
+Answer: wells fargo bank, national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 111  # First occurrence - kept
+✗ 99  # Duplicate - removed
+✗ 47  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: which company is associated with one bryant parknew york, ny 10036 6745
+Answer: akin gump strauss hauer feld llp
+Document numbers (✓ = kept, ✗ = removed):
+✓ 28  # First occurrence - kept
+✗ 28  # Duplicate - removed
+✗ 67  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: which company is associated with one south dearborn, chicago, illinois 60603
+Answer: sidley austin llp
+Document numbers (✓ = kept, ✗ = removed):
+✓ 63  # First occurrence - kept
+✗ 59  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: which company is associated with us bank utilities division461 fifth avenue, 8th floornew york, ny 10017
+Answer: u.s. bank national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 96  # First occurrence - kept
+✗ 125  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: who is the representative of akin gump strauss hauer feld llp
+Answer: geoffrey e. secol
+Document numbers (✓ = kept, ✗ = removed):
+✓ 28  # First occurrence - kept
+✗ 28  # Duplicate - removed
+✗ 67  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the representative of bank of america, n.a.
+Answer: adam rose
+Document numbers (✓ = kept, ✗ = removed):
+✓ 115  # First occurrence - kept
+✗ 158  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the representative of bank of china, new york branch
+Answer: raymond qiao
+Document numbers (✓ = kept, ✗ = removed):
+✓ 126  # First occurrence - kept
+✗ 127  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the representative of cortland capital market services llc
+Answer: emily ergang pappas
+Document numbers (✓ = kept, ✗ = removed):
+✓ 145  # First occurrence - kept
+✗ 25  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the representative of goldman sachs bank usa
+Answer: robert ehudin
+Document numbers (✓ = kept, ✗ = removed):
+✓ 11  # First occurrence - kept
+✗ 4  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the representative of goldman sachs bank usa
+Answer: ryan durkin
+Document numbers (✓ = kept, ✗ = removed):
+✓ 104  # First occurrence - kept
+✗ 72  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the representative of goldman sachs bank usa
+Answer: thomas manning
+Document numbers (✓ = kept, ✗ = removed):
+✓ 162  # First occurrence - kept
+✗ 147  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the representative of jpmorgan chase bank, n.a
+Answer: hector j. varona
+Document numbers (✓ = kept, ✗ = removed):
+✓ 111  # First occurrence - kept
+✗ 40  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: who is the representative of pharmakon advisors lp
+Answer: pedro gonzalez de cosio
+Document numbers (✓ = kept, ✗ = removed):
+✓ 28  # First occurrence - kept
+✗ 28  # Duplicate - removed
+✗ 67  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the representative of royal bank of canada
+Answer: dan lepage
+Document numbers (✓ = kept, ✗ = removed):
+✓ 79  # First occurrence - kept
+✗ 120  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the representative of standard chartered bank
+Answer: steven aloupis
+Document numbers (✓ = kept, ✗ = removed):
+✓ 104  # First occurrence - kept
+✗ 38  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the representative of sumitomo mitsui banking corporation
+Answer: william g. karl
+Document numbers (✓ = kept, ✗ = removed):
+✓ 120  # First occurrence - kept
+✗ 24  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the representative of the bank of tokyo mitsubishi ufj, ltd.
+Answer: christine howatt
+Document numbers (✓ = kept, ✗ = removed):
+✓ 99  # First occurrence - kept
+✗ 170  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is the representative of ubs ag, stamford branch
+Answer: craig pearson
+Document numbers (✓ = kept, ✗ = removed):
+✓ 79  # First occurrence - kept
+✗ 135  # Duplicate - removed
+--------------------------------------------------------------------------------
+

@@ -1,0 +1,1590 @@
+Removed Exact Duplicates from level4.csv
+Total exact duplicates removed: 213
+(Entries where both question AND answer were identical)
+================================================================================
+
+Found 2 identical entries:
+Question: what company is the  book manager and  lead arranger but not the borrower in the agreement
+Answer: bank of america merrill lynch
+Document numbers (✓ = kept, ✗ = removed):
+✓ 167  # First occurrence - kept
+✗ 167  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the  book runners and  lead arrangers but not the borrower in the agreement
+Answer: fifth third bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 143  # First occurrence - kept
+✗ 143  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the  bookrunners and bookrunners but not the borrower in the agreement
+Answer: pierce, merrill lynch, fenner smith incorporated
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the  lead arrangers and lender but not the lenders in the agreement
+Answer: the huntington national bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 161  # First occurrence - kept
+✗ 161  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the a l c issuer and collateral agent but not the borrower in the agreement
+Answer: n.a., jpmorgan chase bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 147  # First occurrence - kept
+✗ 147  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the administrative agent and a l c issuer but not the borrower in the agreement
+Answer: n.a., jpmorgan chase bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 147  # First occurrence - kept
+✗ 147  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the administrative agent and agent but not the borrower in the agreement
+Answer: pnc bank, national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 138  # First occurrence - kept
+✗ 138  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the administrative agent and collateral agent but not the borrower in the agreement
+Answer: n.a., jpmorgan chase bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 147  # First occurrence - kept
+✗ 147  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the administrative agent and collateral agent but not the lenders in the agreement
+Answer: whitehawk capital partners lp
+Document numbers (✓ = kept, ✗ = removed):
+✓ 155  # First occurrence - kept
+✗ 155  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the administrative agent and issuing bank but not the borrower in the agreement
+Answer: n.a, jpmorgan chase bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 153  # First occurrence - kept
+✗ 134  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the administrative agent and l c issuer but not the bookrunner in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 158  # First occurrence - kept
+✗ 5  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the administrative agent and l c issuer but not the cayman borrower in the agreement
+Answer: n.a., jpmorgan chase bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 83  # First occurrence - kept
+✗ 83  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the administrative agent and l c issuer but not the lead arranger in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 158  # First occurrence - kept
+✗ 5  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the administrative agent and lender but not the borrower in the agreement
+Answer: pnc bank, national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 138  # First occurrence - kept
+✗ 138  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the administrative agent and swing line lender but not the borrower in the agreement
+Answer: bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 73  # First occurrence - kept
+✗ 170  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the administrative agent and swing line lender but not the lender in the agreement
+Answer: bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 73  # First occurrence - kept
+✗ 170  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the administrative agent but not the borrower or lender, in the agreement
+Answer: n.a, bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 167  # First occurrence - kept
+✗ 167  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the administrative agent but not the l c issuer or cayman borrower in the agreement
+Answer: jpmorgan chase bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 83  # First occurrence - kept
+✗ 83  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the administrative agent lender and agent but not the borrower in the agreement
+Answer: bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 98  # First occurrence - kept
+✗ 98  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the administrative agent lender and l c issuer but not the borrower in the agreement
+Answer: bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 98  # First occurrence - kept
+✗ 98  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the administrative agent lender and lender but not the borrower in the agreement
+Answer: bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 98  # First occurrence - kept
+✗ 98  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent and administrative agent but not the borrower in the agreement
+Answer: barclays bank plc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent and agent but not the borrower in the agreement
+Answer: barclays bank plc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent and agent but not the borrowers in the agreement
+Answer: midcap financial trust
+Document numbers (✓ = kept, ✗ = removed):
+✓ 114  # First occurrence - kept
+✗ 144  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent and arrangers but not the agents in the agreement
+Answer: barclays bank plc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 118  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent and arrangers but not the arranger in the agreement
+Answer: barclays bank plc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 9  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent and arrangers but not the bookrunner in the agreement
+Answer: barclays bank plc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 9  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what company is the agent and arrangers but not the borrower in the agreement
+Answer: barclays bank plc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+✗ 9  # Duplicate - removed
+✗ 118  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent and arrangers but not the lender in the agreement
+Answer: barclays bank plc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 118  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent and collateral agent but not the borrower in the agreement
+Answer: barclays bank plc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent and collateral agent but not the lenders in the agreement
+Answer: lp
+Document numbers (✓ = kept, ✗ = removed):
+✓ 155  # First occurrence - kept
+✗ 155  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent and documentation agent but not the borrower in the agreement
+Answer: barclays bank plc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what company is the agent and lender but not the administrative agent in the agreement
+Answer: general electric capital corporation
+Document numbers (✓ = kept, ✗ = removed):
+✓ 97  # First occurrence - kept
+✗ 97  # Duplicate - removed
+✗ 97  # Duplicate - removed
+✗ 97  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 3 identical entries:
+Question: what company is the agent and lender but not the administrative agent in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 112  # First occurrence - kept
+✗ 95  # Duplicate - removed
+✗ 95  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent and lender but not the arranger in the agreement
+Answer: wells fargo bank, national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 30  # First occurrence - kept
+✗ 30  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what company is the agent and lender but not the borrower in the agreement
+Answer: midcap financial trust
+Document numbers (✓ = kept, ✗ = removed):
+✓ 114  # First occurrence - kept
+✗ 114  # Duplicate - removed
+✗ 114  # Duplicate - removed
+✗ 114  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent and lender but not the borrower in the agreement
+Answer: pnc bank, national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 138  # First occurrence - kept
+✗ 138  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 8 identical entries:
+Question: what company is the agent and lender but not the borrowers in the agreement
+Answer: midcap financial trust
+Document numbers (✓ = kept, ✗ = removed):
+✓ 114  # First occurrence - kept
+✗ 114  # Duplicate - removed
+✗ 114  # Duplicate - removed
+✗ 114  # Duplicate - removed
+✗ 144  # Duplicate - removed
+✗ 144  # Duplicate - removed
+✗ 144  # Duplicate - removed
+✗ 144  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent and lender but not the credit parties in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 95  # First occurrence - kept
+✗ 95  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what company is the agent and lender but not the guarantors in the agreement
+Answer: midcap financial trust
+Document numbers (✓ = kept, ✗ = removed):
+✓ 114  # First occurrence - kept
+✗ 114  # Duplicate - removed
+✗ 114  # Duplicate - removed
+✗ 114  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent but not the administrative agent or borrower in the agreement
+Answer: barclays bank plc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent but not the administrative agent or borrower in the agreement
+Answer: u.s. bank, national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 138  # First occurrence - kept
+✗ 138  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent but not the administrative borrower or borrower in the agreement
+Answer: barclays bank plc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent but not the agent or borrower in the agreement
+Answer: barclays bank plc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent but not the borrower or  bookrunners in the agreement
+Answer: pnc bank, national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 138  # First occurrence - kept
+✗ 138  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent but not the collateral agent or borrower in the agreement
+Answer: barclays bank plc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent but not the collateral trustee or borrower in the agreement
+Answer: barclays bank plc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agent but not the lenders or borrower in the agreement
+Answer: bokf, na dba bank of albuquerque
+Document numbers (✓ = kept, ✗ = removed):
+✓ 96  # First occurrence - kept
+✗ 96  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agents and agents but not the borrower in the agreement
+Answer: regions bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agents and lead arrangers but not the agent in the agreement
+Answer: u.s. bank national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 24  # First occurrence - kept
+✗ 24  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agents but not the agents or borrower in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agents but not the arrangers or agents in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the agents but not the bookrunners or agents in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arranger and book manager but not the agent in the agreement
+Answer: pierce, merrill lynch, fenner smith incorporated
+Document numbers (✓ = kept, ✗ = removed):
+✓ 95  # First occurrence - kept
+✗ 95  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arranger and book manager but not the borrower in the agreement
+Answer: pierce, merrill lynch, fenner smith incorporated
+Document numbers (✓ = kept, ✗ = removed):
+✓ 95  # First occurrence - kept
+✗ 95  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arranger and book runner but not the borrower in the agreement
+Answer: pnc capital markets llc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 141  # First occurrence - kept
+✗ 141  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arranger and bookrunner but not the agent in the agreement
+Answer: inc., bofa securities
+Document numbers (✓ = kept, ✗ = removed):
+✓ 61  # First occurrence - kept
+✗ 127  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arranger and bookrunner but not the borrower in the agreement
+Answer: inc., bofa securities
+Document numbers (✓ = kept, ✗ = removed):
+✓ 61  # First occurrence - kept
+✗ 127  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arranger and bookrunner but not the borrower in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 1  # First occurrence - kept
+✗ 1  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arranger and lead arranger but not the borrower in the agreement
+Answer: pnc capital markets llc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 141  # First occurrence - kept
+✗ 141  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers and administrative agent but not the borrower in the agreement
+Answer: barclays bank plc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers and agent but not the borrower in the agreement
+Answer: barclays bank plc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers and bookrunners but not the borrower in the agreement
+Answer: pierce, merrill lynch, fenner smith incorporated
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers and collateral agent but not the borrower in the agreement
+Answer: barclays bank plc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers and documentation agent but not the administrative agent in the agreement
+Answer: deutsche bank securities inc.
+Document numbers (✓ = kept, ✗ = removed):
+✓ 84  # First occurrence - kept
+✗ 84  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers and documentation agent but not the borrower in the agreement
+Answer: barclays bank plc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers and lenders but not the borrower in the agreement
+Answer: u.s. bank national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 96  # First occurrence - kept
+✗ 96  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the  book runner or borrower in the agreement
+Answer: regions capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the  bookrunner or borrower in the agreement
+Answer: regions capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the  bookrunners or borrower in the agreement
+Answer: regions capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the  lead arranger or borrower in the agreement
+Answer: regions capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the administrative agent or borrower in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the administrative agent, or agent in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the administrative agent, or borrower in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the administrative borrower or borrower in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the agent or  book manager in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the agent or  book runner in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the agent or  bookrunner in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the agent or  bookrunners in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the agent or  lead arranger in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the agent or administrative agent in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the agent or agents in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the agent or arranger in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the agent or arrangers in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the agent or bookrunner in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the agent or bookrunners in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 4 identical entries:
+Question: what company is the arrangers but not the agent or borrower in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+✗ 107  # Duplicate - removed
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the agent or co syndication agent in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the agent or collateral agent in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the agent or collateral trustee in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the agent or grantor in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the agent or guarantor in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the agent or guarantors in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the agent or lead arranger in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the agent or lead bookrunner in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the agent or lender in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the agent or trustee in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the arrangers or borrower in the agreement
+Answer: regions capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the bookrunners or borrower in the agreement
+Answer: deutsche bank securities inc.
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the bookrunners or borrower in the agreement
+Answer: regions capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the collateral agent or borrower in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the collateral trustee or borrower in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the documentation agent or agent in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the documentation agent or borrower in the agreement
+Answer: rbc capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the lenders or borrower in the agreement
+Answer: bokf, na dba bank of albuquerque
+Document numbers (✓ = kept, ✗ = removed):
+✓ 96  # First occurrence - kept
+✗ 96  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the arrangers but not the syndication agent, or agent in the agreement
+Answer: inc., morgan stanley senior funding
+Document numbers (✓ = kept, ✗ = removed):
+✓ 64  # First occurrence - kept
+✗ 64  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the bank and agents but not the borrower in the agreement
+Answer: regions bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the bank but not the agents or borrower in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the bank but not the arrangers or agents in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the bank but not the bookrunners or agents in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the book managers and lenders but not the borrower in the agreement
+Answer: u.s. bank national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 96  # First occurrence - kept
+✗ 96  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the book managers but not the lenders or borrower in the agreement
+Answer: bokf, na dba bank of albuquerque
+Document numbers (✓ = kept, ✗ = removed):
+✓ 96  # First occurrence - kept
+✗ 96  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the book runner and lead arranger but not the borrower in the agreement
+Answer: pnc capital markets llc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 141  # First occurrence - kept
+✗ 141  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the book runners and administrative agent but not the lender in the agreement
+Answer: citibank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 168  # First occurrence - kept
+✗ 168  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the book runners but not the administrative agent or lender in the agreement
+Answer: inc., bofa securities
+Document numbers (✓ = kept, ✗ = removed):
+✓ 168  # First occurrence - kept
+✗ 168  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the bookrunners and bookrunners but not the borrower in the agreement
+Answer: pierce, merrill lynch, fenner smith incorporated
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the bookrunners but not the arrangers or agent in the agreement
+Answer: llc, wells fargo securities
+Document numbers (✓ = kept, ✗ = removed):
+✓ 118  # First occurrence - kept
+✗ 118  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the borrower and borrower but not the administrative agent in the agreement
+Answer: nfe atlantic holdings llc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 145  # First occurrence - kept
+✗ 145  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the borrower and borrower but not the agent in the agreement
+Answer: inc., foundation healthcare
+Document numbers (✓ = kept, ✗ = removed):
+✓ 101  # First occurrence - kept
+✗ 101  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the borrower and borrower but not the agent in the agreement
+Answer: inc., omega healthcare investors
+Document numbers (✓ = kept, ✗ = removed):
+✓ 95  # First occurrence - kept
+✗ 95  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the borrower and borrower but not the agent in the agreement
+Answer: l.p., columbia property trust operating partnership
+Document numbers (✓ = kept, ✗ = removed):
+✓ 24  # First occurrence - kept
+✗ 24  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the borrower and borrower but not the collateral agent in the agreement
+Answer: boxlight corporation
+Document numbers (✓ = kept, ✗ = removed):
+✓ 155  # First occurrence - kept
+✗ 155  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the borrower and borrower but not the lenders in the agreement
+Answer: boxlight corporation
+Document numbers (✓ = kept, ✗ = removed):
+✓ 155  # First occurrence - kept
+✗ 155  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the borrower and intermediateco but not the lead arranger in the agreement
+Answer: fortress transportation and infrastructure investors llc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 140  # First occurrence - kept
+✗ 140  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the borrower and intermediateco but not the lead bookrunner in the agreement
+Answer: fortress transportation and infrastructure investors llc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 140  # First occurrence - kept
+✗ 140  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the borrower and lenders but not the  bookrunners in the agreement
+Answer: crown castle international corp
+Document numbers (✓ = kept, ✗ = removed):
+✓ 139  # First occurrence - kept
+✗ 139  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the borrower and lenders but not the  lead arrangers in the agreement
+Answer: crown castle international corp
+Document numbers (✓ = kept, ✗ = removed):
+✓ 139  # First occurrence - kept
+✗ 139  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the borrower and lenders but not the rating agency in the agreement
+Answer: crown castle international corp
+Document numbers (✓ = kept, ✗ = removed):
+✓ 139  # First occurrence - kept
+✗ 139  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the borrowers and borrower but not the agent in the agreement
+Answer: digirad corporation
+Document numbers (✓ = kept, ✗ = removed):
+✓ 102  # First occurrence - kept
+✗ 102  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the borrowers and borrower but not the arranger in the agreement
+Answer: digirad corporation
+Document numbers (✓ = kept, ✗ = removed):
+✓ 102  # First occurrence - kept
+✗ 102  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the borrowers and borrower but not the book runner in the agreement
+Answer: digirad corporation
+Document numbers (✓ = kept, ✗ = removed):
+✓ 102  # First occurrence - kept
+✗ 102  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the borrowers and borrower but not the lender in the agreement
+Answer: digirad corporation
+Document numbers (✓ = kept, ✗ = removed):
+✓ 102  # First occurrence - kept
+✗ 102  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the borrowers and borrower but not the runner in the agreement
+Answer: digirad corporation
+Document numbers (✓ = kept, ✗ = removed):
+✓ 102  # First occurrence - kept
+✗ 102  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the co syndication agent but not the agents or borrower in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the co syndication agent but not the arrangers or agents in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the co syndication agent but not the bookrunners or agents in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the co syndication agents but not the  lead arrangers or lenders in the agreement
+Answer: truist bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 161  # First occurrence - kept
+✗ 161  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the co syndication agents but not the lender or lenders in the agreement
+Answer: bmo capital markets
+Document numbers (✓ = kept, ✗ = removed):
+✓ 161  # First occurrence - kept
+✗ 161  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the collateral agent but not the administrative agent or borrower in the agreement
+Answer: wilmington trust fsb
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the collateral trustee but not the administrative agent or borrower in the agreement
+Answer: wilmington trust fsb
+Document numbers (✓ = kept, ✗ = removed):
+✓ 107  # First occurrence - kept
+✗ 107  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the documentation agent and  book runners but not the borrower in the agreement
+Answer: fifth third bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 143  # First occurrence - kept
+✗ 143  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the documentation agent and  lead arrangers but not the borrower in the agreement
+Answer: fifth third bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 143  # First occurrence - kept
+✗ 143  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the guarantor and holdings but not the cayman borrower in the agreement
+Answer: western digital corporation
+Document numbers (✓ = kept, ✗ = removed):
+✓ 83  # First occurrence - kept
+✗ 83  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the guarantor and mortgagor but not the administrative agent in the agreement
+Answer: novelis corporation
+Document numbers (✓ = kept, ✗ = removed):
+✓ 166  # First occurrence - kept
+✗ 166  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the guarantor and mortgagor but not the collateral agent in the agreement
+Answer: novelis corporation
+Document numbers (✓ = kept, ✗ = removed):
+✓ 166  # First occurrence - kept
+✗ 166  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the holdings and holdings but not the administrative agent in the agreement
+Answer: new fortress intermediate llc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 145  # First occurrence - kept
+✗ 145  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the holdings and holdings but not the borrower in the agreement
+Answer: new fortress intermediate llc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 145  # First occurrence - kept
+✗ 145  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the issuing banks and lenders but not the borrower in the agreement
+Answer: initial issuing banks
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the l c issuer and lenders but not the arranger in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 127  # First occurrence - kept
+✗ 127  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the l c issuer and lenders but not the bookrunner in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 127  # First occurrence - kept
+✗ 127  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the l c issuer but not the borrower or lender, in the agreement
+Answer: n.a, bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 167  # First occurrence - kept
+✗ 167  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the l c issuer but not the lender or borrower in the agreement
+Answer: hsbc bank usa
+Document numbers (✓ = kept, ✗ = removed):
+✓ 147  # First occurrence - kept
+✗ 147  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lead arranger and book runner but not the borrower in the agreement
+Answer: pnc capital markets llc
+Document numbers (✓ = kept, ✗ = removed):
+✓ 141  # First occurrence - kept
+✗ 141  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lead arrangers and administrative agent but not the lender in the agreement
+Answer: citibank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 168  # First occurrence - kept
+✗ 168  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lead arrangers and lender but not the agent in the agreement
+Answer: u.s. bank national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 24  # First occurrence - kept
+✗ 24  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lead arrangers but not the administrative agent or lender in the agreement
+Answer: inc., bofa securities
+Document numbers (✓ = kept, ✗ = removed):
+✓ 168  # First occurrence - kept
+✗ 168  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lead arrangers but not the lender or administrative agent in the agreement
+Answer: icici bank limited
+Document numbers (✓ = kept, ✗ = removed):
+✓ 166  # First occurrence - kept
+✗ 166  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lead arrangers but not the lender or collateral agent in the agreement
+Answer: icici bank limited
+Document numbers (✓ = kept, ✗ = removed):
+✓ 166  # First occurrence - kept
+✗ 166  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender and  book runners but not the borrower in the agreement
+Answer: fifth third bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 143  # First occurrence - kept
+✗ 143  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender and  lead arrangers but not the borrower in the agreement
+Answer: fifth third bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 143  # First occurrence - kept
+✗ 143  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender and administrative agent but not the borrower in the agreement
+Answer: wells fargo bank, national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 80  # First occurrence - kept
+✗ 2  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender and administrative agent but not the cayman borrower in the agreement
+Answer: n.a., jpmorgan chase bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 83  # First occurrence - kept
+✗ 83  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender and agent but not the agent in the agreement
+Answer: n.a., jpmorgan chase bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 24  # First occurrence - kept
+✗ 31  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender and agent but not the book runner in the agreement
+Answer: pnc bank, national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 141  # First occurrence - kept
+✗ 141  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender and agent but not the borrower in the agreement
+Answer: n.a, jpmorgan chase bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 153  # First occurrence - kept
+✗ 134  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender and agent but not the borrower in the agreement
+Answer: pnc bank, national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 141  # First occurrence - kept
+✗ 141  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender and agent but not the lc issuer in the agreement
+Answer: u.s. bank national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 63  # First occurrence - kept
+✗ 59  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender and agent but not the lead arranger in the agreement
+Answer: pnc bank, national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 141  # First occurrence - kept
+✗ 141  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender and agent but not the legal counsel in the agreement
+Answer: u.s. bank national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 63  # First occurrence - kept
+✗ 59  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender and agents but not the bookrunners in the agreement
+Answer: wells fargo bank, national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 135  # First occurrence - kept
+✗ 26  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender and documentation agent but not the borrower in the agreement
+Answer: fifth third bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 143  # First occurrence - kept
+✗ 143  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender and l c issuer but not the arranger in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 127  # First occurrence - kept
+✗ 127  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender and l c issuer but not the bookrunner in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 127  # First occurrence - kept
+✗ 127  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender and l c issuer but not the cayman borrower in the agreement
+Answer: n.a., jpmorgan chase bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 83  # First occurrence - kept
+✗ 83  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender and lender but not the borrowers in the agreement
+Answer: midcap financial trust
+Document numbers (✓ = kept, ✗ = removed):
+✓ 114  # First occurrence - kept
+✗ 144  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender and lenders but not the arranger in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 127  # First occurrence - kept
+✗ 127  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender and lenders but not the bookrunner in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 127  # First occurrence - kept
+✗ 127  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender and lenders but not the borrower in the agreement
+Answer: n.a., bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 1  # First occurrence - kept
+✗ 127  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender but not the arranger or agent in the agreement
+Answer: legacytexas bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 101  # First occurrence - kept
+✗ 101  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender but not the borrower or lender in the agreement
+Answer: bokf, n.a., a national banking association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 91  # First occurrence - kept
+✗ 91  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender but not the l c issuer or agent in the agreement
+Answer: legacytexas bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 101  # First occurrence - kept
+✗ 101  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender but not the runner or agent in the agreement
+Answer: legacytexas bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 101  # First occurrence - kept
+✗ 101  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lender but not the swingline lender or administrative agent in the agreement
+Answer: taiwan cooperative bank
+Document numbers (✓ = kept, ✗ = removed):
+✓ 84  # First occurrence - kept
+✗ 84  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lenders and agent but not the arranger in the agreement
+Answer: wells fargo bank, national association
+Document numbers (✓ = kept, ✗ = removed):
+✓ 30  # First occurrence - kept
+✗ 30  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lenders and swing line banks but not the borrower in the agreement
+Answer: initial issuing banks
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lenders but not the agent or arranger in the agreement
+Answer: n.a, bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 30  # First occurrence - kept
+✗ 30  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lenders but not the borrower or agent in the agreement
+Answer: n.a, bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 30  # First occurrence - kept
+✗ 30  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lenders but not the guarantors or agent in the agreement
+Answer: n.a, bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 30  # First occurrence - kept
+✗ 30  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lenders but not the issuing banks or borrower in the agreement
+Answer: initial lenders
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lenders but not the lender or agent in the agreement
+Answer: n.a, bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 30  # First occurrence - kept
+✗ 30  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the lenders but not the swing line banks or borrower in the agreement
+Answer: initial lenders
+Document numbers (✓ = kept, ✗ = removed):
+✓ 137  # First occurrence - kept
+✗ 137  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the subsidiary guarantors and guarantors but not the borrower in the agreement
+Answer: llc, mvp real estate holdings
+Document numbers (✓ = kept, ✗ = removed):
+✓ 69  # First occurrence - kept
+✗ 69  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what company is the swingline lender but not the borrower or lender, in the agreement
+Answer: n.a, bank of america
+Document numbers (✓ = kept, ✗ = removed):
+✓ 167  # First occurrence - kept
+✗ 167  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: what roles does u.s. bank national association have in the agreement which are not the roles of jpmorgan chase bank, n.a.
+Answer: agents, lead arrangers
+Document numbers (✓ = kept, ✗ = removed):
+✓ 24  # First occurrence - kept
+✗ 24  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is both the ceo and managing member of the company associated with 110 east 59th street, new york, ny 10022
+Answer: pedro gonzalez de cosio
+Document numbers (✓ = kept, ✗ = removed):
+✓ 28  # First occurrence - kept
+✗ 28  # Duplicate - removed
+--------------------------------------------------------------------------------
+
+Found 2 identical entries:
+Question: who is both the ceo and managing member of the company which is the agent in the agreement
+Answer: pedro gonzalez de cosio
+Document numbers (✓ = kept, ✗ = removed):
+✓ 28  # First occurrence - kept
+✗ 67  # Duplicate - removed
+--------------------------------------------------------------------------------
+

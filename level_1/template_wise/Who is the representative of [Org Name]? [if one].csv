@@ -1,0 +1,585 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+102,Who is the representative of DIGIRAD CORPORATION?,Jeffry R. Keyes,1,0,0
+102,"Who is the representative of WELLS FARGO BANK, NATIONAL ASSOCIATION?",Kathy R. Plisko,1,0,0
+116,Who is the representative of MORGAN STANLEY DIRECT LENDING FUND?,Venugopal Rathi,1,0,0
+117,"Who is the representative of COLUMBIA SPORTSWEAR COMPANY,?",Jim A. Swanson,1,0,0
+117,Who is the representative of ROYAL BANK OF CANADA?,Kirsten Jakobsen,1,0,0
+117,"Who is the representative of JPMORGAN CHASE BANK, N.A.?",Lynn Braun,1,0,0
+103,"Who is the representative of Angelo, Gordon %26 Co., L.P.?",Gavin Baiera,1,0,0
+103,Who is the representative of CORTLAND CAPITAL MARKET SERVICES LLC?,Matthew Trybula,1,0,0
+103,Who is the representative of CLAIRE%C2%92S LUXEMBOURG S.A R.L.?,Paul A. Barker,1,0,0
+16,Who is the representative of CRYSTAL FINANCIAL LLC?,Christopher A. Arnold,1,0,0
+16,Who is the representative of STANDARD DIVERSIFIED OPPORTUNITIES INC.?,Ian W. Estus,1,0,0
+14,"Who is the representative of PACIFIC DRILLING S.A.,?",James Harris,1,0,0
+14,"Who is the representative of AG ENERGY FUNDING, LLC?",Todd Dittmann,1,0,0
+28,Who is the representative of Pepper Hamilton LLP?,Jen Porter,1,0,0
+28,"Who is the representative of COLLEGIUM PHARMACEUTICAL, INC.?",Joseph Ciaffoni,1,0,0
+28,Who is the representative of AKIN GUMP STRAUSS HAUER %26 FELD LLP?,Geoffrey E. Secol,1,0,0
+28,Who is the representative of Akin Gump Strauss Hauer %26 Feld LLP?,Geoffrey E. Secol,1,0,0
+28,Who is the representative of BIOPHARMA CREDIT INVESTMENTS V %28MASTER%29 LP?,Pedro Gonzalez de Cosio,1,0,0
+28,Who is the representative of PHARMAKON ADVISORS LP?,Pedro Gonzalez de Cosio,1,0,0
+28,Who is the representative of Pharmakon Advisors LP?,Pedro Gonzalez de Cosio,1,0,0
+129,"Who is the representative of JPMORGAN CHASE BANK, N.A.?",Elizabeth A. Jordan,1,0,0
+115,"Who is the representative of BANK OF AMERICA, N.A.?",Adam Rose,1,0,0
+115,"Who is the representative of HORIZON DISTRIBUTORS, INC.?",Jennifer M. Neil,1,0,0
+101,"Who is the representative of TEXAS CAPITAL BANK, NATIONAL ASSOCIATION?",Deborah T. Purvin,1,0,0
+101,Who is the representative of LEGACYTEXAS BANK?,Spencer Sockwell,1,0,0
+101,"Who is the representative of FOUNDATION HEALTHCARE, INC.?",Stanton M. Nelson,1,0,0
+100,Who is the representative of HSBC BANK USA?,Christopher M. Ames,1,0,0
+100,Who is the representative of COMERICA BANK?,Mark Strzynski,1,0,0
+100,Who is the representative of JPMORGAN CHASE BANK?,Marshall Trenckmann,1,0,0
+100,Who is the representative of SUNTRUST BANK?,Min Park,1,0,0
+100,Who is the representative of BBVA COMPASS?,Tyler J. Mei,1,0,0
+100,Who is the representative of EAST WEST BANK?,Alexis Coyle,1,0,0
+100,"Who is the representative of Omnicell, Inc.?",Dan Johnston,1,0,0
+100,"Who is the representative of CITIZENS BANK, NATIONAL ASSOCIATION?",Darran Wee,1,0,0
+100,Who is the representative of BANK OF THE WEST?,Lee Merkle-Raymond,1,0,0
+100,"Who is the representative of OMNICELL, INC.?",Peter Kuipers,1,0,0
+100,"Who is the representative of WELLS FARGO BANK, NATIONAL ASSOCIATION?",Ray Aguilar,1,0,0
+100,Who is the representative of Latham %26 Watkins LLP?,Sony Ben-Moshe,1,0,0
+100,Who is the representative of MUFG UNION BANK?,Teuta Ghilaga,1,0,0
+100,Who is the representative of FIFTH THIRD BANK?,Thomas Avery,1,0,0
+114,"Who is the representative of Apollo Capital Management GP, LLC?",Maurice Amsellem,1,0,0
+114,Who is the representative of SALESLINK MEXICO HOLDING CORP.?,Peter Feret,1,0,0
+128,"Who is the representative of F5 NETWORKS, INC.?",Frank Pelzer,1,0,0
+128,Who is the representative of Royal Bank of Canada?,Nicholas Heslip,1,0,0
+128,"Who is the representative of Bank of America, N.A.?",Timothy G. Holsapple,1,0,0
+29,"Who is the representative of Paychex, Inc.?",Efrain Rivera,1,0,0
+29,Who is the representative of Nixon Peabody LLP?,Frank Hamblett,1,0,0
+29,"Who is the representative of PNC Bank, National Association?",Lisa Christian,1,0,0
+15,"Who is the representative of 2477 DEERFIELD DRIVE, LLC,?",Shawn Matthews,1,0,0
+39,"Who is the representative of PNC BANK, NATIONAL ASSOCIATION?",David B. Thayer,1,0,0
+39,"Who is the representative of BANK OF AMERICA, N.A.,?",James Foley,1,0,0
+39,"Who is the representative of NORTH JACKSON SPECIALTY STEEL,LLC?",Ross C. Wilkin,1,0,0
+11,Who is the representative of GOLDMAN SACHS BANK USA?,Robert Ehudin,1,0,0
+110,"Who is the representative of JPMORGAN CHASE BANK, N.A.?",Dave Katz,1,0,0
+110,"Who is the representative of MIZUHO BANK, LTD.?",Donna DeMagistris,1,0,0
+110,Who is the representative of U.S. Bank National Association?,John Prigge,1,0,0
+110,Who is the representative of MPLX GP LLC?,Peter Gilgen,1,0,0
+110,"Who is the representative of PNC BANK, NATIONAL ASSOCIATION?",Stephen Monto,1,0,0
+104,"Who is the representative of BANCO DE SABADELL, S.A., MIAMI BRANCH?",Maurici Llad%C3%B3,1,0,0
+104,Who is the representative of GOLDMAN SACHS BANK USA?,Ryan Durkin,1,0,0
+104,Who is the representative of STANDARD CHARTERED BANK?,Steven Aloupis,1,0,0
+104,"Who is the representative of ASSOCIATED BANK, N.A.?",William W. Carroll,1,0,0
+138,"Who is the representative of Rexford Industrial Realty, Inc.?",%3A Adeel Khan,1,0,0
+138,"Who is the representative of Rexford Industrial Realty, L.P.?",Adeel Khan,1,0,0
+138,Who is the representative of U.S. BANK NATIONAL ASSOCIATION?,Christopher Harahan,1,0,0
+139,"Who is the representative of Land Bank of Taiwan, New York Branch?",Arthur Chen,1,0,0
+139,"Who is the representative of JPMorgan Chase Bank, N.A.?",Bruce S. Borden,1,0,0
+139,"Who is the representative of PNC BANK, NATIONAL ASSOCIATION?",Christopher Keenan,1,0,0
+139,Who is the representative of FIFTH THIRD BANK?,Glen Mastey,1,0,0
+105,Who is the representative of CINEDIGM CORP?,Gary S. Loffredo,1,0,0
+105,Who is the representative of BISON ENTERTAINMENT AND MEDIA GROUP?,Xu Peixin,1,0,0
+111,Who is the representative of BARCLAYS BANK PLC?,Eoin Naughton,1,0,0
+111,"Who is the representative of JPMORGAN CHASE BANK, N.A?",Hector J. Varona,1,0,0
+111,"Who is the representative of Wells Fargo Bank, National Association?",Will Goley,1,0,0
+111,"Who is the representative of WELLS FARGO BANK, NATIONAL ASSOCIATION?",William R. Goley,1,0,0
+10,"Who is the representative of BANK OF AMERICA, N.A.?",Rodney Beeks,1,0,0
+10,"Who is the representative of ROYAL BANK OF CANADA,?",Susan Khokher,1,0,0
+10,"Who is the representative of VICTORY CAPITAL HOLDINGS, INC.,?",Terence F. Sullivan,1,0,0
+10,"Who is the representative of ROYAL BANK OF CANADA,?",Alex Figueroa,1,0,0
+38,Who is the representative of THE STANDARD BANK OF SOUTH AFRICA LIMITED?,Pablo Gonzalez-Spahr,1,0,0
+38,"Who is the representative of ANADARKO PETROLEUM CORPORATION,?",Albert L. Richey,1,0,0
+38,Who is the representative of BNP Paribas?,Ann Rhoads,1,0,0
+38,"Who is the representative of WELLS FARGO BANK, NATIONAL  ASSOCIATION?",Borden Tennant,1,0,0
+38,"Who is the representative of JPMORGAN CHASE BANK, N.A.,?",Dave Katz,1,0,0
+38,Who is the representative of DNB CAPITAL LLC?,Joe Hykle,1,0,0
+38,Who is the representative of Standard Chartered Bank?,Steven Aloupis,1,0,0
+12,Who is the representative of U.S. BANK NATIONAL ASSOCIATION?,Conan Schleicher,1,0,0
+12,"Who is the representative of JPMORGAN CHASE BANK, N.A.?",Dawn Lee Lum,1,0,0
+12,Who is the representative of NATIONAL WESTMINSTER BANK PLC?,Graham Gibson,1,0,0
+107,Who is the representative of BARCLAYS BANK PLC?,Ritam Bhalla,1,0,0
+107,"Who is the representative of GXS INTERNATIONAL, INC.?",Paul McFeeters,1,0,0
+107,Who is the representative of OPEN TEXT ULC?,Paul McFeeters,1,0,0
+113,"Who is the representative of HURCO COMPANIES, INC.?",Michael Doar,1,0,0
+113,"Who is the representative of BANK OF AMERICA, N.A.,?",Jonathan M. Phillips,1,0,0
+113,Who is the representative of HURCO B.V.?,Sonja K. McClelland,1,0,0
+112,"Who is the representative of JPMORGAN CHASE BANK, N.A.?",Amy U. Lessner,1,0,0
+112,Who is the representative of FORRESTER RESEARCH INC.?,Michael A. Doyle,1,0,0
+112,"Who is the representative of Forrester Research, Inc.?",Michael Doyle,1,0,0
+112,"Who is the representative of BANK OF AMERICA, N.A.?",Robert C. Megan,1,0,0
+112,"Who is the representative of CITIZENS BANK, N.A.,?",Sean Riordan,1,0,0
+106,"Who is the representative of DYNEGY GAS INVESTMENTS HOLDINGS, LLC?",Clint C. Freeland,1,0,0
+106,"Who is the representative of UBS AG, STAMFORD BRANCH?",Joselin Fernandes,1,0,0
+13,"Who is the representative of CVR ENERGY, INC?",Tracy D. Jackson,1,0,0
+60,"Who is the representative of JPMorgan Chase Bank, N.A?",Anthony Galea,1,0,0
+60,"Who is the representative of LEIDOS HOLDINGS, INC.?",Marc H. Crown,1,0,0
+60,Who is the representative of Regions Bank?,Stephanie Herndon,1,0,0
+74,Who is the representative of Goodwin Procter LLP?,Anna E. Dodson,1,0,0
+48,"Who is the representative of ENBRIDGE ENERGY MANAGEMENT, L.L.C.?",Stephen J. Neyland,1,0,0
+149,"Who is the representative of FEAC AGENT, LLC?",Michelle Handy,1,0,0
+149,"Who is the representative of XCEL BRANDS, INC.?",Seth Burroughs,1,0,0
+161,"Who is the representative of MODIV OPERATING PARTNERSHIP, LP?",Raymond J. Pacini,1,0,0
+161,Who is the representative of SYNOVUS BANK?,Zachary Braun,1,0,0
+160,"Who is the representative of JPMORGAN CHASE BANK, N.A.?",Helen D. Davis,1,0,0
+160,"Who is the representative of NUANCE COMMUNICATIONS, INC.?",Daniel D. Tempesta,1,0,0
+160,"Who is the representative of MORGAN STANLEY BANK, N.A.?",Michael King,1,0,0
+148,Who is the representative of JACOBS ENGINEERING GROUP INC.?,Kevin Berryman,1,0,0
+148,Who is the representative of MORGAN STANLEY BANK?,Michael King,1,0,0
+148,Who is the representative of JPMORGAN CHASE BANK?,Peter S. Preoun,1,0,0
+49,Who is the representative of DBG HOLDINGS SUBSIDIARY INC?,Hamish Sandhu,1,0,0
+49,"Who is the representative of MARCO BRUNELLI IP, LLC?",Michael Buckley,1,0,0
+49,"Who is the representative of HC ACQUISITION HOLDINGS, INC?",Peter Kim,1,0,0
+49,Who is the representative of WEST VIRGINIA DIRECT LENDING LLC?,Suzanne Grosso,1,0,0
+75,Who is the representative of JPMORGAN CHASE BANK?,Justin B. Kelley,1,0,0
+75,"Who is the representative of ASPEN TECHNOLOGY, INC?",Karl Johnsen,1,0,0
+61,"Who is the representative of CITRIX SYSTEMS, INC.?",Brian L. Shytle,1,0,0
+61,Who is the representative of BNP PARIBAS?,Gregory Paul,1,0,0
+61,"Who is the representative of JPMORGAN CHASE BANK, N.A.?",MARIA RIAZ,1,0,0
+61,"Who is the representative of CITIBANK, N.A.?",Ming K Chu,1,0,0
+77,"Who is the representative of WELLCARE HEALTH PLANS, INC?",Blair W. Todt,1,0,0
+77,Who is the representative of JPMORGAN CHASE BANK?,Hector J. Varona,1,0,0
+77,Who is the representative of GOLDMAN SACHS BANK USA?,Rebecca Kratz,1,0,0
+77,Who is the representative of CADENCE BANK?,Teresa Stinson,1,0,0
+63,Who is the representative of U.S. Bank National Association?,Cel Gatdula,1,0,0
+63,Who is the representative of Food Industries?,James Pegues,1,0,0
+63,Who is the representative of Sidley Austin LLP?,Mark Kirsons,1,0,0
+88,Who is the representative of Sullivan %26 Cromwell LLP?,Patrick Brown,1,0,0
+88,Who is the representative of MUFG UNION BANK?,Westley White,1,0,0
+162,"Who is the representative of %09WELLS FARGO BANK, N.A?",Corbin M. Womac,1,0,0
+162,Who is the representative of %09NABORS GLOBAL HOLDINGS LIMITED?,Henricus Reindert Petrus Pollmann,1,0,0
+162,"Who is the representative of HSBC BANK USA, N.A?",Jay Fort,1,0,0
+162,"Who is the representative of NABORS INDUSTRIES LTD.,?",Mark D. Andrews,1,0,0
+162,Who is the representative of GOLDMAN SACHS BANK USA?,Thomas Manning,1,0,0
+163,"Who is the representative of COMMVAULT SYSTEMS, INC.?",Brian M. Carolan,1,0,0
+163,"Who is the representative of JPMORGAN CHASE BANK, N.A?",David Tepper,1,0,0
+89,Who is the representative of Kirkland %26 Ellis LLP?,Eric Wedel,1,0,0
+62,"Who is the representative of MICHIGAN ELECTRIC TRANSMISSION COMPANY, LLC?",Gretchen L. Holloway,1,0,0
+62,Who is the representative of TD SECURITIES %28USA%29 LLC?,Pradeep Mehra,1,0,0
+76,Who is the representative of MICROSEMI CORPORATION?,John W. Hohener,1,0,0
+76,"Who is the representative of MORGAN STANLEY SENIOR FUNDING, INC?",Jonathon Rauen,1,0,0
+72,Who is the representative of CITIBANK?,Carolyn Kee,1,0,0
+72,"Who is the representative of STANLEY BLACK %26 DECKER, INC?",Craig A. Douglas,1,0,0
+72,Who is the representative of CITIGROUP GLOBAL MARKETS INC?,John Summers,1,0,0
+72,"Who is the representative of WELLS FARGO SECURITIES, LLC?",Kay Reedy,1,0,0
+72,Who is the representative of GOLDMAN SACHS BANK USA?,Ryan Durkin,1,0,0
+66,"Who is the representative of JPMORGAN CHASE BANK, N.A.?",Erik Barragan,1,0,0
+66,Who is the representative of Citibank N.A.?,James Riley,1,0,0
+66,"Who is the representative of CAPITAL ONE, NATIONAL ASSOCIATION?",Karen M. Dahlquist,1,0,0
+66,"Who is the representative of Bank of America, N.A.?",Ronnie Glenn,1,0,0
+66,"Who is the representative of EXC HOLDING CORP.TANGENT MEDICAL TECHNOLOGIES, INC.EXCELSIOR MEDICAL CORPORATIONICU WORLD, INC.?",Brian M. Bonnell,1,0,0
+66,"Who is the representative of ICU Medical, Inc.?",Brian M. Bonnell,1,0,0
+99,Who is the representative of CB MUSIC LLC?,Chris Ciavarra,1,0,0
+99,"Who is the representative of THE BANK OF TOKYO-MITSUBISHI UFJ, LTD.?",Christine Howatt,1,0,0
+99,"Who is the representative of ROCKING CHAIR, INC.?",Elizabeth Wilson,1,0,0
+99,"Who is the representative of PNC BANK, NATIONAL ASSOCIATION?",JOHN THURMAN,1,0,0
+99,"Who is the representative of CRACKER BARREL OLD COUNTRY STORE, INC?",Lawrence E. Hyatt,1,0,0
+99,Who is the representative of FIRST TENNESSEE BANK NATIONAL ASSOCIATION?,Mac Atsup,1,0,0
+99,Who is the representative of CO%C3%96PERATIEVE CENTRALE RAIFFEISEN-BOERENLEENBANK B.A. %C2%93RABOBANK?,Michael T. Harder,1,0,0
+99,"Who is the representative of CBOCS PENNSYLVANIA, LLC?",Nick Flanagan,1,0,0
+167,"Who is the representative of POWELL INDUSTRIES INTERNATIONAL, INC.?",Don R. Madison,1,0,0
+98,Who is the representative of Bank of America?,Joan Mok,1,0,0
+166,Who is the representative of AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED?,Carl Roberts,1,0,0
+166,Who is the representative of NOVELIS MEA LTD?,Chirag Shah,1,0,0
+166,Who is the representative of BARCLAYS BANK PLC?,Mark Pope,1,0,0
+166,Who is the representative of STATE BANK OF INDIA?,R. Srinivasa Sekaran,1,0,0
+166,Who is the representative of ICICI Bank Limited?,Sanjay Jha,1,0,0
+166,Who is the representative of NOVELIS ALUMINIUM HOLDING UNLIMITED COMPANY?,Shannon Curran,1,0,0
+166,"Who is the representative of CITIBANK, N.A.?",Siddarth Bansal,1,0,0
+166,Who is the representative of BANK OF BARODA?,Sudip Kumar Ghatak,1,0,0
+166,"Who is the representative of THE BANK OF TOKYO-MITSUBISHI UFJ, LTD.?",Suguru Hattori,1,0,0
+67,Who is the representative of Latham %26 Watkins LLP?,Benjamin Potter,1,0,0
+67,Who is the representative of Akin Gump Strauss Hauer %26 Feld LLP?,Geoffrey E. Secol,1,0,0
+67,Who is the representative of INTEKRIN THERAPEUTICS INC.?,Michael Fleming,1,0,0
+67,Who is the representative of BIOPHARMA CREDIT PLC?,Pedro Gonzalez de Cosio,1,0,0
+67,Who is the representative of Pharmakon Advisors LP?,Pedro Gonzalez de Cosio,1,0,0
+73,"Who is the representative of WELLS FARGO SECURITIES, LLC?",Lindsey McGraw,1,0,0
+73,"Who is the representative of Raymond James Bank, N.A.?",Michael Pelletier,1,0,0
+73,Who is the representative of BARCLAYS BANK PLC?,Christopher M. Aitkin,1,0,0
+73,Who is the representative of CAPITAL ONE?,"Thomas C. King, Jr.",1,0,0
+73,"Who is the representative of NEXSTAR MEDIA GROUP, INC.?",Thomas E. Carter,1,0,0
+9,Who is the representative of THE ROYAL BANK OF SCOTLAND plc?,Brian D. Williams,1,0,0
+9,"Who is the representative of CITIBANK, N.A.?",Raymond G. Dunning,1,0,0
+9,"Who is the representative of CREDIT SUISSE AG, CAYMAN ISLANDS BRANCH?",Wei-Jen Yuan,1,0,0
+9,Who is the representative of MIDDLETOWN COGENERATION COMPANY LLC?,Mark E. Newman,1,0,0
+59,"Who is the representative of The Andersons, Inc.?",Brian A. Valentine,1,0,0
+59,Who is the representative of Jones Day?,Robert Graves,1,0,0
+65,"Who is the representative of BANK OF AMERICA, N.A.?",Brian D. Corum,1,0,0
+65,Who is the representative of TRUIST BANK?,Frank McCormack,1,0,0
+65,Who is the representative of MOHEGAN TRIBAL GAMING AUTHORITY?,Mario C. Kontomerkos,1,0,0
+65,"Who is the representative of CITIZENS BANK, N.A.?",Sean McWhinnie,1,0,0
+71,Who is the representative of BANK OF AMERICA?,Henry Pennell,1,0,0
+71,"Who is the representative of TOTAL SYSTEM SERVICES, INC?",Paul M. Todd,1,0,0
+71,Who is the representative of BANK OF AMERICA MERRILL LYNCH?,Ryan Maples,1,0,0
+164,Who is the representative of FIFTH THIRD BANK?,Hideo Core,1,0,0
+164,"Who is the representative of JACK HENRY %26 ASSOCIATES, INC.?",Kevin Williams,1,0,0
+164,Who is the representative of COMERICA BANK?,Richard C. Griffin Jr.,1,0,0
+164,Who is the representative of ARVEST BANK?,Richard Winesburg,1,0,0
+164,Who is the representative of REGIONS BANK?,Tyler Tirpak,1,0,0
+170,"Who is the representative of THE BANK OF TOKYO-MITSUBISHI UFJ, LTD.?",Christine Howatt,1,0,0
+170,"Who is the representative of COOPERATIEVE CENTRALE RAIFFEISEN-BOERENLEENBANK B.A., %E2%80%9CRABOBANK NEDERLAND%E2%80%9D NEW YORK BRANCH?",Gillian Dickson,1,0,0
+170,"Who is the representative of MORGAN STANLEY BANK , N.A.?",Kelly Chin,1,0,0
+170,Who is the representative of U.S. BANK NATIONAL ASSOCIATION?,Mark D. Rodgers,1,0,0
+170,Who is the representative of GOLDMAN SACHS BANK USA?,Mark Walton,1,0,0
+170,Who is the representative of STARBUCKS CORPORATION?,Richard Lautch,1,0,0
+158,"Who is the representative of BANK OF AMERICA, N.A.?",Adam Rose,1,0,0
+158,"Who is the representative of MOBILE POSSE, INC.?",Barrett Garrison,1,0,0
+159,"Who is the representative of MSC INCOME FUND, INC?",Cory E. Gilbert,1,0,0
+159,Who is the representative of JPMORGAN CHASE BANK?,James Greenfield,1,0,0
+159,Who is the representative of U.S. BANK NATIONAL ASSOCIATION?,Jon C. Warn,1,0,0
+165,Who is the representative of BARCLAYS BANK PLC?,Christopher Aitkin,1,0,0
+165,"Who is the representative of HSBC BANK USA, N.A?",Fik Durmus,1,0,0
+165,"Who is the representative of JPMORGAN CHASE BANK, N.A?",Tony Young,1,0,0
+70,Who is the representative of FIFTH THIRD BANK?,ERIC COHEN,1,0,0
+70,Who is the representative of GREENBACKER RENEWABLE ENERGY COMPANY LLC?,Richard Butt,1,0,0
+64,"Who is the representative of Affirm, Inc.?",Geoff Kott,1,0,0
+58,"Who is the representative of HCR COLLATERAL MANAGEMENT, LLC?",Clarke B. Futch,1,0,0
+41,Who is the representative of Burns %26 Levinson LLP?,Frank A. Segall,1,0,0
+41,Who is the representative of KeyBank National Association?,J.E. Hall,1,0,0
+41,Who is the representative of BMO Harris Bank N.A.?,John Dillon,1,0,0
+41,"Who is the representative of TRC COMPANIES, INC?",Martin H. Dodd,1,0,0
+7,Who is the representative of MUTUAL OF OMAHA BANK?,George McKean,1,0,0
+7,"Who is the representative of SAMSON OIL AND GAS USA, INC?",Terry Barr,1,0,0
+55,"Who is the representative of WILMINGTON TRUST, NATIONALASSOCIATION?",Cora Holland-Koller,1,0,0
+55,"Who is the representative of K. HOVNANIAN ENTERPRISES, INC.?",J. Larry Sorsby,1,0,0
+55,Who is the representative of STROOCK %26 STROOCK %26 LAVAN LLP?,Kristopher M. Hansen,1,0,0
+69,Who is the representative of KEYBANK NATIONAL ASSOCIATION?,Christopher T. Neil,1,0,0
+69,"Who is the representative of MVP ACQUISITIONS, LLC?",Michael Shustek,1,0,0
+69,Who is the representative of KeyBank National Association?,Mr. Christopher Neil,1,0,0
+82,Who is the representative of THE NORTHERN TRUST COMPANY?,Charles R. Davis,1,0,0
+82,"Who is the representative of PERKINELMER, INC?",David C. Francisco,1,0,0
+82,"Who is the representative of PERKINELMER HEALTH SCIENCES, INC?",John L. Healy,1,0,0
+168,"Who is the representative of CITIBANK, N.A.,?",Carolyn A. Kee,1,0,0
+168,"Who is the representative of BANK OF AMERICA, N.A.?",Michael Contreras,1,0,0
+168,"Who is the representative of STANLEY BLACK %26 DECKER, INC.?",Robert T. Paternostro,1,0,0
+96,Who is the representative of SOUTHWEST CAPITAL BANK?,Emilio Vallejos,1,0,0
+96,Who is the representative of COMMUNITY BANK OF SANTA FE?,Fernando Baca,1,0,0
+96,Who is the representative of U.S. BANK NATIONAL ASSOCIATION?,Holland H. Williams,1,0,0
+96,"Who is the representative of BOKF, NA DBA BANK OF ALBUQUERQUE?",John M. Valentine,1,0,0
+96,Who is the representative of WASHINGTON FEDERAL BANK?,Joshua L. Smith,1,0,0
+96,Who is the representative of BANK OF THE WEST?,Kevin R. Gillette,1,0,0
+96,Who is the representative of FOUR CORNERS COMMUNITY BANK?,Roger LaHart,1,0,0
+140,Who is the representative of FORTRESS TRANSPORTATION AND INFRASTRUCTURE INVESTORS LLC?,Joseph P. Adams Jr.,1,0,0
+140,"Who is the representative of MORGAN STANLEY SENIOR FUNDING, INC.?",William Graham,1,0,0
+154,"Who is the representative of EDGE SYSTEMS INTERMEDIATE, LLC?",Liyuan Woo,1,0,0
+154,"Who is the representative of JPMORGAN CHASE BANK, N.A.?",Erica Cross,1,0,0
+155,"Who is the representative of Boxlight, Inc.?",Hank Nance,1,0,0
+155,Who is the representative of WHITEHAWK FINANCE LLC?,Harry Chung,1,0,0
+155,"Who is the representative of FrontRow Calypso, LLC?",Jens Holstebro,1,0,0
+155,Who is the representative of EOSEDU LLC?,Michael R. Pope,1,0,0
+155,"Who is the representative of Whitehawk Capital Partners, LP?",Rob Chimenti,1,0,0
+155,Who is the representative of Kramer Levin Naftalis %26 Frankel LLP?,Sanjay Thapar,1,0,0
+155,Who is the representative of Boxlight Corporation?,Michael Pope,1,0,0
+141,Who is the representative of SOUTH JERSEY GAS COMPANY?,Ann T. Anthony,1,0,0
+141,"Who is the representative of TD BANK, N.A.?",Vijay Prasad,1,0,0
+169,"Who is the representative of CHIQUITA BRANDS INTERNATIONAL, INC.?",Joseph B. Johnson,1,0,0
+97,Who is the representative of GENERAL ELECTRIC CAPITAL CORPORATION?,Dague Retzlaff,1,0,0
+97,"Who is the representative of Summit Healthcare REIT, Inc?",Kent Eikanas,1,0,0
+83,Who is the representative of BANK OF THE WEST?,Cecile Segovia,1,0,0
+83,Who is the representative of BANK OF CHINA?,Haiyong Yang,1,0,0
+83,Who is the representative of LAND BANK OF TAIWANLOS ANGELES BRANCH?,Henry C. R. Leu,1,0,0
+83,"Who is the representative of MEGA INTERNATIONAL COMMERCIAL BANK CO., LTD. LOS ANGELES BRANCH?",Hsiao-Ho Huang,1,0,0
+83,Who is the representative of DBS BANK LTD?,James McWalters,1,0,0
+83,"Who is the representative of TAIWAN COOPERATIVE BANK, LTD?",Li-Hua Huang,1,0,0
+83,Who is the representative of PNC BANK NATIONAL ASSOCIATION?,Matthew D. Meister,1,0,0
+83,Who is the representative of SABADELL UNITED BANK?,Maurici Llad%C3%B3,1,0,0
+83,"Who is the representative of CTBC BANK CO., LTD?",Ralph Wu,1,0,0
+83,"Who is the representative of TAIPEI FUBON COMMERCIAL BANK CO., LTD?",Robin S. Wu,1,0,0
+83,"Who is the representative of HUA NAN COMMERCIAL BANK, LTD?",Shu-Fei %28Sophia%29 Lin,1,0,0
+83,Who is the representative of JPMORGAN CHASE BANK?,Keith Winzenried,1,0,0
+68,"Who is the representative of JPMORGAN CHASE BANK, N.A.?",Austin Lotito,1,0,0
+68,"Who is the representative of BANK OF AMERICA, N.A.?",Cletise Ussery,1,0,0
+68,Who is the representative of FRANKLIN STREET PROPERTIES CORP.?,George J. Carter,1,0,0
+68,Who is the representative of Foley %26 Lardner LLP?,Jamie N. Class,1,0,0
+68,"Who is the representative of CAPITAL ONE, NATIONAL ASSOCIATION?",Melissa DeVito,1,0,0
+6,Who is the representative of HINES REIT ONE WILSHIRE LP?,J. Shea Morgenroth,1,0,0
+6,Who is the representative of BANK OF CHINA?,Ying Chen,1,0,0
+54,Who is the representative of Andrascik %26 Tita LLC?,Stephanie M. Tita,1,0,0
+40,"Who is the representative of FIRST NIAGARA BANK, N.A.?",David Reading,1,0,0
+40,"Who is the representative of JPMORGAN CHASE BANK, N.A?",Hector J. Varona,1,0,0
+40,Who is the representative of THE BANK OF NOVIA SCOTIA?,Kevin Chan,1,0,0
+40,Who is the representative of National General Holdings Corp.?,Michael H. Weiner,1,0,0
+40,"Who is the representative of MORGAN STANLEY BANK, N.A?",Michael King,1,0,0
+40,"Who is the representative of JPMorgan Chase Bank, N.A?",Nida Mischke,1,0,0
+56,Who is the representative of WMG Acquisition Corp.?,Paul M. Robinson,1,0,0
+56,"Who is the representative of NOMURA CORPORATE FUNDING AMERICAS, LLC?",Lee A. Olive,1,0,0
+56,Who is the representative of Debevoise %26 Plimpton LLP?,Pierre Maug%C3%BC%C3%A9,1,0,0
+4,"Who is the representative of BRIGHT HORIZONS CAPITAL CORP.,?",David Lissy,1,0,0
+4,Who is the representative of CREDIT SUISSE AG?,John Toronto,1,0,0
+4,Who is the representative of GOLDMAN SACHS BANK USA?,Robert Ehudin,1,0,0
+4,Who is the representative of JPMORGAN CHASE BANK N.A.?,Sarah L. Freedman,1,0,0
+42,Who is the representative of WilmerHale?,John D. Sigel,1,0,0
+42,"Who is the representative of Bank of America, N.A?",Monique Haley,1,0,0
+42,"Who is the representative of Bank of America, N.A.?",Kelly Weaver,1,0,0
+95,Who is the representative of Kaye Scholer LLP?,John R. Fallon,1,0,0
+95,"Who is the representative of OHI Asset HUD Delta, LLC?",Daniel J. Booth,1,0,0
+95,"Who is the representative of Omega Healthcare Investors, Inc?",Daniel J. Booth,1,0,0
+157,"Who is the representative of MICROPAC INDUSTRIES, INC.?",Mark W. King,1,0,0
+157,"Who is the representative of MICROPAC INDUSTRIES, INC?",Nicholas Nadolsky,1,0,0
+143,Who is the representative of FIRST TENNESSEE BANK NATIONAL ASSOCIATION?,Daniel Nunes,1,0,0
+143,"Who is the representative of TEXAS CAPITAL BANK, N.A.?",John Kallina,1,0,0
+143,"Who is the representative of BMO HARRIS BANK, N.A.?",Keith Watanabe,1,0,0
+143,"Who is the representative of WINGSTOP HOLDINGS, INC.?",Michael J. Skipworth,1,0,0
+143,"Who is the representative of CAPITAL ONE, N.A.?",Michael J. Sullivan,1,0,0
+143,"Who is the representative of CADENCE BANK, N.A.?",Vance Waldron,1,0,0
+142,"Who is the representative of THE BANK OF TOKYO-MITSUBISHI UJF, LTD.?",1251 Avenue of the Americas,1,0,0
+142,"Who is the representative of CREDIT SUISSE AG, TORONTO BRANCH?",Alain Daoust,1,0,0
+142,"Who is the representative of MIZUHO BANK, LTD.?",Brad C. Crilly,1,0,0
+142,"Who is the representative of WELLS FARGO BANK, NATIONAL ASSOCIATION?",J. Michael Quigley,1,0,0
+142,Who is the representative of HSBC BANK CANADA?,Jason Lang,1,0,0
+142,"Who is the representative of JPMORGAN CHASE BANK, N.A.?",Juan J. Javellana,1,0,0
+142,"Who is the representative of COLUMBIA PIPELINE GROUP, INC.?",Nathaniel A. Brown,1,0,0
+156,Who is the representative of VIAVI SOLUTIONS LICENSING LLC?,Henk Derksen,1,0,0
+156,Who is the representative of VIAVI SOLUTIONS DEUTSCHLAND GMBH?,Andreas-Christoph Beyertt,1,0,0
+156,Who is the representative of WELLS FARGO CAPITAL FINANCE CORPORATION CANADA?,Carmela Massari,1,0,0
+156,"Who is the representative of Deutsche Bank AG, New York Branch?",Jessica Lutrario,1,0,0
+156,Who is the representative of VIAVI SOLUTIONS CANADA ULC?,Kevin Siebert,1,0,0
+156,"Who is the representative of JPMORGAN CHASE BANK, N.A.?",Timothy Lee,1,0,0
+80,Who is the representative of U.S. Bank National Association?,Brian Seipke,1,0,0
+80,Who is the representative of E-CONOLIGHT LLC?,Charles M. Swoboda,1,0,0
+80,"Who is the representative of CREE, INC?",Michael E. McDevitt,1,0,0
+80,Who is the representative of GOLDMAN SACHS BANK USA?,Nicole Ferry Lacchia,1,0,0
+80,Who is the representative of Bank of America?,Thomas M. Paulk,1,0,0
+94,"Who is the representative of SALIX PHARMACEUTICALS, LTD.?",Adam C. Derbyshire,1,0,0
+94,Who is the representative of SUNTRUST BANK?,Ben Cumming,1,0,0
+94,Who is the representative of JEFFERIES FINANCE LLC?,E. Joseph Hess,1,0,0
+94,Who is the representative of SUMITOMO MITSUI BANKINGCORPORATION?,Katsuyuki Kubo,1,0,0
+57,Who is the representative of CELANESE US HOLDINGS LLC?,Chuck B. Kyrish,1,0,0
+57,"Who is the representative of PNC Bank, National Association?",Divyang Shah,1,0,0
+57,Who is the representative of CELANESE EUROPE B.V.?,Mark Oberle,1,0,0
+57,Who is the representative of Elwood C.V.?,Ronnie D. Berry,1,0,0
+57,Who is the representative of CELANESE CORPORATION?,Scott A. Richardson,1,0,0
+57,"Who is the representative of MUFG Bank, Ltd.?",Thomas J. Sterr,1,0,0
+5,Who is the representative of WELLS FARGO BANK?,Andrew W. Hussion,1,0,0
+1,"Who is the representative of BANK OF AMERICA, N.A.?",Alexandra M. Knights,1,0,0
+1,"Who is the representative of FRANKLIN RESOURCES, INC.?",Mark Constant,1,0,0
+53,Who is the representative of CADENCE BANK?,Charles M. Joye III,1,0,0
+53,Who is the representative of JAMBA JUICE ADVERTISING FUND INC.?,Marie Perry,1,0,0
+47,"Who is the representative of PNC BANK, NATIONAL ASSOCIATION?",Bremmer Kneib,1,0,0
+47,"Who is the representative of THE BANK OF TOKYO-MITSUBISHI UFJ, LTD.?",Brian McNany,1,0,0
+47,Who is the representative of UNITED THERAPEUTICS CORPORATION?,James Edgemond,1,0,0
+47,"Who is the representative of WELLS FARGO BANK, NATIONAL ASSOCIATION?",Kirk Tesch,1,0,0
+47,Who is the representative of BARCLAYS BANK PLC?,SAMUEL COWARD,1,0,0
+152,Who is the representative of Frost Brown Todd LLC?,Barry A. Hines,1,0,0
+152,"Who is the representative of MVP REALTY ADVISORS, LLC?",Michael V. Shustek,1,0,0
+146,Who is the representative of BLACKSTONE PRIVATE CREDIT FUND?,Marisa J. Beeney,1,0,0
+90,Who is the representative of HSBC BANK USA?,Alexander Foster,1,0,0
+90,Who is the representative of U.S. BANK NATIONAL ASSOCIATION?,Kelsey E. Hehman,1,0,0
+84,Who is the representative of BRANCH BANKING AND TRUST COMPANY?,Ahaz Armstrong,1,0,0
+84,Who is the representative of UBS AG?,Joselin Fernandes,1,0,0
+84,Who is the representative of Comerica Bank?,Kyle B. O%C2%92Neill,1,0,0
+84,Who is the representative of JPMORGAN CHASE BANK?,Mark Costantino,1,0,0
+84,"Who is the representative of Shumaker, Loop %26 Kendrick, LLP?",Mary Ellen Pisanelli,1,0,0
+84,Who is the representative of Fifth Third Bank?,Megan R. Brearey,1,0,0
+84,Who is the representative of CREDIT SUISSE AG?,Michael D%C2%92Onofrio,1,0,0
+84,"Who is the representative of Health Care REIT, Inc.?",Mr. George L. Chapman,1,0,0
+84,Who is the representative of BARCLAYS BANK PLC?,Noam Azachi,1,0,0
+85,Who is the representative of BANK OF AMERICA?,Kenneth Butler,1,0,0
+85,"Who is the representative of CLINFORCE, LLC?",Susan E. Ball,1,0,0
+85,"Who is the representative of LOCAL STAFF, LLC?",Susan E. Ball,1,0,0
+85,"Who is the representative of ASSIGNMENT AMERICA, LLC?",Susan E. Ball,1,0,0
+85,"Who is the representative of CC LOCAL, INC.?",Susan E. Ball,1,0,0
+85,"Who is the representative of CREDENT VERIFICATION AND LICENSING SERVICES, LLC?",Susan E. Ball,1,0,0
+85,"Who is the representative of CROSS COUNTRY EDUCATION, LLC?",Susan E. Ball,1,0,0
+85,"Who is the representative of CROSS COUNTRY PUBLISHING, LLC?",Susan E. Ball,1,0,0
+85,"Who is the representative of CROSS COUNTRY STAFFING, INC.?",Susan E. Ball,1,0,0
+85,"Who is the representative of MCVT, INC.?",Susan E. Ball,1,0,0
+85,"Who is the representative of MDA HOLDINGS, INC.?",Susan E. Ball,1,0,0
+85,"Who is the representative of MEDICAL DOCTOR ASSOCIATES, LLC?",Susan E. Ball,1,0,0
+91,Who is the representative of EARTHSTONE ENERGY INC?,Ray Singleton,1,0,0
+91,Who is the representative of BANK OF OKLAHOMA?,Thomas M. Foncannon,1,0,0
+147,"Who is the representative of PPD Development, L.P.?",B. Judd Hartman,1,0,0
+147,Who is the representative of Latham %26 Watkins LLP?,Daniel Seale,1,0,0
+147,Who is the representative of JPMORGAN CHASE BANK?,Dawn Lee Lum,1,0,0
+147,"Who is the representative of JPMorgan Chase Bank, N.A.?",Kevin Campbell,1,0,0
+147,"Who is the representative of Mizuho Bank, Ltd.?",Raymond Ventura,1,0,0
+147,Who is the representative of Goldman Sachs Bank USA?,Thomas Manning,1,0,0
+153,"Who is the representative of TD BANK, N.A.?",Colin Murphy,1,0,0
+153,"Who is the representative of PNC BANK, NATIONAL ASSOCIATION?",Daniel Russell,1,0,0
+153,"Who is the representative of JPMORGAN CHASE BANK, N.A?",Grace Mahood,1,0,0
+153,"Who is the representative of AVID TECHNOLOGY, INC.?",Kenneth Gayron,1,0,0
+46,"Who is the representative of SANTANDER BANK, N.A.,?",Gregory R. Russano,1,0,0
+46,"Who is the representative of MVC GP II, LLC?",James Pinto,1,0,0
+46,"Who is the representative of Wintrust Bank,?",John Paul Hills,1,0,0
+78,"Who is the representative of LILIS ENERGY, INC?",Abraham Mirman,1,0,0
+78,Who is the representative of HEARTLAND BANK?,Phil Thomas,1,0,0
+44,"Who is the representative of FORWARD AIR ROYALTY, LLC,?",Matthew J. Jewell,1,0,0
+44,Who is the representative of FORWARD AIR CORPORATION?,Rodney L. Bell,1,0,0
+50,Who is the representative of SILICON VALLEY BANK?,Derek R. Brunelle,1,0,0
+50,"Who is the representative of MYRIAD GENETICS, INC.?",R. Bryan Riggsbee,1,0,0
+2,"Who is the representative of FIFTH THIRD BANK, NATIONAL ASSOCIATION?",Mary Ramsey,1,0,0
+2,Who is the representative of THE TORONTO-DOMINION BANK?,Michael Borowiecki,1,0,0
+2,"Who is the representative of DICK%C2%92S SPORTING GOODS, INC.?",Navdeep Gupta,1,0,0
+2,"Who is the representative of CAPITAL ONE, N.A.?",Paul Isaac,1,0,0
+145,Who is the representative of NFE BAHAMAS HOLDINGS LTD.?,Christopher Stephen Guinta,1,0,0
+145,Who is the representative of ATHORA LUX INVEST S.C.SP?,Joseph D. Glatt,1,0,0
+145,Who is the representative of NFE SHANNON HOLDINGS LIMITED?,Lana Guardino,1,0,0
+145,"Who is the representative of Paul, Weiss, Rifkind, Wharton %26 Garrison LLP?",Brian Kim,1,0,0
+145,Who is the representative of NFE SUB LLC?,Christopher Stephen Guinta,1,0,0
+145,Who is the representative of CORTLAND CAPITAL MARKET SERVICES LLC?,Emily Ergang Pappas,1,0,0
+145,"Who is the representative of Cravath, Swaine %26 Moore LLP?",George E. Zobitz,1,0,0
+145,Who is the representative of Cortland Capital Market Services LLC?,Steve Lenard,1,0,0
+151,Who is the representative of THERMO FISHER SCIENTIFIC INC.?,Anthony H. Smith,1,0,0
+151,Who is the representative of U.S. Bank National Association?,Maria Massimino,1,0,0
+151,Who is the representative of Nordea Bank Abp?,Ola Anderssen,1,0,0
+151,Who is the representative of Bank of China?,Raymond Qiao,1,0,0
+87,Who is the representative of SUNTRUST BANK?,Chris Hursey,1,0,0
+87,Who is the representative of JPMORGAN CHASE BANK?,John Emery,1,0,0
+87,Who is the representative of BANK OF AMERICA?,Melissa Mullis,1,0,0
+87,Who is the representative of HSBC BANK USA?,Robert Levins,1,0,0
+93,"Who is the representative of Armbrust %26 Brown, PLLC?",Ken Jones,1,0,0
+92,"Who is the representative of PERNIX THERAPEUTICS, LLC?",Cooper C. Collins,1,0,0
+92,"Who is the representative of MIDCAP FUNDING V, LLC,?",Michael Min,1,0,0
+86,"Who is the representative of ID ANALYTICS, INC?",Chris Power,1,0,0
+86,"Who is the representative of SILICON VALLEY BANK,?",Jay Wefel,1,0,0
+86,Who is the representative of BANK OF AMERICA?,Julie Yamauchi,1,0,0
+86,Who is the representative of ROYAL BANK OF CANADA?,Mark S. Gronich,1,0,0
+150,Who is the representative of Credit Suisse Loan Funding LLC?,Jinah Lim,1,0,0
+150,Who is the representative of Arnold %26 Porter Kaye Scholer LLP?,"Jonathan I. Levine, Esq.",1,0,0
+144,Who is the representative of MIDCAP FINANCIAL TRUST?,Maurice Amsellem,1,0,0
+144,"Who is the representative of RADIUS HEALTH, INC.?",Jose Carmona,1,0,0
+51,"Who is the representative of MORGAN STANLEY SENIOR FUNDING, INC.?",Cody Gunsch,1,0,0
+51,"Who is the representative of MUFG UNION BANK, N.A.?",Sonia Flores,1,0,0
+51,Who is the representative of CALPINE CORPORATION?,Zamir Rauf,1,0,0
+3,"Who is the representative of WELLS FARGO BANK, NATIONAL ASSOCIATION?",Anand J. Jobanputra,1,0,0
+3,"Who is the representative of SUMMIT NCI JV BR 177, LLC?",Christopher Eng,1,0,0
+45,Who is the representative of PINNACLE BANK?,Harold R. Carpenter,1,0,0
+79,Who is the representative of COMPASS BANK?,S. Kent Gorman,1,0,0
+79,"Who is the representative of UBS AG, STAMFORD BRANCH?",Craig Pearson,1,0,0
+79,Who is the representative of ROYAL BANK OF CANADA?,Dan LePage,1,0,0
+79,Who is the representative of U.S. BANK NATIONAL ASSOCIATION?,David Heller,1,0,0
+79,"Who is the representative of Citibank, N.A.?",Dinesh Kumar,1,0,0
+79,"Who is the representative of ASSOCIATED BANK, NATIONAL ASSOCIATION?",Gregory A. Conner,1,0,0
+79,Who is the representative of SELECT INCOME REIT?,John C. Popeo,1,0,0
+79,"Who is the representative of Wells Fargo Bank, National Association?",Treva Lee,1,0,0
+22,"Who is the representative of BANK OF AMERICA, N.A?",Ajay Jagsi,1,0,0
+22,"Who is the representative of JPMORGAN CHASE BANK, N.A.?",Anca Loghin,1,0,0
+22,"Who is the representative of OIL STATES INTERNATIONAL, INC.,?",Lloyd A. Hajdik,1,0,0
+36,"Who is the representative of MORGAN STANLEY SENIOR FUNDING, INC.?",Reagan Philipp,1,0,0
+36,Who is the representative of SILICON GRAPHICS INTERNATIONAL CORP?,Robert J. Nikl,1,0,0
+123,Who is the representative of NEWELL RUBBERMAID INC?,John B. Ellis,1,0,0
+123,Who is the representative of THE NORTHERN TRUST COMPANY?,Kimberly A. Crotty,1,0,0
+123,"Who is the representative of Bank of America, N.A.?",Kyle Lewis,1,0,0
+123,"Who is the representative of CITIBANK, N.A?",Lisa Huang,1,0,0
+123,Who is the representative of US Bank National Association?,Steven L. Sawyer,1,0,0
+137,Who is the representative of Deutsche Bank AG New York Branch?,James Rolison,1,0,0
+137,Who is the representative of KEYBANK NATIONAL ASSOCIATION?,Wolsley Grannum,1,0,0
+137,"Who is the representative of San Fran JV, LLC?",Christopher Eng,1,0,0
+137,"Who is the representative of Summit Hospitality 039, LLC?",Christopher Eng,1,0,0
+137,"Who is the representative of Summit Hospitality 057, LLC?",Christopher Eng,1,0,0
+137,"Who is the representative of Summit Hospitality 060, LLC?",Christopher Eng,1,0,0
+137,"Who is the representative of Summit Hospitality 079, LLC?",Christopher Eng,1,0,0
+137,"Who is the representative of Summit Hospitality 081, LLC?",Christopher Eng,1,0,0
+137,"Who is the representative of Summit Hospitality 082, LLC?",Christopher Eng,1,0,0
+137,"Who is the representative of Summit Hospitality 084, LLC?",Christopher Eng,1,0,0
+137,"Who is the representative of Summit Hospitality 093, LLC?",Christopher Eng,1,0,0
+137,"Who is the representative of Summit Hospitality 100, LLC?",Christopher Eng,1,0,0
+137,"Who is the representative of Summit Hospitality 114, LLC?",Christopher Eng,1,0,0
+137,"Who is the representative of Summit Hospitality 115, LLC?",Christopher Eng,1,0,0
+137,"Who is the representative of Summit Hospitality 117, LLC?",Christopher Eng,1,0,0
+137,"Who is the representative of Summit Hospitality 118, LLC?",Christopher Eng,1,0,0
+137,"Who is the representative of Summit Hospitality 119, LLC?",Christopher Eng,1,0,0
+137,"Who is the representative of Summit Hospitality 121, LLC?",Christopher Eng,1,0,0
+137,"Who is the representative of Summit Hospitality 122, LLC?",Christopher Eng,1,0,0
+137,"Who is the representative of Summit Hospitality 123, LLC?",Christopher Eng,1,0,0
+137,"Who is the representative of Summit Hospitality 130, LLC?",Christopher Eng,1,0,0
+137,"Who is the representative of Summit Hospitality 17, LLC?",Christopher Eng,1,0,0
+137,"Who is the representative of Summit Hospitality 18, LLC?",Christopher Eng,1,0,0
+137,"Who is the representative of Summit Hospitality I, LLC?",Christopher Eng,1,0,0
+137,"Who is the representative of Summit Hospitality XII, LLC?",Christopher Eng,1,0,0
+137,"Who is the representative of Summit Hotel TRS 035, LLC?",Christopher Eng,1,0,0
+136,Who is the representative of B2R Finance L.P.?,Katharine R. Briggs,1,0,0
+122,Who is the representative of BARCLAYS BANK PLC?,Arti Sugunan,1,0,0
+122,Who is the representative of AON UK LIMITED?,P. A. Hogwood,1,0,0
+122,Who is the representative of AON CORPORATION?,Paul Hagy,1,0,0
+122,Who is the representative of BANK OF CHINA %28LUXEMBOURG%29?,Zhao Caiyan,1,0,0
+37,"Who is the representative of BANK OF AMERICA, N.A.?",Maria F. Maia,1,0,0
+37,"Who is the representative of MUFG Union Bank, N.A.,?",Sandra Cortes,1,0,0
+37,"Who is the representative of Waste Connections, Inc.?",Worthing F. Jackman,1,0,0
+23,"Who is the representative of BANK OF AMERICA, N.A.?",Holli Balzar,1,0,0
+23,Who is the representative of CLEAN ENERGY EXPERTS LLC?,Jeanna Steele,1,0,0
+23,Who is the representative of KEYBANK NATIONAL ASSOCIATION?,Jonathan M. Bouvet,1,0,0
+35,Who is the representative of HESS OVERSEAS FINANCE INVESTMENTS CENTRE LIMITED?,Eric S. Fishman,1,0,0
+35,Who is the representative of Bank of China?,Haifeng Xu,1,0,0
+35,Who is the representative of INTESA SANPAOLO S.p.A.?,Marco Pizzi,1,0,0
+21,"Who is the representative of LD LOWER HOLDINGS, INC.?",Dawn M. Wilson,1,0,0
+21,"Who is the representative of WILMINGTON TRUST, NATIONAL ASSOCIATION?",Nicole Kroll,1,0,0
+108,"Who is the representative of FIFTH THIRD BANK, an Ohio banking corporation?",Michael P. Perillo,1,0,0
+108,"Who is the representative of Retreat at State College, LLC?",Randall H. Brown,1,0,0
+108,"Who is the representative of PNC Bank, National Association?",Andrew White,1,0,0
+134,"Who is the representative of STOCKBRIDGE%2FSBE HOLDINGS, LLC?",Darren Drake,1,0,0
+134,Who is the representative of EAST WEST BANK.?,Janet Chao,1,0,0
+120,Who is the representative of EQUITY COMMONWEALTH?,Adam Markman,1,0,0
+120,"Who is the representative of MEGA INTERNATIONAL COMMERCIAL BANK CO., LTD?",Angela Chen,1,0,0
+120,Who is the representative of THE BANK OF NOVA SCOTIA?,Chad Hale,1,0,0
+120,Who is the representative of ROYAL BANK OF CANADA?,Dan LePage,1,0,0
+120,Who is the representative of CAPITAL ONE?,Frederick H. Denecke,1,0,0
+120,Who is the representative of THE BANK OF NEW YORK MELLON?,Helga Blum,1,0,0
+120,"Who is the representative of JPMORGAN CHASE BANK, N.A.?",Marc Costantino,1,0,0
+120,Who is the representative of BMO HARRIS BANK?,Mark W. Piekos,1,0,0
+120,Who is the representative of FIFTH THIRD BANK?,Michael Glandt,1,0,0
+120,Who is the representative of SUMITOMO MITSUI BANKING CORPORATION?,William G. Karl,1,0,0
+121,Who is the representative of BRANCH BANKING AND TRUST COMPANY?,Andrey Rudnitsky,1,0,0
+121,Who is the representative of Mega International Commercial Bank?,Angela Chen,1,0,0
+121,"Who is the representative of JPMORGAN CHASE BANK, N.A.?",Brian Grossman,1,0,0
+121,Who is the representative of Taiwan Business Bank?,Jason Jean,1,0,0
+121,Who is the representative of BANK OF CHINA?,Kefel Xu,1,0,0
+121,Who is the representative of TAIWAN COOPERATIVE BANK LTD?,Li Yin Wang,1,0,0
+121,"Who is the representative of BANK OF AMERICA, N.A.?",Steven K. Kessler,1,0,0
+135,Who is the representative of DNB CAPITAL LLC?,Anders Platou,1,0,0
+135,"Who is the representative of UBS AG, STAMFORD BRANCH?",Craig Pearson,1,0,0
+135,"Who is the representative of JPMORGAN CHASE BANK, N.A.?",Stephanie Balette,1,0,0
+135,Who is the representative of ROYAL BANK OF CANADA?,James R. Allred,1,0,0
+20,"Who is the representative of BANK OF MONTREAL, CHICAGO BRANCH?",Benjamin Mlot,1,0,0
+18,"Who is the representative of MUFG UNION BANK, N.A?",Katherine Davidson,1,0,0
+18,Who is the representative of BLACK CREEK DIVERSIFIED PROPERTY OPERATING PARTNERSHIP LP?,Lainie Minnick,1,0,0
+24,Who is the representative of WELLS FARGO BANK NATIONALASSOCIATION?,D. Bryan Gregory,1,0,0
+24,Who is the representative of King %26 Spalding LLP?,J. Craig Lee,1,0,0
+24,"Who is the representative of COLUMBIA PROPERTY TRUSTOPERATING PARTNERSHIP, L.P.?",James A. Fleming,1,0,0
+24,"Who is the representative of JPMorgan Chase Bank, N.A.?",Sangeeta Mahadevan,1,0,0
+24,"Who is the representative of Morgan, Lewis %26 Bockius LLP?",Stephen M. Miklus,1,0,0
+24,Who is the representative of SUMITOMO MITSUI BANKING CORPORATION?,William G. Karl,1,0,0
+131,Who is the representative of U.S. BANK NATIONAL ASSOCIATION?,"Ralph J. Creasia, Jr.",1,0,0
+125,Who is the representative of U.S. Bank National Association?,Joe Horrigan,1,0,0
+125,Who is the representative of Public Service Company of New Mexico?,Joseph D. Tarry,1,0,0
+119,Who is the representative of INTERNATIONAL FINANCE CORPORATION?,Delanson D. Crist,1,0,0
+119,"Who is the representative of VAALCO GABON %28ETAME%29, INC?",W. Russell Scheirman,1,0,0
+118,"Who is the representative of POST HOLDINGS, INC.?",Diedre J. Gray,1,0,0
+118,Who is the representative of Stifel Bank %26 Trust?,John H. Phillips,1,0,0
+118,Who is the representative of BANK OF THE WEST?,Roger Lumley,1,0,0
+118,"Who is the representative of Lewis, Rice %26 Fingersh, L.C?",Tom W. Zook,1,0,0
+124,"Who is the representative of WELLS FARGO BANK, N.A.?",Richard Ferrari,1,0,0
+124,"Who is the representative of MONRO MUFFLER BRAKE, INC?",Catherine D%C2%92Amico,1,0,0
+124,"Who is the representative of JPMORGAN CHASE BANK, N.A?",Peter M. Killea,1,0,0
+124,Who is the representative of BRANCH BANKING %26 TRUST COMPANY?,Trevor Williams,1,0,0
+130,"Who is the representative of BANK OF AMERICA, N.A?",Kevin Couch,1,0,0
+130,"Who is the representative of MURPHY OIL USA, INC.?",Mindy K. West,1,0,0
+130,Who is the representative of HANCOCK WHITNEY BANK?,Nancy G. Moragas,1,0,0
+130,"Who is the representative of JPMORGAN CHASE BANK, N.A?",Stephanie Balette,1,0,0
+25,Who is the representative of CORTLAND CAPITAL MARKET SERVICES %09LLC?,Emily Ergang Pappas,1,0,0
+25,"Who is the representative of HUNT CMT EQUITY, LLC?",Michael Larsen,1,0,0
+25,"Who is the representative of JEFFERIES LEVERAGED CREDIT PRODUCTS, LLC?",William P. McLoughlin,1,0,0
+31,Who is the representative of THE BANK OF CHINA?,Haiyong Yang,1,0,0
+31,Who is the representative of BARCLAYS BANK PLC?,Mark Timms,1,0,0
+31,Who is the representative of VISA U.S.A. INC.?,Richard Laiderman,1,0,0
+19,"Who is the representative of WELLS FARGO BANK, NATIONAL ASSOCIATION?",Maureen S. Malphus,1,0,0
+19,"Who is the representative of UMB Bank, n.a.?",Robert P. Elbert,1,0,0
+19,"Who is the representative of CASEY%E2%80%99S GENERAL STORES, INC.?",Terry W. Handley,1,0,0
+27,Who is the representative of Milbank Tweed Hadley %26 McCloy LLP?,Adam Moses,1,0,0
+27,Who is the representative of GASTAR MIDCO HOLDINGS LLC?,Michael A. Gerlich,1,0,0
+27,Who is the representative of Gastar Midco Holdings LLC?,Eric Waxman,1,0,0
+33,"Who is the representative of PLY GEM INDUSTRIES, INC.,?",Shawn K. Poe,1,0,0
+126,Who is the representative of STANDARD CHARTERED BANK?,James Beck,1,0,0
+126,"Who is the representative of BANK OF CHINA, NEW YORK BRANCH?",Raymond Qiao,1,0,0
+126,Who is the representative of JABIL INC.?,Sergio A. Cadavid,1,0,0
+132,"Who is the representative of OBS HOLDINGS, INC.?",Gary G. Zyla,1,0,0
+132,"Who is the representative of JPMORGAN CHASE BANK, N.A.?",Jennifer M. Dunneback,1,0,0
+132,"Who is the representative of OBS FINANCIAL SERVICES, INC.?",Gary G. Zyla,1,0,0
+132,Who is the representative of U.S. BANK NATIONAL ASSOCIATION?,Mark R. Cousineau,1,0,0
+133,"Who is the representative of ZULILY, INC.?",Marc Stolzman,1,0,0
+133,"Who is the representative of BANK OF AMERICA, N.A.?",Ronald J. Drobny,1,0,0
+133,"Who is the representative of CITIBANK, N.A.?",William Allen,1,0,0
+127,"Who is the representative of JPMORGAN CHASE BANK, N.A?",Heather E. Hoopingarner,1,0,0
+127,Who is the representative of BIOGEN INC.?,Michael Dambach,1,0,0
+127,"Who is the representative of BANK OF CHINA, NEW YORK BRANCH?",Raymond Qiao,1,0,0
+127,"Who is the representative of BANK OF AMERICA, N.A?",Taelitha Bonds-Harris,1,0,0
+127,Who is the representative of MIZUHO BANK?,Tracy Rahn,1,0,0
+32,Who is the representative of UBS SECURITIES LLC?,Barbara S. Wang,1,0,0
+32,"Who is the representative of J.P. MORGAN SECURITIES LLC,?",Gregg L. Byers,1,0,0
+32,Who is the representative of HSBC CORPORATE TRUSTEE COMPANY %28UK%29 LIMITED?,Jason Blondell,1,0,0
+32,Who is the representative of HSBC BANK PLC?,Jeremy Causton,1,0,0
+32,"Who is the representative of WELLS FARGO BANK, N.A.?",John Cantalupo,1,0,0
+32,"Who is the representative of JPMORGAN CHASE BANK, N.A.?",Muhammad Hasan,1,0,0
+32,Who is the representative of THE STANDARD BANK OF SOUTH AFRICA LIMITED?,O. Lavitzson,1,0,0
+26,Who is the representative of Standard Chartered Bank?,Daniel Mattern,1,0,0
+26,Who is the representative of Sumitomo Mitsui Banking Corporation?,Katsuyuki Kubo,1,0,0

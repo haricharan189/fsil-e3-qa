@@ -1,0 +1,857 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+102,Who is the Chief Financial Officer of DIGIRAD CORPORATION?,Jeffry R. Keyes,2,0,0
+102,Who is the President of DIGIRAD CORPORATION?,Jeffry R. Keyes,2,0,0
+102,"Who is the Authorized Signatory of WELLS FARGO BANK, NATIONAL ASSOCIATION?",Kathy R. Plisko,2,0,0
+116,Who is the Chief Financial Officer of MORGAN STANLEY DIRECT LENDING FUND?,Venugopal Rathi,2,0,0
+116,Who is the COO of Morgan Stanley Direct Lending Fund?,Orit Mizrachi,2,0,0
+116,Who is the CFO of Morgan Stanley Direct Lending Fund?,Venu Rathi,2,0,0
+116,Who is the Managing Director of CIBC BANK USA?,Nicholas Jordan,2,0,0
+117,"Who is the Chief Financial Officer of COLUMBIA SPORTSWEAR COMPANY,?",Jim A. Swanson,2,0,0
+117,"Who is the Executive Vice President of COLUMBIA SPORTSWEAR COMPANY,?",Jim A. Swanson,2,0,0
+117,"Who is the Executive Director of JPMORGAN CHASE BANK, N.A.?",Lynn Braun,2,0,0
+117,Who is the Vice President of ROYAL BANK OF CANADA?,Kirsten Jakobsen,2,0,0
+103,"Who is the Authorized Signatory of Angelo, Gordon %26 Co., L.P.?",Gavin Baiera,2,0,0
+103,Who is the Manager of CLAIRE%C2%92S LUXEMBOURG S.A R.L.?,Paul A. Barker,2,0,0
+103,Who is the Associate Counsel of CORTLAND CAPITAL MARKET SERVICES LLC?,Matthew Trybula,2,0,0
+16,Who is the Senior Managing Directo of CRYSTAL FINANCIAL LLC?,Christopher A. Arnold,2,0,0
+16,Who is the Senior Managing Director of CRYSTAL FINANCIAL LLC?,Christopher A. Arnold,2,0,0
+16,Who is the Chief Executive Officer of STANDARD DIVERSIFIED OPPORTUNITIES INC.?,Ian W. Estus,2,0,0
+16,Who is the President of STANDARD DIVERSIFIED OPPORTUNITIES INC.?,Ian W. Estus,2,0,0
+14,"Who is the Authorized Person of AG ENERGY FUNDING, LLC?",Todd Dittmann,2,0,0
+14,"Who is the Chief Financial Officer of PACIFIC DRILLING S.A.,?",James Harris,2,0,0
+28,"Who is the Chief Executive Officer of COLLEGIUM PHARMACEUTICAL, INC.?",Joseph Ciaffoni,2,0,0
+28,"Who is the President of COLLEGIUM PHARMACEUTICAL, INC.?",Joseph Ciaffoni,2,0,0
+28,Who is the CEO of BIOPHARMA CREDIT INVESTMENTS V %28MASTER%29 LP?,Pedro Gonzalez de Cosio,2,0,0
+28,Who is the Managing Member of BIOPHARMA CREDIT INVESTMENTS V %28MASTER%29 LP?,Pedro Gonzalez de Cosio,2,0,0
+28,Who is the CEO of Pharmakon Advisors LP?,Pedro Gonzalez de Cosio,2,0,0
+28,Who is the Managing Member of Pharmakon Advisors LP?,Pedro Gonzalez de Cosio,2,0,0
+28,Who is the CEO of PHARMAKON ADVISORS LP?,Pedro Gonzalez de Cosio,2,0,0
+28,Who is the Managing Member of PHARMAKON ADVISORS LP?,Pedro Gonzalez de Cosio,2,0,0
+129,"Who is the Authorized Officer of JPMORGAN CHASE BANK, N.A.?",Elizabeth A. Jordan,2,0,0
+129,Who is the Chief Financial Officer of GHM Acquisition Corp.?,Jeffrey Glajch,2,0,0
+129,Who is the Secretary of GHM Acquisition Corp.?,Jeffrey Glajch,2,0,0
+115,"Who is the Senior Vice President of BANK OF AMERICA, N.A.?",Adam Rose,2,0,0
+115,"Who is the Chief Legal Officer of HORIZON DISTRIBUTORS, INC.?",Jennifer M. Neil,2,0,0
+115,"Who is the Secretary of HORIZON DISTRIBUTORS, INC.?",Jennifer M. Neil,2,0,0
+115,"Who is the Vice President of HORIZON DISTRIBUTORS, INC.?",Jennifer M. Neil,2,0,0
+115,Who is the Assistant Secretary of POOL CORPORATION?,Melanie Housey Hart,2,0,0
+115,Who is the Chief Accounting Officer of POOL CORPORATION?,Melanie Housey Hart,2,0,0
+115,Who is the President of POOL CORPORATION?,Melanie Housey Hart,2,0,0
+115,Who is the Treasurer of POOL CORPORATION?,Melanie Housey Hart,2,0,0
+115,Who is the Chief Legal Officer of POOL CORPORATION?,Jennifer M. Neil,2,0,0
+115,Who is the Vice President of POOL CORPORATION?,Jennifer M. Neil,2,0,0
+101,"Who is the CEO of FOUNDATION HEALTHCARE, INC.?",Stanton M. Nelson,2,0,0
+101,Who is the Corporate Healthcare Banking %C2%96 Manager of LEGACYTEXAS BANK?,Spencer Sockwell,2,0,0
+101,"Who is the Senior Vice President of TEXAS CAPITAL BANK, NATIONAL ASSOCIATION?",Deborah T. Purvin,2,0,0
+100,"Who is the Senior Vice President of CITIZENS BANK, NATIONAL ASSOCIATION?",Darran Wee,2,0,0
+100,Who is the Vice President of COMERICA BANK?,Mark Strzynski,2,0,0
+100,"Who is the SVP, Global Relationship Manager of HSBC BANK USA?",Christopher M. Ames,2,0,0
+100,Who is the Vice President of SUNTRUST BANK?,Min Park,2,0,0
+100,Who is the Managing Director of BANK OF THE WEST?,Lee Merkle-Raymond,2,0,0
+100,Who is the Senior Vice President of BBVA COMPASS?,Tyler J. Mei,2,0,0
+100,Who is the Managing Director of EAST WEST BANK?,Alexis Coyle,2,0,0
+100,Who is the Relationship Manager of FIFTH THIRD BANK?,Thomas Avery,2,0,0
+100,Who is the Executive Director of JPMORGAN CHASE BANK?,Marshall Trenckmann,2,0,0
+100,Who is the Director of MUFG UNION BANK?,Teuta Ghilaga,2,0,0
+100,"Who is the Chief Financial Officer of OMNICELL, INC.?",Peter Kuipers,2,0,0
+100,"Who is the Executive Vice President of OMNICELL, INC.?",Peter Kuipers,2,0,0
+100,"Who is the VP%2FRelationship Manager of WELLS FARGO BANK, NATIONAL ASSOCIATION?",Ray Aguilar,2,0,0
+100,"Who is the Vice President%2FRelationship Manager of WELLS FARGO BANK, NATIONAL ASSOCIATION?",Ray Aguilar,2,0,0
+100,"Who is the Chief Legal and Administrative Officer of Omnicell, Inc.?",Dan Johnston,2,0,0
+100,"Who is the Vice President of Omnicell, Inc.?",Dan Johnston,2,0,0
+100,Who is the Esq. of Latham %26 Watkins LLP?,Sony Ben-Moshe,2,0,0
+114,"Who is the Authorized Signatory of Apollo Capital Management GP, LLC?",Maurice Amsellem,2,0,0
+114,Who is the Chief Financial Officer of SALESLINK MEXICO HOLDING CORP.?,Peter Feret,2,0,0
+128,"Who is the Senior Vice President of Bank of America, N.A.?",Timothy G. Holsapple,2,0,0
+128,"Who is the Chief Financial Officer of F5 NETWORKS, INC.?",Frank Pelzer,2,0,0
+128,Who is the Authorized Signatory of Royal Bank of Canada?,Nicholas Heslip,2,0,0
+128,Who is the Market Manager of Barclays Bank PLC?,Leni Preciado,2,0,0
+29,"Who is the Chief Financial Officer of Paychex, Inc.?",Efrain Rivera,2,0,0
+15,"Who is the CEO of 2477 DEERFIELD DRIVE, LLC,?",Shawn Matthews,2,0,0
+39,"Who is the Chief%09 %09 %09%09 %09%09 %09Finance Officer of NORTH JACKSON SPECIALTY STEEL,LLC?",Ross C. Wilkin,2,0,0
+39,"Who is the Treasurer of NORTH JACKSON SPECIALTY STEEL,LLC?",Ross C. Wilkin,2,0,0
+39,"Who is the Vice President of Finance of NORTH JACKSON SPECIALTY STEEL,LLC?",Ross C. Wilkin,2,0,0
+39,"Who is the Senior Vice President of BANK OF AMERICA, N.A.,?",James Foley,2,0,0
+39,"Who is the Vice President of PNC BANK, NATIONAL ASSOCIATION?",David B. Thayer,2,0,0
+11,Who is the Authorized Signatory of GOLDMAN SACHS BANK USA?,Robert Ehudin,2,0,0
+11,Who is the Treasurer of HONEYWELL INTERNATIONAL INC.?,John J. Tus,2,0,0
+110,"Who is the Executive Director of JPMORGAN CHASE BANK, N.A.?",Dave Katz,2,0,0
+110,"Who is the Authorized Signatory of MIZUHO BANK, LTD.?",Donna DeMagistris,2,0,0
+110,Who is the Vice President and Treasurer of MPLX GP LLC?,Peter Gilgen,2,0,0
+110,"Who is the SVP of PNC BANK, NATIONAL ASSOCIATION?",Stephen Monto,2,0,0
+110,Who is the Senior Vice President of U.S. Bank National Association?,John Prigge,2,0,0
+110,"Who is the Associate Director of UBS AG, Stamford Branch?",Houssem Daly,2,0,0
+104,"Who is the Senior Vice President of ASSOCIATED BANK, N.A.?",William W. Carroll,2,0,0
+104,"Who is the Executive Director of BANCO DE SABADELL, S.A., MIAMI BRANCH?",Maurici Llad%C3%B3,2,0,0
+104,Who is the Authorized Signatory of GOLDMAN SACHS BANK USA?,Ryan Durkin,2,0,0
+104,Who is the Managing Director of STANDARD CHARTERED BANK?,Steven Aloupis,2,0,0
+104,Who is the Chief Financial Officer of CONVERGYS CORPORATION?,Andre S. Valentine,2,0,0
+104,Who is the Treasurer of CONVERGYS CORPORATION?,David R. Wiedwald,2,0,0
+138,Who is the Vice President of U.S. BANK NATIONAL ASSOCIATION?,Christopher Harahan,2,0,0
+138,"Who is the Chief Financial Officer of Rexford Industrial Realty, L.P.?",Adeel Khan,2,0,0
+138,"Who is the Chief Financial Officer and Secretary of Rexford Industrial Realty, L.P.?",Adeel Khan,2,0,0
+138,"Who is the Secretary of Rexford Industrial Realty, L.P.?",Adeel Khan,2,0,0
+139,Who is the Managing Director %E2%80%93 TMT of FIFTH THIRD BANK?,Glen Mastey,2,0,0
+139,"Who is the Executive Director of JPMorgan Chase Bank, N.A.?",Bruce S. Borden,2,0,0
+139,"Who is the General Manager of Land Bank of Taiwan, New York Branch?",Arthur Chen,2,0,0
+139,"Who is the Assistant Vice President of PNC BANK, NATIONAL ASSOCIATION?",Christopher Keenan,2,0,0
+139,Who is the Chief Financial Officer of Crown Castle International Corp.?,Jay A. Brown,2,0,0
+139,Who is the Treasurer of Crown Castle International Corp.?,Jay A. Brown,2,0,0
+139,"Who is the Authorized Signatory of Morgan Stanley Senior Funding, Inc.?",Michael King,2,0,0
+105,Who is the Director of BISON ENTERTAINMENT AND MEDIA GROUP?,Xu Peixin,2,0,0
+105,"Who is the President, Digital Cinema, General Counsel and Secretary of CINEDIGM CORP?",Gary S. Loffredo,2,0,0
+111,Who is the Director of BARCLAYS BANK PLC?,Eoin Naughton,2,0,0
+111,"Who is the Executive Director of JPMORGAN CHASE BANK, N.A?",Hector J. Varona,2,0,0
+111,"Who is the Managing Director of WELLS FARGO BANK, NATIONAL ASSOCIATION?",William R. Goley,2,0,0
+111,Who is the Head of Financial Institutions Group of HSBC BANK BERMUDA LIMITED?,Louise Twiss West,2,0,0
+111,Who is the Head of Corporate Banking of HSBC BANK BERMUDA LIMITED?,Neville Grant,2,0,0
+10,"Who is the Associate of BANK OF AMERICA, N.A.?",Rodney Beeks,2,0,0
+10,"Who is the Manager, Agency of ROYAL BANK OF CANADA,?",Susan Khokher,2,0,0
+10,"Who is the Authorized Signatory of ROYAL BANK OF CANADA,?",Alex Figueroa,2,0,0
+10,"Who is the Chief Financial Officer of VICTORY CAPITAL HOLDINGS, INC.,?",Terence F. Sullivan,2,0,0
+10,"Who is the Treasuruer of VICTORY CAPITAL HOLDINGS, INC.,?",Terence F. Sullivan,2,0,0
+38,"Who is the Executive Director of JPMORGAN CHASE BANK, N.A.,?",Dave Katz,2,0,0
+38,Who is the Executive of THE STANDARD BANK OF SOUTH AFRICA LIMITED?,Pablo Gonzalez-Spahr,2,0,0
+38,"Who is the Senior Vice President of ANADARKO PETROLEUM CORPORATION,?",Albert L. Richey,2,0,0
+38,"Who is the Finance of ANADARKO PETROLEUM CORPORATION,?",Albert L. Richey,2,0,0
+38,"Who is the Treasurer of ANADARKO PETROLEUM CORPORATION,?",Albert L. Richey,2,0,0
+38,Who is the Managing Director of BNP Paribas?,Ann Rhoads,2,0,0
+38,Who is the Senior Vice President of DNB CAPITAL LLC?,Joe Hykle,2,0,0
+38,Who is the Managing DirectorCapital Markets of Standard Chartered Bank?,Steven Aloupis,2,0,0
+38,"Who is the Assistant Vice President of WELLS FARGO BANK, NATIONAL  ASSOCIATION?",Borden Tennant,2,0,0
+38,Who is the Associate Director of UBS AG?,Houssem Daly,2,0,0
+12,"Who is the Executive Director of JPMORGAN CHASE BANK, N.A.?",Dawn Lee Lum,2,0,0
+12,Who is the Senior Director of NATIONAL WESTMINSTER BANK PLC?,Graham Gibson,2,0,0
+12,Who is the Vice President of U.S. BANK NATIONAL ASSOCIATION?,Conan Schleicher,2,0,0
+12,"Who is the FVP %C2%96 Head of Credit of INTESA SANPAOLO S.P.A., NEW YORK BRANCH,?",Francesco Di Mario,2,0,0
+12,"Who is the Relationship Manager of INTESA SANPAOLO S.P.A., NEW YORK BRANCH,?",Lorenzo Rodino,2,0,0
+12,"Who is the Global Treasurer of WALGREENS BOOTS ALLIANCE, INC.?",Aidan Clare,2,0,0
+12,"Who is the Senior Vice President of WALGREENS BOOTS ALLIANCE, INC.?",Aidan Clare,2,0,0
+12,"Who is the Executive Vice President, of WALGREENS BOOTS ALLIANCE, INC.?",Marco Pagni%3B,2,0,0
+12,"Who is the General Counsel of WALGREENS BOOTS ALLIANCE, INC.?",Marco Pagni%3B,2,0,0
+12,"Who is the Global Chief Administrative Officer of WALGREENS BOOTS ALLIANCE, INC.?",Marco Pagni%3B,2,0,0
+12,"Who is the Senior Manager, Global Treasury of WALGREENS BOOTS ALLIANCE, INC.?",Sara La Berg,2,0,0
+107,Who is the Director of BARCLAYS BANK PLC?,Ritam Bhalla,2,0,0
+107,Who is the Assistant Treasurer of OPEN TEXT ULC?,Paul McFeeters,2,0,0
+107,Who is the Chief Administrative Officer of OPEN TEXT ULC?,Paul McFeeters,2,0,0
+107,Who is the Chief Executive Officer of OPEN TEXT ULC?,Paul McFeeters,2,0,0
+107,Who is the Chief Financial Officer of OPEN TEXT ULC?,Paul McFeeters,2,0,0
+107,Who is the President of OPEN TEXT ULC?,Paul McFeeters,2,0,0
+107,Who is the Treasurer of OPEN TEXT ULC?,Paul McFeeters,2,0,0
+107,Who is the Vice President of OPEN TEXT ULC?,Paul McFeeters,2,0,0
+107,"Who is the Assistant Treasurer of GXS INTERNATIONAL, INC.?",Paul McFeeters,2,0,0
+107,"Who is the Chief Administrative Officer of GXS INTERNATIONAL, INC.?",Paul McFeeters,2,0,0
+107,"Who is the Chief Executive Officer of GXS INTERNATIONAL, INC.?",Paul McFeeters,2,0,0
+107,"Who is the Chief Financial Officer of GXS INTERNATIONAL, INC.?",Paul McFeeters,2,0,0
+107,"Who is the President of GXS INTERNATIONAL, INC.?",Paul McFeeters,2,0,0
+107,"Who is the Treasurer of GXS INTERNATIONAL, INC.?",Paul McFeeters,2,0,0
+107,"Who is the Vice President of GXS INTERNATIONAL, INC.?",Paul McFeeters,2,0,0
+113,"Who is the Senior Vice President of BANK OF AMERICA, N.A.,?",Jonathan M. Phillips,2,0,0
+113,Who is the Manager of HURCO B.V.?,Sonja K. McClelland,2,0,0
+113,Who is the Managing Director A and Authorized Representative of HURCO B.V.?,Sonja K. McClelland,2,0,0
+113,Who is the Secretary%2FTreasurer of HURCO B.V.?,Sonja K. McClelland,2,0,0
+113,"Who is the Chief Executive Officer of HURCO COMPANIES, INC.?",Michael Doar,2,0,0
+112,"Who is the Senior Vice President of BANK OF AMERICA, N.A.?",Robert C. Megan,2,0,0
+112,"Who is the Authorized Officer of JPMORGAN CHASE BANK, N.A.?",Amy U. Lessner,2,0,0
+112,"Who is the Assistant Vice President of CITIZENS BANK, N.A.,?",Sean Riordan,2,0,0
+112,Who is the Chief Financial Officer of FORRESTER RESEARCH INC.?,Michael A. Doyle,2,0,0
+106,"Who is the Associate Director of UBS AG, STAMFORD BRANCH?",Joselin Fernandes,2,0,0
+106,"Who is the Executive Vice President of DYNEGY GAS INVESTMENTS HOLDINGS, LLC?",Clint C. Freeland,2,0,0
+106,"Who is the Chief Financial Officer of DYNEGY GAS INVESTMENTS HOLDINGS, LLC?",Clint C. Freeland,2,0,0
+106,Who is the Director of BARCLAYS BANK PLC?,Kirkwood Roland,2,0,0
+106,"Who is the Manager, Agency of ROYAL BANK OF CANADA?",Ann Hurley,2,0,0
+13,"Who is the Chief Financial Officer of CVR ENERGY, INC?",Tracy D. Jackson,2,0,0
+13,"Who is the Executive Vice President of CVR ENERGY, INC?",Tracy D. Jackson,2,0,0
+60,"Who is the Executive Director of JPMorgan Chase Bank, N.A?",Anthony Galea,2,0,0
+60,"Who is the Senior Vice President of LEIDOS HOLDINGS, INC.?",Marc H. Crown,2,0,0
+60,"Who is the Treasurer of LEIDOS HOLDINGS, INC.?",Marc H. Crown,2,0,0
+60,Who is the Assistant Vice President of Regions Bank?,Stephanie Herndon,2,0,0
+60,Who is the Assistant Vice President of Bank of the West?,Caroline Smith,2,0,0
+74,"Who is the Executive Vice President and Secretary of GTT COMMUNICATIONS, INC?",Christopher T. McKee,2,0,0
+74,Who is the Senior Vice President of KEYBANK NATIONAL ASSOCIATION?,Jeff Kalinowski,2,0,0
+48,"Who is the Vice President-Finance of ENBRIDGE ENERGY MANAGEMENT, L.L.C.?",Stephen J. Neyland,2,0,0
+48,"Who is the Corporate Secretary of ENBRIDGE ENERGY PARTNERS, L.P.,?",Chris Kaitson,2,0,0
+48,"Who is the Vice President %E2%80%93 Law %26 Assistant of ENBRIDGE ENERGY PARTNERS, L.P.,?",Chris Kaitson,2,0,0
+48,"Who is the Vice President %E2%80%93 US Law of ENBRIDGE ENERGY PARTNERS, L.P.,?",Chris Kaitson,2,0,0
+48,"Who is the Treasurer of ENBRIDGE ENERGY PARTNERS, L.P.,?",Jonathan Rose,2,0,0
+149,"Who is the Managing Director of FEAC AGENT, LLC?",Michelle Handy,2,0,0
+149,"Who is the Executive Vice President of XCEL BRANDS, INC.?",Seth Burroughs,2,0,0
+149,"Who is the Secretary of XCEL BRANDS, INC.?",Seth Burroughs,2,0,0
+161,"Who is the Chief Financial Officer of MODIV OPERATING PARTNERSHIP, LP?",Raymond J. Pacini,2,0,0
+161,Who is the Corporate Banker of SYNOVUS BANK?,Zachary Braun,2,0,0
+160,"Who is the Authorized Officer of JPMORGAN CHASE BANK, N.A.?",Helen D. Davis,2,0,0
+160,"Who is the Authorized Signatory of MORGAN STANLEY BANK, N.A.?",Michael King,2,0,0
+160,"Who is the Chief Financial Officer of NUANCE COMMUNICATIONS, INC.?",Daniel D. Tempesta,2,0,0
+148,Who is the Chief Financial Officer of JACOBS ENGINEERING GROUP INC.?,Kevin Berryman,2,0,0
+148,Who is the Executive Director of JPMORGAN CHASE BANK?,Peter S. Preoun,2,0,0
+148,Who is the Authorized Signatory of MORGAN STANLEY BANK?,Michael King,2,0,0
+49,Who is the Chief Financial Officer of DBG HOLDINGS SUBSIDIARY INC?,Hamish Sandhu,2,0,0
+49,"Who is the Chief Executive Officer of HC ACQUISITION HOLDINGS, INC?",Peter Kim,2,0,0
+49,"Who is the Chief Executive of MARCO BRUNELLI IP, LLC?",Michael Buckley,2,0,0
+49,"Who is the Chief Executive Officer of MARCO BRUNELLI IP, LLC?",Michael Buckley,2,0,0
+49,Who is the Managing Director of WEST VIRGINIA DIRECT LENDING LLC?,Suzanne Grosso,2,0,0
+75,"Who is the Chief Financial Officer of ASPEN TECHNOLOGY, INC?",Karl Johnsen,2,0,0
+75,Who is the Vice President of JPMORGAN CHASE BANK?,Justin B. Kelley,2,0,0
+61,"Who is the Director of CITIBANK, N.A.?",Ming K Chu,2,0,0
+61,"Who is the VICE PRESIDENT of JPMORGAN CHASE BANK, N.A.?",MARIA RIAZ,2,0,0
+61,Who is the Managing Director of BNP PARIBAS?,Gregory Paul,2,0,0
+61,"Who is the Treasurer of CITRIX SYSTEMS, INC.?",Brian L. Shytle,2,0,0
+61,"Who is the Vice President, Tax %26 Treasury of CITRIX SYSTEMS, INC.?",Brian L. Shytle,2,0,0
+61,"Who is the Director of BANK OF AMERICA, N.A.?",Jim Cahow,2,0,0
+77,Who is the SVP C%26I Banking of CADENCE BANK?,Teresa Stinson,2,0,0
+77,Who is the Authorized Signatory of GOLDMAN SACHS BANK USA?,Rebecca Kratz,2,0,0
+77,"Who is the Administrative Officer of WELLCARE HEALTH PLANS, INC?",Blair W. Todt,2,0,0
+77,"Who is the Chief Legal of WELLCARE HEALTH PLANS, INC?",Blair W. Todt,2,0,0
+77,"Who is the Secretary of WELLCARE HEALTH PLANS, INC?",Blair W. Todt,2,0,0
+77,"Who is the Senior Vice President of WELLCARE HEALTH PLANS, INC?",Blair W. Todt,2,0,0
+77,Who is the Executive Director of JPMORGAN CHASE BANK?,Hector J. Varona,2,0,0
+88,Who is the Director of MUFG UNION BANK?,Westley White,2,0,0
+88,"Who is the Chief Financial Officer of j2 CLOUD SERVICES, LLC?",R. Scott Turicchi,2,0,0
+88,"Who is the President of j2 CLOUD SERVICES, LLC?",R. Scott Turicchi,2,0,0
+162,Who is the Class A Manager of %09NABORS GLOBAL HOLDINGS LIMITED?,Henricus Reindert Petrus Pollmann,2,0,0
+162,"Who is the Director of %09WELLS FARGO BANK, N.A?",Corbin M. Womac,2,0,0
+162,Who is the Authorized Signatory of GOLDMAN SACHS BANK USA?,Thomas Manning,2,0,0
+162,"Who is the Senior Vice President of HSBC BANK USA, N.A?",Jay Fort,2,0,0
+162,"Who is the Corporate Secretary of NABORS INDUSTRIES LTD.,?",Mark D. Andrews,2,0,0
+162,"Who is the President of NABORS INDUSTRIES LTD.,?",Mark D. Andrews,2,0,0
+162,"Who is the President of NABORS ALASKA DRILLING, INC.?",Michael J. Niedermaier,2,0,0
+162,"Who is the Chief Compliance Officer of NABORS ALASKA DRILLING, INC.?",Michael Rasmuson,2,0,0
+162,"Who is the General Counsel of NABORS ALASKA DRILLING, INC.?",Michael Rasmuson,2,0,0
+162,"Who is the Senior Vice President of NABORS ALASKA DRILLING, INC.?",Michael Rasmuson,2,0,0
+163,"Who is the Chief Financial Officer of COMMVAULT SYSTEMS, INC.?",Brian M. Carolan,2,0,0
+163,"Who is the Vice President of JPMORGAN CHASE BANK, N.A?",David Tepper,2,0,0
+89,"Who is the Managing Director of AGILITI SURGICAL, INC.?",Charles P. Holden,2,0,0
+89,"Who is the General Counsel of AGILITI HEALTH, INC.?",Lee Neumann,2,0,0
+89,"Who is the SVP of AGILITI HEALTH, INC.?",Lee Neumann,2,0,0
+89,"Who is the Treasurer of AGILITI HEALTH, INC.?",Lee Neumann,2,0,0
+89,"Who is the VP Finance of AGILITI HEALTH, INC.?",Lee Neumann,2,0,0
+89,Who is the Managing Director of JPMORGAN CHASE BANK?,Sabir Hashmy,2,0,0
+62,"Who is the Chief Financial Officer of MICHIGAN ELECTRIC TRANSMISSION COMPANY, LLC?",Gretchen L. Holloway,2,0,0
+62,"Who is the Senior Vice President of MICHIGAN ELECTRIC TRANSMISSION COMPANY, LLC?",Gretchen L. Holloway,2,0,0
+62,Who is the Managing Director of TD SECURITIES %28USA%29 LLC?,Pradeep Mehra,2,0,0
+76,Who is the Chief  Financial Officer of MICROSEMI CORPORATION?,John W. Hohener,2,0,0
+76,Who is the Executive Vice President of MICROSEMI CORPORATION?,John W. Hohener,2,0,0
+76,Who is the Secretary of MICROSEMI CORPORATION?,John W. Hohener,2,0,0
+76,Who is the Treasurer of MICROSEMI CORPORATION?,John W. Hohener,2,0,0
+76,"Who is the Authorized Signatory of MORGAN STANLEY SENIOR FUNDING, INC?",Jonathon Rauen,2,0,0
+72,Who is the Authorized Signatory of GOLDMAN SACHS BANK USA?,Ryan Durkin,2,0,0
+72,"Who is the Managing Director of WELLS FARGO SECURITIES, LLC?",Kay Reedy,2,0,0
+72,Who is the Vice President of CITIBANK?,Carolyn Kee,2,0,0
+72,Who is the Assistant Vice President of CITIGROUP GLOBAL MARKETS INC?,John Summers,2,0,0
+72,"Who is the Treasurer of STANLEY BLACK %26 DECKER, INC?",Craig A. Douglas,2,0,0
+72,"Who is the Vice President of STANLEY BLACK %26 DECKER, INC?",Craig A. Douglas,2,0,0
+66,"Who is the Director of Bank of America, N.A.?",Ronnie Glenn,2,0,0
+66,"Who is the SVP of Bank of America, N.A.?",Ronnie Glenn,2,0,0
+66,"Who is the Duly Authorized Signatory of CAPITAL ONE, NATIONAL ASSOCIATION?",Karen M. Dahlquist,2,0,0
+66,Who is the Authorized Signer of Citibank N.A.?,James Riley,2,0,0
+66,"Who is the CFO of ICU Medical, Inc.?",Brian M. Bonnell,2,0,0
+66,"Who is the Treasurer of ICU Medical, Inc.?",Brian M. Bonnell,2,0,0
+66,"Who is the Authorized Officer of JPMORGAN CHASE BANK, N.A.?",Erik Barragan,2,0,0
+66,"Who is the CFO of EXC HOLDING CORP.TANGENT MEDICAL TECHNOLOGIES, INC.EXCELSIOR MEDICAL CORPORATIONICU WORLD, INC.?",Brian M. Bonnell,2,0,0
+66,"Who is the Treasurer of EXC HOLDING CORP.TANGENT MEDICAL TECHNOLOGIES, INC.EXCELSIOR MEDICAL CORPORATIONICU WORLD, INC.?",Brian M. Bonnell,2,0,0
+99,"Who is the Chief Manager of CBOCS PENNSYLVANIA, LLC?",Nick Flanagan,2,0,0
+99,"Who is the President of CBOCS PENNSYLVANIA, LLC?",Nick Flanagan,2,0,0
+99,Who is the Executive Director of CO%C3%96PERATIEVE CENTRALE RAIFFEISEN-BOERENLEENBANK B.A. %C2%93RABOBANK?,Michael T. Harder,2,0,0
+99,Who is the VP of FIRST TENNESSEE BANK NATIONAL ASSOCIATION?,Mac Atsup,2,0,0
+99,"Who is the SENIOR VICE PRESIDENT of PNC BANK, NATIONAL ASSOCIATION?",JOHN THURMAN,2,0,0
+99,"Who is the Assistant Secretary of ROCKING CHAIR, INC.?",Elizabeth Wilson,2,0,0
+99,"Who is the Authorized Signatory of THE BANK OF TOKYO-MITSUBISHI UFJ, LTD.?",Christine Howatt,2,0,0
+99,Who is the Manager %26 Vice President of CB MUSIC LLC?,Chris Ciavarra,2,0,0
+99,"Who is the Senior Vice President %26 Chief Financial Officer of CRACKER BARREL OLD COUNTRY STORE, INC?",Lawrence E. Hyatt,2,0,0
+99,"Who is the Treasurer of CBOCS PROPERTIES, INC.?",Doug Couvillion,2,0,0
+167,"Who is the Vice President of POWELL INDUSTRIES INTERNATIONAL, INC.?",Don R. Madison,2,0,0
+167,"Who is the Vice President, of POWELL INDUSTRIES INTERNATIONAL, INC.?",Don R. Madison,2,0,0
+167,"Who is the Secretary of POWELL INDUSTRIES INTERNATIONAL, INC.?",Don R. Madison,2,0,0
+167,"Who is the Treasurer of POWELL INDUSTRIES INTERNATIONAL, INC.?",Don R. Madison,2,0,0
+167,"Who is the Senior Vice President of BANK OF AMERICA, N.A.,?",Shelley A. McGregor,2,0,0
+166,Who is the Head of Loan Syndications of AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED?,Carl Roberts,2,0,0
+166,Who is the Assistant Vice Presiden of BARCLAYS BANK PLC?,Mark Pope,2,0,0
+166,"Who is the Director of CITIBANK, N.A.?",Siddarth Bansal,2,0,0
+166,Who is the Assistant General Manager of ICICI Bank Limited?,Sanjay Jha,2,0,0
+166,Who is the Attorney of NOVELIS MEA LTD?,Chirag Shah,2,0,0
+166,Who is the Attorney-in-Fact of NOVELIS MEA LTD?,Chirag Shah,2,0,0
+166,Who is the Authorized Signatory of NOVELIS MEA LTD?,Chirag Shah,2,0,0
+166,Who is the Person Authorized by virtue of Power of Attorney of NOVELIS MEA LTD?,Chirag Shah,2,0,0
+166,Who is the SVP %28Credit Administration%29 of STATE BANK OF INDIA?,R. Srinivasa Sekaran,2,0,0
+166,"Who is the General Manager of THE BANK OF TOKYO-MITSUBISHI UFJ, LTD.?",Suguru Hattori,2,0,0
+166,Who is the Chief Executive of AXIS BANK LIMITED?,Rachit Bhatia,2,0,0
+166,Who is the Head - CBO of AXIS BANK LIMITED?,Sandeep Patnaik,2,0,0
+166,Who is the Chief Manager of BANK OF BARODA?,Sudip Kumar Ghatak,2,0,0
+166,Who is the Senior RM %E2%80%93 Trade %26 Export Finance of ICICI BANK UK PLC?,Nishant Kumar,2,0,0
+166,Who is the Head- Corporate %26 Investment Banking of ICICI BANK UK PLC?,Vikashh Mehta,2,0,0
+166,"Who is the Director, Credit Risk Management of ING BANK N.V.?",Lisa Kwok,2,0,0
+166,"Who is the Managing Director, Head of Credit and Trading Risk of ING BANK N.V.?",Richard Cox,2,0,0
+166,Who is the Joint Managing Director of KOTAK MAHINDRA BANK LIMITED?,Dipak Gupta,2,0,0
+166,Who is the Senior Executive Vice President of KOTAK MAHINDRA BANK LIMITED?,Rajeev Mohan,2,0,0
+166,Who is the Sr. Legal Manager of NOVELIS ALUMINIUM HOLDING UNLIMITED COMPANY?,Shannon Curran,2,0,0
+166,"Who is the Manager, CRC of STANDARD CHARTERED BANK?",James Perkins,2,0,0
+166,Who is the Head CRC of STANDARD CHARTERED BANK?,Simon Williams,2,0,0
+166,Who is the Legal Counsel of STANDARD CHARTERED BANK?,Valdeep Singh,2,0,0
+67,Who is the CEO of BIOPHARMA CREDIT PLC?,Pedro Gonzalez de Cosio,2,0,0
+67,Who is the Managing Member of BIOPHARMA CREDIT PLC?,Pedro Gonzalez de Cosio,2,0,0
+67,Who is the President of INTEKRIN THERAPEUTICS INC.?,Michael Fleming,2,0,0
+67,"Who is the CEO of COHERUS BIOSCIENCES, INC.?",Dennis M. Lanfear,2,0,0
+67,Who is the CEO of Pharmakon Advisors LP?,Pedro Gonzalez de Cosio,2,0,0
+67,Who is the Managing Member of Pharmakon Advisors LP?,Pedro Gonzalez de Cosio,2,0,0
+73,Who is the Assistant Vice President of BARCLAYS BANK PLC?,Christopher M. Aitkin,2,0,0
+73,Who is the Managing Director of CAPITAL ONE?,"Thomas C. King, Jr.",2,0,0
+73,"Who is the Chief Financial Officer of NEXSTAR MEDIA GROUP, INC.?",Thomas E. Carter,2,0,0
+73,"Who is the Senior Vice President of Raymond James Bank, N.A.?",Michael Pelletier,2,0,0
+73,"Who is the Director of WELLS FARGO SECURITIES, LLC?",Lindsey McGraw,2,0,0
+9,"Who is the Associate of CREDIT SUISSE AG, CAYMAN ISLANDS BRANCH?",Wei-Jen Yuan,2,0,0
+9,"Who is the Vice President of CITIBANK, N.A.?",Raymond G. Dunning,2,0,0
+9,Who is the Chief Financial Officer of MIDDLETOWN COGENERATION COMPANY LLC?,Mark E. Newman,2,0,0
+9,Who is the Senior Vice President of MIDDLETOWN COGENERATION COMPANY LLC?,Mark E. Newman,2,0,0
+9,Who is the Treasurer of MIDDLETOWN COGENERATION COMPANY LLC?,Mark E. Newman,2,0,0
+9,Who is the Authorised Signatory of THE ROYAL BANK OF SCOTLAND plc?,Brian D. Williams,2,0,0
+9,"Who is the Executive Director of JPMORGAN CHASE BANK, N.A.?",Peter Predun,2,0,0
+9,"Who is the Chief Financial Officer of SUNCOKE ENERGY PARTNERS, L.P.?",Mark E. Newman,2,0,0
+9,"Who is the Treasurer of SUNCOKE ENERGY PARTNERS, L.P.?",Mark E. Newman,2,0,0
+65,Who is the SVP of TRUIST BANK?,Frank McCormack,2,0,0
+65,"Who is the Managing Director of BANK OF AMERICA, N.A.?",Brian D. Corum,2,0,0
+65,"Who is the Director of CITIZENS BANK, N.A.?",Sean McWhinnie,2,0,0
+65,Who is the Chief Executive Officer of MOHEGAN TRIBAL GAMING AUTHORITY?,Mario C. Kontomerkos,2,0,0
+71,Who is the Vice President of BANK OF AMERICA?,Henry Pennell,2,0,0
+71,Who is the Sr. Vice President of BANK OF AMERICA MERRILL LYNCH?,Ryan Maples,2,0,0
+71,"Who is the Chief Financial Officer of TOTAL SYSTEM SERVICES, INC?",Paul M. Todd,2,0,0
+71,"Who is the Senior Executive Vice President of TOTAL SYSTEM SERVICES, INC?",Paul M. Todd,2,0,0
+164,Who is the Loan Manager of ARVEST BANK?,Richard Winesburg,2,0,0
+164,Who is the Relationship Manager of COMERICA BANK?,Richard C. Griffin Jr.,2,0,0
+164,Who is the Director of FIFTH THIRD BANK?,Hideo Core,2,0,0
+164,"Who is the CFO of JACK HENRY %26 ASSOCIATES, INC.?",Kevin Williams,2,0,0
+164,Who is the Officer of REGIONS BANK?,Tyler Tirpak,2,0,0
+170,"Who is the Executive Director of COOPERATIEVE CENTRALE RAIFFEISEN-BOERENLEENBANK B.A., %E2%80%9CRABOBANK NEDERLAND%E2%80%9D NEW YORK BRANCH?",Gillian Dickson,2,0,0
+170,Who is the treasurer of STARBUCKS CORPORATION?,Richard Lautch,2,0,0
+170,Who is the vice president of STARBUCKS CORPORATION?,Richard Lautch,2,0,0
+170,Who is the Assistant Vice President of U.S. BANK NATIONAL ASSOCIATION?,Mark D. Rodgers,2,0,0
+158,"Who is the SVP of BANK OF AMERICA, N.A.?",Adam Rose,2,0,0
+158,"Who is the Chief Financial Officer of MOBILE POSSE, INC.?",Barrett Garrison,2,0,0
+159,Who is the Authorized Signatory of JPMORGAN CHASE BANK?,James Greenfield,2,0,0
+159,"Who is the Chief Accounting Officer of MSC INCOME FUND, INC?",Cory E. Gilbert,2,0,0
+159,Who is the Vice President of U.S. BANK NATIONAL ASSOCIATION?,Jon C. Warn,2,0,0
+165,Who is the Assistant Vice President of BARCLAYS BANK PLC?,Christopher Aitkin,2,0,0
+165,"Who is the Senior Vice President of HSBC BANK USA, N.A?",Fik Durmus,2,0,0
+165,"Who is the Executive Director of JPMORGAN CHASE BANK, N.A?",Tony Young,2,0,0
+165,"Who is the Corporate Secretary of CONAGRA BRANDS, INC?",Colleen Batcheler,2,0,0
+165,"Who is the General Counsel of CONAGRA BRANDS, INC?",Colleen Batcheler,2,0,0
+165,"Who is the Investor Relations Officer of CONAGRA BRANDS, INC?",Johan Nystedt,2,0,0
+165,"Who is the Treasurer of CONAGRA BRANDS, INC?",Johan Nystedt,2,0,0
+165,"Who is the Vice President of CONAGRA BRANDS, INC?",Johan Nystedt,2,0,0
+165,"Who is the Managing Director of COOPERATIEVE RABOBANK U.A., NEW YORK BRANCH?",Peter Duncan,2,0,0
+70,Who is the Chief Financial Officer of GREENBACKER RENEWABLE ENERGY COMPANY LLC?,Richard Butt,2,0,0
+70,Who is the VICE PRESIDENT of FIFTH THIRD BANK?,ERIC COHEN,2,0,0
+64,"Who is the Chief Capital Officer of Affirm, Inc.?",Geoff Kott,2,0,0
+58,"Who is the Managing Partner of HCR COLLATERAL MANAGEMENT, LLC?",Clarke B. Futch,2,0,0
+58,Who is the Chief Executive Officer of COHERUS INTERMEDIATE CORP.?,Dennis M. Lanfear,2,0,0
+41,"Who is the General Counsel of TRC COMPANIES, INC?",Martin H. Dodd,2,0,0
+41,"Who is the Senior Vice President of TRC COMPANIES, INC?",Martin H. Dodd,2,0,0
+41,Who is the Director of BMO Harris Bank N.A.?,John Dillon,2,0,0
+41,Who is the Senior Banker of KeyBank National Association?,J.E. Hall,2,0,0
+7,Who is the Manager of MUTUAL OF OMAHA BANK?,George McKean,2,0,0
+7,"Who is the CEO of SAMSON OIL AND GAS USA, INC?",Terry Barr,2,0,0
+7,"Who is the President of SAMSON OIL AND GAS USA, INC?",Terry Barr,2,0,0
+7,"Who is the Treasurer of SAMSON OIL AND GAS USA, INC?",Terry Barr,2,0,0
+55,"Who is the Chief of K. HOVNANIAN ENTERPRISES, INC.?",J. Larry Sorsby,2,0,0
+55,"Who is the Executive Vice President of K. HOVNANIAN ENTERPRISES, INC.?",J. Larry Sorsby,2,0,0
+55,"Who is the Banking Officer of WILMINGTON TRUST, NATIONALASSOCIATION?",Cora Holland-Koller,2,0,0
+69,Who is the Vice President of KEYBANK NATIONAL ASSOCIATION?,Christopher T. Neil,2,0,0
+69,"Who is the Chief Executive Officer of MVP ACQUISITIONS, LLC?",Michael Shustek,2,0,0
+69,"Who is the Manager of MVP ACQUISITIONS, LLC?",Michael Shustek,2,0,0
+82,Who is the Officer of THE NORTHERN TRUST COMPANY?,Charles R. Davis,2,0,0
+82,"Who is the Attorney-in-Fact of PERKINELMER HEALTH SCIENCES, INC?",John L. Healy,2,0,0
+82,"Who is the Secretary of PERKINELMER HEALTH SCIENCES, INC?",John L. Healy,2,0,0
+82,"Who is the Vice President of PERKINELMER HEALTH SCIENCES, INC?",John L. Healy,2,0,0
+82,"Who is the Treasurer of PERKINELMER, INC?",David C. Francisco,2,0,0
+82,"Who is the Vice President of PERKINELMER, INC?",David C. Francisco,2,0,0
+168,"Who is the Director of BANK OF AMERICA, N.A.?",Michael Contreras,2,0,0
+168,"Who is the Treasurer of STANLEY BLACK %26 DECKER, INC.?",Robert T. Paternostro,2,0,0
+168,"Who is the Vice President of STANLEY BLACK %26 DECKER, INC.?",Robert T. Paternostro,2,0,0
+168,"Who is the Vice President of CITIBANK, N.A.,?",Carolyn A. Kee,2,0,0
+96,Who is the Director of BANK OF THE WEST?,Kevin R. Gillette,2,0,0
+96,"Who is the SVP of BOKF, NA DBA BANK OF ALBUQUERQUE?",John M. Valentine,2,0,0
+96,Who is the Vice President of COMMUNITY BANK OF SANTA FE?,Fernando Baca,2,0,0
+96,Who is the Chief Lending Officer of FOUR CORNERS COMMUNITY BANK?,Roger LaHart,2,0,0
+96,Who is the Assistant Vice President of SOUTHWEST CAPITAL BANK?,Emilio Vallejos,2,0,0
+96,Who is the AVP %26 Portfolio Mgr. of U.S. BANK NATIONAL ASSOCIATION?,Holland H. Williams,2,0,0
+96,Who is the Commercial Loan Officer of WASHINGTON FEDERAL BANK?,Joshua L. Smith,2,0,0
+140,Who is the CEO of FORTRESS TRANSPORTATION AND INFRASTRUCTURE INVESTORS LLC?,Joseph P. Adams Jr.,2,0,0
+140,"Who is the Authorized Signatory of MORGAN STANLEY SENIOR FUNDING, INC.?",William Graham,2,0,0
+140,Who is the Authorized Signatory of WWTAI AIROPCO MALTA LTD.?,Demetrios Tserpelis,2,0,0
+154,"Who is the Chief Financial Officer of EDGE SYSTEMS INTERMEDIATE, LLC?",Liyuan Woo,2,0,0
+154,"Who is the Authorized Officer of JPMORGAN CHASE BANK, N.A.?",Erica Cross,2,0,0
+154,"Who is the Authorized Officer of JPMorgan Chase Bank, N.A.?",Erica Cross,2,0,0
+155,"Who is the Chief Operating Officer of Boxlight, Inc.?",Hank Nance,2,0,0
+155,Who is the Chief Executive Officer of EOSEDU LLC?,Michael R. Pope,2,0,0
+155,"Who is the Manager of FrontRow Calypso, LLC?",Jens Holstebro,2,0,0
+155,Who is the Authorized Signatory of WHITEHAWK FINANCE LLC?,Harry Chung,2,0,0
+155,Who is the Chief Executive Officer of Boxlight Corporation?,Michael Pope,2,0,0
+155,Who is the directors of Boxlight Corporation?,Michael Pope,2,0,0
+155,Who is the Chief Financial Officer of Sahara Holdings Limited?,Patrick Foley,2,0,0
+155,Who is the Director of Sahara Holdings Limited?,Patrick Foley,2,0,0
+155,Who is the Statutory Director of Sahara Holdings Limited?,Patrick Foley,2,0,0
+155,Who is the Chief Executive Officer of Sahara Holdings Limited?,Michael Pope,2,0,0
+141,Who is the Treasurer of SOUTH JERSEY GAS COMPANY?,Ann T. Anthony,2,0,0
+141,"Who is the Senior Vice President of TD BANK, N.A.?",Vijay Prasad,2,0,0
+169,"Who is the Chief Accounting Officer of CHIQUITA BRANDS INTERNATIONAL, INC.?",Joseph B. Johnson,2,0,0
+169,"Who is the Controller of CHIQUITA BRANDS INTERNATIONAL, INC.?",Joseph B. Johnson,2,0,0
+169,"Who is the Treasurer of CHIQUITA BRANDS INTERNATIONAL, INC.?",Joseph B. Johnson,2,0,0
+169,"Who is the Vice President of CHIQUITA BRANDS INTERNATIONAL, INC.?",Joseph B. Johnson,2,0,0
+169,"Who is the Vice President of CO%C3%96PERATIEVE CENTRALE RAIFFEISEN %E2%80%93 BOERENLEENBANK B.A.,%22RABOBANK NEDERLAND%22, NEW YORK BRANCH?",Jeff Bliss,2,0,0
+169,"Who is the Executive Director of CO%C3%96PERATIEVE CENTRALE RAIFFEISEN %E2%80%93 BOERENLEENBANK B.A.,%22RABOBANK NEDERLAND%22, NEW YORK BRANCH?",Timothy J. Devane,2,0,0
+97,Who is the Authorized Signatory of GENERAL ELECTRIC CAPITAL CORPORATION?,Dague Retzlaff,2,0,0
+97,Who is the Vice President of GENERAL ELECTRIC CAPITAL CORPORATION?,Dague Retzlaff,2,0,0
+97,"Who is the Chief Operating Officer of Summit Healthcare REIT, Inc?",Kent Eikanas,2,0,0
+97,Who is the Chief Counsel- %09 %09HFS Real Estate of General Electric Capital Corporation?,Diana Pennington,2,0,0
+97,Who is the Managing Director of General Electric Capital Corporation?,Jeffrey M. Muchmore,2,0,0
+83,"Who is the Vice President %26 General Manager of HUA NAN COMMERCIAL BANK, LTD?",Shu-Fei %28Sophia%29 Lin,2,0,0
+83,Who is the Credit Executive of JPMORGAN CHASE BANK?,Keith Winzenried,2,0,0
+83,"Who is the VP %26 Deputy General Manager of TAIPEI FUBON COMMERCIAL BANK CO., LTD?",Robin S. Wu,2,0,0
+83,Who is the SVP and Branch Manager of BANK OF CHINA?,Haiyong Yang,2,0,0
+83,Who is the Director and Senior Relationship Manager of BANK OF THE WEST?,Cecile Segovia,2,0,0
+83,"Who is the SVP %26 Branch Manager of CTBC BANK CO., LTD?",Ralph Wu,2,0,0
+83,Who is the General Manager of DBS BANK LTD?,James McWalters,2,0,0
+83,Who is the S.V.P. %26 General Manager of LAND BANK OF TAIWANLOS ANGELES BRANCH?,Henry C. R. Leu,2,0,0
+83,"Who is the SVP %26 General Manager of MEGA INTERNATIONAL COMMERCIAL BANK CO., LTD. LOS ANGELES BRANCH?",Hsiao-Ho Huang,2,0,0
+83,Who is the Assistant Vice President of PNC BANK NATIONAL ASSOCIATION?,Matthew D. Meister,2,0,0
+83,Who is the EVP %C2%96 Corporate %26 Commercial Banking of SABADELL UNITED BANK?,Maurici Llad%C3%B3,2,0,0
+83,"Who is the VP %26 General Manager of TAIWAN COOPERATIVE BANK, LTD?",Li-Hua Huang,2,0,0
+83,Who is the VP Credit and Documentation of BANCO DE CREDITO E INVERSIONES?,Ivan Vera,2,0,0
+83,"Who is the Corporate Banking, Directo of BANCO DE CREDITO E INVERSIONES?",Juan Segundo,2,0,0
+83,Who is the Associate Director of STANDARD CHARTERED BANK?,Johanna Minaya,2,0,0
+83,Who is the Credit Documentation Manager of STANDARD CHARTERED BANK?,Robert K. Reddington,2,0,0
+83,"Who is the SVP %26 COO of THE BANK OF EAST ASIA, LTD?",Danny Leung,2,0,0
+83,"Who is the SVP of THE BANK OF EAST ASIA, LTD?",James Hua,2,0,0
+83,"Who is the Credit Executive of JPMorgan Chase Bank, N.A?",Keith Winzenried,2,0,0
+83,"Who is the Credit Executive of JPMorgan Chase Bank, N.A.?",Keith Winzenried,2,0,0
+83,"Who is the General Counsel of WESTERN DIGITAL TECHNOLOGIES, INC?",Michael Ray,2,0,0
+83,"Who is the Secretary of WESTERN DIGITAL TECHNOLOGIES, INC?",Michael Ray,2,0,0
+68,"Who is the Authorized Signatory of CAPITAL ONE, NATIONAL ASSOCIATION?",Melissa DeVito,2,0,0
+68,Who is the Chief Executive Officer of FRANKLIN STREET PROPERTIES CORP.?,George J. Carter,2,0,0
+68,"Who is the Executive Director of JPMORGAN CHASE BANK, N.A.?",Austin Lotito,2,0,0
+6,Who is the Deputy Branch Manager of BANK OF CHINA?,Ying Chen,2,0,0
+6,Who is the Vice President of BANK OF CHINA?,Ying Chen,2,0,0
+6,Who is the Authorized Agent of HINES REIT ONE WILSHIRE LP?,J. Shea Morgenroth,2,0,0
+54,Who is the Senior Vice President of 2018-1 IH BORROWER LP?,Jonathan Olsen,2,0,0
+40,"Who is the First Vice President of FIRST NIAGARA BANK, N.A.?",David Reading,2,0,0
+40,"Who is the Executive Director of JPMORGAN CHASE BANK, N.A?",Hector J. Varona,2,0,0
+40,"Who is the Authorized Signatory of MORGAN STANLEY BANK, N.A?",Michael King,2,0,0
+40,Who is the Director of THE BANK OF NOVIA SCOTIA?,Kevin Chan,2,0,0
+40,Who is the Chief Financial Officer of National General Holdings Corp.?,Michael H. Weiner,2,0,0
+56,"Who is the Managing Director of NOMURA CORPORATE FUNDING AMERICAS, LLC?",Lee A. Olive,2,0,0
+56,"Who is the Executive Vice President, General Counsel of WMG Acquisition Corp.?",Paul M. Robinson,2,0,0
+56,Who is the Secretary of WMG Acquisition Corp.?,Paul M. Robinson,2,0,0
+4,"Who is the Chief Executive Officer of BRIGHT HORIZONS CAPITAL CORP.,?",David Lissy,2,0,0
+4,Who is the Managing Director of CREDIT SUISSE AG?,John Toronto,2,0,0
+4,Who is the Authorized Signatory of GOLDMAN SACHS BANK USA?,Robert Ehudin,2,0,0
+4,Who is the Executive Director of JPMORGAN CHASE BANK N.A.?,Sarah L. Freedman,2,0,0
+42,"Who is the Chief FinancialOfficer of PANERA, LLC?",Michael J. Bufano,2,0,0
+42,"Who is the Chief Financial Officer of PANERA, LLC?",Michael J. Bufano,2,0,0
+42,"Who is the Treasurer of PANERA, LLC?",Michael J. Bufano,2,0,0
+42,"Who is the Vice President of Bank of America, N.A.?",Kelly Weaver,2,0,0
+95,"Who is the Chief Operating Officer of OHI Asset HUD Delta, LLC?",Daniel J. Booth,2,0,0
+95,"Who is the Jr., Esq. of Kaye Scholer LLP?",John R. Fallon,2,0,0
+95,"Who is the Chief Operating Officer of Omega Healthcare Investors, Inc?",Daniel J. Booth,2,0,0
+157,"Who is the Owner of Record of MICROPAC INDUSTRIES, INC?",Nicholas Nadolsky,2,0,0
+157,Who is the Vice President of FROST BANK?,Jason Purser,2,0,0
+157,Who is the Owner of Record of FROST BANK?,Nicholas Nadolsky,2,0,0
+157,"Who is the CEO of MICROPAC INDUSTRIES, INC.?",Mark W. King,2,0,0
+143,"Who is the Duly Authorized Signatory of CAPITAL ONE, N.A.?",Michael J. Sullivan,2,0,0
+143,"Who is the Director of BMO HARRIS BANK, N.A.?",Keith Watanabe,2,0,0
+143,"Who is the VP of CADENCE BANK, N.A.?",Vance Waldron,2,0,0
+143,Who is the Authorized Signatory of FIRST TENNESSEE BANK NATIONAL ASSOCIATION?,Daniel Nunes,2,0,0
+143,"Who is the Senior Vice President of TEXAS CAPITAL BANK, N.A.?",John Kallina,2,0,0
+143,"Who is the Chief Financial Officer of WINGSTOP HOLDINGS, INC.?",Michael J. Skipworth,2,0,0
+143,"Who is the President of WINGSTOP HOLDINGS, INC.?",Michael J. Skipworth,2,0,0
+142,"Who is the Controller of COLUMBIA PIPELINE GROUP, INC.?",Nathaniel A. Brown,2,0,0
+142,"Who is the Principal Financial Officer of COLUMBIA PIPELINE GROUP, INC.?",Nathaniel A. Brown,2,0,0
+142,"Who is the Director, Resources %26 Energy Group of HSBC BANK CANADA?",Jason Lang,2,0,0
+142,"Who is the Executive Director of JPMORGAN CHASE BANK, N.A.?",Juan J. Javellana,2,0,0
+142,"Who is the Assistant Vice President of WELLS FARGO BANK, NATIONAL ASSOCIATION?",J. Michael Quigley,2,0,0
+142,Who is the Senior Financing Manager of EXPORT DEVELOPMENT CANADA?,Martin Eyok,2,0,0
+142,Who is the Financing Manager of EXPORT DEVELOPMENT CANADA?,Raj Acharya,2,0,0
+142,Who is the Associate of THE BANK OF NOVA SCOTIA?,Jonathan Leach,2,0,0
+142,"Who is the Vice-President, Law of TRANSCANADA PIPELINES LIMITED?",Christine R. Johnston,2,0,0
+142,Who is the Treasurer of TRANSCANADA PIPELINES LIMITED?,Joel E. Hunter,2,0,0
+142,"Who is the Vice-President, Finance of TRANSCANADA PIPELINES LIMITED?",Joel E. Hunter,2,0,0
+156,"Who is the Associate of Deutsche Bank AG, New York Branch?",Jessica Lutrario,2,0,0
+156,"Who is the Executive Director of JPMORGAN CHASE BANK, N.A.?",Timothy Lee,2,0,0
+156,Who is the Senior Vice President of WELLS FARGO CAPITAL FINANCE CORPORATION CANADA?,Carmela Massari,2,0,0
+156,Who is the President and Treasurer of VIAVI SOLUTIONS CANADA ULC?,Kevin Siebert,2,0,0
+156,Who is the Managing Director of VIAVI SOLUTIONS DEUTSCHLAND GMBH?,Andreas-Christoph Beyertt,2,0,0
+156,Who is the Chief Financial Officer of VIAVI SOLUTIONS LICENSING LLC?,Henk Derksen,2,0,0
+156,Who is the Vice President of VIAVI SOLUTIONS LICENSING LLC?,Henk Derksen,2,0,0
+156,Who is the Chief Financial Officer of VIAVI SOLUTIONS UK LIMITED?,Henk Derksen,2,0,0
+156,Who is the Executive Vice President and Chief Financial Officer of VIAVI SOLUTIONS UK LIMITED?,Henk Derksen,2,0,0
+80,"Who is the Chief Financial Officer of CREE, INC?",Michael E. McDevitt,2,0,0
+80,"Who is the Executive Vice President of CREE, INC?",Michael E. McDevitt,2,0,0
+80,Who is the Vice President of U.S. Bank National Association?,Brian Seipke,2,0,0
+80,Who is the Senior Vice President of Bank of America?,Thomas M. Paulk,2,0,0
+80,Who is the Chairman of E-CONOLIGHT LLC?,Charles M. Swoboda,2,0,0
+80,Who is the Chief Executive  Officer of E-CONOLIGHT LLC?,Charles M. Swoboda,2,0,0
+80,Who is the President of E-CONOLIGHT LLC?,Charles M. Swoboda,2,0,0
+80,Who is the Authorized Signatory of GOLDMAN SACHS BANK USA?,Nicole Ferry Lacchia,2,0,0
+94,Who is the Managing Director of JEFFERIES FINANCE LLC?,E. Joseph Hess,2,0,0
+94,Who is the Executive Director of SUMITOMO MITSUI BANKINGCORPORATION?,Katsuyuki Kubo,2,0,0
+94,Who is the Director of SUNTRUST BANK?,Ben Cumming,2,0,0
+94,"Who is the Managing Director of NATIXIS, NEW YORK BRANCH?",Edward T. Crook,2,0,0
+94,"Who is the Vice President of NATIXIS, NEW YORK BRANCH?",J. St%C3%A9phane Lautner,2,0,0
+94,"Who is the Assistant Secretary of SALIX PHARMACEUTICALS, LTD.?",Adam C. Derbyshire,2,0,0
+94,"Who is the Chief FinancialOfficer of SALIX PHARMACEUTICALS, LTD.?",Adam C. Derbyshire,2,0,0
+94,"Who is the Executive Vice President,Finance and Administration of SALIX PHARMACEUTICALS, LTD.?",Adam C. Derbyshire,2,0,0
+94,"Who is the Treasurer of SALIX PHARMACEUTICALS, LTD.?",Adam C. Derbyshire,2,0,0
+57,Who is the Senior Vice President of CELANESE CORPORATION?,Scott A. Richardson,2,0,0
+57,Who is the SVP%3B EMEA %26 Asia of CELANESE EUROPE B.V.?,Mark Oberle,2,0,0
+57,"Who is the Vice President, Global Taxes of Elwood C.V.?",Ronnie D. Berry,2,0,0
+57,"Who is the Authorized Signatory of MUFG Bank, Ltd.?",Thomas J. Sterr,2,0,0
+57,"Who is the Sr. Vice President of PNC Bank, National Association?",Divyang Shah,2,0,0
+57,Who is the Treasurer of CELANESE US HOLDINGS LLC?,Chuck B. Kyrish,2,0,0
+57,Who is the Vice President of CELANESE US HOLDINGS LLC?,Chuck B. Kyrish,2,0,0
+57,"Who is the Associate Director of UniCredit Bank AG, New York Branch?",Betsy Briggs,2,0,0
+57,"Who is the Managing Director of UniCredit Bank AG, New York Branch?",Julien Tizorin,2,0,0
+5,Who is the Vice President of WELLS FARGO BANK?,Andrew W. Hussion,2,0,0
+5,Who is the Vice President of PNC BANK?,Roy E. Alexander,2,0,0
+1,"Who is the Authorized Signatory of BANK OF AMERICA, N.A.?",Alexandra M. Knights,2,0,0
+1,"Who is the Treasurer of FRANKLIN RESOURCES, INC.?",Mark Constant,2,0,0
+1,"Who is the Vice President of FRANKLIN RESOURCES, INC.?",Mark Constant,2,0,0
+53,Who is the Senior Vice President of CADENCE BANK?,Charles M. Joye III,2,0,0
+53,Who is the CAO of JAMBA JUICE ADVERTISING FUND INC.?,Marie Perry,2,0,0
+53,Who is the CFO of JAMBA JUICE ADVERTISING FUND INC.?,Marie Perry,2,0,0
+53,Who is the EVP of JAMBA JUICE ADVERTISING FUND INC.?,Marie Perry,2,0,0
+53,Who is the Secretary of JAMBA JUICE ADVERTISING FUND INC.?,Marie Perry,2,0,0
+53,Who is the Treasurer of JAMBA JUICE ADVERTISING FUND INC.?,Marie Perry,2,0,0
+47,Who is the VICE PRESIDENT of BARCLAYS BANK PLC?,SAMUEL COWARD,2,0,0
+47,"Who is the Vice President of PNC BANK, NATIONAL ASSOCIATION?",Bremmer Kneib,2,0,0
+47,"Who is the Director of THE BANK OF TOKYO-MITSUBISHI UFJ, LTD.?",Brian McNany,2,0,0
+47,Who is the Chief Financial Officer and Treasurer of UNITED THERAPEUTICS CORPORATION?,James Edgemond,2,0,0
+47,"Who is the Managing Director of WELLS FARGO BANK, NATIONAL ASSOCIATION?",Kirk Tesch,2,0,0
+152,"Who is the Manager of MVP REALTY ADVISORS, LLC?",Michael V. Shustek,2,0,0
+152,Who is the Esq. of Frost Brown Todd LLC?,Barry A. Hines,2,0,0
+152,"Who is the Esq of MVP Detroit Center Garage, LLC?",Craig D. Burr,2,0,0
+146,Who is the Chief Compliance Officer of BLACKSTONE PRIVATE CREDIT FUND?,Marisa J. Beeney,2,0,0
+146,Who is the Chief Legal Officer of BLACKSTONE PRIVATE CREDIT FUND?,Marisa J. Beeney,2,0,0
+146,Who is the Secretary of BLACKSTONE PRIVATE CREDIT FUND?,Marisa J. Beeney,2,0,0
+90,Who is the AVP of HSBC BANK USA?,Alexander Foster,2,0,0
+90,Who is the Assistant Vice President of U.S. BANK NATIONAL ASSOCIATION?,Kelsey E. Hehman,2,0,0
+90,Who is the Treasurer of JPMORGAN CHASE BANK?,William C. Whitaker,2,0,0
+84,Who is the Account Representative of Comerica Bank?,Kyle B. O%C2%92Neill,2,0,0
+84,Who is the Assistant Vice President of Fifth Third Bank?,Megan R. Brearey,2,0,0
+84,Who is the Associate Director of UBS AG?,Joselin Fernandes,2,0,0
+84,Who is the Authorized Signatory of BARCLAYS BANK PLC?,Noam Azachi,2,0,0
+84,Who is the Assistant Vice President of BRANCH BANKING AND TRUST COMPANY?,Ahaz Armstrong,2,0,0
+84,Who is the Associate of CREDIT SUISSE AG?,Michael D%C2%92Onofrio,2,0,0
+84,Who is the Executive Director of JPMORGAN CHASE BANK?,Mark Costantino,2,0,0
+84,Who is the SVP of BANK OF TAIWAN?,Alexander Wu,2,0,0
+84,Who is the VP of BANK OF TAIWAN?,Chwan-Ming Ho,2,0,0
+84,"Who is the Chairman of the Board of Health Care REIT, Inc.?",Mr. George L. Chapman,2,0,0
+84,"Who is the Chief Executive Officer of Health Care REIT, Inc.?",Mr. George L. Chapman,2,0,0
+84,"Who is the Treasurer of HEALTH CARE REIT, INC.?",Michael A. Crabtree,2,0,0
+84,Who is the Servicing Officer of KeyBank National Association?,Audrey Pishnery,2,0,0
+84,Who is the Manager of KeyBank National Association?,Elsa O%C2%92Brien,2,0,0
+85,Who is the Senior Vice President of BANK OF AMERICA?,Kenneth Butler,2,0,0
+85,"Who is the Assistant Controller of CROSS COUNTRY HEALTHCARE, INC.?",Emil Hensel,2,0,0
+85,"Who is the Chief Financial Officer of CROSS COUNTRY HEALTHCARE, INC.?",Emil Hensel,2,0,0
+85,"Who is the Vice President of CROSS COUNTRY HEALTHCARE, INC.?",Emil Hensel,2,0,0
+85,"Who is the Vice President%09 of CROSS COUNTRY HEALTHCARE, INC.?",Emil Hensel,2,0,0
+85,"Who is the Assistant Controller of CEJKA SEARCH, INC.?",Emil Hensel,2,0,0
+85,"Who is the Chief Financial Officer of CEJKA SEARCH, INC.?",Emil Hensel,2,0,0
+85,"Who is the Vice President of CEJKA SEARCH, INC.?",Emil Hensel,2,0,0
+85,"Who is the Vice President%09 of CEJKA SEARCH, INC.?",Emil Hensel,2,0,0
+91,Who is the Chief Executive Officer of EARTHSTONE ENERGY INC?,Ray Singleton,2,0,0
+91,Who is the President of EARTHSTONE ENERGY INC?,Ray Singleton,2,0,0
+91,Who is the Senior Vice President of BANK OF OKLAHOMA?,Thomas M. Foncannon,2,0,0
+147,Who is the Authorized Signatory of Goldman Sachs Bank USA?,Thomas Manning,2,0,0
+147,"Who is the Managing Director of Mizuho Bank, Ltd.?",Raymond Ventura,2,0,0
+147,"Who is the Chief Administrative Officer of PPD Development, L.P.?",B. Judd Hartman,2,0,0
+147,"Who is the Executive Vice President of PPD Development, L.P.?",B. Judd Hartman,2,0,0
+147,"Who is the General Counsel of PPD Development, L.P.?",B. Judd Hartman,2,0,0
+147,"Who is the Secretary of PPD Development, L.P.?",B. Judd Hartman,2,0,0
+147,Who is the Executive Director of JPMORGAN CHASE BANK?,Dawn Lee Lum,2,0,0
+153,"Who is the Authorized Signatory of JPMORGAN CHASE BANK, N.A?",Grace Mahood,2,0,0
+153,"Who is the Managing Director of PNC BANK, NATIONAL ASSOCIATION?",Daniel Russell,2,0,0
+153,"Who is the Vice President of TD BANK, N.A.?",Colin Murphy,2,0,0
+153,"Who is the Executive Vice President and Chief Financial Officer of AVID TECHNOLOGY, INC.?",Kenneth Gayron,2,0,0
+46,"Who is the Chief Executive Officer of MVC GP II, LLC?",James Pinto,2,0,0
+46,"Who is the Manager of MVC GP II, LLC?",James Pinto,2,0,0
+46,"Who is the Senior Vice President of SANTANDER BANK, N.A.,?",Gregory R. Russano,2,0,0
+46,"Who is the VP of Wintrust Bank,?",John Paul Hills,2,0,0
+52,Who is the Treasurer of Clorox Company?,Charles R. Conradi,2,0,0
+52,Who is the Vice President of Tax of Clorox Company?,Charles R. Conradi,2,0,0
+52,Who is the Executive Vice President of Clorox Company?,Laura Stein,2,0,0
+78,Who is the CLO %2F EVP of HEARTLAND BANK?,Phil Thomas,2,0,0
+78,"Who is the Chief Executive Officer of LILIS ENERGY, INC?",Abraham Mirman,2,0,0
+44,"Who is the President of FORWARD AIR ROYALTY, LLC,?",Matthew J. Jewell,2,0,0
+44,Who is the Chief Financial Officer of FORWARD AIR CORPORATION?,Rodney L. Bell,2,0,0
+44,Who is the Vice President of BANK OF AMERICA?,Maria A. McClain,2,0,0
+50,"Who is the Chief Financial Officer of MYRIAD GENETICS, INC.?",R. Bryan Riggsbee,2,0,0
+50,Who is the Managing Director of SILICON VALLEY BANK?,Derek R. Brunelle,2,0,0
+2,"Who is the Duly Authorized Signatory of CAPITAL ONE, N.A.?",Paul Isaac,2,0,0
+2,"Who is the Chief Financial Officer of DICK%C2%92S SPORTING GOODS, INC.?",Navdeep Gupta,2,0,0
+2,"Who is the Executive Vice President of DICK%C2%92S SPORTING GOODS, INC.?",Navdeep Gupta,2,0,0
+2,"Who is the Managing Director, SVP of FIFTH THIRD BANK, NATIONAL ASSOCIATION?",Mary Ramsey,2,0,0
+2,Who is the Authorized Signatory of THE TORONTO-DOMINION BANK?,Michael Borowiecki,2,0,0
+145,Who is the Vice President of ATHORA LUX INVEST S.C.SP?,Joseph D. Glatt,2,0,0
+145,Who is the Associate Counsel of CORTLAND CAPITAL MARKET SERVICES LLC?,Emily Ergang Pappas,2,0,0
+145,Who is the Authorized Signatory of NFE BAHAMAS HOLDINGS LTD.?,Christopher Stephen Guinta,2,0,0
+145,Who is the Chief Financial Officer of NFE BAHAMAS HOLDINGS LTD.?,Christopher Stephen Guinta,2,0,0
+145,Who is the Chief Financial Officer of NFE SUB LLC?,Christopher Stephen Guinta,2,0,0
+145,Who is the Director of NFE SUB LLC?,Christopher Stephen Guinta,2,0,0
+145,Who is the Legal Representative of NFE SUB LLC?,Christopher Stephen Guinta,2,0,0
+145,Who is the Manager of NFE SUB LLC?,Christopher Stephen Guinta,2,0,0
+145,Who is the Executive Assistant of NFE SHANNON HOLDINGS LIMITED?,Lana Guardino,2,0,0
+145,Who is the Vice President of PATH LTD?,Joseph D. Glatt,2,0,0
+151,Who is the Executive Vice President of Bank of China?,Raymond Qiao,2,0,0
+151,Who is the First Vice President of Nordea Bank Abp?,Ola Anderssen,2,0,0
+151,Who is the Treasurer of THERMO FISHER SCIENTIFIC INC.?,Anthony H. Smith,2,0,0
+151,"Who is the Vice President, Tax and Treasury of THERMO FISHER SCIENTIFIC INC.?",Anthony H. Smith,2,0,0
+151,Who is the Senior Vice President of U.S. Bank National Association?,Maria Massimino,2,0,0
+151,Who is the Drector of BANK OF AMERICA?,Joseph L. Corah,2,0,0
+87,Who is the Director of SUNTRUST BANK?,Chris Hursey,2,0,0
+87,Who is the Assistant Vice President of BANK OF AMERICA?,Melissa Mullis,2,0,0
+87,Who is the Senior Credit Manager of HSBC BANK USA?,Robert Levins,2,0,0
+87,Who is the Managing Director of JPMORGAN CHASE BANK?,John Emery,2,0,0
+87,"Who is the Chief Financial Officer of ARMSTRONG FLOORING, INC?",Ronald D. Ford,2,0,0
+87,Who is the Treasurer of MANUFACTURERS AND TRADERS TRUST COMPANY?,Douglas B. Bingham,2,0,0
+92,"Who is the Director of MIDCAP FUNDING V, LLC,?",Michael Min,2,0,0
+92,"Who is the President of PERNIX THERAPEUTICS, LLC?",Cooper C. Collins,2,0,0
+92,"Who is the President and Chief Executive Officer of PERNIX THERAPEUTICS, LLC?",Cooper C. Collins,2,0,0
+92,"Who is the President and Chief Executive Officer,Pernix Therapeutics Holdings, Inc.,Sole Member and Sole Manager of Pernix Therapeutics, LLC of PERNIX THERAPEUTICS, LLC?",Cooper C. Collins,2,0,0
+86,Who is the Senior Vice President of BANK OF AMERICA?,Julie Yamauchi,2,0,0
+86,"Who is the CFO of ID ANALYTICS, INC?",Chris Power,2,0,0
+86,"Who is the Executive Vice President of ID ANALYTICS, INC?",Chris Power,2,0,0
+86,Who is the Authorized Signatory of ROYAL BANK OF CANADA?,Mark S. Gronich,2,0,0
+86,"Who is the RM II of SILICON VALLEY BANK,?",Jay Wefel,2,0,0
+150,Who is the Authorized Signatory of Credit Suisse Loan Funding LLC?,Jinah Lim,2,0,0
+150,"Who is the CEO of NATIONAL CINEMEDIA, LLC?",Tom Lesinski,2,0,0
+150,"Who is the Vice President of WILMINGTON SAVINGS FUND SOCIETY, FSB?",Raye Goldsborough,2,0,0
+144,Who is the Authorized Signatory of MIDCAP FINANCIAL TRUST?,Maurice Amsellem,2,0,0
+144,"Who is the Treasurer of RADIUS PHARMACEUTICALS, INC.?",Jos%C3%A9 I. Carmona,2,0,0
+144,Who is the Vice President of APOLLO INVESTMENT CORPORATION?,Joseph D. Glatt,2,0,0
+51,Who is the Treasurer of CALPINE CORPORATION?,Zamir Rauf,2,0,0
+51,"Who is the Vice President, Finance of CALPINE CORPORATION?",Zamir Rauf,2,0,0
+51,"Who is the Vice President of MORGAN STANLEY SENIOR FUNDING, INC.?",Cody Gunsch,2,0,0
+51,"Who is the VP of MUFG UNION BANK, N.A.?",Sonia Flores,2,0,0
+3,"Who is the Secretary of SUMMIT NCI JV BR 177, LLC?",Christopher Eng,2,0,0
+3,"Who is the Managing Director of WELLS FARGO BANK, NATIONAL ASSOCIATION?",Anand J. Jobanputra,2,0,0
+3,"Who is the AVP of BANK OF AMERICA, N.A.?",Cindy Jordan,2,0,0
+3,"Who is the Vice President of BANK OF AMERICA, N.A.?",Kyle Pearson,2,0,0
+45,Who is the Chief Financial Officer of PINNACLE BANK?,Harold R. Carpenter,2,0,0
+45,Who is the Client Services Representative of U.S. BANK NATIONAL ASSOCIATION?,"Cynthia M. Olson,",2,0,0
+45,Who is the Portfolio Manager of U.S. BANK NATIONAL ASSOCIATION?,Eric Niedbalski,2,0,0
+45,Who is the Senior Vice President of U.S. BANK NATIONAL ASSOCIATION?,Mark R. Cousineau,2,0,0
+79,"Who is the Associate Director of UBS AG, STAMFORD BRANCH?",Craig Pearson,2,0,0
+79,"Who is the Vice President of ASSOCIATED BANK, NATIONAL ASSOCIATION?",Gregory A. Conner,2,0,0
+79,Who is the Sr. VP of COMPASS BANK?,S. Kent Gorman,2,0,0
+79,Who is the Senior Vice President of U.S. BANK NATIONAL ASSOCIATION?,David Heller,2,0,0
+79,Who is the Authorized Signatory of ROYAL BANK OF CANADA?,Dan LePage,2,0,0
+79,Who is the Assistant Secretary of SELECT INCOME REIT?,John C. Popeo,2,0,0
+79,Who is the Chief Financial Officer of SELECT INCOME REIT?,John C. Popeo,2,0,0
+79,Who is the Treasurer of SELECT INCOME REIT?,John C. Popeo,2,0,0
+22,"Who is the Vice President of BANK OF AMERICA, N.A?",Ajay Jagsi,2,0,0
+22,"Who is the Authorized Officer of JPMORGAN CHASE BANK, N.A.?",Anca Loghin,2,0,0
+22,"Who is the Chief FinancialOfficer of OIL STATES INTERNATIONAL, INC.,?",Lloyd A. Hajdik,2,0,0
+22,"Who is the Executive Vice President of OIL STATES INTERNATIONAL, INC.,?",Lloyd A. Hajdik,2,0,0
+22,"Who is the Treasurer of OIL STATES INTERNATIONAL, INC.,?",Lloyd A. Hajdik,2,0,0
+36,Who is the Chief Financial Officer of SILICON GRAPHICS INTERNATIONAL CORP?,Robert J. Nikl,2,0,0
+36,"Who is the Authorized Signatory of MORGAN STANLEY SENIOR FUNDING, INC.?",Reagan Philipp,2,0,0
+123,"Who is the AVP of Bank of America, N.A.?",Kyle Lewis,2,0,0
+123,"Who is the Vice President of CITIBANK, N.A?",Lisa Huang,2,0,0
+123,Who is the Treasurer of NEWELL RUBBERMAID INC?,John B. Ellis,2,0,0
+123,Who is the Vice President of NEWELL RUBBERMAID INC?,John B. Ellis,2,0,0
+123,Who is the VP of THE NORTHERN TRUST COMPANY?,Kimberly A. Crotty,2,0,0
+123,Who is the Senior Vice President of US Bank National Association?,Steven L. Sawyer,2,0,0
+137,Who is the Managing Director of Deutsche Bank AG New York Branch?,James Rolison,2,0,0
+137,"Who is the Secretary of Summit Hotel TRS 035, LLC?",Christopher Eng,2,0,0
+137,"Who is the Secretary of San Fran JV, LLC?",Christopher Eng,2,0,0
+137,"Who is the Secretary of Summit Hospitality 039, LLC?",Christopher Eng,2,0,0
+137,"Who is the Secretary of Summit Hospitality 057, LLC?",Christopher Eng,2,0,0
+137,"Who is the Secretary of Summit Hospitality 060, LLC?",Christopher Eng,2,0,0
+137,"Who is the Secretary of Summit Hospitality 079, LLC?",Christopher Eng,2,0,0
+137,"Who is the Secretary of Summit Hospitality 081, LLC?",Christopher Eng,2,0,0
+137,"Who is the Secretary of Summit Hospitality 082, LLC?",Christopher Eng,2,0,0
+137,"Who is the Secretary of Summit Hospitality 084, LLC?",Christopher Eng,2,0,0
+137,"Who is the Secretary of Summit Hospitality 093, LLC?",Christopher Eng,2,0,0
+137,"Who is the Secretary of Summit Hospitality 100, LLC?",Christopher Eng,2,0,0
+137,"Who is the Secretary of Summit Hospitality 114, LLC?",Christopher Eng,2,0,0
+137,"Who is the Secretary of Summit Hospitality 115, LLC?",Christopher Eng,2,0,0
+137,"Who is the Secretary of Summit Hospitality 117, LLC?",Christopher Eng,2,0,0
+137,"Who is the Secretary of Summit Hospitality 118, LLC?",Christopher Eng,2,0,0
+137,"Who is the Secretary of Summit Hospitality 119, LLC?",Christopher Eng,2,0,0
+137,"Who is the Secretary of Summit Hospitality 121, LLC?",Christopher Eng,2,0,0
+137,"Who is the Secretary of Summit Hospitality 122, LLC?",Christopher Eng,2,0,0
+137,"Who is the Secretary of Summit Hospitality 123, LLC?",Christopher Eng,2,0,0
+137,"Who is the Secretary of Summit Hospitality 130, LLC?",Christopher Eng,2,0,0
+137,"Who is the Secretary of Summit Hospitality 17, LLC?",Christopher Eng,2,0,0
+137,"Who is the Secretary of Summit Hospitality 18, LLC?",Christopher Eng,2,0,0
+137,"Who is the Secretary of Summit Hospitality I, LLC?",Christopher Eng,2,0,0
+137,"Who is the Secretary of Summit Hospitality XII, LLC?",Christopher Eng,2,0,0
+137,Who is the Authorized Signatory of ROYAL BANK OF CANADA?,Joshua Freedman,2,0,0
+122,Who is the Treasurer of AON CORPORATION?,Paul Hagy,2,0,0
+122,Who is the Secretary of AON UK LIMITED?,P. A. Hogwood,2,0,0
+122,Who is the Assistant Vice President of BARCLAYS BANK PLC?,Arti Sugunan,2,0,0
+122,Who is the General Manager of BANK OF CHINA %28LUXEMBOURG%29?,Zhao Caiyan,2,0,0
+37,"Who is the Managing Director of BANK OF AMERICA, N.A.?",Maria F. Maia,2,0,0
+37,"Who is the Director of MUFG Union Bank, N.A.,?",Sandra Cortes,2,0,0
+37,"Who is the Chief Financial Officer of Waste Connections, Inc.?",Worthing F. Jackman,2,0,0
+37,"Who is the Executive Vice President of Waste Connections, Inc.?",Worthing F. Jackman,2,0,0
+23,"Who is the Vice President of BANK OF AMERICA, N.A.?",Holli Balzar,2,0,0
+23,Who is the Secretary of CLEAN ENERGY EXPERTS LLC?,Jeanna Steele,2,0,0
+23,Who is the Senior Vice President of KEYBANK NATIONAL ASSOCIATION?,Jonathan M. Bouvet,2,0,0
+35,Who is the Treasurer of HESS OVERSEAS FINANCE INVESTMENTS CENTRE LIMITED?,Eric S. Fishman,2,0,0
+35,Who is the Global Relationship Manager of INTESA SANPAOLO S.p.A.?,Marco Pizzi,2,0,0
+35,Who is the Executive Vice President of Bank of China?,Haifeng Xu,2,0,0
+35,"Who is the Associate Director, of Standard Chartered Bank?",Hsing H. Huang,2,0,0
+35,Who is the Managing Director Capital Markets of Standard Chartered Bank?,Steve Aloupis,2,0,0
+35,"Who is the Managing Director of COMMERZBANK AG,?",Diane Pockaj,2,0,0
+35,Who is the Chief Financial Officer of HESS CORPORATION?,John P. Rielly,2,0,0
+35,Who is the General Counsel of HESS CORPORATION?,Timothy B. Goodell,2,0,0
+21,"Who is the Secretary of LD LOWER HOLDINGS, INC.?",Dawn M. Wilson,2,0,0
+21,"Who is the Treasurer of LD LOWER HOLDINGS, INC.?",Dawn M. Wilson,2,0,0
+21,"Who is the Assistant Vice President of WILMINGTON TRUST, NATIONAL ASSOCIATION?",Nicole Kroll,2,0,0
+108,"Who is the Assistant Vice President of FIFTH THIRD BANK, an Ohio banking corporation?",Michael P. Perillo,2,0,0
+108,"Who is the Executive Vice President of Retreat at State College, LLC?",Randall H. Brown,2,0,0
+108,"Who is the Secretary of Retreat at State College, LLC?",Randall H. Brown,2,0,0
+108,"Who is the Treasurer of Retreat at State College, LLC?",Randall H. Brown,2,0,0
+108,"Who is the Vice President of Retreat at State College, LLC?",Randall H. Brown,2,0,0
+108,"Who is the Vice President of PNC Bank, National Association?",Andrew White,2,0,0
+134,Who is the Senior Vice President of EAST WEST BANK.?,Janet Chao,2,0,0
+134,"Who is the Authorized Signatory of STOCKBRIDGE%2FSBE HOLDINGS, LLC?",Darren Drake,2,0,0
+120,Who is the Managing Director of BMO HARRIS BANK?,Mark W. Piekos,2,0,0
+120,Who is the Senior Vice President of CAPITAL ONE?,Frederick H. Denecke,2,0,0
+120,Who is the Chief Financial Officer of EQUITY COMMONWEALTH?,Adam Markman,2,0,0
+120,Who is the Executive Vice President of EQUITY COMMONWEALTH?,Adam Markman,2,0,0
+120,Who is the Treasurer of EQUITY COMMONWEALTH?,Adam Markman,2,0,0
+120,Who is the Vice President of FIFTH THIRD BANK?,Michael Glandt,2,0,0
+120,"Who is the Executive Director of JPMORGAN CHASE BANK, N.A.?",Marc Costantino,2,0,0
+120,"Who is the Deputy GM of MEGA INTERNATIONAL COMMERCIAL BANK CO., LTD?",Angela Chen,2,0,0
+120,"Who is the VP of MEGA INTERNATIONAL COMMERCIAL BANK CO., LTD?",Angela Chen,2,0,0
+120,Who is the Authorized Signatory of ROYAL BANK OF CANADA?,Dan LePage,2,0,0
+120,Who is the Executive Officer of SUMITOMO MITSUI BANKING CORPORATION?,William G. Karl,2,0,0
+120,Who is the Managing Director of THE BANK OF NEW YORK MELLON?,Helga Blum,2,0,0
+120,Who is the Director of THE BANK OF NOVA SCOTIA?,Chad Hale,2,0,0
+120,Who is the Executive Head of THE BANK OF NOVA SCOTIA?,Chad Hale,2,0,0
+121,"Who is the Senior Vice President of BANK OF AMERICA, N.A.?",Steven K. Kessler,2,0,0
+121,Who is the Branch Manager of BANK OF CHINA?,Kefel Xu,2,0,0
+121,Who is the SVP of BANK OF CHINA?,Kefel Xu,2,0,0
+121,Who is the Assistant Vice President of BRANCH BANKING AND TRUST COMPANY?,Andrey Rudnitsky,2,0,0
+121,"Who is the Executive Director of JPMORGAN CHASE BANK, N.A.?",Brian Grossman,2,0,0
+121,Who is the DGM of Mega International Commercial Bank?,Angela Chen,2,0,0
+121,Who is the VP of Mega International Commercial Bank?,Angela Chen,2,0,0
+121,Who is the Assistant General Manager of TAIWAN COOPERATIVE BANK LTD?,Li Yin Wang,2,0,0
+121,Who is the Deputy General Manager of Taiwan Business Bank?,Jason Jean,2,0,0
+121,Who is the General Manager of Bank of Taiwan?,Jane Chang,2,0,0
+121,Who is the SVP of The Metropolitan Life Insurance Company?,Paul Hultgren,2,0,0
+121,Who is the General Counsel of FIFTH THIRD BANK?,Peter C. Underwood,2,0,0
+121,Who is the Secretary of FIFTH THIRD BANK?,Peter C. Underwood,2,0,0
+135,"Who is the Authorized Officer of JPMORGAN CHASE BANK, N.A.?",Stephanie Balette,2,0,0
+135,Who is the Authorized Signatory of ROYAL BANK OF CANADA?,James R. Allred,2,0,0
+135,"Who is the Associate Director of UBS AG, STAMFORD BRANCH?",Craig Pearson,2,0,0
+135,Who is the Senior Vice President of DNB CAPITAL LLC?,Anders Platou,2,0,0
+135,Who is the Managing Director of ING CAPITAL LLC?,Cheryl LaBelle,2,0,0
+135,Who is the Vice President of ING CAPITAL LLC?,Hans Beekmans,2,0,0
+135,"Who is the Treasurer of PLAINS ALL AMERICAN PIPELINE, L.P.?",Sharon S. Spurlin,2,0,0
+109,"Who is the CEO of Liberated Syndication Inc., Webmayhem Inc, and pair Networks, Inc?",Christopher J. Spencer,2,0,0
+109,"Who is the Chief Executive Officer and Chairman of the Board of Liberated Syndication Inc., Webmayhem Inc, and pair Networks, Inc?",Christopher J. Spencer,2,0,0
+109,"Who is the Chief Financial Officer of Liberated Syndication Inc., Webmayhem Inc, and pair Networks, Inc?",John Busshaus,2,0,0
+20,"Who is the Director of BANK OF MONTREAL, CHICAGO BRANCH?",Benjamin Mlot,2,0,0
+34,"Who is the Chief Financial Officer of MICHIGAN ELECTRIC TRANSMISSION COMPANY, LLC?","Cameron M. Bready,",2,0,0
+34,"Who is the Executive Vice President of MICHIGAN ELECTRIC TRANSMISSION COMPANY, LLC?","Cameron M. Bready,",2,0,0
+34,"Who is the Vice President, Finance and Treasurer of MICHIGAN ELECTRIC TRANSMISSION COMPANY, LLC?",Rejji P. Hayes,2,0,0
+34,"Who is the General Counsel of MICHIGAN ELECTRIC TRANSMISSION COMPANY, LLC?",Wendy A. McIntyre,2,0,0
+34,"Who is the Secretary of MICHIGAN ELECTRIC TRANSMISSION COMPANY, LLC?",Wendy A. McIntyre,2,0,0
+34,"Who is the Vice President of MICHIGAN ELECTRIC TRANSMISSION COMPANY, LLC?",Wendy A. McIntyre,2,0,0
+18,Who is the Chief Financial Officer of BLACK CREEK DIVERSIFIED PROPERTY OPERATING PARTNERSHIP LP?,Lainie Minnick,2,0,0
+18,Who is the Managing Director of BLACK CREEK DIVERSIFIED PROPERTY OPERATING PARTNERSHIP LP?,Lainie Minnick,2,0,0
+18,Who is the Treasurer of BLACK CREEK DIVERSIFIED PROPERTY OPERATING PARTNERSHIP LP?,Lainie Minnick,2,0,0
+18,"Who is the Director of MUFG UNION BANK, N.A?",Katherine Davidson,2,0,0
+24,"Who is the Chief Financial Officer of COLUMBIA PROPERTY TRUSTOPERATING PARTNERSHIP, L.P.?",James A. Fleming,2,0,0
+24,"Who is the Executive Vice President of COLUMBIA PROPERTY TRUSTOPERATING PARTNERSHIP, L.P.?",James A. Fleming,2,0,0
+24,Who is the Executive Officer of SUMITOMO MITSUI BANKING CORPORATION?,William G. Karl,2,0,0
+24,Who is the Director of WELLS FARGO BANK NATIONALASSOCIATION?,D. Bryan Gregory,2,0,0
+24,Who is the Partner of King %26 Spalding LLP?,J. Craig Lee,2,0,0
+131,Who is the Senior Vice President of U.S. BANK NATIONAL ASSOCIATION?,"Ralph J. Creasia, Jr.",2,0,0
+125,Who is the Controller of Public Service Company of New Mexico?,Joseph D. Tarry,2,0,0
+125,Who is the Treasurer of Public Service Company of New Mexico?,Joseph D. Tarry,2,0,0
+125,Who is the Vice President of Public Service Company of New Mexico?,Joseph D. Tarry,2,0,0
+119,Who is the Senior Manager of INTERNATIONAL FINANCE CORPORATION?,Delanson D. Crist,2,0,0
+119,"Who is the Chief Operating Officer of VAALCO GABON %28ETAME%29, INC?",W. Russell Scheirman,2,0,0
+119,"Who is the President of VAALCO GABON %28ETAME%29, INC?",W. Russell Scheirman,2,0,0
+118,Who is the Senior Vice President of BANK OF THE WEST?,Roger Lumley,2,0,0
+118,"Who is the General Counsel of POST HOLDINGS, INC.?",Diedre J. Gray,2,0,0
+118,"Who is the SVP of POST HOLDINGS, INC.?",Diedre J. Gray,2,0,0
+118,"Who is the Secretary of POST HOLDINGS, INC.?",Diedre J. Gray,2,0,0
+118,Who is the Executive Vice President of Stifel Bank %26 Trust?,John H. Phillips,2,0,0
+118,Who is the Executive Director of COOPERATIEVE CENTRALERAIFFEISEN-BOERENLEENBANK?,Peter Glawe,2,0,0
+124,Who is the Banking Officer of BRANCH BANKING %26 TRUST COMPANY?,Trevor Williams,2,0,0
+124,"Who is the Executive Director of JPMORGAN CHASE BANK, N.A?",Peter M. Killea,2,0,0
+124,"Who is the Chief Financial Officer of MONRO MUFFLER BRAKE, INC?",Catherine D%C2%92Amico,2,0,0
+124,"Who is the Executive Vice President of Finance of MONRO MUFFLER BRAKE, INC?",Catherine D%C2%92Amico,2,0,0
+124,"Who is the Treasurer of MONRO MUFFLER BRAKE, INC?",Catherine D%C2%92Amico,2,0,0
+124,"Who is the Senior Vice President of WELLS FARGO BANK, N.A.?",Richard Ferrari,2,0,0
+130,"Who is the SVP%2FCommercial Credit Officer of BANK OF AMERICA, N.A?",Kevin Couch,2,0,0
+130,Who is the SVP of HANCOCK WHITNEY BANK?,Nancy G. Moragas,2,0,0
+130,"Who is the Authorized Officer of JPMORGAN CHASE BANK, N.A?",Stephanie Balette,2,0,0
+130,"Who is the Chief Financial Office of MURPHY OIL USA, INC.?",Mindy K. West,2,0,0
+130,"Who is the Chief Financial Officer of MURPHY OIL USA, INC.?",Mindy K. West,2,0,0
+130,"Who is the Executive Vice President, Fuels of MURPHY OIL USA, INC.?",Mindy K. West,2,0,0
+130,"Who is the Treasurer of MURPHY OIL USA, INC.?",Mindy K. West,2,0,0
+130,Who is the Authorized Signatory of ROYAL BANK OF CANADA?,John Flores,2,0,0
+130,"Who is the Manager, Agency Services of ROYAL BANK OF CANADA?",Yvonne Brazier,2,0,0
+25,Who is the Associate Counsel of CORTLAND CAPITAL MARKET SERVICES %09LLC?,Emily Ergang Pappas,2,0,0
+25,"Who is the President of HUNT CMT EQUITY, LLC?",Michael Larsen,2,0,0
+25,"Who is the SVP of JEFFERIES LEVERAGED CREDIT PRODUCTS, LLC?",William P. McLoughlin,2,0,0
+31,"Who is the Vice President, Debt Finance of BARCLAYS BANK PLC?",Mark Timms,2,0,0
+31,Who is the Treasurer of VISA U.S.A. INC.?,Richard Laiderman,2,0,0
+31,Who is the Branch Manager of THE BANK OF CHINA?,Haiyong Yang,2,0,0
+31,Who is the Vice President of THE BANK OF CHINA?,Haiyong Yang,2,0,0
+31,Who is the Associate Director of STANDARD CHARTERED BANK?,Johanna Minaya,2,0,0
+31,Who is the Documentation Manager of STANDARD CHARTERED BANK?,Robert K. Reddington,2,0,0
+19,"Who is the CEO of CASEY%E2%80%99S GENERAL STORES, INC.?",Terry W. Handley,2,0,0
+19,"Who is the President of CASEY%E2%80%99S GENERAL STORES, INC.?",Terry W. Handley,2,0,0
+19,"Who is the Senior Vice President of UMB Bank, n.a.?",Robert P. Elbert,2,0,0
+19,"Who is the Vice President of WELLS FARGO BANK, NATIONAL ASSOCIATION?",Maureen S. Malphus,2,0,0
+19,"Who is the Managing Director of CO%C3%96PERATIEVE RABOBANK U.A., NEW YORK?",Robert Graff,2,0,0
+19,"Who is the Executive Director of CO%C3%96PERATIEVE RABOBANK U.A., NEW YORK?",Timothy J. Devane,2,0,0
+19,"Who is the Manager, Agency of ROYAL BANK OF CANADA?",Rodica Dutka,2,0,0
+27,Who is the Chief Financial of GASTAR MIDCO HOLDINGS LLC?,Michael A. Gerlich,2,0,0
+27,Who is the Officer of GASTAR MIDCO HOLDINGS LLC?,Michael A. Gerlich,2,0,0
+27,Who is the Secretary of GASTAR MIDCO HOLDINGS LLC?,Michael A. Gerlich,2,0,0
+27,Who is the Senior Vice President of GASTAR MIDCO HOLDINGS LLC?,Michael A. Gerlich,2,0,0
+27,"Who is the Authorized Signatory of AF V Energy I Holdings, L.P.?",Gary Levin,2,0,0
+33,"Who is the Chief Financial Officer of PLY GEM INDUSTRIES, INC.,?",Shawn K. Poe,2,0,0
+33,"Who is the Chief Financial Officer, of PLY GEM INDUSTRIES, INC.,?",Shawn K. Poe,2,0,0
+33,"Who is the Secretary of PLY GEM INDUSTRIES, INC.,?",Shawn K. Poe,2,0,0
+33,"Who is the Treasurer of PLY GEM INDUSTRIES, INC.,?",Shawn K. Poe,2,0,0
+33,"Who is the Vice President of PLY GEM INDUSTRIES, INC.,?",Shawn K. Poe,2,0,0
+126,"Who is the Executive Vice President of BANK OF CHINA, NEW YORK BRANCH?",Raymond Qiao,2,0,0
+126,Who is the Treasurer of JABIL INC.?,Sergio A. Cadavid,2,0,0
+126,Who is the Associate Director of STANDARD CHARTERED BANK?,James Beck,2,0,0
+132,"Who is the Vice President of JPMORGAN CHASE BANK, N.A.?",Jennifer M. Dunneback,2,0,0
+132,"Who is the Executive Vice President, Chief Financial Officer and Treasurer of OBS FINANCIAL SERVICES, INC.?",Gary G. Zyla,2,0,0
+132,"Who is the Executive Vice President and Treasurer of OBS FINANCIAL SERVICES, INC.?",Gary G. Zyla,2,0,0
+132,"Who is the Vice President and Treasurer of OBS FINANCIAL SERVICES, INC.?",Gary G. Zyla,2,0,0
+132,"Who is the Executive Vice President, Chief Financial Officer and Treasurer of OBS HOLDINGS, INC.?",Gary G. Zyla,2,0,0
+132,"Who is the Vice President and Treasurer of OBS HOLDINGS, INC.?",Gary G. Zyla,2,0,0
+132,Who is the Senior Vice President of U.S. BANK NATIONAL ASSOCIATION?,Mark R. Cousineau,2,0,0
+133,"Who is the Senior Vice President of BANK OF AMERICA, N.A.?",Ronald J. Drobny,2,0,0
+133,"Who is the SVP of CITIBANK, N.A.?",William Allen,2,0,0
+133,"Who is the Chief Financial Officer of ZULILY, INC.?",Marc Stolzman,2,0,0
+127,"Who is the Authorized Signer of JPMORGAN CHASE BANK, N.A?",Heather E. Hoopingarner,2,0,0
+127,"Who is the Assistant Vice President of BANK OF AMERICA, N.A?",Taelitha Bonds-Harris,2,0,0
+127,"Who is the Executive Vice President of BANK OF CHINA, NEW YORK BRANCH?",Raymond Qiao,2,0,0
+127,Who is the Treasurer of BIOGEN INC.?,Michael Dambach,2,0,0
+127,Who is the Vice President of BIOGEN INC.?,Michael Dambach,2,0,0
+127,Who is the Executive Director of MIZUHO BANK?,Tracy Rahn,2,0,0
+32,Who is the Authorised Signatory of HSBC BANK PLC?,Jeremy Causton,2,0,0
+32,Who is the Authorised Signatory of HSBC CORPORATE TRUSTEE COMPANY %28UK%29 LIMITED?,Jason Blondell,2,0,0
+32,"Who is the Executive Director of J.P. MORGAN SECURITIES LLC,?",Gregg L. Byers,2,0,0
+32,"Who is the Vice President of JPMORGAN CHASE BANK, N.A.?",Muhammad Hasan,2,0,0
+32,Who is the Executive of THE STANDARD BANK OF SOUTH AFRICA LIMITED?,O. Lavitzson,2,0,0
+32,Who is the Director and Counsel Region Americas Legal of UBS SECURITIES LLC?,Barbara S. Wang,2,0,0
+32,"Who is the Senior Vice President of WELLS FARGO BANK, N.A.?",John Cantalupo,2,0,0
+32,Who is the Director Corporate Banking of BNP PARIBAS?,Chris Golding,2,0,0
+32,Who is the Managing Director Corporate Coverage Canada of BNP PARIBAS?,Tony Baratta,2,0,0
+32,Who is the Vice President Commercial Banking of HSBC BANK CANADA?,Douglas Brandes,2,0,0
+32,Who is the Assistant Vice President of HSBC BANK CANADA?,Todd Patchell,2,0,0
+26,Who is the Associate Director of Standard Chartered Bank?,Daniel Mattern,2,0,0
+26,Who is the Managin Director of Sumitomo Mitsui Banking Corporation?,Katsuyuki Kubo,2,0,0
+26,Who is the Senior Vice President of BRISTOL-MEYERS SQUIBB COMPANY?,Jeffrey Galik,2,0,0

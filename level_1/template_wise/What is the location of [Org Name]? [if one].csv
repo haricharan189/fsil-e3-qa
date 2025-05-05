@@ -1,0 +1,761 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+17,"What is the location of ExGen Renewables Holdings, LLC?","10 South Dearborn Street, 49th FloorChicago, IL 60603",1,0,0
+17,"What is the location of ExGen Renewables IV, LLC?","1310 Point Street, 12th FloorBaltimore, MD 21231",1,0,0
+17,"What is the location of ExGen Renewables IV Holding, LLC?","10 South Dearborn Street, 49th FloorChicago, IL 60603",1,0,0
+17,"What is the location of Exelon Generation Company, LLC?","701 Ninth Street NW, 9th FloorWashington, DC 20068",1,0,0
+17,"What is the location of Morgan Stanley Senior Funding, Inc.?","1300 Thames Street, 4th FloorThames Street WharfBaltimore, MD 21231",1,0,0
+17,What is the location of Simpson Thacher %26 Bartlett LLP?,"425 Lexington Avenue, New York, New York 10017",1,0,0
+17,"What is the location of Wilmington Trust, National Association?",1100 North Market StreetWilmington Delaware 19890,1,0,0
+102,What is the location of OLSHAN FROME WOLOSKY LLP?,"65 East 55th Street New York, NY 10022",1,0,0
+102,What is the location of DIGIRAD CORPORATION?,"1048 Industrial Court, Suite E Suwanee, GA 30024",1,0,0
+102,"What is the location of WELLS FARGO BANK, NATIONAL ASSOCIATION?","2450 Colorado Avenue, Suite 3000 WestSanta Monica, CA 90404",1,0,0
+102,What is the location of PAUL HASTINGS LLP?,"695 Town Center Drive, 17th Floor Costa Mesa, CA 92626",1,0,0
+117,What is the location of Columbia Sportswear Company?,"14375 NW Science Park DrivePortland, OR 97229",1,0,0
+103,"What is the location of Botticelli LLCc%2Fo Angelo, Gordon %26 Co., LP?","245 Park Avenue, 26th FloorNew York, New York 10167",1,0,0
+103,What is the location of Claire%C2%92s %28Gibraltar%29 Holdings Limited?,"3 SW 129th AvenueSuite 400Pembroke Pines, FL 33027",1,0,0
+103,What is the location of Cortland Capital Market Services LLC?,"225 W. Washington Street, 21st FloorChicago, IL 60606",1,0,0
+16,What is the location of Crystal Financial LLC?,"Two International Place, 17th Floor%09  %09 %09Boston, MA 02110",1,0,0
+28,What is the location of BIOPHARMA CREDIT PLC?,51 New North RoadExeter EX4 4EPUnited Kingdom,1,0,0
+28,What is the location of BioPharma Credit PLC?,51 New North Road %09Exeter EX4 4EP %09United Kingdom,1,0,0
+28,What is the location of Akin Gump Strauss Hauer %26 Feld LLP?,"One Bryant Park %09New York, NY 10036-6745",1,0,0
+28,What is the location of BIOPHARMA CREDIT INVESTMENTS V %28MASTER%29 LP?,"Cayman Corporate Centre, 27 Hospital Road,George Town, Grand Cayman KY1-9008",1,0,0
+28,What is the location of Pepper Hamilton LLP?,"3000 Two Logan Square %09Philadelphia, PA 19103",1,0,0
+28,What is the location of Pharmakon Advisors LP?,"110 East 59th Street, %233300 %09New York, NY 10022",1,0,0
+28,"What is the location of Collegium Pharmaceutical, Inc.?","100 Technology Center Drive, Suite 300 %09Stoughton, MA 02072",1,0,0
+129,What is the location of Federal Reserve System?,United States of America,1,0,0
+129,What is the location of Graham Corporation?,"20 Florence AvenueBatavia, New York 14020",1,0,0
+129,What is the location of Harter Secrest %26 Emery LLP?,"1600 Bausch %26 Lomb PlaceRochester, New York 14606",1,0,0
+129,"What is the location of JPMorgan Chase Bank, N.A.?","1 South Clinton Avenue, Floor 7Rochester, NY 14604",1,0,0
+100,"What is the location of Wells Fargo Bank, National Association?","400 Hamilton Ave., Suite 110Palo Alto, CA 94301",1,0,0
+100,"What is the location of Omnicell, Inc.?","590 E. Middlefield RoadMountain View, CA 94043-4008",1,0,0
+100,What is the location of Latham %26 Watkins LLP?,"12670 High Bluff DriveSan Diego, California  92103",1,0,0
+114,What is the location of MODUSLINK CORPORATION?,"ModusLink Corporation1601 Trapelo Road, Suite 170Waltham, Massachusetts 02451",1,0,0
+114,What is the location of MidCap Financial Services?,"7255 Woodmont Avenue, Suite 200Bethesda, Maryland 20814",1,0,0
+128,"What is the location of F5 Networks, Inc.?","801 5th Avenue, Seattle, Washington 98104",1,0,0
+128,"What is the location of JPMorgan Chase Bank, N.A.?","JPMorgan Loan Services, 500 Stanton Christiana Road, NCC5, Floor 1, Newark, DE 19713",1,0,0
+29,What is the location of AX IV Holding III ApS?,Denmark,1,0,0
+29,What is the location of AX IV Holding II ApS?,Denmark,1,0,0
+29,What is the location of Advantage Payroll Services Inc.?,Delaware,1,0,0
+29,"What is the location of CSM, Inc.?",Tennessee,1,0,0
+29,"What is the location of Century II ASO, Inc.?",Tennessee,1,0,0
+29,"What is the location of Century II Services, Inc.?",Tennessee,1,0,0
+29,"What is the location of Century II Staffing, Inc.?",Tennessee,1,0,0
+29,"What is the location of Century II Staffing, USA, Inc.?",Tennessee,1,0,0
+29,"What is the location of Century II Staffing TN, Inc.?",Tennessee,1,0,0
+29,"What is the location of DHR Insurance Services, LLC?",Delaware,1,0,0
+29,"What is the location of DHR Services Holdings, LLC?",Delaware,1,0,0
+29,"What is the location of DHR of Florida I, LLC?",Florida,1,0,0
+29,What is the location of Danske L%C3%B8nsystemer A%2FS?,Denmark,1,0,0
+29,"What is the location of ESG Achievement, Inc.?",Utah,1,0,0
+29,"What is the location of ESG Administration, Inc?",Utah,1,0,0
+29,"What is the location of ESG Assistance, Inc.?",Utah,1,0,0
+29,"What is the location of ESG Consulting, Inc.?",Utah,1,0,0
+29,"What is the location of ESG Consulting II, LLC?",Utah,1,0,0
+29,"What is the location of ESG Direction, Inc.?",Utah,1,0,0
+29,"What is the location of ESG Entities, Inc.?",Utah,1,0,0
+29,"What is the location of ESG Entities II, LLC?",Utah,1,0,0
+29,"What is the location of ESG Fulfillment, Inc.?",Utah,1,0,0
+29,"What is the location of ESG Insurance, Inc.?",Utah,1,0,0
+29,"What is the location of ESG Management, Inc.?",Utah,1,0,0
+29,"What is the location of ESG Offerings, Inc.?",Utah,1,0,0
+29,"What is the location of ESG PEO, Inc.?",Utah,1,0,0
+29,"What is the location of ESG Services, Inc.?",Utah,1,0,0
+29,"What is the location of ESG Success, Inc.?",Utah,1,0,0
+29,"What is the location of ESG Supervision, Inc.?",Utah,1,0,0
+29,"What is the location of ESSG, Inc.?",Utah,1,0,0
+29,"What is the location of Employer%27s Alliance, LLC?",Florida,1,0,0
+29,"What is the location of Employer%27s Alliance III, LLC?",Florida,1,0,0
+29,"What is the location of Employer%27s Alliance IV, LLC?",Florida,1,0,0
+29,"What is the location of Employer%27s Alliance IX, LLC?",Florida,1,0,0
+29,"What is the location of Employer%27s Alliance V, LLC?",Florida,1,0,0
+29,"What is the location of Employer%27s Alliance VI, LLC?",Florida,1,0,0
+29,"What is the location of Employer%27s Alliance VII, LLC?",Florida,1,0,0
+29,"What is the location of Employer%27s Alliance VIII, LLC?",Florida,1,0,0
+29,"What is the location of Employer%27s Select, LLC?",Florida,1,0,0
+29,"What is the location of Employer Solutions Group, Inc.?",Utah,1,0,0
+29,"What is the location of Employer Solutions Group of SLC, Inc.?",Utah,1,0,0
+29,"What is the location of Employer Solutions Group of Utah, Inc.?",Utah,1,0,0
+29,"What is the location of Employer Solutions Group of Utah II, Inc.?",Utah,1,0,0
+29,"What is the location of Employers Insurance Group, LLC?",New Mexico,1,0,0
+29,"What is the location of Employers Solutions Group of Idaho, Inc.?",Idaho,1,0,0
+29,What is the location of Expense Wire LLC?,Ohio,1,0,0
+29,"What is the location of Fast 401k, Inc. d%2Fb%2Fa ePlan Services Inc.?",Delaware,1,0,0
+29,"What is the location of Fortune Financial, Inc?",Florida,1,0,0
+29,What is the location of Fortune Industries?,Delaware,1,0,0
+29,"What is the location of Fortune Insurance Solutions, LLC?",Florida,1,0,0
+29,"What is the location of Fortune PEO, LLC?",Florida,1,0,0
+29,"What is the location of Fortune PEO Acquisitions, LLC?",Florida,1,0,0
+29,"What is the location of Gordian Capital Holdings, Inc.?",Delaware,1,0,0
+29,"What is the location of Gordian HR, LLC %28ASO%29?",Delaware,1,0,0
+29,"What is the location of HRSmarter I,LLC?",Florida,1,0,0
+29,"What is the location of HRSmarter II, LLC?",Florida,1,0,0
+29,"What is the location of HRSmarter III,LLC?",Florida,1,0,0
+29,"What is the location of HRSmarter IV,LLC?",Florida,1,0,0
+29,"What is the location of HRSmarter IX,LLC?",Florida,1,0,0
+29,"What is the location of HRSmarter V,LLC?",Florida,1,0,0
+29,"What is the location of HRSmarter VI,LLC?",Florida,1,0,0
+29,"What is the location of HRSmarter VII,LLC?",Florida,1,0,0
+29,"What is the location of HRSmarter VIII,LLC?",Florida,1,0,0
+29,"What is the location of HRSmarter X,LLC?",Florida,1,0,0
+29,"What is the location of HR Outsourcing, Inc.?",Georgia,1,0,0
+29,"What is the location of HR Outsourcing, LLC?",Delaware,1,0,0
+29,"What is the location of HR Outsourcing ASO, LLC?",Delaware,1,0,0
+29,"What is the location of HR Outsourcing Associates, LLC?",Delaware,1,0,0
+29,"What is the location of HR Outsourcing Consultants, LLC?",Delaware,1,0,0
+29,"What is the location of HR Outsourcing Development, LLC?",Delaware,1,0,0
+29,"What is the location of HR Outsourcing Enterprises, LLC?",Georgia,1,0,0
+29,"What is the location of HR Outsourcing Group, LLC?",Delaware,1,0,0
+29,"What is the location of HR Outsourcing Processing, LLC?",Nevada,1,0,0
+29,"What is the location of HR Outsourcing Services, LLC?",Delaware,1,0,0
+29,What is the location of HR Services Inc. d%2Fb%2Fa My Staffing Pro?,Ohio,1,0,0
+29,What is the location of Hispanomina %28SP%29?,Spain,1,0,0
+29,What is the location of Ipayroll Holding ApS?,Denmark,1,0,0
+29,"What is the location of King Employee Services, Inc.?",Florida,1,0,0
+29,What is the location of LESSOR A%2FS %28DK%29?,Denmark,1,0,0
+29,What is the location of Latweplace sp z.o.o. %28PL%29?,Poland,1,0,0
+29,What is the location of Lessor GmbH %28DE%29?,Germany,1,0,0
+29,What is the location of Lessor Group ApS?,Denmark,1,0,0
+29,What is the location of Lessor Holding ApS?,Denmark,1,0,0
+29,"What is the location of Nettime Solutions, L.L.C.?",Arizona,1,0,0
+29,What is the location of New Dawn Holding ApS?,Denmark,1,0,0
+29,What is the location of Norl%C3%B8nn AS %28NO%29?,Norway,1,0,0
+29,"What is the location of Oasis AHR, Inc.?",Iowa,1,0,0
+29,"What is the location of Oasis AHR HRC, LLC?",Colorado,1,0,0
+29,"What is the location of Oasis AHR Holdings, Inc.?",Delaware,1,0,0
+29,"What is the location of Oasis AHR I, Inc.?",Florida,1,0,0
+29,"What is the location of Oasis AHR II, Inc.?",Iowa,1,0,0
+29,"What is the location of Oasis AHR III, Inc.?",Iowa,1,0,0
+29,"What is the location of Oasis AHR PL, LLC?",Colorado,1,0,0
+29,"What is the location of Oasis Acquisition, Inc.?",Delaware,1,0,0
+29,"What is the location of Oasis Advisory Services, Inc.?",Florida,1,0,0
+29,"What is the location of Oasis DEG, Inc.?",Minnesota,1,0,0
+29,"What is the location of Oasis DEG ASO, Inc.?",Minnesota,1,0,0
+29,"What is the location of Oasis DHR, LLC?",Delaware,1,0,0
+29,"What is the location of Oasis Employment Services, Inc.?",Delaware,1,0,0
+29,"What is the location of Oasis HR Solutions III, Inc.?",Florida,1,0,0
+29,"What is the location of Oasis Outsourcing, Inc.?",Florida,1,0,0
+29,What is the location of Oasis Outsourcing Acquisition Corporation?,Delaware,1,0,0
+29,"What is the location of Oasis Outsourcing Admin, Inc.?",Florida,1,0,0
+29,"What is the location of Oasis Outsourcing Admin. II, Inc.?",Florida,1,0,0
+29,"What is the location of Oasis Outsourcing Admin Group, Inc.?",Florida,1,0,0
+29,"What is the location of Oasis Outsourcing Benefits III, Inc.?",Florida,1,0,0
+29,"What is the location of Oasis Outsourcing Contract, Inc.?",Florida,1,0,0
+29,"What is the location of Oasis Outsourcing Contract Group, Inc.?",Florida,1,0,0
+29,"What is the location of Oasis Outsourcing Contract II, Inc.?",Florida,1,0,0
+29,"What is the location of Oasis Outsourcing Contract III, Inc.?",Florida,1,0,0
+29,"What is the location of Oasis Outsourcing Contract IV, Inc.?",Florida,1,0,0
+29,"What is the location of Oasis Outsourcing Contract VII, Inc.?",Florida,1,0,0
+29,"What is the location of Oasis Outsourcing HR, Inc.?",Florida,1,0,0
+29,"What is the location of Oasis Outsourcing Holdings, Inc.?",Delaware,1,0,0
+29,"What is the location of Oasis Outsourcing III, Inc.?",Florida,1,0,0
+29,"What is the location of Oasis Outsourcing IX, Inc.?",Florida,1,0,0
+29,"What is the location of Oasis Outsourcing TX, Inc.?",Florida,1,0,0
+29,"What is the location of Oasis Outsourcing V, Inc.?",Florida,1,0,0
+29,"What is the location of Oasis Outsourcing VI, Inc.?",Florida,1,0,0
+29,"What is the location of Oasis Payroll Services, Inc.?",Florida,1,0,0
+29,"What is the location of Oasis Staffing, Inc.?",Florida,1,0,0
+29,"What is the location of Oasis Staffing II, Inc.?",Florida,1,0,0
+29,"What is the location of PBS of America, LLC?",Florida,1,0,0
+29,"What is the location of PBS of Central Florida, LLC?",Florida,1,0,0
+29,"What is the location of PSM Financial Services, LLC?",Indiana,1,0,0
+29,What is the location of PXC Inc.?,New York,1,0,0
+29,"What is the location of PayChex, Inc.?","1175 John Street, Rochester, New York 14586",1,0,0
+29,"What is the location of Paychex Administrative Services, LLC?",Florida,1,0,0
+29,What is the location of Paychex Advance LLC?,New York,1,0,0
+29,What is the location of Paychex Benefit Technologies Inc. d%2Fb%2Fa Benetrac?,Delaware,1,0,0
+29,What is the location of Paychex Brazil LLC?,New York,1,0,0
+29,"What is the location of Paychex Business Solutions, LLC?",Florida,1,0,0
+29,What is the location of Paychex Deutschland GmbH?,Germany,1,0,0
+29,What is the location of Paychex HR Outsourcing LLC?,Delaware,1,0,0
+29,"What is the location of Paychex Holdings, LLC?",New York,1,0,0
+29,"What is the location of Paychex Insurance Agency, Inc.?",New York,1,0,0
+29,"What is the location of Paychex Insurance Concepts, Inc.?",New York,1,0,0
+29,What is the location of Paychex Investment LLC?,Delaware,1,0,0
+29,What is the location of Paychex Management LLC?,Delaware,1,0,0
+29,What is the location of Paychex North America Inc.?,Delaware,1,0,0
+29,"What is the location of Paychex PEO I, LLC?",Florida,1,0,0
+29,"What is the location of Paychex PEO II, LLC?",Florida,1,0,0
+29,"What is the location of Paychex PEO III, LLC?",Florida,1,0,0
+29,"What is the location of Paychex PEO IV, LLC?",Florida,1,0,0
+29,"What is the location of Paychex PEO IX, LLC?",Florida,1,0,0
+29,"What is the location of Paychex PEO V, LLC?",Florida,1,0,0
+29,"What is the location of Paychex PEO VI, LLC?",Florida,1,0,0
+29,"What is the location of Paychex PEO VII, LLC?",Florida,1,0,0
+29,"What is the location of Paychex PEO VIII, LLC?",Florida,1,0,0
+29,"What is the location of Paychex PEO X, LLC?",Florida,1,0,0
+29,"What is the location of Paychex Real Estate, LLC?",New York,1,0,0
+29,"What is the location of Paychex Recordkeeping Services, Inc. d%2Fb%2Fa Southeastern Employee Benefit Services?",Delaware,1,0,0
+29,What is the location of Paychex Securities Corporation?,New York,1,0,0
+29,What is the location of Paychex Time %26 Attendance Inc.?,Delaware,1,0,0
+29,What is the location of Paychex of New York LLC?,Delaware,1,0,0
+29,"What is the location of Precision Employee Management, LLC?",Arizona,1,0,0
+29,"What is the location of Professional Staff Management, Inc.?",Indiana,1,0,0
+29,"What is the location of Professional Staff Management, Inc. II?",Indiana,1,0,0
+29,"What is the location of Professional Staff Management ASO, Inc.?",Indiana,1,0,0
+29,"What is the location of Rapid Payroll, Inc.?",California,1,0,0
+29,"What is the location of Solutions Staffing Group, Inc.?",Utah,1,0,0
+29,"What is the location of Staff One, Inc.?",Oklahoma,1,0,0
+29,"What is the location of Staff One HR, LLC?",Oklahoma,1,0,0
+29,"What is the location of Staff One HR II, Inc.?",Texas,1,0,0
+29,"What is the location of Staff One of Oklahoma, LLC?",Oklahoma,1,0,0
+29,"What is the location of SurePayroll, Inc.?",Delaware,1,0,0
+29,What is the location of Swel%C3%B8n AB %28S%29?,Sweden,1,0,0
+29,"What is the location of WRI Acquisition, Inc.?",Delaware,1,0,0
+29,"What is the location of WRI II, Inc.?",Florida,1,0,0
+29,"What is the location of WorkSmarter HR, LLC?",Wyoming,1,0,0
+29,"What is the location of Workforce Alternative, Inc.?",Florida,1,0,0
+29,What is the location of ePlan Advisors LLC?,Colorado,1,0,0
+29,What is the location of iSalaire Eurl %28FR%29?,France,1,0,0
+29,What is the location of ilohngehalt internetservices GmbH?,Germany,1,0,0
+29,"What is the location of Paychex, Inc.?","911 Panorama Trail South, Rochester, New York 14625",1,0,0
+29,What is the location of Nixon Peabody LLP?,"53 State Street, Boston, Massachusetts 02109",1,0,0
+15,"What is the location of 2477 Deerfield Drive, LLC?","110 East 59th StreetNew York, New York 1002",1,0,0
+15,What is the location of Alston %26 Bird LLP?,"90 Park AvenueNew York, New York 10016",1,0,0
+15,What is the location of Cozen O%C2%92Connor LLP?,"277 Park AvenueNew York, New York 10172",1,0,0
+15,What is the location of UBS AG?,"1285 Avenue of the AmericasNew York, New York 10019",1,0,0
+39,"What is the location of Bank of America, N.A.?","One Bryant Park, 32nd FloorNew York, NY 10036",1,0,0
+39,"What is the location of Dunkirk Specialty Steel, LLC?","830 Brigham RoadDunkirk, NY 14048",1,0,0
+39,"What is the location of North Jackson Specialty Steel, LLC?","2058 South Bailey RoadNorth Jackson, OH 44541",1,0,0
+39,"What is the location of PNC BANK, N.A.?","Two Tower Center Blvd. - 21st Floor%09  %09East Brunswick, NJ 08816",1,0,0
+11,"What is the location of DEUTSCHE BANK AG NEW YORK BRANCH,?",Director,1,0,0
+11,"What is the location of JPMORGAN CHASE BANK, N.A?","Floor 3, Ops 2500 Stanton Christiana Rd.Newark, DE 19713",1,0,0
+110,"What is the location of Mizuho Bank, Ltd.?","Harborside Financial Center1800 Plaza TenJersey City, NJ 07311",1,0,0
+104,"What is the location of Citibank, N.A.?","1615 Brett Road Building %233New Castle, DE 19720",1,0,0
+104,What is the location of Convergys CMG Insurance Services LLC?,Ohio,1,0,0
+104,What is the location of Convergys Customer Management Delaware LLC?,Delaware,1,0,0
+104,What is the location of Convergys Customer Management Group Canada Holding Inc.?,Delaware,1,0,0
+104,What is the location of Convergys Customer Management Group Inc.?,Ohio,1,0,0
+104,What is the location of Convergys Customer Management International Inc.?,Ohio,1,0,0
+104,What is the location of Convergys Government Solutions LLC?,Ohio,1,0,0
+104,"What is the location of Encore Receivable Management, Inc.?",Kansas,1,0,0
+104,"What is the location of Intervoice, LLC?",Texas,1,0,0
+104,"What is the location of SGS Holdings, Inc.?",Delaware,1,0,0
+104,"What is the location of Stream Global Services, Inc.?",Delaware,1,0,0
+104,"What is the location of Stream Global Services %E2%80%93 AZ, Inc.?",Arizona,1,0,0
+104,"What is the location of Stream Global Services %E2%80%93 US, Inc.?",Delaware,1,0,0
+104,What is the location of Stream Holdings Corporation?,Delaware,1,0,0
+104,What is the location of Stream International Inc.?,Delaware,1,0,0
+104,What is the location of Stream New York Inc.?,Delaware,1,0,0
+105,What is the location of ADM Cinema Corporation d%2Fb%2Fa the Pavilion Theatre?,"45 W. 36th Street, 7th Floor, New York, NY  10018",1,0,0
+105,"What is the location of Access Digital Cinema Phase 2, Corp.?","45 W. 36th Street, 7th Floor, New York, NY  10018",1,0,0
+105,What is the location of Access Digital Cinema Phase 2 B%2FAIX Corp.?,"45 W. 36th Street, 7th Floor, New York, NY  10018",1,0,0
+105,"What is the location of Access Digital Media, Inc.?","45 W. 36th Street, 7th Floor, New York, NY  10018",1,0,0
+105,What is the location of Bison Entertainment and Media Group?,"Unit 1501-2, 15%2FF, Sino Plaza%09 255 Gloucester Road%09 Causeway Bay, Hong Kong",1,0,0
+105,"What is the location of CDF2 Holdings, LLC?","45 W. 36th Street, 7th Floor, New York, NY  10018",1,0,0
+105,"What is the location of CON TV, LLC?","Cinedigm Corp.45 West 36th Street, 7th FloorNew York, NY 10018",1,0,0
+105,"What is the location of Christie%2FAIX, Inc.?","45 W. 36th Street, 7th Floor, New York, NY  10018",1,0,0
+105,What is the location of Cinedigm Corp.?,"45 West 36th Street, 7th Floor%09 New York, NY 10018",1,0,0
+105,"What is the location of Cinedigm DC Holdings, LLC?","45 W. 36th Street, 7th Floor, New York, NY  10018",1,0,0
+105,What is the location of Cinedigm Digital Cinema Australia Pty Ltd?,"45 W. 36th Street, 7th Floor, New York, NY  10018",1,0,0
+105,"What is the location of Cinedigm Digital Funding 2, LLC?","45 W. 36th Street, 7th Floor, New York, NY  10018",1,0,0
+105,"What is the location of Cinedigm Digital Funding I, LLC?","45 W. 36th Street, 7th Floor, New York, NY  10018",1,0,0
+105,What is the location of Cinedigm Entertainment Corp.?,"45 W. 36th Street, 7th Floor, New York, NY  10018",1,0,0
+105,"What is the location of Cinedigm Entertainment Holdings, LLC?","45 W. 36th Street, 7th Floor, New York, NY  10018",1,0,0
+105,"What is the location of Cinedigm Home Entertainment, LLC?","Cinedigm Corp.45 West 36th Street, 7th FloorNew York, NY 10018",1,0,0
+105,"What is the location of Cinedigm OTT Holdings, LLC?","Cinedigm Corp.45 West 36th Street, 7th FloorNew York, NY 10018",1,0,0
+105,"What is the location of Cinedigm Productions, LLC?","Cinedigm Corp.45 West 36th Street, 7th FloorNew York, NY 10018",1,0,0
+105,"What is the location of Docurama, LLC?","Cinedigm Corp.45 West 36th Street, 7th FloorNew York, NY 10018",1,0,0
+105,"What is the location of Dove Family Channel, LLC?","Cinedigm Corp.45 West 36th Street, 7th FloorNew York, NY 10018",1,0,0
+105,What is the location of Kelley Drye %26 Warren LLP?,"101 Park Avenue, 27th Floor%09 New York, NY 10178",1,0,0
+105,"What is the location of Vistachiara Entertainment, Inc.?","45 W. 36th Street, 7th Floor, New York, NY  10018",1,0,0
+105,"What is the location of Vistachiara Productions Inc., d%2Fb%2Fa The Bigger Picture?","45 W. 36th Street, 7th Floor, New York, NY  10018",1,0,0
+111,What is the location of Loan Party?,"Windsor Place, 4th Floor22 Queen Street,Hamilton HM11, Bermuda",1,0,0
+10,"What is the location of ROYAL BANK OF CANADA,?","200 Vesey StreetNew York, New York 10281",1,0,0
+10,"What is the location of VICTORY CAPITAL HOLDINGS, INC.,?","4900 Tiedeman Road 4th FloorBrooklyn, OH 44144",1,0,0
+38,"What is the location of JPMorgan Chase Bank, N.A?","500 Stanton Christiana Road, Ops 2, 3rd Floor, Newark, DE 19713",1,0,0
+38,"What is the location of JPMorgan Chase Bank, N.A.?","383 Madison Avenue, New York, New York 10179",1,0,0
+12,"What is the location of MIZUHO BANK, LTD.,?","Mizuho Bank, Ltd.Harborside Financial Ctr1800 Plaza TenJersey City, NJ 07311",1,0,0
+12,"What is the location of WALGREENS BOOTS ALLIANCE, INC.?","108 Wilmot RoadDeerfield, IL 60015",1,0,0
+107,What is the location of 2016090 Ontario Inc.?,Ontario,1,0,0
+107,What is the location of 2016091 Ontario Inc.?,Ontario,1,0,0
+107,What is the location of 8493642 Canada Inc.?,Canada,1,0,0
+107,What is the location of Acquisition UK Limited?,United Kingdom,1,0,0
+107,"What is the location of Cordys, Inc?",Michigan,1,0,0
+107,What is the location of Cordys %28Beijing%29 Co. Ltd?,China,1,0,0
+107,What is the location of Cordys Australia Pty. Ltd.?,Australia,1,0,0
+107,What is the location of Cordys Deutschland AG?,Germany,1,0,0
+107,What is the location of Cordys Deutschland Service GmbH?,Germany,1,0,0
+107,What is the location of Cordys France S.a.r.l.?,France,1,0,0
+107,What is the location of Cordys Holding B.V.?,Netherlands,1,0,0
+107,What is the location of Cordys Hong Kong Ltd.?,Hong Kong,1,0,0
+107,What is the location of Cordys Investments B.V.?,Netherlands,1,0,0
+107,What is the location of Cordys Israel Ltd.?,Israel,1,0,0
+107,What is the location of Cordys Japan Co. Ltd.?,Japan,1,0,0
+107,What is the location of Cordys Nederland B.V.?,Netherlands,1,0,0
+107,What is the location of Cordys Nederland B.V. - China Representation Office?,China,1,0,0
+107,What is the location of Cordys Nordics AB%2A?,Sweden,1,0,0
+107,What is the location of Cordys R%26D B.V.?,Netherlands,1,0,0
+107,What is the location of Cordys Shanghai Co. Ltd.?,China,1,0,0
+107,What is the location of Cordys Singapore Pte. Ltd.?,Singapore,1,0,0
+107,What is the location of Cordys Software B.V?,Netherlands,1,0,0
+107,What is the location of Cordys Software India Pvt. Ltd?,India,1,0,0
+107,What is the location of EC1 Pte Ltd?,Singapore,1,0,0
+107,"What is the location of EasyLink Services USA, Inc.?","Delaware, USA",1,0,0
+107,What is the location of Easylink Do Brasil Comunicacoes Ltd?,Brazil,1,0,0
+107,What is the location of Easylink Services %28Deutschland%29 GMBH?,Germany,1,0,0
+107,What is the location of Easylink Services %28France%29 S.A.R.L.?,France,1,0,0
+107,What is the location of Easylink Services %28Hong Kong%29 Limited?,Hong Kong,1,0,0
+107,What is the location of Easylink Services Australia Pty Limited?,Australia,1,0,0
+107,What is the location of Easylink Services Corp. Pte Ltd?,Singapore,1,0,0
+107,What is the location of Easylink Services Corporation India Private Limited?,India,1,0,0
+107,What is the location of Easylink Services International Corporation?,"Delaware, USA",1,0,0
+107,What is the location of Easylink Services International Limited - Ireland Branch?,Ireland,1,0,0
+107,What is the location of Easylink Services K.K.?,Japan,1,0,0
+107,What is the location of Easylink Services Korea Corporation?,Republic of Korea,1,0,0
+107,"What is the location of Easylink Services Latin America, Inc.?","Delaware, USA",1,0,0
+107,"What is the location of Federation, Inc.?","Delaware, USA",1,0,0
+107,"What is the location of Federation Web, Inc.?","Delaware, USA",1,0,0
+107,What is the location of Freeway Commerce Limited %28in liquidation%29?,United Kingdom,1,0,0
+107,"What is the location of GXS, Inc.?","Delaware, USA",1,0,0
+107,"What is the location of GXS, Investments, Inc.?","Delaware, USA",1,0,0
+107,What is the location of GXS %28ANZ%29 Pty Limited?,Australia,1,0,0
+107,What is the location of GXS %28HK%29 Limited?,Hong Kong,1,0,0
+107,What is the location of GXS %28Shanghai%29 Software Development Ltd.?,China,1,0,0
+107,What is the location of GXS AG?,Switzerland,1,0,0
+107,What is the location of GXS B.V.?,Netherlands,1,0,0
+107,What is the location of GXS Canada Inc.?,Canada,1,0,0
+107,What is the location of GXS Co. Ltd.?,Japan,1,0,0
+107,What is the location of GXS GmbH?,Germany,1,0,0
+107,"What is the location of GXS Group, Inc.?","Delaware, USA",1,0,0
+107,"What is the location of GXS Holdings, Inc.?","Delaware, USA",1,0,0
+107,What is the location of GXS Inc.?,Korea,1,0,0
+107,What is the location of GXS India Technology Centre Private Limited?,India,1,0,0
+107,"What is the location of GXS International, Inc.?","Delaware, USA",1,0,0
+107,What is the location of GXS Limited?,United Kingdom,1,0,0
+107,What is the location of GXS Ltd.?,Thailand,1,0,0
+107,What is the location of GXS Mexico S de R.L. de C.V.?,Mexico,1,0,0
+107,"What is the location of GXS Philippines, Inc?",Philippines,1,0,0
+107,What is the location of GXS Product Data Quality Limited %28in liquidation%29?,United Kingdom,1,0,0
+107,What is the location of GXS S.A.?,Belgium,1,0,0
+107,What is the location of GXS SAS?,France,1,0,0
+107,What is the location of GXS SpA?,Italy,1,0,0
+107,What is the location of GXS Tecnologia da Informaco %28Brasil%29 Ltd?,Brazil,1,0,0
+107,What is the location of GXS UK Holding Limited?,United Kingdom,1,0,0
+107,"What is the location of GXS Worldwide, Inc.?","Delaware, USA",1,0,0
+107,What is the location of Global 360 %28Australia%29 Pty Limited?,Australia,1,0,0
+107,What is the location of Global 360 China Limited?,Hong Kong,1,0,0
+107,What is the location of Global 360 China Limited - China Branch?,China,1,0,0
+107,What is the location of Global 360 Germany GmbH?,Germany,1,0,0
+107,What is the location of Global 360 Spain S.L.U.?,Spain,1,0,0
+107,"What is the location of HAHT Commerce, Inc.?","Delaware, USA",1,0,0
+107,"What is the location of Harbinger de Mexico, S. de C.V. de R.L.?",Mexico,1,0,0
+107,What is the location of Inovis UK Limited %28in liquidation%29?,United Kingdom,1,0,0
+107,"What is the location of InterCommerce Gateway, Inc.?",Philippines,1,0,0
+107,What is the location of Metastorm UK Limited?,England,1,0,0
+107,What is the location of Nstein Technologies France S.A.S.U.?,France,1,0,0
+107,What is the location of Nstein Technologies Inc.?,Quebec,1,0,0
+107,"What is the location of Ocelot Merger Sub, Inc?","Delaware, USA",1,0,0
+107,What is the location of Open Text %28Asia%29 Pte Limited?,Singapore,1,0,0
+107,What is the location of Open Text %28Hong Kong%29 Limited?,Hong Kong,1,0,0
+107,What is the location of Open Text A%2FS?,Denmark,1,0,0
+107,What is the location of Open Text AB?,Sweden,1,0,0
+107,What is the location of Open Text AG?,Switzerland,1,0,0
+107,What is the location of Open Text Brasil Comercio De Software LTDA?,Brazil,1,0,0
+107,What is the location of Open Text Canada Ltd.?,Canada,1,0,0
+107,What is the location of Open Text Co%C3%B6peratief U.A.?,Netherlands,1,0,0
+107,What is the location of Open Text Co%C3%B6peratief U.A. %E2%80%93 BELGIUM Branch?,Belgium,1,0,0
+107,What is the location of Open Text Conseil Inc.?,Canada,1,0,0
+107,What is the location of Open Text Corporation?,Canada,1,0,0
+107,What is the location of Open Text Corporation India Private Limited?,India,1,0,0
+107,What is the location of Open Text Document Technologies GmbH?,Germany,1,0,0
+107,What is the location of Open Text Finance SARL - IRELAND Place of Business?,Ireland,1,0,0
+107,What is the location of Open Text Finance Sarl?,Luxembourg,1,0,0
+107,"What is the location of Open Text Holdings, Inc.?","Delaware, USA",1,0,0
+107,What is the location of Open Text Inc.?,"Delaware, USA",1,0,0
+107,What is the location of Open Text Ireland Limited?,Ireland,1,0,0
+107,What is the location of Open Text K.K?,Japan,1,0,0
+107,What is the location of Open Text Middle East %28Open Text Inc. - United Arab Emirates Branch%29?,United Arab Emirates,1,0,0
+107,What is the location of Open Text New Zealand Limited?,New Zealand,1,0,0
+107,What is the location of Open Text OY?,Finland,1,0,0
+107,What is the location of Open Text Pty Limited?,Australia,1,0,0
+107,"What is the location of Open Text Public Sector Solutions, Inc?",Virginia,1,0,0
+107,What is the location of Open Text S. de R.L. de C.V.?,Mexico,1,0,0
+107,What is the location of Open Text S.r.l.?,Italy,1,0,0
+107,What is the location of Open Text SA?,Luxembourg,1,0,0
+107,What is the location of Open Text SARL?,France,1,0,0
+107,What is the location of Open Text SA - IRELAND place of business?,Ireland,1,0,0
+107,What is the location of Open Text Software Austria GmbH?,Austria,1,0,0
+107,What is the location of Open Text Software S.L.U.?,Spain,1,0,0
+107,What is the location of Open Text Software S.L.U. - Portugal Branch?,Portugal,1,0,0
+107,"What is the location of Open Text Software Technology %28Shanghai%29 Co., Limited?",China,1,0,0
+107,What is the location of Open Text South Africa Pty Limited?,South Africa,1,0,0
+107,What is the location of Open Text Sp.z.o.o?,Poland,1,0,0
+107,What is the location of Open Text Technologies India Private Limited?,India,1,0,0
+107,What is the location of Open Text UK Limited?,United Kingdom,1,0,0
+107,What is the location of Open Text ULC?,"Nova Scotia, Canada",1,0,0
+107,What is the location of Open Text USA Inc.?,"Delaware, USA",1,0,0
+107,What is the location of Open Text Venture Capital Investment Limited Partnership?,Ontario,1,0,0
+107,What is the location of Open Text s.r.o.?,Czech Republic,1,0,0
+107,What is the location of StreamServe Development AB?,Sweden,1,0,0
+107,What is the location of StreamServe S.a.r.l. B.V.?,Netherlands %E2%80%93 Luxembourg,1,0,0
+107,What is the location of The Easylink Services Corporation SDN. BHD?,Malaysia,1,0,0
+107,What is the location of UDEX Holdings Limited %28in liquidation%29?,United Kingdom,1,0,0
+107,What is the location of Vignette India Private Limited?,India,1,0,0
+107,"What is the location of Vignette Partnership, LP?","Delaware, USA",1,0,0
+107,"What is the location of Xpedite, Ltd?",Republic of Korea,1,0,0
+107,What is the location of Xpedite Inc.?,Japan,1,0,0
+107,"What is the location of Xpedite Systems, LLC?","Delaware, USA",1,0,0
+107,What is the location of Xpedite Systems AG?,Switzerland,1,0,0
+107,What is the location of Xpedite Systems GmbH?,Germany,1,0,0
+107,"What is the location of Xpedite Systems Holdings, Inc.?","Delaware, USA",1,0,0
+107,What is the location of Xpedite Systems Incorporated %28Malaysia%29 SDN. BHD?,Malaysia,1,0,0
+107,What is the location of Xpedite Systems Participations E.U.R.L.?,France,1,0,0
+107,What is the location of Xpedite Systems Pte Ltd?,Singapore,1,0,0
+107,What is the location of Xpedite Systems Pty Limited?,Australia,1,0,0
+107,What is the location of Xpedite Systems S.r.l.?,Italy,1,0,0
+107,What is the location of Xpedite Systems SA?,France,1,0,0
+107,"What is the location of Xpedite Systems Spain, SA?",Spain,1,0,0
+107,"What is the location of Xpedite Systems Worldwide, Inc?","Delaware, USA",1,0,0
+107,What is the location of bizzApps B.V.?,Netherlands,1,0,0
+113,"What is the location of Hurco Companies, Inc.?","One Technology WayIndianapolis, Indiana 42268 USA",1,0,0
+113,"What is the location of Bank of America, N.A.?","9000 Southside Blvd., Bldg 100Transaction Processing - FL9-100-04-24Jacksonville, FL 32256",1,0,0
+113,What is the location of Hurco B.V.?,"Prins Bernhardplein 2001097 JB Amsterdam, The Netherlands",1,0,0
+112,"What is the location of Forrester Research, Inc.?","60 Acorn Park DriveCambridge, MA 02140",1,0,0
+106,"What is the location of Akin, Gump, Strauss, Hauer %26 Feld LLP?",CALIFORNIA,1,0,0
+106,What is the location of BNY Mellon?,"101Barclay Street, FL8WNew York, New York 10286",1,0,0
+106,What is the location of Barclays Bank?,"200 Park AvenueNew York, New York 10166",1,0,0
+106,"What is the location of Casco Bay Energy Company, LLC?","CASCO BAY125 Shore RoadVeazie, ME, 04401 Penobscot County, Maine",1,0,0
+106,"What is the location of Dynegy Kendall Energy, LLC?","KENDALL1401 County Line RoadMinooka, IL 60447 Kendall and Grundy Counties, Illinois",1,0,0
+106,"What is the location of Dynegy Morro Bay, LLC?","MORRO BAY1290 EmbarcaderoMorro Bay, CA 93442 San Luis Obispo County, California",1,0,0
+106,"What is the location of Dynegy Moss Landing, LLC?","MOSS LANDINGHWY 1 %26 Dolan RoadMoss Landing, CA 95039 Monterey County, California",1,0,0
+106,"What is the location of Dynegy Oakland, LLC?","OAKLAND50 Martin Luther King WayOakland, CA 94607 Alameda County, California",1,0,0
+106,"What is the location of JPMorgan Chase Bank, N.A.?","420 W. Van Buren Street, 9th FloorSuite IL 1-0199Chicago, IL 60606-3534",1,0,0
+106,"What is the location of Ontelaunee Power Operating Company, LLC?","ONTELAUNEE5115 Pottsville PikeReading, PA 19605 Berks County, Pennsylvania",1,0,0
+106,What is the location of Pierce Atwood LLP?,MAINE,1,0,0
+106,"What is the location of Sithe%2FIndependence Power Parters, L.P.?","SITHE%281%2976 Independence WayScriba, NY 13126 Oswego County, New York",1,0,0
+106,What is the location of Stevens %26 Lee P.C.?,PENNSYLVANIA,1,0,0
+106,"What is the location of Vedder, Price, Kaufman %26 Kammholz?",ILLINOIS,1,0,0
+74,What is the location of Goodwin Procter LLP?,"100 Northern AvenueBoston, MA 02110",1,0,0
+74,"What is the location of GTT COMMUNICATIONS, INC?","7900 Tysons One Place, Suite 1450, McLean, VA 22102",1,0,0
+74,What is the location of KEYBANK NATIONAL ASSOCIATION?,"4900 Tiedeman Road%3B Mail Code%3A OH-01-49-0362, Brooklyn, Ohio 44144",1,0,0
+160,What is the location of Cahill Gordon %26 Reindel LLP?,"32 Old SlipNew York, New York 10005",1,0,0
+49,What is the location of Cortland Capital Market Services LLC?,"225 W. Washington Street, Suite 2100Chicago, Illinois 60606",1,0,0
+49,What is the location of Goldberg Kohn Ltd.?,"55 East Monroe, Suite 3300Chicago, Illinois 60603",1,0,0
+49,What is the location of RG PARENT LLC?,"1231 S. Gerhart AvenueCommerce, CA 90022",1,0,0
+49,"What is the location of Skadden, Arps, Slate, Meagher %26 Flom LLP?","300 South Grand AvenueLos Angeles, CA 90071",1,0,0
+49,What is the location of TCW ASSET MANAGEMENT COMPANY?,"200 Clarendon Street, 51st FloorBoston, Massachusetts  02116",1,0,0
+75,What is the location of J.P. MORGAN SECURITIES LLC?,"270 Park Avenue, 43rd Floor,",1,0,0
+75,"What is the location of ASPEN TECHNOLOGY, INC?","20 Crosby Drive, Bedford, MA 01730",1,0,0
+75,What is the location of JPMORGAN CHASE BANK?,"10 South Dearborn Street, Chicago, Illinois 60603",1,0,0
+77,What is the location of JPMORGAN CHASE BANK?,"10 South Dearborn StreetChicago, Illinois 60603",1,0,0
+63,What is the location of Food Industries?,"DN-CO-T4, 950 Seventeenth Street, 4th Floor, Denver, Colorado 80202",1,0,0
+63,What is the location of Sidley Austin LLP?,"One South Dearborn, Chicago, Illinois 60603",1,0,0
+88,What is the location of MUFG UNION BANK?,"445 S. Figueroa Street, Floor 10Los Angeles, CA 90071",1,0,0
+88,What is the location of Sullivan %26 Cromwell LLP?,"1888 Century Park EastLos Angeles, CA 90067",1,0,0
+88,"What is the location of j2 CLOUD SERVICES, LLC?","6922 Hollywood Blvd., Suite 500Los Angeles, CA 90028",1,0,0
+89,"What is the location of Thomas H. Lee Partners, L.P.?","100 Federal St., 35th FloorBoston, Massachusetts 02110",1,0,0
+89,What is the location of Kirkland %26 Ellis LLP?,"601 Lexington AvenueNew York, NY 10022",1,0,0
+89,"What is the location of AGILITI HEALTH, INC.?","6625 West 78th Street, Suite 300Minneapolis, MN 55439",1,0,0
+89,What is the location of JPMORGAN CHASE BANK?,"10 S. DearbornChicago, IL 60603",1,0,0
+72,What is the location of CITIBANK?,"Building %2331615 Brett RoadNew Castle, DE 19720",1,0,0
+72,What is the location of CITIGROUP GLOBAL MARKETS INC?,"25 Canada SquareCanary WharfLondon, England E14 5LB",1,0,0
+72,"What is the location of STANLEY BLACK %26 DECKER, INC?","1000 Stanley DriveNew Britain, Connecticut 06053",1,0,0
+99,"What is the location of Bass, Berry %26 Sims PLC?","150 Third Avenue South, Suite 2800Nashville, TN 37201",1,0,0
+99,"What is the location of Cracker Barrel Old Country Store, Inc.?","305 Hartman DriveP.O. Box 787Lebanon, Tennessee 37088-0787",1,0,0
+98,"What is the location of Citrix Systems, Inc.?","14 Crosby DriveBedford, MA 01730",1,0,0
+98,What is the location of Sidley Austin LLP?,"One South DearbornChicago, IL 60603",1,0,0
+166,What is the location of AV METALS INC.?,"Two Alliance Center, 3560 Lenox Road, Suite 2000, Atlanta, GA 30326, USA",1,0,0
+166,What is the location of NOVELIS INC.?,"Two Alliance Center, 3560 Lenox Road, Suite 2000, Atlanta, GA 30326, USA",1,0,0
+166,"What is the location of Skadden, Arps, Slate, Meagher %26 Flom LLP?","4 Times SquareNew York, New York 10036",1,0,0
+166,What is the location of Standard Chartered Bank?,"1 Basinghall Avenue, London EC2V 5DD",1,0,0
+166,What is the location of Torys LLP?,"1114 Avenue of the Americas, 23rd FloorNew York, New York 10036",1,0,0
+166,What is the location of BANK OF BARODA?,Dubai UAE,1,0,0
+166,What is the location of NOVELIS ALUMINIUM HOLDING UNLIMITED COMPANY?,"3560 Lenox Road, Suite 2000, Atlanta, GA 30326",1,0,0
+67,What is the location of BioPharma Credit PLC?,51 New North Road,1,0,0
+67,What is the location of Akin Gump Strauss Hauer %26 Feld LLP?,"One Bryant ParkNew York, NY 10036-6745",1,0,0
+67,What is the location of Latham %26 Watkins LLP?,"140 Scott DriveMenlo Park, CA 94025",1,0,0
+67,What is the location of Pharmakon Advisors LP?,"110 East 59th Street, %233300New York, NY 10022",1,0,0
+59,What is the location of Sidley Austin LLP?,"One South Dearborn, Chicago, Illinois 60603",1,0,0
+59,What is the location of Jones Day?,"77 W. Wacker Drive, Chicago, Illinois 60601",1,0,0
+170,"What is the location of BANK OF AMERICA, N.A.?","101 North Tryon StreetMail Code%3A NC1-001-05-46Charlotte, North Carolina 28255-0001",1,0,0
+165,"What is the location of MIZUHO BANK, LTD.?","Mizuho Bank, Ltd.1800 Plaza TenHarborside Financial CenterJersey City State%3A NJ 07311",1,0,0
+165,"What is the location of CONAGRA BRANDS, INC?","222 Merchandise Mart Plaza, Suite 1300Chicago, IL 60654",1,0,0
+70,What is the location of GREC ENTITY HOLDCO LLC?,"11 East 44th Street, Suite 1200New York, NY 10017",1,0,0
+70,What is the location of FIFTH THIRD BANK?,"201 N. Tryon Street, Suite 1700Charlotte, North Carolina 28202",1,0,0
+41,"What is the location of Citibank, N.A.?","6400 Las Colinas BoulevardIrvine, TX 75039",1,0,0
+41,What is the location of Eastern Bank?,"Eastern Bank265 Franklin Street, 2nd FloorBoston, MA 02110",1,0,0
+41,What is the location of Middlesex Savings Bank?,"6 Main StreetNatick, MA 01760",1,0,0
+41,"What is the location of Santander Bank, N.A.?","28 State Street, 16th FloorMA2-6560-CB16Boston, MA 02109",1,0,0
+41,What is the location of BMO Harris Bank N.A.?,"111 W. Monroe Street5th Floor CenterChicago, IL 60603",1,0,0
+41,What is the location of KeyBank National Association?,"225 Franklin Street 18th FloorBoston, MA 02110",1,0,0
+41,What is the location of Burns %26 Levinson LLP?,"125 Summer Street, Boston, Massachusetts 02110",1,0,0
+41,"What is the location of Webster Bank, N.A.?","100 Franklin StreetBoston, MA 02110",1,0,0
+55,What is the location of STROOCK %26 STROOCK %26 LAVAN LLP?,"180 Maiden LaneNew York, NY 10038",1,0,0
+69,"What is the location of MVP REIT II OPERATING PARTNERSHIP, LP?","8880 W. Sunset Road, Suite 300Las Vegas, NV 89148",1,0,0
+69,What is the location of Riemer %26 Braunstein LLP?,"Three Center PlazaBoston, Massachusetts  02108",1,0,0
+82,What is the location of JPMORGAN CHASE BANK?,"10 South Dearborn Street%5D%5BChicago, Illinois 60603",1,0,0
+82,What is the location of WALLAC OY?,04-2436772,1,0,0
+82,"What is the location of PERKINELMER, INC?",04-2052042,1,0,0
+168,What is the location of Citibank?,"Building Ops II, One Penns WayNew Castle, DE 19720Attn%3A Bank Loan Syndications",1,0,0
+168,"What is the location of STANLEY BLACK %26 DECKER, INC.?","1000 Stanley DriveNew Britain, Connecticut 06053",1,0,0
+168,"What is the location of CITIBANK, N.A.,?","Building Ops II, One Penns WayNew Castle, DE 19720",1,0,0
+96,What is the location of Public Service Company of New Mexico?,"414 Silver Ave. SWAlbuquerque, NM 87102-3289",1,0,0
+96,What is the location of US Bank Agency Services?,"1420 5th Avenue, 9th Floor,Seattle, WA 98101,",1,0,0
+96,What is the location of WESTERN COMMERCE BANK?,"CARLSBAD, NEW MEXICO",1,0,0
+154,What is the location of Edge Systems LLC?,"2165 E. Spring St.Long Beach, CA 90806",1,0,0
+155,What is the location of Boxlight Corporation?,"1045 Progress Circle Lawrenceville, Georgia 30043",1,0,0
+155,What is the location of Kramer Levin Naftalis %26 Frankel LLP?,"1177 Avenue of the AmericasNew York, New York 10036",1,0,0
+155,"What is the location of Whitehawk Capital Partners, LP?","11601 Wilshire Boulevard, Suite 1250 Los Angeles, CA 90025",1,0,0
+155,"What is the location of Michelman %26 Robinson, LLP?","10880 Wilshire Blvd., 19th floor Los Angeles, CA 90024",1,0,0
+169,"What is the location of CO%C3%96PERATIEVE CENTRALE RAIFFEISEN %E2%80%93 BOERENLEENBANK B.A.,%22RABOBANK NEDERLAND?",NEW YORK BRANCH,1,0,0
+169,"What is the location of CHIQUITA BRANDS INTERNATIONAL, INC.?","550 South Caldwell StreetCharlotte, North Carolina 28202",1,0,0
+97,"What is the location of Summit Healthcare REIT, Inc.?","2 South Pointe Drive, Suite 1400 %09 %09Lake Forest, California 92630",1,0,0
+97,What is the location of General Electric Capital Corporation?,"500 West Monroe Street %09 %09Chicago, Illinois 60661",1,0,0
+83,"What is the location of WESTERN DIGITAL IRELAND, LTD?","3355 Michelson DriveSuite 100Irvine, CA 92612",1,0,0
+68,"What is the location of BANK OF AMERICA, N.A.?","900 W. Trade St.Charlotte, NC 28255",1,0,0
+68,What is the location of Foley %26 Lardner LLP?,"111 Huntington AvenueBoston, MA 02199",1,0,0
+6,What is the location of Bank of China?,"444 S. Flower Street, 39th FloorLos Angeles, California 90071",1,0,0
+54,What is the location of JPMORGAN CHASE BANK?,"383 Madison Avenue, New York, New York 10179",1,0,0
+54,What is the location of Midland Loan Services?,"10851 Mastin Street, Suite 300Overland Park, Kansas 66210",1,0,0
+54,What is the location of 2018-1 IH BORROWER LP?,"c%2Fo Blackstone Real Estate Advisors L.P., 345 Park Avenue, New York, New York 10154",1,0,0
+54,What is the location of Andrascik %26 Tita LLC?,"4084 Autumn Ridge RoadBethlehem, Pennsylvania 18017",1,0,0
+40,What is the location of National General Holdings Corp.?,"59 Maiden Lane, 38th Floor, New York, NY 10038",1,0,0
+40,"What is the location of JPMorgan Chase Bank, N.A?","10 South Dearborn Street, Floor L2, Chicago, IL 60603-2003",1,0,0
+56,What is the location of Debevoise %26 Plimpton LLP?,"919 Third Avenue, New York, New York 10022",1,0,0
+42,"What is the location of Bank of America, N.A?","101 North Tryon St. 5th FloorCharlotte, NC 28255",1,0,0
+42,What is the location of WilmerHale?,"60 State StreetBoston, MA 02109 USA",1,0,0
+95,What is the location of Kaye Scholer LLP?,"425 Park AvenueNew York, New York 10022",1,0,0
+95,"What is the location of Omega Healthcare Investors, Inc?","200 International Circle, Suite 3500Hunt Valley, Maryland 21030",1,0,0
+81,"What is the location of KELTIC FINANCIAL PARTNERS II, LP?","580 White Plains RoadSuite 610Tarrytown, NY 10591",1,0,0
+157,What is the location of Frost Bank?,"P.O. Box 1600San Antonio, Texas  78296",1,0,0
+157,"What is the location of Micropac Industries, Inc.?","905 E. Walnut St.Garland, Texas 75040",1,0,0
+143,"What is the location of WELLS FARGO BANK, NATIONALASSOCIATION?","1808 Aston Avenue, Suite 250Carlsbad, CA 92008",1,0,0
+142,What is the location of BANK OF MONTREAL?,CHICAGO BRANCH,1,0,0
+156,What is the location of Davis Polk %26 Wardwell LLP?,"450 Lexington Avenue %09New York, NY 10017",1,0,0
+156,"What is the location of Gibson, Dunn %26 Crutcher?","333 South Grand Avenue %09Los Angeles, CA 90071",1,0,0
+156,"What is the location of OPTICAL COATING LABORATORY, LLC?",U.S.,1,0,0
+156,What is the location of VIAVI SOLUTIONS INC?,U.S.,1,0,0
+156,What is the location of VIAVI SOLUTIONS LL?,U.S.,1,0,0
+156,What is the location of Viavi Solutions Inc.?,"6001 America Center Drive %09San Jose, California 95002",1,0,0
+156,What is the location of VIAVI SOLUTIONS CANADA ULC?,Canadian,1,0,0
+156,What is the location of VIAVI SOLUTIONS DEUTSCHLAND GMBH?,German,1,0,0
+156,What is the location of VIAVI SOLUTIONS LICENSING LLC?,U.S.,1,0,0
+156,What is the location of VIAVI SOLUTIONS UK LIMITED?,UK,1,0,0
+156,"What is the location of WELLS FARGO BANK, NATIONAL ASSOCIATION?","1800 Century Park East, Suite 1100 %09Los Angeles, CA 90067",1,0,0
+94,"What is the location of Salix Pharmaceuticals, Ltd.?","520 Madison Avenue, New York, NY 10022",1,0,0
+94,"What is the location of SALIX PHARMACEUTICALS, LTD.?","8510 Colonnade Center Drive, Raleigh, North Carolina 27615",1,0,0
+152,What is the location of Bank of America?,"900 West Trade Street, Suite 650Mail Code%3A  NC1-026-06-01Charlotte, North Carolina 28255",1,0,0
+152,What is the location of Frost Brown Todd LLC?,"400 West Market Street, Suite 3200Louisville, Kentucky 40202",1,0,0
+152,"What is the location of MVP Detroit Center Garage, LLC?","8880 West Sunset Road, Suite 240Las Vegas, Nevada 89148",1,0,0
+84,"What is the location of Health Care REIT, Inc.?","4500 Dorr StreetToledo, Ohio 43615-4040",1,0,0
+84,"What is the location of Shumaker, Loop %26 Kendrick, LLP?","North Courthouse Square1000 Jackson StreetToledo, Ohio 43604-5573",1,0,0
+84,"What is the location of HEALTH CARE REIT, INC.?","4500 Dorr StreetToledo, Ohio 43615-4040",1,0,0
+85,"What is the location of %09ALLIED HEALTH GROUP, LLC?","135 Technology Parkway NWNorcross, Georgia 30092",1,0,0
+85,What is the location of ASSENT CONSULTING?,"380 Stevens Avenue, Suite 120Solana Beach, California 92075",1,0,0
+85,"What is the location of METROPOLITAN RESEARCH ASSOCIATES, INC.?","48815 Emperor Blvd., Suite 300Durham, North Carolina 27703",1,0,0
+85,"What is the location of MRA SEARCH, INC.?","4 City Place Drive, Suite 300Creve Coeur, Missouri 63141",1,0,0
+85,"What is the location of TRAVEL STAFF, LLC?","6551 Park of Commerce Blvd. NWBoca Raton, Florida 33487",1,0,0
+85,What is the location of BANK OF AMERICA?,"300 Galleria Parkway, Suite 800Atlanta, GA 30339",1,0,0
+85,"What is the location of CLINFORCE, LLC?","48815 Emperor Blvd., Suite 300Durham, North Carolina 27703",1,0,0
+85,"What is the location of LOCAL STAFF, LLC?","3805 W. Chester Pike, Suite 200Newtown Square, Pennsylvania 19073",1,0,0
+85,"What is the location of ASSIGNMENT AMERICA, LLC?","6551 Park of Commerce Blvd. NWBoca Raton, Florida 33487",1,0,0
+85,"What is the location of CC LOCAL, INC.?","6551 Park of Commerce Blvd. NWBoca Raton, Florida 33487",1,0,0
+85,"What is the location of CREDENT VERIFICATION AND LICENSING SERVICES, LLC?","135 Technology Parkway NWNorcross, Georgia 30092",1,0,0
+85,"What is the location of CROSS COUNTRY EDUCATION, LLC?","9020 Overlook Blvd., Suite 140Brentwood, Tennessee 37027",1,0,0
+85,"What is the location of CROSS COUNTRY PUBLISHING, LLC?","9020 Overlook Blvd., Suite 140Brentwood, Tennessee 37027",1,0,0
+85,"What is the location of CROSS COUNTRY STAFFING, INC.?","6551 Park of Commerce Blvd. NWBoca Raton, Florida 33487",1,0,0
+85,"What is the location of MCVT, INC.?","40 Eastern AvenueMalden, Massachusetts 02148-9104",1,0,0
+85,"What is the location of MDA HOLDINGS, INC.?","135 Technology Parkway NWNorcross, Georgia 30092",1,0,0
+85,"What is the location of MEDICAL DOCTOR ASSOCIATES, LLC?","135 Technology Parkway NWNorcross, Georgia 30092",1,0,0
+85,"What is the location of CROSS COUNTRY HEALTHCARE, INC.?","6551 Park of Commerce Blvd. NWBoca Raton, Florida 33487",1,0,0
+85,"What is the location of CEJKA SEARCH, INC.?","4 City Place Drive, Suite 300Creve Coeur, Missouri 63141",1,0,0
+91,What is the location of EARTHSTONE ENERGY INC?,"633 17th Street, Suite 1900Denver, Colorado 80202-3619",1,0,0
+147,What is the location of Hellman %26 Friedman LLC?,"One Maritime Plaza, 12th FloorSan Francisco, CA 94111",1,0,0
+147,"What is the location of PPD, INC.?","929 North Front StreetWilmington, NC 28401",1,0,0
+147,"What is the location of PPD, Inc.?","929 North Front StreetWilmington, NC 28401",1,0,0
+147,What is the location of The Carlyle Group?,"520 Madison Avenue, 39th FloorNew York, NY 10022",1,0,0
+147,What is the location of JPMORGAN CHASE BANK?,"500 Stanton Christiana Rd.NCC5 %2F 1st FloorNewark, DE 19713",1,0,0
+147,What is the location of Latham %26 Watkins LLP?,"885 Third AvenueNew York, NY 10022-4834",1,0,0
+153,"What is the location of JPMorgan Chase Bank, N.A?","10 South Dearborn, Floor L2S, Chicago, Illinois 60603-2300",1,0,0
+153,"What is the location of AVID TECHNOLOGY, INC.?","75 Network Drive, Burlington, MA 01803",1,0,0
+46,What is the location of Goldberg Kohn LTD.?,"55 East MonroeSuite 3300 Chicago, IL 60603",1,0,0
+46,What is the location of Locke Lord LLP?,"111 South Wacker DriveChicago, Illinois 60606",1,0,0
+46,"What is the location of MVC CAPITAL, INC.?","287 Bowman Ave %23 241Purchase, NY 10577",1,0,0
+46,What is the location of Otterbourg P.C.?,"230 Park AvenueNew York, New York 10169",1,0,0
+46,"What is the location of SANTANDER BANK, N.A.,?","830 Morris Turnpike, 3rd FloorShort Hills, NJ 07078",1,0,0
+46,"What is the location of Wintrust Bank,?","at Wintrust Bank231 S. LaSalle Street2nd FloorChicago, IL 60604",1,0,0
+52,"What is the location of CITIBANK, N.A.?","1615 Brett Road Building %233New Castle, DE 19720",1,0,0
+52,"What is the location of Citibank, N.A.?","1615 Brett Road Building %233New Castle, DE 19720",1,0,0
+52,"What is the location of JPMORGAN CHASE BANK, N.A.?","270 Park AvenueNew York, NY 10017",1,0,0
+52,"What is the location of JPMorgan Chase Bank, N.A.?","270 Park AvenueNew York, NY 10017",1,0,0
+52,What is the location of Wells Fargo Bank?,"301 South College St.Charlotte, NC 28288",1,0,0
+52,What is the location of Clorox Company?,"1221 Broadway     %09Oakland, California 94612",1,0,0
+52,What is the location of WELLS FARGO BANK?,"301 South College St.Charlotte, NC 28288",1,0,0
+78,What is the location of Davis Graham %26 Stubbs LLP?,"1550 Seventeenth Street, Suite 500Denver, Colorado 80202Attention%3A Ron Levine",1,0,0
+78,What is the location of HEARTLAND BANK?,"One Information Way, Suite 300Little Rock, Arkansas 72202",1,0,0
+78,"What is the location of LILIS ENERGY, INC?","1900 Grant StreetSuite 720Denver, CO 80203",1,0,0
+44,What is the location of FORWARD AIR CORPORATION?,"430 Airport RoadGreeneville, Tennessee 37745",1,0,0
+50,"What is the location of JPMORGAN CHASE BANK, N.A.?","10 South Dearborn, Floor L2Chicago, Illinois 60603",1,0,0
+2,What is the location of THE TORONTO-DOMINION BANK?,NEWYORK,1,0,0
+145,What is the location of NFE Management LLC?,"1209 Orange Street,Wilmington, New Castle County,Delaware 19801United States of America",1,0,0
+145,What is the location of New Fortress Energy LLC?,"111 W 19th Street, 8th Floor,New York, New York 10011",1,0,0
+145,What is the location of Cortland Capital Market Services LLC?,"225 W. Washington St., 9th FloorChicago, Illinois 60606",1,0,0
+145,"What is the location of Paul, Weiss, Rifkind, Wharton %26 Garrison LLP?","1285 Avenue of the AmericasNew York, New York 10019",1,0,0
+93,"What is the location of AUSTIN 290 PROPERTIES, INC.?","212 Lavaca Boulevard, Suite 300Austin, Texas 78701",1,0,0
+93,"What is the location of CIRCLE C LAND, L.P.?","212 Lavaca Boulevard, Suite 300Austin, Texas 78701",1,0,0
+93,What is the location of COMERICA BANK?,"300 West 6th Street, Suite 1300Austin, TX 78701",1,0,0
+93,What is the location of STRATUS PROPERTIES INC?,"212 Lavaca Boulevard, Suite 300Austin, Texas 78701",1,0,0
+93,"What is the location of STRATUS PROPERTIES OPERATING CO., L.P.?","212 Lavaca Boulevard, Suite 300Austin, Texas 78701",1,0,0
+93,"What is the location of Armbrust %26 Brown, PLLC?","100 Congress Ave, Suite 1300Austin, Texas 78701",1,0,0
+92,"What is the location of GAINE, INC.?","10003 Woodloch Forest Drive         Suite 950         The Woodlands, Texas 77380",1,0,0
+92,"What is the location of CYPRESS PHARMACEUTICALS, INC.?","10003 Woodloch Forest DriveSuite 950The Woodlands, Texas 77380",1,0,0
+92,"What is the location of GTA GP, INC.?","10003 Woodloch Forest DriveSuite 950The Woodlands, Texas 77380",1,0,0
+92,"What is the location of HAWTHORN PHARMACEUTICALS, INC.?","10003 Woodloch Forest DriveSuite 950The Woodlands, Texas 77380",1,0,0
+92,"What is the location of MACOVEN PHARMACEUTICALS, L.L.C.?","10003 Woodloch Forest Drive         Suite 950         The Woodlands, Texas 77380",1,0,0
+92,"What is the location of MIDCAP FUNDING VI, LLC,?","7725 Woodmont Ave., %23200Bethesda, Maryland 20814",1,0,0
+92,What is the location of PERNIX ACQUISITION CORP. I?,"10003 Woodloch Forest Drive         Suite 950         The Woodlands, Texas 77380",1,0,0
+92,"What is the location of PERNIX MANUFACTURING, LLC?","10003 Woodloch Forest Drive         Suite 950         The Woodlands, Texas 77380",1,0,0
+92,"What is the location of PERNIX THERAPEUTICS HOLDINGS, INC.?","10003 Woodloch Forest DriveSuite 950The Woodlands, Texas 77380",1,0,0
+92,"What is the location of RESPICOPEA, INC.?","10003 Woodloch Forest Drive         Suite 950         The Woodlands, Texas 77380",1,0,0
+92,What is the location of SunTrust Bank?,"25 Park PlaceAtlanta, Georgia 30303",1,0,0
+92,"What is the location of MIDCAP FUNDING V, LLC,?","7725 Woodmont Ave., %23200Bethesda, Maryland 20814",1,0,0
+92,"What is the location of PERNIX THERAPEUTICS, LLC?","10003 Woodloch Forest DriveSuite 950The Woodlands, Texas 77380",1,0,0
+150,What is the location of The Bank of New York Mellon?,Corporate Trust Administration    250 Greenwich Street,1,0,0
+150,What is the location of Arnold %26 Porter Kaye Scholer LLP?,"250 West 55th Street    New York, NY 10019-9710",1,0,0
+150,"What is the location of NATIONAL CINEMEDIA, LLC?","6300 South Syracuse Way, Suite 300Centennial, CO 80111",1,0,0
+150,"What is the location of WILMINGTON SAVINGS FUND SOCIETY, FSB?","500 Delaware Avenue, 11th Floor    Wilmington, DE 19081",1,0,0
+144,What is the location of MIDCAP FINANCIAL TRUST?,"7255 Woodmont Avenue, Suite 200Bethesda, Maryland 20814",1,0,0
+144,"What is the location of RADIUS HEALTH, INC.?",950 Winter StreetWaltham MA 02451,1,0,0
+144,"What is the location of RADIUS PHARMACEUTICALS, INC.?",950 Winter StreetWaltham MA 02451,1,0,0
+51,What is the location of Cahill Gordon %26 Reindel LLP?,"80 Pine Street New York, NY 10005",1,0,0
+51,What is the location of CALPINE CORPORATION?,"717 Texas Avenue Suite 1000 Houston, TX 77002",1,0,0
+51,"What is the location of MORGAN STANLEY SENIOR FUNDING, INC.?","1585 Broadway New York, NY 10036",1,0,0
+51,"What is the location of MUFG UNION BANK, N.A.?","Global Trust Services 350 California St., 11th Floor San Francisco, CA 94014",1,0,0
+45,What is the location of Kirkland %26 Ellis LLP?,"300 North LaSalle Street, Suite 2400, Chicago, Illinois",1,0,0
+45,What is the location of PINNACLE BANK?,"150 Third Avenue SouthNashville, Tennessee 37201",1,0,0
+79,What is the location of BANK OF AMERICA?,"One Fleet Way, 2nd FloorMail Code PA6-580-02-30Scranton, PA 18507",1,0,0
+79,What is the location of Royal Bank of Canada?,"200 Vesey St., 5th FloorNew York, NY 10281-8098",1,0,0
+79,What is the location of Select Income REIT?,"Two Newton Place255 Washington Street, Suite 300Newton, Massachusetts  02458-1634",1,0,0
+79,What is the location of Select Income REIT%2818%29?,"Two Newton Place255 Washington Street, Suite 300Newton, Massachusetts  02458-1634",1,0,0
+79,"What is the location of WELLS FARGO SECURITIES, LLC?","Minneapolis Loan CenterMAC N9303-110608 Second Avenue South, 11th FloorMinneapolis, Minnesota 55402-1916",1,0,0
+79,What is the location of ROYAL BANK OF CANADA?,"200 Vesey St., 5th FloorNew York, NY 10281-8098",1,0,0
+79,What is the location of SELECT INCOME REIT?,"Two Newton Place255 Washington Street, Suite 300Newton, Massachusetts 02458-1634",1,0,0
+79,"What is the location of Citibank, N.A.?","1615 Brett Road, Ops IIINew Castle, DE 19720",1,0,0
+79,"What is the location of Wells Fargo Bank, National Association?","Minneapolis Loan CenterMAC N9303-110608 Second Avenue South, 11th FloorMinneapolis, Minnesota 55402-1916",1,0,0
+79,"What is the location of WELLS FARGO BANK, NATIONAL ASSOCIATION?","550 South Tryon Street, 6th FloorCharlotte, North Carolina 28202",1,0,0
+79,What is the location of CITIGROUP GLOBAL MARKETS INC?,"1615 Brett Road, Ops IIINew Castle, DE 19720",1,0,0
+22,"What is the location of GREENBERG TRAURIG, LLP?","3333 Piedmont Road, Suite 2500Atlanta, Georgia 30305Attn%3A Timothy W. Bratcher, Esq.",1,0,0
+22,What is the location of SIMPSON THACHER %26 BARTLETT LLP?,"600 Travis StreetSuite 5400Houston, Texas 77002",1,0,0
+22,"What is the location of WELLS FARGO BANK, NATIONAL ASSOCIATION?","1100 Abernathy RoadSuite 1600130Atlanta, GA 30328",1,0,0
+22,"What is the location of OIL STATES INTERNATIONAL, INC.,?","Three Allen Center333 Clay StreetSuite 4620Houston, Texas 77002",1,0,0
+123,What is the location of Credit Suisse AG?,Cayman Islands,1,0,0
+123,What is the location of ING Bank N.V?,Dublin,1,0,0
+136,What is the location of AHR FIRST BORROWER LLC?,"4800 Montgomery Lane, %23450, Bethesda, Maryland 20814",1,0,0
+136,"What is the location of AHR FIRST BORROWER LLC,?","Montgomery Lane, %23450                                              Bethesda, Maryland 20814                                              Attention%3A  Don McClure",1,0,0
+136,What is the location of B2R FINANCE L.P.?,"Congress Street, Suite 475                                              Charlotte, NC  28209                                              Attention%3A  Katharine R. Briggs or General Counsel",1,0,0
+122,What is the location of BANK OF MONTREAL?,LONDON,1,0,0
+122,"What is the location of Citibank, N.A.?","1615 Brett Road, Building %233New Castle, Delaware 19720",1,0,0
+122,What is the location of DEUTSCHE BANK AG?,NEW YORK,1,0,0
+122,What is the location of BANK OF CHINA %28LUXEMBOURG%29?,S.A. ROTTERDAM,1,0,0
+37,What is the location of Goulston %26 Storrs?,"400 Atlantic AvenueBoston, MA 02110",1,0,0
+37,What is the location of Latham %26 Watkins LLP?,"811 Main Street, Suite 3700Houston, TX 77002",1,0,0
+37,"What is the location of Waste Connections, Inc.?","3 Waterway Square Place, Suite 110The Woodlands, TX 77380",1,0,0
+23,"What is the location of KEYBANC CAPITAL MARKETS INC.,?",Arranger,1,0,0
+23,"What is the location of MUFG BANK, LTD.,?",Arranger,1,0,0
+35,"What is the location of Banco Bilbao Argentaria, S.A.?",New York,1,0,0
+35,What is the location of Banco Bilbao Vizcaya Argentaria?,New York,1,0,0
+35,"What is the location of JPMorgan Chase Bank, N.A.?","500 Stanton Christiana Rd, Ops 2, Floor 3Newark, Delaware 19713",1,0,0
+35,What is the location of Bank of China?,New York,1,0,0
+35,What is the location of HESS CORPORATION?,"1185 Avenue of the AmericasNew York, New York 10036",1,0,0
+134,What is the location of Cahill Gordon %26 Reindel LLP?,"80 Pine StreetNew York, NY 10005",1,0,0
+120,"What is the location of Bank of America, N.A.?","Global Trade OperationsOne Fleet Way, 2nd FloorMail Code PA6-580-02-30Scranton, PA 18507",1,0,0
+120,What is the location of Equity Commonwealth?,"Two North Riverside Plaza, Suite 600Chicago, Illinois 60606",1,0,0
+120,"What is the location of JPMorgan Chase Bank, N.A.?","10420 Highland Manor Drive, Fl 4Tampa, FL 33610",1,0,0
+120,What is the location of Kirkland %26 Ellis LLP?,"300 North LaSalle StreetChicago, Illinois 60654",1,0,0
+120,What is the location of Wells Fargo Bank?,"10 South Wacker Drive, 32nd FloorChicago, Illinois 60606",1,0,0
+120,"What is the location of Wells Fargo Bank, National Association?","10 South Wacker Drive, 32nd floorChicago, Illinois 60606",1,0,0
+121,"What is the location of BANK OF EAST ASIA, LIMITED?",NEW YORK,1,0,0
+109,What is the location of Liberated Syndication Inc.?,"5001 Baum Blvd., Ste., 770Pittsburgh, PA 15213",1,0,0
+20,"What is the location of SELECTIVE INSURANCE GROUP, INC.?","40 Wantage Avenue, Branchville, New Jersey 07890",1,0,0
+34,What is the location of ITC Holdings Corp?,"27175 Energy WayNovi, MI  48377",1,0,0
+34,"What is the location of Michigan Electric Transmission Company, LLC?","27175 Energy WayNovi, MI 48377",1,0,0
+18,What is the location of Black Creek Diversified Property Operating Partnership LP?,"518 17th StreetSuite 1700Denver, CO 80202",1,0,0
+30,What is the location of Edgetech Holding Co?,Ohio,1,0,0
+30,"What is the location of Mikron Industries, Inc?",Washington,1,0,0
+30,What is the location of Mikron Washington LLC?,Washington,1,0,0
+30,What is the location of Nichols Aluminum-Alabama LLC?,Delaware,1,0,0
+30,What is the location of Nichols Aluminum LLC?,Delaware,1,0,0
+30,What is the location of Quanex Building Products Corporation?,"1900 West Loop South, Suite 1500Houston, Texas 77027",1,0,0
+30,What is the location of Quanex Homeshield LLC?,Delaware,1,0,0
+30,"What is the location of Quanex IG Systems, Inc?",Ohio,1,0,0
+30,What is the location of Quanex Screens LLC?,Delaware,1,0,0
+30,"What is the location of Quanex Services, Inc?",Delaware,1,0,0
+30,"What is the location of Truseal Technologies, Inc?",Delaware,1,0,0
+24,"What is the location of Columbia Property Trust Operating Partnership, L.P.?","One Glenlake Parkway, Suite 1200Atlanta Georgia 30328-7267",1,0,0
+24,What is the location of King %26 Spalding LLP?,"1180 Peachtree Street, NEAtlanta, GA 30309",1,0,0
+24,"What is the location of Morgan, Lewis %26 Bockius LLP?","One Federal StreetBoston, Massachusetts 02110-1726",1,0,0
+131,What is the location of BCRED Maroon Peak Funding LLC?,"345 Park Avenue, 31st FloorNew York, New York 10154",1,0,0
+131,What is the location of Blackstone Private Credit Fund?,"345 Park Avenue, 31st FloorNew York, New York 10154",1,0,0
+131,What is the location of Morgan Stanley %26 Co. LLC?,"1585 BroadwayNew York, New York 10036",1,0,0
+131,"What is the location of Morgan Stanley Senior Funding, Inc.?","1585 BroadwayNew York, New York 10036",1,0,0
+131,What is the location of U.S. Bank National Association?,"One Federal Street, Third FloorBoston, Massachusetts 02110",1,0,0
+125,What is the location of PUBLIC SERVICE COMPANY OF NEW MEXICO?,New Mexico,1,0,0
+125,What is the location of US Bank Agency Services?,"1420 5th Avenue, 9th FloorSeattle, WA 98101",1,0,0
+125,What is the location of Public Service Company of New Mexico?,"414 Silver Ave. SW, MS0905Albuquerque, New Mexico 87102-3289",1,0,0
+125,What is the location of U.S. Bank National Association?,"US Bank Utilities Division461 Fifth Avenue, 8th FloorNew York, NY 10017",1,0,0
+119,What is the location of International Finance Corporation?,"2121 Pennsylvania Avenue, N.W.Washington, D.C. 20433United States of America",1,0,0
+119,"What is the location of VAALCO Gabon %28Etame%29, Inc.?","4600 Post Oak PlaceSuite 309Houston, TX 77027",1,0,0
+118,What is the location of CREDIT SUISSE AG?,CAYMAN ISLANDS,1,0,0
+118,What is the location of Latham %26 Watkins LLP?,"885 Third AvenueNew York, NY 10022",1,0,0
+118,"What is the location of Post Holdings, Inc.?","2503 S. Hanley RoadSt. Louis, MO 63144",1,0,0
+118,"What is the location of Wells Fargo Bank, National Association?","1525 West W.T. Harris BoulevardCharlotte, NC 28262",1,0,0
+118,What is the location of Wells Fargo Corporate Banking?,"10 S. Wacker Drive 22nd FloorChicago, IL 60606",1,0,0
+118,"What is the location of Lewis, Rice %26 Fingersh, L.C?","600 Washington Avenue, Suite 2500St. Louis, MO 63101",1,0,0
+130,"What is the location of 591 Beverage, Inc.?",Nebraska,1,0,0
+130,"What is the location of 864 Beverage, Inc.?",Texas,1,0,0
+130,"What is the location of 864 Holdings, Inc.?",Delaware,1,0,0
+130,What is the location of El Dorado Properties LLC?,Arkansas,1,0,0
+130,"What is the location of Hankinson Holding, LLC?",Delaware,1,0,0
+130,"What is the location of JPMorgan Chase Bank, N.A.?","2200 Ross Avenue, 9th FloorDallas, TX 75201",1,0,0
+130,What is the location of Murphy Oil TradingCompany%28Eastern%29?,Delaware,1,0,0
+130,"What is the location of Murphy Oil USA, Inc.?",Delaware,1,0,0
+130,What is the location of Murphy USA?,"200 Peach Street, El Dorado, Arkansas 71730",1,0,0
+130,"What is the location of Murphy USA NJ, Inc.?",New Jersey,1,0,0
+130,"What is the location of QuickChek Realty, L.L.C.?",New Jersey,1,0,0
+130,What is the location of QuickChek Realty Urban Renewal LLC?,New Jersey,1,0,0
+130,What is the location of Quick Chek Corporation?,New Jersey,1,0,0
+130,What is the location of Spur Oil Corporation?,Delaware,1,0,0
+130,What is the location of Superior Crude Trading Company?,Delaware,1,0,0
+130,What is the location of The Griffin LLC Arkansas?,Arkansas,1,0,0
+31,What is the location of Visa International Service Association?,"900 Metro Center Boulevard %09Treasury, Mailstop M1-6C %09Foster City, CA 94404",1,0,0
+31,"What is the location of Bank of America, N.A?","101 N Tryon Street. %09Mail Code%3A NC1-001-05-46 %09Charlotte, North Carolina 28255-0001",1,0,0
+31,What is the location of Visa Inc?,900 Metro Center Boulevard,1,0,0
+31,What is the location of Visa Inc.?,"900 Metro Center Boulevard %09Treasury, Mailstop M1-6C %09Foster City, CA 94404",1,0,0
+31,What is the location of Visa U.S.A. Inc?,"900 Metro Center Boulevard %09Treasury, Mailstop M1-6C %09Foster City, CA 94404",1,0,0
+31,What is the location of Visa U.S.A. Inc.?,900 Metro Center Boulevard,1,0,0
+19,"What is the location of Casey%E2%80%99s General Stores, Inc?","One Convenience Blvd.Ankeny, IA 50021",1,0,0
+19,What is the location of Husch Blackwell LLP?,"4801 Main Street, Suite 1000Kansas City, MO 64112",1,0,0
+27,What is the location of Gastar Midco Holdings LLC?,"Ares Management LLC, 2000 Avenue of the Stars, 12th Floor, Los Angeles, CA  90067",1,0,0
+27,What is the location of Milbank Tweed Hadley %26 McCloy LLP?,"2029 Century Park East, 33rd Floor, Los Angeles, CA 90067",1,0,0
+27,"What is the location of AF V Energy I Holdings, L.P.?","Ares Management LLC, 2000 Avenue of the Stars, 12th Floor, Los Angeles, CA  90067",1,0,0
+126,"What is the location of BA Leasing BSC, LLC?","11333 McCormick RoadMailcode%3A MD5-032-07-05Hunt Valley, MD 21031",1,0,0
+126,"What is the location of Citibank, N.A.?","1615 Brett Road, Building %233New Castle, Delaware 19720",1,0,0
+126,"What is the location of JPMorgan Chase Bank, N.A.?","10 S. DearbornChicago, IL 60670",1,0,0
+126,"What is the location of Jabil Circuit, Inc.?","10560 Ninth StreetSt. Petersburg, FL 33716",1,0,0
+126,What is the location of Jabil Inc.?,"10560 Dr. Martin Luther King, Jr St. NorthSt. Petersburg, FL 33716",1,0,0
+132,"What is the location of ASSETMARK FINANCIAL HOLDINGS, INC.?","1655 Grant Street, 10th FloorConcord, CA 94520",1,0,0
+132,What is the location of Bank of Montreal?,"115 South LaSalle StreetChicago, Illinois 60603",1,0,0
+127,What is the location of DEUTSCHE BANK AG?,NEW YORK,1,0,0
+127,What is the location of MIZUHO BANK?,USA,1,0,0
+127,What is the location of GOLDMAN SACHS BANK?,USA,1,0,0
+32,What is the location of 6922767 HOLDING S.%C3%80 R.L.?,"13-15 avenue de la Libert%C3%A9, L-1931 Luxembourg",1,0,0
+32,What is the location of CHC Den Helder B.V.?,Netherlands,1,0,0
+32,What is the location of CHC Global Operations %282008%29 Inc?,Canada,1,0,0
+32,What is the location of CHC Global Operations International Inc?,Canada,1,0,0
+32,What is the location of CHC HELICOPTER HOLDING S.%C3%80 R.L.?,"13-15 avenue de la Libert%C3%A9, L-1931 Luxembourg",1,0,0
+32,What is the location of CHC HELICOPTER S.A?,"13-15 avenue de la Libert%C3%A9, L-1931 Luxembourg",1,0,0
+32,What is the location of CHC Holding NL B.V?,Netherlands,1,0,0
+32,What is the location of CHC Netherlands B.V?,Netherlands,1,0,0
+32,What is the location of CHC Norway Acquisition Co AS?,Norway,1,0,0
+32,What is the location of HSBC Corporate Trust Company %28UK%29 Limited?,8 Canada SquareLondon E14 5HQ,1,0,0
+32,What is the location of Heli-One %28Europe%29 AS?,Norway,1,0,0
+32,What is the location of Heli-One %28Norway%29 AS?,Norway,1,0,0
+32,What is the location of Heli-One %28U.S.%29 Inc.?,"2711 Centerville Road, Suite 400WilmingtonDelaware 19808",1,0,0
+32,What is the location of Heli-One Canada Inc?,Canada,1,0,0
+32,What is the location of Heli-One Leasing Inc?,Canada,1,0,0
+26,What is the location of BANCO BILBAO VIZCAYA ARGENTARIA?,NEW YORK,1,0,0
+26,What is the location of Commerzbank AG?,New York,1,0,0
+26,"What is the location of Morgan Stanley Senior Funding, Inc?","1585 BroadwayNew York, NY 10036",1,0,0
+26,"What is the location of Morgan Stanley Senior Funding, Inc.?","1300 Thames Street, Thames Street Wharf, 4th Floor, Baltimore, MD 21231",1,0,0
+26,What is the location of UniCredit Bank AG?,New York,1,0,0
+26,What is the location of DEUTSCHE BANK?,NEW YORK,1,0,0

@@ -1,0 +1,11 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+162,What is the position held by Mark D. Andrews but not by Michael J. Niedermaier?,Corporate Secretary,1,2,0
+162,What is the position held by Michael J. Niedermaier but not by Michael Rasmuson?,President,1,2,0
+99,What is the position held by Doug Couvillion but not by Nick Flanagan?,Treasurer,1,2,0
+82,What is the position held by David C. Francisco but not by John L. Healy?,Treasurer,1,2,0
+84,What is the position held by Alexander Wu but not by Chwan-Ming Ho?,SVP,1,2,0
+84,What is the position held by Alexander Wu but not by Edward Chen?,SVP,1,2,0
+84,What is the position held by Alexander Wu but not by Li Hua Huang?,SVP,1,2,0
+35,What is the position held by John P. Rielly but not by Timothy B. Goodell?,Chief Financial Officer,1,2,0
+121,What is the position held by Angela Chen but not by Jane Chang?,DGM,1,2,0
+121,What is the position held by Kefel Xu but not by Paul Hultgren?,Branch Manager,1,2,0

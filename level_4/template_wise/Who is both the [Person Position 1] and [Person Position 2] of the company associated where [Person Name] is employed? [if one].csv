@@ -1,0 +1,94 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+128,Who is both the Market Manager and Director of the company where Gill Skala is employed?,Leni Preciado,3,1,0
+128,Who is both the Market Manager and Director of the company where Mario De Luca is employed?,Leni Preciado,3,1,0
+11,Who is both the Vice President and Treasurer of the company where Carolyn Kee is employed?,John J. Tus,3,1,0
+11,Who is both the Vice President and Treasurer of the company where Virginia Cosenza is employed?,John J. Tus,3,1,0
+139,Who is both the Senior Vice President and Chief Financial Officer of the company where Shivani Agarwal is employed?,Jay A. Brown,3,1,0
+139,Who is both the Vice President and Authorized Signatory of the company where Eric Ridgway is employed?,Michael King,3,1,0
+139,Who is both the Vice President and Authorized Signatory of the company where Lennie Blakeslee is employed?,Michael King,3,1,0
+139,Who is both the Vice President and Authorized Signatory of the company where Michael Vondriska is employed?,Michael King,3,1,0
+139,Who is both the Vice President and Authorized Signatory of the company where Ronnie Glenn is employed?,Michael King,3,1,0
+12,Who is both the Global Treasurer and Senior Vice President of the company where Gr%C3%A1inne Kelly is employed?,Aidan Clare,3,1,0
+12,Who is both the Global Treasurer and Senior Vice President of the company where John Devlin is employed?,Aidan Clare,3,1,0
+12,Who is both the Global Treasurer and Senior Vice President of the company where Sara La Berg is employed?,Aidan Clare,3,1,0
+12,Who is both the Global Chief Administrative Officer and General Counsel of the company where Gr%C3%A1inne Kelly is employed?,Marco Pagni%3B,3,1,0
+12,Who is both the Global Chief Administrative Officer and General Counsel of the company where John Devlin is employed?,Marco Pagni%3B,3,1,0
+12,Who is both the Global Chief Administrative Officer and General Counsel of the company where Sara La Berg is employed?,Marco Pagni%3B,3,1,0
+106,Who is both the Vice President and Director of the company where Michael Getz is employed?,Kirkwood Roland,3,1,0
+106,Who is both the Vice President and Director of the company where Vanessa A. Kurbatskiy is employed?,Kirkwood Roland,3,1,0
+48,Who is both the Corporate Secretary and Vice President %E2%80%93 US Law of the company where Jonathan Rose is employed?,Chris Kaitson,3,1,0
+61,Who is both the Vice President and Director of the company where Amanuel Assefa is employed?,Jim Cahow,3,1,0
+61,Who is both the Vice President and Director of the company where Bridgett J. Manduk-Mowry is employed?,Jim Cahow,3,1,0
+61,Who is both the Vice President and Director of the company where Christopher Shafto is employed?,Jim Cahow,3,1,0
+61,Who is both the Vice President and Director of the company where Liz Cheng is employed?,Jim Cahow,3,1,0
+61,Who is both the Vice President and Director of the company where Marko Lukin is employed?,Jim Cahow,3,1,0
+89,Who is both the Managing Director and Chief Financial Officer of the company where James B. Pekarek is employed?,Charles P. Holden,3,1,0
+89,Who is both the VP Finance and SVP of the company where James Pekarek is employed?,Lee Neumann,3,1,0
+89,Who is both the VP Finance and SVP of the company where Matthew McCabe is employed?,Lee Neumann,3,1,0
+99,Who is both the President and Treasurer of the company where S. Victoria Harvey is employed?,Doug Couvillion,3,1,0
+9,Who is both the Senior Vice President and Chief Financial Officer of the company where Eric Searls is employed?,Mark E. Newman,3,1,0
+9,Who is both the Senior Vice President and Chief Financial Officer of the company where Jonathan M. Phillips is employed?,Mark E. Newman,3,1,0
+58,Who is both the Chief Executive Officer and President of the company where Michael Fleming is employed?,Dennis M. Lanfear,3,1,0
+140,Who is both the Authorized Signatory and Director of the company where Sean McKinley is employed?,Demetrios Tserpelis,3,1,0
+140,Who is both the Authorized Signatory and Director of the company where Tony Traynor is employed?,Demetrios Tserpelis,3,1,0
+83,Who is both the Senior Vice President and General Counsel of the company where Andrew Hietala is employed?,Michael Ray,3,1,0
+83,Who is both the Senior Vice President and General Counsel of the company where Michael Dixon is employed?,Michael Ray,3,1,0
+83,Who is both the Senior Vice President and General Counsel of the company where Rita E. Dillon is employed?,Michael Ray,3,1,0
+83,Who is both the Senior Vice President and General Counsel of the company where Steve Levi is employed?,Michael Ray,3,1,0
+83,Who is both the Senior Vice President and General Counsel of the company where Steve Ryan is employed?,Michael Ray,3,1,0
+83,Who is both the Senior Vice President and General Counsel of the company where Tim Leyden is employed?,Michael Ray,3,1,0
+83,Who is both the Senior Vice President and General Counsel of the company where Timothy Leyden is employed?,Michael Ray,3,1,0
+54,Who is both the Managing Director and Senior Vice President of the company where Chuckie Reddy is employed?,Jonathan Olsen,3,1,0
+42,Who is both the Chief FinancialOfficer and Senior Vice President of the company where Alan Garson is employed?,Michael J. Bufano,3,1,0
+142,"Who is both the Corporate Secretary and Vice-President, Law of the company where Jon A. Dobson is employed?",Christine R. Johnston,3,1,0
+142,"Who is both the Vice-President, Finance and Treasurer of the company where Jon A. Dobson is employed?",Joel E. Hunter,3,1,0
+156,Who is both the Executive Vice President and Chief Financial Officer and Director of the company where Guelay Mese is employed?,Henk Derksen,3,1,0
+5,Who is both the Vice President and Senior Vice President of the company where Denise Smyth is employed?,Roy E. Alexander,3,1,0
+5,Who is both the Vice President and Senior Vice President of the company where Robert Masters is employed?,Roy E. Alexander,3,1,0
+90,Who is both the Vice President and Treasurer of the company where Christopher A. Salek is employed?,William C. Whitaker,3,1,0
+90,Who is both the Vice President and Treasurer of the company where Michael Vondriska is employed?,William C. Whitaker,3,1,0
+84,Who is both the Senior Vice President and Treasurer of the company where Brian Tuerff is employed?,Michael A. Crabtree,3,1,0
+84,Who is both the Senior Vice President and Treasurer of the company where James M. Armstrong is employed?,Michael A. Crabtree,3,1,0
+84,Who is both the Senior Vice President and Treasurer of the company where Samuel A. Bluso is employed?,Michael A. Crabtree,3,1,0
+52,Who is both the Vice President of Tax and Treasurer of the company where Laura Stein is employed?,Charles R. Conradi,3,1,0
+145,Who is both the Vice President and Director of the company where Guy Major is employed?,Joseph D. Glatt,3,1,0
+145,Who is both the Vice President and Director of the company where Tammy Jennissen is employed?,Joseph D. Glatt,3,1,0
+87,Who is both the Senior Vice President and Chief Financial Officer of the company where Jennifer Yan is employed?,Ronald D. Ford,3,1,0
+87,Who is both the Vice President and Treasurer of the company where Sarah C. Lesser is employed?,Douglas B. Bingham,3,1,0
+35,Who is both the Senior Vice President and Chief Financial Officer of the company where DeVon J. Lang is employed?,John P. Rielly,3,1,0
+35,Who is both the Senior Vice President and Chief Financial Officer of the company where Joe Hykle is employed?,John P. Rielly,3,1,0
+35,Who is both the Senior Vice President and Chief Financial Officer of the company where Kelton Glasscock is employed?,John P. Rielly,3,1,0
+35,Who is both the Senior Vice President and Chief Financial Officer of the company where Sophia Love is employed?,John P. Rielly,3,1,0
+35,Who is both the Senior Vice President and General Counsel of the company where DeVon J. Lang is employed?,Timothy B. Goodell,3,1,0
+35,Who is both the Senior Vice President and General Counsel of the company where Joe Hykle is employed?,Timothy B. Goodell,3,1,0
+35,Who is both the Senior Vice President and General Counsel of the company where Kelton Glasscock is employed?,Timothy B. Goodell,3,1,0
+35,Who is both the Senior Vice President and General Counsel of the company where Sophia Love is employed?,Timothy B. Goodell,3,1,0
+121,Who is both the General Manager and VP of the company where Murtuza Ziauddin is employed?,Jane Chang,3,1,0
+121,Who is both the SVP and Director of the company where Chris Hursey is employed?,Paul Hultgren,3,1,0
+121,Who is both the SVP and Director of the company where Steven R. Bruno is employed?,Paul Hultgren,3,1,0
+121,Who is both the Vice President and General Counsel of the company where Daniel Vilarelle is employed?,Peter C. Underwood,3,1,0
+121,Who is both the Vice President and General Counsel of the company where Darran Wee is employed?,Peter C. Underwood,3,1,0
+121,Who is both the Vice President and General Counsel of the company where Eric Harvey is employed?,Peter C. Underwood,3,1,0
+121,Who is both the Vice President and General Counsel of the company where Mary R. Wright is employed?,Peter C. Underwood,3,1,0
+121,Who is both the Vice President and General Counsel of the company where S. Bradley McDougall is employed?,Peter C. Underwood,3,1,0
+121,Who is both the Vice President and General Counsel of the company where Shirley Shipley is employed?,Peter C. Underwood,3,1,0
+135,Who is both the Vice President and Treasurer of the company where Christine Aharonian is employed?,Sharon S. Spurlin,3,1,0
+135,Who is both the Vice President and Treasurer of the company where Gabriel Juarez is employed?,Sharon S. Spurlin,3,1,0
+135,Who is both the Vice President and Treasurer of the company where John C. Lozano is employed?,Sharon S. Spurlin,3,1,0
+135,Who is both the Vice President and Treasurer of the company where Reginald CRICHLOW is employed?,Sharon S. Spurlin,3,1,0
+135,Who is both the Vice President and Treasurer of the company where Rosanne Parsill is employed?,Sharon S. Spurlin,3,1,0
+135,Who is both the Vice President and Treasurer of the company where David Valentine is employed?,Sharon S. Spurlin,3,1,0
+135,Who is both the Vice President and Treasurer of the company where Les Werme is employed?,Sharon S. Spurlin,3,1,0
+135,Who is both the Vice President and Treasurer of the company where M. Colin Warman is employed?,Sharon S. Spurlin,3,1,0
+135,Who is both the Vice President and Treasurer of the company where Mark Oberreuter is employed?,Sharon S. Spurlin,3,1,0
+135,Who is both the Vice President and Treasurer of the company where Shannon Juhan is employed?,Sharon S. Spurlin,3,1,0
+135,Who is both the Vice President and Treasurer of the company where Virginia Cosenza is employed?,Sharon S. Spurlin,3,1,0
+135,Who is both the Vice President and Treasurer of the company where Hans Beekmans is employed?,Sharon S. Spurlin,3,1,0
+109,Who is both the Chief Executive Officer and Chairman of the Board and CEO of the company where Denis Yevstifeyey is employed?,Christopher J. Spencer,3,1,0
+109,Who is both the Chief Executive Officer and Chairman of the Board and CEO of the company where Douglas Polinksy is employed?,Christopher J. Spencer,3,1,0
+109,Who is both the Chief Executive Officer and Chairman of the Board and CEO of the company where J. Gregory Smith is employed?,Christopher J. Spencer,3,1,0
+109,Who is both the Chief Executive Officer and Chairman of the Board and CEO of the company where John Busshaus is employed?,Christopher J. Spencer,3,1,0
+34,Who is both the Chief Financial Officer and Executive Vice President of the company where Rejji P. Hayes is employed?,"Cameron M. Bready,",3,1,0
+34,Who is both the Vice President and General Counsel of the company where Rejji P. Hayes is employed?,Wendy A. McIntyre,3,1,0
+26,Who is both the Senior Vice President and Treasurer of the company where Katherine.kelly is employed?,Jeffrey Galik,3,1,0
+26,Who is both the Senior Vice President and Treasurer of the company where Katherine Kelly is employed?,Jeffrey Galik,3,1,0

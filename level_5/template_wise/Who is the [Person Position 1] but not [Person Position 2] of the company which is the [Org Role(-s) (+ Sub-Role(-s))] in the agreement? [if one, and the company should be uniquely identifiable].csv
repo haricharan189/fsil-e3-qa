@@ -1,0 +1,5 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+115,"Who is the Secretary but not Assistant Secretary, Chief Accounting Officer, President, Treasurer of the company which is the Borrower in the agreement?",Melanie Housey Hart,3,2,0
+115,"Who is the Secretary but not Chief Legal Officer, Vice President of the company which is the Borrower in the agreement?",Jennifer M. Neil,3,2,0
+35,Who is the Senior Vice President but not Chief Financial Officer of the company which is the Borrower in the agreement?,John P. Rielly,3,2,0
+35,Who is the Senior Vice President but not General Counsel of the company which is the Borrower in the agreement?,Timothy B. Goodell,3,2,0

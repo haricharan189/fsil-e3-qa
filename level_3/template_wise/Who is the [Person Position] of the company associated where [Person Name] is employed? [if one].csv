@@ -1,0 +1,337 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+116,Who is the COO of the company where Venu Rathi is employed?,Orit Mizrachi,3,0,0
+116,Who is the CFO of the company where Orit Mizrachi is employed?,Venu Rathi,3,0,0
+116,Who is the Managing Director of the company where Erica Knight is employed?,Nicholas Jordan,3,0,0
+116,Who is the Managing Director of the company where Nick Jordan is employed?,Nicholas Jordan,3,0,0
+115,Who is the Assistant Secretary of the company where Jennifer M. Neil is employed?,Melanie Housey Hart,3,0,0
+115,Who is the Chief Accounting Officer of the company where Jennifer M. Neil is employed?,Melanie Housey Hart,3,0,0
+115,Who is the President of the company where Jennifer M. Neil is employed?,Melanie Housey Hart,3,0,0
+115,Who is the Treasurer of the company where Jennifer M. Neil is employed?,Melanie Housey Hart,3,0,0
+115,Who is the Chief Legal Officer of the company where Melanie Housey Hart is employed?,Jennifer M. Neil,3,0,0
+115,Who is the Vice President of the company where Melanie Housey Hart is employed?,Jennifer M. Neil,3,0,0
+128,Who is the Market Manager of the company where Mario De Luca is employed?,Leni Preciado,3,0,0
+128,Who is the Market Manager of the company where Gill Skala is employed?,Leni Preciado,3,0,0
+11,Who is the Treasurer of the company where Carolyn Kee is employed?,John J. Tus,3,0,0
+11,Who is the Treasurer of the company where Virginia Cosenza is employed?,John J. Tus,3,0,0
+110,Who is the Associate Director of the company where Brendan Heneghan is employed?,Houssem Daly,3,0,0
+110,Who is the Associate Director of the company where Sydney G. Dennis is employed?,Houssem Daly,3,0,0
+110,Who is the Associate Director of the company where David L. Berger is employed?,Houssem Daly,3,0,0
+110,Who is the Associate Director of the company where Alia Qaddumi is employed?,Houssem Daly,3,0,0
+110,Who is the Associate Director of the company where Alan Dawson is employed?,Houssem Daly,3,0,0
+110,Who is the Associate Director of the company where Kenneth Chin is employed?,Houssem Daly,3,0,0
+104,Who is the Chief Financial Officer of the company where David R. Wiedwald is employed?,Andre S. Valentine,3,0,0
+104,Who is the Treasurer of the company where Andre S. Valentine is employed?,David R. Wiedwald,3,0,0
+139,Who is the Chief Financial Officer of the company where Shivani Agarwal is employed?,Jay A. Brown,3,0,0
+139,Who is the Treasurer of the company where Shivani Agarwal is employed?,Jay A. Brown,3,0,0
+139,Who is the Authorized Signatory of the company where Michael Vondriska is employed?,Michael King,3,0,0
+139,Who is the Authorized Signatory of the company where Eric Ridgway is employed?,Michael King,3,0,0
+139,Who is the Authorized Signatory of the company where Lennie Blakeslee is employed?,Michael King,3,0,0
+139,Who is the Authorized Signatory of the company where Ronnie Glenn is employed?,Michael King,3,0,0
+111,Who is the Head of Corporate Banking of the company where Louise Twiss West is employed?,Neville Grant,3,0,0
+111,Who is the Head of Financial Institutions Group of the company where Neville Grant is employed?,Louise Twiss West,3,0,0
+10,Who is the Authorized Signatory of the company where Susan Khokher is employed?,Alex Figueroa,3,0,0
+10,"Who is the Manager, Agency of the company where Alex Figueroa is employed?",Susan Khokher,3,0,0
+38,Who is the Associate Director of the company where Diego Medina is employed?,Houssem Daly,3,0,0
+38,Who is the Associate Director of the company where Sriram Chandrasekaran is employed?,Houssem Daly,3,0,0
+38,Who is the Associate Director of the company where Sherwin Brandford is employed?,Houssem Daly,3,0,0
+38,Who is the Associate Director of the company where J. Frazell is employed?,Houssem Daly,3,0,0
+38,Who is the Associate Director of the company where Kenneth Chin is employed?,Houssem Daly,3,0,0
+12,Who is the Relationship Manager of the company where Francesco Di Mario is employed?,Lorenzo Rodino,3,0,0
+12,Who is the FVP %C2%96 Head of Credit of the company where Lorenzo Rodino is employed?,Francesco Di Mario,3,0,0
+12,Who is the Global Treasurer of the company where Sara La Berg is employed?,Aidan Clare,3,0,0
+12,Who is the Senior Vice President of the company where Sara La Berg is employed?,Aidan Clare,3,0,0
+12,"Who is the Executive Vice President, of the company where Sara La Berg is employed?",Marco Pagni%3B,3,0,0
+12,Who is the General Counsel of the company where Sara La Berg is employed?,Marco Pagni%3B,3,0,0
+12,Who is the Global Chief Administrative Officer of the company where Sara La Berg is employed?,Marco Pagni%3B,3,0,0
+12,Who is the Global Treasurer of the company where John Devlin is employed?,Aidan Clare,3,0,0
+12,Who is the Senior Vice President of the company where John Devlin is employed?,Aidan Clare,3,0,0
+12,"Who is the Executive Vice President, of the company where John Devlin is employed?",Marco Pagni%3B,3,0,0
+12,Who is the General Counsel of the company where John Devlin is employed?,Marco Pagni%3B,3,0,0
+12,Who is the Global Chief Administrative Officer of the company where John Devlin is employed?,Marco Pagni%3B,3,0,0
+12,"Who is the Senior Manager, Global Treasury of the company where John Devlin is employed?",Sara La Berg,3,0,0
+12,"Who is the Executive Vice President, of the company where Aidan Clare is employed?",Marco Pagni%3B,3,0,0
+12,Who is the General Counsel of the company where Aidan Clare is employed?,Marco Pagni%3B,3,0,0
+12,Who is the Global Chief Administrative Officer of the company where Aidan Clare is employed?,Marco Pagni%3B,3,0,0
+12,"Who is the Senior Manager, Global Treasury of the company where Aidan Clare is employed?",Sara La Berg,3,0,0
+12,Who is the Global Treasurer of the company where Marco Pagni%3B is employed?,Aidan Clare,3,0,0
+12,Who is the Senior Vice President of the company where Marco Pagni%3B is employed?,Aidan Clare,3,0,0
+12,"Who is the Senior Manager, Global Treasury of the company where Marco Pagni%3B is employed?",Sara La Berg,3,0,0
+12,Who is the Global Treasurer of the company where Gr%C3%A1inne Kelly is employed?,Aidan Clare,3,0,0
+12,Who is the Senior Vice President of the company where Gr%C3%A1inne Kelly is employed?,Aidan Clare,3,0,0
+12,"Who is the Executive Vice President, of the company where Gr%C3%A1inne Kelly is employed?",Marco Pagni%3B,3,0,0
+12,Who is the General Counsel of the company where Gr%C3%A1inne Kelly is employed?,Marco Pagni%3B,3,0,0
+12,Who is the Global Chief Administrative Officer of the company where Gr%C3%A1inne Kelly is employed?,Marco Pagni%3B,3,0,0
+12,"Who is the Senior Manager, Global Treasury of the company where Gr%C3%A1inne Kelly is employed?",Sara La Berg,3,0,0
+106,Who is the Director of the company where Michael Getz is employed?,Kirkwood Roland,3,0,0
+106,Who is the Director of the company where Vanessa A. Kurbatskiy is employed?,Kirkwood Roland,3,0,0
+106,"Who is the Manager, Agency of the company where Thomas Casey is employed?",Ann Hurley,3,0,0
+106,"Who is the Manager, Agency of the company where Robert Ehudin is employed?",Ann Hurley,3,0,0
+60,Who is the Assistant Vice President of the company where Michael Maguire is employed?,Caroline Smith,3,0,0
+60,Who is the Assistant Vice President of the company where Harry Yergey is employed?,Caroline Smith,3,0,0
+60,Who is the Assistant Vice President of the company where Patrick Hartweger is employed?,Caroline Smith,3,0,0
+74,Who is the Executive Vice President and Secretary of the company where Chris McKee is employed?,Christopher T. McKee,3,0,0
+74,Who is the Senior Vice President of the company where Paula C. Gordon is employed?,Jeff Kalinowski,3,0,0
+48,Who is the Treasurer of the company where Chris Kaitson is employed?,Jonathan Rose,3,0,0
+48,Who is the Corporate Secretary of the company where Jonathan Rose is employed?,Chris Kaitson,3,0,0
+48,Who is the Vice President %E2%80%93 Law %26 Assistant of the company where Jonathan Rose is employed?,Chris Kaitson,3,0,0
+48,Who is the Vice President %E2%80%93 US Law of the company where Jonathan Rose is employed?,Chris Kaitson,3,0,0
+61,Who is the Director of the company where Marko Lukin is employed?,Jim Cahow,3,0,0
+61,Who is the Director of the company where Bridgett J. Manduk-Mowry is employed?,Jim Cahow,3,0,0
+61,Who is the Director of the company where Christopher Shafto is employed?,Jim Cahow,3,0,0
+61,Who is the Director of the company where Liz Cheng is employed?,Jim Cahow,3,0,0
+61,Who is the Director of the company where Amanuel Assefa is employed?,Jim Cahow,3,0,0
+88,Who is the Chief Financial Officer of the company where Steve Dunn is employed?,R. Scott Turicchi,3,0,0
+88,Who is the President of the company where Steve Dunn is employed?,R. Scott Turicchi,3,0,0
+88,Who is the Chief Financial Officer of the company where Jeremy Rossen is employed?,R. Scott Turicchi,3,0,0
+88,Who is the President of the company where Jeremy Rossen is employed?,R. Scott Turicchi,3,0,0
+162,Who is the Chief Compliance Officer of the company where Michael J. Niedermaier is employed?,Michael Rasmuson,3,0,0
+162,Who is the General Counsel of the company where Michael J. Niedermaier is employed?,Michael Rasmuson,3,0,0
+162,Who is the Senior Vice President of the company where Michael J. Niedermaier is employed?,Michael Rasmuson,3,0,0
+162,Who is the President of the company where Michael Rasmuson is employed?,Michael J. Niedermaier,3,0,0
+89,Who is the Managing Director of the company where James B. Pekarek is employed?,Charles P. Holden,3,0,0
+89,Who is the General Counsel of the company where Matthew McCabe is employed?,Lee Neumann,3,0,0
+89,Who is the SVP of the company where Matthew McCabe is employed?,Lee Neumann,3,0,0
+89,Who is the Treasurer of the company where Matthew McCabe is employed?,Lee Neumann,3,0,0
+89,Who is the VP Finance of the company where Matthew McCabe is employed?,Lee Neumann,3,0,0
+89,Who is the General Counsel of the company where James Pekarek is employed?,Lee Neumann,3,0,0
+89,Who is the SVP of the company where James Pekarek is employed?,Lee Neumann,3,0,0
+89,Who is the Treasurer of the company where James Pekarek is employed?,Lee Neumann,3,0,0
+89,Who is the VP Finance of the company where James Pekarek is employed?,Lee Neumann,3,0,0
+89,Who is the Managing Director of the company where Leonida Mischke is employed?,Sabir Hashmy,3,0,0
+99,Who is the Treasurer of the company where S. Victoria Harvey is employed?,Doug Couvillion,3,0,0
+166,Who is the Chief Executive of the company where Sandeep Patnaik is employed?,Rachit Bhatia,3,0,0
+166,Who is the Head - CBO of the company where Rachit Bhatia is employed?,Sandeep Patnaik,3,0,0
+166,Who is the Senior RM %E2%80%93 Trade %26 Export Finance of the company where Vikashh Mehta is employed?,Nishant Kumar,3,0,0
+166,Who is the Head- Corporate %26 Investment Banking of the company where Nishant Kumar is employed?,Vikashh Mehta,3,0,0
+166,"Who is the Managing Director, Head of Credit and Trading Risk of the company where Lisa Kwok is employed?",Richard Cox,3,0,0
+166,"Who is the Director, Credit Risk Management of the company where Richard Cox is employed?",Lisa Kwok,3,0,0
+166,Who is the Senior Executive Vice President of the company where Dipak Gupta is employed?,Rajeev Mohan,3,0,0
+166,Who is the Joint Managing Director of the company where Rajeev Mohan is employed?,Dipak Gupta,3,0,0
+166,"Who is the Manager, CRC of the company where Simon Williams is employed?",James Perkins,3,0,0
+166,Who is the Legal Counsel of the company where Simon Williams is employed?,Valdeep Singh,3,0,0
+166,Who is the Head CRC of the company where James Perkins is employed?,Simon Williams,3,0,0
+166,Who is the Legal Counsel of the company where James Perkins is employed?,Valdeep Singh,3,0,0
+166,"Who is the Manager, CRC of the company where Valdeep Singh is employed?",James Perkins,3,0,0
+166,Who is the Head CRC of the company where Valdeep Singh is employed?,Simon Williams,3,0,0
+67,Who is the CEO of the company where McDavid Stilwell is employed?,Dennis M. Lanfear,3,0,0
+9,Who is the Executive Director of the company where Ido Yehuda is employed?,Peter Predun,3,0,0
+9,Who is the Chief Financial Officer of the company where Jonathan M. Phillips is employed?,Mark E. Newman,3,0,0
+9,Who is the Treasurer of the company where Jonathan M. Phillips is employed?,Mark E. Newman,3,0,0
+9,Who is the Chief Financial Officer of the company where Denise R. Cade is employed?,Mark E. Newman,3,0,0
+9,Who is the Treasurer of the company where Denise R. Cade is employed?,Mark E. Newman,3,0,0
+9,Who is the Chief Financial Officer of the company where Eric Searls is employed?,Mark E. Newman,3,0,0
+9,Who is the Treasurer of the company where Eric Searls is employed?,Mark E. Newman,3,0,0
+165,Who is the Investor Relations Officer of the company where Colleen Batcheler is employed?,Johan Nystedt,3,0,0
+165,Who is the Treasurer of the company where Colleen Batcheler is employed?,Johan Nystedt,3,0,0
+165,Who is the Vice President of the company where Colleen Batcheler is employed?,Johan Nystedt,3,0,0
+165,Who is the Corporate Secretary of the company where Johan Nystedt is employed?,Colleen Batcheler,3,0,0
+165,Who is the General Counsel of the company where Johan Nystedt is employed?,Colleen Batcheler,3,0,0
+165,Who is the Managing Director of the company where Pacella Lehane is employed?,Peter Duncan,3,0,0
+165,Who is the Managing Director of the company where Ryan Zimmerman is employed?,Peter Duncan,3,0,0
+165,Who is the Managing Director of the company where Brigitte M. Sinclair is employed?,Peter Duncan,3,0,0
+165,Who is the Managing Director of the company where Bridgett J. Manduk Mowry is employed?,Peter Duncan,3,0,0
+58,Who is the Chief Executive Officer of the company where Michael Fleming is employed?,Dennis M. Lanfear,3,0,0
+140,Who is the Authorized Signatory of the company where Tony Traynor is employed?,Demetrios Tserpelis,3,0,0
+140,Who is the Authorized Signatory of the company where Sean McKinley is employed?,Demetrios Tserpelis,3,0,0
+154,Who is the Authorized Officer of the company where Tischar N Luckett is employed?,Erica Cross,3,0,0
+155,Who is the Chief Executive Officer of the company where Patrick Foley is employed?,Michael Pope,3,0,0
+155,Who is the Chief Financial Officer of the company where Michael Pope is employed?,Patrick Foley,3,0,0
+155,Who is the Director of the company where Michael Pope is employed?,Patrick Foley,3,0,0
+155,Who is the Statutory Director of the company where Michael Pope is employed?,Patrick Foley,3,0,0
+169,Who is the Executive Director of the company where Jeff Bliss is employed?,Timothy J. Devane,3,0,0
+169,Who is the Vice President of the company where Timothy J. Devane is employed?,Jeff Bliss,3,0,0
+97,Who is the Chief Counsel- %09 %09HFS Real Estate of the company where Jeffrey M. Muchmore is employed?,Diana Pennington,3,0,0
+97,Who is the Managing Director of the company where Diana Pennington is employed?,Jeffrey M. Muchmore,3,0,0
+83,"Who is the Corporate Banking, Directo of the company where Ivan Vera is employed?",Juan Segundo,3,0,0
+83,Who is the VP Credit and Documentation of the company where Juan Segundo is employed?,Ivan Vera,3,0,0
+83,Who is the Credit Documentation Manager of the company where Johanna Minaya is employed?,Robert K. Reddington,3,0,0
+83,Who is the Associate Director of the company where Robert K. Reddington is employed?,Johanna Minaya,3,0,0
+83,Who is the SVP %26 COO of the company where James Hua is employed?,Danny Leung,3,0,0
+83,Who is the SVP of the company where Danny Leung is employed?,James Hua,3,0,0
+83,Who is the Credit Executive of the company where Teresita Siao is employed?,Keith Winzenried,3,0,0
+83,Who is the Credit Executive of the company where Teresita Siao is employed?,Keith Winzenried,3,0,0
+83,Who is the General Counsel of the company where Timothy Leyden is employed?,Michael Ray,3,0,0
+83,Who is the Secretary of the company where Timothy Leyden is employed?,Michael Ray,3,0,0
+83,Who is the General Counsel of the company where Andrew Hietala is employed?,Michael Ray,3,0,0
+83,Who is the Secretary of the company where Andrew Hietala is employed?,Michael Ray,3,0,0
+83,Who is the General Counsel of the company where Tim Leyden is employed?,Michael Ray,3,0,0
+83,Who is the Secretary of the company where Tim Leyden is employed?,Michael Ray,3,0,0
+83,Who is the General Counsel of the company where Steve Ryan is employed?,Michael Ray,3,0,0
+83,Who is the Secretary of the company where Steve Ryan is employed?,Michael Ray,3,0,0
+83,Who is the General Counsel of the company where Rita E. Dillon is employed?,Michael Ray,3,0,0
+83,Who is the Secretary of the company where Rita E. Dillon is employed?,Michael Ray,3,0,0
+83,Who is the General Counsel of the company where Steve Levi is employed?,Michael Ray,3,0,0
+83,Who is the Secretary of the company where Steve Levi is employed?,Michael Ray,3,0,0
+83,Who is the General Counsel of the company where Michael Dixon is employed?,Michael Ray,3,0,0
+83,Who is the Secretary of the company where Michael Dixon is employed?,Michael Ray,3,0,0
+54,Who is the Senior Vice President of the company where Chuckie Reddy is employed?,Jonathan Olsen,3,0,0
+42,Who is the Chief FinancialOfficer of the company where Alan Garson is employed?,Michael J. Bufano,3,0,0
+42,Who is the Chief Financial Officer of the company where Alan Garson is employed?,Michael J. Bufano,3,0,0
+42,Who is the Treasurer of the company where Alan Garson is employed?,Michael J. Bufano,3,0,0
+157,Who is the Vice President of the company where Nicholas Nadolsky is employed?,Jason Purser,3,0,0
+157,Who is the Owner of Record of the company where Jason Purser is employed?,Nicholas Nadolsky,3,0,0
+142,Who is the Senior Financing Manager of the company where Raj Acharya is employed?,Martin Eyok,3,0,0
+142,Who is the Financing Manager of the company where Martin Eyok is employed?,Raj Acharya,3,0,0
+142,Who is the Associate of the company where Jeff Cebryk is employed?,Jonathan Leach,3,0,0
+142,"Who is the Vice-President, Law of the company where Jon A. Dobson is employed?",Christine R. Johnston,3,0,0
+142,Who is the Treasurer of the company where Jon A. Dobson is employed?,Joel E. Hunter,3,0,0
+142,"Who is the Vice-President, Finance of the company where Jon A. Dobson is employed?",Joel E. Hunter,3,0,0
+142,"Who is the Vice-President, Law of the company where Joel E. Hunter is employed?",Christine R. Johnston,3,0,0
+142,Who is the Treasurer of the company where Christine R. Johnston is employed?,Joel E. Hunter,3,0,0
+142,"Who is the Vice-President, Finance of the company where Christine R. Johnston is employed?",Joel E. Hunter,3,0,0
+156,Who is the Chief Financial Officer of the company where Guelay Mese is employed?,Henk Derksen,3,0,0
+156,Who is the Executive Vice President and Chief Financial Officer of the company where Guelay Mese is employed?,Henk Derksen,3,0,0
+94,Who is the Vice President of the company where Edward T. Crook is employed?,J. St%C3%A9phane Lautner,3,0,0
+94,Who is the Managing Director of the company where J. St%C3%A9phane Lautner is employed?,Edward T. Crook,3,0,0
+57,Who is the Managing Director of the company where Betsy Briggs is employed?,Julien Tizorin,3,0,0
+57,Who is the Associate Director of the company where Julien Tizorin is employed?,Betsy Briggs,3,0,0
+5,Who is the Vice President of the company where Denise Smyth is employed?,Roy E. Alexander,3,0,0
+5,Who is the Vice President of the company where Robert Masters is employed?,Roy E. Alexander,3,0,0
+152,Who is the Esq of the company where Michael Thomas is employed?,Craig D. Burr,3,0,0
+90,Who is the Treasurer of the company where Christopher A. Salek is employed?,William C. Whitaker,3,0,0
+90,Who is the Treasurer of the company where Michael Vondriska is employed?,William C. Whitaker,3,0,0
+84,Who is the VP of the company where Alexander Wu is employed?,Chwan-Ming Ho,3,0,0
+84,Who is the SVP of the company where Chwan-Ming Ho is employed?,Alexander Wu,3,0,0
+84,Who is the Treasurer of the company where Samuel A. Bluso is employed?,Michael A. Crabtree,3,0,0
+84,Who is the Treasurer of the company where Brian Tuerff is employed?,Michael A. Crabtree,3,0,0
+84,Who is the Treasurer of the company where James M. Armstrong is employed?,Michael A. Crabtree,3,0,0
+84,Who is the Servicing Officer of the company where Bershunda J. Taylor is employed?,Audrey Pishnery,3,0,0
+84,Who is the Manager of the company where Bershunda J. Taylor is employed?,Elsa O%C2%92Brien,3,0,0
+84,Who is the Servicing Officer of the company where Kristy Ahee is employed?,Audrey Pishnery,3,0,0
+84,Who is the Manager of the company where Kristy Ahee is employed?,Elsa O%C2%92Brien,3,0,0
+84,Who is the Servicing Officer of the company where Scott O%C2%92Connell is employed?,Audrey Pishnery,3,0,0
+84,Who is the Manager of the company where Scott O%C2%92Connell is employed?,Elsa O%C2%92Brien,3,0,0
+84,Who is the Servicing Officer of the company where Elsa O%C2%92Brien is employed?,Audrey Pishnery,3,0,0
+84,Who is the Servicing Officer of the company where Laura Conway is employed?,Audrey Pishnery,3,0,0
+84,Who is the Manager of the company where Laura Conway is employed?,Elsa O%C2%92Brien,3,0,0
+84,Who is the Servicing Officer of the company where Kirby R. Holman is employed?,Audrey Pishnery,3,0,0
+84,Who is the Manager of the company where Kirby R. Holman is employed?,Elsa O%C2%92Brien,3,0,0
+84,Who is the Manager of the company where Audrey Pishnery is employed?,Elsa O%C2%92Brien,3,0,0
+84,Who is the Servicing Officer of the company where Christina P. Blackwell is employed?,Audrey Pishnery,3,0,0
+84,Who is the Manager of the company where Christina P. Blackwell is employed?,Elsa O%C2%92Brien,3,0,0
+84,Who is the Servicing Officer of the company where John C. Rowland is employed?,Audrey Pishnery,3,0,0
+84,Who is the Manager of the company where John C. Rowland is employed?,Elsa O%C2%92Brien,3,0,0
+85,Who is the Assistant Controller of the company where Susan E. Ball is employed?,Emil Hensel,3,0,0
+85,Who is the Chief Financial Officer of the company where Susan E. Ball is employed?,Emil Hensel,3,0,0
+85,Who is the Vice President of the company where Susan E. Ball is employed?,Emil Hensel,3,0,0
+85,Who is the Vice President%09 of the company where Susan E. Ball is employed?,Emil Hensel,3,0,0
+85,Who is the Assistant Controller of the company where Susan E. Ball is employed?,Emil Hensel,3,0,0
+85,Who is the Chief Financial Officer of the company where Susan E. Ball is employed?,Emil Hensel,3,0,0
+85,Who is the Vice President of the company where Susan E. Ball is employed?,Emil Hensel,3,0,0
+85,Who is the Vice President%09 of the company where Susan E. Ball is employed?,Emil Hensel,3,0,0
+52,Who is the Treasurer of the company where Laura Stein is employed?,Charles R. Conradi,3,0,0
+52,Who is the Vice President of Tax of the company where Laura Stein is employed?,Charles R. Conradi,3,0,0
+52,Who is the Executive Vice President of the company where Charles R. Conradi is employed?,Laura Stein,3,0,0
+44,Who is the Vice President of the company where Tiffany E. Gardner is employed?,Maria A. McClain,3,0,0
+44,Who is the Vice President of the company where John M. Hall is employed?,Maria A. McClain,3,0,0
+145,Who is the Vice President of the company where Tammy Jennissen is employed?,Joseph D. Glatt,3,0,0
+145,Who is the Vice President of the company where Guy Major is employed?,Joseph D. Glatt,3,0,0
+151,Who is the Drector of the company where Tanille Ingle is employed?,Joseph L. Corah,3,0,0
+151,Who is the Drector of the company where Christopher Coney is employed?,Joseph L. Corah,3,0,0
+151,Who is the Drector of the company where Robert Botcherby is employed?,Joseph L. Corah,3,0,0
+151,Who is the Drector of the company where Richard Rivera is employed?,Joseph L. Corah,3,0,0
+87,Who is the Chief Financial Officer of the company where Jennifer Yan is employed?,Ronald D. Ford,3,0,0
+87,Who is the Treasurer of the company where Sarah C. Lesser is employed?,Douglas B. Bingham,3,0,0
+150,Who is the CEO of the company where Ronnie Ng is employed?,Tom Lesinski,3,0,0
+150,"Who is the Vice President of the company where R. Goldsborough, P. Healy is employed?",Raye Goldsborough,3,0,0
+144,Who is the Treasurer of the company where Jose Carmona is employed?,Jos%C3%A9 I. Carmona,3,0,0
+144,Who is the Vice President of the company where Howard Widra is employed?,Joseph D. Glatt,3,0,0
+144,Who is the Vice President of the company where Sheriff Ibrahim is employed?,Joseph D. Glatt,3,0,0
+144,Who is the Vice President of the company where Jonathan Krain is employed?,Joseph D. Glatt,3,0,0
+3,Who is the Vice President of the company where Cindy Jordan is employed?,Kyle Pearson,3,0,0
+3,Who is the AVP of the company where Kyle Pearson is employed?,Cindy Jordan,3,0,0
+45,Who is the Client Services Representative of the company where Eric Niedbalski is employed?,"Cynthia M. Olson,",3,0,0
+45,Who is the Senior Vice President of the company where Eric Niedbalski is employed?,Mark R. Cousineau,3,0,0
+45,Who is the Client Services Representative of the company where Mark R. Cousineau is employed?,"Cynthia M. Olson,",3,0,0
+45,Who is the Portfolio Manager of the company where Mark R. Cousineau is employed?,Eric Niedbalski,3,0,0
+45,"Who is the Portfolio Manager of the company where Cynthia M. Olson, is employed?",Eric Niedbalski,3,0,0
+45,"Who is the Senior Vice President of the company where Cynthia M. Olson, is employed?",Mark R. Cousineau,3,0,0
+137,Who is the Authorized Signatory of the company where Julie Camarra is employed?,Joshua Freedman,3,0,0
+137,Who is the Authorized Signatory of the company where Ian LaRoche is employed?,Joshua Freedman,3,0,0
+35,"Who is the Associate Director, of the company where Steve Aloupis is employed?",Hsing H. Huang,3,0,0
+35,Who is the Managing Director Capital Markets of the company where Hsing H. Huang is employed?,Steve Aloupis,3,0,0
+35,Who is the Managing Director of the company where J. Frazell is employed?,Diane Pockaj,3,0,0
+35,Who is the Managing Director of the company where Nurys Maleki is employed?,Diane Pockaj,3,0,0
+35,Who is the Managing Director of the company where Steven Smith is employed?,Diane Pockaj,3,0,0
+35,Who is the Managing Director of the company where Claudia Zarate is employed?,Diane Pockaj,3,0,0
+35,Who is the General Counsel of the company where John P. Rielly is employed?,Timothy B. Goodell,3,0,0
+35,Who is the Chief Financial Officer of the company where Timothy B. Goodell is employed?,John P. Rielly,3,0,0
+35,Who is the Chief Financial Officer of the company where Joe Hykle is employed?,John P. Rielly,3,0,0
+35,Who is the General Counsel of the company where Joe Hykle is employed?,Timothy B. Goodell,3,0,0
+35,Who is the Chief Financial Officer of the company where DeVon J. Lang is employed?,John P. Rielly,3,0,0
+35,Who is the General Counsel of the company where DeVon J. Lang is employed?,Timothy B. Goodell,3,0,0
+35,Who is the Chief Financial Officer of the company where Kelton Glasscock is employed?,John P. Rielly,3,0,0
+35,Who is the General Counsel of the company where Kelton Glasscock is employed?,Timothy B. Goodell,3,0,0
+35,Who is the Chief Financial Officer of the company where Sophia Love is employed?,John P. Rielly,3,0,0
+35,Who is the General Counsel of the company where Sophia Love is employed?,Timothy B. Goodell,3,0,0
+121,Who is the General Manager of the company where Murtuza Ziauddin is employed?,Jane Chang,3,0,0
+121,Who is the SVP of the company where Steven R. Bruno is employed?,Paul Hultgren,3,0,0
+121,Who is the SVP of the company where Chris Hursey is employed?,Paul Hultgren,3,0,0
+121,Who is the General Counsel of the company where S. Bradley McDougall is employed?,Peter C. Underwood,3,0,0
+121,Who is the Secretary of the company where S. Bradley McDougall is employed?,Peter C. Underwood,3,0,0
+121,Who is the General Counsel of the company where Daniel Vilarelle is employed?,Peter C. Underwood,3,0,0
+121,Who is the Secretary of the company where Daniel Vilarelle is employed?,Peter C. Underwood,3,0,0
+121,Who is the General Counsel of the company where Eric Harvey is employed?,Peter C. Underwood,3,0,0
+121,Who is the Secretary of the company where Eric Harvey is employed?,Peter C. Underwood,3,0,0
+121,Who is the General Counsel of the company where Mary R. Wright is employed?,Peter C. Underwood,3,0,0
+121,Who is the Secretary of the company where Mary R. Wright is employed?,Peter C. Underwood,3,0,0
+121,Who is the General Counsel of the company where Shirley Shipley is employed?,Peter C. Underwood,3,0,0
+121,Who is the Secretary of the company where Shirley Shipley is employed?,Peter C. Underwood,3,0,0
+121,Who is the General Counsel of the company where Darran Wee is employed?,Peter C. Underwood,3,0,0
+121,Who is the Secretary of the company where Darran Wee is employed?,Peter C. Underwood,3,0,0
+135,Who is the Vice President of the company where Cheryl LaBelle is employed?,Hans Beekmans,3,0,0
+135,Who is the Managing Director of the company where Hans Beekmans is employed?,Cheryl LaBelle,3,0,0
+135,Who is the Treasurer of the company where Virginia Cosenza is employed?,Sharon S. Spurlin,3,0,0
+135,Who is the Treasurer of the company where Mark Oberreuter is employed?,Sharon S. Spurlin,3,0,0
+135,Who is the Treasurer of the company where Reginald CRICHLOW is employed?,Sharon S. Spurlin,3,0,0
+135,Who is the Treasurer of the company where Christine Aharonian is employed?,Sharon S. Spurlin,3,0,0
+135,Who is the Treasurer of the company where Rosanne Parsill is employed?,Sharon S. Spurlin,3,0,0
+135,Who is the Treasurer of the company where Hans Beekmans is employed?,Sharon S. Spurlin,3,0,0
+135,Who is the Treasurer of the company where John C. Lozano is employed?,Sharon S. Spurlin,3,0,0
+135,Who is the Treasurer of the company where M. Colin Warman is employed?,Sharon S. Spurlin,3,0,0
+135,Who is the Treasurer of the company where Shannon Juhan is employed?,Sharon S. Spurlin,3,0,0
+135,Who is the Treasurer of the company where Les Werme is employed?,Sharon S. Spurlin,3,0,0
+135,Who is the Treasurer of the company where David Valentine is employed?,Sharon S. Spurlin,3,0,0
+135,Who is the Treasurer of the company where Gabriel Juarez is employed?,Sharon S. Spurlin,3,0,0
+109,Who is the CEO of the company where John Busshaus is employed?,Christopher J. Spencer,3,0,0
+109,Who is the Chief Executive Officer and Chairman of the Board of the company where John Busshaus is employed?,Christopher J. Spencer,3,0,0
+109,Who is the CEO of the company where Denis Yevstifeyey is employed?,Christopher J. Spencer,3,0,0
+109,Who is the Chief Executive Officer and Chairman of the Board of the company where Denis Yevstifeyey is employed?,Christopher J. Spencer,3,0,0
+109,Who is the Chief Financial Officer of the company where Denis Yevstifeyey is employed?,John Busshaus,3,0,0
+109,Who is the CEO of the company where J. Gregory Smith is employed?,Christopher J. Spencer,3,0,0
+109,Who is the Chief Executive Officer and Chairman of the Board of the company where J. Gregory Smith is employed?,Christopher J. Spencer,3,0,0
+109,Who is the Chief Financial Officer of the company where J. Gregory Smith is employed?,John Busshaus,3,0,0
+109,Who is the Chief Financial Officer of the company where Christopher J. Spencer is employed?,John Busshaus,3,0,0
+109,Who is the CEO of the company where Douglas Polinksy is employed?,Christopher J. Spencer,3,0,0
+109,Who is the Chief Executive Officer and Chairman of the Board of the company where Douglas Polinksy is employed?,Christopher J. Spencer,3,0,0
+109,Who is the Chief Financial Officer of the company where Douglas Polinksy is employed?,John Busshaus,3,0,0
+34,Who is the Chief Financial Officer of the company where Rejji P. Hayes is employed?,"Cameron M. Bready,",3,0,0
+34,Who is the Executive Vice President of the company where Rejji P. Hayes is employed?,"Cameron M. Bready,",3,0,0
+34,Who is the General Counsel of the company where Rejji P. Hayes is employed?,Wendy A. McIntyre,3,0,0
+34,Who is the Secretary of the company where Rejji P. Hayes is employed?,Wendy A. McIntyre,3,0,0
+34,Who is the Vice President of the company where Rejji P. Hayes is employed?,Wendy A. McIntyre,3,0,0
+34,Who is the Chief Financial Officer of the company where Wendy A. McIntyre is employed?,"Cameron M. Bready,",3,0,0
+34,Who is the Executive Vice President of the company where Wendy A. McIntyre is employed?,"Cameron M. Bready,",3,0,0
+34,"Who is the Vice President, Finance and Treasurer of the company where Wendy A. McIntyre is employed?",Rejji P. Hayes,3,0,0
+34,"Who is the Vice President, Finance and Treasurer of the company where Cameron M. Bready, is employed?",Rejji P. Hayes,3,0,0
+34,"Who is the General Counsel of the company where Cameron M. Bready, is employed?",Wendy A. McIntyre,3,0,0
+34,"Who is the Secretary of the company where Cameron M. Bready, is employed?",Wendy A. McIntyre,3,0,0
+34,"Who is the Vice President of the company where Cameron M. Bready, is employed?",Wendy A. McIntyre,3,0,0
+118,Who is the Executive Director of the company where Peter Duncan is employed?,Peter Glawe,3,0,0
+118,Who is the Executive Director of the company where Carl A. Mayer III is employed?,Peter Glawe,3,0,0
+130,Who is the Authorized Signatory of the company where Yvonne Brazier is employed?,John Flores,3,0,0
+130,"Who is the Manager, Agency Services of the company where John Flores is employed?",Yvonne Brazier,3,0,0
+31,Who is the Documentation Manager of the company where Johanna Minaya is employed?,Robert K. Reddington,3,0,0
+31,Who is the Associate Director of the company where Robert K. Reddington is employed?,Johanna Minaya,3,0,0
+19,Who is the Managing Director of the company where Timothy J. Devane is employed?,Robert Graff,3,0,0
+19,Who is the Executive Director of the company where Robert Graff is employed?,Timothy J. Devane,3,0,0
+19,"Who is the Manager, Agency of the company where Annie Carr is employed?",Rodica Dutka,3,0,0
+19,"Who is the Manager, Agency of the company where John Flores is employed?",Rodica Dutka,3,0,0
+27,Who is the Authorized Signatory of the company where Eric Waxman is employed?,Gary Levin,3,0,0
+32,Who is the Director Corporate Banking of the company where Tony Baratta is employed?,Chris Golding,3,0,0
+32,Who is the Managing Director Corporate Coverage Canada of the company where Chris Golding is employed?,Tony Baratta,3,0,0
+32,Who is the Assistant Vice President of the company where Douglas Brandes is employed?,Todd Patchell,3,0,0
+32,Who is the Vice President Commercial Banking of the company where Todd Patchell is employed?,Douglas Brandes,3,0,0
+26,Who is the Senior Vice President of the company where jeffrey.galik is employed?,Jeffrey Galik,3,0,0
+26,Who is the Senior Vice President of the company where Katherine Kelly is employed?,Jeffrey Galik,3,0,0
+26,Who is the Senior Vice President of the company where Katherine.kelly is employed?,Jeffrey Galik,3,0,0

@@ -1,0 +1,50 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+139,What is the position held by Michael King but not by Michael Vondriska or Ronnie Glenn?,Authorized Signatory,1,3,0
+139,What is the position held by Michael King but not by Savo Bozic or Sheldon Pinto?,Vice President,1,3,0
+106,What is the position held by Kirkwood Roland but not by Lana Gifas or Marcus M. Tarkington?,Vice President,1,3,0
+106,What is the position held by Kirkwood Roland but not by Michael Getz or Vanessa A. Kurbatskiy?,Director,1,3,0
+160,What is the position held by Robert G. Shaw but not by Joseph Siri or Martin Corrigan?,Managing Director,1,3,0
+61,What is the position held by Jim Cahow but not by Liz Cheng or Marko Lukin?,Director,1,3,0
+99,What is the position held by Doug Couvillion but not by Nick Flanagan or S. Victoria Harvey?,Treasurer,1,3,0
+82,What is the position held by David C. Francisco but not by David M. Crane or Jennifer Hwang?,Treasurer,1,3,0
+82,What is the position held by David C. Francisco but not by David M. Crane or John L. Healy?,Treasurer,1,3,0
+82,What is the position held by David C. Francisco but not by David M. Crane or Vanessa A. Kurbatskiy?,Treasurer,1,3,0
+82,What is the position held by David C. Francisco but not by Jennifer Hwang or John L. Healy?,Treasurer,1,3,0
+82,What is the position held by David C. Francisco but not by Jennifer Hwang or Vanessa A. Kurbatskiy?,Treasurer,1,3,0
+82,What is the position held by David C. Francisco but not by John L. Healy or Vanessa A. Kurbatskiy?,Treasurer,1,3,0
+140,What is the position held by Demetrios Tserpelis but not by Sean McKinley or Tony Traynor?,Authorized Signatory,1,3,0
+57,What is the position held by Chuck B. Kyrish but not by Henry Pennell or Kara P. Van Duzee?,Treasurer,1,3,0
+57,What is the position held by Chuck B. Kyrish but not by Henry Pennell or Katherine L. Hurley?,Treasurer,1,3,0
+57,What is the position held by Chuck B. Kyrish but not by Henry Pennell or Lauren Steiner?,Treasurer,1,3,0
+57,What is the position held by Chuck B. Kyrish but not by Henry Pennell or Michael Vondriska?,Treasurer,1,3,0
+57,What is the position held by Chuck B. Kyrish but not by Henry Pennell or Robert Sullivan?,Treasurer,1,3,0
+57,What is the position held by Chuck B. Kyrish but not by Henry Pennell or Virginia Cosenza?,Treasurer,1,3,0
+57,What is the position held by Chuck B. Kyrish but not by Kara P. Van Duzee or Katherine L. Hurley?,Treasurer,1,3,0
+57,What is the position held by Chuck B. Kyrish but not by Kara P. Van Duzee or Lauren Steiner?,Treasurer,1,3,0
+57,What is the position held by Chuck B. Kyrish but not by Kara P. Van Duzee or Michael Vondriska?,Treasurer,1,3,0
+57,What is the position held by Chuck B. Kyrish but not by Kara P. Van Duzee or Robert Sullivan?,Treasurer,1,3,0
+57,What is the position held by Chuck B. Kyrish but not by Kara P. Van Duzee or Virginia Cosenza?,Treasurer,1,3,0
+57,What is the position held by Chuck B. Kyrish but not by Katherine L. Hurley or Lauren Steiner?,Treasurer,1,3,0
+57,What is the position held by Chuck B. Kyrish but not by Katherine L. Hurley or Michael Vondriska?,Treasurer,1,3,0
+57,What is the position held by Chuck B. Kyrish but not by Katherine L. Hurley or Robert Sullivan?,Treasurer,1,3,0
+57,What is the position held by Chuck B. Kyrish but not by Katherine L. Hurley or Virginia Cosenza?,Treasurer,1,3,0
+57,What is the position held by Chuck B. Kyrish but not by Lauren Steiner or Michael Vondriska?,Treasurer,1,3,0
+57,What is the position held by Chuck B. Kyrish but not by Lauren Steiner or Robert Sullivan?,Treasurer,1,3,0
+57,What is the position held by Chuck B. Kyrish but not by Lauren Steiner or Virginia Cosenza?,Treasurer,1,3,0
+57,What is the position held by Chuck B. Kyrish but not by Michael Vondriska or Robert Sullivan?,Treasurer,1,3,0
+57,What is the position held by Chuck B. Kyrish but not by Michael Vondriska or Virginia Cosenza?,Treasurer,1,3,0
+57,What is the position held by Chuck B. Kyrish but not by Robert Sullivan or Virginia Cosenza?,Treasurer,1,3,0
+84,What is the position held by Alexander Wu but not by Chwan-Ming Ho or Edward Chen?,SVP,1,3,0
+84,What is the position held by Alexander Wu but not by Chwan-Ming Ho or Li Hua Huang?,SVP,1,3,0
+84,What is the position held by Alexander Wu but not by Edward Chen or Li Hua Huang?,SVP,1,3,0
+145,What is the position held by Joseph D. Glatt but not by Guy Major or Tammy Jennissen?,Vice President,1,3,0
+123,What is the position held by John B. Ellis but not by Lisa Huang or Shaun Hawley?,Treasurer,1,3,0
+35,What is the position held by John P. Rielly but not by Kelton Glasscock or Sophia Love?,Chief Financial Officer,1,3,0
+35,What is the position held by John P. Rielly but not by Kelton Glasscock or Timothy B. Goodell?,Chief Financial Officer,1,3,0
+35,What is the position held by John P. Rielly but not by Sophia Love or Timothy B. Goodell?,Chief Financial Officer,1,3,0
+121,What is the position held by Angela Chen but not by Jane Chang or Murtuza Ziauddin?,DGM,1,3,0
+121,What is the position held by Kefel Xu but not by Kitty Sin or Paul Hultgren?,Branch Manager,1,3,0
+135,What is the position held by Sharon S. Spurlin but not by Virginia Cosenza or Hans Beekmans?,Treasurer,1,3,0
+31,What is the position held by Haiyong Yang but not by Kurban H. Merchant or Maureen Maroney?,Branch Manager,1,3,0
+31,What is the position held by Haiyong Yang but not by Kurban H. Merchant or Oscar D. Cortez?,Branch Manager,1,3,0
+31,What is the position held by Haiyong Yang but not by Maureen Maroney or Oscar D. Cortez?,Branch Manager,1,3,0

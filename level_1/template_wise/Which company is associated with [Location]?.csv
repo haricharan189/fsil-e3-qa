@@ -1,0 +1,457 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+17,Which company is associated with 1100 North Market StreetWilmington Delaware 19890?,"Wilmington Trust, National Association",1,0,0
+17,"Which company is associated with 1300 Thames Street, 4th FloorThames Street WharfBaltimore, MD 21231?","Morgan Stanley Senior Funding, Inc.",1,0,0
+17,"Which company is associated with 1310 Point Street, 12th FloorBaltimore, MD 21231?","ExGen Renewables IV, LLC",1,0,0
+17,"Which company is associated with 425 Lexington Avenue, New York, New York 10017?",Simpson Thacher %26 Bartlett LLP,1,0,0
+17,"Which company is associated with 701 Ninth Street NW, 9th FloorWashington, DC 20068?","Exelon Generation Company, LLC",1,0,0
+102,"Which company is associated with 1048 Industrial Court, Suite E Suwanee, GA 30024?",DIGIRAD CORPORATION,1,0,0
+102,"Which company is associated with 2450 Colorado Avenue, Suite 3000 WestSanta Monica, CA 90404?","WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0,0
+102,"Which company is associated with 65 East 55th Street New York, NY 10022?",OLSHAN FROME WOLOSKY LLP,1,0,0
+102,"Which company is associated with 695 Town Center Drive, 17th Floor Costa Mesa, CA 92626?",PAUL HASTINGS LLP,1,0,0
+116,"Which company is associated with 120 South LaSalle StreetChicago, Illinois 60603?",CIBC BANK USA,1,0,0
+116,"Which company is associated with 70 W. MadisonChicago, Illinois 60602?",CIBC BANK USA,1,0,0
+117,"Which company is associated with 14375 NW Science Park DrivePortland, OR 97229?",Columbia Sportswear Company,1,0,0
+103,"Which company is associated with 225 W. Washington Street, 21st FloorChicago, IL 60606?",Cortland Capital Market Services LLC,1,0,0
+103,"Which company is associated with 245 Park Avenue, 26th FloorNew York, New York 10167?","Botticelli LLCc%2Fo Angelo, Gordon %26 Co., LP",1,0,0
+103,"Which company is associated with 3 SW 129th AvenueSuite 400Pembroke Pines, FL 33027?",Claire%C2%92s %28Gibraltar%29 Holdings Limited,1,0,0
+16,"Which company is associated with Two International Place, 17th Floor%09  %09 %09Boston, MA 02110?",Crystal Financial LLC,1,0,0
+28,"Which company is associated with 100 Technology Center Drive, Suite 300 %09Stoughton, MA 02072?","Collegium Pharmaceutical, Inc.",1,0,0
+28,"Which company is associated with 110 East 59th Street, %233300New York, NY 10022?",PHARMAKON ADVISORS LP,1,0,0
+28,"Which company is associated with 110 East 59th Street, %233300 %09New York, NY 10022?",Pharmakon Advisors LP,1,0,0
+28,"Which company is associated with 110 East 59th Street, %233300New York, NY 10022?",PHARMAKON ADVISORS LP,1,0,0
+28,"Which company is associated with 3000 Two Logan Square %09Philadelphia, PA 19103?",Pepper Hamilton LLP,1,0,0
+28,Which company is associated with 51 New North Road %09Exeter EX4 4EP %09United Kingdom?,BioPharma Credit PLC,1,0,0
+28,Which company is associated with 51 New North RoadExeter EX4 4EPUnited Kingdom?,BIOPHARMA CREDIT PLC,1,0,0
+28,"Which company is associated with Cayman Corporate Centre, 27 Hospital Road,George Town, Grand Cayman KY1-9008?",BIOPHARMA CREDIT INVESTMENTS V %28MASTER%29 LP,1,0,0
+28,"Which company is associated with One Bryant ParkNew York, NY 10036-6745?",AKIN GUMP STRAUSS HAUER %26 FELD LLP,1,0,0
+28,"Which company is associated with One Bryant Park %09New York, NY 10036-6745?",Akin Gump Strauss Hauer %26 Feld LLP,1,0,0
+28,"Which company is associated with One Bryant ParkNew York, NY 10036-6745?",AKIN GUMP STRAUSS HAUER %26 FELD LLP,1,0,0
+129,"Which company is associated with 1600 Bausch %26 Lomb PlaceRochester, New York 14606?",Harter Secrest %26 Emery LLP,1,0,0
+129,"Which company is associated with 1 South Clinton Avenue, Floor 7Rochester, NY 14604?","JPMorgan Chase Bank, N.A.",1,0,0
+129,"Which company is associated with 20 Florence AvenueBatavia, New York 14020?",Graham Corporation,1,0,0
+129,Which company is associated with United States of America?,Federal Reserve System,1,0,0
+100,"Which company is associated with 12670 High Bluff DriveSan Diego, California  92103?",Latham %26 Watkins LLP,1,0,0
+100,"Which company is associated with 400 Hamilton Ave., Suite 110Palo Alto, CA 94301?","Wells Fargo Bank, National Association",1,0,0
+100,"Which company is associated with 590 E. Middlefield RoadMountain View, CA 94043-4008?","Omnicell, Inc.",1,0,0
+114,"Which company is associated with 7255 Woodmont Avenue, Suite 200Bethesda, Maryland 20814?",MidCap Financial Services,1,0,0
+114,"Which company is associated with ModusLink Corporation1601 Trapelo Road, Suite 170Waltham, Massachusetts 02451?",MODUSLINK CORPORATION,1,0,0
+128,"Which company is associated with 801 5th Avenue, Seattle, Washington 98104?","F5 Networks, Inc.",1,0,0
+128,"Which company is associated with JPMorgan Loan Services, 500 Stanton Christiana Road, NCC5, Floor 1, Newark, DE 19713?","JPMorgan Chase Bank, N.A.",1,0,0
+29,"Which company is associated with 1175 John Street, Rochester, New York 14586?","PayChex, Inc.",1,0,0
+29,"Which company is associated with 53 State Street, Boston, Massachusetts 02109?",Nixon Peabody LLP,1,0,0
+29,"Which company is associated with 6750 Miller Road, Brecksville, Ohio 44141?","PNC Bank, National Association",1,0,0
+29,"Which company is associated with 6750 Miller RoadBrecksville, Ohio 44141?","PNC Bank, National Association",1,0,0
+29,"Which company is associated with 911 Panorama Trail South, Rochester, New York 14625?","Paychex, Inc.",1,0,0
+29,Which company is associated with California?,"Rapid Payroll, Inc.",1,0,0
+29,Which company is associated with France?,iSalaire Eurl %28FR%29,1,0,0
+29,Which company is associated with Idaho?,"Employers Solutions Group of Idaho, Inc.",1,0,0
+29,Which company is associated with Nevada?,"HR Outsourcing Processing, LLC",1,0,0
+29,Which company is associated with New Mexico?,"Employers Insurance Group, LLC",1,0,0
+29,Which company is associated with Norway?,Norl%C3%B8nn AS %28NO%29,1,0,0
+29,Which company is associated with Poland?,Latweplace sp z.o.o. %28PL%29,1,0,0
+29,Which company is associated with Spain?,Hispanomina %28SP%29,1,0,0
+29,Which company is associated with Sweden?,Swel%C3%B8n AB %28S%29,1,0,0
+29,Which company is associated with Texas?,"Staff One HR II, Inc.",1,0,0
+29,Which company is associated with Wyoming?,"WorkSmarter HR, LLC",1,0,0
+15,"Which company is associated with 1285 Avenue of the AmericasNew York, New York 10019?",UBS AG,1,0,0
+15,"Which company is associated with 110 East 59th StreetNew York, New York 1002?","2477 Deerfield Drive, LLC",1,0,0
+15,"Which company is associated with 277 Park AvenueNew York, New York 10172?",Cozen O%C2%92Connor LLP,1,0,0
+15,"Which company is associated with 90 Park AvenueNew York, New York 10016?",Alston %26 Bird LLP,1,0,0
+39,"Which company is associated with 121 Caldwell StreetTitusville, PA 16354?","Universal Stainless %26 Alloy Products, Inc.",1,0,0
+39,"Which company is associated with 2058 South Bailey RoadNorth Jackson, OH 44541?","North Jackson Specialty Steel, LLC",1,0,0
+39,"Which company is associated with 300 Fifth Avenue, 14th FloorPittsburgh, Pennsylvania 15222?","PNC Bank, National Association",1,0,0
+39,"Which company is associated with 600 Mayer StreetBridgeville, PA 15017?","Universal Stainless %26 Alloy Products, Inc.",1,0,0
+39,"Which company is associated with 6750 Miller Rd %28Mail Stop%3A BR-YB58-01-P%29Brecksville, Ohio 44141?","PNC Bank, National Association",1,0,0
+39,"Which company is associated with 830 Brigham RoadDunkirk, NY 14048?","Dunkirk Specialty Steel, LLC",1,0,0
+39,"Which company is associated with One Bryant Park, 32nd FloorNew York, NY 10036?","Bank of America, N.A.",1,0,0
+39,"Which company is associated with Two Tower Center Blvd. - 21st Floor%09  %09East Brunswick, NJ 08816?","PNC BANK, N.A.",1,0,0
+11,Which company is associated with Director?,"DEUTSCHE BANK AG NEW YORK BRANCH,",1,0,0
+11,"Which company is associated with Floor 3, Ops 2500 Stanton Christiana Rd.Newark, DE 19713?","JPMORGAN CHASE BANK, N.A",1,0,0
+110,"Which company is associated with Harborside Financial Center1800 Plaza TenJersey City, NJ 07311?","Mizuho Bank, Ltd.",1,0,0
+104,"Which company is associated with 1615 Brett Road Building %233New Castle, DE 19720?","Citibank, N.A.",1,0,0
+104,Which company is associated with Arizona?,"Stream Global Services %E2%80%93 AZ, Inc.",1,0,0
+104,Which company is associated with Kansas?,"Encore Receivable Management, Inc.",1,0,0
+104,Which company is associated with Texas?,"Intervoice, LLC",1,0,0
+105,"Which company is associated with 101 Park Avenue, 27th Floor%09 New York, NY 10178?",Kelley Drye %26 Warren LLP,1,0,0
+105,"Which company is associated with 45 West 36th Street, 7th Floor%09 New York, NY 10018?",Cinedigm Corp.,1,0,0
+105,"Which company is associated with Unit 1501-2, 15%2FF, Sino Plaza%09 255 Gloucester Road%09 Causeway Bay, Hong Kong?",Bison Entertainment and Media Group,1,0,0
+111,"Which company is associated with MAC D1109-0191525 West W.T. Harris Blvd.Charlotte, NC 28262?","Wells Fargo Bank, National Association",1,0,0
+111,"Which company is associated with One Wells Fargo Center, 11th Floor301 South College StreetCharlotte, North Carolina 28202?","Wells Fargo Bank, National Association",1,0,0
+111,"Which company is associated with Windsor Place, 4th Floor22 Queen Street,Hamilton HM11, Bermuda?",Loan Party,1,0,0
+10,"Which company is associated with 200 Vesey StreetNew York, New York 10281?","ROYAL BANK OF CANADA,",1,0,0
+10,"Which company is associated with 4900 Tiedeman Road 4th FloorBrooklyn, OH 44144?","VICTORY CAPITAL HOLDINGS, INC.,",1,0,0
+10,"Which company is associated with Royal Bank Plaza, 200 Bay Street,12th Floor South TowerToronto, Ontario M5J 2W7Canada?","ROYAL BANK OF CANADA,",1,0,0
+38,"Which company is associated with 383 Madison Avenue, New York, New York 10179?","JPMorgan Chase Bank, N.A.",1,0,0
+38,"Which company is associated with 500 Stanton Christiana Road, Ops 2, 3rd Floor, Newark, DE 19713?","JPMorgan Chase Bank, N.A",1,0,0
+12,"Which company is associated with 108 Wilmot RoadDeerfield, IL 60015?","WALGREENS BOOTS ALLIANCE, INC.",1,0,0
+12,"Which company is associated with Mizuho Bank, Ltd.Harborside Financial Ctr1800 Plaza TenJersey City, NJ 07311?","MIZUHO BANK, LTD.,",1,0,0
+107,Which company is associated with Austria?,Open Text Software Austria GmbH,1,0,0
+107,Which company is associated with Czech Republic?,Open Text s.r.o.,1,0,0
+107,Which company is associated with Denmark?,Open Text A%2FS,1,0,0
+107,Which company is associated with Finland?,Open Text OY,1,0,0
+107,Which company is associated with Israel?,Cordys Israel Ltd.,1,0,0
+107,Which company is associated with Korea?,GXS Inc.,1,0,0
+107,Which company is associated with Michigan?,"Cordys, Inc",1,0,0
+107,Which company is associated with Netherlands %E2%80%93 Luxembourg?,StreamServe S.a.r.l. B.V.,1,0,0
+107,"Which company is associated with Nova Scotia, Canada?",Open Text ULC,1,0,0
+107,Which company is associated with Poland?,Open Text Sp.z.o.o,1,0,0
+107,Which company is associated with Portugal?,Open Text Software S.L.U. - Portugal Branch,1,0,0
+107,Which company is associated with Quebec?,Nstein Technologies Inc.,1,0,0
+107,Which company is associated with South Africa?,Open Text South Africa Pty Limited,1,0,0
+107,Which company is associated with Thailand?,GXS Ltd.,1,0,0
+107,Which company is associated with United Arab Emirates?,Open Text Middle East %28Open Text Inc. - United Arab Emirates Branch%29,1,0,0
+107,Which company is associated with Virginia?,"Open Text Public Sector Solutions, Inc",1,0,0
+113,"Which company is associated with 9000 Southside Blvd., Bldg 100Transaction Processing - FL9-100-04-24Jacksonville, FL 32256?","Bank of America, N.A.",1,0,0
+113,"Which company is associated with One Technology WayIndianapolis, Indiana 42268 USA?","Hurco Companies, Inc.",1,0,0
+113,"Which company is associated with Prins Bernhardplein 2001097 JB Amsterdam, The Netherlands?",Hurco B.V.,1,0,0
+112,"Which company is associated with 10 So. Dearborn, Floor L2SChicago, IL 60603-2300?","JPMorgan Chase Bank, N.A.",1,0,0
+112,"Which company is associated with 50 Rowes Wharf, 2nd Floor,Boston, MA 02110?","JPMorgan Chase Bank, N.A.",1,0,0
+112,"Which company is associated with 60 Acorn Park DriveCambridge, MA 02140?","Forrester Research, Inc.",1,0,0
+106,"Which company is associated with CASCO BAY125 Shore RoadVeazie, ME, 04401 Penobscot County, Maine?","Casco Bay Energy Company, LLC",1,0,0
+106,"Which company is associated with MORRO BAY1290 EmbarcaderoMorro Bay, CA 93442 San Luis Obispo County, California?","Dynegy Morro Bay, LLC",1,0,0
+106,"Which company is associated with OAKLAND50 Martin Luther King WayOakland, CA 94607 Alameda County, California?","Dynegy Oakland, LLC",1,0,0
+106,"Which company is associated with SITHE%281%2976 Independence WayScriba, NY 13126 Oswego County, New York?","Sithe%2FIndependence Power Parters, L.P.",1,0,0
+106,"Which company is associated with 101Barclay Street, FL8WNew York, New York 10286?",BNY Mellon,1,0,0
+106,"Which company is associated with 200 Park AvenueNew York, New York 10166?",Barclays Bank,1,0,0
+106,"Which company is associated with 420 W. Van Buren Street, 9th FloorSuite IL 1-0199Chicago, IL 60606-3534?","JPMorgan Chase Bank, N.A.",1,0,0
+106,Which company is associated with CALIFORNIA?,"Akin, Gump, Strauss, Hauer %26 Feld LLP",1,0,0
+106,Which company is associated with ILLINOIS?,"Vedder, Price, Kaufman %26 Kammholz",1,0,0
+106,"Which company is associated with KENDALL1401 County Line RoadMinooka, IL 60447 Kendall and Grundy Counties, Illinois?","Dynegy Kendall Energy, LLC",1,0,0
+106,Which company is associated with MAINE?,Pierce Atwood LLP,1,0,0
+106,"Which company is associated with MOSS LANDINGHWY 1 %26 Dolan RoadMoss Landing, CA 95039 Monterey County, California?","Dynegy Moss Landing, LLC",1,0,0
+106,"Which company is associated with ONTELAUNEE5115 Pottsville PikeReading, PA 19605 Berks County, Pennsylvania?","Ontelaunee Power Operating Company, LLC",1,0,0
+106,Which company is associated with PENNSYLVANIA?,Stevens %26 Lee P.C.,1,0,0
+13,"Which company is associated with 520 Madison AvenueNew York, New York 10022?",JEFFERIES FINANCE LLC,1,0,0
+13,Which company is associated with Managing Director?,JEFFERIES FINANCE LLC,1,0,0
+74,"Which company is associated with 100 Northern AvenueBoston, MA 02110?",Goodwin Procter LLP,1,0,0
+74,"Which company is associated with 4900 Tiedeman Road%3B Mail Code%3A OH-01-49-0362, Brooklyn, Ohio 44144?",KEYBANK NATIONAL ASSOCIATION,1,0,0
+74,"Which company is associated with 7900 Tysons One Place, Suite 1450, McLean, VA 22102?","GTT COMMUNICATIONS, INC",1,0,0
+48,"Which company is associated with 1100 Louisiana, Suite 3300Houston, TX 77002-5217?",ENBRIDGE %28U.S.%29 INC.,1,0,0
+48,"Which company is associated with 1100 Louisiana, Suite 3300Houston, TX 77002-5217?","ENBRIDGE ENERGY PARTNERS, L.P.,",1,0,0
+48,"Which company is associated with C%2FO Enbridge Inc.3000, 425-1stCalgary, Alberta, Canada?",ENBRIDGE %28U.S.%29 INC.,1,0,0
+48,"Which company is associated with C%2FO Enbridge Inc.3000, 425-1stCalgary, Alberta, Canada?","ENBRIDGE ENERGY PARTNERS, L.P.,",1,0,0
+160,"Which company is associated with 32 Old SlipNew York, New York 10005?",Cahill Gordon %26 Reindel LLP,1,0,0
+49,"Which company is associated with 1231 S. Gerhart AvenueCommerce, CA 90022?",RG PARENT LLC,1,0,0
+49,"Which company is associated with 200 Clarendon Street, 51st FloorBoston, Massachusetts  02116?",TCW ASSET MANAGEMENT COMPANY,1,0,0
+49,"Which company is associated with 225 W. Washington Street, Suite 2100Chicago, Illinois 60606?",Cortland Capital Market Services LLC,1,0,0
+49,"Which company is associated with 300 South Grand AvenueLos Angeles, CA 90071?","Skadden, Arps, Slate, Meagher %26 Flom LLP",1,0,0
+49,"Which company is associated with 55 East Monroe, Suite 3300Chicago, Illinois 60603?",Goldberg Kohn Ltd.,1,0,0
+75,"Which company is associated with 10 South Dearborn Street, Chicago, Illinois 60603?",JPMORGAN CHASE BANK,1,0,0
+75,"Which company is associated with 20 Crosby Drive, Bedford, MA 01730?","ASPEN TECHNOLOGY, INC",1,0,0
+75,"Which company is associated with 270 Park Avenue, 43rd Floor,?",J.P. MORGAN SECURITIES LLC,1,0,0
+77,"Which company is associated with 10 South Dearborn StreetChicago, Illinois 60603?",JPMORGAN CHASE BANK,1,0,0
+63,"Which company is associated with DN-CO-T4, 950 Seventeenth Street, 4th Floor, Denver, Colorado 80202?",Food Industries,1,0,0
+63,"Which company is associated with One South Dearborn, Chicago, Illinois 60603?",Sidley Austin LLP,1,0,0
+88,"Which company is associated with 1888 Century Park EastLos Angeles, CA 90067?",Sullivan %26 Cromwell LLP,1,0,0
+88,"Which company is associated with 445 S. Figueroa Street, Floor 10Los Angeles, CA 90071?",MUFG UNION BANK,1,0,0
+88,"Which company is associated with 6922 Hollywood Blvd., Suite 500Los Angeles, CA 90028?","j2 CLOUD SERVICES, LLC",1,0,0
+89,"Which company is associated with 100 Federal St., 35th FloorBoston, Massachusetts 02110?","Thomas H. Lee Partners, L.P.",1,0,0
+89,"Which company is associated with 10 S. DearbornChicago, IL 60603?",JPMORGAN CHASE BANK,1,0,0
+89,"Which company is associated with 601 Lexington AvenueNew York, NY 10022?",Kirkland %26 Ellis LLP,1,0,0
+89,"Which company is associated with 6625 West 78th Street, Suite 300Minneapolis, MN 55439?","AGILITI HEALTH, INC.",1,0,0
+72,"Which company is associated with 1000 Stanley DriveNew Britain, Connecticut 06053?","STANLEY BLACK %26 DECKER, INC",1,0,0
+72,"Which company is associated with 25 Canada SquareCanary WharfLondon, England E14 5LB?",CITIGROUP GLOBAL MARKETS INC,1,0,0
+72,"Which company is associated with Building %2331615 Brett RoadNew Castle, DE 19720?",CITIBANK,1,0,0
+99,"Which company is associated with 150 Third Avenue South, Suite 2800Nashville, TN 37201?","Bass, Berry %26 Sims PLC",1,0,0
+99,"Which company is associated with 1808 Aston Avenue, Suite 250Carlsbad, CA 92008?","Wells Fargo Bank, National Association",1,0,0
+99,"Which company is associated with 305 Hartman DriveP.O. Box 787Lebanon, Tennessee 37088-0787?","Cracker Barrel Old Country Store, Inc.",1,0,0
+99,"Which company is associated with MAC D1109-0191525 West W.T. Harris Blvd.Charlotte, NC 28262?","Wells Fargo Bank, National Association",1,0,0
+98,"Which company is associated with 14 Crosby DriveBedford, MA 01730?","Citrix Systems, Inc.",1,0,0
+98,"Which company is associated with 1 Fleet WayScranton, PA 18507?",Bank of America,1,0,0
+98,"Which company is associated with 555 California StSan Francisco, CA 94104?",Bank of America,1,0,0
+98,"Which company is associated with 851 West Cypress Creek RoadFort Lauderdale, Florida 33309?","Citrix Systems, Inc.",1,0,0
+98,"Which company is associated with 901 Main StDallas, TX 75202-3714?",Bank of America,1,0,0
+98,"Which company is associated with One South DearbornChicago, IL 60603?",Sidley Austin LLP,1,0,0
+166,"Which company is associated with 1114 Avenue of the Americas, 23rd FloorNew York, New York 10036?",Torys LLP,1,0,0
+166,"Which company is associated with 1 Basinghall Avenue, London EC2V 5DD?",Standard Chartered Bank,1,0,0
+166,"Which company is associated with 3560 Lenox Road, Suite 2000, Atlanta, GA 30326?",NOVELIS ALUMINIUM HOLDING UNLIMITED COMPANY,1,0,0
+166,"Which company is associated with 4 Times SquareNew York, New York 10036?","Skadden, Arps, Slate, Meagher %26 Flom LLP",1,0,0
+166,Which company is associated with Dubai UAE?,BANK OF BARODA,1,0,0
+67,"Which company is associated with 110 East 59th Street, %233300New York, NY 10022?",Pharmakon Advisors LP,1,0,0
+67,"Which company is associated with 140 Scott DriveMenlo Park, CA 94025?",Latham %26 Watkins LLP,1,0,0
+67,Which company is associated with 51 New North Road?,BioPharma Credit PLC,1,0,0
+67,"Which company is associated with One Bryant ParkNew York, NY 10036-6745?",Akin Gump Strauss Hauer %26 Feld LLP,1,0,0
+9,"Which company is associated with 1011 Warrenville Road%09  %09  %09Suite 600%09  %09  %09Lisle, IL 60532?","SUNCOKE ENERGY PARTNERS, L.P.",1,0,0
+9,"Which company is associated with 500 Stanton Christiana Road, Ops 2, Floor 3%09  %09  %09Newark, Delaware 19713-2107?","SUNCOKE ENERGY PARTNERS, L.P.",1,0,0
+59,"Which company is associated with 77 W. Wacker Drive, Chicago, Illinois 60601?",Jones Day,1,0,0
+59,"Which company is associated with One South Dearborn, Chicago, Illinois 60603?",Sidley Austin LLP,1,0,0
+170,"Which company is associated with 101 North Tryon StreetMail Code%3A NC1-001-05-46Charlotte, North Carolina 28255-0001?","BANK OF AMERICA, N.A.",1,0,0
+165,"Which company is associated with 222 Merchandise Mart Plaza, Suite 1300Chicago, IL 60654?","CONAGRA BRANDS, INC",1,0,0
+165,"Which company is associated with Bank of America, N.A.Bank of America Plaza901 Main StMail Code%3A TX1-492-14-11Dallas, TX, 75202-3714?","BANK OF AMERICA, N.A",1,0,0
+165,"Which company is associated with Mail Code%3A CA5-705-04-09555 California Street, 4th FloorSan Francisco, CA 94104?","BANK OF AMERICA, N.A",1,0,0
+165,"Which company is associated with Mail Code%3A PA6-580-02-301 Fleet WayScranton, PA 18507?","BANK OF AMERICA, N.A",1,0,0
+165,"Which company is associated with Mizuho Bank, Ltd.1800 Plaza TenHarborside Financial CenterJersey City State%3A NJ 07311?","MIZUHO BANK, LTD.",1,0,0
+70,"Which company is associated with 11 East 44th Street, Suite 1200New York, NY 10017?",GREC ENTITY HOLDCO LLC,1,0,0
+70,"Which company is associated with 201 N. Tryon Street, Suite 1700Charlotte, North Carolina 28202?",FIFTH THIRD BANK,1,0,0
+41,"Which company is associated with 100 Franklin StreetBoston, MA 02110?","Webster Bank, N.A.",1,0,0
+41,"Which company is associated with 111 W. Monroe Street5th Floor CenterChicago, IL 60603?",BMO Harris Bank N.A.,1,0,0
+41,"Which company is associated with 125 Summer Street, Boston, Massachusetts 02110?",Burns %26 Levinson LLP,1,0,0
+41,"Which company is associated with 225 Franklin Street 18th FloorBoston, MA 02110?",KeyBank National Association,1,0,0
+41,"Which company is associated with 28 State Street, 16th FloorMA2-6560-CB16Boston, MA 02109?","Santander Bank, N.A.",1,0,0
+41,"Which company is associated with 6400 Las Colinas BoulevardIrvine, TX 75039?","Citibank, N.A.",1,0,0
+41,"Which company is associated with 6 Main StreetNatick, MA 01760?",Middlesex Savings Bank,1,0,0
+41,"Which company is associated with Eastern Bank265 Franklin Street, 2nd FloorBoston, MA 02110?",Eastern Bank,1,0,0
+55,"Which company is associated with 180 Maiden LaneNew York, NY 10038?",STROOCK %26 STROOCK %26 LAVAN LLP,1,0,0
+69,"Which company is associated with 225 Franklin Street, 16th FloorBoston, MA 02110?",KeyBank National Association,1,0,0
+69,"Which company is associated with 225 Franklin Street, 18th floorBoston, Massachusetts 02110?",KeyBank National Association,1,0,0
+69,"Which company is associated with 8880 W. Sunset Road, Suite 300Las Vegas, NV  89148?","THE PARKING REIT, INC",1,0,0
+69,"Which company is associated with 8880 W. Sunset Road, Suite 300Las Vegas, NV 89148?","MVP REIT II OPERATING PARTNERSHIP, LP",1,0,0
+69,"Which company is associated with 8880 W. Sunset Road Suite 210Las Vegas, NV 89148?","THE PARKING REIT, INC",1,0,0
+69,"Which company is associated with 8880 W. Sunset Road Suite 360Las Vegas, NV 89148?","THE PARKING REIT, INC",1,0,0
+69,"Which company is associated with Three Center PlazaBoston, Massachusetts  02108?",Riemer %26 Braunstein LLP,1,0,0
+82,Which company is associated with 04-2052042?,"PERKINELMER, INC",1,0,0
+82,Which company is associated with 04-2436772?,WALLAC OY,1,0,0
+82,"Which company is associated with 10 South Dearborn Street%5D%5BChicago, Illinois 60603?",JPMORGAN CHASE BANK,1,0,0
+168,"Which company is associated with 1000 Stanley DriveNew Britain, Connecticut 06053?","STANLEY BLACK %26 DECKER, INC.",1,0,0
+168,"Which company is associated with Building Ops II, One Penns WayNew Castle, DE 19720?","CITIBANK, N.A.,",1,0,0
+168,"Which company is associated with Building Ops II, One Penns WayNew Castle, DE 19720Attn%3A Bank Loan Syndications?",Citibank,1,0,0
+96,"Which company is associated with 1420 5th Avenue, 9th Floor,Seattle, WA 98101,?",US Bank Agency Services,1,0,0
+96,"Which company is associated with 414 Silver Ave. SWAlbuquerque, NM 87102-3289?",Public Service Company of New Mexico,1,0,0
+96,"Which company is associated with CARLSBAD, NEW MEXICO?",WESTERN COMMERCE BANK,1,0,0
+96,"Which company is associated with Raymond Palmer,US Bank Utilities Division,461 Fifth Avenue, 8th Floor,New York, NY 10017?",U.S. Bank National Association,1,0,0
+96,"Which company is associated with US Bank Utilities Division461 Fifth Avenue, 8th FloorNew York, NY 10017?",U.S. Bank National Association,1,0,0
+154,"Which company is associated with 10 South Dearborn, Floor L2Suite IL1-1145Chicago, IL, 60603-2300?","JPMorgan Chase Bank, N.A.",1,0,0
+154,"Which company is associated with 2165 E. Spring St.Long Beach, CA 90806?",Edge Systems LLC,1,0,0
+154,"Which company is associated with 4 New York Plaza, Floor 17New York, NY 10004?","JPMorgan Chase Bank, N.A.",1,0,0
+155,"Which company is associated with 1045 Progress Circle Lawrenceville, Georgia 30043?",Boxlight Corporation,1,0,0
+155,"Which company is associated with 10880 Wilshire Blvd., 19th floor Los Angeles, CA 90024?","Michelman %26 Robinson, LLP",1,0,0
+155,"Which company is associated with 11601 Wilshire Boulevard, Suite 1250 Los Angeles, CA 90025?","Whitehawk Capital Partners, LP",1,0,0
+155,"Which company is associated with 1177 Avenue of the AmericasNew York, New York 10036?",Kramer Levin Naftalis %26 Frankel LLP,1,0,0
+169,"Which company is associated with 150 South Wacker Drive, Suite 2200Chicago, Illinois 60606?","WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0,0
+169,"Which company is associated with 550 South Caldwell StreetCharlotte, North Carolina 28202?","CHIQUITA BRANDS INTERNATIONAL, INC.",1,0,0
+97,"Which company is associated with 2 South Pointe Drive, Suite 1400 %09 %09Lake Forest, California 92630?","Summit Healthcare REIT, Inc.",1,0,0
+97,"Which company is associated with 500 West Monroe Street %09 %09Chicago, Illinois 60661?",General Electric Capital Corporation,1,0,0
+83,"Which company is associated with 10 South Dearborn Street, Floor 7Chicago, IL 60603?","JPMorgan Chase Bank, N.A.",1,0,0
+83,"Which company is associated with 1301 Second Avenue, Floor 25Seattle, WA 98101?","JPMorgan Chase Bank, N.A.",1,0,0
+83,"Which company is associated with 3355 Michelson DriveSuite 100Irvine, CA 92612?","WESTERN DIGITAL IRELAND, LTD",1,0,0
+68,"Which company is associated with 111 Huntington AvenueBoston, MA 02199?",Foley %26 Lardner LLP,1,0,0
+68,"Which company is associated with 900 W. Trade St.Charlotte, NC 28255?","BANK OF AMERICA, N.A.",1,0,0
+6,"Which company is associated with 444 S. Flower Street, 39th FloorLos Angeles, California 90071?",Bank of China,1,0,0
+54,"Which company is associated with 10851 Mastin Street, Suite 300Overland Park, Kansas 66210?",Midland Loan Services,1,0,0
+54,"Which company is associated with 383 Madison Avenue, New York, New York 10179?",JPMORGAN CHASE BANK,1,0,0
+54,"Which company is associated with 4084 Autumn Ridge RoadBethlehem, Pennsylvania 18017?",Andrascik %26 Tita LLC,1,0,0
+54,"Which company is associated with c%2Fo Blackstone Real Estate Advisors L.P., 345 Park Avenue, New York, New York 10154?",2018-1 IH BORROWER LP,1,0,0
+40,"Which company is associated with 10 South Dearborn Street, Floor L2, Chicago, IL 60603-2003?","JPMorgan Chase Bank, N.A",1,0,0
+40,"Which company is associated with 59 Maiden Lane, 38th Floor, New York, NY 10038?",National General Holdings Corp.,1,0,0
+56,"Which company is associated with 919 Third Avenue, New York, New York 10022?",Debevoise %26 Plimpton LLP,1,0,0
+42,"Which company is associated with 101 North Tryon St. 5th FloorCharlotte, NC 28255?","Bank of America, N.A",1,0,0
+42,"Which company is associated with 3630 South Geyer Road, Suite 100St. Louis, MO 63127?",Panera Bread Company,1,0,0
+42,"Which company is associated with 60 State StreetBoston, MA 02109 USA?",WilmerHale,1,0,0
+42,"Which company is associated with 63 Kendrick StreetNeedham, MA 02494?",Panera Bread Company,1,0,0
+42,"Which company is associated with 900 West Trade St.Charlotte, NC 28255-0001?","Bank of America, N.A.",1,0,0
+42,"Which company is associated with New York, NY?","Bank of America, N.A.",1,0,0
+95,"Which company is associated with 100 N. Tryon StreetMail Code%3A NC1 -007-17-11Charlotte, NC 28255?","Bank of America, N.A.",1,0,0
+95,"Which company is associated with 101 North Tryon StreetMail Code%3A NC1-001-04-39Charlotte, North Carolina 28255-0001?","Bank of America, N.A.",1,0,0
+95,"Which company is associated with 1455 Market StreetMail Code%3A CA5-701-05-19San Francisco, California 94103-1399?","Bank of America, N.A.",1,0,0
+95,"Which company is associated with 200 International Circle, Suite 3500Hunt Valley, Maryland 21030?","Omega Healthcare Investors, Inc",1,0,0
+95,"Which company is associated with 425 Park AvenueNew York, New York 10022?",Kaye Scholer LLP,1,0,0
+81,"Which company is associated with 580 White Plains RoadSuite 610Tarrytown, NY 10591?","KELTIC FINANCIAL PARTNERS II, LP",1,0,0
+157,Which company is associated with 1100 Placid Avenue Plano TX 75074?,"MICROPAC INDUSTRIES, INC.",1,0,0
+157,"Which company is associated with 2727 N. Harwood, 10th FloorDallas, Texas 75201?",FROST BANK,1,0,0
+157,"Which company is associated with 480 S. Honduras CD, Juraez, Mexico?","MICROPAC INDUSTRIES, INC.",1,0,0
+157,Which company is associated with 903 E. Walnut St. Garland TX 75040?,"MICROPAC INDUSTRIES, INC.",1,0,0
+157,"Which company is associated with 905 E. Walnut St.Garland, Texas 75040?","Micropac Industries, Inc.",1,0,0
+157,Which company is associated with 1137 E. Walnut St. Garland TX 75040?,"MICROPAC INDUSTRIES, INC.",1,0,0
+157,Which company is associated with 725 E. Walnut St. Garland TX 75040?,"MICROPAC INDUSTRIES, INC.",1,0,0
+157,Which company is associated with 905 E. Walnut St. Garland TX 75040?,"MICROPAC INDUSTRIES, INC.",1,0,0
+157,"Which company is associated with 905 E. Walnut StreetGarland, Texas 75040?","MICROPAC INDUSTRIES, INC.",1,0,0
+157,Which company is associated with 912 E. Walnut St. Garland TX 75040?,"MICROPAC INDUSTRIES, INC.",1,0,0
+157,"Which company is associated with P.O. Box 1600San Antonio, Texas  78296?",Frost Bank,1,0,0
+157,Which company is associated with Texas?,FROST BANK,1,0,0
+143,"Which company is associated with 1012 E. Hwy 80, Suite AForney, TX 75126Kaufman County?",WINGSTOP INC.,1,0,0
+143,"Which company is associated with 1152 N Buckner Blvd. Ste 106Dallas, TX 75218Dallas County?",WINGSTOP INC.,1,0,0
+143,"Which company is associated with 1251 Northwest Hwy. Ste. CGarland, TX 75041Dallas County?",WINGSTOP INC.,1,0,0
+143,"Which company is associated with 1515 S. Buckner Blvd. Ste. 247BDallas, TX 75217Dallas County?",WINGSTOP INC.,1,0,0
+143,"Which company is associated with 1801 East Chase Pkwy. Ste. 117Fort Worth, TX 76120Tarrant County?",WINGSTOP INC.,1,0,0
+143,"Which company is associated with 1808 Aston Avenue, Suite 250Carlsbad, CA 92008?","WELLS FARGO BANK, NATIONALASSOCIATION",1,0,0
+143,"Which company is associated with 237 NE 28th St.Fort Worth, TX 76164Tarrant County?",WINGSTOP INC.,1,0,0
+143,"Which company is associated with 2777 W. Craig Rd. Ste. 107North Las Vegas, NV 89032Clark County?","WINGSTOP GCM, LLC",1,0,0
+143,"Which company is associated with 2802 N. Shepherd Dr. Ste. 400Houston, TX 77008Harris County?",WINGSTOP INC.,1,0,0
+143,"Which company is associated with 3300 Western Center Blvd. Ste. 114AFort Worth, TX 76137Tarrant County?",WINGSTOP INC.,1,0,0
+143,"Which company is associated with 3910 S. Maryland Pkwy.Las Vegas, NV 89119Clark County?","WINGSTOP GCM, LLC",1,0,0
+143,"Which company is associated with 400 N. Nellis Blvd. Ste. 120Las Vegas, NV 89110Clark County?","WINGSTOP GCM, LLC",1,0,0
+143,"Which company is associated with 5045 W. Tropicana Ave. Ste. 110Las Vegas, NV 89103Clark County?",WINGSTOP INC.,1,0,0
+143,"Which company is associated with 5501 LBJ FreewayDallas, TX 75240Dallas County?",WINGSTOP INC.,1,0,0
+143,"Which company is associated with 6760 Abrams Rd. Ste. 119Dallas, TX 75231Dallas County?",WINGSTOP INC.,1,0,0
+143,"Which company is associated with 7017 Spring Mountain Rd. Ste. 101Las Vegas, NV 89117Clark County?","WINGSTOP GCM, LLC",1,0,0
+143,"Which company is associated with 7645 S. Custer Road Ste. 420Mckinney, TX 75070Collin County?",WINGSTOP INC.,1,0,0
+143,"Which company is associated with 820 E. Cartwright Rd., Suite 130Mesquite, TX 75149Dallas County?",WINGSTOP INC.,1,0,0
+143,"Which company is associated with 900 N. Coit Rd. Ste. 2700Richardson, TX 75080Dallas County?",WINGSTOP INC.,1,0,0
+143,"Which company is associated with 908 Audelia Rd. Ste. 600Richardson, TX 75081Dallas County?",WINGSTOP INC.,1,0,0
+143,"Which company is associated with 9208 E. R L Thornton Fwy. Ste. 204Dallas, TX 75228Dallas County?",WINGSTOP INC.,1,0,0
+142,Which company is associated with CHICAGO BRANCH?,BANK OF MONTREAL,1,0,0
+156,"Which company is associated with 6001 America Center Drive %09San Jose, California 95002?",Viavi Solutions Inc.,1,0,0
+156,"Which company is associated with 1800 Century Park East, Suite 1100 %09Los Angeles, CA 90067?","WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0,0
+156,"Which company is associated with 333 South Grand Avenue %09Los Angeles, CA 90071?","Gibson, Dunn %26 Crutcher",1,0,0
+156,"Which company is associated with 450 Lexington Avenue %09New York, NY 10017?",Davis Polk %26 Wardwell LLP,1,0,0
+156,Which company is associated with Canadian?,VIAVI SOLUTIONS CANADA ULC,1,0,0
+156,Which company is associated with German?,VIAVI SOLUTIONS DEUTSCHLAND GMBH,1,0,0
+156,Which company is associated with UK?,VIAVI SOLUTIONS UK LIMITED,1,0,0
+94,"Which company is associated with 520 Madison Avenue, New York, NY 10022?","Salix Pharmaceuticals, Ltd.",1,0,0
+94,"Which company is associated with 8510 Colonnade Center Drive, Raleigh, North Carolina 27615?","SALIX PHARMACEUTICALS, LTD.",1,0,0
+47,"Which company is associated with 1040 Spring StreetSilver Spring, Maryland 20910?",UNITED THERAPEUTICS CORPORATION,1,0,0
+47,"Which company is associated with 1735 Connecticut Avenue, N.W.Washington, District of Columbia 20009?",UNITED THERAPEUTICS CORPORATION,1,0,0
+47,"Which company is associated with 301 South College Street, 14th FloorCharlotte, NC 28202?","WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0,0
+47,"Which company is associated with MAC D1109-0191525 West W.T. Harris Blvd.Charlotte, NC 28262?","WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0,0
+152,"Which company is associated with 400 West Market Street, Suite 3200Louisville, Kentucky 40202?",Frost Brown Todd LLC,1,0,0
+152,"Which company is associated with 8880 West Sunset Road, Suite 240Las Vegas, Nevada 89148?","MVP Detroit Center Garage, LLC",1,0,0
+152,"Which company is associated with 900 West Trade Street, Suite 650Mail Code%3A  NC1-026-06-01Charlotte, North Carolina 28255?",Bank of America,1,0,0
+84,"Which company is associated with North Courthouse Square1000 Jackson StreetToledo, Ohio 43604-5573?","Shumaker, Loop %26 Kendrick, LLP",1,0,0
+85,"Which company is associated with 300 Galleria Parkway, Suite 800Atlanta, GA 30339?",BANK OF AMERICA,1,0,0
+85,"Which company is associated with 3805 W. Chester Pike, Suite 200Newtown Square, Pennsylvania 19073?","LOCAL STAFF, LLC",1,0,0
+85,"Which company is associated with 380 Stevens Avenue, Suite 120Solana Beach, California 92075?",ASSENT CONSULTING,1,0,0
+85,"Which company is associated with 40 Eastern AvenueMalden, Massachusetts 02148-9104?","MCVT, INC.",1,0,0
+91,"Which company is associated with 633 17th Street, Suite 1900Denver, Colorado 80202-3619?",EARTHSTONE ENERGY INC,1,0,0
+91,"Which company is associated with Bank of Oklahoma1625 Broadway, Suite 1100Denver, Colorado 80202?",BANK OF OKLAHOMA,1,0,0
+91,"Which company is associated with P.O. Box 248817Oklahoma City, Oklahoma 73124-8817?",BANK OF OKLAHOMA,1,0,0
+147,"Which company is associated with 520 Madison Avenue, 39th FloorNew York, NY 10022?",The Carlyle Group,1,0,0
+147,"Which company is associated with 885 Third AvenueNew York, NY 10022-4834?",Latham %26 Watkins LLP,1,0,0
+147,"Which company is associated with One Maritime Plaza, 12th FloorSan Francisco, CA 94111?",Hellman %26 Friedman LLC,1,0,0
+153,"Which company is associated with 10 South Dearborn, Floor L2S, Chicago, Illinois 60603-2300?","JPMorgan Chase Bank, N.A",1,0,0
+153,"Which company is associated with 75 Network Drive, Burlington, MA 01803?","AVID TECHNOLOGY, INC.",1,0,0
+46,"Which company is associated with 111 South Wacker DriveChicago, Illinois 60606?",Locke Lord LLP,1,0,0
+46,"Which company is associated with 230 Park AvenueNew York, New York 10169?",Otterbourg P.C.,1,0,0
+46,"Which company is associated with 287 Bowman Ave %23 241Purchase, NY 10577?","MVC CAPITAL, INC.",1,0,0
+46,"Which company is associated with 55 East MonroeSuite 3300 Chicago, IL 60603?",Goldberg Kohn LTD.,1,0,0
+46,"Which company is associated with 830 Morris Turnpike, 3rd FloorShort Hills, NJ 07078?","SANTANDER BANK, N.A.,",1,0,0
+46,"Which company is associated with at Wintrust Bank231 S. LaSalle Street2nd FloorChicago, IL 60604?","Wintrust Bank,",1,0,0
+52,"Which company is associated with 1221 Broadway     %09Oakland, California 94612?",Clorox Company,1,0,0
+78,"Which company is associated with 1550 Seventeenth Street, Suite 500Denver, Colorado 80202Attention%3A Ron Levine?",Davis Graham %26 Stubbs LLP,1,0,0
+78,"Which company is associated with 1900 Grant StreetSuite 720Denver, CO 80203?","LILIS ENERGY, INC",1,0,0
+78,"Which company is associated with One Information Way, Suite 300Little Rock, Arkansas 72202?",HEARTLAND BANK,1,0,0
+44,"Which company is associated with 430 Airport RoadGreeneville, Tennessee 37745?",FORWARD AIR CORPORATION,1,0,0
+44,"Which company is associated with NC1-026-06-03900 W. Trade St.Charlotte, NC 28255?",BANK OF AMERICA,1,0,0
+44,"Which company is associated with One Independence CenterMail Code%3A NC1-001-05-46Charlotte, NC 28255-0001?",BANK OF AMERICA,1,0,0
+44,"Which company is associated with PA6-580-02-301 Fleet WayScranton, PA 18507Attention%3A Alfonso Malave Jr.?",BANK OF AMERICA,1,0,0
+50,"Which company is associated with 10 South Dearborn, Floor L2Chicago, Illinois 60603?","JPMORGAN CHASE BANK, N.A.",1,0,0
+2,Which company is associated with NEWYORK?,THE TORONTO-DOMINION BANK,1,0,0
+145,"Which company is associated with 111 W 19th Street, 8th Floor,New York, New York 10011?",New Fortress Energy LLC,1,0,0
+145,"Which company is associated with 1209 Orange Street,Wilmington, New Castle County,Delaware 19801United States of America?",NFE Management LLC,1,0,0
+145,"Which company is associated with 1285 Avenue of the AmericasNew York, New York 10019?","Paul, Weiss, Rifkind, Wharton %26 Garrison LLP",1,0,0
+145,"Which company is associated with 225 W. Washington St., 9th FloorChicago, Illinois 60606?",Cortland Capital Market Services LLC,1,0,0
+93,"Which company is associated with 100 Congress Ave, Suite 1300Austin, Texas 78701?","Armbrust %26 Brown, PLLC",1,0,0
+93,"Which company is associated with 300 West 6th Street, Suite 1300Austin, TX 78701?",COMERICA BANK,1,0,0
+92,"Which company is associated with 10003 Woodloch Forest DriveSuite 950The Woodlands, Texas 77380?","HAWTHORN PHARMACEUTICALS, INC.",1,0,0
+92,"Which company is associated with 25 Park PlaceAtlanta, Georgia 30303?",SunTrust Bank,1,0,0
+150,"Which company is associated with 250 West 55th Street    New York, NY 10019-9710?",Arnold %26 Porter Kaye Scholer LLP,1,0,0
+150,"Which company is associated with 500 Delaware Avenue, 11th Floor    Wilmington, DE 19081?","WILMINGTON SAVINGS FUND SOCIETY, FSB",1,0,0
+150,"Which company is associated with 6300 South Syracuse Way, Suite 300Centennial, CO 80111?","NATIONAL CINEMEDIA, LLC",1,0,0
+150,Which company is associated with Corporate Trust Administration    250 Greenwich Street?,The Bank of New York Mellon,1,0,0
+144,"Which company is associated with 7255 Woodmont Avenue, Suite 200Bethesda, Maryland 20814?",MIDCAP FINANCIAL TRUST,1,0,0
+144,Which company is associated with 950 Winter StreetWaltham MA 02451?,"RADIUS HEALTH, INC.",1,0,0
+144,Which company is associated with 950 Winter StreetWaltham MA 02451?,"RADIUS PHARMACEUTICALS, INC.",1,0,0
+144,"Which company is associated with Apollo Investment Corporation730 Fifth Avenue, 11th FloorNew York, New York 10019?",APOLLO INVESTMENT CORPORATION,1,0,0
+144,"Which company is associated with Apollo Investment Corporation9 West 57th Street, 37th FloorNew York, New York 10019?",APOLLO INVESTMENT CORPORATION,1,0,0
+51,"Which company is associated with 1585 Broadway New York, NY 10036?","MORGAN STANLEY SENIOR FUNDING, INC.",1,0,0
+51,"Which company is associated with 717 Texas Avenue Suite 1000 Houston, TX 77002?",CALPINE CORPORATION,1,0,0
+51,"Which company is associated with 80 Pine Street New York, NY 10005?",Cahill Gordon %26 Reindel LLP,1,0,0
+51,"Which company is associated with Global Trust Services 350 California St., 11th Floor San Francisco, CA 94014?","MUFG UNION BANK, N.A.",1,0,0
+45,"Which company is associated with 150 Third Avenue SouthNashville, Tennessee 37201?",PINNACLE BANK,1,0,0
+45,"Which company is associated with 300 North LaSalle Street, Suite 2400, Chicago, Illinois?",Kirkland %26 Ellis LLP,1,0,0
+45,"Which company is associated with 5065 Wooster Road, CN-OH-L2CBCincinnati, Ohio 45226-2326?",U.S. BANK NATIONAL ASSOCIATION,1,0,0
+45,"Which company is associated with One U.S. Bank PlazaSt. Louis, Missouri  63101?",U.S. BANK NATIONAL ASSOCIATION,1,0,0
+79,"Which company is associated with 550 South Tryon Street, 6th FloorCharlotte, North Carolina 28202?","WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0,0
+79,"Which company is associated with One Fleet Way, 2nd FloorMail Code PA6-580-02-30Scranton, PA 18507?",BANK OF AMERICA,1,0,0
+79,"Which company is associated with Two Newton Place255 Washington Street, Suite 300Newton, Massachusetts 02458-1634?",SELECT INCOME REIT,1,0,0
+22,"Which company is associated with 1100 Abernathy RoadSuite 1600130Atlanta, GA 30328?","WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0,0
+22,"Which company is associated with 3333 Piedmont Road, Suite 2500Atlanta, Georgia 30305Attn%3A Timothy W. Bratcher, Esq.?","GREENBERG TRAURIG, LLP",1,0,0
+22,"Which company is associated with 600 Travis StreetSuite 5400Houston, Texas 77002?",SIMPSON THACHER %26 BARTLETT LLP,1,0,0
+22,"Which company is associated with Three Allen Center333 Clay StreetSuite 4620Houston, Texas 77002?","OIL STATES INTERNATIONAL, INC.,",1,0,0
+123,Which company is associated with Cayman Islands?,Credit Suisse AG,1,0,0
+123,Which company is associated with Dublin?,ING Bank N.V,1,0,0
+136,"Which company is associated with 4800 Montgomery Lane, %23450, Bethesda, Maryland 20814?",AHR FIRST BORROWER LLC,1,0,0
+136,"Which company is associated with Congress Street, Suite 475                                              Charlotte, NC  28209                                              Attention%3A  Katharine R. Briggs or General Counsel?",B2R FINANCE L.P.,1,0,0
+136,"Which company is associated with Montgomery Lane, %23450                                              Bethesda, Maryland 20814                                              Attention%3A  Don McClure?","AHR FIRST BORROWER LLC,",1,0,0
+122,"Which company is associated with 1615 Brett Road, Building %233New Castle, Delaware 19720?","Citibank, N.A.",1,0,0
+122,Which company is associated with LONDON?,BANK OF MONTREAL,1,0,0
+122,Which company is associated with NEW YORK?,DEUTSCHE BANK AG,1,0,0
+122,Which company is associated with S.A. ROTTERDAM?,BANK OF CHINA %28LUXEMBOURG%29,1,0,0
+37,"Which company is associated with 100 Federal StreetMail Code%3A  MA5-100-09-07Boston, MA 02110?","Bank of America, N.A",1,0,0
+37,"Which company is associated with 101 N. Tryon StreetMail Code%3A  NC1-001-05-46Charlotte, NC 28255-0001?","Bank of America, N.A.",1,0,0
+37,"Which company is associated with 1 Fleet WayMail Code%3A  PA6-580-02-30Scranton, PA 18507?","Bank of America, N.A.",1,0,0
+37,"Which company is associated with 3 Waterway Square Place, Suite 110The Woodlands, TX 77380?","Waste Connections, Inc.",1,0,0
+37,"Which company is associated with 400 Atlantic AvenueBoston, MA 02110?",Goulston %26 Storrs,1,0,0
+37,"Which company is associated with 555 California Street, 4th FloorMail Code%3A  CA5-705-04-09 San Francisco, CA 94104?","Bank of America, N.A",1,0,0
+37,"Which company is associated with 811 Main Street, Suite 3700Houston, TX 77002?",Latham %26 Watkins LLP,1,0,0
+35,"Which company is associated with 1185 Avenue of the AmericasNew York, New York 10036?",HESS CORPORATION,1,0,0
+35,"Which company is associated with 270 Park AvenueNew York, NY 10017?","JPMorgan Chase Bank, N.A",1,0,0
+35,Which company is associated with GRAND CAYMAN?,"COMMERZBANK AG,",1,0,0
+35,Which company is associated with NEW YORK?,"COMMERZBANK AG,",1,0,0
+134,"Which company is associated with 80 Pine StreetNew York, NY 10005?",Cahill Gordon %26 Reindel LLP,1,0,0
+120,"Which company is associated with 10420 Highland Manor Drive, Fl 4Tampa, FL 33610?","JPMorgan Chase Bank, N.A.",1,0,0
+120,"Which company is associated with 10 South Wacker Drive, 32nd FloorChicago, Illinois 60606?",Wells Fargo Bank,1,0,0
+120,"Which company is associated with 10 South Wacker Drive, 32nd floorChicago, Illinois 60606?","Wells Fargo Bank, National Association",1,0,0
+120,"Which company is associated with 300 North LaSalle StreetChicago, Illinois 60654?",Kirkland %26 Ellis LLP,1,0,0
+120,"Which company is associated with Global Trade OperationsOne Fleet Way, 2nd FloorMail Code PA6-580-02-30Scranton, PA 18507?","Bank of America, N.A.",1,0,0
+120,"Which company is associated with Two North Riverside Plaza, Suite 600Chicago, Illinois 60606?",Equity Commonwealth,1,0,0
+121,Which company is associated with NEW YORK?,"BANK OF EAST ASIA, LIMITED",1,0,0
+109,"Which company is associated with 437 Grant StreetFrick Building, Suite 1600Pittsburgh, PA 15219?",First Commonwealth Bank,1,0,0
+109,"Which company is associated with 5001 Baum Blvd., Ste., 770Pittsburgh, PA 15213?",Liberated Syndication Inc.,1,0,0
+109,"Which company is associated with Babst, Calland, Clements and Zomnir, P.C.Two Gateway CenterPittsburgh, PA 15222?",First Commonwealth Bank,1,0,0
+20,"Which company is associated with 40 Wantage Avenue, Branchville, New Jersey 07890?","SELECTIVE INSURANCE GROUP, INC.",1,0,0
+34,"Which company is associated with 200 West StreetNew York, New York  10282-2198?",Goldman Sachs Bank USA,1,0,0
+34,"Which company is associated with 200 West StreetNew York, New York 10282-2198?",Goldman Sachs Bank USA,1,0,0
+34,"Which company is associated with 27175 Energy WayNovi, MI  48377?",ITC Holdings Corp,1,0,0
+34,"Which company is associated with 27175 Energy WayNovi, MI 48377?","Michigan Electric Transmission Company, LLC",1,0,0
+34,"Which company is associated with 30 Hudson Street, 36th FloorJersey City, NJ 07302?",Goldman Sachs Bank USA,1,0,0
+34,"Which company is associated with c%2Fo Goldman, Sachs %26 Co.30 Hudson Street, 36th FloorJersey City, NJ 07302?",Goldman Sachs Bank USA,1,0,0
+18,"Which company is associated with 10 South Wacker DriveChicago, IL 60606?","WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0,0
+18,"Which company is associated with 518 17th StreetSuite 1700Denver, CO 80202?",Black Creek Diversified Property Operating Partnership LP,1,0,0
+18,"Which company is associated with Minneapolis Loan CenterMAC N9300-091600 South 4th Street, 9th FloorMinneapolis, Minnesota 55415?","WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0,0
+30,"Which company is associated with 1000 Louisiana, 3rd FloorHouston, Texas 77002?","Wells Fargo Bank, National Association",1,0,0
+30,"Which company is associated with 1900 West Loop South, Suite 1500Houston, Texas 77027?",Quanex Building Products Corporation,1,0,0
+30,"Which company is associated with MAC D1109-0191525 West W. T. Harris Blvd.Charlotte, NC 28262?","Wells Fargo Bank, National Association",1,0,0
+24,"Which company is associated with 1180 Peachtree Street, NEAtlanta, GA 30309?",King %26 Spalding LLP,1,0,0
+24,"Which company is associated with 383 Madison Avenue, 24th FloorNew York, New York 10179?","JPMorgan Chase Bank, N.A.",1,0,0
+24,"Which company is associated with 500 Stanton Christiana Road, 3rd FloorNewark, DE 19713-2107?","JPMorgan Chase Bank, N.A.",1,0,0
+24,"Which company is associated with One Federal StreetBoston, Massachusetts 02110-1726?","Morgan, Lewis %26 Bockius LLP",1,0,0
+24,"Which company is associated with One Glenlake Parkway, Suite 1200Atlanta Georgia 30328-7267?","Columbia Property Trust Operating Partnership, L.P.",1,0,0
+131,"Which company is associated with 1300 Thames StreetThames Street WharfBaltimore, Maryland 21231?","Morgan Stanley Bank, N.A.",1,0,0
+131,"Which company is associated with 201 South Main StreetSalt Lake City, Utah 84111-2215?","Morgan Stanley Bank, N.A.",1,0,0
+131,"Which company is associated with One Federal Street, Third FloorBoston, Massachusetts 02110?",U.S. Bank National Association,1,0,0
+125,"Which company is associated with 1420 5th Avenue, 9th FloorSeattle, WA 98101?",US Bank Agency Services,1,0,0
+125,"Which company is associated with 414 Silver Ave. SW, MS0905Albuquerque, New Mexico 87102-3289?",Public Service Company of New Mexico,1,0,0
+125,Which company is associated with New Mexico?,PUBLIC SERVICE COMPANY OF NEW MEXICO,1,0,0
+125,"Which company is associated with US Bank Utilities Division461 Fifth Avenue, 8th FloorNew York, NY 10017?",U.S. Bank National Association,1,0,0
+119,"Which company is associated with 2121 Pennsylvania Avenue, N.W.Washington, D.C. 20433United States of America?",International Finance Corporation,1,0,0
+119,"Which company is associated with 4600 Post Oak PlaceSuite 309Houston, TX 77027?","VAALCO Gabon %28Etame%29, Inc.",1,0,0
+118,"Which company is associated with 10 S. Wacker Drive 22nd FloorChicago, IL 60606?",Wells Fargo Corporate Banking,1,0,0
+118,"Which company is associated with 1525 West W.T. Harris BoulevardCharlotte, NC 28262?","Wells Fargo Bank, National Association",1,0,0
+118,"Which company is associated with 2503 S. Hanley RoadSt. Louis, MO 63144?","Post Holdings, Inc.",1,0,0
+118,"Which company is associated with 600 Washington Avenue, Suite 2500St. Louis, MO 63101?","Lewis, Rice %26 Fingersh, L.C",1,0,0
+118,"Which company is associated with 885 Third AvenueNew York, NY 10022?",Latham %26 Watkins LLP,1,0,0
+118,Which company is associated with CAYMAN ISLANDS?,CREDIT SUISSE AG,1,0,0
+130,"Which company is associated with 200 Peach Street, El Dorado, Arkansas 71730?",Murphy USA,1,0,0
+130,"Which company is associated with 2200 Ross Avenue, 9th FloorDallas, TX 75201?","JPMorgan Chase Bank, N.A.",1,0,0
+130,Which company is associated with Nebraska?,"591 Beverage, Inc.",1,0,0
+130,Which company is associated with Texas?,"864 Beverage, Inc.",1,0,0
+31,"Which company is associated with 101 N Tryon Street %09Mail Code%3A NC1-001-05-46 %09Charlotte, North Carolina 28255-0001?","Bank of America, N.A.",1,0,0
+31,"Which company is associated with 101 N Tryon Street. %09Mail Code%3A NC1-001-05-46 %09Charlotte, North Carolina 28255-0001?","Bank of America, N.A",1,0,0
+31,"Which company is associated with 4th Floor Prestige Knowledge Park %09Near Marathalli Junction, Outer Ring Road %09Kadabeesanahalli, Vathur Hobli, Bangalore 560087?","JPMorgan Chase Bank, N.A.",1,0,0
+31,Which company is associated with 900 Metro Center Boulevard?,Visa International Service Association,1,0,0
+31,"Which company is associated with Tokyo Building, 2-7-3, Marunouchi %09Chiyoda-ku, Tokyo, 100-6432, Japan?","JPMorgan Chase Bank, N.A.",1,0,0
+31,"Which company is associated with 1455 Market Street, 5th Floor %09Mail Code%3A CA5-701-05-19 %09San Francisco, California 94103?","Bank of America, N.A.",1,0,0
+31,"Which company is associated with 26 Elmfield Road %09Bromley, BR1 1WA %09United Kingdom?","Bank of America, N.A.",1,0,0
+31,"Which company is associated with 901 Main Street, 64th Floor %09Mail Code%3A TX1-492-64-01 %09Dallas, Texas 75202-3714?","Bank of America, N.A.",1,0,0
+19,"Which company is associated with 200 Vesey StreetNew York, New York 10281?",Royal Bank of Canada,1,0,0
+19,"Which company is associated with 4801 Main Street, Suite 1000Kansas City, MO 64112?",Husch Blackwell LLP,1,0,0
+19,"Which company is associated with One Convenience Blvd.Ankeny, IA 50021?","Casey%E2%80%99s General Stores, Inc",1,0,0
+19,"Which company is associated with RBC Agency Services Group20 King Street West, 4th FloorToronto, Ontario, Canada?",Royal Bank of Canada,1,0,0
+27,"Which company is associated with 2029 Century Park East, 33rd Floor, Los Angeles, CA 90067?",Milbank Tweed Hadley %26 McCloy LLP,1,0,0
+126,"Which company is associated with 10560 Dr. Martin Luther King, Jr St. NorthSt. Petersburg, FL 33716?",Jabil Inc.,1,0,0
+126,"Which company is associated with 10560 Ninth StreetSt. Petersburg, FL 33716?","Jabil Circuit, Inc.",1,0,0
+126,"Which company is associated with 10 S. DearbornChicago, IL 60670?","JPMorgan Chase Bank, N.A.",1,0,0
+126,"Which company is associated with 11333 McCormick RoadMailcode%3A MD5-032-07-05Hunt Valley, MD 21031?","BA Leasing BSC, LLC",1,0,0
+126,"Which company is associated with 1615 Brett Road, Building %233New Castle, Delaware 19720?","Citibank, N.A.",1,0,0
+132,"Which company is associated with 115 South LaSalle StreetChicago, Illinois 60603?",Bank of Montreal,1,0,0
+132,"Which company is associated with 1655 Grant Street, 10th FloorConcord, CA 94520?","ASSETMARK FINANCIAL HOLDINGS, INC.",1,0,0
+32,"Which company is associated with 2711 Centerville Road, Suite 400WilmingtonDelaware 19808?",Heli-One %28U.S.%29 Inc.,1,0,0
+32,"Which company is associated with 4740 Agar DriveRichmond, B.C.V7B 1A3Canada?",ATC-RCS Corporate Services %28Luxembourg%29 S.A.,1,0,0
+32,Which company is associated with 8 Canada SquareLondon E14 5HQ?,HSBC Corporate Trust Company %28UK%29 Limited,1,0,0
+32,"Which company is associated with 9, rue Sainte Zithe, 3rd FloorL-2763 LuxembourgLuxembourg?",ATC-RCS Corporate Services %28Luxembourg%29 S.A.,1,0,0
+32,"Which company is associated with Corporate Trust %26 Loan Agency, Level 278 Canada SquareLondon E14 5HQ?",HSBC Bank plc,1,0,0
+32,"Which company is associated with Level 27, 8 Canada SquareLondon E14 5HQ?",HSBC Bank plc,1,0,0
+26,"Which company is associated with 1300 Thames Street, Thames Street Wharf, 4th Floor, Baltimore, MD 21231?","Morgan Stanley Senior Funding, Inc.",1,0,0
+26,"Which company is associated with 1585 BroadwayNew York, NY 10036?","Morgan Stanley Senior Funding, Inc",1,0,0
+26,"Which company is associated with 345 Park Avenue, New York, New York 10154?",Bristol-Myers Squibb Company,1,0,0
+26,"Which company is associated with Route 206 %26 Province Line Road, Princeton, New Jersey 08543?",Bristol-Myers Squibb Company,1,0,0

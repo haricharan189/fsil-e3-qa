@@ -1,0 +1,187 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+17,What is the role in the agreement of the company associated with 1100 North Market Street\nWilmington Delaware 19890?,"CollateralWilmington Trust, National AssociationAgent",2,0,0
+103,"What is the role in the agreement of the company associated with 245 Park Avenue, 26th Floor\n\nNew York, New York 10167?",Administrative Agent,2,0,0
+103,"What is the role in the agreement of the company associated with 3 SW 129th Avenue\n\nSuite 400\n\nPembroke Pines, FL 33027?",Borrowers,2,0,0
+103,"What is the role in the agreement of the company associated with 225 W. Washington Street, 21st Floor\n\nChicago, IL 60606?",Collateral Agent,2,0,0
+28,"What is the role in the agreement of the company associated with Cayman Corporate Centre, 27 Hospital Road,\n\nGeorge Town, Grand Cayman KY1-9008?",Lender,2,0,0
+28,"What is the role in the agreement of the company associated with 3000 Two Logan Square\n 	Philadelphia, PA 19103?",Borrower,2,0,0
+28,"What is the role in the agreement of the company associated with One Bryant Park\n\nNew York, NY 10036-6745?",Lender,2,0,0
+28,"What is the role in the agreement of the company associated with One Bryant Park\nNew York, NY 10036-6745?",Lender,2,0,0
+28,"What is the role in the agreement of the company associated with 110 East 59th Street, #3300\n\nNew York, NY 10022?",Lender,2,0,0
+28,"What is the role in the agreement of the company associated with 110 East 59th Street, #3300\nNew York, NY 10022?",Lender,2,0,0
+28,"What is the role in the agreement of the company associated with 100 Technology Center Drive, Suite 300\n 	Stoughton, MA 02072?",Borrower,2,0,0
+129,"What is the role in the agreement of the company associated with 20 Florence Avenue\n\nBatavia, New York 14020?",Borrower,2,0,0
+100,"What is the role in the agreement of the company associated with 590 E. Middlefield Road\n\nMountain View, CA 94043-4008?",Borrower,2,0,0
+29,What is the role in the agreement of the company associated with Colorado?,Guarantors,2,0,0
+29,What is the role in the agreement of the company associated with Florida?,Guarantors,2,0,0
+29,What is the role in the agreement of the company associated with Delaware?,Guarantors,2,0,0
+15,"What is the role in the agreement of the company associated with \n1285 Avenue of the Americas\n\nNew York, New York 10019?",LENDER,2,0,0
+104,What is the role in the agreement of the company associated with Arizona?,Material Subsidiaries,2,0,0
+111,"What is the role in the agreement of the company associated with MAC D1109-019\n1525 West W.T. Harris Blvd.\nCharlotte, NC 28262?",Administrative Agent,2,0,0
+111,"What is the role in the agreement of the company associated with One Wells Fargo Center, 11th Floor\n301 South College Street\nCharlotte, North Carolina 28202?",Administrative Agent,2,0,0
+10,"What is the role in the agreement of the company associated with Royal Bank Plaza, 200 Bay Street,\n\n12th Floor South Tower\n\nToronto, Ontario M5J 2W7\n\nCanada?",Administrative Agent,2,0,0
+10,"What is the role in the agreement of the company associated with 4900 Tiedeman Road 4th Floor\n\nBrooklyn, OH 44144?",Borrower,2,0,0
+38,"What is the role in the agreement of the company associated with 383 Madison Avenue, New York, New York 10179?",Administrative Agent,2,0,0
+12,"What is the role in the agreement of the company associated with 108 Wilmot Road\n\nDeerfield, IL 60015?",Borrower,2,0,0
+106,What is the role in the agreement of the company associated with CALIFORNIA?,COUNSEL,2,0,0
+106,What is the role in the agreement of the company associated with MAINE?,COUNSEL,2,0,0
+106,What is the role in the agreement of the company associated with PENNSYLVANIA?,COUNSEL,2,0,0
+106,What is the role in the agreement of the company associated with ILLINOIS?,COUNSEL,2,0,0
+74,"What is the role in the agreement of the company associated with 100 Northern Avenue\n\nBoston, MA 02110?",legal counsel,2,0,0
+74,"What is the role in the agreement of the company associated with 7900 Tysons One Place, Suite 1450, McLean, VA 22102?",Borrower,2,0,0
+48,"What is the role in the agreement of the company associated with 1100 Louisiana, Suite 3300\n\nHouston, TX 77002-5217?",Lender,2,0,0
+48,"What is the role in the agreement of the company associated with C/O Enbridge Inc.\n\n3000, 425-1st\n\nCalgary, Alberta, Canada?",Lender,2,0,0
+48,"What is the role in the agreement of the company associated with 1100 Louisiana, Suite 3300\nHouston, TX 77002-5217?",Borrower,2,0,0
+48,"What is the role in the agreement of the company associated with C/O Enbridge Inc.\n3000, 425-1st\nCalgary, Alberta, Canada?",Borrower,2,0,0
+49,"What is the role in the agreement of the company associated with 225 W. Washington Street, Suite 2100\n\nChicago, Illinois 60606?",Agent,2,0,0
+49,"What is the role in the agreement of the company associated with 200 Clarendon Street, 51st Floor\n\nBoston, Massachusetts  02116?",Agent,2,0,0
+75,"What is the role in the agreement of the company associated with 20 Crosby Drive, Bedford, MA 01730?",Borrower,2,0,0
+75,"What is the role in the agreement of the company associated with 10 South Dearborn Street, Chicago, Illinois 60603?",Administrative Agent,2,0,0
+63,"What is the role in the agreement of the company associated with One South Dearborn, Chicago, Illinois 60603?",legal counsel,2,0,0
+88,"What is the role in the agreement of the company associated with 6922 Hollywood Blvd., Suite 500\n\nLos Angeles, CA 90028?",liability company,2,0,0
+72,"What is the role in the agreement of the company associated with Building #3\n\n1615 Brett Road\n\nNew Castle, DE 19720?",Administrative Agent,2,0,0
+72,"What is the role in the agreement of the company associated with 1000 Stanley Drive\n\nNew Britain, Connecticut 06053?",Initial Borrower,2,0,0
+99,"What is the role in the agreement of the company associated with 305 Hartman Drive\n\nP.O. Box 787\n\nLebanon, Tennessee 37088-0787?",Borrower,2,0,0
+99,"What is the role in the agreement of the company associated with 1808 Aston Avenue, Suite 250\n\nCarlsbad, CA 92008?",AdministrativeAgent,2,0,0
+99,"What is the role in the agreement of the company associated with MAC D1109-019\n\n1525 West W.T. Harris Blvd.\n\nCharlotte, NC 28262?",AdministrativeAgent,2,0,0
+98,"What is the role in the agreement of the company associated with 851 West Cypress Creek Road\n\nFort Lauderdale, Florida 33309?",Borrower,2,0,0
+98,"What is the role in the agreement of the company associated with 14 Crosby Drive\n\nBedford, MA 01730?",Borrower,2,0,0
+98,"What is the role in the agreement of the company associated with One South Dearborn\n\nChicago, IL 60603?",Borrower,2,0,0
+166,"What is the role in the agreement of the company associated with 3560 Lenox Road, Suite 2000, Atlanta, GA 30326?",Guarantor,2,0,0
+67,"What is the role in the agreement of the company associated with 140 Scott Drive\n\nMenlo Park, CA 94025?",legal counsel,2,0,0
+9,"What is the role in the agreement of the company associated with 1011 Warrenville Road	  	\n  	Suite 600	  	\n  	Lisle, IL 60532?",Borrower,2,0,0
+9,"What is the role in the agreement of the company associated with 500 Stanton Christiana Road, Ops 2, Floor 3	  	\n  	Newark, Delaware 19713-2107?",Borrower,2,0,0
+59,"What is the role in the agreement of the company associated with One South Dearborn, Chicago, Illinois 60603?",legal counsel,2,0,0
+59,"What is the role in the agreement of the company associated with 77 W. Wacker Drive, Chicago, Illinois 60601?",legal counsel,2,0,0
+165,"What is the role in the agreement of the company associated with Mizuho Bank, Ltd.\n\n1800 Plaza Ten\n\nHarborside Financial Center\n\nJersey City State: NJ 07311?",Lender,2,0,0
+165,"What is the role in the agreement of the company associated with Bank of America, N.A.\n\nBank of America Plaza\n\n901 Main St\n\nMail Code: TX1-492-14-11\n\nDallas, TX, 75202-3714?",Administrative Agent,2,0,0
+165,"What is the role in the agreement of the company associated with Mail Code: CA5-705-04-09\n\n555 California Street, 4th Floor\n\nSan Francisco, CA 94104?",Administrative Agent,2,0,0
+165,"What is the role in the agreement of the company associated with Mail Code: PA6-580-02-30\n\n1 Fleet Way\n\nScranton, PA 18507?",Administrative Agent,2,0,0
+70,"What is the role in the agreement of the company associated with 11 East 44th Street, Suite 1200\n\nNew York, NY 10017?",Borrower,2,0,0
+168,"What is the role in the agreement of the company associated with Building Ops II, One Penns Way\n\nNew Castle, DE 19720\n\nAttn: Bank Loan Syndications?",Administrative Agent,2,0,0
+168,"What is the role in the agreement of the company associated with 1000 Stanley Drive\n\nNew Britain, Connecticut 06053?",Borrower,2,0,0
+96,"What is the role in the agreement of the company associated with 414 Silver Ave. SW\nAlbuquerque, NM 87102-3289?",Borrower,2,0,0
+96,"What is the role in the agreement of the company associated with CARLSBAD, NEW MEXICO?",LENDERS,2,0,0
+96,"What is the role in the agreement of the company associated with Raymond Palmer,\nUS Bank Utilities Division,\n461 Fifth Avenue, 8th Floor,\nNew York, NY 10017?",Administrative Agent,2,0,0
+96,"What is the role in the agreement of the company associated with US Bank Utilities Division\n461 Fifth Avenue, 8th Floor\nNew York, NY 10017?",Administrative Agent,2,0,0
+97,"What is the role in the agreement of the company associated with 2 South Pointe Drive, Suite 1400\n 	 	Lake Forest, California 92630?",Borrower,2,0,0
+97,"What is the role in the agreement of the company associated with 500 West Monroe Street\n 	 	Chicago, Illinois 60661?",Administrative  Agent,2,0,0
+83,"What is the role in the agreement of the company associated with 3355 Michelson Drive\n\nSuite 100\n\nIrvine, CA 92612?",Cayman Borrower,2,0,0
+54,"What is the role in the agreement of the company associated with 383 Madison Avenue, New York, New York 10179?",Lender,2,0,0
+54,"What is the role in the agreement of the company associated with c/o Blackstone Real Estate Advisors L.P., 345 Park Avenue, New York, New York 10154?",Borrower,2,0,0
+40,"What is the role in the agreement of the company associated with 59 Maiden Lane, 38th Floor, New York, NY 10038?",Borrower,2,0,0
+42,"What is the role in the agreement of the company associated with 3630 South Geyer Road, Suite 100\n\nSt. Louis, MO 63127?",BORROWER,2,0,0
+42,"What is the role in the agreement of the company associated with 63 Kendrick Street\n\nNeedham, MA 02494?",BORROWER,2,0,0
+95,"What is the role in the agreement of the company associated with 200 International Circle, Suite 3500\nHunt Valley, Maryland 21030?",Credit Parties,2,0,0
+95,"What is the role in the agreement of the company associated with 100 N. Tryon Street\n\nMail Code: NC1 -007-17-11\n\nCharlotte, NC 28255?",Administrative Agent,2,0,0
+95,"What is the role in the agreement of the company associated with 101 North Tryon Street\nMail Code: NC1-001-04-39\nCharlotte, North Carolina 28255-0001?",Administrative Agent,2,0,0
+95,"What is the role in the agreement of the company associated with 1455 Market Street\n\nMail Code: CA5-701-05-19\n\nSan Francisco, California 94103-1399?",Administrative Agent,2,0,0
+81,"What is the role in the agreement of the company associated with 580 White Plains Road\nSuite 610\nTarrytown, NY 10591?",LENDER,2,0,0
+157,"What is the role in the agreement of the company associated with P.O. Box 1600\nSan Antonio, Texas  78296?",Lender,2,0,0
+157,"What is the role in the agreement of the company associated with \n905 E. Walnut St.\nGarland, Texas 75040?",Borrower,2,0,0
+157,"What is the role in the agreement of the company associated with \n2727 N. Harwood, 10th Floor\nDallas, Texas 75201?",SENIOR LENDER,2,0,0
+157,What is the role in the agreement of the company associated with Texas?,SENIOR LENDER,2,0,0
+157,What is the role in the agreement of the company associated with \n1100 Placid Avenue Plano TX 75074?,BORROWER,2,0,0
+157,"What is the role in the agreement of the company associated with \n480 S. Honduras CD, Juraez, Mexico?",BORROWER,2,0,0
+157,What is the role in the agreement of the company associated with \n903 E. Walnut St. Garland TX 75040?,BORROWER,2,0,0
+157,What is the role in the agreement of the company associated with 1137 E. Walnut St. Garland TX 75040?,BORROWER,2,0,0
+157,What is the role in the agreement of the company associated with 725 E. Walnut St. Garland TX 75040?,BORROWER,2,0,0
+157,What is the role in the agreement of the company associated with 905 E. Walnut St. Garland TX 75040?,BORROWER,2,0,0
+157,"What is the role in the agreement of the company associated with 905 E. Walnut Street\nGarland, Texas 75040?",BORROWER,2,0,0
+157,What is the role in the agreement of the company associated with 912 E. Walnut St. Garland TX 75040?,BORROWER,2,0,0
+143,"What is the role in the agreement of the company associated with 2777 W. Craig Rd. Ste. 107\nNorth Las Vegas, NV 89032\nClark County?",GUARANTORS,2,0,0
+143,"What is the role in the agreement of the company associated with 3910 S. Maryland Pkwy.\nLas Vegas, NV 89119\nClark County?",GUARANTORS,2,0,0
+143,"What is the role in the agreement of the company associated with 400 N. Nellis Blvd. Ste. 120\nLas Vegas, NV 89110\nClark County?",GUARANTORS,2,0,0
+143,"What is the role in the agreement of the company associated with 7017 Spring Mountain Rd. Ste. 101\nLas Vegas, NV 89117\nClark County?",GUARANTORS,2,0,0
+143,"What is the role in the agreement of the company associated with 1012 E. Hwy 80, Suite A\nForney, TX 75126\nKaufman County?",BORROWER,2,0,0
+143,"What is the role in the agreement of the company associated with 1152 N Buckner Blvd. Ste 106\nDallas, TX 75218\nDallas County?",BORROWER,2,0,0
+143,"What is the role in the agreement of the company associated with 1251 Northwest Hwy. Ste. C\nGarland, TX 75041\nDallas County?",BORROWER,2,0,0
+143,"What is the role in the agreement of the company associated with 1515 S. Buckner Blvd. Ste. 247B\nDallas, TX 75217\nDallas County?",BORROWER,2,0,0
+143,"What is the role in the agreement of the company associated with 1801 East Chase Pkwy. Ste. 117\nFort Worth, TX 76120\nTarrant County?",BORROWER,2,0,0
+143,"What is the role in the agreement of the company associated with 237 NE 28th St.\nFort Worth, TX 76164\nTarrant County?",BORROWER,2,0,0
+143,"What is the role in the agreement of the company associated with 2802 N. Shepherd Dr. Ste. 400\nHouston, TX 77008\nHarris County?",BORROWER,2,0,0
+143,"What is the role in the agreement of the company associated with 3300 Western Center Blvd. Ste. 114A\nFort Worth, TX 76137\nTarrant County?",BORROWER,2,0,0
+143,"What is the role in the agreement of the company associated with 5045 W. Tropicana Ave. Ste. 110\nLas Vegas, NV 89103\nClark County?",BORROWER,2,0,0
+143,"What is the role in the agreement of the company associated with 5501 LBJ Freeway\nDallas, TX 75240\nDallas County?",BORROWER,2,0,0
+143,"What is the role in the agreement of the company associated with 6760 Abrams Rd. Ste. 119\nDallas, TX 75231\nDallas County?",BORROWER,2,0,0
+143,"What is the role in the agreement of the company associated with 7645 S. Custer Road Ste. 420\nMckinney, TX 75070\nCollin County?",BORROWER,2,0,0
+143,"What is the role in the agreement of the company associated with 820 E. Cartwright Rd., Suite 130\nMesquite, TX 75149\nDallas County?",BORROWER,2,0,0
+143,"What is the role in the agreement of the company associated with 900 N. Coit Rd. Ste. 2700\nRichardson, TX 75080\nDallas County?",BORROWER,2,0,0
+143,"What is the role in the agreement of the company associated with 908 Audelia Rd. Ste. 600\nRichardson, TX 75081\nDallas County?",BORROWER,2,0,0
+143,"What is the role in the agreement of the company associated with 9208 E. R L Thornton Fwy. Ste. 204\nDallas, TX 75228\nDallas County?",BORROWER,2,0,0
+142,What is the role in the agreement of the company associated with CHICAGO BRANCH?,Joint Lead Arranger,2,0,0
+156,What is the role in the agreement of the company associated with German?,BORROWERS,2,0,0
+94,"What is the role in the agreement of the company associated with 8510 Colonnade Center Drive, Raleigh, North Carolina 27615?",Borrower,2,0,0
+47,"What is the role in the agreement of the company associated with 1040 Spring Street\n\nSilver Spring, Maryland 20910?",BORROWER,2,0,0
+47,"What is the role in the agreement of the company associated with 1735 Connecticut Avenue, N.W.\n\nWashington, District of Columbia 20009?",BORROWER,2,0,0
+152,"What is the role in the agreement of the company associated with 900 West Trade Street, Suite 650\nMail Code:  NC1-026-06-01\nCharlotte, North Carolina 28255?",Lender,2,0,0
+152,"What is the role in the agreement of the company associated with 8880 West Sunset Road, Suite 240\nLas Vegas, Nevada 89148?",Borrower,2,0,0
+85,"What is the role in the agreement of the company associated with 135 Technology Parkway NW\nNorcross, Georgia 30092?",BORROWERS,2,0,0
+85,"What is the role in the agreement of the company associated with 380 Stevens Avenue, Suite 120\nSolana Beach, California 92075?",BORROWERS,2,0,0
+85,"What is the role in the agreement of the company associated with 48815 Emperor Blvd., Suite 300\nDurham, North Carolina 27703?",BORROWERS,2,0,0
+85,"What is the role in the agreement of the company associated with 4 City Place Drive, Suite 300\nCreve Coeur, Missouri 63141?",BORROWERS,2,0,0
+85,"What is the role in the agreement of the company associated with 6551 Park of Commerce Blvd. NW\nBoca Raton, Florida 33487?",BORROWERS,2,0,0
+85,"What is the role in the agreement of the company associated with 3805 W. Chester Pike, Suite 200\nNewtown Square, Pennsylvania 19073?",BORROWERS,2,0,0
+85,"What is the role in the agreement of the company associated with 9020 Overlook Blvd., Suite 140\nBrentwood, Tennessee 37027?",BORROWERS,2,0,0
+85,"What is the role in the agreement of the company associated with 40 Eastern Avenue\nMalden, Massachusetts 02148-9104?",BORROWERS,2,0,0
+91,"What is the role in the agreement of the company associated with 633 17th Street, Suite 1900\nDenver, Colorado 80202-3619?",BORROWER,2,0,0
+147,"What is the role in the agreement of the company associated with 929 North Front Street\n\nWilmington, NC 28401?",Borrower,2,0,0
+153,"What is the role in the agreement of the company associated with 75 Network Drive, Burlington, MA 01803?",Borrower,2,0,0
+46,"What is the role in the agreement of the company associated with 55 East Monroe\n\nSuite 3300 Chicago, IL 60603?",counsel,2,0,0
+46,"What is the role in the agreement of the company associated with 111 South Wacker Drive\n\nChicago, Illinois 60606?",legal counsel,2,0,0
+46,"What is the role in the agreement of the company associated with 287 Bowman Ave # 241\n\nPurchase, NY 10577?",BORROWER%3A,2,0,0
+46,"What is the role in the agreement of the company associated with 230 Park Avenue\n\nNew York, New York 10169?",counsel,2,0,0
+46,"What is the role in the agreement of the company associated with at Wintrust Bank\n\n231 S. LaSalle Street\n\n2nd Floor\n\nChicago, IL 60604?",Lender,2,0,0
+52,"What is the role in the agreement of the company associated with 1221 Broadway\n     	Oakland, California 94612?",Borrower,2,0,0
+78,"What is the role in the agreement of the company associated with One Information Way, Suite 300\n\nLittle Rock, Arkansas 72202?",administrative agent,2,0,0
+78,"What is the role in the agreement of the company associated with 1900 Grant Street\n\nSuite 720\n\nDenver, CO 80203?",Borrower,2,0,0
+44,"What is the role in the agreement of the company associated with 430 Airport Road\nGreeneville, Tennessee 37745?",BORROWER,2,0,0
+93,"What is the role in the agreement of the company associated with 212 Lavaca Boulevard, Suite 300\nAustin, Texas 78701?",BORROWERS,2,0,0
+93,"What is the role in the agreement of the company associated with 300 West 6th Street, Suite 1300\nAustin, TX 78701?",BANK,2,0,0
+92,"What is the role in the agreement of the company associated with 10003 Woodloch Forest Drive\n\n         Suite 950\n\n         The Woodlands, Texas 77380?",GUARANTORS,2,0,0
+92,"What is the role in the agreement of the company associated with 10003 Woodloch Forest Drive\n\nSuite 950\n\nThe Woodlands, Texas 77380\n\n?",GUARANTORS,2,0,0
+92,"What is the role in the agreement of the company associated with 7725 Woodmont Ave., #200\n\nBethesda, Maryland 20814?",Lender,2,0,0
+150,"What is the role in the agreement of the company associated with 6300 South Syracuse Way, Suite 300\nCentennial, CO 80111?",Borrower,2,0,0
+144,What is the role in the agreement of the company associated with 950 Winter Street\n\nWaltham MA 02451?,BORROWERS,2,0,0
+144,"What is the role in the agreement of the company associated with Apollo Investment Corporation\n730 Fifth Avenue, 11th Floor\nNew York, New York 10019?",LENDER,2,0,0
+144,"What is the role in the agreement of the company associated with Apollo Investment Corporation\n9 West 57th Street, 37th Floor\nNew York, New York 10019?",LENDER,2,0,0
+51,"What is the role in the agreement of the company associated with 80 Pine Street\n \nNew York, NY 10005?",Administrative Agent,2,0,0
+51,"What is the role in the agreement of the company associated with 717 Texas Avenue\n \nSuite 1000\n \nHouston, TX 77002?",Borrower,2,0,0
+45,"What is the role in the agreement of the company associated with 300 North LaSalle Street, Suite 2400, Chicago, Illinois?",counsel to Lender,2,0,0
+45,"What is the role in the agreement of the company associated with 150 Third Avenue South\nNashville, Tennessee 37201?",Borrower,2,0,0
+45,"What is the role in the agreement of the company associated with 5065 Wooster Road, CN-OH-L2CB\nCincinnati, Ohio 45226-2326?",Lender,2,0,0
+45,"What is the role in the agreement of the company associated with One U.S. Bank Plaza\nSt. Louis, Missouri  63101?",Lender,2,0,0
+79,"What is the role in the agreement of the company associated with One Fleet Way, 2nd Floor\n\nMail Code PA6-580-02-30\n\nScranton, PA 18507?",Syndication Agents,2,0,0
+79,"What is the role in the agreement of the company associated with 200 Vesey St., 5th Floor\n\nNew York, NY 10281-8098?",Syndication Agents,2,0,0
+79,"What is the role in the agreement of the company associated with Two Newton Place\n\n255 Washington Street, Suite 300\n\nNewton, Massachusetts 02458-1634?",Borrower,2,0,0
+22,"What is the role in the agreement of the company associated with 3333 Piedmont Road, Suite 2500\nAtlanta, Georgia 30305\nAttn: Timothy W. Bratcher, Esq.?",counsel to any Lender,2,0,0
+22,"What is the role in the agreement of the company associated with 600 Travis Street\nSuite 5400\nHouston, Texas 77002?",counsel to Borrowers,2,0,0
+22,"What is the role in the agreement of the company associated with Three Allen Center\n333 Clay Street\nSuite 4620\nHouston, Texas 77002?",BORROWER,2,0,0
+123,What is the role in the agreement of the company associated with Cayman Islands?,Lender,2,0,0
+136,"What is the role in the agreement of the company associated with 4800 Montgomery Lane, #450, Bethesda, Maryland 20814?",Borrower,2,0,0
+136,"What is the role in the agreement of the company associated with Montgomery Lane, #450\n                                              Bethesda, Maryland 20814\n                                              Attention:  Don McClure\n?",BORROWER,2,0,0
+136,"What is the role in the agreement of the company associated with Congress Street, Suite 475\n                                              Charlotte, NC  28209\n                                              Attention:  Katharine R. Briggs or General Counsel?",LENDER%3A,2,0,0
+122,What is the role in the agreement of the company associated with LONDON?,Lender,2,0,0
+122,What is the role in the agreement of the company associated with NEW YORK?,Lender,2,0,0
+122,What is the role in the agreement of the company associated with S.A. ROTTERDAM?,Lender,2,0,0
+35,"What is the role in the agreement of the company associated with 1185 Avenue of the Americas\n\nNew York, New York 10036?",Borrower,2,0,0
+109,"What is the role in the agreement of the company associated with 5001 Baum Blvd., Ste., 770\nPittsburgh, PA 15213?",Borrowers,2,0,0
+109,"What is the role in the agreement of the company associated with 437 Grant Street\nFrick Building, Suite 1600\nPittsburgh, PA 15219?",Bank,2,0,0
+109,"What is the role in the agreement of the company associated with Babst, Calland, Clements and Zomnir, P.C.\nTwo Gateway Center\nPittsburgh, PA 15222?",Bank,2,0,0
+34,"What is the role in the agreement of the company associated with 27175 Energy Way\nNovi, MI 48377?",Borrower,2,0,0
+30,What is the role in the agreement of the company associated with Ohio?,SUBSIDIARIES,2,0,0
+30,What is the role in the agreement of the company associated with Washington?,SUBSIDIARIES,2,0,0
+30,What is the role in the agreement of the company associated with Delaware?,SUBSIDIARIES,2,0,0
+24,"What is the role in the agreement of the company associated with One Glenlake Parkway, Suite 1200\nAtlanta Georgia 30328-7267?",Borrower,2,0,0
+24,"What is the role in the agreement of the company associated with 1180 Peachtree Street, NE\nAtlanta, GA 30309?",Borrower,2,0,0
+125,What is the role in the agreement of the company associated with New Mexico?,BORROWER,2,0,0
+130,What is the role in the agreement of the company associated with Nebraska?,Subsidiary,2,0,0
+130,What is the role in the agreement of the company associated with Texas?,Subsidiary,2,0,0
+130,What is the role in the agreement of the company associated with Delaware?,Subsidiary,2,0,0
+130,What is the role in the agreement of the company associated with Arkansas?,Subsidiary,2,0,0
+130,"What is the role in the agreement of the company associated with 200 Peach Street, El Dorado, Arkansas 71730?",Guarantor,2,0,0
+130,What is the role in the agreement of the company associated with New Jersey?,Subsidiary,2,0,0
+126,"What is the role in the agreement of the company associated with 1615 Brett Road, Building #3\n\nNew Castle, Delaware 19720?",Agent,2,0,0
+132,"What is the role in the agreement of the company associated with 1655 Grant Street, 10th Floor\n\nConcord, CA 94520?",Borrower,2,0,0
+26,What is the role in the agreement of the company associated with NEW YORK?,Lender,2,0,0
+26,What is the role in the agreement of the company associated with New York?,Lender,2,0,0
