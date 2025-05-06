@@ -1,9 +1,12 @@
-import os
+import argparse
 import glob
-import logging
-import pandas as pd
 import Levenshtein
+import logging
+import os
+import pandas as pd
 import re
+
+from openai import OpenAI
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -43,10 +46,11 @@ def get_output_filename(input_filename):
 
 
 class BenchmarkEvaluator:
-    def __init__(self, results_dir, metrics_dir):
+    def __init__(self, results_dir, metrics_dir, client):
         self.results_dir = results_dir
         self.metrics_dir = metrics_dir
         os.makedirs(self.metrics_dir, exist_ok=True)
+        self.client = client
 
     def calculate_f1_score(self, pred, true):
         """Word overlap F1 score after preprocessing."""
@@ -85,6 +89,28 @@ class BenchmarkEvaluator:
             "Use a scale from 1 to 5, where 5 means 'perfect match', and 1 means 'completely incorrect'. "
             "Respond with only the score as a number (1, 2, 3, 4, or 5)."
         )
+        user_prompt = f"""Ground truth:
+{true}
+
+Model's response:
+{pred}
+
+How well does the model response match the ground truth? Score from 1 to 5."""
+
+        response = self.client.chat.completions.create(
+            model="gpt-4o",
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": user_prompt},
+            ],
+            temperature=0,
+        )
+
+        try:
+            score = int(response.choices[0].message.content.strip())
+        except:
+            score = None
+        return score
 
     def evaluate_csv(self, csv_path):
         """Evaluate a single CSV file and compute metrics."""
@@ -99,13 +125,17 @@ class BenchmarkEvaluator:
         df["f1_score"] = df.apply(lambda row: self.calculate_f1_score(row["llm_response"], row["answer"]), axis=1)
         df["edit_distance"] = df.apply(lambda row: self.calculate_edit_distance(row["llm_response"], row["answer"]), axis=1)
         df["cosine_similarity"] = df.apply(lambda row: self.calculate_cosine_similarity(row["llm_response"], row["answer"]), axis=1)
+        df["llm_as_a_judge"] = None
+        if self.client:
+            df["llm_as_a_judge"] = df.apply(lambda row: self.calculate_LLM_as_a_judge(row["llm_response"], row["answer"]), axis=1)
 
         # Compute document-level statistics
         doc_stats = df.groupby("document_number").agg(
             f1_score=("f1_score", "mean"),
             edit_distance=("edit_distance", "mean"),
             cosine_similarity=("cosine_similarity", "mean"),
-            num_questions=("f1_score", "count")
+            llm_as_a_judge=("llm_as_a_judge", "mean"),
+            num_questions=("f1_score", "count"),
         )
 
         # Compute overall statistics
@@ -113,6 +143,7 @@ class BenchmarkEvaluator:
             "average_f1_score": df["f1_score"].mean(),
             "average_edit_distance": df["edit_distance"].mean(),
             "average_cosine_similarity": df["cosine_similarity"].mean(),
+            "average_llm_as_a_judge": df["llm_as_a_judge"].mean(),
             "total_documents": len(doc_stats),
             "total_questions": len(df),
             "min_f1_score": df["f1_score"].min(),
@@ -123,14 +154,25 @@ class BenchmarkEvaluator:
             "std_edit_distance": df["edit_distance"].std(),
             "min_cosine_similarity": df["cosine_similarity"].min(),
             "max_cosine_similarity": df["cosine_similarity"].max(),
-            "std_cosine_similarity": df["cosine_similarity"].std()
+            "std_cosine_similarity": df["cosine_similarity"].std(),
+            "min_llm_as_a_judge": df["llm_as_a_judge"].min(),
+            "max_llm_as_a_judge": df["llm_as_a_judge"].max(),
+            "std_llm_as_a_judge": df["llm_as_a_judge"].std(),
         }
 
-        # Save overall statistics
-        output_filename = get_output_filename(csv_path)
-        output_path = os.path.join(self.metrics_dir, output_filename)
-        pd.DataFrame([overall_stats]).to_csv(output_path, index=False)
-        logging.info(f"Saved metrics for {csv_path} to {output_path}")
+        base_name = os.path.splitext(os.path.basename(csv_path))[0]
+
+        question_level_path = os.path.join(self.metrics_dir, f"{base_name}_question_metrics.csv")
+        df.to_csv(question_level_path, index=False)
+        logging.info(f"Saved question-level to {question_level_path}")
+
+        document_level_path = os.path.join(self.metrics_dir, f"{base_name}_document_metrics.csv")
+        doc_stats.reset_index().to_csv(document_level_path, index=False)
+        logging.info(f"Saved document-level to {document_level_path}")
+
+        overall_stats_path = os.path.join(self.metrics_dir, f"{base_name}_overall_metrics.csv")
+        pd.DataFrame([overall_stats]).to_csv(overall_stats_path, index=False)
+        logging.info(f"Saved overall-level to {overall_stats_path}")
 
     def evaluate_all(self):
         """Evaluate all CSV files in results_dir."""
@@ -140,8 +182,19 @@ class BenchmarkEvaluator:
             logging.info(f"Processing {csv_file}")
             self.evaluate_csv(csv_file)
 
-evaluator = BenchmarkEvaluator(
-    results_dir="restructured",
-    metrics_dir="metrics"
-)
-evaluator.evaluate_all()
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description="Evaluate benchmark results with optional LLM-as-a-judge.")
+    parser.add_argument('--llm-as-a-judge', type=str, help='OpenAI API key for LLM-as-a-judge scoring', default=None)
+    parser.add_argument('--results-dir', type=str, default='restructured', help='Directory with model result CSVs')
+    parser.add_argument('--metrics-dir', type=str, default='metrics', help='Directory to save evaluation results')
+    
+    args = parser.parse_args()
+
+    client = OpenAI(api_key=args.llm_as_a_judge) if args.llm_as_a_judge else None
+    
+    evaluator = BenchmarkEvaluator(
+        results_dir=args.results_dir,
+        metrics_dir=args.metrics_dir,
+        client=client,
+    )
+    evaluator.evaluate_all()
