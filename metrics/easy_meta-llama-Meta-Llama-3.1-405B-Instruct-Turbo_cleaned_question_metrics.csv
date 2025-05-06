@@ -1,0 +1,291 @@
+Unnamed: 0,document_number,question,answer,num_hops,num_set_operations,multiple_answers,llm_response,sum_values,f1_score,edit_distance,cosine_similarity,llm_as_a_judge
+0,17,"what is the location of exgen renewables holdings, llc","il 60603, 49th floorchicago, 10 south dearborn street",1,0,0,Not found,1,0.0,0.8823529411764706,0.0,1
+1,17,"what is the location of exgen renewables iv, llc","md 21231, 1310 point street, 12th floorbaltimore",1,0,0,Not found,1,0.0,0.8913043478260869,0.0,1
+2,17,"what is the location of exgen renewables iv holding, llc","il 60603, 49th floorchicago, 10 south dearborn street",1,0,0,Not found,1,0.0,0.8823529411764706,0.0,1
+3,17,"what is the location of exelon generation company, llc","dc 20068, 701 ninth street nw, 9th floorwashington",1,0,0,Pennsylvania,1,0.0,0.875,0.0,1
+4,17,"what is the location of morgan stanley senior funding, inc.","md 21231, 1300 thames street, 4th floorthames street wharfbaltimore",1,0,0,Not found,1,0.0,0.9384615384615385,0.0,1
+5,17,what is the location of simpson thacher bartlett llp,"new york, 425 lexington avenue",1,0,0,Not found,1,0.0,0.8275862068965517,0.0,1
+6,17,"what is the location of wilmington trust, national association",1100 north market streetwilmington delaware 19890,1,0,0,"1100 North Market StreetWilmington, Delaware 19890",1,1.0,0.0,1.0000000000000002,5
+7,17,which company is associated with 1100 north market streetwilmington delaware 19890,"wilmington trust, national association",1,0,0,"Wilmington Trust, National Association",1,1.0,0.0,1.0,5
+8,17,"which company is associated with 1300 thames street, 4th floorthames street wharfbaltimore, md 21231","inc., morgan stanley senior funding",1,0,0,Not found,1,0.0,0.7575757575757576,0.0,1
+9,17,"which company is associated with 1310 point street, 12th floorbaltimore, md 21231","llc, exgen renewables iv",1,0,0,Not found,1,0.0,0.9130434782608695,0.0,1
+10,17,"which company is associated with 425 lexington avenue, new york, new york 10017",simpson thacher bartlett llp,1,0,0,Not found,1,0.0,0.8928571428571429,0.0,1
+11,17,"which company is associated with 701 ninth street nw, 9th floorwashington, dc 20068","llc, exelon generation company",1,0,0,Not found,1,0.0,0.8275862068965517,0.0,1
+12,17,"what type of location is 10 south dearborn street, 49th floorchicago, il 60603",chief executive office,1,0,0,Chief Executive Office/Sole Place of Business/Principal Residence,1,0.4,0.6615384615384615,0.44943641652398214,5
+13,17,"what is the role of exgen renewables iv, llc in the agreement",borrower,1,0,0,Borrower,1,1.0,0.0,1.0,5
+14,17,"what is the role of constellation dco albany power holdings, llc in the agreement",grantor,1,0,0,Not found,1,0.0,0.8888888888888888,0.0,1
+15,17,"what is the role of exgen renewables iv holding, llc in the agreement",holding,1,0,0,Not found,1,0.0,0.7777777777777778,0.0,1
+16,17,"what is the role of exelon avsr holding, llc in the agreement",grantor,1,0,0,Not found,1,0.0,0.8888888888888888,0.0,1
+17,17,"what is the role of solgen holding, llc in the agreement",grantor,1,0,0,Not found,1,0.0,0.8888888888888888,0.0,1
+18,17,"what is the role of wilmington trust, national association in the agreement","national associationagent, collateralwilmington trust",1,0,0,Collateral Agent and Depositary Bank,1,0.0,0.75,0.0,2
+19,17,what company is the borrower in the agreement,"llc, exgen renewables iv",1,0,0,"ExGen Renewables IV, LLC",1,1.0,0.34782608695652173,1.0,5
+20,17,what company is the holding in the agreement,"llc, exgen renewables iv holding",1,0,0,Holding,1,0.33333333333333337,0.7741935483870968,0.33517574332792605,1
+23,17,what company is the documentation agent in the agreement,"inc., morgan stanley senior funding",1,0,0,"Morgan Stanley Senior Funding, Inc.",1,1.0,0.24242424242424243,1.0000000000000002,5
+24,17,"what company is the syndication agent, in the agreement","inc., morgan stanley senior funding",1,0,0,"Morgan Stanley Senior Funding, Inc.",1,1.0,0.24242424242424243,1.0000000000000002,5
+25,17,what company is the collateral agent in the agreement,"wilmington trust, national association",1,0,0,"Wilmington Trust, National Association",1,1.0,0.0,1.0,5
+26,17,what company is the depositary bank in the agreement,"wilmington trust, national association",1,0,0,"Wilmington Trust, National Association",1,1.0,0.0,1.0,5
+27,17,what company is the pledgor in the agreement,"llc, exgen renewables iv",1,0,0,"ExGen Renewables IV, LLC",1,1.0,0.34782608695652173,1.0,5
+28,17,"what company is the collateralwilmington trust, national associationagent in the agreement","wilmington trust, national association",1,0,0,"Wilmington Trust, National Association",1,1.0,0.0,1.0,5
+1292,60,what is the position of anthony galea,executive director,1,0,0,Executive Director,1,1.0,0.0,1.0000000000000002,5
+1293,60,what is the position of bernadette collins,senior vice president,1,0,0,Senior Vice President,1,1.0,0.0,1.0000000000000002,5
+1294,60,what is the position of caroline smith,assistant vice president,1,0,0,Assistant Vice President,1,1.0,0.0,1.0000000000000002,5
+1295,60,what is the position of eric h. williams,senior vice president,1,0,0,Senior Vice President,1,1.0,0.0,1.0000000000000002,5
+1296,60,what is the position of greg strauss,director,1,0,0,Director,1,1.0,0.0,1.0,5
+1297,60,what is the position of harry yergey,managing director,1,0,0,Managing Director,1,1.0,0.0,1.0000000000000002,5
+1298,60,what is the position of jason rinne,director,1,0,0,Director,1,1.0,0.0,1.0,5
+1299,60,what is the position of joshua dearmon,senior vice president,1,0,0,Senior Vice President,1,1.0,0.0,1.0000000000000002,5
+1300,60,what is the position of laura dodd,vice president,1,0,0,Vice President,1,1.0,0.0,1.0000000000000002,5
+1301,60,what is the position of lukas coleman,vice president,1,0,0,Vice President,1,1.0,0.0,1.0000000000000002,5
+1302,60,what is the position of michael maguire,managing director,1,0,0,Managing Director,1,1.0,0.0,1.0000000000000002,5
+1303,60,what is the position of michael s. barnett,senior vice president,1,0,0,Senior Vice President,1,1.0,0.0,1.0000000000000002,5
+1304,60,what is the position of oscar cortez,director,1,0,0,Director,1,1.0,0.0,1.0,5
+1305,60,what is the position of patrick hartweger,managing director,1,0,0,Managing Director,1,1.0,0.0,1.0000000000000002,5
+1306,60,what is the position of stephanie herndon,assistant vice president,1,0,0,Assistant Vice President,1,1.0,0.0,1.0000000000000002,5
+1307,60,what is the position of susan m. olsen,vice president,1,0,0,Vice President,1,1.0,0.0,1.0000000000000002,5
+1308,60,what is the position of thor o connell,vice president,1,0,0,Vice President,1,1.0,0.0,1.0000000000000002,5
+1309,60,in what organization does anthony galea work,"n.a, jpmorgan chase bank",1,0,0,"JPMORGAN CHASE BANK, N.A.",1,1.0,0.2727272727272727,1.0,4
+1310,60,in what organization does bernadette collins work,"capital one, national association",1,0,0,"TD Bank, N.A.",1,0.0,0.8125,0.0,1
+1311,60,in what organization does caroline smith work,bank of the west,1,0,0,Bank of the West,1,1.0,0.0,1.0,5
+1312,60,in what organization does eric h. williams work,"capital one, national association",1,0,0,"PNC BANK, NATIONAL ASSOCIATION",1,0.5,0.28125,0.3360969272762575,1
+1313,60,in what organization does greg strauss work,the bank of nova scotia,1,0,0,"WELLS FARGO BANK, NATIONAL ASSOCIATION",1,0.20000000000000004,0.6486486486486487,0.11234277891542777,1
+1314,60,in what organization does harry yergey work,bank of the west,1,0,0,Bank of the West,1,1.0,0.0,1.0,5
+1315,60,in what organization does jason rinne work,the bank of nova scotia,1,0,0,THE BANK OF NOVA SCOTIA,1,1.0,0.0,1.0000000000000002,5
+1316,60,in what organization does joshua dearmon work,"capital one, national association",1,0,0,"Capital One, National Association",1,1.0,0.0,1.0,5
+1317,60,in what organization does laura dodd work,"city national bank, a national banking association",1,0,0,"City National Bank, a national banking association",1,1.0,0.0,1.0000000000000002,5
+1318,60,in what organization does lukas coleman work,"city national bank, a national banking association",1,0,0,U.S. Bank National Association,1,0.6,0.46938775510204084,0.5684901084069616,1
+1319,60,in what organization does marc h. crown work,"inc., leidos holdings",1,0,0,"LEIDOS, INC.",1,0.8,0.5263157894736842,0.7092972666062739,4
+1320,60,in what organization does michael maguire work,bank of the west,1,0,0,SUMITOMO MITSUI BANKING CORPORATION,1,0.0,0.8285714285714286,0.0,1
+1321,60,in what organization does michael s. barnett work,"capital one, national association",1,0,0,"Fifth Third Bank, National Association",1,0.4444444444444445,0.35135135135135137,0.29121941856368966,1
+1322,60,in what organization does oscar cortez work,the bank of nova scotia,1,0,0,"MUFG BANK, LTD.",1,0.25,0.7391304347826086,0.15064018498706508,1
+1323,60,in what organization does patrick hartweger work,bank of the west,1,0,0,Bank of Montreal,1,0.5714285714285715,0.4375,0.4112070550676187,1
+1324,60,in what organization does ryan durkin work,"ltd., mizuho bank",1,0,0,GOLDMAN SACHS BANK USA,1,0.28571428571428575,0.6818181818181818,0.1707761131901165,1
+1325,60,in what organization does stephanie herndon work,regions bank,1,0,0,Regions Bank,1,1.0,0.0,1.0000000000000002,5
+1326,60,in what organization does susan m. olsen work,"city national bank, a national banking association",1,0,0,"CITIBANK, N.A.",1,0.0,0.7755102040816326,0.0,1
+1327,60,in what organization does thor o connell work,"city national bank, a national banking association",1,0,0,"Bank of America, N.A.",1,0.2,0.7959183673469388,0.09867961797986959,1
+1328,60,in what organization does tracy rahn work,"ltd., mizuho bank",1,0,0,"Mizuho Bank, Ltd.",1,1.0,0.5333333333333333,1.0000000000000002,5
+1329,60,"who is the representative of jpmorgan chase bank, n.a",anthony galea,1,0,0,Anthony Galea,1,1.0,0.0,1.0000000000000002,5
+1330,60,"who is the representative of leidos holdings, inc.",marc h. crown,1,0,0,Marc H. Crown,1,1.0,0.0,1.0000000000000002,5
+1331,60,who is the representative of regions bank,stephanie herndon,1,0,0,Stephanie Herndon,1,1.0,0.0,1.0000000000000002,5
+1334,60,"what is the role of leidos, inc. in the agreement",borrower,1,0,0,Borrower,1,1.0,0.0,1.0,5
+1337,60,"what is the role of leidos holdings, inc. in the agreement",holdings,1,0,0,Holdings,1,1.0,0.0,1.0,5
+1339,60,what company is the borrower in the agreement,"inc., leidos",1,0,0,"LEIDOS, INC.",1,1.0,0.8,1.0000000000000002,4
+1340,60,what company is the holdings in the agreement,"inc., leidos holdings",1,0,0,"LEIDOS HOLDINGS, INC.",1,1.0,0.42105263157894735,1.0000000000000002,4
+1637,66,what is the position of ben snodgrass,vice president,1,0,0,Not found,1,0.0,0.8571428571428571,0.0,1
+1638,66,what is the position of bret douglas,senior vice president,1,0,0,Vice President and Assistant Secretary,1,0.5,0.7894736842105263,0.35630042933313816,2
+1639,66,what is the position of cecile segovia,director,1,0,0,Vice President and Assistant Secretary,1,0.0,0.8421052631578947,0.0,1
+1640,66,what is the position of darin mullis,managing director,1,0,0,Vice President and Assistant Secretary,1,0.0,0.7631578947368421,0.0,1
+1641,66,what is the position of erik barragan,authorized officer,1,0,0,Vice President and Assistant Secretary,1,0.0,0.7631578947368421,0.0,1
+1642,66,what is the position of erin robinson,managing director,1,0,0,Vice President and Assistant Secretary,1,0.0,0.7631578947368421,0.0,1
+1643,66,what is the position of james riley,authorized signer,1,0,0,Vice President and Assistant Secretary,1,0.0,0.7368421052631579,0.0,1
+1644,66,what is the position of joseph d. hricovsky,senior vice president,1,0,0,Not found,1,0.0,0.8095238095238095,0.0,1
+1645,66,what is the position of karen m. dahlquist,duly authorized signatory,1,0,0,Not found,1,0.0,0.88,0.0,1
+1646,66,what is the position of kathryn e. benjamin,senior vice president,1,0,0,Not found,1,0.0,0.8095238095238095,0.0,1
+1647,66,what is the position of kevin wood,director,1,0,0,Not found,1,0.0,1.0,0.0,1
+1648,66,what is the position of kristie li,senior vice president,1,0,0,Not found,1,0.0,0.8095238095238095,0.0,1
+1649,66,what is the position of tanille ingle,vice president,1,0,0,Not found,1,0.0,0.8571428571428571,0.0,1
+1650,66,what is the position of tom priedeman,senior vice president,1,0,0,Not found,1,0.0,0.8095238095238095,0.0,1
+1651,66,in what organization does ben snodgrass work,"keybank, national association",1,0,0,Not found,1,0.0,0.8571428571428571,0.0,1
+1652,66,in what organization does bret douglas work,u.s. bank national association,1,0,0,"Bank of America, N.A.",1,0.25,0.6785714285714286,0.1443835552773867,1
+1653,66,in what organization does cecile segovia work,"ltd., mufg bank",1,0,0,"Capital One, National Association",1,0.0,0.875,0.0,1
+1654,66,in what organization does darin mullis work,"wells fargo bank, national association",1,0,0,Citibank N.A.,1,0.0,0.8108108108108109,0.0,1
+1655,66,in what organization does erik barragan work,"n.a., jpmorgan chase bank",1,0,0,"ICU Medical, Inc.",1,0.0,0.7727272727272727,0.0,1
+1656,66,in what organization does erin robinson work,"wells fargo bank, national association",1,0,0,"JPMorgan Chase Bank, N.A.",1,0.22222222222222224,0.7837837837837838,0.12735952979479354,1
+1657,66,in what organization does james riley work,citibank n.a.,1,0,0,"EXC Holding Corp., Tangent Medical Technologies, Inc., Excelsior Medical Corporation, and ICU World, Inc.",1,0.0,0.9072164948453608,0.0,1
+1658,66,in what organization does joseph d. hricovsky work,u.s. bank national association,1,0,0,Not found,1,0.0,0.8571428571428571,0.0,1
+1659,66,in what organization does karen m. dahlquist work,"capital one, national association",1,0,0,Not found,1,0.0,0.875,0.0,1
+1660,66,in what organization does kathryn e. benjamin work,u.s. bank national association,1,0,0,Not found,1,0.0,0.8571428571428571,0.0,1
+1661,66,in what organization does kevin wood work,"ltd., mufg bank",1,0,0,Not found,1,0.0,0.7692307692307693,0.0,1
+1662,66,in what organization does kristie li work,u.s. bank national association,1,0,0,Not found,1,0.0,0.8571428571428571,0.0,1
+1663,66,in what organization does ronnie glenn work,"n.a., bank of america",1,0,0,Not found,1,0.0,0.8333333333333334,0.0,1
+1664,66,in what organization does tanille ingle work,"keybank, national association",1,0,0,Not found,1,0.0,0.8571428571428571,0.0,1
+1665,66,in what organization does tom priedeman work,u.s. bank national association,1,0,0,Not found,1,0.0,0.8571428571428571,0.0,1
+1666,66,"who is the representative of bank of america, n.a.",ronnie glenn,1,0,0,Bret Douglas,1,0.0,0.8333333333333334,0.0,1
+1667,66,"who is the representative of capital one, national association",karen m. dahlquist,1,0,0,Cecile Segovia,1,0.0,0.8823529411764706,0.0,1
+1668,66,who is the representative of citibank n.a.,james riley,1,0,0,Darin Mullis,1,0.0,0.75,0.0,1
+1669,66,"who is the representative of icu medical, inc.",brian m. bonnell,1,0,0,Erik Barragan,1,0.0,0.8,0.0,1
+1670,66,"who is the representative of jpmorgan chase bank, n.a.",erik barragan,1,0,0,Erin Robinson,1,0.0,0.6153846153846154,0.0,1
+1671,66,"who is the representative of exc holding corp.tangent medical technologies, inc.excelsior medical corporationicu world, inc.",brian m. bonnell,1,0,0,James Riley,1,0.0,0.8,0.0,1
+1672,66,what is the role of cahill gordon reindel llp in the agreement,legal counsel,1,0,0,special counsel to the Agents,1,0.28571428571428575,0.6206896551724138,0.19431434016858148,1
+1673,66,what is the role of deloitte touche llp in the agreement,legal counsel,1,0,0,independent public accountants of recognized national standing,1,0.0,0.8387096774193549,0.0,1
+1676,66,"what is the role of icu medical, inc. in the agreement",borrower,1,0,0,Borrower,1,1.0,0.0,1.0,5
+1677,66,what company is the revolver in the agreement,citibank n.a.,1,0,0,"Bank of America, N.A.",1,0.3333333333333333,0.7777777777777778,0.22028815056182974,1
+1678,66,what company is the borrower in the agreement,"inc., icu medical",1,0,0,"ICU Medical, Inc.",1,1.0,0.5333333333333333,1.0000000000000002,4
+1853,9,what is the position of ann e. sutton,director,1,0,0,Director,1,1.0,0.0,1.0,5
+1854,9,what is the position of brian d. williams,authorised signatory,1,0,0,Authorised Signatory,1,1.0,0.0,1.0000000000000002,5
+1855,9,what is the position of eric searls,senior vice president,1,0,0,Senior Vice President,1,1.0,0.0,1.0000000000000002,5
+1856,9,what is the position of james disher,authorized signatory,1,0,0,Authorized Signatory,1,1.0,0.0,1.0000000000000002,5
+1857,9,what is the position of mark walton,authorized signatory,1,0,0,Authorized Signatory,1,1.0,0.0,1.0000000000000002,5
+1858,9,what is the position of mikhail faybusovich,director,1,0,0,Director,1,1.0,0.0,1.0,5
+1859,9,what is the position of peter predun,executive director,1,0,0,Executive Director,1,1.0,0.0,1.0000000000000002,5
+1860,9,what is the position of raymond g. dunning,vice president,1,0,0,Vice President,1,1.0,0.0,1.0000000000000002,5
+1861,9,what is the position of wei jen yuan,associate,1,0,0,Associate,1,1.0,0.0,1.0,5
+1862,9,in what organization does ann e. sutton work,barclays bank plc,1,0,0,Barclays Bank PLC,1,1.0,0.0,1.0000000000000002,5
+1863,9,in what organization does brian d. williams work,the royal bank of scotland plc,1,0,0,The Royal Bank of Scotland plc,1,1.0,0.0,1.0000000000000002,5
+1864,9,in what organization does denise r. cade work,"l.p., suncoke energy partners",1,0,0,"SunCoke Energy Partners, L.P.",1,1.0,0.23076923076923078,1.0,5
+1865,9,in what organization does eric searls work,"l.p., suncoke energy partners",1,0,0,Branch Banking and Trust Company,1,0.0,0.84375,0.0,1
+1866,9,in what organization does ido yehuda work,"n.a., jpmorgan chase bank",1,0,0,"JPMorgan Chase Bank, N.A.",1,1.0,0.2727272727272727,1.0,4
+1867,9,in what organization does james disher work,royal bank of canada,1,0,0,Royal Bank of Canada,1,1.0,0.0,1.0,5
+1868,9,in what organization does jonathan m. phillips work,"l.p., suncoke energy partners",1,0,0,"Bank of America, N.A.",1,0.0,0.7692307692307693,0.0,1
+1869,9,in what organization does mark walton work,royal bank of canada,1,0,0,Goldman Sachs Bank USA,1,0.25,0.7272727272727273,0.14438355527738672,1
+1870,9,in what organization does mikhail faybusovich work,barclays bank plc,1,0,0,"Credit Suisse AG, Cayman Islands Branch",1,0.0,0.7894736842105263,0.0,1
+1871,9,in what organization does peter predun work,"n.a., jpmorgan chase bank",1,0,0,"JPMorgan Chase Bank, N.A.",1,1.0,0.2727272727272727,1.0,4
+1872,9,in what organization does raymond g. dunning work,"n.a., citibank",1,0,0,"Citibank, N.A.",1,1.0,0.5454545454545454,1.0000000000000002,4
+1873,9,in what organization does wei jen yuan work,"credit suisse ag, cayman islands branch",1,0,0,"Credit Suisse AG, Cayman Islands Branch",1,1.0,0.0,1.0000000000000002,5
+1874,9,"who is the representative of credit suisse ag, cayman islands branch",wei jen yuan,1,0,0,"Mikhail Faybusovich, Wei-Jen Yuan",1,0.28571428571428575,0.6774193548387096,0.1707761131901165,4
+1875,9,"who is the representative of citibank, n.a.",raymond g. dunning,1,0,0,Raymond G. Dunning,1,1.0,0.0,1.0000000000000002,5
+1876,9,who is the representative of middletown cogeneration company llc,mark e. newman,1,0,0,Mark E. Newman,1,1.0,0.0,1.0000000000000002,5
+1877,9,who is the representative of the royal bank of scotland plc,brian d. williams,1,0,0,Brian D. Williams,1,1.0,0.0,1.0000000000000002,5
+1878,9,"which company is associated with 1011 warrenville road suite 600 lisle, il 60532","l.p., suncoke energy partners",1,0,0,"SunCoke Energy Partners, L.P.",1,1.0,0.23076923076923078,1.0,4
+1879,9,"which company is associated with 500 stanton christiana road, ops 2, floor 3 newark, delaware 19713 2107","l.p., suncoke energy partners",1,0,0,"JPMorgan Chase Bank, N.A.",1,0.0,0.8461538461538461,0.0,1
+1880,9,what is the role of haverhill cogeneration company llc in the agreement,borrower,1,0,0,Borrower,1,1.0,0.0,1.0,5
+1881,9,what is the role of haverhill coke company llc in the agreement,borrower,1,0,0,Borrower,1,1.0,0.0,1.0,5
+1883,9,"what is the role of middletown coke company, llc in the agreement",borrower,1,0,0,Borrower,1,1.0,0.0,1.0,5
+1886,9,what is the role of middletown cogeneration company llc in the agreement,borrower,1,0,0,Borrower,1,1.0,0.0,1.0,5
+1887,9,"what is the role of suncoke energy partners, l.p. in the agreement",borrower,1,0,0,Borrower,1,1.0,0.0,1.0,5
+1900,65,what is the position of andrew griffin,authorized signatory,1,0,0,Not found,1,0.0,0.85,0.0,1
+1901,65,what is the position of brian d. corum,managing director,1,0,0,Not found,1,0.0,0.8823529411764706,0.0,1
+1902,65,what is the position of frank mccormack,svp,1,0,0,Not found,1,0.0,1.0,0.0,1
+1903,65,what is the position of lise hinton,senior vice president,1,0,0,Not found,1,0.0,0.8095238095238095,0.0,1
+1904,65,what is the position of mario c. kontomerkos,chief executive officer,1,0,0,Not found,1,0.0,0.8695652173913043,0.0,1
+1905,65,what is the position of matthew j. bradley,senior vice president,1,0,0,Not found,1,0.0,0.8095238095238095,0.0,1
+1906,65,what is the position of philip tancorra,vice president,1,0,0,Not found,1,0.0,0.8571428571428571,0.0,1
+1907,65,what is the position of sean mcwhinnie,director,1,0,0,Not found,1,0.0,1.0,0.0,1
+1909,65,what is the position of whitney gaston,authorized signatory,1,0,0,Not found,1,0.0,0.85,0.0,1
+1910,65,what is the position of yumi okabe,vice president,1,0,0,Not found,1,0.0,0.8571428571428571,0.0,1
+1911,65,in what organization does andrew griffin work,goldman sachs bank usa,1,0,0,Not found,1,0.0,0.8636363636363636,0.0,1
+1912,65,in what organization does brian d. corum work,"n.a., bank of america",1,0,0,Not found,1,0.0,0.8333333333333334,0.0,1
+1913,65,in what organization does frank mccormack work,truist bank,1,0,0,Not found,1,0.0,0.8181818181818182,0.0,1
+1914,65,in what organization does lise hinton work,fifth third bank,1,0,0,Not found,1,0.0,0.8125,0.0,1
+1915,65,in what organization does mario c. kontomerkos work,mohegan tribal gaming authority,1,0,0,Not found,1,0.0,0.8709677419354839,0.0,1
+1916,65,in what organization does matthew j. bradley work,fifth third bank,1,0,0,Not found,1,0.0,0.8125,0.0,1
+1917,65,in what organization does philip tancorra work,deutsche bank ag new york branch,1,0,0,Not found,1,0.0,0.875,0.0,1
+1918,65,in what organization does sean mcwhinnie work,"n.a., citizens bank",1,0,0,Not found,1,0.0,0.8125,0.0,1
+1920,65,in what organization does whitney gaston work,goldman sachs bank usa,1,0,0,Not found,1,0.0,0.8636363636363636,0.0,1
+1921,65,in what organization does yumi okabe work,deutsche bank ag new york branch,1,0,0,Not found,1,0.0,0.875,0.0,1
+1922,65,who is the representative of truist bank,frank mccormack,1,0,0,Not found,1,0.0,0.8666666666666667,0.0,1
+1923,65,"who is the representative of bank of america, n.a.",brian d. corum,1,0,0,Brian D. Corum,1,1.0,0.0,1.0000000000000002,5
+1924,65,"who is the representative of citizens bank, n.a.",sean mcwhinnie,1,0,0,Sean McWhinnie,1,1.0,0.0,1.0000000000000002,5
+1925,65,who is the representative of mohegan tribal gaming authority,mario c. kontomerkos,1,0,0,Mario C. Kontomerkos,1,1.0,0.0,1.0000000000000002,5
+1930,65,"what is the role of tribe, faegre drinker biddle reath llp in the agreement",legal counsel,1,0,0,Special counsel to Loan Parties and the Tribe,1,0.2,0.7555555555555555,0.1505569696020495,3
+1931,65,"what is the role of tribe, rosenn, jenkins greenwald llp in the agreement",legal counsel,1,0,0,Special Pennsylvania counsel to the Loan Parties and the Tribe,1,0.1818181818181818,0.8225806451612904,0.1216033147861901,1
+1932,65,what is the role of mohegan tribal gaming authority in the agreement,borrower,1,0,0,Borrower,1,1.0,0.0,1.0,5
+1936,65,what company is the borrower in the agreement,mohegan tribal gaming authority,1,0,0,Mohegan Tribal Gaming Authority,1,1.0,0.0,1.0,5
+2694,43,what is the role of k12 california l.l.c in the agreement,guarantors,1,0,0,K12 California L.L.C is a Guarantor.,1,0.0,0.7575757575757576,0.0,5
+2695,43,what is the role of k12 virtual schools l.l.c. in the agreement,guarantors,1,0,0,K12 Virtual Schools L.L.C. is a Guarantor.,1,0.0,0.7894736842105263,0.0,5
+2696,43,what is the role of k12 washington l.l.c. in the agreement,guarantors,1,0,0,K12 Washington L.L.C. is a Guarantor.,1,0.0,0.7575757575757576,0.0,5
+2697,43,"what is the role of power glide language courses, inc in the agreement",guarantors,1,0,0,"Power-Glide Language Courses, Inc is a Guarantor.",1,0.0,0.8260869565217391,0.0,5
+2698,43,"what is the role of fuel education llc, in the agreement",guarantors,1,0,0,Fuel Education LLC is a Guarantor.,1,0.0,0.7575757575757576,0.0,5
+2699,43,what is the role of k12 classroom l.l.c in the agreement,guarantors,1,0,0,K12 Classroom L.L.C is a Guarantor.,1,0.0,0.75,0.0,5
+2700,43,"what is the role of k12 florida l.l.c., in the agreement",guarantors,1,0,0,K12 Florida L.L.C. is a Guarantor.,1,0.0,0.7333333333333333,0.0,5
+2701,43,what is the role of k12 inc in the agreement,borrower,1,0,0,K12 Inc is the Borrower.,1,0.33333333333333337,0.6521739130434783,0.33517574332792605,5
+2702,43,what is the role of k12 management inc. in the agreement,guarantors,1,0,0,K12 Management Inc. is a Guarantor.,1,0.0,0.7575757575757576,0.0,1
+2703,43,what is the role of k12 services inc. in the agreement,guarantors,1,0,0,K12 Services Inc. is a Guarantor.,1,0.0,0.7419354838709677,0.0,5
+2704,43,what company is the borrower in the agreement,k12 inc,1,0,0,K12 Inc.,1,1.0,0.0,1.0000000000000002,5
+2806,47,what is the position of anthony galea,vice president,1,0,0,Vice President,1,1.0,0.0,1.0000000000000002,5
+2807,47,what is the position of bremmer kneib,vice president,1,0,0,Vice President,1,1.0,0.0,1.0000000000000002,5
+2808,47,what is the position of brian mcnany,director,1,0,0,Director,1,1.0,0.0,1.0,5
+2809,47,what is the position of james edgemond,chief financial officer and treasurer,1,0,0,Chief Financial Officer and Treasurer,1,1.0,0.0,1.0000000000000002,5
+2810,47,what is the position of john p. treadwell jr.,vice president,1,0,0,Vice President,1,1.0,0.0,1.0000000000000002,5
+2811,47,what is the position of kirk tesch,managing director,1,0,0,Managing Director,1,1.0,0.0,1.0000000000000002,5
+2812,47,what is the position of marni mcmanus,vice president,1,0,0,Vice President,1,1.0,0.0,1.0000000000000002,5
+2813,47,what is the position of philip f. kurpiewski,vice president,1,0,0,Senior Vice President,1,0.8,0.3333333333333333,0.7092972666062739,4
+2814,47,what is the position of robert laporte,senior vice president,1,0,0,Senior Vice President,1,1.0,0.0,1.0000000000000002,5
+2815,47,what is the position of samuel coward,vice president,1,0,0,Vice President,1,1.0,0.0,1.0000000000000002,5
+2816,47,in what organization does anthony galea work,deutsche bank ag new york branch,1,0,0,"JPMorgan Chase Bank, N.A.",1,0.2,0.75,0.11521554337793123,1
+2817,47,in what organization does bremmer kneib work,"pnc bank, national association",1,0,0,"PNC Bank, National Association",1,1.0,0.0,1.0,5
+2818,47,in what organization does brian mcnany work,"ltd., the bank of tokyo mitsubishi ufj",1,0,0,"The Bank of Tokyo-Mitsubishi UFJ, Ltd.",1,0.7692307692307692,0.25,0.6327904583679949,5
+2819,47,in what organization does james edgemond work,united therapeutics corporation,1,0,0,United Therapeutics Corporation,1,1.0,0.0,1.0000000000000002,5
+2820,47,in what organization does john p. treadwell jr. work,deutsche bank ag new york branch,1,0,0,"HSBC Bank USA, N.A.",1,0.2,0.71875,0.11521554337793122,1
+2821,47,in what organization does kirk tesch work,"wells fargo bank, national association",1,0,0,"Wells Fargo Bank, National Association",1,1.0,0.0,1.0000000000000002,5
+2822,47,in what organization does kristie li work,"n.a., bank of america",1,0,0,DNB Capital LLC,1,0.0,0.7777777777777778,0.0,1
+2823,47,in what organization does marni mcmanus work,deutsche bank ag new york branch,1,0,0,"Citibank, N.A.",1,0.0,0.75,0.0,1
+2824,47,in what organization does ming k. chu work,deutsche bank ag new york branch,1,0,0,Deutsche Bank AG New York Branch,1,1.0,0.0,1.0000000000000002,5
+2825,47,in what organization does philip f. kurpiewski work,deutsche bank ag new york branch,1,0,0,DNB Capital LLC,1,0.0,0.8125,0.0,1
+2826,47,in what organization does robert laporte work,"n.a., bank of america",1,0,0,"Bank of America, N.A.",1,1.0,0.3333333333333333,1.0,4
+2827,47,in what organization does samuel coward work,barclays bank plc,1,0,0,Barclays Bank PLC,1,1.0,0.0,1.0000000000000002,5
+2828,47,in what organization does virginia cosenza work,deutsche bank ag new york branch,1,0,0,Deutsche Bank AG New York Branch,1,1.0,0.0,1.0000000000000002,5
+2829,47,who is the representative of barclays bank plc,samuel coward,1,0,0,Samuel Coward,1,1.0,0.0,1.0000000000000002,5
+2830,47,"who is the representative of pnc bank, national association",bremmer kneib,1,0,0,Bremmer Kneib,1,1.0,0.0,1.0000000000000002,5
+2831,47,"who is the representative of the bank of tokyo mitsubishi ufj, ltd.",brian mcnany,1,0,0,Brian McNany,1,1.0,0.0,1.0000000000000002,5
+2832,47,who is the representative of united therapeutics corporation,james edgemond,1,0,0,James Edgemond,1,1.0,0.0,1.0000000000000002,5
+2833,47,"who is the representative of wells fargo bank, national association",kirk tesch,1,0,0,Kirk Tesch,1,1.0,0.0,1.0000000000000002,5
+2834,47,"which company is associated with 1040 spring streetsilver spring, maryland 20910",united therapeutics corporation,1,0,0,United Therapeutics Corporation,1,1.0,0.0,1.0000000000000002,5
+2835,47,"which company is associated with 1735 connecticut avenue, n.w.washington, district of columbia 20009",united therapeutics corporation,1,0,0,United Therapeutics Corporation,1,1.0,0.0,1.0000000000000002,5
+2836,47,"which company is associated with 301 south college street, 14th floorcharlotte, nc 28202","wells fargo bank, national association",1,0,0,"Wells Fargo Bank, National Association",1,1.0,0.0,1.0000000000000002,5
+2837,47,what is the role of lung biotechnology pbc in the agreement,guarantors,1,0,0,Guarantor,1,0.0,0.1,0.0,4
+2838,47,"what is the role of 1109 spring holdings, llc, a delaware limited liability company in the agreement",subsidiaries,1,0,0,Subsidiary,1,0.0,0.25,0.0,4
+2839,47,"what is the role of 1109 spring managing member, llc, a delaware limited liability company in the agreement",subsidiaries,1,0,0,Subsidiary,1,0.0,0.25,0.0,4
+2840,47,"what is the role of evolung inc., a delaware corporation in the agreement",subsidiaries,1,0,0,Subsidiary,1,0.0,0.25,0.0,4
+2841,47,"what is the role of lung biotechnology nanjing co., ltd., a chinese wholly foreign owned entity in the agreement",subsidiaries,1,0,0,Subsidiary,1,0.0,0.25,0.0,4
+2842,47,"what is the role of lung biotechnology hong kong limited, a hong kong company in the agreement",subsidiaries,1,0,0,Subsidiary,1,0.0,0.25,0.0,4
+2843,47,"what is the role of lung biotechnology pbc, a delaware public benefit corporation in the agreement",subsidiaries,1,0,0,Guarantor,1,0.0,0.8333333333333334,0.0,1
+2844,47,"what is the role of lung rx limited, a united kingdom company in the agreement",subsidiaries,1,0,0,Subsidiary,1,0.0,0.25,0.0,4
+2847,47,"what is the role of revivicor, inc., a delaware corporation in the agreement",subsidiaries,1,0,0,Subsidiary,1,0.0,0.25,0.0,4
+2848,47,"what is the role of utasia inc., a delaware corporation in the agreement",subsidiaries,1,0,0,Subsidiary,1,0.0,0.25,0.0,4
+2849,47,"what is the role of utasia inc. shanghai representative office, a chinese representative office in the agreement",subsidiaries,1,0,0,Subsidiary,1,0.0,0.25,0.0,4
+2850,47,"what is the role of united therapeutics europe, ltd., a united kingdom company in the agreement",subsidiaries,1,0,0,Subsidiary,1,0.0,0.25,0.0,4
+2851,47,"what is the role of unither.com, inc., a delaware corporation in the agreement",subsidiaries,1,0,0,Subsidiary,1,0.0,0.25,0.0,4
+2852,47,"what is the role of unither biotech inc., a canadian corporation in the agreement",subsidiaries,1,0,0,Subsidiary,1,0.0,0.25,0.0,4
+2853,47,"what is the role of unither pharma, llc, a delaware limited liability company in the agreement",subsidiaries,1,0,0,Subsidiary,1,0.0,0.25,0.0,4
+2854,47,"what is the role of unither pharmaceuticals, llc, a delaware limited liability company in the agreement",subsidiaries,1,0,0,Subsidiary,1,0.0,0.25,0.0,4
+2855,47,"what is the role of unither telmed, ltd., a delaware corporation in the agreement",subsidiaries,1,0,0,Subsidiary,1,0.0,0.25,0.0,4
+2856,47,"what is the role of unither therapeutik gmbh, a german company in the agreement",subsidiaries,1,0,0,"Unither Therapeutik GmbH, a German company is listed as one of the subsidiaries of the Borrower, United Therapeutics Corporation, in Schedule 5.2 of the agreement.",1,0.0909090909090909,0.9240506329113924,0.11940638908242655,5
+2860,47,what is the role of united therapeutics corporation in the agreement,borrower,1,0,0,United Therapeutics Corporation is the Borrower in the agreement.,1,0.2222222222222222,0.875,0.21951095080860833,5
+2862,47,what company is the guarantors in the agreement,lung biotechnology pbc,1,0,0,"Lung Biotechnology PBC, a Delaware public benefit corporation is the Guarantors in the agreement.",1,0.375,0.7684210526315789,0.335175743327926,4
+2863,47,what company is the borrower in the agreement,united therapeutics corporation,1,0,0,"United Therapeutics Corporation, a Delaware corporation is the Borrower in the agreement.",1,0.4615384615384615,0.6436781609195402,0.4736001139580345,5
+2864,47,"what company is the administrative agent, in the agreement","wells fargo bank, national association",1,0,0,"Wells Fargo Bank, National Association is the Administrative Agent, in the agreement.",1,0.625,0.5487804878048781,0.4685191078810857,5
+3357,51,what is the position of cody gunsch,vice president,1,0,0,Vice President,1,1.0,0.0,1.0000000000000002,5
+3358,51,what is the position of sonia flores,vp,1,0,0,VP,1,1.0,0.0,1.0,5
+3359,51,in what organization does cody gunsch work,"inc., morgan stanley senior funding",1,0,0,"Morgan Stanley Senior Funding, Inc.",1,1.0,0.24242424242424243,1.0000000000000002,5
+3360,51,in what organization does sonia flores work,"n.a., mufg union bank",1,0,0,"MUFG Union Bank, N.A.",1,1.0,0.3333333333333333,1.0,5
+3361,51,in what organization does zamir rauf work,calpine corporation,1,0,0,Calpine Corporation,1,1.0,0.0,1.0000000000000002,5
+3362,51,who is the representative of calpine corporation,zamir rauf,1,0,0,Zamir Rauf,1,1.0,0.0,1.0000000000000002,5
+3363,51,"who is the representative of morgan stanley senior funding, inc.",cody gunsch,1,0,0,Cody Gunsch,1,1.0,0.0,1.0000000000000002,5
+3364,51,"who is the representative of mufg union bank, n.a.",sonia flores,1,0,0,Sonia Flores,1,1.0,0.0,1.0000000000000002,5
+3365,51,what is the location of cahill gordon reindel llp,"ny 10005, 80 pine street new york",1,0,0,"80 Pine Street New York, NY 10005",1,1.0,0.5625,1.0000000000000004,5
+3366,51,what is the location of calpine corporation,"tx 77002, 717 texas avenue suite 1000 houston",1,0,0,"717 Texas Avenue Suite 1000 Houston, TX 77002",1,1.0,0.4090909090909091,1.0000000000000002,5
+3367,51,"what is the location of morgan stanley senior funding, inc.","ny 10036, 1585 broadway new york",1,0,0,"1585 Broadway New York, NY 10036",1,1.0,0.5806451612903226,1.0000000000000002,5
+3368,51,"what is the location of mufg union bank, n.a.","ca 94014, 11th floor san francisco, global trust services 350 california st.",1,0,0,"Global Trust Services 350 California St., 11th Floor San Francisco, CA 94014",1,1.0,0.863013698630137,1.0000000000000002,5
+3369,51,"which company is associated with 1585 broadway new york, ny 10036","inc., morgan stanley senior funding",1,0,0,"Morgan Stanley Senior Funding, Inc.",1,1.0,0.24242424242424243,1.0000000000000002,5
+3370,51,"which company is associated with 717 texas avenue suite 1000 houston, tx 77002",calpine corporation,1,0,0,Calpine Corporation,1,1.0,0.0,1.0000000000000002,5
+3371,51,"which company is associated with 80 pine street new york, ny 10005",cahill gordon reindel llp,1,0,0,Cahill Gordon & Reindel LLP,1,0.888888888888889,0.07407407407407407,1.0,5
+3372,51,"which company is associated with global trust services 350 california st., 11th floor san francisco, ca 94014","n.a., mufg union bank",1,0,0,"MUFG Union Bank, N.A.",1,1.0,0.3333333333333333,1.0,5
+3373,51,"what is the role of ing capital, llc in the agreement",co manager,1,0,0,Co-Manager,1,0.0,0.1,0.0,5
+3374,51,what is the role of cahill gordon reindel llp in the agreement,administrative agent,1,0,0,"Cahill Gordon & Reindel LLP is the counsel to the Administrative Agent, the Collateral Agent and the Arrangers.",1,0.25,0.8165137614678899,0.28256997839128867,5
+3375,51,what is the role of calpine corporation in the agreement,borrower,1,0,0,Calpine Corporation is the Borrower.,1,0.33333333333333337,0.7714285714285715,0.33517574332792605,4
+3376,51,what company is the co manager in the agreement,"llc, ing capital",1,0,0,"ING Capital, LLC",1,1.0,0.5333333333333333,1.0000000000000002,5
+3377,51,what company is the borrower in the agreement,calpine corporation,1,0,0,Calpine Corporation,1,1.0,0.0,1.0000000000000002,5
+3398,45,"what is the position of cynthia m. olson,",client services representative,1,0,0,Client Services Representative,1,1.0,0.0,1.0000000000000002,5
+3399,45,what is the position of eric niedbalski,portfolio manager,1,0,0,Portfolio Manager,1,1.0,0.0,1.0000000000000002,5
+3400,45,what is the position of harold r. carpenter,chief financial officer,1,0,0,Chief Financial Officer,1,1.0,0.0,1.0000000000000002,5
+3401,45,what is the position of mark r. cousineau,senior vice president,1,0,0,Senior Vice President,1,1.0,0.0,1.0000000000000002,5
+3402,45,"in what organization does cynthia m. olson, work",u.s. bank national association,1,0,0,U.S. Bank National Association,1,1.0,0.0,1.0,5
+3403,45,in what organization does eric niedbalski work,u.s. bank national association,1,0,0,U.S. Bank National Association,1,1.0,0.0,1.0,5
+3404,45,in what organization does harold r. carpenter work,pinnacle bank,1,0,0,Pinnacle Bank,1,1.0,0.0,1.0000000000000002,5
+3405,45,in what organization does mark r. cousineau work,u.s. bank national association,1,0,0,U.S. Bank National Association,1,1.0,0.0,1.0,5
+3406,45,who is the representative of pinnacle bank,harold r. carpenter,1,0,0,Harold R. Carpenter,1,1.0,0.0,1.0000000000000002,5
+3407,45,what is the location of kirkland ellis llp,"chicago, illinois, suite 2400, 300 north lasalle street",1,0,0,"300 North LaSalle Street, Suite 2400, Chicago, Illinois",1,1.0,0.8076923076923077,1.0000000000000002,5
+3408,45,what is the location of pinnacle bank,"tennessee 37201, 150 third avenue southnashville",1,0,0,"150 Third Avenue South, Nashville, Tennessee 37201",1,0.7692307692307692,0.6875,0.6327904583679945,5
+3409,45,"which company is associated with 150 third avenue southnashville, tennessee 37201",pinnacle bank,1,0,0,Pinnacle Bank,1,1.0,0.0,1.0000000000000002,5
+3410,45,"which company is associated with 300 north lasalle street, suite 2400, chicago, illinois",kirkland ellis llp,1,0,0,Kirkland & Ellis LLP,1,0.8571428571428571,0.1,1.0000000000000002,5
+3411,45,"which company is associated with 5065 wooster road, cn oh l2cbcincinnati, ohio 45226 2326",u.s. bank national association,1,0,0,U.S. Bank National Association,1,1.0,0.0,1.0,5
+3412,45,"which company is associated with one u.s. bank plazast. louis, missouri 63101",u.s. bank national association,1,0,0,U.S. Bank National Association,1,1.0,0.0,1.0,5
+3413,45,"what is the role of pinnacle financial partners, inc in the agreement",subsidiary,1,0,0,Parent company of Pinnacle Bank,1,0.0,0.9354838709677419,0.0,1
+3414,45,what is the role of kirkland ellis llp in the agreement,counsel to lender,1,0,0,Counsel to Lender,1,1.0,0.0,1.0000000000000002,5
+3415,45,what is the role of pinnacle bank in the agreement,borrower,1,0,0,Borrower,1,1.0,0.0,1.0,5
+3416,45,what company is the borrower in the agreement,pinnacle bank,1,0,0,Pinnacle Bank,1,1.0,0.0,1.0000000000000002,5
+3417,45,what company is the lender in the agreement,u.s. bank national association,1,0,0,U.S. Bank National Association,1,1.0,0.0,1.0,5
+4474,25,what is the position of michael larsen,president,1,0,0,President,1,1.0,0.0,1.0,5
+4475,25,what is the position of william p. mcloughlin,svp,1,0,0,SVP,1,1.0,0.0,1.0,5
+4477,25,in what organization does michael larsen work,"llc, hunt cmt equity",1,0,0,"Hunt Companies Finance Trust, Inc.",1,0.22222222222222224,0.78125,0.1273595297947935,1
+4478,25,in what organization does william p. mcloughlin work,"llc, jefferies leveraged credit products",1,0,0,"Jefferies Leveraged Credit Products, LLC",1,1.0,0.20512820512820512,1.0000000000000002,4
+4480,25,"who is the representative of hunt cmt equity, llc",michael larsen,1,0,0,Michael Larsen,1,1.0,0.0,1.0000000000000002,5
+4481,25,"who is the representative of jefferies leveraged credit products, llc",william p. mcloughlin,1,0,0,William P. McLoughlin,1,1.0,0.0,1.0000000000000002,5
+4482,25,what is the role of five oaks acquisition corp. in the agreement,guarantors,1,0,0,Guarantor,1,0.0,0.1,0.0,4
+4483,25,"what is the role of five oaks acquisition corp. and hunt cmt equity, llc in the agreement",guarantors,1,0,0,Guarantors,1,1.0,0.0,1.0,5
+4484,25,what is the role of five oaks acquisition corp. in the agreement,guarantors,1,0,0,Guarantor,1,0.0,0.1,0.0,4
+4485,25,"what is the role of hunt companies finance trust, inc in the agreement",borrower,1,0,0,Borrower,1,1.0,0.0,1.0,5
+4486,25,"what is the role of hunt companies finance trust, inc. in the agreement",borrower,1,0,0,Borrower,1,1.0,0.0,1.0,5
+4487,25,"what is the role of hunt cmt equity, llc in the agreement",guarantor,1,0,0,Guarantor,1,1.0,0.0,1.0,5
+4488,25,"what is the role of hunt cmt equity, llc in the agreement",guarantor,1,0,0,Guarantor,1,1.0,0.0,1.0,5
+4489,25,what company is the lenders in the agreement,cortland capital market services llc,1,0,0,"Jefferies Leveraged Credit Products, LLC",1,0.20000000000000004,0.717948717948718,0.11234277891542777,1
