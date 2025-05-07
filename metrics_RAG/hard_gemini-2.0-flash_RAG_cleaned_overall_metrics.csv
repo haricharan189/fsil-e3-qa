@@ -1,0 +1,2 @@
+average_f1_score,average_edit_distance,average_cosine_similarity,average_llm_as_a_judge,total_documents,total_questions,min_f1_score,max_f1_score,std_f1_score,min_edit_distance,max_edit_distance,std_edit_distance,min_cosine_similarity,max_cosine_similarity,std_cosine_similarity,min_llm_as_a_judge,max_llm_as_a_judge,std_llm_as_a_judge
+0.019090130854836736,0.8449826583831445,0.01072800807177915,1.2027027027027026,2,74,0.0,0.2,0.05322830952209334,0.6031746031746031,0.9230769230769231,0.050143821621328744,0.0,0.1636830616936349,0.031413359242200956,1,4,0.6406274691575212

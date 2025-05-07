@@ -1,2 +1,0 @@
-average_f1_score,average_edit_distance,average_cosine_similarity,total_documents,total_questions,min_f1_score,max_f1_score,std_f1_score,min_edit_distance,max_edit_distance,std_edit_distance,min_cosine_similarity,max_cosine_similarity,std_cosine_similarity
-0.38927537026985354,0.6101317362922862,0.3656677522508494,33,499,0.0,1.0,0.4051234189339593,0.0,1.0,0.3615743844286126,0.0,1.0000000000000002,0.40892481432244226
