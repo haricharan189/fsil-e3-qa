@@ -1,0 +1,44 @@
+Unnamed: 0,document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension,llm_response,f1_score,edit_distance,cosine_similarity
+58,60,"what is the role and subrole that bank of montreal and fifth third bank, national association share in the agreement that is not held by jpmorgan chase bank, n.a.",documentation agent,1,3,0,"Bank of Montreal is a Documentation Agent and Fifth Third Bank, National Association is a Senior Managing Agent, roles not held by JPMorgan Chase Bank, N.A.",0.17391304347826084,0.1258278145695364,0.2687916679291217
+59,60,"what is the role and subrole that bank of montreal and fifth third bank, national association share in the agreement that is not held by mufg bank, ltd.",documentation agent,1,3,0,Not found,0.0,0.21052631578947367,0.0
+60,60,"what is the role and subrole that bank of montreal and fifth third bank, national association share in the agreement that is not held by pnc capital markets llc",documentation agent,1,3,0,"Bank of Montreal: Documentation Agents, Senior Managing Agents
+Fifth Third Bank, National Association: Senior Managing Agents
+PNC Capital Markets LLC: Joint Lead Arrangers and Joint Bookrunners
+
+Senior Managing Agents",0.09090909090909091,0.08878504672897192,0.05487366688819072
+61,60,"what is the role and subrole that bank of montreal and fifth third bank, national association share in the agreement that is not held by wells fargo securities llc",documentation agent,1,3,0,"Bank of Montreal is a documentation agent and Fifth Third Bank, National Association is a senior managing agent. Wells Fargo Securities, LLC is a joint lead arranger and joint bookrunner.",0.16666666666666669,0.10382513661202186,0.24315309915386518
+62,60,"what is the role and subrole that bank of montreal and goldman sachs bank usa share in the agreement that is not held by jpmorgan chase bank, n.a.",documentation agent,1,3,0,Not found,0.0,0.21052631578947367,0.0
+63,60,"what is the role and subrole that bank of montreal and goldman sachs bank usa share in the agreement that is not held by mufg bank, ltd.",documentation agent,1,3,0,"Bank of Montreal: Documentation Agents, Senior Managing Agents
+Goldman Sachs Bank USA: Senior Managing Agents
+MUFG Bank, LTD.: Syndication Agent
+Not found",0.2222222222222222,0.1258278145695364,0.16539439585841767
+64,60,what is the role and subrole that bank of montreal and goldman sachs bank usa share in the agreement that is not held by pnc capital markets llc,documentation agent,1,3,0,Not found,0.0,0.21052631578947367,0.0
+65,60,what is the role and subrole that bank of montreal and goldman sachs bank usa share in the agreement that is not held by wells fargo securities llc,documentation agent,1,3,0,Not found,0.0,0.21052631578947367,0.0
+66,60,"what is the role and subrole that bank of montreal and pnc bank, national association share in the agreement that is not held by pnc capital markets llc",documentation agent,1,3,0,Not found,0.0,0.21052631578947367,0.0
+67,60,"what is the role and subrole that bank of montreal and pnc bank, national association share in the agreement that is not held by wells fargo securities llc",documentation agent,1,3,0,Not found,0.0,0.21052631578947367,0.0
+68,60,"what is the role and subrole that bank of montreal and td bank, n.a. share in the agreement that is not held by wells fargo securities llc",documentation agent,1,3,0,Not found,0.0,0.21052631578947367,0.0
+69,60,what is the role and subrole that bank of montreal and u.s. bank national association share in the agreement that is not held by wells fargo securities llc,documentation agent,1,3,0,Not found,0.0,0.21052631578947367,0.0
+70,60,"what is the role and subrole that bank of montreal and wells fargo bank, national association share in the agreement that is not held by wells fargo securities llc",documentation agent,1,3,0,Not found,0.0,0.21052631578947367,0.0
+71,60,"what is the role and subrole that u.s. bank national association and wells fargo bank, national association share in the agreement that is not held by wells fargo securities llc",documentation agent,1,3,0,Not found,0.0,0.21052631578947367,0.0
+76,60,"what company is the documentation agent in the agreement, shared by bank of montreal and u.s. bank national association but not held by wells fargo securities llc",bank of montreal,1,3,0,"BANK OF AMERICA, N.A.",0.5714285714285715,0.5,0.4112070550676187
+80,60,"what is the role and subrole that bank of montreal holds in the agreement that is not held by bofa securities, inc. or citibank, n.a.",documentation agent,1,3,0,Documentation Agents,0.5,0.95,0.33609692727625756
+81,60,"what is the role and subrole that bank of montreal holds in the agreement that is not held by bofa securities, inc. or jpmorgan chase bank, n.a.",documentation agent,1,3,0,Documentation Agents,0.5,0.95,0.33609692727625756
+82,60,"what is the role and subrole that bank of montreal holds in the agreement that is not held by bofa securities, inc. or mufg bank, ltd.",documentation agent,1,3,0,Documentation Agents,0.5,0.95,0.33609692727625756
+83,60,"what is the role and subrole that bank of montreal holds in the agreement that is not held by bofa securities, inc. or pnc capital markets llc",documentation agent,1,3,0,Documentation Agents,0.5,0.95,0.33609692727625756
+84,60,"what is the role and subrole that bank of montreal holds in the agreement that is not held by bofa securities, inc. or wells fargo securities llc",documentation agent,1,3,0,Documentation Agents,0.5,0.95,0.33609692727625756
+85,60,"what is the role and subrole that bank of montreal holds in the agreement that is not held by citibank, n.a. or jpmorgan chase bank, n.a.",documentation agent,1,3,0,Documentation Agents,0.5,0.95,0.33609692727625756
+86,60,"what is the role and subrole that bank of montreal holds in the agreement that is not held by citibank, n.a. or mufg bank, ltd.",documentation agent,1,3,0,Documentation Agents,0.5,0.95,0.33609692727625756
+87,60,"what is the role and subrole that bank of montreal holds in the agreement that is not held by citibank, n.a. or pnc capital markets llc",documentation agent,1,3,0,Documentation Agents,0.5,0.95,0.33609692727625756
+88,60,"what is the role and subrole that bank of montreal holds in the agreement that is not held by citibank, n.a. or wells fargo securities llc",documentation agent,1,3,0,Documentation Agents,0.5,0.95,0.33609692727625756
+89,60,"what is the role and subrole that bank of montreal holds in the agreement that is not held by jpmorgan chase bank, n.a. or mufg bank, ltd.",documentation agent,1,3,0,Documentation Agents,0.5,0.95,0.33609692727625756
+90,60,"what is the role and subrole that bank of montreal holds in the agreement that is not held by jpmorgan chase bank, n.a. or pnc capital markets llc",documentation agent,1,3,0,Documentation Agents,0.5,0.95,0.33609692727625756
+91,60,"what is the role and subrole that bank of montreal holds in the agreement that is not held by jpmorgan chase bank, n.a. or wells fargo securities llc",documentation agent,1,3,0,Documentation Agents,0.5,0.95,0.33609692727625756
+92,60,"what is the role and subrole that bank of montreal holds in the agreement that is not held by mufg bank, ltd. or pnc capital markets llc",documentation agent,1,3,0,Documentation Agents,0.5,0.95,0.33609692727625756
+93,60,"what is the role and subrole that bank of montreal holds in the agreement that is not held by mufg bank, ltd. or wells fargo securities llc",documentation agent,1,3,0,Documentation Agents,0.5,0.95,0.33609692727625756
+94,60,what is the role and subrole that bank of montreal holds in the agreement that is not held by pnc capital markets llc or wells fargo securities llc,documentation agent,1,3,0,Documentation Agents,0.5,0.95,0.33609692727625756
+125,9,who is the associate of the company which is both the lender and the swing line in the agreement,wei jen yuan,3,1,0,Not found,0.0,0.16666666666666663,0.0
+126,9,who is the vice president of the company which is both the lender and the swing line in the agreement,raymond g. dunning,3,1,0,Not found,0.0,0.23529411764705888,0.0
+127,9,who is the authorised signatory of the company which is both the lender and the swing line in the agreement,brian d. williams,3,1,0,Not found,0.0,0.125,0.0
+228,60,who is both the senior vice president and treasurer of the company which is the holdings in the agreement,marc h. crown,3,1,0,Not found,0.0,0.16666666666666663,0.0
+319,9,who is both the chief financial officer and senior vice president of the company where eric searls is employed,mark e. newman,3,1,0,Not found,0.0,0.07692307692307687,0.0
+320,9,who is both the chief financial officer and senior vice president of the company where jonathan m. phillips is employed,mark e. newman,3,1,0,Not found,0.0,0.07692307692307687,0.0

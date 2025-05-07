@@ -1,0 +1,502 @@
+Unnamed: 0,document_number,question,answer,num_hops,num_set_operations,multiple_answers,llm_response,f1_score,edit_distance,cosine_similarity
+112,66,who is the authorized signer of the company which is the issuing lender but not the revolver in the agreement,james riley,3,2,0,"Citibank, N.A.",0.0,0.0,0.0
+113,66,who is the authorized signer of the company which is the term loan a lender but not the revolver in the agreement,james riley,3,2,0,Citibank N.A.,0.0,0.0,0.0
+114,66,who is the authorized signer of the company which is the swingline lender but not the revolver in the agreement,james riley,3,2,0,"Wells Fargo Bank, National Association",0.0,0.1351351351351351,0.0
+164,47,who is the vice president of the company which is the lender but not the co syndication agents in the agreement,bremmer kneib,3,2,0,Deutsche Bank AG New York Branch,0.0,0.15625,0.0
+165,47,who is the director of the company which is the co syndication agents but not the bookrunners in the agreement,brian mcnany,3,2,0,Not found,0.0,0.16666666666666663,0.0
+166,47,who is the director of the company which is the lender but not the bookrunners in the agreement,brian mcnany,3,2,0,Not found,0.0,0.16666666666666663,0.0
+167,47,who is the director of the company which is the lender but not the co syndication agents in the agreement,brian mcnany,3,2,0,Not found,0.0,0.16666666666666663,0.0
+168,47,"who is the managing director of the company which is the lender but not the administrative agent, in the agreement",kirk tesch,3,2,0,Brian McNany,0.0,0.16666666666666663,0.0
+182,51,who is the vice president of the company which is the collateral agent but not the lead arrangers in the agreement,cody gunsch,3,2,0,"MUFG Union Bank, N.A.",0.0,0.11111111111111116,0.0
+183,51,who is the vice president of the company which is the collateral agent but not the bookrunners in the agreement,cody gunsch,3,2,0,"MUFG Union Bank, N.A.",0.0,0.11111111111111116,0.0
+184,51,who is the vice president of the company which is the collateral agent but not the lender in the agreement,cody gunsch,3,2,0,"MUFG Union Bank, N.A. is the collateral agent in the agreement. The vice president mentioned in the signature block for MUFG Union Bank, N.A. is Sonia N. Flores. 
+
+Answer:
+Sonia N. Flores",0.0,0.04571428571428571,0.0
+185,51,who is the vice president of the company which is the administrative agent but not the lead arrangers in the agreement,cody gunsch,3,2,0,Zamir Rauf,0.0,0.0,0.0
+186,51,who is the vice president of the company which is the administrative agent but not the bookrunners in the agreement,cody gunsch,3,2,0,Zamir Rauf,0.0,0.0,0.0
+187,51,who is the vice president of the company which is the administrative agent but not the lender in the agreement,cody gunsch,3,2,0,Zamir Rauf,0.0,0.0,0.0
+353,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by fifth third bank, national association","bookrunner, book manager, lead arranger",1,3,1,Joint Lead Arrangers and Joint Bookrunners,0.20000000000000004,0.2142857142857143,0.08704446792504217
+354,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by goldman sachs bank usa","bookrunner, book manager, lead arranger",1,3,1,"Bank of Montreal and BofA Securities, Inc. share the following roles and subroles in the agreement that are not held by Goldman Sachs Bank USA:
+
+1. Joint Lead Arrangers and Joint Bookrunners
+2. Documentation Agents",0.05714285714285715,0.14832535885167464,0.03574720087172336
+355,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by pnc bank, national association","bookrunner, book manager, lead arranger",1,3,1,"Bank of Montreal and BofA Securities, Inc. share the following roles and subroles in the agreement that are not held by PNC Bank, National Association:
+
+1. Joint Lead Arrangers and Joint Bookrunners
+
+PNC Bank, National Association is listed as a Documentation Agent and does not hold the Joint Lead Arranger and Joint Bookrunner roles.",0.1395348837209302,0.10703363914373087,0.105330622636956
+356,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,"Bank of Montreal and BofA Securities, Inc. share the following roles and subroles in the agreement that are not held by PNC Capital Markets LLC:
+
+1. **Joint Lead Arrangers and Joint Bookrunners**  
+   - Both Bank of Montreal and BofA Securities, Inc. are listed as Joint Lead Arrangers and Joint Bookrunners for the credit facilities established under the agreement.  
+   - PNC Capital Markets LLC is also a Joint Lead Arranger and Joint Bookrunner, so this role is shared by all three entities.  
+
+2. **Documentation Agents**  
+   - Bank of Montreal is listed as a Documentation Agent.  
+   - BofA Securities, Inc. is not explicitly listed as a Documentation Agent, but its affiliate, Bank of America, N.A., is a Documentation Agent.  
+   - PNC Capital Markets LLC is not listed as a Documentation Agent, but its affiliate, PNC Bank, National Association, is a Documentation Agent.  
+
+Thus, the key distinction is that **Bank of Montreal** (directly) and **Bank of America, N.A.** (affiliate of BofA Securities, Inc.) serve as **Documentation Agents**, while **PNC Capital Markets LLC** does not hold this role (though its affiliate, PNC Bank, National Association, does).  
+
+In summary, the roles **not shared with PNC Capital Markets LLC** are:  
+- **Bank of Montreal** as a **Documentation Agent**.  
+- **Bank of America, N.A.** (affiliate of BofA Securities, Inc.) as a **Documentation Agent**.  
+
+PNC Capital Markets LLC is only a **Joint Lead Arranger and Joint Bookrunner**, not a Documentation Agent.",0.06593406593406592,0.02059659090909094,0.1031392592544446
+357,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by td bank, n.a.","bookrunner, book manager, lead arranger",1,3,1,"Bank of Montreal and BofA Securities, Inc. share the following roles and subroles in the agreement that are not held by TD Bank, N.A.:
+
+1. Joint Lead Arrangers and Joint Bookrunners
+2. Documentation Agents",0.0588235294117647,0.15736040609137059,0.03615569527156742
+358,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1,Joint Lead Arrangers and Joint Bookrunners,0.20000000000000004,0.2142857142857143,0.08704446792504217
+359,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,"Bank of Montreal and BofA Securities, Inc. share the following roles and subroles in the agreement that are not held by JPMorgan Chase Bank, N.A.:
+
+1. **Joint Lead Arrangers and Joint Bookrunners**  
+   - Bank of Montreal  
+   - BofA Securities, Inc.  
+
+2. **Documentation Agents**  
+   - Bank of Montreal  
+   - BofA Securities, Inc.  
+
+JPMorgan Chase Bank, N.A. is listed as a **Joint Lead Arranger and Joint Bookrunner** but does not hold the **Documentation Agent** role.",0.08333333333333333,0.08470588235294119,0.08669787187545049
+360,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by regions bank","bookrunner, book manager, lead arranger",1,3,1,"Bank of Montreal and BofA Securities, Inc. share the following roles and subroles in the agreement that are not held by Regions Bank:
+
+1. **Joint Lead Arrangers and Joint Bookrunners**  
+   - Bank of Montreal  
+   - BofA Securities, Inc.  
+
+2. **Documentation Agents**  
+   - Bank of Montreal  
+   - BofA Securities, Inc.  
+
+Regions Bank does not hold either of these roles. Instead, Regions Bank is listed as a **Senior Managing Agent**, a role not shared with Bank of Montreal or BofA Securities, Inc.",0.0392156862745098,0.07692307692307687,0.01663565871017969
+361,60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Joint Lead Arrangers and Joint Bookrunners,0.20000000000000004,0.2142857142857143,0.08704446792504217
+362,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by fifth third bank, national association","bookrunner, book manager, lead arranger",1,3,1,"Roles and subroles shared by Bank of Montreal and Citibank, N.A. that are not held by Fifth Third Bank, National Association:
+1. Joint Lead Arrangers and Joint Bookrunners (Bank of Montreal and Citibank, N.A. are both listed in this capacity, while Fifth Third Bank is not)
+2. Documentation Agents (Bank of Montreal is listed as a Documentation Agent, and Citibank, N.A. is the Administrative Agent, while Fifth Third Bank is not in either role)
+3. Syndication Agent (Citibank, N.A. is the Administrative Agent, and MUFG Bank, Ltd. is the Syndication Agent, but Bank of Montreal is not in this role; however, Fifth Third Bank is not in any of these roles)",0.034482758620689655,0.058637083993660855,0.011574719403621437
+363,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by goldman sachs bank usa","bookrunner, book manager, lead arranger",1,3,1,"Roles and subroles shared by Bank of Montreal and Citibank, N.A. in the agreement that are not held by Goldman Sachs Bank USA:
+
+1. Joint Lead Arrangers and Joint Bookrunners
+2. Documentation Agents",0.06060606060606061,0.15706806282722519,0.03657852151778796
+364,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by pnc bank, national association","bookrunner, book manager, lead arranger",1,3,1,"Roles and subroles shared by Bank of Montreal and Citibank, N.A. that are not held by PNC Bank, National Association:
+
+1. Joint Lead Arrangers and Joint Bookrunners
+2. Documentation Agents",0.06666666666666667,0.15469613259668513,0.0379419495439416
+365,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,"Roles and subroles shared by Bank of Montreal and Citibank, N.A. in the agreement that are not held by PNC Capital Markets LLC:
+
+1. **Joint Lead Arrangers and Joint Bookrunners**  
+   - Bank of Montreal and Citibank, N.A. are both listed as Joint Lead Arrangers and Joint Bookrunners.  
+   - PNC Capital Markets LLC is also a Joint Lead Arranger and Joint Bookrunner, so this role is not exclusive to Bank of Montreal and Citibank, N.A.  
+
+2. **Documentation Agents**  
+   - Bank of Montreal is a Documentation Agent.  
+   - Citibank, N.A. is not listed as a Documentation Agent.  
+
+3. **Administrative Agent**  
+   - Citibank, N.A. is the Administrative Agent.  
+   - Bank of Montreal is not the Administrative Agent.  
+
+4. **Syndication Agent**  
+   - MUFG Bank, Ltd. is the Syndication Agent, not Bank of Montreal or Citibank, N.A.  
+
+5. **Senior Managing Agents**  
+   - Fifth Third Bank, Goldman Sachs Bank USA, Regions Bank, and TD Bank, N.A. are Senior Managing Agents.  
+   - Neither Bank of Montreal nor Citibank, N.A. holds this role.  
+
+### **Exclusive Shared Roles (Not Held by PNC Capital Markets LLC)**  
+There are **no roles** that **only** Bank of Montreal and Citibank, N.A. share that PNC Capital Markets LLC does not also hold.  
+
+### **Conclusion**  
+- Both Bank of Montreal and Citibank, N.A. are **Joint Lead Arrangers and Joint Bookrunners**, but PNC Capital Markets LLC also holds this role.  
+- They do **not** share any other roles exclusively.  
+- Citibank, N.A. is the **Administrative Agent**, while Bank of Montreal is a **Documentation Agent**, but these are separate roles.  
+
+Thus, **there are no shared roles between Bank of Montreal and Citibank, N.A. that PNC Capital Markets LLC does not also hold**.",0.05882352941176471,0.01842439644218552,0.07059296323250172
+366,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by td bank, n.a.","bookrunner, book manager, lead arranger",1,3,1,"Joint Lead Arrangers and Joint Bookrunners
+Documentation Agents",0.16666666666666666,0.25396825396825395,0.07734781234369076
+367,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1,"Bank of Montreal and Citibank, N.A. share the following roles and subroles in the agreement that are not held by Wells Fargo Bank, National Association:
+
+1. **Joint Lead Arrangers and Joint Bookrunners**:
+   - Citibank, N.A.
+   - MUFG Bank, Ltd.
+   - BofA Securities, Inc.
+   - Bank of Montreal
+   - The Bank of Nova Scotia
+   - Capital One, National Association
+   - JPMorgan Chase Bank, N.A.
+   - Mizuho Bank, Ltd.
+   - PNC Capital Markets LLC
+   - U.S. Bank National Association
+   - Wells Fargo Securities, LLC
+
+   *Note: Wells Fargo Securities, LLC is listed as a Joint Lead Arranger and Joint Bookrunner, but Wells Fargo Bank, National Association is not listed in this role.*
+
+2. **Documentation Agents**:
+   - Bank of America, N.A.
+   - Bank of Montreal
+   - The Bank of Nova Scotia
+   - Capital One, National Association
+   - JPMorgan Chase Bank, N.A.
+   - Mizuho Bank, Ltd.
+   - PNC Bank, National Association
+   - U.S. Bank National Association
+   - Wells Fargo Bank, National Association
+
+   *Note: Wells Fargo Bank, National Association is listed as a Documentation Agent, so this role is shared with Bank of Montreal and Citibank, N.A.*
+
+3. **Administrative Agent**:
+   - Citibank, N.A.
+
+   *Note: This role is unique to Citibank, N.A. and not shared with Bank of Montreal or Wells Fargo Bank, National Association.*
+
+4. **Syndication Agent**:
+   - MUFG Bank, Ltd.
+
+   *Note: This role is not held by Bank of Montreal, Citibank, N.A., or Wells Fargo Bank, National Association.*
+
+5. **Senior Managing Agents**:
+   - Fifth Third Bank, National Association
+   - Goldman Sachs Bank USA
+   - Regions Bank
+   - TD Bank, N.A.
+
+   *Note: This role is not held by Bank of Montreal, Citibank, N.A., or Wells Fargo Bank, National Association.*
+
+### Summary of Unique Roles:
+- **Bank of Montreal**:
+  - Joint Lead Arranger and Joint Bookrunner (shared with Citibank, N.A. and others, but not Wells Fargo Bank, National Association).
+  - Documentation Agent (shared with Citibank, N.A. and Wells Fargo Bank, National Association).
+
+- **Citibank, N.A.**:
+  - Administrative Agent (unique to Citibank, N.A.).
+  - Joint Lead Arranger and Joint Bookrunner (shared with Bank of Montreal and others, but not Wells Fargo Bank, National Association).
+  - Documentation Agent (shared with Bank of Montreal and Wells Fargo Bank, National Association).
+
+- **Wells Fargo Bank, National Association**:
+  - Documentation Agent (shared with Bank of Montreal and Citibank, N.A.).
+  - Not listed as a Joint Lead Arranger or Joint Bookrunner (Wells Fargo Securities, LLC is, but not the bank itself).
+
+Thus, the roles that Bank of Montreal and Citibank, N.A. share that are not held by Wells Fargo Bank, National Association are:
+1. **Joint Lead Arranger and Joint Bookrunner** (Wells Fargo Bank, National Association is not listed in this role, though its affiliate Wells Fargo Securities, LLC is).",0.05263157894736843,0.014374514374514424,0.058796290337989277
+368,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,"Joint Lead Arrangers and Joint Bookrunners
+Documentation Agents",0.16666666666666666,0.25396825396825395,0.07734781234369076
+369,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by regions bank","bookrunner, book manager, lead arranger",1,3,1,"Roles and subroles shared by Bank of Montreal and Citibank, N.A. that are not held by Regions Bank:
+1. Joint Lead Arrangers and Joint Bookrunners
+2. Documentation Agents",0.06896551724137931,0.1707317073170732,0.03894042845822664
+370,60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,"- **Bank of Montreal and Citibank, N.A. share the following roles/subroles not held by Mizuho Bank, Ltd.:**  
+  1. **Joint Lead Arranger and Joint Bookrunner** (held by both Bank of Montreal and Citibank, N.A.).  
+  2. **Documentation Agent** (held by Bank of Montreal; Citibank, N.A. is the Administrative Agent).  
+
+Mizuho Bank, Ltd. acts as **Syndication Agent** and **Joint Lead Arranger and Joint Bookrunner**, but does not serve as a **Documentation Agent** or **Administrative Agent**.  
+
+*(Answer derived from the ""Arrangers"" and ""Documentation Agents"" definitions in the agreement.)*",0.07142857142857142,0.06654676258992809,0.10745668329564823
+371,60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by pnc bank, national association","bookrunner, book manager, lead arranger",1,3,1,"Bank of Montreal and JPMorgan Chase Bank, N.A. share the following roles and subroles in the agreement that are not held by PNC Bank, National Association:
+
+1. **Joint Lead Arrangers and Joint Bookrunners**  
+   - Both Bank of Montreal and JPMorgan Chase Bank, N.A. are listed as Joint Lead Arrangers and Joint Bookrunners under the Arrangers section.  
+   - PNC Bank, National Association is not listed in this capacity.  
+
+2. **Documentation Agents**  
+   - JPMorgan Chase Bank, N.A. is listed as a Documentation Agent.  
+   - Bank of Montreal is also listed as a Documentation Agent.  
+   - PNC Bank, National Association is not listed as a Documentation Agent.  
+
+Thus, the roles not shared with PNC Bank are **Joint Lead Arrangers and Joint Bookrunners** and **Documentation Agents**.",0.03773584905660377,0.05096418732782371,0.03359372909031883
+372,60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,"- **Bank of Montreal and JPMorgan Chase Bank, N.A. share the following roles/subroles not held by PNC Capital Markets LLC:**
+  - **Joint Lead Arrangers and Joint Bookrunners** (both are listed in this capacity, while PNC Capital Markets LLC is also listed here, so this is not exclusive to them).
+  - **Documentation Agents** (both are listed in this capacity, while PNC Capital Markets LLC is not listed as a Documentation Agent). 
+
+Thus, the **exclusive shared role** not held by PNC Capital Markets LLC is **Documentation Agent**.  
+
+**Answer:**  
+Documentation Agents",0.03636363636363637,0.05147058823529416,0.034457855757581694
+373,60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by td bank, n.a.","bookrunner, book manager, lead arranger",1,3,1,"Bank of Montreal and JPMorgan Chase Bank, N.A. share the following roles and subroles in the agreement that are not held by TD Bank, N.A.:
+
+1. **Joint Lead Arrangers and Joint Bookrunners**  
+   - Both Bank of Montreal and JPMorgan Chase Bank, N.A. are listed as Joint Lead Arrangers and Joint Bookrunners under the Arrangers section.  
+   - TD Bank, N.A. is not listed in this capacity.
+
+2. **Documentation Agents**  
+   - Both Bank of Montreal and JPMorgan Chase Bank, N.A. are listed as Documentation Agents.  
+   - TD Bank, N.A. is not listed in this capacity.  
+
+TD Bank, N.A. is only listed as a **Senior Managing Agent**, a role not shared with Bank of Montreal or JPMorgan Chase Bank, N.A. in this agreement.",0.03636363636363636,0.056835637480798784,0.02145892963586959
+374,60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1,"- **Bank of Montreal and JPMorgan Chase Bank, N.A. share the following roles/subroles not held by Wells Fargo Bank, National Association**:
+  1. **Joint Lead Arrangers and Joint Bookrunners** (under Arrangers).
+  2. **Documentation Agents**.  
+
+Wells Fargo Bank, National Association is listed as a **Joint Lead Arranger and Joint Bookrunner** but does not hold the **Documentation Agent** role.",0.0851063829787234,0.09840425531914898,0.10902616374497238
+375,60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,"Bank of Montreal and JPMorgan Chase Bank, N.A. share the following roles and subroles in the agreement that are not held by JPMorgan Chase Bank, N.A.:
+
+1. **Joint Lead Arranger and Joint Bookrunner** (held by Bank of Montreal but not by JPMorgan Chase Bank, N.A.)
+2. **Documentation Agent** (held by Bank of Montreal but not by JPMorgan Chase Bank, N.A.)
+
+JPMorgan Chase Bank, N.A. does not hold any additional roles or subroles in the agreement that are not shared with Bank of Montreal.",0.09090909090909091,0.07478632478632474,0.046019782268863954
+376,60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by regions bank","bookrunner, book manager, lead arranger",1,3,1,"Joint Lead Arrangers and Joint Bookrunners
+Documentation Agents",0.16666666666666666,0.25396825396825395,0.07734781234369076
+377,60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,"Bank of Montreal and JPMorgan Chase Bank, N.A. share the following roles and subroles in the agreement that are not held by Mizuho Bank, Ltd.:
+
+1. Joint Lead Arrangers and Joint Bookrunners
+2. Documentation Agents",0.0588235294117647,0.15609756097560978,0.03424157160017022
+378,60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by pnc bank, national association","bookrunner, book manager, lead arranger",1,3,1,"Bank of Montreal and MUFG Bank, Ltd. share the following roles and subroles in the agreement that are not held by PNC Bank, National Association:
+
+1. **Joint Lead Arrangers and Joint Bookrunners**  
+   - Both Bank of Montreal and MUFG Bank, Ltd. are listed as Joint Lead Arrangers and Joint Bookrunners for the credit facilities established under the agreement.  
+   - PNC Bank, National Association is not listed in this role.
+
+2. **Syndication Agent (MUFG Bank, Ltd. only)**  
+   - MUFG Bank, Ltd. serves as the Syndication Agent, a role not held by Bank of Montreal or PNC Bank, National Association.  
+
+PNC Bank, National Association is listed as a **Documentation Agent**, a role also held by Bank of Montreal, but the **Joint Lead Arranger and Joint Bookrunner** roles are unique to Bank of Montreal and MUFG Bank, Ltd. in this context.  
+
+Thus, the distinct shared role not held by PNC Bank is **Joint Lead Arranger and Joint Bookrunner**.",0.060606060606060615,0.041479820627802644,0.07962855275699832
+379,60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,"- **Bank of Montreal and MUFG Bank, Ltd. share the following roles/subroles not held by PNC Capital Markets LLC:**
+  1. **Joint Lead Arrangers and Joint Bookrunners** (both hold this role, while PNC Capital Markets LLC does not).  
+  2. **Documentation Agents** (Bank of Montreal holds this role, but MUFG Bank, Ltd. does not; however, this is not a shared role between the two).  
+
+**Note:** MUFG Bank, Ltd. uniquely serves as **Syndication Agent**, a role not shared with Bank of Montreal or PNC Capital Markets LLC.  
+
+*(Answer derived from the ""EXHIBIT 10.1"" section listing roles under ""CREDIT AGREEMENT."")*",0.029850746268656716,0.04991394148020656,0.03375696455793356
+380,60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by td bank, n.a.","bookrunner, book manager, lead arranger",1,3,1,"MUFG Bank, Ltd. serves as the Syndication Agent, while Bank of Montreal is a Joint Lead Arranger, Joint Bookrunner, and Documentation Agent. TD Bank, N.A. does not hold any of these roles.",0.18750000000000003,0.1573033707865169,0.12565101120098415
+381,60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1,"- **Bank of Montreal and MUFG Bank, Ltd. share the following roles/subroles not held by Wells Fargo Bank, National Association**:
+  - **Joint Lead Arrangers and Joint Bookrunners** (shared with other banks, but Wells Fargo is not listed in this role).
+  - **Syndication Agent** (MUFG Bank, Ltd. only; Bank of Montreal does not hold this role).
+  - **Documentation Agents** (Bank of Montreal only; MUFG Bank, Ltd. does not hold this role).  
+
+Wells Fargo Bank, National Association is listed as a **Lender** and **Documentation Agent**, but not as a **Joint Lead Arranger**, **Joint Bookrunner**, or **Syndication Agent**.",0.03703703703703703,0.06292517006802723,0.0670726515189489
+382,60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,"Roles and subroles shared by Bank of Montreal and MUFG Bank, Ltd. in the agreement that are not held by JPMorgan Chase Bank, N.A.:
+
+1. Joint Lead Arrangers and Joint Bookrunners
+2. Syndication Agent (MUFG Bank, Ltd. only)",0.05714285714285715,0.14691943127962082,0.03040835379643547
+383,60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by regions bank","bookrunner, book manager, lead arranger",1,3,1,"Roles and subroles shared by Bank of Montreal and MUFG Bank, Ltd. that are not held by Regions Bank:
+1. Joint Lead Arrangers and Joint Bookrunners
+2. Syndication Agent (MUFG Bank, Ltd. only)
+3. Documentation Agents (Bank of Montreal only)",0.05714285714285715,0.1255411255411255,0.027264910244340888
+384,60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,"Roles and subroles shared by Bank of Montreal and MUFG Bank, Ltd. that are not held by Mizuho Bank, Ltd.:
+1. Joint Lead Arrangers and Joint Bookrunners
+2. Documentation Agents (Bank of Montreal only)
+3. Syndication Agent (MUFG Bank, Ltd. only)",0.05714285714285715,0.1282051282051282,0.026415392782732867
+385,60,"what are the roles and subroles that bank of montreal and pnc capital markets llc share in the agreement that are not held by td bank, n.a.","bookrunner, book manager, lead arranger",1,3,1,Joint Lead Arrangers and Joint Bookrunners,0.20000000000000004,0.2142857142857143,0.08704446792504217
+386,60,"what are the roles and subroles that bank of montreal and pnc capital markets llc share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1,Joint Lead Arranger and Joint Bookrunner,0.6,0.22499999999999998,0.31710746658027095
+387,60,"what are the roles and subroles that bank of montreal and pnc capital markets llc share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,"Bank of Montreal and PNC Capital Markets LLC share the following roles and subroles in the agreement that are not held by JPMorgan Chase Bank, N.A.:
+
+1. Joint Lead Arrangers and Joint Bookrunners
+2. Documentation Agents
+
+JPMorgan Chase Bank, N.A. does not hold these specific roles in the agreement.",0.048780487804878044,0.11111111111111116,0.026578944502461815
+388,60,what are the roles and subroles that bank of montreal and pnc capital markets llc share in the agreement that are not held by regions bank,"bookrunner, book manager, lead arranger",1,3,1,Joint Lead Arrangers and Joint Bookrunners,0.20000000000000004,0.2142857142857143,0.08704446792504217
+389,60,"what are the roles and subroles that bank of montreal and pnc capital markets llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Joint Lead Arrangers and Joint Bookrunners,0.20000000000000004,0.2142857142857143,0.08704446792504217
+390,60,"what are the roles and subroles that bank of montreal and u.s. bank national association share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1,Documentation Agents,0.0,0.21621621621621623,0.0
+391,60,"what are the roles and subroles that bank of montreal and u.s. bank national association share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,Documentation Agents,0.0,0.21621621621621623,0.0
+392,60,what are the roles and subroles that bank of montreal and u.s. bank national association share in the agreement that are not held by regions bank,"bookrunner, book manager, lead arranger",1,3,1,Documentation Agent,0.0,0.21621621621621623,0.0
+393,60,"what are the roles and subroles that bank of montreal and u.s. bank national association share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,"Documentation Agent
+Senior Managing Agent",0.0,0.2195121951219512,0.0
+394,60,"what are the roles and subroles that bank of montreal and wells fargo securities llc share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,"Bank of Montreal and Wells Fargo Securities LLC share the following roles and subroles in the agreement that are not held by JPMorgan Chase Bank, N.A.:
+
+1. Joint Lead Arrangers and Joint Bookrunners
+2. Documentation Agents",0.05555555555555555,0.1435185185185185,0.03535224655478606
+395,60,what are the roles and subroles that bank of montreal and wells fargo securities llc share in the agreement that are not held by regions bank,"bookrunner, book manager, lead arranger",1,3,1,Joint Lead Arranger and Joint Bookrunner,0.6,0.22499999999999998,0.31710746658027095
+396,60,"what are the roles and subroles that bank of montreal and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Joint Lead Arrangers and Joint Bookrunners,0.20000000000000004,0.2142857142857143,0.08704446792504217
+397,60,"what are the roles and subroles that bofa securities, inc. and citibank, n.a. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,Joint Lead Arrangers and Joint Bookrunners,0.25,0.5952380952380952,0.1842030767483818
+398,60,"what are the roles and subroles that bofa securities, inc. and citibank, n.a. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Joint Lead Arrangers and Joint Bookrunners,0.20000000000000004,0.2142857142857143,0.08704446792504217
+399,60,"what are the roles and subroles that bofa securities, inc. and jpmorgan chase bank, n.a. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,Joint Lead Arrangers and Joint Bookrunners,0.25,0.5952380952380952,0.1842030767483818
+400,60,"what are the roles and subroles that bofa securities, inc. and jpmorgan chase bank, n.a. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Joint Lead Arrangers and Joint Bookrunners,0.20000000000000004,0.2142857142857143,0.08704446792504217
+401,60,"what are the roles and subroles that bofa securities, inc. and mufg bank, ltd. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,Joint Lead Arrangers and Joint Bookrunners,0.25,0.5952380952380952,0.1842030767483818
+402,60,"what are the roles and subroles that bofa securities, inc. and mufg bank, ltd. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Joint Lead Arrangers and Joint Bookrunners,0.20000000000000004,0.2142857142857143,0.08704446792504217
+403,60,"what are the roles and subroles that bofa securities, inc. and pnc capital markets llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Joint Lead Arrangers and Joint Bookrunners,0.20000000000000004,0.2142857142857143,0.08704446792504217
+404,60,"what are the roles and subroles that bofa securities, inc. and u.s. bank national association share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Joint Lead Arranger and Joint Bookrunner,0.6,0.22499999999999998,0.31710746658027095
+405,60,"what are the roles and subroles that bofa securities, inc. and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Joint Lead Arrangers and Joint Bookrunners,0.20000000000000004,0.2142857142857143,0.08704446792504217
+406,60,"what are the roles and subroles that citibank, n.a. and jpmorgan chase bank, n.a. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,"Citibank, N.A. and JPMorgan Chase Bank, N.A. share the following roles and subroles in the agreement that are not held by PNC Capital Markets LLC:
+
+1. **Joint Lead Arrangers and Joint Bookrunners**  
+   - Citibank, N.A.  
+   - JPMorgan Chase Bank, N.A.  
+
+2. **Documentation Agents**  
+   - JPMorgan Chase Bank, N.A.  
+
+3. **Lenders**  
+   - Citibank, N.A.  
+   - JPMorgan Chase Bank, N.A.  
+
+PNC Capital Markets LLC is listed only as a **Joint Lead Arranger and Joint Bookrunner** and does not hold the additional roles of **Documentation Agent** or **Lender** as shared by Citibank, N.A. and JPMorgan Chase Bank, N.A.",0.07692307692307691,0.0533088235294118,0.1014651668313346
+407,60,"what are the roles and subroles that citibank, n.a. and jpmorgan chase bank, n.a. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,"Citibank, N.A. and JPMorgan Chase Bank, N.A. share the following roles and subroles in the agreement that are not held by Mizuho Bank, Ltd.:
+
+1. **Joint Lead Arrangers and Joint Bookrunners**  
+   - Citibank, N.A.  
+   - JPMorgan Chase Bank, N.A.  
+
+2. **Documentation Agents**  
+   - JPMorgan Chase Bank, N.A.  
+
+Mizuho Bank, Ltd. does not hold either of these roles.",0.049999999999999996,0.09748427672955973,0.02145892963586959
+408,60,"what are the roles and subroles that citibank, n.a. and mufg bank, ltd. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,"Citibank, N.A. and MUFG Bank, Ltd. share the following roles and subroles in the agreement that are not held by PNC Capital Markets LLC:
+
+1. **Administrative Agent** (held by Citibank, N.A.)
+2. **Syndication Agent** (held by MUFG Bank, Ltd.)
+3. **Joint Lead Arrangers and Joint Bookrunners** (held by both Citibank, N.A. and MUFG Bank, Ltd.)",0.05,0.08695652173913049,0.04541128180665246
+409,60,"what are the roles and subroles that citibank, n.a. and mufg bank, ltd. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,"Citibank, N.A. and MUFG Bank, Ltd. share the following roles and subroles in the agreement that are not held by Mizuho Bank, Ltd.:
+
+1. **Joint Lead Arrangers and Joint Bookrunners**  
+   - Citibank, N.A.  
+   - MUFG Bank, Ltd.  
+
+2. **Syndication Agent**  
+   - MUFG Bank, Ltd.  
+
+3. **Administrative Agent**  
+   - Citibank, N.A.  
+
+Mizuho Bank, Ltd. is listed only as a **Joint Lead Arranger and Joint Bookrunner** and **Documentation Agent**, but does not hold the roles of **Syndication Agent** or **Administrative Agent**.",0.0816326530612245,0.07741935483870965,0.07710050581705291
+410,60,"what are the roles and subroles that citibank, n.a. and pnc capital markets llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,"Citibank, N.A. and PNC Capital Markets LLC share the following roles and subroles in the agreement that are not held by Mizuho Bank, Ltd.:
+
+1. **Joint Lead Arrangers and Joint Bookrunners**  
+   - Citibank, N.A.  
+   - PNC Capital Markets LLC  
+
+2. **Documentation Agents**  
+   - PNC Bank, National Association (affiliate of PNC Capital Markets LLC)  
+
+Mizuho Bank, Ltd. does not hold these roles. Instead, Mizuho Bank, Ltd. serves as:  
+- **Syndication Agent** (a role not shared by Citibank, N.A. or PNC Capital Markets LLC).  
+
+Thus, the distinct roles shared by Citibank, N.A. and PNC Capital Markets LLC but not by Mizuho Bank, Ltd. are **Joint Lead Arrangers and Joint Bookrunners** and **Documentation Agents**.",0.03508771929824562,0.05640243902439024,0.025421183749701683
+411,60,"what are the roles and subroles that citibank, n.a. and u.s. bank national association share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,"Administrative Agent
+Documentation Agent",0.0,0.15000000000000002,0.0
+412,60,"what are the roles and subroles that citibank, n.a. and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,"Citibank, N.A. and Wells Fargo Securities LLC share the following roles and subroles in the agreement that are not held by Mizuho Bank, Ltd.:
+
+1. Joint Lead Arrangers and Joint Bookrunners
+2. Documentation Agents (Wells Fargo Bank, National Association, an affiliate of Wells Fargo Securities LLC, serves as a Documentation Agent, while Citibank, N.A. does not explicitly hold this role in the provided text)",0.03773584905660377,0.08651399491094147,0.02355468781605652
+413,60,"what are the roles and subroles that jpmorgan chase bank, n.a. and mufg bank, ltd. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,"JPMorgan Chase Bank, N.A. and MUFG Bank, Ltd. share the following roles in the agreement that are not held by PNC Capital Markets LLC:
+
+1. **Joint Lead Arrangers and Joint Bookrunners**  
+   - Both JPMorgan Chase Bank, N.A. and MUFG Bank, Ltd. are listed as Joint Lead Arrangers and Joint Bookrunners for the credit facilities established under the agreement.  
+   - PNC Capital Markets LLC is also a Joint Lead Arranger and Joint Bookrunner, so this role is shared by all three entities.  
+
+2. **Documentation Agents**  
+   - JPMorgan Chase Bank, N.A. is listed as a Documentation Agent.  
+   - MUFG Bank, Ltd. is **not** listed as a Documentation Agent.  
+   - PNC Capital Markets LLC is **not** listed as a Documentation Agent.  
+
+3. **Syndication Agent**  
+   - MUFG Bank, Ltd. is listed as the Syndication Agent.  
+   - JPMorgan Chase Bank, N.A. is **not** listed as the Syndication Agent.  
+   - PNC Capital Markets LLC is **not** listed as the Syndication Agent.  
+
+### Summary of Unique Roles:  
+- **JPMorgan Chase Bank, N.A.** is a **Documentation Agent** (a role not shared with MUFG Bank, Ltd. or PNC Capital Markets LLC).  
+- **MUFG Bank, Ltd.** is the **Syndication Agent** (a role not shared with JPMorgan Chase Bank, N.A. or PNC Capital Markets LLC).  
+
+Thus, the roles that JPMorgan Chase Bank, N.A. and MUFG Bank, Ltd. share **exclusively** (i.e., not held by PNC Capital Markets LLC) are:  
+- **None**, because PNC Capital Markets LLC shares the **Joint Lead Arranger and Joint Bookrunner** role with both.  
+
+However, individually:  
+- JPMorgan Chase Bank, N.A. holds the **Documentation Agent** role (not shared with MUFG or PNC).  
+- MUFG Bank, Ltd. holds the **Syndication Agent** role (not shared with JPMorgan or PNC).  
+
+### Final Answer:  
+JPMorgan Chase Bank, N.A. and MUFG Bank, Ltd. **do not share any roles exclusively** that are not also held by PNC Capital Markets LLC. However, each has a unique role:  
+- **JPMorgan Chase Bank, N.A.** is a **Documentation Agent** (not shared with MUFG or PNC).  
+- **MUFG Bank, Ltd.** is the **Syndication Agent** (not shared with JPMorgan or PNC).  
+
+PNC Capital Markets LLC is only a **Joint Lead Arranger and Joint Bookrunner**, which is shared with both JPMorgan and MUFG.",0.06060606060606061,0.01409820126397665,0.0842954308304115
+414,60,"what are the roles and subroles that jpmorgan chase bank, n.a. and mufg bank, ltd. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,"Syndication Agent
+Joint Lead Arranger and Joint Bookrunner",0.5,0.27586206896551724,0.27739622897624144
+415,60,"what are the roles and subroles that jpmorgan chase bank, n.a. and pnc capital markets llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Joint Lead Arrangers and Joint Bookrunners,0.20000000000000004,0.2142857142857143,0.08704446792504217
+416,60,"what are the roles and subroles that jpmorgan chase bank, n.a. and u.s. bank national association share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,"Joint Lead Arrangers and Joint Bookrunners
+Documentation Agents",0.16666666666666666,0.25396825396825395,0.07734781234369076
+417,60,"what are the roles and subroles that jpmorgan chase bank, n.a. and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Joint Lead Arrangers and Joint Bookrunners,0.20000000000000004,0.2142857142857143,0.08704446792504217
+418,60,"what are the roles and subroles that mufg bank, ltd. and pnc capital markets llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,"MUFG Bank, Ltd. and PNC Capital Markets LLC share the following roles and subroles in the agreement that are not held by Mizuho Bank, Ltd.:
+
+1. Joint Lead Arranger and Joint Bookrunner
+2. Syndication Agent (MUFG Bank, Ltd. only)
+3. Documentation Agent (PNC Bank, National Association, an affiliate of PNC Capital Markets LLC)",0.13043478260869565,0.09584664536741216,0.08417307489408989
+419,60,"what are the roles and subroles that mufg bank, ltd. and u.s. bank national association share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,"MUFG Bank, Ltd. and U.S. Bank National Association share the following roles and subroles in the agreement that are not held by Mizuho Bank, Ltd.:
+
+1. **Syndication Agent** (held by MUFG Bank, Ltd.)
+2. **Documentation Agent** (held by U.S. Bank National Association)",0.0,0.10671936758893286,0.0
+420,60,"what are the roles and subroles that mufg bank, ltd. and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,"MUFG Bank, Ltd. and Wells Fargo Securities LLC share the following roles and subroles in the agreement that are not held by Mizuho Bank, Ltd.:
+
+1. **Joint Lead Arrangers and Joint Bookrunners**  
+   - MUFG Bank, Ltd.  
+   - Wells Fargo Securities LLC  
+
+2. **Syndication Agent**  
+   - MUFG Bank, Ltd.  
+
+3. **Documentation Agents**  
+   - Wells Fargo Bank, National Association (an affiliate of Wells Fargo Securities LLC)  
+
+Mizuho Bank, Ltd. is listed as a **Joint Lead Arranger and Joint Bookrunner** and a **Documentation Agent**, but it does not hold the **Syndication Agent** role, which is unique to MUFG Bank, Ltd. Additionally, Wells Fargo Securities LLC's affiliate (Wells Fargo Bank, National Association) is a **Documentation Agent**, while Mizuho Bank, Ltd. does not hold any additional subroles beyond those shared with MUFG Bank, Ltd. and Wells Fargo Securities LLC.",0.05714285714285715,0.04523227383863082,0.047752970834304104
+421,60,"what are the roles and subroles that u.s. bank national association and wells fargo securities llc share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,"U.S. Bank National Association and Wells Fargo Securities LLC share the following roles and subroles in the agreement that are not held by JPMorgan Chase Bank, N.A.:
+
+1. **Joint Lead Arrangers and Joint Bookrunners**  
+   - Both U.S. Bank National Association and Wells Fargo Securities LLC are listed as Joint Lead Arrangers and Joint Bookrunners for the credit facilities established under the agreement. JPMorgan Chase Bank, N.A. is also a Joint Lead Arranger and Joint Bookrunner, so this role is shared by all three.
+
+2. **Documentation Agents**  
+   - U.S. Bank National Association is listed as a Documentation Agent, and Wells Fargo Bank, National Association (an affiliate of Wells Fargo Securities LLC) is also a Documentation Agent. JPMorgan Chase Bank, N.A. is not listed as a Documentation Agent.  
+
+Thus, the **Documentation Agent** role is the one shared by U.S. Bank National Association and Wells Fargo Securities LLC (via its affiliate) but not held by JPMorgan Chase Bank, N.A.  
+
+**Final Answer:**  
+Documentation Agents",0.08,0.03752535496957399,0.054431658191825355
+422,60,what are the roles and subroles that u.s. bank national association and wells fargo securities llc share in the agreement that are not held by regions bank,"bookrunner, book manager, lead arranger",1,3,1,"U.S. Bank National Association and Wells Fargo Securities LLC share the following roles and subroles in the agreement that are not held by Regions Bank:
+
+1. **Joint Lead Arrangers and Joint Bookrunners**  
+   - U.S. Bank National Association  
+   - Wells Fargo Securities LLC  
+
+2. **Documentation Agents**  
+   - U.S. Bank National Association  
+   - Wells Fargo Bank, National Association (affiliate of Wells Fargo Securities LLC)  
+
+Regions Bank does not hold either of these roles. It is listed only as a **Senior Managing Agent**, a role it shares with Fifth Third Bank, Goldman Sachs Bank USA, and TD Bank, N.A.",0.031746031746031744,0.06183745583038869,0.015037586105509959
+423,60,"what are the roles and subroles that u.s. bank national association and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,Joint Lead Arrangers and Joint Bookrunners,0.20000000000000004,0.2142857142857143,0.08704446792504217
+425,66,what are the roles and subroles that bnp paribas securities corp. and bank of the west share in the agreement that are not held by keybanc capital markets,"bookrunner, book manager, lead arranger",1,3,1,"BNP Paribas Securities Corp. and Bank of the West share the role of Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility, which is not held by KeyBanc Capital Markets. 
+
+KeyBanc Capital Markets is a Joint Lead Arranger and Joint Bookrunner for the Tranche A Term Facility and the Revolving Facility, but not for the Tranche B Term Facility.",0.15789473684210525,0.09577464788732393,0.08726254701196302
+426,66,what are the roles and subroles that bnp paribas securities corp. and barclays bank plc share in the agreement that are not held by keybanc capital markets,"bookrunner, book manager, lead arranger",1,3,1,"BNP Paribas Securities Corp. and Barclays Bank PLC share the following roles and subroles in the agreement that are not held by KeyBanc Capital Markets:
+
+1. **Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility**  
+   - BNP Paribas Securities Corp. and Barclays Bank PLC both hold this role, while KeyBanc Capital Markets does not.
+
+KeyBanc Capital Markets is only listed as a **Joint Lead Arranger and Joint Bookrunner for the Tranche A Term Facility and the Revolving Facility**, but not for the Tranche B Term Facility.",0.10714285714285714,0.06616257088846877,0.07244587061080138
+427,66,"what are the roles and subroles that bnp paribas securities corp. and bofa securities, inc. share in the agreement that are not held by keybanc capital markets","bookrunner, book manager, lead arranger",1,3,1,"BNP Paribas Securities Corp. and BofA Securities, Inc. share the following roles and subroles in the agreement that are not held by KeyBanc Capital Markets:
+
+1. **Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility**  
+   - BNP Paribas Securities Corp. and BofA Securities, Inc. are both designated as joint lead arrangers and joint bookrunners for the Tranche B Term Facility, while KeyBanc Capital Markets is not listed in this role for the Tranche B Term Facility.
+
+KeyBanc Capital Markets is only listed as a joint lead arranger and joint bookrunner for the Tranche A Term Facility and the Revolving Facility, but not for the Tranche B Term Facility.",0.1111111111111111,0.0547945205479452,0.06907969573034223
+428,66,what are the roles and subroles that bnp paribas securities corp. and citigroup global markets inc. share in the agreement that are not held by keybanc capital markets,"bookrunner, book manager, lead arranger",1,3,1,"BNP Paribas Securities Corp. and Citigroup Global Markets Inc. share the following roles and subroles in the agreement that are not held by KeyBanc Capital Markets:
+
+1. Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility.
+
+KeyBanc Capital Markets does not hold this role for the Tranche B Term Facility, as it is only listed as a Joint Lead Arranger and Joint Bookrunner for the Tranche A Term Facility and the Revolving Facility.",0.11538461538461536,0.08089887640449434,0.08136248666743118
+429,66,what are the roles and subroles that bank of the west and barclays bank plc share in the agreement that are not held by keybanc capital markets,"bookrunner, book manager, lead arranger",1,3,1,"Barclays Bank PLC and Bank of the West share the following roles and subroles in the agreement that are not held by KeyBanc Capital Markets:
+
+1. **Joint Lead Arrangers and Joint Bookrunners for the Tranche A Term Facility and the Revolving Facility**  
+   - Barclays Bank PLC and Bank of the West are both listed in this capacity, while KeyBanc Capital Markets is not mentioned in this specific role.
+
+2. **Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility**  
+   - Barclays Bank PLC is listed in this capacity, but Bank of the West is not mentioned for the Tranche B Term Facility. KeyBanc Capital Markets is not part of this role.
+
+KeyBanc Capital Markets, however, is listed as a **Joint Lead Arranger and Joint Bookrunner for the Tranche A Term Facility and the Revolving Facility**, but it does not share the same roles as Barclays Bank PLC and Bank of the West in the Tranche B Term Facility. 
+
+In summary, the roles not shared with KeyBanc Capital Markets are:
+- **Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility** (Barclays only).  
+- **Joint Lead Arrangers and Joint Bookrunners for the Tranche A Term Facility and the Revolving Facility** (where Bank of the West is included but KeyBanc is not mentioned in the same context).  
+
+(Note: The exact phrasing may vary based on the agreement's definitions, but this reflects the key distinctions.)",0.07407407407407407,0.02720588235294119,0.047101151315049564
+430,66,"what are the roles and subroles that bank of the west and bofa securities, inc. share in the agreement that are not held by keybanc capital markets","bookrunner, book manager, lead arranger",1,3,1,"Arrangers for the Tranche A Term Facility and the Revolving Facility
+Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility",0.1111111111111111,0.1678321678321678,0.03574720087172335
+431,66,what are the roles and subroles that bank of the west and citigroup global markets inc. share in the agreement that are not held by keybanc capital markets,"bookrunner, book manager, lead arranger",1,3,1,Joint Lead Arrangers and Joint Bookrunners for the Tranche A Term Facility and the Revolving Facility.,0.11764705882352941,0.25742574257425743,0.05026908748015023
+432,66,"what are the roles and subroles that barclays bank plc and bofa securities, inc. share in the agreement that are not held by keybanc capital markets","bookrunner, book manager, lead arranger",1,3,1,"Joint Lead Arrangers and Joint Bookrunners for the Tranche A Term Facility and the Revolving Facility  
+Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility",0.1111111111111111,0.18181818181818177,0.05869868646731191
+433,66,what are the roles and subroles that barclays bank plc and citigroup global markets inc. share in the agreement that are not held by keybanc capital markets,"bookrunner, book manager, lead arranger",1,3,1,"Joint Lead Arrangers and Joint Bookrunners for the Tranche A Term Facility and the Revolving Facility  
+Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility  
+
+(KeyBanc Capital Markets does not hold the role of Joint Lead Arranger and Joint Bookrunner for the Tranche B Term Facility.)",0.20689655172413793,0.11960132890365449,0.11301203830575222
+434,66,"what are the roles and subroles that bofa securities, inc. and citigroup global markets inc. share in the agreement that are not held by keybanc capital markets","bookrunner, book manager, lead arranger",1,3,1,"Joint Lead Arrangers and Joint Bookrunners for the Tranche A Term Facility and the Revolving Facility  
+Joint Lead Arrangers and Joint Bookrunners for the Tranche B Term Facility",0.1111111111111111,0.18181818181818177,0.05869868646731191

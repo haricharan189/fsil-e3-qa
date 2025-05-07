@@ -604,7 +604,7 @@ def main():
     model_loader.load()
     llm = model_loader.get_model()
     if config.TESTING_REGIME == "RAG":
-        embedding_model = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+        embedding_model = HuggingFaceEmbeddings(model_name=config.RAG_MODEL)
         vector_store = FAISS.load_local(
             config.VECTOR_DB_DIR, embeddings=embedding_model,
             allow_dangerous_deserialization=True)
@@ -712,6 +712,7 @@ def main():
                                 messages, testing_regime=config.TESTING_REGIME)
                         else:
                             response = llm.invoke(messages)
+                        time.sleep(60)
                         df.at[row_idx, "llm_response"] = response.content.strip()
                     continue
 

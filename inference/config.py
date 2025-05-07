@@ -12,7 +12,7 @@ import os
 INPUT_PATH = "../data/dataframes/"
 OUTPUT_PATH = "../data/results/"
 os.makedirs(OUTPUT_PATH, exist_ok=True)
-JSON_PATH = "../data/html_docs/"
+JSON_PATH = "../data/json_docs/"
 VECTOR_DB_DIR = "../data/vector_store/"
 os.makedirs(VECTOR_DB_DIR, exist_ok=True)
 METRICS_PATH = "../data/metrics/"
@@ -29,16 +29,19 @@ JSON_FILE = "docs_test.json"
 # Examples: "OpenAI", "ANTHROPIC", "MISTRAL", "GOOGLE", "TOGETHER", "Custom"
 # LLM_PROVIDER = "TOGETHER"  # "GOOGLE" "TOGETHER"
 # MODEL_NAME = "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo"
+# LLM_PROVIDER = "GOOGLE"  # "GOOGLE" "TOGETHER"
+# MODEL_NAME = "gemini-2.0-flash"
 LLM_PROVIDER = "TOGETHER"  # "GOOGLE" "TOGETHER"
-MODEL_NAME = "Qwen/Qwen3-235B-A22B-fp8"
+MODEL_NAME = "deepseek-ai/DeepSeek-V3"
 TEMPERATURE = 0.0
 # The regime in which the LLM is tested:
 # - "FULL" for benchmarking LLMs with entire documents
 # - "RAG" for benchmarking LLMs with RAG (retrieval-augmented generation)
 # - "GOLD" for benchmarking LLMs with pieces of documents containing the answer
-TESTING_REGIME = "FULL"
-RAG_TOP_K = 50
+TESTING_REGIME = "RAG"
+RAG_TOP_K = 25
 RAG_CHUNK_SIZE = 5000
+RAG_MODEL = "all-MiniLM-L6-v2"
 GOLD_PADDING = 1000
 
 # Maximum tokens to generate in the output

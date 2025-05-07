@@ -27,7 +27,7 @@ def build_vector_store():
             docs.append(Document(page_content=chunk, metadata={
                         "docID": str(doc_id), "chunk_id": i}))
 
-    embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
+    embeddings = HuggingFaceEmbeddings(model_name=config.RAG_MODEL)
     db = FAISS.from_documents(docs, embedding=embeddings)
     db.save_local(config.VECTOR_DB_DIR)
 
