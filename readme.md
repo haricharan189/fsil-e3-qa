@@ -1,7 +1,19 @@
 # KG-QAGen: A Knowledge-Graph-Based Framework for Systematic Question Generation and Long-Context LLM Evaluation
 
-[![🌐 Homepage](https://img.shields.io/badge/Homepage-Link-blue)](https://example.com/your-homepage)  [![🤗 Dataset](https://img.shields.io/badge/Dataset-HuggingFace-yellow)]
-(https://huggingface.co/datasets/gtfintechlab/KG-QAGen-D)  [![📖 arXiv](https://img.shields.io/badge/arXiv-YYYY.MM.NNNNN-red?logo=arxiv)](https://arxiv.org/abs/YYYY.MM.NNNNN)   [![🐙 GitHub](https://img.shields.io/badge/GitHub-KG--QAGen-black?logo=github)](https://github.com/gtfintechlab/KG-QAGen)
+<p align="center">
+  <a href="https://example.com/your-homepage">
+    <img src="https://img.shields.io/badge/Homepage-Link-blue" alt="🌐 Homepage" />
+  </a>
+  <a href="https://huggingface.co/datasets/gtfintechlab/KG-QAGen-D">
+    <img src="https://img.shields.io/badge/Dataset-HuggingFace-yellow" alt="🤗 Dataset" />
+  </a>
+  <a href="https://arxiv.org/abs/YYYY.MM.NNNNN">
+    <img src="https://img.shields.io/badge/arXiv-YYYY.MM.NNNNN-red?logo=arxiv" alt="📖 arXiv" />
+  </a>
+  <a href="https://github.com/gtfintechlab/KG-QAGen">
+    <img src="https://img.shields.io/badge/GitHub-KG--QAGen-black?logo=github" alt="🐙 GitHub" />
+  </a>
+</p>
 
 ---
 
