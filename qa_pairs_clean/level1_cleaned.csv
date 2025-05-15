@@ -18,10 +18,10 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 17,what is the role of exgen renewables iv holding llc in the agreement,holding,1,0,0
 17,what company is the holding in the agreement,exgen renewables iv holding llc,1,0,0
 17,what company is the borrower in the agreement,exgen renewables iv llc,1,0,0
-17,what company is the bookrunner in the agreement,morgan stanley senior funding inc,1,0,0
 17,what company is the lead arranger in the agreement,morgan stanley senior funding inc,1,0,0
-17,what company is the depositary bank in the agreement,wilmington trust national association,1,0,0
+17,what company is the bookrunner in the agreement,morgan stanley senior funding inc,1,0,0
 17,what company is the collateral agent in the agreement,wilmington trust national association,1,0,0
+17,what company is the depositary bank in the agreement,wilmington trust national association,1,0,0
 102,what is the position of adam finerman,esq,1,0,0
 102,what is the position of katherine bell,esq,1,0,0
 102,what is the position of kathy r plisko,authorized signatory,1,0,0
@@ -55,10 +55,10 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 102,what is the role of project rendezvous holding corporation in the agreement,borrowers,1,0,0
 102,what is the role of telerhythmics llc in the agreement,borrowers,1,0,0
 102,what company is the administrative borrower in the agreement,digirad corporation,1,0,0
-102,what company is the arranger in the agreement,wells fargo bank national association,1,0,0
-102,what company is the lender in the agreement,wells fargo bank national association,1,0,0
-102,what company is the sole book runner in the agreement,wells fargo bank national association,1,0,0
 102,what company is the agent in the agreement,wells fargo bank national association,1,0,0
+102,what company is the sole book runner in the agreement,wells fargo bank national association,1,0,0
+102,what company is the lender in the agreement,wells fargo bank national association,1,0,0
+102,what company is the arranger in the agreement,wells fargo bank national association,1,0,0
 102,what company is the administrative agent in the agreement,wells fargo bank national association,1,0,0
 102,what company is the book runner in the agreement,wells fargo bank national association,1,0,0
 102,what company is the runner in the agreement,wells fargo bank national association,1,0,0
@@ -74,8 +74,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 116,which company is associated with 120 south lasalle street chicago illinois 60603,cibc bank usa,1,0,0
 116,which company is associated with 70 w madison chicago illinois 60602,cibc bank usa,1,0,0
 116,what is the role of morgan stanley direct lending fund in the agreement,the company,1,0,0
-116,what company is the arranger in the agreement,cibc bank usa,1,0,0
 116,what company is the administrative agent in the agreement,cibc bank usa,1,0,0
+116,what company is the arranger in the agreement,cibc bank usa,1,0,0
 116,what company is the issuing lender in the agreement,cibc bank usa,1,0,0
 116,what company is the the company in the agreement,morgan stanley direct lending fund,1,0,0
 117,what is the position of chris burns,senior vice president,1,0,0
@@ -104,9 +104,9 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 117,what is the role of columbia sportswear company in the agreement,borrower,1,0,0
 117,what company is the joint bookrunner in the agreement,bofa securities inc,1,0,0
 117,what company is the syndication agent in the agreement,bank of america na,1,0,0
+117,what company is the issuing lender in the agreement,jpmorgan chase bank na,1,0,0
 117,what company is the administrative agent in the agreement,jpmorgan chase bank na,1,0,0
 117,what company is the swing line lender in the agreement,jpmorgan chase bank na,1,0,0
-117,what company is the issuing lender in the agreement,jpmorgan chase bank na,1,0,0
 117,what company is the borrower in the agreement,columbia sportswear company,1,0,0
 103,what is the position of gavin baiera,authorized signatory,1,0,0
 103,what is the position of matthew trybula,associate counsel,1,0,0
@@ -267,9 +267,9 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 101,what is the role of foundation healthcare inc in the agreement,borrower,1,0,0
 101,what is the role of legacytexas bank in the agreement,lender,1,0,0
 101,what company is the borrower in the agreement,foundation healthcare inc,1,0,0
-101,what company is the arranger in the agreement,texas capital bank national association,1,0,0
 101,what company is the sole book runner in the agreement,texas capital bank national association,1,0,0
 101,what company is the l c issuer in the agreement,texas capital bank national association,1,0,0
+101,what company is the arranger in the agreement,texas capital bank national association,1,0,0
 101,what company is the administrative agent in the agreement,texas capital bank national association,1,0,0
 100,what is the position of alexis coyle,managing director,1,0,0
 100,what is the position of christopher m ames,svp global relationship manager,1,0,0
@@ -331,8 +331,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 100,what is the role of mufg union bank in the agreement,lender,1,0,0
 100,what is the role of omnicellinc in the agreement,borrower,1,0,0
 100,what company is the arranger in the agreement,wells fargo securities llc,1,0,0
-100,what company is the sole bookrunner in the agreement,wells fargo securities llc,1,0,0
 100,what company is the bookrunner in the agreement,wells fargo securities llc,1,0,0
+100,what company is the sole bookrunner in the agreement,wells fargo securities llc,1,0,0
 100,what company is the swingline lender in the agreement,wells fargo bank national association,1,0,0
 100,what company is the issuing lender in the agreement,wells fargo bank national association,1,0,0
 100,what company is the borrower in the agreement,omnicellinc,1,0,0
@@ -942,8 +942,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 139,what is the role of wells fargo bank na in the agreement,lender,1,0,0
 139,what is the role of cr dit agricole corporate and investment bank in the agreement,lender,1,0,0
 139,what company is the agency in the agreement,standard and poors financial services llc,1,0,0
-139,what company is the borrower in the agreement,crown castle international corp,1,0,0
 139,what company is the lenders in the agreement,crown castle international corp,1,0,0
+139,what company is the borrower in the agreement,crown castle international corp,1,0,0
 139,what company is the agent in the agreement,jpmorgan chase bank na,1,0,0
 105,what is the position of gary s loffredo,president digital cinema general counsel and secretary,1,0,0
 105,what is the position of xu peixin,director,1,0,0
@@ -1358,15 +1358,15 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 107,what is the role of gxs inc in the agreement,domestic guarantor,1,0,0
 107,what company is the agent in the agreement,global markets inc,1,0,0
 107,what company is the barclays capital agents in the agreement,jp morgan securities inc,1,0,0
-107,what company is the bookrunner in the agreement,rbc capital markets,1,0,0
 107,what company is the joint bookrunner in the agreement,rbc capital markets,1,0,0
+107,what company is the bookrunner in the agreement,rbc capital markets,1,0,0
 107,what company is the collateral trustee in the agreement,wilmington trust fsb,1,0,0
 107,what company is the guarantors in the agreement,gxs worldwide inc,1,0,0
-107,what company is the arranger in the agreement,barclays bank plc,1,0,0
-107,what company is the lender in the agreement,barclays bank plc,1,0,0
-107,what company is the lead arrangers in the agreement,barclays bank plc,1,0,0
 107,what company is the collateral agent in the agreement,barclays bank plc,1,0,0
 107,what company is the intercreditor agent in the agreement,barclays bank plc,1,0,0
+107,what company is the lender in the agreement,barclays bank plc,1,0,0
+107,what company is the arranger in the agreement,barclays bank plc,1,0,0
+107,what company is the lead arrangers in the agreement,barclays bank plc,1,0,0
 113,what is the position of jonathan m phillips,senior vice president,1,0,0
 113,what is the position of michael doar,chief executive officer,1,0,0
 113,what is the position of sonja k mcclelland,secretary treasurer,1,0,0
@@ -1461,8 +1461,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 106,what is the role of dynegy gas investments holdings llc in the agreement,intermediate holdings,1,0,0
 106,what is the role of ubs ag stamford branch in the agreement,lender,1,0,0
 106,what company is the trustee in the agreement,credit suisse ag cayman islands branch,1,0,0
-106,what company is the joint lead arranger in the agreement,ubs securities llc,1,0,0
 106,what company is the joint lead arrangers in the agreement,ubs securities llc,1,0,0
+106,what company is the joint lead arranger in the agreement,ubs securities llc,1,0,0
 106,what company is the intermediate holdings in the agreement,dynegy gas investments holdings llc,1,0,0
 106,what company is the borrower in the agreement,dynegy power llc,1,0,0
 106,what company is the subordinated borrowers in the agreement,dynegy power llc,1,0,0
@@ -1628,6 +1628,29 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 161,which company is associated with 2390 east camelback road ste 220 phoenix arizona 85016,keybank national association,1,0,0
 161,which company is associated with c o modiv advisors llc 120 newport center drive newport beach ca 92660,modiv operating partnership lp,1,0,0
 161,which company is associated with suite 5300 303 peachtree street ne atlanta georgia 30308,dentons us llp,1,0,0
+160,what is the position of amanuel assefa,director,1,0,0
+160,what is the position of daniel d tempesta,chief financial officer,1,0,0
+160,what is the position of helen d davis,authorized officer,1,0,0
+160,what is the position of joseph siri,vice president,1,0,0
+160,what is the position of martin corrigan,vice president,1,0,0
+160,what is the position of robert g shaw,vice president,1,0,0
+160,what is the position of steve curran,director,1,0,0
+160,in what organization does amanuel assefa work,bank of america na,1,0,0
+160,in what organization does daniel d tempesta work,nuance communications inc,1,0,0
+160,in what organization does helen d davis work,jpmorgan chase bank na,1,0,0
+160,in what organization does joseph siri work,mufg bank ltd,1,0,0
+160,in what organization does martin corrigan work,barclays bank plc,1,0,0
+160,in what organization does robert g shaw work,citibank na,1,0,0
+160,in what organization does steve curran work,truist bank,1,0,0
+160,who is the representative of bank of america na,amanuel assefa,1,0,0
+160,who is the representative of nuance communications inc,daniel d tempesta,1,0,0
+160,who is the representative of jpmorgan chase bank na,helen d davis,1,0,0
+160,who is the representative of mufg bank ltd,joseph siri,1,0,0
+160,who is the representative of barclays bank plc,martin corrigan,1,0,0
+160,who is the representative of citibank na,robert g shaw,1,0,0
+160,who is the representative of truist bank,steve curran,1,0,0
+160,what is the location of cahill gordonand reindel llp,32 old slip new york new york 10005,1,0,0
+160,which company is associated with 32 old slip new york new york 10005,cahill gordonand reindel llp,1,0,0
 148,what is the position of emily chott,senior vice president,1,0,0
 148,what is the position of greg strauss,managing director,1,0,0
 148,what is the position of jonathan eady,director,1,0,0
@@ -1732,7 +1755,6 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 61,what is the position of maria riaz,vice president,1,0,0
 61,what is the position of marko lukin,vice president,1,0,0
 61,what is the position of ming k chu,director,1,0,0
-61,in what organization does amanuel assefa work,bank of america na,1,0,0
 61,in what organization does brian l shytle work,citrix systems inc,1,0,0
 61,in what organization does bridgett j manduk mowry work,bank of america na,1,0,0
 61,in what organization does christopher shafto work,wells fargo bank national association,1,0,0
@@ -1906,8 +1928,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 8,what is the role of tauoperatingpartnershiplp in the agreement,borrower,1,0,0
 8,what is the role of wells fargo bank national association in the agreement,administrative agent,1,0,0
 8,what company is the guarantor in the agreement,arc real estate partners llc,1,0,0
-8,what company is the joint bookrunners in the agreement,wells fargo securities llc,1,0,0
 8,what company is the joint bookrunner in the agreement,wells fargo securities llc,1,0,0
+8,what company is the joint bookrunners in the agreement,wells fargo securities llc,1,0,0
 8,what company is the lender in the agreement,wellsfargobanknationalassociation,1,0,0
 72,what is the position of craig a douglas,vice president,1,0,0
 72,what is the position of john summers,assistant vice president,1,0,0
@@ -1992,8 +2014,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 66,what is the role of the huntington national bank in the agreement,lender,1,0,0
 66,what is the role of icu medical inc in the agreement,borrower,1,0,0
 66,what company is the issuing lender in the agreement,barclays bank plc,1,0,0
-66,what company is the term loan a lender in the agreement,citibank na,1,0,0
 66,what company is the revolver in the agreement,citibank na,1,0,0
+66,what company is the term loan a lender in the agreement,citibank na,1,0,0
 66,what company is the borrower in the agreement,icu medical inc,1,0,0
 99,what is the position of adriaan weststrate,managing director,1,0,0
 99,what is the position of anne h lovette,senior vice president,1,0,0
@@ -2360,8 +2382,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 65,what company is the collateral trustee in the agreement,citizens bank,1,0,0
 65,what company is the rating agency in the agreement,standardand poors financial services llc,1,0,0
 65,what company is the swingline lender in the agreement,bank of america na,1,0,0
-65,what company is the administrative agent in the agreement,citizens bank na,1,0,0
 65,what company is the lender in the agreement,citizens bank na,1,0,0
+65,what company is the administrative agent in the agreement,citizens bank na,1,0,0
 65,what company is the issuer in the agreement,citizens bank na,1,0,0
 71,what is the position of henry pennell,vice president,1,0,0
 71,what is the position of paul m todd,senior executive vice president,1,0,0
@@ -2432,8 +2454,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 170,what is the role of starbucks corporation in the agreement,borrower,1,0,0
 170,what is the role of wells fargo bank na in the agreement,agent,1,0,0
 170,what company is the lender in the agreement,bank of america na,1,0,0
-170,what company is the l c issuer in the agreement,bank of america na,1,0,0
 170,what company is the swing line lender in the agreement,bank of america na,1,0,0
+170,what company is the l c issuer in the agreement,bank of america na,1,0,0
 170,what company is the borrower in the agreement,starbucks corporation,1,0,0
 158,what is the position of adam rose,svp,1,0,0
 158,what is the position of barrett garrison,chief financial officer,1,0,0
@@ -2468,12 +2490,12 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 159,which company is associated with three bryant park 1095 avenue of the americas new york new york 10036 6797,dechert llp,1,0,0
 159,what is the role of msc income fund inc in the agreement,portfolio manager,1,0,0
 159,what company is the portfolio manager in the agreement,msc income fund inc,1,0,0
-159,what company is the borrower in the agreement,msif funding llc,1,0,0
 159,what company is the lenders in the agreement,msif funding llc,1,0,0
+159,what company is the borrower in the agreement,msif funding llc,1,0,0
 159,what company is the securities intermediary in the agreement,us bank national association,1,0,0
 159,what company is the collateral administrator in the agreement,us bank national association,1,0,0
-159,what company is the administrative agent in the agreement,jpmorgan chase bank,1,0,0
 159,what company is the lender in the agreement,jpmorgan chase bank,1,0,0
+159,what company is the administrative agent in the agreement,jpmorgan chase bank,1,0,0
 165,what is the position of annie carr,authorized signatory,1,0,0
 165,what is the position of brigitte m sinclair,vice president,1,0,0
 165,what is the position of charles shaw,authorized signatory,1,0,0
@@ -2539,23 +2561,20 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 70,what is the role of grec entity holdco llc in the agreement,subsidiaries borrower,1,0,0
 70,what company is the parent in the agreement,greenbacker renewable energy company llc,1,0,0
 70,what company is the intermediate holdco in the agreement,greenbacker renewable energy corporation,1,0,0
-70,what company is the arranger in the agreement,fifth third bank,1,0,0
 70,what company is the administrative agent in the agreement,fifth third bank,1,0,0
+70,what company is the arranger in the agreement,fifth third bank,1,0,0
 70,what company is the bookrunner in the agreement,fifth third bank,1,0,0
 70,what company is the subsidiaries borrower in the agreement,grec entity holdco llc,1,0,0
 64,what is the position of doreen barr,authorized signatory,1,0,0
 64,what is the position of geoff kott,chief capital officer,1,0,0
 64,what is the position of komal shah,authorized signatory,1,0,0
-64,what is the position of martin corrigan,vice president,1,0,0
 64,what is the position of richard w jantzen iii,vice president,1,0,0
 64,in what organization does doreen barr work,credit suisse ag cayman islands branch,1,0,0
 64,in what organization does geoff kott work,affirm inc,1,0,0
 64,in what organization does komal shah work,credit suisse ag cayman islands branch,1,0,0
-64,in what organization does martin corrigan work,barclays bank plc,1,0,0
 64,in what organization does richard w jantzen iii work,truist bank,1,0,0
 64,in what organization does thomas manning work,goldman sachs lending partners llc,1,0,0
 64,who is the representative of affirm inc,geoff kott,1,0,0
-64,who is the representative of barclays bank plc,martin corrigan,1,0,0
 64,who is the representative of truist bank,richard w jantzen iii,1,0,0
 64,who is the representative of goldman sachs lending partners llc,thomas manning,1,0,0
 64,what is the location of affirm inc,650 california street san francisco ca 94108,1,0,0
@@ -2565,8 +2584,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 64,what is the role of truist bank in the agreement,lender,1,0,0
 64,what is the role of morgan stanley senior fundinginc in the agreement,administrative agent,1,0,0
 64,what company is the arrangers in the agreement,morgan stanley senior funding inc,1,0,0
-64,what company is the syndication agent in the agreement,goldman sachs lending partners llc,1,0,0
 64,what company is the lead arrangers in the agreement,goldman sachs lending partners llc,1,0,0
+64,what company is the syndication agent in the agreement,goldman sachs lending partners llc,1,0,0
 64,what company is the administrative agent in the agreement,morgan stanley senior fundinginc,1,0,0
 58,what is the position of dennis m lanfear,president,1,0,0
 58,what is the position of clarke b futch,managing partner,1,0,0
@@ -2628,8 +2647,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 41,what is the role of middlesex savings bank in the agreement,lender,1,0,0
 41,what is the role of santander bank na in the agreement,lender,1,0,0
 41,what is the role of webster bank na in the agreement,lender,1,0,0
-41,what company is the bookrunner in the agreement,citizens bank na,1,0,0
 41,what company is the swingline lender in the agreement,citizens bank na,1,0,0
+41,what company is the bookrunner in the agreement,citizens bank na,1,0,0
 41,what company is the lead arranger in the agreement,citizens bank na,1,0,0
 41,what company is the borrower in the agreement,trc companies inc,1,0,0
 41,what company is the documentation agent in the agreement,keybank national association,1,0,0
@@ -3013,8 +3032,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 97,what is the role of summit portland llc in the agreement,borrower,1,0,0
 97,what is the role of summit salem llc in the agreement,borrower,1,0,0
 97,what is the role of summit healthcare reit inc in the agreement,borrower,1,0,0
-97,what company is the administrative agent in the agreement,general electric capital corporation,1,0,0
 97,what company is the lender in the agreement,general electric capital corporation,1,0,0
+97,what company is the administrative agent in the agreement,general electric capital corporation,1,0,0
 83,what is the position of andrew hietala,senior vice president,1,0,0
 83,what is the position of cecile segovia,director and senior relationship manager,1,0,0
 83,what is the position of charles de clapiers,vice president,1,0,0
@@ -3435,8 +3454,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 95,what is the role of texas lessor stonegate lp in the agreement,guarantors,1,0,0
 95,what is the role of cse casablanca holdings llc in the agreement,guarantors,1,0,0
 95,what is the role of bank of america na in the agreement,administrative agent,1,0,0
-95,what company is the arranger in the agreement,merrill lynch pierce fenner and smith incorporated,1,0,0
 95,what company is the bookmanager in the agreement,merrill lynch pierce fenner and smith incorporated,1,0,0
+95,what company is the arranger in the agreement,merrill lynch pierce fenner and smith incorporated,1,0,0
 95,what company is the borrower in the agreement,omega healthcare investors inc,1,0,0
 95,what company is the credit parties in the agreement,omega healthcare investors inc,1,0,0
 81,what is the location of keltic financial partners ii lp,580 white plains road suite 610 tarrytown ny 10591,1,0,0
@@ -3755,10 +3774,10 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 94,which company is associated with 8510 colonnade center drive raleigh north carolina 27615,salix pharmaceuticals ltd,1,0,0
 94,what is the role of salix pharmaceuticals ltd in the agreement,borrower,1,0,0
 94,what company is the joint lead arrangers in the agreement,suntrust robinson humphrey inc,1,0,0
-94,what company is the administrative agent in the agreement,jefferies finance llc,1,0,0
 94,what company is the collatera agent in the agreement,jefferies finance llc,1,0,0
-94,what company is the bank in the agreement,pnc bank national association,1,0,0
+94,what company is the administrative agent in the agreement,jefferies finance llc,1,0,0
 94,what company is the swingline lender in the agreement,pnc bank national association,1,0,0
+94,what company is the bank in the agreement,pnc bank national association,1,0,0
 94,what company is the senior managing agent in the agreement,rbs citizens na,1,0,0
 94,what company is the agent in the agreement,natixis new york branch,1,0,0
 94,what company is the borrower in the agreement,salix pharmaceuticals ltd,1,0,0
@@ -3829,8 +3848,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 57,what company is the holdings in the agreement,celanese corporation,1,0,0
 57,what company is the dutch borrower in the agreement,elwood cv,1,0,0
 57,what company is the company in the agreement,celanese us holdings llc,1,0,0
-57,what company is the l c issuer lender in the agreement,bank of america,1,0,0
 57,what company is the swingline lender in the agreement,bank of america,1,0,0
+57,what company is the l c issuer lender in the agreement,bank of america,1,0,0
 57,what company is the agent in the agreement,bank of america,1,0,0
 57,what company is the issuer in the agreement,deutsche bank ag new york branch,1,0,0
 57,what company is the swing line lender in the agreement,deutsche bank ag new york branch,1,0,0
@@ -4434,8 +4453,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 2,what is the role of fifth third bank national association in the agreement,lender,1,0,0
 2,what is the role of u s bank national association in the agreement,lender,1,0,0
 2,what is the role of the toronto dominion bank in the agreement,lender,1,0,0
-2,what company is the syndication agent in the agreement,bofa securities inc,1,0,0
 2,what company is the lead arrangers in the agreement,bofa securities inc,1,0,0
+2,what company is the syndication agent in the agreement,bofa securities inc,1,0,0
 2,what company is the arrangers in the agreement,wells fargo securities llc,1,0,0
 2,what company is the issuing lender in the agreement,bank of america na,1,0,0
 2,what company is the borrower in the agreement,dicks sporting goods inc,1,0,0
@@ -4632,8 +4651,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 92,what is the role of respicopea inc in the agreement,guarantors,1,0,0
 92,what company is the co bookrunner in the agreement,business development corporation of america,1,0,0
 92,what company is the sole lead arranger in the agreement,midcap funding v llc,1,0,0
-92,what company is the arranger in the agreement,pernix therapeutics holdings inc,1,0,0
 92,what company is the borrower in the agreement,pernix therapeutics holdings inc,1,0,0
+92,what company is the arranger in the agreement,pernix therapeutics holdings inc,1,0,0
 86,what is the position of jay wefel,rm ii,1,0,0
 86,what is the position of julie yamauchi,senior vice president,1,0,0
 86,what is the position of mark s gronich,authorized signatory,1,0,0
@@ -4893,10 +4912,10 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 36,who is the representative of morgan stanley senior funding inc,reagan philipp,1,0,0
 36,who is the representative of silicon graphics international corp,robert j nikl,1,0,0
 36,what is the role of silicon graphics federal llc in the agreement,grantors,1,0,0
-36,what company is the arranger in the agreement,morgan stanley senior funding inc,1,0,0
-36,what company is the agent in the agreement,morgan stanley senior funding inc,1,0,0
-36,what company is the administrative agent in the agreement,morgan stanley senior funding inc,1,0,0
 36,what company is the collateral agent in the agreement,morgan stanley senior funding inc,1,0,0
+36,what company is the agent in the agreement,morgan stanley senior funding inc,1,0,0
+36,what company is the arranger in the agreement,morgan stanley senior funding inc,1,0,0
+36,what company is the administrative agent in the agreement,morgan stanley senior funding inc,1,0,0
 36,what company is the borrower in the agreement,silicon graphics international corp,1,0,0
 123,what is the position of andrew payne,director,1,0,0
 123,what is the position of bill odaly,authorized signatory,1,0,0
@@ -5076,8 +5095,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 122,what is the role of unicredit bank ag in the agreement,lender,1,0,0
 122,what is the role of bank of montreal in the agreement,lender,1,0,0
 122,what company is the joint lead arranger in the agreement,citigroup global markets inc,1,0,0
-122,what company is the joint bookrunners in the agreement,morgan stanley senior fundinginc,1,0,0
 122,what company is the agent in the agreement,morgan stanley senior fundinginc,1,0,0
+122,what company is the joint bookrunners in the agreement,morgan stanley senior fundinginc,1,0,0
 37,what is the position of bryan ervin,vice president,1,0,0
 37,what is the position of felix miranda,senior vice president,1,0,0
 37,what is the position of john kushnerick,vice president,1,0,0
@@ -5730,8 +5749,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 20,what type of location is 40 wantage avenue branchville new jersey 07890,corporate headquarters,1,0,0
 20,what is the role of bmo capital markets corp in the agreement,sole lead arranger arranger,1,0,0
 20,what company is the sole lead arranger arranger in the agreement,bmo capital markets corp,1,0,0
-20,what company is the administrative agent in the agreement,bank of montreal chicago branch,1,0,0
 20,what company is the lender in the agreement,bank of montreal chicago branch,1,0,0
+20,what company is the administrative agent in the agreement,bank of montreal chicago branch,1,0,0
 34,what is the position of cameron m bready,executive vice president,1,0,0
 34,what is the position of rejji p hayes,vice president finance and treasurer,1,0,0
 34,what is the position of wendy a mcintyre,vice president,1,0,0
@@ -5744,9 +5763,9 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 34,which company is associated with c o goldman sachsand co 30 hudson street 36th floor jersey city nj 07302,goldman sachs bank usa,1,0,0
 34,what is the role of itc holdings corp in the agreement,sole manager,1,0,0
 34,what company is the sole manager in the agreement,itc holdings corp,1,0,0
-34,what company is the arranger in the agreement,goldman sachs bank usa,1,0,0
-34,what company is the administrative agent in the agreement,goldman sachs bank usa,1,0,0
 34,what company is the lender in the agreement,goldman sachs bank usa,1,0,0
+34,what company is the administrative agent in the agreement,goldman sachs bank usa,1,0,0
+34,what company is the arranger in the agreement,goldman sachs bank usa,1,0,0
 34,what company is the sole bookrunner in the agreement,goldman sachs bank usa,1,0,0
 18,what is the position of craig v koshkarian,vice president,1,0,0
 18,what is the position of dennis szczesuil,senior vice president,1,0,0
@@ -5801,8 +5820,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 30,what is the role of quanex screens llc in the agreement,guarantors,1,0,0
 30,what is the role of quanex services inc in the agreement,guarantors,1,0,0
 30,what is the role of truseal technologies inc in the agreement,guarantors,1,0,0
-30,what company is the syndication agent in the agreement,wells fargo securities llc,1,0,0
 30,what company is the lead arranger in the agreement,wells fargo securities llc,1,0,0
+30,what company is the syndication agent in the agreement,wells fargo securities llc,1,0,0
 30,what company is the borrower in the agreement,quanex building products corporation,1,0,0
 24,what is the position of chad mcmasters,senior vice president,1,0,0
 24,what is the position of courtney jones,vice president,1,0,0
@@ -5849,9 +5868,9 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 24,what company is the documentation agents in the agreement,national association,1,0,0
 24,what company is the agent in the agreement,morgan lewis and bockius llp,1,0,0
 24,what company is the sole general partner in the agreement,columbia property trust operating partnership lp,1,0,0
-24,what company is the loan and agency services group agent in the agreement,jpmorgan chase bank na,1,0,0
 24,what company is the bookrunner in the agreement,jpmorgan chase bank na,1,0,0
 24,what company is the lead arranger in the agreement,jpmorgan chase bank na,1,0,0
+24,what company is the loan and agency services group agent in the agreement,jpmorgan chase bank na,1,0,0
 131,what is the position of john bumgarner,authorized signatory,1,0,0
 131,what is the position of matthieu milgrom,authorized signatory,1,0,0
 131,what is the position of ralph j creasia jr,senior vice president,1,0,0
@@ -5959,11 +5978,11 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 118,what is the role of credit suisse ag in the agreement,agents,1,0,0
 118,what company is the administrative agent in the agreement,wells fargo bank,1,0,0
 118,what company is the documentation agents in the agreement,goldman sachs bank usa,1,0,0
-118,what company is the joint bookrunners in the agreement,goldman sachs bank usa,1,0,0
 118,what company is the joint lead arrangers in the agreement,goldman sachs bank usa,1,0,0
+118,what company is the joint bookrunners in the agreement,goldman sachs bank usa,1,0,0
 118,what company is the borrower in the agreement,post holdings inc,1,0,0
-118,what company is the revolving credit lender in the agreement,wells fargo bank national association,1,0,0
 118,what company is the l c issuer in the agreement,wells fargo bank national association,1,0,0
+118,what company is the revolving credit lender in the agreement,wells fargo bank national association,1,0,0
 118,what company is the swing line lender in the agreement,wells fargo bank national association,1,0,0
 118,what company is the agents in the agreement,credit suisse ag,1,0,0
 124,what is the position of catherine damico,treasurer,1,0,0
@@ -6141,8 +6160,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 31,what is the role of goldman sachs bank usa in the agreement,us swing lender,1,0,0
 31,what is the role of the bank of china in the agreement,us swing lender,1,0,0
 31,what company is the lender in the agreement,hsbc bank usa national association,1,0,0
-31,what company is the documentation agents in the agreement,canadian imperial bank of commerce new york agency,1,0,0
 31,what company is the joint book runners in the agreement,canadian imperial bank of commerce new york agency,1,0,0
+31,what company is the documentation agents in the agreement,canadian imperial bank of commerce new york agency,1,0,0
 31,what company is the yen swing lender in the agreement,jpmorgan chase bank na,1,0,0
 31,what company is the sterling swing lender in the agreement,jpmorgan chase bank na,1,0,0
 31,what company is the euro swing lender in the agreement,bank of america na,1,0,0
@@ -6313,8 +6332,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 133,which company is associated with 2200 first avenue south seattle wa 98134,zulily inc,1,0,0
 133,what is the role of merrill lynch pierce fenner and smith in the agreement,syndication agent,1,0,0
 133,what is the role of zulily inc in the agreement,borrower,1,0,0
-133,what company is the arranger in the agreement,citibank,1,0,0
 133,what company is the book runner in the agreement,citibank,1,0,0
+133,what company is the arranger in the agreement,citibank,1,0,0
 133,what company is the syndication agent in the agreement,merrill lynch pierce fenner and smith,1,0,0
 133,what company is the borrower in the agreement,zulily inc,1,0,0
 127,what is the position of darren merten,director,1,0,0

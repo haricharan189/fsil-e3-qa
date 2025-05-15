@@ -14,32 +14,32 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 102,who is the chief financial officer and president of project rendezvous holding corporation,jeffry r keyes,2,1,0
 102,who is the chief financial officer and president of telerhythmics llc,jeffry r keyes,2,1,0
 102,who is the chief financial officer and president of digirad corporation,jeffry r keyes,2,1,0
-102,who is the authorized signatory of the company which is the arranger in the agreement,kathy r plisko,2,1,0
-102,who is the authorized signatory of the company which is the book runner in the agreement,kathy r plisko,2,1,0
-102,who is the authorized signatory of the company which is the agent in the agreement,kathy r plisko,2,1,0
 102,who is the authorized signatory of the company which is the runner in the agreement,kathy r plisko,2,1,0
 102,who is the authorized signatory of the company which is the sole book runner in the agreement,kathy r plisko,2,1,0
-102,who is the authorized signatory of the company which is the administrative agent in the agreement,kathy r plisko,2,1,0
 102,who is the authorized signatory of the company which is the lender in the agreement,kathy r plisko,2,1,0
-102,who is the chief financial officer of the company associated with 1048 industrial court suite e suwanee ga 30024,jeffry r keyes,3,0,0
+102,who is the authorized signatory of the company which is the book runner in the agreement,kathy r plisko,2,1,0
+102,who is the authorized signatory of the company which is the agent in the agreement,kathy r plisko,2,1,0
+102,who is the authorized signatory of the company which is the arranger in the agreement,kathy r plisko,2,1,0
+102,who is the authorized signatory of the company which is the administrative agent in the agreement,kathy r plisko,2,1,0
 102,who is the president of the company associated with 1048 industrial court suite e suwanee ga 30024,jeffry r keyes,3,0,0
+102,who is the chief financial officer of the company associated with 1048 industrial court suite e suwanee ga 30024,jeffry r keyes,3,0,0
 102,who is the authorized signatory of the company associated with 2450 colorado avenue suite 3000 west santa monica ca 90404,kathy r plisko,3,0,0
 102,who is the esq of the company associated with 65 east 55th street new york ny 10022,adam finerman,3,0,0
 102,who is the esq of the company associated with 695 town center drive 17th floor costa mesa ca 92626,katherine bell,3,0,0
 116,what are the roles in the agreement of the company where nicholas jordan is employed,"arranger, issuing lender, administrative agent",2,0,1
 116,what are the roles in the agreement of the company associated with 120 south lasalle street chicago illinois 60603,"arranger, issuing lender, administrative agent",2,0,1
 116,what are the roles in the agreement of the company associated with 70 w madison chicago illinois 60602,"arranger, issuing lender, administrative agent",2,0,1
+116,who is the managing director of the company which is the arranger in the agreement,nicholas jordan,2,1,0
 116,who is the managing director of the company which is the issuing lender in the agreement,nicholas jordan,2,1,0
 116,who is the managing director of the company which is the administrative agent in the agreement,nicholas jordan,2,1,0
-116,who is the managing director of the company which is the arranger in the agreement,nicholas jordan,2,1,0
 116,who is the managing director of the company associated with 120 south lasalle street chicago illinois 60603,nicholas jordan,3,0,0
 116,who is the managing director of the company associated with 70 w madison chicago illinois 60602,nicholas jordan,3,0,0
-116,who is the coo of the company where venugopal rathi is employed,orit mizrachi,3,0,0
-116,who is the cfo of the company where venugopal rathi is employed,venu rathi,3,0,0
-116,who is the cfo of the company where orit mizrachi is employed,venu rathi,3,0,0
-116,who is the chief financial officer of the company where orit mizrachi is employed,venugopal rathi,3,0,0
 116,who is the coo of the company where venu rathi is employed,orit mizrachi,3,0,0
 116,who is the chief financial officer of the company where venu rathi is employed,venugopal rathi,3,0,0
+116,who is the cfo of the company where orit mizrachi is employed,venu rathi,3,0,0
+116,who is the chief financial officer of the company where orit mizrachi is employed,venugopal rathi,3,0,0
+116,who is the coo of the company where venugopal rathi is employed,orit mizrachi,3,0,0
+116,who is the cfo of the company where venugopal rathi is employed,venu rathi,3,0,0
 117,what role does bofa securities inc have in the agreement which is not the role of jpmorgan chase bank na,joint bookrunner,2,1,0
 117,what role does bank of america na have in the agreement which is not the role of wells fargo bank national association,syndication agent,2,1,0
 117,what company is the bookrunner but not the arranger in the agreement,bofa securities inc,2,1,0
@@ -52,8 +52,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 117,who is the executive director of the company which is the issuing lender in the agreement,lynn braun,2,1,0
 117,who is the executive director of the company which is the administrative agent in the agreement,lynn braun,2,1,0
 117,who is the senior vice president of the company which is the agent in the agreement,dawn mace moore,2,1,0
-117,who is the chief financial officer of the company associated with 14375 nw science park drive portland or 97229,jim a swanson,3,0,0
 117,who is the executive vice president of the company associated with 14375 nw science park drive portland or 97229,jim a swanson,3,0,0
+117,who is the chief financial officer of the company associated with 14375 nw science park drive portland or 97229,jim a swanson,3,0,0
 103,who is the director of the company which is the borrowers in the agreement,stephen sernett,2,1,0
 103,who is the associate counsel of the company which is the collateral agent in the agreement,matthew trybula,2,1,0
 103,who is the associate counsel of the company associated with 225 w washington street 21st floor chicago il 60606,matthew trybula,3,0,0
@@ -67,8 +67,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 16,who is the chief executive officer and president of standard outdoor southeast ii llc,ian w estus,2,1,0
 16,who is the chief executive officer and president of standard outdoor southwest llc,ian w estus,2,1,0
 16,who is the senior managing directo and senior managing director of crystal financial llc,christopher a arnold,2,1,0
-16,who is the senior managing director of the company associated with two international place 17th floor boston ma 02110,christopher a arnold,3,0,0
 16,who is the senior managing directo of the company associated with two international place 17th floor boston ma 02110,christopher a arnold,3,0,0
+16,who is the senior managing director of the company associated with two international place 17th floor boston ma 02110,christopher a arnold,3,0,0
 28,what role does akin gump strauss hauer and feld llp have in the agreement which is not the role of biopharma credit plc,agent,2,1,0
 28,what are the roles in the agreement of the company where pedro gonzalez de cosio is employed,"lender, collateral agent",2,0,1
 28,what are the roles in the agreement of the company associated with one bryant park new york ny 10036 6745,"agent, lender",2,0,1
@@ -88,11 +88,11 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 129,what are the roles in the agreement of the company associated with 1 south clinton avenue floor 7 rochester ny 14604,"issuing bank, administrative agent",2,0,1
 129,who is the chief financial officer and secretary of ghm acquisition corp,jeffrey glajch,2,1,0
 129,who is the chief financial officer and secretary of graham corporation,jeffrey glajch,2,1,0
-129,who is the authorized officer of the company which is the administrative agent in the agreement,elizabeth a jordan,2,1,0
 129,who is the authorized officer of the company which is the issuing bank in the agreement,elizabeth a jordan,2,1,0
+129,who is the authorized officer of the company which is the administrative agent in the agreement,elizabeth a jordan,2,1,0
 129,who is the authorized officer of the company associated with 1 south clinton avenue floor 7 rochester ny 14604,elizabeth a jordan,3,0,0
-129,who is the chief financial officer of the company associated with 20 florence avenue batavia new york 14020,jeffrey glajch,3,0,0
 129,who is the secretary of the company associated with 20 florence avenue batavia new york 14020,jeffrey glajch,3,0,0
+129,who is the chief financial officer of the company associated with 20 florence avenue batavia new york 14020,jeffrey glajch,3,0,0
 115,who is the assistant secretary and chief accounting officer of alliance trading inc,melanie housey hart,2,1,0
 115,who is the assistant secretary and president of alliance trading inc,melanie housey hart,2,1,0
 115,who is the assistant secretary and secretary of alliance trading inc,melanie housey hart,2,1,0
@@ -150,9 +150,9 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 115,who is the secretary and vice president of superior pool products llc,jennifer m neil,2,1,0
 101,what are the roles in the agreement of the company where deborah t purvin is employed,"lender, arranger, l c issuer, sole book runner, administrative agent",2,0,1
 101,who is the ceo of the company which is the borrower in the agreement,stanton m nelson,2,1,0
+101,who is the senior vice president of the company which is the sole book runner in the agreement,deborah t purvin,2,1,0
 101,who is the senior vice president of the company which is the arranger in the agreement,deborah t purvin,2,1,0
 101,who is the senior vice president of the company which is the l c issuer in the agreement,deborah t purvin,2,1,0
-101,who is the senior vice president of the company which is the sole book runner in the agreement,deborah t purvin,2,1,0
 101,who is the senior vice president of the company which is the administrative agent in the agreement,deborah t purvin,2,1,0
 100,what are the roles in the agreement of the company where min park is employed,"agent, lender",2,0,1
 100,what are the roles in the agreement of the company where ray aguilar is employed,"issuing lender, swingline lender, administrative agent",2,0,1
@@ -161,16 +161,16 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 100,who is the chief legal and administrative officer and vice president of omnicellinc,dan johnston,2,1,0
 100,who is the chief financial officer and executive vice president of omnicellinc,peter kuipers,2,1,0
 100,who is the esq of the company associated with 12670 high bluff drive san diego california 92103,sony ben moshe,3,0,0
-100,who is the vp relationship manager of the company associated with 400 hamilton ave suite110 palo alto ca 94301,ray aguilar,3,0,0
 100,who is the vice president relationship manager of the company associated with 400 hamilton ave suite110 palo alto ca 94301,ray aguilar,3,0,0
-100,who is the vice president of the company associated with 590 e middlefield road mountain view ca 94043 4008,dan johnston,3,0,0
+100,who is the vp relationship manager of the company associated with 400 hamilton ave suite110 palo alto ca 94301,ray aguilar,3,0,0
 100,who is the chief legal and administrative officer of the company associated with 590 e middlefield road mountain view ca 94043 4008,dan johnston,3,0,0
-100,who is the chief financial officer of the company associated with 590 e middlefield road mountain view ca 94043 4008,peter kuipers,3,0,0
+100,who is the vice president of the company associated with 590 e middlefield road mountain view ca 94043 4008,dan johnston,3,0,0
 100,who is the executive vice president of the company associated with 590 e middlefield road mountain view ca 94043 4008,peter kuipers,3,0,0
-100,who is the chief legal and administrative officer of the company where peter kuipers is employed,dan johnston,3,0,0
-100,who is the vice president of the company where peter kuipers is employed,dan johnston,3,0,0
+100,who is the chief financial officer of the company associated with 590 e middlefield road mountain view ca 94043 4008,peter kuipers,3,0,0
 100,who is the chief financial officer of the company where dan johnston is employed,peter kuipers,3,0,0
 100,who is the executive vice president of the company where dan johnston is employed,peter kuipers,3,0,0
+100,who is the chief legal and administrative officer of the company where peter kuipers is employed,dan johnston,3,0,0
+100,who is the vice president of the company where peter kuipers is employed,dan johnston,3,0,0
 114,who is the chief financial officer of the company associated with moduslink corporation 1601 trapelo road suite 170 waltham massachusetts 02451,peter feret,3,0,0
 128,what role does bofa securities inc have in the agreement which is not the role of jpmorgan chase bank na,joint bookrunners,2,1,0
 128,what are the roles in the agreement of the company where ryan zimmerman is employed,"arranger, bookrunners, administrative agent",2,0,1
@@ -185,8 +185,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 29,what are the roles in the agreement of the company associated with 6750 miller road brecksville ohio 44141,"lender, issuing bank, administrative agent",2,0,1
 29,what are the roles in the agreement of the company associated with 1175 john street rochester new york 14586,parent,2,0,1
 29,what are the roles in the agreement of the company associated with 911 panorama trail south rochester new york 14625,parent,2,0,1
-29,who is the chief financial officer of the company which is the parent borrower in the agreement,efrain rivera,2,1,0
 29,who is the chief financial officer of the company which is the parent in the agreement,efrain rivera,2,1,0
+29,who is the chief financial officer of the company which is the parent borrower in the agreement,efrain rivera,2,1,0
 29,who is the chief financial officer of the company associated with 1175 john street rochester new york 14586,efrain rivera,3,0,0
 29,who is the chief financial officer of the company associated with 911 panorama trail south rochester new york 14625,efrain rivera,3,0,0
 15,who are the executive directors of ubs ag,"jared randall, racquel ac small",2,0,1
@@ -228,14 +228,14 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 110,who is the vice president of the company which is the syndication agent in the agreement,nathan starr,2,1,0
 110,who is the vice president of the company which is the administrative agent in the agreement,nathan starr,2,1,0
 110,who is the authorized signatory of the company associated with harborside financial center 1800 plaza ten jersey city nj 07311,donna demagistris,3,0,0
-110,who is the associate director of the company where kenneth chin is employed,houssem daly,3,0,0
 110,who is the director of the company where houssem daly is employed,kenneth chin,3,0,0
+110,who is the associate director of the company where kenneth chin is employed,houssem daly,3,0,0
 104,who is the vice president of the company which is the syndication agent in the agreement,robert kling,2,1,0
 104,who is the vice president of the company which is the co documentation agent in the agreement,jeffrey p fisher,2,1,0
 104,who is the vice president of the company which is the administrative agent in the agreement,michael vondriska,2,1,0
 104,who is the vice president of the company associated with 1615 brett road building 3 new castle de 19720,michael vondriska,3,0,0
-104,who is the chief financial officer of the company where david r wiedwald is employed,andre s valentine,3,0,0
 104,who is the treasurer of the company where andre s valentine is employed,david r wiedwald,3,0,0
+104,who is the chief financial officer of the company where david r wiedwald is employed,andre s valentine,3,0,0
 138,what role does us bank national association have in the agreement which is not the role of pnc bank national association,agent,2,1,0
 138,what are the roles in the agreement of the company where christopher harahan is employed,"agent, lender",2,0,1
 138,what are the roles in the agreement of the company where nicolas zitelli is employed,"lender, administrative agent",2,0,1
@@ -247,8 +247,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 138,who is the senior vice president of the company which is the administrative agent in the agreement,nicolas zitelli,2,1,0
 138,who is the senior vice president of the company associated with 575 market street floor 28 san francisco ca 94105,nicolas zitelli,3,0,0
 138,who is the senior vice president of the company associated with pnc firstside center 500 first avenue fourth floor pittsburgh pa 15219,nicolas zitelli,3,0,0
-138,who is the chief financial officer of the company associated with 11620 wilshire boulevard suite 1000 los angeles california 90025,adeel khan,3,0,0
 138,who is the secretary of the company associated with 11620 wilshire boulevard suite 1000 los angeles california 90025,adeel khan,3,0,0
+138,who is the chief financial officer of the company associated with 11620 wilshire boulevard suite 1000 los angeles california 90025,adeel khan,3,0,0
 138,what is the address of business matters of the company where nicolas zitelli is employed,575 market street floor 28 san francisco ca 94105,3,0,0
 138,what is the address of administrative matters of the company where nicolas zitelli is employed,pnc firstside center 500 first avenue fourth floor pittsburgh pa 15219,3,0,0
 139,what role does fenner and smith incorporated have in the agreement which is not the role of td securities usa llc,joint lead arrangers,2,1,0
@@ -268,9 +268,9 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 139,who is the chief financial officer and treasurer of crown castle international corp,jay a brown,2,1,0
 139,who is the senior vice president and treasurer of crown castle international corp,jay a brown,2,1,0
 139,who is the executive director of the company which is the agent in the agreement,bruce s borden,2,1,0
-139,who is the chief financial officer of the company associated with 500 stanton christiana road newark de 19713,jay a brown,3,0,0
 139,who is the senior vice president of the company associated with 500 stanton christiana road newark de 19713,jay a brown,3,0,0
 139,who is the treasurer of the company associated with 500 stanton christiana road newark de 19713,jay a brown,3,0,0
+139,who is the chief financial officer of the company associated with 500 stanton christiana road newark de 19713,jay a brown,3,0,0
 139,who is the executive director of the company associated with 500 stanton christiana road newark de 19713,bruce s borden,3,0,0
 139,who is the managing director of the company where kestrina budina is employed,tanya crossley,3,0,0
 139,who is the director of the company where tanya crossley is employed,kestrina budina,3,0,0
@@ -294,8 +294,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 111,who is the managing director of the company which is the agent in the agreement,william r goley,2,1,0
 111,who is the managing director of the company associated with mac d1109 019 1525 west wt harris blvd charlotte nc 28262,william r goley,3,0,0
 111,who is the managing director of the company associated with one wells fargo center 11th floor 301 south college street charlotte north carolina 28202,william r goley,3,0,0
-111,who is the head of corporate banking of the company where louise twiss west is employed,neville grant,3,0,0
 111,who is the head of financial institutions group of the company where neville grant is employed,louise twiss west,3,0,0
+111,who is the head of corporate banking of the company where louise twiss west is employed,neville grant,3,0,0
 10,what are the roles in the agreement of the company where alex figueroa is employed,"lender issuing bank, administrative agent",2,0,1
 10,what are the roles in the agreement of the company where susan khokher is employed,"lender issuing bank, administrative agent",2,0,1
 10,what are the roles in the agreement of the company associated with 200 vesey street new york new york 10281,"lender issuing bank, administrative agent",2,0,1
@@ -303,8 +303,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 10,who is the chief financial officer and treasuruer of victory capital holdingsinc,terence f sullivan,2,1,0
 10,who is the authorized signatory of the company associated with 200 vesey street new york new york 10281,alex figueroa,3,0,0
 10,who is the manager agency of the company associated with 200 vesey street new york new york 10281,susan khokher,3,0,0
-10,who is the chief financial officer of the company associated with 4900 tiedeman road 4th floor brooklyn oh 44144,terence f sullivan,3,0,0
 10,who is the treasuruer of the company associated with 4900 tiedeman road 4th floor brooklyn oh 44144,terence f sullivan,3,0,0
+10,who is the chief financial officer of the company associated with 4900 tiedeman road 4th floor brooklyn oh 44144,terence f sullivan,3,0,0
 10,who is the authorized signatory of the company associated with royal bank plaza 200 bay street 12th floor south tower toronto ontario m5j 2w7 canada,alex figueroa,3,0,0
 10,who is the manager agency of the company associated with royal bank plaza 200 bay street 12th floor south tower toronto ontario m5j 2w7 canada,susan khokher,3,0,0
 10,who is the manager agency of the company where alex figueroa is employed,susan khokher,3,0,0
@@ -332,10 +332,10 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 38,who is the executive director of the company which is the administrative agent in the agreement,dave katz,2,1,0
 38,who is the executive director of the company associated with 383 madison avenue new york new york 10179,dave katz,3,0,0
 38,who is the executive director of the company associated with 500 stanton christiana road ops 2 3rd floor newark de 19713,dave katz,3,0,0
-38,who is the managing director of the company where sriram chandrasekaran is employed,ann rhoads,3,0,0
 38,who is the director of the company where ann rhoads is employed,sriram chandrasekaran,3,0,0
-38,who is the vice president of the company where ross levitsky is employed,ming k chu,3,0,0
+38,who is the managing director of the company where sriram chandrasekaran is employed,ann rhoads,3,0,0
 38,who is the managing director of the company where ming k chu is employed,ross levitsky,3,0,0
+38,who is the vice president of the company where ross levitsky is employed,ming k chu,3,0,0
 38,who is the senior vice president of the company where jamie grubb is employed,joe hykle,3,0,0
 38,who is the vice president of the company where joe hykle is employed,jamie grubb,3,0,0
 12,who is the global treasurer and senior vice president of walgreens boots alliance inc,aidan clare,2,1,0
@@ -345,32 +345,32 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 12,who is the senior vice president of the company associated with 108 wilmot road deerfield il 60015,aidan clare,3,0,0
 12,who is the global treasurer of the company associated with 108 wilmot road deerfield il 60015,aidan clare,3,0,0
 12,who is the vice president global treasury of the company associated with 108 wilmot road deerfield il 60015,gr inne kelly,3,0,0
+12,who is the general counsel of the company associated with 108 wilmot road deerfield il 60015,marco pagni,3,0,0
 12,who is the executive vice president of the company associated with 108 wilmot road deerfield il 60015,marco pagni,3,0,0
 12,who is the global chief administrative officer of the company associated with 108 wilmot road deerfield il 60015,marco pagni,3,0,0
-12,who is the general counsel of the company associated with 108 wilmot road deerfield il 60015,marco pagni,3,0,0
 12,who is the senior managerglobal treasury of the company associated with 108 wilmot road deerfield il 60015,sara la berg,3,0,0
 12,who is the authorized signatory of the company associated with mizuho bank ltd harborside financial ctr 1800 plaza ten jersey city nj 07311,tracy rahn,3,0,0
-12,who is the relationship manager of the company where francesco di mario is employed,lorenzo rodino,3,0,0
 12,who is the fvp head of credit of the company where lorenzo rodino is employed,francesco di mario,3,0,0
-12,who is the director of the company where luca balestra is employed,thilo huber,3,0,0
+12,who is the relationship manager of the company where francesco di mario is employed,lorenzo rodino,3,0,0
 12,who is the managing director of the company where thilo huber is employed,luca balestra,3,0,0
+12,who is the director of the company where luca balestra is employed,thilo huber,3,0,0
 12,who is the vice president global treasury of the company where aidan clare is employed,gr inne kelly,3,0,0
 12,who is the executive vice president of the company where aidan clare is employed,marco pagni,3,0,0
 12,who is the general counsel of the company where aidan clare is employed,marco pagni,3,0,0
 12,who is the global chief administrative officer of the company where aidan clare is employed,marco pagni,3,0,0
 12,who is the senior managerglobal treasury of the company where aidan clare is employed,sara la berg,3,0,0
-12,who is the global treasurer of the company where gr inne kelly is employed,aidan clare,3,0,0
-12,who is the senior vice president of the company where gr inne kelly is employed,aidan clare,3,0,0
-12,who is the executive vice president of the company where gr inne kelly is employed,marco pagni,3,0,0
-12,who is the general counsel of the company where gr inne kelly is employed,marco pagni,3,0,0
-12,who is the global chief administrative officer of the company where gr inne kelly is employed,marco pagni,3,0,0
-12,who is the senior managerglobal treasury of the company where gr inne kelly is employed,sara la berg,3,0,0
 12,who is the global treasurer of the company where sara la berg is employed,aidan clare,3,0,0
 12,who is the senior vice president of the company where sara la berg is employed,aidan clare,3,0,0
 12,who is the vice president global treasury of the company where sara la berg is employed,gr inne kelly,3,0,0
 12,who is the executive vice president of the company where sara la berg is employed,marco pagni,3,0,0
 12,who is the general counsel of the company where sara la berg is employed,marco pagni,3,0,0
 12,who is the global chief administrative officer of the company where sara la berg is employed,marco pagni,3,0,0
+12,who is the global treasurer of the company where gr inne kelly is employed,aidan clare,3,0,0
+12,who is the senior vice president of the company where gr inne kelly is employed,aidan clare,3,0,0
+12,who is the executive vice president of the company where gr inne kelly is employed,marco pagni,3,0,0
+12,who is the general counsel of the company where gr inne kelly is employed,marco pagni,3,0,0
+12,who is the global chief administrative officer of the company where gr inne kelly is employed,marco pagni,3,0,0
+12,who is the senior managerglobal treasury of the company where gr inne kelly is employed,sara la berg,3,0,0
 12,who is the global treasurer of the company where marco pagni is employed,aidan clare,3,0,0
 12,who is the senior vice president of the company where marco pagni is employed,aidan clare,3,0,0
 12,who is the vice president global treasury of the company where marco pagni is employed,gr inne kelly,3,0,0
@@ -754,55 +754,55 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 107,who is the president and treasurer of open text ulc,paul mcfeeters,2,1,0
 107,who is the president and vice president of open text ulc,paul mcfeeters,2,1,0
 107,who is the treasurer and vice president of open text ulc,paul mcfeeters,2,1,0
+107,who is the director of the company which is the intercreditor agent in the agreement,ritam bhalla,2,1,0
+107,who is the director of the company which is the lead arrangers in the agreement,ritam bhalla,2,1,0
+107,who is the director of the company which is the lender in the agreement,ritam bhalla,2,1,0
 107,who is the director of the company which is the collateral agent in the agreement,ritam bhalla,2,1,0
 107,who is the director of the company which is the arranger in the agreement,ritam bhalla,2,1,0
-107,who is the director of the company which is the lead arrangers in the agreement,ritam bhalla,2,1,0
-107,who is the director of the company which is the intercreditor agent in the agreement,ritam bhalla,2,1,0
-107,who is the director of the company which is the lender in the agreement,ritam bhalla,2,1,0
 107,who is the director of the company associated with 1301 avenue of the americas new york new york 10019,ritam bhalla,3,0,0
-107,who is the treasurer of the company associated with 1959 upper water street suite 900 halifax nova scotia,paul mcfeeters,3,0,0
-107,who is the chief financial officer of the company associated with 1959 upper water street suite 900 halifax nova scotia,paul mcfeeters,3,0,0
-107,who is the vice president of the company associated with 1959 upper water street suite 900 halifax nova scotia,paul mcfeeters,3,0,0
 107,who is the assistant treasurer of the company associated with 1959 upper water street suite 900 halifax nova scotia,paul mcfeeters,3,0,0
-107,who is the chief executive officer of the company associated with 1959 upper water street suite 900 halifax nova scotia,paul mcfeeters,3,0,0
+107,who is the vice president of the company associated with 1959 upper water street suite 900 halifax nova scotia,paul mcfeeters,3,0,0
 107,who is the chief administrative officer of the company associated with 1959 upper water street suite 900 halifax nova scotia,paul mcfeeters,3,0,0
+107,who is the treasurer of the company associated with 1959 upper water street suite 900 halifax nova scotia,paul mcfeeters,3,0,0
 107,who is the president of the company associated with 1959 upper water street suite 900 halifax nova scotia,paul mcfeeters,3,0,0
-107,who is the treasurer of the company associated with 275 frank tompa drive waterloo ontario,paul mcfeeters,3,0,0
-107,who is the chief financial officer of the company associated with 275 frank tompa drive waterloo ontario,paul mcfeeters,3,0,0
-107,who is the vice president of the company associated with 275 frank tompa drive waterloo ontario,paul mcfeeters,3,0,0
+107,who is the chief executive officer of the company associated with 1959 upper water street suite 900 halifax nova scotia,paul mcfeeters,3,0,0
+107,who is the chief financial officer of the company associated with 1959 upper water street suite 900 halifax nova scotia,paul mcfeeters,3,0,0
 107,who is the assistant treasurer of the company associated with 275 frank tompa drive waterloo ontario,paul mcfeeters,3,0,0
-107,who is the chief executive officer of the company associated with 275 frank tompa drive waterloo ontario,paul mcfeeters,3,0,0
+107,who is the vice president of the company associated with 275 frank tompa drive waterloo ontario,paul mcfeeters,3,0,0
 107,who is the chief administrative officer of the company associated with 275 frank tompa drive waterloo ontario,paul mcfeeters,3,0,0
+107,who is the treasurer of the company associated with 275 frank tompa drive waterloo ontario,paul mcfeeters,3,0,0
 107,who is the president of the company associated with 275 frank tompa drive waterloo ontario,paul mcfeeters,3,0,0
+107,who is the chief executive officer of the company associated with 275 frank tompa drive waterloo ontario,paul mcfeeters,3,0,0
+107,who is the chief financial officer of the company associated with 275 frank tompa drive waterloo ontario,paul mcfeeters,3,0,0
 107,who is the director of the company associated with 745 seventh avenue new york new york 10019,ritam bhalla,3,0,0
-107,who is the treasurer of the company associated with korea,paul mcfeeters,3,0,0
-107,who is the chief financial officer of the company associated with korea,paul mcfeeters,3,0,0
-107,who is the vice president of the company associated with korea,paul mcfeeters,3,0,0
 107,who is the assistant treasurer of the company associated with korea,paul mcfeeters,3,0,0
-107,who is the chief executive officer of the company associated with korea,paul mcfeeters,3,0,0
+107,who is the vice president of the company associated with korea,paul mcfeeters,3,0,0
 107,who is the chief administrative officer of the company associated with korea,paul mcfeeters,3,0,0
+107,who is the treasurer of the company associated with korea,paul mcfeeters,3,0,0
 107,who is the president of the company associated with korea,paul mcfeeters,3,0,0
-107,who is the treasurer of the company associated with nova scotia canada,paul mcfeeters,3,0,0
-107,who is the chief financial officer of the company associated with nova scotia canada,paul mcfeeters,3,0,0
-107,who is the vice president of the company associated with nova scotia canada,paul mcfeeters,3,0,0
+107,who is the chief executive officer of the company associated with korea,paul mcfeeters,3,0,0
+107,who is the chief financial officer of the company associated with korea,paul mcfeeters,3,0,0
 107,who is the assistant treasurer of the company associated with nova scotia canada,paul mcfeeters,3,0,0
-107,who is the chief executive officer of the company associated with nova scotia canada,paul mcfeeters,3,0,0
+107,who is the vice president of the company associated with nova scotia canada,paul mcfeeters,3,0,0
 107,who is the chief administrative officer of the company associated with nova scotia canada,paul mcfeeters,3,0,0
+107,who is the treasurer of the company associated with nova scotia canada,paul mcfeeters,3,0,0
 107,who is the president of the company associated with nova scotia canada,paul mcfeeters,3,0,0
-107,who is the treasurer of the company associated with canada,paul mcfeeters,3,0,0
-107,who is the chief financial officer of the company associated with canada,paul mcfeeters,3,0,0
-107,who is the vice president of the company associated with canada,paul mcfeeters,3,0,0
+107,who is the chief executive officer of the company associated with nova scotia canada,paul mcfeeters,3,0,0
+107,who is the chief financial officer of the company associated with nova scotia canada,paul mcfeeters,3,0,0
 107,who is the assistant treasurer of the company associated with canada,paul mcfeeters,3,0,0
-107,who is the chief executive officer of the company associated with canada,paul mcfeeters,3,0,0
+107,who is the vice president of the company associated with canada,paul mcfeeters,3,0,0
 107,who is the chief administrative officer of the company associated with canada,paul mcfeeters,3,0,0
+107,who is the treasurer of the company associated with canada,paul mcfeeters,3,0,0
 107,who is the president of the company associated with canada,paul mcfeeters,3,0,0
-107,who is the treasurer of the company associated with delaware usa,paul mcfeeters,3,0,0
-107,who is the chief financial officer of the company associated with delaware usa,paul mcfeeters,3,0,0
-107,who is the vice president of the company associated with delaware usa,paul mcfeeters,3,0,0
+107,who is the chief executive officer of the company associated with canada,paul mcfeeters,3,0,0
+107,who is the chief financial officer of the company associated with canada,paul mcfeeters,3,0,0
 107,who is the assistant treasurer of the company associated with delaware usa,paul mcfeeters,3,0,0
-107,who is the chief executive officer of the company associated with delaware usa,paul mcfeeters,3,0,0
+107,who is the vice president of the company associated with delaware usa,paul mcfeeters,3,0,0
 107,who is the chief administrative officer of the company associated with delaware usa,paul mcfeeters,3,0,0
+107,who is the treasurer of the company associated with delaware usa,paul mcfeeters,3,0,0
 107,who is the president of the company associated with delaware usa,paul mcfeeters,3,0,0
+107,who is the chief executive officer of the company associated with delaware usa,paul mcfeeters,3,0,0
+107,who is the chief financial officer of the company associated with delaware usa,paul mcfeeters,3,0,0
 113,who is the manager and managing director a and authorized representative of hurco international holdings inc,sonja k mcclelland,2,1,0
 113,who is the manager and secretary treasurer of hurco international holdings inc,sonja k mcclelland,2,1,0
 113,who is the managing director a and authorized representative and secretary treasurer of hurco international holdings inc,sonja k mcclelland,2,1,0
@@ -823,11 +823,11 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 113,who is the managing director a and authorized representative and secretary treasurer of hurco companies inc,sonja k mcclelland,2,1,0
 113,who is the senior vice president of the company associated with 9000 southside blvd bldg 100 transaction processing fl9 100 04 24 jacksonville fl 32256,jonathan m phillips,3,0,0
 113,who is the chief executive officer of the company associated with one technology way indianapolis indiana 42268 usa,michael doar,3,0,0
-113,who is the managing director a and authorized representative of the company associated with one technology way indianapolis indiana 42268 usa,sonja k mcclelland,3,0,0
 113,who is the secretary treasurer of the company associated with one technology way indianapolis indiana 42268 usa,sonja k mcclelland,3,0,0
+113,who is the managing director a and authorized representative of the company associated with one technology way indianapolis indiana 42268 usa,sonja k mcclelland,3,0,0
 113,who is the manager of the company associated with one technology way indianapolis indiana 42268 usa,sonja k mcclelland,3,0,0
-113,who is the managing director a and authorized representative of the company associated with prins bernhardplein 200 1097 jb amsterdam the netherlands,sonja k mcclelland,3,0,0
 113,who is the secretary treasurer of the company associated with prins bernhardplein 200 1097 jb amsterdam the netherlands,sonja k mcclelland,3,0,0
+113,who is the managing director a and authorized representative of the company associated with prins bernhardplein 200 1097 jb amsterdam the netherlands,sonja k mcclelland,3,0,0
 113,who is the manager of the company associated with prins bernhardplein 200 1097 jb amsterdam the netherlands,sonja k mcclelland,3,0,0
 113,who is the chief executive officer of the company where sonja k mcclelland is employed,michael doar,3,0,0
 113,who is the manager of the company where michael doar is employed,sonja k mcclelland,3,0,0
@@ -842,8 +842,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 112,what are the roles in the agreement of the company associated with 50 rowes wharf 2nd floor boston ma 02110,"lender, arrangers, bookrunners, administrative agent",2,0,1
 112,who is the senior vice president of the company which is the syndication agent in the agreement,robert c megan,2,1,0
 112,who is the chief financial officer of the company which is the borrower in the agreement,michael a doyle,2,1,0
-112,who is the authorized officer of the company which is the administrative agent in the agreement,amy u lessner,2,1,0
 112,who is the authorized officer of the company which is the bookrunners in the agreement,amy u lessner,2,1,0
+112,who is the authorized officer of the company which is the administrative agent in the agreement,amy u lessner,2,1,0
 112,who is the authorized officer of the company associated with 10 so dearborn floor l2s chicago il 60603 2300,amy u lessner,3,0,0
 112,who is the authorized officer of the company associated with 50 rowes wharf 2nd floor boston ma 02110,amy u lessner,3,0,0
 112,who is the chief financial officer of the company associated with 60 acorn park drive cambridge ma 02140,michael a doyle,3,0,0
@@ -900,10 +900,10 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 106,who is the chief financial officer and executive vice president of dynegy power llc,clint c freeland,2,1,0
 106,who is the manager agency of the company associated with 4th floor 20 king street west toronto ontario m5h 1c4,ann hurley,3,0,0
 106,who is the authorized signatory of the company associated with 4th floor 20 king street west toronto ontario m5h 1c4,thomas casey,3,0,0
-106,who is the chief financial officer of the company associated with 601 travis street 14thfloor houston texas 77002 5050,clint c freeland,3,0,0
 106,who is the executive vice president of the company associated with 601 travis street 14thfloor houston texas 77002 5050,clint c freeland,3,0,0
-106,who is the associate director of the company where lana gifas is employed,joselin fernandes,3,0,0
+106,who is the chief financial officer of the company associated with 601 travis street 14thfloor houston texas 77002 5050,clint c freeland,3,0,0
 106,who is the director of the company where joselin fernandes is employed,lana gifas,3,0,0
+106,who is the associate director of the company where lana gifas is employed,joselin fernandes,3,0,0
 106,who is the authorized signatory of the company where ann hurley is employed,thomas casey,3,0,0
 106,who is the manager agency of the company where thomas casey is employed,ann hurley,3,0,0
 13,who is the chief financial officer and executive vice president of cvr energyinc,tracy d jackson,2,1,0
@@ -946,8 +946,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 60,who is the vice president of the company which is the documentation agents in the agreement,thor oconnell,2,1,0
 60,who is the vice president of the company which is the administrative agent in the agreement,susan m olsen,2,1,0
 60,who is the vice president of the company associated with one penns way ops ii floor 2 new castle de 19720,susan m olsen,3,0,0
-60,who is the managing director of the company where caroline smith is employed,harry yergey,3,0,0
 60,who is the assistant vice president of the company where harry yergey is employed,caroline smith,3,0,0
+60,who is the managing director of the company where caroline smith is employed,harry yergey,3,0,0
 74,who are the authorized signatorys of credit suisse ag cayman islands branch,"christopher day, karim rahimtoola",2,0,1
 74,who is the senior vice president of the company associated with 4900 tiedeman road mail code oh 01 49 0362 brooklyn ohio 44144,jeff kalinowski,3,0,0
 74,who is the executive vice president and secretary of the company associated with 7900 tysons one place suite1450 mclean va 22102,christopher t mckee,3,0,0
@@ -1004,12 +1004,12 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 61,what are the roles in the agreement of the company where christopher shafto is employed,"agent, lender",2,0,1
 61,what are the roles in the agreement of the company where amanuel assefa is employed,"lender, administrative agent",2,0,1
 61,what are the roles in the agreement of the company where bridgett j manduk mowry is employed,"lender, administrative agent",2,0,1
-61,what are the roles in the agreement of the company where gregory paul is employed,"lender, syndication agent",2,0,1
 61,what are the roles in the agreement of the company where liz cheng is employed,"lender, syndication agent",2,0,1
+61,what are the roles in the agreement of the company where gregory paul is employed,"lender, syndication agent",2,0,1
 61,who is the director and vice president of citibank na,jim cahow,2,1,0
 61,who is the treasurer and vice president taxand treasury of citrix systems inc,brian l shytle,2,1,0
-61,who is the vice president of the company where gregory paul is employed,liz cheng,3,0,0
 61,who is the managing director of the company where liz cheng is employed,gregory paul,3,0,0
+61,who is the vice president of the company where gregory paul is employed,liz cheng,3,0,0
 61,who is the director of the company where marko lukin is employed,ming k chu,3,0,0
 61,who is the vice president of the company where ming k chu is employed,marko lukin,3,0,0
 77,who is the administrative officer and chief legal of wellcare health plans inc,blair w todt,2,1,0
@@ -1021,8 +1021,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 77,who is the executive director of the company associated with 10 south dearborn street chicago illinois 60603,hector j varona,3,0,0
 88,who is the chief financial officer and president of j2 cloud services llc,r scott turicchi,2,1,0
 88,who is the director of the company associated with 445 s figueroa street floor 10 los angeles ca 90071,westley white,3,0,0
-88,who is the chief financial officer of the company associated with 6922 hollywood blvd suite 500 los angeles ca 90028,r scott turicchi,3,0,0
 88,who is the president of the company associated with 6922 hollywood blvd suite 500 los angeles ca 90028,r scott turicchi,3,0,0
+88,who is the chief financial officer of the company associated with 6922 hollywood blvd suite 500 los angeles ca 90028,r scott turicchi,3,0,0
 162,who is the chief compliance officer and general counsel of nabors alaska drilling inc,michael rasmuson,2,1,0
 162,who is the chief compliance officer and secretary of nabors alaska drilling inc,michael rasmuson,2,1,0
 162,who is the chief compliance officer and senior vice president of nabors alaska drilling inc,michael rasmuson,2,1,0
@@ -1052,9 +1052,9 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 162,who is the secretary and senior vice president of nabors industries inc,michael rasmuson,2,1,0
 162,who is the vice president of the company associated with 1615 brett road ops 3 new castle de 19720,ivan davey,3,0,0
 162,who is the secretary of the company associated with 515 west greens road suite 1200 houston texas 77067 attention general counsel,michael rasmuson,3,0,0
-162,who is the senior vice president of the company associated with 515 west greens road suite 1200 houston texas 77067 attention general counsel,michael rasmuson,3,0,0
-162,who is the general counsel of the company associated with 515 west greens road suite 1200 houston texas 77067 attention general counsel,michael rasmuson,3,0,0
 162,who is the chief compliance officer of the company associated with 515 west greens road suite 1200 houston texas 77067 attention general counsel,michael rasmuson,3,0,0
+162,who is the general counsel of the company associated with 515 west greens road suite 1200 houston texas 77067 attention general counsel,michael rasmuson,3,0,0
+162,who is the senior vice president of the company associated with 515 west greens road suite 1200 houston texas 77067 attention general counsel,michael rasmuson,3,0,0
 163,who is the vice president of the company which is the sole bookrunner in the agreement,david tepper,2,1,0
 89,what role does golub capital llc have in the agreement which is not the role of keybanc capital markets inc,joint bookrunners,2,1,0
 89,what role does golub capital llc have in the agreement which is not the role of macquarie capital usa inc,joint bookrunners,2,1,0
@@ -1066,21 +1066,21 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 89,who is the general counsel and vp finance of agiliti healthinc,lee neumann,2,1,0
 89,who is the svp and vp finance of agiliti healthinc,lee neumann,2,1,0
 89,who is the managing director of the company associated with 10 s dearborn chicagoil 60603,sabir hashmy,3,0,0
-89,who is the vp finance of the company associated with 6625 west 78th street suite300 minneapolis mn 55439,lee neumann,3,0,0
-89,who is the general counsel of the company associated with 6625 west 78th street suite300 minneapolis mn 55439,lee neumann,3,0,0
 89,who is the svp of the company associated with 6625 west 78th street suite300 minneapolis mn 55439,lee neumann,3,0,0
-89,who is the general counsel of the company where james pekarek is employed,lee neumann,3,0,0
-89,who is the svp of the company where james pekarek is employed,lee neumann,3,0,0
-89,who is the vp finance of the company where james pekarek is employed,lee neumann,3,0,0
+89,who is the general counsel of the company associated with 6625 west 78th street suite300 minneapolis mn 55439,lee neumann,3,0,0
+89,who is the vp finance of the company associated with 6625 west 78th street suite300 minneapolis mn 55439,lee neumann,3,0,0
 89,who is the general counsel of the company where matthew mccabe is employed,lee neumann,3,0,0
 89,who is the svp of the company where matthew mccabe is employed,lee neumann,3,0,0
 89,who is the vp finance of the company where matthew mccabe is employed,lee neumann,3,0,0
+89,who is the general counsel of the company where james pekarek is employed,lee neumann,3,0,0
+89,who is the svp of the company where james pekarek is employed,lee neumann,3,0,0
+89,who is the vp finance of the company where james pekarek is employed,lee neumann,3,0,0
 62,who is the chief financial officer and senior vice president of michigan electric transmission company llc,gretchen l holloway,2,1,0
 62,who is the authorized signatory of the company which is the administrative agent in the agreement,annie dorval,2,1,0
 62,who is the authorized signatory of the company associated with 222 bay street 15 floor toronto on m5k 1a2,brian macfarlane,3,0,0
 62,who is the authorized signatory of the company associated with 222 bay street 15th floor toronto ontario m5k1a2,annie dorval,3,0,0
-62,who is the chief financial officer of the company associated with 27175 energy way novi mi 48377,gretchen l holloway,3,0,0
 62,who is the senior vice president of the company associated with 27175 energy way novi mi 48377,gretchen l holloway,3,0,0
+62,who is the chief financial officer of the company associated with 27175 energy way novi mi 48377,gretchen l holloway,3,0,0
 76,who is the chieffinancial officer and executive vice president of microsemi corporation,john w hohener,2,1,0
 76,who is the chieffinancial officer and secretary of microsemi corporation,john w hohener,2,1,0
 76,who is the chieffinancial officer and treasurer of microsemi corporation,john w hohener,2,1,0
@@ -1121,12 +1121,12 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 66,who is the director and svp of bank of america na,ronnie glenn,2,1,0
 66,who is the director and svp of barclays bank plc,ronnie glenn,2,1,0
 66,who is the cfo and treasurer of icu medical inc,brian m bonnell,2,1,0
-66,who is the authorized signer of the company which is the term loan a lender in the agreement,james riley,2,1,0
 66,who is the authorized signer of the company which is the revolver in the agreement,james riley,2,1,0
+66,who is the authorized signer of the company which is the term loan a lender in the agreement,james riley,2,1,0
 66,who is the managing director of the company which is the agent in the agreement,darin mullis,2,1,0
 66,who is the managing director of the company associated with 1525 w wt harris blvd charlotte north carolina 28262,darin mullis,3,0,0
-66,who is the cfo of the company associated with 951 calle amanecer san clemente california 92673,brian m bonnell,3,0,0
 66,who is the treasurer of the company associated with 951 calle amanecer san clemente california 92673,brian m bonnell,3,0,0
+66,who is the cfo of the company associated with 951 calle amanecer san clemente california 92673,brian m bonnell,3,0,0
 99,what is the position held by doug couvillion but not by nick flanagan,treasurer,1,2,0
 99,what role does co peratieve centrale raiffeisen boerenleenbank ba have in the agreement which is not the role of merrill lynch pierce fennerand smith incorporated,agent,2,1,0
 99,what role does co peratieve centrale raiffeisen boerenleenbank ba have in the agreement which is not the role of rabobank nederland,bookrunners,2,1,0
@@ -1152,8 +1152,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 99,who is the president and treasurer of cbocs supply inc,doug couvillion,2,1,0
 99,who is the president and treasurer of cbocs texas llc,doug couvillion,2,1,0
 99,who is the chief manager and president of cbocs west inc,nick flanagan,2,1,0
-99,who is the managing director of the company which is the bank in the agreement,stephen a leon,2,1,0
 99,who is the managing director of the company which is the collateral agent in the agreement,stephen a leon,2,1,0
+99,who is the managing director of the company which is the bank in the agreement,stephen a leon,2,1,0
 99,who is the managing director of the company where michael t harder is employed,adriaan weststrate,3,0,0
 99,who is the executive director of the company where adriaan weststrate is employed,michael t harder,3,0,0
 167,who is the secretary and treasurer of powell electrical systems inc,don r madison,2,1,0
@@ -1303,34 +1303,34 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 166,who is the head crc of the company associated with 1 basinghall avenue london ec2v 5dd,simon williams,3,0,0
 166,who is the legal counsel of the company associated with 1 basinghall avenue london ec2v 5dd,valdeep singh,3,0,0
 166,who is the sr legal manager of the company associated with 3560 lenox road suite 2000 atlanta ga 30326,shannon curran,3,0,0
-166,who is the person authorized by virtue of power of attorney of the company associated with 3560 lenox road suite 2000 atlanta ga 30326,chirag shah,3,0,0
 166,who is the attorney of the company associated with 3560 lenox road suite 2000 atlanta ga 30326,chirag shah,3,0,0
+166,who is the person authorized by virtue of power of attorney of the company associated with 3560 lenox road suite 2000 atlanta ga 30326,chirag shah,3,0,0
 166,who is the authorized signatory of the company associated with 3560 lenox road suite 2000 atlanta ga 30326,chirag shah,3,0,0
 166,who is the attorney in fact of the company associated with 3560 lenox road suite 2000 atlanta ga 30326,chirag shah,3,0,0
 166,who is the chief manager of the company associated with dubai uae,sudip kumar ghatak,3,0,0
-166,who is the person authorized by virtue of power of attorney of the company associated with two alliance center 3560 lenox road suite 2000 atlanta ga 30326 usa,chirag shah,3,0,0
 166,who is the attorney of the company associated with two alliance center 3560 lenox road suite 2000 atlanta ga 30326 usa,chirag shah,3,0,0
+166,who is the person authorized by virtue of power of attorney of the company associated with two alliance center 3560 lenox road suite 2000 atlanta ga 30326 usa,chirag shah,3,0,0
 166,who is the authorized signatory of the company associated with two alliance center 3560 lenox road suite 2000 atlanta ga 30326 usa,chirag shah,3,0,0
 166,who is the attorney in fact of the company associated with two alliance center 3560 lenox road suite 2000 atlanta ga 30326 usa,chirag shah,3,0,0
 166,who is the chief executive of the company where sandeep patnaik is employed,rachit bhatia,3,0,0
 166,who is the head cbo of the company where rachit bhatia is employed,sandeep patnaik,3,0,0
 166,who is the head corporate and investment banking of the company where nishant kumar is employed,vikashh mehta,3,0,0
 166,who is the senior rm trade and export finance of the company where vikashh mehta is employed,nishant kumar,3,0,0
-166,who is the managing director head of credit and trading risk of the company where lisa kwok is employed,richard cox,3,0,0
 166,who is the director credit risk management of the company where richard cox is employed,lisa kwok,3,0,0
-166,who is the senior executive vice president of the company where dipak gupta is employed,rajeev mohan,3,0,0
+166,who is the managing director head of credit and trading risk of the company where lisa kwok is employed,richard cox,3,0,0
 166,who is the joint managing director of the company where rajeev mohan is employed,dipak gupta,3,0,0
+166,who is the senior executive vice president of the company where dipak gupta is employed,rajeev mohan,3,0,0
+166,who is the sr legal manager of the company where chirag shah is employed,shannon curran,3,0,0
 166,who is the attorney of the company where shannon curran is employed,chirag shah,3,0,0
 166,who is the attorney in fact of the company where shannon curran is employed,chirag shah,3,0,0
 166,who is the authorized signatory of the company where shannon curran is employed,chirag shah,3,0,0
 166,who is the person authorized by virtue of power of attorney of the company where shannon curran is employed,chirag shah,3,0,0
-166,who is the sr legal manager of the company where chirag shah is employed,shannon curran,3,0,0
-166,who is the head crc of the company where james perkins is employed,simon williams,3,0,0
-166,who is the legal counsel of the company where james perkins is employed,valdeep singh,3,0,0
 166,who is the manager crc of the company where simon williams is employed,james perkins,3,0,0
 166,who is the legal counsel of the company where simon williams is employed,valdeep singh,3,0,0
 166,who is the manager crc of the company where valdeep singh is employed,james perkins,3,0,0
 166,who is the head crc of the company where valdeep singh is employed,simon williams,3,0,0
+166,who is the head crc of the company where james perkins is employed,simon williams,3,0,0
+166,who is the legal counsel of the company where james perkins is employed,valdeep singh,3,0,0
 166,what is the address of corporate office of the company which is the borrower in the agreement,novelis inc,3,0,0
 166,what is the address of zonal office of the company where sudip kumar ghatak is employed,dubai uae,3,0,0
 67,who is the ceo and managing member of biopharmacreditinvestmentsvmasterlp,pedro gonzalez de cosio,2,1,0
@@ -1368,15 +1368,15 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 9,who is the director of the company which is the joint bookrunner in the agreement,ann e sutton,2,1,0
 9,who is the director of the company which is the syndication agent in the agreement,ann e sutton,2,1,0
 9,who is the authorised signatory of the company which is the co documentation agents in the agreement,brian d williams,2,1,0
-9,who is the executive director of the company which is the administrative agent in the agreement,peter predun,2,1,0
 9,who is the executive director of the company which is the swing line lender in the agreement,peter predun,2,1,0
-9,who is the chief financial officer of the company associated with 1011 warrenville road suite 600 lisle il 60532,mark e newman,3,0,0
+9,who is the executive director of the company which is the administrative agent in the agreement,peter predun,2,1,0
 9,who is the senior vice president of the company associated with 1011 warrenville road suite 600 lisle il 60532,mark e newman,3,0,0
 9,who is the treasurer of the company associated with 1011 warrenville road suite 600 lisle il 60532,mark e newman,3,0,0
+9,who is the chief financial officer of the company associated with 1011 warrenville road suite 600 lisle il 60532,mark e newman,3,0,0
 9,who is the executive director of the company associated with 383 madison avenue fl 24 new york ny 10179,peter predun,3,0,0
-9,who is the chief financial officer of the company associated with 500 stanton christiana road ops 2 floor 3 newark delaware 19713 2107,mark e newman,3,0,0
 9,who is the senior vice president of the company associated with 500 stanton christiana road ops 2 floor 3 newark delaware 19713 2107,mark e newman,3,0,0
 9,who is the treasurer of the company associated with 500 stanton christiana road ops 2 floor 3 newark delaware 19713 2107,mark e newman,3,0,0
+9,who is the chief financial officer of the company associated with 500 stanton christiana road ops 2 floor 3 newark delaware 19713 2107,mark e newman,3,0,0
 9,who is the director of the company where wei jen yuan is employed,mikhail faybusovich,3,0,0
 9,who is the associate of the company where mikhail faybusovich is employed,wei jen yuan,3,0,0
 59,what roles do both bank of the west and bmo harris bank na have in the agreement,"agents, lender, arrangers",1,1,1
@@ -1414,9 +1414,9 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 65,what are the roles in the agreement of the company where brian d corum is employed,"revolving lender, swingline lender",2,0,1
 65,what are the roles in the agreement of the company where sean mcwhinnie is employed,"issuer, lender, administrative agent",2,0,1
 65,who is the managing director of the company which is the swingline lender in the agreement,brian d corum,2,1,0
+65,who is the director of the company which is the lender in the agreement,sean mcwhinnie,2,1,0
 65,who is the director of the company which is the issuer in the agreement,sean mcwhinnie,2,1,0
 65,who is the director of the company which is the administrative agent in the agreement,sean mcwhinnie,2,1,0
-65,who is the director of the company which is the lender in the agreement,sean mcwhinnie,2,1,0
 71,what are the roles in the agreement of the company where ryan maples is employed,"arranger, sole bookrunner",2,0,1
 71,who is the chief financial officer and senior executive vice president of total system services inc,paul m todd,2,1,0
 71,who is the vice president of the company which is the administrative agent in the agreement,henry pennell,2,1,0
@@ -1435,12 +1435,12 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 159,what are the roles in the agreement of the company associated with 383 madison ave new york new york 10179,"lender, administrative agent",2,0,1
 159,what are the roles in the agreement of the company associated with c o jpmorgan services inc 500 stanton christiana rd 3rd floor newark delaware 19713,"lender, administrative agent",2,0,1
 159,who is the chief accounting officer of the company which is the portfolio manager in the agreement,cory e gilbert,2,1,0
-159,who is the chief accounting officer of the company which is the borrower in the agreement,cory e gilbert,2,1,0
 159,who is the chief accounting officer of the company which is the lenders in the agreement,cory e gilbert,2,1,0
+159,who is the chief accounting officer of the company which is the borrower in the agreement,cory e gilbert,2,1,0
 159,who is the vice president of the company which is the collateral administrator in the agreement,jon c warn,2,1,0
 159,who is the vice president of the company which is the securities intermediary in the agreement,jon c warn,2,1,0
-159,who is the authorized signatory of the company which is the administrative agent in the agreement,james greenfield,2,1,0
 159,who is the authorized signatory of the company which is the lender in the agreement,james greenfield,2,1,0
+159,who is the authorized signatory of the company which is the administrative agent in the agreement,james greenfield,2,1,0
 159,who is the chief accounting officer of the company associated with 1300 post oak boulevard 8th floor houston texas 77056,cory e gilbert,3,0,0
 159,who is the authorized signatory of the company associated with 383 madison ave new york new york 10179,james greenfield,3,0,0
 159,who is the vice president of the company associated with 8 greenway plaza suite 1100 houston texas 77046,jon c warn,3,0,0
@@ -1452,8 +1452,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 165,who is the treasurer and vice president of conagra brands inc,johan nystedt,2,1,0
 165,who is the corporate secretary of the company associated with 222 merchandise mart plaza suite 1300 chicago il 60654,colleen batcheler,3,0,0
 165,who is the general counsel of the company associated with 222 merchandise mart plaza suite 1300 chicago il 60654,colleen batcheler,3,0,0
-165,who is the vice president of the company associated with 222 merchandise mart plaza suite 1300 chicago il 60654,johan nystedt,3,0,0
 165,who is the investor relations officer of the company associated with 222 merchandise mart plaza suite 1300 chicago il 60654,johan nystedt,3,0,0
+165,who is the vice president of the company associated with 222 merchandise mart plaza suite 1300 chicago il 60654,johan nystedt,3,0,0
 165,who is the treasurer of the company associated with 222 merchandise mart plaza suite 1300 chicago il 60654,johan nystedt,3,0,0
 165,who is the vice president of the company associated with bank of america na bank of america plaza 901 main st mail code tx1 492 14 11 dallas tx 75202 3714,bridgett j manduk mowry,3,0,0
 165,who is the director of the company associated with bank of america na bank of america plaza 901 main st mail code tx1 492 14 11 dallas tx 75202 3714,j casey cosgrove,3,0,0
@@ -1462,13 +1462,13 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 165,who is the vice president of the company associated with mail code pa6 580 02 30 1 fleet way scranton pa 18507,bridgett j manduk mowry,3,0,0
 165,who is the director of the company associated with mail code pa6 580 02 30 1 fleet way scranton pa 18507,j casey cosgrove,3,0,0
 165,who is the authorized signatory of the company associated with mizuho bank ltd 1800 plaza ten harborside financial center jersey city state nj 07311,tracy rahn,3,0,0
-165,who is the vice president of the company where peter duncan is employed,pacella lehane,3,0,0
 165,who is the managing director of the company where pacella lehane is employed,peter duncan,3,0,0
+165,who is the vice president of the company where peter duncan is employed,pacella lehane,3,0,0
+165,who is the corporate secretary of the company where johan nystedt is employed,colleen batcheler,3,0,0
+165,who is the general counsel of the company where johan nystedt is employed,colleen batcheler,3,0,0
 165,who is the investor relations officer of the company where colleen batcheler is employed,johan nystedt,3,0,0
 165,who is the treasurer of the company where colleen batcheler is employed,johan nystedt,3,0,0
 165,who is the vice president of the company where colleen batcheler is employed,johan nystedt,3,0,0
-165,who is the corporate secretary of the company where johan nystedt is employed,colleen batcheler,3,0,0
-165,who is the general counsel of the company where johan nystedt is employed,colleen batcheler,3,0,0
 165,who is the vice president of the company where j casey cosgrove is employed,bridgett j manduk mowry,3,0,0
 165,who is the director of the company where bridgett j manduk mowry is employed,j casey cosgrove,3,0,0
 165,what is the address of agency management of the company where bridgett j manduk mowry is employed,mail code ca5 705 04 09 555 california street 4th floor san francisco ca 94104,3,0,0
@@ -1478,8 +1478,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 70,who is the chief financial officer of the company which is the parent in the agreement,richard butt,2,1,0
 70,who is the chief financial officer of the company which is the intermediate holdco in the agreement,richard butt,2,1,0
 70,who is the vice president of the company which is the bookrunner in the agreement,eric cohen,2,1,0
-70,who is the vice president of the company which is the administrative agent in the agreement,eric cohen,2,1,0
 70,who is the vice president of the company which is the arranger in the agreement,eric cohen,2,1,0
+70,who is the vice president of the company which is the administrative agent in the agreement,eric cohen,2,1,0
 70,who is the chief financial officer of the company which is the subsidiaries borrower in the agreement,richard butt,2,1,0
 70,who is the chief financial officer of the company associated with 11 east 44th street suite 1200 new york ny 10017,richard butt,3,0,0
 70,who is the vice president of the company associated with 201 n tryon street suite 1700 charlotte north carolina 28202,eric cohen,3,0,0
@@ -1503,9 +1503,9 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 41,what are the roles in the agreement of the company associated with 111 w monroe street 5thfloor center chicago il 60603,"lender, lc issuer, syndication agent",2,0,1
 41,what are the roles in the agreement of the company associated with 225 franklin street 18th floor boston ma 02110,"lender, documentation agent",2,0,1
 41,who is the general counsel and senior vice president of trc companies inc,martin h dodd,2,1,0
-41,who is the senior vice president of the company which is the bookrunner in the agreement,marc j lubelczyk,2,1,0
-41,who is the senior vice president of the company which is the swingline lender in the agreement,marc j lubelczyk,2,1,0
 41,who is the senior vice president of the company which is the lead arranger in the agreement,marc j lubelczyk,2,1,0
+41,who is the senior vice president of the company which is the swingline lender in the agreement,marc j lubelczyk,2,1,0
+41,who is the senior vice president of the company which is the bookrunner in the agreement,marc j lubelczyk,2,1,0
 41,who is the senior vice president of the company which is the administrative agent in the agreement,marc j lubelczyk,2,1,0
 41,who is the senior banker of the company which is the documentation agent in the agreement,je hall,2,1,0
 41,who is the senior vice president of the company associated with 100 franklin street boston ma 02110,ann m meade,3,0,0
@@ -1519,14 +1519,14 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 7,who is the ceo and treasurer of samson oil and gas usa inc,terry barr,2,1,0
 7,who is the president and treasurer of samson oil and gas usa inc,terry barr,2,1,0
 7,who is the ceo of the company associated with 1331 17th street suite 710 denver co 80202,terry barr,3,0,0
-7,who is the president of the company associated with 1331 17th street suite 710 denver co 80202,terry barr,3,0,0
 7,who is the treasurer of the company associated with 1331 17th street suite 710 denver co 80202,terry barr,3,0,0
+7,who is the president of the company associated with 1331 17th street suite 710 denver co 80202,terry barr,3,0,0
 7,who is the manager of the company associated with 520 post oak boulevard suite 700 houston texas77027,george mckean,3,0,0
 55,who is the chief and executive vice president of k hovnanian enterprises inc,j larry sorsby,2,1,0
 55,who is the chief and executive vice president of hovnanian enterprises inc,j larry sorsby,2,1,0
 55,who is the banking officer of the company which is the administrative agent in the agreement,cora holland koller,2,1,0
-55,who is the executive vice president of the company associated with 110 west front street po box 500 red bank new jersey 07701,j larry sorsby,3,0,0
 55,who is the chief of the company associated with 110 west front street po box 500 red bank new jersey 07701,j larry sorsby,3,0,0
+55,who is the executive vice president of the company associated with 110 west front street po box 500 red bank new jersey 07701,j larry sorsby,3,0,0
 55,who is the banking officer of the company associated with 50 south sixth street suite 1290 minneapolis mn 55402,cora holland koller,3,0,0
 69,what role does mvp acquisitions llc have in the agreement which is not the role of mvp reit ii operating partnership lp,subsidiary guarantors,2,1,0
 69,what role does mvp merger sub llc have in the agreement which is not the role of mvp reit ii operating partnership lp,subsidiary guarantors,2,1,0
@@ -1567,8 +1567,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 168,what are the roles in the agreement of the company where carolyn a kee is employed,"agent, lender",2,0,1
 168,what are the roles in the agreement of the company associated with building ops ii one penns way new castle de 19720,"agent, lender",2,0,1
 168,who is the treasurer and vice president of stanley blackand decker inc,robert t paternostro,2,1,0
-168,who is the vice president of the company which is the agent in the agreement,carolyn a kee,2,1,0
 168,who is the vice president of the company which is the lender in the agreement,carolyn a kee,2,1,0
+168,who is the vice president of the company which is the agent in the agreement,carolyn a kee,2,1,0
 168,who is the vice president of the company associated with 1000 stanley drive new britain connecticut 06053,robert t paternostro,3,0,0
 168,who is the treasurer of the company associated with 1000 stanley drive new britain connecticut 06053,robert t paternostro,3,0,0
 168,who is the vice president of the company associated with building ops ii one penns way new castle de 19720,carolyn a kee,3,0,0
@@ -1654,8 +1654,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 169,what company is the book runners but not the agent in the agreement,merrill lynch pierce fenner and smith incorporated,2,1,0
 169,what are the roles in the agreement of the company where john m olsen is employed,"agent, lender",2,0,1
 169,what are the roles in the agreement of the company where mark walton is employed,"agent, lender, arranger",2,0,1
-169,what are the roles in the agreement of the company where jeff bliss is employed,"agent, lender, arranger",2,0,1
 169,what are the roles in the agreement of the company where timothy j devane is employed,"agent, lender, arranger",2,0,1
+169,what are the roles in the agreement of the company where jeff bliss is employed,"agent, lender, arranger",2,0,1
 169,what are the roles in the agreement of the company where anwar s young is employed,"agent, lender, book runner, lead arranger",2,0,1
 169,what are the roles in the agreement of the company associated with 150 south wacker drive suite 2200 chicago illinois 60606,"agent, lender, book runner, lead arranger",2,0,1
 169,what are the roles in the agreement of the company associated with new york branch,"agent, lender, book runner, lead arranger",2,0,1
@@ -1671,15 +1671,15 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 169,who is the authorized signatory of the company which is the administrative agent in the agreement,anwar s young,2,1,0
 169,who is the authorized signatory of the company associated with 150 south wacker drive suite 2200 chicago illinois 60606,anwar s young,3,0,0
 169,who is the vice president of the company associated with 550 south caldwell street charlotte north carolina 28202,joseph b johnson,3,0,0
-169,who is the treasurer of the company associated with 550 south caldwell street charlotte north carolina 28202,joseph b johnson,3,0,0
 169,who is the chief accounting officer of the company associated with 550 south caldwell street charlotte north carolina 28202,joseph b johnson,3,0,0
+169,who is the treasurer of the company associated with 550 south caldwell street charlotte north carolina 28202,joseph b johnson,3,0,0
 169,who is the controller of the company associated with 550 south caldwell street charlotte north carolina 28202,joseph b johnson,3,0,0
 169,who is the authorized signatory of the company associated with new york branch,anwar s young,3,0,0
-169,who is the executive director of the company where jeff bliss is employed,timothy j devane,3,0,0
 169,who is the vice president of the company where timothy j devane is employed,jeff bliss,3,0,0
-97,what are the roles in the agreement of the company where dague retzlaff is employed,"lender, administrative agent",2,0,1
-97,what are the roles in the agreement of the company where diana pennington is employed,"lender, administrative agent",2,0,1
+169,who is the executive director of the company where jeff bliss is employed,timothy j devane,3,0,0
 97,what are the roles in the agreement of the company where jeffrey m muchmore is employed,"lender, administrative agent",2,0,1
+97,what are the roles in the agreement of the company where diana pennington is employed,"lender, administrative agent",2,0,1
+97,what are the roles in the agreement of the company where dague retzlaff is employed,"lender, administrative agent",2,0,1
 97,what are the roles in the agreement of the company associated with 500 west monroe street chicago illinois 60661,"lender, administrative agent",2,0,1
 97,who is the authorized signatory and vice president of general electric capital corporation,dague retzlaff,2,1,0
 97,who is the chief operating officer of the company associated with 2 south pointe drive suite 1400 lake forest california 92630,kent eikanas,3,0,0
@@ -1687,32 +1687,32 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 97,who is the authorized signatory of the company associated with 500 west monroe street chicago illinois 60661,dague retzlaff,3,0,0
 97,who is the chief counsel hfs real estate of the company associated with 500 west monroe street chicago illinois 60661,diana pennington,3,0,0
 97,who is the managing director of the company associated with 500 west monroe street chicago illinois 60661,jeffrey m muchmore,3,0,0
-97,who is the chief counsel hfs real estate of the company where dague retzlaff is employed,diana pennington,3,0,0
-97,who is the managing director of the company where dague retzlaff is employed,jeffrey m muchmore,3,0,0
-97,who is the authorized signatory of the company where diana pennington is employed,dague retzlaff,3,0,0
-97,who is the vice president of the company where diana pennington is employed,dague retzlaff,3,0,0
-97,who is the managing director of the company where diana pennington is employed,jeffrey m muchmore,3,0,0
 97,who is the authorized signatory of the company where jeffrey m muchmore is employed,dague retzlaff,3,0,0
 97,who is the vice president of the company where jeffrey m muchmore is employed,dague retzlaff,3,0,0
 97,who is the chief counsel hfs real estate of the company where jeffrey m muchmore is employed,diana pennington,3,0,0
+97,who is the authorized signatory of the company where diana pennington is employed,dague retzlaff,3,0,0
+97,who is the vice president of the company where diana pennington is employed,dague retzlaff,3,0,0
+97,who is the managing director of the company where diana pennington is employed,jeffrey m muchmore,3,0,0
+97,who is the chief counsel hfs real estate of the company where dague retzlaff is employed,diana pennington,3,0,0
+97,who is the managing director of the company where dague retzlaff is employed,jeffrey m muchmore,3,0,0
 83,who are the chief financial officers of western digital technologies inc,"tim leyden, timothy leyden",2,0,1
 83,what are the roles in the agreement of the company where timothy leyden is employed,"us borrower, cayman borrower",2,0,1
-83,what are the roles in the agreement of the company where tim leyden is employed,"us borrower, cayman borrower",2,0,1
 83,what are the roles in the agreement of the company where michael ray is employed,"us borrower, cayman borrower",2,0,1
+83,what are the roles in the agreement of the company where tim leyden is employed,"us borrower, cayman borrower",2,0,1
 83,what are the roles in the agreement of the company associated with 10 south dearborn street floor 7 chicago il 60603,"l c issuer, swing line lender, administrative agent",2,0,1
 83,what are the roles in the agreement of the company associated with 1301 second avenue floor 25 seattle wa 98101,"l c issuer, swing line lender, administrative agent",2,0,1
 83,who is the general counsel and secretary of western digital technologies inc,michael ray,2,1,0
 83,who is the general counsel and senior vice president of western digital technologies inc,michael ray,2,1,0
 83,who is the secretary and senior vice president of western digital technologies inc,michael ray,2,1,0
-83,who is the chief financial officer of the company which is the guarantor in the agreement,timothy leyden,2,1,0
 83,who is the chief financial officer of the company which is the holdings in the agreement,timothy leyden,2,1,0
+83,who is the chief financial officer of the company which is the guarantor in the agreement,timothy leyden,2,1,0
 83,who is the vice president of the company associated with 3355 michelson drive suite 100 irvine ca 92612,joseph carrillo,3,0,0
 83,who is the vp credit and documentation of the company where juan segundo is employed,ivan vera,3,0,0
 83,who is the corporate banking directo of the company where ivan vera is employed,juan segundo,3,0,0
 83,who is the vice president of the company where todd rodgers is employed,charles de clapiers,3,0,0
 83,who is the director of the company where charles de clapiers is employed,todd rodgers,3,0,0
-83,who is the credit documentation manager of the company where johanna minaya is employed,robert k reddington,3,0,0
 83,who is the associate director of the company where robert k reddington is employed,johanna minaya,3,0,0
+83,who is the credit documentation manager of the company where johanna minaya is employed,robert k reddington,3,0,0
 83,who is the svp and coo of the company where james hua is employed,danny leung,3,0,0
 83,who is the svp of the company where danny leung is employed,james hua,3,0,0
 83,who is the general counsel of the company where tim leyden is employed,michael ray,3,0,0
@@ -1738,10 +1738,10 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 68,who is the senior vice president of the company associated with 900 w trade st charlotte nc 28255,john f simon,3,0,0
 6,who is the deputy branch manager and vice president of bank of china,ying chen,2,1,0
 6,who is the authorized agent of the company associated with 2800 post oak boulevard suite 4800 houston texas 77056,j shea morgenroth,3,0,0
-6,who is the vice president of the company associated with 444 s flower street 39th floor los angeles california 90071,ying chen,3,0,0
 6,who is the deputy branch manager of the company associated with 444 s flower street 39th floor los angeles california 90071,ying chen,3,0,0
-6,who is the vice president of the company associated with los angeles,ying chen,3,0,0
+6,who is the vice president of the company associated with 444 s flower street 39th floor los angeles california 90071,ying chen,3,0,0
 6,who is the deputy branch manager of the company associated with los angeles,ying chen,3,0,0
+6,who is the vice president of the company associated with los angeles,ying chen,3,0,0
 6,what is the address of branch of the company where ying chen is employed,los angeles,3,0,0
 54,who is the managing director and senior vice president of 2018 1 ih borrower lp,jonathan olsen,2,1,0
 54,who is the managing director of the company associated with 383 madison avenue new york new york 10179,chuckie reddy,3,0,0
@@ -1758,8 +1758,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 40,what are the roles in the agreement of the company where hector j varona is employed,"lender, issuing bank, administrative agent",2,0,1
 40,what are the roles in the agreement of the company associated with 10 south dearborn street floor l2 chicago il 60603 2003,"lender, issuing bank, administrative agent",2,0,1
 40,who is the senior vice president of the company which is the syndication agent in the agreement,james cribbet,2,1,0
-40,who is the executive director of the company which is the administrative agent in the agreement,hector j varona,2,1,0
 40,who is the executive director of the company which is the issuing bank in the agreement,hector j varona,2,1,0
+40,who is the executive director of the company which is the administrative agent in the agreement,hector j varona,2,1,0
 40,who is the chief financial officer of the company which is the borrower in the agreement,michael h weiner,2,1,0
 40,who is the executive director of the company associated with 10 south dearborn street floor l2 chicago il 60603 2003,hector j varona,3,0,0
 40,who is the chief financial officer of the company associated with 59 maiden lane 38th floor new york ny 10038,michael h weiner,3,0,0
@@ -1784,8 +1784,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 42,what role does jpmorgan chase bank na have in the agreement which is not the role of bank of america na,syndication agent,2,1,0
 42,who are the vice presidents of bank of america na,"kelly weaver, anthony luppino",2,0,1
 42,what are the roles in the agreement of the company where helene p sprung is employed,"lender, syndication agent",2,0,1
-42,what are the roles in the agreement of the company where kelly weaver is employed,"lender, administrative agent",2,0,1
 42,what are the roles in the agreement of the company where anthony luppino is employed,"lender, administrative agent",2,0,1
+42,what are the roles in the agreement of the company where kelly weaver is employed,"lender, administrative agent",2,0,1
 42,what are the roles in the agreement of the company associated with 101 north tryon st 5th floor charlotte nc 28255,"lender, administrative agent",2,0,1
 42,what are the roles in the agreement of the company associated with 900 west trade st charlotte nc 28255 0001,"lender, administrative agent",2,0,1
 42,what are the roles in the agreement of the company associated with new york ny,"lender, administrative agent",2,0,1
@@ -1794,10 +1794,10 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 42,who is the chief financial officer and senior vice president of panera llc,michael j bufano,2,1,0
 42,who is the chief financial officer and senior vice president of panera bread company,michael j bufano,2,1,0
 42,who is the managing director of the company which is the syndication agent in the agreement,helene p sprung,2,1,0
-42,who is the chief financial officer of the company associated with 3630 south geyer road suite 100 st louis mo 63127,michael j bufano,3,0,0
 42,who is the senior vice president of the company associated with 3630 south geyer road suite 100 st louis mo 63127,michael j bufano,3,0,0
-42,who is the chief financial officer of the company associated with 63 kendrick street needham ma 02494,michael j bufano,3,0,0
+42,who is the chief financial officer of the company associated with 3630 south geyer road suite 100 st louis mo 63127,michael j bufano,3,0,0
 42,who is the senior vice president of the company associated with 63 kendrick street needham ma 02494,michael j bufano,3,0,0
+42,who is the chief financial officer of the company associated with 63 kendrick street needham ma 02494,michael j bufano,3,0,0
 95,who are the vice presidents of bank of america na,"angela lau, yinghua zhang",2,0,1
 95,what are the roles in the agreement of the company where daniel j booth is employed,"borrower, credit parties",2,0,1
 95,what are the roles in the agreement of the company associated with 200 international circle suite 3500 hunt valley maryland 21030,"borrower, credit parties",2,0,1
@@ -1841,49 +1841,49 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 143,who is the chief financial officer and president of wingstop inc,michael j skipworth,2,1,0
 143,who is the vice president of the company which is the joint lead arrangers in the agreement,michael h keith,2,1,0
 143,who is the vice president of the company which is the agent in the agreement,maureen malphus,2,1,0
-143,who is the chief financial officer of the company associated with 1012 e hwy 80 suite a forney tx 75126 kaufman county,michael j skipworth,3,0,0
 143,who is the president of the company associated with 1012 e hwy 80 suite a forney tx 75126 kaufman county,michael j skipworth,3,0,0
-143,who is the chief financial officer of the company associated with 1152 n buckner blvd ste 106 dallas tx 75218 dallas county,michael j skipworth,3,0,0
+143,who is the chief financial officer of the company associated with 1012 e hwy 80 suite a forney tx 75126 kaufman county,michael j skipworth,3,0,0
 143,who is the president of the company associated with 1152 n buckner blvd ste 106 dallas tx 75218 dallas county,michael j skipworth,3,0,0
-143,who is the chief financial officer of the company associated with 1251 northwest hwy ste c garland tx 75041 dallas county,michael j skipworth,3,0,0
+143,who is the chief financial officer of the company associated with 1152 n buckner blvd ste 106 dallas tx 75218 dallas county,michael j skipworth,3,0,0
 143,who is the president of the company associated with 1251 northwest hwy ste c garland tx 75041 dallas county,michael j skipworth,3,0,0
-143,who is the chief financial officer of the company associated with 1515 s buckner blvd ste 247b dallas tx 75217 dallas county,michael j skipworth,3,0,0
+143,who is the chief financial officer of the company associated with 1251 northwest hwy ste c garland tx 75041 dallas county,michael j skipworth,3,0,0
 143,who is the president of the company associated with 1515 s buckner blvd ste 247b dallas tx 75217 dallas county,michael j skipworth,3,0,0
-143,who is the chief financial officer of the company associated with 1801 east chase pkwy ste 117 fort worth tx 76120 tarrant county,michael j skipworth,3,0,0
+143,who is the chief financial officer of the company associated with 1515 s buckner blvd ste 247b dallas tx 75217 dallas county,michael j skipworth,3,0,0
 143,who is the president of the company associated with 1801 east chase pkwy ste 117 fort worth tx 76120 tarrant county,michael j skipworth,3,0,0
+143,who is the chief financial officer of the company associated with 1801 east chase pkwy ste 117 fort worth tx 76120 tarrant county,michael j skipworth,3,0,0
 143,who is the vice president of the company associated with 1808 aston avenue suite 250 carlsbad ca 92008,maureen malphus,3,0,0
-143,who is the chief financial officer of the company associated with 237 ne 28th st fort worth tx 76164 tarrant county,michael j skipworth,3,0,0
 143,who is the president of the company associated with 237 ne 28th st fort worth tx 76164 tarrant county,michael j skipworth,3,0,0
-143,who is the chief financial officer of the company associated with 2777 w craig rd ste 107 north las vegas nv 89032 clark county,michael j skipworth,3,0,0
+143,who is the chief financial officer of the company associated with 237 ne 28th st fort worth tx 76164 tarrant county,michael j skipworth,3,0,0
 143,who is the president of the company associated with 2777 w craig rd ste 107 north las vegas nv 89032 clark county,michael j skipworth,3,0,0
-143,who is the chief financial officer of the company associated with 2802 n shepherd drste 400 houston tx 77008 harris county,michael j skipworth,3,0,0
+143,who is the chief financial officer of the company associated with 2777 w craig rd ste 107 north las vegas nv 89032 clark county,michael j skipworth,3,0,0
 143,who is the president of the company associated with 2802 n shepherd drste 400 houston tx 77008 harris county,michael j skipworth,3,0,0
-143,who is the chief financial officer of the company associated with 3300 western center blvd ste 114a fort worth tx 76137 tarrant county,michael j skipworth,3,0,0
+143,who is the chief financial officer of the company associated with 2802 n shepherd drste 400 houston tx 77008 harris county,michael j skipworth,3,0,0
 143,who is the president of the company associated with 3300 western center blvd ste 114a fort worth tx 76137 tarrant county,michael j skipworth,3,0,0
-143,who is the chief financial officer of the company associated with 3910 s maryland pkwy las vegas nv 89119 clark county,michael j skipworth,3,0,0
+143,who is the chief financial officer of the company associated with 3300 western center blvd ste 114a fort worth tx 76137 tarrant county,michael j skipworth,3,0,0
 143,who is the president of the company associated with 3910 s maryland pkwy las vegas nv 89119 clark county,michael j skipworth,3,0,0
-143,who is the chief financial officer of the company associated with 400 n nellis blvd ste 120 las vegas nv 89110 clark county,michael j skipworth,3,0,0
+143,who is the chief financial officer of the company associated with 3910 s maryland pkwy las vegas nv 89119 clark county,michael j skipworth,3,0,0
 143,who is the president of the company associated with 400 n nellis blvd ste 120 las vegas nv 89110 clark county,michael j skipworth,3,0,0
-143,who is the chief financial officer of the company associated with 5045 w tropicana ave ste 110 las vegas nv 89103 clark county,michael j skipworth,3,0,0
+143,who is the chief financial officer of the company associated with 400 n nellis blvd ste 120 las vegas nv 89110 clark county,michael j skipworth,3,0,0
 143,who is the president of the company associated with 5045 w tropicana ave ste 110 las vegas nv 89103 clark county,michael j skipworth,3,0,0
-143,who is the chief financial officer of the company associated with 5501 lbj freeway 5th floor dallas tx 75240,michael j skipworth,3,0,0
+143,who is the chief financial officer of the company associated with 5045 w tropicana ave ste 110 las vegas nv 89103 clark county,michael j skipworth,3,0,0
 143,who is the president of the company associated with 5501 lbj freeway 5th floor dallas tx 75240,michael j skipworth,3,0,0
-143,who is the chief financial officer of the company associated with 5501 lbj freeway dallas tx 75240 dallas county,michael j skipworth,3,0,0
+143,who is the chief financial officer of the company associated with 5501 lbj freeway 5th floor dallas tx 75240,michael j skipworth,3,0,0
 143,who is the president of the company associated with 5501 lbj freeway dallas tx 75240 dallas county,michael j skipworth,3,0,0
-143,who is the chief financial officer of the company associated with 6760 abrams rd ste 119 dallas tx 75231 dallas county,michael j skipworth,3,0,0
+143,who is the chief financial officer of the company associated with 5501 lbj freeway dallas tx 75240 dallas county,michael j skipworth,3,0,0
 143,who is the president of the company associated with 6760 abrams rd ste 119 dallas tx 75231 dallas county,michael j skipworth,3,0,0
-143,who is the chief financial officer of the company associated with 7017 spring mountain rd ste 101 las vegas nv 89117 clark county,michael j skipworth,3,0,0
+143,who is the chief financial officer of the company associated with 6760 abrams rd ste 119 dallas tx 75231 dallas county,michael j skipworth,3,0,0
 143,who is the president of the company associated with 7017 spring mountain rd ste 101 las vegas nv 89117 clark county,michael j skipworth,3,0,0
-143,who is the chief financial officer of the company associated with 7645 s custer road ste 420 mckinney tx 75070 collin county,michael j skipworth,3,0,0
+143,who is the chief financial officer of the company associated with 7017 spring mountain rd ste 101 las vegas nv 89117 clark county,michael j skipworth,3,0,0
 143,who is the president of the company associated with 7645 s custer road ste 420 mckinney tx 75070 collin county,michael j skipworth,3,0,0
-143,who is the chief financial officer of the company associated with 820 e cartwright rd suite 130 mesquite tx 75149 dallas county,michael j skipworth,3,0,0
+143,who is the chief financial officer of the company associated with 7645 s custer road ste 420 mckinney tx 75070 collin county,michael j skipworth,3,0,0
 143,who is the president of the company associated with 820 e cartwright rd suite 130 mesquite tx 75149 dallas county,michael j skipworth,3,0,0
-143,who is the chief financial officer of the company associated with 900 n coit rd ste 2700 richardson tx 75080 dallas county,michael j skipworth,3,0,0
+143,who is the chief financial officer of the company associated with 820 e cartwright rd suite 130 mesquite tx 75149 dallas county,michael j skipworth,3,0,0
 143,who is the president of the company associated with 900 n coit rd ste 2700 richardson tx 75080 dallas county,michael j skipworth,3,0,0
-143,who is the chief financial officer of the company associated with 908 audelia rd ste 600 richardson tx 75081 dallas county,michael j skipworth,3,0,0
+143,who is the chief financial officer of the company associated with 900 n coit rd ste 2700 richardson tx 75080 dallas county,michael j skipworth,3,0,0
 143,who is the president of the company associated with 908 audelia rd ste 600 richardson tx 75081 dallas county,michael j skipworth,3,0,0
-143,who is the chief financial officer of the company associated with 9208 e r l thornton fwy ste 204 dallas tx 75228 dallas county,michael j skipworth,3,0,0
+143,who is the chief financial officer of the company associated with 908 audelia rd ste 600 richardson tx 75081 dallas county,michael j skipworth,3,0,0
 143,who is the president of the company associated with 9208 e r l thornton fwy ste 204 dallas tx 75228 dallas county,michael j skipworth,3,0,0
+143,who is the chief financial officer of the company associated with 9208 e r l thornton fwy ste 204 dallas tx 75228 dallas county,michael j skipworth,3,0,0
 142,who are the directors of deutsche bank ag new york branch,"ming k chu, john s mcgill",2,0,1
 142,who are the authorized signatorys of credit suisse ag toronto branch,"szymon ordys, tammy oldenburg",2,0,1
 142,who are the authorized signatorys of national bank of canada new york branch,"john niedermier, mark williamson",2,0,1
@@ -1913,8 +1913,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 142,who is the managing director of the company associated with 888 3rd street sw suite 1000,rob mackinnon,3,0,0
 142,who is the director of the company associated with building 3 1615 brett road new castle de 19720,michael zeller,3,0,0
 142,who is the director resources and energy group of the company associated with calgary alberta t2p 1e5,jason lang,3,0,0
-142,who is the financing manager of the company where martin eyok is employed,raj acharya,3,0,0
 142,who is the senior financing manager of the company where raj acharya is employed,martin eyok,3,0,0
+142,who is the financing manager of the company where martin eyok is employed,raj acharya,3,0,0
 142,who is the director of the company where randy geislinger is employed,anar ramji,3,0,0
 142,who is the managing director of the company where anar ramji is employed,randy geislinger,3,0,0
 142,who is the corporate secretary of the company where nathaniel a brown is employed,jon a dobson,3,0,0
@@ -1924,10 +1924,10 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 142,who is the director of the company where jeff ferrell is employed,gordon yip,3,0,0
 142,who is the associate of the company where michael linder is employed,jonathan leach,3,0,0
 142,who is the director of the company where jonathan leach is employed,michael linder,3,0,0
-142,who is the treasurer of the company where christine r johnston is employed,joel e hunter,3,0,0
-142,who is the vice president finance of the company where christine r johnston is employed,joel e hunter,3,0,0
 142,who is the corporate secretary of the company where joel e hunter is employed,christine r johnston,3,0,0
 142,who is the vice president law of the company where joel e hunter is employed,christine r johnston,3,0,0
+142,who is the treasurer of the company where christine r johnston is employed,joel e hunter,3,0,0
+142,who is the vice president finance of the company where christine r johnston is employed,joel e hunter,3,0,0
 142,what is the address of corporate customers operations of the company where john niedermier is employed,500 place darmes 26th floor,3,0,0
 142,what is the address of corporate customers operations of the company where mark williamson is employed,500 place darmes 26th floor,3,0,0
 156,who are the its authorized signatorys of wells fargo bank national association,"brian lane, patricia del busto",2,0,1
@@ -1961,32 +1961,32 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 156,who is the director and executive vice president and chief financial officer of viavi solutions inc,henk derksen,2,1,0
 156,who is the director and vice president of viavi solutions inc,henk derksen,2,1,0
 156,who is the executive vice president and chief financial officer and vice president of viavi solutions inc,henk derksen,2,1,0
-156,who is the chief financial officer of the company associated with 6001 america center drive san jose california 95002,henk derksen,3,0,0
+156,who is the executive vice president and chief financial officer of the company associated with 6001 america center drive san jose california 95002,henk derksen,3,0,0
 156,who is the vice president of the company associated with 6001 america center drive san jose california 95002,henk derksen,3,0,0
 156,who is the director of the company associated with 6001 america center drive san jose california 95002,henk derksen,3,0,0
-156,who is the executive vice president and chief financial officer of the company associated with 6001 america center drive san jose california 95002,henk derksen,3,0,0
+156,who is the chief financial officer of the company associated with 6001 america center drive san jose california 95002,henk derksen,3,0,0
 156,who is the president and treasurer of the company associated with canadian,kevin siebert,3,0,0
 156,who is the managing director of the company associated with german,andreas christoph beyertt,3,0,0
-156,who is the chief financial officer of the company associated with uk,henk derksen,3,0,0
+156,who is the executive vice president and chief financial officer of the company associated with uk,henk derksen,3,0,0
 156,who is the vice president of the company associated with uk,henk derksen,3,0,0
 156,who is the director of the company associated with uk,henk derksen,3,0,0
-156,who is the executive vice president and chief financial officer of the company associated with uk,henk derksen,3,0,0
-156,who is the chief financial officer of the company associated with us,henk derksen,3,0,0
+156,who is the chief financial officer of the company associated with uk,henk derksen,3,0,0
+156,who is the executive vice president and chief financial officer of the company associated with us,henk derksen,3,0,0
 156,who is the vice president of the company associated with us,henk derksen,3,0,0
 156,who is the director of the company associated with us,henk derksen,3,0,0
-156,who is the executive vice president and chief financial officer of the company associated with us,henk derksen,3,0,0
-156,who is the director of the company where christopher cassidy is employed,guelay mese,3,0,0
+156,who is the chief financial officer of the company associated with us,henk derksen,3,0,0
 156,who is the vice president of the company where guelay mese is employed,christopher cassidy,3,0,0
-156,who is the associate of the company where philip tancorra is employed,jessica lutrario,3,0,0
+156,who is the director of the company where christopher cassidy is employed,guelay mese,3,0,0
 156,who is the vice president of the company where jessica lutrario is employed,philip tancorra,3,0,0
+156,who is the associate of the company where philip tancorra is employed,jessica lutrario,3,0,0
 80,what are the roles in the agreement of the company where michael pugsley is employed,"lender, administrative agent",2,0,1
 80,who is the chief financial officer and executive vice president of cree inc,michael e mcdevitt,2,1,0
 80,who is the chairman and chief executive officer of e conolight llc,charles m swoboda,2,1,0
 80,who is the chairman and president of e conolight llc,charles m swoboda,2,1,0
 80,who is the chief executive officer and president of e conolight llc,charles m swoboda,2,1,0
+80,who is the senior vice president of the company which is the swingline lender in the agreement,michael pugsley,2,1,0
 80,who is the senior vice president of the company which is the issuing lender in the agreement,michael pugsley,2,1,0
 80,who is the senior vice president of the company which is the administrative agent in the agreement,michael pugsley,2,1,0
-80,who is the senior vice president of the company which is the swingline lender in the agreement,michael pugsley,2,1,0
 94,what roles do both fifth third bank and jefferies finance llc have in the agreement,"lender, arrangers, bookrunners",1,1,1
 94,what roles do both fifth third bank and sumitomo mitsui banking corporation have in the agreement,"lender, arrangers, bookrunners",1,1,1
 94,what roles do both jefferies finance llc and sumitomo mitsui banking corporation have in the agreement,"lender, arrangers, bookrunners",1,1,1
@@ -2009,17 +2009,17 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 94,who is the executive vice president finance and administration and treasurer of salix pharmaceuticals ltd,adam c derbyshire,2,1,0
 94,who is the managing director of the company which is the collatera agent in the agreement,e joseph hess,2,1,0
 94,who is the managing director of the company which is the administrative agent in the agreement,e joseph hess,2,1,0
-94,who is the senior vice president of the company which is the bank in the agreement,richard c brown,2,1,0
 94,who is the senior vice president of the company which is the swingline lender in the agreement,richard c brown,2,1,0
+94,who is the senior vice president of the company which is the bank in the agreement,richard c brown,2,1,0
 94,who is the senior vice president of the company which is the senior managing agent in the agreement,cheryl carangelo,2,1,0
-94,who is the chief financial officer of the company associated with 520 madison avenue new york ny 10022,adam c derbyshire,3,0,0
+94,who is the executive vice president finance and administration of the company associated with 520 madison avenue new york ny 10022,adam c derbyshire,3,0,0
 94,who is the assistant secretary of the company associated with 520 madison avenue new york ny 10022,adam c derbyshire,3,0,0
 94,who is the treasurer of the company associated with 520 madison avenue new york ny 10022,adam c derbyshire,3,0,0
-94,who is the executive vice president finance and administration of the company associated with 520 madison avenue new york ny 10022,adam c derbyshire,3,0,0
-94,who is the chief financial officer of the company associated with 8510 colonnade center drive raleigh north carolina 27615,adam c derbyshire,3,0,0
+94,who is the chief financial officer of the company associated with 520 madison avenue new york ny 10022,adam c derbyshire,3,0,0
+94,who is the executive vice president finance and administration of the company associated with 8510 colonnade center drive raleigh north carolina 27615,adam c derbyshire,3,0,0
 94,who is the assistant secretary of the company associated with 8510 colonnade center drive raleigh north carolina 27615,adam c derbyshire,3,0,0
 94,who is the treasurer of the company associated with 8510 colonnade center drive raleigh north carolina 27615,adam c derbyshire,3,0,0
-94,who is the executive vice president finance and administration of the company associated with 8510 colonnade center drive raleigh north carolina 27615,adam c derbyshire,3,0,0
+94,who is the chief financial officer of the company associated with 8510 colonnade center drive raleigh north carolina 27615,adam c derbyshire,3,0,0
 94,who is the managing director of the company where j st phane lautner is employed,edward t crook,3,0,0
 94,who is the vice president of the company where edward t crook is employed,j st phane lautner,3,0,0
 57,what roles do both citibank na and jpmorgan chase bank na have in the agreement,"lender, arranger, bookrunner",1,1,1
@@ -2032,8 +2032,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 57,what are the roles in the agreement of the company where mukesh singh is employed,"agent, swingline lender, l c issuer lender",2,0,1
 57,what are the roles in the agreement of the company where michael vondriska is employed,"lender, arranger, bookrunner",2,0,1
 57,what are the roles in the agreement of the company where katherine l hurley is employed,"lender, arranger, bookrunner, l c issuer",2,0,1
-57,what are the roles in the agreement of the company where virginia cosenza is employed,"issuer, lender",2,0,1
 57,what are the roles in the agreement of the company where ming k chu is employed,"issuer, lender",2,0,1
+57,what are the roles in the agreement of the company where virginia cosenza is employed,"issuer, lender",2,0,1
 57,what are the roles in the agreement of the company associated with 222 w las colinas blvd suite 900n irving texas 75039,"company, borrower",2,0,1
 57,what are the roles in the agreement of the company associated with 1 fleet way scranton pa 18507,"agent, swingline lender, l c issuer lender",2,0,1
 57,what are the roles in the agreement of the company associated with 2380 performance dr bldg c richardson tx 75082,"agent, swingline lender, l c issuer lender",2,0,1
@@ -2046,8 +2046,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 57,who is the treasurer and vice president of celanese us holdings llc,chuck b kyrish,2,1,0
 57,who is the senior vice president of the company which is the holdings in the agreement,scott a richardson,2,1,0
 57,who is the vice president global taxes of the company which is the dutch borrower in the agreement,ronnie d berry,2,1,0
-57,who is the director of the company which is the swingline lender in the agreement,mukesh singh,2,1,0
 57,who is the director of the company which is the l c issuer lender in the agreement,mukesh singh,2,1,0
+57,who is the director of the company which is the swingline lender in the agreement,mukesh singh,2,1,0
 57,who is the director of the company which is the agent in the agreement,mukesh singh,2,1,0
 57,who is the vice president of the company which is the l c issuer in the agreement,katherine l hurley,2,1,0
 57,who is the vice president of the company associated with 1615 brett road new castle de 19709,michael vondriska,3,0,0
@@ -2062,22 +2062,22 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 57,who is the director of the company associated with 60 wall street new york ny 10005,ming k chu,3,0,0
 57,who is the vice president of the company associated with 60 wall street new york ny 10005,virginia cosenza,3,0,0
 57,who is the vice president of the company associated with jpm bangalore loan operations prestige tech park floor 4 sarjapur outer ring rd vathur hobli bangalore india 560 087,katherine l hurley,3,0,0
-57,who is the director of the company where robert sullivan is employed,john w deegan,3,0,0
 57,who is the vice president of the company where john w deegan is employed,robert sullivan,3,0,0
-57,who is the managing director of the company where betsy briggs is employed,julien tizorin,3,0,0
+57,who is the director of the company where robert sullivan is employed,john w deegan,3,0,0
 57,who is the associate director of the company where julien tizorin is employed,betsy briggs,3,0,0
-57,who is the director of the company where virginia cosenza is employed,ming k chu,3,0,0
+57,who is the managing director of the company where betsy briggs is employed,julien tizorin,3,0,0
 57,who is the vice president of the company where ming k chu is employed,virginia cosenza,3,0,0
+57,who is the director of the company where virginia cosenza is employed,ming k chu,3,0,0
 5,what are the roles in the agreement of the company where roy e alexander is employed,"lender, l c issuer, administrative agent",2,0,1
 5,what are the roles in the agreement of the company where denise smyth is employed,"lead arrangers, documentation agents",2,0,1
 5,who is the senior vice president and vice president of bank of america na,roy e alexander,2,1,0
 5,who is the senior vice president of the company which is the lead arrangers in the agreement,denise smyth,2,1,0
 1,what are the roles in the agreement of the company where alexandra m knights is employed,"lender, arranger, bookrunner, administrative agent",2,0,1
 1,who is the treasurer and vice president of franklin resources inc,mark constant,2,1,0
-1,who is the authorized signatory of the company which is the bookrunner in the agreement,alexandra m knights,2,1,0
 1,who is the authorized signatory of the company which is the lender in the agreement,alexandra m knights,2,1,0
-1,who is the authorized signatory of the company which is the administrative agent in the agreement,alexandra m knights,2,1,0
+1,who is the authorized signatory of the company which is the bookrunner in the agreement,alexandra m knights,2,1,0
 1,who is the authorized signatory of the company which is the arranger in the agreement,alexandra m knights,2,1,0
+1,who is the authorized signatory of the company which is the administrative agent in the agreement,alexandra m knights,2,1,0
 53,what are the roles in the agreement of the company where charles m joye iii is employed,"lender, l c issuer",2,0,1
 53,who is the cao and cfo of jamba inc,marie perry,2,1,0
 53,who is the cao and evp of jamba inc,marie perry,2,1,0
@@ -2109,8 +2109,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 53,who is the evp and secretary of jamba juice company,marie perry,2,1,0
 53,who is the evp and treasurer of jamba juice company,marie perry,2,1,0
 53,who is the secretary and treasurer of jamba juice company,marie perry,2,1,0
-53,who is the senior vice president of the company which is the l c issuer in the agreement,charles m joye iii,2,1,0
 53,who is the senior vice president of the company which is the lender in the agreement,charles m joye iii,2,1,0
+53,who is the senior vice president of the company which is the l c issuer in the agreement,charles m joye iii,2,1,0
 47,who are the vice presidents of deutsche bank ag new york branch,"ming k chu, virginia cosenza",2,0,1
 47,what are the roles in the agreement of the company where kirk tesch is employed,"lender, administrative agent",2,0,1
 47,what are the roles in the agreement of the company associated with 301 south college street 14th floor charlotte nc 28202,"lender, administrative agent",2,0,1
@@ -2134,8 +2134,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 90,who is the treasurer and vice president of ashland chemco inc,william c whitaker,2,1,0
 90,who is the treasurer and vice president of ashland global holdings inc,william c whitaker,2,1,0
 90,who is the treasurer and vice president of ashland llc,william c whitaker,2,1,0
-90,who is the director of the company where michael pearce is employed,todd grossnickle,3,0,0
 90,who is the managing director of the company where todd grossnickle is employed,michael pearce,3,0,0
+90,who is the director of the company where michael pearce is employed,todd grossnickle,3,0,0
 90,who is the director of the company where kaye ea is employed,brad matthews,3,0,0
 90,who is the managing director of the company where brad matthews is employed,kaye ea,3,0,0
 90,who is the managing director of the company where sean hassett is employed,barry fehily,3,0,0
@@ -2164,18 +2164,18 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 84,who is the servicing officer of the company associated with 4910 tiedeman rd mail code oh 01 51 0311 brooklyn ohio 44144,audrey pishnery,3,0,0
 84,who is the manager of the company associated with 4910 tiedeman rd mail code oh 01 51 0311 brooklyn ohio 44144,elsa obrien,3,0,0
 84,who is the vice president of the company associated with 4910 tiedeman rd mail code oh 01 51 0311 brooklyn ohio 44144,laura conway,3,0,0
-84,who is the director of the company where michael donofrio is employed,bill odaly,3,0,0
 84,who is the associate of the company where bill odaly is employed,michael donofrio,3,0,0
+84,who is the director of the company where michael donofrio is employed,bill odaly,3,0,0
 84,who is the senior vice president of the company where mrgeorgel chapman is employed,michael a crabtree,3,0,0
 84,who is the treasurer of the company where mrgeorgel chapman is employed,michael a crabtree,3,0,0
 84,who is the chairman of the board of the company where michael a crabtree is employed,mrgeorgel chapman,3,0,0
 84,who is the chief executive officer of the company where michael a crabtree is employed,mrgeorgel chapman,3,0,0
+84,who is the servicing officer of the company where laura conway is employed,audrey pishnery,3,0,0
+84,who is the manager of the company where laura conway is employed,elsa obrien,3,0,0
 84,who is the manager of the company where audrey pishnery is employed,elsa obrien,3,0,0
 84,who is the vice president of the company where audrey pishnery is employed,laura conway,3,0,0
 84,who is the servicing officer of the company where elsa obrien is employed,audrey pishnery,3,0,0
 84,who is the vice president of the company where elsa obrien is employed,laura conway,3,0,0
-84,who is the servicing officer of the company where laura conway is employed,audrey pishnery,3,0,0
-84,who is the manager of the company where laura conway is employed,elsa obrien,3,0,0
 85,who is the assistant controller and chief financial officer of redent verification and licensing services llc,emil hensel,2,1,0
 85,who is the assistant controller and vice president of redent verification and licensing services llc,emil hensel,2,1,0
 85,who is the chief financial officer and vice president of redent verification and licensing services llc,emil hensel,2,1,0
@@ -2234,30 +2234,30 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 85,who is the assistant controller and vice president of travel staff llc,emil hensel,2,1,0
 85,who is the chief financial officer and vice president of travel staff llc,emil hensel,2,1,0
 85,who is the senior vice president of the company associated with 300 galleria parkway suite 800 atlanta ga 30339,kenneth butler,3,0,0
-85,who is the chief financial officer of the company associated with 3805 w chester pike suite 200 newtown square pennsylvania 19073,emil hensel,3,0,0
-85,who is the assistant controller of the company associated with 3805 w chester pike suite 200 newtown square pennsylvania 19073,emil hensel,3,0,0
 85,who is the vice president of the company associated with 3805 w chester pike suite 200 newtown square pennsylvania 19073,emil hensel,3,0,0
-85,who is the chief financial officer of the company associated with 380 stevens avenue suite 120 solana beach california 92075,emil hensel,3,0,0
-85,who is the assistant controller of the company associated with 380 stevens avenue suite 120 solana beach california 92075,emil hensel,3,0,0
+85,who is the assistant controller of the company associated with 3805 w chester pike suite 200 newtown square pennsylvania 19073,emil hensel,3,0,0
+85,who is the chief financial officer of the company associated with 3805 w chester pike suite 200 newtown square pennsylvania 19073,emil hensel,3,0,0
 85,who is the vice president of the company associated with 380 stevens avenue suite 120 solana beach california 92075,emil hensel,3,0,0
-85,who is the chief financial officer of the company associated with 40 eastern avenue malden massachusetts 02148 9104,emil hensel,3,0,0
-85,who is the assistant controller of the company associated with 40 eastern avenue malden massachusetts 02148 9104,emil hensel,3,0,0
+85,who is the assistant controller of the company associated with 380 stevens avenue suite 120 solana beach california 92075,emil hensel,3,0,0
+85,who is the chief financial officer of the company associated with 380 stevens avenue suite 120 solana beach california 92075,emil hensel,3,0,0
 85,who is the vice president of the company associated with 40 eastern avenue malden massachusetts 02148 9104,emil hensel,3,0,0
-85,who is the chief financial officer of the company associated with 48815 emperor blvd suite 300 durham north carolina 27703,emil hensel,3,0,0
-85,who is the assistant controller of the company associated with 48815 emperor blvd suite 300 durham north carolina 27703,emil hensel,3,0,0
+85,who is the assistant controller of the company associated with 40 eastern avenue malden massachusetts 02148 9104,emil hensel,3,0,0
+85,who is the chief financial officer of the company associated with 40 eastern avenue malden massachusetts 02148 9104,emil hensel,3,0,0
 85,who is the vice president of the company associated with 48815 emperor blvd suite 300 durham north carolina 27703,emil hensel,3,0,0
-85,who is the chief financial officer of the company associated with 4 city place drive suite 300 creve coeur missouri 63141,emil hensel,3,0,0
-85,who is the assistant controller of the company associated with 4 city place drive suite 300 creve coeur missouri 63141,emil hensel,3,0,0
+85,who is the assistant controller of the company associated with 48815 emperor blvd suite 300 durham north carolina 27703,emil hensel,3,0,0
+85,who is the chief financial officer of the company associated with 48815 emperor blvd suite 300 durham north carolina 27703,emil hensel,3,0,0
 85,who is the vice president of the company associated with 4 city place drive suite 300 creve coeur missouri 63141,emil hensel,3,0,0
-85,who is the chief financial officer of the company associated with 9020 overlook blvd suite 140 brentwood tennessee 37027,emil hensel,3,0,0
-85,who is the assistant controller of the company associated with 9020 overlook blvd suite 140 brentwood tennessee 37027,emil hensel,3,0,0
+85,who is the assistant controller of the company associated with 4 city place drive suite 300 creve coeur missouri 63141,emil hensel,3,0,0
+85,who is the chief financial officer of the company associated with 4 city place drive suite 300 creve coeur missouri 63141,emil hensel,3,0,0
 85,who is the vice president of the company associated with 9020 overlook blvd suite 140 brentwood tennessee 37027,emil hensel,3,0,0
-85,who is the chief financial officer of the company associated with 135 technology parkway nw norcross georgia 30092,emil hensel,3,0,0
-85,who is the assistant controller of the company associated with 135 technology parkway nw norcross georgia 30092,emil hensel,3,0,0
+85,who is the assistant controller of the company associated with 9020 overlook blvd suite 140 brentwood tennessee 37027,emil hensel,3,0,0
+85,who is the chief financial officer of the company associated with 9020 overlook blvd suite 140 brentwood tennessee 37027,emil hensel,3,0,0
 85,who is the vice president of the company associated with 135 technology parkway nw norcross georgia 30092,emil hensel,3,0,0
-85,who is the chief financial officer of the company associated with 6551 park of commerce blvd nw boca raton florida 33487,emil hensel,3,0,0
-85,who is the assistant controller of the company associated with 6551 park of commerce blvd nw boca raton florida 33487,emil hensel,3,0,0
+85,who is the assistant controller of the company associated with 135 technology parkway nw norcross georgia 30092,emil hensel,3,0,0
+85,who is the chief financial officer of the company associated with 135 technology parkway nw norcross georgia 30092,emil hensel,3,0,0
 85,who is the vice president of the company associated with 6551 park of commerce blvd nw boca raton florida 33487,emil hensel,3,0,0
+85,who is the assistant controller of the company associated with 6551 park of commerce blvd nw boca raton florida 33487,emil hensel,3,0,0
+85,who is the chief financial officer of the company associated with 6551 park of commerce blvd nw boca raton florida 33487,emil hensel,3,0,0
 91,who is the chief executive officer and president of earthstone energy inc,ray singleton,2,1,0
 91,who is the chief executive officer of the company associated with 63317th street suite 1900 denver colorado 80202 3619,ray singleton,3,0,0
 91,who is the president of the company associated with 63317th street suite 1900 denver colorado 80202 3619,ray singleton,3,0,0
@@ -2296,8 +2296,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 147,who is the executive director of the company which is the collateral agent in the agreement,dawn lee lum,2,1,0
 147,who is the secretary of the company associated with 929 north front street wilmington nc 28401,b judd hartman,3,0,0
 147,who is the general counsel of the company associated with 929 north front street wilmington nc 28401,b judd hartman,3,0,0
-147,who is the executive vice president of the company associated with 929 north front street wilmington nc 28401,b judd hartman,3,0,0
 147,who is the chief administrative officer of the company associated with 929 north front street wilmington nc 28401,b judd hartman,3,0,0
+147,who is the executive vice president of the company associated with 929 north front street wilmington nc 28401,b judd hartman,3,0,0
 147,who is the executive director of the company associated with 500 stanton christiana rd ncc5 1st floor newark de 19713,dawn lee lum,3,0,0
 153,what are the roles in the agreement of the company where michael j mcwalters is employed,"lender, issuing bank",2,0,1
 153,what are the roles in the agreement of the company where daniel russell is employed,"lender, issuing bank",2,0,1
@@ -2338,8 +2338,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 52,who is the director of the company which is the documentation agent in the agreement,lauren hom,2,1,0
 52,who is the vice president of the company which is the servicing agent in the agreement,carolyn kee,2,1,0
 52,who is the managing director of the company which is the administrative agents in the agreement,james travagline,2,1,0
-52,who is the treasurer of the company associated with 1221 broadway oakland california 94612,charles r conradi,3,0,0
 52,who is the vice president of tax of the company associated with 1221 broadway oakland california 94612,charles r conradi,3,0,0
+52,who is the treasurer of the company associated with 1221 broadway oakland california 94612,charles r conradi,3,0,0
 52,who is the executive vice president of the company associated with 1221 broadway oakland california 94612,laura stein,3,0,0
 52,who is the vice president of the company associated with 1615 brett road building 3 new castle de 19720,carolyn kee,3,0,0
 52,who is the managing director of the company associated with 270 park avenue new york ny 10017,barry bergman,3,0,0
@@ -2363,8 +2363,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 44,who is the vice president of the company associated with pa6 580 02 30 1 fleet way scranton pa 18507 attention alfonso malave jr,maria a mcclain,3,0,0
 44,who is the senior vice president of the company where maria a mcclain is employed,john m hall,3,0,0
 44,who is the vice president of the company where john m hall is employed,maria a mcclain,3,0,0
-44,what is the address of trade finance of the company which is the administrative agent in the agreement,bank of america,3,0,0
 44,what is the address of trade finance of the company which is the swing line lender lender in the agreement,bank of america,3,0,0
+44,what is the address of trade finance of the company which is the administrative agent in the agreement,bank of america,3,0,0
 44,what is the address of trade finance of the company where john m hall is employed,pa6 580 02 30 1 fleet way scranton pa 18507 attention alfonso malave jr,3,0,0
 44,what is the address of trade finance of the company where maria a mcclain is employed,pa6 580 02 30 1 fleet way scranton pa 18507 attention alfonso malave jr,3,0,0
 50,what are the roles in the agreement of the company where philip k lievscher is employed,"agents, lender",2,0,1
@@ -2376,8 +2376,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 50,who is the vice president of the company which is the agent in the agreement,laura woodward,2,1,0
 50,who is the chief financial officer of the company which is the borrower in the agreement,r bryan riggsbee,2,1,0
 50,who is the director of the company which is the syndication agent in the agreement,darin mullis,2,1,0
-50,who is the vice president of the company which is the administrative agent in the agreement,laura woodward,2,1,0
 50,who is the vice president of the company which is the swingline lender in the agreement,laura woodward,2,1,0
+50,who is the vice president of the company which is the administrative agent in the agreement,laura woodward,2,1,0
 50,who is the vice president of the company associated with 10 south dearborn floor l2 chicago illinois 60603,laura woodward,3,0,0
 2,what are the roles in the agreement of the company where carl hinrichs is employed,"lender, administrative agent",2,0,1
 2,who is the chief financial officer and executive vice president of dicks sporting goods inc,navdeep gupta,2,1,0
@@ -2454,16 +2454,16 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 151,what are the roles in the agreement of the company where ronnie glenn is employed,"lender, l c issuer, syndication agent",2,0,1
 151,what are the roles in the agreement of the company where richard rivera is employed,"agent, lender, l c issuer",2,0,1
 151,what are the roles in the agreement of the company where tracy rahn is employed,"agent, lender, l c issuer",2,0,1
-151,what are the roles in the agreement of the company where joseph l corah is employed,"agent, lender, l c issuer",2,0,1
 151,what are the roles in the agreement of the company where christopher coney is employed,"agent, lender, l c issuer",2,0,1
-151,what are the roles in the agreement of the company where robert botcherby is employed,"agent, lender, l c issuer",2,0,1
+151,what are the roles in the agreement of the company where joseph l corah is employed,"agent, lender, l c issuer",2,0,1
 151,what are the roles in the agreement of the company where gregory t martin is employed,"agent, lender, l c issuer",2,0,1
+151,what are the roles in the agreement of the company where robert botcherby is employed,"agent, lender, l c issuer",2,0,1
 151,who is the treasurer and vice president tax and treasury of thermo fisher scientific inc,anthony h smith,2,1,0
 151,who is the director of the company which is the syndication agent in the agreement,ronnie glenn,2,1,0
-151,who is the vice president of the company where joseph l corah is employed,christopher coney,3,0,0
 151,who is the drector of the company where christopher coney is employed,joseph l corah,3,0,0
-151,who is the executive director of the company where robert botcherby is employed,gregory t martin,3,0,0
+151,who is the vice president of the company where joseph l corah is employed,christopher coney,3,0,0
 151,who is the vice president of the company where gregory t martin is employed,robert botcherby,3,0,0
+151,who is the executive director of the company where robert botcherby is employed,gregory t martin,3,0,0
 151,who is the executive director of the company where ola anderssen is employed,anders holmgaard,3,0,0
 151,who is the first vice president of the company where anders holmgaard is employed,ola anderssen,3,0,0
 87,who is the treasurer and vice president of afi licensing llc,douglas b bingham,2,1,0
@@ -2505,14 +2505,14 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 92,who is the president and chief executive officer and president and chief executive officer pernix therapeutics holdings inc sole member and sole manager of pernix therapeutics llc of respicopea inc,cooper c collins,2,1,0
 92,who is the director of the company which is the sole lead arranger in the agreement,michael min,2,1,0
 92,who is the director of the company associated with 7725 woodmont ave 200 bethesda maryland 20814,michael min,3,0,0
-92,who is the president and chief executive officer of the company associated with 10003 woodloch forest drive suite 950 the woodlands texas 77380,cooper c collins,3,0,0
 92,who is the president and chief executive officer pernix therapeutics holdings inc sole member and sole manager of pernix therapeutics llc of the company associated with 10003 woodloch forest drive suite 950 the woodlands texas 77380,cooper c collins,3,0,0
 92,who is the president of the company associated with 10003 woodloch forest drive suite 950 the woodlands texas 77380,cooper c collins,3,0,0
+92,who is the president and chief executive officer of the company associated with 10003 woodloch forest drive suite 950 the woodlands texas 77380,cooper c collins,3,0,0
 86,who is the cfo and executive vice president of id analytics inc,chris power,2,1,0
 86,who is the cfo and executive vice president of ida inc,chris power,2,1,0
 86,who is the cfo and executive vice president of lifelock inc,chris power,2,1,0
-86,who is the vice president of the company where julie yamauchi is employed,rosanne parsill,3,0,0
 86,who is the senior vice president of the company where rosanne parsill is employed,julie yamauchi,3,0,0
+86,who is the vice president of the company where julie yamauchi is employed,rosanne parsill,3,0,0
 150,who is the vice president of the company associated with 500 delaware avenue 11th floor wilmington de 19081,raye goldsborough,3,0,0
 150,who is the ceo of the company associated with 6300 south syracuse way suite 300 centennial co 80111,tom lesinski,3,0,0
 144,who is the authorized signatory of the company associated with 7255 woodmont avenue suite 200 bethesda maryland 20814,maurice amsellem,3,0,0
@@ -2522,8 +2522,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 51,what are the roles in the agreement of the company where cody gunsch is employed,"lender, administrative agent, joint lead arrangers",2,0,1
 51,what are the roles in the agreement of the company associated with 1585 broadway new york ny 10036,"lender, administrative agent, joint lead arrangers",2,0,1
 51,who is the treasurer and vice president finance of calpine corporation,zamir rauf,2,1,0
-51,who is the vice president of the company which is the joint lead arrangers in the agreement,cody gunsch,2,1,0
 51,who is the vice president of the company which is the lender in the agreement,cody gunsch,2,1,0
+51,who is the vice president of the company which is the joint lead arrangers in the agreement,cody gunsch,2,1,0
 51,who is the vp of the company which is the collateral agent in the agreement,sonia flores,2,1,0
 51,who is the vice president of the company associated with 1585 broadway new york ny 10036,cody gunsch,3,0,0
 51,who is the vice president finance of the company associated with 717 texas avenue suite 1000 houston tx 77002,zamir rauf,3,0,0
@@ -2549,12 +2549,12 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 45,who is the client services representative of the company associated with one us bank plaza st louis missouri 63101,cynthia m olson,3,0,0
 45,who is the portfolio manager of the company associated with one us bank plaza st louis missouri 63101,eric niedbalski,3,0,0
 45,who is the senior vice president of the company associated with one us bank plaza st louis missouri 63101,mark r cousineau,3,0,0
+45,who is the portfolio manager of the company where cynthia m olson is employed,eric niedbalski,3,0,0
+45,who is the senior vice president of the company where cynthia m olson is employed,mark r cousineau,3,0,0
 45,who is the client services representative of the company where eric niedbalski is employed,cynthia m olson,3,0,0
 45,who is the senior vice president of the company where eric niedbalski is employed,mark r cousineau,3,0,0
 45,who is the client services representative of the company where mark r cousineau is employed,cynthia m olson,3,0,0
 45,who is the portfolio manager of the company where mark r cousineau is employed,eric niedbalski,3,0,0
-45,who is the portfolio manager of the company where cynthia m olson is employed,eric niedbalski,3,0,0
-45,who is the senior vice president of the company where cynthia m olson is employed,mark r cousineau,3,0,0
 79,what role does rbc capital markets llc have in the agreement which is not the role of wells fargo securities llc,joint bookrunners,2,1,0
 79,what role does rbc capital markets llc have in the agreement which is not the role of citigroup global markets inc,joint bookrunners,2,1,0
 79,what are the roles in the agreement of the company where john c rowland is employed,"arrangers, bookrunners",2,0,1
@@ -2565,20 +2565,20 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 79,who is the assistant secretary and chief financial officer of select income reit,john c popeo,2,1,0
 79,who is the assistant secretary and treasurer of select income reit,john c popeo,2,1,0
 79,who is the chief financial officer and treasurer of select income reit,john c popeo,2,1,0
-79,who is the director of the company which is the administrative agent in the agreement,d bryan gregory,2,1,0
 79,who is the director of the company which is the lenders in the agreement,d bryan gregory,2,1,0
+79,who is the director of the company which is the administrative agent in the agreement,d bryan gregory,2,1,0
 79,who is the authorized signatory of the company associated with 200 vesey st 5thfloor new york ny 10281 8098,dan lepage,3,0,0
 79,who is the director of the company associated with 550 south tryon street 6thfloor charlotte north carolina 28202,d bryan gregory,3,0,0
 79,who is the vice president of the company associated with one fleet way 2nd floor mail code pa6 580 02 30 scranton pa 18507,cheryl snoor,3,0,0
 79,who is the vice president of the company associated with 1615 brett road ops iii new castle de 19720,john c rowland,3,0,0
 79,who is the director of the company associated with minneapolis loan center mac n9303 110 608 second avenue south 11thfloor minneapolis minnesota 55402 1916,d bryan gregory,3,0,0
-79,who is the chief financial officer of the company associated with two newton place 255 washington street suite300 newton massachusetts 02458 1634,john c popeo,3,0,0
 79,who is the assistant secretary of the company associated with two newton place 255 washington street suite300 newton massachusetts 02458 1634,john c popeo,3,0,0
 79,who is the treasurer of the company associated with two newton place 255 washington street suite300 newton massachusetts 02458 1634,john c popeo,3,0,0
-79,who is the vice president of the company where charles mclaughlin is employed,helen h gateson,3,0,0
+79,who is the chief financial officer of the company associated with two newton place 255 washington street suite300 newton massachusetts 02458 1634,john c popeo,3,0,0
 79,who is the senior vice president of the company where helen h gateson is employed,charles mclaughlin,3,0,0
-79,who is the director of the company where craig pearson is employed,darlene arias,3,0,0
+79,who is the vice president of the company where charles mclaughlin is employed,helen h gateson,3,0,0
 79,who is the associate director of the company where darlene arias is employed,craig pearson,3,0,0
+79,who is the director of the company where craig pearson is employed,darlene arias,3,0,0
 79,what is the address of global trade operations of the company where cheryl snoor is employed,one fleet way 2nd floor mail code pa6 580 02 30 scranton pa 18507,3,0,0
 22,what roles do both bank of america na and jpmorgan chase bank na have in the agreement,"lender, arranger, joint book runner",1,1,1
 22,what company is the joint book runner but not the lender in the agreement,wells fargo bank national association,2,1,0
@@ -2588,17 +2588,17 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 22,who is the chief financial officer and executive vice president of oil states international inc,lloyd a hajdik,2,1,0
 22,who is the chief financial officer and treasurer of oil states international inc,lloyd a hajdik,2,1,0
 22,who is the executive vice president and treasurer of oil states international inc,lloyd a hajdik,2,1,0
-22,who is the chief financial officer of the company associated with three allen center 333 clay street suite 4620 houston texas 77002,lloyd a hajdik,3,0,0
-22,who is the executive vice president of the company associated with three allen center 333 clay street suite 4620 houston texas 77002,lloyd a hajdik,3,0,0
 22,who is the treasurer of the company associated with three allen center 333 clay street suite 4620 houston texas 77002,lloyd a hajdik,3,0,0
+22,who is the executive vice president of the company associated with three allen center 333 clay street suite 4620 houston texas 77002,lloyd a hajdik,3,0,0
+22,who is the chief financial officer of the company associated with three allen center 333 clay street suite 4620 houston texas 77002,lloyd a hajdik,3,0,0
 36,what are the roles in the agreement of the company where reagan philipp is employed,"agent, lender, arranger, bookrunner",2,0,1
 36,what are the roles in the agreement of the company where robert j nikl is employed,"borrower, grantors",2,0,1
-36,who is the authorized signatory of the company which is the bookrunner in the agreement,reagan philipp,2,1,0
-36,who is the authorized signatory of the company which is the collateral agent in the agreement,reagan philipp,2,1,0
-36,who is the authorized signatory of the company which is the arranger in the agreement,reagan philipp,2,1,0
-36,who is the authorized signatory of the company which is the agent in the agreement,reagan philipp,2,1,0
-36,who is the authorized signatory of the company which is the administrative agent in the agreement,reagan philipp,2,1,0
 36,who is the authorized signatory of the company which is the lender in the agreement,reagan philipp,2,1,0
+36,who is the authorized signatory of the company which is the collateral agent in the agreement,reagan philipp,2,1,0
+36,who is the authorized signatory of the company which is the agent in the agreement,reagan philipp,2,1,0
+36,who is the authorized signatory of the company which is the arranger in the agreement,reagan philipp,2,1,0
+36,who is the authorized signatory of the company which is the bookrunner in the agreement,reagan philipp,2,1,0
+36,who is the authorized signatory of the company which is the administrative agent in the agreement,reagan philipp,2,1,0
 36,who is the chief financial officer of the company which is the borrower in the agreement,robert j nikl,2,1,0
 123,what role does jp morgan securities llc have in the agreement which is not the role of rbc capital markets,bookrunners,2,1,0
 123,what role does bank of america na have in the agreement which is not the role of jpmorgan chase bank na,agent,2,1,0
@@ -2621,8 +2621,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 123,what are the roles in the agreement of the company where brandon k fiddler is employed,"lender, documentation agent",2,0,1
 123,what are the roles in the agreement of the company where ravneet mumick is employed,"agent, lender",2,0,1
 123,what are the roles in the agreement of the company where andrew payne is employed,"agent, lender",2,0,1
-123,what are the roles in the agreement of the company where kelly heimrich is employed,"agent, lender",2,0,1
 123,what are the roles in the agreement of the company where bill odaly is employed,"agent, lender",2,0,1
+123,what are the roles in the agreement of the company where kelly heimrich is employed,"agent, lender",2,0,1
 123,what are the roles in the agreement of the company associated with cayman islands,"agent, lender",2,0,1
 123,who is the treasurer and vice president of newell rubbermaid inc,john b ellis,2,1,0
 123,who is the vice president of the company which is the administrative agent in the agreement,gene r riego de dios,2,1,0
@@ -2641,8 +2641,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 137,what company is the lenders but not the swing line banks in the agreement,initial lenders,2,1,0
 137,what are the roles in the agreement of the company where john sletten is employed,"bank, lender, co syndication agents",2,0,1
 137,what are the roles in the agreement of the company where t barrett vawter is employed,"bank, agents, lender",2,0,1
-137,what are the roles in the agreement of the company where murray mackinnon is employed,"lender, administrative agent",2,0,1
 137,what are the roles in the agreement of the company where james rolison is employed,"lender, administrative agent",2,0,1
+137,what are the roles in the agreement of the company where murray mackinnon is employed,"lender, administrative agent",2,0,1
 137,what are the roles in the agreement of the company associated with 101 n tryon street charlotte nc 28255,"bank, lender, co syndication agents",2,0,1
 137,what are the roles in the agreement of the company associated with 1900 5th avenue north 15th flr birmingham al 35203,"bank, agents, lender",2,0,1
 137,what are the roles in the agreement of the company associated with hanover street capital llc 48 wall street 14th floor new york ny 10005,"lender, administrative agent",2,0,1
@@ -2660,8 +2660,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 137,who is the authorized signatory of the company associated with global loans administration 20 king st west 4th floor toronto ontario canada m5h 1c4,joshua freedman,3,0,0
 137,who is the managing director of the company associated with hanover street capital llc 48 wall street 14th floor new york ny 10005,james rolison,3,0,0
 137,who is the vice president of the company associated with hanover street capital llc 48 wall street 14th floor new york ny 10005,murray mackinnon,3,0,0
-137,who is the managing director of the company where murray mackinnon is employed,james rolison,3,0,0
 137,who is the vice president of the company where james rolison is employed,murray mackinnon,3,0,0
+137,who is the managing director of the company where murray mackinnon is employed,james rolison,3,0,0
 137,what is the address of eurodollar lending office of the company where alexander l rody is employed,710 carillon parkway st petersburg fl 33716,3,0,0
 137,what is the address of domestic lending office of the company where alexander l rody is employed,710 carillon parkway st petersburg fl 33716,3,0,0
 137,what is the address of eurodollar lending office of the company where eric searls is employed,200 west second street 16th floor winston salem nc 27101,3,0,0
@@ -2695,8 +2695,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 122,who is the vice president of the company associated with 1615 brett road building 3 new castle delaware 19720,maureen maroney,3,0,0
 122,who is the vice president of the company associated with london,anna smith,3,0,0
 122,who is the general manager of the company associated with sa rotterdam,zhao caiyan,3,0,0
-122,who is the secretary of the company where n j hardman is employed,p a hogwood,3,0,0
 122,who is the director of the company where p a hogwood is employed,n j hardman,3,0,0
+122,who is the secretary of the company where n j hardman is employed,p a hogwood,3,0,0
 122,who is the vice president of the company where andy mcclinton is employed,anna smith,3,0,0
 122,who is the vice president of the company where tony gordon is employed,anna smith,3,0,0
 122,what is the address of branch of the company where andres neumeier is employed,new york,3,0,0
@@ -2715,8 +2715,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 37,who is the managing director of the company associated with 100 federal street mail code ma5 100 09 07 boston ma 02110,maria f maia,3,0,0
 37,who is the managing director of the company associated with 101 n tryon street mail code nc1 001 05 46 charlotte nc 28255 0001,maria f maia,3,0,0
 37,who is the managing director of the company associated with 1 fleet way mail code pa6 580 02 30 scranton pa 18507,maria f maia,3,0,0
-37,who is the chief financial officer of the company associated with 3 waterway square place suite 110 the woodlands tx 77380,worthing f jackman,3,0,0
 37,who is the executive vice president of the company associated with 3 waterway square place suite 110 the woodlands tx 77380,worthing f jackman,3,0,0
+37,who is the chief financial officer of the company associated with 3 waterway square place suite 110 the woodlands tx 77380,worthing f jackman,3,0,0
 37,who is the managing director of the company associated with 555 california street 4th floor mail code ca5 705 04 09 san francisco ca 94104,maria f maia,3,0,0
 23,who are the authorized signatorys of credit suisse ag cayman islands branch,"komal shah, nawshaer safi",2,0,1
 23,who is the director of the company associated with arranger,michael agrimis,3,0,0
@@ -2984,8 +2984,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 134,what are the roles in the agreement of the company associated with 383 madison avenue floor 24 new york ny 10179,"agent, lender, issuing bank",2,0,1
 134,what are the roles in the agreement of the company associated with 500 stanton christiana road ops building 2 3rd floor newark de 19713 2107,"agent, lender, issuing bank",2,0,1
 134,who is the authorized signatory of the company which is the borrower in the agreement,darren drake,2,1,0
-134,who is the vice president of the company which is the collateral agent in the agreement,mohammad s hasan,2,1,0
 134,who is the vice president of the company which is the issuing bank in the agreement,mohammad s hasan,2,1,0
+134,who is the vice president of the company which is the collateral agent in the agreement,mohammad s hasan,2,1,0
 134,who is the vice president of the company which is the agent in the agreement,mohammad s hasan,2,1,0
 134,who is the vice president of the company which is the administrative agent in the agreement,mohammad s hasan,2,1,0
 134,who is the vice president of the company associated with 383 madison avenue floor 24 new york ny 10179,mohammad s hasan,3,0,0
@@ -3000,9 +3000,9 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 120,who is the senior vice president of the company which is the documentation agents in the agreement,curt steiner,2,1,0
 120,who is the executive director of the company associated with 10420 highland manor drive fl 4 tampa fl 33610,marc costantino,3,0,0
 120,who is the vice president of the company associated with global trade operations one fleet way 2nd floor mail code pa6 580 02 30 scranton pa 18507,cheryl sneor,3,0,0
-120,who is the chief financial officer of the company associated with two north riverside plaza suite600 chicagoillinois 60606,adam markman,3,0,0
-120,who is the executive vice president of the company associated with two north riverside plaza suite600 chicagoillinois 60606,adam markman,3,0,0
 120,who is the treasurer of the company associated with two north riverside plaza suite600 chicagoillinois 60606,adam markman,3,0,0
+120,who is the executive vice president of the company associated with two north riverside plaza suite600 chicagoillinois 60606,adam markman,3,0,0
+120,who is the chief financial officer of the company associated with two north riverside plaza suite600 chicagoillinois 60606,adam markman,3,0,0
 120,who is the senior vice president of the company associated with 10 south wacker drive 32ndfloor chicagoillinois 60606,winita lau,3,0,0
 120,who is the vice president of the company where charles mclaughlin is employed,james p surless,3,0,0
 120,who is the senior vice president of the company where james p surless is employed,charles mclaughlin,3,0,0
@@ -3052,10 +3052,10 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 135,who is the treasurer and vice president of plains all american pipeline lp,sharon s spurlin,2,1,0
 135,who is the director of the company associated with 135 s lasalle st mail code il4 135 09 61 chicagoil 60603,adam h fey,3,0,0
 135,who is the vice president of the company associated with 135 s lasalle st mail code il4 135 09 61 chicagoil 60603,rosanne parsill,3,0,0
-135,who is the managing director of the company where reginald crichlow is employed,joseph onischuk,3,0,0
 135,who is the vice president of the company where joseph onischuk is employed,reginald crichlow,3,0,0
-135,who is the vice president of the company where andreas bubenzer paim is employed,virginia cosenza,3,0,0
+135,who is the managing director of the company where reginald crichlow is employed,joseph onischuk,3,0,0
 135,who is the director of the company where virginia cosenza is employed,andreas bubenzer paim,3,0,0
+135,who is the vice president of the company where andreas bubenzer paim is employed,virginia cosenza,3,0,0
 135,who is the vice president of the company where adam h fey is employed,rosanne parsill,3,0,0
 135,who is the director of the company where rosanne parsill is employed,adam h fey,3,0,0
 135,what is the address of agency management of the company which is the administrative agent in the agreement,bank of america na,3,0,0
@@ -3064,23 +3064,23 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 109,who are the directors of liberated syndication inc webmayhem inc and pair networks inc,"j gregory smith, douglas polinksy, denis yevstifeyey",2,0,1
 109,who is the ceo and chief executive officer and chairman of the board of liberated syndication inc,christopher j spencer,2,1,0
 109,who is the ceo and chief executive officer and chairman of the board of liberated syndication inc webmayhem inc and pair networks inc,christopher j spencer,2,1,0
-109,who is the ceo of the company associated with 5001 baum blvd ste 770 pittsburgh pa 15213,christopher j spencer,3,0,0
 109,who is the chief executive officer and chairman of the board of the company associated with 5001 baum blvd ste 770 pittsburgh pa 15213,christopher j spencer,3,0,0
-109,who is the ceo of the company where john busshaus is employed,christopher j spencer,3,0,0
-109,who is the chief executive officer and chairman of the board of the company where john busshaus is employed,christopher j spencer,3,0,0
-109,who is the chief financial officer of the company where j gregory smith is employed,john busshaus,3,0,0
-109,who is the ceo of the company where j gregory smith is employed,christopher j spencer,3,0,0
-109,who is the chief executive officer and chairman of the board of the company where j gregory smith is employed,christopher j spencer,3,0,0
+109,who is the ceo of the company associated with 5001 baum blvd ste 770 pittsburgh pa 15213,christopher j spencer,3,0,0
 109,who is the chief financial officer of the company where denis yevstifeyey is employed,john busshaus,3,0,0
 109,who is the ceo of the company where denis yevstifeyey is employed,christopher j spencer,3,0,0
 109,who is the chief executive officer and chairman of the board of the company where denis yevstifeyey is employed,christopher j spencer,3,0,0
+109,who is the ceo of the company where john busshaus is employed,christopher j spencer,3,0,0
+109,who is the chief executive officer and chairman of the board of the company where john busshaus is employed,christopher j spencer,3,0,0
+109,who is the chief financial officer of the company where christopher j spencer is employed,john busshaus,3,0,0
 109,who is the chief financial officer of the company where douglas polinksy is employed,john busshaus,3,0,0
 109,who is the ceo of the company where douglas polinksy is employed,christopher j spencer,3,0,0
 109,who is the chief executive officer and chairman of the board of the company where douglas polinksy is employed,christopher j spencer,3,0,0
-109,who is the chief financial officer of the company where christopher j spencer is employed,john busshaus,3,0,0
+109,who is the chief financial officer of the company where j gregory smith is employed,john busshaus,3,0,0
+109,who is the ceo of the company where j gregory smith is employed,christopher j spencer,3,0,0
+109,who is the chief executive officer and chairman of the board of the company where j gregory smith is employed,christopher j spencer,3,0,0
 20,what are the roles in the agreement of the company where benjamin mlot is employed,"lender, administrative agent",2,0,1
-20,who is the director of the company which is the administrative agent in the agreement,benjamin mlot,2,1,0
 20,who is the director of the company which is the lender in the agreement,benjamin mlot,2,1,0
+20,who is the director of the company which is the administrative agent in the agreement,benjamin mlot,2,1,0
 34,what are the roles in the agreement of the company associated with 27175 energy way novi mi 48377,"borrower, sole manager",2,0,1
 34,what are the roles in the agreement of the company associated with 200 west street new york new york 10282 2198,"lender, arranger, sole bookrunner, administrative agent",2,0,1
 34,what are the roles in the agreement of the company associated with 30 hudson street 36th floor jersey city nj 07302,"lender, arranger, sole bookrunner, administrative agent",2,0,1
@@ -3089,24 +3089,24 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 34,who is the general counsel and secretary of michigan electric transmission company llc,wendy a mcintyre,2,1,0
 34,who is the general counsel and vice president of michigan electric transmission company llc,wendy a mcintyre,2,1,0
 34,who is the secretary and vice president of michigan electric transmission company llc,wendy a mcintyre,2,1,0
-34,who is the chief financial officer of the company associated with 27175 energy way novi mi 48377,cameron m bready,3,0,0
 34,who is the executive vice president of the company associated with 27175 energy way novi mi 48377,cameron m bready,3,0,0
+34,who is the chief financial officer of the company associated with 27175 energy way novi mi 48377,cameron m bready,3,0,0
 34,who is the vice president finance and treasurer of the company associated with 27175 energy way novi mi 48377,rejji p hayes,3,0,0
 34,who is the secretary of the company associated with 27175 energy way novi mi 48377,wendy a mcintyre,3,0,0
 34,who is the vice president of the company associated with 27175 energy way novi mi 48377,wendy a mcintyre,3,0,0
 34,who is the general counsel of the company associated with 27175 energy way novi mi 48377,wendy a mcintyre,3,0,0
-34,who is the vice president finance and treasurer of the company where cameron m bready is employed,rejji p hayes,3,0,0
-34,who is the general counsel of the company where cameron m bready is employed,wendy a mcintyre,3,0,0
-34,who is the secretary of the company where cameron m bready is employed,wendy a mcintyre,3,0,0
-34,who is the vice president of the company where cameron m bready is employed,wendy a mcintyre,3,0,0
+34,who is the chief financial officer of the company where wendy a mcintyre is employed,cameron m bready,3,0,0
+34,who is the executive vice president of the company where wendy a mcintyre is employed,cameron m bready,3,0,0
+34,who is the vice president finance and treasurer of the company where wendy a mcintyre is employed,rejji p hayes,3,0,0
 34,who is the chief financial officer of the company where rejji p hayes is employed,cameron m bready,3,0,0
 34,who is the executive vice president of the company where rejji p hayes is employed,cameron m bready,3,0,0
 34,who is the general counsel of the company where rejji p hayes is employed,wendy a mcintyre,3,0,0
 34,who is the secretary of the company where rejji p hayes is employed,wendy a mcintyre,3,0,0
 34,who is the vice president of the company where rejji p hayes is employed,wendy a mcintyre,3,0,0
-34,who is the chief financial officer of the company where wendy a mcintyre is employed,cameron m bready,3,0,0
-34,who is the executive vice president of the company where wendy a mcintyre is employed,cameron m bready,3,0,0
-34,who is the vice president finance and treasurer of the company where wendy a mcintyre is employed,rejji p hayes,3,0,0
+34,who is the vice president finance and treasurer of the company where cameron m bready is employed,rejji p hayes,3,0,0
+34,who is the general counsel of the company where cameron m bready is employed,wendy a mcintyre,3,0,0
+34,who is the secretary of the company where cameron m bready is employed,wendy a mcintyre,3,0,0
+34,who is the vice president of the company where cameron m bready is employed,wendy a mcintyre,3,0,0
 18,what role does capital one national association have in the agreement which is not the role of regions bank,documentation agent,2,1,0
 18,what role does capital one national association have in the agreement which is not the role of wells fargo bank national association,documentation agent,2,1,0
 18,what role does regions bank have in the agreement which is not the role of wells fargo bank national association,syndication agent,2,1,0
@@ -3123,9 +3123,9 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 18,who is the senior vice president of the company which is the syndication agent in the agreement,ghi gavin,2,1,0
 18,who is the vice president of the company associated with 10 south wacker drive chicago il 60606,craig v koshkarian,3,0,0
 18,who is the senior vice president of the company associated with 10 south wacker drive chicago il 60606,kevin a stacker,3,0,0
-18,who is the chief financial officer of the company associated with 518 17th street suite 1700 denver co 80202,lainie minnick,3,0,0
-18,who is the managing director of the company associated with 518 17th street suite 1700 denver co 80202,lainie minnick,3,0,0
 18,who is the treasurer of the company associated with 518 17th street suite 1700 denver co 80202,lainie minnick,3,0,0
+18,who is the managing director of the company associated with 518 17th street suite 1700 denver co 80202,lainie minnick,3,0,0
+18,who is the chief financial officer of the company associated with 518 17th street suite 1700 denver co 80202,lainie minnick,3,0,0
 18,who is the vice president of the company associated with minneapolis loan center mac n9300 091 600 south 4thstreet 9thfloor minneapolis minnesota 55415,craig v koshkarian,3,0,0
 18,who is the senior vice president of the company associated with minneapolis loan center mac n9300 091 600 south 4thstreet 9thfloor minneapolis minnesota 55415,kevin a stacker,3,0,0
 18,who is the vice president of the company where kevin a stacker is employed,craig v koshkarian,3,0,0
@@ -3143,15 +3143,15 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 24,what are the roles in the agreement of the company associated with 383 madison avenue 24th floor new york new york 10179,"lender, bookrunner, lead arranger, administrative agent, loan and agency services group agent",2,0,1
 24,what are the roles in the agreement of the company associated with 500 stanton christiana road 3rd floor newark de 19713 2107,"lender, bookrunner, lead arranger, administrative agent, loan and agency services group agent",2,0,1
 24,who is the chief financial officer and executive vice president of columbia property trust operating partnership lp,james a fleming,2,1,0
+24,who is the vice president of the company which is the lead arranger in the agreement,jaime gitler,2,1,0
 24,who is the vice president of the company which is the loan and agency services group agent in the agreement,jaime gitler,2,1,0
 24,who is the vice president of the company which is the bookrunner in the agreement,jaime gitler,2,1,0
-24,who is the vice president of the company which is the lead arranger in the agreement,jaime gitler,2,1,0
 24,who is the vice president of the company which is the administrative agent in the agreement,jaime gitler,2,1,0
 24,who is the partner of the company associated with 1180 peachtree street ne atlanta ga 30309,j craig lee,3,0,0
 24,who is the vice president of the company associated with 383 madison avenue 24th floor new york new york 10179,jaime gitler,3,0,0
 24,who is the vice president of the company associated with 500 stanton christiana road 3rd floor newark de 19713 2107,jaime gitler,3,0,0
-24,who is the chief financial officer of the company associated with one glenlake parkway suite 1200 atlanta georgia 30328 7267,james a fleming,3,0,0
 24,who is the executive vice president of the company associated with one glenlake parkway suite 1200 atlanta georgia 30328 7267,james a fleming,3,0,0
+24,who is the chief financial officer of the company associated with one glenlake parkway suite 1200 atlanta georgia 30328 7267,james a fleming,3,0,0
 131,who is the authorized signatory of the company which is the borrower in the agreement,marisa j beeney,2,1,0
 131,who is the authorized signatory of the company which is the administrative agent in the agreement,john bumgarner,2,1,0
 131,who is the senior vice president of the company which is the collateral agent in the agreement,ralph j creasia jr,2,1,0
@@ -3167,8 +3167,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 125,who is the controller and vice president of public service company of new mexico,joseph d tarry,2,1,0
 125,who is the treasurer and vice president of public service company of new mexico,joseph d tarry,2,1,0
 125,who is the senior vice president of the company which is the book manager in the agreement,eric j cosgrove,2,1,0
-125,who is the senior vice president of the company which is the administrative agent in the agreement,eric j cosgrove,2,1,0
 125,who is the senior vice president of the company which is the arranger in the agreement,eric j cosgrove,2,1,0
+125,who is the senior vice president of the company which is the administrative agent in the agreement,eric j cosgrove,2,1,0
 125,who is the vice president of the company associated with 414 silver ave sw ms0905 albuquerque new mexico 87102 3289,joseph d tarry,3,0,0
 125,who is the treasurer of the company associated with 414 silver ave sw ms0905 albuquerque new mexico 87102 3289,joseph d tarry,3,0,0
 125,who is the controller of the company associated with 414 silver ave sw ms0905 albuquerque new mexico 87102 3289,joseph d tarry,3,0,0
@@ -3189,14 +3189,14 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 118,who is the general counsel and svp of post holdings inc,diedre j gray,2,1,0
 118,who is the secretary and svp of post holdings inc,diedre j gray,2,1,0
 118,who is the vice president of the company which is the syndication agent in the agreement,ronnie glenn,2,1,0
-118,who is the authorized signatory of the company which is the joint bookrunners in the agreement,charles d johnston,2,1,0
 118,who is the authorized signatory of the company which is the joint lead arrangers in the agreement,charles d johnston,2,1,0
 118,who is the authorized signatory of the company which is the documentation agents in the agreement,charles d johnston,2,1,0
+118,who is the authorized signatory of the company which is the joint bookrunners in the agreement,charles d johnston,2,1,0
 118,who is the director of the company which is the swing line lender in the agreement,daniel r van aken,2,1,0
+118,who is the director of the company which is the lender in the agreement,daniel r van aken,2,1,0
+118,who is the director of the company which is the agent in the agreement,daniel r van aken,2,1,0
 118,who is the director of the company which is the revolving credit lender in the agreement,daniel r van aken,2,1,0
 118,who is the director of the company which is the l c issuer in the agreement,daniel r van aken,2,1,0
-118,who is the director of the company which is the agent in the agreement,daniel r van aken,2,1,0
-118,who is the director of the company which is the lender in the agreement,daniel r van aken,2,1,0
 118,who is the director of the company associated with 1525 west wt harris boulevard charlotte nc 28262,daniel r van aken,3,0,0
 118,who is the secretary of the company associated with 2503 s hanley road st louis mo 63144,diedre j gray,3,0,0
 118,who is the general counsel of the company associated with 2503 s hanley road st louis mo 63144,diedre j gray,3,0,0
@@ -3227,8 +3227,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 130,what are the roles in the agreement of the company where michael l monninger is employed,"lender, issuing bank",2,0,1
 130,what are the roles in the agreement of the company where stephanie balette is employed,"arranger, bookrunner, issuing bank, collateral agent, syndication agents, documentation agents, revolving administrative agent",2,0,1
 130,what are the roles in the agreement of the company where mindy k west is employed,"borrower, subsidiary",2,0,1
-130,what are the roles in the agreement of the company where yvonne brazier is employed,"issuing bank, term administrative agent",2,0,1
 130,what are the roles in the agreement of the company where john flores is employed,"issuing bank, term administrative agent",2,0,1
+130,what are the roles in the agreement of the company where yvonne brazier is employed,"issuing bank, term administrative agent",2,0,1
 130,what are the roles in the agreement of the company associated with delaware,"borrower, subsidiary",2,0,1
 130,what are the roles in the agreement of the company associated with 2200 ross avenue 9th floor dallas tx 75201,"arranger, bookrunner, issuing bank, collateral agent, syndication agents, documentation agents, revolving administrative agent",2,0,1
 130,who is the chief financial office and chief financial officer of murphy usa inc,mindy k west,2,1,0
@@ -3243,21 +3243,21 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 130,who is the chief financial officer and executive vice president fuels of murphy oil usa inc,mindy k west,2,1,0
 130,who is the chief financial officer and treasurer of murphy oil usa inc,mindy k west,2,1,0
 130,who is the executive vice president fuels and treasurer of murphy oil usa inc,mindy k west,2,1,0
-130,who is the authorized officer of the company which is the collateral agent in the agreement,stephanie balette,2,1,0
 130,who is the authorized officer of the company which is the revolving administrative agent in the agreement,stephanie balette,2,1,0
+130,who is the authorized officer of the company which is the collateral agent in the agreement,stephanie balette,2,1,0
 130,who is the authorized officer of the company associated with 2200 ross avenue 9th floor dallas tx 75201,stephanie balette,3,0,0
-130,who is the chief financial officer of the company associated with delaware,mindy k west,3,0,0
-130,who is the executive vice president fuels of the company associated with delaware,mindy k west,3,0,0
-130,who is the treasurer of the company associated with delaware,mindy k west,3,0,0
 130,who is the chief financial office of the company associated with delaware,mindy k west,3,0,0
-130,who is the authorized signatory of the company where yvonne brazier is employed,john flores,3,0,0
+130,who is the treasurer of the company associated with delaware,mindy k west,3,0,0
+130,who is the executive vice president fuels of the company associated with delaware,mindy k west,3,0,0
+130,who is the chief financial officer of the company associated with delaware,mindy k west,3,0,0
 130,who is the manager agency services of the company where john flores is employed,yvonne brazier,3,0,0
+130,who is the authorized signatory of the company where yvonne brazier is employed,john flores,3,0,0
 25,what company is the guarantors but not the guarantor in the agreement,five oaks acquisition corp and hunt cmt equity llc,2,1,0
 25,what are the roles in the agreement of the company where emily ergang pappas is employed,"lenders, collateral agent, administrative agent",2,0,1
 25,what are the roles in the agreement of the company where michael larsen is employed,guarantor,2,0,1
 25,who is the associate counsel of the company which is the collateral agent in the agreement,emily ergang pappas,2,1,0
-25,who is the associate counsel of the company which is the administrative agent in the agreement,emily ergang pappas,2,1,0
 25,who is the associate counsel of the company which is the lenders in the agreement,emily ergang pappas,2,1,0
+25,who is the associate counsel of the company which is the administrative agent in the agreement,emily ergang pappas,2,1,0
 25,who is the president of the company which is the borrower in the agreement,michael larsen,2,1,0
 25,who is the svp of the company which is the initial lender in the agreement,william p mcloughlin,2,1,0
 31,what roles do both the bank of tokyo mitsubishi ufj ltd and us bank national association have in the agreement,"agents, book runners, us swing lender",1,1,1
@@ -3278,8 +3278,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 31,what are the roles in the agreement of the company where dhiren desai is employed,"agents, us swing lender",2,0,1
 31,what are the roles in the agreement of the company where robert casey is employed,"us swing lender, joint book runners, documentation agents",2,0,1
 31,what are the roles in the agreement of the company where eoin roche is employed,"us swing lender, joint book runners, documentation agents",2,0,1
-31,what are the roles in the agreement of the company where johanna minaya is employed,"agents, book runners, us swing lender",2,0,1
 31,what are the roles in the agreement of the company where robert k reddington is employed,"agents, book runners, us swing lender",2,0,1
+31,what are the roles in the agreement of the company where johanna minaya is employed,"agents, book runners, us swing lender",2,0,1
 31,what are the roles in the agreement of the company where richard j poworoznek is employed,"us swing lender, yen swing lender, syndication agent, sterling swing lender",2,0,1
 31,what are the roles in the agreement of the company where richard laiderman is employed,"lenders, borrowers",2,0,1
 31,what are the roles in the agreement of the company where scott w reynolds is employed,"us swing lender, euro swing lender, administrative agent",2,0,1
@@ -3294,9 +3294,9 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 31,what are the roles in the agreement of the company associated with 901 main street 64th floor mail code tx1 492 64 01 dallas texas 75202 3714,"us swing lender, euro swing lender, administrative agent",2,0,1
 31,who is the branch manager and vice president of the bank of china,haiyong yang,2,1,0
 31,who is the director of the company which is the lender in the agreement,george manchenko,2,1,0
+31,who is the executive director of the company which is the yen swing lender in the agreement,richard j poworoznek,2,1,0
 31,who is the executive director of the company which is the syndication agent in the agreement,richard j poworoznek,2,1,0
 31,who is the executive director of the company which is the sterling swing lender in the agreement,richard j poworoznek,2,1,0
-31,who is the executive director of the company which is the yen swing lender in the agreement,richard j poworoznek,2,1,0
 31,who is the vice president of the company associated with 101 n tryon street mail code nc1 001 05 46 charlotte north carolina 28255 0001,anthea del bianco,3,0,0
 31,who is the director of the company associated with 101 n tryon street mail code nc1 001 05 46 charlotte north carolina 28255 0001,scott w reynolds,3,0,0
 31,who is the vice president of the company associated with 1455 market street 5th floor mail code ca5 701 05 19 san francisco california 94103,anthea del bianco,3,0,0
@@ -3322,8 +3322,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 19,who is the manager agency of the company associated with rbc agency services group 20 king street west 4th floor toronto ontario canada,rodica dutka,3,0,0
 19,who is the managing director of the company where timothy j devane is employed,robert graff,3,0,0
 19,who is the executive director of the company where robert graff is employed,timothy j devane,3,0,0
-19,who is the authorized signatory of the company where rodica dutka is employed,john flores,3,0,0
 19,who is the manager agency of the company where john flores is employed,rodica dutka,3,0,0
+19,who is the authorized signatory of the company where rodica dutka is employed,john flores,3,0,0
 27,who is the chief financial and officer of gastar midco holdings llc,michael a gerlich,2,1,0
 27,who is the chief financial and secretary of gastar midco holdings llc,michael a gerlich,2,1,0
 27,who is the chief financial and senior vice president of gastar midco holdings llc,michael a gerlich,2,1,0
@@ -3332,9 +3332,9 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 27,who is the secretary and senior vice president of gastar midco holdings llc,michael a gerlich,2,1,0
 27,who is the authorized signatory of the company associated with ares management llc 2000 avenue of the stars 12th floor los angeles ca90067,gary levin,3,0,0
 27,who is the secretary of the company associated with ares management llc 2000 avenue of the stars 12th floor los angeles ca90067,michael a gerlich,3,0,0
-27,who is the chief financial of the company associated with ares management llc 2000 avenue of the stars 12th floor los angeles ca90067,michael a gerlich,3,0,0
-27,who is the officer of the company associated with ares management llc 2000 avenue of the stars 12th floor los angeles ca90067,michael a gerlich,3,0,0
 27,who is the senior vice president of the company associated with ares management llc 2000 avenue of the stars 12th floor los angeles ca90067,michael a gerlich,3,0,0
+27,who is the officer of the company associated with ares management llc 2000 avenue of the stars 12th floor los angeles ca90067,michael a gerlich,3,0,0
+27,who is the chief financial of the company associated with ares management llc 2000 avenue of the stars 12th floor los angeles ca90067,michael a gerlich,3,0,0
 33,what role does credit suisse securities usa llc have in the agreement which is not the role of goldman sachs bank usa,bookrunners,2,1,0
 33,what role does goldman sachs bank usa have in the agreement which is not the role of jp morgan securities llc,joint bookrunners,2,1,0
 33,what role does goldman sachs bank usa have in the agreement which is not the role of ubs securities llc,joint bookrunners,2,1,0
@@ -3376,8 +3376,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 126,what are the roles in the agreement of the company where tracy rahn is employed,"agents, lenders, arrangers, bookrunners",2,0,1
 126,what are the roles in the agreement of the company where lillian kim is employed,"lenders, arrangers, bookrunners, co syndication agents",2,0,1
 126,what are the roles in the agreement of the company where michael maguire is employed,"lenders, arrangers, bookrunners, documentation agents",2,0,1
-126,what are the roles in the agreement of the company where karim remtoula is employed,"agents, lenders",2,0,1
 126,what are the roles in the agreement of the company where brendan heneghan is employed,"agents, lenders",2,0,1
+126,what are the roles in the agreement of the company where karim remtoula is employed,"agents, lenders",2,0,1
 126,what are the roles in the agreement of the company where susan m olsen is employed,"agent, lenders, arrangers, bookrunners",2,0,1
 126,what are the roles in the agreement of the company where min park is employed,"lenders, arrangers, bookrunners",2,0,1
 126,what are the roles in the agreement of the company associated with 1615 brett road building 3 new castle delaware 19720,"agent, lenders, arrangers, bookrunners",2,0,1
@@ -3389,12 +3389,12 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 126,who is the treasurer of the company associated with 10560 drmartin luther king jr st north st petersburg fl 33716,sergio a cadavid,3,0,0
 126,who is the vice president of the company associated with 10 s dearborn chicago il 60670,min park,3,0,0
 126,who is the vice president of the company associated with 1615 brett road building 3 new castle delaware 19720,susan m olsen,3,0,0
-126,who is the director of the company where karim remtoula is employed,brendan heneghan,3,0,0
 126,who is the vice president of the company where brendan heneghan is employed,karim remtoula,3,0,0
+126,who is the director of the company where karim remtoula is employed,brendan heneghan,3,0,0
 126,who is the managing director of the company where gordon yip is employed,andrew sidford,3,0,0
 126,who is the director of the company where andrew sidford is employed,gordon yip,3,0,0
-126,who is the director of the company where dayi liu is employed,tony huang,3,0,0
 126,who is the executive director of the company where tony huang is employed,dayi liu,3,0,0
+126,who is the director of the company where dayi liu is employed,tony huang,3,0,0
 132,what roles do both jpmorgan chase bank na and us bank national association have in the agreement,"lender, arrangers, book runners",1,1,1
 132,what role does bmo capital markets corp have in the agreement which is not the role of wells fargo securities llc,book runners,2,1,0
 132,what role does wells fargo securities llc have in the agreement which is not the role of jpmorgan chase bank na,joint book runners,2,1,0
@@ -3436,9 +3436,9 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 132,who is the director of the company which is the l c issuer in the agreement,amy prager,2,1,0
 132,who is the director of the company which is the agent in the agreement,amy prager,2,1,0
 132,who is the director of the company associated with 115 south lasalle street chicago illinois 60603,amy prager,3,0,0
-132,who is the vice president and treasurer of the company associated with 1655 grant street 10th floor concord ca 94520,gary g zyla,3,0,0
-132,who is the executive vice president and treasurer of the company associated with 1655 grant street 10th floor concord ca 94520,gary g zyla,3,0,0
 132,who is the executive vice president chief financial officer and treasurer of the company associated with 1655 grant street 10th floor concord ca 94520,gary g zyla,3,0,0
+132,who is the executive vice president and treasurer of the company associated with 1655 grant street 10th floor concord ca 94520,gary g zyla,3,0,0
+132,who is the vice president and treasurer of the company associated with 1655 grant street 10th floor concord ca 94520,gary g zyla,3,0,0
 133,what are the roles in the agreement of the company where william allen is employed,"lender, administrative agent",2,0,1
 133,what are the roles in the agreement of the company associated with 1001 page mill road building 4 palo alto ca 94304,"lender, administrative agent",2,0,1
 133,who is the senior vice president of the company which is the syndication agent in the agreement,ronald j drobny,2,1,0
@@ -3455,8 +3455,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 127,what are the roles in the agreement of the company where heather e hoopingarner is employed,"agents, lender",2,0,1
 127,what are the roles in the agreement of the company where julie lilienfeld is employed,"agents, lender",2,0,1
 127,what are the roles in the agreement of the company where ryan m black is employed,"agents, lender",2,0,1
-127,what are the roles in the agreement of the company where darren merten is employed,"lender, l c issuer, administrative agent",2,0,1
 127,what are the roles in the agreement of the company where taelitha bonds harris is employed,"lender, l c issuer, administrative agent",2,0,1
+127,what are the roles in the agreement of the company where darren merten is employed,"lender, l c issuer, administrative agent",2,0,1
 127,what are the roles in the agreement of the company where annie carr is employed,"agents, lender",2,0,1
 127,what are the roles in the agreement of the company where tracy rahn is employed,"agents, lender",2,0,1
 127,what are the roles in the agreement of the company where annie chung is employed,"agents, lender",2,0,1
@@ -3466,8 +3466,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 127,who is the treasurer and vice president of biogen inc,michael dambach,2,1,0
 127,who is the authorized signatory of the company associated with usa,annie carr,3,0,0
 127,who is the executive director of the company associated with usa,tracy rahn,3,0,0
-127,who is the assistant vice president of the company where darren merten is employed,taelitha bonds harris,3,0,0
 127,who is the director of the company where taelitha bonds harris is employed,darren merten,3,0,0
+127,who is the assistant vice president of the company where darren merten is employed,taelitha bonds harris,3,0,0
 32,what roles do both barclays bank plc and jp morgan securities llc have in the agreement,"agents, arranger, bookrunner, co syndication agent",1,1,1
 32,what roles do both barclays bank plc and royal bank of canada have in the agreement,"agents, lender, arranger",1,1,1
 32,what roles do both barclays bank plc and hsbc bank canada have in the agreement,"lender, arrangers, bookrunner",1,1,1
@@ -3493,10 +3493,10 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 32,what are the roles in the agreement of the company where rebecca camden is employed,borrowers,2,0,1
 32,what are the roles in the agreement of the company where douglas brandes is employed,"bank, lender, arrangers, bookrunner, joint lead arranger",2,0,1
 32,what are the roles in the agreement of the company where todd patchell is employed,"bank, lender, arrangers, bookrunner, joint lead arranger",2,0,1
-32,what are the roles in the agreement of the company where alan greenhow is employed,lender,2,0,1
 32,what are the roles in the agreement of the company where j campbell is employed,lender,2,0,1
-32,what are the roles in the agreement of the company where john stholl is employed,"agent, arranger, bookrunner",2,0,1
+32,what are the roles in the agreement of the company where alan greenhow is employed,lender,2,0,1
 32,what are the roles in the agreement of the company where barbara s wang is employed,"agent, arranger, bookrunner",2,0,1
+32,what are the roles in the agreement of the company where john stholl is employed,"agent, arranger, bookrunner",2,0,1
 32,what are the roles in the agreement of the company where jeremy causton is employed,"collateral agent, administrative agent",2,0,1
 32,what are the roles in the agreement of the company associated with 13 15 avenue de la libert l 1931 luxembourg,"borrower, the company",2,0,1
 32,what are the roles in the agreement of the company associated with canada,borrowers,2,0,1
@@ -3507,8 +3507,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 32,who is the authorized signatory of the company which is the holdco in the agreement,rebecca camden,2,1,0
 32,who is the authorized signatory of the company which is the co documentation agent in the agreement,mark lumpkin jr,2,1,0
 32,who is the authorized signatory of the company which is the the company in the agreement,rebecca camden,2,1,0
-32,who is the authorized signatory of the company which is the borrower in the agreement,rebecca camden,2,1,0
 32,who is the authorized signatory of the company which is the initial borrower in the agreement,rebecca camden,2,1,0
+32,who is the authorized signatory of the company which is the borrower in the agreement,rebecca camden,2,1,0
 32,who is the authorised signatory of the company which is the administrative agent in the agreement,jeremy causton,2,1,0
 32,who is the authorised signatory of the company associated with corporate trustand loan agency level 27 8 canada square london e14 5hq,jeremy causton,3,0,0
 32,who is the authorised signatory of the company associated with level 27 8 canada square london e14 5hq,jeremy causton,3,0,0
@@ -3520,11 +3520,11 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 32,who is the managing director corporate coverage canada of the company where chris golding is employed,tony baratta,3,0,0
 32,who is the assistant vice president of the company where douglas brandes is employed,todd patchell,3,0,0
 32,who is the vice president commercial banking of the company where todd patchell is employed,douglas brandes,3,0,0
-32,who is the director and counsel region americas legal of the company where john stholl is employed,barbara s wang,3,0,0
 32,who is the director of the company where barbara s wang is employed,john stholl,3,0,0
+32,who is the director and counsel region americas legal of the company where john stholl is employed,barbara s wang,3,0,0
 32,what is the address of registered office of the company which is the the company in the agreement,6922767 holding s rl,3,0,0
-32,what is the address of registered office of the company which is the borrower in the agreement,chc helicopter sa,3,0,0
 32,what is the address of registered office of the company which is the initial borrower in the agreement,chc helicopter sa,3,0,0
+32,what is the address of registered office of the company which is the borrower in the agreement,chc helicopter sa,3,0,0
 26,what roles do both credit suisse loan funding llc and barclays bank plc have in the agreement,"agents, bookrunners, lead arrangers",1,1,1
 26,what roles do both credit suisse loan funding llc and mizuho bank ltd have in the agreement,"agents, bookrunners, lead arrangers",1,1,1
 26,what roles do both barclays bank plc and mizuho bank ltd have in the agreement,"agents, lender, bookrunners, lead arrangers",1,1,1
@@ -3571,8 +3571,8 @@ document_number,question,answer,num_hops,num_set_operations,multiple_answer_dime
 26,who is the director of the company where gary herzog is employed,jill wong,3,0,0
 26,who is the managing director of the company where veli matti abohen is employed,pedro bell,3,0,0
 26,who is the vice president of the company where pedro bell is employed,veli matti abohen,3,0,0
-26,who is the treasurer of the company where katherinekelly is employed,jeffreygalik,3,0,0
 26,who is the corporate secretary of the company where jeffreygalik is employed,katherinekelly,3,0,0
+26,who is the treasurer of the company where katherinekelly is employed,jeffreygalik,3,0,0
 26,what is the address of office of the company which is the administrative agent in the agreement,morgan stanley senior funding inc,3,0,0
 26,what is the address of branch of the company where brian crowley is employed,new york,3,0,0
 26,what is the address of branch of the company where fabio della malva is employed,new york,3,0,0
