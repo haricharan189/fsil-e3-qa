@@ -9,7 +9,7 @@ KG‑QAGen is a benchmark and toolkit that leverages structured annotations of f
 <p align="center">
   <img src="figures/figure_1.png" width="100%" alt="KG‑QAGen Overview" />
 </p>
-
+--
 Overview of KG-QAGEN. Credit agreements are annotated to identify entities and their
 relationships, forming a knowledge graph representation. This graph is then used to systematically
 extract multi-level QA pairs, which serve as the basis for benchmarking long-context LLMs.
@@ -18,10 +18,6 @@ extract multi-level QA pairs, which serve as the basis for benchmarking long-con
 ## KG‑QAGen‑D Dataset
 
 We release **KG‑QAGen‑D**, a 16,116-question benchmark derived from 170 SEC credit agreements (2013–2022). Each QA pair is tagged with a composite complexity level (L = #hops + #set‑ops + plurality), split into *Easy*, *Medium*, and *Hard*.
-
----
-
-Here's a clean and professional **Leaderboard** section written in Markdown that you can drop into your `README.md`. It clearly explains the dataset split, test setup, submission process, and how it aligns with best practices.
 
 ---
 
