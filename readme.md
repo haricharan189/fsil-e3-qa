@@ -1,10 +1,7 @@
 # KG‑QAGen  
 **A Knowledge‑Graph‑Based Framework for Systematic Question Generation and Long‑Context LLM Evaluation**
 
-[![🌐 Homepage]](https://example.com/your-homepage)  
-[![🤗 Dataset]](https://huggingface.co/datasets/gtfintechlab/KG-QAGen-D)  
-[![📖 arXiv]](https://arxiv.org/abs/YYYY.MM.NNNNN)  
-[![GitHub]](https://github.com/gtfintechlab/KG-QAGen)
+![🌐 Homepage] (https://example.com/your-homepage) | [![🤗 Dataset]](https://huggingface.co/datasets/gtfintechlab/KG-QAGen-D)  [![📖 arXiv]](https://arxiv.org/abs/YYYY.MM.NNNNN)  [![GitHub]](https://github.com/gtfintechlab/KG-QAGen)
 
 KG‑QAGen is a benchmark and toolkit that leverages structured annotations of financial agreements to build knowledge graphs and automatically generate QA pairs at controlled difficulty levels, enabling fine‑grained evaluation of long‑context LLMs.
 
