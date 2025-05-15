@@ -22,11 +22,11 @@ KG‑QAGen is a benchmark and toolkit that leverages structured annotations of f
 <p align="center">
   <img src="figures/figure_1.png" width="100%" alt="KG‑QAGen Overview" />
 </p>
---
+
 Overview of KG-QAGEN. Credit agreements are annotated to identify entities and their
 relationships, forming a knowledge graph representation. This graph is then used to systematically
 extract multi-level QA pairs, which serve as the basis for benchmarking long-context LLMs.
----
+
 
 ## KG‑QAGen‑D Dataset
 
