@@ -1,0 +1,6 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+89,Who are the cfos of the company where lee neumann is employed?,"james pekarek, matthew mccabe",3,0,1
+83,Who are the chief financial officers of the company where michael ray is employed?,"tim leyden, timothy leyden",3,0,1
+122,Who are the managing directors of the company where anna smith is employed?,"andy mcclinton, tony gordon",3,0,1
+109,Who are the directors of the company where john busshaus is employed?,"denis yevstifeyey, douglas polinksy, j gregory smith",3,0,1
+109,Who are the directors of the company where christopher j spencer is employed?,"denis yevstifeyey, douglas polinksy, j gregory smith",3,0,1

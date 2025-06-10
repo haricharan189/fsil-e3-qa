@@ -1,0 +1,147 @@
+@prefix base: <http://example.org/base/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org1: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person: <http://example.org/person_name/> .
+@prefix position: <http://example.org/person_position/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+base:Location a rdfs:Class .
+
+base:Organization a rdfs:Class .
+
+base:Person a rdfs:Class .
+
+location_type:administrative_agents_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:administrative_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:ag_new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_management a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_services a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:assembly_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:business_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:cayman_islands_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:chief_executive_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:commercial_banking a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_customers_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:domestic_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:dublin_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:eurodollar_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:front_end_test_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:london_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:mexico_location_contract_manufacturing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:micro_building_and_corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:middle_market_servicing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:offsite_storage a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:opto_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:registered_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:rexford_industrial_realty_inc_11620_wilshire_boulevard_suite_1000_los_angeles_california_90025 a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:trade_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:zonal_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+org1:lead_arranger a base:Organization .
+
+org_role:bookrunner rdfs:subClassOf base:Organization .
+
+org_role:administrative_agent rdfs:subClassOf base:Organization .
+
+org_role:borrower rdfs:subClassOf base:Organization .
+
+org_role:issuing_bank rdfs:subClassOf base:Organization .
+
+org_role:lender rdfs:subClassOf base:Organization .
+
+org_role:lenders rdfs:subClassOf base:Organization .
+
+org_role:swingline_lender rdfs:subClassOf base:Organization .
+
+person:brian_m_carolan a base:Person ;
+    <http://example.org/isInstanceOf/> position:chief_financial_officer ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:commvault_systems_inc ;
+            rel:position position:chief_financial_officer ] ;
+    rel:isEmployedBy org1:commvault_systems_inc .
+
+person:david_tepper a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:jpmorgan_chase_bank_na ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:jpmorgan_chase_bank_na .
+
+org1:commvault_systems_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower,
+        org_role:lenders ;
+    rel:hasEmployee person:brian_m_carolan .
+
+org1:jpmorgan_chase_bank_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:administrative_agent,
+        org_role:issuing_bank,
+        org_role:lender,
+        org_role:sole_bookrunner,
+        org_role:swingline_lender ;
+    rel:hasEmployee person:david_tepper .
+
+position:chief_financial_officer a base:Position ;
+    base:positionName "Chief Financial Officer" ;
+    rdfs:subClassOf base:Person .
+
+position:vice_president a base:Position ;
+    base:positionName "Vice President" ;
+    rdfs:subClassOf base:Person .
+

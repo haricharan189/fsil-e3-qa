@@ -1,0 +1,252 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org1: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person: <http://example.org/person_name/> .
+@prefix position: <http://example.org/person_position/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+base:Location a rdfs:Class .
+
+base:Organization a rdfs:Class .
+
+base:Person a rdfs:Class .
+
+location_type:administrative_agents_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:administrative_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:ag_new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_management a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_services a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:assembly_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:business_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:cayman_islands_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:chief_executive_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:commercial_banking a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_customers_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:domestic_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:dublin_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:eurodollar_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:front_end_test_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:london_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:mexico_location_contract_manufacturing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:micro_building_and_corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:middle_market_servicing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:offsite_storage a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:opto_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:registered_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:rexford_industrial_realty_inc_11620_wilshire_boulevard_suite_1000_los_angeles_california_90025 a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:trade_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:zonal_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+org1:bmo_capital_markets a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:co_syndication_agents,
+        org_role:joint_lead_arrangers .
+
+org1:keybanc_capital_markets_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:joint_lead_arrangers .
+
+org1:truist_securities_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:joint_lead_arrangers .
+
+loc:1200_abernathy_road_ne_suite_1550_atlanta_georgia_30328 a base:Location ;
+    rel:isLocationOf org1:keybank_national_association .
+
+loc:1600_atlanta_financial_center_3343_peachtree_road_ne_atlanta_georgia_30326 a base:Location ;
+    rel:isLocationOf org1:morris_manning_and_martin_llp .
+
+loc:2390_east_camelback_road_ste_220_phoenix_arizona_85016 a base:Location ;
+    rel:isLocationOf org1:keybank_national_association .
+
+loc:c_o_modiv_advisors_llc_120_newport_center_drive_newport_beach_ca_92660 a base:Location ;
+    rel:isLocationOf org1:modiv_operating_partnership_lp .
+
+loc:suite_5300_303_peachtree_street_ne_atlanta_georgia_30308 a base:Location ;
+    rel:isLocationOf org1:dentons_us_llp .
+
+org1:dentons_us_llp a base:Organization ;
+    rel:hasLocationAt loc:suite_5300_303_peachtree_street_ne_atlanta_georgia_30308 .
+
+org1:morris_manning_and_martin_llp a base:Organization ;
+    rel:hasLocationAt loc:1600_atlanta_financial_center_3343_peachtree_road_ne_atlanta_georgia_30326 .
+
+org_role:borrower rdfs:subClassOf base:Organization .
+
+org_role:lenders rdfs:subClassOf base:Organization .
+
+person:joe_white a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:the_huntington_national_bank ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:the_huntington_national_bank .
+
+person:john_wilgus a base:Person ;
+    <http://example.org/isInstanceOf/> position:senior_vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:first_financial_bank ;
+            rel:position position:senior_vice_president ] ;
+    rel:isEmployedBy org1:first_financial_bank .
+
+person:jonas_robinson a base:Person ;
+    <http://example.org/isInstanceOf/> position:director ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:bmo_harris_bank_na ;
+            rel:position position:director ] ;
+    rel:isEmployedBy org1:bmo_harris_bank_na .
+
+person:raymond_j_pacini a base:Person ;
+    <http://example.org/isInstanceOf/> position:chief_financial_officer ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:modiv_operating_partnership_lp ;
+            rel:position position:chief_financial_officer ] ;
+    rel:isEmployedBy org1:modiv_operating_partnership_lp .
+
+person:ryan_almond a base:Person ;
+    <http://example.org/isInstanceOf/> position:director ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:truist_bank ;
+            rel:position position:director ] ;
+    rel:isEmployedBy org1:truist_bank .
+
+person:sean_apicella a base:Person ;
+    <http://example.org/isInstanceOf/> position:senior_vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:sandt_bank ;
+            rel:position position:senior_vice_president ] ;
+    rel:isEmployedBy org1:sandt_bank .
+
+person:thomas_z_schmitt a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:keybank_national_association ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:keybank_national_association .
+
+person:zachary_braun a base:Person ;
+    <http://example.org/isInstanceOf/> position:corporate_banker ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:synovus_bank ;
+            rel:position position:corporate_banker ] ;
+    rel:isEmployedBy org1:synovus_bank .
+
+org1:bmo_harris_bank_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:jonas_robinson .
+
+org1:first_financial_bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:john_wilgus .
+
+org1:sandt_bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:sean_apicella .
+
+org1:synovus_bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:zachary_braun .
+
+org1:the_huntington_national_bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:co_syndication_agents,
+        org_role:joint_lead_arrangers,
+        org_role:lender ;
+    rel:hasEmployee person:joe_white .
+
+org1:truist_bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:co_syndication_agents,
+        org_role:lender ;
+    rel:hasEmployee person:ryan_almond .
+
+position:chief_financial_officer a base:Position ;
+    base:positionName "Chief Financial Officer" ;
+    rdfs:subClassOf base:Person .
+
+position:corporate_banker a base:Position ;
+    base:positionName "Corporate Banker" ;
+    rdfs:subClassOf base:Person .
+
+org1:modiv_operating_partnership_lp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:raymond_j_pacini ;
+    rel:hasLocationAt loc:c_o_modiv_advisors_llc_120_newport_center_drive_newport_beach_ca_92660 .
+
+org_role:co_syndication_agents rdfs:subClassOf base:Organization .
+
+org1:keybank_national_association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lenders ;
+    rel:hasEmployee person:thomas_z_schmitt ;
+    rel:hasLocationAt loc:1200_abernathy_road_ne_suite_1550_atlanta_georgia_30328,
+        loc:2390_east_camelback_road_ste_220_phoenix_arizona_85016 .
+
+org_role:joint_lead_arrangers rdfs:subClassOf base:Organization .
+
+position:director a base:Position ;
+    base:positionName "Director" ;
+    rdfs:subClassOf base:Person .
+
+position:senior_vice_president a base:Position ;
+    base:positionName "Senior Vice President" ;
+    rdfs:subClassOf base:Person .
+
+position:vice_president a base:Position ;
+    base:positionName "Vice President" ;
+    rdfs:subClassOf base:Person .
+
+org_role:lender rdfs:subClassOf base:Organization .
+

@@ -1,0 +1,1625 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+102,What is the position held by both adam finerman and katherine bell?,esq,1,1,0
+117,What is the position held by both chris burns and dawn mace moore?,senior vice president,1,1,0
+117,What is the position held by both chris burns and michael snook?,senior vice president,1,1,0
+117,What is the position held by both dawn mace moore and michael snook?,senior vice president,1,1,0
+103,What is the position held by both stephen sernett and stuart brown?,director,1,1,0
+103,What is the position held by both stephen sernett and scott huckins?,director,1,1,0
+103,What is the position held by both stuart brown and scott huckins?,director,1,1,0
+115,What is the position held by both melanie housey hart and jennifer m neil?,secretary,1,1,0
+100,What is the position held by both alexis coyle and lee merkle raymond?,managing director,1,1,0
+100,What is the position held by both dan johnston and mark strzynski?,vice president,1,1,0
+100,What is the position held by both dan johnston and min park?,vice president,1,1,0
+100,What is the position held by both darran wee and tyler j mei?,senior vice president,1,1,0
+100,What is the position held by both mark strzynski and min park?,vice president,1,1,0
+128,What is the position held by both derek jensen and ryan zimmerman?,vice president,1,1,0
+128,What is the position held by both gill skala and leni preciado?,director,1,1,0
+128,What is the position held by both gill skala and mario de luca?,director,1,1,0
+128,What is the position held by both leni preciado and mario de luca?,director,1,1,0
+15,What is the position held by both jared randall and racquel ac small?,executive director,1,1,0
+11,What is the position held by both carolyn kee and john j tus?,vice president,1,1,0
+11,What is the position held by both carolyn kee and virginia cosenza?,vice president,1,1,0
+11,What is the position held by both craig malloy and mukesh singh?,director,1,1,0
+11,What is the position held by both john j tus and virginia cosenza?,vice president,1,1,0
+110,What is the position held by both alan dawson and alia qaddumi?,director,1,1,0
+110,What is the position held by both alan dawson and brendan heneghan?,director,1,1,0
+110,What is the position held by both alan dawson and david l berger?,director,1,1,0
+110,What is the position held by both alan dawson and kenneth chin?,director,1,1,0
+110,What is the position held by both alan dawson and sydney g dennis?,director,1,1,0
+110,What is the position held by both alia qaddumi and brendan heneghan?,director,1,1,0
+110,What is the position held by both alia qaddumi and david l berger?,director,1,1,0
+110,What is the position held by both alia qaddumi and kenneth chin?,director,1,1,0
+110,What is the position held by both alia qaddumi and sydney g dennis?,director,1,1,0
+110,What is the position held by both annie dorval and donna demagistris?,authorized signatory,1,1,0
+110,What is the position held by both annie dorval and jason s york?,authorized signatory,1,1,0
+110,What is the position held by both annie dorval and josh rosenthal?,authorized signatory,1,1,0
+110,What is the position held by both brendan heneghan and david l berger?,director,1,1,0
+110,What is the position held by both brendan heneghan and kenneth chin?,director,1,1,0
+110,What is the position held by both brendan heneghan and sydney g dennis?,director,1,1,0
+110,What is the position held by both david l berger and kenneth chin?,director,1,1,0
+110,What is the position held by both david l berger and sydney g dennis?,director,1,1,0
+110,What is the position held by both donna demagistris and jason s york?,authorized signatory,1,1,0
+110,What is the position held by both donna demagistris and josh rosenthal?,authorized signatory,1,1,0
+110,What is the position held by both jason s york and josh rosenthal?,authorized signatory,1,1,0
+110,What is the position held by both kenneth chin and sydney g dennis?,director,1,1,0
+110,What is the position held by both michael zeller and nathan starr?,vice president,1,1,0
+110,What is the position held by both michael zeller and traci bankston?,vice president,1,1,0
+110,What is the position held by both nathan starr and traci bankston?,vice president,1,1,0
+110,What is the position held by both stephen hoffman and yann pirio?,managing director,1,1,0
+104,What is the position held by both diane emanuel and steven aloupis?,managing director,1,1,0
+104,What is the position held by both diane emanuel and ted koerner?,managing director,1,1,0
+104,What is the position held by both jeffrey p fisher and john di legge?,vice president,1,1,0
+104,What is the position held by both jeffrey p fisher and mark irey?,vice president,1,1,0
+104,What is the position held by both jeffrey p fisher and michael vondriska?,vice president,1,1,0
+104,What is the position held by both jeffrey p fisher and robert kling?,vice president,1,1,0
+104,What is the position held by both jeffrey p fisher and sherlyn nelson?,vice president,1,1,0
+104,What is the position held by both john di legge and mark irey?,vice president,1,1,0
+104,What is the position held by both john di legge and michael vondriska?,vice president,1,1,0
+104,What is the position held by both john di legge and robert kling?,vice president,1,1,0
+104,What is the position held by both john di legge and sherlyn nelson?,vice president,1,1,0
+104,What is the position held by both kyle r holtz and lillian kim?,director,1,1,0
+104,What is the position held by both mark irey and michael vondriska?,vice president,1,1,0
+104,What is the position held by both mark irey and robert kling?,vice president,1,1,0
+104,What is the position held by both mark irey and sherlyn nelson?,vice president,1,1,0
+104,What is the position held by both michael vondriska and robert kling?,vice president,1,1,0
+104,What is the position held by both michael vondriska and sherlyn nelson?,vice president,1,1,0
+104,What is the position held by both robert kling and sherlyn nelson?,vice president,1,1,0
+104,What is the position held by both steven aloupis and ted koerner?,managing director,1,1,0
+138,What is the position held by both frederick h denecke and nicolas zitelli?,senior vice president,1,1,0
+139,What is the position held by both bertram h tang and savo bozic?,authorized signatory,1,1,0
+139,What is the position held by both bertram h tang and sheldon pinto?,authorized signatory,1,1,0
+139,What is the position held by both bertram h tang and michael king?,authorized signatory,1,1,0
+139,What is the position held by both cynthia w burton and kestrina budina?,director,1,1,0
+139,What is the position held by both cynthia w burton and linda tam?,director,1,1,0
+139,What is the position held by both cynthia w burton and ola anderssen?,director,1,1,0
+139,What is the position held by both cynthia w burton and peter c rogers?,director,1,1,0
+139,What is the position held by both david clark and david w kee?,managing director,1,1,0
+139,What is the position held by both david clark and tanya crossley?,managing director,1,1,0
+139,What is the position held by both david w kee and tanya crossley?,managing director,1,1,0
+139,What is the position held by both eric ridgway and lennie blakeslee?,vice president,1,1,0
+139,What is the position held by both eric ridgway and michael vondriska?,vice president,1,1,0
+139,What is the position held by both eric ridgway and ronnie glenn?,vice president,1,1,0
+139,What is the position held by both eric ridgway and michael king?,vice president,1,1,0
+139,What is the position held by both jay a brown and shivani agarwal?,senior vice president,1,1,0
+139,What is the position held by both kestrina budina and linda tam?,director,1,1,0
+139,What is the position held by both kestrina budina and ola anderssen?,director,1,1,0
+139,What is the position held by both kestrina budina and peter c rogers?,director,1,1,0
+139,What is the position held by both lennie blakeslee and michael vondriska?,vice president,1,1,0
+139,What is the position held by both lennie blakeslee and ronnie glenn?,vice president,1,1,0
+139,What is the position held by both lennie blakeslee and michael king?,vice president,1,1,0
+139,What is the position held by both linda tam and ola anderssen?,director,1,1,0
+139,What is the position held by both linda tam and peter c rogers?,director,1,1,0
+139,What is the position held by both michael vondriska and ronnie glenn?,vice president,1,1,0
+139,What is the position held by both michael vondriska and michael king?,vice president,1,1,0
+139,What is the position held by both ola anderssen and peter c rogers?,director,1,1,0
+139,What is the position held by both ronnie glenn and michael king?,vice president,1,1,0
+139,What is the position held by both savo bozic and sheldon pinto?,authorized signatory,1,1,0
+139,What is the position held by both savo bozic and michael king?,authorized signatory,1,1,0
+139,What is the position held by both sheldon pinto and michael king?,authorized signatory,1,1,0
+111,What is the position held by both bill seabrook and clive paul thomas?,director,1,1,0
+111,What is the position held by both bill seabrook and doug kennedy?,director,1,1,0
+111,What is the position held by both bill seabrook and duncan scott?,director,1,1,0
+111,What is the position held by both bill seabrook and eoin naughton?,director,1,1,0
+111,What is the position held by both bill seabrook and kevin chan?,director,1,1,0
+111,What is the position held by both clive paul thomas and doug kennedy?,director,1,1,0
+111,What is the position held by both clive paul thomas and duncan scott?,director,1,1,0
+111,What is the position held by both clive paul thomas and eoin naughton?,director,1,1,0
+111,What is the position held by both clive paul thomas and kevin chan?,director,1,1,0
+111,What is the position held by both doug kennedy and duncan scott?,director,1,1,0
+111,What is the position held by both doug kennedy and eoin naughton?,director,1,1,0
+111,What is the position held by both doug kennedy and kevin chan?,director,1,1,0
+111,What is the position held by both duncan scott and eoin naughton?,director,1,1,0
+111,What is the position held by both duncan scott and kevin chan?,director,1,1,0
+111,What is the position held by both eoin naughton and kevin chan?,director,1,1,0
+111,What is the position held by both guy bowker and jennifer miu?,chief financial officer,1,1,0
+10,What is the position held by both kenise henry larmond and michael king?,vice president,1,1,0
+10,What is the position held by both kenise henry larmond and shane m leary?,vice president,1,1,0
+10,What is the position held by both michael king and shane m leary?,vice president,1,1,0
+38,What is the position held by both albert l richey and joe hykle?,senior vice president,1,1,0
+38,What is the position held by both ann rhoads and david kee?,managing director,1,1,0
+38,What is the position held by both ann rhoads and dennis petito?,managing director,1,1,0
+38,What is the position held by both ann rhoads and michael willis?,managing director,1,1,0
+38,What is the position held by both ann rhoads and ross levitsky?,managing director,1,1,0
+38,What is the position held by both david kee and dennis petito?,managing director,1,1,0
+38,What is the position held by both david kee and michael willis?,managing director,1,1,0
+38,What is the position held by both david kee and ross levitsky?,managing director,1,1,0
+38,What is the position held by both dennis petito and michael willis?,managing director,1,1,0
+38,What is the position held by both dennis petito and ross levitsky?,managing director,1,1,0
+38,What is the position held by both diego medina and j frazell?,director,1,1,0
+38,What is the position held by both diego medina and kenneth chin?,director,1,1,0
+38,What is the position held by both diego medina and sherwin brandford?,director,1,1,0
+38,What is the position held by both diego medina and sriram chandrasekaran?,director,1,1,0
+38,What is the position held by both donna demagistris and michael king?,authorized signatory,1,1,0
+38,What is the position held by both donna demagistris and nupur kumar?,authorized signatory,1,1,0
+38,What is the position held by both donna demagistris and rebecca kratz?,authorized signatory,1,1,0
+38,What is the position held by both donna demagistris and stefan dickenmann?,authorized signatory,1,1,0
+38,What is the position held by both hussam s alsahlani and jamie grubb?,vice president,1,1,0
+38,What is the position held by both hussam s alsahlani and kenneth phelan?,vice president,1,1,0
+38,What is the position held by both hussam s alsahlani and maureen maroney?,vice president,1,1,0
+38,What is the position held by both hussam s alsahlani and ming k chu?,vice president,1,1,0
+38,What is the position held by both hussam s alsahlani and vanessa kurbatskiy?,vice president,1,1,0
+38,What is the position held by both j frazell and kenneth chin?,director,1,1,0
+38,What is the position held by both j frazell and sherwin brandford?,director,1,1,0
+38,What is the position held by both j frazell and sriram chandrasekaran?,director,1,1,0
+38,What is the position held by both jamie grubb and kenneth phelan?,vice president,1,1,0
+38,What is the position held by both jamie grubb and maureen maroney?,vice president,1,1,0
+38,What is the position held by both jamie grubb and ming k chu?,vice president,1,1,0
+38,What is the position held by both jamie grubb and vanessa kurbatskiy?,vice president,1,1,0
+38,What is the position held by both kenneth chin and sherwin brandford?,director,1,1,0
+38,What is the position held by both kenneth chin and sriram chandrasekaran?,director,1,1,0
+38,What is the position held by both kenneth phelan and maureen maroney?,vice president,1,1,0
+38,What is the position held by both kenneth phelan and ming k chu?,vice president,1,1,0
+38,What is the position held by both kenneth phelan and vanessa kurbatskiy?,vice president,1,1,0
+38,What is the position held by both maureen maroney and ming k chu?,vice president,1,1,0
+38,What is the position held by both maureen maroney and vanessa kurbatskiy?,vice president,1,1,0
+38,What is the position held by both michael king and nupur kumar?,authorized signatory,1,1,0
+38,What is the position held by both michael king and rebecca kratz?,authorized signatory,1,1,0
+38,What is the position held by both michael king and stefan dickenmann?,authorized signatory,1,1,0
+38,What is the position held by both michael willis and ross levitsky?,managing director,1,1,0
+38,What is the position held by both ming k chu and vanessa kurbatskiy?,vice president,1,1,0
+38,What is the position held by both nupur kumar and rebecca kratz?,authorized signatory,1,1,0
+38,What is the position held by both nupur kumar and stefan dickenmann?,authorized signatory,1,1,0
+38,What is the position held by both rebecca kratz and stefan dickenmann?,authorized signatory,1,1,0
+38,What is the position held by both sherwin brandford and sriram chandrasekaran?,director,1,1,0
+12,What is the position held by both j casey cosgrove and jack lonker?,director,1,1,0
+12,What is the position held by both j casey cosgrove and thilo huber?,director,1,1,0
+12,What is the position held by both jack lonker and thilo huber?,director,1,1,0
+12,What is the position held by both linh dang and tracy rahn?,authorized signatory,1,1,0
+12,What is the position held by both luca balestra and thomas foley?,managing director,1,1,0
+106,What is the position held by both kirkwood roland and lana gifas?,director,1,1,0
+106,What is the position held by both kirkwood roland and vanessa a kurbatskiy?,vice president,1,1,0
+106,What is the position held by both robert ehudin and thomas casey?,authorized signatory,1,1,0
+60,What is the position held by both bernadette collins and eric h williams?,senior vice president,1,1,0
+60,What is the position held by both bernadette collins and joshua dearmon?,senior vice president,1,1,0
+60,What is the position held by both bernadette collins and marc h crown?,senior vice president,1,1,0
+60,What is the position held by both bernadette collins and michael s barnett?,senior vice president,1,1,0
+60,What is the position held by both caroline smith and stephanie herndon?,assistant vice president,1,1,0
+60,What is the position held by both eric h williams and joshua dearmon?,senior vice president,1,1,0
+60,What is the position held by both eric h williams and marc h crown?,senior vice president,1,1,0
+60,What is the position held by both eric h williams and michael s barnett?,senior vice president,1,1,0
+60,What is the position held by both greg strauss and jason rinne?,director,1,1,0
+60,What is the position held by both greg strauss and oscar cortez?,director,1,1,0
+60,What is the position held by both harry yergey and michael maguire?,managing director,1,1,0
+60,What is the position held by both harry yergey and patrick hartweger?,managing director,1,1,0
+60,What is the position held by both jason rinne and oscar cortez?,director,1,1,0
+60,What is the position held by both joshua dearmon and marc h crown?,senior vice president,1,1,0
+60,What is the position held by both joshua dearmon and michael s barnett?,senior vice president,1,1,0
+60,What is the position held by both laura dodd and lukas coleman?,vice president,1,1,0
+60,What is the position held by both laura dodd and susan m olsen?,vice president,1,1,0
+60,What is the position held by both laura dodd and thor oconnell?,vice president,1,1,0
+60,What is the position held by both lukas coleman and susan m olsen?,vice president,1,1,0
+60,What is the position held by both lukas coleman and thor oconnell?,vice president,1,1,0
+60,What is the position held by both marc h crown and michael s barnett?,senior vice president,1,1,0
+60,What is the position held by both michael maguire and patrick hartweger?,managing director,1,1,0
+60,What is the position held by both ryan durkin and tracy rahn?,authorized signatory,1,1,0
+60,What is the position held by both susan m olsen and thor oconnell?,vice president,1,1,0
+74,What is the position held by both christopher day and karim rahimtoola?,authorized signatory,1,1,0
+74,What is the position held by both jon singer and nick hahn?,managing director,1,1,0
+74,What is the position held by both jon singer and stacy moritz?,managing director,1,1,0
+74,What is the position held by both jon singer and todd m koetje?,managing director,1,1,0
+74,What is the position held by both nick hahn and stacy moritz?,managing director,1,1,0
+74,What is the position held by both nick hahn and todd m koetje?,managing director,1,1,0
+74,What is the position held by both stacy moritz and todd m koetje?,managing director,1,1,0
+161,What is the position held by both joe white and thomas z schmitt?,vice president,1,1,0
+161,What is the position held by both john wilgus and sean apicella?,senior vice president,1,1,0
+161,What is the position held by both jonas robinson and ryan almond?,director,1,1,0
+160,What is the position held by both amanuel assefa and steve curran?,director,1,1,0
+160,What is the position held by both joseph siri and martin corrigan?,vice president,1,1,0
+160,What is the position held by both joseph siri and robert g shaw?,vice president,1,1,0
+160,What is the position held by both martin corrigan and robert g shaw?,vice president,1,1,0
+148,What is the position held by both craig malloy and jonathan eady?,director,1,1,0
+148,What is the position held by both craig malloy and katherine bass?,director,1,1,0
+148,What is the position held by both craig malloy and mukesh singh?,director,1,1,0
+148,What is the position held by both craig malloy and todd kennedy?,director,1,1,0
+148,What is the position held by both emily chott and jonathan f lindvall?,senior vice president,1,1,0
+148,What is the position held by both emily chott and r ruining nguyen?,senior vice president,1,1,0
+148,What is the position held by both greg strauss and p nicholas rogers?,managing director,1,1,0
+148,What is the position held by both jonathan eady and katherine bass?,director,1,1,0
+148,What is the position held by both jonathan eady and mukesh singh?,director,1,1,0
+148,What is the position held by both jonathan eady and todd kennedy?,director,1,1,0
+148,What is the position held by both jonathan f lindvall and r ruining nguyen?,senior vice president,1,1,0
+148,What is the position held by both karim remtoula and liliana claar?,vice president,1,1,0
+148,What is the position held by both karim remtoula and meng zhang?,vice president,1,1,0
+148,What is the position held by both karim remtoula and rumesha ahmed?,vice president,1,1,0
+148,What is the position held by both karim remtoula and will hicks?,vice president,1,1,0
+148,What is the position held by both katherine bass and mukesh singh?,director,1,1,0
+148,What is the position held by both katherine bass and todd kennedy?,director,1,1,0
+148,What is the position held by both liliana claar and meng zhang?,vice president,1,1,0
+148,What is the position held by both liliana claar and rumesha ahmed?,vice president,1,1,0
+148,What is the position held by both liliana claar and will hicks?,vice president,1,1,0
+148,What is the position held by both meng zhang and rumesha ahmed?,vice president,1,1,0
+148,What is the position held by both meng zhang and will hicks?,vice president,1,1,0
+148,What is the position held by both mukesh singh and todd kennedy?,director,1,1,0
+148,What is the position held by both rumesha ahmed and will hicks?,vice president,1,1,0
+49,What is the position held by both peter kim and michael buckley?,chief executive officer,1,1,0
+61,What is the position held by both amanuel assefa and bridgett j manduk mowry?,vice president,1,1,0
+61,What is the position held by both amanuel assefa and christopher shafto?,vice president,1,1,0
+61,What is the position held by both amanuel assefa and jim cahow?,vice president,1,1,0
+61,What is the position held by both amanuel assefa and liz cheng?,vice president,1,1,0
+61,What is the position held by both amanuel assefa and maria riaz?,vice president,1,1,0
+61,What is the position held by both amanuel assefa and marko lukin?,vice president,1,1,0
+61,What is the position held by both bridgett j manduk mowry and christopher shafto?,vice president,1,1,0
+61,What is the position held by both bridgett j manduk mowry and jim cahow?,vice president,1,1,0
+61,What is the position held by both bridgett j manduk mowry and liz cheng?,vice president,1,1,0
+61,What is the position held by both bridgett j manduk mowry and maria riaz?,vice president,1,1,0
+61,What is the position held by both bridgett j manduk mowry and marko lukin?,vice president,1,1,0
+61,What is the position held by both christopher shafto and jim cahow?,vice president,1,1,0
+61,What is the position held by both christopher shafto and liz cheng?,vice president,1,1,0
+61,What is the position held by both christopher shafto and maria riaz?,vice president,1,1,0
+61,What is the position held by both christopher shafto and marko lukin?,vice president,1,1,0
+61,What is the position held by both jim cahow and liz cheng?,vice president,1,1,0
+61,What is the position held by both jim cahow and maria riaz?,vice president,1,1,0
+61,What is the position held by both jim cahow and marko lukin?,vice president,1,1,0
+61,What is the position held by both jim cahow and ming k chu?,director,1,1,0
+61,What is the position held by both liz cheng and maria riaz?,vice president,1,1,0
+61,What is the position held by both liz cheng and marko lukin?,vice president,1,1,0
+61,What is the position held by both maria riaz and marko lukin?,vice president,1,1,0
+77,What is the position held by both blair w todt and david c mruk?,senior vice president,1,1,0
+77,What is the position held by both blair w todt and kenneth c misemer?,senior vice president,1,1,0
+77,What is the position held by both blair w todt and mark hardison?,senior vice president,1,1,0
+77,What is the position held by both david c mruk and kenneth c misemer?,senior vice president,1,1,0
+77,What is the position held by both david c mruk and mark hardison?,senior vice president,1,1,0
+77,What is the position held by both katherine bass and matthew olson?,director,1,1,0
+77,What is the position held by both katherine bass and teuta ghilaga?,director,1,1,0
+77,What is the position held by both kenneth c misemer and mark hardison?,senior vice president,1,1,0
+77,What is the position held by both matthew olson and teuta ghilaga?,director,1,1,0
+162,What is the position held by both ivan davey and michael king?,vice president,1,1,0
+162,What is the position held by both jay fort and michael rasmuson?,senior vice president,1,1,0
+162,What is the position held by both michael j niedermaier and mark d andrews?,president,1,1,0
+89,What is the position held by both james pekarek and matthew mccabe?,cfo,1,1,0
+62,What is the position held by both annie dorval and brian macfarlane?,authorized signatory,1,1,0
+72,What is the position held by both carolyn kee and craig a douglas?,vice president,1,1,0
+66,What is the position held by both ben snodgrass and tanille ingle?,vice president,1,1,0
+66,What is the position held by both bret douglas and joseph d hricovsky?,senior vice president,1,1,0
+66,What is the position held by both bret douglas and kathryn e benjamin?,senior vice president,1,1,0
+66,What is the position held by both bret douglas and kristie li?,senior vice president,1,1,0
+66,What is the position held by both bret douglas and tom priedeman?,senior vice president,1,1,0
+66,What is the position held by both cecile segovia and kevin wood?,director,1,1,0
+66,What is the position held by both cecile segovia and ronnie glenn?,director,1,1,0
+66,What is the position held by both darin mullis and erin robinson?,managing director,1,1,0
+66,What is the position held by both joseph d hricovsky and kathryn e benjamin?,senior vice president,1,1,0
+66,What is the position held by both joseph d hricovsky and kristie li?,senior vice president,1,1,0
+66,What is the position held by both joseph d hricovsky and tom priedeman?,senior vice president,1,1,0
+66,What is the position held by both kathryn e benjamin and kristie li?,senior vice president,1,1,0
+66,What is the position held by both kathryn e benjamin and tom priedeman?,senior vice president,1,1,0
+66,What is the position held by both kevin wood and ronnie glenn?,director,1,1,0
+66,What is the position held by both kristie li and tom priedeman?,senior vice president,1,1,0
+99,What is the position held by both adriaan weststrate and scott c tocci?,managing director,1,1,0
+99,What is the position held by both adriaan weststrate and stephen a leon?,managing director,1,1,0
+99,What is the position held by both anne h lovette and carol s titus?,senior vice president,1,1,0
+99,What is the position held by both anne h lovette and john thurman?,senior vice president,1,1,0
+99,What is the position held by both anne h lovette and r andrew beam?,senior vice president,1,1,0
+99,What is the position held by both anne h lovette and robert j beckley?,senior vice president,1,1,0
+99,What is the position held by both anne h lovette and william h diehl?,senior vice president,1,1,0
+99,What is the position held by both carol s titus and john thurman?,senior vice president,1,1,0
+99,What is the position held by both carol s titus and r andrew beam?,senior vice president,1,1,0
+99,What is the position held by both carol s titus and robert j beckley?,senior vice president,1,1,0
+99,What is the position held by both carol s titus and william h diehl?,senior vice president,1,1,0
+99,What is the position held by both henry spark and jeff pavlik?,vice president,1,1,0
+99,What is the position held by both henry spark and laura daily?,vice president,1,1,0
+99,What is the position held by both henry spark and lisa r cook?,vice president,1,1,0
+99,What is the position held by both henry spark and steven dixon?,vice president,1,1,0
+99,What is the position held by both jeff pavlik and laura daily?,vice president,1,1,0
+99,What is the position held by both jeff pavlik and lisa r cook?,vice president,1,1,0
+99,What is the position held by both jeff pavlik and steven dixon?,vice president,1,1,0
+99,What is the position held by both john thurman and r andrew beam?,senior vice president,1,1,0
+99,What is the position held by both john thurman and robert j beckley?,senior vice president,1,1,0
+99,What is the position held by both john thurman and william h diehl?,senior vice president,1,1,0
+99,What is the position held by both laura daily and lisa r cook?,vice president,1,1,0
+99,What is the position held by both laura daily and steven dixon?,vice president,1,1,0
+99,What is the position held by both lisa r cook and steven dixon?,vice president,1,1,0
+99,What is the position held by both r andrew beam and robert j beckley?,senior vice president,1,1,0
+99,What is the position held by both r andrew beam and william h diehl?,senior vice president,1,1,0
+99,What is the position held by both robert j beckley and william h diehl?,senior vice president,1,1,0
+99,What is the position held by both s victoria harvey and doug couvillion?,president,1,1,0
+99,What is the position held by both s victoria harvey and nick flanagan?,president,1,1,0
+99,What is the position held by both scott c tocci and stephen a leon?,managing director,1,1,0
+99,What is the position held by both doug couvillion and nick flanagan?,president,1,1,0
+67,What is the position held by both dennis m lanfear and pedro gonzalez de cosio?,ceo,1,1,0
+73,What is the position held by both benjamin souh and don b pinzon?,vice president,1,1,0
+73,What is the position held by both benjamin souh and j david izard?,vice president,1,1,0
+73,What is the position held by both benjamin souh and marie f harrison?,vice president,1,1,0
+73,What is the position held by both benjamin souh and michael chanin?,vice president,1,1,0
+73,What is the position held by both benjamin souh and peter cucchiara?,vice president,1,1,0
+73,What is the position held by both clifford abramsky and marcus edward?,managing director,1,1,0
+73,What is the position held by both clifford abramsky and thomas c king jr?,managing director,1,1,0
+73,What is the position held by both don b pinzon and j david izard?,vice president,1,1,0
+73,What is the position held by both don b pinzon and marie f harrison?,vice president,1,1,0
+73,What is the position held by both don b pinzon and michael chanin?,vice president,1,1,0
+73,What is the position held by both don b pinzon and peter cucchiara?,vice president,1,1,0
+73,What is the position held by both j david izard and marie f harrison?,vice president,1,1,0
+73,What is the position held by both j david izard and michael chanin?,vice president,1,1,0
+73,What is the position held by both j david izard and peter cucchiara?,vice president,1,1,0
+73,What is the position held by both karim rahimtoola and vipul dhadda?,authorized signatory,1,1,0
+73,What is the position held by both lindsey mcgraw and ola anderssen?,director,1,1,0
+73,What is the position held by both lindsey mcgraw and srbui seferian cfa?,director,1,1,0
+73,What is the position held by both marcus edward and thomas c king jr?,managing director,1,1,0
+73,What is the position held by both marie f harrison and michael chanin?,vice president,1,1,0
+73,What is the position held by both marie f harrison and peter cucchiara?,vice president,1,1,0
+73,What is the position held by both michael chanin and peter cucchiara?,vice president,1,1,0
+73,What is the position held by both ola anderssen and srbui seferian cfa?,director,1,1,0
+9,What is the position held by both ann e sutton and mikhail faybusovich?,director,1,1,0
+9,What is the position held by both eric searls and jonathan m phillips?,senior vice president,1,1,0
+9,What is the position held by both eric searls and mark e newman?,senior vice president,1,1,0
+9,What is the position held by both james disher and mark walton?,authorized signatory,1,1,0
+9,What is the position held by both jonathan m phillips and mark e newman?,senior vice president,1,1,0
+65,What is the position held by both andrew griffin and thomas manning?,authorized signatory,1,1,0
+65,What is the position held by both andrew griffin and whitney gaston?,authorized signatory,1,1,0
+65,What is the position held by both lise hinton and matthew j bradley?,senior vice president,1,1,0
+65,What is the position held by both philip tancorra and yumi okabe?,vice president,1,1,0
+65,What is the position held by both thomas manning and whitney gaston?,authorized signatory,1,1,0
+164,What is the position held by both adam hensley and alex harrison?,vice president,1,1,0
+164,What is the position held by both adam hensley and jess adams?,vice president,1,1,0
+164,What is the position held by both adam hensley and marty mcdonald?,vice president,1,1,0
+164,What is the position held by both alex harrison and jess adams?,vice president,1,1,0
+164,What is the position held by both alex harrison and marty mcdonald?,vice president,1,1,0
+164,What is the position held by both jess adams and marty mcdonald?,vice president,1,1,0
+170,What is the position held by both diane emanuel and susan t gallagher?,managing director,1,1,0
+170,What is the position held by both jason fuqua and matthew gregg?,vice president,1,1,0
+170,What is the position held by both jason fuqua and michael vondriska?,vice president,1,1,0
+170,What is the position held by both jason fuqua and richard lautch?,vice president,1,1,0
+170,What is the position held by both jason fuqua and tony wong?,vice president,1,1,0
+170,What is the position held by both matthew gregg and michael vondriska?,vice president,1,1,0
+170,What is the position held by both matthew gregg and richard lautch?,vice president,1,1,0
+170,What is the position held by both matthew gregg and tony wong?,vice president,1,1,0
+170,What is the position held by both michael vondriska and richard lautch?,vice president,1,1,0
+170,What is the position held by both michael vondriska and tony wong?,vice president,1,1,0
+170,What is the position held by both richard lautch and tony wong?,vice president,1,1,0
+165,What is the position held by both annie carr and charles shaw?,authorized signatory,1,1,0
+165,What is the position held by both annie carr and gordon macarthur?,authorized signatory,1,1,0
+165,What is the position held by both annie carr and tracy rahn?,authorized signatory,1,1,0
+165,What is the position held by both bridgett j manduk mowry and brigitte m sinclair?,vice president,1,1,0
+165,What is the position held by both bridgett j manduk mowry and johan nystedt?,vice president,1,1,0
+165,What is the position held by both bridgett j manduk mowry and pacella lehane?,vice president,1,1,0
+165,What is the position held by both bridgett j manduk mowry and ryan zimmerman?,vice president,1,1,0
+165,What is the position held by both brigitte m sinclair and johan nystedt?,vice president,1,1,0
+165,What is the position held by both brigitte m sinclair and pacella lehane?,vice president,1,1,0
+165,What is the position held by both brigitte m sinclair and ryan zimmerman?,vice president,1,1,0
+165,What is the position held by both charles shaw and gordon macarthur?,authorized signatory,1,1,0
+165,What is the position held by both charles shaw and tracy rahn?,authorized signatory,1,1,0
+165,What is the position held by both gordon macarthur and tracy rahn?,authorized signatory,1,1,0
+165,What is the position held by both j casey cosgrove and ole koppang?,director,1,1,0
+165,What is the position held by both j casey cosgrove and sangeeta shah?,director,1,1,0
+165,What is the position held by both j casey cosgrove and tesha winslow?,director,1,1,0
+165,What is the position held by both johan nystedt and pacella lehane?,vice president,1,1,0
+165,What is the position held by both johan nystedt and ryan zimmerman?,vice president,1,1,0
+165,What is the position held by both ole koppang and sangeeta shah?,director,1,1,0
+165,What is the position held by both ole koppang and tesha winslow?,director,1,1,0
+165,What is the position held by both pacella lehane and ryan zimmerman?,vice president,1,1,0
+165,What is the position held by both sangeeta shah and tesha winslow?,director,1,1,0
+64,What is the position held by both doreen barr and komal shah?,authorized signatory,1,1,0
+64,What is the position held by both doreen barr and thomas manning?,authorized signatory,1,1,0
+64,What is the position held by both komal shah and thomas manning?,authorized signatory,1,1,0
+64,What is the position held by both martin corrigan and michael king?,vice president,1,1,0
+64,What is the position held by both martin corrigan and richard w jantzen iii?,vice president,1,1,0
+64,What is the position held by both michael king and richard w jantzen iii?,vice president,1,1,0
+58,What is the position held by both michael fleming and dennis m lanfear?,president,1,1,0
+41,What is the position held by both ann m meade and david nussbaum?,senior vice president,1,1,0
+41,What is the position held by both ann m meade and deborah a colony?,senior vice president,1,1,0
+41,What is the position held by both ann m meade and marc j lubelczyk?,senior vice president,1,1,0
+41,What is the position held by both ann m meade and marina e grossi?,senior vice president,1,1,0
+41,What is the position held by both ann m meade and martin h dodd?,senior vice president,1,1,0
+41,What is the position held by both ann m meade and mitchell b feldman?,senior vice president,1,1,0
+41,What is the position held by both david nussbaum and deborah a colony?,senior vice president,1,1,0
+41,What is the position held by both david nussbaum and marc j lubelczyk?,senior vice president,1,1,0
+41,What is the position held by both david nussbaum and marina e grossi?,senior vice president,1,1,0
+41,What is the position held by both david nussbaum and martin h dodd?,senior vice president,1,1,0
+41,What is the position held by both david nussbaum and mitchell b feldman?,senior vice president,1,1,0
+41,What is the position held by both deborah a colony and marc j lubelczyk?,senior vice president,1,1,0
+41,What is the position held by both deborah a colony and marina e grossi?,senior vice president,1,1,0
+41,What is the position held by both deborah a colony and martin h dodd?,senior vice president,1,1,0
+41,What is the position held by both deborah a colony and mitchell b feldman?,senior vice president,1,1,0
+41,What is the position held by both marc j lubelczyk and marina e grossi?,senior vice president,1,1,0
+41,What is the position held by both marc j lubelczyk and martin h dodd?,senior vice president,1,1,0
+41,What is the position held by both marc j lubelczyk and mitchell b feldman?,senior vice president,1,1,0
+41,What is the position held by both marina e grossi and martin h dodd?,senior vice president,1,1,0
+41,What is the position held by both marina e grossi and mitchell b feldman?,senior vice president,1,1,0
+41,What is the position held by both martin h dodd and mitchell b feldman?,senior vice president,1,1,0
+82,What is the position held by both anthony pantina and david c francisco?,vice president,1,1,0
+82,What is the position held by both anthony pantina and david m crane?,vice president,1,1,0
+82,What is the position held by both anthony pantina and jennifer hwang?,vice president,1,1,0
+82,What is the position held by both anthony pantina and vanessa a kurbatskiy?,vice president,1,1,0
+82,What is the position held by both anthony pantina and john l healy?,vice president,1,1,0
+82,What is the position held by both d scott farquhar and david a carroll?,senior vice president,1,1,0
+82,What is the position held by both d scott farquhar and michael richards?,senior vice president,1,1,0
+82,What is the position held by both d scott farquhar and shreya shah?,senior vice president,1,1,0
+82,What is the position held by both david a carroll and michael richards?,senior vice president,1,1,0
+82,What is the position held by both david a carroll and shreya shah?,senior vice president,1,1,0
+82,What is the position held by both david c francisco and david m crane?,vice president,1,1,0
+82,What is the position held by both david c francisco and jennifer hwang?,vice president,1,1,0
+82,What is the position held by both david c francisco and vanessa a kurbatskiy?,vice president,1,1,0
+82,What is the position held by both david c francisco and john l healy?,vice president,1,1,0
+82,What is the position held by both david m crane and jennifer hwang?,vice president,1,1,0
+82,What is the position held by both david m crane and vanessa a kurbatskiy?,vice president,1,1,0
+82,What is the position held by both david m crane and john l healy?,vice president,1,1,0
+82,What is the position held by both jennifer hwang and vanessa a kurbatskiy?,vice president,1,1,0
+82,What is the position held by both jennifer hwang and john l healy?,vice president,1,1,0
+82,What is the position held by both michael richards and shreya shah?,senior vice president,1,1,0
+82,What is the position held by both scott oconnell and william mcginty?,director,1,1,0
+82,What is the position held by both scott oconnell and zubin r shroff?,director,1,1,0
+82,What is the position held by both vanessa a kurbatskiy and john l healy?,vice president,1,1,0
+82,What is the position held by both william mcginty and zubin r shroff?,director,1,1,0
+168,What is the position held by both carolyn a kee and robert t paternostro?,vice president,1,1,0
+96,What is the position held by both larry d cheek and mike hoyl?,executive vice president,1,1,0
+96,What is the position held by both terry horn and terry r horn?,vice president and treasurer,1,1,0
+140,What is the position held by both tony traynor and demetrios tserpelis?,director,1,1,0
+140,What is the position held by both tony traynor and sean mckinley?,director,1,1,0
+140,What is the position held by both william graham and demetrios tserpelis?,authorized signatory,1,1,0
+140,What is the position held by both demetrios tserpelis and sean mckinley?,director,1,1,0
+155,What is the position held by both michael pope and patrick foley?,directors,1,1,0
+141,What is the position held by both andrew d holtz and david w dinella?,senior vice president,1,1,0
+141,What is the position held by both andrew d holtz and thomas e redmond?,senior vice president,1,1,0
+141,What is the position held by both andrew d holtz and vijay prasad?,senior vice president,1,1,0
+141,What is the position held by both david w dinella and thomas e redmond?,senior vice president,1,1,0
+141,What is the position held by both david w dinella and vijay prasad?,senior vice president,1,1,0
+141,What is the position held by both jeff skalka and renee m bonnell?,vice president,1,1,0
+141,What is the position held by both jeff skalka and richard r powell?,vice president,1,1,0
+141,What is the position held by both renee m bonnell and richard r powell?,vice president,1,1,0
+141,What is the position held by both thomas e redmond and vijay prasad?,senior vice president,1,1,0
+169,What is the position held by both anwar s young and john m olsen?,authorized signatory,1,1,0
+169,What is the position held by both anwar s young and mark walton?,authorized signatory,1,1,0
+169,What is the position held by both anwar s young and noam s azachi?,authorized signatory,1,1,0
+169,What is the position held by both jeff bliss and joseph b johnson?,vice president,1,1,0
+169,What is the position held by both john m olsen and mark walton?,authorized signatory,1,1,0
+169,What is the position held by both john m olsen and noam s azachi?,authorized signatory,1,1,0
+169,What is the position held by both mark walton and noam s azachi?,authorized signatory,1,1,0
+83,What is the position held by both andrew hietala and michael dixon?,senior vice president,1,1,0
+83,What is the position held by both andrew hietala and michael ray?,senior vice president,1,1,0
+83,What is the position held by both andrew hietala and rita e dillon?,senior vice president,1,1,0
+83,What is the position held by both andrew hietala and steve levi?,senior vice president,1,1,0
+83,What is the position held by both andrew hietala and steve ryan?,senior vice president,1,1,0
+83,What is the position held by both bertram h tang and sheldon pinto?,authorized signatory,1,1,0
+83,What is the position held by both charles de clapiers and elizabeth willi?,vice president,1,1,0
+83,What is the position held by both charles de clapiers and jeannette lu?,vice president,1,1,0
+83,What is the position held by both charles de clapiers and johnetta bush?,vice president,1,1,0
+83,What is the position held by both charles de clapiers and joseph carrillo?,vice president,1,1,0
+83,What is the position held by both charles de clapiers and mark c skrzynski?,vice president,1,1,0
+83,What is the position held by both charles de clapiers and maureen p maroney?,vice president,1,1,0
+83,What is the position held by both charles de clapiers and rian dubach?,vice president,1,1,0
+83,What is the position held by both charles de clapiers and richard j ameny jr?,vice president,1,1,0
+83,What is the position held by both charles de clapiers and sandy lee?,vice president,1,1,0
+83,What is the position held by both charles de clapiers and shibani faehnle?,vice president,1,1,0
+83,What is the position held by both charles de clapiers and susan takeda?,vice president,1,1,0
+83,What is the position held by both elizabeth willi and jeannette lu?,vice president,1,1,0
+83,What is the position held by both elizabeth willi and johnetta bush?,vice president,1,1,0
+83,What is the position held by both elizabeth willi and joseph carrillo?,vice president,1,1,0
+83,What is the position held by both elizabeth willi and mark c skrzynski?,vice president,1,1,0
+83,What is the position held by both elizabeth willi and maureen p maroney?,vice president,1,1,0
+83,What is the position held by both elizabeth willi and rian dubach?,vice president,1,1,0
+83,What is the position held by both elizabeth willi and richard j ameny jr?,vice president,1,1,0
+83,What is the position held by both elizabeth willi and sandy lee?,vice president,1,1,0
+83,What is the position held by both elizabeth willi and shibani faehnle?,vice president,1,1,0
+83,What is the position held by both elizabeth willi and susan takeda?,vice president,1,1,0
+83,What is the position held by both eric chen and jane chang?,vp and general manager,1,1,0
+83,What is the position held by both eric chen and kang yang?,vp and general manager,1,1,0
+83,What is the position held by both eric chen and li hua huang?,vp and general manager,1,1,0
+83,What is the position held by both eugene dempsey and lacy houstoun?,director,1,1,0
+83,What is the position held by both eugene dempsey and michael miller?,director,1,1,0
+83,What is the position held by both eugene dempsey and richard ong pho?,director,1,1,0
+83,What is the position held by both eugene dempsey and todd rodgers?,director,1,1,0
+83,What is the position held by both haiyong yang and ralph wu?,svp and branch manager,1,1,0
+83,What is the position held by both henry c r leu and hsiao ho huang?,svp and general manager,1,1,0
+83,What is the position held by both jane chang and kang yang?,vp and general manager,1,1,0
+83,What is the position held by both jane chang and li hua huang?,vp and general manager,1,1,0
+83,What is the position held by both jeannette lu and johnetta bush?,vice president,1,1,0
+83,What is the position held by both jeannette lu and joseph carrillo?,vice president,1,1,0
+83,What is the position held by both jeannette lu and mark c skrzynski?,vice president,1,1,0
+83,What is the position held by both jeannette lu and maureen p maroney?,vice president,1,1,0
+83,What is the position held by both jeannette lu and rian dubach?,vice president,1,1,0
+83,What is the position held by both jeannette lu and richard j ameny jr?,vice president,1,1,0
+83,What is the position held by both jeannette lu and sandy lee?,vice president,1,1,0
+83,What is the position held by both jeannette lu and shibani faehnle?,vice president,1,1,0
+83,What is the position held by both jeannette lu and susan takeda?,vice president,1,1,0
+83,What is the position held by both johnetta bush and joseph carrillo?,vice president,1,1,0
+83,What is the position held by both johnetta bush and mark c skrzynski?,vice president,1,1,0
+83,What is the position held by both johnetta bush and maureen p maroney?,vice president,1,1,0
+83,What is the position held by both johnetta bush and rian dubach?,vice president,1,1,0
+83,What is the position held by both johnetta bush and richard j ameny jr?,vice president,1,1,0
+83,What is the position held by both johnetta bush and sandy lee?,vice president,1,1,0
+83,What is the position held by both johnetta bush and shibani faehnle?,vice president,1,1,0
+83,What is the position held by both johnetta bush and susan takeda?,vice president,1,1,0
+83,What is the position held by both joseph carrillo and mark c skrzynski?,vice president,1,1,0
+83,What is the position held by both joseph carrillo and maureen p maroney?,vice president,1,1,0
+83,What is the position held by both joseph carrillo and rian dubach?,vice president,1,1,0
+83,What is the position held by both joseph carrillo and richard j ameny jr?,vice president,1,1,0
+83,What is the position held by both joseph carrillo and sandy lee?,vice president,1,1,0
+83,What is the position held by both joseph carrillo and shibani faehnle?,vice president,1,1,0
+83,What is the position held by both joseph carrillo and susan takeda?,vice president,1,1,0
+83,What is the position held by both kang yang and li hua huang?,vp and general manager,1,1,0
+83,What is the position held by both lacy houstoun and michael miller?,director,1,1,0
+83,What is the position held by both lacy houstoun and richard ong pho?,director,1,1,0
+83,What is the position held by both lacy houstoun and todd rodgers?,director,1,1,0
+83,What is the position held by both mark c skrzynski and maureen p maroney?,vice president,1,1,0
+83,What is the position held by both mark c skrzynski and rian dubach?,vice president,1,1,0
+83,What is the position held by both mark c skrzynski and richard j ameny jr?,vice president,1,1,0
+83,What is the position held by both mark c skrzynski and sandy lee?,vice president,1,1,0
+83,What is the position held by both mark c skrzynski and shibani faehnle?,vice president,1,1,0
+83,What is the position held by both mark c skrzynski and susan takeda?,vice president,1,1,0
+83,What is the position held by both maureen p maroney and rian dubach?,vice president,1,1,0
+83,What is the position held by both maureen p maroney and richard j ameny jr?,vice president,1,1,0
+83,What is the position held by both maureen p maroney and sandy lee?,vice president,1,1,0
+83,What is the position held by both maureen p maroney and shibani faehnle?,vice president,1,1,0
+83,What is the position held by both maureen p maroney and susan takeda?,vice president,1,1,0
+83,What is the position held by both michael dixon and michael ray?,senior vice president,1,1,0
+83,What is the position held by both michael dixon and rita e dillon?,senior vice president,1,1,0
+83,What is the position held by both michael dixon and steve levi?,senior vice president,1,1,0
+83,What is the position held by both michael dixon and steve ryan?,senior vice president,1,1,0
+83,What is the position held by both michael miller and richard ong pho?,director,1,1,0
+83,What is the position held by both michael miller and todd rodgers?,director,1,1,0
+83,What is the position held by both michael ray and rita e dillon?,senior vice president,1,1,0
+83,What is the position held by both michael ray and steve levi?,senior vice president,1,1,0
+83,What is the position held by both michael ray and steve ryan?,senior vice president,1,1,0
+83,What is the position held by both rian dubach and richard j ameny jr?,vice president,1,1,0
+83,What is the position held by both rian dubach and sandy lee?,vice president,1,1,0
+83,What is the position held by both rian dubach and shibani faehnle?,vice president,1,1,0
+83,What is the position held by both rian dubach and susan takeda?,vice president,1,1,0
+83,What is the position held by both richard j ameny jr and sandy lee?,vice president,1,1,0
+83,What is the position held by both richard j ameny jr and shibani faehnle?,vice president,1,1,0
+83,What is the position held by both richard j ameny jr and susan takeda?,vice president,1,1,0
+83,What is the position held by both richard ong pho and todd rodgers?,director,1,1,0
+83,What is the position held by both rita e dillon and steve levi?,senior vice president,1,1,0
+83,What is the position held by both rita e dillon and steve ryan?,senior vice president,1,1,0
+83,What is the position held by both sandy lee and shibani faehnle?,vice president,1,1,0
+83,What is the position held by both sandy lee and susan takeda?,vice president,1,1,0
+83,What is the position held by both shibani faehnle and susan takeda?,vice president,1,1,0
+83,What is the position held by both shuji yabe and suzanne m rode?,managing director,1,1,0
+83,What is the position held by both steve levi and steve ryan?,senior vice president,1,1,0
+83,What is the position held by both tim leyden and timothy leyden?,chief financial officer,1,1,0
+68,What is the position held by both john f simon and john wilgus?,senior vice president,1,1,0
+68,What is the position held by both john f simon and kerri colwell?,senior vice president,1,1,0
+68,What is the position held by both john wilgus and kerri colwell?,senior vice president,1,1,0
+68,What is the position held by both jonas l robinson and t barrett vawter?,director,1,1,0
+54,What is the position held by both chuckie reddy and jonathan olsen?,managing director,1,1,0
+40,What is the position held by both edward j chidiac and james cribbet?,senior vice president,1,1,0
+56,What is the position held by both chris walton and darlene arias?,director,1,1,0
+56,What is the position held by both chris walton and kenneth chin?,director,1,1,0
+56,What is the position held by both d andrew maletta and judith smith?,authorized signatory,1,1,0
+56,What is the position held by both d andrew maletta and melissa james?,authorized signatory,1,1,0
+56,What is the position held by both d andrew maletta and rebecca kratz?,authorized signatory,1,1,0
+56,What is the position held by both darlene arias and kenneth chin?,director,1,1,0
+56,What is the position held by both judith smith and melissa james?,authorized signatory,1,1,0
+56,What is the position held by both judith smith and rebecca kratz?,authorized signatory,1,1,0
+56,What is the position held by both melissa james and rebecca kratz?,authorized signatory,1,1,0
+4,What is the position held by both frank byrne and ronnie glen?,vice president,1,1,0
+42,What is the position held by both alan garson and michael j bufano?,senior vice president,1,1,0
+42,What is the position held by both anthony luppino and kelly weaver?,vice president,1,1,0
+42,What is the position held by both anthony luppino and maureen s malphus?,vice president,1,1,0
+42,What is the position held by both anthony luppino and paul spearing?,vice president,1,1,0
+42,What is the position held by both helene p sprung and jay r goldstein?,managing director,1,1,0
+42,What is the position held by both kelly weaver and maureen s malphus?,vice president,1,1,0
+42,What is the position held by both kelly weaver and paul spearing?,vice president,1,1,0
+42,What is the position held by both maureen s malphus and paul spearing?,vice president,1,1,0
+95,What is the position held by both angela lau and yinghua zhang?,vice president,1,1,0
+143,What is the position held by both anthony luppino and maureen malphus?,vice president,1,1,0
+143,What is the position held by both anthony luppino and michael h keith?,vice president,1,1,0
+143,What is the position held by both anthony luppino and ravi pillay?,vice president,1,1,0
+143,What is the position held by both maureen malphus and michael h keith?,vice president,1,1,0
+143,What is the position held by both maureen malphus and ravi pillay?,vice president,1,1,0
+143,What is the position held by both michael h keith and ravi pillay?,vice president,1,1,0
+142,What is the position held by both anar ramji and brian l banke?,director,1,1,0
+142,What is the position held by both anar ramji and gordon yip?,director,1,1,0
+142,What is the position held by both anar ramji and james campbell?,director,1,1,0
+142,What is the position held by both anar ramji and john s mcgill?,director,1,1,0
+142,What is the position held by both anar ramji and michael linder?,director,1,1,0
+142,What is the position held by both anar ramji and michael zeller?,director,1,1,0
+142,What is the position held by both anar ramji and ming k chu?,director,1,1,0
+142,What is the position held by both brian l banke and gordon yip?,director,1,1,0
+142,What is the position held by both brian l banke and james campbell?,director,1,1,0
+142,What is the position held by both brian l banke and john s mcgill?,director,1,1,0
+142,What is the position held by both brian l banke and michael linder?,director,1,1,0
+142,What is the position held by both brian l banke and michael zeller?,director,1,1,0
+142,What is the position held by both brian l banke and ming k chu?,director,1,1,0
+142,What is the position held by both christine r johnston and jon a dobson?,corporate secretary,1,1,0
+142,What is the position held by both gordon yip and james campbell?,director,1,1,0
+142,What is the position held by both gordon yip and john s mcgill?,director,1,1,0
+142,What is the position held by both gordon yip and michael linder?,director,1,1,0
+142,What is the position held by both gordon yip and michael zeller?,director,1,1,0
+142,What is the position held by both gordon yip and ming k chu?,director,1,1,0
+142,What is the position held by both james campbell and john s mcgill?,director,1,1,0
+142,What is the position held by both james campbell and michael linder?,director,1,1,0
+142,What is the position held by both james campbell and michael zeller?,director,1,1,0
+142,What is the position held by both james campbell and ming k chu?,director,1,1,0
+142,What is the position held by both james d weinstein and jeff ferrell?,managing director,1,1,0
+142,What is the position held by both james d weinstein and randy geislinger?,managing director,1,1,0
+142,What is the position held by both james d weinstein and rob mackinnon?,managing director,1,1,0
+142,What is the position held by both jeff ferrell and randy geislinger?,managing director,1,1,0
+142,What is the position held by both jeff ferrell and rob mackinnon?,managing director,1,1,0
+142,What is the position held by both john niedermier and lexanne cooper?,authorized signatory,1,1,0
+142,What is the position held by both john niedermier and mark williamson?,authorized signatory,1,1,0
+142,What is the position held by both john niedermier and szymon ordys?,authorized signatory,1,1,0
+142,What is the position held by both john niedermier and tammy oldenburg?,authorized signatory,1,1,0
+142,What is the position held by both john niedermier and tim vandegriend?,authorized signatory,1,1,0
+142,What is the position held by both john s mcgill and michael linder?,director,1,1,0
+142,What is the position held by both john s mcgill and michael zeller?,director,1,1,0
+142,What is the position held by both john s mcgill and ming k chu?,director,1,1,0
+142,What is the position held by both lexanne cooper and mark williamson?,authorized signatory,1,1,0
+142,What is the position held by both lexanne cooper and szymon ordys?,authorized signatory,1,1,0
+142,What is the position held by both lexanne cooper and tammy oldenburg?,authorized signatory,1,1,0
+142,What is the position held by both lexanne cooper and tim vandegriend?,authorized signatory,1,1,0
+142,What is the position held by both marguerite sutton and todd vaubel?,vice president,1,1,0
+142,What is the position held by both mark williamson and szymon ordys?,authorized signatory,1,1,0
+142,What is the position held by both mark williamson and tammy oldenburg?,authorized signatory,1,1,0
+142,What is the position held by both mark williamson and tim vandegriend?,authorized signatory,1,1,0
+142,What is the position held by both michael linder and michael zeller?,director,1,1,0
+142,What is the position held by both michael linder and ming k chu?,director,1,1,0
+142,What is the position held by both michael zeller and ming k chu?,director,1,1,0
+142,What is the position held by both randy geislinger and rob mackinnon?,managing director,1,1,0
+142,What is the position held by both szymon ordys and tammy oldenburg?,authorized signatory,1,1,0
+142,What is the position held by both szymon ordys and tim vandegriend?,authorized signatory,1,1,0
+142,What is the position held by both tammy oldenburg and tim vandegriend?,authorized signatory,1,1,0
+156,What is the position held by both brian lane and patricia del busto?,its authorized signatory,1,1,0
+156,What is the position held by both christopher cassidy and philip tancorra?,vice president,1,1,0
+156,What is the position held by both christopher cassidy and henk derksen?,vice president,1,1,0
+156,What is the position held by both guelay mese and henk derksen?,director,1,1,0
+156,What is the position held by both philip tancorra and henk derksen?,vice president,1,1,0
+80,What is the position held by both blake gronich and brian seipke?,vice president,1,1,0
+80,What is the position held by both blake gronich and chris burns?,vice president,1,1,0
+80,What is the position held by both blake gronich and daglas p panchal?,vice president,1,1,0
+80,What is the position held by both blake gronich and mary k lundin?,vice president,1,1,0
+80,What is the position held by both brian seipke and chris burns?,vice president,1,1,0
+80,What is the position held by both brian seipke and daglas p panchal?,vice president,1,1,0
+80,What is the position held by both brian seipke and mary k lundin?,vice president,1,1,0
+80,What is the position held by both chris burns and daglas p panchal?,vice president,1,1,0
+80,What is the position held by both chris burns and mary k lundin?,vice president,1,1,0
+80,What is the position held by both daglas p panchal and mary k lundin?,vice president,1,1,0
+80,What is the position held by both michael pugsley and richard c brown?,senior vice president,1,1,0
+80,What is the position held by both michael pugsley and thomas m paulk?,senior vice president,1,1,0
+80,What is the position held by both richard c brown and thomas m paulk?,senior vice president,1,1,0
+94,What is the position held by both cheryl carangelo and richard c brown?,senior vice president,1,1,0
+94,What is the position held by both cheryl carangelo and william d priester?,senior vice president,1,1,0
+94,What is the position held by both e joseph hess and edward t crook?,managing director,1,1,0
+94,What is the position held by both richard c brown and william d priester?,senior vice president,1,1,0
+57,What is the position held by both chuck b kyrish and henry pennell?,vice president,1,1,0
+57,What is the position held by both chuck b kyrish and kara p van duzee?,vice president,1,1,0
+57,What is the position held by both chuck b kyrish and katherine l hurley?,vice president,1,1,0
+57,What is the position held by both chuck b kyrish and lauren steiner?,vice president,1,1,0
+57,What is the position held by both chuck b kyrish and michael vondriska?,vice president,1,1,0
+57,What is the position held by both chuck b kyrish and robert sullivan?,vice president,1,1,0
+57,What is the position held by both chuck b kyrish and virginia cosenza?,vice president,1,1,0
+57,What is the position held by both chuck b kyrish and alysha salinger?,vice president,1,1,0
+57,What is the position held by both henry pennell and kara p van duzee?,vice president,1,1,0
+57,What is the position held by both henry pennell and katherine l hurley?,vice president,1,1,0
+57,What is the position held by both henry pennell and lauren steiner?,vice president,1,1,0
+57,What is the position held by both henry pennell and michael vondriska?,vice president,1,1,0
+57,What is the position held by both henry pennell and robert sullivan?,vice president,1,1,0
+57,What is the position held by both henry pennell and virginia cosenza?,vice president,1,1,0
+57,What is the position held by both henry pennell and alysha salinger?,vice president,1,1,0
+57,What is the position held by both john w deegan and ming k chu?,director,1,1,0
+57,What is the position held by both john w deegan and mukesh singh?,director,1,1,0
+57,What is the position held by both john w deegan and sydney g dennis?,director,1,1,0
+57,What is the position held by both kara p van duzee and katherine l hurley?,vice president,1,1,0
+57,What is the position held by both kara p van duzee and lauren steiner?,vice president,1,1,0
+57,What is the position held by both kara p van duzee and michael vondriska?,vice president,1,1,0
+57,What is the position held by both kara p van duzee and robert sullivan?,vice president,1,1,0
+57,What is the position held by both kara p van duzee and virginia cosenza?,vice president,1,1,0
+57,What is the position held by both kara p van duzee and alysha salinger?,vice president,1,1,0
+57,What is the position held by both katherine l hurley and lauren steiner?,vice president,1,1,0
+57,What is the position held by both katherine l hurley and michael vondriska?,vice president,1,1,0
+57,What is the position held by both katherine l hurley and robert sullivan?,vice president,1,1,0
+57,What is the position held by both katherine l hurley and virginia cosenza?,vice president,1,1,0
+57,What is the position held by both katherine l hurley and alysha salinger?,vice president,1,1,0
+57,What is the position held by both lauren steiner and michael vondriska?,vice president,1,1,0
+57,What is the position held by both lauren steiner and robert sullivan?,vice president,1,1,0
+57,What is the position held by both lauren steiner and virginia cosenza?,vice president,1,1,0
+57,What is the position held by both lauren steiner and alysha salinger?,vice president,1,1,0
+57,What is the position held by both michael vondriska and robert sullivan?,vice president,1,1,0
+57,What is the position held by both michael vondriska and virginia cosenza?,vice president,1,1,0
+57,What is the position held by both michael vondriska and alysha salinger?,vice president,1,1,0
+57,What is the position held by both ming k chu and mukesh singh?,director,1,1,0
+57,What is the position held by both ming k chu and sydney g dennis?,director,1,1,0
+57,What is the position held by both mukesh singh and sydney g dennis?,director,1,1,0
+57,What is the position held by both robert sullivan and virginia cosenza?,vice president,1,1,0
+57,What is the position held by both robert sullivan and alysha salinger?,vice president,1,1,0
+57,What is the position held by both virginia cosenza and alysha salinger?,vice president,1,1,0
+5,What is the position held by both andrew w hussion and roy e alexander?,vice president,1,1,0
+5,What is the position held by both denise smyth and robert masters?,senior vice president,1,1,0
+5,What is the position held by both denise smyth and roy e alexander?,senior vice president,1,1,0
+5,What is the position held by both robert masters and roy e alexander?,senior vice president,1,1,0
+47,What is the position held by both anthony galea and bremmer kneib?,vice president,1,1,0
+47,What is the position held by both anthony galea and john p treadwell jr?,vice president,1,1,0
+47,What is the position held by both anthony galea and marni mcmanus?,vice president,1,1,0
+47,What is the position held by both anthony galea and ming k chu?,vice president,1,1,0
+47,What is the position held by both anthony galea and philip f kurpiewski?,vice president,1,1,0
+47,What is the position held by both anthony galea and samuel coward?,vice president,1,1,0
+47,What is the position held by both anthony galea and virginia cosenza?,vice president,1,1,0
+47,What is the position held by both bremmer kneib and john p treadwell jr?,vice president,1,1,0
+47,What is the position held by both bremmer kneib and marni mcmanus?,vice president,1,1,0
+47,What is the position held by both bremmer kneib and ming k chu?,vice president,1,1,0
+47,What is the position held by both bremmer kneib and philip f kurpiewski?,vice president,1,1,0
+47,What is the position held by both bremmer kneib and samuel coward?,vice president,1,1,0
+47,What is the position held by both bremmer kneib and virginia cosenza?,vice president,1,1,0
+47,What is the position held by both john p treadwell jr and marni mcmanus?,vice president,1,1,0
+47,What is the position held by both john p treadwell jr and ming k chu?,vice president,1,1,0
+47,What is the position held by both john p treadwell jr and philip f kurpiewski?,vice president,1,1,0
+47,What is the position held by both john p treadwell jr and samuel coward?,vice president,1,1,0
+47,What is the position held by both john p treadwell jr and virginia cosenza?,vice president,1,1,0
+47,What is the position held by both kristie li and robert laporte?,senior vice president,1,1,0
+47,What is the position held by both marni mcmanus and ming k chu?,vice president,1,1,0
+47,What is the position held by both marni mcmanus and philip f kurpiewski?,vice president,1,1,0
+47,What is the position held by both marni mcmanus and samuel coward?,vice president,1,1,0
+47,What is the position held by both marni mcmanus and virginia cosenza?,vice president,1,1,0
+47,What is the position held by both ming k chu and philip f kurpiewski?,vice president,1,1,0
+47,What is the position held by both ming k chu and samuel coward?,vice president,1,1,0
+47,What is the position held by both ming k chu and virginia cosenza?,vice president,1,1,0
+47,What is the position held by both philip f kurpiewski and samuel coward?,vice president,1,1,0
+47,What is the position held by both philip f kurpiewski and virginia cosenza?,vice president,1,1,0
+47,What is the position held by both samuel coward and virginia cosenza?,vice president,1,1,0
+146,What is the position held by both adam scozzafava and victoria chant?,vice president,1,1,0
+90,What is the position held by both annie chung and brad matthews?,director,1,1,0
+90,What is the position held by both annie chung and clement yu?,director,1,1,0
+90,What is the position held by both annie chung and ming k chu?,director,1,1,0
+90,What is the position held by both annie chung and mukesh singh?,director,1,1,0
+90,What is the position held by both annie chung and sean hassett?,director,1,1,0
+90,What is the position held by both annie chung and todd grossnickle?,director,1,1,0
+90,What is the position held by both barry fehily and kaye ea?,managing director,1,1,0
+90,What is the position held by both barry fehily and kevin d higgins?,managing director,1,1,0
+90,What is the position held by both barry fehily and michael pearce?,managing director,1,1,0
+90,What is the position held by both brad matthews and clement yu?,director,1,1,0
+90,What is the position held by both brad matthews and ming k chu?,director,1,1,0
+90,What is the position held by both brad matthews and mukesh singh?,director,1,1,0
+90,What is the position held by both brad matthews and sean hassett?,director,1,1,0
+90,What is the position held by both brad matthews and todd grossnickle?,director,1,1,0
+90,What is the position held by both carlos cruz and michael maguire?,executive director,1,1,0
+90,What is the position held by both christopher a salek and michael vondriska?,vice president,1,1,0
+90,What is the position held by both christopher a salek and william c whitaker?,vice president,1,1,0
+90,What is the position held by both christopher matheson and david c beckett?,senior vice president,1,1,0
+90,What is the position held by both christopher matheson and irv roa?,senior vice president,1,1,0
+90,What is the position held by both christopher matheson and michael s barnett?,senior vice president,1,1,0
+90,What is the position held by both clement yu and ming k chu?,director,1,1,0
+90,What is the position held by both clement yu and mukesh singh?,director,1,1,0
+90,What is the position held by both clement yu and sean hassett?,director,1,1,0
+90,What is the position held by both clement yu and todd grossnickle?,director,1,1,0
+90,What is the position held by both david c beckett and irv roa?,senior vice president,1,1,0
+90,What is the position held by both david c beckett and michael s barnett?,senior vice president,1,1,0
+90,What is the position held by both donna demagistris and thomas m manning?,authorized signatory,1,1,0
+90,What is the position held by both irv roa and michael s barnett?,senior vice president,1,1,0
+90,What is the position held by both kaye ea and kevin d higgins?,managing director,1,1,0
+90,What is the position held by both kaye ea and michael pearce?,managing director,1,1,0
+90,What is the position held by both kevin d higgins and michael pearce?,managing director,1,1,0
+90,What is the position held by both michael vondriska and william c whitaker?,vice president,1,1,0
+90,What is the position held by both ming k chu and mukesh singh?,director,1,1,0
+90,What is the position held by both ming k chu and sean hassett?,director,1,1,0
+90,What is the position held by both ming k chu and todd grossnickle?,director,1,1,0
+90,What is the position held by both mukesh singh and sean hassett?,director,1,1,0
+90,What is the position held by both mukesh singh and todd grossnickle?,director,1,1,0
+90,What is the position held by both sean hassett and todd grossnickle?,director,1,1,0
+84,What is the position held by both ahaz armstrong and megan r brearey?,assistant vice president,1,1,0
+84,What is the position held by both alexander wu and chwan ming ho?,general manager,1,1,0
+84,What is the position held by both alexander wu and edward chen?,general manager,1,1,0
+84,What is the position held by both alexander wu and li hua huang?,general manager,1,1,0
+84,What is the position held by both amie l edwards and andrea s chen?,director,1,1,0
+84,What is the position held by both amie l edwards and bill odaly?,director,1,1,0
+84,What is the position held by both amie l edwards and lana gifas?,director,1,1,0
+84,What is the position held by both amy trapp and helga blum?,managing director,1,1,0
+84,What is the position held by both amy trapp and kazuhisa matsuda?,managing director,1,1,0
+84,What is the position held by both amy trapp and tanya crossley?,managing director,1,1,0
+84,What is the position held by both andrea s chen and bill odaly?,director,1,1,0
+84,What is the position held by both andrea s chen and lana gifas?,director,1,1,0
+84,What is the position held by both bershunda j taylor and christina p blackwell?,vice president,1,1,0
+84,What is the position held by both bershunda j taylor and john c rowland?,vice president,1,1,0
+84,What is the position held by both bershunda j taylor and joshua turner?,vice president,1,1,0
+84,What is the position held by both bershunda j taylor and kirby r holman?,vice president,1,1,0
+84,What is the position held by both bershunda j taylor and kristy ahee?,vice president,1,1,0
+84,What is the position held by both bershunda j taylor and laura conway?,vice president,1,1,0
+84,What is the position held by both bershunda j taylor and ming k chu?,vice president,1,1,0
+84,What is the position held by both bershunda j taylor and scott oconnell?,vice president,1,1,0
+84,What is the position held by both bershunda j taylor and virginia cosenza?,vice president,1,1,0
+84,What is the position held by both bill odaly and lana gifas?,director,1,1,0
+84,What is the position held by both brian tuerff and james m armstrong?,senior vice president,1,1,0
+84,What is the position held by both brian tuerff and michael a crabtree?,senior vice president,1,1,0
+84,What is the position held by both brian tuerff and samuel a bluso?,senior vice president,1,1,0
+84,What is the position held by both christina p blackwell and john c rowland?,vice president,1,1,0
+84,What is the position held by both christina p blackwell and joshua turner?,vice president,1,1,0
+84,What is the position held by both christina p blackwell and kirby r holman?,vice president,1,1,0
+84,What is the position held by both christina p blackwell and kristy ahee?,vice president,1,1,0
+84,What is the position held by both christina p blackwell and laura conway?,vice president,1,1,0
+84,What is the position held by both christina p blackwell and ming k chu?,vice president,1,1,0
+84,What is the position held by both christina p blackwell and scott oconnell?,vice president,1,1,0
+84,What is the position held by both christina p blackwell and virginia cosenza?,vice president,1,1,0
+84,What is the position held by both helga blum and kazuhisa matsuda?,managing director,1,1,0
+84,What is the position held by both helga blum and tanya crossley?,managing director,1,1,0
+84,What is the position held by both james m armstrong and michael a crabtree?,senior vice president,1,1,0
+84,What is the position held by both james m armstrong and samuel a bluso?,senior vice president,1,1,0
+84,What is the position held by both john c rowland and joshua turner?,vice president,1,1,0
+84,What is the position held by both john c rowland and kirby r holman?,vice president,1,1,0
+84,What is the position held by both john c rowland and kristy ahee?,vice president,1,1,0
+84,What is the position held by both john c rowland and laura conway?,vice president,1,1,0
+84,What is the position held by both john c rowland and ming k chu?,vice president,1,1,0
+84,What is the position held by both john c rowland and scott oconnell?,vice president,1,1,0
+84,What is the position held by both john c rowland and virginia cosenza?,vice president,1,1,0
+84,What is the position held by both joshua freedman and michael king?,authorized signatory,1,1,0
+84,What is the position held by both joshua freedman and noam azachi?,authorized signatory,1,1,0
+84,What is the position held by both joshua turner and kirby r holman?,vice president,1,1,0
+84,What is the position held by both joshua turner and kristy ahee?,vice president,1,1,0
+84,What is the position held by both joshua turner and laura conway?,vice president,1,1,0
+84,What is the position held by both joshua turner and ming k chu?,vice president,1,1,0
+84,What is the position held by both joshua turner and scott oconnell?,vice president,1,1,0
+84,What is the position held by both joshua turner and virginia cosenza?,vice president,1,1,0
+84,What is the position held by both kazuhisa matsuda and tanya crossley?,managing director,1,1,0
+84,What is the position held by both kirby r holman and kristy ahee?,vice president,1,1,0
+84,What is the position held by both kirby r holman and laura conway?,vice president,1,1,0
+84,What is the position held by both kirby r holman and ming k chu?,vice president,1,1,0
+84,What is the position held by both kirby r holman and scott oconnell?,vice president,1,1,0
+84,What is the position held by both kirby r holman and virginia cosenza?,vice president,1,1,0
+84,What is the position held by both kristy ahee and laura conway?,vice president,1,1,0
+84,What is the position held by both kristy ahee and ming k chu?,vice president,1,1,0
+84,What is the position held by both kristy ahee and scott oconnell?,vice president,1,1,0
+84,What is the position held by both kristy ahee and virginia cosenza?,vice president,1,1,0
+84,What is the position held by both laura conway and ming k chu?,vice president,1,1,0
+84,What is the position held by both laura conway and scott oconnell?,vice president,1,1,0
+84,What is the position held by both laura conway and virginia cosenza?,vice president,1,1,0
+84,What is the position held by both michael a crabtree and samuel a bluso?,senior vice president,1,1,0
+84,What is the position held by both michael king and noam azachi?,authorized signatory,1,1,0
+84,What is the position held by both ming k chu and scott oconnell?,vice president,1,1,0
+84,What is the position held by both ming k chu and virginia cosenza?,vice president,1,1,0
+84,What is the position held by both scott oconnell and virginia cosenza?,vice president,1,1,0
+147,What is the position held by both eugene yermash and jack kelly?,vice president,1,1,0
+147,What is the position held by both eugene yermash and michael strobel?,vice president,1,1,0
+147,What is the position held by both eugene yermash and philip tancorra?,vice president,1,1,0
+147,What is the position held by both graham robertson and komal shah?,authorized signatory,1,1,0
+147,What is the position held by both graham robertson and thomas manning?,authorized signatory,1,1,0
+147,What is the position held by both graham robertson and whitney gaston?,authorized signatory,1,1,0
+147,What is the position held by both jack kelly and michael strobel?,vice president,1,1,0
+147,What is the position held by both jack kelly and philip tancorra?,vice president,1,1,0
+147,What is the position held by both joseph l corah and ronnie glenn?,director,1,1,0
+147,What is the position held by both komal shah and thomas manning?,authorized signatory,1,1,0
+147,What is the position held by both komal shah and whitney gaston?,authorized signatory,1,1,0
+147,What is the position held by both michael strobel and philip tancorra?,vice president,1,1,0
+147,What is the position held by both thomas manning and whitney gaston?,authorized signatory,1,1,0
+153,What is the position held by both david a wild and kyle patterson?,senior vice president,1,1,0
+153,What is the position held by both francis groccia and michael j mcwalters?,director,1,1,0
+153,What is the position held by both francis groccia and renata i levine?,director,1,1,0
+153,What is the position held by both michael j mcwalters and renata i levine?,director,1,1,0
+52,What is the position held by both adriana collins and lauren hom?,director,1,1,0
+52,What is the position held by both adriana collins and michelle c phillips?,director,1,1,0
+52,What is the position held by both annie carr and john flores?,authorized signatory,1,1,0
+52,What is the position held by both annie carr and michael king?,authorized signatory,1,1,0
+52,What is the position held by both barry bergman and james travagline?,managing director,1,1,0
+52,What is the position held by both carolyn kee and jeff benedix?,vice president,1,1,0
+52,What is the position held by both carolyn kee and john lascody?,vice president,1,1,0
+52,What is the position held by both jeff benedix and john lascody?,vice president,1,1,0
+52,What is the position held by both john flores and michael king?,authorized signatory,1,1,0
+52,What is the position held by both lauren hom and michelle c phillips?,director,1,1,0
+44,What is the position held by both john m hall and tiffany e gardner?,senior vice president,1,1,0
+50,What is the position held by both darin mullis and yinghua zhang?,director,1,1,0
+50,What is the position held by both david green and philip k lievscher?,vice president,1,1,0
+50,What is the position held by both david green and laura woodward?,vice president,1,1,0
+50,What is the position held by both michael r brough and william d priester?,senior vice president,1,1,0
+50,What is the position held by both philip k lievscher and laura woodward?,vice president,1,1,0
+2,What is the position held by both adam j kultgen and phil andresen?,vice president,1,1,0
+2,What is the position held by both alysa trakas and anthony hoye?,director,1,1,0
+2,What is the position held by both alysa trakas and carl hinrichs?,director,1,1,0
+2,What is the position held by both anthony hoye and carl hinrichs?,director,1,1,0
+2,What is the position held by both carl s tabacjar jr and jaime mariano?,senior vice president,1,1,0
+2,What is the position held by both carl s tabacjar jr and mary f molnar?,senior vice president,1,1,0
+2,What is the position held by both jaime mariano and mary f molnar?,senior vice president,1,1,0
+145,What is the position held by both guy major and tammy jennissen?,director,1,1,0
+145,What is the position held by both guy major and christopher stephen guinta?,director,1,1,0
+145,What is the position held by both guy major and joseph d glatt?,director,1,1,0
+145,What is the position held by both tammy jennissen and christopher stephen guinta?,director,1,1,0
+145,What is the position held by both tammy jennissen and joseph d glatt?,director,1,1,0
+145,What is the position held by both christopher stephen guinta and joseph d glatt?,director,1,1,0
+151,What is the position held by both anders holmgaard and gail motonaga?,executive director,1,1,0
+151,What is the position held by both anders holmgaard and gregory t martin?,executive director,1,1,0
+151,What is the position held by both anders holmgaard and tracy rahn?,executive director,1,1,0
+151,What is the position held by both andrea s chen and iain p stewart?,managing director,1,1,0
+151,What is the position held by both andrea s chen and john bosco?,managing director,1,1,0
+151,What is the position held by both andrea s chen and michael pearce?,managing director,1,1,0
+151,What is the position held by both annie chung and arjun talwalkar?,director,1,1,0
+151,What is the position held by both annie chung and cormac langford?,director,1,1,0
+151,What is the position held by both annie chung and jennifer s oneill?,director,1,1,0
+151,What is the position held by both annie chung and mindy k chu?,director,1,1,0
+151,What is the position held by both annie chung and ronnie glenn?,director,1,1,0
+151,What is the position held by both annie chung and sean hassett?,director,1,1,0
+151,What is the position held by both arjun talwalkar and cormac langford?,director,1,1,0
+151,What is the position held by both arjun talwalkar and jennifer s oneill?,director,1,1,0
+151,What is the position held by both arjun talwalkar and mindy k chu?,director,1,1,0
+151,What is the position held by both arjun talwalkar and ronnie glenn?,director,1,1,0
+151,What is the position held by both arjun talwalkar and sean hassett?,director,1,1,0
+151,What is the position held by both christopher coney and richard rivera?,vice president,1,1,0
+151,What is the position held by both christopher coney and robert botcherby?,vice president,1,1,0
+151,What is the position held by both christopher coney and tanille ingle?,vice president,1,1,0
+151,What is the position held by both cormac langford and jennifer s oneill?,director,1,1,0
+151,What is the position held by both cormac langford and mindy k chu?,director,1,1,0
+151,What is the position held by both cormac langford and ronnie glenn?,director,1,1,0
+151,What is the position held by both cormac langford and sean hassett?,director,1,1,0
+151,What is the position held by both gail motonaga and gregory t martin?,executive director,1,1,0
+151,What is the position held by both gail motonaga and tracy rahn?,executive director,1,1,0
+151,What is the position held by both gregory t martin and tracy rahn?,executive director,1,1,0
+151,What is the position held by both iain p stewart and john bosco?,managing director,1,1,0
+151,What is the position held by both iain p stewart and michael pearce?,managing director,1,1,0
+151,What is the position held by both jack lonker and jessica gavarkovs?,authorized signatory,1,1,0
+151,What is the position held by both jack lonker and judith e smith?,authorized signatory,1,1,0
+151,What is the position held by both jack lonker and michael king?,authorized signatory,1,1,0
+151,What is the position held by both jack lonker and scott macvicar?,authorized signatory,1,1,0
+151,What is the position held by both jack lonker and william e briggs iv?,authorized signatory,1,1,0
+151,What is the position held by both jennifer s oneill and mindy k chu?,director,1,1,0
+151,What is the position held by both jennifer s oneill and ronnie glenn?,director,1,1,0
+151,What is the position held by both jennifer s oneill and sean hassett?,director,1,1,0
+151,What is the position held by both jessica gavarkovs and judith e smith?,authorized signatory,1,1,0
+151,What is the position held by both jessica gavarkovs and michael king?,authorized signatory,1,1,0
+151,What is the position held by both jessica gavarkovs and scott macvicar?,authorized signatory,1,1,0
+151,What is the position held by both jessica gavarkovs and william e briggs iv?,authorized signatory,1,1,0
+151,What is the position held by both john bosco and michael pearce?,managing director,1,1,0
+151,What is the position held by both judith e smith and michael king?,authorized signatory,1,1,0
+151,What is the position held by both judith e smith and scott macvicar?,authorized signatory,1,1,0
+151,What is the position held by both judith e smith and william e briggs iv?,authorized signatory,1,1,0
+151,What is the position held by both michael king and scott macvicar?,authorized signatory,1,1,0
+151,What is the position held by both michael king and william e briggs iv?,authorized signatory,1,1,0
+151,What is the position held by both mindy k chu and ronnie glenn?,director,1,1,0
+151,What is the position held by both mindy k chu and sean hassett?,director,1,1,0
+151,What is the position held by both richard rivera and robert botcherby?,vice president,1,1,0
+151,What is the position held by both richard rivera and tanille ingle?,vice president,1,1,0
+151,What is the position held by both robert botcherby and tanille ingle?,vice president,1,1,0
+151,What is the position held by both ronnie glenn and sean hassett?,director,1,1,0
+151,What is the position held by both scott macvicar and william e briggs iv?,authorized signatory,1,1,0
+87,What is the position held by both douglas b bingham and sarah c lesser?,vice president,1,1,0
+93,What is the position held by both sterling j silver and erin d pickens?,senior vice president,1,1,0
+86,What is the position held by both rosanne parsill and wayne liao?,vice president,1,1,0
+79,What is the position held by both casey gehrig and cheryl snoor?,vice president,1,1,0
+79,What is the position held by both casey gehrig and derek chang?,vice president,1,1,0
+79,What is the position held by both casey gehrig and gregory a conner?,vice president,1,1,0
+79,What is the position held by both casey gehrig and helen h gateson?,vice president,1,1,0
+79,What is the position held by both casey gehrig and john c rowland?,vice president,1,1,0
+79,What is the position held by both casey gehrig and john r roach jr?,vice president,1,1,0
+79,What is the position held by both charles mclaughlin and david heller?,senior vice president,1,1,0
+79,What is the position held by both charles mclaughlin and jean m brennan?,senior vice president,1,1,0
+79,What is the position held by both charles mclaughlin and mark edwards?,senior vice president,1,1,0
+79,What is the position held by both cheryl snoor and derek chang?,vice president,1,1,0
+79,What is the position held by both cheryl snoor and gregory a conner?,vice president,1,1,0
+79,What is the position held by both cheryl snoor and helen h gateson?,vice president,1,1,0
+79,What is the position held by both cheryl snoor and john c rowland?,vice president,1,1,0
+79,What is the position held by both cheryl snoor and john r roach jr?,vice president,1,1,0
+79,What is the position held by both d bryan gregory and darlene arias?,director,1,1,0
+79,What is the position held by both d bryan gregory and michael r mellott?,director,1,1,0
+79,What is the position held by both dan lepage and michael king?,authorized signatory,1,1,0
+79,What is the position held by both dan lepage and noel purcell?,authorized signatory,1,1,0
+79,What is the position held by both darlene arias and michael r mellott?,director,1,1,0
+79,What is the position held by both david heller and jean m brennan?,senior vice president,1,1,0
+79,What is the position held by both david heller and mark edwards?,senior vice president,1,1,0
+79,What is the position held by both derek chang and gregory a conner?,vice president,1,1,0
+79,What is the position held by both derek chang and helen h gateson?,vice president,1,1,0
+79,What is the position held by both derek chang and john c rowland?,vice president,1,1,0
+79,What is the position held by both derek chang and john r roach jr?,vice president,1,1,0
+79,What is the position held by both gregory a conner and helen h gateson?,vice president,1,1,0
+79,What is the position held by both gregory a conner and john c rowland?,vice president,1,1,0
+79,What is the position held by both gregory a conner and john r roach jr?,vice president,1,1,0
+79,What is the position held by both helen h gateson and john c rowland?,vice president,1,1,0
+79,What is the position held by both helen h gateson and john r roach jr?,vice president,1,1,0
+79,What is the position held by both jean m brennan and mark edwards?,senior vice president,1,1,0
+79,What is the position held by both john c rowland and john r roach jr?,vice president,1,1,0
+79,What is the position held by both michael king and noel purcell?,authorized signatory,1,1,0
+123,What is the position held by both andrew payne and ravneet mumick?,director,1,1,0
+123,What is the position held by both andrew payne and sean hassett?,director,1,1,0
+123,What is the position held by both bill odaly and julia ivanova?,authorized signatory,1,1,0
+123,What is the position held by both bill odaly and kelly heimrich?,authorized signatory,1,1,0
+123,What is the position held by both bill odaly and robert ehudin?,authorized signatory,1,1,0
+123,What is the position held by both brandon k fiddler and gene r riego de dios?,vice president,1,1,0
+123,What is the position held by both brandon k fiddler and john b ellis?,vice president,1,1,0
+123,What is the position held by both brandon k fiddler and lisa huang?,vice president,1,1,0
+123,What is the position held by both brandon k fiddler and shaun hawley?,vice president,1,1,0
+123,What is the position held by both gene r riego de dios and john b ellis?,vice president,1,1,0
+123,What is the position held by both gene r riego de dios and lisa huang?,vice president,1,1,0
+123,What is the position held by both gene r riego de dios and shaun hawley?,vice president,1,1,0
+123,What is the position held by both john b ellis and lisa huang?,vice president,1,1,0
+123,What is the position held by both john b ellis and shaun hawley?,vice president,1,1,0
+123,What is the position held by both julia ivanova and kelly heimrich?,authorized signatory,1,1,0
+123,What is the position held by both julia ivanova and robert ehudin?,authorized signatory,1,1,0
+123,What is the position held by both kelly heimrich and robert ehudin?,authorized signatory,1,1,0
+123,What is the position held by both lisa huang and shaun hawley?,vice president,1,1,0
+123,What is the position held by both ravneet mumick and sean hassett?,director,1,1,0
+137,What is the position held by both alexander l rody and eric searls?,senior vice president,1,1,0
+137,What is the position held by both alexander l rody and scott dejong?,senior vice president,1,1,0
+137,What is the position held by both eric searls and scott dejong?,senior vice president,1,1,0
+137,What is the position held by both james komperda and john sletten?,vice president,1,1,0
+137,What is the position held by both james komperda and joseph j seroke?,vice president,1,1,0
+137,What is the position held by both james komperda and murray mackinnon?,vice president,1,1,0
+137,What is the position held by both james komperda and t barrett vawter?,vice president,1,1,0
+137,What is the position held by both john sletten and joseph j seroke?,vice president,1,1,0
+137,What is the position held by both john sletten and murray mackinnon?,vice president,1,1,0
+137,What is the position held by both john sletten and t barrett vawter?,vice president,1,1,0
+137,What is the position held by both joseph j seroke and murray mackinnon?,vice president,1,1,0
+137,What is the position held by both joseph j seroke and t barrett vawter?,vice president,1,1,0
+137,What is the position held by both murray mackinnon and t barrett vawter?,vice president,1,1,0
+122,What is the position held by both andres neumeier and andy mcclinton?,managing director,1,1,0
+122,What is the position held by both andres neumeier and kenneth p sneiderjr?,managing director,1,1,0
+122,What is the position held by both andres neumeier and ross levitsky?,managing director,1,1,0
+122,What is the position held by both andres neumeier and thane rattew?,managing director,1,1,0
+122,What is the position held by both andres neumeier and tony gordon?,managing director,1,1,0
+122,What is the position held by both andy mcclinton and kenneth p sneiderjr?,managing director,1,1,0
+122,What is the position held by both andy mcclinton and ross levitsky?,managing director,1,1,0
+122,What is the position held by both andy mcclinton and thane rattew?,managing director,1,1,0
+122,What is the position held by both andy mcclinton and tony gordon?,managing director,1,1,0
+122,What is the position held by both anna smith and kristen m murphy?,vice president,1,1,0
+122,What is the position held by both anna smith and maureen maroney?,vice president,1,1,0
+122,What is the position held by both bill seabrook and christopher choi?,director,1,1,0
+122,What is the position held by both bill seabrook and craig m pinsly cfa?,director,1,1,0
+122,What is the position held by both bill seabrook and diederik sluijs?,director,1,1,0
+122,What is the position held by both bill seabrook and jody feldman?,director,1,1,0
+122,What is the position held by both bill seabrook and maria lago?,director,1,1,0
+122,What is the position held by both bill seabrook and michelle s dagenhart?,director,1,1,0
+122,What is the position held by both bill seabrook and n j hardman?,director,1,1,0
+122,What is the position held by both bill seabrook and robert grillo?,director,1,1,0
+122,What is the position held by both christopher choi and craig m pinsly cfa?,director,1,1,0
+122,What is the position held by both christopher choi and diederik sluijs?,director,1,1,0
+122,What is the position held by both christopher choi and jody feldman?,director,1,1,0
+122,What is the position held by both christopher choi and maria lago?,director,1,1,0
+122,What is the position held by both christopher choi and michelle s dagenhart?,director,1,1,0
+122,What is the position held by both christopher choi and n j hardman?,director,1,1,0
+122,What is the position held by both christopher choi and robert grillo?,director,1,1,0
+122,What is the position held by both craig m pinsly cfa and diederik sluijs?,director,1,1,0
+122,What is the position held by both craig m pinsly cfa and jody feldman?,director,1,1,0
+122,What is the position held by both craig m pinsly cfa and maria lago?,director,1,1,0
+122,What is the position held by both craig m pinsly cfa and michelle s dagenhart?,director,1,1,0
+122,What is the position held by both craig m pinsly cfa and n j hardman?,director,1,1,0
+122,What is the position held by both craig m pinsly cfa and robert grillo?,director,1,1,0
+122,What is the position held by both diederik sluijs and jody feldman?,director,1,1,0
+122,What is the position held by both diederik sluijs and maria lago?,director,1,1,0
+122,What is the position held by both diederik sluijs and michelle s dagenhart?,director,1,1,0
+122,What is the position held by both diederik sluijs and n j hardman?,director,1,1,0
+122,What is the position held by both diederik sluijs and robert grillo?,director,1,1,0
+122,What is the position held by both doreen barr and lingzi huang?,authorized signatory,1,1,0
+122,What is the position held by both doreen barr and michael king?,authorized signatory,1,1,0
+122,What is the position held by both jody feldman and maria lago?,director,1,1,0
+122,What is the position held by both jody feldman and michelle s dagenhart?,director,1,1,0
+122,What is the position held by both jody feldman and n j hardman?,director,1,1,0
+122,What is the position held by both jody feldman and robert grillo?,director,1,1,0
+122,What is the position held by both kenneth p sneiderjr and ross levitsky?,managing director,1,1,0
+122,What is the position held by both kenneth p sneiderjr and thane rattew?,managing director,1,1,0
+122,What is the position held by both kenneth p sneiderjr and tony gordon?,managing director,1,1,0
+122,What is the position held by both kristen m murphy and maureen maroney?,vice president,1,1,0
+122,What is the position held by both lingzi huang and michael king?,authorized signatory,1,1,0
+122,What is the position held by both maria lago and michelle s dagenhart?,director,1,1,0
+122,What is the position held by both maria lago and n j hardman?,director,1,1,0
+122,What is the position held by both maria lago and robert grillo?,director,1,1,0
+122,What is the position held by both michelle s dagenhart and n j hardman?,director,1,1,0
+122,What is the position held by both michelle s dagenhart and robert grillo?,director,1,1,0
+122,What is the position held by both n j hardman and robert grillo?,director,1,1,0
+122,What is the position held by both ross levitsky and thane rattew?,managing director,1,1,0
+122,What is the position held by both ross levitsky and tony gordon?,managing director,1,1,0
+122,What is the position held by both thane rattew and tony gordon?,managing director,1,1,0
+37,What is the position held by both bryan ervin and john kushnerick?,vice president,1,1,0
+37,What is the position held by both bryan ervin and judith a huckins?,vice president,1,1,0
+37,What is the position held by both bryan ervin and kelly nash?,vice president,1,1,0
+37,What is the position held by both bryan ervin and raj nambiar?,vice president,1,1,0
+37,What is the position held by both bryan ervin and steven dixon?,vice president,1,1,0
+37,What is the position held by both bryan ervin and tad stainbrook?,vice president,1,1,0
+37,What is the position held by both felix miranda and mark grover?,senior vice president,1,1,0
+37,What is the position held by both felix miranda and philip k liebscher?,senior vice president,1,1,0
+37,What is the position held by both john kushnerick and judith a huckins?,vice president,1,1,0
+37,What is the position held by both john kushnerick and kelly nash?,vice president,1,1,0
+37,What is the position held by both john kushnerick and raj nambiar?,vice president,1,1,0
+37,What is the position held by both john kushnerick and steven dixon?,vice president,1,1,0
+37,What is the position held by both john kushnerick and tad stainbrook?,vice president,1,1,0
+37,What is the position held by both judith a huckins and kelly nash?,vice president,1,1,0
+37,What is the position held by both judith a huckins and raj nambiar?,vice president,1,1,0
+37,What is the position held by both judith a huckins and steven dixon?,vice president,1,1,0
+37,What is the position held by both judith a huckins and tad stainbrook?,vice president,1,1,0
+37,What is the position held by both kelly nash and raj nambiar?,vice president,1,1,0
+37,What is the position held by both kelly nash and steven dixon?,vice president,1,1,0
+37,What is the position held by both kelly nash and tad stainbrook?,vice president,1,1,0
+37,What is the position held by both mark grover and philip k liebscher?,senior vice president,1,1,0
+37,What is the position held by both raj nambiar and steven dixon?,vice president,1,1,0
+37,What is the position held by both raj nambiar and tad stainbrook?,vice president,1,1,0
+37,What is the position held by both steven dixon and tad stainbrook?,vice president,1,1,0
+23,What is the position held by both andrew sidford and jeremy eisman?,managing director,1,1,0
+23,What is the position held by both andrew sidford and jordan kanis?,managing director,1,1,0
+23,What is the position held by both jeremy eisman and jordan kanis?,managing director,1,1,0
+23,What is the position held by both komal shah and mark w condon?,authorized signatory,1,1,0
+23,What is the position held by both komal shah and michael king?,authorized signatory,1,1,0
+23,What is the position held by both komal shah and nawshaer safi?,authorized signatory,1,1,0
+23,What is the position held by both kyle hatze and michael agrimis?,director,1,1,0
+23,What is the position held by both mark w condon and michael king?,authorized signatory,1,1,0
+23,What is the position held by both mark w condon and nawshaer safi?,authorized signatory,1,1,0
+23,What is the position held by both michael king and nawshaer safi?,authorized signatory,1,1,0
+23,What is the position held by both paul dickson and tom vonreichbauer?,chief financial officer,1,1,0
+35,What is the position held by both claudia zarate and j frazell?,director,1,1,0
+35,What is the position held by both claudia zarate and nurys maleki?,director,1,1,0
+35,What is the position held by both claudia zarate and steven smith?,director,1,1,0
+35,What is the position held by both david gurghigian and diane pockaj?,managing director,1,1,0
+35,What is the position held by both david gurghigian and james d weinstein?,managing director,1,1,0
+35,What is the position held by both david gurghigian and michael willis?,managing director,1,1,0
+35,What is the position held by both david gurghigian and veronica incera?,managing director,1,1,0
+35,What is the position held by both debra hrelja and glen binder?,vice president,1,1,0
+35,What is the position held by both debra hrelja and hans beekmans?,vice president,1,1,0
+35,What is the position held by both debra hrelja and john m eyerman?,vice president,1,1,0
+35,What is the position held by both debra hrelja and kevin sparks?,vice president,1,1,0
+35,What is the position held by both debra hrelja and maureen maroney?,vice president,1,1,0
+35,What is the position held by both debra hrelja and nicolas anberree?,vice president,1,1,0
+35,What is the position held by both debra hrelja and peter carini?,vice president,1,1,0
+35,What is the position held by both debra hrelja and raza jafferi?,vice president,1,1,0
+35,What is the position held by both devon j lang and joe hykle?,senior vice president,1,1,0
+35,What is the position held by both devon j lang and john p rielly?,senior vice president,1,1,0
+35,What is the position held by both devon j lang and kelton glasscock?,senior vice president,1,1,0
+35,What is the position held by both devon j lang and sophia love?,senior vice president,1,1,0
+35,What is the position held by both devon j lang and timothy b goodell?,senior vice president,1,1,0
+35,What is the position held by both diane pockaj and james d weinstein?,managing director,1,1,0
+35,What is the position held by both diane pockaj and michael willis?,managing director,1,1,0
+35,What is the position held by both diane pockaj and veronica incera?,managing director,1,1,0
+35,What is the position held by both glen binder and hans beekmans?,vice president,1,1,0
+35,What is the position held by both glen binder and john m eyerman?,vice president,1,1,0
+35,What is the position held by both glen binder and kevin sparks?,vice president,1,1,0
+35,What is the position held by both glen binder and maureen maroney?,vice president,1,1,0
+35,What is the position held by both glen binder and nicolas anberree?,vice president,1,1,0
+35,What is the position held by both glen binder and peter carini?,vice president,1,1,0
+35,What is the position held by both glen binder and raza jafferi?,vice president,1,1,0
+35,What is the position held by both hans beekmans and john m eyerman?,vice president,1,1,0
+35,What is the position held by both hans beekmans and kevin sparks?,vice president,1,1,0
+35,What is the position held by both hans beekmans and maureen maroney?,vice president,1,1,0
+35,What is the position held by both hans beekmans and nicolas anberree?,vice president,1,1,0
+35,What is the position held by both hans beekmans and peter carini?,vice president,1,1,0
+35,What is the position held by both hans beekmans and raza jafferi?,vice president,1,1,0
+35,What is the position held by both j frazell and nurys maleki?,director,1,1,0
+35,What is the position held by both j frazell and steven smith?,director,1,1,0
+35,What is the position held by both james d weinstein and michael willis?,managing director,1,1,0
+35,What is the position held by both james d weinstein and veronica incera?,managing director,1,1,0
+35,What is the position held by both joe hykle and john p rielly?,senior vice president,1,1,0
+35,What is the position held by both joe hykle and kelton glasscock?,senior vice president,1,1,0
+35,What is the position held by both joe hykle and sophia love?,senior vice president,1,1,0
+35,What is the position held by both joe hykle and timothy b goodell?,senior vice president,1,1,0
+35,What is the position held by both john m eyerman and kevin sparks?,vice president,1,1,0
+35,What is the position held by both john m eyerman and maureen maroney?,vice president,1,1,0
+35,What is the position held by both john m eyerman and nicolas anberree?,vice president,1,1,0
+35,What is the position held by both john m eyerman and peter carini?,vice president,1,1,0
+35,What is the position held by both john m eyerman and raza jafferi?,vice president,1,1,0
+35,What is the position held by both john p rielly and kelton glasscock?,senior vice president,1,1,0
+35,What is the position held by both john p rielly and sophia love?,senior vice president,1,1,0
+35,What is the position held by both john p rielly and timothy b goodell?,senior vice president,1,1,0
+35,What is the position held by both kelton glasscock and sophia love?,senior vice president,1,1,0
+35,What is the position held by both kelton glasscock and timothy b goodell?,senior vice president,1,1,0
+35,What is the position held by both kevin sparks and maureen maroney?,vice president,1,1,0
+35,What is the position held by both kevin sparks and nicolas anberree?,vice president,1,1,0
+35,What is the position held by both kevin sparks and peter carini?,vice president,1,1,0
+35,What is the position held by both kevin sparks and raza jafferi?,vice president,1,1,0
+35,What is the position held by both leon mo and michael king?,authorized signatory,1,1,0
+35,What is the position held by both leon mo and rebecca kratz?,authorized signatory,1,1,0
+35,What is the position held by both leon mo and steve ray?,authorized signatory,1,1,0
+35,What is the position held by both maureen maroney and nicolas anberree?,vice president,1,1,0
+35,What is the position held by both maureen maroney and peter carini?,vice president,1,1,0
+35,What is the position held by both maureen maroney and raza jafferi?,vice president,1,1,0
+35,What is the position held by both michael king and rebecca kratz?,authorized signatory,1,1,0
+35,What is the position held by both michael king and steve ray?,authorized signatory,1,1,0
+35,What is the position held by both michael willis and veronica incera?,managing director,1,1,0
+35,What is the position held by both nicolas anberree and peter carini?,vice president,1,1,0
+35,What is the position held by both nicolas anberree and raza jafferi?,vice president,1,1,0
+35,What is the position held by both nurys maleki and steven smith?,director,1,1,0
+35,What is the position held by both peter carini and raza jafferi?,vice president,1,1,0
+35,What is the position held by both rebecca kratz and steve ray?,authorized signatory,1,1,0
+35,What is the position held by both sophia love and timothy b goodell?,senior vice president,1,1,0
+21,What is the position held by both danielle spar and robert j shusterman?,authorized signatory,1,1,0
+21,What is the position held by both eric liaw and marisa beeney?,authorized person,1,1,0
+108,What is the position held by both gregory w lane and randall h brown?,vice president,1,1,0
+134,What is the position held by both mohammad s hasan and nelson arteaga?,vice president,1,1,0
+120,What is the position held by both charles mclaughlin and curt steiner?,senior vice president,1,1,0
+120,What is the position held by both charles mclaughlin and frederick h denecke?,senior vice president,1,1,0
+120,What is the position held by both charles mclaughlin and john t murphy?,senior vice president,1,1,0
+120,What is the position held by both charles mclaughlin and kent gorman?,senior vice president,1,1,0
+120,What is the position held by both charles mclaughlin and mark a edwards?,senior vice president,1,1,0
+120,What is the position held by both charles mclaughlin and winita lau?,senior vice president,1,1,0
+120,What is the position held by both cheryl sneor and greg conner?,vice president,1,1,0
+120,What is the position held by both cheryl sneor and james p surless?,vice president,1,1,0
+120,What is the position held by both cheryl sneor and lori chambers?,vice president,1,1,0
+120,What is the position held by both cheryl sneor and michael glandt?,vice president,1,1,0
+120,What is the position held by both cheryl sneor and rory desmond?,vice president,1,1,0
+120,What is the position held by both curt steiner and frederick h denecke?,senior vice president,1,1,0
+120,What is the position held by both curt steiner and john t murphy?,senior vice president,1,1,0
+120,What is the position held by both curt steiner and kent gorman?,senior vice president,1,1,0
+120,What is the position held by both curt steiner and mark a edwards?,senior vice president,1,1,0
+120,What is the position held by both curt steiner and winita lau?,senior vice president,1,1,0
+120,What is the position held by both frederick h denecke and john t murphy?,senior vice president,1,1,0
+120,What is the position held by both frederick h denecke and kent gorman?,senior vice president,1,1,0
+120,What is the position held by both frederick h denecke and mark a edwards?,senior vice president,1,1,0
+120,What is the position held by both frederick h denecke and winita lau?,senior vice president,1,1,0
+120,What is the position held by both greg conner and james p surless?,vice president,1,1,0
+120,What is the position held by both greg conner and lori chambers?,vice president,1,1,0
+120,What is the position held by both greg conner and michael glandt?,vice president,1,1,0
+120,What is the position held by both greg conner and rory desmond?,vice president,1,1,0
+120,What is the position held by both helga blum and mark w piekos?,managing director,1,1,0
+120,What is the position held by both james p surless and lori chambers?,vice president,1,1,0
+120,What is the position held by both james p surless and michael glandt?,vice president,1,1,0
+120,What is the position held by both james p surless and rory desmond?,vice president,1,1,0
+120,What is the position held by both john t murphy and kent gorman?,senior vice president,1,1,0
+120,What is the position held by both john t murphy and mark a edwards?,senior vice president,1,1,0
+120,What is the position held by both john t murphy and winita lau?,senior vice president,1,1,0
+120,What is the position held by both kent gorman and mark a edwards?,senior vice president,1,1,0
+120,What is the position held by both kent gorman and winita lau?,senior vice president,1,1,0
+120,What is the position held by both lori chambers and michael glandt?,vice president,1,1,0
+120,What is the position held by both lori chambers and rory desmond?,vice president,1,1,0
+120,What is the position held by both mark a edwards and winita lau?,senior vice president,1,1,0
+120,What is the position held by both michael glandt and rory desmond?,vice president,1,1,0
+121,What is the position held by both angela chen and jane chang?,vp,1,1,0
+121,What is the position held by both angela chen and murtuza ziauddin?,vp,1,1,0
+121,What is the position held by both carla balesano and joseph philbin?,senior vice president,1,1,0
+121,What is the position held by both carla balesano and michael dixon?,senior vice president,1,1,0
+121,What is the position held by both carla balesano and michele dragonetti?,senior vice president,1,1,0
+121,What is the position held by both carla balesano and steven k kessler?,senior vice president,1,1,0
+121,What is the position held by both chris hursey and paul hultgren?,director,1,1,0
+121,What is the position held by both chris hursey and steven r bruno?,director,1,1,0
+121,What is the position held by both christopher r hermann and corey j davis?,vice president,1,1,0
+121,What is the position held by both christopher r hermann and daniel vilarelle?,vice president,1,1,0
+121,What is the position held by both christopher r hermann and darran wee?,vice president,1,1,0
+121,What is the position held by both christopher r hermann and derek chang?,vice president,1,1,0
+121,What is the position held by both christopher r hermann and eric harvey?,vice president,1,1,0
+121,What is the position held by both christopher r hermann and mary r wright?,vice president,1,1,0
+121,What is the position held by both christopher r hermann and peter c underwood?,vice president,1,1,0
+121,What is the position held by both christopher r hermann and s bradley mcdougall?,vice president,1,1,0
+121,What is the position held by both christopher r hermann and shirley shipley?,vice president,1,1,0
+121,What is the position held by both corey j davis and daniel vilarelle?,vice president,1,1,0
+121,What is the position held by both corey j davis and darran wee?,vice president,1,1,0
+121,What is the position held by both corey j davis and derek chang?,vice president,1,1,0
+121,What is the position held by both corey j davis and eric harvey?,vice president,1,1,0
+121,What is the position held by both corey j davis and mary r wright?,vice president,1,1,0
+121,What is the position held by both corey j davis and peter c underwood?,vice president,1,1,0
+121,What is the position held by both corey j davis and s bradley mcdougall?,vice president,1,1,0
+121,What is the position held by both corey j davis and shirley shipley?,vice president,1,1,0
+121,What is the position held by both daniel vilarelle and darran wee?,vice president,1,1,0
+121,What is the position held by both daniel vilarelle and derek chang?,vice president,1,1,0
+121,What is the position held by both daniel vilarelle and eric harvey?,vice president,1,1,0
+121,What is the position held by both daniel vilarelle and mary r wright?,vice president,1,1,0
+121,What is the position held by both daniel vilarelle and peter c underwood?,vice president,1,1,0
+121,What is the position held by both daniel vilarelle and s bradley mcdougall?,vice president,1,1,0
+121,What is the position held by both daniel vilarelle and shirley shipley?,vice president,1,1,0
+121,What is the position held by both darran wee and derek chang?,vice president,1,1,0
+121,What is the position held by both darran wee and eric harvey?,vice president,1,1,0
+121,What is the position held by both darran wee and mary r wright?,vice president,1,1,0
+121,What is the position held by both darran wee and peter c underwood?,vice president,1,1,0
+121,What is the position held by both darran wee and s bradley mcdougall?,vice president,1,1,0
+121,What is the position held by both darran wee and shirley shipley?,vice president,1,1,0
+121,What is the position held by both derek chang and eric harvey?,vice president,1,1,0
+121,What is the position held by both derek chang and mary r wright?,vice president,1,1,0
+121,What is the position held by both derek chang and peter c underwood?,vice president,1,1,0
+121,What is the position held by both derek chang and s bradley mcdougall?,vice president,1,1,0
+121,What is the position held by both derek chang and shirley shipley?,vice president,1,1,0
+121,What is the position held by both donna demagistris and victor pierzchalski?,authorized signatory,1,1,0
+121,What is the position held by both eric harvey and mary r wright?,vice president,1,1,0
+121,What is the position held by both eric harvey and peter c underwood?,vice president,1,1,0
+121,What is the position held by both eric harvey and s bradley mcdougall?,vice president,1,1,0
+121,What is the position held by both eric harvey and shirley shipley?,vice president,1,1,0
+121,What is the position held by both james hua and kefel xu?,svp,1,1,0
+121,What is the position held by both james hua and kitty sin?,svp,1,1,0
+121,What is the position held by both james hua and paul hultgren?,svp,1,1,0
+121,What is the position held by both jane chang and murtuza ziauddin?,vp,1,1,0
+121,What is the position held by both joseph philbin and michael dixon?,senior vice president,1,1,0
+121,What is the position held by both joseph philbin and michele dragonetti?,senior vice president,1,1,0
+121,What is the position held by both joseph philbin and steven k kessler?,senior vice president,1,1,0
+121,What is the position held by both joshua r pirozzolo and shuji yabe?,managing director,1,1,0
+121,What is the position held by both kefel xu and kitty sin?,svp,1,1,0
+121,What is the position held by both kefel xu and paul hultgren?,svp,1,1,0
+121,What is the position held by both kitty sin and paul hultgren?,svp,1,1,0
+121,What is the position held by both mary r wright and peter c underwood?,vice president,1,1,0
+121,What is the position held by both mary r wright and s bradley mcdougall?,vice president,1,1,0
+121,What is the position held by both mary r wright and shirley shipley?,vice president,1,1,0
+121,What is the position held by both michael dixon and michele dragonetti?,senior vice president,1,1,0
+121,What is the position held by both michael dixon and steven k kessler?,senior vice president,1,1,0
+121,What is the position held by both michele dragonetti and steven k kessler?,senior vice president,1,1,0
+121,What is the position held by both paul hultgren and steven r bruno?,director,1,1,0
+121,What is the position held by both peter c underwood and s bradley mcdougall?,vice president,1,1,0
+121,What is the position held by both peter c underwood and shirley shipley?,vice president,1,1,0
+121,What is the position held by both s bradley mcdougall and shirley shipley?,vice president,1,1,0
+135,What is the position held by both adam h fey and andreas bubenzer paim?,director,1,1,0
+135,What is the position held by both adam h fey and darlene arias?,director,1,1,0
+135,What is the position held by both adam h fey and mark sparrow?,director,1,1,0
+135,What is the position held by both anders platou and devon j lang?,senior vice president,1,1,0
+135,What is the position held by both anders platou and cathleen buckley?,senior vice president,1,1,0
+135,What is the position held by both andreas bubenzer paim and darlene arias?,director,1,1,0
+135,What is the position held by both andreas bubenzer paim and mark sparrow?,director,1,1,0
+135,What is the position held by both christine aharonian and david valentine?,vice president,1,1,0
+135,What is the position held by both christine aharonian and gabriel juarez?,vice president,1,1,0
+135,What is the position held by both christine aharonian and john c lozano?,vice president,1,1,0
+135,What is the position held by both christine aharonian and les werme?,vice president,1,1,0
+135,What is the position held by both christine aharonian and m colin warman?,vice president,1,1,0
+135,What is the position held by both christine aharonian and mark oberreuter?,vice president,1,1,0
+135,What is the position held by both christine aharonian and reginald crichlow?,vice president,1,1,0
+135,What is the position held by both christine aharonian and rosanne parsill?,vice president,1,1,0
+135,What is the position held by both christine aharonian and shannon juhan?,vice president,1,1,0
+135,What is the position held by both christine aharonian and sharon s spurlin?,vice president,1,1,0
+135,What is the position held by both christine aharonian and virginia cosenza?,vice president,1,1,0
+135,What is the position held by both darlene arias and mark sparrow?,director,1,1,0
+135,What is the position held by both david kee and gumaro tijerina?,managing director,1,1,0
+135,What is the position held by both david kee and joseph onischuk?,managing director,1,1,0
+135,What is the position held by both david kee and michael a tribolet?,managing director,1,1,0
+135,What is the position held by both david kee and michiel van der voort?,managing director,1,1,0
+135,What is the position held by both david valentine and gabriel juarez?,vice president,1,1,0
+135,What is the position held by both david valentine and john c lozano?,vice president,1,1,0
+135,What is the position held by both david valentine and les werme?,vice president,1,1,0
+135,What is the position held by both david valentine and m colin warman?,vice president,1,1,0
+135,What is the position held by both david valentine and mark oberreuter?,vice president,1,1,0
+135,What is the position held by both david valentine and reginald crichlow?,vice president,1,1,0
+135,What is the position held by both david valentine and rosanne parsill?,vice president,1,1,0
+135,What is the position held by both david valentine and shannon juhan?,vice president,1,1,0
+135,What is the position held by both david valentine and sharon s spurlin?,vice president,1,1,0
+135,What is the position held by both david valentine and virginia cosenza?,vice president,1,1,0
+135,What is the position held by both devon j lang and cathleen buckley?,senior vice president,1,1,0
+135,What is the position held by both gabriel juarez and john c lozano?,vice president,1,1,0
+135,What is the position held by both gabriel juarez and les werme?,vice president,1,1,0
+135,What is the position held by both gabriel juarez and m colin warman?,vice president,1,1,0
+135,What is the position held by both gabriel juarez and mark oberreuter?,vice president,1,1,0
+135,What is the position held by both gabriel juarez and reginald crichlow?,vice president,1,1,0
+135,What is the position held by both gabriel juarez and rosanne parsill?,vice president,1,1,0
+135,What is the position held by both gabriel juarez and shannon juhan?,vice president,1,1,0
+135,What is the position held by both gabriel juarez and sharon s spurlin?,vice president,1,1,0
+135,What is the position held by both gabriel juarez and virginia cosenza?,vice president,1,1,0
+135,What is the position held by both gumaro tijerina and joseph onischuk?,managing director,1,1,0
+135,What is the position held by both gumaro tijerina and michael a tribolet?,managing director,1,1,0
+135,What is the position held by both gumaro tijerina and michiel van der voort?,managing director,1,1,0
+135,What is the position held by both james r allred and leon mo?,authorized signatory,1,1,0
+135,What is the position held by both james r allred and michael king?,authorized signatory,1,1,0
+135,What is the position held by both james r allred and richard antl?,authorized signatory,1,1,0
+135,What is the position held by both james r allred and william reid?,authorized signatory,1,1,0
+135,What is the position held by both john c lozano and les werme?,vice president,1,1,0
+135,What is the position held by both john c lozano and m colin warman?,vice president,1,1,0
+135,What is the position held by both john c lozano and mark oberreuter?,vice president,1,1,0
+135,What is the position held by both john c lozano and reginald crichlow?,vice president,1,1,0
+135,What is the position held by both john c lozano and rosanne parsill?,vice president,1,1,0
+135,What is the position held by both john c lozano and shannon juhan?,vice president,1,1,0
+135,What is the position held by both john c lozano and sharon s spurlin?,vice president,1,1,0
+135,What is the position held by both john c lozano and virginia cosenza?,vice president,1,1,0
+135,What is the position held by both joseph onischuk and michael a tribolet?,managing director,1,1,0
+135,What is the position held by both joseph onischuk and michiel van der voort?,managing director,1,1,0
+135,What is the position held by both leon mo and michael king?,authorized signatory,1,1,0
+135,What is the position held by both leon mo and richard antl?,authorized signatory,1,1,0
+135,What is the position held by both leon mo and william reid?,authorized signatory,1,1,0
+135,What is the position held by both les werme and m colin warman?,vice president,1,1,0
+135,What is the position held by both les werme and mark oberreuter?,vice president,1,1,0
+135,What is the position held by both les werme and reginald crichlow?,vice president,1,1,0
+135,What is the position held by both les werme and rosanne parsill?,vice president,1,1,0
+135,What is the position held by both les werme and shannon juhan?,vice president,1,1,0
+135,What is the position held by both les werme and sharon s spurlin?,vice president,1,1,0
+135,What is the position held by both les werme and virginia cosenza?,vice president,1,1,0
+135,What is the position held by both m colin warman and mark oberreuter?,vice president,1,1,0
+135,What is the position held by both m colin warman and reginald crichlow?,vice president,1,1,0
+135,What is the position held by both m colin warman and rosanne parsill?,vice president,1,1,0
+135,What is the position held by both m colin warman and shannon juhan?,vice president,1,1,0
+135,What is the position held by both m colin warman and sharon s spurlin?,vice president,1,1,0
+135,What is the position held by both m colin warman and virginia cosenza?,vice president,1,1,0
+135,What is the position held by both mark oberreuter and reginald crichlow?,vice president,1,1,0
+135,What is the position held by both mark oberreuter and rosanne parsill?,vice president,1,1,0
+135,What is the position held by both mark oberreuter and shannon juhan?,vice president,1,1,0
+135,What is the position held by both mark oberreuter and sharon s spurlin?,vice president,1,1,0
+135,What is the position held by both mark oberreuter and virginia cosenza?,vice president,1,1,0
+135,What is the position held by both michael a tribolet and michiel van der voort?,managing director,1,1,0
+135,What is the position held by both michael king and richard antl?,authorized signatory,1,1,0
+135,What is the position held by both michael king and william reid?,authorized signatory,1,1,0
+135,What is the position held by both reginald crichlow and rosanne parsill?,vice president,1,1,0
+135,What is the position held by both reginald crichlow and shannon juhan?,vice president,1,1,0
+135,What is the position held by both reginald crichlow and sharon s spurlin?,vice president,1,1,0
+135,What is the position held by both reginald crichlow and virginia cosenza?,vice president,1,1,0
+135,What is the position held by both richard antl and william reid?,authorized signatory,1,1,0
+135,What is the position held by both rosanne parsill and shannon juhan?,vice president,1,1,0
+135,What is the position held by both rosanne parsill and sharon s spurlin?,vice president,1,1,0
+135,What is the position held by both rosanne parsill and virginia cosenza?,vice president,1,1,0
+135,What is the position held by both shannon juhan and sharon s spurlin?,vice president,1,1,0
+135,What is the position held by both shannon juhan and virginia cosenza?,vice president,1,1,0
+135,What is the position held by both sharon s spurlin and virginia cosenza?,vice president,1,1,0
+109,What is the position held by both denis yevstifeyey and douglas polinksy?,director,1,1,0
+109,What is the position held by both denis yevstifeyey and j gregory smith?,director,1,1,0
+109,What is the position held by both douglas polinksy and j gregory smith?,director,1,1,0
+18,What is the position held by both craig v koshkarian and elizabeth dove?,vice president,1,1,0
+18,What is the position held by both dennis szczesuil and ghi gavin?,senior vice president,1,1,0
+18,What is the position held by both dennis szczesuil and kevin a stacker?,senior vice president,1,1,0
+18,What is the position held by both ghi gavin and kevin a stacker?,senior vice president,1,1,0
+24,What is the position held by both chad mcmasters and j lee hord?,senior vice president,1,1,0
+24,What is the position held by both courtney jones and jaime gitler?,vice president,1,1,0
+24,What is the position held by both courtney jones and jessica trombly?,vice president,1,1,0
+24,What is the position held by both courtney jones and paul e burgan?,vice president,1,1,0
+24,What is the position held by both jaime gitler and jessica trombly?,vice president,1,1,0
+24,What is the position held by both jaime gitler and paul e burgan?,vice president,1,1,0
+24,What is the position held by both jessica trombly and paul e burgan?,vice president,1,1,0
+131,What is the position held by both john bumgarner and matthieu milgrom?,authorized signatory,1,1,0
+131,What is the position held by both john bumgarner and marisa j beeney?,authorized signatory,1,1,0
+131,What is the position held by both matthieu milgrom and marisa j beeney?,authorized signatory,1,1,0
+125,What is the position held by both david r barney and eric j cosgrove?,senior vice president,1,1,0
+118,What is the position held by both brendan korb and daniel j miller?,vice president,1,1,0
+118,What is the position held by both brendan korb and hal nelson?,vice president,1,1,0
+118,What is the position held by both brendan korb and joan spiotto?,vice president,1,1,0
+118,What is the position held by both brendan korb and ronnie glenn?,vice president,1,1,0
+118,What is the position held by both carl a mayer iii and peter duncan?,managing director,1,1,0
+118,What is the position held by both charles d johnston and christopher day?,authorized signatory,1,1,0
+118,What is the position held by both charles d johnston and kelly chin?,authorized signatory,1,1,0
+118,What is the position held by both charles d johnston and samuel miller?,authorized signatory,1,1,0
+118,What is the position held by both christopher day and kelly chin?,authorized signatory,1,1,0
+118,What is the position held by both christopher day and samuel miller?,authorized signatory,1,1,0
+118,What is the position held by both daniel j miller and hal nelson?,vice president,1,1,0
+118,What is the position held by both daniel j miller and joan spiotto?,vice president,1,1,0
+118,What is the position held by both daniel j miller and ronnie glenn?,vice president,1,1,0
+118,What is the position held by both daniel r van aken and j haynes gentry iii?,director,1,1,0
+118,What is the position held by both hal nelson and joan spiotto?,vice president,1,1,0
+118,What is the position held by both hal nelson and ronnie glenn?,vice president,1,1,0
+118,What is the position held by both joan spiotto and ronnie glenn?,vice president,1,1,0
+118,What is the position held by both kelly chin and samuel miller?,authorized signatory,1,1,0
+124,What is the position held by both christine keating and craig welch?,senior vice president,1,1,0
+124,What is the position held by both christine keating and michael mcmahon?,senior vice president,1,1,0
+124,What is the position held by both christine keating and richard ferrari?,senior vice president,1,1,0
+124,What is the position held by both christine keating and thomas c strasenburgh?,senior vice president,1,1,0
+124,What is the position held by both craig welch and michael mcmahon?,senior vice president,1,1,0
+124,What is the position held by both craig welch and richard ferrari?,senior vice president,1,1,0
+124,What is the position held by both craig welch and thomas c strasenburgh?,senior vice president,1,1,0
+124,What is the position held by both michael k makaitis and randall r phillips?,vice president,1,1,0
+124,What is the position held by both michael mcmahon and richard ferrari?,senior vice president,1,1,0
+124,What is the position held by both michael mcmahon and thomas c strasenburgh?,senior vice president,1,1,0
+124,What is the position held by both richard ferrari and thomas c strasenburgh?,senior vice president,1,1,0
+130,What is the position held by both aaron wade and j carlos navarrete?,director,1,1,0
+130,What is the position held by both aaron wade and jacob mcgee?,director,1,1,0
+130,What is the position held by both cory miller and michael l monninger?,senior vice president,1,1,0
+130,What is the position held by both j carlos navarrete and jacob mcgee?,director,1,1,0
+130,What is the position held by both mark holm and mike ross?,managing director,1,1,0
+31,What is the position held by both anthea del bianco and dhiren desai?,vice president,1,1,0
+31,What is the position held by both anthea del bianco and haiyong yang?,vice president,1,1,0
+31,What is the position held by both anthea del bianco and kurban h merchant?,vice president,1,1,0
+31,What is the position held by both anthea del bianco and maureen maroney?,vice president,1,1,0
+31,What is the position held by both anthea del bianco and oscar d cortez?,vice president,1,1,0
+31,What is the position held by both dhiren desai and haiyong yang?,vice president,1,1,0
+31,What is the position held by both dhiren desai and kurban h merchant?,vice president,1,1,0
+31,What is the position held by both dhiren desai and maureen maroney?,vice president,1,1,0
+31,What is the position held by both dhiren desai and oscar d cortez?,vice president,1,1,0
+31,What is the position held by both eoin roche and richard j poworoznek?,executive director,1,1,0
+31,What is the position held by both george manchenko and scott w reynolds?,director,1,1,0
+31,What is the position held by both haiyong yang and kurban h merchant?,vice president,1,1,0
+31,What is the position held by both haiyong yang and maureen maroney?,vice president,1,1,0
+31,What is the position held by both haiyong yang and oscar d cortez?,vice president,1,1,0
+31,What is the position held by both kurban h merchant and maureen maroney?,vice president,1,1,0
+31,What is the position held by both kurban h merchant and oscar d cortez?,vice president,1,1,0
+31,What is the position held by both mark walton and robert casey?,authorized signatory,1,1,0
+31,What is the position held by both maureen maroney and oscar d cortez?,vice president,1,1,0
+19,What is the position held by both annie carr and john flores?,authorized signatory,1,1,0
+19,What is the position held by both katherine robinson and katie cunningham?,director,1,1,0
+33,What is the position held by both christopher day and jean marc vauclair?,authorized signatory,1,1,0
+126,What is the position held by both andrew sidford and michael maguire?,managing director,1,1,0
+126,What is the position held by both andrew sidford and michelle c phillips?,managing director,1,1,0
+126,What is the position held by both andrew sidford and xavier ruiz sena?,managing director,1,1,0
+126,What is the position held by both brendan heneghan and brett bonet?,director,1,1,0
+126,What is the position held by both brendan heneghan and gordon yip?,director,1,1,0
+126,What is the position held by both brendan heneghan and lillian kim?,director,1,1,0
+126,What is the position held by both brendan heneghan and tony huang?,director,1,1,0
+126,What is the position held by both brett bonet and gordon yip?,director,1,1,0
+126,What is the position held by both brett bonet and lillian kim?,director,1,1,0
+126,What is the position held by both brett bonet and tony huang?,director,1,1,0
+126,What is the position held by both dan beckwith and juliana fong?,senior vice president,1,1,0
+126,What is the position held by both dayi liu and tracy rahn?,executive director,1,1,0
+126,What is the position held by both derek jensen and karim remtoula?,vice president,1,1,0
+126,What is the position held by both derek jensen and min park?,vice president,1,1,0
+126,What is the position held by both derek jensen and puneet lakhotia?,vice president,1,1,0
+126,What is the position held by both derek jensen and richard j ameny jr?,vice president,1,1,0
+126,What is the position held by both derek jensen and susan m olsen?,vice president,1,1,0
+126,What is the position held by both gordon yip and lillian kim?,director,1,1,0
+126,What is the position held by both gordon yip and tony huang?,director,1,1,0
+126,What is the position held by both karim remtoula and min park?,vice president,1,1,0
+126,What is the position held by both karim remtoula and puneet lakhotia?,vice president,1,1,0
+126,What is the position held by both karim remtoula and richard j ameny jr?,vice president,1,1,0
+126,What is the position held by both karim remtoula and susan m olsen?,vice president,1,1,0
+126,What is the position held by both lillian kim and tony huang?,director,1,1,0
+126,What is the position held by both michael maguire and michelle c phillips?,managing director,1,1,0
+126,What is the position held by both michael maguire and xavier ruiz sena?,managing director,1,1,0
+126,What is the position held by both michelle c phillips and xavier ruiz sena?,managing director,1,1,0
+126,What is the position held by both min park and puneet lakhotia?,vice president,1,1,0
+126,What is the position held by both min park and richard j ameny jr?,vice president,1,1,0
+126,What is the position held by both min park and susan m olsen?,vice president,1,1,0
+126,What is the position held by both puneet lakhotia and richard j ameny jr?,vice president,1,1,0
+126,What is the position held by both puneet lakhotia and susan m olsen?,vice president,1,1,0
+126,What is the position held by both richard j ameny jr and susan m olsen?,vice president,1,1,0
+132,What is the position held by both amy prager and james mastroianna?,director,1,1,0
+132,What is the position held by both andrew griffin and doreen barr?,authorized signatory,1,1,0
+132,What is the position held by both andrew griffin and ryan durkin?,authorized signatory,1,1,0
+132,What is the position held by both doreen barr and ryan durkin?,authorized signatory,1,1,0
+127,What is the position held by both annie carr and julie lilienfeld?,authorized signatory,1,1,0
+127,What is the position held by both annie chung and darren merten?,director,1,1,0
+127,What is the position held by both annie chung and ming k chu?,director,1,1,0
+127,What is the position held by both annie chung and teddy koch?,director,1,1,0
+127,What is the position held by both darren merten and ming k chu?,director,1,1,0
+127,What is the position held by both darren merten and teddy koch?,director,1,1,0
+127,What is the position held by both eugene yermash and michael dambach?,vice president,1,1,0
+127,What is the position held by both eugene yermash and ryan m black?,vice president,1,1,0
+127,What is the position held by both michael dambach and ryan m black?,vice president,1,1,0
+127,What is the position held by both ming k chu and teddy koch?,director,1,1,0
+32,What is the position held by both alan greenhow and ann e sutton?,director,1,1,0
+32,What is the position held by both alan greenhow and j campbell?,director,1,1,0
+32,What is the position held by both alan greenhow and john stholl?,director,1,1,0
+32,What is the position held by both ann e sutton and j campbell?,director,1,1,0
+32,What is the position held by both ann e sutton and john stholl?,director,1,1,0
+32,What is the position held by both j campbell and john stholl?,director,1,1,0
+32,What is the position held by both jason blondell and jeremy causton?,authorised signatory,1,1,0
+32,What is the position held by both john hanbury and mark lumpkin jr?,authorized signatory,1,1,0
+32,What is the position held by both john hanbury and rebecca camden?,authorized signatory,1,1,0
+32,What is the position held by both mark lumpkin jr and rebecca camden?,authorized signatory,1,1,0
+26,What is the position held by both ade adedeji and ryan m black?,vice president,1,1,0
+26,What is the position held by both ade adedeji and veli matti abohen?,vice president,1,1,0
+26,What is the position held by both ade adedeji and virginia cosenza?,vice president,1,1,0
+26,What is the position held by both ade adedeji and william p herold?,vice president,1,1,0
+26,What is the position held by both andrew d holtz and breck fleming?,senior vice president,1,1,0
+26,What is the position held by both andrew d holtz and jeffrey galik?,senior vice president,1,1,0
+26,What is the position held by both breck fleming and jeffrey galik?,senior vice president,1,1,0
+26,What is the position held by both brian crowley and christopher sked?,managing director,1,1,0
+26,What is the position held by both brian crowley and fabio della malva?,managing director,1,1,0
+26,What is the position held by both brian crowley and gary herzog?,managing director,1,1,0
+26,What is the position held by both brian crowley and iain stewart?,managing director,1,1,0
+26,What is the position held by both brian crowley and marc fussbahn?,managing director,1,1,0
+26,What is the position held by both brian crowley and michelle c phillips?,managing director,1,1,0
+26,What is the position held by both brian crowley and pedro bell?,managing director,1,1,0
+26,What is the position held by both brian crowley and veronica incera?,managing director,1,1,0
+26,What is the position held by both brian crowley and xavier ruiz sena?,managing director,1,1,0
+26,What is the position held by both christopher sked and fabio della malva?,managing director,1,1,0
+26,What is the position held by both christopher sked and gary herzog?,managing director,1,1,0
+26,What is the position held by both christopher sked and iain stewart?,managing director,1,1,0
+26,What is the position held by both christopher sked and marc fussbahn?,managing director,1,1,0
+26,What is the position held by both christopher sked and michelle c phillips?,managing director,1,1,0
+26,What is the position held by both christopher sked and pedro bell?,managing director,1,1,0
+26,What is the position held by both christopher sked and veronica incera?,managing director,1,1,0
+26,What is the position held by both christopher sked and xavier ruiz sena?,managing director,1,1,0
+26,What is the position held by both clifford a mull and jill wong?,director,1,1,0
+26,What is the position held by both clifford a mull and jonathan logan?,director,1,1,0
+26,What is the position held by both clifford a mull and jordan harris?,director,1,1,0
+26,What is the position held by both clifford a mull and joshua hovermale?,director,1,1,0
+26,What is the position held by both clifford a mull and katherine bass?,director,1,1,0
+26,What is the position held by both clifford a mull and ming k chu?,director,1,1,0
+26,What is the position held by both clifford a mull and ronnie glenn?,director,1,1,0
+26,What is the position held by both clifford a mull and scott oconnell?,director,1,1,0
+26,What is the position held by both emerson almeida and john toronto?,authorized signatory,1,1,0
+26,What is the position held by both emerson almeida and tracy rahn?,authorized signatory,1,1,0
+26,What is the position held by both emerson almeida and anish shah?,authorized signatory,1,1,0
+26,What is the position held by both fabio della malva and gary herzog?,managing director,1,1,0
+26,What is the position held by both fabio della malva and iain stewart?,managing director,1,1,0
+26,What is the position held by both fabio della malva and marc fussbahn?,managing director,1,1,0
+26,What is the position held by both fabio della malva and michelle c phillips?,managing director,1,1,0
+26,What is the position held by both fabio della malva and pedro bell?,managing director,1,1,0
+26,What is the position held by both fabio della malva and veronica incera?,managing director,1,1,0
+26,What is the position held by both fabio della malva and xavier ruiz sena?,managing director,1,1,0
+26,What is the position held by both gary herzog and iain stewart?,managing director,1,1,0
+26,What is the position held by both gary herzog and marc fussbahn?,managing director,1,1,0
+26,What is the position held by both gary herzog and michelle c phillips?,managing director,1,1,0
+26,What is the position held by both gary herzog and pedro bell?,managing director,1,1,0
+26,What is the position held by both gary herzog and veronica incera?,managing director,1,1,0
+26,What is the position held by both gary herzog and xavier ruiz sena?,managing director,1,1,0
+26,What is the position held by both iain stewart and marc fussbahn?,managing director,1,1,0
+26,What is the position held by both iain stewart and michelle c phillips?,managing director,1,1,0
+26,What is the position held by both iain stewart and pedro bell?,managing director,1,1,0
+26,What is the position held by both iain stewart and veronica incera?,managing director,1,1,0
+26,What is the position held by both iain stewart and xavier ruiz sena?,managing director,1,1,0
+26,What is the position held by both jeffrey galik and jeffreygalik?,treasurer,1,1,0
+26,What is the position held by both jill wong and jonathan logan?,director,1,1,0
+26,What is the position held by both jill wong and jordan harris?,director,1,1,0
+26,What is the position held by both jill wong and joshua hovermale?,director,1,1,0
+26,What is the position held by both jill wong and katherine bass?,director,1,1,0
+26,What is the position held by both jill wong and ming k chu?,director,1,1,0
+26,What is the position held by both jill wong and ronnie glenn?,director,1,1,0
+26,What is the position held by both jill wong and scott oconnell?,director,1,1,0
+26,What is the position held by both john toronto and tracy rahn?,authorized signatory,1,1,0
+26,What is the position held by both john toronto and anish shah?,authorized signatory,1,1,0
+26,What is the position held by both jonathan logan and jordan harris?,director,1,1,0
+26,What is the position held by both jonathan logan and joshua hovermale?,director,1,1,0
+26,What is the position held by both jonathan logan and katherine bass?,director,1,1,0
+26,What is the position held by both jonathan logan and ming k chu?,director,1,1,0
+26,What is the position held by both jonathan logan and ronnie glenn?,director,1,1,0
+26,What is the position held by both jonathan logan and scott oconnell?,director,1,1,0
+26,What is the position held by both jordan harris and joshua hovermale?,director,1,1,0
+26,What is the position held by both jordan harris and katherine bass?,director,1,1,0
+26,What is the position held by both jordan harris and ming k chu?,director,1,1,0
+26,What is the position held by both jordan harris and ronnie glenn?,director,1,1,0
+26,What is the position held by both jordan harris and scott oconnell?,director,1,1,0
+26,What is the position held by both joshua hovermale and katherine bass?,director,1,1,0
+26,What is the position held by both joshua hovermale and ming k chu?,director,1,1,0
+26,What is the position held by both joshua hovermale and ronnie glenn?,director,1,1,0
+26,What is the position held by both joshua hovermale and scott oconnell?,director,1,1,0
+26,What is the position held by both katherine bass and ming k chu?,director,1,1,0
+26,What is the position held by both katherine bass and ronnie glenn?,director,1,1,0
+26,What is the position held by both katherine bass and scott oconnell?,director,1,1,0
+26,What is the position held by both katherine kelly and katherinekelly?,corporate secretary,1,1,0
+26,What is the position held by both marc fussbahn and michelle c phillips?,managing director,1,1,0
+26,What is the position held by both marc fussbahn and pedro bell?,managing director,1,1,0
+26,What is the position held by both marc fussbahn and veronica incera?,managing director,1,1,0
+26,What is the position held by both marc fussbahn and xavier ruiz sena?,managing director,1,1,0
+26,What is the position held by both michelle c phillips and pedro bell?,managing director,1,1,0
+26,What is the position held by both michelle c phillips and veronica incera?,managing director,1,1,0
+26,What is the position held by both michelle c phillips and xavier ruiz sena?,managing director,1,1,0
+26,What is the position held by both ming k chu and ronnie glenn?,director,1,1,0
+26,What is the position held by both ming k chu and scott oconnell?,director,1,1,0
+26,What is the position held by both pedro bell and veronica incera?,managing director,1,1,0
+26,What is the position held by both pedro bell and xavier ruiz sena?,managing director,1,1,0
+26,What is the position held by both ronnie glenn and scott oconnell?,director,1,1,0
+26,What is the position held by both ryan m black and veli matti abohen?,vice president,1,1,0
+26,What is the position held by both ryan m black and virginia cosenza?,vice president,1,1,0
+26,What is the position held by both ryan m black and william p herold?,vice president,1,1,0
+26,What is the position held by both tracy rahn and anish shah?,authorized signatory,1,1,0
+26,What is the position held by both veli matti abohen and virginia cosenza?,vice president,1,1,0
+26,What is the position held by both veli matti abohen and william p herold?,vice president,1,1,0
+26,What is the position held by both veronica incera and xavier ruiz sena?,managing director,1,1,0
+26,What is the position held by both virginia cosenza and william p herold?,vice president,1,1,0

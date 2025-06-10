@@ -1,0 +1,40 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+166,What is the address of zonal office of the company which is the lender but not the holdings in the agreement?,dubai uae,3,2,0
+166,What is the address of zonal office of the company which is the lender but not the borrower in the agreement?,dubai uae,3,2,0
+166,What is the address of corporate office of the company which is the holdings but not the lender in the agreement?,two alliance center 3560 lenox road suite 2000 atlanta ga 30326 usa,3,2,0
+166,What is the address of corporate office of the company which is the holdings but not the borrower in the agreement?,two alliance center 3560 lenox road suite 2000 atlanta ga 30326 usa,3,2,0
+166,What is the address of corporate office of the company which is the holdings but not the lead arrangers in the agreement?,two alliance center 3560 lenox road suite 2000 atlanta ga 30326 usa,3,2,0
+166,What is the address of corporate office of the company which is the holdings but not the bookrunners in the agreement?,two alliance center 3560 lenox road suite 2000 atlanta ga 30326 usa,3,2,0
+166,What is the address of corporate office of the company which is the borrower but not the lender in the agreement?,two alliance center 3560 lenox road suite 2000 atlanta ga 30326 usa,3,2,0
+166,What is the address of corporate office of the company which is the borrower but not the holdings in the agreement?,two alliance center 3560 lenox road suite 2000 atlanta ga 30326 usa,3,2,0
+166,What is the address of corporate office of the company which is the borrower but not the lead arrangers in the agreement?,two alliance center 3560 lenox road suite 2000 atlanta ga 30326 usa,3,2,0
+166,What is the address of corporate office of the company which is the borrower but not the bookrunners in the agreement?,two alliance center 3560 lenox road suite 2000 atlanta ga 30326 usa,3,2,0
+166,What is the address of zonal office of the company which is the lead arrangers but not the holdings in the agreement?,dubai uae,3,2,0
+166,What is the address of zonal office of the company which is the lead arrangers but not the borrower in the agreement?,dubai uae,3,2,0
+166,What is the address of zonal office of the company which is the bookrunners but not the holdings in the agreement?,dubai uae,3,2,0
+166,What is the address of zonal office of the company which is the bookrunners but not the borrower in the agreement?,dubai uae,3,2,0
+91,What is the address of address for notices of the company which is the lender but not the borrower in the agreement?,bank of oklahoma 1625 broadway suite 1100 denver colorado 80202,3,2,0
+91,What is the address of payment processing center of the company which is the lender but not the borrower in the agreement?,po box 248817 oklahoma city oklahoma 73124 8817,3,2,0
+91,What is the address of address for notices of the company which is the borrower but not the lender in the agreement?,63317th street suite 1900 denver colorado 80202 3619,3,2,0
+137,What is the address of domestic lending office of the company which is the co syndication agents but not the agents in the agreement?,101 n tryon street charlotte nc 28255,3,2,0
+137,What is the address of eurodollar lending office of the company which is the co syndication agents but not the agents in the agreement?,101 n tryon street charlotte nc 28255,3,2,0
+137,What is the address of domestic lending office of the company which is the co syndication agents but not the administrative agent in the agreement?,101 n tryon street charlotte nc 28255,3,2,0
+137,What is the address of eurodollar lending office of the company which is the co syndication agents but not the administrative agent in the agreement?,101 n tryon street charlotte nc 28255,3,2,0
+137,What is the address of domestic lending office of the company which is the bank but not the co syndication agents in the agreement?,1900 5th avenue north 15th flr birmingham al 35203,3,2,0
+137,What is the address of eurodollar lending office of the company which is the bank but not the co syndication agents in the agreement?,1900 5th avenue north 15th flr birmingham al 35203,3,2,0
+137,What is the address of domestic lending office of the company which is the bank but not the agents in the agreement?,101 n tryon street charlotte nc 28255,3,2,0
+137,What is the address of eurodollar lending office of the company which is the bank but not the agents in the agreement?,101 n tryon street charlotte nc 28255,3,2,0
+137,What is the address of domestic lending office of the company which is the agents but not the co syndication agents in the agreement?,1900 5th avenue north 15th flr birmingham al 35203,3,2,0
+137,What is the address of eurodollar lending office of the company which is the agents but not the co syndication agents in the agreement?,1900 5th avenue north 15th flr birmingham al 35203,3,2,0
+137,What is the address of domestic lending office of the company which is the agents but not the administrative agent in the agreement?,1900 5th avenue north 15th flr birmingham al 35203,3,2,0
+137,What is the address of eurodollar lending office of the company which is the agents but not the administrative agent in the agreement?,1900 5th avenue north 15th flr birmingham al 35203,3,2,0
+137,What is the address of domestic lending office of the company which is the administrative agent but not the co syndication agents in the agreement?,hanover street capital llc 48 wall street 14th floor new york ny 10005,3,2,0
+137,What is the address of eurodollar lending office of the company which is the administrative agent but not the co syndication agents in the agreement?,hanover street capital llc 48 wall street 14th floor new york ny 10005,3,2,0
+137,What is the address of domestic lending office of the company which is the administrative agent but not the bank in the agreement?,hanover street capital llc 48 wall street 14th floor new york ny 10005,3,2,0
+137,What is the address of eurodollar lending office of the company which is the administrative agent but not the bank in the agreement?,hanover street capital llc 48 wall street 14th floor new york ny 10005,3,2,0
+137,What is the address of domestic lending office of the company which is the administrative agent but not the agents in the agreement?,hanover street capital llc 48 wall street 14th floor new york ny 10005,3,2,0
+137,What is the address of eurodollar lending office of the company which is the administrative agent but not the agents in the agreement?,hanover street capital llc 48 wall street 14th floor new york ny 10005,3,2,0
+32,What is the address of registered office of the company which is the borrowers but not the the company in the agreement?,13 15 avenue de la liberté l 1931 luxembourg,3,2,0
+32,What is the address of registered office of the company which is the initial borrower but not the the company in the agreement?,13 15 avenue de la liberté l 1931 luxembourg,3,2,0
+32,What is the address of registered office of the company which is the the company but not the borrowers in the agreement?,13 15 avenue de la liberté l 1931 luxembourg,3,2,0
+32,What is the address of registered office of the company which is the the company but not the initial borrower in the agreement?,13 15 avenue de la liberté l 1931 luxembourg,3,2,0

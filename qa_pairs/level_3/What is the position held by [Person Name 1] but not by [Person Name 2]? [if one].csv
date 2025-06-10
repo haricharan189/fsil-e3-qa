@@ -1,0 +1,9 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+99,What is the position held by doug couvillion but not by nick flanagan?,treasurer,1,2,0
+82,What is the position held by david c francisco but not by john l healy?,treasurer,1,2,0
+84,What is the position held by alexander wu but not by chwan ming ho?,svp,1,2,0
+84,What is the position held by alexander wu but not by edward chen?,svp,1,2,0
+84,What is the position held by alexander wu but not by li hua huang?,svp,1,2,0
+35,What is the position held by john p rielly but not by timothy b goodell?,chief financial officer,1,2,0
+121,What is the position held by angela chen but not by jane chang?,dgm,1,2,0
+121,What is the position held by kefel xu but not by paul hultgren?,branch manager,1,2,0

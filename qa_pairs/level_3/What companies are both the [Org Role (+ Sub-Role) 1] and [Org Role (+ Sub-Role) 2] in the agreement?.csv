@@ -1,0 +1,1161 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+17,What companies are both the grantor and pledgor in the agreement?,exgen renewables iv llc,1,1,1
+17,What companies are both the grantor and borrower in the agreement?,exgen renewables iv llc,1,1,1
+17,What companies are both the pledgor and borrower in the agreement?,exgen renewables iv llc,1,1,1
+17,What companies are both the bookrunner and documentation agent in the agreement?,morgan stanley senior funding inc,1,1,1
+17,What companies are both the bookrunner and lead arranger in the agreement?,morgan stanley senior funding inc,1,1,1
+17,What companies are both the bookrunner and syndication agent in the agreement?,morgan stanley senior funding inc,1,1,1
+17,What companies are both the documentation agent and lead arranger in the agreement?,morgan stanley senior funding inc,1,1,1
+17,What companies are both the documentation agent and syndication agent in the agreement?,morgan stanley senior funding inc,1,1,1
+17,What companies are both the lead arranger and syndication agent in the agreement?,morgan stanley senior funding inc,1,1,1
+17,What companies are both the collateral wilmington trust national association agent and depositary bank in the agreement?,wilmington trust national association,1,1,1
+17,What companies are both the collateral wilmington trust national association agent and collateral agent in the agreement?,wilmington trust national association,1,1,1
+17,What companies are both the depositary bank and collateral agent in the agreement?,wilmington trust national association,1,1,1
+102,What companies are both the borrowers and administrative borrower in the agreement?,digirad corporation,1,1,1
+102,What companies are both the administrative agent and book runner in the agreement?,wells fargo bank national association,1,1,1
+102,What companies are both the arranger and administrative agent in the agreement?,wells fargo bank national association,1,1,1
+102,What companies are both the administrative agent and sole book runner in the agreement?,wells fargo bank national association,1,1,1
+102,What companies are both the lender and administrative agent in the agreement?,wells fargo bank national association,1,1,1
+102,What companies are both the arranger and book runner in the agreement?,wells fargo bank national association,1,1,1
+102,What companies are both the sole book runner and book runner in the agreement?,wells fargo bank national association,1,1,1
+102,What companies are both the lender and book runner in the agreement?,wells fargo bank national association,1,1,1
+102,What companies are both the arranger and sole book runner in the agreement?,wells fargo bank national association,1,1,1
+102,What companies are both the arranger and lender in the agreement?,wells fargo bank national association,1,1,1
+102,What companies are both the lender and sole book runner in the agreement?,wells fargo bank national association,1,1,1
+116,What companies are both the arranger and administrative agent in the agreement?,cibc bank usa,1,1,1
+116,What companies are both the arranger and issuing lender in the agreement?,cibc bank usa,1,1,1
+116,What companies are both the administrative agent and issuing lender in the agreement?,cibc bank usa,1,1,1
+117,What companies are both the lender and syndication agent in the agreement?,bank of america na,1,1,1
+117,What companies are both the arranger and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+117,What companies are both the bookrunner and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+117,What companies are both the swing line lender and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+117,What companies are both the administrative agent and issuing lender in the agreement?,jpmorgan chase bank na,1,1,1
+117,What companies are both the arranger and bookrunner in the agreement?,jpmorgan chase bank na,1,1,1
+117,What companies are both the arranger and swing line lender in the agreement?,jpmorgan chase bank na,1,1,1
+117,What companies are both the arranger and issuing lender in the agreement?,jpmorgan chase bank na,1,1,1
+117,What companies are both the swing line lender and bookrunner in the agreement?,jpmorgan chase bank na,1,1,1
+117,What companies are both the bookrunner and issuing lender in the agreement?,jpmorgan chase bank na,1,1,1
+117,What companies are both the swing line lender and issuing lender in the agreement?,jpmorgan chase bank na,1,1,1
+117,What companies are both the lender and agent in the agreement?,wells fargo bank national association,1,1,1
+103,What companies are both the lender and administrative agent in the agreement?,botticelli llc,1,1,1
+16,What companies are both the lender and term agent in the agreement?,crystal financial llc,1,1,1
+28,What companies are both the lender and agent in the agreement?,"akin gump strauss hauer and feld llp, pharmakon advisors lp",1,1,1
+28,What companies are both the investment manager and lender in the agreement?,pharmakon advisors lp,1,1,1
+28,What companies are both the investment manager and agent in the agreement?,pharmakon advisors lp,1,1,1
+28,What companies are both the lender and collateral agent in the agreement?,biopharma credit plc,1,1,1
+129,What companies are both the arranger and bookrunner in the agreement?,jp morgan securities llc,1,1,1
+129,What companies are both the issuing bank and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+101,What companies are both the arranger and administrative agent in the agreement?,texas capital bank national association,1,1,1
+101,What companies are both the l c issuer and administrative agent in the agreement?,texas capital bank national association,1,1,1
+101,What companies are both the administrative agent and sole book runner in the agreement?,texas capital bank national association,1,1,1
+101,What companies are both the lender and administrative agent in the agreement?,texas capital bank national association,1,1,1
+101,What companies are both the arranger and l c issuer in the agreement?,texas capital bank national association,1,1,1
+101,What companies are both the arranger and sole book runner in the agreement?,texas capital bank national association,1,1,1
+101,What companies are both the arranger and lender in the agreement?,texas capital bank national association,1,1,1
+101,What companies are both the l c issuer and sole book runner in the agreement?,texas capital bank national association,1,1,1
+101,What companies are both the lender and l c issuer in the agreement?,texas capital bank national association,1,1,1
+101,What companies are both the lender and sole book runner in the agreement?,texas capital bank national association,1,1,1
+100,What companies are both the arranger and sole bookrunner in the agreement?,wells fargo securities llc,1,1,1
+100,What companies are both the lender and agent in the agreement?,suntrust bank,1,1,1
+100,What companies are both the administrative agent and issuing lender in the agreement?,wells fargo bank national association,1,1,1
+100,What companies are both the administrative agent and swingline lender in the agreement?,wells fargo bank national association,1,1,1
+100,What companies are both the swingline lender and issuing lender in the agreement?,wells fargo bank national association,1,1,1
+114,What companies are both the lender and agent in the agreement?,midcap financial trust,1,1,1
+114,What companies are both the borrowers and borrower in the agreement?,moduslink corporation,1,1,1
+128,What companies are both the arranger and joint bookrunners in the agreement?,bofa securities inc,1,1,1
+128,What companies are both the arranger and bookrunners in the agreement?,jpmorgan chase bank na,1,1,1
+128,What companies are both the arranger and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+128,What companies are both the bookrunners and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+29,What companies are both the issuing bank and lender in the agreement?,pnc bank national association,1,1,1
+29,What companies are both the issuing bank and administrative agent in the agreement?,pnc bank national association,1,1,1
+29,What companies are both the lender and administrative agent in the agreement?,pnc bank national association,1,1,1
+29,What companies are both the parent borrower and parent in the agreement?,paychex inc,1,1,1
+39,What companies are both the arranger and bookrunner in the agreement?,pnc capital markets llc,1,1,1
+39,What companies are both the lender and co collateral agent in the agreement?,"bank of america na, pnc bank national association",1,1,1
+39,What companies are both the lender and administrative agent in the agreement?,pnc bank national association,1,1,1
+39,What companies are both the administrative agent and co collateral agent in the agreement?,pnc bank national association,1,1,1
+11,What companies are both the administrative agent and initial lender in the agreement?,jpmorgan chase bank na,1,1,1
+110,What companies are both the joint bookrunners and arrangers in the agreement?,merrill lynch pierce fenner and smith incorporated,1,1,1
+110,What companies are both the bookrunners and arrangers in the agreement?,"jpmorgan chase bank na, mizuho bank ltd, the bank of tokyo mitsubishi ufj ltd, wells fargo securities llc",1,1,1
+110,What companies are both the administrative agent and syndication agent in the agreement?,wells fargo bank national association,1,1,1
+110,What companies are both the bookrunners and agent in the agreement?,mizuho bank ltd,1,1,1
+110,What companies are both the arrangers and agent in the agreement?,mizuho bank ltd,1,1,1
+104,What companies are both the bookrunners and arrangers in the agreement?,citigroup global markets inc,1,1,1
+104,What companies are both the joint bookrunners and arrangers in the agreement?,merrill lynch pierce fenner and smith incorporated,1,1,1
+104,What companies are both the material subsidiaries and guarantor in the agreement?,"convergys cmg insurance services llc, convergys customer management delaware llc, convergys customer management group canada holding inc, convergys customer management group inc, convergys customer management international inc, convergys government solutions llc, encore receivable management inc, intervoice llc, sgs holdings inc, stream global services az inc, stream global services inc, stream global services us inc, stream holdings corporation, stream international inc, stream new york inc",1,1,1
+138,What companies are both the lender and joint bookrunners in the agreement?,us bank national association,1,1,1
+138,What companies are both the lender and agent in the agreement?,us bank national association,1,1,1
+138,What companies are both the joint bookrunners and agent in the agreement?,us bank national association,1,1,1
+138,What companies are both the lender and administrative agent in the agreement?,pnc bank national association,1,1,1
+139,What companies are both the joint bookrunners and joint lead arrangers in the agreement?,"fenner and smith incorporated, jp morgan securities llc merrill lynch pierce fenner and smith incorporated citigroup global markets inc crédit agricole corporate and investment bank mizuho bank ltd rbc capital markets, rbc capital markets",1,1,1
+139,What companies are both the joint bookrunners and documentation agents in the agreement?,td securities usa llc,1,1,1
+139,What companies are both the lender and administrative agent in the agreement?,bank of america na,1,1,1
+139,What companies are both the lender and syndication agent in the agreement?,bank of america na,1,1,1
+139,What companies are both the administrative agent and syndication agent in the agreement?,bank of america na,1,1,1
+139,What companies are both the lender and agent in the agreement?,jpmorgan chase bank na,1,1,1
+139,What companies are both the lenders and borrower in the agreement?,crown castle international corp,1,1,1
+111,What companies are both the joint bookrunners and arrangers in the agreement?,suntrust robinson humphrey inc,1,1,1
+111,What companies are both the bookrunners and arrangers in the agreement?,"national australia bank limited, wells fargo securities llc",1,1,1
+111,What companies are both the guarantors and guarantor in the agreement?,"enstar holdings us llc, enstar us asia pac holdings limited, kenmare holdings ltd",1,1,1
+111,What companies are both the bookrunners and lender in the agreement?,national australia bank limited,1,1,1
+111,What companies are both the lender and arrangers in the agreement?,national australia bank limited,1,1,1
+111,What companies are both the lender and administrative agent in the agreement?,"suntrust bank, wells fargo bank national association",1,1,1
+111,What companies are both the lender and co syndication agent in the agreement?,suntrust bank,1,1,1
+111,What companies are both the administrative agent and co syndication agent in the agreement?,suntrust bank,1,1,1
+111,What companies are both the lender and agent in the agreement?,wells fargo bank national association,1,1,1
+111,What companies are both the administrative agent and agent in the agreement?,wells fargo bank national association,1,1,1
+10,What companies are both the lender issuing bank and administrative agent in the agreement?,royal bank of canada,1,1,1
+38,What companies are both the arranger and bookrunners in the agreement?,"citigroup global markets inc, jp morgan securities llc, merrill lynch pierce fenner and smith incorporated, mizuho bank ltd, the bank of tokyo mitsubishi ufj ltd, wells fargo securities llc",1,1,1
+38,What companies are both the co documentation agents and lender in the agreement?,"bank of america na, citibank na, mizuho bank ltd, the bank of tokyo mitsubishi ufj ltd",1,1,1
+38,What companies are both the arranger and co documentation agents in the agreement?,"mizuho bank ltd, the bank of tokyo mitsubishi ufj ltd",1,1,1
+38,What companies are both the arranger and lender in the agreement?,"mizuho bank ltd, the bank of tokyo mitsubishi ufj ltd",1,1,1
+38,What companies are both the co documentation agents and bookrunners in the agreement?,"mizuho bank ltd, the bank of tokyo mitsubishi ufj ltd",1,1,1
+38,What companies are both the bookrunners and lender in the agreement?,"mizuho bank ltd, the bank of tokyo mitsubishi ufj ltd",1,1,1
+38,What companies are both the lender and syndication agent in the agreement?,wells fargo bank national association,1,1,1
+38,What companies are both the lender and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+12,What companies are both the lender and administrative agent in the agreement?,mizuho bank ltd,1,1,1
+107,What companies are both the bookrunners and arrangers in the agreement?,"barclays capital, citigroup global markets inc, jp morgan securities inc, wells fargo foothill inc",1,1,1
+107,What companies are both the bookrunners and barclays capital agents in the agreement?,jp morgan securities inc,1,1,1
+107,What companies are both the barclays capital agents and arrangers in the agreement?,jp morgan securities inc,1,1,1
+107,What companies are both the joint bookrunner and arrangers in the agreement?,rbc capital markets,1,1,1
+107,What companies are both the administrative agent and arrangers in the agreement?,wells fargo foothill inc,1,1,1
+107,What companies are both the bookrunners and administrative agent in the agreement?,wells fargo foothill inc,1,1,1
+107,What companies are both the grantor and domestic guarantor in the agreement?,"easylink services international corporation, easylink services usa inc, open text canada ltd, open text corporation, open text holdings inc, open text inc, open text ulc, open text usa inc, xpedite systems llc",1,1,1
+107,What companies are both the grantor and borrower in the agreement?,ocelot merger sub inc,1,1,1
+107,What companies are both the administrative agent and collateral agent in the agreement?,barclays bank plc,1,1,1
+107,What companies are both the arranger and administrative agent in the agreement?,barclays bank plc,1,1,1
+107,What companies are both the lead arrangers and administrative agent in the agreement?,barclays bank plc,1,1,1
+107,What companies are both the intercreditor agent and administrative agent in the agreement?,barclays bank plc,1,1,1
+107,What companies are both the lender and administrative agent in the agreement?,barclays bank plc,1,1,1
+107,What companies are both the arranger and collateral agent in the agreement?,barclays bank plc,1,1,1
+107,What companies are both the lead arrangers and collateral agent in the agreement?,barclays bank plc,1,1,1
+107,What companies are both the intercreditor agent and collateral agent in the agreement?,barclays bank plc,1,1,1
+107,What companies are both the lender and collateral agent in the agreement?,barclays bank plc,1,1,1
+107,What companies are both the arranger and lead arrangers in the agreement?,barclays bank plc,1,1,1
+107,What companies are both the arranger and intercreditor agent in the agreement?,barclays bank plc,1,1,1
+107,What companies are both the arranger and lender in the agreement?,barclays bank plc,1,1,1
+107,What companies are both the lead arrangers and intercreditor agent in the agreement?,barclays bank plc,1,1,1
+107,What companies are both the lead arrangers and lender in the agreement?,barclays bank plc,1,1,1
+107,What companies are both the intercreditor agent and lender in the agreement?,barclays bank plc,1,1,1
+107,What companies are both the guarantors and guarantor in the agreement?,gxs worldwide inc,1,1,1
+112,What companies are both the joint bookrunners and arrangers in the agreement?,merrill lynch pierce fennerand smith incorporated,1,1,1
+112,What companies are both the lender and syndication agent in the agreement?,bank of america na,1,1,1
+112,What companies are both the bookrunners and arrangers in the agreement?,jpmorgan chase bank na,1,1,1
+112,What companies are both the lender and arrangers in the agreement?,jpmorgan chase bank na,1,1,1
+112,What companies are both the administrative agent and arrangers in the agreement?,jpmorgan chase bank na,1,1,1
+112,What companies are both the bookrunners and lender in the agreement?,jpmorgan chase bank na,1,1,1
+112,What companies are both the bookrunners and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+112,What companies are both the lender and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+106,What companies are both the lenders and borrowers in the agreement?,"black mountain cogeninc, blue ridge generation llc, casco bay energy company llc, dynegy equipment llc, dynegy kendall energy llc, dynegy marketing and trade llc, dynegy morro bay llc, dynegy moss landing llc, dynegy oakland llc, dynegy power generation inc, dynegy south bay llc, ontelaunee power operating company llc, sithe energiesinc, sithe independence llc, sithe independence power partners lp",1,1,1
+106,What companies are both the arranger and bookrunner in the agreement?,"barclays bank plc, citigroup global marketsinc, deutsche bank securities inc, goldman sachs bank usa, rbc capital markets",1,1,1
+106,What companies are both the arranger and bookrunners in the agreement?,"barclays bank plc, citigroup global marketsinc, deutsche bank securities inc, goldman sachs bank usa, rbc capital markets",1,1,1
+106,What companies are both the bookrunner and bookrunners in the agreement?,"barclays bank plc, citigroup global marketsinc, deutsche bank securities inc, goldman sachs bank usa, rbc capital markets, ubs securities llc",1,1,1
+106,What companies are both the arranger and arrangers in the agreement?,"barclays bank plc, deutsche bank securities inc, goldman sachs bank usa, rbc capital markets",1,1,1
+106,What companies are both the bookrunner and arrangers in the agreement?,"barclays bank plc, deutsche bank securities inc, goldman sachs bank usa, rbc capital markets",1,1,1
+106,What companies are both the bookrunners and arrangers in the agreement?,"barclays bank plc, deutsche bank securities inc, goldman sachs bank usa, rbc capital markets",1,1,1
+106,What companies are both the bookrunner and joint lead arrangers in the agreement?,ubs securities llc,1,1,1
+106,What companies are both the bookrunner and joint lead arranger in the agreement?,ubs securities llc,1,1,1
+106,What companies are both the bookrunners and joint lead arrangers in the agreement?,ubs securities llc,1,1,1
+106,What companies are both the joint lead arrangers and joint lead arranger in the agreement?,ubs securities llc,1,1,1
+106,What companies are both the bookrunners and joint lead arranger in the agreement?,ubs securities llc,1,1,1
+106,What companies are both the bookrunners and lender in the agreement?,"barclays bank plc, goldman sachs bank usa",1,1,1
+106,What companies are both the arranger and lender in the agreement?,"barclays bank plc, goldman sachs bank usa",1,1,1
+106,What companies are both the bookrunner and lender in the agreement?,"barclays bank plc, goldman sachs bank usa",1,1,1
+106,What companies are both the lender and arrangers in the agreement?,"barclays bank plc, goldman sachs bank usa",1,1,1
+106,What companies are both the lenders and borrower in the agreement?,dynegy power llc,1,1,1
+106,What companies are both the lenders and subordinated borrowers in the agreement?,dynegy power llc,1,1,1
+106,What companies are both the borrower and subordinated borrowers in the agreement?,dynegy power llc,1,1,1
+106,What companies are both the lender and collateral trustee in the agreement?,royal bank of canada,1,1,1
+106,What companies are both the lender and administrative agent in the agreement?,royal bank of canada,1,1,1
+106,What companies are both the collateral trustee and administrative agent in the agreement?,royal bank of canada,1,1,1
+13,What companies are both the lender and administrative agent in the agreement?,jefferies finance llc,1,1,1
+13,What companies are both the lender and collateral agent in the agreement?,jefferies finance llc,1,1,1
+13,What companies are both the administrative agent and collateral agent in the agreement?,jefferies finance llc,1,1,1
+60,What companies are both the bookrunners and arrangers in the agreement?,"bank of montreal, bofa securities inc, capital one national association, citibank na, jpmorgan chase bank na, mufg bank ltd, the bank of nova scotia, us bank national association, wells fargo securities llc",1,1,1
+60,What companies are both the bookrunners and agents in the agreement?,"bank of montreal, capital one national association, jpmorgan chase bank na, the bank of nova scotia, us bank national association",1,1,1
+60,What companies are both the arrangers and agents in the agreement?,"bank of montreal, capital one national association, jpmorgan chase bank na, mizuho bank ltd, the bank of nova scotia, us bank national association",1,1,1
+60,What companies are both the administrative agent and arrangers in the agreement?,citibank na,1,1,1
+60,What companies are both the bookrunners and administrative agent in the agreement?,citibank na,1,1,1
+74,What companies are both the bookrunners and arrangers in the agreement?,"credit suisse securities usa llc, keybanc capital markets inc, suntrust robinson humphreyinc",1,1,1
+74,What companies are both the administrative agent and lc issuer in the agreement?,keybank national association,1,1,1
+149,What companies are both the administrative agent and lead arranger in the agreement?,feac agent llc,1,1,1
+149,What companies are both the lead arranger and collateral agent in the agreement?,feac agent llc,1,1,1
+149,What companies are both the administrative agent and collateral agent in the agreement?,feac agent llc,1,1,1
+161,What companies are both the co syndication agents and joint lead arrangers in the agreement?,"bmo capital markets, the huntington national bank",1,1,1
+161,What companies are both the co syndication agents and lender in the agreement?,"the huntington national bank, truist bank",1,1,1
+161,What companies are both the lender and joint lead arrangers in the agreement?,the huntington national bank,1,1,1
+160,What companies are both the joint bookrunners and joint lead arrangers in the agreement?,"barclays bank plc, bofa securities inc, jpmorgan chase bank na, morgan stanley senior funding inc",1,1,1
+160,What companies are both the issuing bank and joint bookrunners in the agreement?,"barclays bank plc, jpmorgan chase bank na",1,1,1
+160,What companies are both the issuing bank and administrative agent in the agreement?,barclays bank plc,1,1,1
+160,What companies are both the issuing bank and joint lead arrangers in the agreement?,"barclays bank plc, jpmorgan chase bank na",1,1,1
+160,What companies are both the joint bookrunners and administrative agent in the agreement?,barclays bank plc,1,1,1
+160,What companies are both the joint lead arrangers and administrative agent in the agreement?,barclays bank plc,1,1,1
+148,What companies are both the joint bookrunners and joint lead arrangers in the agreement?,wells fargo securities llc,1,1,1
+148,What companies are both the lender and documentation agents in the agreement?,"national westminster bank plc, the bank of nova scotia, us bank national association",1,1,1
+148,What companies are both the co syndication agents and lender in the agreement?,"bnp paribas, td bank",1,1,1
+148,What companies are both the lender and administrative agent in the agreement?,bank of america,1,1,1
+75,What companies are both the sole lead arranger and sole bookrunner in the agreement?,jp morgan securities llc,1,1,1
+61,What companies are both the arranger and sole bookrunner in the agreement?,bofa securities inc,1,1,1
+61,What companies are both the lender and agent in the agreement?,"citibank na, jpmorgan chase bank na, wells fargo bank national association",1,1,1
+61,What companies are both the lender and administrative agent in the agreement?,bank of america na,1,1,1
+61,What companies are both the lender and syndication agent in the agreement?,bnp paribas,1,1,1
+77,What companies are both the joint lead arrangers and oint bookrunners in the agreement?,"fenner and smith incorporated, jp morgan securities llc, mufg union bank, suntrust robinson humphrey, wells fargo securities llc",1,1,1
+77,What companies are both the lender and co syndication agent in the agreement?,"bank of america, mufg union bank, suntrust bank, wells fargo bank national association",1,1,1
+77,What companies are both the co documentation agent and lender in the agreement?,"goldman sachs bank usa, us bank national association",1,1,1
+77,What companies are both the lender and joint lead arrangers in the agreement?,mufg union bank,1,1,1
+77,What companies are both the lender and oint bookrunners in the agreement?,mufg union bank,1,1,1
+77,What companies are both the joint lead arrangers and co syndication agent in the agreement?,mufg union bank,1,1,1
+77,What companies are both the oint bookrunners and co syndication agent in the agreement?,mufg union bank,1,1,1
+77,What companies are both the issuing bank and lender in the agreement?,jpmorgan chase bank,1,1,1
+77,What companies are both the issuing bank and administrative agent in the agreement?,jpmorgan chase bank,1,1,1
+77,What companies are both the lender and administrative agent in the agreement?,jpmorgan chase bank,1,1,1
+63,What companies are both the lender and administrative agent in the agreement?,us bank national association,1,1,1
+63,What companies are both the lender and lc issuer in the agreement?,us bank national association,1,1,1
+63,What companies are both the administrative agent and lc issuer in the agreement?,us bank national association,1,1,1
+88,What companies are both the issuing bank and lender in the agreement?,mufg union bank,1,1,1
+88,What companies are both the issuing bank and swing line lender in the agreement?,mufg union bank,1,1,1
+88,What companies are both the issuing bank and agent in the agreement?,mufg union bank,1,1,1
+88,What companies are both the swing line lender and lender in the agreement?,mufg union bank,1,1,1
+88,What companies are both the lender and agent in the agreement?,mufg union bank,1,1,1
+88,What companies are both the swing line lender and agent in the agreement?,mufg union bank,1,1,1
+162,What companies are both the joint bookrunners and joint lead arrangers in the agreement?,"citibank na, wells fargo securities llc",1,1,1
+162,What companies are both the guarantor and holdings in the agreement?,nabors industries ltd,1,1,1
+162,What companies are both the lender and joint bookrunners in the agreement?,citibank na,1,1,1
+162,What companies are both the lender and administrative agent in the agreement?,citibank na,1,1,1
+162,What companies are both the lender and joint lead arrangers in the agreement?,citibank na,1,1,1
+162,What companies are both the joint bookrunners and administrative agent in the agreement?,citibank na,1,1,1
+162,What companies are both the joint lead arrangers and administrative agent in the agreement?,citibank na,1,1,1
+163,What companies are both the lenders and borrower in the agreement?,commvault systems inc,1,1,1
+163,What companies are both the issuing bank and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+163,What companies are both the issuing bank and lender in the agreement?,jpmorgan chase bank na,1,1,1
+163,What companies are both the issuing bank and swingline lender in the agreement?,jpmorgan chase bank na,1,1,1
+163,What companies are both the issuing bank and sole bookrunner in the agreement?,jpmorgan chase bank na,1,1,1
+163,What companies are both the lender and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+163,What companies are both the administrative agent and swingline lender in the agreement?,jpmorgan chase bank na,1,1,1
+163,What companies are both the administrative agent and sole bookrunner in the agreement?,jpmorgan chase bank na,1,1,1
+163,What companies are both the lender and swingline lender in the agreement?,jpmorgan chase bank na,1,1,1
+163,What companies are both the lender and sole bookrunner in the agreement?,jpmorgan chase bank na,1,1,1
+163,What companies are both the swingline lender and sole bookrunner in the agreement?,jpmorgan chase bank na,1,1,1
+89,What companies are both the bookrunners and arrangers in the agreement?,"barclays bank plc, citigroup global markets inc, deutsche bank securities inc, jpmorgan chase bank, keybanc capital markets inc, macquarie capital usa inc",1,1,1
+89,What companies are both the joint bookrunners and arrangers in the agreement?,golub capital llc,1,1,1
+89,What companies are both the administrative agent and arrangers in the agreement?,jpmorgan chase bank,1,1,1
+89,What companies are both the bookrunners and administrative agent in the agreement?,jpmorgan chase bank,1,1,1
+62,What companies are both the arranger and bookrunner in the agreement?,td securities usa llc,1,1,1
+76,What companies are both the bookrunners and arrangers in the agreement?,"deutsche bank securities inc, morgan stanley senior funding inc, rbc capital markets, suntrust robinson humphrey inc, the bank of montreal, the bank of tokyo mitsubishi ufj ltd",1,1,1
+76,What companies are both the administrative agent and arrangers in the agreement?,morgan stanley senior funding inc,1,1,1
+76,What companies are both the arrangers and collateral agent in the agreement?,morgan stanley senior funding inc,1,1,1
+76,What companies are both the bookrunners and administrative agent in the agreement?,morgan stanley senior funding inc,1,1,1
+76,What companies are both the bookrunners and collateral agent in the agreement?,morgan stanley senior funding inc,1,1,1
+76,What companies are both the administrative agent and collateral agent in the agreement?,morgan stanley senior funding inc,1,1,1
+8,What companies are both the bookrunners and arrangers in the agreement?,"fennerand smith incorporated, merrill lynch, pierce",1,1,1
+8,What companies are both the arranger and joint bookrunner in the agreement?,wells fargo securities llc,1,1,1
+8,What companies are both the arranger and joint bookrunners in the agreement?,wells fargo securities llc,1,1,1
+8,What companies are both the arranger and arrangers in the agreement?,wells fargo securities llc,1,1,1
+8,What companies are both the joint bookrunner and joint bookrunners in the agreement?,wells fargo securities llc,1,1,1
+8,What companies are both the joint bookrunner and arrangers in the agreement?,wells fargo securities llc,1,1,1
+8,What companies are both the joint bookrunners and arrangers in the agreement?,wells fargo securities llc,1,1,1
+72,What companies are both the syndication agents and arrangers in the agreement?,goldman sachs bank usa,1,1,1
+72,What companies are both the syndication agents and book runners in the agreement?,goldman sachs bank usa,1,1,1
+72,What companies are both the arrangers and book runners in the agreement?,"citigroup global markets inc, goldman sachs bank usa",1,1,1
+72,What companies are both the lead arrangers and book runners in the agreement?,wells fargo securities llc,1,1,1
+66,What companies are both the bookrunners and arrangers in the agreement?,"bank of the west, barclays bank plc, bnp paribas securities corp, bofa securities inc, citigroup global markets inc, keybanc capital markets inc, mufg bank ltd, us bank national association, wells fargo securities llc",1,1,1
+66,What companies are both the bookrunners and agents in the agreement?,"bank of the west, barclays bank plc, bnp paribas securities corp, bofa securities inc, citigroup global markets inc, mufg bank ltd, us bank national association",1,1,1
+66,What companies are both the arrangers and agents in the agreement?,"bank of the west, barclays bank plc, bnp paribas securities corp, bofa securities inc, citigroup global markets inc, mufg bank ltd, us bank national association",1,1,1
+66,What companies are both the bookrunners and issuing lender in the agreement?,barclays bank plc,1,1,1
+66,What companies are both the arrangers and issuing lender in the agreement?,barclays bank plc,1,1,1
+66,What companies are both the agents and issuing lender in the agreement?,barclays bank plc,1,1,1
+66,What companies are both the revolver and term loan a lender in the agreement?,citibank na,1,1,1
+66,What companies are both the bookrunners and lender in the agreement?,"mufg bank ltd, us bank national association",1,1,1
+66,What companies are both the lender and arrangers in the agreement?,"mufg bank ltd, us bank national association",1,1,1
+66,What companies are both the lender and agents in the agreement?,"mufg bank ltd, us bank national association",1,1,1
+66,What companies are both the lender and agent in the agreement?,wells fargo bank national association,1,1,1
+99,What companies are both the bookrunners and arrangers in the agreement?,"coöperatieve centrale raiffeisen boerenleenbank ba, merrill lynch pierce fennerand smith incorporated, wells fargo securities llc",1,1,1
+99,What companies are both the bookrunners and agent in the agreement?,coöperatieve centrale raiffeisen boerenleenbank ba,1,1,1
+99,What companies are both the arrangers and agent in the agreement?,"coöperatieve centrale raiffeisen boerenleenbank ba, rabobank nederland",1,1,1
+99,What companies are both the joint bookrunners and arrangers in the agreement?,rabobank nederland,1,1,1
+99,What companies are both the joint bookrunners and agent in the agreement?,rabobank nederland,1,1,1
+99,What companies are both the lender and agent in the agreement?,"regions bank, suntrust bank, the bank of tokyo mitsubishi ufj ltd, us bank national association",1,1,1
+99,What companies are both the administrative agent and agent in the agreement?,wells fargo bank national association,1,1,1
+99,What companies are both the lender and administrative agent in the agreement?,wellsfargobanknationalassociation,1,1,1
+99,What companies are both the lender and bank in the agreement?,wellsfargobanknationalassociation,1,1,1
+99,What companies are both the lender and collateral agent in the agreement?,wellsfargobanknationalassociation,1,1,1
+99,What companies are both the administrative agent and bank in the agreement?,wellsfargobanknationalassociation,1,1,1
+99,What companies are both the administrative agent and collateral agent in the agreement?,wellsfargobanknationalassociation,1,1,1
+99,What companies are both the bank and collateral agent in the agreement?,wellsfargobanknationalassociation,1,1,1
+167,What companies are both the sole lead arranger and sole book manager in the agreement?,bank of america merrill lynch,1,1,1
+167,What companies are both the lender and l c issuer in the agreement?,bank of america na,1,1,1
+167,What companies are both the lender and administrative agent in the agreement?,bank of america na,1,1,1
+167,What companies are both the lender and swingline lender in the agreement?,bank of america na,1,1,1
+167,What companies are both the l c issuer and administrative agent in the agreement?,bank of america na,1,1,1
+167,What companies are both the l c issuer and swingline lender in the agreement?,bank of america na,1,1,1
+167,What companies are both the administrative agent and swingline lender in the agreement?,bank of america na,1,1,1
+98,What companies are both the swing line lender and l c issuer in the agreement?,"bank of america, bank of america na",1,1,1
+98,What companies are both the swing line lender and administrative agent in the agreement?,"bank of america, bank of america na",1,1,1
+98,What companies are both the l c issuer and administrative agent in the agreement?,"bank of america, bank of america na",1,1,1
+98,What companies are both the arrangers and book managers in the agreement?,jp morgan securities llc,1,1,1
+98,What companies are both the joint lead arrangers and book managers in the agreement?,merrill lynch pierce fennerand smith incorporated,1,1,1
+98,What companies are both the swing line lender and administrative agent and lender in the agreement?,bank of america,1,1,1
+98,What companies are both the administrative agent and lender and l c issuer in the agreement?,bank of america,1,1,1
+98,What companies are both the administrative agent and lender and administrative agent in the agreement?,bank of america,1,1,1
+166,What companies are both the lead arrangers and bookrunners in the agreement?,"australia and new zealand banking group limited, axis bank limited, bank of baroda, icici bank limited",1,1,1
+166,What companies are both the lead arrangers and lender in the agreement?,"australia and new zealand banking group limited, axis bank limited, bank of baroda, icici bank limited",1,1,1
+166,What companies are both the bookrunners and lender in the agreement?,"australia and new zealand banking group limited, axis bank limited, bank of baroda, barclays bank plc, icici bank limited, kotak mahindra bank limited, standard chartered bank, state bank of india, the bank of tokyo mitsubishi ufj ltd",1,1,1
+166,What companies are both the mortgagor and guarantor in the agreement?,novelis corporation,1,1,1
+166,What companies are both the bookrunners and administrative agent in the agreement?,standard chartered bank,1,1,1
+166,What companies are both the bookrunners and collateral agent in the agreement?,standard chartered bank,1,1,1
+166,What companies are both the lender and administrative agent in the agreement?,standard chartered bank,1,1,1
+166,What companies are both the lender and collateral agent in the agreement?,standard chartered bank,1,1,1
+166,What companies are both the administrative agent and collateral agent in the agreement?,standard chartered bank,1,1,1
+67,What companies are both the issuer and credit party in the agreement?,coherus biosciences inc,1,1,1
+67,What companies are both the issuer and borrower in the agreement?,coherus biosciences inc,1,1,1
+67,What companies are both the borrower and credit party in the agreement?,coherus biosciences inc,1,1,1
+73,What companies are both the joint bookrunners and joint lead arrangers in the agreement?,"bank of america, barclays bank plc, credit suisse securities usa llc, deutsche bank securities inc, suntrust robinson humphrey inc, wells fargo securities llc",1,1,1
+73,What companies are both the joint bookrunners and administrative agent in the agreement?,bank of america,1,1,1
+73,What companies are both the joint bookrunners and collateral agent in the agreement?,bank of america,1,1,1
+73,What companies are both the joint bookrunners and l c issuer in the agreement?,bank of america,1,1,1
+73,What companies are both the swing line lender and joint bookrunners in the agreement?,bank of america,1,1,1
+73,What companies are both the administrative agent and collateral agent in the agreement?,bank of america,1,1,1
+73,What companies are both the l c issuer and administrative agent in the agreement?,bank of america,1,1,1
+73,What companies are both the joint lead arrangers and administrative agent in the agreement?,bank of america,1,1,1
+73,What companies are both the swing line lender and administrative agent in the agreement?,bank of america,1,1,1
+73,What companies are both the l c issuer and collateral agent in the agreement?,bank of america,1,1,1
+73,What companies are both the joint lead arrangers and collateral agent in the agreement?,bank of america,1,1,1
+73,What companies are both the swing line lender and collateral agent in the agreement?,bank of america,1,1,1
+73,What companies are both the l c issuer and joint lead arrangers in the agreement?,bank of america,1,1,1
+73,What companies are both the swing line lender and l c issuer in the agreement?,bank of america,1,1,1
+73,What companies are both the swing line lender and joint lead arrangers in the agreement?,bank of america,1,1,1
+9,What companies are both the arranger and bookrunner in the agreement?,"jp morgan securities llc, rbs securities inc",1,1,1
+9,What companies are both the arranger and arrangers in the agreement?,"barclays bank plc, jp morgan securities llc, rbs securities inc",1,1,1
+9,What companies are both the bookrunner and arrangers in the agreement?,"jp morgan securities llc, rbs securities inc",1,1,1
+9,What companies are both the lender and agents in the agreement?,"bank of america na, citibank na",1,1,1
+9,What companies are both the lender and agent in the agreement?,"bank of america na, citibank na",1,1,1
+9,What companies are both the agents and agent in the agreement?,"bank of america na, citibank na",1,1,1
+9,What companies are both the arranger and joint bookrunner in the agreement?,barclays bank plc,1,1,1
+9,What companies are both the arranger and lender in the agreement?,barclays bank plc,1,1,1
+9,What companies are both the arranger and syndication agent in the agreement?,barclays bank plc,1,1,1
+9,What companies are both the joint bookrunner and arrangers in the agreement?,barclays bank plc,1,1,1
+9,What companies are both the joint bookrunner and lender in the agreement?,barclays bank plc,1,1,1
+9,What companies are both the joint bookrunner and syndication agent in the agreement?,barclays bank plc,1,1,1
+9,What companies are both the lender and arrangers in the agreement?,barclays bank plc,1,1,1
+9,What companies are both the arrangers and syndication agent in the agreement?,barclays bank plc,1,1,1
+9,What companies are both the lender and syndication agent in the agreement?,barclays bank plc,1,1,1
+9,What companies are both the co documentation agents and lender in the agreement?,the royal bank of scotland plc,1,1,1
+9,What companies are both the swing line lender and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+59,What companies are both the lender and arrangers in the agreement?,"abn amro capital usa llc, bank of the west, bmo harris bank na, farm credit mid america pca, fifth third bank, us bank",1,1,1
+59,What companies are both the lender and agents in the agreement?,"bank of america na, bank of the west, bmo harris bank na, branch banking and trust company, citibank na, fifth third bank",1,1,1
+59,What companies are both the arrangers and agents in the agreement?,"bank of the west, bmo harris bank na, fifth third bank",1,1,1
+59,What companies are both the swing line lender and lc issuer in the agreement?,us bank national association,1,1,1
+59,What companies are both the swing line lender and agent in the agreement?,us bank national association,1,1,1
+59,What companies are both the lc issuer and agent in the agreement?,us bank national association,1,1,1
+65,What companies are both the bookrunners and arrangers in the agreement?,"bofa securities, citizens ban, credit suisse, dbsi, fifth third, goldman, keybank, truist securities",1,1,1
+65,What companies are both the revolving lender and swingline lender in the agreement?,bank of america na,1,1,1
+65,What companies are both the revolving lender and issuer in the agreement?,citizens bank na,1,1,1
+65,What companies are both the revolving lender and administrative agent in the agreement?,citizens bank na,1,1,1
+65,What companies are both the issuer and administrative agent in the agreement?,citizens bank na,1,1,1
+71,What companies are both the arranger and sole bookrunner in the agreement?,bank of america merrill lynch,1,1,1
+164,What companies are both the lead arrangers and joint book runners in the agreement?,suntrust robinson humphrey inc,1,1,1
+164,What companies are both the syndication agents and lender in the agreement?,"regions bank, truist bank",1,1,1
+164,What companies are both the lender and joint book runners in the agreement?,us bank national association,1,1,1
+164,What companies are both the lender and administrative agent in the agreement?,us bank national association,1,1,1
+164,What companies are both the lender and lc issuer in the agreement?,us bank national association,1,1,1
+164,What companies are both the administrative agent and joint book runners in the agreement?,us bank national association,1,1,1
+164,What companies are both the joint book runners and lc issuer in the agreement?,us bank national association,1,1,1
+164,What companies are both the administrative agent and lc issuer in the agreement?,us bank national association,1,1,1
+170,What companies are both the swing line lender and administrative agent in the agreement?,bank of america,1,1,1
+170,What companies are both the book manager and lead arranger in the agreement?,"citigroup global markets inc, merrill lynch pierce fenner and smith incorporated, wells fargo securities llc",1,1,1
+170,What companies are both the lender and agent in the agreement?,"citibank na, goldman sachs bank usa, jpmorgan chase bank na, morgan stanley bank na, the bank of nova scotia, us bank national association, wells fargo bank na",1,1,1
+170,What companies are both the swing line lender and l c issuer in the agreement?,bank of america na,1,1,1
+170,What companies are both the swing line lender and agent in the agreement?,bank of america na,1,1,1
+170,What companies are both the l c issuer and agent in the agreement?,bank of america na,1,1,1
+158,What companies are both the sole lead arranger and sole bookrunner in the agreement?,bofa securities inc,1,1,1
+158,What companies are both the lender and l c issuer in the agreement?,bank of america na,1,1,1
+158,What companies are both the lender and administrative agent in the agreement?,bank of america na,1,1,1
+158,What companies are both the lender and swingline lender in the agreement?,bank of america na,1,1,1
+158,What companies are both the l c issuer and administrative agent in the agreement?,bank of america na,1,1,1
+158,What companies are both the l c issuer and swingline lender in the agreement?,bank of america na,1,1,1
+158,What companies are both the administrative agent and swingline lender in the agreement?,bank of america na,1,1,1
+159,What companies are both the lenders and company in the agreement?,msif funding llc,1,1,1
+159,What companies are both the lenders and borrower in the agreement?,msif funding llc,1,1,1
+159,What companies are both the company and borrower in the agreement?,msif funding llc,1,1,1
+159,What companies are both the collateral administrator and securities intermediary in the agreement?,us bank national association,1,1,1
+159,What companies are both the collateral administrator and collateral agent in the agreement?,us bank national association,1,1,1
+159,What companies are both the securities intermediary and collateral agent in the agreement?,us bank national association,1,1,1
+159,What companies are both the lender and administrative agent in the agreement?,jpmorgan chase bank,1,1,1
+165,What companies are both the lender and documentation agents in the agreement?,"goldman sachs bank usa, mizuho bank ltd, the bank of tokyo mitsubishi ufj ltd, wells fargo bank national association",1,1,1
+165,What companies are both the lender and syndication agent in the agreement?,jpmorgan chase bank na,1,1,1
+165,What companies are both the lender and joint bookrunners in the agreement?,mizuho bank ltd,1,1,1
+165,What companies are both the joint bookrunners and documentation agents in the agreement?,mizuho bank ltd,1,1,1
+165,What companies are both the lender and administrative agent in the agreement?,bank of america na,1,1,1
+165,What companies are both the lenders and company in the agreement?,conagra brands inc,1,1,1
+70,What companies are both the arranger and bookrunner in the agreement?,fifth third bank,1,1,1
+70,What companies are both the arranger and administrative agent in the agreement?,fifth third bank,1,1,1
+70,What companies are both the bookrunner and administrative agent in the agreement?,fifth third bank,1,1,1
+64,What companies are both the bookrunners and arrangers in the agreement?,morgan stanley senior funding inc,1,1,1
+64,What companies are both the lead arrangers and bookrunners in the agreement?,goldman sachs lending partners llc,1,1,1
+64,What companies are both the lead arrangers and lender in the agreement?,goldman sachs lending partners llc,1,1,1
+64,What companies are both the lead arrangers and syndication agent in the agreement?,goldman sachs lending partners llc,1,1,1
+64,What companies are both the bookrunners and lender in the agreement?,goldman sachs lending partners llc,1,1,1
+64,What companies are both the bookrunners and syndication agent in the agreement?,goldman sachs lending partners llc,1,1,1
+64,What companies are both the lender and syndication agent in the agreement?,goldman sachs lending partners llc,1,1,1
+58,What companies are both the investor and lenders in the agreement?,healthcare royalty partners iii lp,1,1,1
+41,What companies are both the lc issuer and syndication agent in the agreement?,"bmo harris bank, bmo harris bank na",1,1,1
+41,What companies are both the bookrunner and lead arranger in the agreement?,citizens bank na,1,1,1
+41,What companies are both the bookrunner and administrative agent in the agreement?,citizens bank na,1,1,1
+41,What companies are both the bookrunner and swingline lender in the agreement?,citizens bank na,1,1,1
+41,What companies are both the administrative agent and lead arranger in the agreement?,citizens bank na,1,1,1
+41,What companies are both the lead arranger and swingline lender in the agreement?,citizens bank na,1,1,1
+41,What companies are both the administrative agent and swingline lender in the agreement?,citizens bank na,1,1,1
+41,What companies are both the lender and lc issuer in the agreement?,bmo harris bank na,1,1,1
+41,What companies are both the lender and syndication agent in the agreement?,bmo harris bank na,1,1,1
+41,What companies are both the lender and documentation agent in the agreement?,keybank national association,1,1,1
+7,What companies are both the lender and l c issuer in the agreement?,mutual of omaha bank,1,1,1
+7,What companies are both the lender and administrative agent in the agreement?,mutual of omaha bank,1,1,1
+7,What companies are both the l c issuer and administrative agent in the agreement?,mutual of omaha bank,1,1,1
+69,What companies are both the subsidiary and subsidiary guarantors in the agreement?,"mvp acquisitions llc, mvp merger sub llc, mvp milwaukee wells llc, mvp raider park garage llc, mvp real estate holdings llc",1,1,1
+69,What companies are both the guarantors and subsidiary in the agreement?,mvp real estate holdings llc,1,1,1
+69,What companies are both the guarantors and subsidiary guarantors in the agreement?,mvp real estate holdings llc,1,1,1
+69,What companies are both the subsidiary and borrower in the agreement?,mvp reit ii operating partnership lp,1,1,1
+82,What companies are both the lender and co syndication agent in the agreement?,"bank of america, barclays bank plc",1,1,1
+82,What companies are both the co documentation agent and lender in the agreement?,"citibank, hsbc bank usa national association, the royal bank of scotland plc",1,1,1
+82,What companies are both the lender and administrative agent in the agreement?,jpmorgan chase bank,1,1,1
+82,What companies are both the lender and swingline lender in the agreement?,jpmorgan chase bank,1,1,1
+82,What companies are both the administrative agent and swingline lender in the agreement?,jpmorgan chase bank,1,1,1
+168,What companies are both the lead arrangers and book runners in the agreement?,"bofa securities inc, citibank",1,1,1
+168,What companies are both the lead arrangers and administrative agent in the agreement?,citibank,1,1,1
+168,What companies are both the administrative agent and book runners in the agreement?,citibank,1,1,1
+168,What companies are both the lender and syndication agent in the agreement?,bank of america na,1,1,1
+168,What companies are both the lenders and syndication agent in the agreement?,bank of america na,1,1,1
+168,What companies are both the lender and lenders in the agreement?,"bank of america na, citibank na",1,1,1
+168,What companies are both the lender and agent in the agreement?,citibank na,1,1,1
+168,What companies are both the lenders and agent in the agreement?,citibank na,1,1,1
+96,What companies are both the co book managers and syndication agent in the agreement?,bokf na dba bank of albuquerque,1,1,1
+96,What companies are both the arrangers and syndication agent in the agreement?,"bokf na dba bank of albuquerque, us bank national association",1,1,1
+96,What companies are both the lenders and syndication agent in the agreement?,"bokf na dba bank of albuquerque, us bank national association",1,1,1
+96,What companies are both the co book managers and arrangers in the agreement?,bokf na dba bank of albuquerque,1,1,1
+96,What companies are both the co book managers and lenders in the agreement?,bokf na dba bank of albuquerque,1,1,1
+96,What companies are both the lenders and arrangers in the agreement?,"bokf na dba bank of albuquerque, us bank national association",1,1,1
+96,What companies are both the administrative agent and book managers in the agreement?,us bank national association,1,1,1
+96,What companies are both the lenders and administrative agent in the agreement?,us bank national association,1,1,1
+96,What companies are both the arrangers and administrative agent in the agreement?,us bank national association,1,1,1
+96,What companies are both the administrative agent and syndication agent in the agreement?,us bank national association,1,1,1
+96,What companies are both the lenders and book managers in the agreement?,us bank national association,1,1,1
+96,What companies are both the arrangers and book managers in the agreement?,us bank national association,1,1,1
+96,What companies are both the syndication agent and book managers in the agreement?,us bank national association,1,1,1
+140,What companies are both the borrower and intermediateco in the agreement?,fortress transportation and infrastructure investors llc,1,1,1
+140,What companies are both the intermediateco and holdings in the agreement?,fortress transportation and infrastructure investors llc,1,1,1
+140,What companies are both the borrower and holdings in the agreement?,fortress transportation and infrastructure investors llc,1,1,1
+140,What companies are both the administrative agent and agent in the agreement?,morgan stanley senior funding inc,1,1,1
+140,What companies are both the arranger and administrative agent in the agreement?,morgan stanley senior funding inc,1,1,1
+140,What companies are both the lead arranger and administrative agent in the agreement?,morgan stanley senior funding inc,1,1,1
+140,What companies are both the lender and administrative agent in the agreement?,morgan stanley senior funding inc,1,1,1
+140,What companies are both the administrative agent and lead bookrunner in the agreement?,morgan stanley senior funding inc,1,1,1
+140,What companies are both the arranger and agent in the agreement?,morgan stanley senior funding inc,1,1,1
+140,What companies are both the lead arranger and agent in the agreement?,morgan stanley senior funding inc,1,1,1
+140,What companies are both the lender and agent in the agreement?,morgan stanley senior funding inc,1,1,1
+140,What companies are both the lead bookrunner and agent in the agreement?,morgan stanley senior funding inc,1,1,1
+140,What companies are both the arranger and lead arranger in the agreement?,morgan stanley senior funding inc,1,1,1
+140,What companies are both the arranger and lender in the agreement?,morgan stanley senior funding inc,1,1,1
+140,What companies are both the arranger and lead bookrunner in the agreement?,morgan stanley senior funding inc,1,1,1
+140,What companies are both the lender and lead arranger in the agreement?,morgan stanley senior funding inc,1,1,1
+140,What companies are both the lead arranger and lead bookrunner in the agreement?,morgan stanley senior funding inc,1,1,1
+140,What companies are both the lender and lead bookrunner in the agreement?,morgan stanley senior funding inc,1,1,1
+154,What companies are both the bookrunner and sole lead arranger in the agreement?,jpmorgan chase bank na,1,1,1
+154,What companies are both the lender and sole lead arranger in the agreement?,jpmorgan chase bank na,1,1,1
+154,What companies are both the sole lead arranger and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+154,What companies are both the bookrunner and lender in the agreement?,jpmorgan chase bank na,1,1,1
+154,What companies are both the bookrunner and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+154,What companies are both the lender and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+155,What companies are both the administrative agent and collateral agent in the agreement?,whitehawk capital partners lp,1,1,1
+155,What companies are both the administrative agent and agent in the agreement?,whitehawk capital partners lp,1,1,1
+155,What companies are both the agent and collateral agent in the agreement?,whitehawk capital partners lp,1,1,1
+141,What companies are both the arranger and lead arranger in the agreement?,pnc capital markets llc,1,1,1
+141,What companies are both the arranger and book runner in the agreement?,pnc capital markets llc,1,1,1
+141,What companies are both the lead arranger and book runner in the agreement?,pnc capital markets llc,1,1,1
+141,What companies are both the lender and administrative agent in the agreement?,pnc bank national association,1,1,1
+169,What companies are both the lender and book runners in the agreement?,"merrill lynch pierce fenner and smith incorporated, wells fargo bank national association",1,1,1
+169,What companies are both the syndication agents and lender in the agreement?,bank of america na,1,1,1
+169,What companies are both the syndication agents and agent in the agreement?,bank of america na,1,1,1
+169,What companies are both the lender and agent in the agreement?,"bank of america na, coöperatieve centrale raiffeisen boerenleenbank barabobank nederland new york branch, goldman sachs bank usa, wells fargo bank national association",1,1,1
+169,What companies are both the arranger and lender in the agreement?,"coöperatieve centrale raiffeisen boerenleenbank barabobank nederland new york branch, goldman sachs bank usa",1,1,1
+169,What companies are both the arranger and documentation agent in the agreement?,goldman sachs bank usa,1,1,1
+169,What companies are both the arranger and agent in the agreement?,"coöperatieve centrale raiffeisen boerenleenbank barabobank nederland new york branch, goldman sachs bank usa",1,1,1
+169,What companies are both the lender and documentation agent in the agreement?,goldman sachs bank usa,1,1,1
+169,What companies are both the documentation agent and agent in the agreement?,goldman sachs bank usa,1,1,1
+169,What companies are both the administrative agent and book runner in the agreement?,wells fargo bank national association,1,1,1
+169,What companies are both the administrative agent and agent in the agreement?,wells fargo bank national association,1,1,1
+169,What companies are both the lead arranger and administrative agent in the agreement?,wells fargo bank national association,1,1,1
+169,What companies are both the lender and administrative agent in the agreement?,wells fargo bank national association,1,1,1
+169,What companies are both the administrative agent and book runners in the agreement?,wells fargo bank national association,1,1,1
+169,What companies are both the agent and book runner in the agreement?,wells fargo bank national association,1,1,1
+169,What companies are both the lead arranger and book runner in the agreement?,wells fargo bank national association,1,1,1
+169,What companies are both the lender and book runner in the agreement?,wells fargo bank national association,1,1,1
+169,What companies are both the book runners and book runner in the agreement?,wells fargo bank national association,1,1,1
+169,What companies are both the lead arranger and agent in the agreement?,wells fargo bank national association,1,1,1
+169,What companies are both the book runners and agent in the agreement?,wells fargo bank national association,1,1,1
+169,What companies are both the lender and lead arranger in the agreement?,wells fargo bank national association,1,1,1
+169,What companies are both the lead arranger and book runners in the agreement?,wells fargo bank national association,1,1,1
+169,What companies are both the parent borrower and parent in the agreement?,chiquita brands international inc,1,1,1
+97,What companies are both the lender and administrative agent in the agreement?,general electric capital corporation,1,1,1
+83,What companies are both the swing line lender and l c issuer in the agreement?,jpmorgan chase bank na,1,1,1
+83,What companies are both the swing line lender and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+83,What companies are both the l c issuer and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+83,What companies are both the guarantor and holdings in the agreement?,western digital corporation,1,1,1
+83,What companies are both the us borrower and cayman borrower in the agreement?,western digital technologies inc,1,1,1
+68,What companies are both the lender and agent in the agreement?,"bank of montreal, citizens bank na, jpmorgan chase bank na, regions bank",1,1,1
+68,What companies are both the arranger and lender in the agreement?,jpmorgan chase bank na,1,1,1
+68,What companies are both the arranger and l c issuer in the agreement?,jpmorgan chase bank na,1,1,1
+68,What companies are both the arranger and agent in the agreement?,jpmorgan chase bank na,1,1,1
+68,What companies are both the lender and l c issuer in the agreement?,jpmorgan chase bank na,1,1,1
+68,What companies are both the l c issuer and agent in the agreement?,jpmorgan chase bank na,1,1,1
+68,What companies are both the issuer and lender in the agreement?,bank of america na,1,1,1
+68,What companies are both the issuer and administrative agent in the agreement?,bank of america na,1,1,1
+68,What companies are both the lender and administrative agent in the agreement?,bank of america na,1,1,1
+40,What companies are both the bookrunners and arrangers in the agreement?,jp morgan securities llc,1,1,1
+40,What companies are both the joint bookrunners and arrangers in the agreement?,keybanc capital markets inc,1,1,1
+40,What companies are both the co documentation agent and lender in the agreement?,"associated bank national association, first niagara bank na",1,1,1
+40,What companies are both the lender and syndication agent in the agreement?,keybank national association,1,1,1
+40,What companies are both the issuing bank and lender in the agreement?,jpmorgan chase bank na,1,1,1
+40,What companies are both the issuing bank and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+40,What companies are both the lender and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+56,What companies are both the administrative agent and collateral agent in the agreement?,credit suisse ag,1,1,1
+56,What companies are both the lender and agents in the agreement?,"barclays bank plc, goldman sachs bank usa",1,1,1
+56,What companies are both the lender and administrative agent in the agreement?,credit suisse ag cayman islands branch,1,1,1
+4,What companies are both the co documentation agents and bookrunners in the agreement?,"barclays bank plc, credit suisse securities usa llc, merrill lynch pierce fennerand smith incorporated",1,1,1
+4,What companies are both the bookrunner and lead arranger in the agreement?,"goldman sachs bank usa, p morgan securities llc",1,1,1
+4,What companies are both the bookrunner and syndication agent in the agreement?,p morgan securities llc,1,1,1
+4,What companies are both the lead arranger and syndication agent in the agreement?,p morgan securities llc,1,1,1
+4,What companies are both the l c issuer and administrative agent in the agreement?,goldman sachs bank usa,1,1,1
+4,What companies are both the bookrunner and administrative agent in the agreement?,goldman sachs bank usa,1,1,1
+4,What companies are both the lead arranger and administrative agent in the agreement?,goldman sachs bank usa,1,1,1
+4,What companies are both the swing line lender and administrative agent in the agreement?,goldman sachs bank usa,1,1,1
+4,What companies are both the bookrunner and l c issuer in the agreement?,goldman sachs bank usa,1,1,1
+4,What companies are both the l c issuer and lead arranger in the agreement?,goldman sachs bank usa,1,1,1
+4,What companies are both the swing line lender and l c issuer in the agreement?,goldman sachs bank usa,1,1,1
+4,What companies are both the swing line lender and bookrunner in the agreement?,goldman sachs bank usa,1,1,1
+4,What companies are both the swing line lender and lead arranger in the agreement?,goldman sachs bank usa,1,1,1
+42,What companies are both the arranger and bookrunner in the agreement?,merrill lynch pierce fennerand smith,1,1,1
+42,What companies are both the lender and syndication agent in the agreement?,jpmorgan chase bank na,1,1,1
+42,What companies are both the lender and administrative agent in the agreement?,bank of america na,1,1,1
+95,What companies are both the arranger and bookmanager in the agreement?,merrill lynch pierce fenner and smith incorporated,1,1,1
+95,What companies are both the borrower and credit parties in the agreement?,omega healthcare investors inc,1,1,1
+95,What companies are both the lender and administrative agent in the agreement?,bank of america na,1,1,1
+157,What companies are both the lender and senior lender in the agreement?,frost bank,1,1,1
+143,What companies are both the arrangers and syndication agent in the agreement?,citizens bank national association,1,1,1
+143,What companies are both the syndication agent and book runners in the agreement?,citizens bank national association,1,1,1
+143,What companies are both the arrangers and book runners in the agreement?,"citizens bank national association, wells fargo securities llc",1,1,1
+143,What companies are both the joint lead arrangers and joint book runners in the agreement?,fifth third bank,1,1,1
+143,What companies are both the documentation agent and joint book runners in the agreement?,fifth third bank,1,1,1
+143,What companies are both the lender and joint book runners in the agreement?,fifth third bank,1,1,1
+143,What companies are both the joint book runners and book runners in the agreement?,fifth third bank,1,1,1
+143,What companies are both the documentation agent and joint lead arrangers in the agreement?,fifth third bank,1,1,1
+143,What companies are both the lender and joint lead arrangers in the agreement?,fifth third bank,1,1,1
+143,What companies are both the joint lead arrangers and book runners in the agreement?,fifth third bank,1,1,1
+143,What companies are both the lender and documentation agent in the agreement?,fifth third bank,1,1,1
+143,What companies are both the documentation agent and book runners in the agreement?,fifth third bank,1,1,1
+143,What companies are both the lender and book runners in the agreement?,fifth third bank,1,1,1
+143,What companies are both the lender and administrative agent in the agreement?,wells fargo bank national association,1,1,1
+143,What companies are both the lender and agent in the agreement?,wells fargo bank national association,1,1,1
+143,What companies are both the administrative agent and agent in the agreement?,wells fargo bank national association,1,1,1
+142,What companies are both the joint lead arranger and sole bookmanager in the agreement?,jpmorgan chase bank,1,1,1
+142,What companies are both the lender and documentation agents in the agreement?,hsbc bank canada,1,1,1
+142,What companies are both the lender and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+156,What companies are both the issuing bank and lende in the agreement?,jpmorgan chase bank na,1,1,1
+156,What companies are both the issuing bank and lender in the agreement?,"bnp paribas, wells fargo bank national association, wells fargo capital finance corporation canada",1,1,1
+156,What companies are both the issuing bank and bookrunners in the agreement?,bnp paribas,1,1,1
+156,What companies are both the issuing bank and joint bookrunners in the agreement?,"bnp paribas, wells fargo bank national association",1,1,1
+156,What companies are both the issuing bank and joint lead arrangers in the agreement?,"bnp paribas, wells fargo bank national association",1,1,1
+156,What companies are both the bookrunners and joint bookrunners in the agreement?,bnp paribas,1,1,1
+156,What companies are both the bookrunners and joint lead arrangers in the agreement?,bnp paribas,1,1,1
+156,What companies are both the bookrunners and lender in the agreement?,bnp paribas,1,1,1
+156,What companies are both the joint bookrunners and joint lead arrangers in the agreement?,"bnp paribas, wells fargo bank national association",1,1,1
+156,What companies are both the lender and joint bookrunners in the agreement?,"bnp paribas, wells fargo bank national association",1,1,1
+156,What companies are both the lender and joint lead arrangers in the agreement?,"bnp paribas, wells fargo bank national association",1,1,1
+156,What companies are both the issuing bank and security agent in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the issuing bank and administrative agent in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the issuing bank and agent in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the lead arrangers and issuing bank in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the issuing bank and bookrunner in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the issuing bank and lead arranger in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the security agent and joint bookrunners in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the security agent and administrative agent in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the security agent and agent in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the security agent and joint lead arrangers in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the lead arrangers and security agent in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the bookrunner and security agent in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the security agent and lead arranger in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the security agent and lender in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the joint bookrunners and administrative agent in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the joint bookrunners and agent in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the lead arrangers and joint bookrunners in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the bookrunner and joint bookrunners in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the joint bookrunners and lead arranger in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the administrative agent and agent in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the joint lead arrangers and administrative agent in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the lead arrangers and administrative agent in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the bookrunner and administrative agent in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the lead arranger and administrative agent in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the lender and administrative agent in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the joint lead arrangers and agent in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the lead arrangers and agent in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the bookrunner and agent in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the lead arranger and agent in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the lender and agent in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the lead arrangers and joint lead arrangers in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the bookrunner and joint lead arrangers in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the lead arranger and joint lead arrangers in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the lead arrangers and bookrunner in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the lead arrangers and lead arranger in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the lead arrangers and lender in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the bookrunner and lead arranger in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the bookrunner and lender in the agreement?,wells fargo bank national association,1,1,1
+156,What companies are both the lender and lead arranger in the agreement?,wells fargo bank national association,1,1,1
+80,What companies are both the sole book manager and arrangers in the agreement?,wells fargo securities llc,1,1,1
+80,What companies are both the lender and administrative agent in the agreement?,wells fargo bank national association,1,1,1
+80,What companies are both the lender and issuing lender in the agreement?,wells fargo bank national association,1,1,1
+80,What companies are both the lender and swingline lender in the agreement?,wells fargo bank national association,1,1,1
+80,What companies are both the administrative agent and issuing lender in the agreement?,wells fargo bank national association,1,1,1
+80,What companies are both the administrative agent and swingline lender in the agreement?,wells fargo bank national association,1,1,1
+80,What companies are both the swingline lender and issuing lender in the agreement?,wells fargo bank national association,1,1,1
+94,What companies are both the bookrunners and arrangers in the agreement?,"fifth third bank, jefferies finance llc, pnc capital markets llc, sumitomo mitsui banking corporation",1,1,1
+94,What companies are both the joint bookrunners and joint lead arrangers in the agreement?,suntrust robinson humphrey inc,1,1,1
+94,What companies are both the bookrunners and lender in the agreement?,"fifth third bank, jefferies finance llc, sumitomo mitsui banking corporation",1,1,1
+94,What companies are both the lender and arrangers in the agreement?,"fifth third bank, jefferies finance llc, sumitomo mitsui banking corporation",1,1,1
+94,What companies are both the bookrunners and administrative agent in the agreement?,jefferies finance llc,1,1,1
+94,What companies are both the collatera agent and bookrunners in the agreement?,jefferies finance llc,1,1,1
+94,What companies are both the collatera agent and administrative agent in the agreement?,jefferies finance llc,1,1,1
+94,What companies are both the arrangers and administrative agent in the agreement?,jefferies finance llc,1,1,1
+94,What companies are both the lender and administrative agent in the agreement?,jefferies finance llc,1,1,1
+94,What companies are both the collatera agent and arrangers in the agreement?,jefferies finance llc,1,1,1
+94,What companies are both the collatera agent and lender in the agreement?,jefferies finance llc,1,1,1
+94,What companies are both the swingline lender and bank in the agreement?,pnc bank national association,1,1,1
+94,What companies are both the lender and senior managing agent in the agreement?,rbs citizens na,1,1,1
+94,What companies are both the lender and agent in the agreement?,natixis new york branch,1,1,1
+57,What companies are both the arranger and bookrunner in the agreement?,"citibank na, deutsche bank securities inc, jpmorgan chase bank na, merrill lynch pierce fenner and smith incorporated",1,1,1
+57,What companies are both the lender and administrative agent in the agreement?,bank of america na,1,1,1
+57,What companies are both the dutch borrower and designated borrower in the agreement?,elwood cv,1,1,1
+57,What companies are both the swingline lender and l c issuer lender in the agreement?,bank of america,1,1,1
+57,What companies are both the swingline lender and agent in the agreement?,bank of america,1,1,1
+57,What companies are both the l c issuer lender and agent in the agreement?,bank of america,1,1,1
+57,What companies are both the company and borrower in the agreement?,celanese us holdings llc,1,1,1
+57,What companies are both the arranger and lender in the agreement?,"citibank na, jpmorgan chase bank na",1,1,1
+57,What companies are both the bookrunner and lender in the agreement?,"citibank na, jpmorgan chase bank na",1,1,1
+57,What companies are both the arranger and l c issuer in the agreement?,jpmorgan chase bank na,1,1,1
+57,What companies are both the lender and l c issuer in the agreement?,jpmorgan chase bank na,1,1,1
+57,What companies are both the bookrunner and l c issuer in the agreement?,jpmorgan chase bank na,1,1,1
+57,What companies are both the issuer and swing line lender in the agreement?,deutsche bank ag new york branch,1,1,1
+5,What companies are both the sole bookrunner and joint lead arranger in the agreement?,merrill lynch pierce fenner and smith incorporated,1,1,1
+5,What companies are both the lead arrangers and documentation agents in the agreement?,pnc bank,1,1,1
+5,What companies are both the lender and l c issuer in the agreement?,bank of america na,1,1,1
+5,What companies are both the lender and administrative agent in the agreement?,bank of america na,1,1,1
+5,What companies are both the swing line lender and lender in the agreement?,bank of america na,1,1,1
+5,What companies are both the l c issuer and administrative agent in the agreement?,bank of america na,1,1,1
+5,What companies are both the swing line lender and l c issuer in the agreement?,bank of america na,1,1,1
+5,What companies are both the swing line lender and administrative agent in the agreement?,bank of america na,1,1,1
+1,What companies are both the arranger and administrative agent in the agreement?,bank of america na,1,1,1
+1,What companies are both the lenders and administrative agent in the agreement?,bank of america na,1,1,1
+1,What companies are both the bookrunner and administrative agent in the agreement?,bank of america na,1,1,1
+1,What companies are both the lender and administrative agent in the agreement?,bank of america na,1,1,1
+1,What companies are both the arranger and lenders in the agreement?,bank of america na,1,1,1
+1,What companies are both the arranger and bookrunner in the agreement?,bank of america na,1,1,1
+1,What companies are both the arranger and lender in the agreement?,bank of america na,1,1,1
+1,What companies are both the bookrunner and lenders in the agreement?,bank of america na,1,1,1
+1,What companies are both the lender and lenders in the agreement?,bank of america na,1,1,1
+1,What companies are both the bookrunner and lender in the agreement?,bank of america na,1,1,1
+53,What companies are both the lender and l c issuer in the agreement?,cadence bank,1,1,1
+53,What companies are both the lender and agent in the agreement?,cadence bank,1,1,1
+53,What companies are both the l c issuer and agent in the agreement?,cadence bank,1,1,1
+47,What companies are both the joint bookrunners and joint lead arrangers in the agreement?,"merrill lynch pierce fennerand smith incorporated, pnc capital markets llc, wells fargo securities llc",1,1,1
+47,What companies are both the co syndication agents and lender in the agreement?,"bank of america na, deutsche bank ag new york branch, pnc bank national association, the bank of tokyo mitsubishi ufjltd",1,1,1
+47,What companies are both the co syndication agents and joint bookrunners in the agreement?,the bank of tokyo mitsubishi ufjltd,1,1,1
+47,What companies are both the lender and joint bookrunners in the agreement?,the bank of tokyo mitsubishi ufjltd,1,1,1
+47,What companies are both the co syndication agents and joint lead arrangers in the agreement?,deutsche bank ag new york branch,1,1,1
+47,What companies are both the lender and joint lead arrangers in the agreement?,deutsche bank ag new york branch,1,1,1
+47,What companies are both the lender and administrative agent in the agreement?,wells fargo bank national association,1,1,1
+146,What companies are both the collateral administrator and custodian in the agreement?,"wilmington trust, wilmington trust national association",1,1,1
+146,What companies are both the collateral administrator and collateral agent in the agreement?,"wilmington trust, wilmington trust national association",1,1,1
+146,What companies are both the custodian and collateral agent in the agreement?,"wilmington trust, wilmington trust national association",1,1,1
+146,What companies are both the lender and administrative agent in the agreement?,citibank,1,1,1
+146,What companies are both the collateral manager and sole member in the agreement?,blackstone private credit fund,1,1,1
+146,What companies are both the collateral manager and equityholder in the agreement?,blackstone private credit fund,1,1,1
+146,What companies are both the sole member and equityholder in the agreement?,blackstone private credit fund,1,1,1
+90,What companies are both the lender and l c issuer in the agreement?,the bank of nova scotia,1,1,1
+90,What companies are both the lender and administrative agent in the agreement?,the bank of nova scotia,1,1,1
+90,What companies are both the swing line lender and lender in the agreement?,the bank of nova scotia,1,1,1
+90,What companies are both the l c issuer and administrative agent in the agreement?,the bank of nova scotia,1,1,1
+90,What companies are both the swing line lender and l c issuer in the agreement?,the bank of nova scotia,1,1,1
+90,What companies are both the swing line lender and administrative agent in the agreement?,the bank of nova scotia,1,1,1
+84,What companies are both the documentation agent and arrangers in the agreement?,deutsche bank securities inc,1,1,1
+84,What companies are both the managers and arrangers in the agreement?,jp morgan securities llc,1,1,1
+84,What companies are both the joint lead arrangers and joint book managers in the agreement?,merrill lynch pierce fennerand smith incorporated,1,1,1
+84,What companies are both the l c issuer and administrative agent in the agreement?,keybank national association,1,1,1
+84,What companies are both the lender and administrative agent in the agreement?,keybank national association,1,1,1
+84,What companies are both the administrative agent and swingline lender in the agreement?,keybank national association,1,1,1
+84,What companies are both the administrative agent and lc issuer in the agreement?,keybank national association,1,1,1
+84,What companies are both the lender and l c issuer in the agreement?,keybank national association,1,1,1
+84,What companies are both the l c issuer and swingline lender in the agreement?,keybank national association,1,1,1
+84,What companies are both the l c issuer and lc issuer in the agreement?,keybank national association,1,1,1
+84,What companies are both the lender and swingline lender in the agreement?,keybank national association,1,1,1
+84,What companies are both the lender and lc issuer in the agreement?,keybank national association,1,1,1
+84,What companies are both the swingline lender and lc issuer in the agreement?,keybank national association,1,1,1
+85,What companies are both the lender and agent in the agreement?,bank of america,1,1,1
+147,What companies are both the joint bookrunners and joint lead arrangers in the agreement?,"deutsche bank securities inc, jp morgan securities llc barclays bank plc bofa securities inc goldman sachs bank usa mizuho bank ltd morgan stanley senior funding inc hsbc securities usa inc credit suisse loan funding llc citigroup global markets inc",1,1,1
+147,What companies are both the administrative agent and a l c issuer in the agreement?,jpmorgan chase bank na,1,1,1
+147,What companies are both the administrative agent and collateral agent in the agreement?,jpmorgan chase bank na,1,1,1
+147,What companies are both the a l c issuer and collateral agent in the agreement?,jpmorgan chase bank na,1,1,1
+147,What companies are both the lender and l c issuer in the agreement?,"bank of america, barclays bank plc, citibank, credit suisse ag, deutsche bank, goldman sachs bank usa, jpmorgan chase bank, mizuho bank ltd, morgan stanley senior funding inc",1,1,1
+147,What companies are both the lender and collateral agent in the agreement?,jpmorgan chase bank,1,1,1
+147,What companies are both the l c issuer and collateral agent in the agreement?,jpmorgan chase bank,1,1,1
+147,What companies are both the co borrower and borrower in the agreement?,ppd development lp,1,1,1
+153,What companies are both the joint bookrunners and joint lead arrangers in the agreement?,"citizens bank na, jpmorgan chase bank na, pnc capital markets llc, silicon valley bank, truist securities inc",1,1,1
+153,What companies are both the issuing bank and joint bookrunners in the agreement?,"citizens bank na, jpmorgan chase bank na, silicon valley bank",1,1,1
+153,What companies are both the issuing bank and joint lead arrangers in the agreement?,"citizens bank na, jpmorgan chase bank na, silicon valley bank",1,1,1
+153,What companies are both the co syndication agents and issuing bank in the agreement?,"citizens bank na, pnc bank national association, silicon valley bank, truist bank",1,1,1
+153,What companies are both the issuing bank and lender in the agreement?,"citizens bank na, jpmorgan chase bank na, pnc bank national association, silicon valley bank, truist bank",1,1,1
+153,What companies are both the co syndication agents and joint bookrunners in the agreement?,"citizens bank na, silicon valley bank",1,1,1
+153,What companies are both the lender and joint bookrunners in the agreement?,"citizens bank na, jpmorgan chase bank na, silicon valley bank",1,1,1
+153,What companies are both the co syndication agents and joint lead arrangers in the agreement?,"citizens bank na, silicon valley bank",1,1,1
+153,What companies are both the lender and joint lead arrangers in the agreement?,"citizens bank na, jpmorgan chase bank na, silicon valley bank",1,1,1
+153,What companies are both the co syndication agents and lender in the agreement?,"citizens bank na, pnc bank national association, silicon valley bank, truist bank",1,1,1
+153,What companies are both the administrative agent and borrower in the agreement?,avid technology inc,1,1,1
+153,What companies are both the issuing bank and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+153,What companies are both the joint bookrunners and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+153,What companies are both the joint lead arrangers and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+153,What companies are both the lender and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+46,What companies are both the lender and agent in the agreement?,santander bank na,1,1,1
+52,What companies are both the bookrunners and arrangers in the agreement?,"citigroup global markets inc, jpmorgan chase bank na",1,1,1
+52,What companies are both the joint bookrunners and joint lead arrangers in the agreement?,wells fargo securities llc,1,1,1
+52,What companies are both the documentation agent and bank in the agreement?,the bank of tokyo mitsubishi ufj ltd,1,1,1
+52,What companies are both the servicing agent and bank in the agreement?,citibank na,1,1,1
+52,What companies are both the servicing agent and agents in the agreement?,citibank na,1,1,1
+52,What companies are both the agents and bank in the agreement?,"citibank na, jpmorgan chase bank na",1,1,1
+52,What companies are both the bookrunners and bank in the agreement?,jpmorgan chase bank na,1,1,1
+52,What companies are both the arrangers and bank in the agreement?,jpmorgan chase bank na,1,1,1
+52,What companies are both the bookrunners and agents in the agreement?,jpmorgan chase bank na,1,1,1
+52,What companies are both the arrangers and agents in the agreement?,jpmorgan chase bank na,1,1,1
+52,What companies are both the bank and administrative agents in the agreement?,wells fargo bank,1,1,1
+44,What companies are both the l c issuer and administrative agent in the agreement?,bank of america,1,1,1
+44,What companies are both the l c issuer and swing line lender lender in the agreement?,bank of america,1,1,1
+44,What companies are both the administrative agent and swing line lender lender in the agreement?,bank of america,1,1,1
+50,What companies are both the joint bookrunners and arrangers in the agreement?,"jpmorgan chase bank na, wells fargo securities llc",1,1,1
+50,What companies are both the lender and agents in the agreement?,"pnc bank, silicon valley bank, us bank national association, zions first national bank",1,1,1
+50,What companies are both the administrative agent and arrangers in the agreement?,jpmorgan chase bank na,1,1,1
+50,What companies are both the arrangers and swingline lender in the agreement?,jpmorgan chase bank na,1,1,1
+50,What companies are both the joint bookrunners and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+50,What companies are both the joint bookrunners and swingline lender in the agreement?,jpmorgan chase bank na,1,1,1
+50,What companies are both the administrative agent and swingline lender in the agreement?,jpmorgan chase bank na,1,1,1
+2,What companies are both the arranger and bookrunners in the agreement?,"bofa securities inc, wells fargo securities llc",1,1,1
+2,What companies are both the arranger and lead arrangers in the agreement?,bofa securities inc,1,1,1
+2,What companies are both the arranger and syndication agent in the agreement?,bofa securities inc,1,1,1
+2,What companies are both the lead arrangers and bookrunners in the agreement?,bofa securities inc,1,1,1
+2,What companies are both the bookrunners and syndication agent in the agreement?,bofa securities inc,1,1,1
+2,What companies are both the lead arrangers and syndication agent in the agreement?,bofa securities inc,1,1,1
+2,What companies are both the arranger and arrangers in the agreement?,wells fargo securities llc,1,1,1
+2,What companies are both the bookrunners and arrangers in the agreement?,wells fargo securities llc,1,1,1
+2,What companies are both the lender and administrative agent in the agreement?,wells fargo bank national association,1,1,1
+145,What companies are both the administrative agent and collateral agent in the agreement?,cortland capital market services llc,1,1,1
+151,What companies are both the lender and syndication agent in the agreement?,barclays bank plc,1,1,1
+151,What companies are both the lender and joint bookrunners in the agreement?,"barclays bank plc, citibank, mizuho bankltd",1,1,1
+151,What companies are both the lender and l c issuer in the agreement?,"barclays bank plc, citibank, mizuho bankltd",1,1,1
+151,What companies are both the joint bookrunners and syndication agent in the agreement?,barclays bank plc,1,1,1
+151,What companies are both the l c issuer and syndication agent in the agreement?,barclays bank plc,1,1,1
+151,What companies are both the joint bookrunners and l c issuer in the agreement?,"bank of america, barclays bank plc, citibank, jpmorgan chase bank, mizuho bankltd",1,1,1
+151,What companies are both the joint bookrunners and agent in the agreement?,"bank of america, citibank, jpmorgan chase bank, mizuho bankltd",1,1,1
+151,What companies are both the joint bookrunners and joint lead arrangers in the agreement?,"bank of america, citibank, jpmorgan chase bank, mizuho bankltd",1,1,1
+151,What companies are both the l c issuer and agent in the agreement?,"bank of america, citibank, jpmorgan chase bank, mizuho bankltd",1,1,1
+151,What companies are both the joint lead arrangers and agent in the agreement?,"bank of america, citibank, jpmorgan chase bank, mizuho bankltd",1,1,1
+151,What companies are both the lender and agent in the agreement?,"citibank, mizuho bankltd",1,1,1
+151,What companies are both the l c issuer and joint lead arrangers in the agreement?,"bank of america, citibank, jpmorgan chase bank, mizuho bankltd",1,1,1
+151,What companies are both the lender and joint lead arrangers in the agreement?,"citibank, mizuho bankltd",1,1,1
+151,What companies are both the swing line lender and joint bookrunners in the agreement?,"bank of america, jpmorgan chase bank",1,1,1
+151,What companies are both the swing line lender and agent in the agreement?,"bank of america, jpmorgan chase bank",1,1,1
+151,What companies are both the swing line lender and l c issuer in the agreement?,"bank of america, jpmorgan chase bank",1,1,1
+151,What companies are both the swing line lender and joint lead arrangers in the agreement?,"bank of america, jpmorgan chase bank",1,1,1
+92,What companies are both the bookrunner and sole lead arranger in the agreement?,midcap funding v llc,1,1,1
+92,What companies are both the lender and sole lead arranger in the agreement?,midcap funding v llc,1,1,1
+92,What companies are both the sole lead arranger and administrative agent in the agreement?,midcap funding v llc,1,1,1
+92,What companies are both the bookrunner and lender in the agreement?,"midcap funding v llc, pernix therapeutics holdings inc",1,1,1
+92,What companies are both the bookrunner and administrative agent in the agreement?,"midcap funding v llc, pernix therapeutics holdings inc",1,1,1
+92,What companies are both the lender and administrative agent in the agreement?,"midcap funding v llc, pernix therapeutics holdings inc",1,1,1
+92,What companies are both the arranger and administrative agent in the agreement?,pernix therapeutics holdings inc,1,1,1
+92,What companies are both the administrative agent and borrower in the agreement?,pernix therapeutics holdings inc,1,1,1
+92,What companies are both the arranger and borrower in the agreement?,pernix therapeutics holdings inc,1,1,1
+92,What companies are both the arranger and bookrunner in the agreement?,pernix therapeutics holdings inc,1,1,1
+92,What companies are both the arranger and lender in the agreement?,pernix therapeutics holdings inc,1,1,1
+92,What companies are both the bookrunner and borrower in the agreement?,pernix therapeutics holdings inc,1,1,1
+92,What companies are both the lender and borrower in the agreement?,pernix therapeutics holdings inc,1,1,1
+86,What companies are both the arranger and manager in the agreement?,merrill lynch pierce fennerand smith incorporated,1,1,1
+86,What companies are both the lender and administrative agent in the agreement?,bank of america,1,1,1
+86,What companies are both the lender and swinglinelender in the agreement?,bank of america,1,1,1
+86,What companies are both the lender and l cissuer in the agreement?,bank of america,1,1,1
+86,What companies are both the swinglinelender and administrative agent in the agreement?,bank of america,1,1,1
+86,What companies are both the administrative agent and l cissuer in the agreement?,bank of america,1,1,1
+86,What companies are both the swinglinelender and l cissuer in the agreement?,bank of america,1,1,1
+150,What companies are both the administrative agent and collateral agent in the agreement?,wilmington savings fund society fsb,1,1,1
+144,What companies are both the lender and agent in the agreement?,midcap financial trust,1,1,1
+51,What companies are both the joint bookrunners and arrangers in the agreement?,"citigroup global markets inc, natixis securities americas llc, rbc capital markets1, the bank of tokyo mitsubishi ufj ltd, ubs securities llc",1,1,1
+51,What companies are both the lender and joint bookrunners in the agreement?,morgan stanley senior funding inc,1,1,1
+51,What companies are both the lender and administrative agent in the agreement?,morgan stanley senior funding inc,1,1,1
+51,What companies are both the lender and joint lead arrangers in the agreement?,morgan stanley senior funding inc,1,1,1
+51,What companies are both the joint bookrunners and administrative agent in the agreement?,morgan stanley senior funding inc,1,1,1
+51,What companies are both the joint bookrunners and joint lead arrangers in the agreement?,morgan stanley senior funding inc,1,1,1
+51,What companies are both the joint lead arrangers and administrative agent in the agreement?,morgan stanley senior funding inc,1,1,1
+3,What companies are both the bookrunner and joint lead arranger in the agreement?,bofa securities inc,1,1,1
+3,What companies are both the arranger and bookrunner in the agreement?,wells fargo securities llc,1,1,1
+3,What companies are both the issuer and guarantor in the agreement?,summit nci master trs inc,1,1,1
+3,What companies are both the parent borrower and general partner borrower in the agreement?,summit nci nola br 184 llc,1,1,1
+3,What companies are both the lender and syndication agent in the agreement?,wells fargo bank national association,1,1,1
+3,What companies are both the lender and administrative agent in the agreement?,bank of america na,1,1,1
+79,What companies are both the bookrunners and arrangers in the agreement?,"citigroup global markets inc, merrill lynch pierce fennerand smith incorporated, wells fargo securities llc",1,1,1
+79,What companies are both the joint bookrunners and arrangers in the agreement?,rbc capital markets llc,1,1,1
+79,What companies are both the syndication agents and bookrunners in the agreement?,citigroup global markets inc,1,1,1
+79,What companies are both the syndication agents and arrangers in the agreement?,citigroup global markets inc,1,1,1
+79,What companies are both the lenders and administrative agent in the agreement?,wells fargo bank national association,1,1,1
+22,What companies are both the joint book runner and joint lead arranger in the agreement?,wells fargo bank national association,1,1,1
+22,What companies are both the joint book runner and agent in the agreement?,wells fargo bank national association,1,1,1
+22,What companies are both the joint lead arranger and agent in the agreement?,wells fargo bank national association,1,1,1
+22,What companies are both the arranger and lender in the agreement?,"bank of america na, jpmorgan chase bank na",1,1,1
+22,What companies are both the arranger and joint book runner in the agreement?,"bank of america na, jpmorgan chase bank na",1,1,1
+22,What companies are both the lender and joint book runner in the agreement?,"bank of america na, jpmorgan chase bank na",1,1,1
+36,What companies are both the administrative agent and collateral agent in the agreement?,morgan stanley senior funding inc,1,1,1
+36,What companies are both the arranger and administrative agent in the agreement?,morgan stanley senior funding inc,1,1,1
+36,What companies are both the bookrunner and administrative agent in the agreement?,morgan stanley senior funding inc,1,1,1
+36,What companies are both the lender and administrative agent in the agreement?,morgan stanley senior funding inc,1,1,1
+36,What companies are both the arranger and collateral agent in the agreement?,morgan stanley senior funding inc,1,1,1
+36,What companies are both the bookrunner and collateral agent in the agreement?,morgan stanley senior funding inc,1,1,1
+36,What companies are both the lender and collateral agent in the agreement?,morgan stanley senior funding inc,1,1,1
+36,What companies are both the arranger and bookrunner in the agreement?,morgan stanley senior funding inc,1,1,1
+36,What companies are both the arranger and lender in the agreement?,morgan stanley senior funding inc,1,1,1
+36,What companies are both the bookrunner and lender in the agreement?,morgan stanley senior funding inc,1,1,1
+36,What companies are both the grantors and borrower in the agreement?,silicon graphics international corp,1,1,1
+123,What companies are both the arranger and bookrunners in the agreement?,"goldman sachs bank usa, jp morgan securities llc",1,1,1
+123,What companies are both the arranger and joint bookrunners in the agreement?,rbc capital markets,1,1,1
+123,What companies are both the arranger and syndication agent in the agreement?,rbc capital markets,1,1,1
+123,What companies are both the joint bookrunners and syndication agent in the agreement?,rbc capital markets,1,1,1
+123,What companies are both the lender and agent in the agreement?,"bank of america na, citibank na, credit suisse ag, goldman sachs bank usa, the bank of tokyo mitsubishi ufj ltd, wells fargo bank",1,1,1
+123,What companies are both the arranger and lender in the agreement?,goldman sachs bank usa,1,1,1
+123,What companies are both the arranger and agent in the agreement?,goldman sachs bank usa,1,1,1
+123,What companies are both the bookrunners and lender in the agreement?,goldman sachs bank usa,1,1,1
+123,What companies are both the bookrunners and agent in the agreement?,goldman sachs bank usa,1,1,1
+123,What companies are both the lender and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+123,What companies are both the lender and documentation agent in the agreement?,pnc bank,1,1,1
+137,What companies are both the bookrunners and arrangers in the agreement?,"deutsche bank securities inc, merrill lynch pierce fenner and smith incorporated, regions capital markets",1,1,1
+137,What companies are both the issuing banks and swing line banks in the agreement?,"initial issuing banks, swing line banks",1,1,1
+137,What companies are both the issuing banks and lenders in the agreement?,initial issuing banks,1,1,1
+137,What companies are both the swing line banks and lenders in the agreement?,initial issuing banks,1,1,1
+137,What companies are both the co syndication agents and lender in the agreement?,bank of america na,1,1,1
+137,What companies are both the co syndication agents and bank in the agreement?,bank of america na,1,1,1
+137,What companies are both the lender and bank in the agreement?,"bank of america na, regions bank",1,1,1
+137,What companies are both the lender and agents in the agreement?,regions bank,1,1,1
+137,What companies are both the agents and bank in the agreement?,regions bank,1,1,1
+137,What companies are both the lender and administrative agent in the agreement?,deutsche bank ag new york branch,1,1,1
+122,What companies are both the bookrunners and joint lead arranger in the agreement?,citigroup global markets inc,1,1,1
+122,What companies are both the arranger and bookrunners in the agreement?,merrill lynch pierce fennerand smith incorporated,1,1,1
+122,What companies are both the arranger and joint bookrunners in the agreement?,morgan stanley senior fundinginc,1,1,1
+122,What companies are both the arranger and agent in the agreement?,morgan stanley senior fundinginc,1,1,1
+122,What companies are both the joint bookrunners and agent in the agreement?,morgan stanley senior fundinginc,1,1,1
+122,What companies are both the lender and syndication agent in the agreement?,bank of america na,1,1,1
+37,What companies are both the lender and l c issuer in the agreement?,bank of america na,1,1,1
+37,What companies are both the lender and administrative agent in the agreement?,bank of america na,1,1,1
+37,What companies are both the l c issuer and administrative agent in the agreement?,bank of america na,1,1,1
+23,What companies are both the lender and l c issuer in the agreement?,"keybank national association, silicon valley bank",1,1,1
+23,What companies are both the lender and administrative agent in the agreement?,keybank national association,1,1,1
+23,What companies are both the l c issuer and administrative agent in the agreement?,keybank national association,1,1,1
+23,What companies are both the lender and collateral agent in the agreement?,silicon valley bank,1,1,1
+23,What companies are both the l c issuer and collateral agent in the agreement?,silicon valley bank,1,1,1
+35,What companies are both the joint bookrunners and arrangers in the agreement?,jp morgan securities llc,1,1,1
+35,What companies are both the syndication agents and bookrunners in the agreement?,morgan stanley senior funding inc,1,1,1
+35,What companies are both the syndication agents and arrangers in the agreement?,morgan stanley senior funding inc,1,1,1
+35,What companies are both the syndication agents and documentation agents in the agreement?,morgan stanley senior funding inc,1,1,1
+35,What companies are both the bookrunners and arrangers in the agreement?,"goldman sachs bank usa, morgan stanley senior funding inc, rbs securities inc, the bank of tokyo mitsubishi ufj ltd",1,1,1
+35,What companies are both the bookrunners and documentation agents in the agreement?,morgan stanley senior funding inc,1,1,1
+35,What companies are both the arrangers and documentation agents in the agreement?,morgan stanley senior funding inc,1,1,1
+35,What companies are both the issuing bank and lender in the agreement?,"bank of america na, citibank na, goldman sachs bank usa, jpmorgan chase bank na, morgan stanley bank na, the bank of tokyo mitsubishi ufj ltd, wells fargo bank national association",1,1,1
+35,What companies are both the issuing bank and agents in the agreement?,"bank of america na, citibank na, goldman sachs bank usa, the bank of tokyo mitsubishi ufj ltd, wells fargo bank national association",1,1,1
+35,What companies are both the lender and agents in the agreement?,"bank of america na, bnp paribas, citibank na, goldman sachs bank usa, hsbc bank usa na, sumitomo mitsui banking corporation, the bank of nova scotia, the bank of tokyo mitsubishi ufj ltd, the royal bank of scotland plc, wells fargo bank national association",1,1,1
+35,What companies are both the issuing bank and bookrunners in the agreement?,"goldman sachs bank usa, the bank of tokyo mitsubishi ufj ltd",1,1,1
+35,What companies are both the issuing bank and arrangers in the agreement?,"goldman sachs bank usa, the bank of tokyo mitsubishi ufj ltd",1,1,1
+35,What companies are both the bookrunners and agents in the agreement?,"goldman sachs bank usa, the bank of tokyo mitsubishi ufj ltd",1,1,1
+35,What companies are both the bookrunners and lender in the agreement?,"goldman sachs bank usa, the bank of tokyo mitsubishi ufj ltd",1,1,1
+35,What companies are both the arrangers and agents in the agreement?,"goldman sachs bank usa, the bank of tokyo mitsubishi ufj ltd",1,1,1
+35,What companies are both the lender and arrangers in the agreement?,"goldman sachs bank usa, the bank of tokyo mitsubishi ufj ltd",1,1,1
+35,What companies are both the lender and bank in the agreement?,the royal bank of scotland plc,1,1,1
+35,What companies are both the agents and bank in the agreement?,the royal bank of scotland plc,1,1,1
+35,What companies are both the issuing bank and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+35,What companies are both the lender and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+21,What companies are both the lender and l c issuer in the agreement?,ally bank,1,1,1
+21,What companies are both the lender and ally representative in the agreement?,ally bank,1,1,1
+21,What companies are both the l c issuer and ally representative in the agreement?,ally bank,1,1,1
+21,What companies are both the administrative agent and collateral agent in the agreement?,wilmington trust national association,1,1,1
+134,What companies are both the bookrunning manager and lead arranger in the agreement?,jp morgan securities llc,1,1,1
+134,What companies are both the guarantor and holdings in the agreement?,stockbridge sbe investment company llc,1,1,1
+134,What companies are both the issuing bank and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+134,What companies are both the issuing bank and collateral agent in the agreement?,jpmorgan chase bank na,1,1,1
+134,What companies are both the issuing bank and agent in the agreement?,jpmorgan chase bank na,1,1,1
+134,What companies are both the issuing bank and lender in the agreement?,jpmorgan chase bank na,1,1,1
+134,What companies are both the administrative agent and collateral agent in the agreement?,jpmorgan chase bank na,1,1,1
+134,What companies are both the administrative agent and agent in the agreement?,jpmorgan chase bank na,1,1,1
+134,What companies are both the lender and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+134,What companies are both the agent and collateral agent in the agreement?,jpmorgan chase bank na,1,1,1
+134,What companies are both the lender and collateral agent in the agreement?,jpmorgan chase bank na,1,1,1
+134,What companies are both the lender and agent in the agreement?,jpmorgan chase bank na,1,1,1
+120,What companies are both the joint lead bookrunner and arrangers in the agreement?,merrill lynch pierce fennerand smith incorporated,1,1,1
+120,What companies are both the sole lead arranger and sole bookrunner in the agreement?,wells fargo securities llc,1,1,1
+121,What companies are both the arranger and bookrunners in the agreement?,"jp morgan securities llc, us bank national association, wells fargo securities llc",1,1,1
+121,What companies are both the arranger and joint bookrunners in the agreement?,merrill lynch pierce fenner and smith incorporated,1,1,1
+121,What companies are both the arranger and senior managing agent in the agreement?,us bank national association,1,1,1
+121,What companies are both the bookrunners and senior managing agent in the agreement?,us bank national association,1,1,1
+135,What companies are both the arranger and bookrunner in the agreement?,"citigroup global markets inc, dnb marketsinc, jp morgan securities llc, mizuho bankltd, wells fargo securities llc",1,1,1
+135,What companies are both the arranger and arrangers in the agreement?,"citigroup global markets inc, dnb marketsinc, jp morgan securities llc, mizuho bankltd",1,1,1
+135,What companies are both the arranger and bookrunners in the agreement?,"citigroup global markets inc, dnb marketsinc, jp morgan securities llc, mizuho bankltd, wells fargo securities llc",1,1,1
+135,What companies are both the bookrunner and arrangers in the agreement?,"citigroup global markets inc, dnb marketsinc, jp morgan securities llc, mizuho bankltd",1,1,1
+135,What companies are both the bookrunner and bookrunners in the agreement?,"citigroup global markets inc, dnb marketsinc, jp morgan securities llc, mizuho bankltd, wells fargo securities llc",1,1,1
+135,What companies are both the bookrunners and arrangers in the agreement?,"citigroup global markets inc, dnb marketsinc, fenner, jp morgan securities llc, merrill lynch, mizuho bankltd, pierce, smith incorporated",1,1,1
+135,What companies are both the arranger and joint lead arrangers in the agreement?,wells fargo securities llc,1,1,1
+135,What companies are both the bookrunner and joint lead arrangers in the agreement?,wells fargo securities llc,1,1,1
+135,What companies are both the bookrunners and joint lead arrangers in the agreement?,wells fargo securities llc,1,1,1
+135,What companies are both the lender and co syndication agent in the agreement?,"citibank na, jpmorgan chase bank na, wells fargo bank national association",1,1,1
+135,What companies are both the bookrunners and agents in the agreement?,mizuho bankltd,1,1,1
+135,What companies are both the bookrunners and lender in the agreement?,mizuho bankltd,1,1,1
+135,What companies are both the bookrunners and co documentation agent in the agreement?,mizuho bankltd,1,1,1
+135,What companies are both the arranger and agents in the agreement?,mizuho bankltd,1,1,1
+135,What companies are both the lender and agents in the agreement?,"mizuho bankltd, wells fargo bank national association",1,1,1
+135,What companies are both the bookrunner and agents in the agreement?,mizuho bankltd,1,1,1
+135,What companies are both the arrangers and agents in the agreement?,mizuho bankltd,1,1,1
+135,What companies are both the co documentation agent and agents in the agreement?,mizuho bankltd,1,1,1
+135,What companies are both the arranger and lender in the agreement?,mizuho bankltd,1,1,1
+135,What companies are both the arranger and co documentation agent in the agreement?,mizuho bankltd,1,1,1
+135,What companies are both the bookrunner and lender in the agreement?,mizuho bankltd,1,1,1
+135,What companies are both the lender and arrangers in the agreement?,mizuho bankltd,1,1,1
+135,What companies are both the co documentation agent and lender in the agreement?,mizuho bankltd,1,1,1
+135,What companies are both the bookrunner and co documentation agent in the agreement?,mizuho bankltd,1,1,1
+135,What companies are both the co documentation agent and arrangers in the agreement?,mizuho bankltd,1,1,1
+135,What companies are both the agents and co syndication agent in the agreement?,wells fargo bank national association,1,1,1
+135,What companies are both the lender and administrative agent in the agreement?,bank of america na,1,1,1
+20,What companies are both the lender and administrative agent in the agreement?,bank of montreal chicago branch,1,1,1
+34,What companies are both the arranger and lender in the agreement?,goldman sachs bank usa,1,1,1
+34,What companies are both the arranger and administrative agent in the agreement?,goldman sachs bank usa,1,1,1
+34,What companies are both the arranger and sole bookrunner in the agreement?,goldman sachs bank usa,1,1,1
+34,What companies are both the lender and administrative agent in the agreement?,goldman sachs bank usa,1,1,1
+34,What companies are both the lender and sole bookrunner in the agreement?,goldman sachs bank usa,1,1,1
+34,What companies are both the administrative agent and sole bookrunner in the agreement?,goldman sachs bank usa,1,1,1
+18,What companies are both the bookrunners and arrangers in the agreement?,"regions capital markets, wells fargo securities llc",1,1,1
+18,What companies are both the lender and documentation agent in the agreement?,capital one national association,1,1,1
+18,What companies are both the lender and syndication agent in the agreement?,regions bank,1,1,1
+18,What companies are both the lender and administrative agent in the agreement?,wells fargo bank national association,1,1,1
+30,What companies are both the lead arranger and syndication agent in the agreement?,wells fargo securities llc,1,1,1
+30,What companies are both the lender and administrative agent in the agreement?,wells fargo bank national association,1,1,1
+30,What companies are both the lender and lenders in the agreement?,wells fargo bank national association,1,1,1
+30,What companies are both the lenders and administrative agent in the agreement?,wells fargo bank national association,1,1,1
+24,What companies are both the lender and agents in the agreement?,"regions bank, suntrust bank, us bank national association",1,1,1
+24,What companies are both the lead arrangers and lender in the agreement?,us bank national association,1,1,1
+24,What companies are both the lead arrangers and agents in the agreement?,us bank national association,1,1,1
+24,What companies are both the sole general partner and borrower in the agreement?,columbia property trust operating partnership lp,1,1,1
+24,What companies are both the loan and agency services group agent and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+24,What companies are both the bookrunner and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+24,What companies are both the lead arranger and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+24,What companies are both the lender and administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+24,What companies are both the loan and agency services group agent and bookrunner in the agreement?,jpmorgan chase bank na,1,1,1
+24,What companies are both the loan and agency services group agent and lead arranger in the agreement?,jpmorgan chase bank na,1,1,1
+24,What companies are both the loan and agency services group agent and lender in the agreement?,jpmorgan chase bank na,1,1,1
+24,What companies are both the bookrunner and lead arranger in the agreement?,jpmorgan chase bank na,1,1,1
+24,What companies are both the bookrunner and lender in the agreement?,jpmorgan chase bank na,1,1,1
+24,What companies are both the lender and lead arranger in the agreement?,jpmorgan chase bank na,1,1,1
+125,What companies are both the arranger and book manager in the agreement?,us bank national association,1,1,1
+125,What companies are both the arranger and lender in the agreement?,us bank national association,1,1,1
+125,What companies are both the arranger and administrative agent in the agreement?,us bank national association,1,1,1
+125,What companies are both the book manager and lender in the agreement?,us bank national association,1,1,1
+125,What companies are both the book manager and administrative agent in the agreement?,us bank national association,1,1,1
+125,What companies are both the lender and administrative agent in the agreement?,us bank national association,1,1,1
+118,What companies are both the bookrunners and arrangers in the agreement?,"barclays bank plc, credit suisse securities usa llc",1,1,1
+118,What companies are both the bookrunners and syndication agent in the agreement?,barclays bank plc,1,1,1
+118,What companies are both the arrangers and syndication agent in the agreement?,barclays bank plc,1,1,1
+118,What companies are both the joint bookrunners and joint lead arrangers in the agreement?,goldman sachs bank usa,1,1,1
+118,What companies are both the joint bookrunners and documentation agents in the agreement?,goldman sachs bank usa,1,1,1
+118,What companies are both the joint lead arrangers and documentation agents in the agreement?,goldman sachs bank usa,1,1,1
+118,What companies are both the l c issuer and revolving credit lender in the agreement?,wells fargo bank national association,1,1,1
+118,What companies are both the swing line lender and revolving credit lender in the agreement?,wells fargo bank national association,1,1,1
+118,What companies are both the agent and revolving credit lender in the agreement?,wells fargo bank national association,1,1,1
+118,What companies are both the swing line lender and l c issuer in the agreement?,wells fargo bank national association,1,1,1
+118,What companies are both the l c issuer and agent in the agreement?,wells fargo bank national association,1,1,1
+118,What companies are both the swing line lender and agent in the agreement?,wells fargo bank national association,1,1,1
+124,What companies are both the syndication agents and lender in the agreement?,"bank of america na, jpmorgan chase bank na, keybank national association",1,1,1
+124,What companies are both the lead arrangers and lender in the agreement?,citizens bank na,1,1,1
+124,What companies are both the lead arrangers and administrative agent in the agreement?,citizens bank na,1,1,1
+124,What companies are both the lender and administrative agent in the agreement?,citizens bank na,1,1,1
+124,What companies are both the syndication agents and bookrunners in the agreement?,jpmorgan chase bank na,1,1,1
+124,What companies are both the bookrunners and lender in the agreement?,jpmorgan chase bank na,1,1,1
+124,What companies are both the lender and documentation agents in the agreement?,td bank na,1,1,1
+130,What companies are both the arranger and bookrunner in the agreement?,"bofa securities inc, fifth third bank national association, hancock whitney investment services inc, jpmorgan chase bank na, pnc capital markets llc, rbc capital markets, regions capital markets, truist securities inc, umb bankna, wells fargo securities llc",1,1,1
+130,What companies are both the arranger and syndication agents in the agreement?,"jpmorgan chase bank na, rbc capital markets",1,1,1
+130,What companies are both the arranger and documentation agents in the agreement?,"jpmorgan chase bank na, rbc capital markets",1,1,1
+130,What companies are both the bookrunner and syndication agents in the agreement?,"jpmorgan chase bank na, rbc capital markets",1,1,1
+130,What companies are both the syndication agents and documentation agents in the agreement?,"jpmorgan chase bank na, rbc capital markets",1,1,1
+130,What companies are both the bookrunner and documentation agents in the agreement?,"jpmorgan chase bank na, rbc capital markets",1,1,1
+130,What companies are both the issuing bank and lender in the agreement?,"bank of america na, pnc bank national association",1,1,1
+130,What companies are both the arranger and lender in the agreement?,fifth third bank national association,1,1,1
+130,What companies are both the bookrunner and lender in the agreement?,fifth third bank national association,1,1,1
+130,What companies are both the issuing bank and syndication agents in the agreement?,jpmorgan chase bank na,1,1,1
+130,What companies are both the issuing bank and collateral agent in the agreement?,jpmorgan chase bank na,1,1,1
+130,What companies are both the arranger and issuing bank in the agreement?,jpmorgan chase bank na,1,1,1
+130,What companies are both the issuing bank and bookrunner in the agreement?,jpmorgan chase bank na,1,1,1
+130,What companies are both the issuing bank and revolving administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+130,What companies are both the issuing bank and documentation agents in the agreement?,jpmorgan chase bank na,1,1,1
+130,What companies are both the syndication agents and collateral agent in the agreement?,jpmorgan chase bank na,1,1,1
+130,What companies are both the syndication agents and revolving administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+130,What companies are both the arranger and collateral agent in the agreement?,jpmorgan chase bank na,1,1,1
+130,What companies are both the bookrunner and collateral agent in the agreement?,jpmorgan chase bank na,1,1,1
+130,What companies are both the revolving administrative agent and collateral agent in the agreement?,jpmorgan chase bank na,1,1,1
+130,What companies are both the documentation agents and collateral agent in the agreement?,jpmorgan chase bank na,1,1,1
+130,What companies are both the arranger and revolving administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+130,What companies are both the bookrunner and revolving administrative agent in the agreement?,jpmorgan chase bank na,1,1,1
+130,What companies are both the revolving administrative agent and documentation agents in the agreement?,jpmorgan chase bank na,1,1,1
+130,What companies are both the issuing bank and term administrative agent in the agreement?,royal bank of canada,1,1,1
+130,What companies are both the subsidiary and borrower in the agreement?,murphy oil usa inc,1,1,1
+25,What companies are both the lenders and administrative agent in the agreement?,cortland capital market services llc,1,1,1
+25,What companies are both the lenders and collateral agent in the agreement?,cortland capital market services llc,1,1,1
+25,What companies are both the administrative agent and collateral agent in the agreement?,cortland capital market services llc,1,1,1
+25,What companies are both the guarantors and guarantor in the agreement?,"five oaks acquisition corp, hunt cmt equity llc",1,1,1
+31,What companies are both the agents and book runners in the agreement?,"bank of china los angeles branch, standard chartered bank, the bank of tokyo mitsubishi ufj ltd, us bank national association",1,1,1
+31,What companies are both the agents and us swing lender in the agreement?,"citibank na, standard chartered bank, the bank of tokyo mitsubishi ufj ltd, us bank national association, wells fargo bank national association",1,1,1
+31,What companies are both the book runners and us swing lender in the agreement?,"standard chartered bank, the bank of tokyo mitsubishi ufj ltd, us bank national association",1,1,1
+31,What companies are both the joint book runners and documentation agents in the agreement?,canadian imperial bank of commerce new york agency,1,1,1
+31,What companies are both the joint book runners and us swing lender in the agreement?,canadian imperial bank of commerce new york agency,1,1,1
+31,What companies are both the documentation agents and us swing lender in the agreement?,canadian imperial bank of commerce new york agency,1,1,1
+31,What companies are both the yen swing lender and sterling swing lender in the agreement?,jpmorgan chase bank na,1,1,1
+31,What companies are both the yen swing lender and syndication agent in the agreement?,jpmorgan chase bank na,1,1,1
+31,What companies are both the yen swing lender and us swing lender in the agreement?,jpmorgan chase bank na,1,1,1
+31,What companies are both the sterling swing lender and syndication agent in the agreement?,jpmorgan chase bank na,1,1,1
+31,What companies are both the sterling swing lender and us swing lender in the agreement?,jpmorgan chase bank na,1,1,1
+31,What companies are both the syndication agent and us swing lender in the agreement?,jpmorgan chase bank na,1,1,1
+31,What companies are both the lenders and borrowers in the agreement?,"visa inc, visa international service association, visa usa inc",1,1,1
+31,What companies are both the euro swing lender and administrative agent in the agreement?,bank of america na,1,1,1
+31,What companies are both the euro swing lender and us swing lender in the agreement?,bank of america na,1,1,1
+31,What companies are both the administrative agent and us swing lender in the agreement?,bank of america na,1,1,1
+19,What companies are both the bookrunner and lead arranger in the agreement?,rbc capital markets,1,1,1
+19,What companies are both the issuing bank and lender in the agreement?,royal bank of canada,1,1,1
+19,What companies are both the issuing bank and administrative agent in the agreement?,royal bank of canada,1,1,1
+19,What companies are both the lender and administrative agent in the agreement?,royal bank of canada,1,1,1
+27,What companies are both the lender and borrower in the agreement?,milbank tweed hadley and mccloy llp,1,1,1
+33,What companies are both the bookrunners and arrangers in the agreement?,"credit suisse securities usa llc, jp morgan securities llc, ubs securities llc",1,1,1
+33,What companies are both the joint bookrunners and arrangers in the agreement?,goldman sachs bank usa,1,1,1
+33,What companies are both the bookrunners and syndication agent in the agreement?,jp morgan securities llc,1,1,1
+33,What companies are both the arrangers and syndication agent in the agreement?,jp morgan securities llc,1,1,1
+33,What companies are both the bookrunners and documentation agent in the agreement?,ubs securities llc,1,1,1
+33,What companies are both the documentation agent and arrangers in the agreement?,ubs securities llc,1,1,1
+33,What companies are both the administrative agent and collateral agent in the agreement?,credit suisse ag,1,1,1
+126,What companies are both the bookrunners and arrangers in the agreement?,"bnp paribas securities corp, bofa securities inc, citibank na, jpmorgan chase bank na, mizuho bank ltd, mufg bank ltd, sumitomo mitsui banking corporation",1,1,1
+126,What companies are both the lenders and agents in the agreement?,"bank of america na, bnp paribas, jpmorgan chase bank na, mizuho bank ltd",1,1,1
+126,What companies are both the bookrunners and lenders in the agreement?,"citibank na, jpmorgan chase bank na, mizuho bank ltd, mufg bank ltd, sumitomo mitsui banking corporation",1,1,1
+126,What companies are both the bookrunners and agents in the agreement?,"jpmorgan chase bank na, mizuho bank ltd",1,1,1
+126,What companies are both the lenders and arrangers in the agreement?,"citibank na, jpmorgan chase bank na, mizuho bank ltd, mufg bank ltd, sumitomo mitsui banking corporation",1,1,1
+126,What companies are both the arrangers and agents in the agreement?,"jpmorgan chase bank na, mizuho bank ltd",1,1,1
+126,What companies are both the co syndication agents and bookrunners in the agreement?,mufg bank ltd,1,1,1
+126,What companies are both the co syndication agents and lenders in the agreement?,mufg bank ltd,1,1,1
+126,What companies are both the co syndication agents and arrangers in the agreement?,mufg bank ltd,1,1,1
+126,What companies are both the bookrunners and documentation agents in the agreement?,sumitomo mitsui banking corporation,1,1,1
+126,What companies are both the lenders and documentation agents in the agreement?,sumitomo mitsui banking corporation,1,1,1
+126,What companies are both the arrangers and documentation agents in the agreement?,sumitomo mitsui banking corporation,1,1,1
+126,What companies are both the bookrunners and agent in the agreement?,citibank na,1,1,1
+126,What companies are both the lenders and agent in the agreement?,citibank na,1,1,1
+126,What companies are both the arrangers and agent in the agreement?,citibank na,1,1,1
+132,What companies are both the arrangers and book runners in the agreement?,"bmo capital markets corp, jpmorgan chase bank na, us bank national association",1,1,1
+132,What companies are both the arrangers and joint book runners in the agreement?,wells fargo securities llc,1,1,1
+132,What companies are both the lender and arrangers in the agreement?,"jpmorgan chase bank na, us bank national association",1,1,1
+132,What companies are both the lender and book runners in the agreement?,"jpmorgan chase bank na, us bank national association",1,1,1
+132,What companies are both the lender and l c issuer in the agreement?,bank of montreal,1,1,1
+132,What companies are both the lender and agent in the agreement?,bank of montreal,1,1,1
+132,What companies are both the l c issuer and agent in the agreement?,bank of montreal,1,1,1
+133,What companies are both the arranger and book runner in the agreement?,"citibank, citibank na",1,1,1
+133,What companies are both the administrative agent and collateral agent in the agreement?,citibank na,1,1,1
+133,What companies are both the arranger and administrative agent in the agreement?,citibank na,1,1,1
+133,What companies are both the administrative agent and book runner in the agreement?,citibank na,1,1,1
+133,What companies are both the l c issuer and administrative agent in the agreement?,citibank na,1,1,1
+133,What companies are both the lender and administrative agent in the agreement?,citibank na,1,1,1
+133,What companies are both the arranger and collateral agent in the agreement?,citibank na,1,1,1
+133,What companies are both the book runner and collateral agent in the agreement?,citibank na,1,1,1
+133,What companies are both the l c issuer and collateral agent in the agreement?,citibank na,1,1,1
+133,What companies are both the lender and collateral agent in the agreement?,citibank na,1,1,1
+133,What companies are both the arranger and l c issuer in the agreement?,citibank na,1,1,1
+133,What companies are both the arranger and lender in the agreement?,citibank na,1,1,1
+133,What companies are both the l c issuer and book runner in the agreement?,citibank na,1,1,1
+133,What companies are both the lender and book runner in the agreement?,citibank na,1,1,1
+133,What companies are both the lender and l c issuer in the agreement?,citibank na,1,1,1
+127,What companies are both the arranger and bookrunner in the agreement?,bofa securities,1,1,1
+127,What companies are both the bookrunner and sole lead arranger in the agreement?,bofa securities inc,1,1,1
+127,What companies are both the lender and agents in the agreement?,"citibank na, deutsche bank ag, goldman sachs bank, jpmorgan chase bank na, mizuho bank, morgan stanley bank na, us bank national association",1,1,1
+127,What companies are both the lender and l c issuer in the agreement?,bank of america na,1,1,1
+127,What companies are both the lender and administrative agent in the agreement?,bank of america na,1,1,1
+127,What companies are both the lender and lenders in the agreement?,bank of america na,1,1,1
+127,What companies are both the l c issuer and administrative agent in the agreement?,bank of america na,1,1,1
+127,What companies are both the l c issuer and lenders in the agreement?,bank of america na,1,1,1
+127,What companies are both the lenders and administrative agent in the agreement?,bank of america na,1,1,1
+32,What companies are both the bookrunners and arrangers in the agreement?,"barclays bank plc, hsbc bank canada, jp morgan securities llc, rbc capital markets",1,1,1
+32,What companies are both the bookrunners and agents in the agreement?,"barclays bank plc, jp morgan securities llc",1,1,1
+32,What companies are both the arranger and bookrunners in the agreement?,"barclays bank plc, jp morgan securities llc, ubs securities llc",1,1,1
+32,What companies are both the bookrunners and lenders in the agreement?,"barclays bank plc, hsbc bank canada",1,1,1
+32,What companies are both the bookrunner and bookrunners in the agreement?,"barclays bank plc, hsbc bank canada, jp morgan securities llc, ubs securities llc",1,1,1
+32,What companies are both the bookrunners and lender in the agreement?,"barclays bank plc, hsbc bank canada",1,1,1
+32,What companies are both the bookrunners and co syndication agent in the agreement?,"barclays bank plc, jp morgan securities llc",1,1,1
+32,What companies are both the arranger and agents in the agreement?,"barclays bank plc, jp morgan securities llc, royal bank of canada",1,1,1
+32,What companies are both the lenders and agents in the agreement?,"barclays bank plc, royal bank of canada",1,1,1
+32,What companies are both the bookrunner and agents in the agreement?,"barclays bank plc, jp morgan securities llc",1,1,1
+32,What companies are both the arrangers and agents in the agreement?,"barclays bank plc, jp morgan securities llc",1,1,1
+32,What companies are both the lender and agents in the agreement?,"barclays bank plc, royal bank of canada",1,1,1
+32,What companies are both the co syndication agent and agents in the agreement?,"barclays bank plc, jp morgan securities llc",1,1,1
+32,What companies are both the arranger and lenders in the agreement?,"barclays bank plc, royal bank of canada",1,1,1
+32,What companies are both the arranger and bookrunner in the agreement?,"barclays bank plc, jp morgan securities llc, ubs securities llc",1,1,1
+32,What companies are both the arranger and arrangers in the agreement?,"barclays bank plc, jp morgan securities llc",1,1,1
+32,What companies are both the arranger and lender in the agreement?,"barclays bank plc, royal bank of canada",1,1,1
+32,What companies are both the arranger and co syndication agent in the agreement?,"barclays bank plc, jp morgan securities llc",1,1,1
+32,What companies are both the bookrunner and lenders in the agreement?,"barclays bank plc, hsbc bank canada",1,1,1
+32,What companies are both the lenders and arrangers in the agreement?,"barclays bank plc, hsbc bank canada",1,1,1
+32,What companies are both the lender and lenders in the agreement?,"barclays bank plc, hsbc bank canada, jpmorgan chase bank na, royal bank of canada, the standard bank of south africa limited, ubs limited, wells fargo bank na",1,1,1
+32,What companies are both the lenders and co syndication agent in the agreement?,barclays bank plc,1,1,1
+32,What companies are both the bookrunner and arrangers in the agreement?,"barclays bank plc, hsbc bank canada, jp morgan securities llc",1,1,1
+32,What companies are both the bookrunner and lender in the agreement?,"barclays bank plc, hsbc bank canada",1,1,1
+32,What companies are both the bookrunner and co syndication agent in the agreement?,"barclays bank plc, jp morgan securities llc",1,1,1
+32,What companies are both the lender and arrangers in the agreement?,"barclays bank plc, hsbc bank canada",1,1,1
+32,What companies are both the arrangers and co syndication agent in the agreement?,"barclays bank plc, jp morgan securities llc",1,1,1
+32,What companies are both the lender and co syndication agent in the agreement?,barclays bank plc,1,1,1
+32,What companies are both the co documentation agent and agents in the agreement?,royal bank of canada,1,1,1
+32,What companies are both the arranger and co documentation agent in the agreement?,royal bank of canada,1,1,1
+32,What companies are both the co documentation agent and lenders in the agreement?,royal bank of canada,1,1,1
+32,What companies are both the lender and co documentation agent in the agreement?,royal bank of canada,1,1,1
+32,What companies are both the initial borrower and borrowers in the agreement?,chc helicopter sa,1,1,1
+32,What companies are both the bookrunners and bank in the agreement?,hsbc bank canada,1,1,1
+32,What companies are both the bookrunners and joint lead arranger in the agreement?,hsbc bank canada,1,1,1
+32,What companies are both the lenders and bank in the agreement?,hsbc bank canada,1,1,1
+32,What companies are both the bank and joint lead arranger in the agreement?,hsbc bank canada,1,1,1
+32,What companies are both the bookrunner and bank in the agreement?,hsbc bank canada,1,1,1
+32,What companies are both the arrangers and bank in the agreement?,hsbc bank canada,1,1,1
+32,What companies are both the lender and bank in the agreement?,hsbc bank canada,1,1,1
+32,What companies are both the lenders and joint lead arranger in the agreement?,hsbc bank canada,1,1,1
+32,What companies are both the bookrunner and joint lead arranger in the agreement?,hsbc bank canada,1,1,1
+32,What companies are both the arrangers and joint lead arranger in the agreement?,hsbc bank canada,1,1,1
+32,What companies are both the lender and joint lead arranger in the agreement?,hsbc bank canada,1,1,1
+32,What companies are both the administrative agent and collateral agent in the agreement?,hsbc bank plc,1,1,1
+32,What companies are both the bookrunners and agent in the agreement?,ubs securities llc,1,1,1
+32,What companies are both the bookrunners and joint lead arrangers in the agreement?,ubs securities llc,1,1,1
+32,What companies are both the co documentation agents and bookrunners in the agreement?,ubs securities llc,1,1,1
+32,What companies are both the arranger and agent in the agreement?,ubs securities llc,1,1,1
+32,What companies are both the joint lead arrangers and agent in the agreement?,ubs securities llc,1,1,1
+32,What companies are both the bookrunner and agent in the agreement?,ubs securities llc,1,1,1
+32,What companies are both the co documentation agents and agent in the agreement?,ubs securities llc,1,1,1
+32,What companies are both the arranger and joint lead arrangers in the agreement?,ubs securities llc,1,1,1
+32,What companies are both the arranger and co documentation agents in the agreement?,ubs securities llc,1,1,1
+32,What companies are both the bookrunner and joint lead arrangers in the agreement?,ubs securities llc,1,1,1
+32,What companies are both the co documentation agents and joint lead arrangers in the agreement?,ubs securities llc,1,1,1
+32,What companies are both the co documentation agents and bookrunner in the agreement?,ubs securities llc,1,1,1
+26,What companies are both the lead arrangers and bookrunners in the agreement?,"barclays bank plc, credit suisse loan funding llc, mizuho bank ltd, morgan stanley senior funding inc, mufg bank ltd, wells fargo securities llc",1,1,1
+26,What companies are both the lead arrangers and agents in the agreement?,"barclays bank plc, credit suisse loan funding llc, mizuho bank ltd",1,1,1
+26,What companies are both the bookrunners and agents in the agreement?,"barclays bank plc, credit suisse loan funding llc, mizuho bank ltd",1,1,1
+26,What companies are both the lead arrangers and lender in the agreement?,"barclays bank plc, mizuho bank ltd, morgan stanley senior funding inc, mufg bank ltd",1,1,1
+26,What companies are both the bookrunners and lender in the agreement?,"barclays bank plc, mizuho bank ltd, morgan stanley senior funding inc, mufg bank ltd",1,1,1
+26,What companies are both the lender and agents in the agreement?,"barclays bank plc, mizuho bank ltd",1,1,1
+26,What companies are both the lead arrangers and syndication agent in the agreement?,mufg bank ltd,1,1,1
+26,What companies are both the bookrunners and syndication agent in the agreement?,mufg bank ltd,1,1,1
+26,What companies are both the lender and syndication agent in the agreement?,mufg bank ltd,1,1,1
+26,What companies are both the lender and documentation agents in the agreement?,wells fargo bank national association,1,1,1
+26,What companies are both the lead arrangers and administrative agent in the agreement?,morgan stanley senior funding inc,1,1,1
+26,What companies are both the bookrunners and administrative agent in the agreement?,morgan stanley senior funding inc,1,1,1
+26,What companies are both the lender and administrative agent in the agreement?,morgan stanley senior funding inc,1,1,1

@@ -1,0 +1,1013 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+17,What are the roles of exgen renewables iv llc in the agreement?,"borrower, grantor, pledgor",1,0,1
+17,What are the roles of morgan stanley senior funding inc in the agreement?,"arranger, bookrunner, documentation agent, lead arranger, lead bookrunner, syndication agent",1,0,1
+17,What are the roles of wilmington trust national association in the agreement?,"collateral agent, collateral wilmington trust national association agent, depositary bank",1,0,1
+102,What are the roles of digirad corporation in the agreement?,"administrative borrower, borrower, borrowers",1,0,1
+102,What are the roles of wells fargo bank national association in the agreement?,"administrative agent, agent, arranger, book runner, lender, runner, sole book runner, sole lead arranger",1,0,1
+116,What are the roles of cibc bank usa in the agreement?,"administrative agent, agent, arranger, issuing lender, lender",1,0,1
+117,What are the roles of bofa securities inc in the agreement?,"bookrunner, joint bookrunner",1,0,1
+117,What are the roles of wells fargo securities llc in the agreement?,"arranger, joint lead arranger",1,0,1
+117,What are the roles of bank of america na in the agreement?,"agent, lender, syndication agent",1,0,1
+117,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agent, agent, arranger, bookrunner, issuing lender, joint bookrunner, joint lead arranger, lender, swing line lender, syndication agent",1,0,1
+117,What are the roles of wells fargo bank national association in the agreement?,"agent, lender, syndication agent",1,0,1
+103,What are the roles of botticelli llc in the agreement?,"administrative agent, agent, collateral agent, lender",1,0,1
+103,What are the roles of cortland capital market services llc in the agreement?,"administrative agent, agent, collateral agent",1,0,1
+16,What are the roles of crystal financial spv llc in the agreement?,"lender, term lender",1,0,1
+16,What are the roles of crystal financial llc in the agreement?,"lender, term agent, term lender",1,0,1
+28,What are the roles of pharmakon management i llc in the agreement?,"general partner, partner",1,0,1
+28,What are the roles of akin gump strauss hauer and feld llp in the agreement?,"agent, collateral agent, lender",1,0,1
+28,What are the roles of pharmakon advisors lp in the agreement?,"agent, collateral agent, investment manager, lender",1,0,1
+28,What are the roles of collegium securities corporation in the agreement?,"additional credit party, credit party",1,0,1
+28,What are the roles of biopharma credit plc in the agreement?,"agent, collateral agent, lender",1,0,1
+129,What are the roles of jp morgan securities llc in the agreement?,"arranger, bookrunner, lead arranger",1,0,1
+129,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agent, agent, issuing bank",1,0,1
+101,What are the roles of texas capital bank national association in the agreement?,"administrative agent, agent, arranger, l c issuer, lender, runner, sole book runner, sole lead arranger",1,0,1
+100,What are the roles of bank of the west fifth third bank in the agreement?,"administrative agent, agent",1,0,1
+100,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agent, agent",1,0,1
+100,What are the roles of mufg union bank na in the agreement?,"administrative agent, agent",1,0,1
+100,What are the roles of wells fargo securities llc in the agreement?,"arranger, bookrunner, sole bookrunner, sole lead arranger",1,0,1
+100,What are the roles of bank of the west in the agreement?,"issuing lender, lender, swingline lender",1,0,1
+100,What are the roles of bbva compass in the agreement?,"issuing lender, lender, swingline lender",1,0,1
+100,What are the roles of citizens bank national association in the agreement?,"issuing lender, lender, swingline lender",1,0,1
+100,What are the roles of comerica bank in the agreement?,"issuing lender, lender, swingline lender",1,0,1
+100,What are the roles of east west bank in the agreement?,"issuing lender, lender, swingline lender",1,0,1
+100,What are the roles of fifth third bank in the agreement?,"issuing lender, lender, swingline lender",1,0,1
+100,What are the roles of hsbc bank usa in the agreement?,"issuing lender, lender, swingline lender",1,0,1
+100,What are the roles of jpmorgan chase bank in the agreement?,"issuing lender, lender, swingline lender",1,0,1
+100,What are the roles of mufg union bank in the agreement?,"issuing lender, lender, swingline lender",1,0,1
+100,What are the roles of suntrust bank in the agreement?,"administrative agent, agent, issuing lender, lender, swingline lender",1,0,1
+100,What are the roles of wells fargo bank national association in the agreement?,"administrative agent, agent, issuing lender, lender, swingline lender",1,0,1
+114,What are the roles of midcap financial trust in the agreement?,"agent, lender",1,0,1
+114,What are the roles of moduslink corporation in the agreement?,"borrower, borrowers",1,0,1
+128,What are the roles of bofa securities inc in the agreement?,"arranger, bookrunners, joint bookrunners, joint lead arranger",1,0,1
+128,What are the roles of bank of america na in the agreement?,"agent, syndication agent",1,0,1
+128,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agent, agent, arranger, bookrunners, joint bookrunners, joint lead arranger, syndication agent",1,0,1
+29,What are the roles of paychex advance llc in the agreement?,"borrower, parent borrower",1,0,1
+29,What are the roles of pnc bank national association in the agreement?,"administrative agent, agent, issuing bank, lender",1,0,1
+29,What are the roles of paychex inc in the agreement?,"borrower, parent, parent borrower",1,0,1
+39,What are the roles of pnc capital markets llc in the agreement?,"arranger, bookrunner",1,0,1
+39,What are the roles of bank of america na in the agreement?,"agent, co collateral agent, lender",1,0,1
+39,What are the roles of pnc bank national association in the agreement?,"administrative agent, agent, co collateral agent, lender",1,0,1
+11,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agent, co book managers initial lender, initial lender, joint lead arrangers initial lender",1,0,1
+11,What are the roles of bank of america na in the agreement?,"co book managers initial lender, initial lender, joint lead arrangers initial lender",1,0,1
+11,What are the roles of barclays bank plc in the agreement?,"co book managers initial lender, initial lender, joint lead arrangers initial lender",1,0,1
+11,What are the roles of citibank na in the agreement?,"co book managers initial lender, initial lender, joint lead arrangers initial lender",1,0,1
+11,What are the roles of goldman sachs bank usa in the agreement?,"co book managers initial lender, initial lender, joint lead arrangers initial lender",1,0,1
+11,What are the roles of deutsche bank ag new york branch in the agreement?,"co book managers initial lender, initial lender, joint lead arrangers initial lender",1,0,1
+110,What are the roles of merrill lynch pierce fenner and smith incorporated in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+110,What are the roles of wells fargo securities llc in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+110,What are the roles of barclays bank plc in the agreement?,"arrangers, joint lead arrangers",1,0,1
+110,What are the roles of jpmorgan chase bank na in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+110,What are the roles of the bank of tokyo mitsubishi ufj ltd in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+110,What are the roles of wells fargo bank national association in the agreement?,"administrative agent, agent, syndication agent",1,0,1
+110,What are the roles of mizuho bank ltd in the agreement?,"agent, arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+104,What are the roles of citigroup global markets inc in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+104,What are the roles of merrill lynch pierce fenner and smith incorporated in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+104,What are the roles of convergys cmg insurance services llc in the agreement?,"guarantor, material subsidiaries",1,0,1
+104,What are the roles of convergys customer management delaware llc in the agreement?,"guarantor, material subsidiaries",1,0,1
+104,What are the roles of convergys customer management group canada holding inc in the agreement?,"guarantor, material subsidiaries",1,0,1
+104,What are the roles of convergys customer management group inc in the agreement?,"guarantor, material subsidiaries",1,0,1
+104,What are the roles of convergys customer management international inc in the agreement?,"guarantor, material subsidiaries",1,0,1
+104,What are the roles of convergys government solutions llc in the agreement?,"guarantor, material subsidiaries",1,0,1
+104,What are the roles of encore receivable management inc in the agreement?,"guarantor, material subsidiaries",1,0,1
+104,What are the roles of intervoice llc in the agreement?,"guarantor, material subsidiaries",1,0,1
+104,What are the roles of sgs holdings inc in the agreement?,"guarantor, material subsidiaries",1,0,1
+104,What are the roles of stream global services az inc in the agreement?,"guarantor, material subsidiaries",1,0,1
+104,What are the roles of stream global services inc in the agreement?,"guarantor, material subsidiaries",1,0,1
+104,What are the roles of stream global services us inc in the agreement?,"guarantor, material subsidiaries",1,0,1
+104,What are the roles of stream holdings corporation in the agreement?,"guarantor, material subsidiaries",1,0,1
+104,What are the roles of stream international inc in the agreement?,"guarantor, material subsidiaries",1,0,1
+104,What are the roles of stream new york inc in the agreement?,"guarantor, material subsidiaries",1,0,1
+104,What are the roles of bank of america na in the agreement?,"administrative agent, agent, co documentation agent, syndication agent",1,0,1
+104,What are the roles of pnc bank national association in the agreement?,"administrative agent, agent, co documentation agent",1,0,1
+104,What are the roles of the bank of tokyo mitsubishi ufj ltd in the agreement?,"administrative agent, agent",1,0,1
+104,What are the roles of us bank national association in the agreement?,"administrative agent, agent",1,0,1
+104,What are the roles of citibank na in the agreement?,"administrative agent, agent, co documentation agent, syndication agent",1,0,1
+138,What are the roles of us bank national association in the agreement?,"agent, joint bookrunners, lender",1,0,1
+138,What are the roles of pnc bank national association in the agreement?,"administrative agent, agent, lender, syndication agent",1,0,1
+138,What are the roles of rexford industrial realty lp in the agreement?,"borrower, parent borrower",1,0,1
+139,What are the roles of fenner and smith incorporated in the agreement?,"joint bookrunners, joint lead arrangers",1,0,1
+139,What are the roles of fitch in the agreement?,"agency, rating agency",1,0,1
+139,What are the roles of jp morgan securities llc merrill lynch pierce fenner and smith incorporated citigroup global markets inc crédit agricole corporate and investment bank mizuho bank ltd rbc capital markets in the agreement?,"joint bookrunners, joint lead arrangers",1,0,1
+139,What are the roles of rbc capital markets in the agreement?,"joint bookrunners, joint lead arrangers",1,0,1
+139,What are the roles of td securities usa llc in the agreement?,"documentation agents, joint bookrunners",1,0,1
+139,What are the roles of bank of america na in the agreement?,"administrative agent, administrative agent lender, agent, issuing bank lender, lender, syndication agent",1,0,1
+139,What are the roles of barclays bank plc in the agreement?,"administrative agent lender, issuing bank lender, lender",1,0,1
+139,What are the roles of citibank na in the agreement?,"administrative agent lender, issuing bank lender, lender",1,0,1
+139,What are the roles of citizens bank na in the agreement?,"administrative agent lender, issuing bank lender, lender",1,0,1
+139,What are the roles of cobank acb in the agreement?,"administrative agent lender, issuing bank lender, lender",1,0,1
+139,What are the roles of fifth third bank in the agreement?,"administrative agent lender, issuing bank lender, lender",1,0,1
+139,What are the roles of land bank of taiwan new york branch in the agreement?,"administrative agent lender, issuing bank lender, lender",1,0,1
+139,What are the roles of mizuho bank ltd in the agreement?,"administrative agent lender, issuing bank lender, lender",1,0,1
+139,What are the roles of morgan stanley bank na in the agreement?,"administrative agent lender, issuing bank lender, lender",1,0,1
+139,What are the roles of morgan stanley senior funding inc in the agreement?,"administrative agent lender, issuing bank lender, lender",1,0,1
+139,What are the roles of pnc bank national association in the agreement?,"administrative agent lender, issuing bank lender, lender",1,0,1
+139,What are the roles of royal bank of canada in the agreement?,"administrative agent lender, issuing bank lender, lender",1,0,1
+139,What are the roles of societe generale in the agreement?,"administrative agent lender, issuing bank lender, lender",1,0,1
+139,What are the roles of sumitomo mitsui banking corporation in the agreement?,"administrative agent lender, issuing bank lender, lender",1,0,1
+139,What are the roles of suntrust bank in the agreement?,"administrative agent lender, issuing bank lender, lender",1,0,1
+139,What are the roles of td bank na in the agreement?,"administrative agent lender, issuing bank lender, lender",1,0,1
+139,What are the roles of the bank of tokyo mitsubishi ufj ltd in the agreement?,"administrative agent lender, issuing bank lender, lender",1,0,1
+139,What are the roles of toronto dominion new york llc in the agreement?,"administrative agent lender, issuing bank lender, lender",1,0,1
+139,What are the roles of wells fargo bank na in the agreement?,"administrative agent lender, issuing bank lender, lender",1,0,1
+139,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agent lender, agent, issuing bank lender, lender",1,0,1
+139,What are the roles of crédit agricole corporate and investment bank in the agreement?,"administrative agent lender, issuing bank lender, lender",1,0,1
+139,What are the roles of crown castle international corp in the agreement?,"borrower, lenders",1,0,1
+111,What are the roles of suntrust robinson humphrey inc in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+111,What are the roles of wells fargo securities llc in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+111,What are the roles of enstar holdings us llc in the agreement?,"guarantor, guarantors",1,0,1
+111,What are the roles of enstar us asia pac holdings limited in the agreement?,"guarantor, guarantors",1,0,1
+111,What are the roles of kenmare holdings ltd in the agreement?,"guarantor, guarantors",1,0,1
+111,What are the roles of national australia bank limited in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers, lender",1,0,1
+111,What are the roles of suntrust bank in the agreement?,"administrative agent, agent, co syndication agent, lender",1,0,1
+111,What are the roles of wells fargo bank national association in the agreement?,"administrative agent, agent, co syndication agent, lender",1,0,1
+10,What are the roles of royal bank of canada in the agreement?,"administrative agent, issuing bank, lender issuing bank",1,0,1
+38,What are the roles of citigroup global markets inc in the agreement?,"arranger, bookrunners, joint bookrunners, joint lead arranger",1,0,1
+38,What are the roles of jp morgan securities llc in the agreement?,"arranger, bookrunners, joint bookrunners, joint lead arranger",1,0,1
+38,What are the roles of merrill lynch pierce fenner and smith incorporated in the agreement?,"arranger, bookrunners, joint bookrunners, joint lead arranger",1,0,1
+38,What are the roles of wells fargo securities llc in the agreement?,"arranger, bookrunners, joint bookrunners, joint lead arranger",1,0,1
+38,What are the roles of bank of america na in the agreement?,"co documentation agents, lender",1,0,1
+38,What are the roles of citibank na in the agreement?,"co documentation agents, lender",1,0,1
+38,What are the roles of mizuho bank ltd in the agreement?,"arranger, bookrunners, co documentation agents, joint bookrunners, joint lead arranger, lender",1,0,1
+38,What are the roles of the bank of tokyo mitsubishi ufj ltd in the agreement?,"arranger, bookrunners, co documentation agents, joint bookrunners, joint lead arranger, lender",1,0,1
+38,What are the roles of wells fargo bank national association in the agreement?,"lender, syndication agent",1,0,1
+38,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agent, agent, lender",1,0,1
+12,What are the roles of mizuho bank ltd in the agreement?,"administrative agent, lender",1,0,1
+107,What are the roles of barclays capital in the agreement?,"arrangers, bookrunners",1,0,1
+107,What are the roles of citigroup global markets inc in the agreement?,"arrangers, bookrunners",1,0,1
+107,What are the roles of global markets inc in the agreement?,"administrative agent, agent, collateral agent",1,0,1
+107,What are the roles of jp morgan securities inc in the agreement?,"agents, arrangers, barclays capital agents, bookrunners",1,0,1
+107,What are the roles of rbc capital markets in the agreement?,"arrangers, bookrunner, joint bookrunner, lead arrangers",1,0,1
+107,What are the roles of wells fargo foothill inc in the agreement?,"administrative agent, agent, arrangers, bookrunners, collateral agent, documentation agent",1,0,1
+107,What are the roles of wilmington trust fsb in the agreement?,"collateral trustee, trustee",1,0,1
+107,What are the roles of easylink services international corporation in the agreement?,"domestic guarantor, grantor, guarantor",1,0,1
+107,What are the roles of easylink services usa inc in the agreement?,"domestic guarantor, grantor, guarantor",1,0,1
+107,What are the roles of ocelot merger sub inc in the agreement?,"borrower, grantor",1,0,1
+107,What are the roles of open text usa inc in the agreement?,"domestic guarantor, grantor, guarantor",1,0,1
+107,What are the roles of xpedite systems llc in the agreement?,"domestic guarantor, grantor, guarantor",1,0,1
+107,What are the roles of barclays bank plc in the agreement?,"administrative agent, agent, arranger, arrangers, collateral agent, documentation agent, intercreditor agent, lead arranger, lead arrangers, lender",1,0,1
+107,What are the roles of gxs holdings inc in the agreement?,"domestic guarantor, guarantor",1,0,1
+107,What are the roles of gxs international inc in the agreement?,"domestic guarantor, guarantor",1,0,1
+107,What are the roles of gxs worldwide inc in the agreement?,"domestic guarantor, guarantor, guarantors",1,0,1
+107,What are the roles of open text holdings inc in the agreement?,"domestic guarantor, grantor, guarantor",1,0,1
+107,What are the roles of gxs inc in the agreement?,"domestic guarantor, guarantor",1,0,1
+107,What are the roles of open text canada ltd in the agreement?,"domestic guarantor, grantor, guarantor",1,0,1
+107,What are the roles of open text corporation in the agreement?,"domestic guarantor, grantor, guarantor",1,0,1
+107,What are the roles of open text inc in the agreement?,"domestic guarantor, grantor, guarantor",1,0,1
+107,What are the roles of open text ulc in the agreement?,"domestic guarantor, grantor, guarantor",1,0,1
+107,What are the roles of vignette partnership lp in the agreement?,"domestic guarantor, guarantor",1,0,1
+112,What are the roles of merrill lynch pierce fennerand smith incorporated in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+112,What are the roles of bank of america na in the agreement?,"agent, lender, syndication agent",1,0,1
+112,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agent, agent, arrangers, bookrunners, joint bookrunners, joint lead arrangers, lender, syndication agent",1,0,1
+106,What are the roles of black mountain cogeninc in the agreement?,"borrowers, lenders",1,0,1
+106,What are the roles of blue ridge generation llc in the agreement?,"borrowers, lenders",1,0,1
+106,What are the roles of citigroup global marketsinc in the agreement?,"arranger, bookrunner, bookrunners, joint bookrunner, joint lead arranger",1,0,1
+106,What are the roles of deutsche bank securities inc in the agreement?,"arranger, arrangers, bookrunner, bookrunners, joint bookrunner, joint lead arranger, joint lead arrangers",1,0,1
+106,What are the roles of dynegy equipment llc in the agreement?,"borrowers, lenders",1,0,1
+106,What are the roles of dynegy marketing and trade llc in the agreement?,"borrowers, lenders",1,0,1
+106,What are the roles of dynegy power generation inc in the agreement?,"borrowers, lenders",1,0,1
+106,What are the roles of dynegy south bay llc in the agreement?,"borrowers, lenders",1,0,1
+106,What are the roles of rbc capital markets in the agreement?,"arranger, arrangers, bookrunner, bookrunners, joint bookrunner, joint lead arranger, joint lead arrangers",1,0,1
+106,What are the roles of sithe energiesinc in the agreement?,"borrowers, lenders",1,0,1
+106,What are the roles of sithe independence llc in the agreement?,"borrowers, lenders",1,0,1
+106,What are the roles of sithe independence power partners lp in the agreement?,"borrowers, lenders",1,0,1
+106,What are the roles of ubs securities llc in the agreement?,"arranger, arrangers, bookrunner, bookrunners, joint bookrunner, joint lead arranger, joint lead arrangers",1,0,1
+106,What are the roles of casco bay energy company llc in the agreement?,"borrowers, lenders",1,0,1
+106,What are the roles of dynegy kendall energy llc in the agreement?,"borrowers, lenders",1,0,1
+106,What are the roles of dynegy morro bay llc in the agreement?,"borrowers, lenders",1,0,1
+106,What are the roles of dynegy moss landing llc in the agreement?,"borrowers, lenders",1,0,1
+106,What are the roles of dynegy oakland llc in the agreement?,"borrowers, lenders",1,0,1
+106,What are the roles of ontelaunee power operating company llc in the agreement?,"borrowers, lenders",1,0,1
+106,What are the roles of barclays bank plc in the agreement?,"arranger, arrangers, bookrunner, bookrunners, joint bookrunner, joint lead arranger, joint lead arrangers, lender",1,0,1
+106,What are the roles of dynegy gas investments holdings llc in the agreement?,"holdings, intermediate holdings",1,0,1
+106,What are the roles of goldman sachs bank usa in the agreement?,"arranger, arrangers, bookrunner, bookrunners, joint bookrunner, joint lead arranger, joint lead arrangers, lender",1,0,1
+106,What are the roles of dynegy power llc in the agreement?,"borrower, borrowers, lenders, parent borrower, subordinated borrowers",1,0,1
+106,What are the roles of royal bank of canada in the agreement?,"administrative agent, agent, collateral trustee, lender, trustee",1,0,1
+13,What are the roles of jefferies finance llc in the agreement?,"administrative agent, collateral agent, lender",1,0,1
+60,What are the roles of bofa securities inc in the agreement?,"arrangers, bookrunners",1,0,1
+60,What are the roles of fitch ratings in the agreement?,"agency, ratings agency",1,0,1
+60,What are the roles of moodys investors service inc in the agreement?,"agency, ratings agency",1,0,1
+60,What are the roles of wells fargo securities llc in the agreement?,"arrangers, bookrunners",1,0,1
+60,What are the roles of bank of america na in the agreement?,"agents, documentation agents",1,0,1
+60,What are the roles of bank of montreal in the agreement?,"agents, arrangers, bookrunners",1,0,1
+60,What are the roles of capital one national association in the agreement?,"agents, arrangers, bookrunners",1,0,1
+60,What are the roles of fifth third bank national association in the agreement?,"agents, documentation agents",1,0,1
+60,What are the roles of goldman sachs bank usa in the agreement?,"agents, documentation agents",1,0,1
+60,What are the roles of jpmorgan chase bank na in the agreement?,"agents, arrangers, bookrunners",1,0,1
+60,What are the roles of mizuho bank ltd in the agreement?,"agents, arrangers",1,0,1
+60,What are the roles of mufg bank ltd in the agreement?,"arrangers, bookrunners",1,0,1
+60,What are the roles of regions bank in the agreement?,"agents, documentation agents",1,0,1
+60,What are the roles of td bank na in the agreement?,"agents, documentation agents",1,0,1
+60,What are the roles of the bank of nova scotia in the agreement?,"agents, arrangers, bookrunners",1,0,1
+60,What are the roles of us bank national association in the agreement?,"agents, arrangers, bookrunners",1,0,1
+60,What are the roles of citibank na in the agreement?,"administrative agent, agent, arrangers, bookrunners",1,0,1
+74,What are the roles of credit suisse securities usa llc in the agreement?,"arrangers, bookrunners",1,0,1
+74,What are the roles of keybanc capital markets inc in the agreement?,"arrangers, bookrunners",1,0,1
+74,What are the roles of suntrust robinson humphreyinc in the agreement?,"arrangers, bookrunners",1,0,1
+74,What are the roles of keybank national association in the agreement?,"administrative agent, lc issuer",1,0,1
+48,What are the roles of enbridge energy partners lp in the agreement?,"borrower, delegate borrower, general partner borrower",1,0,1
+149,What are the roles of feac agent llc in the agreement?,"administrative agent, collateral agent, lead arranger",1,0,1
+161,What are the roles of bmo capital markets in the agreement?,"co syndication agents, joint lead arrangers",1,0,1
+161,What are the roles of the huntington national bank in the agreement?,"co syndication agents, joint lead arrangers, lender",1,0,1
+161,What are the roles of truist bank in the agreement?,"co syndication agents, lender",1,0,1
+160,What are the roles of bofa securities inc in the agreement?,"joint bookrunners, joint lead arrangers",1,0,1
+160,What are the roles of morgan stanley senior funding inc in the agreement?,"joint bookrunners, joint lead arrangers",1,0,1
+160,What are the roles of barclays bank plc in the agreement?,"administrative agent, issuing bank, joint bookrunners, joint lead arrangers",1,0,1
+160,What are the roles of jpmorgan chase bank na in the agreement?,"issuing bank, joint bookrunners, joint lead arrangers",1,0,1
+148,What are the roles of wells fargo securities llc in the agreement?,"joint bookrunners, joint lead arrangers",1,0,1
+148,What are the roles of national westminster bank plc in the agreement?,"documentation agents, lender",1,0,1
+148,What are the roles of td bank in the agreement?,"co syndication agents, lender",1,0,1
+148,What are the roles of the bank of nova scotia in the agreement?,"documentation agents, lender",1,0,1
+148,What are the roles of us bank national association in the agreement?,"documentation agents, lender",1,0,1
+148,What are the roles of bank of america in the agreement?,"administrative agent, lender",1,0,1
+148,What are the roles of bnp paribas in the agreement?,"co syndication agents, lender",1,0,1
+49,What are the roles of rg parent llc in the agreement?,"administrative borrower, borrower",1,0,1
+75,What are the roles of jp morgan securities llc in the agreement?,"sole bookrunner, sole lead arranger",1,0,1
+61,What are the roles of bofa securities inc in the agreement?,"arranger, bookrunner, lead arranger, sole arranger, sole bookrunner",1,0,1
+61,What are the roles of jpmorgan chase bank na in the agreement?,"agent, lender",1,0,1
+61,What are the roles of wells fargo bank national association in the agreement?,"agent, lender",1,0,1
+61,What are the roles of citibank na in the agreement?,"agent, lender",1,0,1
+61,What are the roles of bank of america na in the agreement?,"administrative agent, agent, lender, syndication agent",1,0,1
+61,What are the roles of bnp paribas in the agreement?,"agent, lender, syndication agent",1,0,1
+77,What are the roles of fenner and smith incorporated in the agreement?,"joint lead arrangers, oint bookrunners",1,0,1
+77,What are the roles of jp morgan securities llc in the agreement?,"joint lead arrangers, oint bookrunners",1,0,1
+77,What are the roles of suntrust robinson humphrey in the agreement?,"joint lead arrangers, oint bookrunners",1,0,1
+77,What are the roles of wells fargo securities llc in the agreement?,"joint lead arrangers, oint bookrunners",1,0,1
+77,What are the roles of bank of america in the agreement?,"co syndication agent, lender",1,0,1
+77,What are the roles of goldman sachs bank usa in the agreement?,"co documentation agent, lender",1,0,1
+77,What are the roles of mufg union bank in the agreement?,"co syndication agent, joint lead arrangers, lender, oint bookrunners",1,0,1
+77,What are the roles of suntrust bank in the agreement?,"co syndication agent, lender",1,0,1
+77,What are the roles of us bank national association in the agreement?,"co documentation agent, lender",1,0,1
+77,What are the roles of wells fargo bank national association in the agreement?,"co syndication agent, lender",1,0,1
+77,What are the roles of jpmorgan chase bank in the agreement?,"administrative agent, issuing bank, lender",1,0,1
+63,What are the roles of farm credit mid america pca in the agreement?,"lender, swing line lender",1,0,1
+63,What are the roles of us bank national association in the agreement?,"administrative agent, agent, lc issuer, lender",1,0,1
+88,What are the roles of mufg union bank in the agreement?,"agent, issuing bank, lender, swing line lender",1,0,1
+162,What are the roles of wells fargo securities llc in the agreement?,"joint bookrunners, joint lead arrangers",1,0,1
+162,What are the roles of nabors industries ltd in the agreement?,"guarantor, holdings",1,0,1
+162,What are the roles of citibank na in the agreement?,"administrative agent, joint bookrunners, joint lead arrangers, lender",1,0,1
+163,What are the roles of commvault systems inc in the agreement?,"borrower, lenders",1,0,1
+163,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agent, bookrunner, issuing bank, lender, sole bookrunner, swingline lender",1,0,1
+89,What are the roles of barclays bank plc in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+89,What are the roles of citigroup global markets inc in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+89,What are the roles of deutsche bank securities inc in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+89,What are the roles of golub capital llc in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+89,What are the roles of keybanc capital markets inc in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+89,What are the roles of macquarie capital usa inc in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+89,What are the roles of jpmorgan chase bank in the agreement?,"administrative agent, arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+62,What are the roles of td securities usa llc in the agreement?,"arranger, bookrunner",1,0,1
+62,What are the roles of toronto dominion texas llc in the agreement?,"administrative agent, agent",1,0,1
+76,What are the roles of deutsche bank securities inc in the agreement?,"arrangers, bookrunners",1,0,1
+76,What are the roles of rbc capital markets in the agreement?,"arrangers, bookrunners",1,0,1
+76,What are the roles of suntrust robinson humphrey inc in the agreement?,"arrangers, bookrunners",1,0,1
+76,What are the roles of the bank of montreal in the agreement?,"arrangers, bookrunners",1,0,1
+76,What are the roles of the bank of tokyo mitsubishi ufj ltd in the agreement?,"arrangers, bookrunners",1,0,1
+76,What are the roles of morgan stanley senior funding inc in the agreement?,"administrative agent, arrangers, bookrunners, collateral agent",1,0,1
+8,What are the roles of fennerand smith incorporated in the agreement?,"arrangers, bookrunners",1,0,1
+8,What are the roles of merrill lynch in the agreement?,"arrangers, bookrunners",1,0,1
+8,What are the roles of merrill lynch pierce fennerand smith incorporated in the agreement?,"arranger, joint lead arranger",1,0,1
+8,What are the roles of pierce in the agreement?,"arrangers, bookrunners",1,0,1
+8,What are the roles of wells fargo securities llc in the agreement?,"arranger, arrangers, bookrunner, bookrunners, joint bookrunner, joint bookrunners, joint lead arranger",1,0,1
+8,What are the roles of wells fargo bank national association in the agreement?,"administrative agent, agent",1,0,1
+72,What are the roles of goldman sachs bank usa in the agreement?,"arrangers, book runners, lead arrangers, syndication agents",1,0,1
+72,What are the roles of wells fargo securities llc in the agreement?,"arrangers, book runners, lead arrangers",1,0,1
+72,What are the roles of citigroup global markets inc in the agreement?,"arrangers, book runners, lead arrangers",1,0,1
+66,What are the roles of bank of the west in the agreement?,"agents, arrangers, bookrunners",1,0,1
+66,What are the roles of bnp paribas securities corp in the agreement?,"agents, arrangers, bookrunners",1,0,1
+66,What are the roles of bofa securities inc in the agreement?,"agents, arrangers, bookrunners",1,0,1
+66,What are the roles of citigroup global markets inc in the agreement?,"agents, arrangers, bookrunners",1,0,1
+66,What are the roles of keybanc capital markets inc in the agreement?,"arrangers, bookrunners",1,0,1
+66,What are the roles of wells fargo securities llc in the agreement?,"arrangers, bookrunners",1,0,1
+66,What are the roles of bank of america na in the agreement?,"issuing lender, lender, swingline lender, term loan a lender",1,0,1
+66,What are the roles of bank of thewest in the agreement?,"issuing lender, lender, swingline lender, term loan a lender",1,0,1
+66,What are the roles of barclays bank plc in the agreement?,"agents, arrangers, bookrunners, issuing lender, lender, swingline lender, term loan a lender",1,0,1
+66,What are the roles of capital one national association in the agreement?,"issuing lender, lender, swingline lender, term loan a lender",1,0,1
+66,What are the roles of citibank na in the agreement?,"issuing lender, lender, revolver, swingline lender, term loan a lender",1,0,1
+66,What are the roles of hsbc bank usa national association in the agreement?,"issuing lender, lender, swingline lender, term loan a lender",1,0,1
+66,What are the roles of jpmorgan chase bank na in the agreement?,"issuing lender, lender, swingline lender, term loan a lender",1,0,1
+66,What are the roles of keybank national association in the agreement?,"issuing lender, lender, swingline lender",1,0,1
+66,What are the roles of mufg bank ltd in the agreement?,"agents, arrangers, bookrunners, issuing lender, lender, swingline lender",1,0,1
+66,What are the roles of pnc bank national association in the agreement?,"issuing lender, lender, swingline lender, term loan a lender",1,0,1
+66,What are the roles of silicon valley bank in the agreement?,"issuing lender, lender, swingline lender, term loan a lender",1,0,1
+66,What are the roles of the huntington national bank in the agreement?,"issuing lender, lender, swingline lender, term loan a lender",1,0,1
+66,What are the roles of us bank national association in the agreement?,"agents, arrangers, bookrunners, issuing lender, lender, swingline lender",1,0,1
+66,What are the roles of wells fargo bank national association in the agreement?,"agent, issuing lender, lender, swingline lender, term loan a lender",1,0,1
+66,What are the roles of dnb capital llc in the agreement?,"issuing lender, lender, swingline lender, term loan a lender",1,0,1
+99,What are the roles of bank of america na in the agreement?,"administrative agent, agent, collateral agent",1,0,1
+99,What are the roles of coöperatieve centrale raiffeisen boerenleenbank ba in the agreement?,"administrative agent, agent, arrangers, bookrunners, collateral agent, joint bookrunners",1,0,1
+99,What are the roles of merrill lynch pierce fennerand smith incorporated in the agreement?,"arrangers, bookrunners, joint lead arrangers",1,0,1
+99,What are the roles of rabobank nederland in the agreement?,"administrative agent, agent, arrangers, bookrunners, collateral agent, joint bookrunners",1,0,1
+99,What are the roles of wells fargo securities llc in the agreement?,"arrangers, bookrunners, joint lead arrangers",1,0,1
+99,What are the roles of regions bank in the agreement?,"administrative agent, agent, collateral agent, lender",1,0,1
+99,What are the roles of suntrust bank in the agreement?,"administrative agent, agent, collateral agent, lender",1,0,1
+99,What are the roles of the bank of tokyo mitsubishi ufj ltd in the agreement?,"administrative agent, agent, collateral agent, lender",1,0,1
+99,What are the roles of us bank national association in the agreement?,"administrative agent, agent, collateral agent, lender",1,0,1
+99,What are the roles of wells fargo bank national association in the agreement?,"administrative agent, agent, collateral agent",1,0,1
+99,What are the roles of wellsfargobanknationalassociation in the agreement?,"administrative agent, agent, bank, collateral agent, lender, swing line bank",1,0,1
+167,What are the roles of bank of america merrill lynch in the agreement?,"sole book manager, sole lead arranger",1,0,1
+167,What are the roles of bank of america na in the agreement?,"administrative agent, l c issuer, lender, swingline lender",1,0,1
+98,What are the roles of bank of america na in the agreement?,"administrative agent, agent, l c issuer, lender, swing line lender",1,0,1
+98,What are the roles of jp morgan securities llc in the agreement?,"arrangers, book managers, joint book managers",1,0,1
+98,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agent, agent, syndication agent",1,0,1
+98,What are the roles of merrill lynch pierce fennerand smith incorporated in the agreement?,"arrangers, book managers, joint book managers, joint lead arrangers",1,0,1
+98,What are the roles of bank of america in the agreement?,"administrative agent, administrative agent and lender, agent, l c issuer, lender, swing line lender",1,0,1
+166,What are the roles of australia and new zealand banking group limited in the agreement?,"bookrunners, lead arrangers, lender",1,0,1
+166,What are the roles of barclays bank plc in the agreement?,"bookrunners, lender",1,0,1
+166,What are the roles of icici bank limited in the agreement?,"bookrunners, lead arrangers, lender",1,0,1
+166,What are the roles of novelis corporation in the agreement?,"guarantor, mortgagor",1,0,1
+166,What are the roles of state bank of india in the agreement?,"bookrunners, lender",1,0,1
+166,What are the roles of the bank of tokyo mitsubishi ufj ltd in the agreement?,"bookrunners, lender",1,0,1
+166,What are the roles of bank of baroda in the agreement?,"bookrunners, lead arrangers, lender",1,0,1
+166,What are the roles of axis bank limited in the agreement?,"bookrunners, lead arrangers, lender",1,0,1
+166,What are the roles of kotak mahindra bank limited in the agreement?,"bookrunners, lender",1,0,1
+166,What are the roles of standard chartered bank in the agreement?,"administrative agent, bookrunners, collateral agent, lender",1,0,1
+67,What are the roles of coherus intermediate corp in the agreement?,"additional credit party, credit party",1,0,1
+67,What are the roles of intekrin therapeutics inc in the agreement?,"additional credit party, credit party",1,0,1
+67,What are the roles of biopharma credit plc in the agreement?,"agent, collateral agent",1,0,1
+67,What are the roles of coherus biosciences inc in the agreement?,"borrower, credit party, issuer",1,0,1
+73,What are the roles of barclays bank plc in the agreement?,"joint bookrunners, joint lead arrangers",1,0,1
+73,What are the roles of suntrust robinson humphrey inc in the agreement?,"joint bookrunners, joint lead arrangers",1,0,1
+73,What are the roles of wells fargo securities llc in the agreement?,"joint bookrunners, joint lead arrangers",1,0,1
+73,What are the roles of bank of america in the agreement?,"administrative agent, collateral agent, joint bookrunners, joint lead arrangers, l c issuer, swing line lender",1,0,1
+73,What are the roles of credit suisse securities usa llc in the agreement?,"joint bookrunners, joint lead arrangers",1,0,1
+73,What are the roles of deutsche bank securities inc in the agreement?,"joint bookrunners, joint lead arrangers",1,0,1
+9,What are the roles of jp morgan securities llc in the agreement?,"arranger, arrangers, bookrunner, joint bookrunner, joint lead arranger, joint lead arrangers",1,0,1
+9,What are the roles of jpmorgan chase bank in the agreement?,"administrative agent, agent, co documentation agent, syndication agent",1,0,1
+9,What are the roles of rbs securities inc in the agreement?,"arranger, arrangers, bookrunner, joint bookrunner, joint lead arranger, joint lead arrangers",1,0,1
+9,What are the roles of the royal bank of scotland in the agreement?,"administrative agent, agent, co documentation agent, syndication agent",1,0,1
+9,What are the roles of bank of america na in the agreement?,"administrative agent, agent, agents, co documentation agent, lender, swing line lender, syndication agent",1,0,1
+9,What are the roles of barclays bank plc in the agreement?,"administrative agent, agent, arranger, arrangers, bookrunner, co documentation agent, joint bookrunner, joint lead arranger, joint lead arrangers, lender, swing line lender, syndication agent",1,0,1
+9,What are the roles of branch banking and trust company in the agreement?,"lender, swing line lender",1,0,1
+9,What are the roles of citibank na in the agreement?,"administrative agent, agent, agents, co documentation agent, lender, swing line lender, syndication agent",1,0,1
+9,What are the roles of goldman sachs bank usa in the agreement?,"lender, swing line lender",1,0,1
+9,What are the roles of royal bank of canada in the agreement?,"lender, swing line lender",1,0,1
+9,What are the roles of the royal bank of scotland plc in the agreement?,"agents, co documentation agents, lender, swing line lender",1,0,1
+9,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agent, agent, co documentation agent, lender, swing line lender, syndication agent",1,0,1
+9,What are the roles of credit suisse ag cayman islands branch in the agreement?,"lender, swing line lender",1,0,1
+59,What are the roles of abn amro capital usa llc in the agreement?,"arrangers, lender, swing line lender",1,0,1
+59,What are the roles of arvest bank in the agreement?,"lender, swing line lender",1,0,1
+59,What are the roles of bank of america na in the agreement?,"agents, lender, swing line lender",1,0,1
+59,What are the roles of bank of the west in the agreement?,"agents, arrangers, lender, swing line lender",1,0,1
+59,What are the roles of bmo harris bank na in the agreement?,"agents, arrangers, lender, swing line lender",1,0,1
+59,What are the roles of bokf na in the agreement?,"lender, swing line lender",1,0,1
+59,What are the roles of branch banking and trust company in the agreement?,"agents, lender, swing line lender",1,0,1
+59,What are the roles of citibank na in the agreement?,"agents, lender, swing line lender",1,0,1
+59,What are the roles of farm credit mid america pca in the agreement?,"arrangers, lender, swing line lender",1,0,1
+59,What are the roles of fifth third bank in the agreement?,"agents, arrangers, lender, swing line lender",1,0,1
+59,What are the roles of first national bank of omaha in the agreement?,"lender, swing line lender",1,0,1
+59,What are the roles of générale in the agreement?,"lender, swing line lender",1,0,1
+59,What are the roles of jpmorgan chase bank na in the agreement?,"lender, swing line lender",1,0,1
+59,What are the roles of pnc bank national association in the agreement?,"lender, swing line lender",1,0,1
+59,What are the roles of us bank in the agreement?,"arrangers, lender, swing line lender",1,0,1
+59,What are the roles of us bank national association in the agreement?,"administrative agent, agent, lc issuer, lender, swing line lender",1,0,1
+65,What are the roles of bofa securities in the agreement?,"arrangers, bookrunners",1,0,1
+65,What are the roles of citizens ban in the agreement?,"arrangers, bookrunners",1,0,1
+65,What are the roles of citizens bank in the agreement?,"collateral trustee, trustee",1,0,1
+65,What are the roles of credit suisse in the agreement?,"arrangers, bookrunners",1,0,1
+65,What are the roles of dbsi in the agreement?,"arrangers, bookrunners",1,0,1
+65,What are the roles of fifth third in the agreement?,"arrangers, bookrunners",1,0,1
+65,What are the roles of goldman in the agreement?,"arrangers, bookrunners",1,0,1
+65,What are the roles of keybank in the agreement?,"arrangers, bookrunners",1,0,1
+65,What are the roles of standardand poors financial services llc in the agreement?,"agency, rating agency",1,0,1
+65,What are the roles of truist securities in the agreement?,"arrangers, bookrunners",1,0,1
+65,What are the roles of bank of america na in the agreement?,"lender, revolving lender, swingline lender",1,0,1
+65,What are the roles of citizens bank na in the agreement?,"administrative agent, agent, issuer, l c issuer, lender, revolving lender, swingline lender",1,0,1
+65,What are the roles of fifth third bank in the agreement?,"lender, revolving lender, swingline lender",1,0,1
+65,What are the roles of goldman sachs bank usa in the agreement?,"lender, revolving lender, swingline lender",1,0,1
+65,What are the roles of keybank national association in the agreement?,"lender, revolving lender, swingline lender",1,0,1
+65,What are the roles of truist bank in the agreement?,"lender, revolving lender, swingline lender",1,0,1
+65,What are the roles of credit suisse ag cayman islands branch in the agreement?,"lender, revolving lender, swingline lender",1,0,1
+65,What are the roles of deutsche bank ag new york branch in the agreement?,"lender, revolving lender",1,0,1
+71,What are the roles of bank of america merrill lynch in the agreement?,"arranger, bookrunner, sole bookrunner, sole lead arranger",1,0,1
+164,What are the roles of suntrust robinson humphrey inc in the agreement?,"joint book runners, lead arrangers",1,0,1
+164,What are the roles of regions bank in the agreement?,"lender, syndication agents",1,0,1
+164,What are the roles of truist bank in the agreement?,"lender, syndication agents",1,0,1
+164,What are the roles of us bank national association in the agreement?,"administrative agent, joint book runners, lc issuer, lender",1,0,1
+170,What are the roles of bank of america in the agreement?,"administrative agent, swing line lender",1,0,1
+170,What are the roles of citigroup global markets inc in the agreement?,"book manager, lead arranger",1,0,1
+170,What are the roles of goldman sachs bank usa in the agreement?,"agent, lender",1,0,1
+170,What are the roles of merrill lynch pierce fenner and smith incorporated in the agreement?,"book manager, lead arranger",1,0,1
+170,What are the roles of morgan stanley bank na in the agreement?,"agent, lender",1,0,1
+170,What are the roles of wells fargo securities llc in the agreement?,"book manager, lead arranger",1,0,1
+170,What are the roles of bank of america na in the agreement?,"administrative agent, agent, co documentation agent, co syndication agent, l c issuer, lender, swing line lender",1,0,1
+170,What are the roles of citibank na in the agreement?,"agent, co documentation agent, lender",1,0,1
+170,What are the roles of jpmorgan chase bank na in the agreement?,"agent, lender",1,0,1
+170,What are the roles of the bank of nova scotia in the agreement?,"agent, lender",1,0,1
+170,What are the roles of us bank national association in the agreement?,"agent, lender",1,0,1
+170,What are the roles of wells fargo bank na in the agreement?,"agent, co documentation agent, lender",1,0,1
+158,What are the roles of bofa securities inc in the agreement?,"bookrunner, lead arranger, sole bookrunner, sole lead arranger",1,0,1
+158,What are the roles of bank of america na in the agreement?,"administrative agent, l c issuer, lender, swingline lender",1,0,1
+159,What are the roles of msif funding llc in the agreement?,"borrower, collateral administrator lenders, collateral agent lenders, company, lenders, securities intermediary party lenders",1,0,1
+159,What are the roles of us bank national association in the agreement?,"collateral administrator, collateral agent, securities intermediary",1,0,1
+159,What are the roles of jpmorgan chase bank in the agreement?,"administrative agent, lender",1,0,1
+165,What are the roles of goldman sachs bank usa in the agreement?,"documentation agents, lender",1,0,1
+165,What are the roles of jpmorgan chase bank na in the agreement?,"lender, syndication agent",1,0,1
+165,What are the roles of the bank of tokyo mitsubishi ufj ltd in the agreement?,"documentation agents, lender",1,0,1
+165,What are the roles of wells fargo bank national association in the agreement?,"documentation agents, lender",1,0,1
+165,What are the roles of mizuho bank ltd in the agreement?,"documentation agents, joint bookrunners, lender",1,0,1
+165,What are the roles of bank of america na in the agreement?,"administrative agent, lender",1,0,1
+165,What are the roles of conagra brands inc in the agreement?,"company, lenders",1,0,1
+70,What are the roles of fifth third bank in the agreement?,"administrative agent, arranger, bookrunner",1,0,1
+70,What are the roles of grec entity holdco llc in the agreement?,"borrower, subsidiaries borrower",1,0,1
+64,What are the roles of morgan stanley senior funding inc in the agreement?,"arrangers, bookrunners, lead arrangers",1,0,1
+64,What are the roles of goldman sachs lending partners llc in the agreement?,"agent, arrangers, bookrunners, lead arrangers, lender, syndication agent",1,0,1
+64,What are the roles of morgan stanley senior fundinginc in the agreement?,"administrative agent, agent, syndication agent",1,0,1
+58,What are the roles of hcr collateral management llc in the agreement?,"administrative agent, agent",1,0,1
+58,What are the roles of healthcare royalty partners iii lp in the agreement?,"investor, lenders",1,0,1
+41,What are the roles of bmo harris bank in the agreement?,"agent, lc issuer, syndication agent",1,0,1
+41,What are the roles of citizens bank na in the agreement?,"administrative agent, agent, arranger, bookrunner, documentation agent, lead arranger, lender, swingline lender, syndication agent",1,0,1
+41,What are the roles of bmo harris bank na in the agreement?,"agent, documentation agent, lc issuer, lender, swingline lender, syndication agent",1,0,1
+41,What are the roles of citibank na in the agreement?,"lender, swingline lender",1,0,1
+41,What are the roles of eastern bank in the agreement?,"lender, swingline lender",1,0,1
+41,What are the roles of keybank national association in the agreement?,"agent, documentation agent, lender, swingline lender, syndication agent",1,0,1
+41,What are the roles of middlesex savings bank in the agreement?,"lender, swingline lender",1,0,1
+41,What are the roles of santander bank na in the agreement?,"lender, swingline lender",1,0,1
+41,What are the roles of webster bank na in the agreement?,"lender, swingline lender",1,0,1
+7,What are the roles of mutual of omaha bank in the agreement?,"administrative agent, l c issuer, lender",1,0,1
+55,What are the roles of wilmington trust national association in the agreement?,"administrative agent, agent",1,0,1
+69,What are the roles of mvp acquisitions llc in the agreement?,"subsidiary, subsidiary guarantors",1,0,1
+69,What are the roles of mvp milwaukee wells llc in the agreement?,"subsidiary, subsidiary guarantors",1,0,1
+69,What are the roles of mvp raider park garage llc in the agreement?,"subsidiary, subsidiary guarantors",1,0,1
+69,What are the roles of mvp real estate holdings llc in the agreement?,"guarantors, subsidiary, subsidiary guarantors",1,0,1
+69,What are the roles of mvp merger sub llc in the agreement?,"subsidiary, subsidiary guarantors",1,0,1
+69,What are the roles of mvp reit ii operating partnership lp in the agreement?,"borrower, subsidiary",1,0,1
+69,What are the roles of keybank national association in the agreement?,"administrative agent, agent",1,0,1
+82,What are the roles of bank of america in the agreement?,"co syndication agent, lender",1,0,1
+82,What are the roles of barclays bank plc in the agreement?,"co syndication agent, lender",1,0,1
+82,What are the roles of citibank in the agreement?,"co documentation agent, lender",1,0,1
+82,What are the roles of hsbc bank usa national association in the agreement?,"co documentation agent, lender",1,0,1
+82,What are the roles of the royal bank of scotland plc in the agreement?,"co documentation agent, lender",1,0,1
+82,What are the roles of jpmorgan chase bank in the agreement?,"administrative agent, lender, swingline lender",1,0,1
+82,What are the roles of perkinelmer health sciences inc in the agreement?,"borrower, subsidiary borrower",1,0,1
+82,What are the roles of wallac oy in the agreement?,"borrower, subsidiary borrower",1,0,1
+82,What are the roles of perkinelmer inc in the agreement?,"borrower, subsidiary borrower",1,0,1
+168,What are the roles of bofa securities inc in the agreement?,"book runners, lead arrangers",1,0,1
+168,What are the roles of citibank in the agreement?,"administrative agent, book runners, lead arrangers",1,0,1
+168,What are the roles of bank of america na in the agreement?,"lender, lenders, syndication agent",1,0,1
+168,What are the roles of citibank na in the agreement?,"administrative agent, agent, lender, lenders",1,0,1
+96,What are the roles of bokf na dba bank of albuquerque in the agreement?,"administrative agent, agent, arrangers, book managers, co book managers, lenders, syndication agent",1,0,1
+96,What are the roles of us bank national association in the agreement?,"administrative agent, agent, arrangers, book managers, joint lead arrangers, lenders, syndication agent",1,0,1
+140,What are the roles of wwtai airopco malta limited in the agreement?,"guarantor, maltese guarantor",1,0,1
+140,What are the roles of fortress transportation and infrastructure investors llc in the agreement?,"borrower, holdings, intermediateco",1,0,1
+140,What are the roles of morgan stanley senior funding inc in the agreement?,"administrative agent, agent, arranger, lead arranger, lead bookrunner, lender",1,0,1
+154,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agent, bookrunner, lender, sole lead arranger",1,0,1
+155,What are the roles of whitehawk capital partners lp in the agreement?,"administrative agent, agent, collateral agent",1,0,1
+141,What are the roles of pnc capital markets llc in the agreement?,"arranger, book runner, lead arranger",1,0,1
+141,What are the roles of pnc bank national association in the agreement?,"administrative agent, agent, lender",1,0,1
+169,What are the roles of bc systems inc in the agreement?,"borrower, parent borrower",1,0,1
+169,What are the roles of cb containers inc in the agreement?,"borrower, parent borrower",1,0,1
+169,What are the roles of chiquita brands llc in the agreement?,"borrower, parent borrower",1,0,1
+169,What are the roles of chiquita fresh north america llc in the agreement?,"borrower, parent borrower",1,0,1
+169,What are the roles of fresh express incorporated in the agreement?,"borrower, parent borrower",1,0,1
+169,What are the roles of fresh international corp in the agreement?,"borrower, parent borrower",1,0,1
+169,What are the roles of merrill lynch pierce fenner and smith incorporated in the agreement?,"book runners, lender",1,0,1
+169,What are the roles of transfresh corporation in the agreement?,"borrower, parent borrower",1,0,1
+169,What are the roles of verdelli farms inc in the agreement?,"borrower, parent borrower",1,0,1
+169,What are the roles of vf transportation llc in the agreement?,"borrower, parent borrower",1,0,1
+169,What are the roles of bank of america na in the agreement?,"agent, agents, lender, syndication agent, syndication agents",1,0,1
+169,What are the roles of goldman sachs bank usa in the agreement?,"agent, arranger, documentation agent, lead arranger, lender, syndication agent",1,0,1
+169,What are the roles of coöperatieve centrale raiffeisen boerenleenbank barabobank nederland new york branch in the agreement?,"agent, arranger, documentation agent, lead arranger, lender, syndication agent",1,0,1
+169,What are the roles of wells fargo bank national association in the agreement?,"administrative agent, agent, arranger, book runner, book runners, documentation agent, lead arranger, lender, syndication agent",1,0,1
+169,What are the roles of chiquita brands international inc in the agreement?,"borrower, parent, parent borrower",1,0,1
+97,What are the roles of general electric capital corporation in the agreement?,"administrative agent, agent, lender",1,0,1
+83,What are the roles of american savings bank fsb in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of bank of america in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of bank of china in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of bank of taiwan in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of bank of the west in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of banner bank in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of branch banking and trust company in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of chang hwa commercial bank ltd in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of citiban in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of comerica bank in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of compass bank in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of ctbc bank co ltd in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of dbs bank ltd in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of fifth third bank in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of first hawaiian bank in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of hsbc bank plc in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of hsbc bank usa national association in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of hua nan commercial bank in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of hua nan commercial bank ltd in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agent, l c issuer, lender, swing line lender",1,0,1
+83,What are the roles of keybank national association in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of land bank of taiwan los angeles branch in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of manufacturers bank in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of mega international commercial bank co ltd los angeles branch in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of mizuho bank ltd in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of pnc bank national association in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of royal bank of canada in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of sabadell united bank in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of sumitomo mitsui banking corp in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of suntrust bank in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of taipei fubon commercial bank co ltd in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of taiwan cooperative bank ltd in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of td bank in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of the bank of nova scotia in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of the northern trust company in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of thebankoftokyo mitsubishiufjltd in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of us bank national association in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of wells fargo bank national association in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of western digital corporation in the agreement?,"guarantor, holdings",1,0,1
+83,What are the roles of banco de credito e inversiones in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of bnp paribas in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of standard chartered bank in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of the bank of east asia ltd in the agreement?,"lender, swing line lender",1,0,1
+83,What are the roles of western digital technologies inc in the agreement?,"cayman borrower, us borrower",1,0,1
+68,What are the roles of bank of montreal in the agreement?,"agent, documentation agent, lender, syndication agent",1,0,1
+68,What are the roles of citizens bank na in the agreement?,"agent, documentation agent, lender",1,0,1
+68,What are the roles of franklin street properties corp in the agreement?,"borrower, competitors borrower",1,0,1
+68,What are the roles of jpmorgan chase bank na in the agreement?,"agent, arranger, documentation agent, issuer, l c issuer, lender, syndication agent",1,0,1
+68,What are the roles of regions bank in the agreement?,"agent, documentation agent, lender",1,0,1
+68,What are the roles of bank of america na in the agreement?,"administrative agent, agent, documentation agent, issuer, l c issuer, lender, syndication agent",1,0,1
+40,What are the roles of jp morgan securities llc in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+40,What are the roles of keybanc capital markets inc in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+40,What are the roles of associated bank national association in the agreement?,"administrative agent, agent, co documentation agent, lender",1,0,1
+40,What are the roles of first niagara bank na in the agreement?,"administrative agent, agent, co documentation agent, lender",1,0,1
+40,What are the roles of keybank national association in the agreement?,"administrative agent, agent, co documentation agent, lender, syndication agent",1,0,1
+40,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agent, agent, co documentation agent, issuing bank, lender, syndication agent",1,0,1
+56,What are the roles of morgan stanley senior funding inc in the agreement?,"agents, syndication agents",1,0,1
+56,What are the roles of ubs securities llc in the agreement?,"agents, syndication agents",1,0,1
+56,What are the roles of credit suisse ag in the agreement?,"administrative agent, agent, collateral agent",1,0,1
+56,What are the roles of barclays bank plc in the agreement?,"agents, lender, syndication agents",1,0,1
+56,What are the roles of goldman sachs bank usa in the agreement?,"agents, lender, syndication agents",1,0,1
+56,What are the roles of credit suisse ag cayman islands branch in the agreement?,"administrative agent, agent, collateral agent, lender",1,0,1
+4,What are the roles of credit suisse securities usa llc in the agreement?,"bookrunners, co documentation agents",1,0,1
+4,What are the roles of merrill lynch pierce fennerand smith incorporated in the agreement?,"bookrunners, co documentation agents",1,0,1
+4,What are the roles of p morgan securities llc in the agreement?,"bookrunner, lead arranger, syndication agent",1,0,1
+4,What are the roles of barclays bank plc in the agreement?,"bookrunners, co documentation agents",1,0,1
+4,What are the roles of goldman sachs bank usa in the agreement?,"administrative agent, bookrunner, l c issuer, lead arranger, swing line lender",1,0,1
+42,What are the roles of merrill lynch pierce fennerand smith in the agreement?,"arranger, bookrunner",1,0,1
+42,What are the roles of wells fargo bank na in the agreement?,"agent, documentation agent",1,0,1
+42,What are the roles of jpmorgan chase bank na in the agreement?,"agent, documentation agent, lender, syndication agent",1,0,1
+42,What are the roles of bank of america na in the agreement?,"administrative agent, agent, documentation agent, lender, syndication agent",1,0,1
+95,What are the roles of merrill lynch pierce fenner and smith incorporated in the agreement?,"arranger, bookmanager, lead arranger",1,0,1
+95,What are the roles of omega healthcare investors inc in the agreement?,"borrower, credit parties",1,0,1
+95,What are the roles of bank of america na in the agreement?,"administrative agent, agent, lender",1,0,1
+157,What are the roles of frost bank in the agreement?,"lender, senior lender",1,0,1
+143,What are the roles of citizens bank national association in the agreement?,"arrangers, book runners, joint lead arrangers, syndication agent",1,0,1
+143,What are the roles of wells fargo securities llc in the agreement?,"arrangers, book runners, joint lead arrangers",1,0,1
+143,What are the roles of fifth third bank in the agreement?,"arrangers, book runners, documentation agent, joint book runners, joint lead arrangers, lender",1,0,1
+143,What are the roles of wells fargo bank national association in the agreement?,"administrative agent, agent, lender",1,0,1
+142,What are the roles of jpmorgan chase bank in the agreement?,"joint lead arranger, sole bookmanager",1,0,1
+142,What are the roles of hsbc bank canada in the agreement?,"documentation agents, lender",1,0,1
+142,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agent, agent, lender",1,0,1
+156,What are the roles of jpmorgan chase bank na in the agreement?,"issuing bank, lende",1,0,1
+156,What are the roles of wells fargo capital finance corporation canada in the agreement?,"issuing bank, lender",1,0,1
+156,What are the roles of bnp paribas in the agreement?,"bookrunners, issuing bank, joint bookrunners, joint lead arrangers, lender",1,0,1
+156,What are the roles of wells fargo bank national association in the agreement?,"administrative agent, agent, bookrunner, issuing bank, joint bookrunners, joint lead arrangers, lead arranger, lead arrangers, lender, security agent",1,0,1
+80,What are the roles of wells fargo securities llc in the agreement?,"arrangers, sole book manager",1,0,1
+80,What are the roles of wells fargo bank national association in the agreement?,"administrative agent, issuing lender, lender, swingline lender",1,0,1
+94,What are the roles of pnc capital markets llc in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+94,What are the roles of suntrust robinson humphrey inc in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+94,What are the roles of fifth third bank in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers, lender",1,0,1
+94,What are the roles of jefferies finance llc in the agreement?,"administrative agent, agent, arrangers, bookrunners, collatera agent, joint bookrunners, joint lead arrangers, lender, senior managing agent, swingline lender",1,0,1
+94,What are the roles of pnc bank national association in the agreement?,"bank, lender, swingline lender",1,0,1
+94,What are the roles of rbs citizens na in the agreement?,"agent, lender, senior managing agent",1,0,1
+94,What are the roles of sumitomo mitsui banking corporation in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers, lender",1,0,1
+94,What are the roles of natixis new york branch in the agreement?,"agent, lender, senior managing agent",1,0,1
+57,What are the roles of deutsche bank securities inc in the agreement?,"arranger, bookrunner",1,0,1
+57,What are the roles of merrill lynch pierce fenner and smith incorporated in the agreement?,"arranger, bookrunner",1,0,1
+57,What are the roles of swing line in the agreement?,"l c issuer lender, lender, swingline lender",1,0,1
+57,What are the roles of bank of america na in the agreement?,"administrative agent, agent, l c issuer lender, lender, swing line lender, swingline lender",1,0,1
+57,What are the roles of barclays bank plc in the agreement?,"l c issuer lender, lender, swing line lender, swingline lender",1,0,1
+57,What are the roles of celanese europe bv in the agreement?,"borrower, designated borrower, dutch borrower",1,0,1
+57,What are the roles of elwood cv in the agreement?,"borrower, designated borrower, dutch borrower",1,0,1
+57,What are the roles of hsbc bank usa national association in the agreement?,"l c issuer lender, lender, swing line lender, swingline lender",1,0,1
+57,What are the roles of morgan stanley bank na in the agreement?,"l c issuer lender, lender, swing line lender, swingline lender",1,0,1
+57,What are the roles of morgan stanley senior funding inc in the agreement?,"l c issuer lender, lender, swing line lender, swingline lender",1,0,1
+57,What are the roles of mufg bank ltd in the agreement?,"l c issuer lender, lender, swing line lender, swingline lender",1,0,1
+57,What are the roles of pnc bank national association in the agreement?,"l c issuer lender, lender, swing line lender, swingline lender",1,0,1
+57,What are the roles of us bank national association in the agreement?,"l c issuer lender, lender, swing line lender, swingline lender",1,0,1
+57,What are the roles of bank of america in the agreement?,"administrative agent, agent, l c issuer lender, lender, swingline lender",1,0,1
+57,What are the roles of celanese us holdings llc in the agreement?,"borrower, company, dutch borrower",1,0,1
+57,What are the roles of citibank na in the agreement?,"arranger, bookrunner, l c issuer lender, lender, swing line lender, swingline lender",1,0,1
+57,What are the roles of commerzbank ag new york branch in the agreement?,"l c issuer lender, lender, swing line lender, swingline lender",1,0,1
+57,What are the roles of jpmorgan chase bank na in the agreement?,"arranger, bookrunner, issuer, l c issuer, l c issuer lender, lender, swing line lender, swingline lender",1,0,1
+57,What are the roles of unicredit bank ag new york branch in the agreement?,"l c issuer lender, lender, swing line lender, swingline lender",1,0,1
+57,What are the roles of deutsche bank ag new york branch in the agreement?,"issuer, l c issuer, l c issuer lender, lender, swing line lender, swingline lender",1,0,1
+5,What are the roles of merrill lynch pierce fenner and smith incorporated in the agreement?,"bookrunner, joint lead arranger, lead arranger, sole bookrunner",1,0,1
+5,What are the roles of wells fargo securities in the agreement?,"joint lead arrangers, lead arrangers",1,0,1
+5,What are the roles of acadia realty limited partnership in the agreement?,"guarantors, subsidiaries guarantors",1,0,1
+5,What are the roles of pnc bank in the agreement?,"documentation agents, joint lead arrangers, lead arrangers",1,0,1
+5,What are the roles of bank of america na in the agreement?,"administrative agent, l c issuer, lender, swing line lender",1,0,1
+1,What are the roles of bank of america na in the agreement?,"administrative agent, arranger, bookrunner, lead arranger, lender, lenders",1,0,1
+53,What are the roles of cadence bank in the agreement?,"agent, l c issuer, lender",1,0,1
+47,What are the roles of merrill lynch pierce fennerand smith incorporated in the agreement?,"joint bookrunners, joint lead arrangers",1,0,1
+47,What are the roles of pnc capital markets llc in the agreement?,"joint bookrunners, joint lead arrangers",1,0,1
+47,What are the roles of wells fargo securities llc in the agreement?,"joint bookrunners, joint lead arrangers",1,0,1
+47,What are the roles of bank of america na in the agreement?,"co syndication agents, lender, subsidiaries lender",1,0,1
+47,What are the roles of barclays bank plc in the agreement?,"lender, subsidiaries lender",1,0,1
+47,What are the roles of citibank na in the agreement?,"lender, subsidiaries lender",1,0,1
+47,What are the roles of hsbc bank usa na in the agreement?,"lender, subsidiaries lender",1,0,1
+47,What are the roles of jpmorgan chase bank na in the agreement?,"lender, subsidiaries lender",1,0,1
+47,What are the roles of pnc bank national association in the agreement?,"co syndication agents, lender, subsidiaries lender",1,0,1
+47,What are the roles of the bank of tokyo mitsubishi ufjltd in the agreement?,"co syndication agents, joint bookrunners, lender, subsidiaries lender",1,0,1
+47,What are the roles of deutsche bank ag new york branch in the agreement?,"co syndication agents, joint lead arrangers, lender, subsidiaries lender",1,0,1
+47,What are the roles of dnb capital llc in the agreement?,"lender, subsidiaries lender",1,0,1
+47,What are the roles of wells fargo bank national association in the agreement?,"administrative agent, lender, subsidiaries lender",1,0,1
+146,What are the roles of wilmington trust national association in the agreement?,"collateral administrator, collateral agent, custodian",1,0,1
+146,What are the roles of citibank in the agreement?,"administrative agent, lender",1,0,1
+146,What are the roles of wilmington trust in the agreement?,"collateral administrator, collateral agent, custodian",1,0,1
+146,What are the roles of blackstone private credit fund in the agreement?,"collateral manager, equityholder, sole member",1,0,1
+90,What are the roles of the bank of nova scotia in the agreement?,"administrative agent, l c issuer, lender, swing line lender",1,0,1
+84,What are the roles of deutsche bank securities inc in the agreement?,"arrangers, documentation agent",1,0,1
+84,What are the roles of jp morgan securities llc in the agreement?,"arrangers, managers",1,0,1
+84,What are the roles of merrill lynch pierce fennerand smith incorporated in the agreement?,"arrangers, joint book managers, joint lead arrangers, managers",1,0,1
+84,What are the roles of keybank national association in the agreement?,"administrative agent, l c issuer, lc issuer, lender, swingline lender",1,0,1
+85,What are the roles of bank of america in the agreement?,"agent, lender",1,0,1
+147,What are the roles of deutsche bank securities inc in the agreement?,"joint bookrunners, joint lead arrangers",1,0,1
+147,What are the roles of jp morgan securities llc barclays bank plc bofa securities inc goldman sachs bank usa mizuho bank ltd morgan stanley senior funding inc hsbc securities usa inc credit suisse loan funding llc citigroup global markets inc in the agreement?,"joint bookrunners, joint lead arrangers",1,0,1
+147,What are the roles of jpmorgan chase bank na in the agreement?,"a l c issuer, administrative agent, collateral agent",1,0,1
+147,What are the roles of bank of america in the agreement?,"l c issuer, lender",1,0,1
+147,What are the roles of barclays bank plc in the agreement?,"l c issuer, lender",1,0,1
+147,What are the roles of citibank in the agreement?,"l c issuer, lender",1,0,1
+147,What are the roles of goldman sachs bank usa in the agreement?,"l c issuer, lender",1,0,1
+147,What are the roles of mizuho bank ltd in the agreement?,"l c issuer, lender",1,0,1
+147,What are the roles of morgan stanley senior funding inc in the agreement?,"l c issuer, lender",1,0,1
+147,What are the roles of jpmorgan chase bank in the agreement?,"agent, collateral agent, l c issuer, lender",1,0,1
+147,What are the roles of credit suisse ag in the agreement?,"l c issuer, lender",1,0,1
+147,What are the roles of deutsche bank in the agreement?,"l c issuer, lender",1,0,1
+147,What are the roles of ppd development lp in the agreement?,"borrower, co borrower",1,0,1
+153,What are the roles of pnc capital markets llc in the agreement?,"joint bookrunners, joint lead arrangers",1,0,1
+153,What are the roles of truist securities inc in the agreement?,"joint bookrunners, joint lead arrangers",1,0,1
+153,What are the roles of citizens bank na in the agreement?,"co syndication agents, issuing bank, joint bookrunners, joint lead arrangers, lender",1,0,1
+153,What are the roles of pnc bank national association in the agreement?,"co syndication agents, issuing bank, lender",1,0,1
+153,What are the roles of silicon valley bank in the agreement?,"co syndication agents, issuing bank, joint bookrunners, joint lead arrangers, lender",1,0,1
+153,What are the roles of truist bank in the agreement?,"co syndication agents, issuing bank, lender",1,0,1
+153,What are the roles of avid technology inc in the agreement?,"administrative agent, borrower",1,0,1
+153,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agent, agent, issuing bank, joint bookrunners, joint lead arrangers, lender, swingline lender",1,0,1
+46,What are the roles of mvc capitalinc in the agreement?,"borrower, legal counsel borrower",1,0,1
+46,What are the roles of santander bank na in the agreement?,"agent, counsel lender, lender",1,0,1
+46,What are the roles of wintrust bank in the agreement?,"counsel lender, lender",1,0,1
+52,What are the roles of citigroup global markets inc in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+52,What are the roles of wells fargo securities llc in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+52,What are the roles of the bank of tokyo mitsubishi ufj ltd in the agreement?,"agent, bank, documentation agent",1,0,1
+52,What are the roles of citibank na in the agreement?,"administrative agents, agent, agents, bank, documentation agent, servicing agent",1,0,1
+52,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agents, agents, arrangers, bank, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+52,What are the roles of wells fargo bank in the agreement?,"administrative agents, agents, bank",1,0,1
+44,What are the roles of bank of america in the agreement?,"administrative agent, l c issuer, lender, swing line lender lender",1,0,1
+50,What are the roles of wells fargo securities llc in the agreement?,"arrangers, joint bookrunners, joint lead arrangers",1,0,1
+50,What are the roles of fifth third bank in the agreement?,"agents, co documentation agents",1,0,1
+50,What are the roles of pnc bank in the agreement?,"agents, co documentation agents, lender",1,0,1
+50,What are the roles of silicon valley bank in the agreement?,"agents, co documentation agents, lender",1,0,1
+50,What are the roles of us bank national association in the agreement?,"agents, co documentation agents, lender",1,0,1
+50,What are the roles of wells fargo bank in the agreement?,"agent, collateral agent, syndication agent",1,0,1
+50,What are the roles of zions first national bank in the agreement?,"agents, co documentation agents, lender",1,0,1
+50,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agent, agent, arrangers, collateral agent, joint bookrunners, joint lead arrangers, lender, swingline lender, syndication agent",1,0,1
+2,What are the roles of bofa securities inc in the agreement?,"arranger, arrangers, bookrunners, lead arrangers, syndication agent",1,0,1
+2,What are the roles of wells fargo securities llc in the agreement?,"arranger, arrangers, bookrunners, lead arrangers",1,0,1
+2,What are the roles of bank of america na in the agreement?,"issuing lender, lender",1,0,1
+2,What are the roles of capital one na in the agreement?,"issuing lender, lender",1,0,1
+2,What are the roles of citizens bank na in the agreement?,"issuing lender, lender",1,0,1
+2,What are the roles of fifth third bank national association in the agreement?,"issuing lender, lender",1,0,1
+2,What are the roles of hsbc bank usa na in the agreement?,"issuing lender, lender",1,0,1
+2,What are the roles of pnc bank national association in the agreement?,"issuing lender, lender",1,0,1
+2,What are the roles of the huntington national bank in the agreement?,"issuing lender, lender",1,0,1
+2,What are the roles of truist bank in the agreement?,"issuing lender, lender",1,0,1
+2,What are the roles of u s bank national association in the agreement?,"issuing lender, lender",1,0,1
+2,What are the roles of wells fargo bank national association in the agreement?,"administrative agent, issuing lender, lender",1,0,1
+2,What are the roles of the toronto dominion bank in the agreement?,"issuing lender, lender",1,0,1
+145,What are the roles of cortland capital market services llc in the agreement?,"administrative agent, collateral agent",1,0,1
+151,What are the roles of bank of china in the agreement?,"lender, swing line lender",1,0,1
+151,What are the roles of barclays bank plc in the agreement?,"agent, joint bookrunners, l c issuer, lender, swing line lender, syndication agent",1,0,1
+151,What are the roles of citibank in the agreement?,"agent, joint bookrunners, joint lead arrangers, l c issuer, lender, swing line lender, syndication agent",1,0,1
+151,What are the roles of goldman sachs bank usa in the agreement?,"lender, swing line lender",1,0,1
+151,What are the roles of hsbc bank usa in the agreement?,"lender, swing line lender",1,0,1
+151,What are the roles of keybank in the agreement?,"lender, swing line lender",1,0,1
+151,What are the roles of mizuho bankltd in the agreement?,"agent, joint bookrunners, joint lead arrangers, l c issuer, lender, swing line lender, syndication agent",1,0,1
+151,What are the roles of morgan stanley bank in the agreement?,"lender, swing line lender",1,0,1
+151,What are the roles of mufg bankltd in the agreement?,"lender, swing line lender",1,0,1
+151,What are the roles of royal bank of canada in the agreement?,"lender, swing line lender",1,0,1
+151,What are the roles of sumitomo mitsui bankning corporation in the agreement?,"lender, swing line lender",1,0,1
+151,What are the roles of the bank of new york mellon in the agreement?,"lender, swing line lender",1,0,1
+151,What are the roles of the bank of nova scotia in the agreement?,"lender, swing line lender",1,0,1
+151,What are the roles of us bank national association in the agreement?,"lender, swing line lender",1,0,1
+151,What are the roles of wells fargo bank in the agreement?,"lender, swing line lender",1,0,1
+151,What are the roles of bank of america in the agreement?,"administrative agent, agent, joint bookrunners, joint lead arrangers, l c issuer, lender, swing line lender, syndication agent",1,0,1
+151,What are the roles of bnp paribas in the agreement?,"lender, swing line lender",1,0,1
+151,What are the roles of credit suisse ag in the agreement?,"lender, swing line lender",1,0,1
+151,What are the roles of deutsche bank ag new york branch in the agreement?,"lender, swing line lender",1,0,1
+151,What are the roles of ing bank nv in the agreement?,"lender, swing line lender",1,0,1
+151,What are the roles of jpmorgan chase bank in the agreement?,"agent, joint bookrunners, joint lead arrangers, l c issuer, lender, swing line lender, syndication agent",1,0,1
+151,What are the roles of nordea bank abp in the agreement?,"lender, swing line lender",1,0,1
+92,What are the roles of business development corporation of america in the agreement?,"bookrunner, co bookrunner",1,0,1
+92,What are the roles of midcap funding v llc in the agreement?,"administrative agent, arranger, bookrunner, co bookrunner, lender, sole lead arranger",1,0,1
+92,What are the roles of pernix therapeutics holdings inc in the agreement?,"administrative agent, arranger, bookrunner, borrower, co bookrunner, lender, sole lead arranger",1,0,1
+86,What are the roles of merrill lynch pierce fennerand smith incorporated in the agreement?,"arranger, manager",1,0,1
+86,What are the roles of bank of america in the agreement?,"administrative agent, l cissuer, lender, swinglinelender",1,0,1
+150,What are the roles of wilmington savings fund society fsb in the agreement?,"administrative agent, collateral agent",1,0,1
+144,What are the roles of midcap financial trust in the agreement?,"agent, lender",1,0,1
+51,What are the roles of citigroup global markets inc in the agreement?,"arrangers, joint bookrunners",1,0,1
+51,What are the roles of natixis securities americas llc in the agreement?,"arrangers, joint bookrunners",1,0,1
+51,What are the roles of rbc capital markets1 in the agreement?,"arrangers, joint bookrunners",1,0,1
+51,What are the roles of the bank of tokyo mitsubishi ufj ltd in the agreement?,"arrangers, joint bookrunners",1,0,1
+51,What are the roles of ubs securities llc in the agreement?,"arrangers, joint bookrunners",1,0,1
+51,What are the roles of morgan stanley senior funding inc in the agreement?,"administrative agent, agent, arrangers, collateral agent, joint bookrunners, joint lead arrangers, lender",1,0,1
+51,What are the roles of mufg union bank na in the agreement?,"agent, collateral agent",1,0,1
+3,What are the roles of bofa securities inc in the agreement?,"arranger, bookrunner, joint bookrunner, joint lead arranger",1,0,1
+3,What are the roles of wells fargo securities llc in the agreement?,"arranger, bookrunner, joint bookrunner, joint lead arranger",1,0,1
+3,What are the roles of summit jv mr 2 llc in the agreement?,"borrower, general partner borrower, parent borrower",1,0,1
+3,What are the roles of summit jv mr 3 llc in the agreement?,"borrower, general partner borrower, parent borrower",1,0,1
+3,What are the roles of summit nci master trs inc in the agreement?,"guarantor, issuer",1,0,1
+3,What are the roles of summit nci nola br 184 llc in the agreement?,"borrower, general partner borrower, parent borrower",1,0,1
+3,What are the roles of wells fargo bank national association in the agreement?,"lender, syndication agent",1,0,1
+3,What are the roles of bank of america na in the agreement?,"administrative agent, lender",1,0,1
+45,What are the roles of us bank national association in the agreement?,"counsel to lender lender, lender",1,0,1
+79,What are the roles of merrill lynch pierce fennerand smith incorporated in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+79,What are the roles of rbc capital markets llc in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+79,What are the roles of wells fargo securities llc in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+79,What are the roles of citigroup global markets inc in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers, syndication agents",1,0,1
+79,What are the roles of wells fargo bank national association in the agreement?,"administrative agent, lenders",1,0,1
+22,What are the roles of wells fargo bank national association in the agreement?,"agent, arranger, book runner, joint book runner, joint lead arranger",1,0,1
+22,What are the roles of bank of america na in the agreement?,"arranger, book runner, joint book runner, joint lead arranger, lender",1,0,1
+22,What are the roles of jpmorgan chase bank na in the agreement?,"arranger, counsel to any lender lender, joint book runner, joint lead arranger, lender, runner",1,0,1
+22,What are the roles of royal bank of canada in the agreement?,"counsel to any lender lender, lender",1,0,1
+22,What are the roles of oil states international inc in the agreement?,"borrower, counsel to borrowers borrower",1,0,1
+36,What are the roles of morgan stanley senior funding inc in the agreement?,"administrative agent, agent, arranger, bookrunner, collateral agent, lead arranger, lender",1,0,1
+36,What are the roles of silicon graphics international corp in the agreement?,"borrower, grantors",1,0,1
+123,What are the roles of citigroup global markets inc in the agreement?,"bookrunners, joint bookrunners",1,0,1
+123,What are the roles of jp morgan securities llc in the agreement?,"arranger, bookrunners, joint bookrunners",1,0,1
+123,What are the roles of rbc capital markets in the agreement?,"agent, arranger, bookrunners, documentation agent, joint bookrunners, syndication agent",1,0,1
+123,What are the roles of bank of america na in the agreement?,"agent, documentation agent, lender",1,0,1
+123,What are the roles of citibank na in the agreement?,"agent, documentation agent, lender, syndication agent",1,0,1
+123,What are the roles of goldman sachs bank usa in the agreement?,"agent, arranger, bookrunners, documentation agent, joint bookrunners, lender, syndication agent",1,0,1
+123,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agent, agent, documentation agent, lender, syndication agent",1,0,1
+123,What are the roles of pnc bank in the agreement?,"agent, documentation agent, lender",1,0,1
+123,What are the roles of the bank of tokyo mitsubishi ufj ltd in the agreement?,"agent, documentation agent, lender",1,0,1
+123,What are the roles of wells fargo bank in the agreement?,"agent, documentation agent, lender",1,0,1
+123,What are the roles of credit suisse ag in the agreement?,"agent, documentation agent, lender",1,0,1
+137,What are the roles of deutsche bank securities inc in the agreement?,"arrangers, bookrunners, joint lead arrangers",1,0,1
+137,What are the roles of initial issuing banks in the agreement?,"issuing banks, lenders, swing line banks (swing line banks issuing banks)",1,0,1
+137,What are the roles of merrill lynch pierce fenner and smith incorporated in the agreement?,"arrangers, bookrunners, joint lead arrangers",1,0,1
+137,What are the roles of regions capital markets in the agreement?,"arrangers, bookrunners, joint lead arrangers",1,0,1
+137,What are the roles of swing line banks in the agreement?,"issuing banks, swing line banks (swing line banks issuing banks)",1,0,1
+137,What are the roles of bank of america na in the agreement?,"agents, bank, co syndication agents, lender",1,0,1
+137,What are the roles of regions bank in the agreement?,"agents, bank, co syndication agents, lender",1,0,1
+137,What are the roles of deutsche bank ag new york branch in the agreement?,"administrative agent, lender",1,0,1
+122,What are the roles of citigroup global markets inc in the agreement?,"arranger, bookrunners, joint bookrunners, joint lead arranger",1,0,1
+122,What are the roles of merrill lynch pierce fennerand smith incorporated in the agreement?,"arranger, bookrunners, joint bookrunners, joint lead arranger",1,0,1
+122,What are the roles of morgan stanley senior fundinginc in the agreement?,"agent, arranger, bookrunners, joint bookrunners, joint lead arranger, syndication agent",1,0,1
+122,What are the roles of bank of america na in the agreement?,"agent, lender, syndication agent",1,0,1
+122,What are the roles of citibank na in the agreement?,"administrative agent, agent, syndication agent",1,0,1
+37,What are the roles of amegy bank national association in the agreement?,"lender, swing line lender",1,0,1
+37,What are the roles of branch banking and trust company in the agreement?,"lender, swing line lender",1,0,1
+37,What are the roles of citizens bank na in the agreement?,"lender, swing line lender",1,0,1
+37,What are the roles of cobank acb in the agreement?,"lender, swing line lender",1,0,1
+37,What are the roles of compass bank in the agreement?,"lender, swing line lender",1,0,1
+37,What are the roles of jpmorgan chase bank na in the agreement?,"lender, swing line lender",1,0,1
+37,What are the roles of keybank national association in the agreement?,"lender, swing line lender",1,0,1
+37,What are the roles of mufg union bank na in the agreement?,"lender, swing line lender",1,0,1
+37,What are the roles of pnc bank national association in the agreement?,"lender, swing line lender",1,0,1
+37,What are the roles of us bank national association in the agreement?,"lender, swing line lender",1,0,1
+37,What are the roles of wells fargo bank national association in the agreement?,"lender, swing line lender",1,0,1
+37,What are the roles of bank of america na in the agreement?,"administrative agent, agent, l c issuer, lender, swing line lender",1,0,1
+23,What are the roles of keybank national association in the agreement?,"administrative agent, l c issuer, lender",1,0,1
+23,What are the roles of silicon valley bank in the agreement?,"collateral agent, l c issuer, lender",1,0,1
+35,What are the roles of jp morgan securities llc in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+35,What are the roles of morgan stanley senior funding inc in the agreement?,"agents, arrangers, bookrunners, documentation agents, joint bookrunners, joint lead arrangers, syndication agents",1,0,1
+35,What are the roles of rbs securities inc in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+35,What are the roles of banco bilbao vizcaya argentaria in the agreement?,"lender, swingline lender",1,0,1
+35,What are the roles of bank of america na in the agreement?,"agents, bank, issuing bank, lender, swingline lender",1,0,1
+35,What are the roles of branch banking and trust company in the agreement?,"lender, swingline lender",1,0,1
+35,What are the roles of citibank na in the agreement?,"agents, bank, issuing bank, lender, swingline lender",1,0,1
+35,What are the roles of goldman sachs bank usa in the agreement?,"agents, arrangers, bank, bookrunners, documentation agents, issuing bank, joint bookrunners, joint lead arrangers, lender, swingline lender, syndication agents",1,0,1
+35,What are the roles of hsbc bank usa na in the agreement?,"agents, lender, swingline lender",1,0,1
+35,What are the roles of ing capital llc in the agreement?,"lender, swingline lender",1,0,1
+35,What are the roles of mizuho bank ltd in the agreement?,"lender, swingline lender",1,0,1
+35,What are the roles of morgan stanley bank na in the agreement?,"bank, issuing bank, lender, swingline lender",1,0,1
+35,What are the roles of sumitomo mitsui banking corporation in the agreement?,"agents, lender, swingline lender",1,0,1
+35,What are the roles of the bank of nova scotia in the agreement?,"agents, lender, swingline lender",1,0,1
+35,What are the roles of the bank of tokyo mitsubishi ufj ltd in the agreement?,"agents, arrangers, bank, bookrunners, documentation agents, issuing bank, joint bookrunners, joint lead arrangers, lender, swingline lender, syndication agents",1,0,1
+35,What are the roles of the northern trust company in the agreement?,"lender, swingline lender",1,0,1
+35,What are the roles of the royal bank of scotland plc in the agreement?,"agents, bank, documentation agents, issuing bank, lender, swingline lender, syndication agents",1,0,1
+35,What are the roles of us bank national association in the agreement?,"lender, swingline lender",1,0,1
+35,What are the roles of wells fargo bank national association in the agreement?,"agents, bank, issuing bank, lender, swingline lender",1,0,1
+35,What are the roles of bank of china in the agreement?,"lender, swingline lender",1,0,1
+35,What are the roles of bnp paribas in the agreement?,"agents, lender, swingline lender",1,0,1
+35,What are the roles of commerzbank ag in the agreement?,"lender, swingline lender",1,0,1
+35,What are the roles of credit agricole corporate and investment bank in the agreement?,"lender, swingline lender",1,0,1
+35,What are the roles of dnb capital llc in the agreement?,"lender, swingline lender",1,0,1
+35,What are the roles of intesa sanpaolo spa in the agreement?,"lender, swingline lender",1,0,1
+35,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agent, agent, bank, issuing bank, lender, swingline lender",1,0,1
+35,What are the roles of standard chartered bank in the agreement?,"lender, swingline lender",1,0,1
+21,What are the roles of ally bank in the agreement?,"ally representative, l c issuer, lender",1,0,1
+21,What are the roles of wilmington trust national association in the agreement?,"administrative agent, agent, collateral agent",1,0,1
+108,What are the roles of pnc capital markets llc in the agreement?,"bookrunners, joint bookrunners",1,0,1
+108,What are the roles of regions capital markets in the agreement?,"arrangers, joint lead arrangers",1,0,1
+108,What are the roles of pnc bank national association in the agreement?,"administrative agent, agent, syndication agent",1,0,1
+108,What are the roles of keybank national association in the agreement?,"agent, syndication agent",1,0,1
+134,What are the roles of jp morgan securities llc in the agreement?,"arranger, bookrunning manager, lead arranger",1,0,1
+134,What are the roles of union gaming advisors llc in the agreement?,"agent, documentation agent",1,0,1
+134,What are the roles of banc of california national association in the agreement?,"lender, swingline lender",1,0,1
+134,What are the roles of east west bank in the agreement?,"lender, swingline lender",1,0,1
+134,What are the roles of stockbridge sbe investment company llc in the agreement?,"guarantor, holdings",1,0,1
+134,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agent, agent, collateral agent, documentation agent, issuing bank, lender",1,0,1
+120,What are the roles of bmo harris bank na in the agreement?,"agents, documentation agents",1,0,1
+120,What are the roles of compass bank regions bank in the agreement?,"agents, documentation agents",1,0,1
+120,What are the roles of jpmorgan chase bank na and bank of america na in the agreement?,"agents, documentation agents, syndication agents",1,0,1
+120,What are the roles of merrill lynch pierce fennerand smith incorporated in the agreement?,"arrangers, bookrunner, joint lead arrangers, joint lead bookrunner",1,0,1
+120,What are the roles of national association in the agreement?,"agent, documentation agent",1,0,1
+120,What are the roles of wells fargo securities llc in the agreement?,"arranger, bookrunner, joint lead bookrunner, sole bookrunner, sole lead arranger",1,0,1
+120,What are the roles of wells fargo bank national association in the agreement?,"administrative agent, agent, documentation agent",1,0,1
+120,What are the roles of capital one in the agreement?,"agent, documentation agent",1,0,1
+120,What are the roles of pnc bank in the agreement?,"agent, documentation agent",1,0,1
+120,What are the roles of royal bank of canada in the agreement?,"agents, documentation agents",1,0,1
+120,What are the roles of us bank national association in the agreement?,"agents, documentation agents",1,0,1
+121,What are the roles of jp morgan securities llc in the agreement?,"arranger, bookrunners, joint bookrunners",1,0,1
+121,What are the roles of merrill lynch pierce fenner and smith incorporated in the agreement?,"arranger, bookrunners, joint bookrunners",1,0,1
+121,What are the roles of mizuho bank ltd in the agreement?,"agent, co documentation agent",1,0,1
+121,What are the roles of the bank of tokyo mitsubishi ufj ltd in the agreement?,"agent, co documentation agent",1,0,1
+121,What are the roles of wells fargo securities llc in the agreement?,"arranger, bookrunners, joint bookrunners",1,0,1
+121,What are the roles of bank of america na in the agreement?,"agent, co documentation agent, senior managing agent",1,0,1
+121,What are the roles of fifth third bank in the agreement?,"agent, co documentation agent",1,0,1
+121,What are the roles of hsbc bank usa in the agreement?,"agent, co documentation agent",1,0,1
+121,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agent, agent, co documentation agent, co syndication agent, senior managing agent",1,0,1
+121,What are the roles of mufg union bank na in the agreement?,"agent, co documentation agent",1,0,1
+121,What are the roles of pnc bank in the agreement?,"agent, co documentation agent",1,0,1
+121,What are the roles of regions bank in the agreement?,"agent, co documentation agent",1,0,1
+121,What are the roles of sumitomo mitsui banking corporation in the agreement?,"agent, co documentation agent",1,0,1
+121,What are the roles of suntrust bank in the agreement?,"agent, co documentation agent",1,0,1
+121,What are the roles of us bank national association in the agreement?,"agent, arranger, bookrunners, co documentation agent, joint bookrunners, senior managing agent",1,0,1
+121,What are the roles of wells fargo bank na in the agreement?,"agent, co documentation agent, senior managing agent",1,0,1
+121,What are the roles of bmo harris bank na in the agreement?,"agent, co documentation agent",1,0,1
+135,What are the roles of citibank in the agreement?,"agents, co documentation agents, co syndication agents",1,0,1
+135,What are the roles of citigroup global markets inc in the agreement?,"arranger, arrangers, bookrunner, bookrunners, joint lead arrangers",1,0,1
+135,What are the roles of dnb bank asa in the agreement?,"agents, co documentation agents",1,0,1
+135,What are the roles of dnb marketsinc in the agreement?,"arranger, arrangers, bookrunner, bookrunners, joint lead arrangers",1,0,1
+135,What are the roles of fenner in the agreement?,"arrangers, bookrunners, joint lead arrangers",1,0,1
+135,What are the roles of jp morgan securities llc in the agreement?,"arranger, arrangers, bookrunner, bookrunners, joint lead arrangers",1,0,1
+135,What are the roles of merrill lynch in the agreement?,"arrangers, bookrunners, joint lead arrangers",1,0,1
+135,What are the roles of merrill lynch pierce fennerand smith incorporated in the agreement?,"bookrunner, joint bookrunner",1,0,1
+135,What are the roles of new york branch in the agreement?,"agents, co documentation agents",1,0,1
+135,What are the roles of pierce in the agreement?,"arrangers, bookrunners, joint lead arrangers",1,0,1
+135,What are the roles of smith incorporated in the agreement?,"arrangers, bookrunners, joint lead arrangers",1,0,1
+135,What are the roles of standardand poors ratings services in the agreement?,"agency, ratings agency",1,0,1
+135,What are the roles of wells fargo securities llc in the agreement?,"arranger, arrangers, bookrunner, bookrunners, joint lead arrangers",1,0,1
+135,What are the roles of citibank na in the agreement?,"agent, co documentation agent, co syndication agent, lender",1,0,1
+135,What are the roles of dnb bank asa new york branch in the agreement?,"agent, co documentation agent, co syndication agent",1,0,1
+135,What are the roles of jpmorgan chase bank na in the agreement?,"agent, co documentation agent, co syndication agent, lender",1,0,1
+135,What are the roles of mizuho bankltd in the agreement?,"agent, agents, arranger, arrangers, bookrunner, bookrunners, co documentation agent, co documentation agents, joint lead arrangers, lender",1,0,1
+135,What are the roles of wells fargo bank national association in the agreement?,"agent, agents, co documentation agent, co documentation agents, co syndication agent, co syndication agents, lender",1,0,1
+135,What are the roles of bank of america na in the agreement?,"administrative agent, agent, co documentation agent, co syndication agent, lender",1,0,1
+20,What are the roles of bmo capital markets corp in the agreement?,"arranger, sole lead arranger arranger",1,0,1
+20,What are the roles of bank of montreal chicago branch in the agreement?,"administrative agent, lender",1,0,1
+34,What are the roles of itc holdings corp in the agreement?,"manager, sole manager",1,0,1
+34,What are the roles of goldman sachs bank usa in the agreement?,"administrative agent, agent, arranger, bookrunner, lender, sole bookrunner, sole lead arranger",1,0,1
+18,What are the roles of regions capital markets in the agreement?,"arrangers, bookrunners, joint lead arrangers",1,0,1
+18,What are the roles of wells fargo securities llc in the agreement?,"arrangers, bookrunners, joint lead arrangers",1,0,1
+18,What are the roles of capital one national association in the agreement?,"documentation agent, lender",1,0,1
+18,What are the roles of regions bank in the agreement?,"lender, syndication agent",1,0,1
+18,What are the roles of wells fargo bank national association in the agreement?,"administrative agent, lender",1,0,1
+30,What are the roles of wells fargo securities llc in the agreement?,"administrative agent, agent, arranger, lead arranger, syndication agent",1,0,1
+30,What are the roles of edgetech holding co in the agreement?,"guarantors, subsidiaries guarantors",1,0,1
+30,What are the roles of mikron industries inc in the agreement?,"guarantors, subsidiaries guarantors",1,0,1
+30,What are the roles of mikron washington llc in the agreement?,"guarantors, subsidiaries guarantors",1,0,1
+30,What are the roles of nichols aluminum alabama llc in the agreement?,"guarantors, subsidiaries guarantors",1,0,1
+30,What are the roles of nichols aluminum llc in the agreement?,"guarantors, subsidiaries guarantors",1,0,1
+30,What are the roles of quanex homeshield llc in the agreement?,"guarantors, subsidiaries guarantors",1,0,1
+30,What are the roles of quanex ig systems inc in the agreement?,"guarantors, subsidiaries guarantors",1,0,1
+30,What are the roles of quanex screens llc in the agreement?,"guarantors, subsidiaries guarantors",1,0,1
+30,What are the roles of quanex services inc in the agreement?,"guarantors, subsidiaries guarantors",1,0,1
+30,What are the roles of truseal technologies inc in the agreement?,"guarantors, subsidiaries guarantors",1,0,1
+30,What are the roles of wells fargo bank national association in the agreement?,"administrative agent, agent, lender, lenders",1,0,1
+24,What are the roles of national association in the agreement?,"agents, documentation agents",1,0,1
+24,What are the roles of pnc bank in the agreement?,"agents, documentation agents",1,0,1
+24,What are the roles of pnc capital markets llc in the agreement?,"joint lead arrangers, lead arrangers",1,0,1
+24,What are the roles of regions capital markets in the agreement?,"joint lead arrangers, lead arrangers",1,0,1
+24,What are the roles of suntrust robinson humphrey inc in the agreement?,"joint lead arrangers, lead arrangers",1,0,1
+24,What are the roles of wells fargo bank in the agreement?,"agents, documentation agents",1,0,1
+24,What are the roles of wells fargo securities llc in the agreement?,"joint lead arrangers, lead arrangers",1,0,1
+24,What are the roles of morgan lewis and bockius llp in the agreement?,"administrative agent, agent",1,0,1
+24,What are the roles of regions bank in the agreement?,"agents, documentation agents, lender",1,0,1
+24,What are the roles of suntrust bank in the agreement?,"agents, documentation agents, lender",1,0,1
+24,What are the roles of us bank national association in the agreement?,"agents, documentation agents, joint lead arrangers, lead arrangers, lender",1,0,1
+24,What are the roles of columbia property trust operating partnership lp in the agreement?,"borrower, general partner, sole general partner",1,0,1
+24,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agent, agent, bookrunner, joint lead arranger, lead arranger, lender, loan and agency services group agent, sole bookrunner",1,0,1
+131,What are the roles of morgan stanley senior funding inc in the agreement?,"administrative agent, agent",1,0,1
+125,What are the roles of us bank national association in the agreement?,"administrative agent, agent, arranger, book manager, lead arranger, lender",1,0,1
+118,What are the roles of credit suisse securities usa llc in the agreement?,"arrangers, bookrunners, joint bookrunners, joint lead arrangers",1,0,1
+118,What are the roles of wells fargo bank in the agreement?,"administrative agent, agent",1,0,1
+118,What are the roles of barclays bank plc in the agreement?,"administrative agent, agent, arrangers, bookrunners, joint bookrunners, joint lead arrangers, syndication agent",1,0,1
+118,What are the roles of goldman sachs bank usa in the agreement?,"agents, arrangers, bookrunners, documentation agents, joint bookrunners, joint lead arrangers",1,0,1
+118,What are the roles of wells fargo bank national association in the agreement?,"administrative agent, agent, l c issuer, lender, revolving credit lender, swing line lender",1,0,1
+118,What are the roles of credit suisse ag in the agreement?,"agents, documentation agents",1,0,1
+124,What are the roles of keybanc capital markets inc in the agreement?,"joint lead arrangers, lead arrangers",1,0,1
+124,What are the roles of bank of america na in the agreement?,"lender, syndication agents",1,0,1
+124,What are the roles of citizens bank na in the agreement?,"administrative agent, joint lead arrangers, lead arrangers, lender",1,0,1
+124,What are the roles of jpmorgan chase bank na in the agreement?,"bookrunners, lender, syndication agents",1,0,1
+124,What are the roles of keybank national association in the agreement?,"lender, syndication agents",1,0,1
+124,What are the roles of td bank na in the agreement?,"documentation agents, lender",1,0,1
+130,What are the roles of bofa securities inc in the agreement?,"arranger, bookrunner",1,0,1
+130,What are the roles of hancock whitney investment services inc in the agreement?,"arranger, bookrunner",1,0,1
+130,What are the roles of pnc capital markets llc in the agreement?,"arranger, bookrunner",1,0,1
+130,What are the roles of rbc capital markets in the agreement?,"arranger, bookrunner, documentation agents, syndication agents",1,0,1
+130,What are the roles of regions capital markets in the agreement?,"arranger, bookrunner",1,0,1
+130,What are the roles of truist securities inc in the agreement?,"arranger, bookrunner",1,0,1
+130,What are the roles of umb bankna in the agreement?,"arranger, bookrunner",1,0,1
+130,What are the roles of wells fargo securities llc in the agreement?,"arranger, bookrunner",1,0,1
+130,What are the roles of bank of america na in the agreement?,"issuing bank, lender",1,0,1
+130,What are the roles of fifth third bank national association in the agreement?,"arranger, bookrunner, lender",1,0,1
+130,What are the roles of pnc bank national association in the agreement?,"issuing bank, lender",1,0,1
+130,What are the roles of jpmorgan chase bank na in the agreement?,"agent, arranger, bookrunner, collateral agent, documentation agents, issuing bank, revolving administrative agent, syndication agents, term administrative agent",1,0,1
+130,What are the roles of royal bank of canada in the agreement?,"agent, issuing bank, term administrative agent",1,0,1
+130,What are the roles of murphy oil usa inc in the agreement?,"borrower, subsidiary",1,0,1
+25,What are the roles of cortland capital market services llc in the agreement?,"administrative agent, agent, collateral agent, lenders",1,0,1
+25,What are the roles of five oaks acquisition corp in the agreement?,"guarantor, guarantors",1,0,1
+25,What are the roles of hunt cmt equity llc in the agreement?,"guarantor, guarantors",1,0,1
+25,What are the roles of jefferies leveraged credit products llc in the agreement?,"initial lender, lender",1,0,1
+31,What are the roles of bank of china los angeles branch in the agreement?,"agents, book runners, documentation agents, joint book runners",1,0,1
+31,What are the roles of citigroup global markets inc in the agreement?,"book runners, joint book runners",1,0,1
+31,What are the roles of jp morgan securities llc in the agreement?,"book runners, joint book runners",1,0,1
+31,What are the roles of merrill lynch pierce fennerand smith incorporated in the agreement?,"book runners, joint book runners",1,0,1
+31,What are the roles of wells fargo securities llc in the agreement?,"book runners, joint book runners",1,0,1
+31,What are the roles of barclays bank plc in the agreement?,"lender, us swing lender",1,0,1
+31,What are the roles of citibank na in the agreement?,"agents, documentation agents, lender, us swing lender",1,0,1
+31,What are the roles of goldman sachs bank usa in the agreement?,"lender, us swing lender",1,0,1
+31,What are the roles of the bank of tokyo mitsubishi ufj ltd in the agreement?,"agents, book runners, documentation agents, joint book runners, lender, us swing lender",1,0,1
+31,What are the roles of us bank national association in the agreement?,"agents, book runners, documentation agents, joint book runners, lender, us swing lender",1,0,1
+31,What are the roles of wells fargo bank national association in the agreement?,"agents, documentation agents, lender, us swing lender",1,0,1
+31,What are the roles of the bank of china in the agreement?,"lender, us swing lender",1,0,1
+31,What are the roles of canadian imperial bank of commerce new york agency in the agreement?,"agents, book runners, documentation agents, joint book runners, lender, us swing lender",1,0,1
+31,What are the roles of jpmorgan chase bank na in the agreement?,"administrative agent, agent, lender, sterling swing lender, syndication agent, us swing lender, yen swing lender",1,0,1
+31,What are the roles of standard chartered bank in the agreement?,"agents, book runners, documentation agents, joint book runners, lender, us swing lender",1,0,1
+31,What are the roles of visa inc in the agreement?,"borrowers, lenders",1,0,1
+31,What are the roles of visa international service association in the agreement?,"borrowers, lenders",1,0,1
+31,What are the roles of visa usa inc in the agreement?,"borrowers, lenders",1,0,1
+31,What are the roles of bank of america na in the agreement?,"administrative agent, agent, euro swing lender, lender, sterling swing lender, syndication agent, us swing lender, yen swing lender",1,0,1
+19,What are the roles of rbc capital markets in the agreement?,"arranger, bookrunner, lead arranger",1,0,1
+19,What are the roles of bmo harris bank na in the agreement?,"lender, swingline lender",1,0,1
+19,What are the roles of goldman sachs bank in the agreement?,"lender, swingline lender",1,0,1
+19,What are the roles of mufg bank ltd in the agreement?,"lender, swingline lender",1,0,1
+19,What are the roles of umb bank na in the agreement?,"lender, swingline lender",1,0,1
+19,What are the roles of wells fargo bank national association in the agreement?,"lender, swingline lender",1,0,1
+19,What are the roles of caseys general stores inc in the agreement?,"borrower, subsidiary borrower",1,0,1
+19,What are the roles of coöperatieve rabobank ua new york in the agreement?,"lender, swingline lender",1,0,1
+19,What are the roles of royal bank of canada in the agreement?,"administrative agent, issuing bank, lender",1,0,1
+27,What are the roles of milbank tweed hadley and mccloy llp in the agreement?,"borrower, lender",1,0,1
+33,What are the roles of credit suisse securities usa llc in the agreement?,"arrangers, bookrunners, joint bookrunners",1,0,1
+33,What are the roles of goldman sachs bank usa in the agreement?,"arrangers, bookrunners, joint bookrunners",1,0,1
+33,What are the roles of jp morgan securities llc in the agreement?,"administrative agent, agent, arrangers, bookrunners, collateral agent, documentation agent, joint bookrunners, syndication agent",1,0,1
+33,What are the roles of rbc capital markets llc in the agreement?,"arranger, joint lead arranger",1,0,1
+33,What are the roles of ubs securities llc in the agreement?,"administrative agent, agent, arrangers, bookrunners, collateral agent, documentation agent, joint bookrunners",1,0,1
+33,What are the roles of credit suisse ag in the agreement?,"administrative agent, agent, collateral agent",1,0,1
+126,What are the roles of bnp paribas securities corp in the agreement?,"arrangers, bookrunners",1,0,1
+126,What are the roles of bofa securities inc in the agreement?,"arrangers, bookrunners",1,0,1
+126,What are the roles of bank of america na in the agreement?,"agents, lenders",1,0,1
+126,What are the roles of mizuho bank ltd in the agreement?,"agents, arrangers, bookrunners, co syndication agents, lenders",1,0,1
+126,What are the roles of mufg bank ltd in the agreement?,"agents, arrangers, bookrunners, co syndication agents, lenders",1,0,1
+126,What are the roles of sumitomo mitsui banking corporation in the agreement?,"agents, arrangers, bookrunners, co syndication agents, documentation agents, lenders",1,0,1
+126,What are the roles of citibank na in the agreement?,"agent, arrangers, bookrunners, lenders",1,0,1
+126,What are the roles of jpmorgan chase bank na in the agreement?,"agents, arrangers, bookrunners, lenders",1,0,1
+126,What are the roles of bnp paribas in the agreement?,"agents, co syndication agents, lenders",1,0,1
+132,What are the roles of bmo capital markets corp in the agreement?,"arrangers, book runners, joint book runners, joint lead arrangers",1,0,1
+132,What are the roles of wells fargo securities llc in the agreement?,"arrangers, book runners, joint book runners, joint lead arrangers",1,0,1
+132,What are the roles of jpmorgan chase bank na in the agreement?,"arrangers, book runners, joint book runners, joint lead arrangers, lender",1,0,1
+132,What are the roles of us bank national association in the agreement?,"arrangers, book runners, joint book runners, joint lead arrangers, lender",1,0,1
+132,What are the roles of bank of montreal in the agreement?,"administrative agent, agent, l c issuer, lender",1,0,1
+133,What are the roles of citibank in the agreement?,"arranger, book runner, lead arranger, sole book runner",1,0,1
+133,What are the roles of standardand poors financial services llc in the agreement?,"agency, rating agency",1,0,1
+133,What are the roles of merrill lynch pierce fenner and smith in the agreement?,"agent, collateral agent, syndication agent",1,0,1
+133,What are the roles of citibank na in the agreement?,"administrative agent, agent, arranger, book runner, collateral agent, l c issuer, lender, syndication agent",1,0,1
+127,What are the roles of bofa securities in the agreement?,"arranger, bookrunner, sole bookrunner, sole lead arranger",1,0,1
+127,What are the roles of bofa securities inc in the agreement?,"arranger, bookrunner, sole bookrunner, sole lead arranger",1,0,1
+127,What are the roles of citibank na in the agreement?,"agents, lender, swing line lender",1,0,1
+127,What are the roles of jpmorgan chase bank na in the agreement?,"agents, lender, swing line lender",1,0,1
+127,What are the roles of morgan stanley bank na in the agreement?,"agents, lender, swing line lender",1,0,1
+127,What are the roles of us bank national association in the agreement?,"agents, lender, swing line lender",1,0,1
+127,What are the roles of wellsfargobanknationalassociation in the agreement?,"lender, swing line lender",1,0,1
+127,What are the roles of goldman sachs bank in the agreement?,"agents, lender, swing line lender",1,0,1
+127,What are the roles of mizuho bank in the agreement?,"agents, lender, swing line lender",1,0,1
+127,What are the roles of bank of america na in the agreement?,"administrative agent, agent, l c issuer, lender, lenders",1,0,1
+127,What are the roles of deutsche bank ag in the agreement?,"agents, lender, swing line lender",1,0,1
+32,What are the roles of rbc capital markets in the agreement?,"arrangers, bookrunners, joint lead arrangers",1,0,1
+32,What are the roles of barclays bank plc in the agreement?,"administrative agent, agent, agents, arranger, arrangers, bookrunner, bookrunners, co documentation agent, co documentation agents, co syndication agent, joint bookrunner, joint lead arranger, joint lead arrangers, lender, lenders",1,0,1
+32,What are the roles of chc global operations 2008inc in the agreement?,"borrowers, designated borrowers",1,0,1
+32,What are the roles of chc group ltd in the agreement?,"guarantor, parent guarantor",1,0,1
+32,What are the roles of hsbc corporate trustee company uk limited in the agreement?,"administrative agent, agent, co documentation agent, co syndication agent, collateral agent",1,0,1
+32,What are the roles of jp morgan securities llc in the agreement?,"administrative agent, agent, agents, arranger, arrangers, bookrunner, bookrunners, co documentation agent, co documentation agents, co syndication agent, joint bookrunner, joint lead arranger, joint lead arrangers",1,0,1
+32,What are the roles of jpmorgan chase bank na in the agreement?,"lender, lenders",1,0,1
+32,What are the roles of royal bank of canada in the agreement?,"administrative agent, agent, agents, arranger, co documentation agent, co documentation agents, joint lead arranger, lender, lenders",1,0,1
+32,What are the roles of the standard bank of south africa limited in the agreement?,"lender, lenders",1,0,1
+32,What are the roles of wells fargo bank na in the agreement?,"lender, lenders",1,0,1
+32,What are the roles of chc den helder bv in the agreement?,"borrowers, designated borrowers",1,0,1
+32,What are the roles of chc global operations international inc in the agreement?,"borrowers, designated borrowers",1,0,1
+32,What are the roles of chc helicopter sa in the agreement?,"borrower, borrowers, designated borrowers, initial borrower, subsidiaries borrower",1,0,1
+32,What are the roles of chc holding nl bv in the agreement?,"borrowers, designated borrowers",1,0,1
+32,What are the roles of chc netherlands bv in the agreement?,"borrowers, designated borrowers",1,0,1
+32,What are the roles of chc norway acquisition co as in the agreement?,"borrowers, designated borrowers",1,0,1
+32,What are the roles of heli one canada inc in the agreement?,"borrowers, designated borrowers",1,0,1
+32,What are the roles of heli one europe as in the agreement?,"borrowers, designated borrowers",1,0,1
+32,What are the roles of heli one leasing inc in the agreement?,"borrowers, designated borrowers",1,0,1
+32,What are the roles of heli one norway as in the agreement?,"borrowers, designated borrowers",1,0,1
+32,What are the roles of hsbc bank canada in the agreement?,"arranger, arrangers, bank, bookrunner, bookrunners, joint bookrunner, joint lead arranger, joint lead arrangers, lender, lenders",1,0,1
+32,What are the roles of hsbc bank plc in the agreement?,"administrative agent, agent, co documentation agent, co syndication agent, collateral agent",1,0,1
+32,What are the roles of ubs limited in the agreement?,"lender, lenders",1,0,1
+32,What are the roles of ubs securities llc in the agreement?,"administrative agent, agent, agents, arranger, arrangers, bookrunner, bookrunners, co documentation agents, joint bookrunner, joint lead arrangers",1,0,1
+26,What are the roles of credit suisse loan funding llc in the agreement?,"agents, bookrunners, documentation agents, joint lead arrangers, lead arrangers",1,0,1
+26,What are the roles of wells fargo securities llc in the agreement?,"bookrunners, joint lead arrangers, lead arrangers",1,0,1
+26,What are the roles of barclays bank plc in the agreement?,"agents, bookrunners, documentation agents, joint lead arrangers, lead arrangers, lender",1,0,1
+26,What are the roles of mizuho bank ltd in the agreement?,"agents, bookrunners, joint lead arrangers, lead arrangers, lender",1,0,1
+26,What are the roles of mufg bank ltd in the agreement?,"administrative agent, agent, bookrunners, joint lead arrangers, lead arrangers, lender, syndication agent",1,0,1
+26,What are the roles of wells fargo bank national association in the agreement?,"agents, documentation agents, lender",1,0,1
+26,What are the roles of morgan stanley senior funding inc in the agreement?,"administrative agent, agent, bookrunners, joint lead arrangers, lead arrangers, lender",1,0,1

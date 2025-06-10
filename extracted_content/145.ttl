@@ -1,0 +1,635 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org1: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person: <http://example.org/person_name/> .
+@prefix position: <http://example.org/person_position/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+base:Location a rdfs:Class .
+
+base:Organization a rdfs:Class .
+
+base:Person a rdfs:Class .
+
+location_type:administrative_agents_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:administrative_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:ag_new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_management a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_services a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:assembly_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:business_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:cayman_islands_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:chief_executive_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:commercial_banking a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_customers_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:domestic_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:dublin_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:eurodollar_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:front_end_test_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:london_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:mexico_location_contract_manufacturing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:micro_building_and_corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:middle_market_servicing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:offsite_storage a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:opto_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:registered_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:rexford_industrial_realty_inc_11620_wilshire_boulevard_suite_1000_los_angeles_california_90025 a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:trade_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:zonal_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+org1:american_energy_logistics_solutions_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:american_lng_marketing_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:american_natural_gas_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:ami_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:member .
+
+org1:ap_kent_advisors_gp_llc a base:Organization .
+
+org1:ap_kent_advisors_lp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:general_partner .
+
+org1:apollo_a_n_credit_advisors_apo_fc_delaware a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:general_partner .
+
+org1:apollo_a_n_credit_advisors_apo_fc_gp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:general_partner .
+
+org1:apollo_accord_advisors_g_iii_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:general_partner .
+
+org1:apollo_accord_advisors_iii_lp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:general_partner .
+
+org1:apollo_capital_management_gp_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:general_partner .
+
+org1:apollo_capital_management_lp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:sub_advisor .
+
+org1:apollo_centre_street_advisors_apo_dc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:general_partner .
+
+org1:apollo_centre_street_advisors_apo_dc_gp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:general_partner .
+
+org1:apollo_insurance_solutions_group_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:investment_manager .
+
+org1:apollo_lincoln_fixed_income_advisors_apo_dc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:general_partner .
+
+org1:apollo_lincoln_fixed_income_advisors_apo_dc_gp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:general_partner .
+
+org1:apollo_management_international_llp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:portfolio_manager .
+
+org1:apollo_moultrie_capital_management_llc a base:Organization .
+
+org1:apollo_moultrie_credit_fund_advisors_lp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:general_partner .
+
+org1:apollo_tactical_value_spn_advisors_apo_dc_lp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:general_partner .
+
+org1:apollo_tactical_value_spn_capital_management_apo_dc_gp_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:general_partner .
+
+org1:apollo_total_return_enhanced_management_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:investment_manager .
+
+org1:atlantic_distribution_holdings_srl a base:Organization .
+
+org1:atlantic_energy_holdings_limited a base:Organization .
+
+org1:atlantic_energy_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:atlantic_power_holdings_limited a base:Organization .
+
+org1:atlantic_terminal_holdings_limited a base:Organization .
+
+org1:bradford_county_development_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:bradford_county_gpf_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:bradford_county_gpf_partners_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:bradford_county_power_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:bradford_county_power_partners_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:bradford_county_real_estate_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:bradford_county_real_estate_partners_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:bradford_county_transport_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:bradford_county_transport_partners_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:cravath_swaine_and_moore_llp a base:Organization .
+
+org1:energy_transport_solutions_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:island_lng_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:la_development_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:la_real_estate_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:la_real_estate_partners_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:lng_holdings_florida_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:lng_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:new_fortress_energy_marketing_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:nfe_angola_holdings_llc a base:Organization .
+
+org1:nfe_angola_sociedade_unipessoal_lda a base:Organization .
+
+org1:nfe_bcs_holdings_a_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:nfe_bcs_holdings_b_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:nfe_equipment_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:nfe_equipment_partners_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:nfe_ghana_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:nfe_ghana_partners_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:nfe_honduras_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:nfe_international_holdings_limited a base:Organization .
+
+org1:nfe_international_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:nfe_iso_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:nfe_iso_partners_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:nfe_jamaica_gp_llc a base:Organization .
+
+org1:nfe_logistics_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:nfe_mexico_holdings_bv a base:Organization .
+
+org1:nfe_mexico_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:nfe_mexico_holdings_parent_bv a base:Organization .
+
+org1:nfe_nicaragua_development_partners_llc a base:Organization .
+
+org1:nfe_nicaragua_development_partners_llc_sucursalnicaragua a base:Organization .
+
+org1:nfe_nicaragua_holdings_llc a base:Organization .
+
+org1:nfe_north_distribution_limited a base:Organization .
+
+org1:nfe_north_holdings_limited_bermuda a base:Organization .
+
+org1:nfe_north_holdings_limited_jamaica a base:Organization .
+
+org1:nfe_north_infrastructure_limited a base:Organization .
+
+org1:nfe_north_trading_limited a base:Organization .
+
+org1:nfe_north_transport_limited a base:Organization .
+
+org1:nfe_plant_development_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:nfe_south_holdings_limited_bermuda a base:Organization .
+
+org1:nfe_south_holdings_limited_jamaica a base:Organization .
+
+org1:nfe_south_power_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:nfe_south_power_trading_limited a base:Organization .
+
+org1:nfe_south_trading_limited a base:Organization .
+
+org1:nfe_transport_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:nfe_transport_partners_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:nfenergia_honduras_s_de_rl a base:Organization .
+
+org1:nfenergia_llc a base:Organization .
+
+org1:pa_development_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:pa_real_estate_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:pa_real_estate_partners_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:soluciones_de_energia_limpia_pr_llc a base:Organization .
+
+org1:tico_development_partners_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:tico_development_partners_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+person:brian_kim a base:Person .
+
+person:george_e_zobitz a base:Person .
+
+person:steve_lenard a base:Person .
+
+position:legal_representative rdfs:subClassOf base:Person .
+
+loc:111_w_19th_street_8th_floor_new_york_new_york_10011 a base:Location ;
+    rel:isLocationOf org1:new_fortress_energy_llc .
+
+loc:1209_orange_street_wilmington_new_castle_county_delaware_19801_united_states_of_america a base:Location ;
+    rel:isLocationOf org1:nfe_management_llc .
+
+loc:1285_avenue_of_the_americas_new_york_new_york_10019 a base:Location ;
+    rel:isLocationOf org1:paul_weiss_rifkind_wharton_and_garrison_llp .
+
+loc:225_w_washington_st_9th_floor_chicago_illinois_60606 a base:Location ;
+    rel:isLocationOf org1:cortland_capital_market_services_llc .
+
+org1:new_fortress_energy_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasLocationAt loc:111_w_19th_street_8th_floor_new_york_new_york_10011 .
+
+org1:nfe_management_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasLocationAt loc:1209_orange_street_wilmington_new_castle_county_delaware_19801_united_states_of_america .
+
+org1:paul_weiss_rifkind_wharton_and_garrison_llp a base:Organization ;
+    rel:hasLocationAt loc:1285_avenue_of_the_americas_new_york_new_york_10019 .
+
+org_role:administrative_agent rdfs:subClassOf base:Organization .
+
+org_role:borrower rdfs:subClassOf base:Organization .
+
+org_role:collateral_agent rdfs:subClassOf base:Organization .
+
+org_role:holdings rdfs:subClassOf base:Organization .
+
+org_role:lender rdfs:subClassOf base:Organization .
+
+org_role:member rdfs:subClassOf base:Organization .
+
+org_role:portfolio_manager rdfs:subClassOf base:Organization .
+
+org_role:sub_advisor rdfs:subClassOf base:Organization .
+
+person:emily_ergang_pappas a base:Person ;
+    <http://example.org/isInstanceOf/> position:associate_counsel ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:cortland_capital_market_services_llc ;
+            rel:position position:associate_counsel ] ;
+    rel:isEmployedBy org1:cortland_capital_market_services_llc .
+
+person:guy_major a base:Person ;
+    <http://example.org/isInstanceOf/> position:director ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:apollo_credit_master_fund_ltd ;
+            rel:position position:director ] ;
+    rel:isEmployedBy org1:apollo_credit_master_fund_ltd .
+
+person:tammy_jennissen a base:Person ;
+    <http://example.org/isInstanceOf/> position:director ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:apollo_credit_strategies_master_fund_ltd ;
+            rel:position position:director ] ;
+    rel:isEmployedBy org1:apollo_credit_strategies_master_fund_ltd .
+
+org1:ap_kent_credit_master_fund_lp a base:Organization ;
+    rel:hasEmployee person:joseph_d_glatt .
+
+org1:apollo_a_n_credit_fund_delaware_lp a base:Organization ;
+    rel:hasEmployee person:joseph_d_glatt .
+
+org1:apollo_accord_master_fund_iii_lp a base:Organization ;
+    rel:hasEmployee person:joseph_d_glatt .
+
+org1:apollo_centre_street_partnership_lp a base:Organization ;
+    rel:hasEmployee person:joseph_d_glatt .
+
+org1:apollo_credit_funds_icav a base:Organization ;
+    rel:hasEmployee person:joseph_d_glatt .
+
+org1:apollo_credit_master_fund_ltd a base:Organization ;
+    rel:hasEmployee person:guy_major .
+
+org1:apollo_credit_strategies_master_fund_ltd a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:tammy_jennissen .
+
+org1:apollo_lincoln_fixed_income_fund_lp a base:Organization ;
+    rel:hasEmployee person:joseph_d_glatt .
+
+org1:apollo_moultrie_credit_fund_lp a base:Organization ;
+    rel:hasEmployee person:joseph_d_glatt .
+
+org1:apollo_tactical_value_spn_investments_lp a base:Organization ;
+    rel:hasEmployee person:joseph_d_glatt .
+
+org1:apollo_tr_enhanced_levered_yield_llc a base:Organization ;
+    rel:hasEmployee person:joseph_d_glatt .
+
+org1:apollo_tr_opportunistic_ltd a base:Organization ;
+    rel:hasEmployee person:joseph_d_glatt .
+
+org1:athene_annuity_and_life_assurance_company a base:Organization ;
+    rel:hasEmployee person:joseph_d_glatt .
+
+org1:athene_annuity_and_life_company a base:Organization ;
+    rel:hasEmployee person:joseph_d_glatt .
+
+org1:athora_lux_invest_scsp a base:Organization ;
+    rel:hasEmployee person:joseph_d_glatt .
+
+org1:atlantic_power_holdings_srl a base:Organization ;
+    rel:hasEmployee person:christopher_stephen_guinta .
+
+org1:new_fortress_intermediate_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:holdings ;
+    rel:hasEmployee person:christopher_stephen_guinta .
+
+org1:nfe_atlantic_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:christopher_stephen_guinta .
+
+org1:nfe_bahamas_holdings_ltd a base:Organization ;
+    rel:hasEmployee person:christopher_stephen_guinta .
+
+org1:nfe_sub_llc a base:Organization ;
+    rel:hasEmployee person:christopher_stephen_guinta .
+
+org1:path_ltd a base:Organization ;
+    rel:hasEmployee person:christopher_stephen_guinta .
+
+org_role:investment_manager rdfs:subClassOf base:Organization .
+
+position:associate_counsel a base:Position ;
+    base:positionName "Associate Counsel" ;
+    rdfs:subClassOf base:Person .
+
+position:authorized_signatory a base:Position ;
+    base:positionName "\\nAuthorized Signatory" ;
+    rdfs:subClassOf base:Person .
+
+position:manager a base:Position ;
+    base:positionName "Manager" ;
+    rdfs:subClassOf base:Person .
+
+loc:111_w_19th_st_fl_8 a base:Location ;
+    rel:isLocationOf org1:nfe_shannon_holdings_limited,
+        org1:shannon_holdings_limited,
+        org1:shannon_lng_energy_limited .
+
+loc:new_york_ny_10011 a base:Location ;
+    rel:isLocationOf org1:nfe_shannon_holdings_limited,
+        org1:shannon_holdings_limited,
+        org1:shannon_lng_energy_limited .
+
+org1:cortland_capital_market_services_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:administrative_agent,
+        org_role:collateral_agent ;
+    rel:hasEmployee person:emily_ergang_pappas ;
+    rel:hasLocationAt loc:225_w_washington_st_9th_floor_chicago_illinois_60606 .
+
+person:lana_guardino a base:Person ;
+    <http://example.org/isInstanceOf/> position:executive_assistant ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:shannon_lng_energy_limited ;
+            rel:position position:executive_assistant ],
+        [ a rel:Employment ;
+            rel:organization org1:nfe_shannon_holdings_limited ;
+            rel:position position:executive_assistant ],
+        [ a rel:Employment ;
+            rel:organization org1:shannon_holdings_limited ;
+            rel:position position:executive_assistant ] ;
+    rel:isEmployedBy org1:nfe_shannon_holdings_limited,
+        org1:shannon_holdings_limited,
+        org1:shannon_lng_energy_limited .
+
+org1:nfe_shannon_holdings_limited a base:Organization ;
+    rel:hasEmployee person:lana_guardino ;
+    rel:hasLocationAt loc:111_w_19th_st_fl_8,
+        loc:new_york_ny_10011 .
+
+org1:shannon_holdings_limited a base:Organization ;
+    rel:hasEmployee person:lana_guardino ;
+    rel:hasLocationAt loc:111_w_19th_st_fl_8,
+        loc:new_york_ny_10011 .
+
+org1:shannon_lng_energy_limited a base:Organization ;
+    rel:hasEmployee person:lana_guardino ;
+    rel:hasLocationAt loc:111_w_19th_st_fl_8,
+        loc:new_york_ny_10011 .
+
+position:chief_financial_officer a base:Position ;
+    base:positionName "\\nChief Financial Officer\\n" ;
+    rdfs:subClassOf base:Person .
+
+position:executive_assistant a base:Position ;
+    base:positionName "\\nExecutive Assistant" ;
+    rdfs:subClassOf base:Person .
+
+person:christopher_stephen_guinta a base:Person ;
+    <http://example.org/isInstanceOf/> position:authorized_signatory,
+        position:chief_financial_officer,
+        position:director,
+        position:manager ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:new_fortress_intermediate_llc ;
+            rel:position position:chief_financial_officer ],
+        [ a rel:Employment ;
+            rel:organization org1:nfe_atlantic_holdings_llc ;
+            rel:position position:chief_financial_officer ],
+        [ a rel:Employment ;
+            rel:organization org1:atlantic_power_holdings_srl ;
+            rel:position position:manager ],
+        [ a rel:Employment ;
+            rel:organization org1:path_ltd ;
+            rel:position position:director ],
+        [ a rel:Employment ;
+            rel:organization org1:nfe_sub_llc ;
+            rel:position position:chief_financial_officer ],
+        [ a rel:Employment ;
+            rel:organization org1:nfe_bahamas_holdings_ltd ;
+            rel:position position:authorized_signatory ] ;
+    rel:isEmployedBy org1:atlantic_power_holdings_srl,
+        org1:new_fortress_intermediate_llc,
+        org1:nfe_atlantic_holdings_llc,
+        org1:nfe_bahamas_holdings_ltd,
+        org1:nfe_sub_llc,
+        org1:path_ltd .
+
+position:director a base:Position ;
+    base:positionName "Director" ;
+    rdfs:subClassOf base:Person .
+
+position:vice_president a base:Position ;
+    base:positionName "\\nVice President\\n" ;
+    rdfs:subClassOf base:Person .
+
+org_role:general_partner rdfs:subClassOf base:Organization .
+
+person:joseph_d_glatt a base:Person ;
+    <http://example.org/isInstanceOf/> position:director,
+        position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:apollo_a_n_credit_fund_delaware_lp ;
+            rel:position position:vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:apollo_tactical_value_spn_investments_lp ;
+            rel:position position:vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:athene_annuity_and_life_assurance_company ;
+            rel:position position:vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:apollo_lincoln_fixed_income_fund_lp ;
+            rel:position position:vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:apollo_tr_enhanced_levered_yield_llc ;
+            rel:position position:vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:apollo_moultrie_credit_fund_lp ;
+            rel:position position:vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:athora_lux_invest_scsp ;
+            rel:position position:vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:apollo_accord_master_fund_iii_lp ;
+            rel:position position:vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:apollo_credit_funds_icav ;
+            rel:position position:director ],
+        [ a rel:Employment ;
+            rel:organization org1:athene_annuity_and_life_company ;
+            rel:position position:vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:ap_kent_credit_master_fund_lp ;
+            rel:position position:vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:apollo_tr_opportunistic_ltd ;
+            rel:position position:director ],
+        [ a rel:Employment ;
+            rel:organization org1:apollo_centre_street_partnership_lp ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:ap_kent_credit_master_fund_lp,
+        org1:apollo_a_n_credit_fund_delaware_lp,
+        org1:apollo_accord_master_fund_iii_lp,
+        org1:apollo_centre_street_partnership_lp,
+        org1:apollo_credit_funds_icav,
+        org1:apollo_lincoln_fixed_income_fund_lp,
+        org1:apollo_moultrie_credit_fund_lp,
+        org1:apollo_tactical_value_spn_investments_lp,
+        org1:apollo_tr_enhanced_levered_yield_llc,
+        org1:apollo_tr_opportunistic_ltd,
+        org1:athene_annuity_and_life_assurance_company,
+        org1:athene_annuity_and_life_company,
+        org1:athora_lux_invest_scsp .
+
+org_role:guarantor rdfs:subClassOf base:Organization .
+

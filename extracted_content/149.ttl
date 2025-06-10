@@ -1,0 +1,238 @@
+@prefix base: <http://example.org/base/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org1: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person: <http://example.org/person_name/> .
+@prefix position: <http://example.org/person_position/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+base:Location a rdfs:Class .
+
+base:Organization a rdfs:Class .
+
+base:Person a rdfs:Class .
+
+location_type:administrative_agents_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:administrative_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:ag_new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_management a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_services a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:assembly_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:business_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:cayman_islands_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:chief_executive_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:commercial_banking a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_customers_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:domestic_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:dublin_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:eurodollar_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:front_end_test_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:london_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:mexico_location_contract_manufacturing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:micro_building_and_corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:middle_market_servicing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:offsite_storage a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:opto_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:registered_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:rexford_industrial_realty_inc_11620_wilshire_boulevard_suite_1000_los_angeles_california_90025 a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:trade_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:zonal_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+org1:c_wonder_licensing_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:cohnreznick_llp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:accounting_firm .
+
+org1:first_eagle_alternative_credit_llc a base:Organization .
+
+org1:gold_licensing_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:h_heritage_licensing_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:h_licensing_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:im_brands_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:jr_licensing_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:judith_ripka_fine_jewelry_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:xcel_ct_mfg_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org1:xcel_design_group_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor .
+
+org_role:accounting_firm rdfs:subClassOf base:Organization .
+
+org_role:administrative_agent rdfs:subClassOf base:Organization .
+
+org_role:borrower rdfs:subClassOf base:Organization .
+
+org_role:collateral_agent rdfs:subClassOf base:Organization .
+
+org_role:lead_arranger rdfs:subClassOf base:Organization .
+
+person:seth_burroughs a base:Person ;
+    <http://example.org/isInstanceOf/> position:executive_vice_president,
+        position:secretary ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:xcel_brands_inc ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:xcel_brands_inc ;
+            rel:position position:secretary ] ;
+    rel:isEmployedBy org1:xcel_brands_inc .
+
+org1:feac_agent_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:administrative_agent,
+        org_role:collateral_agent,
+        org_role:lead_arranger ;
+    rel:hasEmployee person:michelle_handy .
+
+org1:first_eagle_alternative_capital_bdc_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:michelle_handy .
+
+org1:first_eagle_direct_lending_fund_iv_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:michelle_handy .
+
+org1:first_eagle_direct_lending_iv_co_invest_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:michelle_handy .
+
+org1:first_eagle_direct_lending_levered_fund_iv_spv_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:michelle_handy .
+
+org1:first_eagle_direct_lending_v_a_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:michelle_handy .
+
+org1:first_eagle_direct_lending_v_b_spv_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:michelle_handy .
+
+org1:first_eagle_direct_lending_v_c_scsp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:michelle_handy .
+
+position:executive_vice_president a base:Position ;
+    base:positionName "Executive Vice President" ;
+    rdfs:subClassOf base:Person .
+
+position:secretary a base:Position ;
+    base:positionName "Secretary" ;
+    rdfs:subClassOf base:Person .
+
+org1:xcel_brands_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:seth_burroughs .
+
+org_role:lender rdfs:subClassOf base:Organization .
+
+person:michelle_handy a base:Person ;
+    <http://example.org/isInstanceOf/> position:managing_director ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:first_eagle_direct_lending_levered_fund_iv_spv_llc ;
+            rel:position position:managing_director ],
+        [ a rel:Employment ;
+            rel:organization org1:first_eagle_direct_lending_v_c_scsp ;
+            rel:position position:managing_director ],
+        [ a rel:Employment ;
+            rel:organization org1:first_eagle_direct_lending_fund_iv_llc ;
+            rel:position position:managing_director ],
+        [ a rel:Employment ;
+            rel:organization org1:first_eagle_direct_lending_v_b_spv_llc ;
+            rel:position position:managing_director ],
+        [ a rel:Employment ;
+            rel:organization org1:feac_agent_llc ;
+            rel:position position:managing_director ],
+        [ a rel:Employment ;
+            rel:organization org1:first_eagle_direct_lending_iv_co_invest_llc ;
+            rel:position position:managing_director ],
+        [ a rel:Employment ;
+            rel:organization org1:first_eagle_alternative_capital_bdc_inc ;
+            rel:position position:managing_director ],
+        [ a rel:Employment ;
+            rel:organization org1:first_eagle_direct_lending_v_a_llc ;
+            rel:position position:managing_director ] ;
+    rel:isEmployedBy org1:feac_agent_llc,
+        org1:first_eagle_alternative_capital_bdc_inc,
+        org1:first_eagle_direct_lending_fund_iv_llc,
+        org1:first_eagle_direct_lending_iv_co_invest_llc,
+        org1:first_eagle_direct_lending_levered_fund_iv_spv_llc,
+        org1:first_eagle_direct_lending_v_a_llc,
+        org1:first_eagle_direct_lending_v_b_spv_llc,
+        org1:first_eagle_direct_lending_v_c_scsp .
+
+org_role:guarantor rdfs:subClassOf base:Organization .
+
+position:managing_director a base:Position ;
+    base:positionName "Managing Director" ;
+    rdfs:subClassOf base:Person .
+

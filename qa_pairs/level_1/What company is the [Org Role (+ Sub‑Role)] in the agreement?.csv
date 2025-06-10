@@ -1,0 +1,741 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+17,What company is the holding in the agreement?,exgen renewables iv holding llc,1,0,0
+17,What company is the borrower in the agreement?,exgen renewables iv llc,1,0,0
+17,What company is the pledgor in the agreement?,exgen renewables iv llc,1,0,0
+17,What company is the arranger in the agreement?,morgan stanley senior funding inc,1,0,0
+17,What company is the documentation agent in the agreement?,morgan stanley senior funding inc,1,0,0
+17,What company is the lead arranger in the agreement?,morgan stanley senior funding inc,1,0,0
+17,What company is the lead bookrunner in the agreement?,morgan stanley senior funding inc,1,0,0
+17,What company is the syndication agent in the agreement?,morgan stanley senior funding inc,1,0,0
+17,What company is the bookrunner in the agreement?,morgan stanley senior funding inc,1,0,0
+17,What company is the depositary bank in the agreement?,wilmington trust national association,1,0,0
+17,What company is the collateral wilmington trust national association agent in the agreement?,wilmington trust national association,1,0,0
+17,What company is the collateral agent in the agreement?,wilmington trust national association,1,0,0
+102,What company is the borrower in the agreement?,digirad corporation,1,0,0
+102,What company is the administrative borrower in the agreement?,digirad corporation,1,0,0
+102,What company is the arranger in the agreement?,wells fargo bank national association,1,0,0
+102,What company is the book runner in the agreement?,wells fargo bank national association,1,0,0
+102,What company is the sole book runner in the agreement?,wells fargo bank national association,1,0,0
+102,What company is the administrative agent in the agreement?,wells fargo bank national association,1,0,0
+102,What company is the sole lead arranger in the agreement?,wells fargo bank national association,1,0,0
+102,What company is the runner in the agreement?,wells fargo bank national association,1,0,0
+102,What company is the lender in the agreement?,wells fargo bank national association,1,0,0
+102,What company is the agent in the agreement?,wells fargo bank national association,1,0,0
+116,What company is the arranger in the agreement?,cibc bank usa,1,0,0
+116,What company is the administrative agent in the agreement?,cibc bank usa,1,0,0
+116,What company is the lender in the agreement?,cibc bank usa,1,0,0
+116,What company is the issuing lender in the agreement?,cibc bank usa,1,0,0
+116,What company is the agent in the agreement?,cibc bank usa,1,0,0
+116,What company is the the company in the agreement?,morgan stanley direct lending fund,1,0,0
+117,What company is the administrative agent in the agreement?,jpmorgan chase bank na,1,0,0
+117,What company is the swing line lender in the agreement?,jpmorgan chase bank na,1,0,0
+117,What company is the issuing lender in the agreement?,jpmorgan chase bank na,1,0,0
+117,What company is the borrower in the agreement?,columbia sportswear company,1,0,0
+103,What company is the lender in the agreement?,botticelli llc,1,0,0
+103,What company is the borrowers in the agreement?,claires gibraltar holdings limited,1,0,0
+16,What company is the term agent in the agreement?,crystal financial llc,1,0,0
+14,What company is the lender in the agreement?,ag energy funding llc,1,0,0
+14,What company is the administrative agent in the agreement?,angelo gordon energy servicer llc,1,0,0
+14,What company is the borrower in the agreement?,pacific drilling sa,1,0,0
+28,What company is the partner in the agreement?,pharmakon management i llc,1,0,0
+28,What company is the general partner in the agreement?,pharmakon management i llc,1,0,0
+28,What company is the investment manager in the agreement?,pharmakon advisors lp,1,0,0
+28,What company is the additional credit party in the agreement?,collegium securities corporation,1,0,0
+28,What company is the credit party in the agreement?,collegium securities corporation,1,0,0
+129,What company is the arranger in the agreement?,jp morgan securities llc,1,0,0
+129,What company is the lead arranger in the agreement?,jp morgan securities llc,1,0,0
+129,What company is the bookrunner in the agreement?,jp morgan securities llc,1,0,0
+129,What company is the borrower in the agreement?,graham corporation,1,0,0
+129,What company is the agent in the agreement?,jpmorgan chase bank na,1,0,0
+129,What company is the issuing bank in the agreement?,jpmorgan chase bank na,1,0,0
+129,What company is the administrative agent in the agreement?,jpmorgan chase bank na,1,0,0
+115,What company is the lender in the agreement?,bank of america na,1,0,0
+115,What company is the borrower in the agreement?,pool corporation,1,0,0
+101,What company is the borrower in the agreement?,foundation healthcare inc,1,0,0
+101,What company is the arranger in the agreement?,texas capital bank national association,1,0,0
+101,What company is the l c issuer in the agreement?,texas capital bank national association,1,0,0
+101,What company is the sole book runner in the agreement?,texas capital bank national association,1,0,0
+101,What company is the administrative agent in the agreement?,texas capital bank national association,1,0,0
+101,What company is the sole lead arranger in the agreement?,texas capital bank national association,1,0,0
+101,What company is the runner in the agreement?,texas capital bank national association,1,0,0
+101,What company is the agent in the agreement?,texas capital bank national association,1,0,0
+100,What company is the arranger in the agreement?,wells fargo securities llc,1,0,0
+100,What company is the bookrunner in the agreement?,wells fargo securities llc,1,0,0
+100,What company is the sole lead arranger in the agreement?,wells fargo securities llc,1,0,0
+100,What company is the sole bookrunner in the agreement?,wells fargo securities llc,1,0,0
+100,What company is the borrower in the agreement?,omnicellinc,1,0,0
+114,What company is the agent in the agreement?,midcap financial trust,1,0,0
+114,What company is the lender in the agreement?,midcap financial trust,1,0,0
+114,What company is the borrower in the agreement?,moduslink corporation,1,0,0
+114,What company is the borrowers in the agreement?,moduslink corporation,1,0,0
+128,What company is the administrative agent in the agreement?,jpmorgan chase bank na,1,0,0
+29,What company is the agent in the agreement?,pnc bank national association,1,0,0
+29,What company is the issuing bank in the agreement?,pnc bank national association,1,0,0
+29,What company is the administrative agent in the agreement?,pnc bank national association,1,0,0
+29,What company is the lender in the agreement?,pnc bank national association,1,0,0
+29,What company is the parent in the agreement?,paychex inc,1,0,0
+15,What company is the guarantor in the agreement?,cf real estate holdings llc,1,0,0
+15,What company is the borrower in the agreement?,2477 deerfield drive llc,1,0,0
+15,What company is the lender in the agreement?,ubs ag,1,0,0
+39,What company is the arranger in the agreement?,pnc capital markets llc,1,0,0
+39,What company is the bookrunner in the agreement?,pnc capital markets llc,1,0,0
+39,What company is the administrative agent in the agreement?,pnc bank national association,1,0,0
+11,What company is the administrative agent in the agreement?,jpmorgan chase bank na,1,0,0
+11,What company is the borrower in the agreement?,honeywell international inc,1,0,0
+110,What company is the administrative agent in the agreement?,wells fargo bank national association,1,0,0
+110,What company is the syndication agent in the agreement?,wells fargo bank national association,1,0,0
+138,What company is the joint lead arrangers in the agreement?,pnc capital markets llc,1,0,0
+138,What company is the guarantors in the agreement?,rexford industrial realty inc,1,0,0
+138,What company is the joint bookrunners in the agreement?,us bank national association,1,0,0
+138,What company is the administrative agent in the agreement?,pnc bank national association,1,0,0
+138,What company is the syndication agent in the agreement?,pnc bank national association,1,0,0
+138,What company is the borrower in the agreement?,rexford industrial realty lp,1,0,0
+138,What company is the parent borrower in the agreement?,rexford industrial realty lp,1,0,0
+139,What company is the borrower in the agreement?,crown castle international corp,1,0,0
+139,What company is the lenders in the agreement?,crown castle international corp,1,0,0
+105,What company is the lender in the agreement?,bison entertainment and media group,1,0,0
+105,What company is the borrower in the agreement?,cinedigm corp,1,0,0
+111,What company is the borrower in the agreement?,enstar group limited,1,0,0
+10,What company is the borrower in the agreement?,victory capital holdingsinc,1,0,0
+10,What company is the issuing bank in the agreement?,royal bank of canada,1,0,0
+10,What company is the administrative agent in the agreement?,royal bank of canada,1,0,0
+10,What company is the lender issuing bank in the agreement?,royal bank of canada,1,0,0
+38,What company is the syndication agent in the agreement?,wells fargo bank national association,1,0,0
+38,What company is the borrower in the agreement?,anadarko petroleum corporation,1,0,0
+38,What company is the agent in the agreement?,jpmorgan chase bank na,1,0,0
+38,What company is the administrative agent in the agreement?,jpmorgan chase bank na,1,0,0
+12,What company is the administrative agent in the agreement?,mizuho bank ltd,1,0,0
+12,What company is the borrower in the agreement?,walgreens boots alliance inc,1,0,0
+107,What company is the agents in the agreement?,jp morgan securities inc,1,0,0
+107,What company is the barclays capital agents in the agreement?,jp morgan securities inc,1,0,0
+107,What company is the joint bookrunner in the agreement?,rbc capital markets,1,0,0
+107,What company is the bookrunner in the agreement?,rbc capital markets,1,0,0
+107,What company is the collateral trustee in the agreement?,wilmington trust fsb,1,0,0
+107,What company is the trustee in the agreement?,wilmington trust fsb,1,0,0
+107,What company is the arranger in the agreement?,barclays bank plc,1,0,0
+107,What company is the lead arranger in the agreement?,barclays bank plc,1,0,0
+107,What company is the intercreditor agent in the agreement?,barclays bank plc,1,0,0
+107,What company is the lender in the agreement?,barclays bank plc,1,0,0
+107,What company is the guarantors in the agreement?,gxs worldwide inc,1,0,0
+113,What company is the lender in the agreement?,bank of america na,1,0,0
+112,What company is the borrower in the agreement?,forrester research inc,1,0,0
+112,What company is the administrative agent in the agreement?,jpmorgan chase bank na,1,0,0
+106,What company is the intermediate holdings in the agreement?,dynegy gas investments holdings llc,1,0,0
+106,What company is the holdings in the agreement?,dynegy gas investments holdings llc,1,0,0
+106,What company is the borrower in the agreement?,dynegy power llc,1,0,0
+106,What company is the parent borrower in the agreement?,dynegy power llc,1,0,0
+106,What company is the subordinated borrowers in the agreement?,dynegy power llc,1,0,0
+106,What company is the administrative agent in the agreement?,royal bank of canada,1,0,0
+106,What company is the collateral trustee in the agreement?,royal bank of canada,1,0,0
+106,What company is the agent in the agreement?,royal bank of canada,1,0,0
+13,What company is the administrative agent in the agreement?,jefferies finance llc,1,0,0
+13,What company is the lender in the agreement?,jefferies finance llc,1,0,0
+13,What company is the collateral agent in the agreement?,jefferies finance llc,1,0,0
+13,What company is the borrower in the agreement?,cvr energyinc,1,0,0
+60,What company is the borrower in the agreement?,leidos inc,1,0,0
+60,What company is the agent in the agreement?,citibank na,1,0,0
+60,What company is the administrative agent in the agreement?,citibank na,1,0,0
+60,What company is the holdings in the agreement?,leidos holdings inc,1,0,0
+74,What company is the borrower in the agreement?,gtt communicationsinc,1,0,0
+74,What company is the administrative agent in the agreement?,keybank national association,1,0,0
+74,What company is the lc issuer in the agreement?,keybank national association,1,0,0
+48,What company is the lender in the agreement?,enbridge us inc,1,0,0
+48,What company is the borrower in the agreement?,enbridge energy partners lp,1,0,0
+48,What company is the general partner borrower in the agreement?,enbridge energy partners lp,1,0,0
+48,What company is the delegate borrower in the agreement?,enbridge energy partners lp,1,0,0
+149,What company is the accounting firm in the agreement?,cohnreznick llp,1,0,0
+149,What company is the administrative agent in the agreement?,feac agent llc,1,0,0
+149,What company is the lead arranger in the agreement?,feac agent llc,1,0,0
+149,What company is the collateral agent in the agreement?,feac agent llc,1,0,0
+149,What company is the borrower in the agreement?,xcel brands inc,1,0,0
+161,What company is the borrower in the agreement?,modiv operating partnership lp,1,0,0
+161,What company is the lenders in the agreement?,keybank national association,1,0,0
+160,What company is the administrative agent in the agreement?,barclays bank plc,1,0,0
+160,What company is the borrower in the agreement?,nuance communications inc,1,0,0
+148,What company is the borrowers in the agreement?,jacobs engineering group inc,1,0,0
+49,What company is the borrower in the agreement?,rg parent llc,1,0,0
+49,What company is the administrative borrower in the agreement?,rg parent llc,1,0,0
+75,What company is the special counsel to the borrower in the agreement?,kandl gates llp,1,0,0
+75,What company is the public accounting firm in the agreement?,kpmg llp,1,0,0
+75,What company is the sole lead arranger in the agreement?,jp morgan securities llc,1,0,0
+75,What company is the sole bookrunner in the agreement?,jp morgan securities llc,1,0,0
+75,What company is the borrower in the agreement?,aspen technologyinc,1,0,0
+75,What company is the administrative agent in the agreement?,jpmorgan chase bank,1,0,0
+61,What company is the arranger in the agreement?,bofa securities inc,1,0,0
+61,What company is the sole arranger in the agreement?,bofa securities inc,1,0,0
+61,What company is the lead arranger in the agreement?,bofa securities inc,1,0,0
+61,What company is the sole bookrunner in the agreement?,bofa securities inc,1,0,0
+61,What company is the bookrunner in the agreement?,bofa securities inc,1,0,0
+61,What company is the borrower in the agreement?,citrix systems inc,1,0,0
+61,What company is the administrative agent in the agreement?,bank of america na,1,0,0
+77,What company is the issuing bank in the agreement?,jpmorgan chase bank,1,0,0
+77,What company is the administrative agent in the agreement?,jpmorgan chase bank,1,0,0
+77,What company is the borrower in the agreement?,wellcare health plans inc,1,0,0
+63,What company is the swing line lender in the agreement?,farm credit mid america pca,1,0,0
+63,What company is the legal counsel in the agreement?,sidley austin llp,1,0,0
+63,What company is the borrower in the agreement?,the andersons inc,1,0,0
+63,What company is the agent in the agreement?,us bank national association,1,0,0
+63,What company is the administrative agent in the agreement?,us bank national association,1,0,0
+63,What company is the lc issuer in the agreement?,us bank national association,1,0,0
+88,What company is the agent in the agreement?,mufg union bank,1,0,0
+88,What company is the issuing bank in the agreement?,mufg union bank,1,0,0
+88,What company is the lender in the agreement?,mufg union bank,1,0,0
+88,What company is the swing line lender in the agreement?,mufg union bank,1,0,0
+88,What company is the liability company in the agreement?,j2 cloud services llc,1,0,0
+162,What company is the holdings in the agreement?,nabors industries ltd,1,0,0
+162,What company is the administrative agent in the agreement?,citibank na,1,0,0
+162,What company is the borrower in the agreement?,nabors industries inc,1,0,0
+163,What company is the borrower in the agreement?,commvault systems inc,1,0,0
+163,What company is the lenders in the agreement?,commvault systems inc,1,0,0
+163,What company is the issuing bank in the agreement?,jpmorgan chase bank na,1,0,0
+163,What company is the administrative agent in the agreement?,jpmorgan chase bank na,1,0,0
+163,What company is the sole bookrunner in the agreement?,jpmorgan chase bank na,1,0,0
+163,What company is the swingline lender in the agreement?,jpmorgan chase bank na,1,0,0
+163,What company is the lender in the agreement?,jpmorgan chase bank na,1,0,0
+163,What company is the bookrunner in the agreement?,jpmorgan chase bank na,1,0,0
+89,What company is the administrative agent in the agreement?,jpmorgan chase bank,1,0,0
+62,What company is the arranger in the agreement?,td securities usa llc,1,0,0
+62,What company is the bookrunner in the agreement?,td securities usa llc,1,0,0
+62,What company is the lender in the agreement?,the toronto dominion bank new york branch,1,0,0
+62,What company is the agent in the agreement?,toronto dominion texas llc,1,0,0
+62,What company is the administrative agent in the agreement?,toronto dominion texas llc,1,0,0
+62,What company is the borrower in the agreement?,michigan electric transmission company llc,1,0,0
+76,What company is the counsel to the borrower in the agreement?,omelveny and myers llp,1,0,0
+76,What company is the administrative agent in the agreement?,morgan stanley senior funding inc,1,0,0
+76,What company is the collateral agent in the agreement?,morgan stanley senior funding inc,1,0,0
+76,What company is the borrower in the agreement?,microsemi corporation,1,0,0
+8,What company is the guarantor in the agreement?,arc real estate partners llc,1,0,0
+8,What company is the joint bookrunners in the agreement?,wells fargo securities llc,1,0,0
+8,What company is the joint bookrunner in the agreement?,wells fargo securities llc,1,0,0
+8,What company is the bookrunner in the agreement?,wells fargo securities llc,1,0,0
+8,What company is the lender in the agreement?,wellsfargobanknationalassociation,1,0,0
+8,What company is the agent in the agreement?,wells fargo bank national association,1,0,0
+8,What company is the administrative agent in the agreement?,wells fargo bank national association,1,0,0
+72,What company is the legal counsel in the agreement?,brown rudnick llp,1,0,0
+72,What company is the administrative agent in the agreement?,citibank,1,0,0
+72,What company is the initial borrower in the agreement?,stanley blackand decker inc,1,0,0
+66,What company is the revolver in the agreement?,citibank na,1,0,0
+66,What company is the agent in the agreement?,wells fargo bank national association,1,0,0
+66,What company is the borrower in the agreement?,icu medical inc,1,0,0
+99,What company is the guarantors in the agreement?,the subsidiary guarantors named herein,1,0,0
+99,What company is the swing line bank in the agreement?,wellsfargobanknationalassociation,1,0,0
+99,What company is the bank in the agreement?,wellsfargobanknationalassociation,1,0,0
+167,What company is the sole book manager in the agreement?,bank of america merrill lynch,1,0,0
+167,What company is the sole lead arranger in the agreement?,bank of america merrill lynch,1,0,0
+167,What company is the administrative agent in the agreement?,bank of america na,1,0,0
+167,What company is the swingline lender in the agreement?,bank of america na,1,0,0
+167,What company is the lender in the agreement?,bank of america na,1,0,0
+167,What company is the l c issuer in the agreement?,bank of america na,1,0,0
+167,What company is the borrower in the agreement?,powell industries inc,1,0,0
+98,What company is the lenders in the agreement?,jpmorgan chase bank,1,0,0
+98,What company is the syndication agent in the agreement?,jpmorgan chase bank na,1,0,0
+98,What company is the joint lead arrangers in the agreement?,merrill lynch pierce fennerand smith incorporated,1,0,0
+98,What company is the administrative agent and lender in the agreement?,bank of america,1,0,0
+166,What company is the mortgagor in the agreement?,novelis corporation,1,0,0
+166,What company is the holdings in the agreement?,av metals inc,1,0,0
+166,What company is the borrower in the agreement?,novelis inc,1,0,0
+166,What company is the administrative agent in the agreement?,standard chartered bank,1,0,0
+166,What company is the collateral agent in the agreement?,standard chartered bank,1,0,0
+67,What company is the legal counsel in the agreement?,lathamand watkins llp,1,0,0
+67,What company is the agent in the agreement?,biopharma credit plc,1,0,0
+67,What company is the collateral agent in the agreement?,biopharma credit plc,1,0,0
+67,What company is the borrower in the agreement?,coherus biosciences inc,1,0,0
+67,What company is the issuer in the agreement?,coherus biosciences inc,1,0,0
+73,What company is the borrower in the agreement?,nexstar broadcasting inc,1,0,0
+73,What company is the holding company in the agreement?,nexstar media group inc,1,0,0
+73,What company is the l c issuer in the agreement?,bank of america,1,0,0
+73,What company is the administrative agent in the agreement?,bank of america,1,0,0
+73,What company is the swing line lender in the agreement?,bank of america,1,0,0
+73,What company is the collateral agent in the agreement?,bank of america,1,0,0
+9,What company is the co documentation agents in the agreement?,the royal bank of scotland plc,1,0,0
+59,What company is the borrower in the agreement?,the andersons inc,1,0,0
+59,What company is the administrative agent in the agreement?,us bank national association,1,0,0
+59,What company is the lc issuer in the agreement?,us bank national association,1,0,0
+59,What company is the agent in the agreement?,us bank national association,1,0,0
+65,What company is the collateral trustee in the agreement?,citizens bank,1,0,0
+65,What company is the trustee in the agreement?,citizens bank,1,0,0
+65,What company is the rating agency in the agreement?,standardand poors financial services llc,1,0,0
+65,What company is the l c issuer in the agreement?,citizens bank na,1,0,0
+65,What company is the administrative agent in the agreement?,citizens bank na,1,0,0
+65,What company is the agent in the agreement?,citizens bank na,1,0,0
+65,What company is the issuer in the agreement?,citizens bank na,1,0,0
+65,What company is the borrower in the agreement?,mohegan tribal gaming authority,1,0,0
+71,What company is the counsel to the borrower in the agreement?,alstonand bird llp,1,0,0
+71,What company is the administrative agent in the agreement?,bank of america,1,0,0
+71,What company is the arranger in the agreement?,bank of america merrill lynch,1,0,0
+71,What company is the bookrunner in the agreement?,bank of america merrill lynch,1,0,0
+71,What company is the sole lead arranger in the agreement?,bank of america merrill lynch,1,0,0
+71,What company is the sole bookrunner in the agreement?,bank of america merrill lynch,1,0,0
+71,What company is the borrower in the agreement?,total system services inc,1,0,0
+164,What company is the lead arrangers in the agreement?,suntrust robinson humphrey inc,1,0,0
+164,What company is the the lenders in the agreement?,jack henry and associates inc,1,0,0
+164,What company is the administrative agent in the agreement?,us bank national association,1,0,0
+164,What company is the lc issuer in the agreement?,us bank national association,1,0,0
+170,What company is the l c issuer in the agreement?,bank of america na,1,0,0
+170,What company is the co syndication agent in the agreement?,bank of america na,1,0,0
+170,What company is the borrower in the agreement?,starbucks corporation,1,0,0
+158,What company is the lead arranger in the agreement?,bofa securities inc,1,0,0
+158,What company is the bookrunner in the agreement?,bofa securities inc,1,0,0
+158,What company is the sole lead arranger in the agreement?,bofa securities inc,1,0,0
+158,What company is the sole bookrunner in the agreement?,bofa securities inc,1,0,0
+158,What company is the borrower in the agreement?,dt media,1,0,0
+158,What company is the administrative agent in the agreement?,bank of america na,1,0,0
+158,What company is the swingline lender in the agreement?,bank of america na,1,0,0
+158,What company is the lender in the agreement?,bank of america na,1,0,0
+158,What company is the l c issuer in the agreement?,bank of america na,1,0,0
+159,What company is the portfolio manager in the agreement?,msc income fund inc,1,0,0
+159,What company is the borrower in the agreement?,msif funding llc,1,0,0
+159,What company is the collateral agent lenders in the agreement?,msif funding llc,1,0,0
+159,What company is the lenders in the agreement?,msif funding llc,1,0,0
+159,What company is the securities intermediary party lenders in the agreement?,msif funding llc,1,0,0
+159,What company is the company in the agreement?,msif funding llc,1,0,0
+159,What company is the collateral administrator lenders in the agreement?,msif funding llc,1,0,0
+159,What company is the collateral administrator in the agreement?,us bank national association,1,0,0
+159,What company is the securities intermediary in the agreement?,us bank national association,1,0,0
+159,What company is the collateral agent in the agreement?,us bank national association,1,0,0
+159,What company is the administrative agent in the agreement?,jpmorgan chase bank,1,0,0
+159,What company is the lender in the agreement?,jpmorgan chase bank,1,0,0
+165,What company is the joint lead arrangers in the agreement?,merrill lynch pierce fennerand smith incorporated jpmorgan chase bank na,1,0,0
+165,What company is the syndication agent in the agreement?,jpmorgan chase bank na,1,0,0
+165,What company is the joint bookrunners in the agreement?,mizuho bank ltd,1,0,0
+165,What company is the administrative agent in the agreement?,bank of america na,1,0,0
+165,What company is the lenders in the agreement?,conagra brands inc,1,0,0
+165,What company is the company in the agreement?,conagra brands inc,1,0,0
+70,What company is the parent in the agreement?,greenbacker renewable energy company llc,1,0,0
+70,What company is the intermediate holdco in the agreement?,greenbacker renewable energy corporation,1,0,0
+70,What company is the arranger in the agreement?,fifth third bank,1,0,0
+70,What company is the administrative agent in the agreement?,fifth third bank,1,0,0
+70,What company is the bookrunner in the agreement?,fifth third bank,1,0,0
+70,What company is the borrower in the agreement?,grec entity holdco llc,1,0,0
+70,What company is the subsidiaries borrower in the agreement?,grec entity holdco llc,1,0,0
+64,What company is the borrower in the agreement?,affirm inc,1,0,0
+64,What company is the administrative agent in the agreement?,morgan stanley senior fundinginc,1,0,0
+58,What company is the counsel in the agreement?,lathamand watkins llp,1,0,0
+58,What company is the agent in the agreement?,hcr collateral management llc,1,0,0
+58,What company is the administrative agent in the agreement?,hcr collateral management llc,1,0,0
+58,What company is the borrower in the agreement?,coherus biosciences inc,1,0,0
+41,What company is the arranger in the agreement?,citizens bank na,1,0,0
+41,What company is the administrative agent in the agreement?,citizens bank na,1,0,0
+41,What company is the lead arranger in the agreement?,citizens bank na,1,0,0
+41,What company is the bookrunner in the agreement?,citizens bank na,1,0,0
+41,What company is the borrower in the agreement?,trc companies inc,1,0,0
+7,What company is the administrative agent in the agreement?,mutual of omaha bank,1,0,0
+7,What company is the lender in the agreement?,mutual of omaha bank,1,0,0
+7,What company is the l c issuer in the agreement?,mutual of omaha bank,1,0,0
+7,What company is the borrower in the agreement?,samson oil and gas usa inc,1,0,0
+55,What company is the special counsel for the borrower in the agreement?,simpson thacher and bartlett llp,1,0,0
+55,What company is the purchaser in the agreement?,gso capital partners lp,1,0,0
+55,What company is the borrower in the agreement?,k hovnanian enterprises inc,1,0,0
+55,What company is the agent in the agreement?,wilmington trust national association,1,0,0
+55,What company is the administrative agent in the agreement?,wilmington trust national association,1,0,0
+55,What company is the holdings in the agreement?,hovnanian enterprises inc,1,0,0
+69,What company is the arranger in the agreement?,keybanc capital markets,1,0,0
+69,What company is the guarantors in the agreement?,mvp real estate holdings llc,1,0,0
+69,What company is the borrower in the agreement?,mvp reit ii operating partnership lp,1,0,0
+69,What company is the agent in the agreement?,keybank national association,1,0,0
+69,What company is the administrative agent in the agreement?,keybank national association,1,0,0
+69,What company is the parent guarantor in the agreement?,the parking reit inc,1,0,0
+82,What company is the finnish counsel for the initial finnish borrower in the agreement?,bützow attorneys ltd,1,0,0
+82,What company is the us counsel for the initial borrowers in the agreement?,wilmer cutler pickering hale and dorr llp,1,0,0
+82,What company is the administrative agent in the agreement?,jpmorgan chase bank,1,0,0
+82,What company is the swingline lender in the agreement?,jpmorgan chase bank,1,0,0
+168,What company is the agent in the agreement?,citibank na,1,0,0
+168,What company is the borrower in the agreement?,stanley blackand decker inc,1,0,0
+96,What company is the co book managers in the agreement?,bokf na dba bank of albuquerque,1,0,0
+96,What company is the joint lead arrangers in the agreement?,us bank national association,1,0,0
+96,What company is the borrower in the agreement?,public service company of new mexico,1,0,0
+140,What company is the guarantor in the agreement?,wwtai airopco malta limited,1,0,0
+140,What company is the maltese guarantor in the agreement?,wwtai airopco malta limited,1,0,0
+140,What company is the arranger in the agreement?,morgan stanley senior funding inc,1,0,0
+140,What company is the administrative agent in the agreement?,morgan stanley senior funding inc,1,0,0
+140,What company is the lead arranger in the agreement?,morgan stanley senior funding inc,1,0,0
+140,What company is the lead bookrunner in the agreement?,morgan stanley senior funding inc,1,0,0
+140,What company is the lender in the agreement?,morgan stanley senior funding inc,1,0,0
+140,What company is the agent in the agreement?,morgan stanley senior funding inc,1,0,0
+154,What company is the borrower in the agreement?,edge systems llc,1,0,0
+154,What company is the administrative agent in the agreement?,jpmorgan chase bank na,1,0,0
+154,What company is the bookrunner in the agreement?,jpmorgan chase bank na,1,0,0
+154,What company is the sole lead arranger in the agreement?,jpmorgan chase bank na,1,0,0
+154,What company is the lender in the agreement?,jpmorgan chase bank na,1,0,0
+155,What company is the lenders in the agreement?,whitehawk finance llc,1,0,0
+155,What company is the borrower in the agreement?,boxlight corporation,1,0,0
+155,What company is the agent in the agreement?,whitehawk capital partners lp,1,0,0
+155,What company is the administrative agent in the agreement?,whitehawk capital partners lp,1,0,0
+155,What company is the collateral agent in the agreement?,whitehawk capital partners lp,1,0,0
+141,What company is the arranger in the agreement?,pnc capital markets llc,1,0,0
+141,What company is the lead arranger in the agreement?,pnc capital markets llc,1,0,0
+141,What company is the book runner in the agreement?,pnc capital markets llc,1,0,0
+141,What company is the parent in the agreement?,south jersey industries inc,1,0,0
+141,What company is the agent in the agreement?,pnc bank national association,1,0,0
+141,What company is the borrower in the agreement?,south jersey gas company,1,0,0
+169,What company is the lead arrangers in the agreement?,goldman sachs bank,1,0,0
+169,What company is the syndication agents in the agreement?,bank of america na,1,0,0
+169,What company is the agents in the agreement?,bank of america na,1,0,0
+169,What company is the book runner in the agreement?,wells fargo bank national association,1,0,0
+169,What company is the administrative agent in the agreement?,wells fargo bank national association,1,0,0
+169,What company is the parent in the agreement?,chiquita brands international inc,1,0,0
+97,What company is the agent in the agreement?,general electric capital corporation,1,0,0
+97,What company is the administrative agent in the agreement?,general electric capital corporation,1,0,0
+97,What company is the lender in the agreement?,general electric capital corporation,1,0,0
+83,What company is the l c issuer in the agreement?,jpmorgan chase bank na,1,0,0
+83,What company is the guarantor in the agreement?,western digital corporation,1,0,0
+83,What company is the holdings in the agreement?,western digital corporation,1,0,0
+83,What company is the us borrower in the agreement?,western digital technologies inc,1,0,0
+68,What company is the borrower in the agreement?,franklin street properties corp,1,0,0
+68,What company is the competitors borrower in the agreement?,franklin street properties corp,1,0,0
+68,What company is the administrative agent in the agreement?,bank of america na,1,0,0
+6,What company is the borrower in the agreement?,hines reit one wilshire lp,1,0,0
+6,What company is the lender in the agreement?,bank of china,1,0,0
+54,What company is the lender in the agreement?,jpmorgan chase bank,1,0,0
+54,What company is the borrower in the agreement?,2018 1 ih borrower lp,1,0,0
+40,What company is the issuing bank in the agreement?,jpmorgan chase bank na,1,0,0
+40,What company is the borrower in the agreement?,national general holdings corp,1,0,0
+56,What company is the sponsor in the agreement?,access industries inc,1,0,0
+56,What company is the borrower in the agreement?,wmg acquisition corp,1,0,0
+4,What company is the syndication agent in the agreement?,p morgan securities llc,1,0,0
+4,What company is the holdings in the agreement?,bright horizons capital corp,1,0,0
+4,What company is the borrower in the agreement?,bright horizons family solutions llc,1,0,0
+4,What company is the l c issuer in the agreement?,goldman sachs bank usa,1,0,0
+4,What company is the administrative agent in the agreement?,goldman sachs bank usa,1,0,0
+4,What company is the swing line lender in the agreement?,goldman sachs bank usa,1,0,0
+42,What company is the arranger in the agreement?,merrill lynch pierce fennerand smith,1,0,0
+42,What company is the bookrunner in the agreement?,merrill lynch pierce fennerand smith,1,0,0
+42,What company is the borrower in the agreement?,panera bread company,1,0,0
+42,What company is the administrative agent in the agreement?,bank of america na,1,0,0
+95,What company is the arranger in the agreement?,merrill lynch pierce fenner and smith incorporated,1,0,0
+95,What company is the lead arranger in the agreement?,merrill lynch pierce fenner and smith incorporated,1,0,0
+95,What company is the bookmanager in the agreement?,merrill lynch pierce fenner and smith incorporated,1,0,0
+95,What company is the borrower in the agreement?,omega healthcare investors inc,1,0,0
+95,What company is the credit parties in the agreement?,omega healthcare investors inc,1,0,0
+95,What company is the agent in the agreement?,bank of america na,1,0,0
+95,What company is the administrative agent in the agreement?,bank of america na,1,0,0
+95,What company is the lender in the agreement?,bank of america na,1,0,0
+81,What company is the lender in the agreement?,keltic financial partners ii lp,1,0,0
+157,What company is the senior lender in the agreement?,frost bank,1,0,0
+157,What company is the lender in the agreement?,frost bank,1,0,0
+157,What company is the borrower in the agreement?,micropac industries inc,1,0,0
+143,What company is the syndication agent in the agreement?,citizens bank national association,1,0,0
+143,What company is the sponsor in the agreement?,rc ii ws llc,1,0,0
+143,What company is the documentation agent in the agreement?,fifth third bank,1,0,0
+143,What company is the joint book runners in the agreement?,fifth third bank,1,0,0
+143,What company is the agent in the agreement?,wells fargo bank national association,1,0,0
+143,What company is the administrative agent in the agreement?,wells fargo bank national association,1,0,0
+143,What company is the borrower in the agreement?,wingstop inc,1,0,0
+142,What company is the joint lead arranger in the agreement?,jpmorgan chase bank,1,0,0
+142,What company is the sole bookmanager in the agreement?,jpmorgan chase bank,1,0,0
+142,What company is the agent in the agreement?,jpmorgan chase bank na,1,0,0
+142,What company is the administrative agent in the agreement?,jpmorgan chase bank na,1,0,0
+142,What company is the borrower in the agreement?,columbia pipeline group inc,1,0,0
+142,What company is the guarantor in the agreement?,transcanada pipelines limited,1,0,0
+156,What company is the lende in the agreement?,jpmorgan chase bank na,1,0,0
+156,What company is the bookrunners in the agreement?,bnp paribas,1,0,0
+156,What company is the administrative borrower in the agreement?,viavi solutions inc,1,0,0
+156,What company is the administrative agent in the agreement?,wells fargo bank national association,1,0,0
+156,What company is the lead arranger in the agreement?,wells fargo bank national association,1,0,0
+156,What company is the lead arrangers in the agreement?,wells fargo bank national association,1,0,0
+156,What company is the agent in the agreement?,wells fargo bank national association,1,0,0
+156,What company is the bookrunner in the agreement?,wells fargo bank national association,1,0,0
+156,What company is the security agent in the agreement?,wells fargo bank national association,1,0,0
+80,What company is the sole book manager in the agreement?,wells fargo securities llc,1,0,0
+80,What company is the administrative agent in the agreement?,wells fargo bank national association,1,0,0
+80,What company is the swingline lender in the agreement?,wells fargo bank national association,1,0,0
+80,What company is the issuing lender in the agreement?,wells fargo bank national association,1,0,0
+80,What company is the borrower in the agreement?,cree inc,1,0,0
+80,What company is the guarantor in the agreement?,e conolight llc,1,0,0
+94,What company is the administrative agent in the agreement?,jefferies finance llc,1,0,0
+94,What company is the collatera agent in the agreement?,jefferies finance llc,1,0,0
+94,What company is the bank in the agreement?,pnc bank national association,1,0,0
+94,What company is the borrower in the agreement?,salix pharmaceuticals ltd,1,0,0
+43,What company is the administrative agent in the agreement?,bank of america,1,0,0
+43,What company is the borrower in the agreement?,k12 inc,1,0,0
+57,What company is the buyer in the agreement?,ce receivables llc,1,0,0
+57,What company is the servicer in the agreement?,celanese international corporation,1,0,0
+57,What company is the holdings in the agreement?,celanese corporation,1,0,0
+57,What company is the company in the agreement?,celanese us holdings llc,1,0,0
+5,What company is the joint lead arranger in the agreement?,merrill lynch pierce fenner and smith incorporated,1,0,0
+5,What company is the bookrunner in the agreement?,merrill lynch pierce fenner and smith incorporated,1,0,0
+5,What company is the lead arranger in the agreement?,merrill lynch pierce fenner and smith incorporated,1,0,0
+5,What company is the sole bookrunner in the agreement?,merrill lynch pierce fenner and smith incorporated,1,0,0
+5,What company is the subsidiaries guarantors in the agreement?,acadia realty limited partnership,1,0,0
+5,What company is the guarantors in the agreement?,acadia realty limited partnership,1,0,0
+5,What company is the administrative agent in the agreement?,bank of america na,1,0,0
+5,What company is the lender in the agreement?,bank of america na,1,0,0
+5,What company is the l c issuer in the agreement?,bank of america na,1,0,0
+5,What company is the swing line lender in the agreement?,bank of america na,1,0,0
+1,What company is the arranger in the agreement?,bank of america na,1,0,0
+1,What company is the lenders in the agreement?,bank of america na,1,0,0
+1,What company is the administrative agent in the agreement?,bank of america na,1,0,0
+1,What company is the lead arranger in the agreement?,bank of america na,1,0,0
+1,What company is the lender in the agreement?,bank of america na,1,0,0
+1,What company is the bookrunner in the agreement?,bank of america na,1,0,0
+1,What company is the borrower in the agreement?,franklin resources inc,1,0,0
+53,What company is the agent in the agreement?,cadence bank,1,0,0
+53,What company is the lender in the agreement?,cadence bank,1,0,0
+53,What company is the l c issuer in the agreement?,cadence bank,1,0,0
+53,What company is the holdings in the agreement?,jamba inc,1,0,0
+53,What company is the guarantors in the agreement?,jamba juice advertising fund inc,1,0,0
+53,What company is the borrower in the agreement?,jamba juice company,1,0,0
+47,What company is the guarantors in the agreement?,lung biotechnology pbc,1,0,0
+47,What company is the borrower in the agreement?,united therapeutics corporation,1,0,0
+47,What company is the administrative agent in the agreement?,wells fargo bank national association,1,0,0
+146,What company is the administrative agent in the agreement?,citibank,1,0,0
+146,What company is the lender in the agreement?,citibank,1,0,0
+146,What company is the borrower in the agreement?,bcred castle peak funding llc,1,0,0
+146,What company is the collateral manager in the agreement?,blackstone private credit fund,1,0,0
+146,What company is the equityholder in the agreement?,blackstone private credit fund,1,0,0
+146,What company is the sole member in the agreement?,blackstone private credit fund,1,0,0
+90,What company is the special new york counsel to the borrowers in the agreement?,cravath swaine and moore llp,1,0,0
+90,What company is the dutch borrower in the agreement?,ashland services bv,1,0,0
+90,What company is the administrative agent in the agreement?,the bank of nova scotia,1,0,0
+90,What company is the l c issuer in the agreement?,the bank of nova scotia,1,0,0
+90,What company is the swing line lender in the agreement?,the bank of nova scotia,1,0,0
+90,What company is the borrower in the agreement?,ashland llc,1,0,0
+84,What company is the documentation agent in the agreement?,deutsche bank securities inc,1,0,0
+84,What company is the joint lead arrangers in the agreement?,merrill lynch pierce fennerand smith incorporated,1,0,0
+84,What company is the joint book managers in the agreement?,merrill lynch pierce fennerand smith incorporated,1,0,0
+84,What company is the l c issuer in the agreement?,keybank national association,1,0,0
+84,What company is the administrative agent in the agreement?,keybank national association,1,0,0
+84,What company is the swingline lender in the agreement?,keybank national association,1,0,0
+84,What company is the lc issuer in the agreement?,keybank national association,1,0,0
+85,What company is the counsel to borrowers in the agreement?,proskauer rose llp,1,0,0
+85,What company is the agent in the agreement?,bank of america,1,0,0
+85,What company is the lender in the agreement?,bank of america,1,0,0
+91,What company is the borrower in the agreement?,earthstone energy inc,1,0,0
+147,What company is the administrative agent in the agreement?,jpmorgan chase bank na,1,0,0
+147,What company is the a l c issuer in the agreement?,jpmorgan chase bank na,1,0,0
+147,What company is the agent in the agreement?,jpmorgan chase bank,1,0,0
+147,What company is the co borrower in the agreement?,ppd development lp,1,0,0
+153,What company is the borrower in the agreement?,avid technology inc,1,0,0
+153,What company is the swingline lender in the agreement?,jpmorgan chase bank na,1,0,0
+153,What company is the agent in the agreement?,jpmorgan chase bank na,1,0,0
+46,What company is the borrower in the agreement?,mvc capitalinc,1,0,0
+46,What company is the legal counsel borrower in the agreement?,mvc capitalinc,1,0,0
+46,What company is the agent in the agreement?,santander bank na,1,0,0
+52,What company is the servicing agent in the agreement?,citibank na,1,0,0
+52,What company is the borrower in the agreement?,clorox company,1,0,0
+78,What company is the administrative agent in the agreement?,heartland bank,1,0,0
+78,What company is the borrower in the agreement?,lilis energy inc,1,0,0
+44,What company is the administrative agent in the agreement?,bank of america,1,0,0
+44,What company is the swing line lender lender in the agreement?,bank of america,1,0,0
+44,What company is the l c issuer in the agreement?,bank of america,1,0,0
+50,What company is the borrower in the agreement?,myriad genetics inc,1,0,0
+50,What company is the administrative agent in the agreement?,jpmorgan chase bank na,1,0,0
+50,What company is the swingline lender in the agreement?,jpmorgan chase bank na,1,0,0
+2,What company is the syndication agent in the agreement?,bofa securities inc,1,0,0
+2,What company is the administrative agent in the agreement?,wells fargo bank national association,1,0,0
+2,What company is the borrower in the agreement?,dicks sporting goods inc,1,0,0
+145,What company is the member in the agreement?,ami holdings llc,1,0,0
+145,What company is the sub advisor in the agreement?,apollo capital management lp,1,0,0
+145,What company is the portfolio manager in the agreement?,apollo management international llp,1,0,0
+145,What company is the lender in the agreement?,apollo credit strategies master fund ltd,1,0,0
+145,What company is the holdings in the agreement?,new fortress intermediate llc,1,0,0
+145,What company is the borrower in the agreement?,nfe atlantic holdings llc,1,0,0
+145,What company is the administrative agent in the agreement?,cortland capital market services llc,1,0,0
+145,What company is the collateral agent in the agreement?,cortland capital market services llc,1,0,0
+151,What company is the swing line lenders in the agreement?,bank of america na barclays bank plc and jpmorgan chase bank na,1,0,0
+151,What company is the l c issuers in the agreement?,bank of america na barclays bank plc citibank na jpmorgan chase bank na and mizuho bank ltd,1,0,0
+151,What company is the counsel to the company in the agreement?,wilmer cutler pickering hale and dorr llp,1,0,0
+151,What company is the borrowers in the agreement?,thermo fisher scientific inc,1,0,0
+151,What company is the administrative agent in the agreement?,bank of america,1,0,0
+87,What company is the legal counsel in the agreement?,morgan lewisand bockius llp,1,0,0
+87,What company is the administrative agent in the agreement?,bank of america,1,0,0
+87,What company is the guarantor in the agreement?,afi licensing llc,1,0,0
+87,What company is the borrower in the agreement?,armstrongflooringinc,1,0,0
+93,What company is the bank in the agreement?,comerica bank,1,0,0
+92,What company is the borrower in the agreement?,pernix therapeutics holdings inc,1,0,0
+86,What company is the arranger in the agreement?,merrill lynch pierce fennerand smith incorporated,1,0,0
+86,What company is the manager in the agreement?,merrill lynch pierce fennerand smith incorporated,1,0,0
+86,What company is the borrower in the agreement?,lifelock inc,1,0,0
+86,What company is the swinglinelender in the agreement?,bank of america,1,0,0
+86,What company is the administrative agent in the agreement?,bank of america,1,0,0
+86,What company is the l cissuer in the agreement?,bank of america,1,0,0
+150,What company is the fronting lender in the agreement?,credit suisse loan funding llc,1,0,0
+150,What company is the borrower in the agreement?,national cinemedia llc,1,0,0
+150,What company is the administrative agent in the agreement?,wilmington savings fund society fsb,1,0,0
+150,What company is the collateral agent in the agreement?,wilmington savings fund society fsb,1,0,0
+144,What company is the investment manager in the agreement?,apollo capital management lp,1,0,0
+144,What company is the advisor in the agreement?,apollo investment management lp,1,0,0
+144,What company is the agent in the agreement?,midcap financial trust,1,0,0
+51,What company is the co manager in the agreement?,ing capital llc,1,0,0
+51,What company is the joint lead arrangers in the agreement?,morgan stanley senior funding inc,1,0,0
+51,What company is the lender in the agreement?,morgan stanley senior funding inc,1,0,0
+51,What company is the borrower in the agreement?,calpine corporation,1,0,0
+3,What company is the issuer in the agreement?,summit nci master trs inc,1,0,0
+3,What company is the syndication agent in the agreement?,wells fargo bank national association,1,0,0
+3,What company is the administrative agent in the agreement?,bank of america na,1,0,0
+45,What company is the borrower in the agreement?,pinnacle bank,1,0,0
+45,What company is the lender in the agreement?,us bank national association,1,0,0
+45,What company is the counsel to lender lender in the agreement?,us bank national association,1,0,0
+79,What company is the administrative agent in the agreement?,wells fargo bank national association,1,0,0
+79,What company is the lenders in the agreement?,wells fargo bank national association,1,0,0
+79,What company is the borrower in the agreement?,select income reit,1,0,0
+22,What company is the agent in the agreement?,wells fargo bank national association,1,0,0
+22,What company is the runner in the agreement?,jpmorgan chase bank na,1,0,0
+22,What company is the borrower in the agreement?,oil states international inc,1,0,0
+22,What company is the counsel to borrowers borrower in the agreement?,oil states international inc,1,0,0
+36,What company is the arranger in the agreement?,morgan stanley senior funding inc,1,0,0
+36,What company is the administrative agent in the agreement?,morgan stanley senior funding inc,1,0,0
+36,What company is the lead arranger in the agreement?,morgan stanley senior funding inc,1,0,0
+36,What company is the lender in the agreement?,morgan stanley senior funding inc,1,0,0
+36,What company is the agent in the agreement?,morgan stanley senior funding inc,1,0,0
+36,What company is the bookrunner in the agreement?,morgan stanley senior funding inc,1,0,0
+36,What company is the collateral agent in the agreement?,morgan stanley senior funding inc,1,0,0
+36,What company is the borrower in the agreement?,silicon graphics international corp,1,0,0
+123,What company is the administrative agent in the agreement?,jpmorgan chase bank na,1,0,0
+123,What company is the borrower in the agreement?,newell rubbermaid inc,1,0,0
+137,What company is the guarantors in the agreement?,summit hospitality 082 llc,1,0,0
+137,What company is the borrower in the agreement?,summit hotel op lp,1,0,0
+137,What company is the parent guarantor in the agreement?,summit hotel properties inc,1,0,0
+137,What company is the administrative agent in the agreement?,deutsche bank ag new york branch,1,0,0
+136,What company is the borrower in the agreement?,ahr first borrower llc,1,0,0
+136,What company is the lender in the agreement?,b2r finance lp,1,0,0
+122,What company is the administrative agent in the agreement?,citibank na,1,0,0
+37,What company is the l c issuer in the agreement?,bank of america na,1,0,0
+37,What company is the administrative agent in the agreement?,bank of america na,1,0,0
+37,What company is the agent in the agreement?,bank of america na,1,0,0
+23,What company is the administrative agent in the agreement?,keybank national association,1,0,0
+23,What company is the collateral agent in the agreement?,silicon valley bank,1,0,0
+23,What company is the borrower in the agreement?,sunrun inc,1,0,0
+35,What company is the administrative agent in the agreement?,jpmorgan chase bank na,1,0,0
+35,What company is the agent in the agreement?,jpmorgan chase bank na,1,0,0
+35,What company is the borrower in the agreement?,hess corporation,1,0,0
+21,What company is the ally representative in the agreement?,ally bank,1,0,0
+21,What company is the l c issuer in the agreement?,ally bank,1,0,0
+21,What company is the holdings topco in the agreement?,ld topco inc,1,0,0
+21,What company is the agent in the agreement?,wilmington trust national association,1,0,0
+21,What company is the administrative agent in the agreement?,wilmington trust national association,1,0,0
+21,What company is the collateral agent in the agreement?,wilmington trust national association,1,0,0
+21,What company is the borrower in the agreement?,ld lower holdings inc,1,0,0
+108,What company is the accountants in the agreement?,deloitte and touche llp,1,0,0
+108,What company is the bookrunners in the agreement?,pnc capital markets llc,1,0,0
+108,What company is the joint bookrunners in the agreement?,pnc capital markets llc,1,0,0
+108,What company is the joint lead arrangers in the agreement?,regions capital markets,1,0,0
+108,What company is the arrangers in the agreement?,regions capital markets,1,0,0
+108,What company is the administrative agent in the agreement?,pnc bank national association,1,0,0
+134,What company is the guarantors in the agreement?,guarantors party,1,0,0
+134,What company is the arranger in the agreement?,jp morgan securities llc,1,0,0
+134,What company is the lead arranger in the agreement?,jp morgan securities llc,1,0,0
+134,What company is the bookrunning manager in the agreement?,jp morgan securities llc,1,0,0
+134,What company is the holdings in the agreement?,stockbridge sbe investment company llc,1,0,0
+134,What company is the borrower in the agreement?,stockbridge sbe holdings llc,1,0,0
+134,What company is the issuing bank in the agreement?,jpmorgan chase bank na,1,0,0
+134,What company is the administrative agent in the agreement?,jpmorgan chase bank na,1,0,0
+134,What company is the collateral agent in the agreement?,jpmorgan chase bank na,1,0,0
+120,What company is the syndication agents in the agreement?,jpmorgan chase bank na and bank of america na,1,0,0
+120,What company is the joint lead arrangers in the agreement?,merrill lynch pierce fennerand smith incorporated,1,0,0
+120,What company is the arrangers in the agreement?,merrill lynch pierce fennerand smith incorporated,1,0,0
+120,What company is the arranger in the agreement?,wells fargo securities llc,1,0,0
+120,What company is the sole lead arranger in the agreement?,wells fargo securities llc,1,0,0
+120,What company is the sole bookrunner in the agreement?,wells fargo securities llc,1,0,0
+120,What company is the administrative agent in the agreement?,wells fargo bank national association,1,0,0
+120,What company is the borrower in the agreement?,equity commonwealth,1,0,0
+121,What company is the administrative agent in the agreement?,jpmorgan chase bank na,1,0,0
+121,What company is the co syndication agent in the agreement?,jpmorgan chase bank na,1,0,0
+121,What company is the lender in the agreement?,regal beloit corporation,1,0,0
+135,What company is the joint bookrunner in the agreement?,merrill lynch pierce fennerand smith incorporated,1,0,0
+135,What company is the ratings agency in the agreement?,standardand poors ratings services,1,0,0
+135,What company is the borrower in the agreement?,plains all american pipeline lp,1,0,0
+135,What company is the administrative agent in the agreement?,bank of america na,1,0,0
+109,What company is the bank in the agreement?,first commonwealth bank,1,0,0
+109,What company is the borrowers in the agreement?,liberated syndication inc,1,0,0
+20,What company is the arranger in the agreement?,bmo capital markets corp,1,0,0
+20,What company is the sole lead arranger arranger in the agreement?,bmo capital markets corp,1,0,0
+20,What company is the administrative agent in the agreement?,bank of montreal chicago branch,1,0,0
+20,What company is the lender in the agreement?,bank of montreal chicago branch,1,0,0
+34,What company is the manager in the agreement?,itc holdings corp,1,0,0
+34,What company is the sole manager in the agreement?,itc holdings corp,1,0,0
+34,What company is the arranger in the agreement?,goldman sachs bank usa,1,0,0
+34,What company is the administrative agent in the agreement?,goldman sachs bank usa,1,0,0
+34,What company is the sole bookrunner in the agreement?,goldman sachs bank usa,1,0,0
+34,What company is the sole lead arranger in the agreement?,goldman sachs bank usa,1,0,0
+34,What company is the lender in the agreement?,goldman sachs bank usa,1,0,0
+34,What company is the agent in the agreement?,goldman sachs bank usa,1,0,0
+34,What company is the bookrunner in the agreement?,goldman sachs bank usa,1,0,0
+34,What company is the borrower in the agreement?,michigan electric transmission company llc,1,0,0
+18,What company is the documentation agent in the agreement?,capital one national association,1,0,0
+18,What company is the syndication agent in the agreement?,regions bank,1,0,0
+18,What company is the borrower in the agreement?,black creek diversified property operating partnership lp,1,0,0
+18,What company is the administrative agent in the agreement?,wells fargo bank national association,1,0,0
+30,What company is the arranger in the agreement?,wells fargo securities llc,1,0,0
+30,What company is the lead arranger in the agreement?,wells fargo securities llc,1,0,0
+30,What company is the syndication agent in the agreement?,wells fargo securities llc,1,0,0
+30,What company is the borrower in the agreement?,quanex building products corporation,1,0,0
+30,What company is the lender in the agreement?,wells fargo bank national association,1,0,0
+24,What company is the sole general partner in the agreement?,columbia property trust operating partnership lp,1,0,0
+24,What company is the general partner in the agreement?,columbia property trust operating partnership lp,1,0,0
+24,What company is the joint lead arranger in the agreement?,jpmorgan chase bank na,1,0,0
+24,What company is the loan and agency services group agent in the agreement?,jpmorgan chase bank na,1,0,0
+24,What company is the lead arranger in the agreement?,jpmorgan chase bank na,1,0,0
+24,What company is the sole bookrunner in the agreement?,jpmorgan chase bank na,1,0,0
+24,What company is the bookrunner in the agreement?,jpmorgan chase bank na,1,0,0
+131,What company is the borrower in the agreement?,bcred maroon peak funding llc,1,0,0
+131,What company is the agent in the agreement?,morgan stanley senior funding inc,1,0,0
+131,What company is the administrative agent in the agreement?,morgan stanley senior funding inc,1,0,0
+131,What company is the collateral agent in the agreement?,us bank national association,1,0,0
+131,What company is the lender in the agreement?,morgan stanley bank na,1,0,0
+125,What company is the arranger in the agreement?,us bank national association,1,0,0
+125,What company is the administrative agent in the agreement?,us bank national association,1,0,0
+125,What company is the lead arranger in the agreement?,us bank national association,1,0,0
+125,What company is the book manager in the agreement?,us bank national association,1,0,0
+125,What company is the agent in the agreement?,us bank national association,1,0,0
+125,What company is the borrower in the agreement?,public service company of new mexico,1,0,0
+119,What company is the borrower in the agreement?,vaalco gabon etame inc,1,0,0
+118,What company is the syndication agent in the agreement?,barclays bank plc,1,0,0
+118,What company is the l c issuer in the agreement?,wells fargo bank national association,1,0,0
+118,What company is the revolving credit lender in the agreement?,wells fargo bank national association,1,0,0
+118,What company is the swing line lender in the agreement?,wells fargo bank national association,1,0,0
+118,What company is the lender in the agreement?,wells fargo bank national association,1,0,0
+118,What company is the borrower in the agreement?,post holdings inc,1,0,0
+124,What company is the administrative agent in the agreement?,citizens bank na,1,0,0
+124,What company is the borrower in the agreement?,monro muffler brake inc,1,0,0
+130,What company is the guarantor in the agreement?,murphy usa,1,0,0
+130,What company is the revolving administrative agent in the agreement?,jpmorgan chase bank na,1,0,0
+130,What company is the collateral agent in the agreement?,jpmorgan chase bank na,1,0,0
+25,What company is the agent in the agreement?,cortland capital market services llc,1,0,0
+25,What company is the administrative agent in the agreement?,cortland capital market services llc,1,0,0
+25,What company is the lenders in the agreement?,cortland capital market services llc,1,0,0
+25,What company is the collateral agent in the agreement?,cortland capital market services llc,1,0,0
+25,What company is the borrower in the agreement?,hunt companies finance trust inc,1,0,0
+25,What company is the initial lender in the agreement?,jefferies leveraged credit products llc,1,0,0
+25,What company is the lender in the agreement?,jefferies leveraged credit products llc,1,0,0
+31,What company is the euro swing lender in the agreement?,bank of america na,1,0,0
+19,What company is the arranger in the agreement?,rbc capital markets,1,0,0
+19,What company is the lead arranger in the agreement?,rbc capital markets,1,0,0
+19,What company is the bookrunner in the agreement?,rbc capital markets,1,0,0
+19,What company is the borrower in the agreement?,caseys general stores inc,1,0,0
+19,What company is the subsidiary borrower in the agreement?,caseys general stores inc,1,0,0
+19,What company is the issuing bank in the agreement?,royal bank of canada,1,0,0
+19,What company is the administrative agent in the agreement?,royal bank of canada,1,0,0
+33,What company is the syndication agent in the agreement?,jp morgan securities llc,1,0,0
+33,What company is the arranger in the agreement?,rbc capital markets llc,1,0,0
+33,What company is the joint lead arranger in the agreement?,rbc capital markets llc,1,0,0
+33,What company is the parent in the agreement?,ply gem holdings inc,1,0,0
+33,What company is the borrower in the agreement?,ply gem industries inc,1,0,0
+126,What company is the documentation agents in the agreement?,sumitomo mitsui banking corporation,1,0,0
+126,What company is the agent in the agreement?,citibank na,1,0,0
+126,What company is the borrower in the agreement?,jabil inc,1,0,0
+132,What company is the borrower in the agreement?,assetmark financial holdings inc,1,0,0
+132,What company is the agent in the agreement?,bank of montreal,1,0,0
+132,What company is the administrative agent in the agreement?,bank of montreal,1,0,0
+132,What company is the l c issuer in the agreement?,bank of montreal,1,0,0
+133,What company is the lead arranger in the agreement?,citibank,1,0,0
+133,What company is the sole book runner in the agreement?,citibank,1,0,0
+133,What company is the agency in the agreement?,standardand poors financial services llc,1,0,0
+133,What company is the rating agency in the agreement?,standardand poors financial services llc,1,0,0
+133,What company is the l c issuer in the agreement?,citibank na,1,0,0
+133,What company is the administrative agent in the agreement?,citibank na,1,0,0
+127,What company is the borrower in the agreement?,biogen inc,1,0,0
+127,What company is the lenders in the agreement?,bank of america na,1,0,0
+127,What company is the l c issuer in the agreement?,bank of america na,1,0,0
+127,What company is the administrative agent in the agreement?,bank of america na,1,0,0
+127,What company is the agent in the agreement?,bank of america na,1,0,0
+32,What company is the guarantor in the agreement?,chc group ltd,1,0,0
+32,What company is the parent guarantor in the agreement?,chc group ltd,1,0,0
+32,What company is the holdco in the agreement?,chc helicopter holding sàrl,1,0,0
+32,What company is the the company in the agreement?,6922767 holding sà rl,1,0,0
+32,What company is the borrower in the agreement?,chc helicopter sa,1,0,0
+32,What company is the subsidiaries borrower in the agreement?,chc helicopter sa,1,0,0
+32,What company is the initial borrower in the agreement?,chc helicopter sa,1,0,0
+32,What company is the bank in the agreement?,hsbc bank canada,1,0,0
+26,What company is the syndication agent in the agreement?,mufg bank ltd,1,0,0
+26,What company is the lenders in the agreement?,bristol myers squibb company,1,0,0

@@ -1,0 +1,204 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org1: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person: <http://example.org/person_name/> .
+@prefix position: <http://example.org/person_position/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+base:Location a rdfs:Class .
+
+base:Organization a rdfs:Class .
+
+base:Person a rdfs:Class .
+
+location_type:administrative_agents_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:administrative_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:ag_new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_management a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_services a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:assembly_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:business_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:cayman_islands_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:chief_executive_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:commercial_banking a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_customers_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:domestic_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:dublin_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:eurodollar_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:front_end_test_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:london_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:mexico_location_contract_manufacturing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:micro_building_and_corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:middle_market_servicing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:offsite_storage a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:opto_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:registered_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:rexford_industrial_realty_inc_11620_wilshire_boulevard_suite_1000_los_angeles_california_90025 a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:trade_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:zonal_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+loc:william_allen a base:Location .
+
+org1:citibank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arranger,
+        org_role:book_runner .
+
+org1:delaware_corporation a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower .
+
+org1:fennerand_smith a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:syndication_agent .
+
+org1:merrill_lynch a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:syndication_agent .
+
+org1:pierce a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:syndication_agent .
+
+org1:standardand_poors_financial_services_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:rating_agency .
+
+org_role:agency rdfs:subClassOf base:Organization .
+
+org_role:agent rdfs:subClassOf base:Organization .
+
+loc:1001_page_mill_road_building_4_palo_alto_ca_94304 a base:Location ;
+    rel:isLocationOf org1:citibank_na .
+
+loc:2200_first_avenue_south_seattle_wa_98134 a base:Location ;
+    rel:isLocationOf org1:zulily_inc .
+
+org_role:administrative_agent rdfs:subClassOf base:Organization .
+
+org_role:collateral_agent rdfs:subClassOf base:Organization .
+
+org_role:l_c_issuer rdfs:subClassOf base:Organization .
+
+person:marc_stolzman a base:Person ;
+    <http://example.org/isInstanceOf/> position:chief_financial_officer ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:zulily_inc ;
+            rel:position position:chief_financial_officer ] ;
+    rel:isEmployedBy org1:zulily_inc .
+
+person:william_allen a base:Person ;
+    <http://example.org/isInstanceOf/> position:svp ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:citibank_na ;
+            rel:position position:svp ] ;
+    rel:isEmployedBy org1:citibank_na .
+
+org1:bank_of_america_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:ronald_j_drobny .
+
+org1:merrill_lynch_pierce_fenner_and_smith a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:syndication_agent ;
+    rel:hasEmployee person:ronald_j_drobny .
+
+org_role:arranger rdfs:subClassOf base:Organization .
+
+org_role:book_runner rdfs:subClassOf base:Organization .
+
+org_role:borrower rdfs:subClassOf base:Organization .
+
+org_role:lender rdfs:subClassOf base:Organization .
+
+person:ronald_j_drobny a base:Person ;
+    <http://example.org/isInstanceOf/> position:senior_vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:bank_of_america_na ;
+            rel:position position:senior_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:merrill_lynch_pierce_fenner_and_smith ;
+            rel:position position:senior_vice_president ] ;
+    rel:isEmployedBy org1:bank_of_america_na,
+        org1:merrill_lynch_pierce_fenner_and_smith .
+
+position:chief_financial_officer a base:Position ;
+    base:positionName "Chief Financial Officer" ;
+    rdfs:subClassOf base:Person .
+
+position:svp a base:Position ;
+    base:positionName "SVP" ;
+    rdfs:subClassOf base:Person .
+
+org1:citibank_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:administrative_agent,
+        org_role:arranger,
+        org_role:book_runner,
+        org_role:collateral_agent,
+        org_role:l_c_issuer,
+        org_role:lender ;
+    rel:hasEmployee person:william_allen ;
+    rel:hasLocationAt loc:1001_page_mill_road_building_4_palo_alto_ca_94304 .
+
+org1:zulily_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:marc_stolzman ;
+    rel:hasLocationAt loc:2200_first_avenue_south_seattle_wa_98134 .
+
+position:senior_vice_president a base:Position ;
+    base:positionName "Senior Vice President" ;
+    rdfs:subClassOf base:Person .
+
+org_role:syndication_agent rdfs:subClassOf base:Organization .
+

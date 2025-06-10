@@ -1,0 +1,205 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org1: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person: <http://example.org/person_name/> .
+@prefix position: <http://example.org/person_position/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+base:Location a rdfs:Class .
+
+base:Organization a rdfs:Class .
+
+base:Person a rdfs:Class .
+
+location_type:administrative_agents_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:administrative_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:ag_new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_management a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_services a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:assembly_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:business_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:cayman_islands_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:chief_executive_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:commercial_banking a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_customers_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:domestic_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:dublin_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:eurodollar_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:front_end_test_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:london_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:mexico_location_contract_manufacturing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:micro_building_and_corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:middle_market_servicing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:offsite_storage a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:opto_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:registered_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:rexford_industrial_realty_inc_11620_wilshire_boulevard_suite_1000_los_angeles_california_90025 a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:trade_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:zonal_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+org1:acc_management_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:general_partner .
+
+org1:apollo_capital_management_gp_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:general_partner .
+
+org1:apollo_capital_management_lp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:investment_manager .
+
+org1:apollo_investment_management_lp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:advisor .
+
+org1:radius_health a base:Organization .
+
+org1:radius_pharma a base:Organization .
+
+person:howard_widra a base:Person .
+
+person:jonathan_krain a base:Person .
+
+person:jose_carmona a base:Person .
+
+person:sheriff_ibrahim a base:Person .
+
+loc:7255_woodmont_avenue_suite_200_bethesda_maryland_20814 a base:Location ;
+    rel:isLocationOf org1:midcap_financial_trust .
+
+loc:apollo_investment_corporation_730_fifth_avenue_11th_floor_new_york_new_york_10019 a base:Location ;
+    rel:isLocationOf org1:apollo_investment_corporation .
+
+loc:apollo_investment_corporation_9_west_57th_street_37th_floor_new_york_new_york_10019 a base:Location ;
+    rel:isLocationOf org1:apollo_investment_corporation .
+
+org_role:advisor rdfs:subClassOf base:Organization .
+
+org_role:agent rdfs:subClassOf base:Organization .
+
+org_role:investment_manager rdfs:subClassOf base:Organization .
+
+person:joseph_d_glatt a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:apollo_investment_corporation ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:apollo_investment_corporation .
+
+person:maurice_amsellem a base:Person ;
+    <http://example.org/isInstanceOf/> position:authorized_signatory ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:midcap_financial_trust ;
+            rel:position position:authorized_signatory ] ;
+    rel:isEmployedBy org1:midcap_financial_trust .
+
+loc:950_winter_street_waltham_ma_02451 a base:Location ;
+    rel:isLocationOf org1:radius_health_inc,
+        org1:radius_pharmaceuticals_inc .
+
+org_role:borrowers rdfs:subClassOf base:Organization .
+
+org_role:general_partner rdfs:subClassOf base:Organization .
+
+org_role:lender rdfs:subClassOf base:Organization .
+
+person:josé_i_carmona a base:Person ;
+    <http://example.org/isInstanceOf/> position:treasurer ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:radius_pharmaceuticals_inc ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:radius_health_inc ;
+            rel:position position:treasurer ] ;
+    rel:isEmployedBy org1:radius_health_inc,
+        org1:radius_pharmaceuticals_inc .
+
+position:authorized_signatory a base:Position ;
+    base:positionName "Authorized Signatory" ;
+    rdfs:subClassOf base:Person .
+
+position:vice_president a base:Position ;
+    base:positionName "Vice President" ;
+    rdfs:subClassOf base:Person .
+
+org1:midcap_financial_trust a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agent,
+        org_role:lender ;
+    rel:hasEmployee person:maurice_amsellem ;
+    rel:hasLocationAt loc:7255_woodmont_avenue_suite_200_bethesda_maryland_20814 .
+
+org1:radius_health_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrowers ;
+    rel:hasEmployee person:josé_i_carmona ;
+    rel:hasLocationAt loc:950_winter_street_waltham_ma_02451 .
+
+org1:radius_pharmaceuticals_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrowers ;
+    rel:hasEmployee person:josé_i_carmona ;
+    rel:hasLocationAt loc:950_winter_street_waltham_ma_02451 .
+
+position:treasurer a base:Position ;
+    base:positionName "Treasurer" ;
+    rdfs:subClassOf base:Person .
+
+org1:apollo_investment_corporation a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:joseph_d_glatt ;
+    rel:hasLocationAt loc:apollo_investment_corporation_730_fifth_avenue_11th_floor_new_york_new_york_10019,
+        loc:apollo_investment_corporation_9_west_57th_street_37th_floor_new_york_new_york_10019 .
+

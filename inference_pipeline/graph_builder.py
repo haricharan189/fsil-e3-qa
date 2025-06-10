@@ -1,19 +1,19 @@
-from rdflib import Graph, Namespace, Literal, URIRef
+from rdflib import Graph, URIRef, Literal, BNode, RDF, Namespace
 from rdflib.namespace import RDF, RDFS
 import json
 from typing import Set, Dict, List
 from pathlib import Path
-import urllib.parse
-import os
 import re
-
+from collections import defaultdict
+from urllib.parse import urlparse
 import nltk
 from nltk.stem import WordNetLemmatizer
-from nltk.corpus import wordnet
-
-# Ensure necessary NLTK resources are downloaded
+from nltk.corpus import wordnet as wn
+nltk.download('punkt_tab')
+nltk.download('averaged_perceptron_tagger')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
+nltk.download('averaged_perceptron_tagger_eng')
 
 class KnowledgeGraphBuilder:
     def __init__(self):
@@ -50,21 +50,38 @@ class KnowledgeGraphBuilder:
     
 
     def lemmatize_text(self, text: str) -> str:
-        """Remove periods, normalize spaces, and lemmatize a given text (for nouns)."""
+        """Remove periods, normalize spaces, and lemmatize nouns in the text."""
         # Remove periods
         text = re.sub(r'\.', '', text)  # Remove periods
+        text = re.sub(r'\,', '', text)  
         
         # Normalize spaces: replace multiple spaces with a single space
-        text = re.sub(r'\s+', ' ', text).strip()  # Replace multiple spaces with one, and strip leading/trailing spaces
+        text = re.sub(r'\s+', ' ', text).strip()  
+        words = nltk.word_tokenize(text.lower())  
+        # POS tagging for each word
+        pos_tags = nltk.pos_tag(words)
         
-        # Convert to lowercase and split into words
-        words = text.lower().split()  # Convert to lowercase and split into words
+        # Lemmatize words based on their part of speech
+        lemmatized_words = [
+            self._lemmatizer.lemmatize(word, pos=self.get_wordnet_pos(tag)) if self.get_wordnet_pos(tag) else word
+            for word, tag in pos_tags
+        ]
         
-        # Lemmatize words as nouns
-        lemmatized_words = [self._lemmatizer.lemmatize(word, wordnet.NOUN) for word in words]
-        
-        # Join back the lemmatized words
+        # Join back the lemmatized words into a single string
         return " ".join(lemmatized_words)
+    
+    def get_wordnet_pos(self, treebank_tag: str) -> str:
+        """Map POS tag to WordNet POS format."""
+        if treebank_tag.startswith('N'):
+            return wn.NOUN
+        elif treebank_tag.startswith('V'):
+            return wn.VERB
+        elif treebank_tag.startswith('R'):
+            return wn.ADV
+        elif treebank_tag.startswith('J'):
+            return wn.ADJ
+        else:
+            return None
 
 
     def generate_role_subrole_map(self, data: List[Dict]) -> List[tuple[str, str]]:
@@ -128,14 +145,13 @@ class KnowledgeGraphBuilder:
         org_sub_roles: Set[str] = set()
         loc_types: Set[str] = set()
 
-        # Extract all classes from annotations
+        # 1) Collect all class‐labels from the annotations
         for doc in data:
             for annotation in doc.get("annotations", []):
                 for result in annotation.get("result", []):
                     if "value" in result:
-                        value = result["value"]
-                        label = value["hypertextlabels"][0]
-                        text = value["text"]
+                        label = result["value"]["hypertextlabels"][0]
+                        text  = result["value"]["text"].strip()
 
                         if label == "Person Position":
                             positions.add(text)
@@ -146,294 +162,346 @@ class KnowledgeGraphBuilder:
                         elif label == "Location Type":
                             loc_types.add(text)
 
-        # Create ontology graph
+        # 2) Build the ontology graph
         g = Graph()
 
-        # Add namespace prefixes
-        g.bind("org_role", self.org_role)
-        g.bind("org_sub_role", self.org_sub_role)
+        # Bind prefixes
+        g.bind("org_role",      self.org_role)
+        g.bind("org_sub_role",  self.org_sub_role)
         g.bind("person_position", self.person_position)
         g.bind("location_type", self.location_type)
-        g.bind("base", self.base)
+        g.bind("base",          self.base)
 
-        # Define base classes
-        g.add((self.base.Person, RDF.type, RDFS.Class))
+        # Declare the base classes
+        g.add((self.base.Person,       RDF.type, RDFS.Class))
         g.add((self.base.Organization, RDF.type, RDFS.Class))
-        g.add((self.base.Location, RDF.type, RDFS.Class))
+        g.add((self.base.Location,     RDF.type, RDFS.Class))
 
-        # Add position subclasses
-        for position in positions:
-            position_uri = self.person_position[self._clean_uri(position)]
-            g.add((position_uri, RDF.type, RDFS.Class))
-            g.add((position_uri, RDFS.subClassOf, self.base.Person))
-        
-        for role in org_roles:
-                role_uri = self.org_role[self._clean_uri(role)]
-                g.add((role_uri, RDF.type, RDFS.Class))
-                g.add((role_uri, RDFS.subClassOf, self.base.Organization))
-
-                # Add corresponding sub-roles, only if they exist in the map
-                if role in role_subrole_pairs:
-                    for sub_role in role_subrole_pairs[role]:
-                        sub_role_uri = self.org_sub_role[self._clean_uri(sub_role)]
-                        g.add((sub_role_uri, RDF.type, RDFS.Class))
-                        g.add((sub_role_uri, RDFS.subClassOf, role_uri))
-
-        # Add location type subclasses
-        for loc_type in loc_types:
-            loc_type_uri = self.location_type[self._clean_uri(loc_type)]
-            g.add((loc_type_uri, RDF.type, RDFS.Class))
-            g.add((loc_type_uri, RDFS.subClassOf, self.base.Location))
-
-        # Add organization sub-role subclasses based on role-subrole pairs
-        for role, sub_role in role_subrole_pairs:
-            sub_role_uri = self.org_sub_role[self._clean_uri(sub_role)]
-            role_uri = self.org_role[self._clean_uri(role)]
-            g.add((sub_role_uri, RDFS.subClassOf, role_uri))
+        # 3) Add each Location Type as a subclass of base:Location
+        for text in loc_types:
+            cleaned = self._clean_uri(text)
+            uri = self.location_type[cleaned]
+            g.add((uri, RDF.type,       RDFS.Class))
+            g.add((uri, RDFS.subClassOf, self.base.Location))
 
         return g
-     
 
-    def create_data_layer(self, doc: Dict, ontology_graph) -> Graph:
-        
-        """
-        Create data layer graph for a single document using ontology classes
-        """
+    
+    def create_data_layer(self, doc: Dict, ontology_graph: Graph) -> Graph:
+        log_lines = []
+        def log(msg: str):
+            print(msg)
+            log_lines.append(msg)
+
         g = Graph()
-        
-        g = g + ontology_graph
+        g += ontology_graph
 
-        # Bind namespaces
-        g.bind("person_name", self.person_name)
-        g.bind("org_name", self.org_name)
-        g.bind("loc", self.loc)
-        g.bind("rel", self.rel)
-        g.bind("base", self.base)
-        g.bind("person_position", self.person_position)
-        g.bind("org_role", self.org_role)
-        g.bind("org_sub_role", self.org_sub_role)
-        g.bind("location_type", self.location_type)
-  
-        
-        entities = {}
-        org_roles: Dict[URIRef, Set[URIRef]] = {}  # Store organization roles
-        person_positions: Dict[URIRef, URIRef] = {}  # Store person positions
-        position_orgs: Dict[URIRef, URIRef] = {}    # Store position -> organization mapping
-        person_employers: Dict[URIRef, URIRef] = {}  # Store person employers
-        org_names:Dict[URIRef, URIRef] = {}
-        location_types: Dict[URIRef, URIRef] = {}  # Store location types
-        
-        # First pass: Parse all entities
-        for annotation in doc.get("annotations", []):
-            for result in annotation.get('result', []):
-                if result["type"] == "hypertextlabels":
-                    label = result["value"].get("hypertextlabels", [])[0]
-                    text = result["value"].get("text", "")
-                    
-                    if label == "Person Name":
-                        uri = self.person_name[self._clean_uri(text)]
-                        g.add((uri, RDF.type, self.base.Person))
-                        entities[result["id"]] = {"uri": uri, "label": label}
-                        person_positions[uri] = None  # Initialize position
-                        person_employers[uri] = None  # Initialize employer
-                    
-                    elif label == "Organization Name":
-                        uri = self.org_name[self._clean_uri(text)]
-                        g.add((uri, RDF.type, self.base.Organization))
-                        org_roles[uri] = set()  # Initialize empty set for roles
-                        entities[result["id"]] = {"uri": uri, "label": label}
-                    
-                    elif label == "Location":
-                        uri = self.loc[self._clean_uri(text)]
-                        g.add((uri, RDF.type, self.base.Location))
-                        entities[result["id"]] = {"uri": uri, "label": label}
-                    
-                    # Store these for relationship processing
-                    elif label in ["Person Position", "Organization Role", "Organization Sub-Role", "Location Type"]:
-                        entities[result["id"]] = {
-                            "text": text,
-                            "label": label
-                        }
-        
-        # Second pass: Process relationships
-        for annotation in doc.get("annotations", []):
-            for result in annotation.get('result', []):
-                if result["type"] == "relation":
-                    from_id = result.get("from_id")
-                    to_id = result.get("to_id")
-                    
-                    from_entity = entities.get(from_id)
-                    to_entity = entities.get(to_id)
-                    
-                    if not from_entity or not to_entity:
+        # Bind prefixes
+        prefixes = [
+            ('base', self.base),
+            ('person', self.person_name),
+            ('org', self.org_name),
+            ('org_role', self.org_role),
+            ('org_sub_role', self.org_sub_role),
+            ('position', self.person_position),
+            ('loc', self.loc),
+            ('location_type', self.location_type),
+            ('rel', self.rel),
+        ]
+
+        def bind_prefixes():
+            for pfx, ns in prefixes:
+                g.bind(pfx, ns)
+        bind_prefixes()
+
+        registry = {}
+        deferred_positions = []
+        org_roles = defaultdict(set)
+        org_role_subroles = defaultdict(set)
+        location_orgs = defaultdict(set)
+        current_org = None
+        current_role = None
+
+        def process_entities():
+            log("=== PROCESSING ENTITIES ===")
+            for ann in doc.get("annotations", []):
+                for res in ann.get("result", []):
+                    if res.get("type") != "hypertextlabels":
                         continue
-                    
-                    from_label = from_entity.get("label")
-                    to_label = to_entity.get("label")
-                    
-                    # Person - Position relationship
-                    if (from_label == "Person Name" and to_label == "Person Position") or \
-                    (from_label == "Person Position" and to_label == "Person Name"):
-                        person_uri = from_entity["uri"] if from_label == "Person Name" else to_entity["uri"]
-                        position_text = to_entity["text"] if from_label == "Person Name" else from_entity["text"]
-                        position_uri = self.person_position[self._clean_uri(position_text)]
-                        person_positions[person_uri] = position_uri
-                        # Add position relationship without duplicate type
-                        g.add((person_uri, RDF.type, self.base.Person))
-                        g.add((person_uri, self.isInstanceOf, position_uri))
 
-                    # Organization - Role relationship
-                    elif (from_label == "Organization Name" and to_label in ["Organization Role", "Organization Sub-Role"]):
-                        org_uri = from_entity["uri"]
-                        if(to_label == "Organization Role"):
-                            role_ns = self.org_role
-                            role_uri = role_ns[self._clean_uri(to_entity["text"])]
-                            g.add((org_uri, self.isInstanceOf, role_uri))
-                        else:
-                            role_ns = self.org_sub_role
-                            sub_role_uri = role_ns[self._clean_uri(to_entity["text"])]
-                            g.add((org_uri, self.isInstanceOf, sub_role_uri))
+                    value = res.get("value", {})
+                    label = value.get("hypertextlabels", [""])[0]
+                    text = value.get("text", "").strip()
+                    eid = res.get("id")
 
-                        g.add((org_uri, RDF.type, self.base.Organization))
-                        # g.add((org_uri, RDF.type, role_uri))
-                        # org_roles[org_uri].add(role_uri)
-                    
-                    # Organization - Person relationship
-                    elif (from_label == "Organization Name" and to_label == "Person Name") or \
-                        (from_label == "Person Name" and to_label == "Organization Name"):
-                        org_uri = from_entity["uri"] if from_label == "Organization Name" else to_entity["uri"]
-                        person_uri = to_entity["uri"] if from_label == "Organization Name" else from_entity["uri"]
+                    if not all([label, text, eid]):
+                        continue
+
+                    entry = {"label": label, "text": text, "uri": None}
+
+                    try:
+                        if label == "Organization Name":
+                            uri = self.org_name[self._clean_uri(text)]
+                            g.add((uri, RDF.type, self.base.Organization))
+                            entry["uri"] = uri
+
+                        elif label == "Person Name":
+                            uri = self.person_name[self._clean_uri(text)]
+                            g.add((uri, RDF.type, self.base.Person))
+                            entry["uri"] = uri
+
+                        elif label == "Organization Role":
+                            cleaned = self._clean_uri(text)
+                            uri = self.org_role[cleaned]
+                            g.add((uri, RDFS.subClassOf, self.base.Organization))
+                            entry["uri"] = uri
+
+                        elif label == "Organization Sub-Role":
+                            cleaned = self._clean_uri(text)
+                            uri = self.org_sub_role[cleaned]
+                            entry["uri"] = uri
+
+                        elif label == "Person Position":
+                            deferred_positions.append((eid, text))
+                            entry["deferred"] = True
+
+                        elif label == "Location":
+                            uri = self.loc[self._clean_uri(text)]
+                            g.add((uri, RDF.type, self.base.Location))
+                            entry["uri"] = uri
+
+                        elif label == "Location Type":
+                            cleaned = self._clean_uri(text)
+                            uri = self.location_type[cleaned]
+                            g.add((uri, RDFS.subClassOf, self.base.Location))
+                            entry["uri"] = uri
+
+                        registry[eid] = entry
+
+                    except Exception as e:
+                        log(f"Error processing entity {eid}: {str(e)}")
+                        continue
+
+        process_entities()
+
+        def process_deferred_positions():
+            log("\n=== PROCESSING POSITIONS ===")
+            for eid, text in deferred_positions:
+                cleaned = self._clean_uri(text)
+                uri = self.person_position[cleaned]
+                g.add((uri, RDFS.subClassOf, self.base.Person))
+                registry[eid]["uri"] = uri
+
+        process_deferred_positions()
+
+        def process_relations():
+            nonlocal current_org, current_role
+            log("\n=== PROCESSING RELATIONS ===")
+            for ann in doc.get("annotations", []):
+                for res in ann.get("result", []):
+                    if res.get("type") != "relation":
+                        continue
+
+                    f, t = res["from_id"], res["to_id"]
+                    fe, te = registry.get(f, {}), registry.get(t, {})
+                    if not fe or not te or not fe.get("uri") or not te.get("uri"):
+                        continue
+
+                    labels = {fe["label"], te["label"]}
+
+                    # Organization ↔ Role
+                    if labels == {"Organization Name", "Organization Role"}:
+                        org = fe if fe["label"] == "Organization Name" else te
+                        role = te if fe["label"] == "Organization Name" else fe
+                        org_uri = org["uri"]
+                        role_uri = role["uri"]
+                        org_roles[org_uri].add(role_uri)
+                        current_org = org_uri  # Track the current org-role context
+                        current_role = role_uri
+                        log(f"Linked {org_uri} to role {role_uri}")
+
+                    # Role ↔ Sub-Role (Only applies to the current org-role context)
+                    elif labels == {"Organization Role", "Organization Sub-Role"}:
+                        role_entry = fe if fe["label"] == "Organization Role" else te
+                        subrole_entry = te if fe["label"] == "Organization Role" else fe
+                        role_uri = role_entry["uri"]
+                        subrole_uri = subrole_entry["uri"]
                         
-                        # Add employment relationships
-                        g.add((person_uri, RDF.type, self.base.Person))
-                        g.add((org_uri, RDF.type, self.base.Organization))
-                        g.add((person_uri, self.rel.isEmployedBy, org_uri))
-                        g.add((org_uri, self.rel.hasEmployee, person_uri))
-                        g.add((person_uri, self.isInstanceOf, org_uri))
-                        person_employers[person_uri] = org_uri
-                   
-                    # Location - Type relationship
-                    elif from_label == "Location" and to_label == "Location Type":
-                        loc_uri = from_entity["uri"]
-                        type_uri = self.location_type[self._clean_uri(to_entity["text"])]
-                        g.add((loc_uri, self.isInstanceOf, type_uri))
-                    
-                    # Organization - Location relationship
-                    elif from_label == "Organization Name" and to_label == "Location":
-                        org_uri = from_entity["uri"]
-                        loc_uri = to_entity["uri"]
+                        # Add subrole ONLY to the current org-role pair
+                        if current_org and current_role == role_uri:
+                            org_role_subroles[(current_org, current_role)].add(subrole_uri)
+                            log(f"Added subrole {subrole_uri} to {current_org} {current_role}")
+
+
+                    # Organization ↔ Location
+                    elif labels == {"Organization Name", "Location"}:
+                        org_entry = fe if fe["label"] == "Organization Name" else te
+                        loc_entry = te if fe["label"] == "Organization Name" else fe
+                        org_uri = org_entry["uri"]
+                        loc_uri = loc_entry["uri"]
+                        location_orgs[loc_uri].add(org_uri)
                         g.add((org_uri, self.rel.hasLocationAt, loc_uri))
                         g.add((loc_uri, self.rel.isLocationOf, org_uri))
-                        g.add((loc_uri, self.isInstanceOf, self.base.Location))
+                        log(f"Linked {org_uri} to location {loc_uri}")
+
+                    # Location ↔ Type
+                    elif labels == {"Location", "Location Type"}:
+                        loc_entry = fe if fe["label"] == "Location" else te
+                        type_entry = te if fe["label"] == "Location" else fe
+                        loc_uri = loc_entry["uri"]
+                        type_text = type_entry["text"]
+                        type_uri = self.location_type[self._clean_uri(type_text)]
+                        g.add((loc_uri, self.isInstanceOf, type_uri))
+                        log(f"Linked {loc_uri} to type {type_uri}")
+
+        process_relations()
+        def get_local_name(uri: str) -> str:
+            """
+            Extract the local name from a URI.
+            Example: 
+                Input: "http://example.org/org_role/syndication_agent"
+                Output: "syndication_agent"
+            """
+            parts = uri.rsplit('/', 1)[-1].rsplit('#', 1)[-1]
+            return parts
+        def assign_final_roles():
+            log("\n=== FINAL ROLE ASSIGNMENTS ===")
+            for org_uri, roles in org_roles.items():
+                for role_uri in roles:
+                   
                     
-                    # Add Position -> Organization relationship handling
-                    if (from_label == "Person Position" and to_label == "Organization Name") or \
-                    (from_label == "Organization Name" and to_label == "Person Position"):
-                        org_uri = from_entity["uri"] if from_label == "Organization Name" else to_entity["uri"]
-                        position_text = to_entity["text"] if from_label == "Organization Name" else from_entity["text"]
-                        position_uri = self.person_position[self._clean_uri(position_text)]
-                        position_orgs[position_uri] = org_uri
-        
-        # After processing all relationships, connect Person to Organization through Position
-        for person_uri, position_uri in person_positions.items():
-            if position_uri in position_orgs:
-                org_uri = position_orgs[position_uri]
-                g.add((person_uri, self.rel.isEmployedBy, org_uri))
-                g.add((org_uri, self.rel.hasEmployee, person_uri))
-        
-        # Add any missing relationships
-        for person_uri, position_uri in person_positions.items():
-            if position_uri and person_uri not in [s for s, p, o in g.triples((None, self.rel.hasPosition, position_uri))]:
-                g.add((person_uri, RDF.type, self.base.Person))
-                g.add((person_uri, self.isInstanceOf, position_uri))
+                    # Add combined roles ONLY if the org has the specific subrole for this role
+                    subroles = org_role_subroles.get((org_uri, role_uri), set())  # Key: (org, role)
+                    if subroles:
+                        for subrole_uri in subroles:
+                            base_local = get_local_name(role_uri)
+                            sub_local = get_local_name(subrole_uri)
+                            combined_role_label = f"{sub_local}_{base_local}"
+                            combined_role_uri = self.org_role[combined_role_label]
+                            g.add((URIRef(org_uri), self.isInstanceOf, combined_role_uri))
+                    else:
+                        g.add((URIRef(org_uri), self.isInstanceOf, URIRef(role_uri)))
+        assign_final_roles()
 
-        for person_uri, employer_uri in person_employers.items():
-            if employer_uri and person_uri not in [s for s, p, o in g.triples((None, self.rel.isEmployedBy, employer_uri))]:
-                g.add((person_uri, self.rel.isEmployedBy, employer_uri))
-                g.add((employer_uri, self.rel.hasEmployee, person_uri))
-                
-   
-        entities = {}  # Temporary store for entities in the current document
-        # First pass: Parse all entities (roles, sub-roles, and organization names)
-        for annotation in doc.get("annotations", []):
-            for result in annotation.get("result", []):
-                if "value" in result:
-                    value = result["value"]
-                    label = value.get("hypertextlabels", [])[0]
-                    text = value.get("text", "")
 
-                    # Store Organization Role, Sub-Role, and Organization Name entities
-                    if label in ["Organization Role", "Organization Sub-Role", "Organization Name"]:
-                        entities[result["id"]] = {
-                            "text": text,
-                            "label": label
-                        }
+        def process_position_relations():
+            position_to_org = {}
+            person_to_positions = defaultdict(lambda: defaultdict(set))  # {person_uri: {org_uri: set(position_uris)}}
 
-        # Second pass: Process relationships
-        print("Processing relationships...")
-        role_to_subrole = {}  # Map roles to their sub-roles
-        org_to_role = {}  # Map organizations to their roles
-
-        for annotation in doc.get("annotations", []):
-            for result in annotation.get('result', []):
-                if result["type"] == "relation":
-                    from_id = result.get("from_id")
-                    to_id = result.get("to_id")
-                    from_entity = entities.get(from_id)
-                    to_entity = entities.get(to_id)
-
-                    if not from_entity or not to_entity:
-                        print(f"Skipping relationship: from_id={from_id}, to_id={to_id} (one or both not found)")
+            # First pass: Map Position annotations to their Organizations
+            for ann in doc.get("annotations", []):
+                for res in ann.get("result", []):
+                    if res.get("type") != "relation":
                         continue
+                    from_id, to_id = res["from_id"], res["to_id"]
+                    from_ent = registry.get(from_id, {})
+                    to_ent = registry.get(to_id, {})
+                    
+                    # Check if this relation connects a Position to an Organization
+                    labels = {from_ent.get("label"), to_ent.get("label")}
+                    if labels == {"Organization Name", "Person Position"}:
+                        if from_ent.get("label") == "Person Position":
+                            position_id, org_id = from_id, to_id
+                        else:
+                            position_id, org_id = to_id, from_id
+                        
+                        # Store the organization URI for this position
+                        position_to_org[position_id] = registry[org_id]["uri"]
 
-                    from_label = from_entity.get("label")
-                    to_label = to_entity.get("label")
+            # Second pass: Map Persons to their Positions and Organizations
+            for ann in doc.get("annotations", []):
+                for res in ann.get("result", []):
+                    if res.get("type") != "relation":
+                        continue
+                    from_id, to_id = res["from_id"], res["to_id"]
+                    from_ent = registry.get(from_id, {})
+                    to_ent = registry.get(to_id, {})
+                    
+                    # Check if this relation connects a Person to a Position
+                    labels = {from_ent.get("label"), to_ent.get("label")}
+                    if labels == {"Person Name", "Person Position"}:
+                        if from_ent.get("label") == "Person Position":
+                            position_id, person_id = from_id, to_id
+                        else:
+                            position_id, person_id = to_id, from_id
+                        
+                        # Get the organization linked to this position
+                        org_uri = position_to_org.get(position_id)
+                        if org_uri:
+                            person_uri = registry[person_id]["uri"]
+                            position_uri = registry[position_id]["uri"]
+                            # Track all positions for this person at this organization
+                            person_to_positions[person_uri][org_uri].add(position_uri)
 
-                    print(f"Processing relationship: from_label={from_label}, to_label={to_label}")
+            return person_to_positions
 
-                    # Track role-to-subrole mapping
-                    if from_label == "Organization Role" and to_label == "Organization Sub-Role":
-                        role = from_entity["text"]
-                        sub_role = to_entity["text"]
-                        role_to_subrole.setdefault(role, set()).add(sub_role)
-                        print(f"Mapped role to sub-role: role={role}, sub_role={sub_role}")
+        org_position_persons = process_position_relations()
 
-                    # Track organization-to-role mapping
-                    elif (from_label == "Organization Name" and to_label == "Organization Role") or \
-                        (from_label == "Organization Role" and to_label == "Organization Name"):
-                        org = from_entity["text"] if from_label == "Organization Name" else to_entity["text"]
-                        role = to_entity["text"] if from_label == "Organization Name" else from_entity["text"]
-                        org_to_role.setdefault(org, set()).add(role)
-                        print(f"Mapped organization to role: org={org}, role={role}")
+        def get_position_name(pos_uri: str) -> str:
+            return next(
+                (entry["text"] for entry in registry.values() 
+                if entry.get("uri") == pos_uri and entry.get("label") == "Person Position"),
+                None  # Fallback if not found
+            )
 
-        # Final pass: Determine isInstanceOf relationships
-        print("Assigning isInstanceOf relationships...")
-        for org, roles in org_to_role.items():
-            for role in roles:
-                sub_roles = role_to_subrole.get(role, None)  # Get sub-roles for this role
-                if sub_roles:  # Role has sub-roles
-                    for sub_role in sub_roles:
-                        org_uri = self.org_name[self._clean_uri(org)]
-                        sub_role_uri = self.org_sub_role[self._clean_uri(sub_role)]
-                        g.add((org_uri, self.isInstanceOf, sub_role_uri))
-                        print(f"{org} isInstanceOf {sub_role}")
-                else:  # Role does not have sub-roles
-                    org_uri = self.org_name[self._clean_uri(org)]
-                    role_uri = self.org_role[self._clean_uri(role)]
-                    g.add((org_uri, self.isInstanceOf, role_uri))
-                    print(f"{org} isInstanceOf {role}")
+        def get_org_name(org_uri: str) -> str:
+            return next(
+                (entry["text"] for entry in registry.values() 
+                if entry.get("uri") == org_uri and entry.get("label") == "Organization Name"),
+                None
+            )
+        def emit_employment_triples():
+            log("\n=== EMITTING EMPLOYMENT TRIPLES ===")
+
+            for person_uri, orgs_dict in org_position_persons.items():
+                g.add((URIRef(person_uri), RDF.type, self.base.Person))
+
+                for org_uri, position_uris in orgs_dict.items():
+                    g.add((URIRef(org_uri), RDF.type, self.base.Organization))
+                    g.add((URIRef(person_uri), self.rel.isEmployedBy, URIRef(org_uri)))
+                    g.add((URIRef(org_uri), self.rel.hasEmployee, URIRef(person_uri)))
+
+                    for pos_uri in position_uris:
+                        # Emit isInstanceOf triple
+                        g.add((URIRef(person_uri), self.isInstanceOf, URIRef(pos_uri)))
+                        g.add((URIRef(pos_uri), RDF.type, self.base.Position))  
+                        pos_name = get_position_name(pos_uri)
+                        if pos_name:
+                            g.add((URIRef(pos_uri), self.base.positionName, Literal(pos_name)))
+
+                        # Reified Employment relationship as blank node
+                        employment_node = BNode()
+                        g.add((URIRef(person_uri), self.rel.holdsPositionAt, employment_node))
+                        g.add((employment_node, RDF.type, self.rel.Employment))
+                        g.add((employment_node, self.rel.organization, URIRef(org_uri)))
+                        g.add((employment_node, self.rel.position, URIRef(pos_uri)))
+        emit_employment_triples()
+        log(f"Generated {len(g)} triples for employment relationships")
 
         return g
-   
-    def _clean_uri(self, text: str, is_role_subrole: bool = False) -> str:
-        """
-        Clean text for use in URIs
-        """
-        cleaned = urllib.parse.quote(text.strip().replace("\n", "").replace(" ", "_"), safe="_")
-        if is_role_subrole:
-            cleaned = " ".join(self._lemmatizer.lemmatize(word.lower()) for word in cleaned.split())
-        return cleaned
-    
+                
+
+    def _clean_uri(self, text: str) -> str:
+        """Enhanced URI cleaning with special character handling."""
+        text = text.replace('\\n', '_').replace('\\r', '_')
+        text = text.strip().lower()
+        replacements = {
+            '&': 'and',
+            ',': '',
+            '/': '_',
+            '\n': '_',
+            '\r': '_',
+            '\t': '_',
+            '-': '_',
+            ' ': '_'
+        }
+        for k, v in replacements.items():
+            text = text.replace(k, v)
+        cleaned = ''.join(c for c in text if c.isalnum() or c == '_')
+        cleaned = re.sub(r'_+', '_', cleaned)
+        return cleaned.strip('_')
+
+        
     def save_graph(self, graph: Graph, filepath: str):
         """
         Save graph to TTL file
@@ -461,9 +529,9 @@ def main(json_file_path: str, output_dir: str):
             # Use the document ID for naming
             doc_id = doc.get("id", "unknown_id")
             builder.save_graph(data_graph, f"{output_dir}/{doc_id}.ttl")
-
-
+    
 
 if __name__ == "__main__":
-    # Replace with your actual JSON file path and desired output directory
-    main("/Users/vidhyakshayakannan/Downloads/semi_cleaned_docs.json", "./extracted_content")    
+    main("/Users/vidhyakshayakannan/Downloads/the_rest_updated 1.json", "./extracted_content")    
+    main("/Users/vidhyakshayakannan/Downloads/semi_cleaned_docs.json", "./extracted_content")
+    # main("/Users/vidhyakshayakannan/fsil-e3-qa/json_annotations/object_115.json", "./extracted_content_debug")

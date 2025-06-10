@@ -1,0 +1,226 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+117,What company is the arranger but not the swing line lender and administrative agent in the agreement?,wells fargo securities llc,1,3,0
+117,What company is the arranger but not the swing line lender and issuing lender in the agreement?,wells fargo securities llc,1,3,0
+117,What company is the arranger but not the swing line lender and bookrunner in the agreement?,wells fargo securities llc,1,3,0
+117,What company is the arranger but not the administrative agent and issuing lender in the agreement?,wells fargo securities llc,1,3,0
+117,What company is the arranger but not the administrative agent and bookrunner in the agreement?,wells fargo securities llc,1,3,0
+117,What company is the arranger but not the issuing lender and bookrunner in the agreement?,wells fargo securities llc,1,3,0
+101,What company is the lender but not the arranger and l c issuer in the agreement?,legacytexas bank,1,3,0
+101,What company is the lender but not the arranger and administrative agent in the agreement?,legacytexas bank,1,3,0
+101,What company is the lender but not the arranger and sole book runner in the agreement?,legacytexas bank,1,3,0
+101,What company is the lender but not the l c issuer and administrative agent in the agreement?,legacytexas bank,1,3,0
+101,What company is the lender but not the l c issuer and sole book runner in the agreement?,legacytexas bank,1,3,0
+101,What company is the lender but not the administrative agent and sole book runner in the agreement?,legacytexas bank,1,3,0
+128,What company is the arranger but not the bookrunners and administrative agent in the agreement?,bofa securities inc,1,3,0
+139,What company is the syndication agent but not the administrative agent and lender in the agreement?,bank of america,1,3,0
+111,What company is the arrangers but not the bookrunners and lender in the agreement?,suntrust robinson humphrey inc,1,3,0
+107,What company is the administrative agent but not the intercreditor agent and arranger in the agreement?,wells fargo foothill inc,1,3,0
+107,What company is the administrative agent but not the intercreditor agent and lender in the agreement?,wells fargo foothill inc,1,3,0
+107,What company is the administrative agent but not the intercreditor agent and lead arrangers in the agreement?,wells fargo foothill inc,1,3,0
+107,What company is the administrative agent but not the intercreditor agent and collateral agent in the agreement?,wells fargo foothill inc,1,3,0
+107,What company is the administrative agent but not the arranger and lender in the agreement?,wells fargo foothill inc,1,3,0
+107,What company is the administrative agent but not the arranger and lead arrangers in the agreement?,wells fargo foothill inc,1,3,0
+107,What company is the administrative agent but not the arranger and collateral agent in the agreement?,wells fargo foothill inc,1,3,0
+107,What company is the administrative agent but not the lender and lead arrangers in the agreement?,wells fargo foothill inc,1,3,0
+107,What company is the administrative agent but not the lender and collateral agent in the agreement?,wells fargo foothill inc,1,3,0
+107,What company is the administrative agent but not the lead arrangers and collateral agent in the agreement?,wells fargo foothill inc,1,3,0
+112,What company is the arrangers but not the lender and bookrunners in the agreement?,merrill lynch pierce fennerand smith incorporated,1,3,0
+112,What company is the arrangers but not the lender and administrative agent in the agreement?,merrill lynch pierce fennerand smith incorporated,1,3,0
+112,What company is the arrangers but not the bookrunners and administrative agent in the agreement?,merrill lynch pierce fennerand smith incorporated,1,3,0
+106,What company is the bookrunners but not the arranger and arrangers in the agreement?,ubs securities llc,1,3,0
+106,What company is the bookrunners but not the arranger and lender in the agreement?,ubs securities llc,1,3,0
+106,What company is the arranger but not the arrangers and lender in the agreement?,citigroup global marketsinc,1,3,0
+60,What company is the bookrunners but not the arrangers and agents in the agreement?,pnc capital markets llc,1,3,0
+60,What company is the bookrunners but not the arrangers and administrative agent in the agreement?,pnc capital markets llc,1,3,0
+63,What company is the lender but not the lc issuer and administrative agent in the agreement?,farm credit mid america pca,1,3,0
+162,What company is the joint lead arrangers but not the lender and administrative agent in the agreement?,wells fargo securities llc,1,3,0
+162,What company is the joint bookrunners but not the lender and administrative agent in the agreement?,wells fargo securities llc,1,3,0
+8,What company is the arranger but not the joint bookrunner and joint bookrunners in the agreement?,merrill lynch pierce fennerand smith incorporated,1,3,0
+72,What company is the syndication agents but not the book runners and arrangers in the agreement?,wells fargo bank national association,1,3,0
+66,What company is the agents but not the bookrunners and arrangers in the agreement?,keybanc capital markets,1,3,0
+66,What company is the agents but not the bookrunners and lender in the agreement?,keybanc capital markets,1,3,0
+66,What company is the agents but not the bookrunners and issuing lender in the agreement?,keybanc capital markets,1,3,0
+66,What company is the agents but not the arrangers and lender in the agreement?,keybanc capital markets,1,3,0
+66,What company is the agents but not the arrangers and issuing lender in the agreement?,keybanc capital markets,1,3,0
+99,What company is the administrative agent but not the bank and collateral agent in the agreement?,wells fargo bank national association,1,3,0
+59,What company is the agents but not the lender and arrangers in the agreement?,abn amro capital llc,1,3,0
+59,What company is the swing line lender but not the agent and lc issuer in the agreement?,bokf na,1,3,0
+170,What company is the swing line lender but not the agent and l c issuer in the agreement?,bank of america,1,3,0
+64,What company is the bookrunners but not the lender and lead arrangers in the agreement?,morgan stanley senior funding inc,1,3,0
+64,What company is the bookrunners but not the lender and syndication agent in the agreement?,morgan stanley senior funding inc,1,3,0
+64,What company is the bookrunners but not the lead arrangers and syndication agent in the agreement?,morgan stanley senior funding inc,1,3,0
+168,What company is the syndication agent but not the lender and lenders in the agreement?,bank of america,1,3,0
+96,What company is the syndication agent but not the book managers and administrative agent in the agreement?,bokf na dba bank of albuquerque,1,3,0
+96,What company is the arrangers but not the book managers and administrative agent in the agreement?,bokf na dba bank of albuquerque,1,3,0
+169,What company is the lender but not the book runners and agent in the agreement?,barclays bank plc,1,3,0
+169,What company is the book runners but not the agent and lead arranger in the agreement?,merrill lynch pierce fenner and smith incorporated,1,3,0
+169,What company is the book runners but not the agent and book runner in the agreement?,merrill lynch pierce fenner and smith incorporated,1,3,0
+169,What company is the book runners but not the agent and administrative agent in the agreement?,merrill lynch pierce fenner and smith incorporated,1,3,0
+169,What company is the book runners but not the lead arranger and book runner in the agreement?,merrill lynch pierce fenner and smith incorporated,1,3,0
+169,What company is the book runners but not the lead arranger and administrative agent in the agreement?,merrill lynch pierce fenner and smith incorporated,1,3,0
+169,What company is the book runners but not the book runner and administrative agent in the agreement?,merrill lynch pierce fenner and smith incorporated,1,3,0
+83,What company is the administrative agent but not the swing line lender and l c issuer in the agreement?,jpmorgan chase bank,1,3,0
+4,What company is the lead arranger but not the swing line lender and l c issuer in the agreement?,p morgan securities llc,1,3,0
+4,What company is the lead arranger but not the swing line lender and administrative agent in the agreement?,p morgan securities llc,1,3,0
+4,What company is the lead arranger but not the l c issuer and administrative agent in the agreement?,p morgan securities llc,1,3,0
+4,What company is the bookrunner but not the swing line lender and l c issuer in the agreement?,p morgan securities llc,1,3,0
+4,What company is the bookrunner but not the swing line lender and administrative agent in the agreement?,p morgan securities llc,1,3,0
+4,What company is the bookrunner but not the l c issuer and administrative agent in the agreement?,p morgan securities llc,1,3,0
+143,What company is the book runners but not the syndication agent and arrangers in the agreement?,fifth third bank,1,3,0
+156,What company is the issuing bank but not the lender and joint lead arrangers in the agreement?,jpmorgan chase bank na,1,3,0
+156,What company is the issuing bank but not the lender and bookrunners in the agreement?,jpmorgan chase bank na,1,3,0
+156,What company is the issuing bank but not the lender and joint bookrunners in the agreement?,jpmorgan chase bank na,1,3,0
+156,What company is the issuing bank but not the lender and security agent in the agreement?,jpmorgan chase bank na,1,3,0
+156,What company is the issuing bank but not the lender and lead arranger in the agreement?,jpmorgan chase bank na,1,3,0
+156,What company is the issuing bank but not the lender and lead arrangers in the agreement?,jpmorgan chase bank na,1,3,0
+156,What company is the issuing bank but not the lender and administrative agent in the agreement?,jpmorgan chase bank na,1,3,0
+156,What company is the issuing bank but not the lender and agent in the agreement?,jpmorgan chase bank na,1,3,0
+156,What company is the issuing bank but not the lender and bookrunner in the agreement?,jpmorgan chase bank na,1,3,0
+156,What company is the joint lead arrangers but not the security agent and lead arranger in the agreement?,bnp paribas,1,3,0
+156,What company is the joint lead arrangers but not the security agent and lead arrangers in the agreement?,bnp paribas,1,3,0
+156,What company is the joint lead arrangers but not the security agent and administrative agent in the agreement?,bnp paribas,1,3,0
+156,What company is the joint lead arrangers but not the security agent and agent in the agreement?,bnp paribas,1,3,0
+156,What company is the joint lead arrangers but not the security agent and bookrunner in the agreement?,bnp paribas,1,3,0
+156,What company is the joint lead arrangers but not the lead arranger and lead arrangers in the agreement?,bnp paribas,1,3,0
+156,What company is the joint lead arrangers but not the lead arranger and administrative agent in the agreement?,bnp paribas,1,3,0
+156,What company is the joint lead arrangers but not the lead arranger and agent in the agreement?,bnp paribas,1,3,0
+156,What company is the joint lead arrangers but not the lead arranger and bookrunner in the agreement?,bnp paribas,1,3,0
+156,What company is the joint lead arrangers but not the lead arrangers and administrative agent in the agreement?,bnp paribas,1,3,0
+156,What company is the joint lead arrangers but not the lead arrangers and agent in the agreement?,bnp paribas,1,3,0
+156,What company is the joint lead arrangers but not the lead arrangers and bookrunner in the agreement?,bnp paribas,1,3,0
+156,What company is the joint lead arrangers but not the administrative agent and agent in the agreement?,bnp paribas,1,3,0
+156,What company is the joint lead arrangers but not the administrative agent and bookrunner in the agreement?,bnp paribas,1,3,0
+156,What company is the joint lead arrangers but not the agent and bookrunner in the agreement?,bnp paribas,1,3,0
+156,What company is the joint bookrunners but not the security agent and lead arranger in the agreement?,bnp paribas,1,3,0
+156,What company is the joint bookrunners but not the security agent and lead arrangers in the agreement?,bnp paribas,1,3,0
+156,What company is the joint bookrunners but not the security agent and administrative agent in the agreement?,bnp paribas,1,3,0
+156,What company is the joint bookrunners but not the security agent and agent in the agreement?,bnp paribas,1,3,0
+156,What company is the joint bookrunners but not the security agent and bookrunner in the agreement?,bnp paribas,1,3,0
+156,What company is the joint bookrunners but not the lead arranger and lead arrangers in the agreement?,bnp paribas,1,3,0
+156,What company is the joint bookrunners but not the lead arranger and administrative agent in the agreement?,bnp paribas,1,3,0
+156,What company is the joint bookrunners but not the lead arranger and agent in the agreement?,bnp paribas,1,3,0
+156,What company is the joint bookrunners but not the lead arranger and bookrunner in the agreement?,bnp paribas,1,3,0
+156,What company is the joint bookrunners but not the lead arrangers and administrative agent in the agreement?,bnp paribas,1,3,0
+156,What company is the joint bookrunners but not the lead arrangers and agent in the agreement?,bnp paribas,1,3,0
+156,What company is the joint bookrunners but not the lead arrangers and bookrunner in the agreement?,bnp paribas,1,3,0
+156,What company is the joint bookrunners but not the administrative agent and agent in the agreement?,bnp paribas,1,3,0
+156,What company is the joint bookrunners but not the administrative agent and bookrunner in the agreement?,bnp paribas,1,3,0
+156,What company is the joint bookrunners but not the agent and bookrunner in the agreement?,bnp paribas,1,3,0
+94,What company is the bookrunners but not the lender and collatera agent in the agreement?,pnc capital markets llc,1,3,0
+94,What company is the bookrunners but not the lender and administrative agent in the agreement?,pnc capital markets llc,1,3,0
+94,What company is the arrangers but not the lender and collatera agent in the agreement?,pnc capital markets llc,1,3,0
+94,What company is the arrangers but not the lender and administrative agent in the agreement?,pnc capital markets llc,1,3,0
+84,What company is the lender but not the lc issuer and l c issuer in the agreement?,taiwan cooperative bank,1,3,0
+84,What company is the lender but not the lc issuer and administrative agent in the agreement?,taiwan cooperative bank,1,3,0
+84,What company is the lender but not the lc issuer and swingline lender in the agreement?,taiwan cooperative bank,1,3,0
+84,What company is the lender but not the l c issuer and administrative agent in the agreement?,taiwan cooperative bank,1,3,0
+84,What company is the lender but not the l c issuer and swingline lender in the agreement?,taiwan cooperative bank,1,3,0
+84,What company is the lender but not the administrative agent and swingline lender in the agreement?,taiwan cooperative bank,1,3,0
+147,What company is the collateral agent but not the lender and l c issuer in the agreement?,jpmorgan chase bank na,1,3,0
+52,What company is the bookrunners but not the bank and agents in the agreement?,citigroup global markets inc,1,3,0
+52,What company is the arrangers but not the bank and agents in the agreement?,citigroup global markets inc,1,3,0
+50,What company is the joint bookrunners but not the swingline lender and administrative agent in the agreement?,wells fargo securities llc,1,3,0
+50,What company is the arrangers but not the swingline lender and administrative agent in the agreement?,wells fargo securities llc,1,3,0
+151,What company is the l c issuer but not the joint lead arrangers and agent in the agreement?,barclays bank plc,1,3,0
+151,What company is the l c issuer but not the joint lead arrangers and swing line lender in the agreement?,barclays bank plc,1,3,0
+151,What company is the l c issuer but not the agent and swing line lender in the agreement?,barclays bank plc,1,3,0
+151,What company is the joint bookrunners but not the joint lead arrangers and agent in the agreement?,barclays bank plc,1,3,0
+151,What company is the joint bookrunners but not the joint lead arrangers and swing line lender in the agreement?,barclays bank plc,1,3,0
+151,What company is the joint bookrunners but not the agent and swing line lender in the agreement?,barclays bank plc,1,3,0
+92,What company is the lender but not the bookrunner and sole lead arranger in the agreement?,midcap funding vi llc,1,3,0
+92,What company is the lender but not the bookrunner and administrative agent in the agreement?,midcap funding vi llc,1,3,0
+92,What company is the lender but not the bookrunner and borrower in the agreement?,midcap funding vi llc,1,3,0
+92,What company is the lender but not the bookrunner and arranger in the agreement?,midcap funding vi llc,1,3,0
+92,What company is the lender but not the sole lead arranger and administrative agent in the agreement?,midcap funding vi llc,1,3,0
+92,What company is the lender but not the administrative agent and borrower in the agreement?,midcap funding vi llc,1,3,0
+92,What company is the lender but not the administrative agent and arranger in the agreement?,midcap funding vi llc,1,3,0
+92,What company is the bookrunner but not the borrower and arranger in the agreement?,midcap funding v llc,1,3,0
+92,What company is the administrative agent but not the borrower and arranger in the agreement?,midcap funding v llc,1,3,0
+51,What company is the administrative agent but not the lender and joint lead arrangers in the agreement?,cahill gordon and reindel llp,1,3,0
+22,What company is the joint book runner but not the lender and arranger in the agreement?,wells fargo bank national association,1,3,0
+123,What company is the bookrunners but not the arranger and lender in the agreement?,citigroup global markets inc,1,3,0
+123,What company is the bookrunners but not the arranger and agent in the agreement?,citigroup global markets inc,1,3,0
+122,What company is the arranger but not the agent and joint bookrunners in the agreement?,merrill lynch pierce fennerand smith incorporated,1,3,0
+35,What company is the agents but not the arrangers and lender in the agreement?,dnb bank asa new york branch,1,3,0
+35,What company is the agents but not the bookrunners and lender in the agreement?,dnb bank asa new york branch,1,3,0
+35,What company is the agents but not the lender and issuing bank in the agreement?,dnb bank asa new york branch,1,3,0
+35,What company is the agents but not the lender and bank in the agreement?,dnb bank asa new york branch,1,3,0
+35,What company is the arrangers but not the documentation agents and bookrunners in the agreement?,jp morgan securities llc,1,3,0
+35,What company is the arrangers but not the bookrunners and syndication agents in the agreement?,jp morgan securities llc,1,3,0
+35,What company is the arrangers but not the bookrunners and lender in the agreement?,jp morgan securities llc,1,3,0
+35,What company is the arrangers but not the bookrunners and issuing bank in the agreement?,jp morgan securities llc,1,3,0
+135,What company is the bookrunner but not the arrangers and lender in the agreement?,wells fargo securities llc,1,3,0
+135,What company is the bookrunner but not the arrangers and agents in the agreement?,wells fargo securities llc,1,3,0
+135,What company is the bookrunner but not the arrangers and co documentation agent in the agreement?,wells fargo securities llc,1,3,0
+135,What company is the bookrunners but not the arrangers and lender in the agreement?,wells fargo securities llc,1,3,0
+135,What company is the bookrunners but not the arrangers and agents in the agreement?,wells fargo securities llc,1,3,0
+135,What company is the bookrunners but not the arrangers and co documentation agent in the agreement?,wells fargo securities llc,1,3,0
+135,What company is the arranger but not the arrangers and lender in the agreement?,wells fargo securities llc,1,3,0
+135,What company is the arranger but not the arrangers and agents in the agreement?,wells fargo securities llc,1,3,0
+135,What company is the arranger but not the arrangers and co documentation agent in the agreement?,wells fargo securities llc,1,3,0
+30,What company is the lenders but not the lender and administrative agent in the agreement?,bank of america na,1,3,0
+125,What company is the lender but not the book manager and arranger in the agreement?,bank of america na,1,3,0
+125,What company is the lender but not the book manager and administrative agent in the agreement?,bank of america na,1,3,0
+125,What company is the lender but not the arranger and administrative agent in the agreement?,bank of america na,1,3,0
+118,What company is the bookrunners but not the arrangers and syndication agent in the agreement?,wells fargo securities llc,1,3,0
+124,What company is the lead arrangers but not the lender and administrative agent in the agreement?,keybanc capital markets inc,1,3,0
+124,What company is the bookrunners but not the lender and syndication agents in the agreement?,merrill lynch pierce fennerand smith inc,1,3,0
+130,What company is the documentation agents but not the issuing bank and revolving administrative agent in the agreement?,rbc capital markets,1,3,0
+130,What company is the documentation agents but not the issuing bank and collateral agent in the agreement?,rbc capital markets,1,3,0
+130,What company is the documentation agents but not the revolving administrative agent and collateral agent in the agreement?,rbc capital markets,1,3,0
+130,What company is the syndication agents but not the issuing bank and revolving administrative agent in the agreement?,rbc capital markets,1,3,0
+130,What company is the syndication agents but not the issuing bank and collateral agent in the agreement?,rbc capital markets,1,3,0
+130,What company is the syndication agents but not the revolving administrative agent and collateral agent in the agreement?,rbc capital markets,1,3,0
+133,What company is the book runner but not the lender and l c issuer in the agreement?,citibank,1,3,0
+133,What company is the book runner but not the lender and administrative agent in the agreement?,citibank,1,3,0
+133,What company is the book runner but not the lender and collateral agent in the agreement?,citibank,1,3,0
+133,What company is the book runner but not the l c issuer and administrative agent in the agreement?,citibank,1,3,0
+133,What company is the book runner but not the l c issuer and collateral agent in the agreement?,citibank,1,3,0
+133,What company is the book runner but not the administrative agent and collateral agent in the agreement?,citibank,1,3,0
+133,What company is the arranger but not the lender and l c issuer in the agreement?,citibank,1,3,0
+133,What company is the arranger but not the lender and administrative agent in the agreement?,citibank,1,3,0
+133,What company is the arranger but not the lender and collateral agent in the agreement?,citibank,1,3,0
+133,What company is the arranger but not the l c issuer and administrative agent in the agreement?,citibank,1,3,0
+133,What company is the arranger but not the l c issuer and collateral agent in the agreement?,citibank,1,3,0
+133,What company is the arranger but not the administrative agent and collateral agent in the agreement?,citibank,1,3,0
+133,What company is the lender but not the l c issuer and administrative agent in the agreement?,bank of america na,1,3,0
+133,What company is the lender but not the l c issuer and collateral agent in the agreement?,bank of america na,1,3,0
+133,What company is the lender but not the administrative agent and collateral agent in the agreement?,bank of america na,1,3,0
+32,What company is the lenders but not the bookrunners and lender in the agreement?,bnp paribas canada,1,3,0
+32,What company is the lenders but not the arrangers and lender in the agreement?,bnp paribas canada,1,3,0
+32,What company is the lenders but not the agents and lender in the agreement?,bnp paribas canada,1,3,0
+32,What company is the lenders but not the co syndication agent and lender in the agreement?,bnp paribas canada,1,3,0
+32,What company is the lenders but not the arranger and lender in the agreement?,bnp paribas canada,1,3,0
+32,What company is the lenders but not the lender and bookrunner in the agreement?,bnp paribas canada,1,3,0
+32,What company is the lenders but not the lender and co documentation agent in the agreement?,bnp paribas canada,1,3,0
+32,What company is the lenders but not the lender and bank in the agreement?,bnp paribas canada,1,3,0
+32,What company is the lenders but not the lender and joint lead arranger in the agreement?,bnp paribas canada,1,3,0
+32,What company is the bookrunners but not the arrangers and agents in the agreement?,ubs securities llc,1,3,0
+32,What company is the bookrunners but not the arrangers and co syndication agent in the agreement?,ubs securities llc,1,3,0
+32,What company is the bookrunners but not the arrangers and lender in the agreement?,ubs securities llc,1,3,0
+32,What company is the bookrunners but not the arrangers and bank in the agreement?,ubs securities llc,1,3,0
+32,What company is the bookrunners but not the arrangers and joint lead arranger in the agreement?,ubs securities llc,1,3,0
+32,What company is the bookrunners but not the agents and bookrunner in the agreement?,rbc capital markets,1,3,0
+32,What company is the bookrunners but not the co syndication agent and bookrunner in the agreement?,rbc capital markets,1,3,0
+32,What company is the bookrunners but not the arranger and lender in the agreement?,rbc capital markets,1,3,0
+32,What company is the bookrunners but not the arranger and bookrunner in the agreement?,rbc capital markets,1,3,0
+32,What company is the bookrunners but not the lender and bookrunner in the agreement?,rbc capital markets,1,3,0
+32,What company is the bookrunners but not the bookrunner and bank in the agreement?,rbc capital markets,1,3,0
+32,What company is the bookrunners but not the bookrunner and joint lead arranger in the agreement?,rbc capital markets,1,3,0
+32,What company is the bookrunners but not the bookrunner and joint lead arrangers in the agreement?,rbc capital markets,1,3,0
+32,What company is the bookrunners but not the bookrunner and co documentation agents in the agreement?,rbc capital markets,1,3,0
+32,What company is the bookrunners but not the bookrunner and agent in the agreement?,rbc capital markets,1,3,0
+32,What company is the arrangers but not the agents and lender in the agreement?,rbc capital markets,1,3,0
+32,What company is the arrangers but not the agents and bookrunner in the agreement?,rbc capital markets,1,3,0
+32,What company is the arrangers but not the co syndication agent and lender in the agreement?,rbc capital markets,1,3,0
+32,What company is the arrangers but not the co syndication agent and bookrunner in the agreement?,rbc capital markets,1,3,0
+32,What company is the arrangers but not the arranger and lender in the agreement?,rbc capital markets,1,3,0
+32,What company is the arrangers but not the arranger and bookrunner in the agreement?,rbc capital markets,1,3,0
+32,What company is the arrangers but not the lender and bookrunner in the agreement?,rbc capital markets,1,3,0
+32,What company is the arrangers but not the bookrunner and bank in the agreement?,rbc capital markets,1,3,0
+32,What company is the arrangers but not the bookrunner and joint lead arranger in the agreement?,rbc capital markets,1,3,0
+32,What company is the agents but not the co syndication agent and bookrunner in the agreement?,royal bank of canada,1,3,0
+32,What company is the agents but not the lender and co documentation agent in the agreement?,jp morgan securities llc,1,3,0
+32,What company is the arranger but not the bookrunner and joint lead arrangers in the agreement?,royal bank of canada,1,3,0
+32,What company is the arranger but not the bookrunner and co documentation agents in the agreement?,royal bank of canada,1,3,0
+32,What company is the arranger but not the bookrunner and agent in the agreement?,royal bank of canada,1,3,0

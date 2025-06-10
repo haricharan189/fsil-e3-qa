@@ -1,0 +1,165 @@
+@prefix base: <http://example.org/base/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org1: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person: <http://example.org/person_name/> .
+@prefix position: <http://example.org/person_position/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+base:Location a rdfs:Class .
+
+base:Organization a rdfs:Class .
+
+base:Person a rdfs:Class .
+
+location_type:administrative_agents_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:administrative_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:ag_new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_management a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_services a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:assembly_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:business_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:cayman_islands_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:chief_executive_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:commercial_banking a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_customers_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:domestic_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:dublin_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:eurodollar_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:front_end_test_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:london_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:mexico_location_contract_manufacturing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:micro_building_and_corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:middle_market_servicing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:offsite_storage a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:opto_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:registered_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:rexford_industrial_realty_inc_11620_wilshire_boulevard_suite_1000_los_angeles_california_90025 a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:trade_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:zonal_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+org1:bofa_securities_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:sole_bookrunner,
+        org_role:sole_lead_arranger .
+
+org1:digital_turbine_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrowers .
+
+org1:digital_turbine_media_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrowers .
+
+org1:dt_media a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower .
+
+org_role:bookrunner rdfs:subClassOf base:Organization .
+
+org_role:lead_arranger rdfs:subClassOf base:Organization .
+
+org_role:administrative_agent rdfs:subClassOf base:Organization .
+
+org_role:borrower rdfs:subClassOf base:Organization .
+
+org_role:l_c_issuer rdfs:subClassOf base:Organization .
+
+org_role:lender rdfs:subClassOf base:Organization .
+
+org_role:swingline_lender rdfs:subClassOf base:Organization .
+
+person:adam_rose a base:Person ;
+    <http://example.org/isInstanceOf/> position:svp ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:bank_of_america_na ;
+            rel:position position:svp ] ;
+    rel:isEmployedBy org1:bank_of_america_na .
+
+org1:bank_of_america_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:administrative_agent,
+        org_role:l_c_issuer,
+        org_role:lender,
+        org_role:swingline_lender ;
+    rel:hasEmployee person:adam_rose .
+
+org1:digital_turbine_usa_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrowers ;
+    rel:hasEmployee person:barrett_garrison .
+
+org1:mobile_posse_inc a base:Organization ;
+    rel:hasEmployee person:barrett_garrison .
+
+person:barrett_garrison a base:Person ;
+    <http://example.org/isInstanceOf/> position:chief_financial_officer ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:mobile_posse_inc ;
+            rel:position position:chief_financial_officer ],
+        [ a rel:Employment ;
+            rel:organization org1:digital_turbine_usa_inc ;
+            rel:position position:chief_financial_officer ] ;
+    rel:isEmployedBy org1:digital_turbine_usa_inc,
+        org1:mobile_posse_inc .
+
+position:svp a base:Position ;
+    base:positionName "SVP" ;
+    rdfs:subClassOf base:Person .
+
+org_role:borrowers rdfs:subClassOf base:Organization .
+
+position:chief_financial_officer a base:Position ;
+    base:positionName "Chief Financial Officer" ;
+    rdfs:subClassOf base:Person .
+

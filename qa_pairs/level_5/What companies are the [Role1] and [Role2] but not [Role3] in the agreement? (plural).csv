@@ -1,0 +1,322 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+28,What companies are the lender and agent but not the collateral agent in the agreement?,akin gump strauss hauer and feld llp and pharmakon advisors lp,1,3,1
+110,What companies are the arrangers and bookrunners but not the agent in the agreement?,"jpmorgan chase bank na, the bank of tokyo mitsubishi ufj ltd, and wells fargo securities llc",1,3,1
+38,What companies are the arranger and bookrunners but not the lender in the agreement?,"citigroup global markets inc, jp morgan securities llc, merrill lynch pierce fenner and smith incorporated, and wells fargo securities llc",1,3,1
+38,What companies are the arranger and bookrunners but not the co documentation agents in the agreement?,"citigroup global markets inc, jp morgan securities llc, merrill lynch pierce fenner and smith incorporated, and wells fargo securities llc",1,3,1
+38,What companies are the lender and co documentation agents but not the syndication agent in the agreement?,"bank of america na, citibank na, mizuho bank ltd, and the bank of tokyo mitsubishi ufj ltd",1,3,1
+38,What companies are the lender and co documentation agents but not the administrative agent in the agreement?,"bank of america na, citibank na, mizuho bank ltd, and the bank of tokyo mitsubishi ufj ltd",1,3,1
+107,What companies are the arrangers and bookrunners but not the barclays capital agents in the agreement?,"barclays capital, citigroup global markets inc, and wells fargo foothill inc",1,3,1
+107,What companies are the arrangers and bookrunners but not the joint bookrunner in the agreement?,"barclays capital, citigroup global markets inc, jp morgan securities inc, and wells fargo foothill inc",1,3,1
+107,What companies are the arrangers and bookrunners but not the administrative agent in the agreement?,"barclays capital, citigroup global markets inc, and jp morgan securities inc",1,3,1
+106,What companies are the lenders and borrowers but not the borrower in the agreement?,"black mountain cogeninc, blue ridge generation llc, casco bay energy company llc, dynegy equipment llc, dynegy kendall energy llc, dynegy marketing and trade llc, dynegy morro bay llc, dynegy moss landing llc, dynegy oakland llc, dynegy power generation inc, dynegy south bay llc, ontelaunee power operating company llc, sithe energiesinc, sithe independence llc, and sithe independence power partners lp",1,3,1
+106,What companies are the lenders and borrowers but not the subordinated borrowers in the agreement?,"black mountain cogeninc, blue ridge generation llc, casco bay energy company llc, dynegy equipment llc, dynegy kendall energy llc, dynegy marketing and trade llc, dynegy morro bay llc, dynegy moss landing llc, dynegy oakland llc, dynegy power generation inc, dynegy south bay llc, ontelaunee power operating company llc, sithe energiesinc, sithe independence llc, and sithe independence power partners lp",1,3,1
+106,What companies are the arranger and bookrunners but not the lender in the agreement?,"citigroup global marketsinc, deutsche bank securities inc, and rbc capital markets",1,3,1
+106,What companies are the arranger and bookrunner but not the lender in the agreement?,"citigroup global marketsinc, deutsche bank securities inc, and rbc capital markets",1,3,1
+106,What companies are the arranger and arrangers but not the lender in the agreement?,deutsche bank securities inc and rbc capital markets,1,3,1
+106,What companies are the bookrunners and bookrunner but not the arrangers in the agreement?,citigroup global marketsinc and ubs securities llc,1,3,1
+106,What companies are the bookrunners and bookrunner but not the lender in the agreement?,"citigroup global marketsinc, deutsche bank securities inc, rbc capital markets, and ubs securities llc",1,3,1
+106,What companies are the bookrunners and bookrunner but not the joint lead arrangers in the agreement?,"barclays bank plc, citigroup global marketsinc, deutsche bank securities inc, goldman sachs bank usa, and rbc capital markets",1,3,1
+106,What companies are the bookrunners and bookrunner but not the joint lead arranger in the agreement?,"barclays bank plc, citigroup global marketsinc, deutsche bank securities inc, goldman sachs bank usa, and rbc capital markets",1,3,1
+106,What companies are the bookrunners and arrangers but not the lender in the agreement?,deutsche bank securities inc and rbc capital markets,1,3,1
+106,What companies are the bookrunners and arrangers but not the joint lead arrangers in the agreement?,"barclays bank plc, deutsche bank securities inc, goldman sachs bank usa, and rbc capital markets",1,3,1
+106,What companies are the bookrunners and arrangers but not the joint lead arranger in the agreement?,"barclays bank plc, deutsche bank securities inc, goldman sachs bank usa, and rbc capital markets",1,3,1
+106,What companies are the bookrunners and lender but not the joint lead arrangers in the agreement?,barclays bank plc and goldman sachs bank usa,1,3,1
+106,What companies are the bookrunners and lender but not the joint lead arranger in the agreement?,barclays bank plc and goldman sachs bank usa,1,3,1
+106,What companies are the bookrunner and arrangers but not the lender in the agreement?,deutsche bank securities inc and rbc capital markets,1,3,1
+106,What companies are the bookrunner and arrangers but not the joint lead arrangers in the agreement?,"barclays bank plc, deutsche bank securities inc, goldman sachs bank usa, and rbc capital markets",1,3,1
+106,What companies are the bookrunner and arrangers but not the joint lead arranger in the agreement?,"barclays bank plc, deutsche bank securities inc, goldman sachs bank usa, and rbc capital markets",1,3,1
+106,What companies are the bookrunner and lender but not the joint lead arrangers in the agreement?,barclays bank plc and goldman sachs bank usa,1,3,1
+106,What companies are the bookrunner and lender but not the joint lead arranger in the agreement?,barclays bank plc and goldman sachs bank usa,1,3,1
+60,What companies are the arrangers and bookrunners but not the agents in the agreement?,"bofa securities inc, citibank na, mufg bank ltd, and wells fargo securities llc",1,3,1
+60,What companies are the arrangers and bookrunners but not the administrative agent in the agreement?,"bank of montreal, bofa securities inc, capital one national association, jpmorgan chase bank na, mufg bank ltd, the bank of nova scotia, us bank national association, and wells fargo securities llc",1,3,1
+60,What companies are the arrangers and agents but not the administrative agent in the agreement?,"bank of montreal, capital one national association, jpmorgan chase bank na, mizuho bank ltd, the bank of nova scotia, and us bank national association",1,3,1
+60,What companies are the bookrunners and agents but not the administrative agent in the agreement?,"bank of montreal, capital one national association, jpmorgan chase bank na, the bank of nova scotia, and us bank national association",1,3,1
+160,What companies are the joint lead arrangers and joint bookrunners but not the issuing bank in the agreement?,bofa securities inc and morgan stanley senior funding inc,1,3,1
+160,What companies are the joint lead arrangers and joint bookrunners but not the administrative agent in the agreement?,"bofa securities inc, jpmorgan chase bank na, and morgan stanley senior funding inc",1,3,1
+77,What companies are the joint lead arrangers and oint bookrunners but not the lender in the agreement?,"fenner and smith incorporated, jp morgan securities llc, suntrust robinson humphrey, and wells fargo securities llc",1,3,1
+77,What companies are the joint lead arrangers and oint bookrunners but not the co syndication agent in the agreement?,"fenner and smith incorporated, jp morgan securities llc, suntrust robinson humphrey, and wells fargo securities llc",1,3,1
+77,What companies are the lender and co syndication agent but not the co documentation agent in the agreement?,"bank of america, mufg union bank, suntrust bank, and wells fargo bank national association",1,3,1
+77,What companies are the lender and co syndication agent but not the administrative agent in the agreement?,"bank of america, mufg union bank, suntrust bank, and wells fargo bank national association",1,3,1
+77,What companies are the lender and co syndication agent but not the issuing bank in the agreement?,"bank of america, mufg union bank, suntrust bank, and wells fargo bank national association",1,3,1
+77,What companies are the lender and co documentation agent but not the administrative agent in the agreement?,goldman sachs bank usa and us bank national association,1,3,1
+77,What companies are the lender and co documentation agent but not the issuing bank in the agreement?,goldman sachs bank usa and us bank national association,1,3,1
+89,What companies are the arrangers and bookrunners but not the joint bookrunners in the agreement?,"barclays bank plc, citigroup global markets inc, deutsche bank securities inc, jpmorgan chase bank, keybanc capital markets inc, and macquarie capital usa inc",1,3,1
+89,What companies are the arrangers and bookrunners but not the administrative agent in the agreement?,"barclays bank plc, citigroup global markets inc, deutsche bank securities inc, keybanc capital markets inc, and macquarie capital usa inc",1,3,1
+76,What companies are the arrangers and bookrunners but not the collateral agent in the agreement?,"deutsche bank securities inc, rbc capital markets, suntrust robinson humphrey inc, the bank of montreal, and the bank of tokyo mitsubishi ufj ltd",1,3,1
+76,What companies are the arrangers and bookrunners but not the administrative agent in the agreement?,"deutsche bank securities inc, rbc capital markets, suntrust robinson humphrey inc, the bank of montreal, and the bank of tokyo mitsubishi ufj ltd",1,3,1
+8,What companies are the arrangers and bookrunners but not the arranger in the agreement?,"fennerand smith incorporated, merrill lynch, and pierce",1,3,1
+8,What companies are the arrangers and bookrunners but not the joint bookrunners in the agreement?,"fennerand smith incorporated, merrill lynch, and pierce",1,3,1
+8,What companies are the arrangers and bookrunners but not the joint bookrunner in the agreement?,"fennerand smith incorporated, merrill lynch, and pierce",1,3,1
+72,What companies are the book runners and arrangers but not the lead arrangers in the agreement?,citigroup global markets inc and goldman sachs bank usa,1,3,1
+66,What companies are the arrangers and agents but not the lender in the agreement?,"bank of the west, barclays bank plc, bnp paribas securities corp, bofa securities inc, and citigroup global markets inc",1,3,1
+66,What companies are the arrangers and agents but not the issuing lender in the agreement?,"bank of the west, bnp paribas securities corp, bofa securities inc, citigroup global markets inc, mufg bank ltd, and us bank national association",1,3,1
+66,What companies are the arrangers and bookrunners but not the lender in the agreement?,"bank of the west, barclays bank plc, bnp paribas securities corp, bofa securities inc, citigroup global markets inc, keybanc capital markets inc, and wells fargo securities llc",1,3,1
+66,What companies are the arrangers and bookrunners but not the issuing lender in the agreement?,"bank of the west, bnp paribas securities corp, bofa securities inc, citigroup global markets inc, keybanc capital markets inc, mufg bank ltd, us bank national association, and wells fargo securities llc",1,3,1
+66,What companies are the arrangers and lender but not the issuing lender in the agreement?,mufg bank ltd and us bank national association,1,3,1
+66,What companies are the agents and bookrunners but not the lender in the agreement?,"bank of the west, barclays bank plc, bnp paribas securities corp, bofa securities inc, and citigroup global markets inc",1,3,1
+66,What companies are the agents and bookrunners but not the issuing lender in the agreement?,"bank of the west, bnp paribas securities corp, bofa securities inc, citigroup global markets inc, mufg bank ltd, and us bank national association",1,3,1
+66,What companies are the agents and lender but not the issuing lender in the agreement?,mufg bank ltd and us bank national association,1,3,1
+66,What companies are the bookrunners and lender but not the issuing lender in the agreement?,mufg bank ltd and us bank national association,1,3,1
+99,What companies are the agent and arrangers but not the lender in the agreement?,coöperatieve centrale raiffeisen boerenleenbank ba and rabobank nederland,1,3,1
+99,What companies are the agent and arrangers but not the administrative agent in the agreement?,coöperatieve centrale raiffeisen boerenleenbank ba and rabobank nederland,1,3,1
+99,What companies are the agent and lender but not the administrative agent in the agreement?,"regions bank, suntrust bank, the bank of tokyo mitsubishi ufj ltd, and us bank national association",1,3,1
+99,What companies are the arrangers and bookrunners but not the joint bookrunners in the agreement?,"coöperatieve centrale raiffeisen boerenleenbank ba, merrill lynch pierce fennerand smith incorporated, and wells fargo securities llc",1,3,1
+166,What companies are the bookrunners and lender but not the lead arrangers in the agreement?,"barclays bank plc, kotak mahindra bank limited, standard chartered bank, state bank of india, and the bank of tokyo mitsubishi ufj ltd",1,3,1
+166,What companies are the bookrunners and lender but not the collateral agent in the agreement?,"australia and new zealand banking group limited, axis bank limited, bank of baroda, barclays bank plc, icici bank limited, kotak mahindra bank limited, state bank of india, and the bank of tokyo mitsubishi ufj ltd",1,3,1
+166,What companies are the bookrunners and lender but not the administrative agent in the agreement?,"australia and new zealand banking group limited, axis bank limited, bank of baroda, barclays bank plc, icici bank limited, kotak mahindra bank limited, state bank of india, and the bank of tokyo mitsubishi ufj ltd",1,3,1
+166,What companies are the bookrunners and lead arrangers but not the collateral agent in the agreement?,"australia and new zealand banking group limited, axis bank limited, bank of baroda, and icici bank limited",1,3,1
+166,What companies are the bookrunners and lead arrangers but not the administrative agent in the agreement?,"australia and new zealand banking group limited, axis bank limited, bank of baroda, and icici bank limited",1,3,1
+166,What companies are the lender and lead arrangers but not the collateral agent in the agreement?,"australia and new zealand banking group limited, axis bank limited, bank of baroda, and icici bank limited",1,3,1
+166,What companies are the lender and lead arrangers but not the administrative agent in the agreement?,"australia and new zealand banking group limited, axis bank limited, bank of baroda, and icici bank limited",1,3,1
+73,What companies are the joint lead arrangers and joint bookrunners but not the swing line lender in the agreement?,"barclays bank plc, credit suisse securities usa llc, deutsche bank securities inc, suntrust robinson humphrey inc, and wells fargo securities llc",1,3,1
+73,What companies are the joint lead arrangers and joint bookrunners but not the administrative agent in the agreement?,"barclays bank plc, credit suisse securities usa llc, deutsche bank securities inc, suntrust robinson humphrey inc, and wells fargo securities llc",1,3,1
+73,What companies are the joint lead arrangers and joint bookrunners but not the l c issuer in the agreement?,"barclays bank plc, credit suisse securities usa llc, deutsche bank securities inc, suntrust robinson humphrey inc, and wells fargo securities llc",1,3,1
+73,What companies are the joint lead arrangers and joint bookrunners but not the collateral agent in the agreement?,"barclays bank plc, credit suisse securities usa llc, deutsche bank securities inc, suntrust robinson humphrey inc, and wells fargo securities llc",1,3,1
+9,What companies are the arranger and arrangers but not the lender in the agreement?,jp morgan securities llc and rbs securities inc,1,3,1
+9,What companies are the arranger and arrangers but not the syndication agent in the agreement?,jp morgan securities llc and rbs securities inc,1,3,1
+9,What companies are the arranger and arrangers but not the joint bookrunner in the agreement?,jp morgan securities llc and rbs securities inc,1,3,1
+9,What companies are the arranger and bookrunner but not the lender in the agreement?,jp morgan securities llc and rbs securities inc,1,3,1
+9,What companies are the arranger and bookrunner but not the syndication agent in the agreement?,jp morgan securities llc and rbs securities inc,1,3,1
+9,What companies are the arranger and bookrunner but not the joint bookrunner in the agreement?,jp morgan securities llc and rbs securities inc,1,3,1
+9,What companies are the arrangers and bookrunner but not the lender in the agreement?,jp morgan securities llc and rbs securities inc,1,3,1
+9,What companies are the arrangers and bookrunner but not the syndication agent in the agreement?,jp morgan securities llc and rbs securities inc,1,3,1
+9,What companies are the arrangers and bookrunner but not the joint bookrunner in the agreement?,jp morgan securities llc and rbs securities inc,1,3,1
+9,What companies are the lender and agents but not the syndication agent in the agreement?,bank of america na and citibank na,1,3,1
+9,What companies are the lender and agents but not the joint bookrunner in the agreement?,bank of america na and citibank na,1,3,1
+9,What companies are the lender and agents but not the co documentation agents in the agreement?,bank of america na and citibank na,1,3,1
+59,What companies are the agents and lender but not the arrangers in the agreement?,"bank of america na, branch banking and trust company, and citibank na",1,3,1
+164,What companies are the lender and syndication agents but not the lc issuer in the agreement?,regions bank and truist bank,1,3,1
+164,What companies are the lender and syndication agents but not the administrative agent in the agreement?,regions bank and truist bank,1,3,1
+170,What companies are the agent and lender but not the l c issuer in the agreement?,"citibank na, goldman sachs bank usa, jpmorgan chase bank na, morgan stanley bank na, the bank of nova scotia, us bank national association, and wells fargo bank na",1,3,1
+165,What companies are the lender and documentation agents but not the syndication agent in the agreement?,"goldman sachs bank usa, mizuho bank ltd, the bank of tokyo mitsubishi ufj ltd, and wells fargo bank national association",1,3,1
+165,What companies are the lender and documentation agents but not the joint bookrunners in the agreement?,"goldman sachs bank usa, the bank of tokyo mitsubishi ufj ltd, and wells fargo bank national association",1,3,1
+165,What companies are the lender and documentation agents but not the administrative agent in the agreement?,"goldman sachs bank usa, mizuho bank ltd, the bank of tokyo mitsubishi ufj ltd, and wells fargo bank national association",1,3,1
+69,What companies are the subsidiary and subsidiary guarantors but not the guarantors in the agreement?,"mvp acquisitions llc, mvp merger sub llc, mvp milwaukee wells llc, and mvp raider park garage llc",1,3,1
+69,What companies are the subsidiary and subsidiary guarantors but not the borrower in the agreement?,"mvp acquisitions llc, mvp merger sub llc, mvp milwaukee wells llc, mvp raider park garage llc, and mvp real estate holdings llc",1,3,1
+82,What companies are the lender and co syndication agent but not the co documentation agent in the agreement?,bank of america and barclays bank plc,1,3,1
+82,What companies are the lender and co syndication agent but not the swingline lender in the agreement?,bank of america and barclays bank plc,1,3,1
+82,What companies are the lender and co syndication agent but not the administrative agent in the agreement?,bank of america and barclays bank plc,1,3,1
+82,What companies are the lender and co documentation agent but not the swingline lender in the agreement?,"citibank, hsbc bank usa national association, and the royal bank of scotland plc",1,3,1
+82,What companies are the lender and co documentation agent but not the administrative agent in the agreement?,"citibank, hsbc bank usa national association, and the royal bank of scotland plc",1,3,1
+169,What companies are the lender and agent but not the arranger in the agreement?,bank of america na and wells fargo bank national association,1,3,1
+169,What companies are the lender and agent but not the documentation agent in the agreement?,"bank of america na, coöperatieve centrale raiffeisen boerenleenbank barabobank nederland new york branch, and wells fargo bank national association",1,3,1
+169,What companies are the lender and agent but not the lead arranger in the agreement?,"bank of america na, coöperatieve centrale raiffeisen boerenleenbank barabobank nederland new york branch, and goldman sachs bank usa",1,3,1
+169,What companies are the lender and agent but not the book runner in the agreement?,"bank of america na, coöperatieve centrale raiffeisen boerenleenbank barabobank nederland new york branch, and goldman sachs bank usa",1,3,1
+169,What companies are the lender and agent but not the administrative agent in the agreement?,"bank of america na, coöperatieve centrale raiffeisen boerenleenbank barabobank nederland new york branch, and goldman sachs bank usa",1,3,1
+169,What companies are the lender and arranger but not the lead arranger in the agreement?,coöperatieve centrale raiffeisen boerenleenbank barabobank nederland new york branch and goldman sachs bank usa,1,3,1
+169,What companies are the lender and arranger but not the book runner in the agreement?,coöperatieve centrale raiffeisen boerenleenbank barabobank nederland new york branch and goldman sachs bank usa,1,3,1
+169,What companies are the lender and arranger but not the administrative agent in the agreement?,coöperatieve centrale raiffeisen boerenleenbank barabobank nederland new york branch and goldman sachs bank usa,1,3,1
+169,What companies are the agent and arranger but not the lead arranger in the agreement?,coöperatieve centrale raiffeisen boerenleenbank barabobank nederland new york branch and goldman sachs bank usa,1,3,1
+169,What companies are the agent and arranger but not the book runner in the agreement?,coöperatieve centrale raiffeisen boerenleenbank barabobank nederland new york branch and goldman sachs bank usa,1,3,1
+169,What companies are the agent and arranger but not the administrative agent in the agreement?,coöperatieve centrale raiffeisen boerenleenbank barabobank nederland new york branch and goldman sachs bank usa,1,3,1
+68,What companies are the lender and agent but not the l c issuer in the agreement?,"bank of montreal, citizens bank na, and regions bank",1,3,1
+68,What companies are the lender and agent but not the issuer in the agreement?,"bank of montreal, citizens bank na, jpmorgan chase bank na, and regions bank",1,3,1
+68,What companies are the lender and agent but not the administrative agent in the agreement?,"bank of montreal, citizens bank na, jpmorgan chase bank na, and regions bank",1,3,1
+40,What companies are the lender and co documentation agent but not the syndication agent in the agreement?,associated bank national association and first niagara bank na,1,3,1
+40,What companies are the lender and co documentation agent but not the administrative agent in the agreement?,associated bank national association and first niagara bank na,1,3,1
+40,What companies are the lender and co documentation agent but not the issuing bank in the agreement?,associated bank national association and first niagara bank na,1,3,1
+143,What companies are the book runners and arrangers but not the lender in the agreement?,citizens bank national association and wells fargo securities llc,1,3,1
+143,What companies are the book runners and arrangers but not the joint book runners in the agreement?,citizens bank national association and wells fargo securities llc,1,3,1
+143,What companies are the book runners and arrangers but not the joint lead arrangers in the agreement?,citizens bank national association and wells fargo securities llc,1,3,1
+143,What companies are the book runners and arrangers but not the documentation agent in the agreement?,citizens bank national association and wells fargo securities llc,1,3,1
+156,What companies are the issuing bank and lender but not the bookrunners in the agreement?,wells fargo bank national association and wells fargo capital finance corporation canada,1,3,1
+156,What companies are the issuing bank and lender but not the lead arranger in the agreement?,bnp paribas and wells fargo capital finance corporation canada,1,3,1
+156,What companies are the issuing bank and lender but not the agent in the agreement?,bnp paribas and wells fargo capital finance corporation canada,1,3,1
+156,What companies are the issuing bank and lender but not the lead arrangers in the agreement?,bnp paribas and wells fargo capital finance corporation canada,1,3,1
+156,What companies are the issuing bank and lender but not the security agent in the agreement?,bnp paribas and wells fargo capital finance corporation canada,1,3,1
+156,What companies are the issuing bank and lender but not the administrative agent in the agreement?,bnp paribas and wells fargo capital finance corporation canada,1,3,1
+156,What companies are the issuing bank and lender but not the bookrunner in the agreement?,bnp paribas and wells fargo capital finance corporation canada,1,3,1
+94,What companies are the arrangers and bookrunners but not the collatera agent in the agreement?,"fifth third bank, pnc capital markets llc, and sumitomo mitsui banking corporation",1,3,1
+94,What companies are the arrangers and bookrunners but not the administrative agent in the agreement?,"fifth third bank, pnc capital markets llc, and sumitomo mitsui banking corporation",1,3,1
+94,What companies are the arrangers and lender but not the collatera agent in the agreement?,fifth third bank and sumitomo mitsui banking corporation,1,3,1
+94,What companies are the arrangers and lender but not the administrative agent in the agreement?,fifth third bank and sumitomo mitsui banking corporation,1,3,1
+94,What companies are the bookrunners and lender but not the collatera agent in the agreement?,fifth third bank and sumitomo mitsui banking corporation,1,3,1
+94,What companies are the bookrunners and lender but not the administrative agent in the agreement?,fifth third bank and sumitomo mitsui banking corporation,1,3,1
+57,What companies are the arranger and bookrunner but not the lender in the agreement?,deutsche bank securities inc and merrill lynch pierce fenner and smith incorporated,1,3,1
+57,What companies are the arranger and bookrunner but not the l c issuer in the agreement?,"citibank na, deutsche bank securities inc, and merrill lynch pierce fenner and smith incorporated",1,3,1
+47,What companies are the joint lead arrangers and joint bookrunners but not the lender in the agreement?,"merrill lynch pierce fennerand smith incorporated, pnc capital markets llc, and wells fargo securities llc",1,3,1
+47,What companies are the joint lead arrangers and joint bookrunners but not the co syndication agents in the agreement?,"merrill lynch pierce fennerand smith incorporated, pnc capital markets llc, and wells fargo securities llc",1,3,1
+47,What companies are the lender and co syndication agents but not the administrative agent in the agreement?,"bank of america na, deutsche bank ag new york branch, pnc bank national association, and the bank of tokyo mitsubishi ufjltd",1,3,1
+153,What companies are the joint lead arrangers and joint bookrunners but not the co syndication agents in the agreement?,"jpmorgan chase bank na, pnc capital markets llc, and truist securities inc",1,3,1
+153,What companies are the joint lead arrangers and joint bookrunners but not the lender in the agreement?,pnc capital markets llc and truist securities inc,1,3,1
+153,What companies are the joint lead arrangers and joint bookrunners but not the issuing bank in the agreement?,pnc capital markets llc and truist securities inc,1,3,1
+153,What companies are the joint lead arrangers and joint bookrunners but not the administrative agent in the agreement?,"citizens bank na, pnc capital markets llc, silicon valley bank, and truist securities inc",1,3,1
+153,What companies are the joint lead arrangers and co syndication agents but not the administrative agent in the agreement?,citizens bank na and silicon valley bank,1,3,1
+153,What companies are the joint lead arrangers and lender but not the administrative agent in the agreement?,citizens bank na and silicon valley bank,1,3,1
+153,What companies are the joint lead arrangers and issuing bank but not the administrative agent in the agreement?,citizens bank na and silicon valley bank,1,3,1
+153,What companies are the joint bookrunners and co syndication agents but not the administrative agent in the agreement?,citizens bank na and silicon valley bank,1,3,1
+153,What companies are the joint bookrunners and lender but not the administrative agent in the agreement?,citizens bank na and silicon valley bank,1,3,1
+153,What companies are the joint bookrunners and issuing bank but not the administrative agent in the agreement?,citizens bank na and silicon valley bank,1,3,1
+153,What companies are the lender and issuing bank but not the administrative agent in the agreement?,"citizens bank na, pnc bank national association, silicon valley bank, and truist bank",1,3,1
+52,What companies are the bank and agents but not the administrative agents in the agreement?,citibank na and jpmorgan chase bank na,1,3,1
+151,What companies are the lender and l c issuer but not the syndication agent in the agreement?,citibank and mizuho bankltd,1,3,1
+151,What companies are the lender and joint bookrunners but not the syndication agent in the agreement?,citibank and mizuho bankltd,1,3,1
+151,What companies are the l c issuer and joint bookrunners but not the syndication agent in the agreement?,"bank of america, citibank, jpmorgan chase bank, and mizuho bankltd",1,3,1
+151,What companies are the l c issuer and joint bookrunners but not the swing line lender in the agreement?,"barclays bank plc, citibank, and mizuho bankltd",1,3,1
+151,What companies are the l c issuer and agent but not the swing line lender in the agreement?,citibank and mizuho bankltd,1,3,1
+151,What companies are the l c issuer and joint lead arrangers but not the swing line lender in the agreement?,citibank and mizuho bankltd,1,3,1
+151,What companies are the joint bookrunners and agent but not the swing line lender in the agreement?,citibank and mizuho bankltd,1,3,1
+151,What companies are the joint bookrunners and joint lead arrangers but not the swing line lender in the agreement?,citibank and mizuho bankltd,1,3,1
+151,What companies are the agent and joint lead arrangers but not the swing line lender in the agreement?,citibank and mizuho bankltd,1,3,1
+51,What companies are the joint bookrunners and arrangers but not the administrative agent in the agreement?,"citigroup global markets inc, natixis securities americas llc, rbc capital markets1, the bank of tokyo mitsubishi ufj ltd, and ubs securities llc",1,3,1
+51,What companies are the joint bookrunners and arrangers but not the joint lead arrangers in the agreement?,"citigroup global markets inc, natixis securities americas llc, rbc capital markets1, the bank of tokyo mitsubishi ufj ltd, and ubs securities llc",1,3,1
+51,What companies are the joint bookrunners and arrangers but not the lender in the agreement?,"citigroup global markets inc, natixis securities americas llc, rbc capital markets1, the bank of tokyo mitsubishi ufj ltd, and ubs securities llc",1,3,1
+79,What companies are the arrangers and bookrunners but not the joint bookrunners in the agreement?,"citigroup global markets inc, merrill lynch pierce fennerand smith incorporated, and wells fargo securities llc",1,3,1
+79,What companies are the arrangers and bookrunners but not the syndication agents in the agreement?,merrill lynch pierce fennerand smith incorporated and wells fargo securities llc,1,3,1
+123,What companies are the lender and agent but not the administrative agent in the agreement?,"bank of america na, citibank na, credit suisse ag, goldman sachs bank usa, the bank of tokyo mitsubishi ufj ltd, and wells fargo bank",1,3,1
+123,What companies are the lender and agent but not the documentation agent in the agreement?,"bank of america na, citibank na, credit suisse ag, goldman sachs bank usa, the bank of tokyo mitsubishi ufj ltd, and wells fargo bank",1,3,1
+137,What companies are the lender and bank but not the administrative agent in the agreement?,bank of america na and regions bank,1,3,1
+35,What companies are the agents and arrangers but not the bank in the agreement?,goldman sachs bank usa and the bank of tokyo mitsubishi ufj ltd,1,3,1
+35,What companies are the agents and bookrunners but not the bank in the agreement?,goldman sachs bank usa and the bank of tokyo mitsubishi ufj ltd,1,3,1
+35,What companies are the agents and lender but not the issuing bank in the agreement?,"bnp paribas, hsbc bank usa na, sumitomo mitsui banking corporation, the bank of nova scotia, and the royal bank of scotland plc",1,3,1
+35,What companies are the agents and lender but not the bank in the agreement?,"bank of america na, bnp paribas, citibank na, goldman sachs bank usa, hsbc bank usa na, sumitomo mitsui banking corporation, the bank of nova scotia, the bank of tokyo mitsubishi ufj ltd, and wells fargo bank national association",1,3,1
+35,What companies are the agents and issuing bank but not the bank in the agreement?,"bank of america na, citibank na, goldman sachs bank usa, the bank of tokyo mitsubishi ufj ltd, and wells fargo bank national association",1,3,1
+35,What companies are the arrangers and bookrunners but not the syndication agents in the agreement?,"goldman sachs bank usa, rbs securities inc, and the bank of tokyo mitsubishi ufj ltd",1,3,1
+35,What companies are the arrangers and bookrunners but not the lender in the agreement?,morgan stanley senior funding inc and rbs securities inc,1,3,1
+35,What companies are the arrangers and bookrunners but not the issuing bank in the agreement?,morgan stanley senior funding inc and rbs securities inc,1,3,1
+35,What companies are the lender and issuing bank but not the bank in the agreement?,"bank of america na, citibank na, goldman sachs bank usa, jpmorgan chase bank na, morgan stanley bank na, the bank of tokyo mitsubishi ufj ltd, and wells fargo bank national association",1,3,1
+35,What companies are the lender and issuing bank but not the administrative agent in the agreement?,"bank of america na, citibank na, goldman sachs bank usa, morgan stanley bank na, the bank of tokyo mitsubishi ufj ltd, and wells fargo bank national association",1,3,1
+121,What companies are the arranger and bookrunners but not the joint bookrunners in the agreement?,"jp morgan securities llc, us bank national association, and wells fargo securities llc",1,3,1
+121,What companies are the arranger and bookrunners but not the senior managing agent in the agreement?,jp morgan securities llc and wells fargo securities llc,1,3,1
+135,What companies are the arranger and arrangers but not the lender in the agreement?,"citigroup global markets inc, dnb marketsinc, and jp morgan securities llc",1,3,1
+135,What companies are the arranger and arrangers but not the agents in the agreement?,"citigroup global markets inc, dnb marketsinc, and jp morgan securities llc",1,3,1
+135,What companies are the arranger and arrangers but not the joint lead arrangers in the agreement?,"citigroup global markets inc, dnb marketsinc, jp morgan securities llc, and mizuho bankltd",1,3,1
+135,What companies are the arranger and arrangers but not the co documentation agent in the agreement?,"citigroup global markets inc, dnb marketsinc, and jp morgan securities llc",1,3,1
+135,What companies are the arranger and bookrunners but not the lender in the agreement?,"citigroup global markets inc, dnb marketsinc, jp morgan securities llc, and wells fargo securities llc",1,3,1
+135,What companies are the arranger and bookrunners but not the agents in the agreement?,"citigroup global markets inc, dnb marketsinc, jp morgan securities llc, and wells fargo securities llc",1,3,1
+135,What companies are the arranger and bookrunners but not the joint lead arrangers in the agreement?,"citigroup global markets inc, dnb marketsinc, jp morgan securities llc, and mizuho bankltd",1,3,1
+135,What companies are the arranger and bookrunners but not the co documentation agent in the agreement?,"citigroup global markets inc, dnb marketsinc, jp morgan securities llc, and wells fargo securities llc",1,3,1
+135,What companies are the arranger and bookrunner but not the lender in the agreement?,"citigroup global markets inc, dnb marketsinc, jp morgan securities llc, and wells fargo securities llc",1,3,1
+135,What companies are the arranger and bookrunner but not the agents in the agreement?,"citigroup global markets inc, dnb marketsinc, jp morgan securities llc, and wells fargo securities llc",1,3,1
+135,What companies are the arranger and bookrunner but not the joint lead arrangers in the agreement?,"citigroup global markets inc, dnb marketsinc, jp morgan securities llc, and mizuho bankltd",1,3,1
+135,What companies are the arranger and bookrunner but not the co documentation agent in the agreement?,"citigroup global markets inc, dnb marketsinc, jp morgan securities llc, and wells fargo securities llc",1,3,1
+135,What companies are the arrangers and bookrunners but not the bookrunner in the agreement?,"fenner, merrill lynch, pierce, and smith incorporated",1,3,1
+135,What companies are the arrangers and bookrunners but not the lender in the agreement?,"citigroup global markets inc, dnb marketsinc, fenner, jp morgan securities llc, merrill lynch, pierce, and smith incorporated",1,3,1
+135,What companies are the arrangers and bookrunners but not the agents in the agreement?,"citigroup global markets inc, dnb marketsinc, fenner, jp morgan securities llc, merrill lynch, pierce, and smith incorporated",1,3,1
+135,What companies are the arrangers and bookrunners but not the co documentation agent in the agreement?,"citigroup global markets inc, dnb marketsinc, fenner, jp morgan securities llc, merrill lynch, pierce, and smith incorporated",1,3,1
+135,What companies are the arrangers and bookrunner but not the lender in the agreement?,"citigroup global markets inc, dnb marketsinc, and jp morgan securities llc",1,3,1
+135,What companies are the arrangers and bookrunner but not the agents in the agreement?,"citigroup global markets inc, dnb marketsinc, and jp morgan securities llc",1,3,1
+135,What companies are the arrangers and bookrunner but not the co documentation agent in the agreement?,"citigroup global markets inc, dnb marketsinc, and jp morgan securities llc",1,3,1
+135,What companies are the bookrunners and bookrunner but not the lender in the agreement?,"citigroup global markets inc, dnb marketsinc, jp morgan securities llc, and wells fargo securities llc",1,3,1
+135,What companies are the bookrunners and bookrunner but not the agents in the agreement?,"citigroup global markets inc, dnb marketsinc, jp morgan securities llc, and wells fargo securities llc",1,3,1
+135,What companies are the bookrunners and bookrunner but not the joint lead arrangers in the agreement?,"citigroup global markets inc, dnb marketsinc, jp morgan securities llc, and mizuho bankltd",1,3,1
+135,What companies are the bookrunners and bookrunner but not the co documentation agent in the agreement?,"citigroup global markets inc, dnb marketsinc, jp morgan securities llc, and wells fargo securities llc",1,3,1
+135,What companies are the lender and agents but not the administrative agent in the agreement?,mizuho bankltd and wells fargo bank national association,1,3,1
+135,What companies are the lender and co syndication agent but not the co documentation agent in the agreement?,"citibank na, jpmorgan chase bank na, and wells fargo bank national association",1,3,1
+135,What companies are the lender and co syndication agent but not the administrative agent in the agreement?,"citibank na, jpmorgan chase bank na, and wells fargo bank national association",1,3,1
+124,What companies are the lender and syndication agents but not the administrative agent in the agreement?,"bank of america na, jpmorgan chase bank na, and keybank national association",1,3,1
+130,What companies are the arranger and bookrunner but not the documentation agents in the agreement?,"bofa securities inc, fifth third bank national association, hancock whitney investment services inc, pnc capital markets llc, regions capital markets, truist securities inc, umb bankna, and wells fargo securities llc",1,3,1
+130,What companies are the arranger and bookrunner but not the syndication agents in the agreement?,"bofa securities inc, fifth third bank national association, hancock whitney investment services inc, pnc capital markets llc, regions capital markets, truist securities inc, umb bankna, and wells fargo securities llc",1,3,1
+130,What companies are the arranger and bookrunner but not the lender in the agreement?,"bofa securities inc, hancock whitney investment services inc, jpmorgan chase bank na, pnc capital markets llc, rbc capital markets, regions capital markets, truist securities inc, umb bankna, and wells fargo securities llc",1,3,1
+130,What companies are the arranger and bookrunner but not the issuing bank in the agreement?,"bofa securities inc, fifth third bank national association, hancock whitney investment services inc, pnc capital markets llc, rbc capital markets, regions capital markets, truist securities inc, umb bankna, and wells fargo securities llc",1,3,1
+130,What companies are the arranger and bookrunner but not the revolving administrative agent in the agreement?,"bofa securities inc, fifth third bank national association, hancock whitney investment services inc, pnc capital markets llc, rbc capital markets, regions capital markets, truist securities inc, umb bankna, and wells fargo securities llc",1,3,1
+130,What companies are the arranger and bookrunner but not the collateral agent in the agreement?,"bofa securities inc, fifth third bank national association, hancock whitney investment services inc, pnc capital markets llc, rbc capital markets, regions capital markets, truist securities inc, umb bankna, and wells fargo securities llc",1,3,1
+130,What companies are the arranger and documentation agents but not the lender in the agreement?,jpmorgan chase bank na and rbc capital markets,1,3,1
+130,What companies are the arranger and syndication agents but not the lender in the agreement?,jpmorgan chase bank na and rbc capital markets,1,3,1
+130,What companies are the bookrunner and documentation agents but not the lender in the agreement?,jpmorgan chase bank na and rbc capital markets,1,3,1
+130,What companies are the bookrunner and syndication agents but not the lender in the agreement?,jpmorgan chase bank na and rbc capital markets,1,3,1
+33,What companies are the arrangers and bookrunners but not the joint bookrunners in the agreement?,"credit suisse securities usa llc, jp morgan securities llc, and ubs securities llc",1,3,1
+33,What companies are the arrangers and bookrunners but not the syndication agent in the agreement?,credit suisse securities usa llc and ubs securities llc,1,3,1
+33,What companies are the arrangers and bookrunners but not the documentation agent in the agreement?,credit suisse securities usa llc and jp morgan securities llc,1,3,1
+126,What companies are the arrangers and bookrunners but not the lenders in the agreement?,bnp paribas securities corp and bofa securities inc,1,3,1
+126,What companies are the arrangers and bookrunners but not the agents in the agreement?,"bnp paribas securities corp, bofa securities inc, citibank na, mufg bank ltd, and sumitomo mitsui banking corporation",1,3,1
+126,What companies are the arrangers and bookrunners but not the co syndication agents in the agreement?,"bnp paribas securities corp, bofa securities inc, citibank na, jpmorgan chase bank na, mizuho bank ltd, and sumitomo mitsui banking corporation",1,3,1
+126,What companies are the arrangers and bookrunners but not the documentation agents in the agreement?,"bnp paribas securities corp, bofa securities inc, citibank na, jpmorgan chase bank na, mizuho bank ltd, and mufg bank ltd",1,3,1
+126,What companies are the arrangers and bookrunners but not the agent in the agreement?,"bnp paribas securities corp, bofa securities inc, jpmorgan chase bank na, mizuho bank ltd, mufg bank ltd, and sumitomo mitsui banking corporation",1,3,1
+126,What companies are the arrangers and lenders but not the agents in the agreement?,"citibank na, mufg bank ltd, and sumitomo mitsui banking corporation",1,3,1
+126,What companies are the arrangers and lenders but not the co syndication agents in the agreement?,"citibank na, jpmorgan chase bank na, mizuho bank ltd, and sumitomo mitsui banking corporation",1,3,1
+126,What companies are the arrangers and lenders but not the documentation agents in the agreement?,"citibank na, jpmorgan chase bank na, mizuho bank ltd, and mufg bank ltd",1,3,1
+126,What companies are the arrangers and lenders but not the agent in the agreement?,"jpmorgan chase bank na, mizuho bank ltd, mufg bank ltd, and sumitomo mitsui banking corporation",1,3,1
+126,What companies are the arrangers and agents but not the co syndication agents in the agreement?,jpmorgan chase bank na and mizuho bank ltd,1,3,1
+126,What companies are the arrangers and agents but not the documentation agents in the agreement?,jpmorgan chase bank na and mizuho bank ltd,1,3,1
+126,What companies are the arrangers and agents but not the agent in the agreement?,jpmorgan chase bank na and mizuho bank ltd,1,3,1
+126,What companies are the bookrunners and lenders but not the agents in the agreement?,"citibank na, mufg bank ltd, and sumitomo mitsui banking corporation",1,3,1
+126,What companies are the bookrunners and lenders but not the co syndication agents in the agreement?,"citibank na, jpmorgan chase bank na, mizuho bank ltd, and sumitomo mitsui banking corporation",1,3,1
+126,What companies are the bookrunners and lenders but not the documentation agents in the agreement?,"citibank na, jpmorgan chase bank na, mizuho bank ltd, and mufg bank ltd",1,3,1
+126,What companies are the bookrunners and lenders but not the agent in the agreement?,"jpmorgan chase bank na, mizuho bank ltd, mufg bank ltd, and sumitomo mitsui banking corporation",1,3,1
+126,What companies are the bookrunners and agents but not the co syndication agents in the agreement?,jpmorgan chase bank na and mizuho bank ltd,1,3,1
+126,What companies are the bookrunners and agents but not the documentation agents in the agreement?,jpmorgan chase bank na and mizuho bank ltd,1,3,1
+126,What companies are the bookrunners and agents but not the agent in the agreement?,jpmorgan chase bank na and mizuho bank ltd,1,3,1
+126,What companies are the lenders and agents but not the co syndication agents in the agreement?,"bank of america na, bnp paribas, jpmorgan chase bank na, and mizuho bank ltd",1,3,1
+126,What companies are the lenders and agents but not the documentation agents in the agreement?,"bank of america na, bnp paribas, jpmorgan chase bank na, and mizuho bank ltd",1,3,1
+126,What companies are the lenders and agents but not the agent in the agreement?,"bank of america na, bnp paribas, jpmorgan chase bank na, and mizuho bank ltd",1,3,1
+127,What companies are the lender and agents but not the l c issuer in the agreement?,"citibank na, deutsche bank ag, goldman sachs bank, jpmorgan chase bank na, mizuho bank, morgan stanley bank na, and us bank national association",1,3,1
+127,What companies are the lender and agents but not the administrative agent in the agreement?,"citibank na, deutsche bank ag, goldman sachs bank, jpmorgan chase bank na, mizuho bank, morgan stanley bank na, and us bank national association",1,3,1
+127,What companies are the lender and agents but not the lenders in the agreement?,"citibank na, deutsche bank ag, goldman sachs bank, jpmorgan chase bank na, mizuho bank, morgan stanley bank na, and us bank national association",1,3,1
+32,What companies are the lenders and arrangers but not the co documentation agent in the agreement?,barclays bank plc and hsbc bank canada,1,3,1
+32,What companies are the lenders and bookrunners but not the co documentation agent in the agreement?,barclays bank plc and hsbc bank canada,1,3,1
+32,What companies are the lenders and lender but not the agents in the agreement?,"hsbc bank canada, jpmorgan chase bank na, the standard bank of south africa limited, ubs limited, and wells fargo bank na",1,3,1
+32,What companies are the lenders and lender but not the co syndication agent in the agreement?,"hsbc bank canada, jpmorgan chase bank na, royal bank of canada, the standard bank of south africa limited, ubs limited, and wells fargo bank na",1,3,1
+32,What companies are the lenders and lender but not the arranger in the agreement?,"hsbc bank canada, jpmorgan chase bank na, the standard bank of south africa limited, ubs limited, and wells fargo bank na",1,3,1
+32,What companies are the lenders and lender but not the bookrunner in the agreement?,"jpmorgan chase bank na, royal bank of canada, the standard bank of south africa limited, ubs limited, and wells fargo bank na",1,3,1
+32,What companies are the lenders and lender but not the co documentation agent in the agreement?,"barclays bank plc, hsbc bank canada, jpmorgan chase bank na, the standard bank of south africa limited, ubs limited, and wells fargo bank na",1,3,1
+32,What companies are the lenders and lender but not the bank in the agreement?,"barclays bank plc, jpmorgan chase bank na, royal bank of canada, the standard bank of south africa limited, ubs limited, and wells fargo bank na",1,3,1
+32,What companies are the lenders and lender but not the joint lead arranger in the agreement?,"barclays bank plc, jpmorgan chase bank na, royal bank of canada, the standard bank of south africa limited, ubs limited, and wells fargo bank na",1,3,1
+32,What companies are the lenders and agents but not the bank in the agreement?,barclays bank plc and royal bank of canada,1,3,1
+32,What companies are the lenders and agents but not the joint lead arranger in the agreement?,barclays bank plc and royal bank of canada,1,3,1
+32,What companies are the lenders and arranger but not the bank in the agreement?,barclays bank plc and royal bank of canada,1,3,1
+32,What companies are the lenders and arranger but not the joint lead arranger in the agreement?,barclays bank plc and royal bank of canada,1,3,1
+32,What companies are the lenders and bookrunner but not the co documentation agent in the agreement?,barclays bank plc and hsbc bank canada,1,3,1
+32,What companies are the arrangers and bookrunners but not the lender in the agreement?,jp morgan securities llc and rbc capital markets,1,3,1
+32,What companies are the arrangers and bookrunners but not the agents in the agreement?,hsbc bank canada and rbc capital markets,1,3,1
+32,What companies are the arrangers and bookrunners but not the co syndication agent in the agreement?,hsbc bank canada and rbc capital markets,1,3,1
+32,What companies are the arrangers and bookrunners but not the arranger in the agreement?,hsbc bank canada and rbc capital markets,1,3,1
+32,What companies are the arrangers and bookrunners but not the bank in the agreement?,"barclays bank plc, jp morgan securities llc, and rbc capital markets",1,3,1
+32,What companies are the arrangers and bookrunners but not the joint lead arranger in the agreement?,"barclays bank plc, jp morgan securities llc, and rbc capital markets",1,3,1
+32,What companies are the arrangers and agents but not the bank in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the arrangers and agents but not the joint lead arranger in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the arrangers and co syndication agent but not the bank in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the arrangers and co syndication agent but not the joint lead arranger in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the arrangers and arranger but not the bank in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the arrangers and arranger but not the joint lead arranger in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the arrangers and bookrunner but not the bank in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the arrangers and bookrunner but not the joint lead arranger in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the bookrunners and lender but not the agent in the agreement?,barclays bank plc and hsbc bank canada,1,3,1
+32,What companies are the bookrunners and lender but not the co documentation agents in the agreement?,barclays bank plc and hsbc bank canada,1,3,1
+32,What companies are the bookrunners and lender but not the joint lead arrangers in the agreement?,barclays bank plc and hsbc bank canada,1,3,1
+32,What companies are the bookrunners and agents but not the bank in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the bookrunners and agents but not the joint lead arranger in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the bookrunners and agents but not the agent in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the bookrunners and agents but not the co documentation agents in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the bookrunners and agents but not the joint lead arrangers in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the bookrunners and co syndication agent but not the bank in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the bookrunners and co syndication agent but not the joint lead arranger in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the bookrunners and co syndication agent but not the agent in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the bookrunners and co syndication agent but not the co documentation agents in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the bookrunners and co syndication agent but not the joint lead arrangers in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the bookrunners and arranger but not the bank in the agreement?,"barclays bank plc, jp morgan securities llc, and ubs securities llc",1,3,1
+32,What companies are the bookrunners and arranger but not the joint lead arranger in the agreement?,"barclays bank plc, jp morgan securities llc, and ubs securities llc",1,3,1
+32,What companies are the bookrunners and arranger but not the agent in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the bookrunners and arranger but not the co documentation agents in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the bookrunners and arranger but not the joint lead arrangers in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the bookrunners and bookrunner but not the bank in the agreement?,"barclays bank plc, jp morgan securities llc, and ubs securities llc",1,3,1
+32,What companies are the bookrunners and bookrunner but not the joint lead arranger in the agreement?,"barclays bank plc, jp morgan securities llc, and ubs securities llc",1,3,1
+32,What companies are the bookrunners and bookrunner but not the agent in the agreement?,"barclays bank plc, hsbc bank canada, and jp morgan securities llc",1,3,1
+32,What companies are the bookrunners and bookrunner but not the co documentation agents in the agreement?,"barclays bank plc, hsbc bank canada, and jp morgan securities llc",1,3,1
+32,What companies are the bookrunners and bookrunner but not the joint lead arrangers in the agreement?,"barclays bank plc, hsbc bank canada, and jp morgan securities llc",1,3,1
+32,What companies are the lender and agents but not the bank in the agreement?,barclays bank plc and royal bank of canada,1,3,1
+32,What companies are the lender and agents but not the joint lead arranger in the agreement?,barclays bank plc and royal bank of canada,1,3,1
+32,What companies are the lender and arranger but not the bank in the agreement?,barclays bank plc and royal bank of canada,1,3,1
+32,What companies are the lender and arranger but not the joint lead arranger in the agreement?,barclays bank plc and royal bank of canada,1,3,1
+32,What companies are the lender and bookrunner but not the co documentation agent in the agreement?,barclays bank plc and hsbc bank canada,1,3,1
+32,What companies are the agents and co syndication agent but not the co documentation agent in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the agents and arranger but not the co documentation agent in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the agents and bookrunner but not the co documentation agent in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the arranger and bookrunner but not the co documentation agent in the agreement?,"barclays bank plc, jp morgan securities llc, and ubs securities llc",1,3,1
+32,What companies are the arranger and bookrunner but not the agent in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the arranger and bookrunner but not the co documentation agents in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+32,What companies are the arranger and bookrunner but not the joint lead arrangers in the agreement?,barclays bank plc and jp morgan securities llc,1,3,1
+26,What companies are the lender and lead arrangers but not the agents in the agreement?,morgan stanley senior funding inc and mufg bank ltd,1,3,1
+26,What companies are the lender and lead arrangers but not the syndication agent in the agreement?,"barclays bank plc, mizuho bank ltd, and morgan stanley senior funding inc",1,3,1
+26,What companies are the lender and lead arrangers but not the documentation agents in the agreement?,"barclays bank plc, mizuho bank ltd, morgan stanley senior funding inc, and mufg bank ltd",1,3,1
+26,What companies are the lender and lead arrangers but not the administrative agent in the agreement?,"barclays bank plc, mizuho bank ltd, and mufg bank ltd",1,3,1
+26,What companies are the lender and agents but not the syndication agent in the agreement?,barclays bank plc and mizuho bank ltd,1,3,1
+26,What companies are the lender and agents but not the documentation agents in the agreement?,barclays bank plc and mizuho bank ltd,1,3,1
+26,What companies are the lender and agents but not the administrative agent in the agreement?,barclays bank plc and mizuho bank ltd,1,3,1
+26,What companies are the lender and bookrunners but not the syndication agent in the agreement?,"barclays bank plc, mizuho bank ltd, and morgan stanley senior funding inc",1,3,1
+26,What companies are the lender and bookrunners but not the documentation agents in the agreement?,"barclays bank plc, mizuho bank ltd, morgan stanley senior funding inc, and mufg bank ltd",1,3,1
+26,What companies are the lender and bookrunners but not the administrative agent in the agreement?,"barclays bank plc, mizuho bank ltd, and mufg bank ltd",1,3,1
+26,What companies are the lead arrangers and agents but not the syndication agent in the agreement?,"barclays bank plc, credit suisse loan funding llc, and mizuho bank ltd",1,3,1
+26,What companies are the lead arrangers and agents but not the administrative agent in the agreement?,"barclays bank plc, credit suisse loan funding llc, and mizuho bank ltd",1,3,1
+26,What companies are the lead arrangers and bookrunners but not the syndication agent in the agreement?,"barclays bank plc, credit suisse loan funding llc, mizuho bank ltd, morgan stanley senior funding inc, and wells fargo securities llc",1,3,1
+26,What companies are the lead arrangers and bookrunners but not the administrative agent in the agreement?,"barclays bank plc, credit suisse loan funding llc, mizuho bank ltd, mufg bank ltd, and wells fargo securities llc",1,3,1

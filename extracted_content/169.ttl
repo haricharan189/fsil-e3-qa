@@ -1,0 +1,305 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org1: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person: <http://example.org/person_name/> .
+@prefix position: <http://example.org/person_position/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+base:Location a rdfs:Class .
+
+base:Organization a rdfs:Class .
+
+base:Person a rdfs:Class .
+
+location_type:administrative_agents_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:administrative_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:ag_new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_management a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_services a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:assembly_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:business_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:cayman_islands_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:chief_executive_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:commercial_banking a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_customers_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:domestic_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:dublin_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:eurodollar_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:front_end_test_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:london_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:mexico_location_contract_manufacturing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:micro_building_and_corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:middle_market_servicing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:offsite_storage a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:opto_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:registered_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:rexford_industrial_realty_inc_11620_wilshire_boulevard_suite_1000_los_angeles_california_90025 a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:trade_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:zonal_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+org1:bc_systems_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower .
+
+org1:borrowers a base:Organization .
+
+org1:cb_containers_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower .
+
+org1:chiquita_brands_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower .
+
+org1:chiquita_brands_llc_chiquita_fresh_north_america_llc_fresh_international_corp_fresh_express_incorporated_bc_systems_inc_verdelli_farms_inc_transfresh_corporation_cb_containers_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrowers .
+
+org1:chiquita_fresh_north_america_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower .
+
+org1:fresh_express_incorporated a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower .
+
+org1:fresh_international_corp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower .
+
+org1:goldman_sachs_bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lead_arrangers .
+
+org1:merrill_lynch_pierce_fenner_and_smith_incorporated a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:book_runners,
+        org_role:lender .
+
+org1:sportation_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrowers .
+
+org1:transfresh_corporation a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower .
+
+org1:verdelli_farms_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower .
+
+org1:vf_tran a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrowers .
+
+org1:vf_transportation_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower .
+
+org_role:agents rdfs:subClassOf base:Organization .
+
+loc:150_south_wacker_drive_suite_2200_chicago_illinois_60606 a base:Location ;
+    rel:isLocationOf org1:wells_fargo_bank_national_association .
+
+loc:550_south_caldwell_street_charlotte_north_carolina_28202 a base:Location ;
+    rel:isLocationOf org1:chiquita_brands_international_inc .
+
+org1:coöperatieve_centrale_raiffeisen_boerenleenbank_ba_rabobank_nederland a base:Organization ;
+    rel:hasLocationAt loc:new_york_branch .
+
+org_role:administrative_agent rdfs:subClassOf base:Organization .
+
+org_role:book_runner rdfs:subClassOf base:Organization .
+
+org_role:documentation_agent rdfs:subClassOf base:Organization .
+
+org_role:lead_arrangers rdfs:subClassOf base:Organization .
+
+org_role:parent rdfs:subClassOf base:Organization .
+
+person:anwar_s_young a base:Person ;
+    <http://example.org/isInstanceOf/> position:authorized_signatory ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:wells_fargo_bank_national_association ;
+            rel:position position:authorized_signatory ] ;
+    rel:isEmployedBy org1:wells_fargo_bank_national_association .
+
+person:jeff_bliss a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:coöperatieve_centrale_raiffeisen_boerenleenbank_barabobank_nederland_new_york_branch ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:coöperatieve_centrale_raiffeisen_boerenleenbank_barabobank_nederland_new_york_branch .
+
+person:john_m_olsen a base:Person ;
+    <http://example.org/isInstanceOf/> position:authorized_signatory ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:bank_of_america_na ;
+            rel:position position:authorized_signatory ] ;
+    rel:isEmployedBy org1:bank_of_america_na .
+
+person:joseph_b_johnson a base:Person ;
+    <http://example.org/isInstanceOf/> position:chief_accounting_officer,
+        position:controller,
+        position:treasurer,
+        position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:chiquita_brands_international_inc ;
+            rel:position position:chief_accounting_officer ],
+        [ a rel:Employment ;
+            rel:organization org1:chiquita_brands_international_inc ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:chiquita_brands_international_inc ;
+            rel:position position:vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:chiquita_brands_international_inc ;
+            rel:position position:controller ] ;
+    rel:isEmployedBy org1:chiquita_brands_international_inc .
+
+person:mark_walton a base:Person ;
+    <http://example.org/isInstanceOf/> position:authorized_signatory ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:goldman_sachs_bank_usa ;
+            rel:position position:authorized_signatory ] ;
+    rel:isEmployedBy org1:goldman_sachs_bank_usa .
+
+person:noam_s_azachi a base:Person ;
+    <http://example.org/isInstanceOf/> position:authorized_signatory ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:barclays_bank_plc ;
+            rel:position position:authorized_signatory ] ;
+    rel:isEmployedBy org1:barclays_bank_plc .
+
+person:timothy_j_devane a base:Person ;
+    <http://example.org/isInstanceOf/> position:executive_director ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:coöperatieve_centrale_raiffeisen_boerenleenbank_barabobank_nederland_new_york_branch ;
+            rel:position position:executive_director ] ;
+    rel:isEmployedBy org1:coöperatieve_centrale_raiffeisen_boerenleenbank_barabobank_nederland_new_york_branch .
+
+loc:new_york_branch a base:Location ;
+    rel:isLocationOf org1:coöperatieve_centrale_raiffeisen_boerenleenbank_ba_rabobank_nederland,
+        org1:wells_fargo_bank_national_association .
+
+org1:bank_of_america_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agent,
+        org_role:lender,
+        org_role:syndication_agents ;
+    rel:hasEmployee person:john_m_olsen .
+
+org1:barclays_bank_plc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:noam_s_azachi .
+
+org1:goldman_sachs_bank_usa a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agent,
+        org_role:arranger,
+        org_role:documentation_agent,
+        org_role:lender ;
+    rel:hasEmployee person:mark_walton .
+
+org_role:arranger rdfs:subClassOf base:Organization .
+
+org_role:book_runners rdfs:subClassOf base:Organization .
+
+position:chief_accounting_officer a base:Position ;
+    base:positionName "Chief Accounting Officer" ;
+    rdfs:subClassOf base:Person .
+
+position:controller a base:Position ;
+    base:positionName "Controller" ;
+    rdfs:subClassOf base:Person .
+
+position:executive_director a base:Position ;
+    base:positionName "Executive Director" ;
+    rdfs:subClassOf base:Person .
+
+position:treasurer a base:Position ;
+    base:positionName "Treasurer" ;
+    rdfs:subClassOf base:Person .
+
+org_role:borrowers rdfs:subClassOf base:Organization .
+
+org1:coöperatieve_centrale_raiffeisen_boerenleenbank_barabobank_nederland_new_york_branch a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agent,
+        org_role:arranger,
+        org_role:lender ;
+    rel:hasEmployee person:jeff_bliss,
+        person:timothy_j_devane .
+
+org1:wells_fargo_bank_national_association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:administrative_agent,
+        org_role:agent,
+        org_role:book_runner,
+        org_role:book_runners,
+        org_role:lead_arranger,
+        org_role:lender ;
+    rel:hasEmployee person:anwar_s_young ;
+    rel:hasLocationAt loc:150_south_wacker_drive_suite_2200_chicago_illinois_60606,
+        loc:new_york_branch .
+
+org_role:agent rdfs:subClassOf base:Organization .
+
+position:vice_president a base:Position ;
+    base:positionName "Vice President" ;
+    rdfs:subClassOf base:Person .
+
+org1:chiquita_brands_international_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:parent,
+        org_role:parent_borrower ;
+    rel:hasEmployee person:joseph_b_johnson ;
+    rel:hasLocationAt loc:550_south_caldwell_street_charlotte_north_carolina_28202 .
+
+org_role:lender rdfs:subClassOf base:Organization .
+
+position:authorized_signatory a base:Position ;
+    base:positionName "Authorized Signatory" ;
+    rdfs:subClassOf base:Person .
+
+org_role:borrower rdfs:subClassOf base:Organization .
+

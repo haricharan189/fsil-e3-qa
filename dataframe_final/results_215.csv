@@ -1,5 +1,0 @@
-document_number,question,ground_truth,llm_response,level
-215,D. Bryan Gregory holds what position in the organization that is the lender?,Director,Director,2
-215,What is the role of the organization in which D. Bryan Gregory is director?,Agent,"Wells Fargo Bank, National Association.",2
-215,D. Bryan Gregory holds what position in the organization that is the bank?,Director,API Error: None,2
-215,Who is the director of the organization that is the bank?,D. Bryan Gregory,D. Bryan Gregory,2

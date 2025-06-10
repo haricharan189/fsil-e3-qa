@@ -1,0 +1,204 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org1: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person: <http://example.org/person_name/> .
+@prefix position: <http://example.org/person_position/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+base:Location a rdfs:Class .
+
+base:Organization a rdfs:Class .
+
+base:Person a rdfs:Class .
+
+location_type:administrative_agents_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:administrative_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:ag_new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_management a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_services a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:assembly_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:business_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:cayman_islands_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:chief_executive_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:commercial_banking a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_customers_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:domestic_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:dublin_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:eurodollar_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:front_end_test_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:london_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:mexico_location_contract_manufacturing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:micro_building_and_corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:middle_market_servicing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:offsite_storage a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:opto_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:registered_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:rexford_industrial_realty_inc_11620_wilshire_boulevard_suite_1000_los_angeles_california_90025 a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:trade_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:zonal_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+org1:pnc_capital_markets_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:joint_lead_arrangers .
+
+position:chief_financial_officer_and_secretary rdfs:subClassOf base:Person .
+
+loc:575_market_street_floor_28_san_francisco_ca_94105 a base:Location ;
+    <http://example.org/isInstanceOf/> location_type:administrative_agents_office,
+        location_type:business_matters ;
+    rel:isLocationOf org1:pnc_bank_national_association .
+
+loc:pnc_firstside_center_500_first_avenue_fourth_floor_pittsburgh_pa_15219 a base:Location ;
+    <http://example.org/isInstanceOf/> location_type:administrative_agents_office,
+        location_type:administrative_matters ;
+    rel:isLocationOf org1:pnc_bank_national_association .
+
+org1:rexford_industrial_realty_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantors ;
+    rel:hasLocationAt loc:11620_wilshire_boulevard_suite_1000_los_angeles_california_90025 .
+
+org_role:administrative_agent rdfs:subClassOf base:Organization .
+
+org_role:agent rdfs:subClassOf base:Organization .
+
+org_role:borrower rdfs:subClassOf base:Organization .
+
+org_role:guarantors rdfs:subClassOf base:Organization .
+
+org_role:joint_bookrunners rdfs:subClassOf base:Organization .
+
+org_role:joint_lead_arrangers rdfs:subClassOf base:Organization .
+
+person:adeel_khan a base:Person ;
+    <http://example.org/isInstanceOf/> position:chief_financial_officer,
+        position:secretary ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:rexford_industrial_realty_lp ;
+            rel:position position:chief_financial_officer ],
+        [ a rel:Employment ;
+            rel:organization org1:rexford_industrial_realty_lp ;
+            rel:position position:secretary ] ;
+    rel:isEmployedBy org1:rexford_industrial_realty_lp .
+
+person:christopher_harahan a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:us_bank_national_association ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:us_bank_national_association .
+
+person:frederick_h_denecke a base:Person ;
+    <http://example.org/isInstanceOf/> position:senior_vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:capital_one_national_association ;
+            rel:position position:senior_vice_president ] ;
+    rel:isEmployedBy org1:capital_one_national_association .
+
+person:nicolas_zitelli a base:Person ;
+    <http://example.org/isInstanceOf/> position:senior_vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:pnc_bank_national_association ;
+            rel:position position:senior_vice_president ] ;
+    rel:isEmployedBy org1:pnc_bank_national_association .
+
+loc:11620_wilshire_boulevard_suite_1000_los_angeles_california_90025 a base:Location ;
+    rel:isLocationOf org1:rexford_industrial_realty_inc,
+        org1:rexford_industrial_realty_lp .
+
+org1:capital_one_national_association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:frederick_h_denecke .
+
+org1:us_bank_national_association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agent,
+        org_role:joint_bookrunners,
+        org_role:lender ;
+    rel:hasEmployee person:christopher_harahan .
+
+position:chief_financial_officer a base:Position ;
+    base:positionName "Chief Financial Officer" ;
+    rdfs:subClassOf base:Person .
+
+position:secretary a base:Position ;
+    base:positionName "Secretary" ;
+    rdfs:subClassOf base:Person .
+
+position:vice_president a base:Position ;
+    base:positionName "Vice President" ;
+    rdfs:subClassOf base:Person .
+
+org_role:lender rdfs:subClassOf base:Organization .
+
+org1:pnc_bank_national_association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:administrative_agent,
+        org_role:lender ;
+    rel:hasEmployee person:nicolas_zitelli ;
+    rel:hasLocationAt loc:575_market_street_floor_28_san_francisco_ca_94105,
+        loc:pnc_firstside_center_500_first_avenue_fourth_floor_pittsburgh_pa_15219 .
+
+org1:rexford_industrial_realty_lp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:adeel_khan ;
+    rel:hasLocationAt loc:11620_wilshire_boulevard_suite_1000_los_angeles_california_90025 .
+
+position:senior_vice_president a base:Position ;
+    base:positionName "Senior Vice President" ;
+    rdfs:subClassOf base:Person .
+

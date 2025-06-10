@@ -1,0 +1,228 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org1: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person: <http://example.org/person_name/> .
+@prefix position: <http://example.org/person_position/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+base:Location a rdfs:Class .
+
+base:Organization a rdfs:Class .
+
+base:Person a rdfs:Class .
+
+location_type:administrative_agents_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:administrative_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:ag_new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_management a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_services a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:assembly_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:business_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:cayman_islands_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:chief_executive_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:commercial_banking a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_customers_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:domestic_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:dublin_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:eurodollar_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:front_end_test_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:london_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:mexico_location_contract_manufacturing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:micro_building_and_corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:middle_market_servicing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:offsite_storage a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:opto_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:registered_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:rexford_industrial_realty_inc_11620_wilshire_boulevard_suite_1000_los_angeles_california_90025 a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:trade_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:zonal_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+org1:guarantors_party a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantors .
+
+org1:jp_morgan_securities_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:bookrunning_manager,
+        org_role:lead_arranger .
+
+org1:lenders_party a base:Organization .
+
+org1:union_gaming_advisors_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:documentation_agent .
+
+org_role:arranger rdfs:subClassOf base:Organization .
+
+loc:383_madison_avenue_floor_24_new_york_ny_10179 a base:Location ;
+    rel:isLocationOf org1:jpmorgan_chase_bank_na .
+
+loc:4_embarcadero_center_suite_3300_san_francisco_ca_94111 a base:Location ;
+    rel:isLocationOf org1:stockbridge_sbe_holdings_llc .
+
+loc:500_stanton_christiana_road_ops_building_2_3rd_floor_newark_de_19713_2107 a base:Location ;
+    rel:isLocationOf org1:jpmorgan_chase_bank_na .
+
+loc:80_pine_street_new_york_ny_10005 a base:Location ;
+    rel:isLocationOf org1:cahill_gordonand_reindel_llp .
+
+org1:cahill_gordonand_reindel_llp a base:Organization ;
+    rel:hasLocationAt loc:80_pine_street_new_york_ny_10005 .
+
+org_role:administrative_agent rdfs:subClassOf base:Organization .
+
+org_role:agent rdfs:subClassOf base:Organization .
+
+org_role:bookrunning_manager rdfs:subClassOf base:Organization .
+
+org_role:borrower rdfs:subClassOf base:Organization .
+
+org_role:collateral_agent rdfs:subClassOf base:Organization .
+
+org_role:documentation_agent rdfs:subClassOf base:Organization .
+
+org_role:guarantors rdfs:subClassOf base:Organization .
+
+org_role:holdings rdfs:subClassOf base:Organization .
+
+org_role:issuing_bank rdfs:subClassOf base:Organization .
+
+person:janet_chao a base:Person ;
+    <http://example.org/isInstanceOf/> position:senior_vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:east_west_bank ;
+            rel:position position:senior_vice_president ] ;
+    rel:isEmployedBy org1:east_west_bank .
+
+person:mohammad_s_hasan a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:jpmorgan_chase_bank_na ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:jpmorgan_chase_bank_na .
+
+person:nelson_arteaga a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:banc_of_california_national_association ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:banc_of_california_national_association .
+
+org1:banc_of_california_national_association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:nelson_arteaga .
+
+org1:east_west_bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:janet_chao .
+
+org1:sb_gaming_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:darren_drake .
+
+org1:stockbridge_sbe_investment_company_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor,
+        org_role:holdings ;
+    rel:hasEmployee person:darren_drake .
+
+org_role:guarantor rdfs:subClassOf base:Organization .
+
+position:senior_vice_president a base:Position ;
+    base:positionName "Senior Vice President" ;
+    rdfs:subClassOf base:Person .
+
+org1:stockbridge_sbe_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:darren_drake ;
+    rel:hasLocationAt loc:4_embarcadero_center_suite_3300_san_francisco_ca_94111 .
+
+org_role:lender rdfs:subClassOf base:Organization .
+
+person:darren_drake a base:Person ;
+    <http://example.org/isInstanceOf/> position:authorized_signatory ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:stockbridge_sbe_holdings_llc ;
+            rel:position position:authorized_signatory ],
+        [ a rel:Employment ;
+            rel:organization org1:sb_gaming_llc ;
+            rel:position position:authorized_signatory ],
+        [ a rel:Employment ;
+            rel:organization org1:stockbridge_sbe_investment_company_llc ;
+            rel:position position:authorized_signatory ] ;
+    rel:isEmployedBy org1:sb_gaming_llc,
+        org1:stockbridge_sbe_holdings_llc,
+        org1:stockbridge_sbe_investment_company_llc .
+
+org1:jpmorgan_chase_bank_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:administrative_agent,
+        org_role:agent,
+        org_role:collateral_agent,
+        org_role:issuing_bank,
+        org_role:lender ;
+    rel:hasEmployee person:mohammad_s_hasan ;
+    rel:hasLocationAt loc:383_madison_avenue_floor_24_new_york_ny_10179,
+        loc:500_stanton_christiana_road_ops_building_2_3rd_floor_newark_de_19713_2107 .
+
+position:authorized_signatory a base:Position ;
+    base:positionName "Authorized Signatory" ;
+    rdfs:subClassOf base:Person .
+
+position:vice_president a base:Position ;
+    base:positionName "Vice President" ;
+    rdfs:subClassOf base:Person .
+

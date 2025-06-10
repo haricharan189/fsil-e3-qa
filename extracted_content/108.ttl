@@ -1,11 +1,10 @@
 @prefix base: <http://example.org/base/> .
 @prefix loc: <http://example.org/location/> .
 @prefix location_type: <http://example.org/location_type/> .
-@prefix org_name: <http://example.org/org_name/> .
+@prefix org1: <http://example.org/org_name/> .
 @prefix org_role: <http://example.org/org_role/> .
-@prefix org_sub_role: <http://example.org/org_sub_role/> .
-@prefix person_name: <http://example.org/person_name/> .
-@prefix person_position: <http://example.org/person_position/> .
+@prefix person: <http://example.org/person_name/> .
+@prefix position: <http://example.org/person_position/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix rel: <http://example.org/relation/> .
 
@@ -15,1587 +14,468 @@ base:Organization a rdfs:Class .
 
 base:Person a rdfs:Class .
 
-location_type:Address_for_Notices%3A a rdfs:Class ;
+location_type:address_for_notices a rdfs:Class ;
     rdfs:subClassOf base:Location .
 
-location_type:Agency_Management a rdfs:Class ;
+location_type:agency_management a rdfs:Class ;
     rdfs:subClassOf base:Location .
 
-location_type:Associate a rdfs:Class ;
+location_type:associate a rdfs:Class ;
     rdfs:subClassOf base:Location .
 
-location_type:BRANCH a rdfs:Class ;
-    rdfs:subClassOf base:Location .
-
-location_type:Branch a rdfs:Class ;
-    rdfs:subClassOf base:Location .
-
-location_type:CAYMAN_ISLANDS_BRANCH a rdfs:Class ;
-    rdfs:subClassOf base:Location .
-
-location_type:Cayman_Islands_Branch a rdfs:Class ;
-    rdfs:subClassOf base:Location .
-
-location_type:Chief_Executive_Office a rdfs:Class ;
-    rdfs:subClassOf base:Location .
-
-location_type:Global_Corporate_Debt_Products a rdfs:Class ;
-    rdfs:subClassOf base:Location .
-
-location_type:Global_TS_Contract%C2%A0%26_Documentation a rdfs:Class ;
-    rdfs:subClassOf base:Location .
-
-location_type:Global_Trade_Operations a rdfs:Class ;
-    rdfs:subClassOf base:Location .
-
-location_type:LOS_ANGELES%5Cn%5CnBRANCH a rdfs:Class ;
-    rdfs:subClassOf base:Location .
-
-location_type:LOS_ANGELES_BRANCH a rdfs:Class ;
-    rdfs:subClassOf base:Location .
-
-location_type:Loan_and_Agency_Services_Group%2C a rdfs:Class ;
-    rdfs:subClassOf base:Location .
-
-location_type:Los_Angeles_Branch a rdfs:Class ;
-    rdfs:subClassOf base:Location .
-
-location_type:NEW_YORK_BRANCH a rdfs:Class ;
-    rdfs:subClassOf base:Location .
-
-location_type:NEW_YORK_BRANCH%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Location .
-
-location_type:Ohio_Banking_Corporation a rdfs:Class ;
-    rdfs:subClassOf base:Location .
-
-location_type:Payment_Processing_Center a rdfs:Class ;
-    rdfs:subClassOf base:Location .
-
-location_type:STAMFORD_BRANCH a rdfs:Class ;
-    rdfs:subClassOf base:Location .
-
-location_type:Stamford_Branch a rdfs:Class ;
-    rdfs:subClassOf base:Location .
-
-location_type:Texas_Banking_Association a rdfs:Class ;
-    rdfs:subClassOf base:Location .
-
-location_type:Trade_Finance a rdfs:Class ;
-    rdfs:subClassOf base:Location .
-
-location_type:UK_Branch a rdfs:Class ;
+location_type:branch a rdfs:Class ;
     rdfs:subClassOf base:Location .
 
 location_type:branch_office a rdfs:Class ;
     rdfs:subClassOf base:Location .
 
+location_type:cayman_islands_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:chief_executive_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
 location_type:corporate_headquarters a rdfs:Class ;
     rdfs:subClassOf base:Location .
 
-location_type:dba_Bank_of_Oklahoma a rdfs:Class ;
+location_type:dba_bank_of_oklahoma a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:global_corporate_debt_products a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:global_trade_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:global_ts_contractand_documentation a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:loan_and_agency_services_group a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:los_angeles_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:new_york_branch a rdfs:Class ;
     rdfs:subClassOf base:Location .
 
 location_type:office a rdfs:Class ;
     rdfs:subClassOf base:Location .
 
+location_type:ohio_banking_corporation a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:payment_processing_center a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
 location_type:registered_office a rdfs:Class ;
     rdfs:subClassOf base:Location .
 
-<http://example.org/org_role/%5CnBORROWER> a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+location_type:stamford_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
 
-<http://example.org/org_role/%5CnBORROWERS> a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+location_type:texas_banking_association a rdfs:Class ;
+    rdfs:subClassOf base:Location .
 
-<http://example.org/org_role/%5CnGUARANTORS%3A> a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+location_type:trade_finance a rdfs:Class ;
+    rdfs:subClassOf base:Location .
 
-<http://example.org/org_role/%5CnLENDER> a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+location_type:uk_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
 
-<http://example.org/org_role/%5CnLENDERS> a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
+org1:1600_market_street_30th_floor_philadelphia_pennsylvania_19103 a base:Organization .
 
-<http://example.org/org_role/%5CnSwingline_Lender> a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:ADMINISTRATIVE%09%C2%A0%09%09%C2%A0%09%09%C2%A0%09%5CnAGENT_%26_LENDER a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:ADMINISTRATIVE_AGENT a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:AGENT a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:AGENTS a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:ARRANGER a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:ARRANGERS a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Administrative%5Cn%5CnAgent a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Administrative%5CnAgent a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Administrative_%C2%A0Agent a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Administrative_Agent a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Administrative_Agent%2C a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Administrative_Agent%5Cn%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Agency a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Agent a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Agent%2C a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Agent%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-<http://example.org/org_role/Agent.> a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Agents a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Ally_Representative a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Arranger a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Arrangers a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:BANK a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:BANK_OF_AMERICA a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:BOOKRUNNER a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:BOOKRUNNERS a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:BOOK_RUNNERS a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:BORROWER a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:BORROWER%3A a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:BORROWERS a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Bank a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Book%C2%A0Manager a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Book_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Book_Managers a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Book_Runner a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Book_Runners a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Bookrunner a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Bookrunners a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Bookrunners%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Borrower a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Borrower%2C a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Borrower%3A a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Borrowers a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Borrowing a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:COUNSEL a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Cayman_Borrower a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Cayman_Borrower%3A a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Co-Documentation_Agent a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Co-Documentation_Agent%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Co-Documentation_Agents a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Co-Manager a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Co-Managers a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Co-Syndication_Agent a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Co-Syndication_Agent%5Cn%C2%A0%5Cn%C2%A0%5Cn%C2%A0%5Cn%C2%A0%5Cn%C2%A0%5Cn%C2%A0%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Co-Syndication_Agents a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Collateral%5CnWilmington_Trust%2C_National_Association%5CnAgent a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Collateral_Agent a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Company a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Counsel a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Credit_Parties a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Credit_Party a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Credit_Party%5Cn%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Depositary_Bank a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Documentation_Agent a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Documentation_Agents a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Documentation_Agents%5Cn%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Dutch_Borrower a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Faegre_Baker_Daniels_LLP a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-<http://example.org/org_role/Finnish_counsel_for_the_Initial_Finnish_Borrower.> a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:GRANTORS a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:GUARANTOR a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:GUARANTORS a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:General_Partner a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Grantor a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Guarantor a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Guarantor%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Guarantor%5Cn%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Guarantors a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:HOLDINGS a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Holdco a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Holding a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Holding_Companies a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Holding_Company a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Holdings a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Holdings_Topco%2C a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Initial_Borrower a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Initial_Lender a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Intermediate_Holdco a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Intermediate_Holdings a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Investment_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Investor a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Issuer a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Issuing_Bank a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Issuing_Bank%2C a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Issuing_Lender a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Joint_Bookrunners a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Joint_Lead_Arrangers a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:KPMG_LLP a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Kirkland%C2%A0%26_Ellis_LLP a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:L%2FC%C2%A0Issuer a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:L%2FC_ISSUER%3A%5Cn%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:L%2FC_Issuer a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:LC_Issuer a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:LEAD_ARRANGER a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:LEAD_ARRANGERS a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:LENDER a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:LENDERS a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:LENDERS%3A a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Lead_Arranger a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Lead_Arrangers a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Lender a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Lender%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Lenders a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Manager a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Managers a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Material_Subsidiaries%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:PARENT_GUARANTOR a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Parent a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Partner a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Pledgor a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Purchaser a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Revolver a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Runner a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:SUBSIDIARY_GUARANTORS%3A a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Sole_Book_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Sole_Bookrunner a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Sole_Lead_Arranger a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Sponsor a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Subsidiary a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Swing%C2%A0Line%C2%A0Lender a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Swing_Line_Lender a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Swingline a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Swingline%5Cn%5Cn%C2%A0%C2%A0%C2%A0%C2%A0Lender a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Swingline_Lender a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Swingline_Lender%2C a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Syndication_Agent a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Syndication_Agent%2C a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Syndication_Agents a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:THE_COMPANY a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Term_Agent a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:The_Company a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:Trustee a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:U.S._counsel_for_the_initial_Borrowers.%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:US_Borrower a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:accountants a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:administrative_agent a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:agency a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:agent a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:agents a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:arranger a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:arrangers a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:bookrunner a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:bookrunners a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:buyer a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:co-Syndication_Agents a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:co-documentation_agent a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:counsel_to_Borrowers a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:counsel_to_the_Borrower a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:guarantors a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:initial_Borrowing a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:investor a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:legal_counsel a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:liability_company a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:manager a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:oint_Bookrunners a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:public_accounting_firm a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:servicer a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:special_New_York_counsel_to_the_Borrowers a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:special_counsel_for_the_Borrower a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:special_counsel_to_the_Borrower a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-org_role:trustee a rdfs:Class ;
-    rdfs:subClassOf base:Organization .
-
-<http://example.org/person_position/%5CnAssistant_Vice_President> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/%5CnAssociate> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/%5CnAuthorized_Signatory> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/%5CnDirector> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/%5CnExecutive_Director> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/%5CnExecutive_Officer> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/%5CnExecutive_Vice_President> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/%5CnExecutive_Vice_President%2C_Chief_Financial_Officer_and_Treasurer> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/%5CnExecutive_Vice_President_and_Treasurer> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/%5CnManager%2C_Agency> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/%5CnManaging_Director> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/%5CnSVP%2C_Global_Relationship_Manager> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/%5CnSenior_Vice_President> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/%5CnSenior_Vice_President%5Cn%5Cn> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/%5CnSole_Member_and_Sole_Manager%5Cn%5Cnof_Pernix_Therapeutics%2C_LLC> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/%5CnVice_President> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:AVP a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/AVP_%26_Portfolio_Mgr.> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Account_Representative a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Administrative_Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Assistant_Controller a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Assistant_General_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Assistant_Secretary a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Assistant_Treasurer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Assistant_Vice_President a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Assistant_Vice_President%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Associate a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Associate_Counsel a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Associate_Director a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Associate_Director%2C a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Associate_Director%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Attorney-in-Fact a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Authorised_Signatory a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Authorised_Signatory%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Authorized_Agent a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Authorized_Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Authorized_Person a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Authorized_Signatory a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Authorized_Signatory%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Authorized_Signatory%5Cn%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Authorized_Signatory%5Cn%C2%A0%5Cn%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Authorized_Signer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:BRANCH a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Banking_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Banking_Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Branch_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:CAO a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:CEO a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:CFO a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:CLO_%2F_EVP a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:CLO_Desk a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:COO a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chairman a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chairman_of_the_Board a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief%09%C2%A0%09%5Cn%C2%A0%09%09%C2%A0%09%09%C2%A0%09Finance%C2%A0Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief%C2%A0%C2%A0Financial_Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Accounting_Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Administrative_Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Capital_Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Counsel-%5Cn%C2%A0%09%C2%A0%09HFS_Real_Estate a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Executive a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Executive%5Cn%C2%A0%5Cn%C2%A0%5CnOfficer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Executive_Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Executive_Officer%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Executive_Officer%5Cn%5Cn%C2%A0%5Cn%5Cn%C2%A0%5Cn%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Executive_Officer%5Cn%C2%A0%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Executive_Officer_and_Chairman_of_the_Board a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Financial a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Financial%5Cn%5CnOfficer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Financial%5Cn%C2%A0%5Cn%C2%A0%5CnOfficer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Financial%5CnOfficer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Financial_Office a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Financial_Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Financial_Officer%2C a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Financial_Officer%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Financial_Officer_and_Treasurer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Legal a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Legal_Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Legal_and_Administrative_Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Lending_Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Chief_Operating_Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Client_Services_Representative a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Commercial_Loan_Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Company_Secretary a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Controller a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Corporate_Banking%2C_Directo a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Corporate_Healthcare_Banking_%C2%96_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Corporate_Secretary a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Credit_Documentation_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Credit_Executive a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:DGM a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Deputy_Branch_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Deputy_GM a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Deputy_General_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Director a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Director%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Director_Corporate_Banking a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Director_and_Counsel_Region_Americas_Legal a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Director_and_Senior_Relationship_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Documentation_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Duly_Authorized_Signatory a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:EVP a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:EVP_%C2%96_Corporate_%26_Commercial_Banking%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/Esq.> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Execution_Head a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Executive a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Executive_Director a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Executive_Director%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Executive_Head a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Executive_Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Executive_Vice_President a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Executive_Vice_President%2C a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Executive_Vice_President%2C%5Cn%5CnFinance_and_Administration a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Executive_Vice_President%2C_Chief_Financial_Officer_and_Treasurer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Executive_Vice_President%2C_Fuels a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Executive_Vice_President%2C_General_Counsel a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Executive_Vice_President_%E2%80%93_Division_Head a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Executive_Vice_President_and_Secretary a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Executive_Vice_President_and_Treasurer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Executive_Vice_President_of_Finance a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:FVP_%C2%96_Head_of_Credit a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Finance a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Financial_Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:First_Vice_President a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:General_Counsel a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:General_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:General_Manager%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Global_Chief_Administrative_Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Global_Relationship_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Global_Treasurer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Head_of_Corporate_Banking a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Head_of_Financial_Institutions_Group a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Investment_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/Jr.%2C_Esq.> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Kiuli_Chan a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Loan_Operations a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Manager%2C_Agency a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Manager%2C_Agency_Services a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Manager%2C_Agency_Services_Group a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Manager%C2%A0%26_Vice_President a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Managin_Director a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Managing_Director a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Managing_Director%2C_SVP a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Managing_Director%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Managing_Director%5CnCapital_Markets a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Managing_Director_A_and_Authorized_Representative a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Managing_Director_Capital_Markets a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Managing_Director_Corporate_Coverage_Canada a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Managing_Member a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Managing_Partner a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Market_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Partner a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Portfolio_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:President a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:President%2C_Digital_Cinema%2C_General_Counsel_and_Secretary a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:President%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:President_and_Chief_Executive_Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:President_and_Chief_Executive_Officer%2C%5Cn%5CnPernix_Therapeutics_Holdings%2C_Inc.%2C%5Cn%5CnSole_Member_and_Sole_Manager_of_Pernix_Therapeutics%2C_LLC a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/President_and_Chief_Executive_Officer%2C%5Cn%C2%A0%09%09%C2%A0%09%5CnPernix_Therapeutics_Holdings%2C%5Cn%5CnInc.> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:President_and_Chief_Executive_Officer%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:RM_II a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Relationship_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:S.V.P._%26_General_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:SENIOR_VICE_PRESIDENT a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:SVP a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:SVP%2FCommercial_Credit_Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:SVP%3B_EMEA_%26_Asia a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:SVP_%26_Branch_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:SVP_%26_COO a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:SVP_%26_General_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:SVP_C%26I_Banking a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:SVP_and_Branch_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Secretary a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Secretary%2FTreasurer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Senior_Banker a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Senior_Credit_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Senior_Director a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Senior_Executive_Vice_President a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Senior_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Senior_Manager%2C%C2%A0Global_Treasury a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Senior_Managing_Directo a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Senior_Managing_Director a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Senior_Vice_President a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Senior_Vice_President%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Senior_Vice_President%5Cn%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Senior_Vice_President%5Cn%5Cn%C2%A0%5Cn%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Senior_Vice_President%C2%A0%26_Chief_Financial_Officer%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Servicing_Officer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-<http://example.org/person_position/Sole_Member_and_Sole_Manager%5Cn%5Cnof_Macoven_Pharmaceuticals%2C%5Cn%5CnL.L.C.> a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Sr._VP a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Sr._Vice_President a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Treasurer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Treasuruer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:VICE_PRESIDENT a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:VP a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:VP%2FRelationship_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:VP_%26_Deputy_General_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:VP_%26_General_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:VP_%26_General_Manager%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:VP_Credit_and_Documentation a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:VP_Finance a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Vice%C2%A0President%C2%A0of%C2%A0Finance a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Vice_President a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Vice_President%09%C2%A0%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Vice_President%2C_Debt_Finance a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Vice_President%2C_Finance a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Vice_President%2C_Finance_and_Treasurer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Vice_President%2C_Global_Taxes a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Vice_President%2C_Global_Treasury a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Vice_President%2C_Tax%C2%A0%26_Treasury a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Vice_President%2FRelationship_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Vice_President%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Vice_President%5Cn%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Vice_President%5Cn%C2%A0%5Cn%5Cn a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Vice_President-Finance a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Vice_President_%26_General_Manager a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Vice_President_%E2%80%93_Law_%26_Assistant a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Vice_President_%E2%80%93_US_Law a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Vice_President_Commercial_Banking a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Vice_President_and_Treasurer a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-person_position:Vice_President_of_Tax a rdfs:Class ;
-    rdfs:subClassOf base:Person .
-
-loc:1100_Abernathy_Rd_NE%5CnBldg_%23_500%2C_Suite_%23_1250%5CnAtlanta%2C_Georgia_30328 a base:Location .
-
-loc:222_S._Riverside_Plaza%5CnChicago%2C_IL_60606 a base:Location .
-
-loc:225_Franklin_18th_FL%5CnBoston%2C_MA_02110 a base:Location .
-
-loc:PNC_Firstside_Center%2C_4th_Floor%5Cn%5Cn500_First_Avenue%5Cn%5CnPittsburgh%2C_PA_15219 a base:Location .
-
-org_name:1600_Market_Street%2C_30th_Floor%5Cn%C2%A0%5Cn%C2%A0%5Cn%C2%A0%5Cn%C2%A0%5Cn%C2%A0%5Cn%C2%A0%5Cn%C2%A0%5Cn%C2%A0%5CnPhiladelphia%2C_Pennsylvania_19103 a base:Organization .
-
-org_name:3949_Lindell_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
-
-org_name:CV_East_Lansing_MI_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
-
-org_name:Carrollton_Place%2C_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
-
-org_name:Cottages_W._Lafayette_IN_LL a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
-
-org_name:Deloitte_%26_Touche%2C_LLP a base:Organization ;
+org1:deloitte_and_touche_llp a base:Organization ;
     <http://example.org/isInstanceOf/> org_role:accountants .
 
-org_name:District_on_5th_Tuscon_AZ_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+org1:edr_tallahassee_i_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower .
 
-org_name:EDR_Austin_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+org1:pnc_capital_markets_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:joint_bookrunners .
 
-org_name:EDR_Berkeley_LP a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+org1:regions_bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agent .
 
-org_name:EDR_Carbondale%2C_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+org1:regions_capital_markets a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers .
 
-org_name:EDR_Charlottesville_Jefferson_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+org_role:bookrunners rdfs:subClassOf base:Organization .
 
-org_name:EDR_Charlottesville_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+person:andrew_white a base:Person .
 
-org_name:EDR_Charlottesville_Wertland_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+person:lee_surtees a base:Person .
 
-org_name:EDR_Gainesville_Limited_Partnership a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+person:lori_y_jensen a base:Person .
 
-org_name:EDR_Lawrence_Limited_Partnership a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+position:chief_financial_officer rdfs:subClassOf base:Person .
 
-org_name:EDR_Lexington_I_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+position:director rdfs:subClassOf base:Person .
 
-org_name:EDR_Orlando_Limited_Partnership a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+loc:1100_abernathy_rd_ne_bldg_500_suite_1250_atlanta_georgia_30328 a base:Location ;
+    rel:isLocationOf org1:us_bank_national_association .
 
-org_name:EDR_Oxford%2C_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+loc:222_s_riverside_plaza_chicago_il_60606 a base:Location ;
+    rel:isLocationOf org1:fifth_third_bank_an_ohio_banking_corporation .
 
-org_name:EDR_Statesboro%2C_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+loc:225_franklin_18th_fl_boston_ma_02110 a base:Location ;
+    rel:isLocationOf org1:keybank_national_association .
 
-org_name:EDR_Syracuse%2C_LL a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+loc:pnc_firstside_center_4th_floor_500_first_avenue_pittsburgh_pa_15219 a base:Location ;
+    rel:isLocationOf org1:pnc_bank_national_association .
 
-org_name:EDR_Syracuse_Campus_West_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+org1:pnc_bank_national_association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:administrative_agent ;
+    rel:hasLocationAt loc:pnc_firstside_center_4th_floor_500_first_avenue_pittsburgh_pa_15219 .
 
-org_name:EDR_Tallahassee_I%2C_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+org1:us_bank_national_association a base:Organization ;
+    rel:hasLocationAt loc:1100_abernathy_rd_ne_bldg_500_suite_1250_atlanta_georgia_30328 .
 
-org_name:EDR_Tallahassee_Limited_Partnership a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+org_role:accountants rdfs:subClassOf base:Organization .
 
-org_name:EDR_Tampa_Limited_Partnership a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+org_role:agent rdfs:subClassOf base:Organization .
 
-org_name:East_Edge_Tuscaloosa_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+org_role:arrangers rdfs:subClassOf base:Organization .
 
-org_name:Education_Realty_Operating_Partnership%2C_LP a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+person:gregory_w_lane a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:keybank_national_association ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:keybank_national_association .
 
-org_name:KeyBank_National_Association a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:agent,
-        org_sub_role:administrative .
+person:michael_p_perillo a base:Person ;
+    <http://example.org/isInstanceOf/> position:assistant_vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:fifth_third_bank_an_ohio_banking_corporation ;
+            rel:position position:assistant_vice_president ] ;
+    rel:isEmployedBy org1:fifth_third_bank_an_ohio_banking_corporation .
 
-org_name:PNC_CAPITAL_MARKETS_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Bookrunners,
-        org_sub_role:Joint .
+org1:edr_lexington_i_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
 
-org_name:Province_Kent_OH_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+org1:education_realty_operating_partnership_lp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
 
-org_name:REGIONS_BANK a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent,
-        org_sub_role:Administrative,
-        org_sub_role:Syndication .
+position:assistant_vice_president a base:Position ;
+    base:positionName "Assistant Vice President" ;
+    rdfs:subClassOf base:Person .
 
-org_name:REGIONS_CAPITAL_MARKETS a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Arrangers .
+org1:3949_lindell_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
 
-org_name:The_Province_Greenville_NC_LP a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+org1:carrollton_place_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
 
-org_name:U.S._BANK_NATIONAL_ASSOCIATION%5Cn a base:Organization .
+org1:cottages_w_lafayette_in_ll a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
 
-org_name:University_Village_Towers_LP a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower .
+org1:cv_east_lansing_mi_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
 
-<http://example.org/org_sub_role/%5Cnadministrative> rdfs:subClassOf org_role:agent .
+org1:district_on_5th_tuscon_az_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
 
-<http://example.org/org_sub_role/%5Cnco-documentation> rdfs:subClassOf org_role:agent .
+org1:east_edge_tuscaloosa_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
 
-<http://example.org/org_sub_role/%5Cnjoint_lead> rdfs:subClassOf org_role:arranger .
-
-org_sub_role:additional rdfs:subClassOf org_role:credit_party .
-
-org_sub_role:co- rdfs:subClassOf org_role:book_manager,
-        org_role:bookrunner .
-
-org_sub_role:co-book_manager rdfs:subClassOf org_role:initial_lender .
-
-org_sub_role:co-collateral rdfs:subClassOf org_role:agent .
-
-org_sub_role:co-documentation rdfs:subClassOf org_role:agent .
-
-org_sub_role:co-syndication rdfs:subClassOf org_role:agent .
-
-org_sub_role:collatera rdfs:subClassOf org_role:agent .
-
-org_sub_role:collateral rdfs:subClassOf org_role:agent,
-        org_role:agent%5Cn,
-        org_role:trustee .
-
-org_sub_role:designated rdfs:subClassOf org_role:borrower .
-
-org_sub_role:documentation rdfs:subClassOf org_role:agent .
-
-org_sub_role:domestic rdfs:subClassOf org_role:guarantor .
-
-org_sub_role:dutch rdfs:subClassOf org_role:borrower .
-
-org_sub_role:euro_swing rdfs:subClassOf org_role:lender .
-
-org_sub_role:general rdfs:subClassOf org_role:partner .
-
-org_sub_role:initial rdfs:subClassOf org_role:borrower,
-        org_role:lender .
-
-org_sub_role:intercreditor rdfs:subClassOf org_role:agent .
-
-org_sub_role:intermediate rdfs:subClassOf org_role:holding .
-
-org_sub_role:issuing rdfs:subClassOf org_role:bank,
-        org_role:lender .
-
-org_sub_role:joint rdfs:subClassOf org_role:book_manager,
-        org_role:book_runner,
-        org_role:bookrunner,
-        org_role:bookrunners,
-        org_role:bookrunners%5Cn,
-        org_role:lead_arranger .
-
-org_sub_role:joint_book rdfs:subClassOf org_role:manager,
-        org_role:runner .
-
-org_sub_role:joint_lead rdfs:subClassOf org_role:arranger,
-        org_role:bookrunner .
-
-org_sub_role:joint_lead_arranger rdfs:subClassOf org_role:initial_lender .
-
-org_sub_role:l%2Fc rdfs:subClassOf org_role:issuer .
-
-org_sub_role:l%2Fc_issuer rdfs:subClassOf org_role:lender,
-        org_role:lenders%3A .
-
-org_sub_role:lead rdfs:subClassOf org_role:arranger,
-        org_role:bookrunner .
-
-org_sub_role:lender rdfs:subClassOf org_role:issuing_bank .
-
-org_sub_role:loan_and_agency_service_group rdfs:subClassOf org_role:agent .
-
-org_sub_role:managing rdfs:subClassOf org_role:agent .
-
-org_sub_role:parent rdfs:subClassOf org_role:borrower,
-        org_role:guarantor .
-
-org_sub_role:rating rdfs:subClassOf org_role:agency .
-
-org_sub_role:revolving rdfs:subClassOf org_role:lender .
-
-org_sub_role:revolving_administrative rdfs:subClassOf org_role:agent .
-
-org_sub_role:revolving_credit rdfs:subClassOf org_role:lender .
-
-org_sub_role:senior_managing rdfs:subClassOf org_role:agent .
-
-org_sub_role:servicing rdfs:subClassOf org_role:agent .
-
-org_sub_role:sole rdfs:subClassOf org_role:arranger,
-        org_role:bookrunner,
-        org_role:general_partner,
-        org_role:manager .
-
-org_sub_role:sole_book rdfs:subClassOf org_role:manager,
-        org_role:runner .
-
-org_sub_role:sole_lead rdfs:subClassOf org_role:arranger .
-
-org_sub_role:sole_lead_arranger rdfs:subClassOf org_role:arranger .
-
-org_sub_role:sterling_swing rdfs:subClassOf org_role:lender .
-
-org_sub_role:subordinated rdfs:subClassOf org_role:borrower,
-        org_role:lender .
-
-org_sub_role:subsidiary rdfs:subClassOf org_role:borrower,
-        org_role:guarantor .
-
-org_sub_role:swing_line rdfs:subClassOf org_role:bank,
-        org_role:lender .
-
-org_sub_role:swing_line_lender rdfs:subClassOf org_role:lender,
-        org_role:lenders%3A .
-
-org_sub_role:swingline rdfs:subClassOf org_role:lender .
-
-org_sub_role:syndication rdfs:subClassOf org_role:agent,
-        org_role:agent%2C .
-
-org_sub_role:term rdfs:subClassOf org_role:lender .
-
-org_sub_role:term_administrative rdfs:subClassOf org_role:agent .
-
-org_sub_role:term_loan_a rdfs:subClassOf org_role:lender .
-
-org_sub_role:u_swing rdfs:subClassOf org_role:lender .
-
-org_sub_role:yen_swing rdfs:subClassOf org_role:lender .
-
-person_name:Lee_Surtees a base:Person ;
-    <http://example.org/isInstanceOf/> person_position:Director .
-
-org_name:FIFTH_THIRD_BANK%2C_an_Ohio_banking_corporation a base:Organization ;
-    rel:hasEmployee person_name:Michael_P._Perillo .
-
-org_name:Retreat_at_State_College%2C_LLC a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Borrower ;
-    rel:hasEmployee person_name:Randall_H._Brown .
-
-org_sub_role:administrative rdfs:subClassOf org_role:agent,
-        org_role:agent%2C,
-        org_role:borrower .
-
-person_name:Gregory_W._Lane a base:Person ;
-    <http://example.org/isInstanceOf/> person_position:Vice_President ;
-    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
-
-person_name:Lori_Y._Jensen a base:Person ;
-    <http://example.org/isInstanceOf/> person_position:Vice_President ;
-    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION .
-
-person_name:Michael_P._Perillo a base:Person ;
-    <http://example.org/isInstanceOf/> person_position:Assistant_Vice_President ;
-    rel:isEmployedBy org_name:FIFTH_THIRD_BANK%2C_an_Ohio_banking_corporation .
-
-person_name:Randall_H._Brown a base:Person ;
-    <http://example.org/isInstanceOf/> person_position:Executive_Vice_President,
-        person_position:Secretary,
-        person_position:Treasurer,
-        person_position:Vice_President ;
-    rel:isEmployedBy org_name:Retreat_at_State_College%2C_LLC .
-
-org_name:PNC_Bank%2C_National_Association a base:Organization ;
-    <http://example.org/isInstanceOf/> org_role:Agent,
-        org_sub_role:Administrative,
-        org_sub_role:Syndication ;
-    rel:hasEmployee person_name:Andrew_White .
-
-person_name:Andrew_White a base:Person ;
-    <http://example.org/isInstanceOf/> org_name:PNC_Bank%2C_National_Association,
-        person_position:Vice_President ;
-    rel:isEmployedBy org_name:KEYBANK_NATIONAL_ASSOCIATION,
-        org_name:PNC_Bank%2C_National_Association .
-
-org_name:KEYBANK_NATIONAL_ASSOCIATION a base:Organization ;
-    rel:hasEmployee person_name:Andrew_White,
-        person_name:Gregory_W._Lane,
-        person_name:Lori_Y._Jensen .
+org1:edr_austin_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
+
+org1:edr_berkeley_lp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
+
+org1:edr_carbondale_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
+
+org1:edr_charlottesville_jefferson_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
+
+org1:edr_charlottesville_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
+
+org1:edr_charlottesville_wertland_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
+
+org1:edr_gainesville_limited_partnership a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
+
+org1:edr_lawrence_limited_partnership a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
+
+org1:edr_orlando_limited_partnership a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
+
+org1:edr_oxford_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
+
+org1:edr_statesboro_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
+
+org1:edr_syracuse_campus_west_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
+
+org1:edr_syracuse_ll a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
+
+org1:edr_tallahassee_limited_partnership a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
+
+org1:edr_tampa_limited_partnership a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
+
+org1:fifth_third_bank_an_ohio_banking_corporation a base:Organization ;
+    rel:hasEmployee person:michael_p_perillo ;
+    rel:hasLocationAt loc:222_s_riverside_plaza_chicago_il_60606 .
+
+org1:keybank_national_association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:syndication_agent ;
+    rel:hasEmployee person:gregory_w_lane ;
+    rel:hasLocationAt loc:225_franklin_18th_fl_boston_ma_02110 .
+
+org1:province_kent_oh_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
+
+org1:retreat_at_state_college_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
+
+org1:the_province_greenville_nc_lp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
+
+org1:university_village_towers_lp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:randall_h_brown .
+
+position:secretary a base:Position ;
+    base:positionName "Secretary" ;
+    rdfs:subClassOf base:Person .
+
+position:vice_president a base:Position ;
+    base:positionName "Vice President" ;
+    rdfs:subClassOf base:Person .
+
+position:treasurer a base:Position ;
+    base:positionName "Treasurer" ;
+    rdfs:subClassOf base:Person .
+
+position:executive_vice_president a base:Position ;
+    base:positionName "Executive Vice President" ;
+    rdfs:subClassOf base:Person .
+
+person:randall_h_brown a base:Person ;
+    <http://example.org/isInstanceOf/> position:executive_vice_president,
+        position:secretary,
+        position:treasurer,
+        position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:university_village_towers_lp ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:retreat_at_state_college_llc ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_austin_llc ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_berkeley_lp ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:3949_lindell_llc ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_orlando_limited_partnership ;
+            rel:position position:secretary ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_lawrence_limited_partnership ;
+            rel:position position:vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:district_on_5th_tuscon_az_llc ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_tampa_limited_partnership ;
+            rel:position position:secretary ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_syracuse_ll ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_statesboro_llc ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_carbondale_llc ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_charlottesville_llc ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:3949_lindell_llc ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:carrollton_place_llc ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:cv_east_lansing_mi_llc ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:carrollton_place_llc ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_austin_llc ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_statesboro_llc ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_tallahassee_limited_partnership ;
+            rel:position position:secretary ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_tallahassee_limited_partnership ;
+            rel:position position:vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_lawrence_limited_partnership ;
+            rel:position position:secretary ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_syracuse_campus_west_llc ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_carbondale_llc ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:cottages_w_lafayette_in_ll ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:cv_east_lansing_mi_llc ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_charlottesville_wertland_llc ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_syracuse_campus_west_llc ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:the_province_greenville_nc_lp ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_berkeley_lp ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:east_edge_tuscaloosa_llc ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_syracuse_ll ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_orlando_limited_partnership ;
+            rel:position position:vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:retreat_at_state_college_llc ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_oxford_llc ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:university_village_towers_lp ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_gainesville_limited_partnership ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:district_on_5th_tuscon_az_llc ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:cottages_w_lafayette_in_ll ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:province_kent_oh_llc ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_charlottesville_jefferson_llc ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:east_edge_tuscaloosa_llc ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_oxford_llc ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_gainesville_limited_partnership ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_charlottesville_llc ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_lexington_i_llc ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_tampa_limited_partnership ;
+            rel:position position:vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:province_kent_oh_llc ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:education_realty_operating_partnership_lp ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:the_province_greenville_nc_lp ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_charlottesville_wertland_llc ;
+            rel:position position:executive_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:edr_charlottesville_jefferson_llc ;
+            rel:position position:treasurer ] ;
+    rel:isEmployedBy org1:3949_lindell_llc,
+        org1:carrollton_place_llc,
+        org1:cottages_w_lafayette_in_ll,
+        org1:cv_east_lansing_mi_llc,
+        org1:district_on_5th_tuscon_az_llc,
+        org1:east_edge_tuscaloosa_llc,
+        org1:edr_austin_llc,
+        org1:edr_berkeley_lp,
+        org1:edr_carbondale_llc,
+        org1:edr_charlottesville_jefferson_llc,
+        org1:edr_charlottesville_llc,
+        org1:edr_charlottesville_wertland_llc,
+        org1:edr_gainesville_limited_partnership,
+        org1:edr_lawrence_limited_partnership,
+        org1:edr_lexington_i_llc,
+        org1:edr_orlando_limited_partnership,
+        org1:edr_oxford_llc,
+        org1:edr_statesboro_llc,
+        org1:edr_syracuse_campus_west_llc,
+        org1:edr_syracuse_ll,
+        org1:edr_tallahassee_limited_partnership,
+        org1:edr_tampa_limited_partnership,
+        org1:education_realty_operating_partnership_lp,
+        org1:province_kent_oh_llc,
+        org1:retreat_at_state_college_llc,
+        org1:the_province_greenville_nc_lp,
+        org1:university_village_towers_lp .
+
+org_role:borrower rdfs:subClassOf base:Organization .
 

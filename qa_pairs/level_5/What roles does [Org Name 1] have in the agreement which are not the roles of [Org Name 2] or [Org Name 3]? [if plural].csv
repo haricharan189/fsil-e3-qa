@@ -1,0 +1,172 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+111,What roles does national australia bank limited have in the agreement which are not the roles of suntrust bank or wells fargo bank national association?,"arrangers, bookrunners",1,3,1
+38,What roles does mizuho bank ltd have in the agreement which are not the roles of wells fargo bank national association or jpmorgan chase bank na?,"arranger, bookrunners, co documentation agents",1,3,1
+38,What roles does the bank of tokyo mitsubishi ufj ltd have in the agreement which are not the roles of wells fargo bank national association or jpmorgan chase bank na?,"arranger, bookrunners, co documentation agents",1,3,1
+106,What roles does ubs securities llc have in the agreement which are not the roles of barclays bank plc or goldman sachs bank usa?,"joint lead arranger, joint lead arrangers",1,3,1
+77,What roles does mufg union bank have in the agreement which are not the roles of suntrust bank or us bank national association?,"joint lead arrangers, oint bookrunners",1,3,1
+77,What roles does mufg union bank have in the agreement which are not the roles of suntrust bank or wells fargo bank national association?,"joint lead arrangers, oint bookrunners",1,3,1
+77,What roles does mufg union bank have in the agreement which are not the roles of suntrust bank or jpmorgan chase bank?,"joint lead arrangers, oint bookrunners",1,3,1
+77,What roles does mufg union bank have in the agreement which are not the roles of us bank national association or wells fargo bank national association?,"joint lead arrangers, oint bookrunners",1,3,1
+77,What roles does mufg union bank have in the agreement which are not the roles of us bank national association or jpmorgan chase bank?,"co syndication agent, joint lead arrangers, oint bookrunners",1,3,1
+77,What roles does mufg union bank have in the agreement which are not the roles of wells fargo bank national association or jpmorgan chase bank?,"joint lead arrangers, oint bookrunners",1,3,1
+99,What roles does coöperatieve centrale raiffeisen boerenleenbank ba have in the agreement which are not the roles of regions bank or suntrust bank?,"arrangers, bookrunners",1,3,1
+99,What roles does coöperatieve centrale raiffeisen boerenleenbank ba have in the agreement which are not the roles of regions bank or the bank of tokyo mitsubishi ufj ltd?,"arrangers, bookrunners",1,3,1
+99,What roles does coöperatieve centrale raiffeisen boerenleenbank ba have in the agreement which are not the roles of regions bank or us bank national association?,"arrangers, bookrunners",1,3,1
+99,What roles does coöperatieve centrale raiffeisen boerenleenbank ba have in the agreement which are not the roles of regions bank or wells fargo bank national association?,"arrangers, bookrunners",1,3,1
+99,What roles does coöperatieve centrale raiffeisen boerenleenbank ba have in the agreement which are not the roles of suntrust bank or the bank of tokyo mitsubishi ufj ltd?,"arrangers, bookrunners",1,3,1
+99,What roles does coöperatieve centrale raiffeisen boerenleenbank ba have in the agreement which are not the roles of suntrust bank or us bank national association?,"arrangers, bookrunners",1,3,1
+99,What roles does coöperatieve centrale raiffeisen boerenleenbank ba have in the agreement which are not the roles of suntrust bank or wells fargo bank national association?,"arrangers, bookrunners",1,3,1
+99,What roles does coöperatieve centrale raiffeisen boerenleenbank ba have in the agreement which are not the roles of the bank of tokyo mitsubishi ufj ltd or us bank national association?,"arrangers, bookrunners",1,3,1
+99,What roles does coöperatieve centrale raiffeisen boerenleenbank ba have in the agreement which are not the roles of the bank of tokyo mitsubishi ufj ltd or wells fargo bank national association?,"arrangers, bookrunners",1,3,1
+99,What roles does coöperatieve centrale raiffeisen boerenleenbank ba have in the agreement which are not the roles of us bank national association or wells fargo bank national association?,"arrangers, bookrunners",1,3,1
+99,What roles does rabobank nederland have in the agreement which are not the roles of regions bank or suntrust bank?,"arrangers, joint bookrunners",1,3,1
+99,What roles does rabobank nederland have in the agreement which are not the roles of regions bank or the bank of tokyo mitsubishi ufj ltd?,"arrangers, joint bookrunners",1,3,1
+99,What roles does rabobank nederland have in the agreement which are not the roles of regions bank or us bank national association?,"arrangers, joint bookrunners",1,3,1
+99,What roles does rabobank nederland have in the agreement which are not the roles of regions bank or wells fargo bank national association?,"arrangers, joint bookrunners",1,3,1
+99,What roles does rabobank nederland have in the agreement which are not the roles of suntrust bank or the bank of tokyo mitsubishi ufj ltd?,"arrangers, joint bookrunners",1,3,1
+99,What roles does rabobank nederland have in the agreement which are not the roles of suntrust bank or us bank national association?,"arrangers, joint bookrunners",1,3,1
+99,What roles does rabobank nederland have in the agreement which are not the roles of suntrust bank or wells fargo bank national association?,"arrangers, joint bookrunners",1,3,1
+99,What roles does rabobank nederland have in the agreement which are not the roles of the bank of tokyo mitsubishi ufj ltd or us bank national association?,"arrangers, joint bookrunners",1,3,1
+99,What roles does rabobank nederland have in the agreement which are not the roles of the bank of tokyo mitsubishi ufj ltd or wells fargo bank national association?,"arrangers, joint bookrunners",1,3,1
+99,What roles does rabobank nederland have in the agreement which are not the roles of us bank national association or wells fargo bank national association?,"arrangers, joint bookrunners",1,3,1
+73,What roles does bank of america have in the agreement which are not the roles of credit suisse securities usa llc or deutsche bank securities inc?,"administrative agent, collateral agent, l c issuer, swing line lender",1,3,1
+9,What roles does bank of america na have in the agreement which are not the roles of barclays bank plc or the royal bank of scotland plc?,"agent, agents",1,3,1
+9,What roles does barclays bank plc have in the agreement which are not the roles of citibank na or the royal bank of scotland plc?,"arranger, arrangers, joint bookrunner, syndication agent",1,3,1
+170,What roles does bank of america na have in the agreement which are not the roles of citibank na or jpmorgan chase bank na?,"l c issuer, swing line lender",1,3,1
+170,What roles does bank of america na have in the agreement which are not the roles of citibank na or the bank of nova scotia?,"l c issuer, swing line lender",1,3,1
+170,What roles does bank of america na have in the agreement which are not the roles of citibank na or us bank national association?,"l c issuer, swing line lender",1,3,1
+170,What roles does bank of america na have in the agreement which are not the roles of citibank na or wells fargo bank na?,"l c issuer, swing line lender",1,3,1
+170,What roles does bank of america na have in the agreement which are not the roles of jpmorgan chase bank na or the bank of nova scotia?,"l c issuer, swing line lender",1,3,1
+170,What roles does bank of america na have in the agreement which are not the roles of jpmorgan chase bank na or us bank national association?,"l c issuer, swing line lender",1,3,1
+170,What roles does bank of america na have in the agreement which are not the roles of jpmorgan chase bank na or wells fargo bank na?,"l c issuer, swing line lender",1,3,1
+170,What roles does bank of america na have in the agreement which are not the roles of the bank of nova scotia or us bank national association?,"l c issuer, swing line lender",1,3,1
+170,What roles does bank of america na have in the agreement which are not the roles of the bank of nova scotia or wells fargo bank na?,"l c issuer, swing line lender",1,3,1
+170,What roles does bank of america na have in the agreement which are not the roles of us bank national association or wells fargo bank na?,"l c issuer, swing line lender",1,3,1
+68,What roles does jpmorgan chase bank na have in the agreement which are not the roles of regions bank or bank of america na?,"arranger, l c issuer",1,3,1
+94,What roles does fifth third bank have in the agreement which are not the roles of rbs citizens na or natixis new york branch?,"arrangers, bookrunners",1,3,1
+94,What roles does jefferies finance llc have in the agreement which are not the roles of rbs citizens na or sumitomo mitsui banking corporation?,"administrative agent, collatera agent",1,3,1
+94,What roles does jefferies finance llc have in the agreement which are not the roles of rbs citizens na or natixis new york branch?,"administrative agent, arrangers, bookrunners, collatera agent",1,3,1
+94,What roles does jefferies finance llc have in the agreement which are not the roles of sumitomo mitsui banking corporation or natixis new york branch?,"administrative agent, collatera agent",1,3,1
+153,What roles does citizens bank na have in the agreement which are not the roles of pnc bank national association or truist bank?,"joint bookrunners, joint lead arrangers",1,3,1
+151,What roles does barclays bank plc have in the agreement which are not the roles of bank of america or jpmorgan chase bank?,"lender, syndication agent",1,3,1
+22,What roles does wells fargo bank national association have in the agreement which are not the roles of bank of america na or jpmorgan chase bank na?,"agent, joint lead arranger",1,3,1
+123,What roles does goldman sachs bank usa have in the agreement which are not the roles of jpmorgan chase bank na or pnc bank?,"agent, arranger, bookrunners",1,3,1
+123,What roles does goldman sachs bank usa have in the agreement which are not the roles of jpmorgan chase bank na or the bank of tokyo mitsubishi ufj ltd?,"arranger, bookrunners",1,3,1
+123,What roles does goldman sachs bank usa have in the agreement which are not the roles of jpmorgan chase bank na or wells fargo bank?,"arranger, bookrunners",1,3,1
+123,What roles does goldman sachs bank usa have in the agreement which are not the roles of jpmorgan chase bank na or credit suisse ag?,"arranger, bookrunners",1,3,1
+123,What roles does goldman sachs bank usa have in the agreement which are not the roles of pnc bank or the bank of tokyo mitsubishi ufj ltd?,"arranger, bookrunners",1,3,1
+123,What roles does goldman sachs bank usa have in the agreement which are not the roles of pnc bank or wells fargo bank?,"arranger, bookrunners",1,3,1
+123,What roles does goldman sachs bank usa have in the agreement which are not the roles of pnc bank or credit suisse ag?,"arranger, bookrunners",1,3,1
+123,What roles does goldman sachs bank usa have in the agreement which are not the roles of the bank of tokyo mitsubishi ufj ltd or wells fargo bank?,"arranger, bookrunners",1,3,1
+123,What roles does goldman sachs bank usa have in the agreement which are not the roles of the bank of tokyo mitsubishi ufj ltd or credit suisse ag?,"arranger, bookrunners",1,3,1
+123,What roles does goldman sachs bank usa have in the agreement which are not the roles of wells fargo bank or credit suisse ag?,"arranger, bookrunners",1,3,1
+35,What roles does morgan stanley senior funding inc have in the agreement which are not the roles of rbs securities inc or goldman sachs bank usa?,"documentation agents, syndication agents",1,3,1
+35,What roles does morgan stanley senior funding inc have in the agreement which are not the roles of rbs securities inc or the bank of tokyo mitsubishi ufj ltd?,"documentation agents, syndication agents",1,3,1
+35,What roles does morgan stanley senior funding inc have in the agreement which are not the roles of goldman sachs bank usa or the bank of tokyo mitsubishi ufj ltd?,"documentation agents, syndication agents",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of hsbc bank usa na or morgan stanley bank na?,"arrangers, bookrunners",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of hsbc bank usa na or sumitomo mitsui banking corporation?,"arrangers, bookrunners, issuing bank",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of hsbc bank usa na or the bank of nova scotia?,"arrangers, bookrunners, issuing bank",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of hsbc bank usa na or the royal bank of scotland plc?,"arrangers, bookrunners, issuing bank",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of hsbc bank usa na or wells fargo bank national association?,"arrangers, bookrunners",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of hsbc bank usa na or bnp paribas?,"arrangers, bookrunners, issuing bank",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of hsbc bank usa na or jpmorgan chase bank na?,"arrangers, bookrunners",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of morgan stanley bank na or sumitomo mitsui banking corporation?,"arrangers, bookrunners",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of morgan stanley bank na or the bank of nova scotia?,"arrangers, bookrunners",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of morgan stanley bank na or the royal bank of scotland plc?,"arrangers, bookrunners",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of morgan stanley bank na or wells fargo bank national association?,"arrangers, bookrunners",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of morgan stanley bank na or bnp paribas?,"arrangers, bookrunners",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of morgan stanley bank na or jpmorgan chase bank na?,"agents, arrangers, bookrunners",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of sumitomo mitsui banking corporation or the bank of nova scotia?,"arrangers, bookrunners, issuing bank",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of sumitomo mitsui banking corporation or the royal bank of scotland plc?,"arrangers, bookrunners, issuing bank",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of sumitomo mitsui banking corporation or wells fargo bank national association?,"arrangers, bookrunners",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of sumitomo mitsui banking corporation or bnp paribas?,"arrangers, bookrunners, issuing bank",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of sumitomo mitsui banking corporation or jpmorgan chase bank na?,"arrangers, bookrunners",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of the bank of nova scotia or the royal bank of scotland plc?,"arrangers, bookrunners, issuing bank",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of the bank of nova scotia or wells fargo bank national association?,"arrangers, bookrunners",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of the bank of nova scotia or bnp paribas?,"arrangers, bookrunners, issuing bank",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of the bank of nova scotia or jpmorgan chase bank na?,"arrangers, bookrunners",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of the royal bank of scotland plc or wells fargo bank national association?,"arrangers, bookrunners",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of the royal bank of scotland plc or bnp paribas?,"arrangers, bookrunners, issuing bank",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of the royal bank of scotland plc or jpmorgan chase bank na?,"arrangers, bookrunners",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of wells fargo bank national association or bnp paribas?,"arrangers, bookrunners",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of wells fargo bank national association or jpmorgan chase bank na?,"arrangers, bookrunners",1,3,1
+35,What roles does goldman sachs bank usa have in the agreement which are not the roles of bnp paribas or jpmorgan chase bank na?,"arrangers, bookrunners",1,3,1
+35,What roles does the bank of tokyo mitsubishi ufj ltd have in the agreement which are not the roles of the royal bank of scotland plc or wells fargo bank national association?,"arrangers, bookrunners",1,3,1
+35,What roles does the bank of tokyo mitsubishi ufj ltd have in the agreement which are not the roles of the royal bank of scotland plc or bnp paribas?,"arrangers, bookrunners, issuing bank",1,3,1
+35,What roles does the bank of tokyo mitsubishi ufj ltd have in the agreement which are not the roles of the royal bank of scotland plc or jpmorgan chase bank na?,"arrangers, bookrunners",1,3,1
+35,What roles does the bank of tokyo mitsubishi ufj ltd have in the agreement which are not the roles of wells fargo bank national association or bnp paribas?,"arrangers, bookrunners",1,3,1
+35,What roles does the bank of tokyo mitsubishi ufj ltd have in the agreement which are not the roles of wells fargo bank national association or jpmorgan chase bank na?,"arrangers, bookrunners",1,3,1
+35,What roles does the bank of tokyo mitsubishi ufj ltd have in the agreement which are not the roles of bnp paribas or jpmorgan chase bank na?,"arrangers, bookrunners",1,3,1
+135,What roles does citigroup global markets inc have in the agreement which are not the roles of fenner or merrill lynch?,"arranger, bookrunner",1,3,1
+135,What roles does citigroup global markets inc have in the agreement which are not the roles of fenner or pierce?,"arranger, bookrunner",1,3,1
+135,What roles does citigroup global markets inc have in the agreement which are not the roles of fenner or smith incorporated?,"arranger, bookrunner",1,3,1
+135,What roles does citigroup global markets inc have in the agreement which are not the roles of merrill lynch or pierce?,"arranger, bookrunner",1,3,1
+135,What roles does citigroup global markets inc have in the agreement which are not the roles of merrill lynch or smith incorporated?,"arranger, bookrunner",1,3,1
+135,What roles does citigroup global markets inc have in the agreement which are not the roles of pierce or smith incorporated?,"arranger, bookrunner",1,3,1
+135,What roles does dnb marketsinc have in the agreement which are not the roles of fenner or merrill lynch?,"arranger, bookrunner",1,3,1
+135,What roles does dnb marketsinc have in the agreement which are not the roles of fenner or pierce?,"arranger, bookrunner",1,3,1
+135,What roles does dnb marketsinc have in the agreement which are not the roles of fenner or smith incorporated?,"arranger, bookrunner",1,3,1
+135,What roles does dnb marketsinc have in the agreement which are not the roles of merrill lynch or pierce?,"arranger, bookrunner",1,3,1
+135,What roles does dnb marketsinc have in the agreement which are not the roles of merrill lynch or smith incorporated?,"arranger, bookrunner",1,3,1
+135,What roles does dnb marketsinc have in the agreement which are not the roles of pierce or smith incorporated?,"arranger, bookrunner",1,3,1
+135,What roles does jp morgan securities llc have in the agreement which are not the roles of merrill lynch or pierce?,"arranger, bookrunner",1,3,1
+135,What roles does jp morgan securities llc have in the agreement which are not the roles of merrill lynch or smith incorporated?,"arranger, bookrunner",1,3,1
+135,What roles does jp morgan securities llc have in the agreement which are not the roles of pierce or smith incorporated?,"arranger, bookrunner",1,3,1
+135,What roles does mizuho bankltd have in the agreement which are not the roles of wells fargo bank national association or bank of america na?,"arranger, arrangers, bookrunner, bookrunners, co documentation agent",1,3,1
+124,What roles does citizens bank na have in the agreement which are not the roles of jpmorgan chase bank na or keybank national association?,"administrative agent, lead arrangers",1,3,1
+124,What roles does citizens bank na have in the agreement which are not the roles of jpmorgan chase bank na or td bank na?,"administrative agent, lead arrangers",1,3,1
+124,What roles does citizens bank na have in the agreement which are not the roles of keybank national association or td bank na?,"administrative agent, lead arrangers",1,3,1
+130,What roles does rbc capital markets have in the agreement which are not the roles of regions capital markets or truist securities inc?,"documentation agents, syndication agents",1,3,1
+130,What roles does rbc capital markets have in the agreement which are not the roles of regions capital markets or umb bankna?,"documentation agents, syndication agents",1,3,1
+130,What roles does rbc capital markets have in the agreement which are not the roles of regions capital markets or wells fargo securities llc?,"documentation agents, syndication agents",1,3,1
+130,What roles does rbc capital markets have in the agreement which are not the roles of regions capital markets or fifth third bank national association?,"documentation agents, syndication agents",1,3,1
+130,What roles does rbc capital markets have in the agreement which are not the roles of truist securities inc or umb bankna?,"documentation agents, syndication agents",1,3,1
+130,What roles does rbc capital markets have in the agreement which are not the roles of truist securities inc or wells fargo securities llc?,"documentation agents, syndication agents",1,3,1
+130,What roles does rbc capital markets have in the agreement which are not the roles of truist securities inc or fifth third bank national association?,"documentation agents, syndication agents",1,3,1
+130,What roles does rbc capital markets have in the agreement which are not the roles of umb bankna or wells fargo securities llc?,"documentation agents, syndication agents",1,3,1
+130,What roles does rbc capital markets have in the agreement which are not the roles of umb bankna or fifth third bank national association?,"documentation agents, syndication agents",1,3,1
+130,What roles does rbc capital markets have in the agreement which are not the roles of wells fargo securities llc or fifth third bank national association?,"documentation agents, syndication agents",1,3,1
+31,What roles does the bank of tokyo mitsubishi ufj ltd have in the agreement which are not the roles of canadian imperial bank of commerce new york agency or jpmorgan chase bank na?,"agents, book runners",1,3,1
+31,What roles does the bank of tokyo mitsubishi ufj ltd have in the agreement which are not the roles of canadian imperial bank of commerce new york agency or bank of america na?,"agents, book runners",1,3,1
+31,What roles does the bank of tokyo mitsubishi ufj ltd have in the agreement which are not the roles of jpmorgan chase bank na or bank of america na?,"agents, book runners",1,3,1
+31,What roles does us bank national association have in the agreement which are not the roles of canadian imperial bank of commerce new york agency or jpmorgan chase bank na?,"agents, book runners",1,3,1
+31,What roles does us bank national association have in the agreement which are not the roles of canadian imperial bank of commerce new york agency or bank of america na?,"agents, book runners",1,3,1
+31,What roles does us bank national association have in the agreement which are not the roles of jpmorgan chase bank na or bank of america na?,"agents, book runners",1,3,1
+31,What roles does canadian imperial bank of commerce new york agency have in the agreement which are not the roles of jpmorgan chase bank na or standard chartered bank?,"documentation agents, joint book runners",1,3,1
+31,What roles does canadian imperial bank of commerce new york agency have in the agreement which are not the roles of jpmorgan chase bank na or bank of america na?,"documentation agents, joint book runners",1,3,1
+31,What roles does canadian imperial bank of commerce new york agency have in the agreement which are not the roles of standard chartered bank or bank of america na?,"documentation agents, joint book runners",1,3,1
+31,What roles does jpmorgan chase bank na have in the agreement which are not the roles of standard chartered bank or bank of america na?,"sterling swing lender, syndication agent, yen swing lender",1,3,1
+32,What roles does barclays bank plc have in the agreement which are not the roles of jp morgan securities llc or ubs securities llc?,"lender, lenders",1,3,1
+32,What roles does barclays bank plc have in the agreement which are not the roles of jpmorgan chase bank na or royal bank of canada?,"arrangers, bookrunner, bookrunners, co syndication agent",1,3,1
+32,What roles does barclays bank plc have in the agreement which are not the roles of jpmorgan chase bank na or the standard bank of south africa limited?,"agents, arranger, arrangers, bookrunner, bookrunners, co syndication agent",1,3,1
+32,What roles does barclays bank plc have in the agreement which are not the roles of jpmorgan chase bank na or wells fargo bank na?,"agents, arranger, arrangers, bookrunner, bookrunners, co syndication agent",1,3,1
+32,What roles does barclays bank plc have in the agreement which are not the roles of jpmorgan chase bank na or hsbc bank canada?,"agents, arranger, co syndication agent",1,3,1
+32,What roles does barclays bank plc have in the agreement which are not the roles of jpmorgan chase bank na or ubs limited?,"agents, arranger, arrangers, bookrunner, bookrunners, co syndication agent",1,3,1
+32,What roles does barclays bank plc have in the agreement which are not the roles of jpmorgan chase bank na or ubs securities llc?,"agents, arrangers, co syndication agent",1,3,1
+32,What roles does barclays bank plc have in the agreement which are not the roles of royal bank of canada or the standard bank of south africa limited?,"arrangers, bookrunner, bookrunners, co syndication agent",1,3,1
+32,What roles does barclays bank plc have in the agreement which are not the roles of royal bank of canada or wells fargo bank na?,"arrangers, bookrunner, bookrunners, co syndication agent",1,3,1
+32,What roles does barclays bank plc have in the agreement which are not the roles of royal bank of canada or ubs limited?,"arrangers, bookrunner, bookrunners, co syndication agent",1,3,1
+32,What roles does barclays bank plc have in the agreement which are not the roles of royal bank of canada or ubs securities llc?,"arrangers, co syndication agent",1,3,1
+32,What roles does barclays bank plc have in the agreement which are not the roles of the standard bank of south africa limited or wells fargo bank na?,"agents, arranger, arrangers, bookrunner, bookrunners, co syndication agent",1,3,1
+32,What roles does barclays bank plc have in the agreement which are not the roles of the standard bank of south africa limited or hsbc bank canada?,"agents, arranger, co syndication agent",1,3,1
+32,What roles does barclays bank plc have in the agreement which are not the roles of the standard bank of south africa limited or ubs limited?,"agents, arranger, arrangers, bookrunner, bookrunners, co syndication agent",1,3,1
+32,What roles does barclays bank plc have in the agreement which are not the roles of the standard bank of south africa limited or ubs securities llc?,"agents, arrangers, co syndication agent",1,3,1
+32,What roles does barclays bank plc have in the agreement which are not the roles of wells fargo bank na or hsbc bank canada?,"agents, arranger, co syndication agent",1,3,1
+32,What roles does barclays bank plc have in the agreement which are not the roles of wells fargo bank na or ubs limited?,"agents, arranger, arrangers, bookrunner, bookrunners, co syndication agent",1,3,1
+32,What roles does barclays bank plc have in the agreement which are not the roles of wells fargo bank na or ubs securities llc?,"agents, arrangers, co syndication agent",1,3,1
+32,What roles does barclays bank plc have in the agreement which are not the roles of hsbc bank canada or ubs limited?,"agents, arranger, co syndication agent",1,3,1
+32,What roles does barclays bank plc have in the agreement which are not the roles of hsbc bank canada or ubs securities llc?,"agents, co syndication agent",1,3,1
+32,What roles does barclays bank plc have in the agreement which are not the roles of ubs limited or ubs securities llc?,"agents, arrangers, co syndication agent",1,3,1
+32,What roles does jp morgan securities llc have in the agreement which are not the roles of royal bank of canada or ubs securities llc?,"arrangers, co syndication agent",1,3,1
+32,What roles does jp morgan securities llc have in the agreement which are not the roles of hsbc bank canada or ubs securities llc?,"agents, co syndication agent",1,3,1
+32,What roles does royal bank of canada have in the agreement which are not the roles of the standard bank of south africa limited or wells fargo bank na?,"agents, arranger, co documentation agent",1,3,1
+32,What roles does royal bank of canada have in the agreement which are not the roles of the standard bank of south africa limited or hsbc bank canada?,"agents, arranger, co documentation agent",1,3,1
+32,What roles does royal bank of canada have in the agreement which are not the roles of the standard bank of south africa limited or ubs limited?,"agents, arranger, co documentation agent",1,3,1
+32,What roles does royal bank of canada have in the agreement which are not the roles of the standard bank of south africa limited or ubs securities llc?,"agents, co documentation agent",1,3,1
+32,What roles does royal bank of canada have in the agreement which are not the roles of wells fargo bank na or hsbc bank canada?,"agents, arranger, co documentation agent",1,3,1
+32,What roles does royal bank of canada have in the agreement which are not the roles of wells fargo bank na or ubs limited?,"agents, arranger, co documentation agent",1,3,1
+32,What roles does royal bank of canada have in the agreement which are not the roles of wells fargo bank na or ubs securities llc?,"agents, co documentation agent",1,3,1
+32,What roles does royal bank of canada have in the agreement which are not the roles of hsbc bank canada or ubs limited?,"agents, arranger, co documentation agent",1,3,1
+32,What roles does royal bank of canada have in the agreement which are not the roles of hsbc bank canada or ubs securities llc?,"agents, co documentation agent",1,3,1
+32,What roles does royal bank of canada have in the agreement which are not the roles of ubs limited or ubs securities llc?,"agents, co documentation agent",1,3,1
+32,What roles does hsbc bank canada have in the agreement which are not the roles of ubs limited or ubs securities llc?,"arrangers, bank, joint lead arranger",1,3,1

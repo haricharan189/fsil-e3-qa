@@ -1,0 +1,131 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+38,What roles do both mizuho bank ltd and the bank of tokyo mitsubishi ufj ltd have in the agreement?,"arranger, bookrunners, co documentation agents, lender",1,1,1
+106,What roles do both citigroup global marketsinc and deutsche bank securities inc have in the agreement?,"arranger, bookrunner, bookrunners",1,1,1
+106,What roles do both citigroup global marketsinc and rbc capital markets have in the agreement?,"arranger, bookrunner, bookrunners",1,1,1
+106,What roles do both citigroup global marketsinc and barclays bank plc have in the agreement?,"arranger, bookrunner, bookrunners",1,1,1
+106,What roles do both citigroup global marketsinc and goldman sachs bank usa have in the agreement?,"arranger, bookrunner, bookrunners",1,1,1
+106,What roles do both deutsche bank securities inc and rbc capital markets have in the agreement?,"arranger, arrangers, bookrunner, bookrunners",1,1,1
+106,What roles do both deutsche bank securities inc and barclays bank plc have in the agreement?,"arranger, arrangers, bookrunner, bookrunners",1,1,1
+106,What roles do both deutsche bank securities inc and goldman sachs bank usa have in the agreement?,"arranger, arrangers, bookrunner, bookrunners",1,1,1
+106,What roles do both rbc capital markets and barclays bank plc have in the agreement?,"arranger, arrangers, bookrunner, bookrunners",1,1,1
+106,What roles do both rbc capital markets and goldman sachs bank usa have in the agreement?,"arranger, arrangers, bookrunner, bookrunners",1,1,1
+106,What roles do both barclays bank plc and goldman sachs bank usa have in the agreement?,"arranger, arrangers, bookrunner, bookrunners, lender",1,1,1
+60,What roles do both bank of montreal and capital one national association have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+60,What roles do both bank of montreal and jpmorgan chase bank na have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+60,What roles do both bank of montreal and the bank of nova scotia have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+60,What roles do both bank of montreal and us bank national association have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+60,What roles do both capital one national association and jpmorgan chase bank na have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+60,What roles do both capital one national association and the bank of nova scotia have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+60,What roles do both capital one national association and us bank national association have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+60,What roles do both jpmorgan chase bank na and the bank of nova scotia have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+60,What roles do both jpmorgan chase bank na and us bank national association have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+60,What roles do both the bank of nova scotia and us bank national association have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+160,What roles do both barclays bank plc and jpmorgan chase bank na have in the agreement?,"issuing bank, joint bookrunners, joint lead arrangers",1,1,1
+66,What roles do both bank of the west and bnp paribas securities corp have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+66,What roles do both bank of the west and bofa securities inc have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+66,What roles do both bank of the west and citigroup global markets inc have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+66,What roles do both bank of the west and barclays bank plc have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+66,What roles do both bank of the west and mufg bank ltd have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+66,What roles do both bank of the west and us bank national association have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+66,What roles do both bnp paribas securities corp and bofa securities inc have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+66,What roles do both bnp paribas securities corp and citigroup global markets inc have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+66,What roles do both bnp paribas securities corp and barclays bank plc have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+66,What roles do both bnp paribas securities corp and mufg bank ltd have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+66,What roles do both bnp paribas securities corp and us bank national association have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+66,What roles do both bofa securities inc and citigroup global markets inc have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+66,What roles do both bofa securities inc and barclays bank plc have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+66,What roles do both bofa securities inc and mufg bank ltd have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+66,What roles do both bofa securities inc and us bank national association have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+66,What roles do both citigroup global markets inc and barclays bank plc have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+66,What roles do both citigroup global markets inc and mufg bank ltd have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+66,What roles do both citigroup global markets inc and us bank national association have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+66,What roles do both barclays bank plc and mufg bank ltd have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+66,What roles do both barclays bank plc and us bank national association have in the agreement?,"agents, arrangers, bookrunners",1,1,1
+66,What roles do both mufg bank ltd and us bank national association have in the agreement?,"agents, arrangers, bookrunners, lender",1,1,1
+98,What roles do both bank of america na and bank of america have in the agreement?,"administrative agent, l c issuer, swing line lender",1,1,1
+166,What roles do both australia and new zealand banking group limited and icici bank limited have in the agreement?,"bookrunners, lead arrangers, lender",1,1,1
+166,What roles do both australia and new zealand banking group limited and bank of baroda have in the agreement?,"bookrunners, lead arrangers, lender",1,1,1
+166,What roles do both australia and new zealand banking group limited and axis bank limited have in the agreement?,"bookrunners, lead arrangers, lender",1,1,1
+166,What roles do both icici bank limited and bank of baroda have in the agreement?,"bookrunners, lead arrangers, lender",1,1,1
+166,What roles do both icici bank limited and axis bank limited have in the agreement?,"bookrunners, lead arrangers, lender",1,1,1
+166,What roles do both bank of baroda and axis bank limited have in the agreement?,"bookrunners, lead arrangers, lender",1,1,1
+9,What roles do both jp morgan securities llc and rbs securities inc have in the agreement?,"arranger, arrangers, bookrunner",1,1,1
+9,What roles do both bank of america na and citibank na have in the agreement?,"agent, agents, lender",1,1,1
+59,What roles do both bank of the west and bmo harris bank na have in the agreement?,"agents, arrangers, lender",1,1,1
+59,What roles do both bank of the west and fifth third bank have in the agreement?,"agents, arrangers, lender",1,1,1
+59,What roles do both bmo harris bank na and fifth third bank have in the agreement?,"agents, arrangers, lender",1,1,1
+96,What roles do both bokf na dba bank of albuquerque and us bank national association have in the agreement?,"arrangers, lenders, syndication agent",1,1,1
+169,What roles do both goldman sachs bank usa and coöperatieve centrale raiffeisen boerenleenbank barabobank nederland new york branch have in the agreement?,"agent, arranger, lender",1,1,1
+156,What roles do both bnp paribas and wells fargo bank national association have in the agreement?,"issuing bank, joint bookrunners, joint lead arrangers, lender",1,1,1
+94,What roles do both fifth third bank and jefferies finance llc have in the agreement?,"arrangers, bookrunners, lender",1,1,1
+94,What roles do both fifth third bank and sumitomo mitsui banking corporation have in the agreement?,"arrangers, bookrunners, lender",1,1,1
+94,What roles do both jefferies finance llc and sumitomo mitsui banking corporation have in the agreement?,"arrangers, bookrunners, lender",1,1,1
+57,What roles do both citibank na and jpmorgan chase bank na have in the agreement?,"arranger, bookrunner, lender",1,1,1
+146,What roles do both wilmington trust national association and wilmington trust have in the agreement?,"collateral administrator, collateral agent, custodian",1,1,1
+153,What roles do both citizens bank na and pnc bank national association have in the agreement?,"co syndication agents, issuing bank, lender",1,1,1
+153,What roles do both citizens bank na and silicon valley bank have in the agreement?,"co syndication agents, issuing bank, joint bookrunners, joint lead arrangers, lender",1,1,1
+153,What roles do both citizens bank na and truist bank have in the agreement?,"co syndication agents, issuing bank, lender",1,1,1
+153,What roles do both citizens bank na and jpmorgan chase bank na have in the agreement?,"issuing bank, joint bookrunners, joint lead arrangers, lender",1,1,1
+153,What roles do both pnc bank national association and silicon valley bank have in the agreement?,"co syndication agents, issuing bank, lender",1,1,1
+153,What roles do both pnc bank national association and truist bank have in the agreement?,"co syndication agents, issuing bank, lender",1,1,1
+153,What roles do both silicon valley bank and truist bank have in the agreement?,"co syndication agents, issuing bank, lender",1,1,1
+153,What roles do both silicon valley bank and jpmorgan chase bank na have in the agreement?,"issuing bank, joint bookrunners, joint lead arrangers, lender",1,1,1
+151,What roles do both barclays bank plc and citibank have in the agreement?,"joint bookrunners, l c issuer, lender",1,1,1
+151,What roles do both barclays bank plc and mizuho bankltd have in the agreement?,"joint bookrunners, l c issuer, lender",1,1,1
+151,What roles do both citibank and mizuho bankltd have in the agreement?,"agent, joint bookrunners, joint lead arrangers, l c issuer, lender",1,1,1
+151,What roles do both citibank and bank of america have in the agreement?,"agent, joint bookrunners, joint lead arrangers, l c issuer",1,1,1
+151,What roles do both citibank and jpmorgan chase bank have in the agreement?,"agent, joint bookrunners, joint lead arrangers, l c issuer",1,1,1
+151,What roles do both mizuho bankltd and bank of america have in the agreement?,"agent, joint bookrunners, joint lead arrangers, l c issuer",1,1,1
+151,What roles do both mizuho bankltd and jpmorgan chase bank have in the agreement?,"agent, joint bookrunners, joint lead arrangers, l c issuer",1,1,1
+151,What roles do both bank of america and jpmorgan chase bank have in the agreement?,"agent, joint bookrunners, joint lead arrangers, l c issuer, swing line lender",1,1,1
+92,What roles do both midcap funding v llc and pernix therapeutics holdings inc have in the agreement?,"administrative agent, bookrunner, lender",1,1,1
+22,What roles do both bank of america na and jpmorgan chase bank na have in the agreement?,"arranger, joint book runner, lender",1,1,1
+35,What roles do both bank of america na and citibank na have in the agreement?,"agents, issuing bank, lender",1,1,1
+35,What roles do both bank of america na and goldman sachs bank usa have in the agreement?,"agents, issuing bank, lender",1,1,1
+35,What roles do both bank of america na and the bank of tokyo mitsubishi ufj ltd have in the agreement?,"agents, issuing bank, lender",1,1,1
+35,What roles do both bank of america na and wells fargo bank national association have in the agreement?,"agents, issuing bank, lender",1,1,1
+35,What roles do both citibank na and goldman sachs bank usa have in the agreement?,"agents, issuing bank, lender",1,1,1
+35,What roles do both citibank na and the bank of tokyo mitsubishi ufj ltd have in the agreement?,"agents, issuing bank, lender",1,1,1
+35,What roles do both citibank na and wells fargo bank national association have in the agreement?,"agents, issuing bank, lender",1,1,1
+35,What roles do both goldman sachs bank usa and the bank of tokyo mitsubishi ufj ltd have in the agreement?,"agents, arrangers, bookrunners, issuing bank, lender",1,1,1
+35,What roles do both goldman sachs bank usa and wells fargo bank national association have in the agreement?,"agents, issuing bank, lender",1,1,1
+35,What roles do both the bank of tokyo mitsubishi ufj ltd and wells fargo bank national association have in the agreement?,"agents, issuing bank, lender",1,1,1
+135,What roles do both citigroup global markets inc and dnb marketsinc have in the agreement?,"arranger, arrangers, bookrunner, bookrunners",1,1,1
+135,What roles do both citigroup global markets inc and jp morgan securities llc have in the agreement?,"arranger, arrangers, bookrunner, bookrunners",1,1,1
+135,What roles do both citigroup global markets inc and wells fargo securities llc have in the agreement?,"arranger, bookrunner, bookrunners",1,1,1
+135,What roles do both citigroup global markets inc and mizuho bankltd have in the agreement?,"arranger, arrangers, bookrunner, bookrunners",1,1,1
+135,What roles do both dnb marketsinc and jp morgan securities llc have in the agreement?,"arranger, arrangers, bookrunner, bookrunners",1,1,1
+135,What roles do both dnb marketsinc and wells fargo securities llc have in the agreement?,"arranger, bookrunner, bookrunners",1,1,1
+135,What roles do both dnb marketsinc and mizuho bankltd have in the agreement?,"arranger, arrangers, bookrunner, bookrunners",1,1,1
+135,What roles do both jp morgan securities llc and wells fargo securities llc have in the agreement?,"arranger, bookrunner, bookrunners",1,1,1
+135,What roles do both jp morgan securities llc and mizuho bankltd have in the agreement?,"arranger, arrangers, bookrunner, bookrunners",1,1,1
+135,What roles do both wells fargo securities llc and mizuho bankltd have in the agreement?,"arranger, bookrunner, bookrunners",1,1,1
+130,What roles do both rbc capital markets and jpmorgan chase bank na have in the agreement?,"arranger, bookrunner, documentation agents, syndication agents",1,1,1
+31,What roles do both the bank of tokyo mitsubishi ufj ltd and us bank national association have in the agreement?,"agents, book runners, us swing lender",1,1,1
+31,What roles do both the bank of tokyo mitsubishi ufj ltd and standard chartered bank have in the agreement?,"agents, book runners, us swing lender",1,1,1
+31,What roles do both us bank national association and standard chartered bank have in the agreement?,"agents, book runners, us swing lender",1,1,1
+126,What roles do both mizuho bank ltd and mufg bank ltd have in the agreement?,"arrangers, bookrunners, lenders",1,1,1
+126,What roles do both mizuho bank ltd and sumitomo mitsui banking corporation have in the agreement?,"arrangers, bookrunners, lenders",1,1,1
+126,What roles do both mizuho bank ltd and citibank na have in the agreement?,"arrangers, bookrunners, lenders",1,1,1
+126,What roles do both mizuho bank ltd and jpmorgan chase bank na have in the agreement?,"agents, arrangers, bookrunners, lenders",1,1,1
+126,What roles do both mufg bank ltd and sumitomo mitsui banking corporation have in the agreement?,"arrangers, bookrunners, lenders",1,1,1
+126,What roles do both mufg bank ltd and citibank na have in the agreement?,"arrangers, bookrunners, lenders",1,1,1
+126,What roles do both mufg bank ltd and jpmorgan chase bank na have in the agreement?,"arrangers, bookrunners, lenders",1,1,1
+126,What roles do both sumitomo mitsui banking corporation and citibank na have in the agreement?,"arrangers, bookrunners, lenders",1,1,1
+126,What roles do both sumitomo mitsui banking corporation and jpmorgan chase bank na have in the agreement?,"arrangers, bookrunners, lenders",1,1,1
+126,What roles do both citibank na and jpmorgan chase bank na have in the agreement?,"arrangers, bookrunners, lenders",1,1,1
+132,What roles do both jpmorgan chase bank na and us bank national association have in the agreement?,"arrangers, book runners, lender",1,1,1
+32,What roles do both barclays bank plc and jp morgan securities llc have in the agreement?,"agents, arranger, arrangers, bookrunner, bookrunners, co syndication agent",1,1,1
+32,What roles do both barclays bank plc and royal bank of canada have in the agreement?,"agents, arranger, lender, lenders",1,1,1
+32,What roles do both barclays bank plc and hsbc bank canada have in the agreement?,"arrangers, bookrunner, bookrunners, lender, lenders",1,1,1
+32,What roles do both barclays bank plc and ubs securities llc have in the agreement?,"arranger, bookrunner, bookrunners",1,1,1
+32,What roles do both jp morgan securities llc and hsbc bank canada have in the agreement?,"arrangers, bookrunner, bookrunners",1,1,1
+32,What roles do both jp morgan securities llc and ubs securities llc have in the agreement?,"arranger, bookrunner, bookrunners",1,1,1
+26,What roles do both credit suisse loan funding llc and barclays bank plc have in the agreement?,"agents, bookrunners, lead arrangers",1,1,1
+26,What roles do both credit suisse loan funding llc and mizuho bank ltd have in the agreement?,"agents, bookrunners, lead arrangers",1,1,1
+26,What roles do both barclays bank plc and mizuho bank ltd have in the agreement?,"agents, bookrunners, lead arrangers, lender",1,1,1
+26,What roles do both barclays bank plc and mufg bank ltd have in the agreement?,"bookrunners, lead arrangers, lender",1,1,1
+26,What roles do both barclays bank plc and morgan stanley senior funding inc have in the agreement?,"bookrunners, lead arrangers, lender",1,1,1
+26,What roles do both mizuho bank ltd and mufg bank ltd have in the agreement?,"bookrunners, lead arrangers, lender",1,1,1
+26,What roles do both mizuho bank ltd and morgan stanley senior funding inc have in the agreement?,"bookrunners, lead arrangers, lender",1,1,1
+26,What roles do both mufg bank ltd and morgan stanley senior funding inc have in the agreement?,"bookrunners, lead arrangers, lender",1,1,1

@@ -1,0 +1,6 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+155,Who is the directors but not statutory director of the company where patrick foley is employed?,michael pope,3,2,0
+155,Who is the directors but not chief financial officer of the company where patrick foley is employed?,michael pope,3,2,0
+155,Who is the directors but not director of the company where patrick foley is employed?,michael pope,3,2,0
+35,Who is the senior vice president but not chief financial officer of the company where john p rielly is employed?,timothy b goodell,3,2,0
+35,Who is the senior vice president but not general counsel of the company where timothy b goodell is employed?,john p rielly,3,2,0

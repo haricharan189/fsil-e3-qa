@@ -1,0 +1,207 @@
+@prefix base: <http://example.org/base/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org1: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person: <http://example.org/person_name/> .
+@prefix position: <http://example.org/person_position/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+base:Location a rdfs:Class .
+
+base:Organization a rdfs:Class .
+
+base:Person a rdfs:Class .
+
+location_type:administrative_agents_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:administrative_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:ag_new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_management a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_services a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:assembly_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:business_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:cayman_islands_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:chief_executive_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:commercial_banking a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_customers_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:domestic_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:dublin_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:eurodollar_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:front_end_test_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:london_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:mexico_location_contract_manufacturing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:micro_building_and_corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:middle_market_servicing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:offsite_storage a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:opto_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:registered_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:rexford_industrial_realty_inc_11620_wilshire_boulevard_suite_1000_los_angeles_california_90025 a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:trade_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:zonal_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+org1:bank_of_america_merrill_lynch a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:sole_book_manager,
+        org_role:sole_lead_arranger .
+
+org_role:administrative_agent rdfs:subClassOf base:Organization .
+
+org_role:borrower rdfs:subClassOf base:Organization .
+
+org_role:l_c_issuer rdfs:subClassOf base:Organization .
+
+org_role:lender rdfs:subClassOf base:Organization .
+
+org_role:sole_book_manager rdfs:subClassOf base:Organization .
+
+org_role:sole_lead_arranger rdfs:subClassOf base:Organization .
+
+org_role:swingline_lender rdfs:subClassOf base:Organization .
+
+person:shelley_a_mcgregor a base:Person ;
+    <http://example.org/isInstanceOf/> position:senior_vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:bank_of_america_na ;
+            rel:position position:senior_vice_president ] ;
+    rel:isEmployedBy org1:bank_of_america_na .
+
+org1:bank_of_america_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:administrative_agent,
+        org_role:l_c_issuer,
+        org_role:lender,
+        org_role:swingline_lender ;
+    rel:hasEmployee person:shelley_a_mcgregor .
+
+position:senior_vice_president a base:Position ;
+    base:positionName "Senior Vice President" ;
+    rdfs:subClassOf base:Person .
+
+org_role:guarantors rdfs:subClassOf base:Organization .
+
+org1:powell_electrical_systems_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantors ;
+    rel:hasEmployee person:don_r_madison .
+
+org1:powell_industries_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:don_r_madison .
+
+org1:powell_industries_international_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantors ;
+    rel:hasEmployee person:don_r_madison .
+
+org1:transdyn_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantors ;
+    rel:hasEmployee person:don_r_madison .
+
+person:don_r_madison a base:Person ;
+    <http://example.org/isInstanceOf/> position:secretary,
+        position:treasurer,
+        position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:transdyn_inc ;
+            rel:position position:secretary ],
+        [ a rel:Employment ;
+            rel:organization org1:powell_electrical_systems_inc ;
+            rel:position position:secretary ],
+        [ a rel:Employment ;
+            rel:organization org1:powell_industries_inc ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:powell_industries_international_inc ;
+            rel:position position:secretary ],
+        [ a rel:Employment ;
+            rel:organization org1:transdyn_inc ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:powell_electrical_systems_inc ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:powell_industries_inc ;
+            rel:position position:secretary ],
+        [ a rel:Employment ;
+            rel:organization org1:powell_industries_international_inc ;
+            rel:position position:treasurer ],
+        [ a rel:Employment ;
+            rel:organization org1:powell_industries_international_inc ;
+            rel:position position:vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:powell_electrical_systems_inc ;
+            rel:position position:vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:transdyn_inc ;
+            rel:position position:vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:powell_industries_inc ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:powell_electrical_systems_inc,
+        org1:powell_industries_inc,
+        org1:powell_industries_international_inc,
+        org1:transdyn_inc .
+
+position:secretary a base:Position ;
+    base:positionName "Secretary" ;
+    rdfs:subClassOf base:Person .
+
+position:treasurer a base:Position ;
+    base:positionName "Treasurer" ;
+    rdfs:subClassOf base:Person .
+
+position:vice_president a base:Position ;
+    base:positionName "Vice President" ;
+    rdfs:subClassOf base:Person .
+

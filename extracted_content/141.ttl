@@ -1,0 +1,245 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org1: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person: <http://example.org/person_name/> .
+@prefix position: <http://example.org/person_position/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+base:Location a rdfs:Class .
+
+base:Organization a rdfs:Class .
+
+base:Person a rdfs:Class .
+
+location_type:administrative_agents_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:administrative_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:ag_new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_management a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_services a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:assembly_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:business_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:cayman_islands_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:chief_executive_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:commercial_banking a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_customers_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:domestic_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:dublin_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:eurodollar_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:front_end_test_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:london_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:mexico_location_contract_manufacturing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:micro_building_and_corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:middle_market_servicing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:offsite_storage a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:opto_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:registered_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:rexford_industrial_realty_inc_11620_wilshire_boulevard_suite_1000_los_angeles_california_90025 a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:trade_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:zonal_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+org1:moodys_investors_service_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agency .
+
+org1:national_association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:administrative_agent .
+
+org1:pnc_bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:administrative_agent .
+
+org1:pnc_capital_markets_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arranger,
+        org_role:book_runner,
+        org_role:lead_arranger .
+
+org1:south_jersey_industries_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:parent .
+
+org1:standard_and_poors_financial_services_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agency .
+
+org_role:agent rdfs:subClassOf base:Organization .
+
+loc:1_south_jersey_plaza_folsom_new_jersey_08037 a base:Location ;
+    rel:isLocationOf org1:south_jersey_gas_company .
+
+loc:500_first_avenue_pittsburgh_pa_15219 a base:Location ;
+    <http://example.org/isInstanceOf/> location_type:agency_services ;
+    rel:isLocationOf org1:pnc_bank_national_association .
+
+org_role:arranger rdfs:subClassOf base:Organization .
+
+org_role:book_runner rdfs:subClassOf base:Organization .
+
+org_role:borrower rdfs:subClassOf base:Organization .
+
+org_role:lead_arranger rdfs:subClassOf base:Organization .
+
+org_role:parent rdfs:subClassOf base:Organization .
+
+person:andrew_d_holtz a base:Person ;
+    <http://example.org/isInstanceOf/> position:senior_vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:the_northern_trust_company ;
+            rel:position position:senior_vice_president ] ;
+    rel:isEmployedBy org1:the_northern_trust_company .
+
+person:ann_t_anthony a base:Person ;
+    <http://example.org/isInstanceOf/> position:treasurer ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:south_jersey_gas_company ;
+            rel:position position:treasurer ] ;
+    rel:isEmployedBy org1:south_jersey_gas_company .
+
+person:david_w_dinella a base:Person ;
+    <http://example.org/isInstanceOf/> position:senior_vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:citizens_bank_of_pennsylvania ;
+            rel:position position:senior_vice_president ] ;
+    rel:isEmployedBy org1:citizens_bank_of_pennsylvania .
+
+person:jeff_skalka a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:branch_banking_and_trust_company ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:branch_banking_and_trust_company .
+
+person:renee_m_bonnell a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:keybank_national_association ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:keybank_national_association .
+
+person:richard_r_powell a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:bank_of_america_na ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:bank_of_america_na .
+
+person:thomas_e_redmond a base:Person ;
+    <http://example.org/isInstanceOf/> position:senior_vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:pnc_bank_national_association ;
+            rel:position position:senior_vice_president ] ;
+    rel:isEmployedBy org1:pnc_bank_national_association .
+
+person:vijay_prasad a base:Person ;
+    <http://example.org/isInstanceOf/> position:senior_vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:td_bank_na ;
+            rel:position position:senior_vice_president ] ;
+    rel:isEmployedBy org1:td_bank_na .
+
+org1:bank_of_america_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:richard_r_powell .
+
+org1:branch_banking_and_trust_company a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:jeff_skalka .
+
+org1:citizens_bank_of_pennsylvania a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:david_w_dinella .
+
+org1:keybank_national_association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:renee_m_bonnell .
+
+org1:td_bank_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:vijay_prasad .
+
+org1:the_northern_trust_company a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:andrew_d_holtz .
+
+org_role:agency rdfs:subClassOf base:Organization .
+
+position:treasurer a base:Position ;
+    base:positionName "Treasurer" ;
+    rdfs:subClassOf base:Person .
+
+org1:pnc_bank_national_association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:administrative_agent,
+        org_role:lender ;
+    rel:hasEmployee person:thomas_e_redmond ;
+    rel:hasLocationAt loc:500_first_avenue_pittsburgh_pa_15219 .
+
+org1:south_jersey_gas_company a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:ann_t_anthony ;
+    rel:hasLocationAt loc:1_south_jersey_plaza_folsom_new_jersey_08037 .
+
+org_role:administrative_agent rdfs:subClassOf base:Organization .
+
+position:vice_president a base:Position ;
+    base:positionName "Vice President" ;
+    rdfs:subClassOf base:Person .
+
+org_role:lender rdfs:subClassOf base:Organization .
+
+position:senior_vice_president a base:Position ;
+    base:positionName "Senior Vice President" ;
+    rdfs:subClassOf base:Person .
+

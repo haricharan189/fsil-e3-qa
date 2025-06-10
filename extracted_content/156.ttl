@@ -1,0 +1,375 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org1: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person: <http://example.org/person_name/> .
+@prefix position: <http://example.org/person_position/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+base:Location a rdfs:Class .
+
+base:Organization a rdfs:Class .
+
+base:Person a rdfs:Class .
+
+location_type:administrative_agents_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:administrative_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:ag_new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_management a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_services a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:assembly_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:business_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:cayman_islands_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:chief_executive_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:commercial_banking a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_customers_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:domestic_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:dublin_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:eurodollar_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:front_end_test_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:london_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:mexico_location_contract_manufacturing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:micro_building_and_corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:middle_market_servicing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:offsite_storage a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:opto_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:registered_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:rexford_industrial_realty_inc_11620_wilshire_boulevard_suite_1000_los_angeles_california_90025 a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:trade_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:zonal_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+org_role:borrower rdfs:subClassOf base:Organization .
+
+loc:1800_century_park_east_suite_1100_los_angeles_ca_90067 a base:Location ;
+    rel:isLocationOf org1:wells_fargo_bank_national_association .
+
+loc:333_south_grand_avenue_los_angeles_ca_90071 a base:Location ;
+    rel:isLocationOf org1:gibson_dunn_and_crutcher .
+
+loc:450_lexington_avenue_new_york_ny_10017 a base:Location ;
+    rel:isLocationOf org1:davis_polk_and_wardwell_llp .
+
+loc:6001_america_center_drive_san_jose_california_95002 a base:Location ;
+    rel:isLocationOf org1:viavi_solutions_inc .
+
+loc:canadian a base:Location ;
+    rel:isLocationOf org1:viavi_solutions_canada_ulc .
+
+loc:german a base:Location ;
+    rel:isLocationOf org1:viavi_solutions_deutschland_gmbh .
+
+loc:uk a base:Location ;
+    rel:isLocationOf org1:viavi_solutions_uk_limited .
+
+org1:davis_polk_and_wardwell_llp a base:Organization ;
+    rel:hasLocationAt loc:450_lexington_avenue_new_york_ny_10017 .
+
+org1:gibson_dunn_and_crutcher a base:Organization ;
+    rel:hasLocationAt loc:333_south_grand_avenue_los_angeles_ca_90071 .
+
+org1:optical_coating_laboratory_llc a base:Organization ;
+    rel:hasLocationAt loc:us .
+
+org1:viavi_solutions_ll a base:Organization ;
+    rel:hasLocationAt loc:us .
+
+org_role:administrative_agent rdfs:subClassOf base:Organization .
+
+org_role:administrative_borrower rdfs:subClassOf base:Organization .
+
+org_role:agent rdfs:subClassOf base:Organization .
+
+org_role:bookrunner rdfs:subClassOf base:Organization .
+
+org_role:bookrunners rdfs:subClassOf base:Organization .
+
+org_role:lead_arranger rdfs:subClassOf base:Organization .
+
+org_role:lead_arrangers rdfs:subClassOf base:Organization .
+
+org_role:lende rdfs:subClassOf base:Organization .
+
+org_role:security_agent rdfs:subClassOf base:Organization .
+
+person:andreas_christoph_beyertt a base:Person ;
+    <http://example.org/isInstanceOf/> position:managing_director ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:viavi_solutions_deutschland_gmbh ;
+            rel:position position:managing_director ] ;
+    rel:isEmployedBy org1:viavi_solutions_deutschland_gmbh .
+
+person:brian_lane a base:Person ;
+    <http://example.org/isInstanceOf/> position:its_authorized_signatory ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:wells_fargo_bank_national_association ;
+            rel:position position:its_authorized_signatory ] ;
+    rel:isEmployedBy org1:wells_fargo_bank_national_association .
+
+person:carmela_massari a base:Person ;
+    <http://example.org/isInstanceOf/> position:senior_vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:wells_fargo_capital_finance_corporation_canada ;
+            rel:position position:senior_vice_president ] ;
+    rel:isEmployedBy org1:wells_fargo_capital_finance_corporation_canada .
+
+person:christopher_cassidy a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:bnp_paribas ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:bnp_paribas .
+
+person:guelay_mese a base:Person ;
+    <http://example.org/isInstanceOf/> position:director ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:bnp_paribas ;
+            rel:position position:director ] ;
+    rel:isEmployedBy org1:bnp_paribas .
+
+person:jessica_lutrario a base:Person ;
+    <http://example.org/isInstanceOf/> position:associate ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:deutsche_bank_ag_new_york_branch ;
+            rel:position position:associate ] ;
+    rel:isEmployedBy org1:deutsche_bank_ag_new_york_branch .
+
+person:kevin_siebert a base:Person ;
+    <http://example.org/isInstanceOf/> position:president_and_treasurer ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:viavi_solutions_canada_ulc ;
+            rel:position position:president_and_treasurer ] ;
+    rel:isEmployedBy org1:viavi_solutions_canada_ulc .
+
+person:patricia_del_busto a base:Person ;
+    <http://example.org/isInstanceOf/> position:its_authorized_signatory ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:wells_fargo_bank_national_association ;
+            rel:position position:its_authorized_signatory ] ;
+    rel:isEmployedBy org1:wells_fargo_bank_national_association .
+
+person:philip_tancorra a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:deutsche_bank_ag_new_york_branch ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:deutsche_bank_ag_new_york_branch .
+
+person:timothy_lee a base:Person ;
+    <http://example.org/isInstanceOf/> position:executive_director ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:jpmorgan_chase_bank_na ;
+            rel:position position:executive_director ] ;
+    rel:isEmployedBy org1:jpmorgan_chase_bank_na .
+
+org1:jpmorgan_chase_bank_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:issuing_bank,
+        org_role:lende ;
+    rel:hasEmployee person:timothy_lee .
+
+org1:optical_coating_laboratory a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrowers ;
+    rel:hasEmployee person:henk_derksen .
+
+org1:viavi_solutions_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrowers ;
+    rel:hasEmployee person:henk_derksen .
+
+org1:wells_fargo_capital_finance_corporation_canada a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:issuing_bank,
+        org_role:lender ;
+    rel:hasEmployee person:carmela_massari .
+
+org_role:joint_bookrunners rdfs:subClassOf base:Organization .
+
+org_role:joint_lead_arrangers rdfs:subClassOf base:Organization .
+
+position:associate a base:Position ;
+    base:positionName "Associate" ;
+    rdfs:subClassOf base:Person .
+
+position:executive_director a base:Position ;
+    base:positionName "Executive Director" ;
+    rdfs:subClassOf base:Person .
+
+position:executive_vice_president_and_chief_financial_officer a base:Position ;
+    base:positionName "Executive Vice President and Chief Financial Officer" ;
+    rdfs:subClassOf base:Person .
+
+position:managing_director a base:Position ;
+    base:positionName "Managing Director" ;
+    rdfs:subClassOf base:Person .
+
+position:president_and_treasurer a base:Position ;
+    base:positionName "President and Treasurer" ;
+    rdfs:subClassOf base:Person .
+
+position:senior_vice_president a base:Position ;
+    base:positionName "Senior Vice President" ;
+    rdfs:subClassOf base:Person .
+
+org1:viavi_solutions_canada_ulc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrowers ;
+    rel:hasEmployee person:kevin_siebert ;
+    rel:hasLocationAt loc:canadian .
+
+org1:viavi_solutions_deutschland_gmbh a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrowers ;
+    rel:hasEmployee person:andreas_christoph_beyertt ;
+    rel:hasLocationAt loc:german .
+
+org1:viavi_solutions_licensing_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrowers ;
+    rel:hasEmployee person:henk_derksen ;
+    rel:hasLocationAt loc:us .
+
+org1:viavi_solutions_uk_limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrowers ;
+    rel:hasEmployee person:henk_derksen ;
+    rel:hasLocationAt loc:uk .
+
+position:chief_financial_officer a base:Position ;
+    base:positionName "\\nChief Financial Officer" ;
+    rdfs:subClassOf base:Person .
+
+loc:us a base:Location ;
+    rel:isLocationOf org1:optical_coating_laboratory_llc,
+        org1:viavi_solutions_inc,
+        org1:viavi_solutions_licensing_llc,
+        org1:viavi_solutions_ll .
+
+org1:bnp_paribas a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:bookrunners,
+        org_role:issuing_bank,
+        org_role:joint_bookrunners,
+        org_role:joint_lead_arrangers,
+        org_role:lender ;
+    rel:hasEmployee person:christopher_cassidy,
+        person:guelay_mese .
+
+org1:deutsche_bank_ag_new_york_branch a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:jessica_lutrario,
+        person:philip_tancorra .
+
+org1:viavi_solutions_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:administrative_borrower ;
+    rel:hasEmployee person:henk_derksen ;
+    rel:hasLocationAt loc:6001_america_center_drive_san_jose_california_95002,
+        loc:us .
+
+org_role:issuing_bank rdfs:subClassOf base:Organization .
+
+org_role:lender rdfs:subClassOf base:Organization .
+
+position:director a base:Position ;
+    base:positionName "Director" ;
+    rdfs:subClassOf base:Person .
+
+position:its_authorized_signatory a base:Position ;
+    base:positionName "\\nIts Authorized Signatory" ;
+    rdfs:subClassOf base:Person .
+
+org1:wells_fargo_bank_national_association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:administrative_agent,
+        org_role:agent,
+        org_role:bookrunner,
+        org_role:issuing_bank,
+        org_role:joint_bookrunners,
+        org_role:joint_lead_arrangers,
+        org_role:lead_arranger,
+        org_role:lead_arrangers,
+        org_role:lender,
+        org_role:security_agent ;
+    rel:hasEmployee person:brian_lane,
+        person:patricia_del_busto ;
+    rel:hasLocationAt loc:1800_century_park_east_suite_1100_los_angeles_ca_90067 .
+
+person:henk_derksen a base:Person ;
+    <http://example.org/isInstanceOf/> position:chief_financial_officer,
+        position:director,
+        position:executive_vice_president_and_chief_financial_officer,
+        position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:viavi_solutions_uk_limited ;
+            rel:position position:director ],
+        [ a rel:Employment ;
+            rel:organization org1:optical_coating_laboratory ;
+            rel:position position:chief_financial_officer ],
+        [ a rel:Employment ;
+            rel:organization org1:viavi_solutions_llc ;
+            rel:position position:chief_financial_officer ],
+        [ a rel:Employment ;
+            rel:organization org1:viavi_solutions_inc ;
+            rel:position position:executive_vice_president_and_chief_financial_officer ],
+        [ a rel:Employment ;
+            rel:organization org1:viavi_solutions_licensing_llc ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:optical_coating_laboratory,
+        org1:viavi_solutions_inc,
+        org1:viavi_solutions_licensing_llc,
+        org1:viavi_solutions_llc,
+        org1:viavi_solutions_uk_limited .
+
+org_role:borrowers rdfs:subClassOf base:Organization .
+
+position:vice_president a base:Position ;
+    base:positionName "\\nVice President" ;
+    rdfs:subClassOf base:Person .
+

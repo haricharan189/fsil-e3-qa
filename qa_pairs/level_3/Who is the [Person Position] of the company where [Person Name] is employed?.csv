@@ -1,0 +1,300 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+116,Who is the cfo of the company where orit mizrachi is employed?,venu rathi,3,0,0
+116,Who is the chief financial officer of the company where orit mizrachi is employed?,venugopal rathi,3,0,0
+116,Who is the coo of the company where venu rathi is employed?,orit mizrachi,3,0,0
+116,Who is the chief financial officer of the company where venu rathi is employed?,venugopal rathi,3,0,0
+116,Who is the coo of the company where venugopal rathi is employed?,orit mizrachi,3,0,0
+116,Who is the cfo of the company where venugopal rathi is employed?,venu rathi,3,0,0
+100,Who is the chief financial officer of the company where dan johnston is employed?,peter kuipers,3,0,0
+100,Who is the executive vice president of the company where dan johnston is employed?,peter kuipers,3,0,0
+100,Who is the vice president of the company where peter kuipers is employed?,dan johnston,3,0,0
+100,Who is the chief legal and administrative officer of the company where peter kuipers is employed?,dan johnston,3,0,0
+110,Who is the director of the company where houssem daly is employed?,kenneth chin,3,0,0
+110,Who is the associate director of the company where kenneth chin is employed?,houssem daly,3,0,0
+104,Who is the treasurer of the company where andre s valentine is employed?,david r wiedwald,3,0,0
+104,Who is the chief financial officer of the company where david r wiedwald is employed?,andre s valentine,3,0,0
+139,Who is the managing director of the company where kestrina budina is employed?,tanya crossley,3,0,0
+139,Who is the director of the company where tanya crossley is employed?,kestrina budina,3,0,0
+111,Who is the head of corporate banking of the company where louise twiss west is employed?,neville grant,3,0,0
+111,Who is the head of financial institutions group of the company where neville grant is employed?,louise twiss west,3,0,0
+10,Who is the manager agency of the company where alex figueroa is employed?,susan khokher,3,0,0
+10,Who is the authorized signatory of the company where susan khokher is employed?,alex figueroa,3,0,0
+38,Who is the managing director of the company where sriram chandrasekaran is employed?,ann rhoads,3,0,0
+38,Who is the director of the company where ann rhoads is employed?,sriram chandrasekaran,3,0,0
+38,Who is the vice president of the company where ross levitsky is employed?,ming k chu,3,0,0
+38,Who is the managing director of the company where ming k chu is employed?,ross levitsky,3,0,0
+38,Who is the senior vice president of the company where jamie grubb is employed?,joe hykle,3,0,0
+38,Who is the vice president of the company where joe hykle is employed?,jamie grubb,3,0,0
+38,Who is the director of the company where houssem daly is employed?,kenneth chin,3,0,0
+38,Who is the associate director of the company where kenneth chin is employed?,houssem daly,3,0,0
+12,Who is the fvp head of credit of the company where lorenzo rodino is employed?,francesco di mario,3,0,0
+12,Who is the relationship manager of the company where francesco di mario is employed?,lorenzo rodino,3,0,0
+12,Who is the director of the company where luca balestra is employed?,thilo huber,3,0,0
+12,Who is the managing director of the company where thilo huber is employed?,luca balestra,3,0,0
+12,Who is the vice president global treasury of the company where aidan clare is employed?,gráinne kelly,3,0,0
+12,Who is the executive vice president of the company where aidan clare is employed?,marco pagni,3,0,0
+12,Who is the general counsel of the company where aidan clare is employed?,marco pagni,3,0,0
+12,Who is the global chief administrative officer of the company where aidan clare is employed?,marco pagni,3,0,0
+12,Who is the senior managerglobal treasury of the company where aidan clare is employed?,sara la berg,3,0,0
+12,Who is the senior vice president of the company where gráinne kelly is employed?,aidan clare,3,0,0
+12,Who is the global treasurer of the company where gráinne kelly is employed?,aidan clare,3,0,0
+12,Who is the executive vice president of the company where gráinne kelly is employed?,marco pagni,3,0,0
+12,Who is the general counsel of the company where gráinne kelly is employed?,marco pagni,3,0,0
+12,Who is the global chief administrative officer of the company where gráinne kelly is employed?,marco pagni,3,0,0
+12,Who is the senior managerglobal treasury of the company where gráinne kelly is employed?,sara la berg,3,0,0
+12,Who is the senior vice president of the company where marco pagni is employed?,aidan clare,3,0,0
+12,Who is the global treasurer of the company where marco pagni is employed?,aidan clare,3,0,0
+12,Who is the vice president global treasury of the company where marco pagni is employed?,gráinne kelly,3,0,0
+12,Who is the senior managerglobal treasury of the company where marco pagni is employed?,sara la berg,3,0,0
+12,Who is the senior vice president of the company where sara la berg is employed?,aidan clare,3,0,0
+12,Who is the global treasurer of the company where sara la berg is employed?,aidan clare,3,0,0
+12,Who is the vice president global treasury of the company where sara la berg is employed?,gráinne kelly,3,0,0
+12,Who is the executive vice president of the company where sara la berg is employed?,marco pagni,3,0,0
+12,Who is the general counsel of the company where sara la berg is employed?,marco pagni,3,0,0
+12,Who is the global chief administrative officer of the company where sara la berg is employed?,marco pagni,3,0,0
+113,Who is the secretary treasurer of the company where michael doar is employed?,sonja k mcclelland,3,0,0
+113,Who is the chief executive officer of the company where sonja k mcclelland is employed?,michael doar,3,0,0
+106,Who is the director of the company where joselin fernandes is employed?,lana gifas,3,0,0
+106,Who is the associate director of the company where lana gifas is employed?,joselin fernandes,3,0,0
+106,Who is the authorized signatory of the company where ann hurley is employed?,thomas casey,3,0,0
+106,Who is the manager agency of the company where thomas casey is employed?,ann hurley,3,0,0
+60,Who is the assistant vice president of the company where harry yergey is employed?,caroline smith,3,0,0
+60,Who is the managing director of the company where caroline smith is employed?,harry yergey,3,0,0
+48,Who is the vice president us law of the company where jonathan rose is employed?,chris kaitson,3,0,0
+48,Who is the treasurer of the company where chris kaitson is employed?,jonathan rose,3,0,0
+148,Who is the director of the company where liliana claar is employed?,mukesh singh,3,0,0
+148,Who is the vice president of the company where mukesh singh is employed?,liliana claar,3,0,0
+148,Who is the vice president of the company where p nicholas rogers is employed?,karim remtoula,3,0,0
+148,Who is the managing director of the company where karim remtoula is employed?,p nicholas rogers,3,0,0
+61,Who is the managing director of the company where liz cheng is employed?,gregory paul,3,0,0
+61,Who is the vice president of the company where gregory paul is employed?,liz cheng,3,0,0
+61,Who is the director of the company where marko lukin is employed?,ming k chu,3,0,0
+61,Who is the vice president of the company where ming k chu is employed?,marko lukin,3,0,0
+89,Who is the vp finance of the company where james pekarek is employed?,lee neumann,3,0,0
+89,Who is the svp of the company where james pekarek is employed?,lee neumann,3,0,0
+89,Who is the general counsel of the company where james pekarek is employed?,lee neumann,3,0,0
+89,Who is the vp finance of the company where matthew mccabe is employed?,lee neumann,3,0,0
+89,Who is the svp of the company where matthew mccabe is employed?,lee neumann,3,0,0
+89,Who is the general counsel of the company where matthew mccabe is employed?,lee neumann,3,0,0
+99,Who is the managing director of the company where michael t harder is employed?,adriaan weststrate,3,0,0
+99,Who is the executive director of the company where adriaan weststrate is employed?,michael t harder,3,0,0
+166,Who is the chief executive of the company where sandeep patnaik is employed?,rachit bhatia,3,0,0
+166,Who is the head cbo of the company where rachit bhatia is employed?,sandeep patnaik,3,0,0
+166,Who is the head corporate and investment banking of the company where nishant kumar is employed?,vikashh mehta,3,0,0
+166,Who is the senior rm trade and export finance of the company where vikashh mehta is employed?,nishant kumar,3,0,0
+166,Who is the managing director head of credit and trading risk of the company where lisa kwok is employed?,richard cox,3,0,0
+166,Who is the director credit risk management of the company where richard cox is employed?,lisa kwok,3,0,0
+166,Who is the senior executive vice president of the company where dipak gupta is employed?,rajeev mohan,3,0,0
+166,Who is the joint managing director of the company where rajeev mohan is employed?,dipak gupta,3,0,0
+166,Who is the attorney of the company where shannon curran is employed?,chirag shah,3,0,0
+166,Who is the sr legal manager of the company where chirag shah is employed?,shannon curran,3,0,0
+166,Who is the manager crc of the company where valdeep singh is employed?,james perkins,3,0,0
+166,Who is the head crc of the company where valdeep singh is employed?,simon williams,3,0,0
+166,Who is the manager crc of the company where simon williams is employed?,james perkins,3,0,0
+166,Who is the legal counsel of the company where simon williams is employed?,valdeep singh,3,0,0
+166,Who is the head crc of the company where james perkins is employed?,simon williams,3,0,0
+166,Who is the legal counsel of the company where james perkins is employed?,valdeep singh,3,0,0
+9,Who is the associate of the company where mikhail faybusovich is employed?,wei jen yuan,3,0,0
+9,Who is the director of the company where wei jen yuan is employed?,mikhail faybusovich,3,0,0
+170,Who is the executive director of the company where matthew gregg is employed?,gillian dickson,3,0,0
+170,Who is the vice president of the company where gillian dickson is employed?,matthew gregg,3,0,0
+165,Who is the vice president of the company where peter duncan is employed?,pacella lehane,3,0,0
+165,Who is the managing director of the company where pacella lehane is employed?,peter duncan,3,0,0
+165,Who is the director of the company where bridgett j manduk mowry is employed?,j casey cosgrove,3,0,0
+165,Who is the vice president of the company where j casey cosgrove is employed?,bridgett j manduk mowry,3,0,0
+165,Who is the corporate secretary of the company where johan nystedt is employed?,colleen batcheler,3,0,0
+165,Who is the general counsel of the company where johan nystedt is employed?,colleen batcheler,3,0,0
+165,Who is the vice president of the company where colleen batcheler is employed?,johan nystedt,3,0,0
+165,Who is the investor relations officer of the company where colleen batcheler is employed?,johan nystedt,3,0,0
+165,Who is the treasurer of the company where colleen batcheler is employed?,johan nystedt,3,0,0
+169,Who is the vice president of the company where timothy j devane is employed?,jeff bliss,3,0,0
+169,Who is the executive director of the company where jeff bliss is employed?,timothy j devane,3,0,0
+97,Who is the chief counsel hfs real estate of the company where dague retzlaff is employed?,diana pennington,3,0,0
+97,Who is the managing director of the company where dague retzlaff is employed?,jeffrey m muchmore,3,0,0
+97,Who is the vice president of the company where diana pennington is employed?,dague retzlaff,3,0,0
+97,Who is the authorized signatory of the company where diana pennington is employed?,dague retzlaff,3,0,0
+97,Who is the managing director of the company where diana pennington is employed?,jeffrey m muchmore,3,0,0
+97,Who is the vice president of the company where jeffrey m muchmore is employed?,dague retzlaff,3,0,0
+97,Who is the authorized signatory of the company where jeffrey m muchmore is employed?,dague retzlaff,3,0,0
+97,Who is the chief counsel hfs real estate of the company where jeffrey m muchmore is employed?,diana pennington,3,0,0
+83,Who is the corporate banking directo of the company where ivan vera is employed?,juan segundo,3,0,0
+83,Who is the vp credit and documentation of the company where juan segundo is employed?,ivan vera,3,0,0
+83,Who is the director of the company where charles de clapiers is employed?,todd rodgers,3,0,0
+83,Who is the vice president of the company where todd rodgers is employed?,charles de clapiers,3,0,0
+83,Who is the credit documentation manager of the company where johanna minaya is employed?,robert k reddington,3,0,0
+83,Who is the associate director of the company where robert k reddington is employed?,johanna minaya,3,0,0
+83,Who is the svp of the company where danny leung is employed?,james hua,3,0,0
+83,Who is the svp and coo of the company where james hua is employed?,danny leung,3,0,0
+83,Who is the general counsel of the company where timothy leyden is employed?,michael ray,3,0,0
+83,Who is the secretary of the company where timothy leyden is employed?,michael ray,3,0,0
+83,Who is the senior vice president of the company where timothy leyden is employed?,michael ray,3,0,0
+83,Who is the general counsel of the company where tim leyden is employed?,michael ray,3,0,0
+83,Who is the secretary of the company where tim leyden is employed?,michael ray,3,0,0
+83,Who is the senior vice president of the company where tim leyden is employed?,michael ray,3,0,0
+142,Who is the financing manager of the company where martin eyok is employed?,raj acharya,3,0,0
+142,Who is the senior financing manager of the company where raj acharya is employed?,martin eyok,3,0,0
+142,Who is the managing director of the company where anar ramji is employed?,randy geislinger,3,0,0
+142,Who is the director of the company where randy geislinger is employed?,anar ramji,3,0,0
+142,Who is the director of the company where jeff ferrell is employed?,gordon yip,3,0,0
+142,Who is the managing director of the company where gordon yip is employed?,jeff ferrell,3,0,0
+142,Who is the director of the company where jonathan leach is employed?,michael linder,3,0,0
+142,Who is the associate of the company where michael linder is employed?,jonathan leach,3,0,0
+142,Who is the corporate secretary of the company where nathaniel a brown is employed?,jon a dobson,3,0,0
+142,Who is the controller of the company where jon a dobson is employed?,nathaniel a brown,3,0,0
+142,Who is the principal financial officer of the company where jon a dobson is employed?,nathaniel a brown,3,0,0
+142,Who is the vice president law of the company where joel e hunter is employed?,christine r johnston,3,0,0
+142,Who is the corporate secretary of the company where joel e hunter is employed?,christine r johnston,3,0,0
+142,Who is the treasurer of the company where christine r johnston is employed?,joel e hunter,3,0,0
+142,Who is the vice president finance of the company where christine r johnston is employed?,joel e hunter,3,0,0
+156,Who is the director of the company where christopher cassidy is employed?,guelay mese,3,0,0
+156,Who is the vice president of the company where guelay mese is employed?,christopher cassidy,3,0,0
+156,Who is the vice president of the company where jessica lutrario is employed?,philip tancorra,3,0,0
+156,Who is the associate of the company where philip tancorra is employed?,jessica lutrario,3,0,0
+94,Who is the managing director of the company where j stéphane lautner is employed?,edward t crook,3,0,0
+94,Who is the vice president of the company where edward t crook is employed?,j stéphane lautner,3,0,0
+57,Who is the vice president of the company where john w deegan is employed?,robert sullivan,3,0,0
+57,Who is the director of the company where robert sullivan is employed?,john w deegan,3,0,0
+57,Who is the associate director of the company where julien tizorin is employed?,betsy briggs,3,0,0
+57,Who is the managing director of the company where betsy briggs is employed?,julien tizorin,3,0,0
+57,Who is the director of the company where virginia cosenza is employed?,ming k chu,3,0,0
+57,Who is the vice president of the company where ming k chu is employed?,virginia cosenza,3,0,0
+47,Who is the vice president of the company where kristie li is employed?,philip f kurpiewski,3,0,0
+47,Who is the senior vice president of the company where philip f kurpiewski is employed?,kristie li,3,0,0
+90,Who is the managing director of the company where todd grossnickle is employed?,michael pearce,3,0,0
+90,Who is the director of the company where michael pearce is employed?,todd grossnickle,3,0,0
+90,Who is the director of the company where kaye ea is employed?,brad matthews,3,0,0
+90,Who is the managing director of the company where brad matthews is employed?,kaye ea,3,0,0
+90,Who is the director of the company where barry fehily is employed?,sean hassett,3,0,0
+90,Who is the managing director of the company where sean hassett is employed?,barry fehily,3,0,0
+84,Who is the director of the company where michael donofrio is employed?,bill odaly,3,0,0
+84,Who is the associate of the company where bill odaly is employed?,michael donofrio,3,0,0
+84,Who is the director of the company where joselin fernandes is employed?,lana gifas,3,0,0
+84,Who is the associate director of the company where lana gifas is employed?,joselin fernandes,3,0,0
+84,Who is the senior vice president of the company where mrgeorgel chapman is employed?,michael a crabtree,3,0,0
+84,Who is the treasurer of the company where mrgeorgel chapman is employed?,michael a crabtree,3,0,0
+84,Who is the chairman of the board of the company where michael a crabtree is employed?,mrgeorgel chapman,3,0,0
+84,Who is the chief executive officer of the company where michael a crabtree is employed?,mrgeorgel chapman,3,0,0
+84,Who is the servicing officer of the company where elsa obrien is employed?,audrey pishnery,3,0,0
+84,Who is the vice president of the company where elsa obrien is employed?,laura conway,3,0,0
+84,Who is the manager of the company where audrey pishnery is employed?,elsa obrien,3,0,0
+84,Who is the vice president of the company where audrey pishnery is employed?,laura conway,3,0,0
+84,Who is the servicing officer of the company where laura conway is employed?,audrey pishnery,3,0,0
+84,Who is the manager of the company where laura conway is employed?,elsa obrien,3,0,0
+52,Who is the executive vice president of the company where charles r conradi is employed?,laura stein,3,0,0
+52,Who is the treasurer of the company where laura stein is employed?,charles r conradi,3,0,0
+52,Who is the vice president of tax of the company where laura stein is employed?,charles r conradi,3,0,0
+44,Who is the vice president of the company where john m hall is employed?,maria a mcclain,3,0,0
+44,Who is the senior vice president of the company where maria a mcclain is employed?,john m hall,3,0,0
+151,Who is the vice president of the company where joseph l corah is employed?,christopher coney,3,0,0
+151,Who is the drector of the company where christopher coney is employed?,joseph l corah,3,0,0
+151,Who is the vice president of the company where gregory t martin is employed?,robert botcherby,3,0,0
+151,Who is the executive director of the company where robert botcherby is employed?,gregory t martin,3,0,0
+151,Who is the first vice president of the company where anders holmgaard is employed?,ola anderssen,3,0,0
+151,Who is the executive director of the company where ola anderssen is employed?,anders holmgaard,3,0,0
+86,Who is the senior vice president of the company where rosanne parsill is employed?,julie yamauchi,3,0,0
+86,Who is the vice president of the company where julie yamauchi is employed?,rosanne parsill,3,0,0
+3,Who is the avp of the company where kyle pearson is employed?,cindy jordan,3,0,0
+3,Who is the vice president of the company where cindy jordan is employed?,kyle pearson,3,0,0
+45,Who is the portfolio manager of the company where cynthia m olson is employed?,eric niedbalski,3,0,0
+45,Who is the senior vice president of the company where cynthia m olson is employed?,mark r cousineau,3,0,0
+45,Who is the client services representative of the company where mark r cousineau is employed?,cynthia m olson,3,0,0
+45,Who is the portfolio manager of the company where mark r cousineau is employed?,eric niedbalski,3,0,0
+45,Who is the client services representative of the company where eric niedbalski is employed?,cynthia m olson,3,0,0
+45,Who is the senior vice president of the company where eric niedbalski is employed?,mark r cousineau,3,0,0
+79,Who is the senior vice president of the company where helen h gateson is employed?,charles mclaughlin,3,0,0
+79,Who is the vice president of the company where charles mclaughlin is employed?,helen h gateson,3,0,0
+79,Who is the director of the company where craig pearson is employed?,darlene arias,3,0,0
+79,Who is the associate director of the company where darlene arias is employed?,craig pearson,3,0,0
+123,Who is the vice president of the company where sean hassett is employed?,shaun hawley,3,0,0
+123,Who is the director of the company where shaun hawley is employed?,sean hassett,3,0,0
+137,Who is the vice president of the company where james rolison is employed?,murray mackinnon,3,0,0
+137,Who is the managing director of the company where murray mackinnon is employed?,james rolison,3,0,0
+122,Who is the secretary of the company where n j hardman is employed?,p a hogwood,3,0,0
+122,Who is the director of the company where p a hogwood is employed?,n j hardman,3,0,0
+122,Who is the vice president of the company where tony gordon is employed?,anna smith,3,0,0
+122,Who is the vice president of the company where andy mcclinton is employed?,anna smith,3,0,0
+23,Who is the managing director of the company where kyle hatze is employed?,jeremy eisman,3,0,0
+23,Who is the director of the company where jeremy eisman is employed?,kyle hatze,3,0,0
+35,Who is the director of the company where nicolas anberree is employed?,claudia zarate,3,0,0
+35,Who is the vice president of the company where claudia zarate is employed?,nicolas anberree,3,0,0
+35,Who is the vice president of the company where marco pizzi is employed?,glen binder,3,0,0
+35,Who is the global relationship manager of the company where glen binder is employed?,marco pizzi,3,0,0
+35,Who is the associate director of the company where steve aloupis is employed?,hsing h huang,3,0,0
+35,Who is the managing director capital markets of the company where hsing h huang is employed?,steve aloupis,3,0,0
+35,Who is the managing director of the company where nurys maleki is employed?,veronica incera,3,0,0
+35,Who is the director of the company where veronica incera is employed?,nurys maleki,3,0,0
+35,Who is the general counsel of the company where john p rielly is employed?,timothy b goodell,3,0,0
+35,Who is the chief financial officer of the company where timothy b goodell is employed?,john p rielly,3,0,0
+120,Who is the senior vice president of the company where james p surless is employed?,charles mclaughlin,3,0,0
+120,Who is the vice president of the company where charles mclaughlin is employed?,james p surless,3,0,0
+135,Who is the vice president of the company where joseph onischuk is employed?,reginald crichlow,3,0,0
+135,Who is the managing director of the company where reginald crichlow is employed?,joseph onischuk,3,0,0
+135,Who is the director of the company where virginia cosenza is employed?,andreas bubenzer paim,3,0,0
+135,Who is the vice president of the company where andreas bubenzer paim is employed?,virginia cosenza,3,0,0
+135,Who is the director of the company where craig pearson is employed?,darlene arias,3,0,0
+135,Who is the associate director of the company where darlene arias is employed?,craig pearson,3,0,0
+135,Who is the vice president of the company where adam h fey is employed?,rosanne parsill,3,0,0
+135,Who is the director of the company where rosanne parsill is employed?,adam h fey,3,0,0
+109,Who is the chief financial officer of the company where douglas polinksy is employed?,john busshaus,3,0,0
+109,Who is the chief executive officer and chairman of the board of the company where douglas polinksy is employed?,christopher j spencer,3,0,0
+109,Who is the chief financial officer of the company where j gregory smith is employed?,john busshaus,3,0,0
+109,Who is the chief executive officer and chairman of the board of the company where j gregory smith is employed?,christopher j spencer,3,0,0
+109,Who is the chief financial officer of the company where christopher j spencer is employed?,john busshaus,3,0,0
+109,Who is the chief financial officer of the company where denis yevstifeyey is employed?,john busshaus,3,0,0
+109,Who is the chief executive officer and chairman of the board of the company where denis yevstifeyey is employed?,christopher j spencer,3,0,0
+109,Who is the chief executive officer and chairman of the board of the company where john busshaus is employed?,christopher j spencer,3,0,0
+34,Who is the vice president finance and treasurer of the company where cameron m bready is employed?,rejji p hayes,3,0,0
+34,Who is the secretary of the company where cameron m bready is employed?,wendy a mcintyre,3,0,0
+34,Who is the vice president of the company where cameron m bready is employed?,wendy a mcintyre,3,0,0
+34,Who is the general counsel of the company where cameron m bready is employed?,wendy a mcintyre,3,0,0
+34,Who is the chief financial officer of the company where wendy a mcintyre is employed?,cameron m bready,3,0,0
+34,Who is the executive vice president of the company where wendy a mcintyre is employed?,cameron m bready,3,0,0
+34,Who is the vice president finance and treasurer of the company where wendy a mcintyre is employed?,rejji p hayes,3,0,0
+34,Who is the chief financial officer of the company where rejji p hayes is employed?,cameron m bready,3,0,0
+34,Who is the executive vice president of the company where rejji p hayes is employed?,cameron m bready,3,0,0
+34,Who is the secretary of the company where rejji p hayes is employed?,wendy a mcintyre,3,0,0
+34,Who is the vice president of the company where rejji p hayes is employed?,wendy a mcintyre,3,0,0
+34,Who is the general counsel of the company where rejji p hayes is employed?,wendy a mcintyre,3,0,0
+18,Who is the vice president of the company where kevin a stacker is employed?,craig v koshkarian,3,0,0
+18,Who is the senior vice president of the company where craig v koshkarian is employed?,kevin a stacker,3,0,0
+118,Who is the executive director of the company where peter duncan is employed?,peter glawe,3,0,0
+118,Who is the managing director of the company where peter glawe is employed?,peter duncan,3,0,0
+130,Who is the manager agency services of the company where john flores is employed?,yvonne brazier,3,0,0
+130,Who is the authorized signatory of the company where yvonne brazier is employed?,john flores,3,0,0
+31,Who is the authorized signatory of the company where eoin roche is employed?,robert casey,3,0,0
+31,Who is the executive director of the company where robert casey is employed?,eoin roche,3,0,0
+31,Who is the documentation manager of the company where johanna minaya is employed?,robert k reddington,3,0,0
+31,Who is the associate director of the company where robert k reddington is employed?,johanna minaya,3,0,0
+31,Who is the director of the company where anthea del bianco is employed?,scott w reynolds,3,0,0
+31,Who is the vice president of the company where scott w reynolds is employed?,anthea del bianco,3,0,0
+19,Who is the managing director of the company where timothy j devane is employed?,robert graff,3,0,0
+19,Who is the executive director of the company where robert graff is employed?,timothy j devane,3,0,0
+19,Who is the manager agency of the company where john flores is employed?,rodica dutka,3,0,0
+19,Who is the authorized signatory of the company where rodica dutka is employed?,john flores,3,0,0
+126,Who is the vice president of the company where brendan heneghan is employed?,karim remtoula,3,0,0
+126,Who is the director of the company where karim remtoula is employed?,brendan heneghan,3,0,0
+126,Who is the director of the company where andrew sidford is employed?,gordon yip,3,0,0
+126,Who is the managing director of the company where gordon yip is employed?,andrew sidford,3,0,0
+126,Who is the director of the company where dayi liu is employed?,tony huang,3,0,0
+126,Who is the executive director of the company where tony huang is employed?,dayi liu,3,0,0
+127,Who is the director of the company where taelitha bonds harris is employed?,darren merten,3,0,0
+127,Who is the assistant vice president of the company where darren merten is employed?,taelitha bonds harris,3,0,0
+32,Who is the managing director corporate coverage canada of the company where chris golding is employed?,tony baratta,3,0,0
+32,Who is the director corporate banking of the company where tony baratta is employed?,chris golding,3,0,0
+32,Who is the vice president commercial banking of the company where todd patchell is employed?,douglas brandes,3,0,0
+32,Who is the assistant vice president of the company where douglas brandes is employed?,todd patchell,3,0,0
+32,Who is the director and counsel region americas legal of the company where john stholl is employed?,barbara s wang,3,0,0
+32,Who is the director of the company where barbara s wang is employed?,john stholl,3,0,0
+26,Who is the vice president of the company where christopher sked is employed?,ade adedeji,3,0,0
+26,Who is the managing director of the company where ade adedeji is employed?,christopher sked,3,0,0
+26,Who is the director of the company where gary herzog is employed?,jill wong,3,0,0
+26,Who is the managing director of the company where jill wong is employed?,gary herzog,3,0,0
+26,Who is the corporate secretary of the company where jeffrey galik is employed?,katherine kelly,3,0,0
+26,Who is the treasurer of the company where katherine kelly is employed?,jeffrey galik,3,0,0
+26,Who is the senior vice president of the company where katherine kelly is employed?,jeffrey galik,3,0,0
+26,Who is the vice president of the company where pedro bell is employed?,veli matti abohen,3,0,0
+26,Who is the managing director of the company where veli matti abohen is employed?,pedro bell,3,0,0
+26,Who is the director of the company where virginia cosenza is employed?,ming k chu,3,0,0
+26,Who is the vice president of the company where ming k chu is employed?,virginia cosenza,3,0,0
+26,Who is the corporate secretary of the company where jeffreygalik is employed?,katherinekelly,3,0,0
+26,Who is the treasurer of the company where katherinekelly is employed?,jeffreygalik,3,0,0

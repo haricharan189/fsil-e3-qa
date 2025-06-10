@@ -1,0 +1,316 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+102,Who is the Chief Financial Officer and President of md office solutions?,jeffry r keyes,2,1,0
+117,Who is the Chief Financial Officer and Executive Vice President of columbia sportswear company?,jim a swanson,2,1,0
+16,Who is the Chief Executive Officer and President of standard diversified opportunities inc?,ian w estus,2,1,0
+28,Who is the Ceo and Managing Member of biopharma credit investments v master lp?,pedro gonzalez de cosio,2,1,0
+28,Who is the Ceo and Managing Member of biopharma credit plc?,pedro gonzalez de cosio,2,1,0
+28,Who is the Chief Executive Officer and President of collegium pharmaceutical inc?,joseph ciaffoni,2,1,0
+129,Who is the Chief Financial Officer and Secretary of ghm acquisition corp?,jeffrey glajch,2,1,0
+115,Who is the President and Secretary of alliance trading inc?,melanie housey hart,2,1,0
+115,Who is the President and Secretary of cypress inc?,melanie housey hart,2,1,0
+115,Who is the Secretary and Treasurer of poolfx supply llc?,melanie housey hart,2,1,0
+115,Who is the Assistant Secretary and Chief Accounting Officer of scp international inc?,melanie housey hart,2,1,0
+115,Who is the Chief Legal Officer and Secretary of horizon distributors inc?,jennifer m neil,2,1,0
+115,Who is the Chief Legal Officer and Vice President of horizon distributors inc?,jennifer m neil,2,1,0
+115,Who is the Secretary and Vice President of horizon distributors inc?,jennifer m neil,2,1,0
+115,Who is the Chief Legal Officer and Secretary of pool corporation?,jennifer m neil,2,1,0
+115,Who is the Chief Legal Officer and Vice President of pool corporation?,jennifer m neil,2,1,0
+115,Who is the Secretary and Vice President of pool corporation?,jennifer m neil,2,1,0
+115,Who is the Chief Legal Officer and Secretary of pool development llc?,jennifer m neil,2,1,0
+115,Who is the Chief Legal Officer and Vice President of pool development llc?,jennifer m neil,2,1,0
+115,Who is the Secretary and Vice President of pool development llc?,jennifer m neil,2,1,0
+115,Who is the Chief Legal Officer and Secretary of scp distributors llc?,jennifer m neil,2,1,0
+115,Who is the Chief Legal Officer and Vice President of scp distributors llc?,jennifer m neil,2,1,0
+115,Who is the Secretary and Vice President of scp distributors llc?,jennifer m neil,2,1,0
+115,Who is the Chief Legal Officer and Secretary of superior pool products llc?,jennifer m neil,2,1,0
+115,Who is the Chief Legal Officer and Vice President of superior pool products llc?,jennifer m neil,2,1,0
+115,Who is the Secretary and Vice President of superior pool products llc?,jennifer m neil,2,1,0
+100,Who is the Vice President Relationship Manager and Vp Relationship Manager of wells fargo bank national association?,ray aguilar,2,1,0
+100,Who is the Chief Legal And Administrative Officer and Vice President of omnicellinc?,dan johnston,2,1,0
+100,Who is the Chief Financial Officer and Executive Vice President of omnicellinc?,peter kuipers,2,1,0
+128,Who is the Director and Market Manager of bank of the west?,leni preciado,2,1,0
+39,Who is the Chief Financeofficer and Treasurer of universalstainlessandalloy productsinc?,rosscwilkin,2,1,0
+39,Who is the Chief Financeofficer and Treasurer of dunkirkspecialtysteelllc?,rosscwilkin,2,1,0
+39,Who is the Chief Financeofficer and Vicepresidentoffinance of dunkirkspecialtysteelllc?,rosscwilkin,2,1,0
+39,Who is the Treasurer and Vicepresidentoffinance of dunkirkspecialtysteelllc?,rosscwilkin,2,1,0
+39,Who is the Chief Financeofficer and Treasurer of northjacksonspecialtysteel llc?,rosscwilkin,2,1,0
+39,Who is the Chief Financeofficer and Vicepresidentoffinance of northjacksonspecialtysteel llc?,rosscwilkin,2,1,0
+39,Who is the Treasurer and Vicepresidentoffinance of northjacksonspecialtysteel llc?,rosscwilkin,2,1,0
+11,Who is the Treasurer and Vice President of honeywell international inc?,john j tus,2,1,0
+138,Who is the Chief Financial Officer and Secretary of rexford industrial realty lp?,adeel khan,2,1,0
+139,Who is the Chief Financial Officer and Senior Vice President of crown castle international corp?,jay a brown,2,1,0
+139,Who is the Chief Financial Officer and Treasurer of crown castle international corp?,jay a brown,2,1,0
+139,Who is the Senior Vice President and Treasurer of crown castle international corp?,jay a brown,2,1,0
+10,Who is the Chief Financial Officer and Treasuruer of victory capital holdingsinc?,terence f sullivan,2,1,0
+38,Who is the Finance and Senior Vice President of anadarko petroleum corporation?,albert l richey,2,1,0
+38,Who is the Finance and Treasurer of anadarko petroleum corporation?,albert l richey,2,1,0
+38,Who is the Senior Vice President and Treasurer of anadarko petroleum corporation?,albert l richey,2,1,0
+12,Who is the Global Treasurer and Senior Vice President of walgreens boots alliance inc?,aidan clare,2,1,0
+12,Who is the Executive Vice President and General Counsel of walgreens boots alliance inc?,marco pagni,2,1,0
+12,Who is the Executive Vice President and Global Chief Administrative Officer of walgreens boots alliance inc?,marco pagni,2,1,0
+12,Who is the General Counsel and Global Chief Administrative Officer of walgreens boots alliance inc?,marco pagni,2,1,0
+107,Who is the Assistant Treasurer and Vice President of gxs holdings inc?,paul mcfeeters,2,1,0
+107,Who is the Assistant Treasurer and Vice President of gxs international inc?,paul mcfeeters,2,1,0
+107,Who is the Assistant Treasurer and Vice President of gxs worldwide inc?,paul mcfeeters,2,1,0
+107,Who is the Chief Financial Officer and President of open text holdings inc?,paul mcfeeters,2,1,0
+107,Who is the Assistant Treasurer and Vice President of gxs inc?,paul mcfeeters,2,1,0
+107,Who is the Chief Financial Officer and President of open text canada ltd?,paul mcfeeters,2,1,0
+107,Who is the Chief Financial Officer and Treasurer of open text canada ltd?,paul mcfeeters,2,1,0
+107,Who is the President and Treasurer of open text canada ltd?,paul mcfeeters,2,1,0
+107,Who is the Chief Administrative Officer and Chief Financial Officer of open text corporation?,paul mcfeeters,2,1,0
+107,Who is the Chief Executive Officer and Chief Financial Officer of open text inc?,paul mcfeeters,2,1,0
+107,Who is the Chief Executive Officer and President of open text inc?,paul mcfeeters,2,1,0
+107,Who is the Chief Financial Officer and President of open text inc?,paul mcfeeters,2,1,0
+107,Who is the Chief Financial Officer and President of open text ulc?,paul mcfeeters,2,1,0
+107,Who is the Chief Financial Officer and President of vignette partnership lp?,paul mcfeeters,2,1,0
+107,Who is the Chief Financial Officer and Treasurer of vignette partnership lp?,paul mcfeeters,2,1,0
+107,Who is the President and Treasurer of vignette partnership lp?,paul mcfeeters,2,1,0
+106,Who is the Director and Vice President of citibank na?,kirkwood roland,2,1,0
+106,Who is the Chief Financial Officer and Executive Vice President of dynegy power llc?,clint c freeland,2,1,0
+13,Who is the Chief Financial Officer and Executive Vice President of cvr energyinc?,tracy d jackson,2,1,0
+60,Who is the Senior Vice President and Treasurer of leidos holdings inc?,marc h crown,2,1,0
+48,Who is the Corporate Secretary and Vice President Law And Assistant of enbridge us inc?,chris kaitson,2,1,0
+149,Who is the Executive Vice President and Secretary of xcel brands inc?,seth burroughs,2,1,0
+61,Who is the Director and Vice President of citibank na?,jim cahow,2,1,0
+61,Who is the Treasurer and Vice President Taxand Treasury of citrix systems inc?,brian l shytle,2,1,0
+77,Who is the Administrative Officer and Chief Legal of wellcare health plans inc?,blair w todt,2,1,0
+77,Who is the Administrative Officer and Secretary of wellcare health plans inc?,blair w todt,2,1,0
+77,Who is the Administrative Officer and Senior Vice President of wellcare health plans inc?,blair w todt,2,1,0
+77,Who is the Chief Legal and Secretary of wellcare health plans inc?,blair w todt,2,1,0
+77,Who is the Chief Legal and Senior Vice President of wellcare health plans inc?,blair w todt,2,1,0
+77,Who is the Secretary and Senior Vice President of wellcare health plans inc?,blair w todt,2,1,0
+88,Who is the Chief Financial Officer and President of j2 cloud services llc?,r scott turicchi,2,1,0
+162,Who is the Chief Compliance Officer and General Counsel of nabors alaska drilling inc?,michael rasmuson,2,1,0
+162,Who is the Chief Compliance Officer and Secretary of nabors alaska drilling inc?,michael rasmuson,2,1,0
+162,Who is the Chief Compliance Officer and Senior Vice President of nabors alaska drilling inc?,michael rasmuson,2,1,0
+162,Who is the General Counsel and Secretary of nabors alaska drilling inc?,michael rasmuson,2,1,0
+162,Who is the General Counsel and Senior Vice President of nabors alaska drilling inc?,michael rasmuson,2,1,0
+162,Who is the Secretary and Senior Vice President of nabors alaska drilling inc?,michael rasmuson,2,1,0
+162,Who is the Chief Compliance Officer and General Counsel of nabors drilling holdings inc?,michael rasmuson,2,1,0
+162,Who is the Chief Compliance Officer and Secretary of nabors drilling holdings inc?,michael rasmuson,2,1,0
+162,Who is the Chief Compliance Officer and Senior Vice President of nabors drilling holdings inc?,michael rasmuson,2,1,0
+162,Who is the General Counsel and Secretary of nabors drilling holdings inc?,michael rasmuson,2,1,0
+162,Who is the General Counsel and Senior Vice President of nabors drilling holdings inc?,michael rasmuson,2,1,0
+162,Who is the Secretary and Senior Vice President of nabors drilling holdings inc?,michael rasmuson,2,1,0
+162,Who is the Chief Compliance Officer and General Counsel of nabors drilling technologies usa?,michael rasmuson,2,1,0
+162,Who is the Chief Compliance Officer and Secretary of nabors drilling technologies usa?,michael rasmuson,2,1,0
+162,Who is the Chief Compliance Officer and Senior Vice President of nabors drilling technologies usa?,michael rasmuson,2,1,0
+162,Who is the General Counsel and Secretary of nabors drilling technologies usa?,michael rasmuson,2,1,0
+162,Who is the General Counsel and Senior Vice President of nabors drilling technologies usa?,michael rasmuson,2,1,0
+162,Who is the Secretary and Senior Vice President of nabors drilling technologies usa?,michael rasmuson,2,1,0
+162,Who is the Chief Compliance Officer and General Counsel of nabors industries inc?,michael rasmuson,2,1,0
+162,Who is the Chief Compliance Officer and Secretary of nabors industries inc?,michael rasmuson,2,1,0
+162,Who is the Chief Compliance Officer and Senior Vice President of nabors industries inc?,michael rasmuson,2,1,0
+162,Who is the General Counsel and Secretary of nabors industries inc?,michael rasmuson,2,1,0
+162,Who is the General Counsel and Senior Vice President of nabors industries inc?,michael rasmuson,2,1,0
+162,Who is the Secretary and Senior Vice President of nabors industries inc?,michael rasmuson,2,1,0
+89,Who is the General Counsel and Svp of agiliti healthinc?,lee neumann,2,1,0
+89,Who is the General Counsel and Vp Finance of agiliti healthinc?,lee neumann,2,1,0
+89,Who is the Svp and Vp Finance of agiliti healthinc?,lee neumann,2,1,0
+62,Who is the Chief Financial Officer and Senior Vice President of michigan electric transmission company llc?,gretchen l holloway,2,1,0
+76,Who is the Chieffinancial Officer and Executive Vice President of microsemi corporation?,john w hohener,2,1,0
+76,Who is the Chieffinancial Officer and Secretary of microsemi corporation?,john w hohener,2,1,0
+76,Who is the Chieffinancial Officer and Treasurer of microsemi corporation?,john w hohener,2,1,0
+76,Who is the Executive Vice President and Secretary of microsemi corporation?,john w hohener,2,1,0
+76,Who is the Executive Vice President and Treasurer of microsemi corporation?,john w hohener,2,1,0
+76,Who is the Secretary and Treasurer of microsemi corporation?,john w hohener,2,1,0
+72,Who is the Treasurer and Vice President of stanley blackand decker inc?,craig a douglas,2,1,0
+66,Who is the Cfo and Treasurer of icu medical inc?,brian m bonnell,2,1,0
+167,Who is the Secretary and Treasurer of powell electrical systems inc?,don r madison,2,1,0
+167,Who is the Secretary and Vice President of powell electrical systems inc?,don r madison,2,1,0
+167,Who is the Treasurer and Vice President of powell electrical systems inc?,don r madison,2,1,0
+167,Who is the Secretary and Treasurer of powell industries inc?,don r madison,2,1,0
+167,Who is the Secretary and Vice President of powell industries inc?,don r madison,2,1,0
+167,Who is the Treasurer and Vice President of powell industries inc?,don r madison,2,1,0
+167,Who is the Secretary and Treasurer of powell industries international inc?,don r madison,2,1,0
+167,Who is the Secretary and Vice President of powell industries international inc?,don r madison,2,1,0
+167,Who is the Treasurer and Vice President of powell industries international inc?,don r madison,2,1,0
+167,Who is the Secretary and Treasurer of transdyn inc?,don r madison,2,1,0
+167,Who is the Secretary and Vice President of transdyn inc?,don r madison,2,1,0
+167,Who is the Treasurer and Vice President of transdyn inc?,don r madison,2,1,0
+67,Who is the Ceo and Managing Member of biopharmacreditinvestmentsvmasterlp?,pedro gonzalez de cosio,2,1,0
+9,Who is the Chief Financial Officer and Treasurer of haverhill cogeneration company llc?,mark e newman,2,1,0
+9,Who is the Chief Financial Officer and Treasurer of haverhill coke company llc?,mark e newman,2,1,0
+9,Who is the Chief Financial Officer and Treasurer of middletown coke company llc?,mark e newman,2,1,0
+9,Who is the Chief Financial Officer and Senior Vice President of suncoke energy partners lp?,mark e newman,2,1,0
+71,Who is the Chief Financial Officer and Senior Executive Vice President of total system services inc?,paul m todd,2,1,0
+170,Who is the Treasurer and Vice President of starbucks corporation?,richard lautch,2,1,0
+165,Who is the Corporate Secretary and General Counsel of conagra brands inc?,colleen batcheler,2,1,0
+165,Who is the Investor Relations Officer and Treasurer of conagra brands inc?,johan nystedt,2,1,0
+165,Who is the Investor Relations Officer and Vice President of conagra brands inc?,johan nystedt,2,1,0
+165,Who is the Treasurer and Vice President of conagra brands inc?,johan nystedt,2,1,0
+58,Who is the Chief Executive Officer and President of coherus biosciences inc?,dennis m lanfear,2,1,0
+58,Who is the Chief Executive Officer and President of coherus intermediate corp?,dennis m lanfear,2,1,0
+41,Who is the General Counsel and Senior Vice President of trc companies inc?,martin h dodd,2,1,0
+7,Who is the Ceo and President of samson oil and gas usa inc?,terry barr,2,1,0
+7,Who is the Ceo and Treasurer of samson oil and gas usa inc?,terry barr,2,1,0
+7,Who is the President and Treasurer of samson oil and gas usa inc?,terry barr,2,1,0
+55,Who is the Chief and Executive Vice President of hovnanian enterprises inc?,j larry sorsby,2,1,0
+69,Who is the Chief Executive Officer and Manager of mvp merger sub llc?,michael shustek,2,1,0
+82,Who is the Secretary and Vice President of perkinelmer health sciences inc?,john l healy,2,1,0
+82,Who is the Treasurer and Vice President of perkinelmer inc?,david c francisco,2,1,0
+168,Who is the Treasurer and Vice President of stanley blackand decker inc?,robert t paternostro,2,1,0
+169,Who is the Chief Accounting Officer and Controller of chiquita brands international inc?,joseph b johnson,2,1,0
+169,Who is the Chief Accounting Officer and Treasurer of chiquita brands international inc?,joseph b johnson,2,1,0
+169,Who is the Chief Accounting Officer and Vice President of chiquita brands international inc?,joseph b johnson,2,1,0
+169,Who is the Controller and Treasurer of chiquita brands international inc?,joseph b johnson,2,1,0
+169,Who is the Controller and Vice President of chiquita brands international inc?,joseph b johnson,2,1,0
+169,Who is the Treasurer and Vice President of chiquita brands international inc?,joseph b johnson,2,1,0
+97,Who is the Authorized Signatory and Vice President of general electric capital corporation?,dague retzlaff,2,1,0
+83,Who is the General Counsel and Secretary of western digital technologies inc?,michael ray,2,1,0
+83,Who is the General Counsel and Senior Vice President of western digital technologies inc?,michael ray,2,1,0
+83,Who is the Secretary and Senior Vice President of western digital technologies inc?,michael ray,2,1,0
+6,Who is the Deputy Branch Manager and Vice President of bank of china?,ying chen,2,1,0
+54,Who is the Managing Director and Senior Vice President of 2018 1 ih borrower lp?,jonathan olsen,2,1,0
+56,Who is the Executive Vice President General Counsel and Secretary of wmg acquisition corp?,paul m robinson,2,1,0
+42,Who is the Chief Financial Officer and Senior Vice President of artisan bread llc?,michael j bufano,2,1,0
+42,Who is the Chief Financial Officer and Senior Vice President of panera llc?,michael j bufano,2,1,0
+42,Who is the Chief Financial Officer and Senior Vice President of panera bread company?,michael j bufano,2,1,0
+142,Who is the Controller and Principal Financial Officer of columbia pipeline group inc?,nathaniel a brown,2,1,0
+142,Who is the Corporate Secretary and Vice President Law of transcanada pipelines limited?,christine r johnston,2,1,0
+142,Who is the Treasurer and Vice President Finance of transcanada pipelines limited?,joel e hunter,2,1,0
+80,Who is the Chief Financial Officer and Executive Vice President of cree inc?,michael e mcdevitt,2,1,0
+80,Who is the Chairman and Chief Executive Officer of e conolight llc?,charles m swoboda,2,1,0
+80,Who is the Chairman and President of e conolight llc?,charles m swoboda,2,1,0
+80,Who is the Chief Executive Officer and President of e conolight llc?,charles m swoboda,2,1,0
+94,Who is the Assistant Secretary and Chief Financial Officer of salix pharmaceuticals ltd?,adam c derbyshire,2,1,0
+94,Who is the Assistant Secretary and Executive Vice President Finance And Administration of salix pharmaceuticals ltd?,adam c derbyshire,2,1,0
+94,Who is the Assistant Secretary and Treasurer of salix pharmaceuticals ltd?,adam c derbyshire,2,1,0
+94,Who is the Chief Financial Officer and Executive Vice President Finance And Administration of salix pharmaceuticals ltd?,adam c derbyshire,2,1,0
+94,Who is the Chief Financial Officer and Treasurer of salix pharmaceuticals ltd?,adam c derbyshire,2,1,0
+94,Who is the Executive Vice President Finance And Administration and Treasurer of salix pharmaceuticals ltd?,adam c derbyshire,2,1,0
+57,Who is the Treasurer and Vice President of celanese us holdings llc?,chuck b kyrish,2,1,0
+5,Who is the Senior Vice President and Vice President of bank of america na?,roy e alexander,2,1,0
+1,Who is the Treasurer and Vice President of franklin resources inc?,mark constant,2,1,0
+53,Who is the Cfo and Treasurer of jamba inc?,marie perry,2,1,0
+53,Who is the Cfo and Treasurer of jamba juice advertising fund inc?,marie perry,2,1,0
+53,Who is the Cao and Cfo of jamba juice company?,marie perry,2,1,0
+53,Who is the Cao and Evp of jamba juice company?,marie perry,2,1,0
+53,Who is the Cao and Secretary of jamba juice company?,marie perry,2,1,0
+53,Who is the Cfo and Evp of jamba juice company?,marie perry,2,1,0
+53,Who is the Cfo and Secretary of jamba juice company?,marie perry,2,1,0
+53,Who is the Evp and Secretary of jamba juice company?,marie perry,2,1,0
+146,Who is the Chief Compliance Officer and Chief Legal Officer of bcred castle peak funding llc?,marisa j beeney,2,1,0
+146,Who is the Chief Compliance Officer and Secretary of bcred castle peak funding llc?,marisa j beeney,2,1,0
+146,Who is the Chief Legal Officer and Secretary of bcred castle peak funding llc?,marisa j beeney,2,1,0
+146,Who is the Chief Compliance Officer and Chief Legal Officer of blackstone private credit fund?,marisa j beeney,2,1,0
+146,Who is the Chief Compliance Officer and Secretary of blackstone private credit fund?,marisa j beeney,2,1,0
+146,Who is the Chief Legal Officer and Secretary of blackstone private credit fund?,marisa j beeney,2,1,0
+90,Who is the Treasurer and Vice President of ashland global holdings inc?,william c whitaker,2,1,0
+90,Who is the Treasurer and Vice President of ashland llc?,william c whitaker,2,1,0
+84,Who is the General Manager and Vp of bank of taiwan?,chwan ming ho,2,1,0
+84,Who is the General Manager and Svp of cathay united bank?,alexander wu,2,1,0
+84,Who is the General Manager and Vp of esun commercial bank?,edward chen,2,1,0
+84,Who is the General Manager and Vp of taiwan cooperative bank?,li hua huang,2,1,0
+84,Who is the Senior Vice President and Treasurer of health care reit inc?,michael a crabtree,2,1,0
+84,Who is the Chairman Of The Board and Chief Executive Officer of health care reit inc?,mrgeorgel chapman,2,1,0
+85,Who is the Chief Financial Officer and Vice President of cross country education llc?,emil hensel,2,1,0
+85,Who is the Chief Financial Officer and Vice President of mda holdings inc?,emil hensel,2,1,0
+85,Who is the Assistant Controller and Vice President of metropolitan research associates inc?,emil hensel,2,1,0
+91,Who is the Chief Executive Officer and President of earthstone energy inc?,ray singleton,2,1,0
+147,Who is the General Counsel and Secretary of ppd inc?,b judd hartman,2,1,0
+147,Who is the Chief Administrative Officer and Executive Vice President of ppd development lp?,b judd hartman,2,1,0
+147,Who is the Chief Administrative Officer and General Counsel of ppd development lp?,b judd hartman,2,1,0
+147,Who is the Chief Administrative Officer and Secretary of ppd development lp?,b judd hartman,2,1,0
+147,Who is the Executive Vice President and General Counsel of ppd development lp?,b judd hartman,2,1,0
+147,Who is the Executive Vice President and Secretary of ppd development lp?,b judd hartman,2,1,0
+147,Who is the General Counsel and Secretary of ppd development lp?,b judd hartman,2,1,0
+46,Who is the Chief Executive Officer and Manager of mvc gp ii llc?,james pinto,2,1,0
+52,Who is the Treasurer and Vice President Of Tax of clorox company?,charles r conradi,2,1,0
+2,Who is the Chief Financial Officer and Executive Vice President of dicks sporting goods inc?,navdeep gupta,2,1,0
+151,Who is the Treasurer and Vice President Tax And Treasury of thermo fisher scientific inc?,anthony h smith,2,1,0
+87,Who is the Treasurer and Vice President of afi licensing llc?,douglas b bingham,2,1,0
+87,Who is the Chief Financial Officer and Senior Vice President of armstrongflooringinc?,ronald d ford,2,1,0
+51,Who is the Treasurer and Vice President Finance of calpine corporation?,zamir rauf,2,1,0
+79,Who is the Assistant Secretary and Chief Financial Officer of select income reit?,john c popeo,2,1,0
+79,Who is the Assistant Secretary and Treasurer of select income reit?,john c popeo,2,1,0
+79,Who is the Chief Financial Officer and Treasurer of select income reit?,john c popeo,2,1,0
+22,Who is the Chief Financial Officer and Executive Vice President of oil states international inc?,lloyd a hajdik,2,1,0
+22,Who is the Chief Financial Officer and Treasurer of oil states international inc?,lloyd a hajdik,2,1,0
+22,Who is the Executive Vice President and Treasurer of oil states international inc?,lloyd a hajdik,2,1,0
+123,Who is the Treasurer and Vice President of newell rubbermaid inc?,john b ellis,2,1,0
+37,Who is the Chief Financial Officer and Executive Vice President of waste connections inc?,worthing f jackman,2,1,0
+21,Who is the Secretary and Treasurer of ld lower holdings inc?,dawn m wilson,2,1,0
+108,Who is the Executive Vice President and Treasurer of 3949 lindell llc?,randall h brown,2,1,0
+108,Who is the Executive Vice President and Treasurer of carrollton place llc?,randall h brown,2,1,0
+108,Who is the Executive Vice President and Treasurer of cottages w lafayette in ll?,randall h brown,2,1,0
+108,Who is the Executive Vice President and Treasurer of cv east lansing mi llc?,randall h brown,2,1,0
+108,Who is the Executive Vice President and Treasurer of district on 5th tuscon az llc?,randall h brown,2,1,0
+108,Who is the Executive Vice President and Treasurer of east edge tuscaloosa llc?,randall h brown,2,1,0
+108,Who is the Executive Vice President and Treasurer of edr austin llc?,randall h brown,2,1,0
+108,Who is the Executive Vice President and Treasurer of edr berkeley lp?,randall h brown,2,1,0
+108,Who is the Executive Vice President and Treasurer of edr carbondale llc?,randall h brown,2,1,0
+108,Who is the Executive Vice President and Treasurer of edr charlottesville jefferson llc?,randall h brown,2,1,0
+108,Who is the Executive Vice President and Treasurer of edr charlottesville llc?,randall h brown,2,1,0
+108,Who is the Executive Vice President and Treasurer of edr charlottesville wertland llc?,randall h brown,2,1,0
+108,Who is the Executive Vice President and Treasurer of edr gainesville limited partnership?,randall h brown,2,1,0
+108,Who is the Secretary and Vice President of edr lawrence limited partnership?,randall h brown,2,1,0
+108,Who is the Secretary and Vice President of edr orlando limited partnership?,randall h brown,2,1,0
+108,Who is the Executive Vice President and Treasurer of edr oxford llc?,randall h brown,2,1,0
+108,Who is the Executive Vice President and Treasurer of edr statesboro llc?,randall h brown,2,1,0
+108,Who is the Executive Vice President and Treasurer of edr syracuse campus west llc?,randall h brown,2,1,0
+108,Who is the Executive Vice President and Treasurer of edr syracuse ll?,randall h brown,2,1,0
+108,Who is the Secretary and Vice President of edr tallahassee limited partnership?,randall h brown,2,1,0
+108,Who is the Secretary and Vice President of edr tampa limited partnership?,randall h brown,2,1,0
+108,Who is the Executive Vice President and Treasurer of province kent oh llc?,randall h brown,2,1,0
+108,Who is the Executive Vice President and Treasurer of retreat at state college llc?,randall h brown,2,1,0
+108,Who is the Executive Vice President and Treasurer of the province greenville nc lp?,randall h brown,2,1,0
+108,Who is the Executive Vice President and Treasurer of university village towers lp?,randall h brown,2,1,0
+120,Who is the Deputy Gm and Vp of mega international commercial bank co ltd?,angela chen,2,1,0
+120,Who is the Director and Executive Head of the bank of nova scotia?,chad hale,2,1,0
+120,Who is the Chief Financial Officer and Executive Vice President of equity commonwealth?,adam markman,2,1,0
+120,Who is the Chief Financial Officer and Treasurer of equity commonwealth?,adam markman,2,1,0
+120,Who is the Executive Vice President and Treasurer of equity commonwealth?,adam markman,2,1,0
+121,Who is the Branch Manager and Svp of bank of china?,kefel xu,2,1,0
+121,Who is the General Manager and Vp of bank of taiwan?,jane chang,2,1,0
+121,Who is the Director and Svp of bmo harris bank na?,paul hultgren,2,1,0
+121,Who is the Dgm and Vp of mega international commercial bank?,angela chen,2,1,0
+121,Who is the General Counsel and Secretary of regal beloit corporation?,peter c underwood,2,1,0
+121,Who is the General Counsel and Vice President of regal beloit corporation?,peter c underwood,2,1,0
+121,Who is the Secretary and Vice President of regal beloit corporation?,peter c underwood,2,1,0
+135,Who is the Treasurer and Vice President of plains all american pipeline lp?,sharon s spurlin,2,1,0
+34,Who is the Chief Financial Officer and Executive Vice President of michigan electric transmission company llc?,cameron m bready,2,1,0
+34,Who is the General Counsel and Secretary of michigan electric transmission company llc?,wendy a mcintyre,2,1,0
+34,Who is the General Counsel and Vice President of michigan electric transmission company llc?,wendy a mcintyre,2,1,0
+34,Who is the Secretary and Vice President of michigan electric transmission company llc?,wendy a mcintyre,2,1,0
+18,Who is the Chief Financial Officer and Managing Director of black creek diversified property operating partnership lp?,lainie minnick,2,1,0
+18,Who is the Chief Financial Officer and Treasurer of black creek diversified property operating partnership lp?,lainie minnick,2,1,0
+18,Who is the Managing Director and Treasurer of black creek diversified property operating partnership lp?,lainie minnick,2,1,0
+24,Who is the Chief Financial Officer and Executive Vice President of columbia property trust operating partnership lp?,james a fleming,2,1,0
+125,Who is the Controller and Treasurer of public service company of new mexico?,joseph d tarry,2,1,0
+125,Who is the Controller and Vice President of public service company of new mexico?,joseph d tarry,2,1,0
+125,Who is the Treasurer and Vice President of public service company of new mexico?,joseph d tarry,2,1,0
+119,Who is the Chief Operating Officer and President of vaalco gabon etame inc?,w russell scheirman,2,1,0
+118,Who is the General Counsel and Secretary of post holdings inc?,diedre j gray,2,1,0
+118,Who is the General Counsel and Svp of post holdings inc?,diedre j gray,2,1,0
+118,Who is the Secretary and Svp of post holdings inc?,diedre j gray,2,1,0
+124,Who is the Chief Financial Officer and Executive Vice President Of Finance of monro muffler brake inc?,catherine damico,2,1,0
+124,Who is the Chief Financial Officer and Treasurer of monro muffler brake inc?,catherine damico,2,1,0
+124,Who is the Executive Vice President Of Finance and Treasurer of monro muffler brake inc?,catherine damico,2,1,0
+130,Who is the Chief Financial Office and Executive Vice President Fuels of murphy usa inc?,mindy k west,2,1,0
+130,Who is the Chief Financial Office and Treasurer of murphy usa inc?,mindy k west,2,1,0
+130,Who is the Executive Vice President Fuels and Treasurer of murphy usa inc?,mindy k west,2,1,0
+130,Who is the Chief Financial Officer and Executive Vice President Fuels of murphy oil usa inc?,mindy k west,2,1,0
+130,Who is the Chief Financial Officer and Treasurer of murphy oil usa inc?,mindy k west,2,1,0
+130,Who is the Executive Vice President Fuels and Treasurer of murphy oil usa inc?,mindy k west,2,1,0
+31,Who is the Branch Manager and Vice President of the bank of china?,haiyong yang,2,1,0
+27,Who is the Chief Financial and Officer of gastar midco holdings llc?,michael a gerlich,2,1,0
+27,Who is the Chief Financial and Secretary of gastar midco holdings llc?,michael a gerlich,2,1,0
+27,Who is the Chief Financial and Senior Vice President of gastar midco holdings llc?,michael a gerlich,2,1,0
+27,Who is the Officer and Secretary of gastar midco holdings llc?,michael a gerlich,2,1,0
+27,Who is the Officer and Senior Vice President of gastar midco holdings llc?,michael a gerlich,2,1,0
+27,Who is the Secretary and Senior Vice President of gastar midco holdings llc?,michael a gerlich,2,1,0
+33,Who is the Chief Financial Officer and Secretary of ply gem holdings inc?,shawn k poe,2,1,0
+33,Who is the Chief Financial Officer and Treasurer of ply gem holdings inc?,shawn k poe,2,1,0
+33,Who is the Chief Financial Officer and Vice President of ply gem holdings inc?,shawn k poe,2,1,0
+33,Who is the Secretary and Treasurer of ply gem holdings inc?,shawn k poe,2,1,0
+33,Who is the Secretary and Vice President of ply gem holdings inc?,shawn k poe,2,1,0
+33,Who is the Treasurer and Vice President of ply gem holdings inc?,shawn k poe,2,1,0
+33,Who is the Chief Financial Officer and Secretary of ply gem industries inc?,shawn k poe,2,1,0
+33,Who is the Chief Financial Officer and Treasurer of ply gem industries inc?,shawn k poe,2,1,0
+33,Who is the Chief Financial Officer and Vice President of ply gem industries inc?,shawn k poe,2,1,0
+33,Who is the Secretary and Treasurer of ply gem industries inc?,shawn k poe,2,1,0
+33,Who is the Secretary and Vice President of ply gem industries inc?,shawn k poe,2,1,0
+33,Who is the Treasurer and Vice President of ply gem industries inc?,shawn k poe,2,1,0
+127,Who is the Treasurer and Vice President of biogen inc?,michael dambach,2,1,0
+26,Who is the Senior Vice President and Treasurer of bristol meyers squibb company?,jeffrey galik,2,1,0

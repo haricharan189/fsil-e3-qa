@@ -1,0 +1,626 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org1: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person: <http://example.org/person_name/> .
+@prefix position: <http://example.org/person_position/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+base:Location a rdfs:Class .
+
+base:Organization a rdfs:Class .
+
+base:Person a rdfs:Class .
+
+location_type:administrative_agents_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:administrative_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:ag_new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_management a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_services a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:assembly_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:business_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:cayman_islands_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:chief_executive_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:commercial_banking a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_customers_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:domestic_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:dublin_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:eurodollar_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:front_end_test_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:london_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:mexico_location_contract_manufacturing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:micro_building_and_corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:middle_market_servicing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:offsite_storage a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:opto_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:registered_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:rexford_industrial_realty_inc_11620_wilshire_boulevard_suite_1000_los_angeles_california_90025 a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:trade_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:zonal_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+loc:england a base:Location ;
+    <http://example.org/isInstanceOf/> location_type:registered_office .
+
+org1:citigroup_global_markets_asia_limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:bookrunners .
+
+org1:ing_bank_nv_singapore_branch a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:bookrunners .
+
+loc:1114_avenue_of_the_americas_23rd_floor_new_york_new_york_10036 a base:Location ;
+    rel:isLocationOf org1:torys_llp .
+
+loc:1_basinghall_avenue_london_ec2v_5dd a base:Location ;
+    rel:isLocationOf org1:standard_chartered_bank .
+
+loc:3560_lenox_road_suite_2000_atlanta_ga_30326 a base:Location ;
+    rel:isLocationOf org1:novelis_aluminium_holding_unlimited_company .
+
+loc:4_times_square_new_york_new_york_10036 a base:Location ;
+    rel:isLocationOf org1:skadden_arps_slate_meagher_and_flom_llp .
+
+loc:dubai_uae a base:Location ;
+    <http://example.org/isInstanceOf/> location_type:zonal_office ;
+    rel:isLocationOf org1:bank_of_baroda .
+
+org1:skadden_arps_slate_meagher_and_flom_llp a base:Organization ;
+    rel:hasLocationAt loc:4_times_square_new_york_new_york_10036 .
+
+org1:torys_llp a base:Organization ;
+    rel:hasLocationAt loc:1114_avenue_of_the_americas_23rd_floor_new_york_new_york_10036 .
+
+org_role:administrative_agent rdfs:subClassOf base:Organization .
+
+org_role:borrower rdfs:subClassOf base:Organization .
+
+org_role:collateral_agent rdfs:subClassOf base:Organization .
+
+org_role:holdings rdfs:subClassOf base:Organization .
+
+org_role:mortgagor rdfs:subClassOf base:Organization .
+
+person:carl_roberts a base:Person ;
+    <http://example.org/isInstanceOf/> position:head_of_loan_syndications ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:australia_and_new_zealand_banking_group_limited ;
+            rel:position position:head_of_loan_syndications ] ;
+    rel:isEmployedBy org1:australia_and_new_zealand_banking_group_limited .
+
+person:dipak_gupta a base:Person ;
+    <http://example.org/isInstanceOf/> position:joint_managing_director ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:kotak_mahindra_bank_limited ;
+            rel:position position:joint_managing_director ] ;
+    rel:isEmployedBy org1:kotak_mahindra_bank_limited .
+
+person:james_perkins a base:Person ;
+    <http://example.org/isInstanceOf/> position:manager_crc ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:standard_chartered_bank ;
+            rel:position position:manager_crc ] ;
+    rel:isEmployedBy org1:standard_chartered_bank .
+
+person:lisa_kwok a base:Person ;
+    <http://example.org/isInstanceOf/> position:director_credit_risk_management ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:ing_bank_nv ;
+            rel:position position:director_credit_risk_management ] ;
+    rel:isEmployedBy org1:ing_bank_nv .
+
+person:mark_pope a base:Person ;
+    <http://example.org/isInstanceOf/> position:assistant_vice_presiden ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:barclays_bank_plc ;
+            rel:position position:assistant_vice_presiden ] ;
+    rel:isEmployedBy org1:barclays_bank_plc .
+
+person:nishant_kumar a base:Person ;
+    <http://example.org/isInstanceOf/> position:senior_rm_trade_and_export_finance ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:icici_bank_uk_plc ;
+            rel:position position:senior_rm_trade_and_export_finance ] ;
+    rel:isEmployedBy org1:icici_bank_uk_plc .
+
+person:r_srinivasa_sekaran a base:Person ;
+    <http://example.org/isInstanceOf/> position:svp_credit_administration ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:state_bank_of_india ;
+            rel:position position:svp_credit_administration ] ;
+    rel:isEmployedBy org1:state_bank_of_india .
+
+person:rachit_bhatia a base:Person ;
+    <http://example.org/isInstanceOf/> position:chief_executive ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:axis_bank_limited ;
+            rel:position position:chief_executive ] ;
+    rel:isEmployedBy org1:axis_bank_limited .
+
+person:rajeev_mohan a base:Person ;
+    <http://example.org/isInstanceOf/> position:senior_executive_vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:kotak_mahindra_bank_limited ;
+            rel:position position:senior_executive_vice_president ] ;
+    rel:isEmployedBy org1:kotak_mahindra_bank_limited .
+
+person:richard_cox a base:Person ;
+    <http://example.org/isInstanceOf/> position:managing_director_head_of_credit_and_trading_risk ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:ing_bank_nv ;
+            rel:position position:managing_director_head_of_credit_and_trading_risk ] ;
+    rel:isEmployedBy org1:ing_bank_nv .
+
+person:sandeep_patnaik a base:Person ;
+    <http://example.org/isInstanceOf/> position:head_cbo ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:axis_bank_limited ;
+            rel:position position:head_cbo ] ;
+    rel:isEmployedBy org1:axis_bank_limited .
+
+person:sanjay_jha a base:Person ;
+    <http://example.org/isInstanceOf/> position:assistant_general_manager ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:icici_bank_limited ;
+            rel:position position:assistant_general_manager ] ;
+    rel:isEmployedBy org1:icici_bank_limited .
+
+person:shannon_curran a base:Person ;
+    <http://example.org/isInstanceOf/> position:sr_legal_manager ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:novelis_aluminium_holding_unlimited_company ;
+            rel:position position:sr_legal_manager ] ;
+    rel:isEmployedBy org1:novelis_aluminium_holding_unlimited_company .
+
+person:siddarth_bansal a base:Person ;
+    <http://example.org/isInstanceOf/> position:director ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:citibank_na ;
+            rel:position position:director ] ;
+    rel:isEmployedBy org1:citibank_na .
+
+person:simon_williams a base:Person ;
+    <http://example.org/isInstanceOf/> position:head_crc ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:standard_chartered_bank ;
+            rel:position position:head_crc ] ;
+    rel:isEmployedBy org1:standard_chartered_bank .
+
+person:sudip_kumar_ghatak a base:Person ;
+    <http://example.org/isInstanceOf/> position:chief_manager ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:bank_of_baroda ;
+            rel:position position:chief_manager ] ;
+    rel:isEmployedBy org1:bank_of_baroda .
+
+person:suguru_hattori a base:Person ;
+    <http://example.org/isInstanceOf/> position:general_manager ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:the_bank_of_tokyo_mitsubishi_ufj_ltd ;
+            rel:position position:general_manager ] ;
+    rel:isEmployedBy org1:the_bank_of_tokyo_mitsubishi_ufj_ltd .
+
+person:valdeep_singh a base:Person ;
+    <http://example.org/isInstanceOf/> position:legal_counsel ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:standard_chartered_bank ;
+            rel:position position:legal_counsel ] ;
+    rel:isEmployedBy org1:standard_chartered_bank .
+
+person:vikashh_mehta a base:Person ;
+    <http://example.org/isInstanceOf/> position:head_corporate_and_investment_banking ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:icici_bank_uk_plc ;
+            rel:position position:head_corporate_and_investment_banking ] ;
+    rel:isEmployedBy org1:icici_bank_uk_plc .
+
+loc:two_alliance_center_3560_lenox_road_suite_2000_atlanta_ga_30326_usa a base:Location ;
+    <http://example.org/isInstanceOf/> location_type:corporate_office ;
+    rel:isLocationOf org1:av_metals_inc,
+        org1:novelis_inc .
+
+org1:4260848_canada_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:chirag_shah .
+
+org1:4260856_canada_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:chirag_shah .
+
+org1:8018227_canada_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:chirag_shah .
+
+org1:australia_and_new_zealand_banking_group_limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:bookrunners,
+        org_role:lead_arrangers,
+        org_role:lender ;
+    rel:hasEmployee person:carl_roberts .
+
+org1:barclays_bank_plc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:bookrunners,
+        org_role:lender ;
+    rel:hasEmployee person:mark_pope .
+
+org1:citibank_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:siddarth_bansal .
+
+org1:icici_bank_limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:bookrunners,
+        org_role:lead_arrangers,
+        org_role:lender ;
+    rel:hasEmployee person:sanjay_jha .
+
+org1:novelis_acquisitions_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:chirag_shah .
+
+org1:novelis_ag a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:chirag_shah .
+
+org1:novelis_corporation a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor,
+        org_role:mortgagor ;
+    rel:hasEmployee person:chirag_shah .
+
+org1:novelis_deutschland_gmbh a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:chirag_shah .
+
+org1:novelis_do_brasil_ltda a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:chirag_shah .
+
+org1:novelis_europe_holdings_limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:chirag_shah .
+
+org1:novelis_global_employment_organization_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:chirag_shah .
+
+org1:novelis_holdings_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:chirag_shah .
+
+org1:novelis_mea_ltd a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:chirag_shah .
+
+org1:novelis_pae_sas a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:chirag_shah .
+
+org1:novelis_services_limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:chirag_shah .
+
+org1:novelis_sheet_ingot_gmbh a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:chirag_shah .
+
+org1:novelis_south_america_holdings_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:chirag_shah .
+
+org1:novelis_switzerland_sa a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:chirag_shah .
+
+org1:novelis_uk_ltd a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:chirag_shah .
+
+org1:state_bank_of_india a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:bookrunners,
+        org_role:lender ;
+    rel:hasEmployee person:r_srinivasa_sekaran .
+
+org1:the_bank_of_tokyo_mitsubishi_ufj_ltd a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:bookrunners,
+        org_role:lender ;
+    rel:hasEmployee person:suguru_hattori .
+
+position:assistant_general_manager a base:Position ;
+    base:positionName "Assistant General Manager\\n" ;
+    rdfs:subClassOf base:Person .
+
+position:assistant_vice_presiden a base:Position ;
+    base:positionName "Assistant Vice Presiden" ;
+    rdfs:subClassOf base:Person .
+
+position:chief_executive a base:Position ;
+    base:positionName "Chief Executive" ;
+    rdfs:subClassOf base:Person .
+
+position:chief_manager a base:Position ;
+    base:positionName "Chief Manager" ;
+    rdfs:subClassOf base:Person .
+
+position:director a base:Position ;
+    base:positionName "Director" ;
+    rdfs:subClassOf base:Person .
+
+position:director_credit_risk_management a base:Position ;
+    base:positionName "Director, Credit Risk Management" ;
+    rdfs:subClassOf base:Person .
+
+position:general_manager a base:Position ;
+    base:positionName "General Manager" ;
+    rdfs:subClassOf base:Person .
+
+position:head_cbo a base:Position ;
+    base:positionName "Head - CBO" ;
+    rdfs:subClassOf base:Person .
+
+position:head_corporate_and_investment_banking a base:Position ;
+    base:positionName "Head- Corporate & Investment Banking" ;
+    rdfs:subClassOf base:Person .
+
+position:head_crc a base:Position ;
+    base:positionName "Head CRC" ;
+    rdfs:subClassOf base:Person .
+
+position:head_of_loan_syndications a base:Position ;
+    base:positionName "Head of Loan Syndications" ;
+    rdfs:subClassOf base:Person .
+
+position:joint_managing_director a base:Position ;
+    base:positionName "Joint Managing Director" ;
+    rdfs:subClassOf base:Person .
+
+position:legal_counsel a base:Position ;
+    base:positionName "Legal Counsel" ;
+    rdfs:subClassOf base:Person .
+
+position:manager_crc a base:Position ;
+    base:positionName "Manager, CRC" ;
+    rdfs:subClassOf base:Person .
+
+position:managing_director_head_of_credit_and_trading_risk a base:Position ;
+    base:positionName "Managing Director, Head of Credit and Trading Risk" ;
+    rdfs:subClassOf base:Person .
+
+position:senior_executive_vice_president a base:Position ;
+    base:positionName "Senior Executive Vice President" ;
+    rdfs:subClassOf base:Person .
+
+position:senior_rm_trade_and_export_finance a base:Position ;
+    base:positionName "Senior RM – Trade & Export Finance" ;
+    rdfs:subClassOf base:Person .
+
+position:sr_legal_manager a base:Position ;
+    base:positionName "Sr. Legal Manager" ;
+    rdfs:subClassOf base:Person .
+
+position:svp_credit_administration a base:Position ;
+    base:positionName "SVP (Credit Administration)" ;
+    rdfs:subClassOf base:Person .
+
+org1:av_metals_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:holdings ;
+    rel:hasEmployee person:chirag_shah ;
+    rel:hasLocationAt loc:two_alliance_center_3560_lenox_road_suite_2000_atlanta_ga_30326_usa .
+
+org1:bank_of_baroda a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:bookrunners,
+        org_role:lead_arrangers,
+        org_role:lender ;
+    rel:hasEmployee person:sudip_kumar_ghatak ;
+    rel:hasLocationAt loc:dubai_uae .
+
+org1:novelis_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:chirag_shah ;
+    rel:hasLocationAt loc:two_alliance_center_3560_lenox_road_suite_2000_atlanta_ga_30326_usa .
+
+position:attorney_in_fact a base:Position ;
+    base:positionName "Attorney-in-Fact\\n" ;
+    rdfs:subClassOf base:Person .
+
+position:person_authorized_by_virtue_of_power_of_attorney a base:Position ;
+    base:positionName "Person Authorized by virtue of Power of Attorney" ;
+    rdfs:subClassOf base:Person .
+
+org1:axis_bank_limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:bookrunners,
+        org_role:lead_arrangers,
+        org_role:lender ;
+    rel:hasEmployee person:rachit_bhatia,
+        person:sandeep_patnaik .
+
+org1:icici_bank_uk_plc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:nishant_kumar,
+        person:vikashh_mehta .
+
+org1:ing_bank_nv a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:lisa_kwok,
+        person:richard_cox .
+
+org1:kotak_mahindra_bank_limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:bookrunners,
+        org_role:lender ;
+    rel:hasEmployee person:dipak_gupta,
+        person:rajeev_mohan .
+
+org_role:lead_arrangers rdfs:subClassOf base:Organization .
+
+org1:novelis_aluminium_holding_unlimited_company a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:chirag_shah,
+        person:shannon_curran ;
+    rel:hasLocationAt loc:3560_lenox_road_suite_2000_atlanta_ga_30326 .
+
+position:attorney a base:Position ;
+    base:positionName "Attorney" ;
+    rdfs:subClassOf base:Person .
+
+org1:standard_chartered_bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:administrative_agent,
+        org_role:bookrunners,
+        org_role:collateral_agent,
+        org_role:lender ;
+    rel:hasEmployee person:james_perkins,
+        person:simon_williams,
+        person:valdeep_singh ;
+    rel:hasLocationAt loc:1_basinghall_avenue_london_ec2v_5dd .
+
+org_role:bookrunners rdfs:subClassOf base:Organization .
+
+org_role:lender rdfs:subClassOf base:Organization .
+
+position:authorized_signatory a base:Position ;
+    base:positionName "Authorized Signatory" ;
+    rdfs:subClassOf base:Person .
+
+org_role:guarantor rdfs:subClassOf base:Organization .
+
+person:chirag_shah a base:Person ;
+    <http://example.org/isInstanceOf/> position:attorney,
+        position:attorney_in_fact,
+        position:authorized_signatory,
+        position:person_authorized_by_virtue_of_power_of_attorney ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:novelis_ag ;
+            rel:position position:authorized_signatory ],
+        [ a rel:Employment ;
+            rel:organization org1:novelis_services_limited ;
+            rel:position position:attorney ],
+        [ a rel:Employment ;
+            rel:organization org1:8018227_canada_inc ;
+            rel:position position:authorized_signatory ],
+        [ a rel:Employment ;
+            rel:organization org1:4260848_canada_inc ;
+            rel:position position:authorized_signatory ],
+        [ a rel:Employment ;
+            rel:organization org1:novelis_sheet_ingot_gmbh ;
+            rel:position position:person_authorized_by_virtue_of_power_of_attorney ],
+        [ a rel:Employment ;
+            rel:organization org1:av_metals_inc ;
+            rel:position position:authorized_signatory ],
+        [ a rel:Employment ;
+            rel:organization org1:novelis_inc ;
+            rel:position position:authorized_signatory ],
+        [ a rel:Employment ;
+            rel:organization org1:novelis_aluminium_holding_unlimited_company ;
+            rel:position position:attorney ],
+        [ a rel:Employment ;
+            rel:organization org1:novelis_switzerland_sa ;
+            rel:position position:authorized_signatory ],
+        [ a rel:Employment ;
+            rel:organization org1:novelis_mea_ltd ;
+            rel:position position:authorized_signatory ],
+        [ a rel:Employment ;
+            rel:organization org1:novelis_europe_holdings_limited ;
+            rel:position position:attorney ],
+        [ a rel:Employment ;
+            rel:organization org1:novelis_south_america_holdings_llc ;
+            rel:position position:authorized_signatory ],
+        [ a rel:Employment ;
+            rel:organization org1:novelis_acquisitions_llc ;
+            rel:position position:authorized_signatory ],
+        [ a rel:Employment ;
+            rel:organization org1:novelis_uk_ltd ;
+            rel:position position:attorney ],
+        [ a rel:Employment ;
+            rel:organization org1:novelis_corporation ;
+            rel:position position:authorized_signatory ],
+        [ a rel:Employment ;
+            rel:organization org1:novelis_pae_sas ;
+            rel:position position:attorney_in_fact ],
+        [ a rel:Employment ;
+            rel:organization org1:novelis_holdings_inc ;
+            rel:position position:authorized_signatory ],
+        [ a rel:Employment ;
+            rel:organization org1:4260856_canada_inc ;
+            rel:position position:authorized_signatory ],
+        [ a rel:Employment ;
+            rel:organization org1:novelis_deutschland_gmbh ;
+            rel:position position:person_authorized_by_virtue_of_power_of_attorney ],
+        [ a rel:Employment ;
+            rel:organization org1:novelis_do_brasil_ltda ;
+            rel:position position:attorney_in_fact ],
+        [ a rel:Employment ;
+            rel:organization org1:novelis_global_employment_organization_inc ;
+            rel:position position:authorized_signatory ] ;
+    rel:isEmployedBy org1:4260848_canada_inc,
+        org1:4260856_canada_inc,
+        org1:8018227_canada_inc,
+        org1:av_metals_inc,
+        org1:novelis_acquisitions_llc,
+        org1:novelis_ag,
+        org1:novelis_aluminium_holding_unlimited_company,
+        org1:novelis_corporation,
+        org1:novelis_deutschland_gmbh,
+        org1:novelis_do_brasil_ltda,
+        org1:novelis_europe_holdings_limited,
+        org1:novelis_global_employment_organization_inc,
+        org1:novelis_holdings_inc,
+        org1:novelis_inc,
+        org1:novelis_mea_ltd,
+        org1:novelis_pae_sas,
+        org1:novelis_services_limited,
+        org1:novelis_sheet_ingot_gmbh,
+        org1:novelis_south_america_holdings_llc,
+        org1:novelis_switzerland_sa,
+        org1:novelis_uk_ltd .
+

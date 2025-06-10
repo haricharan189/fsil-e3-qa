@@ -1,0 +1,375 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org1: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person: <http://example.org/person_name/> .
+@prefix position: <http://example.org/person_position/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+base:Location a rdfs:Class .
+
+base:Organization a rdfs:Class .
+
+base:Person a rdfs:Class .
+
+location_type:administrative_agents_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:administrative_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:ag_new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_management a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_services a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:assembly_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:business_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:cayman_islands_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:chief_executive_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:commercial_banking a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_customers_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:domestic_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:dublin_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:eurodollar_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:front_end_test_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:london_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:mexico_location_contract_manufacturing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:micro_building_and_corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:middle_market_servicing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:offsite_storage a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:opto_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:registered_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:rexford_industrial_realty_inc_11620_wilshire_boulevard_suite_1000_los_angeles_california_90025 a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:trade_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:zonal_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+org1:deutsche_bank_securities_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:joint_bookrunners,
+        org_role:joint_lead_arrangers .
+
+org1:jp_morgan_securities_llc_barclays_bank_plc_bofa_securities_inc_goldman_sachs_bank_usa_mizuho_bank_ltd_morgan_stanley_senior_funding_inc_hsbc_securities_usa_inc_credit_suisse_loan_funding_llc_citigroup_global_markets_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:joint_bookrunners,
+        org_role:joint_lead_arrangers .
+
+org_role:agent rdfs:subClassOf base:Organization .
+
+person:brandon_allen a base:Person .
+
+person:daniel_seale a base:Person .
+
+person:joe_bress a base:Person .
+
+person:kevin_campbell a base:Person .
+
+person:trevor_watt a base:Person .
+
+loc:520_madison_avenue_39th_floor_new_york_ny_10022 a base:Location ;
+    rel:isLocationOf org1:the_carlyle_group .
+
+loc:885_third_avenue_new_york_ny_10022_4834 a base:Location ;
+    rel:isLocationOf org1:lathamand_watkins_llp .
+
+loc:929_north_front_street_wilmington_nc_28401 a base:Location ;
+    rel:isLocationOf org1:ppd_inc .
+
+loc:one_maritime_plaza_12th_floor_san_francisco_ca_94111 a base:Location ;
+    rel:isLocationOf org1:hellmanand_friedman_llc .
+
+org1:hellmanand_friedman_llc a base:Organization ;
+    rel:hasLocationAt loc:one_maritime_plaza_12th_floor_san_francisco_ca_94111 .
+
+org1:jpmorgan_chase_bank_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:a_l_c_issuer,
+        org_role:administrative_agent,
+        org_role:collateral_agent ;
+    rel:hasLocationAt loc:500_stanton_christiana_rd_ncc5_1st_floor_newark_de_19713 .
+
+org1:lathamand_watkins_llp a base:Organization ;
+    rel:hasLocationAt loc:885_third_avenue_new_york_ny_10022_4834 .
+
+org1:the_carlyle_group a base:Organization ;
+    rel:hasLocationAt loc:520_madison_avenue_39th_floor_new_york_ny_10022 .
+
+org_role:a_l_c_issuer rdfs:subClassOf base:Organization .
+
+org_role:administrative_agent rdfs:subClassOf base:Organization .
+
+org_role:co_borrower rdfs:subClassOf base:Organization .
+
+person:dawn_lee_lum a base:Person ;
+    <http://example.org/isInstanceOf/> position:executive_director ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:jpmorgan_chase_bank ;
+            rel:position position:executive_director ] ;
+    rel:isEmployedBy org1:jpmorgan_chase_bank .
+
+person:eugene_yermash a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:citibank ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:citibank .
+
+person:graham_robertson a base:Person ;
+    <http://example.org/isInstanceOf/> position:authorized_signatory ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:morgan_stanley_senior_funding_inc ;
+            rel:position position:authorized_signatory ] ;
+    rel:isEmployedBy org1:morgan_stanley_senior_funding_inc .
+
+person:jack_kelly a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:hsbc_bank_usa ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:hsbc_bank_usa .
+
+person:joseph_l_corah a base:Person ;
+    <http://example.org/isInstanceOf/> position:director ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:bank_of_america ;
+            rel:position position:director ] ;
+    rel:isEmployedBy org1:bank_of_america .
+
+person:komal_shah a base:Person ;
+    <http://example.org/isInstanceOf/> position:authorized_signatory ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:credit_suisse_ag ;
+            rel:position position:authorized_signatory ] ;
+    rel:isEmployedBy org1:credit_suisse_ag .
+
+person:michael_strobel a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:deutsche_bank ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:deutsche_bank .
+
+person:philip_tancorra a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:deutsche_bank ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:deutsche_bank .
+
+person:raymond_ventura a base:Person ;
+    <http://example.org/isInstanceOf/> position:managing_director ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:mizuho_bank_ltd ;
+            rel:position position:managing_director ] ;
+    rel:isEmployedBy org1:mizuho_bank_ltd .
+
+person:ronnie_glenn a base:Person ;
+    <http://example.org/isInstanceOf/> position:director ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:barclays_bank_plc ;
+            rel:position position:director ] ;
+    rel:isEmployedBy org1:barclays_bank_plc .
+
+person:thomas_manning a base:Person ;
+    <http://example.org/isInstanceOf/> position:authorized_signatory ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:goldman_sachs_bank_usa ;
+            rel:position position:authorized_signatory ] ;
+    rel:isEmployedBy org1:goldman_sachs_bank_usa .
+
+person:whitney_gaston a base:Person ;
+    <http://example.org/isInstanceOf/> position:authorized_signatory ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:credit_suisse_ag ;
+            rel:position position:authorized_signatory ] ;
+    rel:isEmployedBy org1:credit_suisse_ag .
+
+loc:500_stanton_christiana_rd_ncc5_1st_floor_newark_de_19713 a base:Location ;
+    rel:isLocationOf org1:jpmorgan_chase_bank,
+        org1:jpmorgan_chase_bank_na .
+
+org1:bank_of_america a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:l_c_issuer,
+        org_role:lender ;
+    rel:hasEmployee person:joseph_l_corah .
+
+org1:barclays_bank_plc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:l_c_issuer,
+        org_role:lender ;
+    rel:hasEmployee person:ronnie_glenn .
+
+org1:citibank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:l_c_issuer,
+        org_role:lender ;
+    rel:hasEmployee person:eugene_yermash .
+
+org1:goldman_sachs_bank_usa a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:l_c_issuer,
+        org_role:lender ;
+    rel:hasEmployee person:thomas_manning .
+
+org1:hsbc_bank_usa a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:l_c_issuer ;
+    rel:hasEmployee person:jack_kelly .
+
+org1:mizuho_bank_ltd a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:l_c_issuer,
+        org_role:lender ;
+    rel:hasEmployee person:raymond_ventura .
+
+org1:morgan_stanley_senior_funding_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:l_c_issuer,
+        org_role:lender ;
+    rel:hasEmployee person:graham_robertson .
+
+org_role:borrower rdfs:subClassOf base:Organization .
+
+org_role:collateral_agent rdfs:subClassOf base:Organization .
+
+org_role:joint_bookrunners rdfs:subClassOf base:Organization .
+
+org_role:joint_lead_arrangers rdfs:subClassOf base:Organization .
+
+person:b_judd_hartman a base:Person ;
+    <http://example.org/isInstanceOf/> position:chief_administrative_officer,
+        position:executive_vice_president,
+        position:general_counsel,
+        position:secretary ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:ppd_development_lp ;
+            rel:position position:chief_administrative_officer ],
+        [ a rel:Employment ;
+            rel:organization org1:ppd_inc ;
+            rel:position position:secretary ],
+        [ a rel:Employment ;
+            rel:organization org1:ppd_inc ;
+            rel:position position:general_counsel ],
+        [ a rel:Employment ;
+            rel:organization org1:ppd_development_lp ;
+            rel:position position:general_counsel ],
+        [ a rel:Employment ;
+            rel:organization org1:ppd_development_lp ;
+            rel:position position:secretary ],
+        [ a rel:Employment ;
+            rel:organization org1:ppd_development_lp ;
+            rel:position position:executive_vice_president ] ;
+    rel:isEmployedBy org1:ppd_development_lp,
+        org1:ppd_inc .
+
+position:chief_administrative_officer a base:Position ;
+    base:positionName "Chief Administrative Officer" ;
+    rdfs:subClassOf base:Person .
+
+position:executive_director a base:Position ;
+    base:positionName "Executive Director\\n" ;
+    rdfs:subClassOf base:Person .
+
+position:executive_vice_president a base:Position ;
+    base:positionName "Executive Vice President" ;
+    rdfs:subClassOf base:Person .
+
+position:managing_director a base:Position ;
+    base:positionName "Managing Director" ;
+    rdfs:subClassOf base:Person .
+
+org1:jpmorgan_chase_bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:collateral_agent,
+        org_role:l_c_issuer,
+        org_role:lender ;
+    rel:hasEmployee person:dawn_lee_lum ;
+    rel:hasLocationAt loc:500_stanton_christiana_rd_ncc5_1st_floor_newark_de_19713 .
+
+position:general_counsel a base:Position ;
+    base:positionName "General Counsel" ;
+    rdfs:subClassOf base:Person .
+
+position:secretary a base:Position ;
+    base:positionName "Secretary" ;
+    rdfs:subClassOf base:Person .
+
+org1:credit_suisse_ag a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:l_c_issuer,
+        org_role:lender ;
+    rel:hasEmployee person:komal_shah,
+        person:whitney_gaston .
+
+org1:deutsche_bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:l_c_issuer,
+        org_role:lender ;
+    rel:hasEmployee person:michael_strobel,
+        person:philip_tancorra .
+
+org1:ppd_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:b_judd_hartman ;
+    rel:hasLocationAt loc:929_north_front_street_wilmington_nc_28401 .
+
+position:director a base:Position ;
+    base:positionName "Director" ;
+    rdfs:subClassOf base:Person .
+
+org1:ppd_development_lp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower,
+        org_role:co_borrower ;
+    rel:hasEmployee person:b_judd_hartman .
+
+position:authorized_signatory a base:Position ;
+    base:positionName "Authorized Signatory\\n" ;
+    rdfs:subClassOf base:Person .
+
+position:vice_president a base:Position ;
+    base:positionName "Vice President" ;
+    rdfs:subClassOf base:Person .
+
+org_role:lender rdfs:subClassOf base:Organization .
+
+org_role:l_c_issuer rdfs:subClassOf base:Organization .
+

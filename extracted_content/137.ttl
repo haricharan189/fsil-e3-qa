@@ -1,0 +1,523 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org1: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person: <http://example.org/person_name/> .
+@prefix position: <http://example.org/person_position/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+base:Location a rdfs:Class .
+
+base:Organization a rdfs:Class .
+
+base:Person a rdfs:Class .
+
+location_type:administrative_agents_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:administrative_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:ag_new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_management a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_services a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:assembly_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:business_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:cayman_islands_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:chief_executive_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:commercial_banking a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_customers_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:domestic_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:dublin_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:eurodollar_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:front_end_test_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:london_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:mexico_location_contract_manufacturing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:micro_building_and_corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:middle_market_servicing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:offsite_storage a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:opto_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:registered_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:rexford_industrial_realty_inc_11620_wilshire_boulevard_suite_1000_los_angeles_california_90025 a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:trade_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:zonal_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+org1:bank_of_america a base:Organization .
+
+org1:deutsche_bank_securities_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:bookrunners .
+
+org1:hospitality a base:Organization .
+
+org1:initial_issuing_banks a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:issuing_banks,
+        org_role:lenders,
+        org_role:swing_line_banks .
+
+org1:initial_lenders a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lenders .
+
+org1:merrill_lynch_pierce_fenner_and_smith_incorporated a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:bookrunners .
+
+org1:regions_capital_markets a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:bookrunners .
+
+org1:san_fran_jv_llc a base:Organization .
+
+org1:summit_hospitality_039_llc a base:Organization .
+
+org1:summit_hospitality_057_llc a base:Organization .
+
+org1:summit_hospitality_060_llc a base:Organization .
+
+org1:summit_hospitality_079_llc a base:Organization .
+
+org1:summit_hospitality_081_llc a base:Organization .
+
+org1:summit_hospitality_082_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantors .
+
+org1:summit_hospitality_084_llc a base:Organization .
+
+org1:summit_hospitality_093_llc a base:Organization .
+
+org1:summit_hospitality_100_llc a base:Organization .
+
+org1:summit_hospitality_114_llc a base:Organization .
+
+org1:summit_hospitality_115_llc a base:Organization .
+
+org1:summit_hospitality_117_llc a base:Organization .
+
+org1:summit_hospitality_118_llc a base:Organization .
+
+org1:summit_hospitality_119_llc a base:Organization .
+
+org1:summit_hospitality_121_llc a base:Organization .
+
+org1:summit_hospitality_122_llc a base:Organization .
+
+org1:summit_hospitality_123_llc a base:Organization .
+
+org1:summit_hospitality_130_llc a base:Organization .
+
+org1:summit_hospitality_17_llc a base:Organization .
+
+org1:summit_hospitality_18_llc a base:Organization .
+
+org1:summit_hospitality_i_llc a base:Organization .
+
+org1:summit_hospitality_xii_llc a base:Organization .
+
+org1:summit_hotel_trs_010_llc a base:Organization .
+
+org1:summit_hotel_trs_020_llc a base:Organization .
+
+org1:summit_hotel_trs_021_llc a base:Organization .
+
+org1:summit_hotel_trs_023_llc a base:Organization .
+
+org1:summit_hotel_trs_026_llc a base:Organization .
+
+org1:summit_hotel_trs_028_llc a base:Organization .
+
+org1:summit_hotel_trs_029_llc a base:Organization .
+
+org1:summit_hotel_trs_030_llc a base:Organization .
+
+org1:summit_hotel_trs_032_llc a base:Organization .
+
+org1:summit_hotel_trs_036_llc a base:Organization .
+
+org1:summit_hotel_trs_037_llc a base:Organization .
+
+org1:summit_hotel_trs_038_llc a base:Organization .
+
+org1:summit_hotel_trs_039_llc a base:Organization .
+
+org1:summit_hotel_trs_044_llc a base:Organization .
+
+org1:summit_hotel_trs_045_llc a base:Organization .
+
+org1:summit_hotel_trs_057_llc a base:Organization .
+
+org1:summit_hotel_trs_060_llc a base:Organization .
+
+org1:summit_hotel_trs_062_llc a base:Organization .
+
+org1:summit_hotel_trs_063_llc a base:Organization .
+
+org1:summit_hotel_trs_064_llc a base:Organization .
+
+org1:summit_hotel_trs_065_llc a base:Organization .
+
+org1:summit_hotel_trs_066_llc a base:Organization .
+
+org1:summit_hotel_trs_068_llc a base:Organization .
+
+org1:summit_hotel_trs_069_llc a base:Organization .
+
+org1:summit_hotel_trs_079_llc a base:Organization .
+
+org1:summit_hotel_trs_081_llc a base:Organization .
+
+org1:summit_hotel_trs_082_llc a base:Organization .
+
+org1:summit_hotel_trs_083_llc a base:Organization .
+
+org1:summit_hotel_trs_084_llc a base:Organization .
+
+org1:summit_hotel_trs_088_llc a base:Organization .
+
+org1:summit_hotel_trs_093_llc a base:Organization .
+
+org1:summit_hotel_trs_094_llc a base:Organization .
+
+org1:summit_hotel_trs_095_llc a base:Organization .
+
+org1:summit_hotel_trs_097_llc a base:Organization .
+
+org1:summit_hotel_trs_100_llc a base:Organization .
+
+org1:summit_hotel_trs_102_llc a base:Organization .
+
+org1:summit_hotel_trs_104_llc a base:Organization .
+
+org1:summit_hotel_trs_114_llc a base:Organization .
+
+org1:summit_hotel_trs_115_llc a base:Organization .
+
+org1:summit_hotel_trs_117_llc a base:Organization .
+
+org1:summit_hotel_trs_118_llc a base:Organization .
+
+org1:summit_hotel_trs_119_llc a base:Organization .
+
+org1:summit_hotel_trs_121_llc a base:Organization .
+
+org1:summit_hotel_trs_122_llc a base:Organization .
+
+org1:summit_hotel_trs_123_llc a base:Organization .
+
+org1:swing_line_banks a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:issuing_banks,
+        org_role:swing_line_banks .
+
+org_role:agent rdfs:subClassOf base:Organization .
+
+org_role:guarantor rdfs:subClassOf base:Organization .
+
+person:ian_laroche a base:Person .
+
+person:jireh_carcellar a base:Person .
+
+person:john_aditya_k_athamacur a base:Person .
+
+person:jule_ann_martin a base:Person .
+
+person:julie_camarra a base:Person .
+
+person:latisha_mcburnie a base:Person .
+
+person:wolsley_grannum a base:Person .
+
+loc:101_n_tryon_street_charlotte_nc_28255 a base:Location ;
+    <http://example.org/isInstanceOf/> location_type:domestic_lending_office,
+        location_type:eurodollar_lending_office ;
+    rel:isLocationOf org1:bank_of_america_na .
+
+loc:1200_abernathy_rd_suite_1550_atlanta_ga_30328 a base:Location ;
+    <http://example.org/isInstanceOf/> location_type:domestic_lending_office,
+        location_type:eurodollar_lending_office ;
+    rel:isLocationOf org1:keybank_national_association .
+
+loc:1420_5th_avenue_pd_wa_t9in_seattle_wa_98101 a base:Location ;
+    <http://example.org/isInstanceOf/> location_type:domestic_lending_office,
+        location_type:eurodollar_lending_office ;
+    rel:isLocationOf org1:us_bank_national_association .
+
+loc:1900_5th_avenue_north_15th_flr_birmingham_al_35203 a base:Location ;
+    <http://example.org/isInstanceOf/> location_type:domestic_lending_office,
+        location_type:eurodollar_lending_office ;
+    rel:isLocationOf org1:regions_bank .
+
+loc:200_west_second_street_16th_floor_winston_salem_nc_27101 a base:Location ;
+    <http://example.org/isInstanceOf/> location_type:domestic_lending_office,
+        location_type:eurodollar_lending_office ;
+    rel:isLocationOf org1:branch_banking_and_trust_company .
+
+loc:500_first_ave_mailstop_p7_pfsc_04_v_pittsburgh_pa_15219 a base:Location ;
+    <http://example.org/isInstanceOf/> location_type:domestic_lending_office,
+        location_type:eurodollar_lending_office ;
+    rel:isLocationOf org1:pnc_bank_national_association .
+
+loc:710_carillon_parkway_st_petersburg_fl_33716 a base:Location ;
+    <http://example.org/isInstanceOf/> location_type:domestic_lending_office,
+        location_type:eurodollar_lending_office ;
+    rel:isLocationOf org1:raymond_james_bank_na .
+
+loc:global_loans_administration_20_king_st_west_4th_floor_toronto_ontario_canada_m5h_1c4 a base:Location ;
+    <http://example.org/isInstanceOf/> location_type:domestic_lending_office,
+        location_type:eurodollar_lending_office ;
+    rel:isLocationOf org1:royal_bank_of_canada .
+
+loc:hanover_street_capital_llc_48_wall_street_14th_floor_new_york_ny_10005 a base:Location ;
+    <http://example.org/isInstanceOf/> location_type:domestic_lending_office,
+        location_type:eurodollar_lending_office ;
+    rel:isLocationOf org1:deutsche_bank_ag_new_york_branch .
+
+org_role:administrative_agent rdfs:subClassOf base:Organization .
+
+org_role:agents rdfs:subClassOf base:Organization .
+
+org_role:borrower rdfs:subClassOf base:Organization .
+
+org_role:guarantors rdfs:subClassOf base:Organization .
+
+org_role:parent_guarantor rdfs:subClassOf base:Organization .
+
+person:alexander_l_rody a base:Person ;
+    <http://example.org/isInstanceOf/> position:senior_vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:raymond_james_bank_na ;
+            rel:position position:senior_vice_president ] ;
+    rel:isEmployedBy org1:raymond_james_bank_na .
+
+person:eric_searls a base:Person ;
+    <http://example.org/isInstanceOf/> position:senior_vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:branch_banking_and_trust_company ;
+            rel:position position:senior_vice_president ] ;
+    rel:isEmployedBy org1:branch_banking_and_trust_company .
+
+person:james_komperda a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:keybank_national_association ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:keybank_national_association .
+
+person:james_rolison a base:Person ;
+    <http://example.org/isInstanceOf/> position:managing_director ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:deutsche_bank_ag_new_york_branch ;
+            rel:position position:managing_director ] ;
+    rel:isEmployedBy org1:deutsche_bank_ag_new_york_branch .
+
+person:john_sletten a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:bank_of_america_na ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:bank_of_america_na .
+
+person:joseph_j_seroke a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:pnc_bank_national_association ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:pnc_bank_national_association .
+
+person:joshua_freedman a base:Person ;
+    <http://example.org/isInstanceOf/> position:authorized_signatory ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:royal_bank_of_canada ;
+            rel:position position:authorized_signatory ] ;
+    rel:isEmployedBy org1:royal_bank_of_canada .
+
+person:murray_mackinnon a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:deutsche_bank_ag_new_york_branch ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:deutsche_bank_ag_new_york_branch .
+
+person:scott_dejong a base:Person ;
+    <http://example.org/isInstanceOf/> position:senior_vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:us_bank_national_association ;
+            rel:position position:senior_vice_president ] ;
+    rel:isEmployedBy org1:us_bank_national_association .
+
+person:t_barrett_vawter a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:regions_bank ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:regions_bank .
+
+org1:summit_hotel_op_lp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:christopher_eng .
+
+org1:summit_hotel_properties_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:parent_guarantor ;
+    rel:hasEmployee person:christopher_eng .
+
+org1:summit_hotel_trs_035_llc a base:Organization ;
+    rel:hasEmployee person:christopher_eng .
+
+org1:summit_hotel_trs_130_llc a base:Organization ;
+    rel:hasEmployee person:christopher_eng .
+
+org_role:bank rdfs:subClassOf base:Organization .
+
+org_role:issuing_banks rdfs:subClassOf base:Organization .
+
+org_role:lenders rdfs:subClassOf base:Organization .
+
+org_role:swing_line_banks rdfs:subClassOf base:Organization .
+
+position:authorized_signatory a base:Position ;
+    base:positionName "Authorized Signatory" ;
+    rdfs:subClassOf base:Person .
+
+position:managing_director a base:Position ;
+    base:positionName "Managing Director" ;
+    rdfs:subClassOf base:Person .
+
+org1:bank_of_america_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:bank,
+        org_role:co_syndication_agents,
+        org_role:lender ;
+    rel:hasEmployee person:john_sletten ;
+    rel:hasLocationAt loc:101_n_tryon_street_charlotte_nc_28255 .
+
+org1:branch_banking_and_trust_company a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:eric_searls ;
+    rel:hasLocationAt loc:200_west_second_street_16th_floor_winston_salem_nc_27101 .
+
+org1:keybank_national_association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:james_komperda ;
+    rel:hasLocationAt loc:1200_abernathy_rd_suite_1550_atlanta_ga_30328 .
+
+org1:pnc_bank_national_association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:joseph_j_seroke ;
+    rel:hasLocationAt loc:500_first_ave_mailstop_p7_pfsc_04_v_pittsburgh_pa_15219 .
+
+org1:raymond_james_bank_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:alexander_l_rody ;
+    rel:hasLocationAt loc:710_carillon_parkway_st_petersburg_fl_33716 .
+
+org1:regions_bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:agents,
+        org_role:bank,
+        org_role:lender ;
+    rel:hasEmployee person:t_barrett_vawter ;
+    rel:hasLocationAt loc:1900_5th_avenue_north_15th_flr_birmingham_al_35203 .
+
+org1:royal_bank_of_canada a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:joshua_freedman ;
+    rel:hasLocationAt loc:global_loans_administration_20_king_st_west_4th_floor_toronto_ontario_canada_m5h_1c4 .
+
+org1:us_bank_national_association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:scott_dejong ;
+    rel:hasLocationAt loc:1420_5th_avenue_pd_wa_t9in_seattle_wa_98101 .
+
+org_role:arrangers rdfs:subClassOf base:Organization .
+
+org_role:bookrunners rdfs:subClassOf base:Organization .
+
+person:christopher_eng a base:Person ;
+    <http://example.org/isInstanceOf/> position:secretary ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:summit_hotel_trs_130_llc ;
+            rel:position position:secretary ],
+        [ a rel:Employment ;
+            rel:organization org1:summit_hotel_properties_inc ;
+            rel:position position:secretary ],
+        [ a rel:Employment ;
+            rel:organization org1:summit_hotel_trs_035_llc ;
+            rel:position position:secretary ],
+        [ a rel:Employment ;
+            rel:organization org1:summit_hotel_op_lp ;
+            rel:position position:secretary ] ;
+    rel:isEmployedBy org1:summit_hotel_op_lp,
+        org1:summit_hotel_properties_inc,
+        org1:summit_hotel_trs_035_llc,
+        org1:summit_hotel_trs_130_llc .
+
+org1:deutsche_bank_ag_new_york_branch a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:administrative_agent,
+        org_role:lender ;
+    rel:hasEmployee person:james_rolison,
+        person:murray_mackinnon ;
+    rel:hasLocationAt loc:hanover_street_capital_llc_48_wall_street_14th_floor_new_york_ny_10005 .
+
+position:secretary a base:Position ;
+    base:positionName "Secretary" ;
+    rdfs:subClassOf base:Person .
+
+position:senior_vice_president a base:Position ;
+    base:positionName "Senior Vice President" ;
+    rdfs:subClassOf base:Person .
+
+org_role:lender rdfs:subClassOf base:Organization .
+
+position:vice_president a base:Position ;
+    base:positionName "Vice President" ;
+    rdfs:subClassOf base:Person .
+

@@ -1,0 +1,283 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org1: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person: <http://example.org/person_name/> .
+@prefix position: <http://example.org/person_position/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+base:Location a rdfs:Class .
+
+base:Organization a rdfs:Class .
+
+base:Person a rdfs:Class .
+
+location_type:administrative_agents_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:administrative_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:ag_new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_management a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_services a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:assembly_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:business_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:cayman_islands_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:chief_executive_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:commercial_banking a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_customers_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:domestic_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:dublin_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:eurodollar_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:front_end_test_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:london_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:mexico_location_contract_manufacturing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:micro_building_and_corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:middle_market_servicing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:offsite_storage a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:opto_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:registered_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:rexford_industrial_realty_inc_11620_wilshire_boulevard_suite_1000_los_angeles_california_90025 a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:trade_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:zonal_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+org1:airopco_1asl_bermuda_ltd a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower .
+
+org1:fortress_investment_group_llc a base:Organization .
+
+org1:fortress_transportation a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:holdings .
+
+org1:fortress_worldwide_transportation a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:intermediateco .
+
+org1:infrastructure_general_partnership a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:intermediateco .
+
+org1:infrastructure_investors_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:holdings .
+
+org1:wwtai_airopco_malta_limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:maltese_guarantor .
+
+org_role:guarantor rdfs:subClassOf base:Organization .
+
+loc:1300_thames_street_4th_floor_thames_street_wharf_baltimore_md_21231 a base:Location ;
+    rel:isLocationOf org1:morgan_stanley_senior_funding_inc .
+
+loc:1345_avenue_of_the_americas_newyork_ny_10105 a base:Location ;
+    rel:isLocationOf org1:fortress_transportation_and_infrastructure_investors_llc .
+
+org_role:administrative_agent rdfs:subClassOf base:Organization .
+
+org_role:agent rdfs:subClassOf base:Organization .
+
+org_role:arranger rdfs:subClassOf base:Organization .
+
+org_role:lead_arranger rdfs:subClassOf base:Organization .
+
+org_role:lead_bookrunner rdfs:subClassOf base:Organization .
+
+org_role:lender rdfs:subClassOf base:Organization .
+
+person:joseph_p_adams_jr a base:Person ;
+    <http://example.org/isInstanceOf/> position:ceo ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:fortress_transportation_and_infrastructure_investors_llc ;
+            rel:position position:ceo ] ;
+    rel:isEmployedBy org1:fortress_transportation_and_infrastructure_investors_llc .
+
+person:tony_traynor a base:Person ;
+    <http://example.org/isInstanceOf/> position:director ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:wwtai_airopco_malta_ltd ;
+            rel:position position:director ] ;
+    rel:isEmployedBy org1:wwtai_airopco_malta_ltd .
+
+person:william_graham a base:Person ;
+    <http://example.org/isInstanceOf/> position:authorized_signatory ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:morgan_stanley_senior_funding_inc ;
+            rel:position position:authorized_signatory ] ;
+    rel:isEmployedBy org1:morgan_stanley_senior_funding_inc .
+
+org1:airopco_1et_bermuda_ltd a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:demetrios_tserpelis .
+
+org1:airopco_1jt_bermuda_ltd a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:demetrios_tserpelis .
+
+org1:airopco_i_sd_ireland_dac a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:sean_mckinley .
+
+org1:airopco_ii_ko_ireland_dac a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:sean_mckinley .
+
+org1:airopco_ii_me_ireland_dac a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:sean_mckinley .
+
+org1:fortress_worldwide_transportation_and_infrastructure_general_partnership a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:intermediateco ;
+    rel:hasEmployee person:demetrios_tserpelis .
+
+org1:wwtai_airopco_1_bermuda_ltd a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:demetrios_tserpelis .
+
+org1:wwtai_airopco_bpa_ireland_limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:sean_mckinley .
+
+org1:wwtai_airopco_ii_dac a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:sean_mckinley .
+
+org1:wwtai_airopco_malta_ltd a base:Organization ;
+    rel:hasEmployee person:tony_traynor .
+
+org1:wwtai_finance_ltd a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:demetrios_tserpelis .
+
+position:ceo a base:Position ;
+    base:positionName "CEO" ;
+    rdfs:subClassOf base:Person .
+
+org1:fortress_transportation_and_infrastructure_investors_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower,
+        org_role:holdings,
+        org_role:intermediateco ;
+    rel:hasEmployee person:joseph_p_adams_jr ;
+    rel:hasLocationAt loc:1345_avenue_of_the_americas_newyork_ny_10105 .
+
+org1:morgan_stanley_senior_funding_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:administrative_agent,
+        org_role:agent,
+        org_role:arranger,
+        org_role:lead_arranger,
+        org_role:lead_bookrunner,
+        org_role:lender ;
+    rel:hasEmployee person:william_graham ;
+    rel:hasLocationAt loc:1300_thames_street_4th_floor_thames_street_wharf_baltimore_md_21231 .
+
+org_role:holdings rdfs:subClassOf base:Organization .
+
+org_role:intermediateco rdfs:subClassOf base:Organization .
+
+position:authorized_signatory a base:Position ;
+    base:positionName "Authorized Signatory" ;
+    rdfs:subClassOf base:Person .
+
+person:demetrios_tserpelis a base:Person ;
+    <http://example.org/isInstanceOf/> position:authorized_signatory,
+        position:director ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:airopco_1jt_bermuda_ltd ;
+            rel:position position:director ],
+        [ a rel:Employment ;
+            rel:organization org1:fortress_worldwide_transportation_and_infrastructure_general_partnership ;
+            rel:position position:authorized_signatory ],
+        [ a rel:Employment ;
+            rel:organization org1:wwtai_finance_ltd ;
+            rel:position position:director ],
+        [ a rel:Employment ;
+            rel:organization org1:wwtai_airopco_1_bermuda_ltd ;
+            rel:position position:director ],
+        [ a rel:Employment ;
+            rel:organization org1:airopco_1et_bermuda_ltd ;
+            rel:position position:director ] ;
+    rel:isEmployedBy org1:airopco_1et_bermuda_ltd,
+        org1:airopco_1jt_bermuda_ltd,
+        org1:fortress_worldwide_transportation_and_infrastructure_general_partnership,
+        org1:wwtai_airopco_1_bermuda_ltd,
+        org1:wwtai_finance_ltd .
+
+person:sean_mckinley a base:Person ;
+    <http://example.org/isInstanceOf/> position:director ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:wwtai_airopco_ii_dac ;
+            rel:position position:director ],
+        [ a rel:Employment ;
+            rel:organization org1:wwtai_airopco_bpa_ireland_limited ;
+            rel:position position:director ],
+        [ a rel:Employment ;
+            rel:organization org1:airopco_i_sd_ireland_dac ;
+            rel:position position:director ],
+        [ a rel:Employment ;
+            rel:organization org1:airopco_ii_me_ireland_dac ;
+            rel:position position:director ],
+        [ a rel:Employment ;
+            rel:organization org1:airopco_ii_ko_ireland_dac ;
+            rel:position position:director ] ;
+    rel:isEmployedBy org1:airopco_i_sd_ireland_dac,
+        org1:airopco_ii_ko_ireland_dac,
+        org1:airopco_ii_me_ireland_dac,
+        org1:wwtai_airopco_bpa_ireland_limited,
+        org1:wwtai_airopco_ii_dac .
+
+org_role:borrower rdfs:subClassOf base:Organization .
+
+position:director a base:Position ;
+    base:positionName "Director" ;
+    rdfs:subClassOf base:Person .
+

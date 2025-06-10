@@ -1,0 +1,424 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org1: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person: <http://example.org/person_name/> .
+@prefix position: <http://example.org/person_position/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+base:Location a rdfs:Class .
+
+base:Organization a rdfs:Class .
+
+base:Person a rdfs:Class .
+
+location_type:administrative_agents_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:administrative_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:ag_new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_management a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_services a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:assembly_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:business_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:cayman_islands_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:chief_executive_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:commercial_banking a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_customers_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:domestic_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:dublin_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:eurodollar_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:front_end_test_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:london_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:mexico_location_contract_manufacturing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:micro_building_and_corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:middle_market_servicing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:offsite_storage a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:opto_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:registered_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:rexford_industrial_realty_inc_11620_wilshire_boulevard_suite_1000_los_angeles_california_90025 a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:trade_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:zonal_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+loc:10749_north_freeway_houston_tx_77037_harris_county a base:Location .
+
+loc:1912_e_belt_line_rd_carrollton_tx_75006_carrollton_county a base:Location .
+
+loc:2330_preston_rd_ste_200_frisco_tx_75034_collin_county a base:Location .
+
+loc:8811_teel_pkwy_ste_140_frisco_tx_75034_denton_county a base:Location .
+
+org1:bank a base:Organization .
+
+org1:citizens_bank_national_association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:book_runners,
+        org_role:syndication_agent .
+
+org1:rc_ii_ws_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:sponsor .
+
+org1:wells_fargo_securities_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:arrangers,
+        org_role:book_runners .
+
+org1:wells_fargo_securities_llc_citizens_bank_national_association a base:Organization .
+
+org_role:lenders rdfs:subClassOf base:Organization .
+
+loc:1012_e_hwy_80_suite_a_forney_tx_75126_kaufman_county a base:Location ;
+    rel:isLocationOf org1:wingstop_inc .
+
+loc:1152_n_buckner_blvd_ste_106_dallas_tx_75218_dallas_county a base:Location ;
+    rel:isLocationOf org1:wingstop_inc .
+
+loc:1251_northwest_hwy_ste_c_garland_tx_75041_dallas_county a base:Location ;
+    rel:isLocationOf org1:wingstop_inc .
+
+loc:1515_s_buckner_blvd_ste_247b_dallas_tx_75217_dallas_county a base:Location ;
+    rel:isLocationOf org1:wingstop_inc .
+
+loc:1801_east_chase_pkwy_ste_117_fort_worth_tx_76120_tarrant_county a base:Location ;
+    rel:isLocationOf org1:wingstop_inc .
+
+loc:1808_aston_avenue_suite_250_carlsbad_ca_92008 a base:Location ;
+    rel:isLocationOf org1:wells_fargo_bank_national_association .
+
+loc:237_ne_28th_st_fort_worth_tx_76164_tarrant_county a base:Location ;
+    rel:isLocationOf org1:wingstop_inc .
+
+loc:2777_w_craig_rd_ste_107_north_las_vegas_nv_89032_clark_county a base:Location ;
+    rel:isLocationOf org1:wingstop_gcm_llc .
+
+loc:2802_n_shepherd_drste_400_houston_tx_77008_harris_county a base:Location ;
+    rel:isLocationOf org1:wingstop_inc .
+
+loc:3300_western_center_blvd_ste_114a_fort_worth_tx_76137_tarrant_county a base:Location ;
+    rel:isLocationOf org1:wingstop_inc .
+
+loc:3910_s_maryland_pkwy_las_vegas_nv_89119_clark_county a base:Location ;
+    rel:isLocationOf org1:wingstop_gcm_llc .
+
+loc:400_n_nellis_blvd_ste_120_las_vegas_nv_89110_clark_county a base:Location ;
+    rel:isLocationOf org1:wingstop_gcm_llc .
+
+loc:5045_w_tropicana_ave_ste_110_las_vegas_nv_89103_clark_county a base:Location ;
+    rel:isLocationOf org1:wingstop_inc .
+
+loc:5501_lbj_freeway_5th_floor_dallas_tx_75240 a base:Location ;
+    rel:isLocationOf org1:wingstop_inc .
+
+loc:5501_lbj_freeway_dallas_tx_75240_dallas_county a base:Location ;
+    rel:isLocationOf org1:wingstop_inc .
+
+loc:6760_abrams_rd_ste_119_dallas_tx_75231_dallas_county a base:Location ;
+    rel:isLocationOf org1:wingstop_inc .
+
+loc:7017_spring_mountain_rd_ste_101_las_vegas_nv_89117_clark_county a base:Location ;
+    rel:isLocationOf org1:wingstop_gcm_llc .
+
+loc:7645_s_custer_road_ste_420_mckinney_tx_75070_collin_county a base:Location ;
+    rel:isLocationOf org1:wingstop_inc .
+
+loc:820_e_cartwright_rd_suite_130_mesquite_tx_75149_dallas_county a base:Location ;
+    rel:isLocationOf org1:wingstop_inc .
+
+loc:900_n_coit_rd_ste_2700_richardson_tx_75080_dallas_county a base:Location ;
+    rel:isLocationOf org1:wingstop_inc .
+
+loc:908_audelia_rd_ste_600_richardson_tx_75081_dallas_county a base:Location ;
+    rel:isLocationOf org1:wingstop_inc .
+
+loc:9208_e_r_l_thornton_fwy_ste_204_dallas_tx_75228_dallas_county a base:Location ;
+    rel:isLocationOf org1:wingstop_inc .
+
+org_role:administrative_agent rdfs:subClassOf base:Organization .
+
+org_role:agent rdfs:subClassOf base:Organization .
+
+org_role:borrower rdfs:subClassOf base:Organization .
+
+org_role:documentation_agent rdfs:subClassOf base:Organization .
+
+org_role:joint_book_runners rdfs:subClassOf base:Organization .
+
+org_role:joint_lead_arrangers rdfs:subClassOf base:Organization .
+
+org_role:sponsor rdfs:subClassOf base:Organization .
+
+org_role:syndication_agent rdfs:subClassOf base:Organization .
+
+person:anthony_luppino a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:bank_of_america_na ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:bank_of_america_na .
+
+person:daniel_nunes a base:Person ;
+    <http://example.org/isInstanceOf/> position:authorized_signatory ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:first_tennessee_bank_national_association ;
+            rel:position position:authorized_signatory ] ;
+    rel:isEmployedBy org1:first_tennessee_bank_national_association .
+
+person:john_kallina a base:Person ;
+    <http://example.org/isInstanceOf/> position:senior_vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:texas_capital_bank_na ;
+            rel:position position:senior_vice_president ] ;
+    rel:isEmployedBy org1:texas_capital_bank_na .
+
+person:keith_watanabe a base:Person ;
+    <http://example.org/isInstanceOf/> position:director ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:bmo_harris_bank_na ;
+            rel:position position:director ] ;
+    rel:isEmployedBy org1:bmo_harris_bank_na .
+
+person:maureen_malphus a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:wells_fargo_bank_national_association ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:wells_fargo_bank_national_association .
+
+person:michael_h_keith a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:fifth_third_bank ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:fifth_third_bank .
+
+person:michael_j_sullivan a base:Person ;
+    <http://example.org/isInstanceOf/> position:duly_authorized_signatory ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:capital_one_na ;
+            rel:position position:duly_authorized_signatory ] ;
+    rel:isEmployedBy org1:capital_one_na .
+
+person:ravi_pillay a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:citizens_bank_na ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:citizens_bank_na .
+
+person:vance_waldron a base:Person ;
+    <http://example.org/isInstanceOf/> position:vp ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:cadence_bank_na ;
+            rel:position position:vp ] ;
+    rel:isEmployedBy org1:cadence_bank_na .
+
+org1:bank_of_america_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:anthony_luppino .
+
+org1:bmo_harris_bank_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:keith_watanabe .
+
+org1:cadence_bank_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:vance_waldron .
+
+org1:capital_one_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:michael_j_sullivan .
+
+org1:citizens_bank_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:ravi_pillay .
+
+org1:fifth_third_bank a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:book_runners,
+        org_role:documentation_agent,
+        org_role:joint_book_runners,
+        org_role:joint_lead_arrangers,
+        org_role:lender ;
+    rel:hasEmployee person:michael_h_keith .
+
+org1:first_tennessee_bank_national_association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:daniel_nunes .
+
+org1:texas_capital_bank_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:john_kallina .
+
+org1:wingstop_beverages_ii_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantors ;
+    rel:hasEmployee person:michael_j_skipworth .
+
+org1:wingstop_beverages_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantors ;
+    rel:hasEmployee person:michael_j_skipworth .
+
+org1:wingstop_holdings_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantors ;
+    rel:hasEmployee person:michael_j_skipworth .
+
+org1:wingstop_restaurants_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantors ;
+    rel:hasEmployee person:michael_j_skipworth .
+
+org_role:arrangers rdfs:subClassOf base:Organization .
+
+position:authorized_signatory a base:Position ;
+    base:positionName "Authorized Signatory" ;
+    rdfs:subClassOf base:Person .
+
+position:director a base:Position ;
+    base:positionName "Director" ;
+    rdfs:subClassOf base:Person .
+
+position:duly_authorized_signatory a base:Position ;
+    base:positionName "Duly Authorized Signatory" ;
+    rdfs:subClassOf base:Person .
+
+position:senior_vice_president a base:Position ;
+    base:positionName "Senior Vice President" ;
+    rdfs:subClassOf base:Person .
+
+position:vp a base:Position ;
+    base:positionName "VP" ;
+    rdfs:subClassOf base:Person .
+
+org1:wells_fargo_bank_national_association a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:administrative_agent,
+        org_role:agent,
+        org_role:lender ;
+    rel:hasEmployee person:maureen_malphus ;
+    rel:hasLocationAt loc:1808_aston_avenue_suite_250_carlsbad_ca_92008 .
+
+org_role:book_runners rdfs:subClassOf base:Organization .
+
+position:president a base:Position ;
+    base:positionName "President" ;
+    rdfs:subClassOf base:Person .
+
+org_role:guarantors rdfs:subClassOf base:Organization .
+
+position:chief_financial_officer a base:Position ;
+    base:positionName "Chief Financial Officer" ;
+    rdfs:subClassOf base:Person .
+
+org1:wingstop_gcm_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantors ;
+    rel:hasEmployee person:michael_j_skipworth ;
+    rel:hasLocationAt loc:2777_w_craig_rd_ste_107_north_las_vegas_nv_89032_clark_county,
+        loc:3910_s_maryland_pkwy_las_vegas_nv_89119_clark_county,
+        loc:400_n_nellis_blvd_ste_120_las_vegas_nv_89110_clark_county,
+        loc:7017_spring_mountain_rd_ste_101_las_vegas_nv_89117_clark_county .
+
+person:michael_j_skipworth a base:Person ;
+    <http://example.org/isInstanceOf/> position:chief_financial_officer,
+        position:president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:wingstop_beverages_ii_inc ;
+            rel:position position:president ],
+        [ a rel:Employment ;
+            rel:organization org1:wingstop_restaurants_inc ;
+            rel:position position:chief_financial_officer ],
+        [ a rel:Employment ;
+            rel:organization org1:wingstop_beverages_inc ;
+            rel:position position:president ],
+        [ a rel:Employment ;
+            rel:organization org1:wingstop_gcm_llc ;
+            rel:position position:chief_financial_officer ],
+        [ a rel:Employment ;
+            rel:organization org1:wingstop_holdings_inc ;
+            rel:position position:chief_financial_officer ],
+        [ a rel:Employment ;
+            rel:organization org1:wingstop_inc ;
+            rel:position position:chief_financial_officer ] ;
+    rel:isEmployedBy org1:wingstop_beverages_ii_inc,
+        org1:wingstop_beverages_inc,
+        org1:wingstop_gcm_llc,
+        org1:wingstop_holdings_inc,
+        org1:wingstop_inc,
+        org1:wingstop_restaurants_inc .
+
+position:vice_president a base:Position ;
+    base:positionName "Vice President" ;
+    rdfs:subClassOf base:Person .
+
+org_role:lender rdfs:subClassOf base:Organization .
+
+org1:wingstop_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:michael_j_skipworth ;
+    rel:hasLocationAt loc:1012_e_hwy_80_suite_a_forney_tx_75126_kaufman_county,
+        loc:1152_n_buckner_blvd_ste_106_dallas_tx_75218_dallas_county,
+        loc:1251_northwest_hwy_ste_c_garland_tx_75041_dallas_county,
+        loc:1515_s_buckner_blvd_ste_247b_dallas_tx_75217_dallas_county,
+        loc:1801_east_chase_pkwy_ste_117_fort_worth_tx_76120_tarrant_county,
+        loc:237_ne_28th_st_fort_worth_tx_76164_tarrant_county,
+        loc:2802_n_shepherd_drste_400_houston_tx_77008_harris_county,
+        loc:3300_western_center_blvd_ste_114a_fort_worth_tx_76137_tarrant_county,
+        loc:5045_w_tropicana_ave_ste_110_las_vegas_nv_89103_clark_county,
+        loc:5501_lbj_freeway_5th_floor_dallas_tx_75240,
+        loc:5501_lbj_freeway_dallas_tx_75240_dallas_county,
+        loc:6760_abrams_rd_ste_119_dallas_tx_75231_dallas_county,
+        loc:7645_s_custer_road_ste_420_mckinney_tx_75070_collin_county,
+        loc:820_e_cartwright_rd_suite_130_mesquite_tx_75149_dallas_county,
+        loc:900_n_coit_rd_ste_2700_richardson_tx_75080_dallas_county,
+        loc:908_audelia_rd_ste_600_richardson_tx_75081_dallas_county,
+        loc:9208_e_r_l_thornton_fwy_ste_204_dallas_tx_75228_dallas_county .
+

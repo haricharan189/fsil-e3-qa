@@ -1,0 +1,372 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org1: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person: <http://example.org/person_name/> .
+@prefix position: <http://example.org/person_position/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+base:Location a rdfs:Class .
+
+base:Organization a rdfs:Class .
+
+base:Person a rdfs:Class .
+
+location_type:administrative_agents_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:administrative_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:ag_new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_management a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_services a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:assembly_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:business_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:cayman_islands_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:chief_executive_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:commercial_banking a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_customers_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:domestic_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:dublin_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:eurodollar_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:front_end_test_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:london_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:mexico_location_contract_manufacturing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:micro_building_and_corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:middle_market_servicing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:offsite_storage a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:opto_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:registered_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:rexford_industrial_realty_inc_11620_wilshire_boulevard_suite_1000_los_angeles_california_90025 a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:trade_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:zonal_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+org1:n a base:Organization .
+
+org1:wells_fargo_securities_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:joint_bookrunners,
+        org_role:joint_lead_arrangers .
+
+org_role:lenders rdfs:subClassOf base:Organization .
+
+loc:1615_brett_road_ops_3_new_castle_de_19720 a base:Location ;
+    rel:isLocationOf org1:citibank_na .
+
+loc:515_west_greens_road_suite_1200_houston_texas_77067_attention_general_counsel a base:Location ;
+    rel:isLocationOf org1:nabors_industries_inc .
+
+loc:one_penns_way_ops_ii_new_castle_de_19720 a base:Location ;
+    rel:isLocationOf org1:citibank_delaware .
+
+org1:citibank_delaware a base:Organization ;
+    rel:hasLocationAt loc:one_penns_way_ops_ii_new_castle_de_19720 .
+
+org_role:administrative_agent rdfs:subClassOf base:Organization .
+
+org_role:borrower rdfs:subClassOf base:Organization .
+
+org_role:holdings rdfs:subClassOf base:Organization .
+
+person:corbin_m_womac a base:Person ;
+    <http://example.org/isInstanceOf/> position:director ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:wells_fargo_bank_na ;
+            rel:position position:director ] ;
+    rel:isEmployedBy org1:wells_fargo_bank_na .
+
+person:ivan_davey a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:citibank_na ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:citibank_na .
+
+person:jay_fort a base:Person ;
+    <http://example.org/isInstanceOf/> position:senior_vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:hsbc_bank_usa_na ;
+            rel:position position:senior_vice_president ] ;
+    rel:isEmployedBy org1:hsbc_bank_usa_na .
+
+person:michael_j_niedermaier a base:Person ;
+    <http://example.org/isInstanceOf/> position:president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:canrig_drilling_technology_canada_ltd ;
+            rel:position position:president ] ;
+    rel:isEmployedBy org1:canrig_drilling_technology_canada_ltd .
+
+person:michael_king a base:Person ;
+    <http://example.org/isInstanceOf/> position:vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:morgan_stanley_senior_funding_inc ;
+            rel:position position:vice_president ] ;
+    rel:isEmployedBy org1:morgan_stanley_senior_funding_inc .
+
+person:thomas_manning a base:Person ;
+    <http://example.org/isInstanceOf/> position:authorized_signatory ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:goldman_sachs_bank_usa ;
+            rel:position position:authorized_signatory ] ;
+    rel:isEmployedBy org1:goldman_sachs_bank_usa .
+
+org1:canrig_drilling_technology_canada_ltd a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:michael_j_niedermaier .
+
+org1:goldman_sachs_bank_usa a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:thomas_manning .
+
+org1:hsbc_bank_usa_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:jay_fort .
+
+org1:morgan_stanley_senior_funding_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:michael_king .
+
+org1:nabors_global_holdings_limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:henricus_reindert_petrus_pollmann .
+
+org1:nabors_holdings_ltd a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:mark_d_andrews .
+
+org1:nabors_industries_ltd a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor,
+        org_role:holdings ;
+    rel:hasEmployee person:mark_d_andrews .
+
+org1:nabors_international_management_limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:mark_d_andrews .
+
+org1:nabors_lux_2 a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:henricus_reindert_petrus_pollmann .
+
+org1:nabors_lux_finance_1 a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:henricus_reindert_petrus_pollmann .
+
+org1:wells_fargo_bank_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lender ;
+    rel:hasEmployee person:corbin_m_womac .
+
+org_role:joint_bookrunners rdfs:subClassOf base:Organization .
+
+org_role:joint_lead_arrangers rdfs:subClassOf base:Organization .
+
+position:authorized_signatory a base:Position ;
+    base:positionName "Authorized Signatory" ;
+    rdfs:subClassOf base:Person .
+
+position:corporate_secretary a base:Position ;
+    base:positionName "Corporate Secretary" ;
+    rdfs:subClassOf base:Person .
+
+position:director a base:Position ;
+    base:positionName "Director" ;
+    rdfs:subClassOf base:Person .
+
+org1:citibank_na a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:administrative_agent,
+        org_role:joint_bookrunners,
+        org_role:joint_lead_arrangers,
+        org_role:lender ;
+    rel:hasEmployee person:ivan_davey ;
+    rel:hasLocationAt loc:1615_brett_road_ops_3_new_castle_de_19720 .
+
+person:henricus_reindert_petrus_pollmann a base:Person ;
+    <http://example.org/isInstanceOf/> position:class_a_manager ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:nabors_lux_2 ;
+            rel:position position:class_a_manager ],
+        [ a rel:Employment ;
+            rel:organization org1:nabors_lux_finance_1 ;
+            rel:position position:class_a_manager ],
+        [ a rel:Employment ;
+            rel:organization org1:nabors_global_holdings_limited ;
+            rel:position position:class_a_manager ] ;
+    rel:isEmployedBy org1:nabors_global_holdings_limited,
+        org1:nabors_lux_2,
+        org1:nabors_lux_finance_1 .
+
+person:mark_d_andrews a base:Person ;
+    <http://example.org/isInstanceOf/> position:corporate_secretary,
+        position:president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:nabors_industries_ltd ;
+            rel:position position:corporate_secretary ],
+        [ a rel:Employment ;
+            rel:organization org1:nabors_international_management_limited ;
+            rel:position position:president ],
+        [ a rel:Employment ;
+            rel:organization org1:nabors_holdings_ltd ;
+            rel:position position:president ] ;
+    rel:isEmployedBy org1:nabors_holdings_ltd,
+        org1:nabors_industries_ltd,
+        org1:nabors_international_management_limited .
+
+person:michael_rasmuson a base:Person ;
+    <http://example.org/isInstanceOf/> position:chief_compliance_officer,
+        position:general_counsel,
+        position:secretary,
+        position:senior_vice_president ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:nabors_alaska_drilling_inc ;
+            rel:position position:general_counsel ],
+        [ a rel:Employment ;
+            rel:organization org1:nabors_drilling_technologies_usa ;
+            rel:position position:secretary ],
+        [ a rel:Employment ;
+            rel:organization org1:nabors_drilling_holdings_inc ;
+            rel:position position:senior_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:nabors_industries_inc ;
+            rel:position position:senior_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:nabors_drilling_holdings_inc ;
+            rel:position position:chief_compliance_officer ],
+        [ a rel:Employment ;
+            rel:organization org1:nabors_drilling_technologies_usa ;
+            rel:position position:senior_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:nabors_industries_inc ;
+            rel:position position:secretary ],
+        [ a rel:Employment ;
+            rel:organization org1:nabors_alaska_drilling_inc ;
+            rel:position position:chief_compliance_officer ],
+        [ a rel:Employment ;
+            rel:organization org1:nabors_industries_inc ;
+            rel:position position:general_counsel ],
+        [ a rel:Employment ;
+            rel:organization org1:nabors_industries_inc ;
+            rel:position position:chief_compliance_officer ],
+        [ a rel:Employment ;
+            rel:organization org1:nabors_drilling_technologies_usa ;
+            rel:position position:chief_compliance_officer ],
+        [ a rel:Employment ;
+            rel:organization org1:nabors_alaska_drilling_inc ;
+            rel:position position:secretary ],
+        [ a rel:Employment ;
+            rel:organization org1:nabors_drilling_holdings_inc ;
+            rel:position position:general_counsel ],
+        [ a rel:Employment ;
+            rel:organization org1:nabors_drilling_technologies_usa ;
+            rel:position position:general_counsel ],
+        [ a rel:Employment ;
+            rel:organization org1:nabors_alaska_drilling_inc ;
+            rel:position position:senior_vice_president ],
+        [ a rel:Employment ;
+            rel:organization org1:nabors_drilling_holdings_inc ;
+            rel:position position:secretary ] ;
+    rel:isEmployedBy org1:nabors_alaska_drilling_inc,
+        org1:nabors_drilling_holdings_inc,
+        org1:nabors_drilling_technologies_usa,
+        org1:nabors_industries_inc .
+
+position:class_a_manager a base:Position ;
+    base:positionName "Class A Manager" ;
+    rdfs:subClassOf base:Person .
+
+position:vice_president a base:Position ;
+    base:positionName "Vice President" ;
+    rdfs:subClassOf base:Person .
+
+org1:nabors_alaska_drilling_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:michael_rasmuson .
+
+org1:nabors_drilling_holdings_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:michael_rasmuson .
+
+org1:nabors_drilling_technologies_usa a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantor ;
+    rel:hasEmployee person:michael_rasmuson .
+
+org_role:lender rdfs:subClassOf base:Organization .
+
+position:chief_compliance_officer a base:Position ;
+    base:positionName "Chief Compliance Officer" ;
+    rdfs:subClassOf base:Person .
+
+position:general_counsel a base:Position ;
+    base:positionName "General Counsel" ;
+    rdfs:subClassOf base:Person .
+
+position:president a base:Position ;
+    base:positionName "President" ;
+    rdfs:subClassOf base:Person .
+
+position:secretary a base:Position ;
+    base:positionName "Secretary" ;
+    rdfs:subClassOf base:Person .
+
+org1:nabors_industries_inc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:michael_rasmuson ;
+    rel:hasLocationAt loc:515_west_greens_road_suite_1200_houston_texas_77067_attention_general_counsel .
+
+position:senior_vice_president a base:Position ;
+    base:positionName "Senior Vice President" ;
+    rdfs:subClassOf base:Person .
+
+org_role:guarantor rdfs:subClassOf base:Organization .
+

@@ -1,0 +1,512 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+116,Who is the coo but not cfo of the company which is the the company in the agreement?,orit mizrachi,3,2,0
+116,Who is the coo but not chief financial officer of the company which is the the company in the agreement?,orit mizrachi,3,2,0
+116,Who is the cfo but not chief financial officer of the company which is the the company in the agreement?,venu rathi,3,2,0
+116,Who is the cfo but not coo of the company which is the the company in the agreement?,venu rathi,3,2,0
+116,Who is the chief financial officer but not cfo of the company which is the the company in the agreement?,venugopal rathi,3,2,0
+116,Who is the chief financial officer but not coo of the company which is the the company in the agreement?,venugopal rathi,3,2,0
+100,Who is the chief legal and administrative officer but not executive vice president of the company which is the borrower in the agreement?,dan johnston,3,2,0
+100,Who is the chief legal and administrative officer but not chief financial officer of the company which is the borrower in the agreement?,dan johnston,3,2,0
+100,Who is the vice president but not executive vice president of the company which is the borrower in the agreement?,dan johnston,3,2,0
+100,Who is the vice president but not chief financial officer of the company which is the borrower in the agreement?,dan johnston,3,2,0
+100,Who is the executive vice president but not chief legal and administrative officer of the company which is the borrower in the agreement?,peter kuipers,3,2,0
+100,Who is the executive vice president but not vice president of the company which is the borrower in the agreement?,peter kuipers,3,2,0
+100,Who is the chief financial officer but not chief legal and administrative officer of the company which is the borrower in the agreement?,peter kuipers,3,2,0
+100,Who is the chief financial officer but not vice president of the company which is the borrower in the agreement?,peter kuipers,3,2,0
+139,Who is the director but not managing director of the company which is the lender in the agreement?,kestrina budina,3,2,0
+139,Who is the managing director but not director of the company which is the lender in the agreement?,tanya crossley,3,2,0
+111,Who is the head of financial institutions group but not head of corporate banking of the company which is the lender in the agreement?,louise twiss west,3,2,0
+111,Who is the head of corporate banking but not head of financial institutions group of the company which is the lender in the agreement?,neville grant,3,2,0
+10,Who is the authorized signatory but not manager agency of the company which is the lender issuing bank in the agreement?,alex figueroa,3,2,0
+10,Who is the manager agency but not authorized signatory of the company which is the lender issuing bank in the agreement?,susan khokher,3,2,0
+10,Who is the authorized signatory but not manager agency of the company which is the administrative agent in the agreement?,alex figueroa,3,2,0
+10,Who is the manager agency but not authorized signatory of the company which is the administrative agent in the agreement?,susan khokher,3,2,0
+38,Who is the managing director but not director of the company which is the lender in the agreement?,ann rhoads,3,2,0
+38,Who is the director but not managing director of the company which is the lender in the agreement?,sriram chandrasekaran,3,2,0
+38,Who is the vice president but not managing director of the company which is the lender in the agreement?,ming k chu,3,2,0
+38,Who is the managing director but not vice president of the company which is the lender in the agreement?,ross levitsky,3,2,0
+38,Who is the vice president but not senior vice president of the company which is the lender in the agreement?,jamie grubb,3,2,0
+38,Who is the senior vice president but not vice president of the company which is the lender in the agreement?,joe hykle,3,2,0
+38,Who is the associate director but not director of the company which is the lender in the agreement?,houssem daly,3,2,0
+38,Who is the director but not associate director of the company which is the lender in the agreement?,kenneth chin,3,2,0
+12,Who is the fvp head of credit but not relationship manager of the company which is the lender in the agreement?,francesco di mario,3,2,0
+12,Who is the relationship manager but not fvp head of credit of the company which is the lender in the agreement?,lorenzo rodino,3,2,0
+12,Who is the managing director but not director of the company which is the lender in the agreement?,luca balestra,3,2,0
+12,Who is the director but not managing director of the company which is the lender in the agreement?,thilo huber,3,2,0
+12,Who is the global treasurer but not executive vice president of the company which is the borrower in the agreement?,aidan clare,3,2,0
+12,Who is the global treasurer but not vice president global treasury of the company which is the borrower in the agreement?,aidan clare,3,2,0
+12,Who is the global treasurer but not general counsel of the company which is the borrower in the agreement?,aidan clare,3,2,0
+12,Who is the global treasurer but not global chief administrative officer of the company which is the borrower in the agreement?,aidan clare,3,2,0
+12,Who is the global treasurer but not senior managerglobal treasury of the company which is the borrower in the agreement?,aidan clare,3,2,0
+12,Who is the senior vice president but not executive vice president of the company which is the borrower in the agreement?,aidan clare,3,2,0
+12,Who is the senior vice president but not vice president global treasury of the company which is the borrower in the agreement?,aidan clare,3,2,0
+12,Who is the senior vice president but not general counsel of the company which is the borrower in the agreement?,aidan clare,3,2,0
+12,Who is the senior vice president but not global chief administrative officer of the company which is the borrower in the agreement?,aidan clare,3,2,0
+12,Who is the senior vice president but not senior managerglobal treasury of the company which is the borrower in the agreement?,aidan clare,3,2,0
+12,Who is the vice president global treasury but not executive vice president of the company which is the borrower in the agreement?,gráinne kelly,3,2,0
+12,Who is the vice president global treasury but not global treasurer of the company which is the borrower in the agreement?,gráinne kelly,3,2,0
+12,Who is the vice president global treasury but not senior vice president of the company which is the borrower in the agreement?,gráinne kelly,3,2,0
+12,Who is the vice president global treasury but not general counsel of the company which is the borrower in the agreement?,gráinne kelly,3,2,0
+12,Who is the vice president global treasury but not global chief administrative officer of the company which is the borrower in the agreement?,gráinne kelly,3,2,0
+12,Who is the vice president global treasury but not senior managerglobal treasury of the company which is the borrower in the agreement?,gráinne kelly,3,2,0
+12,Who is the executive vice president but not vice president global treasury of the company which is the borrower in the agreement?,marco pagni,3,2,0
+12,Who is the executive vice president but not global treasurer of the company which is the borrower in the agreement?,marco pagni,3,2,0
+12,Who is the executive vice president but not senior vice president of the company which is the borrower in the agreement?,marco pagni,3,2,0
+12,Who is the executive vice president but not senior managerglobal treasury of the company which is the borrower in the agreement?,marco pagni,3,2,0
+12,Who is the general counsel but not vice president global treasury of the company which is the borrower in the agreement?,marco pagni,3,2,0
+12,Who is the general counsel but not global treasurer of the company which is the borrower in the agreement?,marco pagni,3,2,0
+12,Who is the general counsel but not senior vice president of the company which is the borrower in the agreement?,marco pagni,3,2,0
+12,Who is the general counsel but not senior managerglobal treasury of the company which is the borrower in the agreement?,marco pagni,3,2,0
+12,Who is the global chief administrative officer but not vice president global treasury of the company which is the borrower in the agreement?,marco pagni,3,2,0
+12,Who is the global chief administrative officer but not global treasurer of the company which is the borrower in the agreement?,marco pagni,3,2,0
+12,Who is the global chief administrative officer but not senior vice president of the company which is the borrower in the agreement?,marco pagni,3,2,0
+12,Who is the global chief administrative officer but not senior managerglobal treasury of the company which is the borrower in the agreement?,marco pagni,3,2,0
+12,Who is the senior managerglobal treasury but not executive vice president of the company which is the borrower in the agreement?,sara la berg,3,2,0
+12,Who is the senior managerglobal treasury but not vice president global treasury of the company which is the borrower in the agreement?,sara la berg,3,2,0
+12,Who is the senior managerglobal treasury but not global treasurer of the company which is the borrower in the agreement?,sara la berg,3,2,0
+12,Who is the senior managerglobal treasury but not senior vice president of the company which is the borrower in the agreement?,sara la berg,3,2,0
+12,Who is the senior managerglobal treasury but not general counsel of the company which is the borrower in the agreement?,sara la berg,3,2,0
+12,Who is the senior managerglobal treasury but not global chief administrative officer of the company which is the borrower in the agreement?,sara la berg,3,2,0
+113,Who is the chief executive officer but not manager of the company which is the borrowers in the agreement?,michael doar,3,2,0
+113,Who is the chief executive officer but not managing director a and authorized representative of the company which is the borrowers in the agreement?,michael doar,3,2,0
+113,Who is the chief executive officer but not secretary treasurer of the company which is the borrowers in the agreement?,michael doar,3,2,0
+113,Who is the manager but not chief executive officer of the company which is the borrowers in the agreement?,sonja k mcclelland,3,2,0
+113,Who is the managing director a and authorized representative but not chief executive officer of the company which is the borrowers in the agreement?,sonja k mcclelland,3,2,0
+113,Who is the secretary treasurer but not chief executive officer of the company which is the borrowers in the agreement?,sonja k mcclelland,3,2,0
+106,Who is the associate director but not director of the company which is the lender in the agreement?,joselin fernandes,3,2,0
+106,Who is the director but not associate director of the company which is the lender in the agreement?,lana gifas,3,2,0
+106,Who is the manager agency but not authorized signatory of the company which is the collateral trustee in the agreement?,ann hurley,3,2,0
+106,Who is the authorized signatory but not manager agency of the company which is the collateral trustee in the agreement?,thomas casey,3,2,0
+106,Who is the manager agency but not authorized signatory of the company which is the lender in the agreement?,ann hurley,3,2,0
+106,Who is the authorized signatory but not manager agency of the company which is the lender in the agreement?,thomas casey,3,2,0
+106,Who is the manager agency but not authorized signatory of the company which is the administrative agent in the agreement?,ann hurley,3,2,0
+106,Who is the authorized signatory but not manager agency of the company which is the administrative agent in the agreement?,thomas casey,3,2,0
+48,Who is the treasurer but not corporate secretary of the company which is the borrower in the agreement?,jonathan rose,3,2,0
+48,Who is the treasurer but not vice president law and assistant of the company which is the borrower in the agreement?,jonathan rose,3,2,0
+48,Who is the treasurer but not vice president us law of the company which is the borrower in the agreement?,jonathan rose,3,2,0
+48,Who is the corporate secretary but not treasurer of the company which is the borrower in the agreement?,chris kaitson,3,2,0
+48,Who is the vice president us law but not treasurer of the company which is the borrower in the agreement?,chris kaitson,3,2,0
+48,Who is the vice president law and assistant but not treasurer of the company which is the borrower in the agreement?,chris kaitson,3,2,0
+148,Who is the vice president but not director of the company which is the lender in the agreement?,liliana claar,3,2,0
+148,Who is the director but not vice president of the company which is the lender in the agreement?,mukesh singh,3,2,0
+148,Who is the vice president but not director of the company which is the administrative agent in the agreement?,liliana claar,3,2,0
+148,Who is the director but not vice president of the company which is the administrative agent in the agreement?,mukesh singh,3,2,0
+148,Who is the vice president but not managing director of the company which is the lender in the agreement?,karim remtoula,3,2,0
+148,Who is the managing director but not vice president of the company which is the lender in the agreement?,p nicholas rogers,3,2,0
+148,Who is the vice president but not managing director of the company which is the co syndication agents in the agreement?,karim remtoula,3,2,0
+148,Who is the managing director but not vice president of the company which is the co syndication agents in the agreement?,p nicholas rogers,3,2,0
+61,Who is the managing director but not vice president of the company which is the lender in the agreement?,gregory paul,3,2,0
+61,Who is the vice president but not managing director of the company which is the lender in the agreement?,liz cheng,3,2,0
+61,Who is the managing director but not vice president of the company which is the syndication agent in the agreement?,gregory paul,3,2,0
+61,Who is the vice president but not managing director of the company which is the syndication agent in the agreement?,liz cheng,3,2,0
+61,Who is the vice president but not director of the company which is the lender in the agreement?,marko lukin,3,2,0
+61,Who is the director but not vice president of the company which is the lender in the agreement?,ming k chu,3,2,0
+99,Who is the managing director but not executive director of the company which is the lender in the agreement?,adriaan weststrate,3,2,0
+99,Who is the executive director but not managing director of the company which is the lender in the agreement?,michael t harder,3,2,0
+166,Who is the chief executive but not head cbo of the company which is the lender in the agreement?,rachit bhatia,3,2,0
+166,Who is the head cbo but not chief executive of the company which is the lender in the agreement?,sandeep patnaik,3,2,0
+166,Who is the chief executive but not head cbo of the company which is the lead arrangers in the agreement?,rachit bhatia,3,2,0
+166,Who is the head cbo but not chief executive of the company which is the lead arrangers in the agreement?,sandeep patnaik,3,2,0
+166,Who is the chief executive but not head cbo of the company which is the bookrunners in the agreement?,rachit bhatia,3,2,0
+166,Who is the head cbo but not chief executive of the company which is the bookrunners in the agreement?,sandeep patnaik,3,2,0
+166,Who is the senior rm trade and export finance but not head corporate and investment banking of the company which is the lender in the agreement?,nishant kumar,3,2,0
+166,Who is the head corporate and investment banking but not senior rm trade and export finance of the company which is the lender in the agreement?,vikashh mehta,3,2,0
+166,Who is the director credit risk management but not managing director head of credit and trading risk of the company which is the lender in the agreement?,lisa kwok,3,2,0
+166,Who is the managing director head of credit and trading risk but not director credit risk management of the company which is the lender in the agreement?,richard cox,3,2,0
+166,Who is the joint managing director but not senior executive vice president of the company which is the lender in the agreement?,dipak gupta,3,2,0
+166,Who is the senior executive vice president but not joint managing director of the company which is the lender in the agreement?,rajeev mohan,3,2,0
+166,Who is the joint managing director but not senior executive vice president of the company which is the bookrunners in the agreement?,dipak gupta,3,2,0
+166,Who is the senior executive vice president but not joint managing director of the company which is the bookrunners in the agreement?,rajeev mohan,3,2,0
+166,Who is the sr legal manager but not attorney of the company which is the guarantor in the agreement?,shannon curran,3,2,0
+166,Who is the sr legal manager but not person authorized by virtue of power of attorney of the company which is the guarantor in the agreement?,shannon curran,3,2,0
+166,Who is the sr legal manager but not attorney in fact of the company which is the guarantor in the agreement?,shannon curran,3,2,0
+166,Who is the sr legal manager but not authorized signatory of the company which is the guarantor in the agreement?,shannon curran,3,2,0
+166,Who is the attorney but not sr legal manager of the company which is the guarantor in the agreement?,chirag shah,3,2,0
+166,Who is the person authorized by virtue of power of attorney but not sr legal manager of the company which is the guarantor in the agreement?,chirag shah,3,2,0
+166,Who is the attorney in fact but not sr legal manager of the company which is the guarantor in the agreement?,chirag shah,3,2,0
+166,Who is the authorized signatory but not sr legal manager of the company which is the guarantor in the agreement?,chirag shah,3,2,0
+166,Who is the manager crc but not legal counsel of the company which is the lender in the agreement?,james perkins,3,2,0
+166,Who is the manager crc but not head crc of the company which is the lender in the agreement?,james perkins,3,2,0
+166,Who is the head crc but not legal counsel of the company which is the lender in the agreement?,simon williams,3,2,0
+166,Who is the head crc but not manager crc of the company which is the lender in the agreement?,simon williams,3,2,0
+166,Who is the legal counsel but not manager crc of the company which is the lender in the agreement?,valdeep singh,3,2,0
+166,Who is the legal counsel but not head crc of the company which is the lender in the agreement?,valdeep singh,3,2,0
+166,Who is the manager crc but not legal counsel of the company which is the bookrunners in the agreement?,james perkins,3,2,0
+166,Who is the manager crc but not head crc of the company which is the bookrunners in the agreement?,james perkins,3,2,0
+166,Who is the head crc but not legal counsel of the company which is the bookrunners in the agreement?,simon williams,3,2,0
+166,Who is the head crc but not manager crc of the company which is the bookrunners in the agreement?,simon williams,3,2,0
+166,Who is the legal counsel but not manager crc of the company which is the bookrunners in the agreement?,valdeep singh,3,2,0
+166,Who is the legal counsel but not head crc of the company which is the bookrunners in the agreement?,valdeep singh,3,2,0
+166,Who is the manager crc but not legal counsel of the company which is the administrative agent in the agreement?,james perkins,3,2,0
+166,Who is the manager crc but not head crc of the company which is the administrative agent in the agreement?,james perkins,3,2,0
+166,Who is the head crc but not legal counsel of the company which is the administrative agent in the agreement?,simon williams,3,2,0
+166,Who is the head crc but not manager crc of the company which is the administrative agent in the agreement?,simon williams,3,2,0
+166,Who is the legal counsel but not manager crc of the company which is the administrative agent in the agreement?,valdeep singh,3,2,0
+166,Who is the legal counsel but not head crc of the company which is the administrative agent in the agreement?,valdeep singh,3,2,0
+166,Who is the manager crc but not legal counsel of the company which is the collateral agent in the agreement?,james perkins,3,2,0
+166,Who is the manager crc but not head crc of the company which is the collateral agent in the agreement?,james perkins,3,2,0
+166,Who is the head crc but not legal counsel of the company which is the collateral agent in the agreement?,simon williams,3,2,0
+166,Who is the head crc but not manager crc of the company which is the collateral agent in the agreement?,simon williams,3,2,0
+166,Who is the legal counsel but not manager crc of the company which is the collateral agent in the agreement?,valdeep singh,3,2,0
+166,Who is the legal counsel but not head crc of the company which is the collateral agent in the agreement?,valdeep singh,3,2,0
+9,Who is the director but not associate of the company which is the lender in the agreement?,mikhail faybusovich,3,2,0
+9,Who is the associate but not director of the company which is the lender in the agreement?,wei jen yuan,3,2,0
+170,Who is the executive director but not vice president of the company which is the lender in the agreement?,gillian dickson,3,2,0
+170,Who is the vice president but not executive director of the company which is the lender in the agreement?,matthew gregg,3,2,0
+165,Who is the vice president but not managing director of the company which is the lender in the agreement?,pacella lehane,3,2,0
+165,Who is the managing director but not vice president of the company which is the lender in the agreement?,peter duncan,3,2,0
+165,Who is the vice president but not director of the company which is the lender in the agreement?,bridgett j manduk mowry,3,2,0
+165,Who is the director but not vice president of the company which is the lender in the agreement?,j casey cosgrove,3,2,0
+165,Who is the vice president but not director of the company which is the administrative agent in the agreement?,bridgett j manduk mowry,3,2,0
+165,Who is the director but not vice president of the company which is the administrative agent in the agreement?,j casey cosgrove,3,2,0
+165,Who is the corporate secretary but not treasurer of the company which is the company in the agreement?,colleen batcheler,3,2,0
+165,Who is the corporate secretary but not investor relations officer of the company which is the company in the agreement?,colleen batcheler,3,2,0
+165,Who is the corporate secretary but not vice president of the company which is the company in the agreement?,colleen batcheler,3,2,0
+165,Who is the general counsel but not treasurer of the company which is the company in the agreement?,colleen batcheler,3,2,0
+165,Who is the general counsel but not investor relations officer of the company which is the company in the agreement?,colleen batcheler,3,2,0
+165,Who is the general counsel but not vice president of the company which is the company in the agreement?,colleen batcheler,3,2,0
+165,Who is the investor relations officer but not general counsel of the company which is the company in the agreement?,johan nystedt,3,2,0
+165,Who is the investor relations officer but not corporate secretary of the company which is the company in the agreement?,johan nystedt,3,2,0
+165,Who is the treasurer but not general counsel of the company which is the company in the agreement?,johan nystedt,3,2,0
+165,Who is the treasurer but not corporate secretary of the company which is the company in the agreement?,johan nystedt,3,2,0
+165,Who is the vice president but not general counsel of the company which is the company in the agreement?,johan nystedt,3,2,0
+165,Who is the vice president but not corporate secretary of the company which is the company in the agreement?,johan nystedt,3,2,0
+165,Who is the corporate secretary but not treasurer of the company which is the lenders in the agreement?,colleen batcheler,3,2,0
+165,Who is the corporate secretary but not investor relations officer of the company which is the lenders in the agreement?,colleen batcheler,3,2,0
+165,Who is the corporate secretary but not vice president of the company which is the lenders in the agreement?,colleen batcheler,3,2,0
+165,Who is the general counsel but not treasurer of the company which is the lenders in the agreement?,colleen batcheler,3,2,0
+165,Who is the general counsel but not investor relations officer of the company which is the lenders in the agreement?,colleen batcheler,3,2,0
+165,Who is the general counsel but not vice president of the company which is the lenders in the agreement?,colleen batcheler,3,2,0
+165,Who is the investor relations officer but not general counsel of the company which is the lenders in the agreement?,johan nystedt,3,2,0
+165,Who is the investor relations officer but not corporate secretary of the company which is the lenders in the agreement?,johan nystedt,3,2,0
+165,Who is the treasurer but not general counsel of the company which is the lenders in the agreement?,johan nystedt,3,2,0
+165,Who is the treasurer but not corporate secretary of the company which is the lenders in the agreement?,johan nystedt,3,2,0
+165,Who is the vice president but not general counsel of the company which is the lenders in the agreement?,johan nystedt,3,2,0
+165,Who is the vice president but not corporate secretary of the company which is the lenders in the agreement?,johan nystedt,3,2,0
+169,Who is the vice president but not executive director of the company which is the lender in the agreement?,jeff bliss,3,2,0
+169,Who is the executive director but not vice president of the company which is the lender in the agreement?,timothy j devane,3,2,0
+169,Who is the vice president but not executive director of the company which is the arranger in the agreement?,jeff bliss,3,2,0
+169,Who is the executive director but not vice president of the company which is the arranger in the agreement?,timothy j devane,3,2,0
+169,Who is the vice president but not executive director of the company which is the agent in the agreement?,jeff bliss,3,2,0
+169,Who is the executive director but not vice president of the company which is the agent in the agreement?,timothy j devane,3,2,0
+97,Who is the vice president but not managing director of the company which is the lender in the agreement?,dague retzlaff,3,2,0
+97,Who is the vice president but not chief counsel hfs real estate of the company which is the lender in the agreement?,dague retzlaff,3,2,0
+97,Who is the authorized signatory but not managing director of the company which is the lender in the agreement?,dague retzlaff,3,2,0
+97,Who is the authorized signatory but not chief counsel hfs real estate of the company which is the lender in the agreement?,dague retzlaff,3,2,0
+97,Who is the chief counsel hfs real estate but not managing director of the company which is the lender in the agreement?,diana pennington,3,2,0
+97,Who is the chief counsel hfs real estate but not vice president of the company which is the lender in the agreement?,diana pennington,3,2,0
+97,Who is the chief counsel hfs real estate but not authorized signatory of the company which is the lender in the agreement?,diana pennington,3,2,0
+97,Who is the managing director but not chief counsel hfs real estate of the company which is the lender in the agreement?,jeffrey m muchmore,3,2,0
+97,Who is the managing director but not vice president of the company which is the lender in the agreement?,jeffrey m muchmore,3,2,0
+97,Who is the managing director but not authorized signatory of the company which is the lender in the agreement?,jeffrey m muchmore,3,2,0
+97,Who is the vice president but not managing director of the company which is the administrative agent in the agreement?,dague retzlaff,3,2,0
+97,Who is the vice president but not chief counsel hfs real estate of the company which is the administrative agent in the agreement?,dague retzlaff,3,2,0
+97,Who is the authorized signatory but not managing director of the company which is the administrative agent in the agreement?,dague retzlaff,3,2,0
+97,Who is the authorized signatory but not chief counsel hfs real estate of the company which is the administrative agent in the agreement?,dague retzlaff,3,2,0
+97,Who is the chief counsel hfs real estate but not managing director of the company which is the administrative agent in the agreement?,diana pennington,3,2,0
+97,Who is the chief counsel hfs real estate but not vice president of the company which is the administrative agent in the agreement?,diana pennington,3,2,0
+97,Who is the chief counsel hfs real estate but not authorized signatory of the company which is the administrative agent in the agreement?,diana pennington,3,2,0
+97,Who is the managing director but not chief counsel hfs real estate of the company which is the administrative agent in the agreement?,jeffrey m muchmore,3,2,0
+97,Who is the managing director but not vice president of the company which is the administrative agent in the agreement?,jeffrey m muchmore,3,2,0
+97,Who is the managing director but not authorized signatory of the company which is the administrative agent in the agreement?,jeffrey m muchmore,3,2,0
+83,Who is the vp credit and documentation but not corporate banking directo of the company which is the lender in the agreement?,ivan vera,3,2,0
+83,Who is the corporate banking directo but not vp credit and documentation of the company which is the lender in the agreement?,juan segundo,3,2,0
+83,Who is the vice president but not director of the company which is the lender in the agreement?,charles de clapiers,3,2,0
+83,Who is the director but not vice president of the company which is the lender in the agreement?,todd rodgers,3,2,0
+83,Who is the associate director but not credit documentation manager of the company which is the lender in the agreement?,johanna minaya,3,2,0
+83,Who is the credit documentation manager but not associate director of the company which is the lender in the agreement?,robert k reddington,3,2,0
+83,Who is the svp and coo but not svp of the company which is the lender in the agreement?,danny leung,3,2,0
+83,Who is the svp but not svp and coo of the company which is the lender in the agreement?,james hua,3,2,0
+83,Who is the general counsel but not chief financial officer of the company which is the us borrower in the agreement?,michael ray,3,2,0
+83,Who is the senior vice president but not chief financial officer of the company which is the us borrower in the agreement?,michael ray,3,2,0
+83,Who is the secretary but not chief financial officer of the company which is the us borrower in the agreement?,michael ray,3,2,0
+83,Who is the chief financial officer but not general counsel of the company which is the us borrower in the agreement?,tim leyden,3,2,0
+83,Who is the chief financial officer but not senior vice president of the company which is the us borrower in the agreement?,tim leyden,3,2,0
+83,Who is the chief financial officer but not secretary of the company which is the us borrower in the agreement?,tim leyden,3,2,0
+83,Who is the chief financial officer but not general counsel of the company which is the us borrower in the agreement?,timothy leyden,3,2,0
+83,Who is the chief financial officer but not senior vice president of the company which is the us borrower in the agreement?,timothy leyden,3,2,0
+83,Who is the chief financial officer but not secretary of the company which is the us borrower in the agreement?,timothy leyden,3,2,0
+83,Who is the general counsel but not chief financial officer of the company which is the cayman borrower in the agreement?,michael ray,3,2,0
+83,Who is the senior vice president but not chief financial officer of the company which is the cayman borrower in the agreement?,michael ray,3,2,0
+83,Who is the secretary but not chief financial officer of the company which is the cayman borrower in the agreement?,michael ray,3,2,0
+83,Who is the chief financial officer but not general counsel of the company which is the cayman borrower in the agreement?,tim leyden,3,2,0
+83,Who is the chief financial officer but not senior vice president of the company which is the cayman borrower in the agreement?,tim leyden,3,2,0
+83,Who is the chief financial officer but not secretary of the company which is the cayman borrower in the agreement?,tim leyden,3,2,0
+83,Who is the chief financial officer but not general counsel of the company which is the cayman borrower in the agreement?,timothy leyden,3,2,0
+83,Who is the chief financial officer but not senior vice president of the company which is the cayman borrower in the agreement?,timothy leyden,3,2,0
+83,Who is the chief financial officer but not secretary of the company which is the cayman borrower in the agreement?,timothy leyden,3,2,0
+142,Who is the senior financing manager but not financing manager of the company which is the lender in the agreement?,martin eyok,3,2,0
+142,Who is the financing manager but not senior financing manager of the company which is the lender in the agreement?,raj acharya,3,2,0
+142,Who is the director but not managing director of the company which is the lender in the agreement?,anar ramji,3,2,0
+142,Who is the managing director but not director of the company which is the lender in the agreement?,randy geislinger,3,2,0
+142,Who is the director but not managing director of the company which is the lender in the agreement?,gordon yip,3,2,0
+142,Who is the managing director but not director of the company which is the lender in the agreement?,jeff ferrell,3,2,0
+142,Who is the associate but not director of the company which is the lender in the agreement?,jonathan leach,3,2,0
+142,Who is the director but not associate of the company which is the lender in the agreement?,michael linder,3,2,0
+142,Who is the corporate secretary but not principal financial officer of the company which is the borrower in the agreement?,jon a dobson,3,2,0
+142,Who is the corporate secretary but not controller of the company which is the borrower in the agreement?,jon a dobson,3,2,0
+142,Who is the principal financial officer but not corporate secretary of the company which is the borrower in the agreement?,nathaniel a brown,3,2,0
+142,Who is the controller but not corporate secretary of the company which is the borrower in the agreement?,nathaniel a brown,3,2,0
+142,Who is the corporate secretary but not treasurer of the company which is the guarantor in the agreement?,christine r johnston,3,2,0
+142,Who is the corporate secretary but not vice president finance of the company which is the guarantor in the agreement?,christine r johnston,3,2,0
+142,Who is the vice president law but not treasurer of the company which is the guarantor in the agreement?,christine r johnston,3,2,0
+142,Who is the vice president law but not vice president finance of the company which is the guarantor in the agreement?,christine r johnston,3,2,0
+142,Who is the treasurer but not corporate secretary of the company which is the guarantor in the agreement?,joel e hunter,3,2,0
+142,Who is the treasurer but not vice president law of the company which is the guarantor in the agreement?,joel e hunter,3,2,0
+142,Who is the vice president finance but not corporate secretary of the company which is the guarantor in the agreement?,joel e hunter,3,2,0
+142,Who is the vice president finance but not vice president law of the company which is the guarantor in the agreement?,joel e hunter,3,2,0
+156,Who is the vice president but not director of the company which is the issuing bank in the agreement?,christopher cassidy,3,2,0
+156,Who is the director but not vice president of the company which is the issuing bank in the agreement?,guelay mese,3,2,0
+156,Who is the vice president but not director of the company which is the bookrunners in the agreement?,christopher cassidy,3,2,0
+156,Who is the director but not vice president of the company which is the bookrunners in the agreement?,guelay mese,3,2,0
+156,Who is the vice president but not director of the company which is the lender in the agreement?,christopher cassidy,3,2,0
+156,Who is the director but not vice president of the company which is the lender in the agreement?,guelay mese,3,2,0
+156,Who is the vice president but not director of the company which is the joint bookrunners in the agreement?,christopher cassidy,3,2,0
+156,Who is the director but not vice president of the company which is the joint bookrunners in the agreement?,guelay mese,3,2,0
+156,Who is the vice president but not director of the company which is the joint lead arrangers in the agreement?,christopher cassidy,3,2,0
+156,Who is the director but not vice president of the company which is the joint lead arrangers in the agreement?,guelay mese,3,2,0
+156,Who is the associate but not vice president of the company which is the lender in the agreement?,jessica lutrario,3,2,0
+156,Who is the vice president but not associate of the company which is the lender in the agreement?,philip tancorra,3,2,0
+94,Who is the managing director but not vice president of the company which is the lender in the agreement?,edward t crook,3,2,0
+94,Who is the vice president but not managing director of the company which is the lender in the agreement?,j stéphane lautner,3,2,0
+94,Who is the managing director but not vice president of the company which is the agent in the agreement?,edward t crook,3,2,0
+94,Who is the vice president but not managing director of the company which is the agent in the agreement?,j stéphane lautner,3,2,0
+57,Who is the director but not vice president of the company which is the lender in the agreement?,john w deegan,3,2,0
+57,Who is the vice president but not director of the company which is the lender in the agreement?,robert sullivan,3,2,0
+57,Who is the associate director but not managing director of the company which is the lender in the agreement?,betsy briggs,3,2,0
+57,Who is the managing director but not associate director of the company which is the lender in the agreement?,julien tizorin,3,2,0
+57,Who is the director but not vice president of the company which is the issuer in the agreement?,ming k chu,3,2,0
+57,Who is the vice president but not director of the company which is the issuer in the agreement?,virginia cosenza,3,2,0
+57,Who is the director but not vice president of the company which is the swing line lender in the agreement?,ming k chu,3,2,0
+57,Who is the vice president but not director of the company which is the swing line lender in the agreement?,virginia cosenza,3,2,0
+47,Who is the senior vice president but not vice president of the company which is the lender in the agreement?,kristie li,3,2,0
+47,Who is the vice president but not senior vice president of the company which is the lender in the agreement?,philip f kurpiewski,3,2,0
+90,Who is the managing director but not director of the company which is the lender in the agreement?,michael pearce,3,2,0
+90,Who is the director but not managing director of the company which is the lender in the agreement?,todd grossnickle,3,2,0
+90,Who is the director but not managing director of the company which is the lender in the agreement?,brad matthews,3,2,0
+90,Who is the managing director but not director of the company which is the lender in the agreement?,kaye ea,3,2,0
+90,Who is the managing director but not director of the company which is the lender in the agreement?,barry fehily,3,2,0
+90,Who is the director but not managing director of the company which is the lender in the agreement?,sean hassett,3,2,0
+84,Who is the servicing officer but not manager of the company which is the lender in the agreement?,audrey pishnery,3,2,0
+84,Who is the servicing officer but not vice president of the company which is the lender in the agreement?,audrey pishnery,3,2,0
+84,Who is the manager but not vice president of the company which is the lender in the agreement?,elsa obrien,3,2,0
+84,Who is the manager but not servicing officer of the company which is the lender in the agreement?,elsa obrien,3,2,0
+84,Who is the vice president but not manager of the company which is the lender in the agreement?,laura conway,3,2,0
+84,Who is the vice president but not servicing officer of the company which is the lender in the agreement?,laura conway,3,2,0
+84,Who is the servicing officer but not manager of the company which is the l c issuer in the agreement?,audrey pishnery,3,2,0
+84,Who is the servicing officer but not vice president of the company which is the l c issuer in the agreement?,audrey pishnery,3,2,0
+84,Who is the manager but not vice president of the company which is the l c issuer in the agreement?,elsa obrien,3,2,0
+84,Who is the manager but not servicing officer of the company which is the l c issuer in the agreement?,elsa obrien,3,2,0
+84,Who is the vice president but not manager of the company which is the l c issuer in the agreement?,laura conway,3,2,0
+84,Who is the vice president but not servicing officer of the company which is the l c issuer in the agreement?,laura conway,3,2,0
+84,Who is the servicing officer but not manager of the company which is the lc issuer in the agreement?,audrey pishnery,3,2,0
+84,Who is the servicing officer but not vice president of the company which is the lc issuer in the agreement?,audrey pishnery,3,2,0
+84,Who is the manager but not vice president of the company which is the lc issuer in the agreement?,elsa obrien,3,2,0
+84,Who is the manager but not servicing officer of the company which is the lc issuer in the agreement?,elsa obrien,3,2,0
+84,Who is the vice president but not manager of the company which is the lc issuer in the agreement?,laura conway,3,2,0
+84,Who is the vice president but not servicing officer of the company which is the lc issuer in the agreement?,laura conway,3,2,0
+84,Who is the servicing officer but not manager of the company which is the administrative agent in the agreement?,audrey pishnery,3,2,0
+84,Who is the servicing officer but not vice president of the company which is the administrative agent in the agreement?,audrey pishnery,3,2,0
+84,Who is the manager but not vice president of the company which is the administrative agent in the agreement?,elsa obrien,3,2,0
+84,Who is the manager but not servicing officer of the company which is the administrative agent in the agreement?,elsa obrien,3,2,0
+84,Who is the vice president but not manager of the company which is the administrative agent in the agreement?,laura conway,3,2,0
+84,Who is the vice president but not servicing officer of the company which is the administrative agent in the agreement?,laura conway,3,2,0
+84,Who is the servicing officer but not manager of the company which is the swingline lender in the agreement?,audrey pishnery,3,2,0
+84,Who is the servicing officer but not vice president of the company which is the swingline lender in the agreement?,audrey pishnery,3,2,0
+84,Who is the manager but not vice president of the company which is the swingline lender in the agreement?,elsa obrien,3,2,0
+84,Who is the manager but not servicing officer of the company which is the swingline lender in the agreement?,elsa obrien,3,2,0
+84,Who is the vice president but not manager of the company which is the swingline lender in the agreement?,laura conway,3,2,0
+84,Who is the vice president but not servicing officer of the company which is the swingline lender in the agreement?,laura conway,3,2,0
+52,Who is the treasurer but not executive vice president of the company which is the borrower in the agreement?,charles r conradi,3,2,0
+52,Who is the vice president of tax but not executive vice president of the company which is the borrower in the agreement?,charles r conradi,3,2,0
+52,Who is the executive vice president but not treasurer of the company which is the borrower in the agreement?,laura stein,3,2,0
+52,Who is the executive vice president but not vice president of tax of the company which is the borrower in the agreement?,laura stein,3,2,0
+44,Who is the senior vice president but not vice president of the company which is the swing line lender lender in the agreement?,john m hall,3,2,0
+44,Who is the vice president but not senior vice president of the company which is the swing line lender lender in the agreement?,maria a mcclain,3,2,0
+44,Who is the senior vice president but not vice president of the company which is the l c issuer in the agreement?,john m hall,3,2,0
+44,Who is the vice president but not senior vice president of the company which is the l c issuer in the agreement?,maria a mcclain,3,2,0
+44,Who is the senior vice president but not vice president of the company which is the administrative agent in the agreement?,john m hall,3,2,0
+44,Who is the vice president but not senior vice president of the company which is the administrative agent in the agreement?,maria a mcclain,3,2,0
+151,Who is the vice president but not drector of the company which is the agent in the agreement?,christopher coney,3,2,0
+151,Who is the drector but not vice president of the company which is the agent in the agreement?,joseph l corah,3,2,0
+151,Who is the vice president but not drector of the company which is the swing line lender in the agreement?,christopher coney,3,2,0
+151,Who is the drector but not vice president of the company which is the swing line lender in the agreement?,joseph l corah,3,2,0
+151,Who is the vice president but not drector of the company which is the l c issuer in the agreement?,christopher coney,3,2,0
+151,Who is the drector but not vice president of the company which is the l c issuer in the agreement?,joseph l corah,3,2,0
+151,Who is the vice president but not drector of the company which is the joint bookrunners in the agreement?,christopher coney,3,2,0
+151,Who is the drector but not vice president of the company which is the joint bookrunners in the agreement?,joseph l corah,3,2,0
+151,Who is the vice president but not drector of the company which is the joint lead arrangers in the agreement?,christopher coney,3,2,0
+151,Who is the drector but not vice president of the company which is the joint lead arrangers in the agreement?,joseph l corah,3,2,0
+151,Who is the executive director but not vice president of the company which is the agent in the agreement?,gregory t martin,3,2,0
+151,Who is the vice president but not executive director of the company which is the agent in the agreement?,robert botcherby,3,2,0
+151,Who is the executive director but not vice president of the company which is the swing line lender in the agreement?,gregory t martin,3,2,0
+151,Who is the vice president but not executive director of the company which is the swing line lender in the agreement?,robert botcherby,3,2,0
+151,Who is the executive director but not vice president of the company which is the l c issuer in the agreement?,gregory t martin,3,2,0
+151,Who is the vice president but not executive director of the company which is the l c issuer in the agreement?,robert botcherby,3,2,0
+151,Who is the executive director but not vice president of the company which is the joint bookrunners in the agreement?,gregory t martin,3,2,0
+151,Who is the vice president but not executive director of the company which is the joint bookrunners in the agreement?,robert botcherby,3,2,0
+151,Who is the executive director but not vice president of the company which is the joint lead arrangers in the agreement?,gregory t martin,3,2,0
+151,Who is the vice president but not executive director of the company which is the joint lead arrangers in the agreement?,robert botcherby,3,2,0
+151,Who is the executive director but not first vice president of the company which is the lender in the agreement?,anders holmgaard,3,2,0
+151,Who is the first vice president but not executive director of the company which is the lender in the agreement?,ola anderssen,3,2,0
+86,Who is the senior vice president but not vice president of the company which is the l cissuer in the agreement?,julie yamauchi,3,2,0
+86,Who is the vice president but not senior vice president of the company which is the l cissuer in the agreement?,rosanne parsill,3,2,0
+86,Who is the senior vice president but not vice president of the company which is the swinglinelender in the agreement?,julie yamauchi,3,2,0
+86,Who is the vice president but not senior vice president of the company which is the swinglinelender in the agreement?,rosanne parsill,3,2,0
+86,Who is the senior vice president but not vice president of the company which is the lender in the agreement?,julie yamauchi,3,2,0
+86,Who is the vice president but not senior vice president of the company which is the lender in the agreement?,rosanne parsill,3,2,0
+86,Who is the senior vice president but not vice president of the company which is the administrative agent in the agreement?,julie yamauchi,3,2,0
+86,Who is the vice president but not senior vice president of the company which is the administrative agent in the agreement?,rosanne parsill,3,2,0
+3,Who is the avp but not vice president of the company which is the lender in the agreement?,cindy jordan,3,2,0
+3,Who is the vice president but not avp of the company which is the lender in the agreement?,kyle pearson,3,2,0
+3,Who is the avp but not vice president of the company which is the administrative agent in the agreement?,cindy jordan,3,2,0
+3,Who is the vice president but not avp of the company which is the administrative agent in the agreement?,kyle pearson,3,2,0
+45,Who is the client services representative but not portfolio manager of the company which is the counsel to lender lender in the agreement?,cynthia m olson,3,2,0
+45,Who is the client services representative but not senior vice president of the company which is the counsel to lender lender in the agreement?,cynthia m olson,3,2,0
+45,Who is the portfolio manager but not client services representative of the company which is the counsel to lender lender in the agreement?,eric niedbalski,3,2,0
+45,Who is the portfolio manager but not senior vice president of the company which is the counsel to lender lender in the agreement?,eric niedbalski,3,2,0
+45,Who is the senior vice president but not portfolio manager of the company which is the counsel to lender lender in the agreement?,mark r cousineau,3,2,0
+45,Who is the senior vice president but not client services representative of the company which is the counsel to lender lender in the agreement?,mark r cousineau,3,2,0
+137,Who is the managing director but not vice president of the company which is the lender in the agreement?,james rolison,3,2,0
+137,Who is the vice president but not managing director of the company which is the lender in the agreement?,murray mackinnon,3,2,0
+137,Who is the managing director but not vice president of the company which is the administrative agent in the agreement?,james rolison,3,2,0
+137,Who is the vice president but not managing director of the company which is the administrative agent in the agreement?,murray mackinnon,3,2,0
+122,Who is the director but not secretary of the company which is the borrowers in the agreement?,n j hardman,3,2,0
+122,Who is the secretary but not director of the company which is the borrowers in the agreement?,p a hogwood,3,2,0
+122,Who is the managing director but not vice president of the company which is the lender in the agreement?,andy mcclinton,3,2,0
+122,Who is the vice president but not managing director of the company which is the lender in the agreement?,anna smith,3,2,0
+122,Who is the managing director but not vice president of the company which is the lender in the agreement?,tony gordon,3,2,0
+23,Who is the managing director but not director of the company which is the lender in the agreement?,jeremy eisman,3,2,0
+23,Who is the director but not managing director of the company which is the lender in the agreement?,kyle hatze,3,2,0
+35,Who is the director but not vice president of the company which is the lender in the agreement?,claudia zarate,3,2,0
+35,Who is the vice president but not director of the company which is the lender in the agreement?,nicolas anberree,3,2,0
+35,Who is the director but not vice president of the company which is the agents in the agreement?,claudia zarate,3,2,0
+35,Who is the vice president but not director of the company which is the agents in the agreement?,nicolas anberree,3,2,0
+35,Who is the vice president but not global relationship manager of the company which is the lender in the agreement?,glen binder,3,2,0
+35,Who is the global relationship manager but not vice president of the company which is the lender in the agreement?,marco pizzi,3,2,0
+35,Who is the associate director but not managing director capital markets of the company which is the lender in the agreement?,hsing h huang,3,2,0
+35,Who is the managing director capital markets but not associate director of the company which is the lender in the agreement?,steve aloupis,3,2,0
+35,Who is the chief financial officer but not general counsel of the company which is the borrower in the agreement?,john p rielly,3,2,0
+35,Who is the senior vice president but not general counsel of the company which is the borrower in the agreement?,john p rielly,3,2,0
+35,Who is the general counsel but not chief financial officer of the company which is the borrower in the agreement?,timothy b goodell,3,2,0
+35,Who is the senior vice president but not chief financial officer of the company which is the borrower in the agreement?,timothy b goodell,3,2,0
+135,Who is the managing director but not vice president of the company which is the lender in the agreement?,joseph onischuk,3,2,0
+135,Who is the vice president but not managing director of the company which is the lender in the agreement?,reginald crichlow,3,2,0
+135,Who is the director but not vice president of the company which is the lender in the agreement?,andreas bubenzer paim,3,2,0
+135,Who is the vice president but not director of the company which is the lender in the agreement?,virginia cosenza,3,2,0
+135,Who is the associate director but not director of the company which is the lender in the agreement?,craig pearson,3,2,0
+135,Who is the director but not associate director of the company which is the lender in the agreement?,darlene arias,3,2,0
+135,Who is the director but not vice president of the company which is the lender in the agreement?,adam h fey,3,2,0
+135,Who is the vice president but not director of the company which is the lender in the agreement?,rosanne parsill,3,2,0
+135,Who is the director but not vice president of the company which is the administrative agent in the agreement?,adam h fey,3,2,0
+135,Who is the vice president but not director of the company which is the administrative agent in the agreement?,rosanne parsill,3,2,0
+34,Who is the executive vice president but not general counsel of the company which is the borrower in the agreement?,cameron m bready,3,2,0
+34,Who is the executive vice president but not vice president finance and treasurer of the company which is the borrower in the agreement?,cameron m bready,3,2,0
+34,Who is the executive vice president but not secretary of the company which is the borrower in the agreement?,cameron m bready,3,2,0
+34,Who is the executive vice president but not vice president of the company which is the borrower in the agreement?,cameron m bready,3,2,0
+34,Who is the chief financial officer but not general counsel of the company which is the borrower in the agreement?,cameron m bready,3,2,0
+34,Who is the chief financial officer but not vice president finance and treasurer of the company which is the borrower in the agreement?,cameron m bready,3,2,0
+34,Who is the chief financial officer but not secretary of the company which is the borrower in the agreement?,cameron m bready,3,2,0
+34,Who is the chief financial officer but not vice president of the company which is the borrower in the agreement?,cameron m bready,3,2,0
+34,Who is the vice president finance and treasurer but not executive vice president of the company which is the borrower in the agreement?,rejji p hayes,3,2,0
+34,Who is the vice president finance and treasurer but not general counsel of the company which is the borrower in the agreement?,rejji p hayes,3,2,0
+34,Who is the vice president finance and treasurer but not secretary of the company which is the borrower in the agreement?,rejji p hayes,3,2,0
+34,Who is the vice president finance and treasurer but not chief financial officer of the company which is the borrower in the agreement?,rejji p hayes,3,2,0
+34,Who is the vice president finance and treasurer but not vice president of the company which is the borrower in the agreement?,rejji p hayes,3,2,0
+34,Who is the general counsel but not executive vice president of the company which is the borrower in the agreement?,wendy a mcintyre,3,2,0
+34,Who is the general counsel but not vice president finance and treasurer of the company which is the borrower in the agreement?,wendy a mcintyre,3,2,0
+34,Who is the general counsel but not chief financial officer of the company which is the borrower in the agreement?,wendy a mcintyre,3,2,0
+34,Who is the vice president but not executive vice president of the company which is the borrower in the agreement?,wendy a mcintyre,3,2,0
+34,Who is the vice president but not vice president finance and treasurer of the company which is the borrower in the agreement?,wendy a mcintyre,3,2,0
+34,Who is the vice president but not chief financial officer of the company which is the borrower in the agreement?,wendy a mcintyre,3,2,0
+34,Who is the secretary but not executive vice president of the company which is the borrower in the agreement?,wendy a mcintyre,3,2,0
+34,Who is the secretary but not vice president finance and treasurer of the company which is the borrower in the agreement?,wendy a mcintyre,3,2,0
+34,Who is the secretary but not chief financial officer of the company which is the borrower in the agreement?,wendy a mcintyre,3,2,0
+18,Who is the vice president but not senior vice president of the company which is the lender in the agreement?,craig v koshkarian,3,2,0
+18,Who is the senior vice president but not vice president of the company which is the lender in the agreement?,kevin a stacker,3,2,0
+18,Who is the vice president but not senior vice president of the company which is the administrative agent in the agreement?,craig v koshkarian,3,2,0
+18,Who is the senior vice president but not vice president of the company which is the administrative agent in the agreement?,kevin a stacker,3,2,0
+130,Who is the authorized signatory but not manager agency services of the company which is the issuing bank in the agreement?,john flores,3,2,0
+130,Who is the manager agency services but not authorized signatory of the company which is the issuing bank in the agreement?,yvonne brazier,3,2,0
+130,Who is the authorized signatory but not manager agency services of the company which is the term administrative agent in the agreement?,john flores,3,2,0
+130,Who is the manager agency services but not authorized signatory of the company which is the term administrative agent in the agreement?,yvonne brazier,3,2,0
+31,Who is the executive director but not authorized signatory of the company which is the us swing lender in the agreement?,eoin roche,3,2,0
+31,Who is the authorized signatory but not executive director of the company which is the us swing lender in the agreement?,robert casey,3,2,0
+31,Who is the executive director but not authorized signatory of the company which is the joint book runners in the agreement?,eoin roche,3,2,0
+31,Who is the authorized signatory but not executive director of the company which is the joint book runners in the agreement?,robert casey,3,2,0
+31,Who is the executive director but not authorized signatory of the company which is the documentation agents in the agreement?,eoin roche,3,2,0
+31,Who is the authorized signatory but not executive director of the company which is the documentation agents in the agreement?,robert casey,3,2,0
+31,Who is the associate director but not documentation manager of the company which is the book runners in the agreement?,johanna minaya,3,2,0
+31,Who is the documentation manager but not associate director of the company which is the book runners in the agreement?,robert k reddington,3,2,0
+31,Who is the associate director but not documentation manager of the company which is the us swing lender in the agreement?,johanna minaya,3,2,0
+31,Who is the documentation manager but not associate director of the company which is the us swing lender in the agreement?,robert k reddington,3,2,0
+31,Who is the associate director but not documentation manager of the company which is the agents in the agreement?,johanna minaya,3,2,0
+31,Who is the documentation manager but not associate director of the company which is the agents in the agreement?,robert k reddington,3,2,0
+31,Who is the vice president but not director of the company which is the us swing lender in the agreement?,anthea del bianco,3,2,0
+31,Who is the director but not vice president of the company which is the us swing lender in the agreement?,scott w reynolds,3,2,0
+31,Who is the vice president but not director of the company which is the administrative agent in the agreement?,anthea del bianco,3,2,0
+31,Who is the director but not vice president of the company which is the administrative agent in the agreement?,scott w reynolds,3,2,0
+31,Who is the vice president but not director of the company which is the euro swing lender in the agreement?,anthea del bianco,3,2,0
+31,Who is the director but not vice president of the company which is the euro swing lender in the agreement?,scott w reynolds,3,2,0
+19,Who is the managing director but not executive director of the company which is the lender in the agreement?,robert graff,3,2,0
+19,Who is the executive director but not managing director of the company which is the lender in the agreement?,timothy j devane,3,2,0
+19,Who is the authorized signatory but not manager agency of the company which is the lender in the agreement?,john flores,3,2,0
+19,Who is the manager agency but not authorized signatory of the company which is the lender in the agreement?,rodica dutka,3,2,0
+19,Who is the authorized signatory but not manager agency of the company which is the issuing bank in the agreement?,john flores,3,2,0
+19,Who is the manager agency but not authorized signatory of the company which is the issuing bank in the agreement?,rodica dutka,3,2,0
+19,Who is the authorized signatory but not manager agency of the company which is the administrative agent in the agreement?,john flores,3,2,0
+19,Who is the manager agency but not authorized signatory of the company which is the administrative agent in the agreement?,rodica dutka,3,2,0
+126,Who is the director but not vice president of the company which is the agents in the agreement?,brendan heneghan,3,2,0
+126,Who is the vice president but not director of the company which is the agents in the agreement?,karim remtoula,3,2,0
+126,Who is the director but not vice president of the company which is the lenders in the agreement?,brendan heneghan,3,2,0
+126,Who is the vice president but not director of the company which is the lenders in the agreement?,karim remtoula,3,2,0
+126,Who is the managing director but not director of the company which is the lenders in the agreement?,andrew sidford,3,2,0
+126,Who is the director but not managing director of the company which is the lenders in the agreement?,gordon yip,3,2,0
+126,Who is the executive director but not director of the company which is the lenders in the agreement?,dayi liu,3,2,0
+126,Who is the director but not executive director of the company which is the lenders in the agreement?,tony huang,3,2,0
+127,Who is the director but not assistant vice president of the company which is the lender in the agreement?,darren merten,3,2,0
+127,Who is the assistant vice president but not director of the company which is the lender in the agreement?,taelitha bonds harris,3,2,0
+127,Who is the director but not assistant vice president of the company which is the l c issuer in the agreement?,darren merten,3,2,0
+127,Who is the assistant vice president but not director of the company which is the l c issuer in the agreement?,taelitha bonds harris,3,2,0
+127,Who is the director but not assistant vice president of the company which is the administrative agent in the agreement?,darren merten,3,2,0
+127,Who is the assistant vice president but not director of the company which is the administrative agent in the agreement?,taelitha bonds harris,3,2,0
+127,Who is the director but not assistant vice president of the company which is the lenders in the agreement?,darren merten,3,2,0
+127,Who is the assistant vice president but not director of the company which is the lenders in the agreement?,taelitha bonds harris,3,2,0
+32,Who is the director corporate banking but not managing director corporate coverage canada of the company which is the lender in the agreement?,chris golding,3,2,0
+32,Who is the managing director corporate coverage canada but not director corporate banking of the company which is the lender in the agreement?,tony baratta,3,2,0
+32,Who is the vice president commercial banking but not assistant vice president of the company which is the bookrunners in the agreement?,douglas brandes,3,2,0
+32,Who is the assistant vice president but not vice president commercial banking of the company which is the bookrunners in the agreement?,todd patchell,3,2,0
+32,Who is the vice president commercial banking but not assistant vice president of the company which is the bank in the agreement?,douglas brandes,3,2,0
+32,Who is the assistant vice president but not vice president commercial banking of the company which is the bank in the agreement?,todd patchell,3,2,0
+32,Who is the vice president commercial banking but not assistant vice president of the company which is the arrangers in the agreement?,douglas brandes,3,2,0
+32,Who is the assistant vice president but not vice president commercial banking of the company which is the arrangers in the agreement?,todd patchell,3,2,0
+32,Who is the vice president commercial banking but not assistant vice president of the company which is the lenders in the agreement?,douglas brandes,3,2,0
+32,Who is the assistant vice president but not vice president commercial banking of the company which is the lenders in the agreement?,todd patchell,3,2,0
+32,Who is the vice president commercial banking but not assistant vice president of the company which is the bookrunner in the agreement?,douglas brandes,3,2,0
+32,Who is the assistant vice president but not vice president commercial banking of the company which is the bookrunner in the agreement?,todd patchell,3,2,0
+32,Who is the vice president commercial banking but not assistant vice president of the company which is the lender in the agreement?,douglas brandes,3,2,0
+32,Who is the assistant vice president but not vice president commercial banking of the company which is the lender in the agreement?,todd patchell,3,2,0
+32,Who is the vice president commercial banking but not assistant vice president of the company which is the joint lead arranger in the agreement?,douglas brandes,3,2,0
+32,Who is the assistant vice president but not vice president commercial banking of the company which is the joint lead arranger in the agreement?,todd patchell,3,2,0
+32,Who is the director and counsel region americas legal but not director of the company which is the bookrunners in the agreement?,barbara s wang,3,2,0
+32,Who is the director but not director and counsel region americas legal of the company which is the bookrunners in the agreement?,john stholl,3,2,0
+32,Who is the director and counsel region americas legal but not director of the company which is the agent in the agreement?,barbara s wang,3,2,0
+32,Who is the director but not director and counsel region americas legal of the company which is the agent in the agreement?,john stholl,3,2,0
+32,Who is the director and counsel region americas legal but not director of the company which is the bookrunner in the agreement?,barbara s wang,3,2,0
+32,Who is the director but not director and counsel region americas legal of the company which is the bookrunner in the agreement?,john stholl,3,2,0
+32,Who is the director and counsel region americas legal but not director of the company which is the co documentation agents in the agreement?,barbara s wang,3,2,0
+32,Who is the director but not director and counsel region americas legal of the company which is the co documentation agents in the agreement?,john stholl,3,2,0
+32,Who is the director and counsel region americas legal but not director of the company which is the arranger in the agreement?,barbara s wang,3,2,0
+32,Who is the director but not director and counsel region americas legal of the company which is the arranger in the agreement?,john stholl,3,2,0
+32,Who is the director and counsel region americas legal but not director of the company which is the joint lead arrangers in the agreement?,barbara s wang,3,2,0
+32,Who is the director but not director and counsel region americas legal of the company which is the joint lead arrangers in the agreement?,john stholl,3,2,0
+26,Who is the vice president but not managing director of the company which is the lender in the agreement?,ade adedeji,3,2,0
+26,Who is the managing director but not vice president of the company which is the lender in the agreement?,christopher sked,3,2,0
+26,Who is the managing director but not director of the company which is the lender in the agreement?,gary herzog,3,2,0
+26,Who is the director but not managing director of the company which is the lender in the agreement?,jill wong,3,2,0
+26,Who is the managing director but not vice president of the company which is the lender in the agreement?,pedro bell,3,2,0
+26,Who is the vice president but not managing director of the company which is the lender in the agreement?,veli matti abohen,3,2,0
+26,Who is the director but not vice president of the company which is the lender in the agreement?,ming k chu,3,2,0
+26,Who is the vice president but not director of the company which is the lender in the agreement?,virginia cosenza,3,2,0
+26,Who is the treasurer but not corporate secretary of the company which is the lenders in the agreement?,jeffreygalik,3,2,0
+26,Who is the corporate secretary but not treasurer of the company which is the lenders in the agreement?,katherinekelly,3,2,0

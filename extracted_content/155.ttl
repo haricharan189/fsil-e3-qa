@@ -1,0 +1,286 @@
+@prefix base: <http://example.org/base/> .
+@prefix loc: <http://example.org/location/> .
+@prefix location_type: <http://example.org/location_type/> .
+@prefix org1: <http://example.org/org_name/> .
+@prefix org_role: <http://example.org/org_role/> .
+@prefix person: <http://example.org/person_name/> .
+@prefix position: <http://example.org/person_position/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rel: <http://example.org/relation/> .
+
+base:Location a rdfs:Class .
+
+base:Organization a rdfs:Class .
+
+base:Person a rdfs:Class .
+
+location_type:administrative_agents_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:administrative_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:ag_new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_management a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:agency_services a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:assembly_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:business_matters a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:cayman_islands_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:chief_executive_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:commercial_banking a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_customers_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:domestic_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:dublin_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:eurodollar_lending_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:front_end_test_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:london_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:mexico_location_contract_manufacturing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:micro_building_and_corporate_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:middle_market_servicing a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:new_york_branch a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:offsite_storage a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:opto_building a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:registered_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:rexford_industrial_realty_inc_11620_wilshire_boulevard_suite_1000_los_angeles_california_90025 a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:trade_operations a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+location_type:zonal_office a rdfs:Class ;
+    rdfs:subClassOf base:Location .
+
+org_role:administrative rdfs:subClassOf base:Organization .
+
+person:rob_chimenti a base:Person .
+
+person:sanjay_thapar a base:Person .
+
+person:stephen_a a base:Person .
+
+person:weissesq a base:Person .
+
+loc:1045_progress_circle_lawrenceville_georgia_30043 a base:Location ;
+    rel:isLocationOf org1:boxlight_corporation .
+
+loc:10880_wilshire_blvd_19th_floor_los_angeles_ca_90024 a base:Location ;
+    rel:isLocationOf org1:michelmanand_robinson_llp .
+
+loc:11601_wilshire_boulevard_suite1250_los_angeles_ca_90025 a base:Location ;
+    rel:isLocationOf org1:whitehawk_capital_partners_lp .
+
+loc:1177_avenue_of_the_americas_new_york_new_york_10036 a base:Location ;
+    rel:isLocationOf org1:kramer_levin_naftalisand_frankel_llp .
+
+org1:kramer_levin_naftalisand_frankel_llp a base:Organization ;
+    rel:hasLocationAt loc:1177_avenue_of_the_americas_new_york_new_york_10036 .
+
+org1:michelmanand_robinson_llp a base:Organization ;
+    rel:hasLocationAt loc:10880_wilshire_blvd_19th_floor_los_angeles_ca_90024 .
+
+org_role:administrative_agent rdfs:subClassOf base:Organization .
+
+org_role:agent rdfs:subClassOf base:Organization .
+
+org_role:borrower rdfs:subClassOf base:Organization .
+
+org_role:collateral_agent rdfs:subClassOf base:Organization .
+
+org_role:lenders rdfs:subClassOf base:Organization .
+
+person:hank_nance a base:Person ;
+    <http://example.org/isInstanceOf/> position:chief_operating_officer ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:boxlightinc ;
+            rel:position position:chief_operating_officer ] ;
+    rel:isEmployedBy org1:boxlightinc .
+
+person:jens_holstebro a base:Person ;
+    <http://example.org/isInstanceOf/> position:manager ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:frontrow_calypso_llc ;
+            rel:position position:manager ] ;
+    rel:isEmployedBy org1:frontrow_calypso_llc .
+
+person:michael_pope a base:Person ;
+    <http://example.org/isInstanceOf/> position:directors ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:sahara_holdings_limited ;
+            rel:position position:directors ] ;
+    rel:isEmployedBy org1:sahara_holdings_limited .
+
+org1:boxlight_group_limited a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantors ;
+    rel:hasEmployee person:patrick_foley .
+
+org1:boxlightinc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantors ;
+    rel:hasEmployee person:hank_nance .
+
+org1:clevertouch_bv a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantors ;
+    rel:hasEmployee person:patrick_foley .
+
+org1:eosedu_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantors ;
+    rel:hasEmployee person:michael_r_pope .
+
+org1:frontrow_calypso_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantors ;
+    rel:hasEmployee person:jens_holstebro .
+
+org1:sahara_presentation_systems_europe_bv a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantors ;
+    rel:hasEmployee person:patrick_foley .
+
+org1:sahara_presentation_systemsinc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:guarantors ;
+    rel:hasEmployee person:patrick_foley .
+
+org1:whitehawk_finance_llc a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:lenders ;
+    rel:hasEmployee person:harry_chung .
+
+person:harry_chung a base:Person ;
+    <http://example.org/isInstanceOf/> position:authorized_signatory ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:whitehawk_capital_partners_lp ;
+            rel:position position:authorized_signatory ],
+        [ a rel:Employment ;
+            rel:organization org1:whitehawk_finance_llc ;
+            rel:position position:authorized_signatory ] ;
+    rel:isEmployedBy org1:whitehawk_capital_partners_lp,
+        org1:whitehawk_finance_llc .
+
+person:michael_r_pope a base:Person ;
+    <http://example.org/isInstanceOf/> position:chief_executive_officer ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:eosedu_llc ;
+            rel:position position:chief_executive_officer ],
+        [ a rel:Employment ;
+            rel:organization org1:boxlight_corporation ;
+            rel:position position:chief_executive_officer ] ;
+    rel:isEmployedBy org1:boxlight_corporation,
+        org1:eosedu_llc .
+
+position:chief_financial_officer a base:Position ;
+    base:positionName "Chief Financial Officer" ;
+    rdfs:subClassOf base:Person .
+
+position:chief_operating_officer a base:Position ;
+    base:positionName "Chief Operating Officer" ;
+    rdfs:subClassOf base:Person .
+
+position:director a base:Position ;
+    base:positionName "Director" ;
+    rdfs:subClassOf base:Person .
+
+position:manager a base:Position ;
+    base:positionName "Manager" ;
+    rdfs:subClassOf base:Person .
+
+org1:boxlight_corporation a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:borrower ;
+    rel:hasEmployee person:michael_r_pope ;
+    rel:hasLocationAt loc:1045_progress_circle_lawrenceville_georgia_30043 .
+
+org1:whitehawk_capital_partners_lp a base:Organization ;
+    <http://example.org/isInstanceOf/> org_role:administrative_agent,
+        org_role:agent,
+        org_role:collateral_agent ;
+    rel:hasEmployee person:harry_chung ;
+    rel:hasLocationAt loc:11601_wilshire_boulevard_suite1250_los_angeles_ca_90025 .
+
+position:authorized_signatory a base:Position ;
+    base:positionName "Authorized Signatory" ;
+    rdfs:subClassOf base:Person .
+
+position:chief_executive_officer a base:Position ;
+    base:positionName "Chief Executive Officer" ;
+    rdfs:subClassOf base:Person .
+
+position:statutory_director a base:Position ;
+    base:positionName "Statutory Director" ;
+    rdfs:subClassOf base:Person .
+
+org1:sahara_holdings_limited a base:Organization ;
+    rel:hasEmployee person:michael_pope,
+        person:patrick_foley .
+
+position:directors a base:Position ;
+    base:positionName "directors" ;
+    rdfs:subClassOf base:Person .
+
+person:patrick_foley a base:Person ;
+    <http://example.org/isInstanceOf/> position:chief_financial_officer,
+        position:director,
+        position:directors,
+        position:statutory_director ;
+    rel:holdsPositionAt [ a rel:Employment ;
+            rel:organization org1:sahara_presentation_systems_europe_bv ;
+            rel:position position:statutory_director ],
+        [ a rel:Employment ;
+            rel:organization org1:clevertouch_bv ;
+            rel:position position:statutory_director ],
+        [ a rel:Employment ;
+            rel:organization org1:boxlight_group_limited ;
+            rel:position position:director ],
+        [ a rel:Employment ;
+            rel:organization org1:sahara_presentation_systemsinc ;
+            rel:position position:chief_financial_officer ],
+        [ a rel:Employment ;
+            rel:organization org1:sahara_holdings_limited ;
+            rel:position position:directors ] ;
+    rel:isEmployedBy org1:boxlight_group_limited,
+        org1:clevertouch_bv,
+        org1:sahara_holdings_limited,
+        org1:sahara_presentation_systems_europe_bv,
+        org1:sahara_presentation_systemsinc .
+
+org_role:guarantors rdfs:subClassOf base:Organization .
+

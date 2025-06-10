@@ -1,0 +1,18 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension
+17,What is the address of chief executive office of the company which is the holding in the agreement?,10 south dearborn street 49thfloor chicago il 60603,3,0,0
+15,What is the address of branch office of the company which is the lender in the agreement?,1285 avenue of the americas new york new york 10019,3,0,0
+11,What is the address of loan and agency services group of the company which is the administrative agent in the agreement?,floor 3 ops 2 500 stanton christiana rd newark de 19713,3,0,0
+166,What is the address of corporate office of the company which is the holdings in the agreement?,two alliance center 3560 lenox road suite 2000 atlanta ga 30326 usa,3,0,0
+166,What is the address of corporate office of the company which is the borrower in the agreement?,two alliance center 3560 lenox road suite 2000 atlanta ga 30326 usa,3,0,0
+165,What is the address of agency management of the company which is the administrative agent in the agreement?,mail code ca5 705 04 09 555 california street 4th floor san francisco ca 94104,3,0,0
+6,What is the address of branch of the company which is the lender in the agreement?,los angeles,3,0,0
+91,What is the address of address for notices of the company which is the borrower in the agreement?,63317th street suite 1900 denver colorado 80202 3619,3,0,0
+44,What is the address of trade finance of the company which is the l c issuer in the agreement?,pa6 580 02 30 1 fleet way scranton pa 18507 attention alfonso malave jr,3,0,0
+44,What is the address of trade finance of the company which is the swing line lender lender in the agreement?,pa6 580 02 30 1 fleet way scranton pa 18507 attention alfonso malave jr,3,0,0
+44,What is the address of trade finance of the company which is the administrative agent in the agreement?,pa6 580 02 30 1 fleet way scranton pa 18507 attention alfonso malave jr,3,0,0
+136,What is the address of chief executive office of the company which is the borrower in the agreement?,4800 montgomery lane 450 bethesda maryland 20814,3,0,0
+135,What is the address of agency management of the company which is the administrative agent in the agreement?,135 s lasalle st mail code il4 135 09 61 chicagoil 60603,3,0,0
+118,What is the address of branch of the company which is the agents in the agreement?,cayman islands,3,0,0
+32,What is the address of registered office of the company which is the the company in the agreement?,13 15 avenue de la liberté l 1931 luxembourg,3,0,0
+32,What is the address of registered office of the company which is the initial borrower in the agreement?,13 15 avenue de la liberté l 1931 luxembourg,3,0,0
+26,What is the address of office of the company which is the administrative agent in the agreement?,1300 thames street thames street wharf 4th floor baltimore md 21231,3,0,0
