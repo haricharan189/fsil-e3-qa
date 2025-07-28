@@ -1,0 +1,10 @@
+name: e3-ablation
+channels:
+  - defaults
+dependencies:
+  - pip=24.2
+  - python=3.10
+  - pip:
+    - beautifulsoup4==4.13.1
+    - pandas==2.2.3
+    - rdflib==7.1.3
