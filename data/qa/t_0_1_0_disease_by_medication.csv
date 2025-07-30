@@ -1,9 +1,9 @@
 question,answer
-What disease is treated by moxifloxacin?,gastroenteritis
-What disease is treated by clarithromycin?,trench fever
-What disease is treated by vancomycin?,cdi
 What disease is treated by rifampin?,endocarditis
 What disease is treated by metronidazole?,cdi
-What disease is treated by aminoglycoside?,bacteremia
+What disease is treated by moxifloxacin?,gastroenteritis
+What disease is treated by vancomycin?,cdi
 What disease is treated by gentamicin?,endocarditis
 What disease is treated by fidaxomicin?,cdi
+What disease is treated by aminoglycoside?,bacteremia
+What disease is treated by clarithromycin?,trench fever

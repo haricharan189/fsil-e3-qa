@@ -1,83 +1,83 @@
 question,answer
-What pathogen causes trench fever but not cdi?,bartonella
-What pathogen causes trench fever but not peliosis hepatis?,bartonella
-What pathogen causes trench fever but not diarrheal disease?,bartonella
-What pathogen causes trench fever but not shigellosis?,bartonella
-What pathogen causes trench fever but not salmonellosis?,bartonella
-What pathogen causes trench fever but not gastroenteritis?,bartonella
-What pathogen causes trench fever but not campylobacteriosis?,bartonella
-What pathogen causes bacillary angiomatosis but not cdi?,bartonella
-What pathogen causes bacillary angiomatosis but not peliosis hepatis?,bartonella
-What pathogen causes bacillary angiomatosis but not diarrheal disease?,bartonella
-What pathogen causes bacillary angiomatosis but not shigellosis?,bartonella
-What pathogen causes bacillary angiomatosis but not salmonellosis?,bartonella
-What pathogen causes bacillary angiomatosis but not gastroenteritis?,bartonella
-What pathogen causes bacillary angiomatosis but not campylobacteriosis?,bartonella
-What pathogen causes osteomyelitis but not cdi?,bartonella
-What pathogen causes osteomyelitis but not peliosis hepatis?,bartonella
-What pathogen causes osteomyelitis but not diarrheal disease?,bartonella
-What pathogen causes osteomyelitis but not shigellosis?,bartonella
-What pathogen causes osteomyelitis but not salmonellosis?,bartonella
-What pathogen causes osteomyelitis but not gastroenteritis?,bartonella
-What pathogen causes osteomyelitis but not campylobacteriosis?,bartonella
-What pathogen causes endocarditis but not cdi?,bartonella
-What pathogen causes endocarditis but not peliosis hepatis?,bartonella
-What pathogen causes endocarditis but not diarrheal disease?,bartonella
-What pathogen causes endocarditis but not shigellosis?,bartonella
-What pathogen causes endocarditis but not salmonellosis?,bartonella
-What pathogen causes endocarditis but not gastroenteritis?,bartonella
-What pathogen causes endocarditis but not campylobacteriosis?,bartonella
-What pathogen causes retinitis but not cdi?,bartonella
-What pathogen causes retinitis but not peliosis hepatis?,bartonella
-What pathogen causes retinitis but not diarrheal disease?,bartonella
-What pathogen causes retinitis but not shigellosis?,bartonella
-What pathogen causes retinitis but not salmonellosis?,bartonella
-What pathogen causes retinitis but not gastroenteritis?,bartonella
-What pathogen causes retinitis but not campylobacteriosis?,bartonella
-What pathogen causes peliosis nhepatis but not cdi?,bartonella
-What pathogen causes peliosis nhepatis but not peliosis hepatis?,bartonella
-What pathogen causes peliosis nhepatis but not diarrheal disease?,bartonella
-What pathogen causes peliosis nhepatis but not shigellosis?,bartonella
-What pathogen causes peliosis nhepatis but not salmonellosis?,bartonella
-What pathogen causes peliosis nhepatis but not gastroenteritis?,bartonella
-What pathogen causes peliosis nhepatis but not campylobacteriosis?,bartonella
-What pathogen causes shigellosis but not trench fever?,shigella
-What pathogen causes shigellosis but not bacillary angiomatosis?,shigella
-What pathogen causes shigellosis but not osteomyelitis?,shigella
-What pathogen causes shigellosis but not peliosis hepatis?,shigella
-What pathogen causes shigellosis but not endocarditis?,shigella
-What pathogen causes shigellosis but not retinitis?,shigella
 What pathogen causes shigellosis but not peliosis nhepatis?,shigella
-What pathogen causes shigellosis but not cat scratch disease?,shigella
+What pathogen causes shigellosis but not retinitis?,shigella
+What pathogen causes shigellosis but not trench fever?,shigella
+What pathogen causes shigellosis but not endocarditis?,shigella
 What pathogen causes shigellosis but not salmonellosis?,shigella
 What pathogen causes shigellosis but not campylobacteriosis?,shigella
-What pathogen causes cat scratch disease but not cdi?,bartonella
-What pathogen causes cat scratch disease but not peliosis hepatis?,bartonella
-What pathogen causes cat scratch disease but not diarrheal disease?,bartonella
-What pathogen causes cat scratch disease but not shigellosis?,bartonella
-What pathogen causes cat scratch disease but not salmonellosis?,bartonella
-What pathogen causes cat scratch disease but not gastroenteritis?,bartonella
-What pathogen causes cat scratch disease but not campylobacteriosis?,bartonella
+What pathogen causes shigellosis but not peliosis hepatis?,shigella
+What pathogen causes shigellosis but not cat scratch disease?,shigella
+What pathogen causes shigellosis but not osteomyelitis?,shigella
+What pathogen causes shigellosis but not bacillary angiomatosis?,shigella
+What pathogen causes peliosis nhepatis but not shigellosis?,bartonella
+What pathogen causes peliosis nhepatis but not gastroenteritis?,bartonella
+What pathogen causes peliosis nhepatis but not cdi?,bartonella
+What pathogen causes peliosis nhepatis but not salmonellosis?,bartonella
+What pathogen causes peliosis nhepatis but not diarrheal disease?,bartonella
+What pathogen causes peliosis nhepatis but not campylobacteriosis?,bartonella
+What pathogen causes peliosis nhepatis but not peliosis hepatis?,bartonella
+What pathogen causes retinitis but not shigellosis?,bartonella
+What pathogen causes retinitis but not gastroenteritis?,bartonella
+What pathogen causes retinitis but not cdi?,bartonella
+What pathogen causes retinitis but not salmonellosis?,bartonella
+What pathogen causes retinitis but not diarrheal disease?,bartonella
+What pathogen causes retinitis but not campylobacteriosis?,bartonella
+What pathogen causes retinitis but not peliosis hepatis?,bartonella
+What pathogen causes trench fever but not shigellosis?,bartonella
+What pathogen causes trench fever but not gastroenteritis?,bartonella
+What pathogen causes trench fever but not cdi?,bartonella
+What pathogen causes trench fever but not salmonellosis?,bartonella
+What pathogen causes trench fever but not diarrheal disease?,bartonella
+What pathogen causes trench fever but not campylobacteriosis?,bartonella
+What pathogen causes trench fever but not peliosis hepatis?,bartonella
+What pathogen causes endocarditis but not shigellosis?,bartonella
+What pathogen causes endocarditis but not gastroenteritis?,bartonella
+What pathogen causes endocarditis but not cdi?,bartonella
+What pathogen causes endocarditis but not salmonellosis?,bartonella
+What pathogen causes endocarditis but not diarrheal disease?,bartonella
+What pathogen causes endocarditis but not campylobacteriosis?,bartonella
+What pathogen causes endocarditis but not peliosis hepatis?,bartonella
+What pathogen causes salmonellosis but not shigellosis?,salmonella
+What pathogen causes salmonellosis but not peliosis nhepatis?,salmonella
+What pathogen causes salmonellosis but not retinitis?,salmonella
+What pathogen causes salmonellosis but not trench fever?,salmonella
+What pathogen causes salmonellosis but not endocarditis?,salmonella
+What pathogen causes salmonellosis but not campylobacteriosis?,salmonella
+What pathogen causes salmonellosis but not peliosis hepatis?,salmonella
+What pathogen causes salmonellosis but not cat scratch disease?,salmonella
+What pathogen causes salmonellosis but not osteomyelitis?,salmonella
+What pathogen causes salmonellosis but not bacillary angiomatosis?,salmonella
+What pathogen causes campylobacteriosis but not shigellosis?,campylobacter
+What pathogen causes campylobacteriosis but not peliosis nhepatis?,campylobacter
+What pathogen causes campylobacteriosis but not retinitis?,campylobacter
+What pathogen causes campylobacteriosis but not trench fever?,campylobacter
+What pathogen causes campylobacteriosis but not endocarditis?,campylobacter
+What pathogen causes campylobacteriosis but not salmonellosis?,campylobacter
+What pathogen causes campylobacteriosis but not peliosis hepatis?,campylobacter
+What pathogen causes campylobacteriosis but not cat scratch disease?,campylobacter
+What pathogen causes campylobacteriosis but not osteomyelitis?,campylobacter
+What pathogen causes campylobacteriosis but not bacillary angiomatosis?,campylobacter
+What pathogen causes bacteremia but not gastroenteritis?,bartonella
 What pathogen causes bacteremia but not cdi?,bartonella
 What pathogen causes bacteremia but not diarrheal disease?,bartonella
-What pathogen causes bacteremia but not gastroenteritis?,bartonella
-What pathogen causes salmonellosis but not trench fever?,salmonella
-What pathogen causes salmonellosis but not bacillary angiomatosis?,salmonella
-What pathogen causes salmonellosis but not osteomyelitis?,salmonella
-What pathogen causes salmonellosis but not peliosis hepatis?,salmonella
-What pathogen causes salmonellosis but not endocarditis?,salmonella
-What pathogen causes salmonellosis but not retinitis?,salmonella
-What pathogen causes salmonellosis but not peliosis nhepatis?,salmonella
-What pathogen causes salmonellosis but not shigellosis?,salmonella
-What pathogen causes salmonellosis but not cat scratch disease?,salmonella
-What pathogen causes salmonellosis but not campylobacteriosis?,salmonella
-What pathogen causes campylobacteriosis but not trench fever?,campylobacter
-What pathogen causes campylobacteriosis but not bacillary angiomatosis?,campylobacter
-What pathogen causes campylobacteriosis but not osteomyelitis?,campylobacter
-What pathogen causes campylobacteriosis but not peliosis hepatis?,campylobacter
-What pathogen causes campylobacteriosis but not endocarditis?,campylobacter
-What pathogen causes campylobacteriosis but not retinitis?,campylobacter
-What pathogen causes campylobacteriosis but not peliosis nhepatis?,campylobacter
-What pathogen causes campylobacteriosis but not shigellosis?,campylobacter
-What pathogen causes campylobacteriosis but not cat scratch disease?,campylobacter
-What pathogen causes campylobacteriosis but not salmonellosis?,campylobacter
+What pathogen causes cat scratch disease but not shigellosis?,bartonella
+What pathogen causes cat scratch disease but not gastroenteritis?,bartonella
+What pathogen causes cat scratch disease but not cdi?,bartonella
+What pathogen causes cat scratch disease but not salmonellosis?,bartonella
+What pathogen causes cat scratch disease but not diarrheal disease?,bartonella
+What pathogen causes cat scratch disease but not campylobacteriosis?,bartonella
+What pathogen causes cat scratch disease but not peliosis hepatis?,bartonella
+What pathogen causes osteomyelitis but not shigellosis?,bartonella
+What pathogen causes osteomyelitis but not gastroenteritis?,bartonella
+What pathogen causes osteomyelitis but not cdi?,bartonella
+What pathogen causes osteomyelitis but not salmonellosis?,bartonella
+What pathogen causes osteomyelitis but not diarrheal disease?,bartonella
+What pathogen causes osteomyelitis but not campylobacteriosis?,bartonella
+What pathogen causes osteomyelitis but not peliosis hepatis?,bartonella
+What pathogen causes bacillary angiomatosis but not shigellosis?,bartonella
+What pathogen causes bacillary angiomatosis but not gastroenteritis?,bartonella
+What pathogen causes bacillary angiomatosis but not cdi?,bartonella
+What pathogen causes bacillary angiomatosis but not salmonellosis?,bartonella
+What pathogen causes bacillary angiomatosis but not diarrheal disease?,bartonella
+What pathogen causes bacillary angiomatosis but not campylobacteriosis?,bartonella
+What pathogen causes bacillary angiomatosis but not peliosis hepatis?,bartonella

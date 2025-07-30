@@ -1,9 +1,9 @@
 question,answer
+What diseases are caused by campylobacter but not bartonella?,"campylobacteriosis,cdi,diarrheal disease,gastroenteritis"
 What diseases are caused by shigella but not bartonella?,"cdi,diarrheal disease,gastroenteritis,shigellosis"
+What diseases are caused by escherichia coli but not bartonella?,"cdi,diarrheal disease,gastroenteritis"
+What diseases are caused by bartonella but not campylobacter?,"bacillary angiomatosis,cat scratch disease,endocarditis,osteomyelitis,peliosis nhepatis,retinitis,trench fever"
 What diseases are caused by bartonella but not shigella?,"bacillary angiomatosis,cat scratch disease,endocarditis,osteomyelitis,peliosis nhepatis,retinitis,trench fever"
 What diseases are caused by bartonella but not escherichia coli?,"bacillary angiomatosis,cat scratch disease,endocarditis,osteomyelitis,peliosis nhepatis,retinitis,trench fever"
 What diseases are caused by bartonella but not salmonella?,"bacillary angiomatosis,cat scratch disease,endocarditis,osteomyelitis,peliosis nhepatis,retinitis,trench fever"
-What diseases are caused by bartonella but not campylobacter?,"bacillary angiomatosis,cat scratch disease,endocarditis,osteomyelitis,peliosis nhepatis,retinitis,trench fever"
-What diseases are caused by escherichia coli but not bartonella?,"cdi,diarrheal disease,gastroenteritis"
 What diseases are caused by salmonella but not bartonella?,"cdi,diarrheal disease,gastroenteritis,salmonellosis"
-What diseases are caused by campylobacter but not bartonella?,"campylobacteriosis,cdi,diarrheal disease,gastroenteritis"

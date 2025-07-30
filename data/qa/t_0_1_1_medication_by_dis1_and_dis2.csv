@@ -1,29 +1,29 @@
 question,answer
-What medication treats bacillary angiomatosis and endocarditis?,doxycycline
-What medication treats osteomyelitis and endocarditis?,doxycycline
-What medication treats peliosis hepatis and endocarditis?,doxycycline
-What medication treats endocarditis and bacillary angiomatosis?,doxycycline
-What medication treats endocarditis and osteomyelitis?,doxycycline
-What medication treats endocarditis and peliosis hepatis?,doxycycline
-What medication treats endocarditis and cat scratch disease?,doxycycline
-What medication treats endocarditis and bacteremia?,doxycycline
-What medication treats retinitis and diarrheal disease?,azithromycin
-What medication treats retinitis and shigellosis?,azithromycin
-What medication treats retinitis and bacteremia?,azithromycin
-What medication treats retinitis and gastroenteritis?,azithromycin
-What medication treats retinitis and campylobacteriosis?,azithromycin
-What medication treats diarrheal disease and retinitis?,azithromycin
-What medication treats diarrheal disease and salmonellosis?,ceftriaxone
 What medication treats shigellosis and retinitis?,azithromycin
 What medication treats shigellosis and salmonellosis?,ceftriaxone
-What medication treats cat scratch disease and endocarditis?,doxycycline
-What medication treats bacteremia and endocarditis?,doxycycline
-What medication treats bacteremia and retinitis?,azithromycin
-What medication treats bacteremia and salmonellosis?,ceftriaxone
-What medication treats salmonellosis and diarrheal disease?,ceftriaxone
-What medication treats salmonellosis and shigellosis?,ceftriaxone
-What medication treats salmonellosis and bacteremia?,ceftriaxone
-What medication treats salmonellosis and gastroenteritis?,ceftriaxone
+What medication treats retinitis and shigellosis?,azithromycin
+What medication treats retinitis and gastroenteritis?,azithromycin
+What medication treats retinitis and diarrheal disease?,azithromycin
+What medication treats retinitis and campylobacteriosis?,azithromycin
+What medication treats retinitis and bacteremia?,azithromycin
 What medication treats gastroenteritis and retinitis?,azithromycin
 What medication treats gastroenteritis and salmonellosis?,ceftriaxone
+What medication treats endocarditis and bacteremia?,doxycycline
+What medication treats endocarditis and peliosis hepatis?,doxycycline
+What medication treats endocarditis and cat scratch disease?,doxycycline
+What medication treats endocarditis and osteomyelitis?,doxycycline
+What medication treats endocarditis and bacillary angiomatosis?,doxycycline
+What medication treats salmonellosis and shigellosis?,ceftriaxone
+What medication treats salmonellosis and gastroenteritis?,ceftriaxone
+What medication treats salmonellosis and diarrheal disease?,ceftriaxone
+What medication treats salmonellosis and bacteremia?,ceftriaxone
+What medication treats diarrheal disease and retinitis?,azithromycin
+What medication treats diarrheal disease and salmonellosis?,ceftriaxone
 What medication treats campylobacteriosis and retinitis?,azithromycin
+What medication treats bacteremia and retinitis?,azithromycin
+What medication treats bacteremia and endocarditis?,doxycycline
+What medication treats bacteremia and salmonellosis?,ceftriaxone
+What medication treats peliosis hepatis and endocarditis?,doxycycline
+What medication treats cat scratch disease and endocarditis?,doxycycline
+What medication treats osteomyelitis and endocarditis?,doxycycline
+What medication treats bacillary angiomatosis and endocarditis?,doxycycline

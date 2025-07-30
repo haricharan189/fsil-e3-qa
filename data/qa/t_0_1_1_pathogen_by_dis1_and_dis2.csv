@@ -1,81 +1,81 @@
 question,answer
-What pathogen causes cdi and shigellosis?,shigella
-What pathogen causes cdi and salmonellosis?,salmonella
-What pathogen causes cdi and campylobacteriosis?,campylobacter
-What pathogen causes trench fever and bacillary angiomatosis?,bartonella
-What pathogen causes trench fever and osteomyelitis?,bartonella
-What pathogen causes trench fever and endocarditis?,bartonella
-What pathogen causes trench fever and retinitis?,bartonella
-What pathogen causes trench fever and peliosis nhepatis?,bartonella
-What pathogen causes trench fever and cat scratch disease?,bartonella
-What pathogen causes trench fever and bacteremia?,bartonella
-What pathogen causes bacillary angiomatosis and trench fever?,bartonella
-What pathogen causes bacillary angiomatosis and osteomyelitis?,bartonella
-What pathogen causes bacillary angiomatosis and endocarditis?,bartonella
-What pathogen causes bacillary angiomatosis and retinitis?,bartonella
-What pathogen causes bacillary angiomatosis and peliosis nhepatis?,bartonella
-What pathogen causes bacillary angiomatosis and cat scratch disease?,bartonella
-What pathogen causes bacillary angiomatosis and bacteremia?,bartonella
-What pathogen causes osteomyelitis and trench fever?,bartonella
-What pathogen causes osteomyelitis and bacillary angiomatosis?,bartonella
-What pathogen causes osteomyelitis and endocarditis?,bartonella
-What pathogen causes osteomyelitis and retinitis?,bartonella
-What pathogen causes osteomyelitis and peliosis nhepatis?,bartonella
-What pathogen causes osteomyelitis and cat scratch disease?,bartonella
-What pathogen causes osteomyelitis and bacteremia?,bartonella
-What pathogen causes endocarditis and trench fever?,bartonella
-What pathogen causes endocarditis and bacillary angiomatosis?,bartonella
-What pathogen causes endocarditis and osteomyelitis?,bartonella
-What pathogen causes endocarditis and retinitis?,bartonella
-What pathogen causes endocarditis and peliosis nhepatis?,bartonella
-What pathogen causes endocarditis and cat scratch disease?,bartonella
-What pathogen causes endocarditis and bacteremia?,bartonella
-What pathogen causes retinitis and trench fever?,bartonella
-What pathogen causes retinitis and bacillary angiomatosis?,bartonella
-What pathogen causes retinitis and osteomyelitis?,bartonella
-What pathogen causes retinitis and endocarditis?,bartonella
-What pathogen causes retinitis and peliosis nhepatis?,bartonella
-What pathogen causes retinitis and cat scratch disease?,bartonella
-What pathogen causes retinitis and bacteremia?,bartonella
-What pathogen causes diarrheal disease and shigellosis?,shigella
-What pathogen causes diarrheal disease and salmonellosis?,salmonella
-What pathogen causes diarrheal disease and campylobacteriosis?,campylobacter
-What pathogen causes peliosis nhepatis and trench fever?,bartonella
-What pathogen causes peliosis nhepatis and bacillary angiomatosis?,bartonella
-What pathogen causes peliosis nhepatis and osteomyelitis?,bartonella
-What pathogen causes peliosis nhepatis and endocarditis?,bartonella
-What pathogen causes peliosis nhepatis and retinitis?,bartonella
-What pathogen causes peliosis nhepatis and cat scratch disease?,bartonella
-What pathogen causes peliosis nhepatis and bacteremia?,bartonella
+What pathogen causes shigellosis and gastroenteritis?,shigella
 What pathogen causes shigellosis and cdi?,shigella
 What pathogen causes shigellosis and diarrheal disease?,shigella
 What pathogen causes shigellosis and bacteremia?,shigella
-What pathogen causes shigellosis and gastroenteritis?,shigella
-What pathogen causes cat scratch disease and trench fever?,bartonella
-What pathogen causes cat scratch disease and bacillary angiomatosis?,bartonella
-What pathogen causes cat scratch disease and osteomyelitis?,bartonella
-What pathogen causes cat scratch disease and endocarditis?,bartonella
-What pathogen causes cat scratch disease and retinitis?,bartonella
-What pathogen causes cat scratch disease and peliosis nhepatis?,bartonella
-What pathogen causes cat scratch disease and bacteremia?,bartonella
-What pathogen causes bacteremia and trench fever?,bartonella
-What pathogen causes bacteremia and bacillary angiomatosis?,bartonella
-What pathogen causes bacteremia and osteomyelitis?,bartonella
-What pathogen causes bacteremia and endocarditis?,bartonella
-What pathogen causes bacteremia and retinitis?,bartonella
-What pathogen causes bacteremia and peliosis nhepatis?,bartonella
-What pathogen causes bacteremia and shigellosis?,shigella
-What pathogen causes bacteremia and cat scratch disease?,bartonella
-What pathogen causes bacteremia and salmonellosis?,salmonella
-What pathogen causes bacteremia and campylobacteriosis?,campylobacter
-What pathogen causes salmonellosis and cdi?,salmonella
-What pathogen causes salmonellosis and diarrheal disease?,salmonella
-What pathogen causes salmonellosis and bacteremia?,salmonella
-What pathogen causes salmonellosis and gastroenteritis?,salmonella
+What pathogen causes peliosis nhepatis and retinitis?,bartonella
+What pathogen causes peliosis nhepatis and trench fever?,bartonella
+What pathogen causes peliosis nhepatis and endocarditis?,bartonella
+What pathogen causes peliosis nhepatis and bacteremia?,bartonella
+What pathogen causes peliosis nhepatis and cat scratch disease?,bartonella
+What pathogen causes peliosis nhepatis and osteomyelitis?,bartonella
+What pathogen causes peliosis nhepatis and bacillary angiomatosis?,bartonella
+What pathogen causes retinitis and peliosis nhepatis?,bartonella
+What pathogen causes retinitis and trench fever?,bartonella
+What pathogen causes retinitis and endocarditis?,bartonella
+What pathogen causes retinitis and bacteremia?,bartonella
+What pathogen causes retinitis and cat scratch disease?,bartonella
+What pathogen causes retinitis and osteomyelitis?,bartonella
+What pathogen causes retinitis and bacillary angiomatosis?,bartonella
+What pathogen causes trench fever and peliosis nhepatis?,bartonella
+What pathogen causes trench fever and retinitis?,bartonella
+What pathogen causes trench fever and endocarditis?,bartonella
+What pathogen causes trench fever and bacteremia?,bartonella
+What pathogen causes trench fever and cat scratch disease?,bartonella
+What pathogen causes trench fever and osteomyelitis?,bartonella
+What pathogen causes trench fever and bacillary angiomatosis?,bartonella
 What pathogen causes gastroenteritis and shigellosis?,shigella
 What pathogen causes gastroenteritis and salmonellosis?,salmonella
 What pathogen causes gastroenteritis and campylobacteriosis?,campylobacter
+What pathogen causes endocarditis and peliosis nhepatis?,bartonella
+What pathogen causes endocarditis and retinitis?,bartonella
+What pathogen causes endocarditis and trench fever?,bartonella
+What pathogen causes endocarditis and bacteremia?,bartonella
+What pathogen causes endocarditis and cat scratch disease?,bartonella
+What pathogen causes endocarditis and osteomyelitis?,bartonella
+What pathogen causes endocarditis and bacillary angiomatosis?,bartonella
+What pathogen causes cdi and shigellosis?,shigella
+What pathogen causes cdi and salmonellosis?,salmonella
+What pathogen causes cdi and campylobacteriosis?,campylobacter
+What pathogen causes salmonellosis and gastroenteritis?,salmonella
+What pathogen causes salmonellosis and cdi?,salmonella
+What pathogen causes salmonellosis and diarrheal disease?,salmonella
+What pathogen causes salmonellosis and bacteremia?,salmonella
+What pathogen causes diarrheal disease and shigellosis?,shigella
+What pathogen causes diarrheal disease and salmonellosis?,salmonella
+What pathogen causes diarrheal disease and campylobacteriosis?,campylobacter
+What pathogen causes campylobacteriosis and gastroenteritis?,campylobacter
 What pathogen causes campylobacteriosis and cdi?,campylobacter
 What pathogen causes campylobacteriosis and diarrheal disease?,campylobacter
 What pathogen causes campylobacteriosis and bacteremia?,campylobacter
-What pathogen causes campylobacteriosis and gastroenteritis?,campylobacter
+What pathogen causes bacteremia and shigellosis?,shigella
+What pathogen causes bacteremia and peliosis nhepatis?,bartonella
+What pathogen causes bacteremia and retinitis?,bartonella
+What pathogen causes bacteremia and trench fever?,bartonella
+What pathogen causes bacteremia and endocarditis?,bartonella
+What pathogen causes bacteremia and salmonellosis?,salmonella
+What pathogen causes bacteremia and campylobacteriosis?,campylobacter
+What pathogen causes bacteremia and cat scratch disease?,bartonella
+What pathogen causes bacteremia and osteomyelitis?,bartonella
+What pathogen causes bacteremia and bacillary angiomatosis?,bartonella
+What pathogen causes cat scratch disease and peliosis nhepatis?,bartonella
+What pathogen causes cat scratch disease and retinitis?,bartonella
+What pathogen causes cat scratch disease and trench fever?,bartonella
+What pathogen causes cat scratch disease and endocarditis?,bartonella
+What pathogen causes cat scratch disease and bacteremia?,bartonella
+What pathogen causes cat scratch disease and osteomyelitis?,bartonella
+What pathogen causes cat scratch disease and bacillary angiomatosis?,bartonella
+What pathogen causes osteomyelitis and peliosis nhepatis?,bartonella
+What pathogen causes osteomyelitis and retinitis?,bartonella
+What pathogen causes osteomyelitis and trench fever?,bartonella
+What pathogen causes osteomyelitis and endocarditis?,bartonella
+What pathogen causes osteomyelitis and bacteremia?,bartonella
+What pathogen causes osteomyelitis and cat scratch disease?,bartonella
+What pathogen causes osteomyelitis and bacillary angiomatosis?,bartonella
+What pathogen causes bacillary angiomatosis and peliosis nhepatis?,bartonella
+What pathogen causes bacillary angiomatosis and retinitis?,bartonella
+What pathogen causes bacillary angiomatosis and trench fever?,bartonella
+What pathogen causes bacillary angiomatosis and endocarditis?,bartonella
+What pathogen causes bacillary angiomatosis and bacteremia?,bartonella
+What pathogen causes bacillary angiomatosis and cat scratch disease?,bartonella
+What pathogen causes bacillary angiomatosis and osteomyelitis?,bartonella
