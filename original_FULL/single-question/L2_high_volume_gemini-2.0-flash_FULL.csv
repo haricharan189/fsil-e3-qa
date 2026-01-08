@@ -1,0 +1,21 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension,llm_response
+29,what is the role in the agreement of the company associated with nixon peabody llp,borrower,2,0,0.0,Nixon Peabody LLP is the counsel for the Loan Parties.
+29,"what is the role in the agreement of the company associated with oasis outsourcing contract iii, inc.",guarantors,2,0,0.0,"Oasis Outsourcing Contract III, Inc. is a Subsidiary and Guarantor."
+29,"what is the role in the agreement of the company associated with paychex peo iv, llc",guarantors,2,0,0.0,Guarantor
+29,"what is the role in the agreement of the company associated with paychex peo vii, llc",guarantors,2,0,0.0,Guarantor
+29,"what is the role in the agreement of the company associated with pbs of central florida, llc",guarantors,2,0,0.0,Guarantor
+29,"what is the role in the agreement of the company associated with paychex peo viii, llc",guarantors,2,0,0.0,Guarantor
+29,what is the role in the agreement of the company associated with paychex management llc,guarantors,2,0,0.0,"Paychex Management LLC is a Subsidiary of Paychex, Inc."
+37,what position does judith a. huckins hold,vice president,1,0,,Vice President
+37,"what is the role in the agreement of the company associated with cwi acquisition, llc",borrowers,2,0,0.0,Borrower
+37,what position does sandra cortes hold,director,1,0,,Director
+37,what position does worthing jackman hold,authorized signatory,1,0,,Executive Vice President and Chief Financial Officer
+37,"what is the role in the agreement of the company associated with austin landfill holdings, inc.",borrowers,2,0,0.0,Borrower
+37,"what is the role in the agreement of the company associated with cri holdings, llc",borrowers,2,0,0.0,Borrower
+37,"what is the role in the agreement of the company associated with alaska waste interior, llc",borrowers,2,0,0.0,Borrower
+107,"who is the vice president of gxs international, inc.",paul mcfeeters,2,0,0.0,Paul McFeeters
+107,what role do both barclays bank plc and j.p. morgan securities inc. have in the agreement,,1,1,0.0,joint lead arrangers and joint bookrunners
+107,what company is both the administrative agent and the agent in the agreement,global markets inc.,1,1,0.0,BARCLAYS BANK PLC
+107,who is the chief executive officer of open text ulc,paul mcfeeters,2,0,0.0,Paul McFeeters
+107,what role do both citigroup global markets inc. and global markets inc. have in the agreement,,1,1,0.0,"Citigroup Global Markets Inc. is joint lead arrangers and joint bookrunners, and documentation agent. Global Markets Inc. is not mentioned in the agreement."
+107,what company is both the  bookrunner and the bookrunner in the agreement,j.p. morgan securities inc.,1,1,0.0,BARCLAYS BANK PLC

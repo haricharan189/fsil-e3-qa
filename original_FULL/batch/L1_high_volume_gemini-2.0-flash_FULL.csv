@@ -1,0 +1,21 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answers,llm_response
+29,"what is the role of paychex peo iv, llc in the agreement",guarantors,1,0,0,"Paychex PEO IV, LLC is a Guarantor"
+29,"what is the location of hrsmarter v,llc",florida,1,0,0,Florida
+29,what is the location of advantage payroll services inc.,delaware,1,0,0,"Advantage Payroll Services, Inc. is a Delaware corporation"
+29,which company is associated with norway,norl nn as no,1,0,0,Norlønn AS
+29,"what is the location of century ii staffing tn, inc.",tennessee,1,0,0,Tennessee
+29,"what is the role of advantage payroll services, inc. in the agreement",guarantors,1,0,0,"Advantage Payroll Services, Inc. is a Guarantor"
+29,"what is the location of esg direction, inc.",utah,1,0,0,Utah
+37,in what organization does philip k. liebscher work,branch banking and trust company,1,0,0,"PNC Bank, National Association"
+37,"what is the role of evergreen disposal, inc. in the agreement",subsidiaries,1,0,0,Borrower Subsidiary
+37,"what is the role of waste connections of mississippi, inc in the agreement",subsidiaries,1,0,0,Borrower Subsidiary
+37,"what is the role of oklahoma landfill holdings, inc. in the agreement",subsidiaries,1,0,0,Borrower Subsidiary
+37,"what is the role of waste connections of idaho, inc. in the agreement",subsidiaries,1,0,0,Borrower Subsidiary
+37,in what organization does judith a. huckins work,"n.a, citizens bank",1,0,0,"Citizens Bank, N.A."
+37,in what organization does worthing f. jackman work,"inc., waste connections",1,0,0,"WASTE CONNECTIONS, INC."
+107,what is the location of xpedite systems s.r.l.,italy,1,0,0,Italy
+107,what is the location of open text software s.l.u.,spain,1,0,0,Spain
+107,what is the location of cordys hong kong ltd.,hong kong,1,0,0,Hong Kong
+107,what is the location of global 360 spain s.l.u.,spain,1,0,0,Spain
+107,which company is associated with portugal,open text software s.l.u. portugal branch,1,0,0,Open Text Software S.L.U. - Portugal Branch
+107,what is the role of open text uk limited in the agreement,domestic guarantor,1,0,0,charging company

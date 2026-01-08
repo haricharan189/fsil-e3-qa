@@ -1,0 +1,50 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension,llm_response,multiple_answers
+29,what is the role in the agreement of the company associated with nixon peabody llp,borrower,2,0,0.0,Counsel for the Loan Parties,
+29,"what is the role in the agreement of the company associated with oasis outsourcing contract iii, inc.",guarantors,2,0,0.0,"Subsidiary, Guarantor",
+29,"what is the role in the agreement of the company associated with paychex peo iv, llc",guarantors,2,0,0.0,"Subsidiary, Guarantor",
+29,"what is the role in the agreement of the company associated with paychex peo vii, llc",guarantors,2,0,0.0,"Subsidiary, Guarantor",
+29,"what is the role in the agreement of the company associated with pbs of central florida, llc",guarantors,2,0,0.0,"Subsidiary, Guarantor",
+29,"what is the role in the agreement of the company associated with paychex peo viii, llc",guarantors,2,0,0.0,"Subsidiary, Guarantor",
+29,what is the role in the agreement of the company associated with paychex management llc,guarantors,2,0,0.0,"Subsidiary, Guarantor",
+37,what position does judith a. huckins hold,vice president,1,0,,Vice President,
+37,"what is the role in the agreement of the company associated with cwi acquisition, llc",borrowers,2,0,0.0,Borrower,
+37,what position does sandra cortes hold,director,1,0,,Director,
+37,what position does worthing jackman hold,authorized signatory,1,0,,"Authorized Signatory of Each of the Above-Listed Borrowers, Executive Vice President and Chief Financial Officer",
+37,"what is the role in the agreement of the company associated with austin landfill holdings, inc.",borrowers,2,0,0.0,Borrower,
+37,"what is the role in the agreement of the company associated with cri holdings, llc",borrowers,2,0,0.0,Borrower,
+37,"what is the role in the agreement of the company associated with alaska waste interior, llc",borrowers,2,0,0.0,Borrower,
+107,"who is the vice president of gxs international, inc.",paul mcfeeters,2,0,0.0,Paul McFeeters,
+107,what role do both barclays bank plc and j.p. morgan securities inc. have in the agreement,,1,1,0.0,joint lead arrangers and joint bookrunners,
+107,what company is both the administrative agent and the agent in the agreement,global markets inc.,1,1,0.0,Barclays Bank PLC,
+107,who is the chief executive officer of open text ulc,paul mcfeeters,2,0,0.0,Paul McFeeters,
+107,what role do both citigroup global markets inc. and global markets inc. have in the agreement,,1,1,0.0,joint lead arrangers and joint bookrunners,
+107,what company is both the  bookrunner and the bookrunner in the agreement,j.p. morgan securities inc.,1,1,0.0,Not found,
+29,who is the chief financial officer of the company which is both the parent and the borrower in the agreement,efrain rivera,3,1,0.0,Efrain Rivera,
+107,who is the assistant treasurer of the company which is both the guarantor and the domestic in the agreement,paul mcfeeters,3,1,0.0,Paul McFeeters,
+107,who is the chief administrative officer of the company which is both the guarantor and the domestic in the agreement,paul mcfeeters,3,1,0.0,Paul McFeeters,
+107,who is the chief executive officer of the company which is both the guarantor and the domestic in the agreement,paul mcfeeters,3,1,0.0,Paul McFeeters,
+107,who is the chief financial officer of the company which is both the guarantor and the domestic in the agreement,paul mcfeeters,3,1,0.0,Paul McFeeters,
+107,who is the president of the company which is both the guarantor and the domestic in the agreement,paul mcfeeters,3,1,0.0,Paul McFeeters,
+107,who is the treasurer of the company which is both the guarantor and the domestic in the agreement,paul mcfeeters,3,1,0.0,Paul McFeeters,
+107,who is the vice president of the company which is both the guarantor and the domestic in the agreement,paul mcfeeters,3,1,0.0,Not found,
+37,who is the director of the company which is both the lender and the swing line in the agreement,sandra cortes,3,1,0.0,"Maria F. Maia, Managing Director",
+29,"who is the chief financial officer of the company associated with 911 panorama trail south, rochester, new york 14625",efrain rivera,3,0,,Efrain Rivera,0.0
+29,who is the chief financial officer of the company which is the parent borrower in the agreement,efrain rivera,3,0,,Efrain Rivera,0.0
+29,"what are the roles in the agreement of the company associated with pnc bank, national association","agent, lender, issuing bank",2,0,,"Lender, Issuing Bank and Administrative Agent",1.0
+29,which companies are both the administrative borrower and the borrower in the agreement,"pnc bank, national association",1,1,,Not found,1.0
+29,what are the roles in the agreement of the company where lisa christian is employed,"agent, administrative borrower",2,0,,"Administrative Agent, Lender, Issuing Bank",1.0
+29,which companies are both the administrative agent and the agent in the agreement,"pnc bank, national association",1,1,,Not found,1.0
+29,"what are the roles in the agreement of the company associated with pnc bank, national association",agent,2,0,,"Lender, Issuing Bank and Administrative Agent",1.0
+37,what are the roles in the agreement of the company where maria f. maia is employed,"lender, l c issuer",2,0,,Not found,1.0
+37,"who is the executive vice president of the company associated with 3 waterway square place, suite 110the woodlands, tx 77380",worthing f. jackman,3,0,,Worthing F. Jackman,0.0
+37,who is the director of the company which is the swing line lender in the agreement,sandra cortes,3,0,,Not found,0.0
+37,"who is the chief financial officer and executive vice president of waste connections, inc.",worthing f. jackman,2,1,,Worthing Jackman,0.0
+37,"who are the vice presidents of citizens bank, n.a","kelly nash, bryan ervin, raj nambiar, steven dixon, tad stainbrook, john kushnerick, judith a. huckins",2,0,,Judith A. Huckins,1.0
+37,"who is the chief financial officer of the company associated with 3 waterway square place, suite 110the woodlands, tx 77380",worthing f. jackman,3,0,,Worthing F. Jackman,0.0
+37,"what are the roles in the agreement of the company associated with bank of america, n.a.","lender, l c issuer",2,0,,"Administrative Agent, Swing Line Lender and L/C Issuer",1.0
+107,what roles do both citigroup global markets inc. and j.p. morgan securities inc. have in the agreement,"bookrunner, book manager, lead arranger",1,1,,joint lead arrangers and joint bookrunners,1.0
+107,"what role does ocelot merger sub, inc. have in the agreement which is not the role of open text inc.",borrower,2,1,,"Ocelot Merger Sub, Inc. is merging with GXS Group, Inc.",0.0
+107,which companies are both the collateral trustee and the trustee in the agreement,"inc, barclays bank plc, wilmington trust fsb, wells fargo foothill",1,1,,Not found,1.0
+107,who is the president and vice president of open text ulc,paul mcfeeters,2,1,,President and Chief Financial Officer,0.0
+107,who is the director of the company which is the administrative agent in the agreement,ritam bhalla,3,0,,Ritam Bhalla,0.0
+107,"what role does easylink services international corporation have in the agreement which is not the role of gxs worldwide, inc.",grantor,2,1,,"Easylink Services International Corporation has intercompany loans with Xpedite Systems Worldwide, Inc. and Open Text (Hong Kong) Limited.",0.0

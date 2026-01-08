@@ -1,0 +1,10 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answer_dimension,llm_response
+29,who is the chief financial officer of the company which is both the parent and the borrower in the agreement,efrain rivera,3,1,0,Efrain Rivera
+107,who is the assistant treasurer of the company which is both the guarantor and the domestic in the agreement,paul mcfeeters,3,1,0,Paul McFeeters
+107,who is the chief administrative officer of the company which is both the guarantor and the domestic in the agreement,paul mcfeeters,3,1,0,Paul McFeeters
+107,who is the chief executive officer of the company which is both the guarantor and the domestic in the agreement,paul mcfeeters,3,1,0,Paul McFeeters
+107,who is the chief financial officer of the company which is both the guarantor and the domestic in the agreement,paul mcfeeters,3,1,0,Paul McFeeters
+107,who is the president of the company which is both the guarantor and the domestic in the agreement,paul mcfeeters,3,1,0,Paul McFeeters
+107,who is the treasurer of the company which is both the guarantor and the domestic in the agreement,paul mcfeeters,3,1,0,Paul McFeeters
+107,who is the vice president of the company which is both the guarantor and the domestic in the agreement,paul mcfeeters,3,1,0,Not found
+37,who is the director of the company which is both the lender and the swing line in the agreement,sandra cortes,3,1,0,Not found

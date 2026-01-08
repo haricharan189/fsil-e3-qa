@@ -1,0 +1,451 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answers,llm_response,f1_score,edit_distance,cosine_similarity,llm_as_a_judge
+139,"who is the senior vice president but not chief financial officer, treasurer of the company where shivani agarwal is employed",jay a. brown,3,2,0,Shivani Agarwal,0.0,0.7333333333333333,0.0,1
+139,who is the vice president but not authorized signatory of the company where eric ridgway is employed,michael king,3,2,0,Not found,0.0,0.9166666666666666,0.0,1
+139,who is the vice president but not authorized signatory of the company where lennie blakeslee is employed,michael king,3,2,0,Not found,0.0,0.9166666666666666,0.0,1
+139,who is the vice president but not authorized signatory of the company where michael vondriska is employed,michael king,3,2,0,Not found,0.0,0.9166666666666666,0.0,1
+139,who is the vice president but not authorized signatory of the company where ronnie glenn is employed,michael king,3,2,0,Not found,0.0,0.9166666666666666,0.0,1
+160,who is the authorized officer of the company which is the issuing bank but not the lead arrangers in the agreement,helen d. davis,3,2,0,Amanuel Assefa,0.0,0.9285714285714286,0.0,1
+162,"who is the secretary but not chief compliance officer, general counsel, senior vice president of the company where michael j. niedermaier is employed",michael rasmuson,3,2,0,Michael J. Niedermaier,0.4,0.5714285714285714,0.33609692727625756,1
+162,who is the secretary but not president of the company where michael rasmuson is employed,michael j. niedermaier,3,2,0,Michael Rasmuson,0.4,0.5714285714285714,0.33609692727625756,1
+162,who is the secretary but not president of the company which is the guarantor in the agreement,michael j. niedermaier,3,2,0,Mark D. Andrews,0.0,0.7142857142857143,0.0,1
+162,"who is the secretary but not chief compliance officer, general counsel, senior vice president of the company which is the guarantor in the agreement",michael rasmuson,3,2,0,Mark D. Andrews,0.0,0.8125,0.0,1
+166,who is the head of loan syndications of the company which is the bookrunners but not the lead arrangers in the agreement,carl roberts,3,2,0,Carl Roberts,1.0,0.0,1.0000000000000002,5
+166,who is the head of loan syndications of the company which is the lender but not the lead arrangers in the agreement,carl roberts,3,2,0,Carl Roberts,1.0,0.0,1.0000000000000002,5
+166,who is the head of loan syndications of the company which is the lender but not the bookrunners in the agreement,carl roberts,3,2,0,Carl Roberts,1.0,0.0,1.0000000000000002,5
+166,who is the assistant vice presiden of the company which is the lender but not the bookrunners in the agreement,mark pope,3,2,0,Mark Pope,1.0,0.0,1.0000000000000002,5
+166,who is the svp credit administration of the company which is the lender but not the bookrunners in the agreement,r. srinivasa sekaran,3,2,0,R. Srinivasa Sekaran,1.0,0.0,1.0000000000000002,5
+166,who is the general manager of the company which is the lender but not the bookrunners in the agreement,suguru hattori,3,2,0,Suguru Hattori,1.0,0.0,1.0000000000000002,5
+166,who is the chief executive of the company which is the lender but not the lead arrangers in the agreement,rachit bhatia,3,2,0,Rachit Bhatia,1.0,0.0,1.0000000000000002,5
+166,who is the head cbo of the company which is the lender but not the lead arrangers in the agreement,sandeep patnaik,3,2,0,Sandeep Patnaik,1.0,0.0,1.0000000000000002,5
+166,who is the chief executive of the company which is the lender but not the bookrunners in the agreement,rachit bhatia,3,2,0,Rachit Bhatia,1.0,0.0,1.0000000000000002,5
+166,who is the head cbo of the company which is the lender but not the bookrunners in the agreement,sandeep patnaik,3,2,0,Sandeep Patnaik,1.0,0.0,1.0000000000000002,5
+166,who is the chief executive of the company which is the bookrunners but not the lead arrangers in the agreement,rachit bhatia,3,2,0,Rachit Bhatia,1.0,0.0,1.0000000000000002,5
+166,who is the head cbo of the company which is the bookrunners but not the lead arrangers in the agreement,sandeep patnaik,3,2,0,Sandeep Patnaik,1.0,0.0,1.0000000000000002,5
+166,who is the chief manager of the company which is the lender but not the lead arrangers in the agreement,sudip kumar ghatak,3,2,0,Sudip Kumar Ghatak,1.0,0.0,1.0000000000000002,5
+166,who is the chief manager of the company which is the lender but not the bookrunners in the agreement,sudip kumar ghatak,3,2,0,Sudip Kumar Ghatak,1.0,0.0,1.0000000000000002,5
+166,who is the chief manager of the company which is the bookrunners but not the lead arrangers in the agreement,sudip kumar ghatak,3,2,0,Not found,0.0,0.9444444444444444,0.0,1
+165,who is the executive director of the company which is the lender but not the syndication agent in the agreement,tony young,3,2,0,Tony Young,1.0,0.0,1.0000000000000002,5
+140,who is the director but not authorized signatory of the company where sean mckinley is employed,demetrios tserpelis,3,2,0,Sean McKinley,0.0,0.8421052631578947,0.0,1
+140,who is the director but not authorized signatory of the company where tony traynor is employed,demetrios tserpelis,3,2,0,Tony Traynor,0.0,0.7894736842105263,0.0,1
+155,who is the directors but not chief executive officer of the company where patrick foley is employed,michael pope,3,2,0,Patrick Foley,0.0,0.7692307692307693,0.0,1
+155,"who is the directors but not chief financial officer, director, statutory director of the company where michael pope is employed",patrick foley,3,2,0,Not found,0.0,0.6923076923076923,0.0,1
+169,who is the vice president of the company which is the lender but not the syndication agent in the agreement,jeff bliss,3,2,0,Not found,0.0,0.9,0.0,1
+169,who is the executive director of the company which is the lender but not the syndication agent in the agreement,timothy j. devane,3,2,0,Not found,0.0,0.75,0.0,1
+169,who is the vice president of the company which is the lender but not the documentation agent in the agreement,jeff bliss,3,2,0,Not found,0.0,0.9,0.0,1
+169,who is the executive director of the company which is the lender but not the documentation agent in the agreement,timothy j. devane,3,2,0,Not found,0.0,0.75,0.0,1
+169,who is the vice president of the company which is the lender but not the lead arranger in the agreement,jeff bliss,3,2,0,Not found,0.0,0.9,0.0,1
+169,who is the executive director of the company which is the lender but not the lead arranger in the agreement,timothy j. devane,3,2,0,Not found,0.0,0.75,0.0,1
+142,"who is the corporate secretary but not vice president, law of the company where jon a. dobson is employed",christine r. johnston,3,2,0,Jon A. Dobson,0.0,0.65,0.0,1
+142,"who is the director, resources energy group of the company which is the lender but not the documentation agents in the agreement",jason lang,3,2,0,Not found,0.0,0.8,0.0,1
+142,who is the executive director of the company which is the lender but not the administrative agent in the agreement,juan j. javellana,3,2,0,Not found,0.0,0.8125,0.0,1
+156,"who is the director but not chief financial officer, executive vice president and chief financial officer of the company where guelay mese is employed",henk derksen,3,2,0,Guelay Mese,0.0,0.75,0.0,1
+156,who is the executive director of the company which is the issuing bank but not the lende in the agreement,timothy lee,3,2,0,Not found,0.0,0.8181818181818182,0.0,1
+147,who is the authorized signatory of the company which is the c issuer but not the lender in the agreement,thomas manning,3,2,0,Not found,0.0,0.7857142857142857,0.0,1
+147,who is the managing director of the company which is the c issuer but not the lender in the agreement,raymond ventura,3,2,0,Not found,0.0,0.8,0.0,1
+147,who is the executive director of the company which is the c issuer but not the administrative agent in the agreement,dawn lee lum,3,2,0,Not found,0.0,0.9166666666666666,0.0,1
+147,who is the executive director of the company which is the c issuer but not the collateral agent in the agreement,dawn lee lum,3,2,0,Not found,0.0,0.9166666666666666,0.0,1
+147,who is the executive director of the company which is the lender but not the administrative agent in the agreement,dawn lee lum,3,2,0,Not found,0.0,0.9166666666666666,0.0,1
+147,who is the executive director of the company which is the lender but not the collateral agent in the agreement,dawn lee lum,3,2,0,Not found,0.0,0.9166666666666666,0.0,1
+147,who is the executive director of the company which is the c issuer but not the lender in the agreement,dawn lee lum,3,2,0,Not found,0.0,0.9166666666666666,0.0,1
+153,who is the authorized signatory of the company which is the issuing bank but not the administrative agent in the agreement,grace mahood,3,2,0,Not found,0.0,0.8333333333333334,0.0,1
+153,who is the authorized signatory of the company which is the swingline lender but not the administrative agent in the agreement,grace mahood,3,2,0,Not found,0.0,0.8333333333333334,0.0,1
+153,who is the authorized signatory of the company which is the swingline lender but not the issuing bank in the agreement,grace mahood,3,2,0,Not found,0.0,0.8333333333333334,0.0,1
+153,who is the managing director of the company which is the swingline lender but not the issuing bank in the agreement,daniel russell,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+153,who is the managing director of the company which is the swingline lender but not the co syndication agents in the agreement,daniel russell,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+145,who is the director but not vice president of the company where guy major is employed,joseph d. glatt,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+145,who is the director but not vice president of the company where tammy jennissen is employed,joseph d. glatt,3,2,0,Tammy Jennissen,0.0,1.0,0.0,1
+151,who is the drector of the company which is the swing line lender but not the c issuer in the agreement,joseph l. corah,3,2,0,Not found,0.0,0.7857142857142857,0.0,1
+151,who is the drector of the company which is the swing line lender but not the lead arrangers in the agreement,joseph l. corah,3,2,0,"Ronnie Glenn, Gregory T Martin",0.0,0.7586206896551724,0.0,1
+151,who is the drector of the company which is the swing line lender but not the bookrunners in the agreement,joseph l. corah,3,2,0,Not found,0.0,0.7857142857142857,0.0,1
+151,"who is the drector of the company which is the swing line lender but not the administrative agent, in the agreement",joseph l. corah,3,2,0,"Ronnie Glenn, Gregory T Martin",0.0,0.7586206896551724,0.0,1
+151,who is the drector of the company which is the c issuer but not the lead arrangers in the agreement,joseph l. corah,3,2,0,"Ronnie Glenn, Gregory T Martin, Tracy Rahn",0.0,0.8,0.0,1
+151,"who is the drector of the company which is the c issuer but not the administrative agent, in the agreement",joseph l. corah,3,2,0,"Ronnie Glenn, Gregory T Martin, Tracy Rahn",0.0,0.8,0.0,1
+151,who is the drector of the company which is the bookrunners but not the lead arrangers in the agreement,joseph l. corah,3,2,0,Not found,0.0,0.7857142857142857,0.0,1
+151,"who is the drector of the company which is the bookrunners but not the administrative agent, in the agreement",joseph l. corah,3,2,0,Not found,0.0,0.7857142857142857,0.0,1
+144,who is the authorized signatory of the company which is the lender but not the agent in the agreement,maurice amsellem,3,2,0,Joseph D. Glatt,0.0,0.875,0.0,1
+144,who is the authorized signatory of the company which is the lender but not the lender in the agreement,maurice amsellem,3,2,0,José I. Carmona,0.0,0.9375,0.0,1
+135,who is the vice president but not treasurer of the company where christine aharonian is employed,sharon s. spurlin,3,2,0,Christine Aharonian,0.0,0.7368421052631579,0.0,1
+135,who is the vice president but not treasurer of the company where gabriel juarez is employed,sharon s. spurlin,3,2,0,Gabriel Juarez,0.0,0.8125,0.0,1
+135,who is the vice president but not treasurer of the company where john c. lozano is employed,sharon s. spurlin,3,2,0,John C. Lozano,0.0,0.8125,0.0,1
+135,who is the vice president but not treasurer of the company where reginald crichlow is employed,sharon s. spurlin,3,2,0,Reginald Crichlow,0.0,0.8823529411764706,0.0,1
+135,who is the vice president but not treasurer of the company where rosanne parsill is employed,sharon s. spurlin,3,2,0,Rosanne Parsill,0.0,0.75,0.0,1
+135,who is the vice president but not treasurer of the company where david valentine is employed,sharon s. spurlin,3,2,0,David Valentine,0.0,0.8125,0.0,1
+135,who is the vice president but not treasurer of the company where les werme is employed,sharon s. spurlin,3,2,0,Les Werme,0.0,0.8125,0.0,1
+135,who is the vice president but not treasurer of the company where m. colin warman is employed,sharon s. spurlin,3,2,0,M. Colin Warman,0.0,0.75,0.0,1
+135,who is the vice president but not treasurer of the company where mark oberreuter is employed,sharon s. spurlin,3,2,0,Mark Oberreuter,0.0,0.875,0.0,1
+135,who is the vice president but not treasurer of the company where shannon juhan is employed,sharon s. spurlin,3,2,0,Shannon Juhan,0.0,0.5625,0.0,1
+135,who is the vice president but not treasurer of the company where virginia cosenza is employed,sharon s. spurlin,3,2,0,Virginia Cosenza,0.0,0.875,0.0,1
+135,who is the vice president but not treasurer of the company where hans beekmans is employed,sharon s. spurlin,3,2,0,Hans Beekmans,0.0,0.6875,0.0,1
+135,who is the authorized officer of the company which is the lender but not the co syndication agent in the agreement,stephanie balette,3,2,0,Not found,0.0,0.8823529411764706,0.0,1
+135,who is the authorized officer of the company which is the lender but not the administrative agent in the agreement,stephanie balette,3,2,0,Stephanie Balette,1.0,0.0,1.0000000000000002,5
+135,who is the authorized officer of the company which is the lender but not the co documentation agent in the agreement,stephanie balette,3,2,0,Not found,0.0,0.8823529411764706,0.0,1
+115,"who is the secretary but not chief legal officer, vice president of the company where melanie housey hart is employed",jennifer m. neil,3,2,0,Melanie Housey Hart,0.0,0.7894736842105263,0.0,1
+115,"who is the secretary but not assistant secretary, chief accounting officer, president, treasurer of the company where jennifer m. neil is employed",melanie housey hart,3,2,0,Jennifer M. Neil,0.0,0.7894736842105263,0.0,1
+115,"who is the secretary but not assistant secretary, chief accounting officer, president, treasurer of the company which is the borrower in the agreement",melanie housey hart,3,2,0,Jennifer M. Neil,0.0,0.7894736842105263,0.0,1
+115,"who is the secretary but not chief legal officer, vice president of the company which is the borrower in the agreement",jennifer m. neil,3,2,0,Not found,0.0,0.8666666666666667,0.0,1
+128,who is the director but not market manager of the company where gill skala is employed,leni preciado,3,2,0,Gill Skala,0.0,0.8461538461538461,0.0,1
+128,who is the director but not market manager of the company where mario de luca is employed,leni preciado,3,2,0,Mario De Luca,0.0,0.8461538461538461,0.0,1
+11,who is the vice president but not treasurer of the company where carolyn kee is employed,john j. tus,3,2,0,Carolyn Kee,0.0,0.9090909090909091,0.0,1
+11,who is the vice president but not treasurer of the company where virginia cosenza is employed,john j. tus,3,2,0,Virginia Cosenza,0.0,0.8125,0.0,1
+111,who is the managing director of the company which is the lender but not the administrative agent in the agreement,william r. goley,3,2,0,Bill Seabrook,0.0,0.7333333333333333,0.0,1
+111,who is the managing director of the company which is the lender but not the co syndication agent in the agreement,william r. goley,3,2,0,Kevin Chan,0.0,0.8666666666666667,0.0,1
+38,who is the executive director of the company which is the lender but not the administrative agent in the agreement,dave katz,3,2,0,Dave Katz,1.0,0.0,1.0000000000000002,5
+107,who is the assistant treasurer of the company which is the domestic guarantor but not the grantor in the agreement,paul mcfeeters,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+107,who is the chief administrative officer of the company which is the domestic guarantor but not the grantor in the agreement,paul mcfeeters,3,2,0,Paul McFeeters,1.0,0.0,1.0000000000000002,5
+107,who is the chief executive officer of the company which is the domestic guarantor but not the grantor in the agreement,paul mcfeeters,3,2,0,Paul McFeeters,1.0,0.0,1.0000000000000002,5
+107,who is the chief financial officer of the company which is the domestic guarantor but not the grantor in the agreement,paul mcfeeters,3,2,0,Paul McFeeters,1.0,0.0,1.0000000000000002,5
+107,who is the president of the company which is the domestic guarantor but not the grantor in the agreement,paul mcfeeters,3,2,0,Paul McFeeters,1.0,0.0,1.0000000000000002,5
+107,who is the treasurer of the company which is the domestic guarantor but not the grantor in the agreement,paul mcfeeters,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+107,who is the vice president of the company which is the domestic guarantor but not the grantor in the agreement,paul mcfeeters,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+112,who is the authorized officer of the company which is the lender but not the administrative agent in the agreement,amy u. lessner,3,2,0,Robert C. Megan,0.0,0.8571428571428571,0.0,1
+106,who is the vice president but not director of the company where michael getz is employed,kirkwood roland,3,2,0,Michael Getz,0.0,0.8666666666666667,0.0,1
+106,who is the vice president but not director of the company where vanessa a. kurbatskiy is employed,kirkwood roland,3,2,0,Vanessa A. Kurbatskiy,0.0,0.9,0.0,1
+61,who is the vice president but not director of the company where amanuel assefa is employed,jim cahow,3,2,0,Bridgett J. Manduk-Mowry,0.0,0.7727272727272727,0.0,1
+61,who is the vice president but not director of the company where bridgett j. manduk mowry is employed,jim cahow,3,2,0,Amanuel Assefa,0.0,0.9285714285714286,0.0,1
+61,who is the vice president but not director of the company where christopher shafto is employed,jim cahow,3,2,0,Christopher Shafto,0.0,0.8333333333333334,0.0,1
+61,who is the vice president but not director of the company where liz cheng is employed,jim cahow,3,2,0,Liz Cheng,0.0,0.6666666666666666,0.0,1
+61,who is the vice president but not director of the company where marko lukin is employed,jim cahow,3,2,0,Marko Lukin,0.0,0.9090909090909091,0.0,1
+77,who is the authorized signatory of the company which is the lender but not the co documentation agent in the agreement,rebecca kratz,3,2,0,E. Mark Hardison,0.0,0.8666666666666667,0.0,1
+77,who is the executive director of the company which is the lender but not the administrative agent in the agreement,hector j. varona,3,2,0,Not found,0.0,0.8,0.0,1
+77,who is the executive director of the company which is the lender but not the issuing bank in the agreement,hector j. varona,3,2,0,Not found,0.0,0.8,0.0,1
+89,who is the chief financial officer but not managing director of the company where james b. pekarek is employed,charles p. holden,3,2,0,Not found,0.0,0.875,0.0,1
+72,who is the authorized signatory of the company which is the book runners but not the syndication agents in the agreement,ryan durkin,3,2,0,Craig A. Douglas,0.0,0.7333333333333333,0.0,1
+72,who is the authorized signatory of the company which is the lead arrangers but not the syndication agents in the agreement,ryan durkin,3,2,0,Craig A. Douglas,0.0,0.7333333333333333,0.0,1
+66,who is the authorized signer of the company which is the issuing lender but not the revolver in the agreement,james riley,3,2,0,"Ronnie Glenn, Director",0.0,0.8095238095238095,0.0,1
+66,who is the authorized signer of the company which is the term loan a lender but not the revolver in the agreement,james riley,3,2,0,Not found,0.0,0.9090909090909091,0.0,1
+66,who is the authorized signer of the company which is the swingline lender but not the revolver in the agreement,james riley,3,2,0,"Darin Mullis, Managing Director",0.0,0.8,0.0,1
+99,who is the president but not treasurer of the company where s. victoria harvey is employed,doug couvillion,3,2,0,Not found,0.0,0.7333333333333333,0.0,1
+9,"who is the senior vice president but not chief financial officer, treasurer of the company where eric searls is employed",mark e. newman,3,2,0,Eric Searls,0.0,0.7692307692307693,0.0,1
+9,"who is the senior vice president but not chief financial officer, treasurer of the company where jonathan m. phillips is employed",mark e. newman,3,2,0,Jonathan M. Phillips,0.0,0.8421052631578947,0.0,1
+65,who is the director of the company which is the swingline lender but not the administrative agent in the agreement,sean mcwhinnie,3,2,0,Brian D. Corum,0.0,0.8571428571428571,0.0,1
+65,who is the director of the company which is the swingline lender but not the c issuer in the agreement,sean mcwhinnie,3,2,0,Brian D. Corum,0.0,0.8571428571428571,0.0,1
+65,who is the director of the company which is the revolving lender but not the administrative agent in the agreement,sean mcwhinnie,3,2,0,Brian D. Corum,0.0,0.8571428571428571,0.0,1
+65,who is the director of the company which is the revolving lender but not the c issuer in the agreement,sean mcwhinnie,3,2,0,Brian D. Corum,0.0,0.8571428571428571,0.0,1
+58,who is the president but not chief executive officer of the company where michael fleming is employed,dennis m. lanfear,3,2,0,Michael Fleming,0.0,0.9375,0.0,1
+41,who is the director of the company which is the swingline lender but not the lc issuer in the agreement,john dillon,3,2,0,Not found,0.0,0.8181818181818182,0.0,1
+41,who is the director of the company which is the swingline lender but not the syndication agent in the agreement,john dillon,3,2,0,Not found,0.0,0.8181818181818182,0.0,1
+41,who is the director of the company which is the swingline lender but not the administrative agent in the agreement,john dillon,3,2,0,Not found,0.0,0.8181818181818182,0.0,1
+96,who is the svp of the company which is the lenders but not the syndication agent in the agreement,john m. valentine,3,2,0,Not found,0.0,0.8125,0.0,1
+96,who is the svp of the company which is the lenders but not the administrative agent in the agreement,john m. valentine,3,2,0,John M. Valentine,1.0,0.0,1.0000000000000002,5
+96,who is the avp portfolio mgr. of the company which is the lenders but not the co book managers in the agreement,holland h. williams,3,2,0,Not found,0.0,0.8888888888888888,0.0,1
+96,who is the avp portfolio mgr. of the company which is the lenders but not the lead arrangers in the agreement,holland h. williams,3,2,0,Not found,0.0,0.8888888888888888,0.0,1
+96,who is the avp portfolio mgr. of the company which is the lenders but not the administrative agent in the agreement,holland h. williams,3,2,0,Not found,0.0,0.8888888888888888,0.0,1
+96,who is the avp portfolio mgr. of the company which is the lenders but not the syndication agent in the agreement,holland h. williams,3,2,0,Holland H. Williams,1.0,0.0,1.0000000000000002,5
+83,"who is the senior vice president but not general counsel, secretary of the company where andrew hietala is employed",michael ray,3,2,0,Andrew Hietala,0.0,0.8571428571428571,0.0,1
+83,"who is the senior vice president but not general counsel, secretary of the company where michael dixon is employed",michael ray,3,2,0,Michael Dixon,0.5,0.38461538461538464,0.33609692727625756,2
+83,"who is the senior vice president but not general counsel, secretary of the company where rita e. dillon is employed",michael ray,3,2,0,Rita E. Dillon,0.0,0.8461538461538461,0.0,1
+83,"who is the senior vice president but not general counsel, secretary of the company where steve levi is employed",michael ray,3,2,0,Steve Levi,0.0,0.9090909090909091,0.0,1
+83,"who is the senior vice president but not general counsel, secretary of the company where steve ryan is employed",michael ray,3,2,0,Steve Ryan,0.0,0.7272727272727273,0.0,1
+68,who is the executive director of the company which is the syndication agent but not the c issuer in the agreement,austin lotito,3,2,0,Not found,0.0,0.7692307692307693,0.0,1
+68,who is the executive director of the company which is the documentation agent but not the c issuer in the agreement,austin lotito,3,2,0,Not found,0.0,0.7692307692307693,0.0,1
+68,who is the executive director of the company which is the lender but not the c issuer in the agreement,austin lotito,3,2,0,Not found,0.0,0.7692307692307693,0.0,1
+68,who is the executive director of the company which is the administrative agent but not the c issuer in the agreement,austin lotito,3,2,0,Not found,0.0,0.7692307692307693,0.0,1
+54,who is the managing director but not senior vice president of the company where chuckie reddy is employed,jonathan olsen,3,2,0,Not found,0.0,0.7857142857142857,0.0,1
+40,who is the first vice president of the company which is the lender but not the syndication agent in the agreement,david reading,3,2,0,David Reading,1.0,0.0,1.0000000000000002,5
+40,who is the first vice president of the company which is the lender but not the co documentation agent in the agreement,david reading,3,2,0,Not found,0.0,0.8461538461538461,0.0,1
+40,who is the first vice president of the company which is the lender but not the administrative agent in the agreement,david reading,3,2,0,David Reading,1.0,0.0,1.0000000000000002,5
+40,who is the executive director of the company which is the lender but not the syndication agent in the agreement,hector j. varona,3,2,0,Hector J. Varona,1.0,0.0,1.0000000000000002,5
+40,who is the executive director of the company which is the lender but not the co documentation agent in the agreement,hector j. varona,3,2,0,Hector J. Varona,1.0,0.0,1.0000000000000002,5
+40,who is the executive director of the company which is the syndication agent but not the issuing bank in the agreement,hector j. varona,3,2,0,Not found,0.0,0.8,0.0,1
+40,who is the executive director of the company which is the co documentation agent but not the issuing bank in the agreement,hector j. varona,3,2,0,Not found,0.0,0.8,0.0,1
+40,who is the executive director of the company which is the administrative agent but not the issuing bank in the agreement,hector j. varona,3,2,0,Not found,0.0,0.8,0.0,1
+42,"who is the senior vice president but not chief financial officer, chief financialofficer, treasurer of the company where alan garson is employed",michael j. bufano,3,2,0,Alan Garson,0.0,0.8125,0.0,1
+94,who is the managing director of the company which is the swingline lender but not the administrative agent in the agreement,e. joseph hess,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+94,who is the managing director of the company which is the swingline lender but not the senior managing agent in the agreement,e. joseph hess,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+94,who is the managing director of the company which is the swingline lender but not the collatera agent in the agreement,e. joseph hess,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+94,who is the managing director of the company which is the swingline lender but not the bookrunners in the agreement,e. joseph hess,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+94,who is the managing director of the company which is the swingline lender but not the lead arrangers in the agreement,e. joseph hess,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+94,who is the managing director of the company which is the administrative agent but not the lead arrangers in the agreement,e. joseph hess,3,2,0,E. Joseph Hess,1.0,0.0,1.0000000000000002,5
+94,who is the managing director of the company which is the administrative agent but not the bookrunners in the agreement,e. joseph hess,3,2,0,E. Joseph Hess,1.0,0.0,1.0000000000000002,5
+94,who is the managing director of the company which is the senior managing agent but not the lead arrangers in the agreement,e. joseph hess,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+94,who is the managing director of the company which is the senior managing agent but not the bookrunners in the agreement,e. joseph hess,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+94,who is the managing director of the company which is the collatera agent but not the lead arrangers in the agreement,e. joseph hess,3,2,0,E. Joseph Hess,1.0,0.0,1.0000000000000002,5
+94,who is the managing director of the company which is the collatera agent but not the bookrunners in the agreement,e. joseph hess,3,2,0,E. Joseph Hess,1.0,0.0,1.0000000000000002,5
+5,who is the senior vice president but not vice president of the company where denise smyth is employed,roy e. alexander,3,2,0,Denise Smyth,0.0,0.8666666666666667,0.0,1
+5,who is the senior vice president but not vice president of the company where robert masters is employed,roy e. alexander,3,2,0,Robert Masters,0.0,0.6666666666666666,0.0,1
+47,who is the vice president of the company which is the lender but not the co syndication agents in the agreement,bremmer kneib,3,2,0,Marni McManus,0.0,0.9230769230769231,0.0,1
+47,who is the director of the company which is the co syndication agents but not the bookrunners in the agreement,brian mcnany,3,2,0,Not found,0.0,0.8333333333333334,0.0,1
+47,who is the director of the company which is the lender but not the bookrunners in the agreement,brian mcnany,3,2,0,Not found,0.0,0.8333333333333334,0.0,1
+47,who is the director of the company which is the lender but not the co syndication agents in the agreement,brian mcnany,3,2,0,Not found,0.0,0.8333333333333334,0.0,1
+47,"who is the managing director of the company which is the lender but not the administrative agent, in the agreement",kirk tesch,3,2,0,Not found,0.0,0.9,0.0,1
+90,who is the vice president but not treasurer of the company where christopher a. salek is employed,william c. whitaker,3,2,0,Not found,0.0,0.9444444444444444,0.0,1
+90,who is the vice president but not treasurer of the company where michael vondriska is employed,william c. whitaker,3,2,0,Not found,0.0,0.9444444444444444,0.0,1
+84,who is the general manager but not vp of the company where alexander wu is employed,chwan ming ho,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+84,who is the general manager but not svp of the company where chwan ming ho is employed,alexander wu,3,2,0,Not found,0.0,1.0,0.0,1
+84,who is the senior vice president but not treasurer of the company where brian tuerff is employed,michael a. crabtree,3,2,0,Brian Tuerff,0.0,0.8333333333333334,0.0,1
+84,who is the senior vice president but not treasurer of the company where james m. armstrong is employed,michael a. crabtree,3,2,0,James M. Armstrong,0.0,0.7222222222222222,0.0,1
+84,who is the senior vice president but not treasurer of the company where samuel a. bluso is employed,michael a. crabtree,3,2,0,Samuel A. Bluso,0.3333333333333333,0.6666666666666666,0.0,1
+46,who is the senior vice president of the company which is the lender but not the agent in the agreement,gregory r. russano,3,2,0,John Paul Hills,0.0,0.9411764705882353,0.0,1
+87,who is the senior vice president but not chief financial officer of the company where jennifer yan is employed,ronald d. ford,3,2,0,Not found,0.0,0.6923076923076923,0.0,1
+87,who is the vice president but not treasurer of the company where sarah c. lesser is employed,douglas b. bingham,3,2,0,Not found,0.0,0.8235294117647058,0.0,1
+86,who is the senior vice president of the company which is the lender but not the c issuer in the agreement,julie yamauchi,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+86,who is the senior vice president of the company which is the lender but not the swing line lender in the agreement,julie yamauchi,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+86,who is the senior vice president of the company which is the lender but not the administrative agent in the agreement,julie yamauchi,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+51,who is the vice president of the company which is the collateral agent but not the lead arrangers in the agreement,cody gunsch,3,2,0,Sonia Flores,0.0,0.8333333333333334,0.0,1
+51,who is the vice president of the company which is the collateral agent but not the bookrunners in the agreement,cody gunsch,3,2,0,Sonia Flores,0.0,0.8333333333333334,0.0,1
+51,who is the vice president of the company which is the collateral agent but not the lender in the agreement,cody gunsch,3,2,0,Sonia Flores,0.0,0.8333333333333334,0.0,1
+51,who is the vice president of the company which is the administrative agent but not the lead arrangers in the agreement,cody gunsch,3,2,0,Cody Gunsch,1.0,0.0,1.0000000000000002,5
+51,who is the vice president of the company which is the administrative agent but not the bookrunners in the agreement,cody gunsch,3,2,0,Cody Gunsch,1.0,0.0,1.0000000000000002,5
+51,who is the vice president of the company which is the administrative agent but not the lender in the agreement,cody gunsch,3,2,0,Cody Gunsch,1.0,0.0,1.0000000000000002,5
+3,who is the managing director of the company which is the lender but not the syndication agent in the agreement,anand j. jobanputra,3,2,0,Anand J. Jobanputra,1.0,0.0,1.0000000000000002,5
+22,who is the vice president of the company which is the lead arranger but not the book runner in the agreement,ajay jagsi,3,2,0,Not found,0.0,0.9,0.0,1
+22,who is the vice president of the company which is the lender but not the book runner in the agreement,ajay jagsi,3,2,0,Not found,0.0,0.9,0.0,1
+22,who is the vice president of the company which is the lender but not the lead arranger in the agreement,ajay jagsi,3,2,0,Not found,0.0,0.9,0.0,1
+22,who is the authorized officer of the company which is the lender but not the lead arranger in the agreement,anca loghin,3,2,0,Not found,0.0,0.7272727272727273,0.0,1
+22,who is the authorized officer of the company which is the lender but not the book runner in the agreement,anca loghin,3,2,0,Not found,0.0,0.7272727272727273,0.0,1
+37,who is the managing director of the company which is the swing line lender but not the c issuer in the agreement,maria f. maia,3,2,0,Maria F. Maia,1.0,0.0,1.0000000000000002,5
+23,who is the senior vice president of the company which is the lender but not the c issuer in the agreement,jonathan m. bouvet,3,2,0,Not found,0.0,0.7058823529411765,0.0,1
+23,who is the senior vice president of the company which is the lender but not the administrative agent in the agreement,jonathan m. bouvet,3,2,0,Not found,0.0,0.7058823529411765,0.0,1
+35,"who is the senior vice president but not chief financial officer of the company associated with 1185 avenue of the americasnew york, new york 10036",john p. rielly,3,2,0,Timothy B. Goodell,0.0,0.6470588235294118,0.0,1
+35,who is the senior vice president but not chief financial officer of the company where devon j. lang is employed,john p. rielly,3,2,0,DeVon J. Lang,0.0,0.8461538461538461,0.0,1
+35,who is the senior vice president but not general counsel of the company where devon j. lang is employed,timothy b. goodell,3,2,0,DeVon J. Lang,0.0,0.8235294117647058,0.0,1
+35,who is the senior vice president but not chief financial officer of the company where joe hykle is employed,john p. rielly,3,2,0,Joe Hykle,0.0,0.6923076923076923,0.0,1
+35,who is the senior vice president but not general counsel of the company where joe hykle is employed,timothy b. goodell,3,2,0,Joe Hykle,0.0,0.8235294117647058,0.0,1
+35,who is the senior vice president but not general counsel of the company where john p. rielly is employed,timothy b. goodell,3,2,0,John P. Rielly,0.0,0.6470588235294118,0.0,1
+35,who is the senior vice president but not chief financial officer of the company where kelton glasscock is employed,john p. rielly,3,2,0,Kelton Glasscock,0.0,0.875,0.0,1
+35,who is the senior vice president but not general counsel of the company where kelton glasscock is employed,timothy b. goodell,3,2,0,Kelton Glasscock,0.0,0.8823529411764706,0.0,1
+35,who is the senior vice president but not chief financial officer of the company where sophia love is employed,john p. rielly,3,2,0,Sophia Love,0.0,0.8461538461538461,0.0,1
+35,who is the senior vice president but not general counsel of the company where sophia love is employed,timothy b. goodell,3,2,0,Sophia Love,0.0,0.7058823529411765,0.0,1
+35,who is the senior vice president but not chief financial officer of the company where timothy b. goodell is employed,john p. rielly,3,2,0,Timothy B. Goodell,0.0,0.6470588235294118,0.0,1
+35,who is the senior vice president but not chief financial officer of the company which is the borrower in the agreement,john p. rielly,3,2,0,Timothy B. Goodell,0.0,0.6470588235294118,0.0,1
+35,who is the senior vice president but not general counsel of the company which is the borrower in the agreement,timothy b. goodell,3,2,0,John P. Rielly,0.0,0.6470588235294118,0.0,1
+121,who is the vp but not general manager of the company where murtuza ziauddin is employed,jane chang,3,2,0,Not found,0.0,0.8,0.0,1
+121,who is the director but not svp of the company where chris hursey is employed,paul hultgren,3,2,0,Chris Hursey,0.0,0.7692307692307693,0.0,1
+121,who is the director but not svp of the company where steven r. bruno is employed,paul hultgren,3,2,0,Steven R. Bruno,0.0,0.8571428571428571,0.0,1
+121,"who is the vice president but not general counsel, secretary of the company where daniel vilarelle is employed",peter c. underwood,3,2,0,Daniel Vilarelle,0.0,0.8823529411764706,0.0,1
+121,"who is the vice president but not general counsel, secretary of the company where darran wee is employed",peter c. underwood,3,2,0,Darran Wee,0.0,0.8235294117647058,0.0,1
+121,"who is the vice president but not general counsel, secretary of the company where eric harvey is employed",peter c. underwood,3,2,0,Eric Harvey,0.0,0.7058823529411765,0.0,1
+121,"who is the vice president but not general counsel, secretary of the company where mary r. wright is employed",peter c. underwood,3,2,0,Mary R. Wright,0.0,0.8235294117647058,0.0,1
+121,"who is the vice president but not general counsel, secretary of the company where s. bradley mcdougall is employed",peter c. underwood,3,2,0,S. Bradley McDougall,0.0,0.8947368421052632,0.0,1
+121,"who is the vice president but not general counsel, secretary of the company where shirley shipley is employed",peter c. underwood,3,2,0,Shirley Shipley,0.0,0.9411764705882353,0.0,1
+124,who is the executive director of the company which is the lender but not the bookrunners in the agreement,peter m. killea,3,2,0,Peter M. Killea,1.0,0.0,1.0000000000000002,5
+124,who is the executive director of the company which is the lender but not the syndication agents in the agreement,peter m. killea,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+130,who is the commercial credit officer of the company which is the lender but not the issuing bank in the agreement,kevin couch,3,2,0,Kevin Couch,1.0,0.0,1.0000000000000002,5
+130,who is the commercial credit officer of the company which is the issuing bank but not the lender in the agreement,kevin couch,3,2,0,Not found,0.0,0.7272727272727273,0.0,1
+130,who is the authorized officer of the company which is the collateral agent but not the revolving administrative agent in the agreement,stephanie balette,3,2,0,Not found,0.0,0.8823529411764706,0.0,1
+130,who is the authorized officer of the company which is the collateral agent but not the issuing bank in the agreement,stephanie balette,3,2,0,Not found,0.0,0.8823529411764706,0.0,1
+130,who is the authorized officer of the company which is the term administrative agent but not the revolving administrative agent in the agreement,stephanie balette,3,2,0,Not found,0.0,0.8823529411764706,0.0,1
+130,who is the authorized officer of the company which is the term administrative agent but not the issuing bank in the agreement,stephanie balette,3,2,0,Not found,0.0,0.8823529411764706,0.0,1
+127,who is the executive director of the company which is the swing line lender but not the co syndication agents in the agreement,tracy rahn,3,2,0,Darren Merten,0.0,0.6923076923076923,0.0,1
+32,who is the executive director of the company which is the bookrunner but not the co syndication agent in the agreement,gregg l. byers,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+32,who is the executive director of the company which is the bookrunner but not the collateral agent in the agreement,gregg l. byers,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+32,who is the executive director of the company which is the bookrunner but not the administrative agent in the agreement,gregg l. byers,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+32,who is the executive director of the company which is the bookrunner but not the co documentation agent in the agreement,gregg l. byers,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+32,who is the executive director of the company which is the lead bookrunner but not the co syndication agent in the agreement,gregg l. byers,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+32,who is the executive director of the company which is the lead bookrunner but not the collateral agent in the agreement,gregg l. byers,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+32,who is the executive director of the company which is the lead bookrunner but not the administrative agent in the agreement,gregg l. byers,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+32,who is the executive director of the company which is the lead bookrunner but not the co documentation agent in the agreement,gregg l. byers,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+32,who is the executive director of the company which is the lead arranger but not the co syndication agent in the agreement,gregg l. byers,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+32,who is the executive director of the company which is the lead arranger but not the collateral agent in the agreement,gregg l. byers,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+32,who is the executive director of the company which is the lead arranger but not the administrative agent in the agreement,gregg l. byers,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+32,who is the executive director of the company which is the lead arranger but not the co documentation agent in the agreement,gregg l. byers,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+32,who is the executive director of the company which is the administrative agent but not the bookrunner in the agreement,gregg l. byers,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+32,who is the executive director of the company which is the administrative agent but not the lead bookrunner in the agreement,gregg l. byers,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+32,who is the executive director of the company which is the lead arranger but not the bookrunner in the agreement,gregg l. byers,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+32,who is the executive director of the company which is the lead arranger but not the lead bookrunner in the agreement,gregg l. byers,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+32,who is the executive director of the company which is the co syndication agent but not the bookrunner in the agreement,gregg l. byers,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+32,who is the executive director of the company which is the co syndication agent but not the lead bookrunner in the agreement,gregg l. byers,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+32,who is the executive director of the company which is the collateral agent but not the bookrunner in the agreement,gregg l. byers,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+32,who is the executive director of the company which is the collateral agent but not the lead bookrunner in the agreement,gregg l. byers,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+32,who is the executive director of the company which is the co documentation agent but not the bookrunner in the agreement,gregg l. byers,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+32,who is the executive director of the company which is the co documentation agent but not the lead bookrunner in the agreement,gregg l. byers,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+32,who is the director and counsel region americas legal of the company which is the bookrunner but not the administrative agents in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the bookrunner but not the administrative agent in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the bookrunner but not the co syndication agents in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the bookrunner but not the co syndication agent in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the bookrunner but not the co documentation agents in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the bookrunner but not the collateral agent in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the bookrunner but not the co documentation agent in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the lead arranger but not the administrative agents in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the lead arranger but not the administrative agent in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the lead arranger but not the co syndication agents in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the lead arranger but not the co syndication agent in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the lead arranger but not the co documentation agents in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the lead arranger but not the collateral agent in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the lead arranger but not the co documentation agent in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the bookrunners but not the administrative agents in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the bookrunners but not the administrative agent in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the bookrunners but not the co syndication agents in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the bookrunners but not the co syndication agent in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the bookrunners but not the co documentation agents in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the bookrunners but not the collateral agent in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the bookrunners but not the co documentation agent in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the lead arrangers but not the administrative agents in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the lead arrangers but not the administrative agent in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the lead arrangers but not the co syndication agents in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the lead arrangers but not the co syndication agent in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the lead arrangers but not the co documentation agents in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the lead arrangers but not the collateral agent in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the lead arrangers but not the co documentation agent in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the lead bookrunner but not the administrative agents in the agreement,barbara s. wang,3,2,0,Barbara S. Wang,1.0,0.0,1.0000000000000002,5
+32,who is the director and counsel region americas legal of the company which is the lead bookrunner but not the administrative agent in the agreement,barbara s. wang,3,2,0,Barbara S. Wang,1.0,0.0,1.0000000000000002,5
+32,who is the director and counsel region americas legal of the company which is the lead bookrunner but not the co syndication agents in the agreement,barbara s. wang,3,2,0,Barbara S. Wang,1.0,0.0,1.0000000000000002,5
+32,who is the director and counsel region americas legal of the company which is the lead bookrunner but not the co syndication agent in the agreement,barbara s. wang,3,2,0,Barbara S. Wang,1.0,0.0,1.0000000000000002,5
+32,who is the director and counsel region americas legal of the company which is the lead bookrunner but not the co documentation agents in the agreement,barbara s. wang,3,2,0,Barbara S. Wang,1.0,0.0,1.0000000000000002,5
+32,who is the director and counsel region americas legal of the company which is the lead bookrunner but not the collateral agent in the agreement,barbara s. wang,3,2,0,Barbara S. Wang,1.0,0.0,1.0000000000000002,5
+32,who is the director and counsel region americas legal of the company which is the lead bookrunner but not the co documentation agent in the agreement,barbara s. wang,3,2,0,Barbara S. Wang,1.0,0.0,1.0000000000000002,5
+32,who is the director and counsel region americas legal of the company which is the administrative agents but not the bookrunner in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the administrative agents but not the lead arrangers in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the administrative agents but not the lead bookrunner in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the administrative agents but not the bookrunners in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the administrative agent but not the bookrunner in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the administrative agent but not the lead arrangers in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the administrative agent but not the lead bookrunner in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the administrative agent but not the bookrunners in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the co syndication agents but not the bookrunner in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the co syndication agents but not the lead arrangers in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the co syndication agents but not the lead bookrunner in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the co syndication agents but not the bookrunners in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the lead arranger but not the bookrunner in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the lead arranger but not the lead arrangers in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the lead arranger but not the lead bookrunner in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the lead arranger but not the bookrunners in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the co syndication agent but not the bookrunner in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the co syndication agent but not the lead arrangers in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the co syndication agent but not the lead bookrunner in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the co syndication agent but not the bookrunners in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the co documentation agents but not the bookrunner in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the co documentation agents but not the lead arrangers in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the co documentation agents but not the lead bookrunner in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the co documentation agents but not the bookrunners in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the collateral agent but not the bookrunner in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the collateral agent but not the lead arrangers in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the collateral agent but not the lead bookrunner in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the collateral agent but not the bookrunners in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the co documentation agent but not the bookrunner in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the co documentation agent but not the lead arrangers in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the co documentation agent but not the lead bookrunner in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the director and counsel region americas legal of the company which is the co documentation agent but not the bookrunners in the agreement,barbara s. wang,3,2,0,Not found,0.0,0.8571428571428571,0.0,1
+32,who is the vice president commercial banking of the company which is the lead arranger but not the bookrunner in the agreement,douglas brandes,3,2,0,Not found,0.0,0.7333333333333333,0.0,1
+32,who is the assistant vice president of the company which is the lead arranger but not the bookrunner in the agreement,todd patchell,3,2,0,Not found,0.0,0.8461538461538461,0.0,1
+32,who is the vice president commercial banking of the company which is the lead arranger but not the issuing lender in the agreement,douglas brandes,3,2,0,Not found,0.0,0.7333333333333333,0.0,1
+32,who is the assistant vice president of the company which is the lead arranger but not the issuing lender in the agreement,todd patchell,3,2,0,Not found,0.0,0.8461538461538461,0.0,1
+32,who is the vice president commercial banking of the company which is the lead arranger but not the issuing bank in the agreement,douglas brandes,3,2,0,Not found,0.0,0.7333333333333333,0.0,1
+32,who is the assistant vice president of the company which is the lead arranger but not the issuing bank in the agreement,todd patchell,3,2,0,Not found,0.0,0.8461538461538461,0.0,1
+32,who is the vice president commercial banking of the company which is the lead arranger but not the bookrunners in the agreement,douglas brandes,3,2,0,Not found,0.0,0.7333333333333333,0.0,1
+32,who is the assistant vice president of the company which is the lead arranger but not the bookrunners in the agreement,todd patchell,3,2,0,Not found,0.0,0.8461538461538461,0.0,1
+32,who is the vice president commercial banking of the company which is the lead arranger but not the lead arrangers in the agreement,douglas brandes,3,2,0,Not found,0.0,0.7333333333333333,0.0,1
+32,who is the assistant vice president of the company which is the lead arranger but not the lead arrangers in the agreement,todd patchell,3,2,0,Not found,0.0,0.8461538461538461,0.0,1
+32,who is the vice president commercial banking of the company which is the lead arranger but not the lead bookrunner in the agreement,douglas brandes,3,2,0,Not found,0.0,0.7333333333333333,0.0,1
+32,who is the assistant vice president of the company which is the lead arranger but not the lead bookrunner in the agreement,todd patchell,3,2,0,Not found,0.0,0.8461538461538461,0.0,1
+32,who is the vice president commercial banking of the company which is the lead arranger but not the swingline lender in the agreement,douglas brandes,3,2,0,Not found,0.0,0.7333333333333333,0.0,1
+32,who is the assistant vice president of the company which is the lead arranger but not the swingline lender in the agreement,todd patchell,3,2,0,Not found,0.0,0.8461538461538461,0.0,1
+32,who is the vice president commercial banking of the company which is the swingline lender but not the bookrunner in the agreement,douglas brandes,3,2,0,Not found,0.0,0.7333333333333333,0.0,1
+32,who is the assistant vice president of the company which is the swingline lender but not the bookrunner in the agreement,todd patchell,3,2,0,Not found,0.0,0.8461538461538461,0.0,1
+32,who is the vice president commercial banking of the company which is the swingline lender but not the issuing lender in the agreement,douglas brandes,3,2,0,Not found,0.0,0.7333333333333333,0.0,1
+32,who is the assistant vice president of the company which is the swingline lender but not the issuing lender in the agreement,todd patchell,3,2,0,Not found,0.0,0.8461538461538461,0.0,1
+32,who is the vice president commercial banking of the company which is the swingline lender but not the lead arranger in the agreement,douglas brandes,3,2,0,Not found,0.0,0.7333333333333333,0.0,1
+32,who is the assistant vice president of the company which is the swingline lender but not the lead arranger in the agreement,todd patchell,3,2,0,Not found,0.0,0.8461538461538461,0.0,1
+32,who is the vice president commercial banking of the company which is the swingline lender but not the bookrunners in the agreement,douglas brandes,3,2,0,Not found,0.0,0.7333333333333333,0.0,1
+32,who is the assistant vice president of the company which is the swingline lender but not the bookrunners in the agreement,todd patchell,3,2,0,Not found,0.0,0.8461538461538461,0.0,1
+32,who is the vice president commercial banking of the company which is the swingline lender but not the lead arrangers in the agreement,douglas brandes,3,2,0,Not found,0.0,0.7333333333333333,0.0,1
+32,who is the assistant vice president of the company which is the swingline lender but not the lead arrangers in the agreement,todd patchell,3,2,0,Not found,0.0,0.8461538461538461,0.0,1
+32,who is the vice president commercial banking of the company which is the swingline lender but not the lead bookrunner in the agreement,douglas brandes,3,2,0,Not found,0.0,0.7333333333333333,0.0,1
+32,who is the assistant vice president of the company which is the swingline lender but not the lead bookrunner in the agreement,todd patchell,3,2,0,Not found,0.0,0.8461538461538461,0.0,1
+32,who is the vice president commercial banking of the company which is the swingline lender but not the issuing bank in the agreement,douglas brandes,3,2,0,Not found,0.0,0.7333333333333333,0.0,1
+32,who is the assistant vice president of the company which is the swingline lender but not the issuing bank in the agreement,todd patchell,3,2,0,Not found,0.0,0.8461538461538461,0.0,1
+26,who is the treasurer but not senior vice president of the company where jeffrey.galik is employed,jeffrey galik,3,2,0,Not found,0.0,0.9230769230769231,0.0,1
+107,what are the roles and subroles that barclays bank plc and global markets inc. share in the agreement that are not held by rbc capital markets,"collateral agent, collateral trustee, documentation agent, administrative agent, administrative borrower",1,3,1,Not found,0.0,0.92,0.0,1
+107,what are the roles and subroles that barclays bank plc and global markets inc. share in the agreement that are not held by wilmington trust fsb,"documentation agent, administrative agent, administrative borrower",1,3,1,Not found,0.0,0.90625,0.0,1
+107,what are the roles and subroles that barclays bank plc and global markets inc. share in the agreement that are not held by barclays bank plc,"collateral agent, collateral trustee, documentation agent, administrative agent, administrative borrower",1,3,1,Not found,0.0,0.92,0.0,1
+107,"what are the roles and subroles that barclays bank plc and wells fargo foothill, inc share in the agreement that are not held by wilmington trust fsb","documentation agent, administrative agent, administrative borrower",1,3,1,Not found,0.0,0.90625,0.0,1
+107,"what are the roles and subroles that barclays bank plc and wells fargo foothill, inc share in the agreement that are not held by barclays bank plc","collateral agent, collateral trustee, documentation agent, administrative agent, administrative borrower",1,3,1,Not found,0.0,0.92,0.0,1
+107,what are the roles and subroles that barclays bank plc and wilmington trust fsb share in the agreement that are not held by barclays bank plc,"collateral agent, collateral trustee",1,3,1,Not found,0.0,0.8571428571428571,0.0,1
+107,"what are the roles and subroles that global markets inc. and wells fargo foothill, inc share in the agreement that are not held by wilmington trust fsb","documentation agent, administrative agent, administrative borrower",1,3,1,Not found,0.0,0.90625,0.0,1
+60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by fifth third bank, national association","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by goldman sachs bank usa","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by pnc bank, national association","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,LLM parse error,0.0,0.7241379310344828,0.0,1
+60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by td bank, n.a.","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by regions bank","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and bofa securities, inc. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by fifth third bank, national association","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by goldman sachs bank usa","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by pnc bank, national association","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,LLM parse error,0.0,0.7241379310344828,0.0,1
+60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by td bank, n.a.","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by regions bank","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and citibank, n.a. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by pnc bank, national association","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,LLM parse error,0.0,0.7241379310344828,0.0,1
+60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by td bank, n.a.","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by regions bank","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and jpmorgan chase bank, n.a. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by pnc bank, national association","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,LLM parse error,0.0,0.7241379310344828,0.0,1
+60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by td bank, n.a.","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by regions bank","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and mufg bank, ltd. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and pnc capital markets llc share in the agreement that are not held by td bank, n.a.","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and pnc capital markets llc share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and pnc capital markets llc share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,what are the roles and subroles that bank of montreal and pnc capital markets llc share in the agreement that are not held by regions bank,"bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and pnc capital markets llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and u.s. bank national association share in the agreement that are not held by wells fargo bank, national association","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and u.s. bank national association share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,what are the roles and subroles that bank of montreal and u.s. bank national association share in the agreement that are not held by regions bank,"bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and u.s. bank national association share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and wells fargo securities llc share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,what are the roles and subroles that bank of montreal and wells fargo securities llc share in the agreement that are not held by regions bank,"bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bank of montreal and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bofa securities, inc. and citibank, n.a. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,LLM parse error,0.0,0.7241379310344828,0.0,1
+60,"what are the roles and subroles that bofa securities, inc. and citibank, n.a. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bofa securities, inc. and jpmorgan chase bank, n.a. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,LLM parse error,0.0,0.7241379310344828,0.0,1
+60,"what are the roles and subroles that bofa securities, inc. and jpmorgan chase bank, n.a. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bofa securities, inc. and mufg bank, ltd. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,LLM parse error,0.0,0.7241379310344828,0.0,1
+60,"what are the roles and subroles that bofa securities, inc. and mufg bank, ltd. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,LLM parse error,0.0,0.7837837837837838,0.0,1
+60,"what are the roles and subroles that bofa securities, inc. and pnc capital markets llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,,0.0,0.0,0.0,1
+60,"what are the roles and subroles that bofa securities, inc. and u.s. bank national association share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,,0.0,0.0,0.0,1
+60,"what are the roles and subroles that bofa securities, inc. and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,,0.0,0.0,0.0,1
+60,"what are the roles and subroles that citibank, n.a. and jpmorgan chase bank, n.a. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,Documentation Agent,0.0,0.8275862068965517,0.0,1
+60,"what are the roles and subroles that citibank, n.a. and jpmorgan chase bank, n.a. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,,0.0,0.0,0.0,1
+60,"what are the roles and subroles that citibank, n.a. and mufg bank, ltd. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,,0.0,0.0,0.0,1
+60,"what are the roles and subroles that citibank, n.a. and mufg bank, ltd. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,,0.0,0.0,0.0,1
+60,"what are the roles and subroles that citibank, n.a. and pnc capital markets llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,,0.0,0.0,0.0,1
+60,"what are the roles and subroles that citibank, n.a. and u.s. bank national association share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,,0.0,0.0,0.0,1
+60,"what are the roles and subroles that citibank, n.a. and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,,0.0,0.0,0.0,1
+60,"what are the roles and subroles that jpmorgan chase bank, n.a. and mufg bank, ltd. share in the agreement that are not held by pnc capital markets llc","lead arranger, lead bookrunner",1,3,1,,0.0,0.0,0.0,1
+60,"what are the roles and subroles that jpmorgan chase bank, n.a. and mufg bank, ltd. share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,,0.0,0.0,0.0,1
+60,"what are the roles and subroles that jpmorgan chase bank, n.a. and pnc capital markets llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,,0.0,0.0,0.0,1
+60,"what are the roles and subroles that jpmorgan chase bank, n.a. and u.s. bank national association share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,,0.0,0.0,0.0,1
+60,"what are the roles and subroles that jpmorgan chase bank, n.a. and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,,0.0,0.0,0.0,1
+60,"what are the roles and subroles that mufg bank, ltd. and pnc capital markets llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,,0.0,0.0,0.0,1
+60,"what are the roles and subroles that mufg bank, ltd. and u.s. bank national association share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,,0.0,0.0,0.0,1
+60,"what are the roles and subroles that mufg bank, ltd. and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,,0.0,0.0,0.0,1
+60,"what are the roles and subroles that u.s. bank national association and wells fargo securities llc share in the agreement that are not held by jpmorgan chase bank, n.a","bookrunner, book manager, lead arranger",1,3,1,,0.0,0.0,0.0,1
+60,what are the roles and subroles that u.s. bank national association and wells fargo securities llc share in the agreement that are not held by regions bank,"bookrunner, book manager, lead arranger",1,3,1,Joint Lead Arranger and Joint Bookrunner,0.6,0.775,0.31710746658027095,3
+60,"what are the roles and subroles that u.s. bank national association and wells fargo securities llc share in the agreement that are not held by mizuho bank, ltd.","bookrunner, book manager, lead arranger",1,3,1,,0.0,0.0,0.0,1
+77,what are the positions held by blair w. todt but not by kenneth c. misemer or mark hardison,"secretary, chief legal, administrative officer",1,3,True,Chief Legal and Administrative Officer; Secretary,0.7272727272727272,0.5102040816326531,0.8466473536503037,5
+66,what are the roles and subroles that bnp paribas securities corp. and bank of the west share in the agreement that are not held by keybanc capital markets,"bookrunner, book manager, lead arranger",1,3,1,Not found,0.0,0.8648648648648649,0.0,1
+66,what are the roles and subroles that bnp paribas securities corp. and barclays bank plc share in the agreement that are not held by keybanc capital markets,"bookrunner, book manager, lead arranger",1,3,1,Not found,0.0,0.8648648648648649,0.0,1
+66,"what are the roles and subroles that bnp paribas securities corp. and bofa securities, inc. share in the agreement that are not held by keybanc capital markets","bookrunner, book manager, lead arranger",1,3,1,Not found,0.0,0.8648648648648649,0.0,1
+66,what are the roles and subroles that bnp paribas securities corp. and citigroup global markets inc. share in the agreement that are not held by keybanc capital markets,"bookrunner, book manager, lead arranger",1,3,1,Not found,0.0,0.8648648648648649,0.0,1
+66,what are the roles and subroles that bank of the west and barclays bank plc share in the agreement that are not held by keybanc capital markets,"bookrunner, book manager, lead arranger",1,3,1,Not found,0.0,0.8648648648648649,0.0,1
+66,"what are the roles and subroles that bank of the west and bofa securities, inc. share in the agreement that are not held by keybanc capital markets","bookrunner, book manager, lead arranger",1,3,1,Not found,0.0,0.8648648648648649,0.0,1
+66,what are the roles and subroles that bank of the west and citigroup global markets inc. share in the agreement that are not held by keybanc capital markets,"bookrunner, book manager, lead arranger",1,3,1,Not found,0.0,0.8648648648648649,0.0,1
+66,"what are the roles and subroles that barclays bank plc and bofa securities, inc. share in the agreement that are not held by keybanc capital markets","bookrunner, book manager, lead arranger",1,3,1,Not found,0.0,0.8648648648648649,0.0,1
+66,what are the roles and subroles that barclays bank plc and citigroup global markets inc. share in the agreement that are not held by keybanc capital markets,"bookrunner, book manager, lead arranger",1,3,1,Not found,0.0,0.8648648648648649,0.0,1
+66,"what are the roles and subroles that bofa securities, inc. and citigroup global markets inc. share in the agreement that are not held by keybanc capital markets","bookrunner, book manager, lead arranger",1,3,1,Not found,0.0,0.8648648648648649,0.0,1
+59,what are the roles and subroles that bank of the west and branch banking and trust company share in the agreement that are not held by u.s. bank,"co syndication agent, co documentation agent",1,3,1,Not found,0.0,0.8372093023255814,0.0,1
+59,"what are the roles and subroles that bank of the west and citibank, n.a. share in the agreement that are not held by u.s. bank","co syndication agent, co documentation agent",1,3,1,Not found,0.0,0.8372093023255814,0.0,1
+59,what are the roles and subroles that bank of the west and fifth third bank share in the agreement that are not held by u.s. bank,"co syndication agent, co documentation agent",1,3,1,Joint Lead Arranger; Joint Book Runner,0.0,0.7674418604651163,0.0,1
+165,what are the positions held by johan nystedt but not by pacella lehane or ryan zimmerman,"treasurer, investor relations officer",1,3,True,Treasurer; Investor Relations Officer,0.75,0.02702702702702703,1.0,5
+83,what are the positions held by michael ray but not by rita e. dillon or steve levi,"secretary, general counsel",1,3,True,General Counsel; Secretary,0.6666666666666666,0.8076923076923077,1.0000000000000002,5
+83,what are the positions held by michael ray but not by rita e. dillon or steve ryan,"secretary, general counsel",1,3,True,General Counsel; Secretary,0.6666666666666666,0.8076923076923077,1.0000000000000002,5
+83,what are the positions held by michael ray but not by steve levi or steve ryan,"secretary, general counsel",1,3,True,General Counsel; Secretary,0.6666666666666666,0.8076923076923077,1.0000000000000002,5
+145,what are the positions held by christopher stephen guinta but not by joseph d. glatt or guy major,"manager, legal representative, chief financial officer",1,3,True,"['Chief Financial Officer', 'Director', 'Authorized Signatory', 'Legal Representative']",0.14285714285714288,0.7619047619047619,0.5727393584196198,4
+145,what are the positions held by christopher stephen guinta but not by joseph d. glatt or tammy jennissen,"manager, legal representative, chief financial officer",1,3,True,"['Chief Financial Officer', 'Director', 'Authorized Signatory', 'Legal Representative']",0.14285714285714288,0.7619047619047619,0.5727393584196198,4
+145,what are the positions held by christopher stephen guinta but not by guy major or tammy jennissen,"manager, legal representative, chief financial officer",1,3,True,"['Chief Financial Officer', 'Authorized Signatory', 'Legal Representative']",0.15384615384615383,0.7808219178082192,0.6327904583679945,4
+137,"what are the roles and subroles that deutsche bank securities inc. and merrill lynch, pierce, fenner smith incorporated share in the agreement that are not held by regions capital markets,","bookrunner, lead arranger",1,3,1,Not found,0.0,0.875,0.0,1
+137,"what are the roles and subroles that deutsche bank securities inc. and regions capital markets share in the agreement that are not held by regions capital markets,","bookrunner, lead arranger",1,3,1,Not found,0.0,0.875,0.0,1
+137,"what are the roles and subroles that merrill lynch, pierce, fenner smith incorporated and regions capital markets share in the agreement that are not held by regions capital markets,","bookrunner, lead arranger",1,3,1,Not found,0.0,0.875,0.0,1
+121,what are the positions held by peter c. underwood but not by s. bradley mcdougall or shirley shipley,"secretary, general counsel",1,3,True,"['General Counsel', 'Secretary']",0.0,0.7741935483870968,1.0000000000000002,5
+126,"what are the roles and subroles that bank of america, n.a. and bnp paribas share in the agreement that are not held by citibank, n.a.","documentation agent, co syndication agent",1,3,1,"Bank of America, N.A. is named as a **Co‑Syndication Agent** (and also as a Lender), a role that Citibank, N.A. does not hold. BNP Paribas is named as a **Documentation Agent** (and also as a Lender), a role that Citibank, N.A. does not hold. Both Bank of America and BNP Paribas are also Lenders, but that role is shared with Citibank, N.A., so it is not exclusive.",0.0,0.8962536023054755,0.15342553542521659,5

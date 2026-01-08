@@ -1,0 +1,21 @@
+document_number,question,answer,num_hops,num_set_operations,multiple_answers,llm_response
+29,"who is the chief financial officer of the company associated with 911 panorama trail south, rochester, new york 14625",efrain rivera,3,0,0,Efrain Rivera
+29,who is the chief financial officer of the company which is the parent borrower in the agreement,efrain rivera,3,0,0,Efrain Rivera
+29,"what are the roles in the agreement of the company associated with pnc bank, national association","agent, lender, issuing bank",2,0,1,"Administrative Agent, Lender and Issuing Bank"
+29,which companies are both the administrative borrower and the borrower in the agreement,"pnc bank, national association",1,1,1,"PNC Bank, National Association and Paychex Advance LLC"
+29,what are the roles in the agreement of the company where lisa christian is employed,"agent, administrative borrower",2,0,1,"PNC Bank, National Association is individually a Lender, an Issuing Bank and as Administrative Agent"
+29,which companies are both the administrative agent and the agent in the agreement,"pnc bank, national association",1,1,1,"PNC BANK, NATIONAL ASSOCIATION, PNC Bank, National Association"
+29,"what are the roles in the agreement of the company associated with pnc bank, national association",agent,2,0,1,"Administrative Agent, Lender and Issuing Bank"
+37,what are the roles in the agreement of the company where maria f. maia is employed,"lender, l c issuer",2,0,1,"BANK OF AMERICA, N.A., as Administrative Agent, a Lender, L/C Issuer and Swing Line Lender, Other Notices as Administrative Agent (also copy)"
+37,"who is the executive vice president of the company associated with 3 waterway square place, suite 110the woodlands, tx 77380",worthing f. jackman,3,0,0,Worthing F. Jackman
+37,who is the director of the company which is the swing line lender in the agreement,sandra cortes,3,0,0,Not found
+37,"who is the chief financial officer and executive vice president of waste connections, inc.",worthing f. jackman,2,1,0,Worthing F. Jackman
+37,"who are the vice presidents of citizens bank, n.a","kelly nash, bryan ervin, raj nambiar, steven dixon, tad stainbrook, john kushnerick, judith a. huckins",2,0,1,Judith A. Huckins
+37,"who is the chief financial officer of the company associated with 3 waterway square place, suite 110the woodlands, tx 77380",worthing f. jackman,3,0,0,Worthing F. Jackman
+37,"what are the roles in the agreement of the company associated with bank of america, n.a.","lender, l c issuer",2,0,1,"Administrative Agent, Swing Line Lender and L/C Issuer"
+107,what roles do both citigroup global markets inc. and j.p. morgan securities inc. have in the agreement,"bookrunner, book manager, lead arranger",1,1,1,joint lead arrangers and joint bookrunners
+107,"what role does ocelot merger sub, inc. have in the agreement which is not the role of open text inc.",borrower,2,1,0,"Ocelot Merger Sub, Inc. is the Borrower, which on the Closing Date shall be merged with and into GXS Group, Inc., which shall survive such merger as Borrower. Ocelot Merger Sub, Inc. is the initial borrower in the 2014 Credit Agreement, which later merges into GXS Group, Inc."
+107,which companies are both the collateral trustee and the trustee in the agreement,"inc, barclays bank plc, wilmington trust fsb, wells fargo foothill",1,1,1,Wilmington Trust FSB
+107,who is the president and vice president of open text ulc,paul mcfeeters,2,1,0,Paul McFeeters is the President of Open Text ULC. The document does not mention the vice president.
+107,who is the director of the company which is the administrative agent in the agreement,ritam bhalla,3,0,0,Ritam Bhalla
+107,"what role does easylink services international corporation have in the agreement which is not the role of gxs worldwide, inc.",grantor,2,1,0,"Easylink Services International Corporation is listed with a specific amount ($1,342,601), while GXS Worldwide, Inc. is not mentioned in the provided chunks."
